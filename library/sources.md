@@ -32,7 +32,7 @@ your own ratings, favorites and notes.
 |---|---|---|---|
 | [SaaS Landing Page](https://saaslandingpage.com) | ~847 | `import saaslandingpage`: its sitemap, one polite page fetch each | robots.txt allows it. Each page's own tags, technologies and fonts are kept. Its **templates are paid and skipped** |
 | [DesignPrompts](https://designprompts.dev) | ~890 | `import designprompts`: its sitemap, one polite page fetch each | robots.txt allows it (including AI user agents). One entry per style and per style × component |
-| [Collect UI](https://collectui.com) | 60 of 3,631 so far | `import collectui` | No public API or sitemap. The importer reads the site's own data backend with the public key from its JavaScript, 200 designs per request, 2 s apart. **You chose this (26 Oct 2026); it's not a documented public interface.** Each entry links to the designer's original post |
+| [Collect UI](https://collectui.com) | 3,633 (full catalogue, 26 Oct 2026) | `import collectui` | No public API or sitemap. The importer reads the site's own data backend with the public key from its JavaScript, 200 designs per request, 2 s apart. **You chose this (26 Oct 2026); it's not a documented public interface.** Each entry links to the designer's original post |
 | [Godly](https://godly.website) | 1 | added by hand | robots.txt blocks AI agents by name (`ai-train=no`). Not bulk-collected |
 | [Awwwards](https://www.awwwards.com) | 0 | add by hand | robots.txt disallows `/gallery/`, `/websites/?`, `/elements/`. Not bulk-collected |
 | [Land-book](https://land-book.com) | 1 | added by hand | Bot protection returns 403. Not bulk-collected |
