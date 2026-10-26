@@ -1,0 +1,25 @@
+{# The part of the gallery that HTMX replaces on every search/filter change. #}
+{% if total == 0 %}
+  <div class="empty">
+    <div class="empty-drawer" aria-hidden="true"><span></span><span></span><span></span></div>
+    <h2>Your library is empty</h2>
+    <p>Save a page you like, or import open-source components to get started.</p>
+    <p><a class="button button-primary" href="/new">Add your first reference</a></p>
+    <p class="muted">From a terminal: <code>python -m designlib add &lt;url&gt; --type screen</code></p>
+  </div>
+{% elif not results %}
+  <div class="empty">
+    <h2>Nothing matches these filters</h2>
+    <p>Try fewer tags, a shorter search, or another type.</p>
+    <p><a class="button" href="/">Clear all filters</a></p>
+  </div>
+{% else %}
+  <p class="result-count">
+    {% if results|length == total %}{{ total }} references{% else %}{{ results|length }} of {{ total }} references{% endif %}
+  </p>
+  <ul class="grid" role="list">
+    {% for entry in results %}
+      {% include "_card.html" %}
+    {% endfor %}
+  </ul>
+{% endif %}

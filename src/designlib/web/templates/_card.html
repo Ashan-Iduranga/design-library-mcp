@@ -1,0 +1,36 @@
+{% set kind = preview_kind(entry) %}
+<li class="card type-{{ entry.type.value }}">
+  <a class="card-link" href="/d/{{ entry.id }}">
+    <div class="card-preview preview-{{ kind }}">
+      {% if kind == "code" %}
+        {# Rendered larger and scaled down, so components look like thumbnails. #}
+        <iframe class="thumb-frame" sandbox="allow-scripts" loading="lazy" tabindex="-1"
+                title="Preview of {{ entry.title }}" srcdoc="{{ build_srcdoc(entry) }}"></iframe>
+      {% elif kind == "local" %}
+        <img src="/{{ entry.local_image }}" alt="" loading="lazy">
+      {% elif kind == "remote" %}
+        <img src="{{ entry.preview_image_url }}" alt="" loading="lazy" referrerpolicy="no-referrer"
+             onerror="this.closest('.card-preview').classList.add('preview-failed'); this.remove()">
+      {% endif %}
+      <div class="placeholder" aria-hidden="true">
+        {# The label below already shows the title, so the placeholder shows where it's from. #}
+        <span class="placeholder-title">{{ entry.source or "No source" }}</span>
+        <span class="placeholder-source">{{ entry.url|replace("https://", "")|replace("http://", "")|replace("www.", "")|truncate(40) or "No preview yet" }}</span>
+      </div>
+      {% if entry.favorite %}<span class="pin pin-on-card" title="Favorite"></span>{% endif %}
+    </div>
+    <div class="label">
+      <h3 class="label-title">{{ entry.title }}</h3>
+      <p class="label-meta">
+        <span class="notch type-{{ entry.type.value }}" aria-hidden="true"></span>
+        <span>{{ entry.type.value }}</span>
+        {% if entry.source %}<span class="badge">{{ entry.source }}</span>{% endif %}
+        <span class="badge {% if entry.license == 'link-only' %}badge-link{% else %}badge-open{% endif %}">{{ entry.license }}</span>
+        <span class="rating" aria-label="Rated {{ entry.my_rating }} of 5">{% for i in range(5) %}<i class="{% if i < entry.my_rating %}on{% endif %}"></i>{% endfor %}</span>
+      </p>
+      {% if entry.tags %}
+      <p class="label-tags">{% for tag in entry.tags[:5] %}<span>#{{ tag }}</span>{% endfor %}</p>
+      {% endif %}
+    </div>
+  </a>
+</li>

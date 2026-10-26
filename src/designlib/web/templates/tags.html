@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Tags | Design Library{% endblock %}
+{% block content %}
+<div class="page">
+  <h1>Tags</h1>
+  {% if tag_counts %}
+  {% set top = tag_counts[0][1] %}
+  <p class="muted">{{ tag_counts|length }} tags. Bigger means used more often.</p>
+  <p class="tag-cloud">
+    {% for name, n in tag_counts|sort(attribute=0) %}
+    <a href="/?tag={{ name|urlencode }}" style="--weight: {{ (n / top)|round(2) }}">#{{ name }} <small>{{ n }}</small></a>
+    {% endfor %}
+  </p>
+  {% else %}
+  <p class="muted">No tags yet. Tags appear here as you add references.</p>
+  {% endif %}
+</div>
+{% endblock %}

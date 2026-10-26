@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block content %}
+{#
+  One form holds every control. Any change sends GET / with all the fields;
+  HTMX swaps only #results and updates the address bar, so filters are bookmarkable.
+#}
+<form id="filters" class="gallery"
+      action="/" method="get"
+      hx-get="/" hx-target="#results" hx-push-url="true"
+      hx-trigger="input changed delay:250ms from:#q, change">
+
+  <div class="searchrow">
+    <label class="search">
+      <span class="visually-hidden">Search references</span>
+      <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m13 13 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input id="q" name="q" type="search" value="{{ filters.query }}"
+             placeholder="Search titles, tags, notes, code" autocomplete="off">
+      <kbd title="Press / to search">/</kbd>
+    </label>
+    <div class="searchrow-controls">
+      <label class="toggle">
+        <input type="checkbox" name="fav" value="1" {% if filters.favorites_only %}checked{% endif %}>
+        <span class="pin" aria-hidden="true"></span> Favorites only
+      </label>
+      <label class="select">
+        <span>Sort</span>
+        <select name="sort">
+          {% for s in sorts %}
+          <option value="{{ s }}" {% if filters.sort == s %}selected{% endif %}>{{ {"relevance": "Best match", "newest": "Newest", "rating": "Rating", "title": "Title A–Z"}[s] }}</option>
+          {% endfor %}
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <details class="facets" open>
+    <summary>Filters</summary>
+    <div class="facet-groups">
+      <fieldset class="facet">
+        <legend>Type</legend>
+        <label class="chip"><input type="radio" name="type" value="" {% if not filters.type %}checked{% endif %}><span>Any</span></label>
+        {% for name, n in type_counts %}
+        <label class="chip"><input type="radio" name="type" value="{{ name }}" {% if filters.type == name %}checked{% endif %}><span><i class="notch type-{{ name }}" aria-hidden="true"></i>{{ name }} <small>{{ n }}</small></span></label>
+        {% endfor %}
+      </fieldset>
+
+      <fieldset class="facet">
+        <legend>Framework</legend>
+        <label class="chip"><input type="radio" name="framework" value="" {% if not filters.framework %}checked{% endif %}><span>Any</span></label>
+        {% for name, n in framework_counts %}
+        <label class="chip"><input type="radio" name="framework" value="{{ name }}" {% if filters.framework == name %}checked{% endif %}><span>{{ name }} <small>{{ n }}</small></span></label>
+        {% endfor %}
+      </fieldset>
+
+      <fieldset class="facet">
+        <legend>Source</legend>
+        <label class="chip"><input type="radio" name="source" value="" {% if not filters.source %}checked{% endif %}><span>Any</span></label>
+        {% for name, n in source_counts %}
+        <label class="chip"><input type="radio" name="source" value="{{ name }}" {% if filters.source == name %}checked{% endif %}><span>{{ name }} <small>{{ n }}</small></span></label>
+        {% endfor %}
+      </fieldset>
+
+      {% if tag_counts %}
+      <fieldset class="facet facet-wide">
+        <legend>Tags <span class="hint">pick several to narrow down</span></legend>
+        {% for name, n in tag_counts %}
+        <label class="chip chip-tag"><input type="checkbox" name="tag" value="{{ name }}" {% if name in (filters.tags or []) %}checked{% endif %}><span>#{{ name }} <small>{{ n }}</small></span></label>
+        {% endfor %}
+      </fieldset>
+      {% endif %}
+    </div>
+  </details>
+
+  <noscript><button class="button" type="submit">Apply filters</button></noscript>
+</form>
+
+<section id="results" aria-live="polite">
+  {% include "_results.html" %}
+</section>
+{% endblock %}

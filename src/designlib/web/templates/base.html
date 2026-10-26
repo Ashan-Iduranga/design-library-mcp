@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Design Library{% endblock %}</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect x='2' y='2' width='12' height='12' rx='2' fill='%232f4bd8'/><circle cx='11' cy='5' r='2' fill='%23f2c230'/></svg>">
+  <link rel="stylesheet" href="/static/app.css">
+  {# Set the theme before first paint so the page never flashes the wrong colors. #}
+  <script>
+    try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  <script src="/static/vendor/htmx.min.js" defer></script>
+  <script src="/static/app.js" defer></script>
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="/" aria-label="Design Library home">
+      <span class="wordmark-mark" aria-hidden="true"></span>
+      Design Library
+    </a>
+    <nav class="topnav" aria-label="Main">
+      <a href="/" {% if request.url.path == "/" %}aria-current="page"{% endif %}>Gallery</a>
+      <a href="/tags" {% if request.url.path == "/tags" %}aria-current="page"{% endif %}>Tags</a>
+      <a href="/sources" {% if request.url.path == "/sources" %}aria-current="page"{% endif %}>Sources</a>
+    </nav>
+    <div class="topbar-actions">
+      <button type="button" class="icon-button" id="theme-toggle" aria-label="Switch color theme" title="Switch color theme">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 3a7 7 0 0 1 0 14z" fill="currentColor"/></svg>
+      </button>
+      <a class="button button-primary" href="/new">Add reference</a>
+    </div>
+  </header>
+  <main id="main">
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>

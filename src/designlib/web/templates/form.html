@@ -1,0 +1,143 @@
+{% extends "base.html" %}
+{% block title %}{% if entry %}Edit {{ entry.title }}{% else %}Add reference{% endif %} | Design Library{% endblock %}
+{% block content %}
+{% set sn = v.get("style_notes") or {} %}
+<div class="form-page">
+  <p class="crumbs"><a href="/">Gallery</a>{% if entry %} / <a href="/d/{{ entry.id }}">{{ entry.title }}</a>{% endif %}</p>
+  <h1>{% if entry %}Edit reference{% else %}Add a reference{% endif %}</h1>
+
+  {% if error %}
+  <div class="alert" role="alert"><strong>Not saved.</strong> {{ error }}</div>
+  {% endif %}
+
+  <form method="post" enctype="multipart/form-data" class="entry-form"
+        action="{% if entry %}/d/{{ entry.id }}/edit{% else %}/new{% endif %}">
+
+    <fieldset>
+      <legend>Where it comes from</legend>
+      <div class="field field-url">
+        <label for="url">Page URL</label>
+        <div class="inline">
+          <input id="url" name="url" type="url" value="{{ v.get('url') or '' }}" placeholder="https://">
+          <button type="button" class="button" id="fetch-meta">Fetch details</button>
+        </div>
+        <p class="help" id="fetch-status">Fills in empty fields with the page's title, description and preview image link. Nothing is downloaded.</p>
+      </div>
+      <div class="field">
+        <label for="title">Title</label>
+        <input id="title" name="title" required value="{{ v.get('title') or '' }}">
+      </div>
+      <div class="row">
+        <div class="field">
+          <label for="source">Source</label>
+          <input id="source" name="source" value="{{ v.get('source') or '' }}" placeholder="e.g. Godly, HyperUI, Mine">
+        </div>
+        <div class="field">
+          <label for="license">License</label>
+          <select id="license" name="license">
+            {% for l in licenses %}<option value="{{ l }}" {% if (v.get('license') or 'link-only') == l %}selected{% endif %}>{{ l }}</option>{% endfor %}
+          </select>
+          <p class="help">Code is only saved for MIT, Apache-2.0, ISC or your own work.</p>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>What it is</legend>
+      <div class="row">
+        <div class="field">
+          <label for="type">Type</label>
+          <select id="type" name="type">
+            {% for t in types %}<option value="{{ t }}" {% if v.get('type') == t %}selected{% endif %}>{{ t }}</option>{% endfor %}
+          </select>
+        </div>
+        <div class="field">
+          <label for="framework">Framework</label>
+          <select id="framework" name="framework">
+            {% for f in frameworks %}<option value="{{ f }}" {% if (v.get('framework') or 'none') == f %}selected{% endif %}>{{ f }}</option>{% endfor %}
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label for="tags">Tags</label>
+        <input id="tags" name="tags" value="{{ (v.get('tags') or [])|join(', ') }}" placeholder="pricing, dark, saas">
+        <p class="help">Separate with commas.</p>
+      </div>
+      <div class="row">
+        <fieldset class="field rating-input">
+          <legend>Your rating</legend>
+          {% for i in range(1, 6) %}
+          <label><input type="radio" name="my_rating" value="{{ i }}" {% if (v.get('my_rating') or 3) == i %}checked{% endif %}><span>{{ i }}</span></label>
+          {% endfor %}
+        </fieldset>
+        <label class="toggle field">
+          <input type="checkbox" name="favorite" {% if v.get('favorite') %}checked{% endif %}>
+          <span class="pin" aria-hidden="true"></span> Favorite
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Your judgement</legend>
+      <div class="field">
+        <label for="notes">Notes</label>
+        <textarea id="notes" name="notes" rows="3">{{ v.get('notes') or '' }}</textarea>
+      </div>
+      <div class="row">
+        <div class="field">
+          <label for="when_to_use">Use it when</label>
+          <textarea id="when_to_use" name="when_to_use" rows="3">{{ v.get('when_to_use') or '' }}</textarea>
+        </div>
+        <div class="field">
+          <label for="avoid_when">Avoid it when</label>
+          <textarea id="avoid_when" name="avoid_when" rows="3">{{ v.get('avoid_when') or '' }}</textarea>
+        </div>
+      </div>
+      <div class="row row-4">
+        <div class="field"><label for="palette">Palette</label><input id="palette" name="palette" value="{{ sn.get('palette') or '' }}"></div>
+        <div class="field"><label for="fonts">Fonts</label><input id="fonts" name="fonts" value="{{ sn.get('fonts') or '' }}"></div>
+        <div class="field"><label for="spacing">Spacing</label><input id="spacing" name="spacing" value="{{ sn.get('spacing') or '' }}"></div>
+        <div class="field"><label for="mood">Mood</label><input id="mood" name="mood" value="{{ sn.get('mood') or '' }}"></div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Preview</legend>
+      <div class="field">
+        <label for="screenshot">Your screenshot</label>
+        <input id="screenshot" name="screenshot" type="file" accept=".png,.jpg,.jpeg,.webp,.gif">
+        <p class="help">PNG, JPG, WebP or GIF up to 5 MB. Saved in library/assets/mine/.</p>
+        {% if entry and entry.local_image %}
+        <label class="toggle"><input type="checkbox" name="remove_image"> Remove current screenshot</label>
+        {% endif %}
+      </div>
+      <div class="field">
+        <label for="preview_image_url">Preview image link</label>
+        <input id="preview_image_url" name="preview_image_url" type="url" value="{{ v.get('preview_image_url') or '' }}">
+        <p class="help">Shown as a link from the source site, never copied.</p>
+      </div>
+      <div class="field">
+        <label for="code">Code</label>
+        <textarea id="code" name="code" rows="10" class="mono" spellcheck="false">{{ v.get('code') or '' }}</textarea>
+      </div>
+      <div class="field">
+        <label for="prompt">Prompt</label>
+        <textarea id="prompt" name="prompt" rows="4" spellcheck="false">{{ v.get('prompt') or '' }}</textarea>
+      </div>
+    </fieldset>
+
+    <div class="form-actions">
+      <button type="submit" class="button button-primary">{% if entry %}Save changes{% else %}Add reference{% endif %}</button>
+      <a class="button button-quiet" href="{% if entry %}/d/{{ entry.id }}{% else %}/{% endif %}">Cancel</a>
+    </div>
+  </form>
+
+  {% if entry %}
+  <form method="post" action="/d/{{ entry.id }}/delete" class="danger-zone"
+        data-confirm="Delete “{{ entry.title }}”? Its JSON file will be removed."
+        onsubmit="return confirm(this.dataset.confirm)">
+    <button type="submit" class="button button-danger">Delete reference</button>
+  </form>
+  {% endif %}
+</div>
+{% endblock %}

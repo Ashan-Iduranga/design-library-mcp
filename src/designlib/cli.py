@@ -5,6 +5,7 @@ Commands:
   list          show entries (newest first)
   search <q>    full-text search with optional filters
   rebuild       rebuild index.db from the JSON entries
+  serve         start the web gallery on http://127.0.0.1:8000
 """
 
 import argparse
@@ -83,6 +84,20 @@ def cmd_rebuild(args: argparse.Namespace) -> None:
     print(f"Indexed {count} entries.")
 
 
+def cmd_serve(args: argparse.Namespace) -> None:
+    import uvicorn  # imported here so other commands start fast
+
+    print(f"Design Library running at http://{config.HOST}:{args.port}  (Ctrl+C to stop)")
+    uvicorn.run(
+        "designlib.web.app:create_app",
+        factory=True,
+        host=config.HOST,  # 127.0.0.1 only: not reachable from other machines
+        port=args.port,
+        reload=args.reload,
+        log_level="warning",
+    )
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="designlib", description="Your local design library.")
     commands = parser.add_subparsers(dest="command", required=True)
@@ -114,6 +129,11 @@ def build_parser() -> argparse.ArgumentParser:
 
     rebuild = commands.add_parser("rebuild", help="rebuild index.db from the JSON entries")
     rebuild.set_defaults(func=cmd_rebuild)
+
+    serve = commands.add_parser("serve", help="start the web gallery (local only)")
+    serve.add_argument("--port", type=int, default=config.PORT)
+    serve.add_argument("--reload", action="store_true", help="restart when code changes (development)")
+    serve.set_defaults(func=cmd_serve)
 
     return parser
 

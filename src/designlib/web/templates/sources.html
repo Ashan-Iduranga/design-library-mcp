@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Sources | Design Library{% endblock %}
+{% block content %}
+<div class="page">
+  <h1>Sources</h1>
+  {% if source_counts %}
+  <h2>In your library</h2>
+  <ul class="source-counts" role="list">
+    {% for name, n in source_counts %}
+    <li><a href="/?source={{ name|urlencode }}">{{ name }}</a> <small>{{ n }}</small></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  <div class="prose markdown">
+    {% if sources_html %}{{ sources_html|safe }}{% else %}<p class="muted">library/sources.md is missing.</p>{% endif %}
+  </div>
+</div>
+{% endblock %}

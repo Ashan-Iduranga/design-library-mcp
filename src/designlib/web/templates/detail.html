@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% block title %}{{ entry.title }} | Design Library{% endblock %}
+{% block head %}<script src="/static/vendor/highlight/highlight.min.js" defer></script>{% endblock %}
+{% block content %}
+{% set kind = preview_kind(entry) %}
+<article class="detail type-{{ entry.type.value }}">
+  <p class="crumbs"><a href="/">Gallery</a> / <a href="/?type={{ entry.type.value }}">{{ entry.type.value }}</a></p>
+
+  <header class="detail-head">
+    <div>
+      <h1>{{ entry.title }}</h1>
+      <p class="label-meta">
+        <span class="notch type-{{ entry.type.value }}" aria-hidden="true"></span>
+        <span>{{ entry.type.value }}</span>
+        {% if entry.framework.value != "none" %}<span class="badge">{{ entry.framework.value }}</span>{% endif %}
+        {% if entry.source %}<a class="badge" href="/?source={{ entry.source|urlencode }}">{{ entry.source }}</a>{% endif %}
+        <span class="badge {% if entry.license == 'link-only' %}badge-link{% else %}badge-open{% endif %}">{{ entry.license }}</span>
+        <span class="rating" aria-label="Rated {{ entry.my_rating }} of 5">{% for i in range(5) %}<i class="{% if i < entry.my_rating %}on{% endif %}"></i>{% endfor %}</span>
+      </p>
+    </div>
+    <div class="detail-actions">
+      {% include "_favorite.html" %}
+      <a class="button" href="/d/{{ entry.id }}/edit">Edit</a>
+      {% if entry.url %}<a class="button" href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">Open original</a>{% endif %}
+    </div>
+  </header>
+
+  <section class="stage" aria-label="Preview">
+    {% if kind == "code" %}
+      <div class="stage-bar" role="group" aria-label="Preview width">
+        <button type="button" class="seg" data-width="100%" aria-pressed="true">Desktop</button>
+        <button type="button" class="seg" data-width="768px" aria-pressed="false">Tablet</button>
+        <button type="button" class="seg" data-width="390px" aria-pressed="false">Mobile</button>
+        <span class="stage-width muted" id="stage-width"></span>
+      </div>
+      <div class="stage-frame" id="stage-frame">
+        <iframe sandbox="allow-scripts" title="Live preview of {{ entry.title }}" srcdoc="{{ build_srcdoc(entry) }}"></iframe>
+      </div>
+    {% elif kind == "local" %}
+      <img class="stage-image" src="/{{ entry.local_image }}" alt="Screenshot of {{ entry.title }}">
+    {% elif kind == "remote" %}
+      <img class="stage-image" src="{{ entry.preview_image_url }}" alt="Preview image from {{ entry.source }}" referrerpolicy="no-referrer"
+           onerror="this.replaceWith(Object.assign(document.createElement('p'), {className: 'stage-empty', textContent: 'The preview image could not be loaded from the source site.'}))">
+    {% else %}
+      <p class="stage-empty">No preview yet. Add a screenshot or code from the edit page.</p>
+    {% endif %}
+  </section>
+
+  <div class="detail-body">
+    <div class="detail-main">
+      {% if entry.notes %}
+      <section><h2>Notes</h2><p class="prose">{{ entry.notes }}</p></section>
+      {% endif %}
+
+      {% if entry.when_to_use or entry.avoid_when %}
+      <section class="usage">
+        {% if entry.when_to_use %}<div class="usage-do"><h2>Use it when</h2><p>{{ entry.when_to_use }}</p></div>{% endif %}
+        {% if entry.avoid_when %}<div class="usage-dont"><h2>Avoid it when</h2><p>{{ entry.avoid_when }}</p></div>{% endif %}
+      </section>
+      {% endif %}
+
+      {% if entry.code %}
+      <section class="code-block">
+        <div class="code-head">
+          <h2>Code</h2>
+          <button type="button" class="button button-small" data-copy="#code">Copy code</button>
+        </div>
+        <pre><code id="code" class="language-{% if entry.framework.value == 'react' %}javascript{% else %}html{% endif %}">{{ entry.code }}</code></pre>
+      </section>
+      {% endif %}
+
+      {% if entry.prompt %}
+      <section class="code-block">
+        <div class="code-head">
+          <h2>Prompt</h2>
+          <button type="button" class="button button-small" data-copy="#prompt">Copy prompt</button>
+        </div>
+        <pre><code id="prompt" class="nohighlight">{{ entry.prompt }}</code></pre>
+      </section>
+      {% endif %}
+    </div>
+
+    <aside class="detail-side">
+      {% set sn = entry.style_notes %}
+      {% if sn.palette or sn.fonts or sn.spacing or sn.mood %}
+      <section>
+        <h2>Style notes</h2>
+        <dl class="specs">
+          {% if sn.palette %}<dt>Palette</dt><dd>{{ sn.palette }}</dd>{% endif %}
+          {% if sn.fonts %}<dt>Fonts</dt><dd>{{ sn.fonts }}</dd>{% endif %}
+          {% if sn.spacing %}<dt>Spacing</dt><dd>{{ sn.spacing }}</dd>{% endif %}
+          {% if sn.mood %}<dt>Mood</dt><dd>{{ sn.mood }}</dd>{% endif %}
+        </dl>
+      </section>
+      {% endif %}
+      {% if entry.tags %}
+      <section>
+        <h2>Tags</h2>
+        <p class="tag-list">{% for tag in entry.tags %}<a class="chip-link" href="/?tag={{ tag|urlencode }}">#{{ tag }}</a>{% endfor %}</p>
+      </section>
+      {% endif %}
+      <section>
+        <h2>Record</h2>
+        <dl class="specs">
+          <dt>Id</dt><dd><code>{{ entry.id }}</code></dd>
+          {% if entry.url %}<dt>Source URL</dt><dd><a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer" class="break">{{ entry.url }}</a></dd>{% endif %}
+          <dt>Added</dt><dd>{{ entry.added_at.strftime("%d %b %Y") }}</dd>
+          <dt>Updated</dt><dd>{{ entry.updated_at.strftime("%d %b %Y") }}</dd>
+        </dl>
+      </section>
+    </aside>
+  </div>
+</article>
+{% endblock %}

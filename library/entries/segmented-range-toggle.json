@@ -1,0 +1,32 @@
+{
+  "id": "segmented-range-toggle",
+  "title": "Segmented range toggle",
+  "source": "Original",
+  "url": "",
+  "license": "Own",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "segmented-control",
+    "filter",
+    "accessible"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "cool grey track, white thumb",
+    "fonts": "",
+    "spacing": "4px track padding",
+    "mood": "quiet, native-feeling"
+  },
+  "notes": "Pure HTML + CSS radio group. Keyboard arrows work for free because it is a real radio group.",
+  "code": "<style>\n  .seg { display: inline-flex; padding: 4px; gap: 4px; border-radius: 12px; background: #eef0f3;\n         font: 500 14px/1 system-ui, sans-serif; }\n  .seg input { position: absolute; opacity: 0; }\n  .seg label { padding: 10px 16px; border-radius: 9px; color: #4b5563; cursor: pointer;\n               transition: background .18s ease, color .18s ease, box-shadow .18s ease; }\n  .seg input:checked + label { background: #fff; color: #111827;\n               box-shadow: 0 1px 2px rgba(17,24,39,.12), 0 0 0 1px rgba(17,24,39,.06); }\n  .seg input:focus-visible + label { outline: 2px solid #2563eb; outline-offset: 2px; }\n  @media (prefers-reduced-motion: reduce) { .seg label { transition: none; } }\n</style>\n<div class=\"seg\" role=\"radiogroup\" aria-label=\"Date range\">\n  <input type=\"radio\" name=\"range\" id=\"r-day\"><label for=\"r-day\">Day</label>\n  <input type=\"radio\" name=\"range\" id=\"r-week\" checked><label for=\"r-week\">Week</label>\n  <input type=\"radio\" name=\"range\" id=\"r-month\"><label for=\"r-month\">Month</label>\n  <input type=\"radio\" name=\"range\" id=\"r-year\"><label for=\"r-year\">Year</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "Switching between 2 to 5 views or time ranges that apply instantly.",
+  "avoid_when": "Options trigger navigation or there are more than 5: use tabs or a select.",
+  "my_rating": 5,
+  "favorite": false,
+  "added_at": "2026-10-26T08:00:00Z",
+  "updated_at": "2026-10-26T08:00:00Z"
+}
