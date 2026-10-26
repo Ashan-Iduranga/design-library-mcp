@@ -9,9 +9,14 @@ A local, free, open-source design-reference library with two faces:
 Everything runs on your machine. No API keys, no paid services, no cloud.
 
 ```
-library/entries/*.json  ──►  library/index.db (SQLite + FTS5)  ──►  CLI · web gallery · MCP server
-   source of truth             rebuildable search index                one shared `core` package
+library/entries/*.json  ──►  library/index.db (SQLite + FTS5)   ──►  CLI · web gallery · MCP server
+   source of truth             library/vectors.db (sqlite-vec)        one shared `core` package
+                               rebuildable caches
 ```
+
+Search is **hybrid**: keyword matching (FTS5) merged with **semantic** matching, so
+"spinner while waiting" finds a loader and "choose a plan" finds pricing tables even with no
+shared words. The meaning model (`all-MiniLM-L6-v2`) runs locally on your CPU.
 
 ---
 
@@ -22,9 +27,15 @@ Needs Python 3.11+ (you have 3.14) and [uv](https://docs.astral.sh/uv/) (free, o
 ```powershell
 python -m pip install --user uv
 cd "D:\C Skills\design-library-mcp"
-python -m uv sync            # creates .venv and installs everything
-python -m uv run pytest      # optional: 70 tests, about 5 seconds
+python -m uv sync            # creates .venv and installs everything (incl. semantic search)
+python -m uv run python -m designlib rebuild   # builds the search index + meaning vectors
+python -m uv run pytest -m "not slow"          # optional: tests, about 8 seconds
 ```
+
+The first `rebuild` (or first search) downloads the meaning model once: about 90 MB from
+Hugging Face, free, no account. After that it works offline. Semantic search pulls in PyTorch
+(CPU build, a few hundred MB). To install without it: `python -m uv sync --no-group semantic`;
+search then uses keywords only and everything else works the same.
 
 > `uv` lives in `C:\Users\user\AppData\Roaming\Python\Python314\Scripts`, which isn't on
 > your PATH, so this README writes `python -m uv`. Add that folder to PATH to type `uv` instead.
@@ -107,7 +118,7 @@ Before designing or building any UI, query the `design-library` MCP server
 
 | Tool | Use |
 |---|---|
-| `search_designs(query, type?, tags?, framework?, limit=10)` | Ranked matches (no code) with `gallery_url` for each |
+| `search_designs(query, type?, tags?, framework?, limit=10, mode="hybrid")` | Ranked matches (no code) with `gallery_url` for each. `mode="keyword"` = exact words only |
 | `get_design(id)` | The full entry: code (when the license allows), style notes, when to use / avoid, license, `gallery_url` |
 | `list_tags()` | Tags and how many entries use each |
 | `list_styles()` | Your style guides in `library/styles/` |
@@ -115,6 +126,20 @@ Before designing or building any UI, query the `design-library` MCP server
 | `add_design(url, type, tags?, notes?)` | Save a page as a link-only reference (metadata only) |
 
 `gallery_url` (http://127.0.0.1:8000/d/&lt;id&gt;) only opens while the gallery is running.
+
+### How semantic search behaves
+
+- The gallery and the MCP server load the model **in the background** when they start
+  (importing PyTorch takes ~10 s). Until then, searches use keywords only, so the gallery's
+  live search never waits. Once ready, the result count says *matched by meaning and keywords*.
+  Claude's searches wait for the model, so they always include meaning.
+- Each entry's title, type, tags, notes, style notes and when to use / avoid are embedded.
+  Code is left out on purpose (class names would drown the description).
+- New or edited entries are embedded automatically before the next semantic search. Only
+  entries whose text changed are re-embedded; toggling a favorite costs nothing.
+- Results from both methods are merged with Reciprocal Rank Fusion: an entry found by both
+  keywords and meaning ranks highest. Matches weaker than a cosine distance of 0.75 are dropped.
+- Turn it off without uninstalling: set the environment variable `DESIGNLIB_SEMANTIC=0`.
 
 ## 5. Command line
 
@@ -126,8 +151,8 @@ python -m uv run python -m designlib <command>
 |---|---|
 | `add` | `add https://godly.website --type style --tags bold,editorial --notes "big type" --rating 4` |
 | `list` | `list --type component --limit 20` |
-| `search` | `search pricing table --tags saas --framework tailwind` |
-| `rebuild` | `rebuild` (recreate `index.db` from the JSON files) |
+| `search` | `search pricing table --tags saas --framework tailwind` (add `--keyword` for exact words only) |
+| `rebuild` | `rebuild` (recreate `index.db` from the JSON files, embed new/changed entries) |
 | `serve` | `serve --open` (`--port 8001`, `--reload` while developing) |
 | `import` | `import hyperui --limit 60`, `import uiverse --category buttons,cards --limit 100` |
 | `mcp` | Used by Claude; waits silently for a client |
@@ -168,7 +193,7 @@ design-library-mcp/
   src/designlib/
     config.py                        paths, 127.0.0.1:8000
     cli.py                           the command line
-    core/                            schema, storage, index, search, fetch, library, styleguide
+    core/                            schema, storage, index, search, semantic, fetch, library, styleguide
     web/                             FastAPI app, Jinja templates, CSS/JS, vendored assets
     importers/                       hyperui.py, uiverse.py, common.py
     mcp_server.py                    the MCP tools
@@ -183,6 +208,8 @@ design-library-mcp/
 | `claude mcp get` says failed | Run `"D:\C Skills\design-library-mcp\.venv\Scripts\python.exe" -m designlib mcp` yourself: it should sit silently. Any error it prints is the cause |
 | `.venv` missing or broken | `python -m uv sync` |
 | Search misses something you just edited by hand | `python -m uv run python -m designlib rebuild` |
+| Gallery never says "matched by meaning" | Check `python -m uv run python -c "from designlib.core import semantic; print(semantic.enabled())"` prints True; run `rebuild` once to download the model |
+| Semantic search acting strange | Delete `library/vectors.db`; it is rebuilt on the next search |
 | Port 8000 busy | `python -m uv run python -m designlib serve --open --port 8001` (`gallery_url` links assume 8000) |
 | Test the tools interactively | See [docs/testing.md](docs/testing.md) (MCP Inspector) |
 
@@ -191,5 +218,7 @@ design-library-mcp/
 This project: MIT (see `LICENSE`). Third-party files stored in the project (`src/designlib/web/static/vendor/`),
 each with its license file: htmx 2.0.4 (0BSD), Tailwind CSS browser build 4.1.11 (MIT),
 highlight.js 11.10.0 (BSD-3-Clause), Familjen Grotesk font (SIL OFL 1.1).
+Semantic search uses sentence-transformers (Apache-2.0), sqlite-vec (MIT/Apache-2.0) and the
+all-MiniLM-L6-v2 model (Apache-2.0), downloaded at first use rather than stored in the repo.
 Imported components keep their source's license (HyperUI: MIT, Uiverse: MIT) and a link to the
 original file in each entry.

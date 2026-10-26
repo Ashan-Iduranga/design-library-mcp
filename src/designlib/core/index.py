@@ -13,8 +13,12 @@ import sqlite3
 from contextlib import closing
 
 from designlib import config
-from designlib.core import storage
+from designlib.core import semantic, storage
 from designlib.core.schema import Entry
+
+# Bump this when the tables below change. An index with an older version is
+# dropped and rebuilt from the JSON files automatically (it's only a cache).
+SCHEMA_VERSION = 2
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS entries (
@@ -29,6 +33,7 @@ CREATE TABLE IF NOT EXISTS entries (
     favorite    INTEGER,
     added_at    TEXT,
     updated_at  TEXT,
+    text_hash   TEXT,                  -- fingerprint of the descriptive text (for semantic search)
     data        TEXT NOT NULL          -- the full entry as JSON
 );
 
@@ -48,14 +53,16 @@ CREATE VIRTUAL TABLE IF NOT EXISTS entries_fts USING fts5(
 
 
 def connect() -> sqlite3.Connection:
-    """Open the index, creating it (and filling it) if it does not exist yet."""
+    """Open the index, creating (and filling) it if it's missing or out of date."""
     path = config.index_path()
-    is_new = not path.exists()
     path.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(path, timeout=10)
     conn.row_factory = sqlite3.Row  # rows behave like dicts: row["title"]
-    conn.executescript(SCHEMA)
-    if is_new:
+    # A brand-new file has user_version 0, so it is filled here too.
+    if conn.execute("PRAGMA user_version").fetchone()[0] != SCHEMA_VERSION:
+        conn.executescript("DROP TABLE IF EXISTS entries; DROP TABLE IF EXISTS entry_tags; DROP TABLE IF EXISTS entries_fts;")
+        conn.executescript(SCHEMA)
+        conn.execute(f"PRAGMA user_version = {SCHEMA_VERSION}")
         _fill(conn)
     return conn
 
@@ -73,8 +80,8 @@ def _insert(conn: sqlite3.Connection, entry: Entry) -> None:
     conn.execute(
         """INSERT INTO entries
            (id, title, source, url, license, type, framework, my_rating, favorite,
-            added_at, updated_at, data)
-           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+            added_at, updated_at, text_hash, data)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
         (
             entry.id,
             entry.title,
@@ -87,6 +94,7 @@ def _insert(conn: sqlite3.Connection, entry: Entry) -> None:
             int(entry.favorite),
             entry.added_at.isoformat(),
             entry.updated_at.isoformat(),
+            semantic.text_hash(entry),
             entry.model_dump_json(),
         ),
     )

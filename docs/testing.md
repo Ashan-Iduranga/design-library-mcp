@@ -13,13 +13,15 @@ cd "D:\C Skills\design-library-mcp"
 ## 1. Automated tests (pytest)
 
 ```powershell
-python -m uv run pytest                                   # everything (about 6 seconds)
+python -m uv run pytest -m "not slow"                     # everything except the real-model test (~8 s)
+python -m uv run pytest                                   # everything (~18 s: loads PyTorch once)
 python -m uv run pytest -q tests/test_web.py              # one file
 python -m uv run pytest -k "license"                      # tests whose name contains "license"
 python -m uv run pytest --cov=designlib --cov-report=term-missing   # with line coverage
 ```
 
-No test touches the internet or your real library. `tests/conftest.py` points every
+No test touches the internet or your real library (the `slow` test uses the model only if it's
+already downloaded, otherwise it is skipped). `tests/conftest.py` points every
 test at an empty temporary library (`DESIGNLIB_LIBRARY`), web fetches use
 `httpx.MockTransport`, and importer tests build small fake repo zips in memory.
 
@@ -33,6 +35,7 @@ test at an empty temporary library (`DESIGNLIB_LIBRARY`), web fetches use
 | `test_web.py` | Every gallery route (FastAPI `TestClient`): HTMX partials, filters, sandboxed previews, add/edit/delete, uploads, favorites |
 | `test_importers.py` | License check stops non-open repos, HyperUI and Uiverse parsing, re-imports keep your edits |
 | `test_mcp.py` | All 6 MCP tools, their descriptions, and a real stdio round trip (starts `python -m designlib mcp` like Claude does) |
+| `test_semantic.py` | Vector sync (only changed text is re-embedded), meaning matches with no shared words, filters on meaning results, rank fusion, the gallery never waiting for the model, fallback to keywords on failure. Uses a fake embedder; the `slow` test uses the real model |
 
 ## 2. MCP Inspector (click through the tools in a browser)
 

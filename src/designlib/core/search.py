@@ -1,9 +1,17 @@
-"""Querying the index. Used by the CLI, the gallery and the MCP tools."""
+"""Querying the index. Used by the CLI, the gallery and the MCP tools.
+
+Two kinds of matching:
+  keyword  SQLite FTS5: entries that contain the words you typed (always available)
+  hybrid   keyword results merged with semantic results (entries close in *meaning*),
+           when the optional semantic extra is installed. See core/semantic.py.
+"""
 
 import re
+import sys
 from contextlib import closing
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 
+from designlib.core import semantic
 from designlib.core.index import connect
 from designlib.core.schema import Entry
 
@@ -24,6 +32,14 @@ class Filters:
     favorites_only: bool = False
     sort: str = "relevance"
     limit: int = 60
+    mode: str = "hybrid"  # "hybrid" (keyword + meaning) or "keyword"
+    wait_for_model: bool = True  # False: use keyword search until the model has loaded
+
+
+# Reciprocal Rank Fusion constant. Each list contributes 1 / (RRF_K + rank), so an
+# entry ranked well by *both* keyword and meaning search rises to the top.
+RRF_K = 60
+CANDIDATES = 200  # how many results each method contributes before merging
 
 
 def to_fts_query(text: str) -> str:
@@ -39,8 +55,59 @@ def to_fts_query(text: str) -> str:
 
 
 def search(filters: Filters) -> list[Entry]:
+    """The search everyone uses. Hybrid when possible, keyword otherwise."""
+    if uses_meaning(filters):
+        try:
+            return _hybrid_search(filters)
+        except Exception as error:  # semantic search is a bonus; never break search over it
+            print(f"[designlib] semantic search failed, using keywords only: {error}", file=sys.stderr)
+    return keyword_search(filters)
+
+
+def uses_meaning(filters: Filters) -> bool:
+    return (
+        bool(filters.query.strip())
+        and filters.mode == "hybrid"
+        and semantic.enabled()
+        and (filters.wait_for_model or semantic.ready())
+    )
+
+
+def _hybrid_search(filters: Filters) -> list[Entry]:
+    by_keyword = keyword_search(replace(filters, sort="relevance", limit=CANDIDATES))
+    meaning_ids = semantic.nearest(filters.query, k=CANDIDATES)
+    # Apply the same type/tag/framework/... filters to the meaning results.
+    by_meaning = keyword_search(replace(filters, query="", limit=CANDIDATES), only_ids=meaning_ids)
+    meaning_rank = {entry_id: rank for rank, entry_id in enumerate(meaning_ids)}
+    by_meaning.sort(key=lambda entry: meaning_rank[entry.id])
+
+    scores: dict[str, float] = {}
+    entries: dict[str, Entry] = {}
+    for ranked in (by_keyword, by_meaning):
+        for rank, entry in enumerate(ranked):
+            scores[entry.id] = scores.get(entry.id, 0.0) + 1.0 / (RRF_K + rank + 1)
+            entries[entry.id] = entry
+
+    results = sorted(entries.values(), key=lambda entry: scores[entry.id], reverse=True)
+    if filters.sort == "newest":
+        results.sort(key=lambda e: e.added_at, reverse=True)
+    elif filters.sort == "rating":
+        results.sort(key=lambda e: (e.my_rating, e.added_at), reverse=True)
+    elif filters.sort == "title":
+        results.sort(key=lambda e: e.title.lower())
+    return results[: max(1, filters.limit)]
+
+
+def keyword_search(filters: Filters, only_ids: list[str] | None = None) -> list[Entry]:
+    """Plain SQL + FTS5 search. `only_ids` restricts results to those entries."""
     where: list[str] = []
     params: list = []
+
+    if only_ids is not None:
+        if not only_ids:
+            return []
+        where.append(f"e.id IN ({', '.join('?' * len(only_ids))})")
+        params.extend(only_ids)
 
     fts = to_fts_query(filters.query)
     if fts:

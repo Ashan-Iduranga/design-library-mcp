@@ -22,7 +22,7 @@ from pydantic import ValidationError
 from starlette.datastructures import UploadFile  # what request.form() returns for files
 
 from designlib import config
-from designlib.core import fetch
+from designlib.core import fetch, semantic
 from designlib.core.index import delete_and_unindex, save_and_index
 from designlib.core.schema import LINK_ONLY, OPEN_LICENSES, Entry, EntryType, Framework, new_id, now
 from designlib.core.search import (
@@ -35,6 +35,7 @@ from designlib.core.search import (
     list_tags,
     list_types,
     search,
+    uses_meaning,
 )
 from designlib.web.preview import build_srcdoc, preview_kind
 
@@ -56,6 +57,7 @@ templates.env.globals.update(
 
 def create_app() -> FastAPI:
     app = FastAPI(title="Design Library", docs_url=None, redoc_url=None)
+    semantic.warm_up()  # load the meaning model in the background, if installed
     app.mount("/static", StaticFiles(directory=HERE / "static"), name="static")
     config.assets_dir().mkdir(parents=True, exist_ok=True)
     # local_image values look like "assets/mine/x.png", so serve the library's assets/ at /assets
@@ -75,11 +77,13 @@ def create_app() -> FastAPI:
             favorites_only=params.get("fav") == "1",
             sort=params.get("sort", "relevance"),
             limit=200,
+            wait_for_model=False,  # live search must stay instant; meaning kicks in once loaded
         )
         context = {
             "results": search(filters),
             "filters": filters,
             "total": count_entries(),
+            "meaning": uses_meaning(filters),
         }
         # HTMX sends HX-Request on live updates: answer with just the results.
         # On a history restore (back button, cache miss) it wants the full page.

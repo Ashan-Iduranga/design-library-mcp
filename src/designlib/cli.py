@@ -77,13 +77,18 @@ def cmd_search(args: argparse.Namespace) -> None:
         tags=split_tags(args.tags),
         framework=args.framework,
         limit=args.limit,
+        mode="keyword" if args.keyword else "hybrid",
     )
     print_entries(search(filters))
 
 
 def cmd_rebuild(args: argparse.Namespace) -> None:
+    from designlib.core import semantic
+
     count = rebuild_index()
     print(f"Indexed {count} entries.")
+    if semantic.enabled():
+        print(f"Semantic search: embedded {semantic.sync()} new or changed entries.")
 
 
 def cmd_serve(args: argparse.Namespace) -> None:
@@ -153,6 +158,7 @@ def build_parser() -> argparse.ArgumentParser:
     find.add_argument("--tags", help="comma separated; all must match")
     find.add_argument("--framework", choices=FRAMEWORKS)
     find.add_argument("--limit", type=int, default=20)
+    find.add_argument("--keyword", action="store_true", help="exact words only (skip meaning search)")
     find.set_defaults(func=cmd_search)
 
     rebuild = commands.add_parser("rebuild", help="rebuild index.db from the JSON entries")

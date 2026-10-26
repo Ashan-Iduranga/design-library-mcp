@@ -13,6 +13,8 @@ def temp_library(tmp_path, monkeypatch):
     (library / "styles").mkdir()
     (library / "assets" / "mine").mkdir(parents=True)
     monkeypatch.setenv("DESIGNLIB_LIBRARY", str(library))
+    # Tests use keyword search unless a test turns semantic search on (test_semantic.py).
+    monkeypatch.setenv("DESIGNLIB_SEMANTIC", "0")
     return library
 
 

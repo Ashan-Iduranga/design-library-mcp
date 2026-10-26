@@ -17,7 +17,7 @@ from mcp.server.mcpserver import MCPServer
 from mcp.types import ToolAnnotations
 
 from designlib import config
-from designlib.core import styleguide
+from designlib.core import semantic, styleguide
 from designlib.core.fetch import FetchError
 from designlib.core.library import add_from_url
 from designlib.core.schema import Entry
@@ -71,6 +71,7 @@ def search_designs(
     tags: list[str] | None = None,
     framework: FrameworkName | None = None,
     limit: int = 10,
+    mode: Literal["hybrid", "keyword"] = "hybrid",
 ) -> list[dict]:
     """Search the user's curated design library. Call this FIRST whenever you are about to
     design or build a UI (a page, section, component, palette, interaction, etc.).
@@ -80,9 +81,13 @@ def search_designs(
     type: narrow to one kind of reference.
     tags: every tag listed must be present (use list_tags to see what exists).
     framework: narrow to html, tailwind or react code.
+    mode: "hybrid" (default) also finds entries similar in meaning, e.g. "calm" finds
+          "quiet, minimal" (when semantic search is installed); "keyword" = exact words only.
     Results are ranked by relevance, without code. Use get_design(id) for full details.
     """
-    filters = Filters(query=query, type=type, tags=tags, framework=framework, limit=max(1, min(limit, 50)))
+    filters = Filters(
+        query=query, type=type, tags=tags, framework=framework, mode=mode, limit=max(1, min(limit, 50))
+    )
     return [summary(entry) for entry in search(filters)]
 
 
@@ -148,4 +153,5 @@ def add_design(url: str, type: EntryTypeName, tags: list[str] | None = None, not
 
 
 def main() -> None:
+    semantic.warm_up()  # load the meaning model while Claude is still starting up
     server.run("stdio")

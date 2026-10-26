@@ -16,6 +16,7 @@
 {% else %}
   <p class="result-count">
     {% if results|length == total %}{{ total }} references{% else %}{{ results|length }} of {{ total }} references{% endif %}
+    {% if meaning %}<span class="muted">, matched by meaning and keywords</span>{% endif %}
   </p>
   <ul class="grid" role="list">
     {% for entry in results %}

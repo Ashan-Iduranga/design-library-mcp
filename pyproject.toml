@@ -26,6 +26,16 @@ dev = [
     "pytest>=8",
     "pytest-cov>=5",
 ]
+# Semantic search (M8): local CPU embeddings + vector search. Large (PyTorch), so it's a
+# separate group: installed by default, skip it with `uv sync --no-group semantic`.
+# Without it, search falls back to keywords only.
+semantic = [
+    "sentence-transformers>=3",
+    "sqlite-vec>=0.1.6",
+]
+
+[tool.uv]
+default-groups = ["dev", "semantic"]
 
 [build-system]
 requires = ["hatchling"]
@@ -37,3 +47,4 @@ packages = ["src/designlib"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
+markers = ["slow: needs the real semantic model (deselect with -m 'not slow')"]
