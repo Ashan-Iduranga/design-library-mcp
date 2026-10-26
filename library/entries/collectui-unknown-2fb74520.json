@@ -1,0 +1,32 @@
+{
+  "id": "collectui-unknown-2fb74520",
+  "title": "Webflow, Scroll Animation by @unknown: Building a VanMoof Lookbook page as a concept project. Start to develo",
+  "source": "Collect UI",
+  "url": "https://x.com/eduardbodak/status/1988944820249739673",
+  "license": "link-only",
+  "type": "screen",
+  "tags": [
+    "webflow",
+    "scroll-animation",
+    "collectui",
+    "video"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Building a VanMoof Lookbook page as a concept project. Start to develop this thing in Webflow with GSAP. Why Webflow when you use so much custom code? That’s one of the most asked questions I get through DMs. For me personally, it just works out of the box. I got directly a staging. Can use it always with live data, live images. There is no MySQL database or something I need to run/export to show the site locally like the live page. I can test it directly on every real device. I code like I used to, as it’s just more visually. The custom code stuff could be way better as I always need to set it up through Vercel to use my IDE. But yeah, it just works for me. And it looks cool, that’s also a big point for me Will be also sharing a bit more about how I build this site inside Webflow to have a component based approach and how such a site could also be changed/adjusted by a client. Here I added the first little scroll animation. I’m using here a clip path to animate the image to full screen. It goes basically from clip-path: inset(1.5rem round 0.5rem) to clip-path: inset(0rem round 0rem). Using here a ScrollTrigger from GSAP and just a fromTo animation. gsap.fromTo( element, { clipPath: \"inset(1.5rem round 0.5rem)\", }, { clipPath: \"inset(0rem round 0rem)\", ease: \"none\", duration: 1, } ) Adding a slightly scale on the “Series S6” Title from 0.95 to 1 makes it feel a bit more like a little zoom. Moving the title a bit to the bottom on scroll with a custom ease “0.65,0,0.35,1” makes it a bit more smooth and not that harsh like with position sticky or ease “none”. Media content belongs to VanMoof.\n\nDesigner: @unknown. Curated on Collect UI (https://collectui.com).",
+  "code": null,
+  "prompt": null,
+  "preview_image_url": "https://cdn.collectui.com/amplify_video/1988943144507826176/vid/avc1/1080x1080/ziFZfQd0MQ90NPm4-optimized-thumbnail.mp4",
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T09:31:05Z",
+  "updated_at": "2026-10-26T09:31:05Z"
+}

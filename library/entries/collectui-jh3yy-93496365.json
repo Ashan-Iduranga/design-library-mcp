@@ -1,0 +1,32 @@
+{
+  "id": "collectui-jh3yy-93496365",
+  "title": "CSS, UI Interaction by @jh3yy: one way w/ css stack an image 2x filter 1st, unclip 2nd on :hover a im",
+  "source": "Collect UI",
+  "url": "https://x.com/jh3yy/status/2019918728440283481",
+  "license": "link-only",
+  "type": "interaction",
+  "tags": [
+    "css",
+    "ui-interaction",
+    "collectui",
+    "video"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "one way w/ css stack an image 2x filter 1st, unclip 2nd on :hover a img { grid-area: 1 / 1; } img:first-of-type { filter: grayscale(1) invert(1); } img:last-of-type { clip-path: circle(0); transition: clip-path; } a:hover img:last-of-type { clip-path: circle(100%); }\n\nDesigner: @jh3yy. Curated on Collect UI (https://collectui.com).",
+  "code": null,
+  "prompt": null,
+  "preview_image_url": "https://cdn.collectui.com/amplify_video/2019918657023840258/vid/avc1/1080x1080/bXj8pNZCxC6JCgOj-optimized-thumbnail.mp4",
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T09:31:07Z",
+  "updated_at": "2026-10-26T09:31:07Z"
+}

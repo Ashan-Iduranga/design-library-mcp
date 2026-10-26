@@ -1,0 +1,31 @@
+{
+  "id": "collectui-k-grajeda-bbc6f5ce",
+  "title": "Loading by @k_grajeda: funny thing, my original loader doesn’t use keyframes. it just loops o",
+  "source": "Collect UI",
+  "url": "https://x.com/k_grajeda/status/2017358045957759121",
+  "license": "link-only",
+  "type": "interaction",
+  "tags": [
+    "loading",
+    "collectui",
+    "video"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "funny thing, my original loader doesn’t use keyframes. it just loops opacity with a per‑pixel delay array + a duration param. less flexible than keyframes, but gives a different effect here is one example in case you want to try to understand it hahah: { name: 'wave-lr', // Delay in ms before each of the 9 grid cells starts animating, indexed as [0,1,2], [3,4,5], [6,7,8] delays: [0, 100, 200, 0, 100, 200, 0, 100, 200], // How long (ms) each cell takes to fade in/out duration: 600, ]\n\nDesigner: @k_grajeda. Curated on Collect UI (https://collectui.com).",
+  "code": null,
+  "prompt": null,
+  "preview_image_url": "https://cdn.collectui.com/amplify_video/2017357460323946496/vid/avc1/2514x1676/FSo3IgYggOxlho_i-optimized-thumbnail.mp4",
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T09:31:07Z",
+  "updated_at": "2026-10-26T09:31:07Z"
+}

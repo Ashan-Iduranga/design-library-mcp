@@ -1,0 +1,31 @@
+{
+  "id": "collectui-gabriell-lab-ceef9caf",
+  "title": "UI Tips by @gabriell_lab: Design Engineering Tip: Don’t apply backdrop-filter directly to your m",
+  "source": "Collect UI",
+  "url": "https://x.com/gabriell_lab/status/2078471817715429591",
+  "license": "link-only",
+  "type": "screen",
+  "tags": [
+    "ui-tips",
+    "collectui",
+    "video"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Design Engineering Tip: Don’t apply backdrop-filter directly to your modal. Move the blur to a separate pseudo-layer instead. Separating the blur from the content can reduce paint and compositing work, especially when animating the modal. Code snippet below.\n\nDesigner: @gabriell_lab. Curated on Collect UI (https://collectui.com).",
+  "code": null,
+  "prompt": null,
+  "preview_image_url": "https://cdn.collectui.com/amplify_video/2078471764829433856/vid/avc1/1440x1080/m7oMTdJIsELs-NPd-optimized-thumbnail.mp4",
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T09:31:06Z",
+  "updated_at": "2026-10-26T09:31:06Z"
+}

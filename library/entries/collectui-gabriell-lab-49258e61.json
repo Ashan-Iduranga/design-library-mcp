@@ -1,0 +1,32 @@
+{
+  "id": "collectui-gabriell-lab-49258e61",
+  "title": "UI Interaction, Range Slider by @gabriell_lab: Design Engineering Tip: Try giving elastic drags a limit. Most rubber-",
+  "source": "Collect UI",
+  "url": "https://x.com/gabriell_lab/status/2109996591461355748",
+  "license": "link-only",
+  "type": "interaction",
+  "tags": [
+    "ui-interaction",
+    "range-slider",
+    "collectui",
+    "video"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Design Engineering Tip: Try giving elastic drags a limit. Most rubber-band effects are linear, so the further you pull, the further it stretches. iOS uses a curve instead: it resists more the further you go and never passes a maximum. const rubberBand = (x, d, c = 0.55) => (1 -\n\nDesigner: @gabriell_lab. Curated on Collect UI (https://collectui.com).",
+  "code": null,
+  "prompt": null,
+  "preview_image_url": "https://cdn.collectui.com/amplify_video/2109996467578445824/vid/avc1/1920x1440/F9pjv3VORRH0dj5p-optimized-thumbnail.mp4",
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T09:31:05Z",
+  "updated_at": "2026-10-26T09:31:05Z"
+}

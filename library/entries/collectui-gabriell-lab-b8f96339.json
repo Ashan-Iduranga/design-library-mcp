@@ -1,0 +1,31 @@
+{
+  "id": "collectui-gabriell-lab-b8f96339",
+  "title": "UI Tips by @gabriell_lab: Design Engineering Tip: If your whole page shifts 15px the moment a mo",
+  "source": "Collect UI",
+  "url": "https://x.com/gabriell_lab/status/2087520044196507963",
+  "license": "link-only",
+  "type": "screen",
+  "tags": [
+    "ui-tips",
+    "collectui",
+    "video"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Design Engineering Tip: If your whole page shifts 15px the moment a modal opens, it isn't the modal. It's the scrollbar disappearing, because the library sets overflow: hidden on the body to lock scrolling. Reserve the space before you ever need it: html { scrollbar-gutter:\n\nDesigner: @gabriell_lab. Curated on Collect UI (https://collectui.com).",
+  "code": null,
+  "prompt": null,
+  "preview_image_url": "https://cdn.collectui.com/amplify_video/2087519998780547072/vid/avc1/1920x1440/mncLqfsGSb2cKRvM-optimized-thumbnail.mp4",
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T09:31:06Z",
+  "updated_at": "2026-10-26T09:31:06Z"
+}
