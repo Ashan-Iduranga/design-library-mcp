@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-amit-dasit-stale-snail-53-59a559",
+  "title": "Form by AmIt-DasIT (stale-snail-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AmIt-DasIT/stale-snail-53",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "3d-card",
+    "3d-cool-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AmIt-DasIT on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/AmIt-DasIT_stale-snail-53.html",
+  "code": "<div class=\"container\">\n    <input type=\"checkbox\" id=\"signup_toggle\">\n    <form class=\"form\">\n        <div class=\"form_front\">\n            <div class=\"form_details\">Login</div>\n            <input placeholder=\"Username\" class=\"input\" type=\"text\">\n            <input placeholder=\"Password\" class=\"input\" type=\"text\">\n            <button class=\"btn\">Login</button>\n            <span class=\"switch\">Don't have an account? \n                <label class=\"signup_tog\" for=\"signup_toggle\">\n                    Sign Up\n                </label>\n            </span>\n        </div>\n        <div class=\"form_back\">\n            <div class=\"form_details\">SignUp</div>\n            <input placeholder=\"Firstname\" class=\"input\" type=\"text\">\n            <input placeholder=\"Username\" class=\"input\" type=\"text\">\n            <input placeholder=\"Password\" class=\"input\" type=\"text\">\n            <input placeholder=\"Confirm Password\" class=\"input\" type=\"text\">\n            <button class=\"btn\">Signup</button>\n            <span class=\"switch\">Already have an account? \n                <label class=\"signup_tog\" for=\"signup_toggle\">\n                    Sign In\n                </label>\n            </span>\n        </div>\n    </form>\n</div>\n<style>\n/* From Uiverse.io by AmIt-DasIT - Tags: form, 3d card, 3d cool effect */\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.form {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transform-style: preserve-3d;\n  transition: all 1s ease;\n}\n\n.form .form_front {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 20px;\n  position: absolute;\n  backface-visibility: hidden;\n  padding: 65px 45px;\n  border-radius: 15px;\n  box-shadow: inset 2px 2px 10px rgba(0,0,0,1),\n  inset -1px -1px 5px rgba(255, 255, 255, 0.6);\n}\n\n.form .form_back {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 20px;\n  position: absolute;\n  backface-visibility: hidden;\n  transform: rotateY(-180deg);\n  padding: 65px 45px;\n  border-radius: 15px;\n  box-shadow: inset 2px 2px 10px rgba(0,0,0,1),\n  inset -1px -1px 5px rgba(255, 255, 255, 0.6);\n}\n\n.form_details {\n  font-size: 25px;\n  font-weight: 600;\n  padding-bottom: 10px;\n  color: white;\n}\n\n.input {\n  width: 245px;\n  min-height: 45px;\n  color: #fff;\n  outline: none;\n  transition: 0.35s;\n  padding: 0px 7px;\n  background-color: #212121;\n  border-radius: 6px;\n  border: 2px solid #212121;\n  box-shadow: 6px 6px 10px rgba(0,0,0,1),\n  1px 1px 10px rgba(255, 255, 255, 0.6);\n}\n\n.input::placeholder {\n  color: #999;\n}\n\n.input:focus.input::placeholder {\n  transition: 0.3s;\n  opacity: 0;\n}\n\n.input:focus {\n  transform: scale(1.05);\n  box-shadow: 6px 6px 10px rgba(0,0,0,1),\n  1px 1px 10px rgba(255, 255, 255, 0.6),\n  inset 2px 2px 10px rgba(0,0,0,1),\n  inset -1px -1px 5px rgba(255, 255, 255, 0.6);\n}\n\n.btn {\n  padding: 10px 35px;\n  cursor: pointer;\n  background-color: #212121;\n  border-radius: 6px;\n  border: 2px solid #212121;\n  box-shadow: 6px 6px 10px rgba(0,0,0,1),\n  1px 1px 10px rgba(255, 255, 255, 0.6);\n  color: #fff;\n  font-size: 15px;\n  font-weight: bold;\n  transition: 0.35s;\n}\n\n.btn:hover {\n  transform: scale(1.05);\n  box-shadow: 6px 6px 10px rgba(0,0,0,1),\n  1px 1px 10px rgba(255, 255, 255, 0.6),\n  inset 2px 2px 10px rgba(0,0,0,1),\n  inset -1px -1px 5px rgba(255, 255, 255, 0.6);\n}\n\n.btn:focus {\n  transform: scale(1.05);\n  box-shadow: 6px 6px 10px rgba(0,0,0,1),\n  1px 1px 10px rgba(255, 255, 255, 0.6),\n  inset 2px 2px 10px rgba(0,0,0,1),\n  inset -1px -1px 5px rgba(255, 255, 255, 0.6);\n}\n\n.form .switch {\n  font-size: 13px;\n  color: white;\n}\n\n.form .switch .signup_tog {\n  font-weight: 700;\n  cursor: pointer;\n  text-decoration: underline;\n}\n\n.container #signup_toggle {\n  display: none;\n}\n\n.container #signup_toggle:checked + .form {\n  transform: rotateY(-180deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

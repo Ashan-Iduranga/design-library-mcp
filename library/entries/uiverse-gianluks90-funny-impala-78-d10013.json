@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-gianluks90-funny-impala-78-d10013",
+  "title": "Notification by Gianluks90 (funny-impala-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Gianluks90/funny-impala-78",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Gianluks90 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Notifications/Gianluks90_funny-impala-78.html",
+  "code": "<div class=\"notification gradient-border\">\n  <div class=\"icon\">\n    ❤️\n  </div>\n  <div class=\"message-container\">\n    <div class=\"title\">Congratulations!</div>\n    <div class=\"message\">You've reached a new level\n!</div>\n  </div>\n\n</div>\n<style>\n/* From Uiverse.io by Gianluks90 - Tags: notification */\n.notification {\n  width: 255px;\n  height: 60px;\n  background: white;\n  border-radius: 25px;\n  display: flex;\n  justify-content: space-evenly;\n  align-items: center;\n}\n\n.icon {\n  height: 40px;\n  width: 40px;\n  border-radius: 20px;\n  background-color: rgb(236, 236, 236);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding-top: 2px;\n}\n\n.message-container {\n  display: flex;\n  flex-direction: column;\n}\n\n.title {\n  padding: 2px;\n  text-transform: uppercase;\n  color: black;\n  font-weight: 600;\n}\n\n.message {\n  padding: 2px;\n  color: black;\n  font-size: small;\n}\n\n.gradient-border {\n  --borderSize: 3px;\n  position: relative;\n  border-radius: var(--borderSize);\n}\n\n.gradient-border:after {\n  content: '';\n  position: absolute;\n  top: calc(-1 * var(--borderSize));\n  left: calc(-1 * var(--borderSize));\n  height: calc(100% + var(--borderSize) * 2);\n  width: calc(100% + var(--borderSize) * 2);\n  background: linear-gradient(75deg, #E50000, #FF8D00, #FFEE00, #008121, #004CFF, #760188);\n  border-radius: calc(2 * var(--borderSize));\n  z-index: -1;\n  animation: gradientAnimation 4s ease alternate infinite;\n  background-size: 300% 300%;\n}\n\n@keyframes gradientAnimation {\n  0% {\n    background-position: 0% 50%;\n  }\n\n  50% {\n    background-position: 100% 50%;\n  }\n\n  100% {\n    background-position: 0% 50%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

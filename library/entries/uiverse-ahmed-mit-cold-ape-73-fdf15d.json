@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ahmed-mit-cold-ape-73-fdf15d",
+  "title": "Loader by AHMED-MIT (cold-ape-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AHMED-MIT/cold-ape-73",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AHMED-MIT on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/AHMED-MIT_cold-ape-73.html",
+  "code": "<div class=\"spinner\"></div>\n\n<style>\n/* From Uiverse.io by AHMED-MIT - Tags: loader */\n.spinner {\n  position: relative;\n  width: 35.2px;\n  height: 35.2px;\n}\n\n.spinner::before,\n.spinner::after {\n  content: '';\n  width: 100%;\n  height: 100%;\n  display: block;\n  animation: spinner-b4c8mmhg 0.5s backwards, spinner-49opz7hg 1.25s 0.5s infinite ease;\n  border: 8.8px solid #000000;\n  border-radius: 50%;\n  box-shadow: 0 -52.8px 0 -8.8px #000000;\n  position: absolute;\n}\n\n.spinner::after {\n  animation-delay: 0s, 1.25s;\n}\n\n@keyframes spinner-b4c8mmhg {\n  from {\n    box-shadow: 0 0 0 -8.8px #000000;\n  }\n}\n\n@keyframes spinner-49opz7hg {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

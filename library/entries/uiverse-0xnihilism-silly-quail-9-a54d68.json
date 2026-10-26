@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-0xnihilism-silly-quail-9-a54d68",
+  "title": "Input by 0xnihilism (silly-quail-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/0xnihilism/silly-quail-9",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 0xnihilism on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/0xnihilism_silly-quail-9.html",
+  "code": "<div class=\"input-container\">\n  <input\n    class=\"input\"\n    name=\"text\"\n    type=\"text\"\n    placeholder=\"Search the internet...\"\n  />\n</div>\n\n<style>\n/* From Uiverse.io by 0xnihilism  - Tags:  */\n.input {\n  width: 100%;\n  max-width: 270px;\n  height: 60px;\n  padding: 12px;\n  font-size: 18px;\n  font-family: \"Courier New\", monospace;\n  color: #000;\n  background-color: #fff;\n  border: 4px solid #000;\n  border-radius: 0;\n  outline: none;\n  transition: all 0.3s ease;\n  box-shadow: 8px 8px 0 #000;\n}\n\n.input::placeholder {\n  color: #888;\n}\n\n.input:hover {\n  transform: translate(-4px, -4px);\n  box-shadow: 12px 12px 0 #000;\n}\n\n.input:focus {\n  background-color: #000;\n  color: #fff;\n  border-color: #ffffff;\n}\n\n.input:focus::placeholder {\n  color: #fff;\n}\n\n@keyframes typing {\n  from {\n    width: 0;\n  }\n  to {\n    width: 100%;\n  }\n}\n\n@keyframes blink {\n  50% {\n    border-color: transparent;\n  }\n}\n\n.input:focus::after {\n  content: \"|\";\n  position: absolute;\n  right: 10px;\n  animation: blink 0.7s step-end infinite;\n}\n\n.input:valid {\n  animation: typing 2s steps(30, end);\n}\n.input-container {\n  position: relative;\n  width: 100%;\n  max-width: 270px;\n}\n\n.input {\n  width: 100%;\n  height: 60px;\n  padding: 12px;\n  font-size: 18px;\n  font-family: \"Courier New\", monospace;\n  color: #000;\n  background-color: #fff;\n  border: 4px solid #000;\n  border-radius: 0;\n  outline: none;\n  transition: all 0.3s ease;\n  box-shadow: 8px 8px 0 #000;\n}\n\n.input::placeholder {\n  color: #888;\n}\n\n.input:hover {\n  transform: translate(-4px, -4px);\n  box-shadow: 12px 12px 0 #000;\n}\n\n.input:focus {\n  background-color: #010101;\n  color: #fff;\n  border-color: #d6d9dd;\n}\n\n.input:focus::placeholder {\n  color: #fff;\n}\n\n@keyframes shake {\n  0% {\n    transform: translateX(0);\n  }\n  25% {\n    transform: translateX(-5px) rotate(-5deg);\n  }\n  50% {\n    transform: translateX(5px) rotate(5deg);\n  }\n  75% {\n    transform: translateX(-5px) rotate(-5deg);\n  }\n  100% {\n    transform: translateX(0);\n  }\n}\n\n.input:focus {\n  animation: shake 0.5s ease-in-out;\n}\n\n@keyframes glitch {\n  0% {\n    transform: none;\n    opacity: 1;\n  }\n  7% {\n    transform: skew(-0.5deg, -0.9deg);\n    opacity: 0.75;\n  }\n  10% {\n    transform: none;\n    opacity: 1;\n  }\n  27% {\n    transform: none;\n    opacity: 1;\n  }\n  30% {\n    transform: skew(0.8deg, -0.1deg);\n    opacity: 0.75;\n  }\n  35% {\n    transform: none;\n    opacity: 1;\n  }\n  52% {\n    transform: none;\n    opacity: 1;\n  }\n  55% {\n    transform: skew(-1deg, 0.2deg);\n    opacity: 0.75;\n  }\n  50% {\n    transform: none;\n    opacity: 1;\n  }\n  72% {\n    transform: none;\n    opacity: 1;\n  }\n  75% {\n    transform: skew(0.4deg, 1deg);\n    opacity: 0.75;\n  }\n  80% {\n    transform: none;\n    opacity: 1;\n  }\n  100% {\n    transform: none;\n    opacity: 1;\n  }\n}\n\n.input:not(:placeholder-shown) {\n  animation: glitch 1s linear infinite;\n}\n\n.input-container::after {\n  content: \"|\";\n  position: absolute;\n  right: 10px;\n  top: 50%;\n  transform: translateY(-50%);\n  color: #000;\n  animation: blink 0.7s step-end infinite;\n}\n\n@keyframes blink {\n  50% {\n    opacity: 0;\n  }\n}\n\n.input:focus + .input-container::after {\n  color: #fff;\n}\n\n.input:not(:placeholder-shown) {\n  font-weight: bold;\n  letter-spacing: 1px;\n  text-shadow: 0px 0px 0 #000;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-0xnihilism-helpless-rattlesnake-54-9954f6",
+  "title": "Button by 0xnihilism (helpless-rattlesnake-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/0xnihilism/helpless-rattlesnake-54",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "microsoft",
+    "animated",
+    "brutalism",
+    "brutalist",
+    "glare-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 0xnihilism on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/0xnihilism_helpless-rattlesnake-54.html",
+  "code": "<a href=\"/\" class=\"brutalist-button\">\n  <div class=\"content-wrapper\">\n    <div class=\"claude-logo\">\n      <span class=\"starburst\">✷</span>\n    </div>\n    <div class=\"button-text\">\n      <span>Powered By</span>\n      <span>Claude 3.5</span>\n    </div>\n  </div>\n</a>\n\n<style>\n/* From Uiverse.io by 0xnihilism  - Tags: button, microsoft, animated, brutalism, brutalist, glare effect */\n.brutalist-button {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: #e3d19c;\n  border: 3px solid #000000;\n  border-radius: 8px;\n  padding: 20px;\n  text-decoration: none;\n  color: #000000;\n  font-weight: bold;\n  position: relative;\n  box-shadow: 4px 4px 0px #000000;\n  overflow: hidden;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n  width: 166px;\n  height: 150px;\n}\n\n.brutalist-button:hover {\n  transform: translate(-2px, -2px);\n  box-shadow: 6px 6px 0px #000000;\n}\n\n.brutalist-button:active {\n  transform: translate(2px, 2px);\n  box-shadow: 2px 2px 0px #000000;\n}\n\n.content-wrapper {\n  position: relative;\n  z-index: 2;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-delay: 0.8s;\n}\n\n.claude-logo {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 80px;\n  height: 80px;\n  border-radius: 50%;\n  background-color: #eb6c22;\n  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),\n    margin-bottom 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-delay: 0.8s;\n  transform: rotate(0deg) scale(1);\n}\n\n.starburst {\n  font-size: 48px;\n  color: #ffffff;\n  line-height: 1;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-delay: 0.8s;\n}\n\n.button-text {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  line-height: 1.2;\n  text-align: center;\n  opacity: 0;\n  max-height: 0;\n  overflow: hidden;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-delay: 0.8s;\n}\n\n.button-text span:first-child {\n  font-size: 14px;\n  font-weight: normal;\n}\n\n.button-text span:last-child {\n  font-size: 18px;\n  font-weight: 700;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n\n.brutalist-button:hover .content-wrapper {\n  transform: translateY(-10px);\n}\n\n@keyframes slow-spin {\n  from {\n    transform: rotate(0deg) scale(0.8);\n  }\n  to {\n    transform: rotate(360deg) scale(0.8);\n  }\n}\n\n.brutalist-button:hover .claude-logo {\n  animation: slow-spin 12s linear infinite;\n  margin-bottom: 5px;\n}\n\n.brutalist-button:not(:hover) .claude-logo {\n  transform: rotate(0deg) scale(1);\n  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),\n    margin-bottom 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);\n  margin-bottom: 0;\n}\n\n.brutalist-button:hover .starburst {\n  font-size: 38px;\n}\n\n.brutalist-button:hover .button-text {\n  opacity: 1;\n  max-height: 50px;\n  margin-top: 2px;\n}\n\n.brutalist-button:not(:hover) .content-wrapper,\n.brutalist-button:not(:hover) .starburst,\n.brutalist-button:not(:hover) .button-text {\n  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-delay: 0s;\n}\n\n.brutalist-button::before,\n.brutalist-button::after {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  width: 20px;\n  height: 20px;\n  background-color: rgba(200, 183, 128, 0.7);\n  border-radius: 50%;\n  transition: all 0.8s cubic-bezier(0.25, 0.8, 0.25, 1);\n  opacity: 0;\n  z-index: 1;\n}\n\n.brutalist-button::before {\n  left: -20px;\n  transform: translate(-50%, -50%);\n}\n\n.brutalist-button::after {\n  right: -20px;\n  transform: translate(50%, -50%);\n}\n\n.brutalist-button:hover::before {\n  animation: criss-cross-left 0.8s both;\n  animation-direction: alternate;\n  opacity: 1;\n}\n\n.brutalist-button:hover::after {\n  animation: criss-cross-right 0.8s both;\n  animation-direction: alternate;\n  opacity: 1;\n}\n\n@keyframes criss-cross-left {\n  0% {\n    left: -20px;\n  }\n  50% {\n    left: 50%;\n    width: 20px;\n    height: 20px;\n  }\n  100% {\n    left: 50%;\n    width: 375px;\n    height: 375px;\n  }\n}\n\n@keyframes criss-cross-right {\n  0% {\n    right: -20px;\n  }\n  50% {\n    right: 50%;\n    width: 20px;\n    height: 20px;\n  }\n  100% {\n    right: 50%;\n    width: 375px;\n    height: 375px;\n  }\n}\n\n.brutalist-button:hover .button-text {\n  color: #ffffff;\n}\n\n.brutalist-button:hover .button-text span:last-child {\n  color: #4e432d;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:49Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

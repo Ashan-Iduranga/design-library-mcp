@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-cksunandh-afraid-snail-51-e94a99",
+  "title": "Tooltip by Cksunandh (afraid-snail-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cksunandh/afraid-snail-51",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "simple",
+    "button",
+    "color",
+    "btn",
+    "html",
+    "css",
+    "simple-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cksunandh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/Cksunandh_afraid-snail-51.html",
+  "code": "<div class=\"tooltip-container\">\n  <span class=\"tooltip\">Hello</span>\n  <span class=\"text\">Let me Pop up</span>\n</div>\n\n<style>\n/* From Uiverse.io by Cksunandh  - Tags: simple, tooltip, button, color, btn, html, css, simple button */\n.tooltip-container {\n  color: #ffffff;\n  --background: #00a36d;\n  position: relative;\n  background: var(--background);\n  cursor: pointer;\n  transition: all 0.2s;\n  font-size: 17px;\n  padding: 0.7em 1.8em;\n  border-radius: 50px;\n}\n\n.tooltip {\n  background-color: #00a36d;\n  position: absolute;\n  top: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  padding: 0.3em 0.6em;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s;\n  border-radius: 50px;\n}\n\n.tooltip::before {\n  background-color: #00a36d;\n  position: absolute;\n  content: \"\";\n  height: 0.6em;\n  width: 0.6em;\n  bottom: -0.2em;\n  left: 50%;\n  transform: translate(-50%) rotate(45deg);\n}\n\n.tooltip-container:hover .tooltip {\n  top: -100%;\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

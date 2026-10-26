@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-application-stats-1",
+  "title": "Stats: Title, value, from value and themed growth stat",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/stats",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "stats",
+    "hyperui",
+    "analytics",
+    "feedback",
+    "metric"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/stats/1.html",
+  "code": "<div class=\"mx-auto flex max-w-lg flex-col gap-4 p-6\">\n<article class=\"flex flex-col gap-4 rounded-lg border border-gray-100 bg-white p-6\">\n<div class=\"inline-flex gap-2 self-end rounded-sm bg-green-100 p-1 text-green-600\">\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13 7h8m0 0v8m0-8l-8 8-4-4-6 6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n</svg>\n<span class=\"sr-only\">Increase: </span>\n<span class=\"text-xs font-medium\"> 67.81% </span>\n</div>\n<div>\n<strong class=\"block text-sm font-medium text-gray-500\"> Profit </strong>\n<p>\n<span class=\"text-2xl font-medium text-gray-900\"> $404.32 </span>\n<span class=\"text-xs text-gray-500\"> from $240.94 </span>\n</p>\n</div>\n</article>\n<article class=\"flex flex-col gap-4 rounded-lg border border-gray-100 bg-white p-6\">\n<div class=\"inline-flex gap-2 self-end rounded-sm bg-red-100 p-1 text-red-600\">\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13 17h8m0 0V9m0 8l-8-8-4 4-6-6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n</svg>\n<span class=\"sr-only\">Decrease: </span>\n<span class=\"text-xs font-medium\"> 67.81% </span>\n</div>\n<div>\n<strong class=\"block text-sm font-medium text-gray-500\"> Profit </strong>\n<p>\n<span class=\"text-2xl font-medium text-gray-900\"> $240.94 </span>\n<span class=\"text-xs text-gray-500\"> from $404.32 </span>\n</p>\n</div>\n</article>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:42Z",
+  "updated_at": "2026-10-26T05:29:42Z"
+}

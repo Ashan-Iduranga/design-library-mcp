@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-badges-1",
+  "title": "Badges: Base",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/badges",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "badges",
+    "hyperui",
+    "alert",
+    "status"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Simple pill-shaped badges with solid and outlined variants\n\nOriginal file: https://github.com/markmead/hyperui/blob/main/public/examples/application/badges/1.html",
+  "code": "<div class=\"flex flex-wrap justify-center gap-4 p-6\">\n<span class=\"rounded-full bg-purple-100 px-2.5 py-0.5 text-sm whitespace-nowrap text-purple-700\">\n      Live\n    </span>\n<span class=\"rounded-full border border-purple-500 px-2.5 py-0.5 text-sm whitespace-nowrap text-purple-700\">\n      Live\n    </span>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:42Z",
+  "updated_at": "2026-10-26T05:29:42Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-inputs-1",
+  "title": "Inputs: Base",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/inputs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "inputs",
+    "hyperui",
+    "filter",
+    "form"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Standard text input with label and border styling\n\nOriginal file: https://github.com/markmead/hyperui/blob/main/public/examples/application/inputs/1.html",
+  "code": "<div class=\"mx-auto max-w-sm p-6\">\n<label for=\"Email\">\n<span class=\"text-sm font-medium text-gray-700\"> Email </span>\n<input class=\"mt-0.5 w-full rounded border-gray-300 shadow-sm sm:text-sm\" id=\"Email\" type=\"email\"/>\n</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:42Z",
+  "updated_at": "2026-10-26T05:29:42Z"
+}

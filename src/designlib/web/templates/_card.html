@@ -5,7 +5,7 @@
       {% if kind == "code" %}
         {# Rendered larger and scaled down, so components look like thumbnails. #}
         <iframe class="thumb-frame" sandbox="allow-scripts" loading="lazy" tabindex="-1"
-                title="Preview of {{ entry.title }}" srcdoc="{{ build_srcdoc(entry) }}"></iframe>
+                title="Preview of {{ entry.title }}" srcdoc="{{ build_srcdoc(entry, thumb=True) }}"></iframe>
       {% elif kind == "local" %}
         <img src="/{{ entry.local_image }}" alt="" loading="lazy">
       {% elif kind == "remote" %}

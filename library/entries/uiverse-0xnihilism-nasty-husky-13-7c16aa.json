@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-0xnihilism-nasty-husky-13-7c16aa",
+  "title": "Card by 0xnihilism (nasty-husky-13)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/0xnihilism/nasty-husky-13",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "newsletter",
+    "light",
+    "box-shadow",
+    "hover-button",
+    "cool-card",
+    "brutalism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 0xnihilism on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/0xnihilism_nasty-husky-13.html",
+  "code": "<div class=\"card\">\n  <span class=\"card__title\">Newsletter</span>\n  <p class=\"card__content\">\n    Get existential crisis delivered straight to your inbox every week.\n  </p>\n  <form class=\"card__form\">\n    <input required=\"\" type=\"email\" placeholder=\"Your life\" />\n    <button class=\"card__button\">Click me</button>\n  </form>\n</div>\n\n<style>\n/* From Uiverse.io by 0xnihilism  - Tags: newsletter, card, light, box-shadow, hover button, cool card, brutalism */\n.card {\n  width: 300px;\n  padding: 20px;\n  background: #fff;\n  border: 6px solid #000;\n  box-shadow: 12px 12px 0 #000;\n  transition: transform 0.3s, box-shadow 0.3s;\n}\n\n.card:hover {\n  transform: translate(-5px, -5px);\n  box-shadow: 17px 17px 0 #000;\n}\n\n.card__title {\n  font-size: 32px;\n  font-weight: 900;\n  color: #000;\n  text-transform: uppercase;\n  margin-bottom: 15px;\n  display: block;\n  position: relative;\n  overflow: hidden;\n}\n\n.card__title::after {\n  content: \"\";\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 90%;\n  height: 3px;\n  background-color: #000;\n  transform: translateX(-100%);\n  transition: transform 0.3s;\n}\n\n.card:hover .card__title::after {\n  transform: translateX(0);\n}\n\n.card__content {\n  font-size: 16px;\n  line-height: 1.4;\n  color: #000;\n  margin-bottom: 20px;\n}\n\n.card__form {\n  display: flex;\n  flex-direction: column;\n  gap: 15px;\n}\n\n.card__form input {\n  padding: 10px;\n  border: 3px solid #000;\n  font-size: 16px;\n  font-family: inherit;\n  transition: transform 0.3s;\n  width: calc(100% - 26px); /* Adjust for padding and border */\n}\n\n.card__form input:focus {\n  outline: none;\n  transform: scale(1.05);\n  background-color: #000;\n  color: #ffffff;\n}\n\n.card__button {\n  border: 3px solid #000;\n  background: #000;\n  color: #fff;\n  padding: 10px;\n  font-size: 18px;\n  left: 20%;\n  font-weight: bold;\n  text-transform: uppercase;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: transform 0.3s;\n  width: 50%;\n  height: 100%;\n}\n\n.card__button::before {\n  content: \"Sure?\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 105%;\n  background-color: #5ad641;\n  color: #000;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transform: translateY(100%);\n  transition: transform 0.3s;\n}\n\n.card__button:hover::before {\n  transform: translateY(0);\n}\n\n.card__button:active {\n  transform: scale(0.95);\n}\n\n@keyframes glitch {\n  0% {\n    transform: translate(2px, 2px);\n  }\n  25% {\n    transform: translate(-2px, -2px);\n  }\n  50% {\n    transform: translate(-2px, 2px);\n  }\n  75% {\n    transform: translate(2px, -2px);\n  }\n  100% {\n    transform: translate(2px, 2px);\n  }\n}\n\n.glitch {\n  animation: glitch 0.3s infinite;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:49Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

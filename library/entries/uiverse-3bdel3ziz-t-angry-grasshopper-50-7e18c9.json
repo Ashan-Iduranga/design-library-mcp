@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-3bdel3ziz-t-angry-grasshopper-50-7e18c9",
+  "title": "Checkbox by 3bdel3ziz-T (angry-grasshopper-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/3bdel3ziz-T/angry-grasshopper-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "material-design",
+    "animation",
+    "hamburger",
+    "menu",
+    "click-effect",
+    "click-animation",
+    "close"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 3bdel3ziz-T on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/3bdel3ziz-T_angry-grasshopper-50.html",
+  "code": "<div class=\"burger-icon\">\n  <label class=\"burger\" for=\"burger\">\n    <input class=\"line\" type=\"checkbox\" id=\"burger\" />\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by 3bdel3ziz-T  - Tags: material design, animation, checkbox, hamburger, menu, click effect, click animation, close */\n.burger {\n  width: 40px;\n  height: 40px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  user-select: none;\n  cursor: pointer;\n  transition: 300ms;\n  border-radius: 10px;\n}\n.burger input[type=\"checkbox\"] {\n  appearance: none;\n  transition: 300ms;\n}\n\n.burger::before,\n.burger::after {\n  content: \"\";\n  transition: 300ms;\n  transform-origin: center center;\n}\n\n.burger::before {\n  transform: translateY(8px);\n}\n.burger::after {\n  transform: translateY(-8px);\n}\n.burger .line,\n.burger::before,\n.burger::after {\n  width: 25px;\n  height: 2.1px;\n  display: block;\n  background-color: black;\n  border-radius: 5px;\n  position: absolute;\n}\n\n.burger .line:checked {\n  width: 0;\n  transition-delay: 100ms;\n}\n.burger:has(.line:checked)::before {\n  animation: animation1 400ms ease-out 0s 1 both;\n}\n.burger:has(.line:checked)::after {\n  animation: animation2 400ms ease-out 0s 1 both;\n}\n\n.burger:hover {\n  background: #aeaeae;\n  border-radius: 50%;\n}\n\n.burger:hover .line,\n.burger:hover::before,\n.burger:hover::after {\n  background: #e8e8e8;\n}\n\n.burger:active {\n  scale: 0.95;\n}\n@keyframes animation1 {\n  0% {\n    transform: translateY(8px) rotate(0deg);\n  }\n  50% {\n    transform: translateY(0px) rotate(0deg);\n  }\n  100% {\n    transform: translateY(0px) rotate(45deg);\n  }\n}\n@keyframes animation2 {\n  0% {\n    transform: translateY(-8px) rotate(0deg);\n  }\n  50% {\n    transform: translateY(0px) rotate(0deg);\n  }\n  100% {\n    transform: translateY(0px) rotate(-45deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

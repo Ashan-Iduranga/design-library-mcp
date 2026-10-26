@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-activeicedigital-fuzzy-fly-47-cd5051",
+  "title": "Notification by ActiveIceDigital (fuzzy-fly-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ActiveIceDigital/fuzzy-fly-47",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ActiveIceDigital on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Notifications/ActiveIceDigital_fuzzy-fly-47.html",
+  "code": "<div class=\"notification\">\n  <span>Congratulatioins Champion!</span>\n  <div id=\"level\">\n    <div class=\"one\">↑</div>\n    <div id=\"lvl\">Level 10</div>\n    <div class=\"one\">↑</div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by ActiveIceDigital - Tags: notification */\n@keyframes ud {\n  0% {\n    transform: translateY(-1px);\n    opacity: 0;\n  }\n\n  50% {\n    transform: translateY(-5px);\n    opacity: 1;\n  }\n\n  100% {\n    transform: translateY(-1px);\n    opacity: 0;\n  }\n}\n\n.notification {\n  width: 250px;\n  height: 60px;\n  background: rgba(0, 0, 0, 0.5);\n  border-radius: 14px;\n  padding: 5px 15px;\n  text-align: center;\n  box-shadow: 2px 2px 0px 1px rgba(255, 0, 0, 0.5) inset, \n  -2px -2px 0px 1px rgba(255, 0, 0, 0.8) inset,\n  0px 2px 5px 0px rgba(0, 0, 0, .25);\n}\n\n#lvl {\n  font-weight: 700;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  font-size: 20px;\n}\n\n.notification > span {\n  font-size: 11px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n}\n\n#level {\n  display: flex;\n  justify-content: center;\n  margin-top: 5px;\n  gap: 5px;\n}\n\n.one {\n  display: inline-block;\n  font-size: 25px;\n  line-height: 25px;\n  animation: ud 1s ease-in-out infinite;\n  color: rgba(255, 0, 0, 0.95);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "hyperui-application-side-menu-1",
+  "title": "Side Menu: Logo, links with accordion menu and profile details",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/side-menu",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "side-menu",
+    "hyperui",
+    "navigation"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/side-menu/1.html",
+  "code": "<div class=\"max-w-xs\">\n<div class=\"flex h-screen flex-col justify-between border-e border-gray-100 bg-white\">\n<div class=\"p-4\">\n<span class=\"grid h-12 w-32 place-content-center rounded-lg bg-gray-100 text-sm text-gray-500\">\n          Logo\n        </span>\n<ul class=\"mt-4 space-y-1\">\n<li>\n<a class=\"block rounded-lg bg-gray-100 px-4 py-2 text-sm font-medium text-gray-900\" href=\"#\">\n              General\n            </a>\n</li>\n<li>\n<details class=\"group [&amp;_summary::-webkit-details-marker]:hidden\">\n<summary class=\"flex items-center justify-between rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900\">\n                Teams\n\n                <span class=\"shrink-0 transition duration-300 group-open:-rotate-180\">\n<svg aria-hidden=\"true\" class=\"size-5\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path clip-rule=\"evenodd\" d=\"M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z\" fill-rule=\"evenodd\"></path>\n</svg>\n</span>\n</summary>\n<ul class=\"mt-2 space-y-1 px-4\">\n<li>\n<a class=\"block rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900\" href=\"#\">\n                    Banned Users\n                  </a>\n</li>\n<li>\n<a class=\"block rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900\" href=\"#\">\n                    Calendar\n                  </a>\n</li>\n</ul>\n</details>\n</li>\n<li>\n<a class=\"block rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900\" href=\"#\">\n              Billing\n            </a>\n</li>\n<li>\n<a class=\"block rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900\" href=\"#\">\n              Invoices\n            </a>\n</li>\n<li>\n<details class=\"group [&amp;_summary::-webkit-details-marker]:hidden\">\n<summary class=\"flex items-center justify-between rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900\">\n                Account\n\n                <span class=\"shrink-0 transition duration-300 group-open:-rotate-180\">\n<svg aria-hidden=\"true\" class=\"size-5\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path clip-rule=\"evenodd\" d=\"M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z\" fill-rule=\"evenodd\"></path>\n</svg>\n</span>\n</summary>\n<ul class=\"mt-2 space-y-1 px-4\">\n<li>\n<a class=\"block rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900\" href=\"#\">\n                    Details\n                  </a>\n</li>\n<li>\n<a class=\"block rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900\" href=\"#\">\n                    Security\n                  </a>\n</li>\n<li>\n<a class=\"w-full rounded-lg px-4 py-2 [text-align:inherit] text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700\" href=\"#\">\n                    Logout\n                  </a>\n</li>\n</ul>\n</details>\n</li>\n</ul>\n</div>\n<div class=\"sticky inset-x-0 bottom-0 border-t border-gray-100\">\n<a class=\"flex items-center gap-2 bg-white p-4 hover:bg-gray-50 hover:transition-colors\" href=\"#\">\n<img alt=\"\" class=\"size-10 rounded-full object-cover\" src=\"https://images.unsplash.com/photo-1600486913747-55e5470d6f40?auto=format&amp;fit=crop&amp;q=80&amp;w=1160\"/>\n<p class=\"text-xs text-gray-900\">\n<strong class=\"block font-medium\">Eric Frusciante</strong>\n<span> eric@frusciante.com </span>\n</p>\n</a>\n</div>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:42Z",
+  "updated_at": "2026-10-26T05:29:42Z"
+}

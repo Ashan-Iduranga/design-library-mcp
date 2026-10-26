@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-3bdel3ziz-t-tough-deer-65-7e3cb3",
+  "title": "Radio by 3bdel3ziz-T (tough-deer-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/3bdel3ziz-T/tough-deer-65",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "red",
+    "blue",
+    "social",
+    "smooth",
+    "custom",
+    "click-effect",
+    "click-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 3bdel3ziz-T on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/3bdel3ziz-T_tough-deer-65.html",
+  "code": "<div class=\"container\">\n  <label for=\"dislike\">\n    <input type=\"radio\" name=\"evaluation\" id=\"dislike\" />\n    <svg\n      class=\"icon dislike\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      width=\"24\"\n      height=\"24\"\n      viewBox=\"0 0 24 24\"\n    >\n      <path\n        d=\"M20 3H6.693A2.01 2.01 0 0 0 4.82 4.298l-2.757 7.351A1 1 0 0 0 2 12v2c0 1.103.897 2 2 2h5.612L8.49 19.367a2.004 2.004 0 0 0 .274 1.802c.376.52.982.831 1.624.831H12c.297 0 .578-.132.769-.36l4.7-5.64H20c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2zm-8.469 17h-1.145l1.562-4.684A1 1 0 0 0 11 14H4v-1.819L6.693 5H16v9.638L11.531 20zM18 14V5h2l.001 9H18z\"\n      ></path>\n    </svg>\n  </label>\n  <div class=\"count\">\n    <div class=\"number\">\n      <span>0</span>\n      <span>1</span>\n      <span>2</span>\n      <span>3</span>\n      <span>4</span>\n      <span>5</span>\n      <span>6</span>\n      <span>7</span>\n      <span>8</span>\n      <span>9</span>\n    </div>\n    <div class=\"number\">\n      <span>0</span>\n      <span>1</span>\n      <span>2</span>\n      <span>3</span>\n      <span>4</span>\n      <span>5</span>\n      <span>6</span>\n      <span>7</span>\n      <span>8</span>\n      <span>9</span>\n    </div>\n    <div class=\"number\">\n      <span>0</span>\n      <span>1</span>\n      <span>2</span>\n      <span>3</span>\n      <span>4</span>\n      <span>5</span>\n      <span>6</span>\n      <span>7</span>\n      <span>8</span>\n      <span>9</span>\n    </div>\n  </div>\n  <label for=\"like\">\n    <input type=\"radio\" name=\"evaluation\" id=\"like\" checked=\"\" />\n    <svg\n      class=\"icon like\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      width=\"24\"\n      height=\"24\"\n      viewBox=\"0 0 24 24\"\n    >\n      <path\n        d=\"M20 8h-5.612l1.123-3.367c.202-.608.1-1.282-.275-1.802S14.253 2 13.612 2H12c-.297 0-.578.132-.769.36L6.531 8H4c-1.103 0-2 .897-2 2v9c0 1.103.897 2 2 2h13.307a2.01 2.01 0 0 0 1.873-1.298l2.757-7.351A1 1 0 0 0 22 12v-2c0-1.103-.897-2-2-2zM4 10h2v9H4v-9zm16 1.819L17.307 19H8V9.362L12.468 4h1.146l-1.562 4.683A.998.998 0 0 0 13 10h7v1.819z\"\n      ></path>\n    </svg>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by 3bdel3ziz-T  - Tags: red, blue, social, smooth, radio, custom, click effect, click animation */\n.container {\n  --col-gray: #3f3f3f;\n  --col-white: #fff;\n  --col-like: #2196f3;\n  --col-dislike: #ff3232;\n  --transition: 350ms;\n  background-color: var(--col-gray);\n  width: 130px;\n  border-radius: 50px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 9px;\n  user-select: none;\n  /*you can easlly change the number by using this variabels*/\n  --zero: translateY(calc(50% - 11px));\n  --one: translateY(calc(40% - 11px));\n  --two: translateY(calc(30% - 11px));\n  --three: translateY(calc(20% - 11px));\n  --four: translateY(calc(10% - 11px));\n  --five: translateY(calc(0% - 11px));\n  --six: translateY(calc(-10% - 11px));\n  --seven: translateY(calc(-20% - 11px));\n  --eight: translateY(calc(-30% - 11px));\n  --nine: translateY(calc(-40% - 11px));\n  --ten: translateY(calc(-50% - 11px));\n}\n.container:has(#like:checked) .count {\n  border-left-color: var(--col-like);\n  border-right-color: transparent;\n}\n.container:has(#like:checked) .count .number:first-child {\n  /*change first number from here*/\n  /*when click on like*/\n  transform: var(--nine);\n}\n.container:has(#like:checked) .count .number:nth-child(2) {\n  /*change second number from here*/\n  /*when click on like*/\n  transform: var(--five);\n}\n.container:has(#like:checked) .count .number:last-child {\n  /*change third number from here*/\n  /*when click on like*/\n  transform: var(--three);\n}\n.container:has(#dislike:checked) > .count {\n  border-right-color: var(--col-dislike);\n  border-left-color: transparent;\n}\n.container:has(#dislike:checked) > .count .number:first-child {\n  /*change first number from here*/\n  /*when click on dislike*/\n  transform: var(--zero);\n}\n.container:has(#dislike:checked) > .count .number:nth-child(2) {\n  /*change second number from here*/\n  /*when click on dislike*/\n  transform: var(--zero);\n}\n.container:has(#dislike:checked) > .count .number:last-child {\n  /*change third number from here*/\n  /*when click on dislike*/\n  transform: var(--nine);\n}\n.container label input {\n  display: none;\n}\n.container #like:checked + svg {\n  animation: evaluation-animation var(--transition) ease-in-out 0s 1 normal both;\n  fill: var(--col-like);\n}\n.container #dislike:checked + svg {\n  animation: evaluation-animation var(--transition) ease-in-out 0s 1 normal both;\n  fill: var(--col-dislike);\n}\n.container .icon {\n  cursor: pointer;\n  fill: var(--col-white);\n  height: 24px;\n  width: 24px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.container .icon.like {\n  margin-left: 9px;\n}\n.container .icon.dislike {\n  margin-right: 9px;\n}\n.container .count {\n  transition: var(--transition);\n  flex: 1;\n  border-left: 1px solid var(--col-white);\n  border-right: 1px solid var(--col-white);\n  position: relative;\n  height: 24px;\n  overflow: hidden;\n  margin: auto;\n  color: white;\n  font-size: 16px;\n  font-family: sans-serif;\n  display: flex;\n  align-items: center;\n\n  justify-content: center;\n  gap: 0.5px;\n  flex-direction: row;\n}\n.container .count .number {\n  display: flex;\n  flex-direction: column;\n  transform: translateY(calc(50% - 8px));\n  transition: 1000ms cubic-bezier(0.68, -0.55, 0.27, 1.55);\n}\n.container .count .number:first-child {\n  transition-delay: 200ms;\n}\n.container .count .number:nth-child(2) {\n  transition-delay: 150ms;\n}\n.container .count .number:last-child {\n  transition-delay: 50ms;\n}\n\n@keyframes evaluation-animation {\n  0%,\n  100% {\n    transform: scale(1) rotate(0deg);\n  }\n  50% {\n    transform: scale(1.1) rotate(-10deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-3bdel3ziz-t-honest-deer-30-4de19a",
+  "title": "Toggle by 3bdel3ziz-T (honest-deer-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/3bdel3ziz-T/honest-deer-30",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "material-design",
+    "icon",
+    "theme-switch",
+    "svg",
+    "hover-effect",
+    "click-animation",
+    "cool-checkbox"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 3bdel3ziz-T on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/3bdel3ziz-T_honest-deer-30.html",
+  "code": "<div>\n  <label class=\"switch\" for=\"switch\">\n    <input id=\"switch\" type=\"checkbox\" class=\"circle\" />\n    <svg\n      viewBox=\"0 0 384 512\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      class=\"moon svg\"\n    >\n      !Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License\n      - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.\n      <path\n        d=\"M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z\"\n      ></path>\n    </svg>\n    <div class=\"sun svg\">\n      <span class=\"dot\"></span>\n    </div>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by 3bdel3ziz-T  - Tags: material design, icon, theme-switch, svg, hover effect, click animation, cool checkbox */\n/* The switch container */\n.switch {\n  --transition: 300ms;\n  --transition500: 500ms;\n  --color-dark: #0c0f14;\n  --color-darkGray: #21262e;\n  --color-gray: #52555a;\n  --color-offwhite: #cecece;\n  --shadow-color: var(--color-dark);\n  position: relative;\n  display: flex;\n  align-items: center;\n  width: 60px;\n  height: fit-content;\n  background-color: var(--color-dark);\n  border-radius: 30px;\n  padding: 4px;\n  transition: var(--transition500);\n  user-select: none;\n  cursor: pointer;\n  overflow: hidden;\n}\n\n/* Svg styles */\n.switch .svg {\n  transition: var(--transition);\n  position: absolute;\n  left: 5px;\n}\n.switch .moon {\n  width: 18px;\n  fill: var(--color-gray);\n  opacity: 1;\n}\n\n.switch .sun {\n  transform: translateY(-50%);\n  width: 12px;\n  height: 12px;\n  border-radius: 50%;\n  left: calc(100% - 21.5px);\n  top: 15px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  scale: 0.8;\n  opacity: 0;\n}\n\n.switch .sun .dot {\n  positon: relative;\n  display: block;\n  width: 3px;\n  height: 3px;\n  border-radius: 50%;\n  background: var(--color-dark);\n  background: white;\n  z-index: 1;\n  box-shadow: 11px 0px 0px var(--shadow-color),\n    10.3px 0px 0px var(--shadow-color), -11px 0px 0px var(--shadow-color),\n    -10.3px 0px 0px var(--shadow-color), 0px -11px 0px var(--shadow-color),\n    0px -10.3px 0px var(--shadow-color), 0px 11px 0px var(--shadow-color),\n    0px 10.3px 0px var(--shadow-color), 8px 8px 0px var(--shadow-color),\n    7.3px 7.3px 0px var(--shadow-color), 8px -8px 0px var(--shadow-color),\n    7.3px -7.3px 0px var(--shadow-color), -8px -8px 0px var(--shadow-color),\n    -7.3px -7.3px 0px var(--shadow-color), -8px 8px 0px var(--shadow-color),\n    -7.3px 7.3px 0px var(--shadow-color);\n}\n\n.switch .sun .dot::before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 10px;\n  height: 10px;\n  border-radius: 50%;\n  background: white;\n  border: 2px solid var(--color-dark);\n}\n\n/*checkbox styles */\n.switch .circle {\n  appearance: none;\n  position: relative;\n  width: 25px;\n  height: 25px;\n  border-radius: 50%;\n  left: 0;\n  background-color: var(--color-darkGray);\n  border: 1px solid var(--color-darkGray);\n  transition: var(--transition500);\n  box-shadow: 1px 1px 20px 3px var(--color-darkGray);\n}\n\n.switch:has(.circle:checked) {\n  background: var(--color-offwhite);\n}\n\n.switch .circle:hover {\n  margin-left: 3px;\n}\n.switch .circle:checked:hover {\n  margin-left: -3px;\n}\n\n.switch .circle:checked {\n  left: calc(100% - 24px);\n  background: white;\n  border-color: white;\n  box-shadow: 1px 1px 30px 12px white;\n}\n\n.switch:has(.circle:checked) > .sun {\n  opacity: 1;\n}\n\n.switch:has(.circle:checked) > .moon {\n  opacity: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

@@ -32,13 +32,16 @@ def can_render(entry: Entry) -> bool:
     return bool(entry.code) and entry.framework in RENDERABLE
 
 
-def build_srcdoc(entry: Entry) -> str | None:
+def build_srcdoc(entry: Entry, thumb: bool = False) -> str | None:
+    """thumb=True hides scrollbars, for the small card previews in the grid."""
     if not can_render(entry):
         return None
     head = ""
+    if thumb:
+        head += "<style>html { overflow: hidden; }</style>"
     if entry.framework == Framework.tailwind:
         # Relative URL works: a srcdoc document inherits the gallery page's base URL.
-        head = '<script src="/static/vendor/tailwind-browser.js"></script>'
+        head += '<script src="/static/vendor/tailwind-browser.js"></script>'
     return TEMPLATE.format(head=head, code=entry.code)
 
 

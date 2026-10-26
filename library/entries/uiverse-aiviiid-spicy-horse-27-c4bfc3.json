@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-aiviiid-spicy-horse-27-c4bfc3",
+  "title": "Toggle by AIVIIID (spicy-horse-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AIVIIID/spicy-horse-27",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AIVIIID on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/AIVIIID_spicy-horse-27.html",
+  "code": "<div class=\"toggle-switch\">\n  <input id=\"toggle-switch\" class=\"toggle-switch-checkbox\" type=\"checkbox\">\n  <label for=\"toggle-switch\" class=\"toggle-switch-label\">\n    <span class=\"toggle-switch-inner\"></span>\n    <span class=\"toggle-switch-switch\"></span>\n  </label>\n  <span class=\"toggle-switch-text\"></span>\n</div>\n\n<style>\n/* From Uiverse.io by AIVIIID - Tags: switch */\n.toggle-switch {\n  position: relative;\n  width: 90px;\n  height: 34px;\n  margin: 20px;\n}\n\n.toggle-switch input[type=\"checkbox\"] {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.toggle-switch-label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ddd;\n  border-radius: 34px;\n  cursor: pointer;\n  transition: all 0.4s ease;\n}\n\n.toggle-switch-label:before,\n.toggle-switch-label:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  margin: auto;\n}\n\n.toggle-switch-label:before {\n  left: 10px;\n  width: 26px;\n  height: 26px;\n  background-color: white;\n  border-radius: 50%;\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);\n  transition: all 0.4s ease;\n}\n\n.toggle-switch-label:after {\n  left: 0;\n  width: 46px;\n  height: 34px;\n  background-color: #fff;\n  border-radius: 34px;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n  transition: all 0.4s ease;\n}\n\n.toggle-switch-checkbox:checked + .toggle-switch-label:before {\n  transform: translateX(46px);\n}\n\n.toggle-switch-checkbox:checked + .toggle-switch-label {\n  background-color: #000000;\n}\n\n.toggle-switch-checkbox:checked + .toggle-switch-label:after {\n  transform: scale(0);\n}\n\n.toggle-switch-text {\n  position: absolute;\n  top: 5px;\n  left: 110px;\n  font-size: 16px;\n  font-weight: bold;\n  color: rgb(255, 255, 255);\n  text-shadow: 1px 1px 2px rgba(253, 251, 251, 0.2);\n  transition: all 0.4s ease;\n}\n\n.toggle-switch-checkbox:checked + .toggle-switch-label + .toggle-switch-text {\n  color: rgb(255, 255, 255);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

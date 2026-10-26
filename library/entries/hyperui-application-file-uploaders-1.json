@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-file-uploaders-1",
+  "title": "File Uploaders: Base",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/file-uploaders",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "file-uploaders",
+    "hyperui",
+    "form",
+    "input"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/file-uploaders/1.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<label class=\"block rounded border border-gray-300 p-4 text-gray-900 shadow-sm sm:p-6\" for=\"File\">\n<div class=\"flex items-center justify-center gap-4\">\n<span class=\"font-medium\"> Upload your file(s) </span>\n<svg aria-hidden=\"true\" class=\"size-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n</div>\n<input class=\"sr-only\" id=\"File\" multiple=\"\" type=\"file\"/>\n</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:42Z",
+  "updated_at": "2026-10-26T05:29:42Z"
+}

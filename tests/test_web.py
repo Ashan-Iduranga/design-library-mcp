@@ -121,3 +121,8 @@ def test_tags_and_sources_pages(client, sample_entries, temp_library):
     assert "#pricing" in client.get("/tags").text
     sources = client.get("/sources").text
     assert "<table>" in sources and "HyperUI" in sources
+
+
+def test_grid_thumbnails_hide_scrollbars_but_detail_does_not(client, sample_entries):
+    assert "overflow: hidden" in client.get("/").text
+    assert "overflow: hidden" not in client.get("/d/pricing-table-aaaaaa").text

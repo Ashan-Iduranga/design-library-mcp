@@ -6,6 +6,7 @@ Commands:
   search <q>    full-text search with optional filters
   rebuild       rebuild index.db from the JSON entries
   serve         start the web gallery on http://127.0.0.1:8000
+  import <name> import open-license components (hyperui, uiverse)
 """
 
 import argparse
@@ -98,6 +99,20 @@ def cmd_serve(args: argparse.Namespace) -> None:
     )
 
 
+def cmd_import(args: argparse.Namespace) -> None:
+    from designlib.importers import hyperui, uiverse
+    from designlib.importers.common import ImportStopped
+
+    try:
+        if args.name == "hyperui":
+            created, updated = hyperui.run(limit=args.limit, include_dark=args.dark, refresh=args.refresh)
+        else:
+            created, updated = uiverse.run(limit=args.limit, categories=split_tags(args.category), refresh=args.refresh)
+    except ImportStopped as error:
+        sys.exit(f"Import stopped: {error}")
+    print(f"Imported from {args.name}: {created} new, {updated} updated (your ratings and notes were kept).")
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="designlib", description="Your local design library.")
     commands = parser.add_subparsers(dest="command", required=True)
@@ -134,6 +149,14 @@ def build_parser() -> argparse.ArgumentParser:
     serve.add_argument("--port", type=int, default=config.PORT)
     serve.add_argument("--reload", action="store_true", help="restart when code changes (development)")
     serve.set_defaults(func=cmd_serve)
+
+    imp = commands.add_parser("import", help="import open-license components")
+    imp.add_argument("name", choices=["hyperui", "uiverse"])
+    imp.add_argument("--limit", type=int, default=60, help="max entries, spread across categories (0 = all)")
+    imp.add_argument("--dark", action="store_true", help="hyperui: also import dark variants")
+    imp.add_argument("--category", help="uiverse: only these folders, e.g. 'buttons,cards'")
+    imp.add_argument("--refresh", action="store_true", help="download the repo again")
+    imp.set_defaults(func=cmd_import)
 
     return parser
 

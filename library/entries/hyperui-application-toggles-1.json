@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-toggles-1",
+  "title": "Toggles: Base",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/toggles",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "toggles",
+    "hyperui",
+    "form",
+    "switch"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/toggles/1.html",
+  "code": "<div class=\"flex justify-center p-6\">\n<label class=\"relative block h-8 w-14 rounded-full bg-gray-300 transition-colors [-webkit-tap-highlight-color:transparent] has-checked:bg-green-500\" for=\"AcceptConditions\">\n<input class=\"peer sr-only\" id=\"AcceptConditions\" type=\"checkbox\"/>\n<span class=\"absolute inset-y-0 start-0 m-1 size-6 rounded-full bg-white transition-[inset-inline-start] peer-checked:start-6\"></span>\n</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:42Z",
+  "updated_at": "2026-10-26T05:29:42Z"
+}

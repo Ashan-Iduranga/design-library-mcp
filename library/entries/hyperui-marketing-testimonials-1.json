@@ -1,0 +1,35 @@
+{
+  "id": "hyperui-marketing-testimonials-1",
+  "title": "Testimonials: Single quote, centered",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/testimonials",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "marketing",
+    "testimonials",
+    "hyperui",
+    "quote",
+    "review",
+    "rating",
+    "social-proof"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/testimonials/1.html",
+  "code": "<div class=\"p-6\">\n<figure class=\"mx-auto max-w-2xl text-center\">\n<svg aria-hidden=\"true\" class=\"mx-auto size-8 text-indigo-600\" fill=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M7.17 6.17A5.5 5.5 0 0 0 3 11.5V18a1 1 0 0 0 1 1h6.5a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1H6.06a3.5 3.5 0 0 1 2.35-2.79 1 1 0 1 0-.62-1.9Zm10 0A5.5 5.5 0 0 0 13 11.5V18a1 1 0 0 0 1 1h6.5a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1h-4.44a3.5 3.5 0 0 1 2.35-2.79 1 1 0 1 0-.62-1.9Z\"></path>\n</svg>\n<blockquote class=\"mt-4\">\n<p class=\"text-xl font-medium text-pretty text-gray-900 sm:text-2xl\">\n          We moved our entire onboarding flow over in an afternoon. Support tickets about “how\n          do I find X” dropped by half in the first week.\n        </p>\n</blockquote>\n<figcaption class=\"mt-6 flex items-center justify-center gap-3\">\n<img alt=\"\" class=\"size-10 rounded-full object-cover\" src=\"https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&amp;fit=crop&amp;q=80&amp;w=200\"/>\n<div class=\"text-left ltr:text-left rtl:text-right\">\n<p class=\"text-sm font-medium text-gray-900\">Dana Whitfield</p>\n<p class=\"text-sm text-gray-500\">Head of Support, Loopline</p>\n</div>\n</figcaption>\n</figure>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:42Z",
+  "updated_at": "2026-10-26T05:29:42Z"
+}

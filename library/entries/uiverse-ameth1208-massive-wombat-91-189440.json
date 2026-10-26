@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ameth1208-massive-wombat-91-189440",
+  "title": "Form by Ameth1208 (massive-wombat-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Ameth1208/massive-wombat-91",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Ameth1208 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Ameth1208_massive-wombat-91.html",
+  "code": "<!-- From Uiverse.io by Ameth1208  - Website: https://tailwindflex.com/@ameth1208/login - Name: Ameth1208 - Tags: login, form, input, sign-up -->\n<div class=\"relative py-3 sm:max-w-xs sm:mx-auto\">\n  <div\n    class=\"min-h-96 px-8 py-6 mt-4 text-left bg-white dark:bg-gray-900 rounded-xl shadow-lg\"\n  >\n    <div class=\"flex flex-col justify-center items-center h-full select-none\">\n      <div class=\"flex flex-col items-center justify-center gap-2 mb-8\">\n        <div class=\"w-8 h-8 bg-gray-700\" src=\"\"></div>\n        <p class=\"m-0 text-[16px] font-semibold dark:text-white\">\n          Login to your Account\n        </p>\n        <span class=\"m-0 text-xs max-w-[90%] text-center text-[#8B8E98]\"\n          >Get started with our app, just start section and enjoy experience.\n        </span>\n      </div>\n      <div class=\"w-full flex flex-col gap-2\">\n        <label class=\"font-semibold text-xs text-gray-400\">Username</label>\n        <input\n          placeholder=\"Username\"\n          class=\"border rounded-lg px-3 py-2 mb-5 text-sm w-full outline-none dark:border-gray-500 dark:bg-gray-900\"\n        />\n      </div>\n    </div>\n    <div class=\"w-full flex flex-col gap-2\">\n      <label class=\"font-semibold text-xs text-gray-400\">Password</label>\n      <input\n        placeholder=\"••••••••\"\n        class=\"border rounded-lg px-3 py-2 mb-5 text-sm w-full outline-none dark:border-gray-500 dark:bg-gray-900\"\n        type=\"password\"\n      />\n    </div>\n    <div>\n      <button\n        class=\"py-1 px-8 bg-blue-500 hover:bg-blue-800 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg cursor-pointer select-none\"\n      >\n        Login\n      </button>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

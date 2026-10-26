@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-0x-sarthak-hungry-penguin-30-6b84a6",
+  "title": "Button by 0x-Sarthak (hungry-penguin-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/0x-Sarthak/hungry-penguin-30",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "rounded",
+    "animated",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 0x-Sarthak on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/0x-Sarthak_hungry-penguin-30.html",
+  "code": "<button class=\"cta\">\n  <span>Contact Us &nbsp;</span>\n  <svg viewBox=\"0 0 13 10\" height=\"10px\" width=\"15px\">\n    <path d=\"M1,5 L11,5\"></path>\n    <polyline points=\"8 1 12 5 8 9\"></polyline>\n  </svg>\n</button>\n\n<style>\n/* From Uiverse.io by 0x-Sarthak  - Tags: button, hover, rounded, animated, hover button */\n.cta {\n  position: relative;\n  margin: auto;\n  padding: 11.5px 18px;\n  transition: all 0.2s ease;\n  border: 3px solid #552da8;\n  border-radius: 50px;\n  background: #552da8;\n  cursor: pointer;\n}\n\n.cta:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  right: 0;\n  display: block;\n  border-radius: 50px;\n  background: white;\n  width: 45px;\n  height: 45px;\n  transition: all 0.8s ease;\n}\n\n.cta span {\n  position: relative;\n  font-family: Montserrat;\n  font-size: 18px;\n  color: white;\n  font-weight: 400;\n  letter-spacing: 0.05em;\n}\n\n.cta svg {\n  position: relative;\n  top: 0;\n  margin-left: 10px;\n  fill: none;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke: white;\n  stroke-width: 2;\n  transform: translateX(-5px);\n  transition: all 0.5s ease;\n}\n\n.cta:hover:before {\n  width: 100%;\n  background: #1c1c1c;\n}\n\n.cta:hover svg {\n  transform: translateX(0);\n  transition: all 2s ease;\n}\n\n.cta:active {\n  transform: scale(0.95);\n  transition: all 2s ease;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:49Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

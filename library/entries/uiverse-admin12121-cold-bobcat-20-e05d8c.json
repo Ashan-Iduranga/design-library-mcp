@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-admin12121-cold-bobcat-20-e05d8c",
+  "title": "Radio by Admin12121 (cold-bobcat-20)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Admin12121/cold-bobcat-20",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "simple",
+    "material-design",
+    "checkbox"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Admin12121 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Admin12121_cold-bobcat-20.html",
+  "code": "<div class=\"body\">\n  <div class=\"tabs\">\n    <input\n      checked=\"\"\n      value=\"HTML\"\n      name=\"fav_language\"\n      id=\"html\"\n      type=\"radio\"\n      class=\"input\"\n    />\n    <label for=\"html\" class=\"label\">HTML</label>\n    <input\n      value=\"CSS\"\n      name=\"fav_language\"\n      id=\"css\"\n      type=\"radio\"\n      class=\"input\"\n    />\n    <label for=\"css\" class=\"label\">CSS</label>\n    <input\n      value=\"JavaScript\"\n      name=\"fav_language\"\n      id=\"javascript\"\n      type=\"radio\"\n      class=\"input\"\n    />\n    <label for=\"javascript\" class=\"label\">JavaScript</label>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Admin12121  - Tags: simple, material design, checkbox, radio */\n.body {\n  --radius: 8px;\n  --border: 4px;\n  --height: 48px;\n  --speed: 0.25s;\n  display: grid;\n  place-items: center;\n  align-content: center;\n  font-family: \"SF Pro Text\", \"SF Pro Icons\", \"AOS Icons\", \"Helvetica Neue\",\n    Helvetica, Arial, sans-serif, system-ui;\n}\n\n.tabs {\n  height: var(--height);\n  display: grid;\n  grid-auto-flow: column;\n  background: hsl(0 0% 0%);\n  border-radius: var(--radius);\n  grid-auto-columns: 1fr;\n  position: relative;\n  border: var(--border) solid hsl(0 0% 0%);\n}\n\n.tabs {\n  --ease: linear(\n    0,\n    0.1641 3.52%,\n    0.311 7.18%,\n    0.4413 10.99%,\n    0.5553 14.96%,\n    0.6539 19.12%,\n    0.738 23.5%,\n    0.8086 28.15%,\n    0.8662 33.12%,\n    0.9078 37.92%,\n    0.9405 43.12%,\n    0.965 48.84%,\n    0.9821 55.28%,\n    0.992 61.97%,\n    0.9976 70.09%,\n    1\n  );\n}\n\n.tabs > .input,\n.sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  border-width: 0;\n}\n\n.tabs:has(:checked:nth-of-type(1)) {\n  --active: 0;\n}\n.tabs:has(:checked:nth-of-type(2)) {\n  --active: 1;\n}\n.tabs:has(:checked:nth-of-type(3)) {\n  --active: 2;\n}\n.tabs:has(:checked:nth-of-type(4)) {\n  --active: 3;\n}\n\n.tabs :checked + .label {\n  --highlight: 1;\n}\n\n.tabs:has(.input:nth-of-type(2)) {\n  --count: 2;\n}\n.tabs:has(.input:nth-of-type(3)) {\n  --count: 3;\n}\n.tabs:has(.input:nth-of-type(4)) {\n  --count: 4;\n}\n\n.tabs .label {\n  padding: 0 clamp(10px, 10px + 10px, 20px);\n  cursor: pointer;\n  text-align: center;\n  height: 100%;\n  display: grid;\n  border-radius: calc(var(--radius) - var(--border));\n  place-items: center;\n  color: hsl(0 0% 100% / calc(0.5 + var(--highlight, 0)));\n  transition: background, color;\n  transition-duration: 0.25s;\n  transition-timing-function: var(--ease, ease);\n}\n\n.input:not(:checked) + .label:hover {\n  --highlight: 0.35;\n  background: hsl(0 0% 20%);\n}\n\n.tabs::after {\n  pointer-events: none;\n  content: \"\";\n  width: calc(100% / var(--count));\n  height: 100%;\n  background: hsl(0 0% 100%);\n  position: absolute;\n  border-radius: calc(var(--radius) - var(--border));\n  mix-blend-mode: difference;\n  translate: calc(var(--active, 0) * 100%) 0;\n  transition: translate, outline-color;\n  transition-duration: var(--speed);\n  transition-timing-function: var(--ease, ease);\n  outline: 2px solid transparent;\n}\n\n.tabs:has(:focus-visible)::after {\n  outline-color: red;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

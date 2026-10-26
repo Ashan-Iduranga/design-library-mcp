@@ -101,7 +101,7 @@ class Entry(BaseModel):
     def clean_tags(cls, tags: list[str]) -> list[str]:
         cleaned: list[str] = []
         for tag in tags:
-            tag = tag.strip().lower()
+            tag = re.sub(r"\s+", "-", tag.strip().lower())  # "hover effect" -> "hover-effect"
             if tag and tag not in cleaned:
                 cleaned.append(tag)
         return cleaned

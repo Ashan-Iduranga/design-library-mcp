@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-marketing-pricing-1",
+  "title": "Pricing: Options with tier, price, features and call to action with highlighted option",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/pricing",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "marketing",
+    "pricing",
+    "hyperui",
+    "plan",
+    "subscription"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/pricing/1.html",
+  "code": "<div class=\"mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8\">\n<div class=\"grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-center md:gap-8\">\n<div class=\"rounded-2xl border border-indigo-600 p-6 shadow-xs ring-1 ring-indigo-600 sm:order-last sm:px-8 lg:p-12\">\n<div class=\"text-center\">\n<h2 class=\"text-lg font-medium text-gray-900\">\n              Pro\n              <span class=\"sr-only\">Plan</span>\n</h2>\n<p class=\"mt-2 sm:mt-4\">\n<strong class=\"text-3xl font-bold text-gray-900 sm:text-4xl\"> $30 </strong>\n<span class=\"text-sm font-medium text-gray-700\">/month</span>\n</p>\n</div>\n<ul class=\"mt-6 space-y-2\">\n<li class=\"flex items-center gap-1\">\n<svg aria-hidden=\"true\" class=\"size-5 text-indigo-700\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.5 12.75l6 6 9-13.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n<span class=\"text-gray-700\"> 20 users included </span>\n</li>\n<li class=\"flex items-center gap-1\">\n<svg aria-hidden=\"true\" class=\"size-5 text-indigo-700\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.5 12.75l6 6 9-13.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n<span class=\"text-gray-700\"> 5GB of storage </span>\n</li>\n<li class=\"flex items-center gap-1\">\n<svg aria-hidden=\"true\" class=\"size-5 text-indigo-700\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.5 12.75l6 6 9-13.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n<span class=\"text-gray-700\"> Email support </span>\n</li>\n<li class=\"flex items-center gap-1\">\n<svg aria-hidden=\"true\" class=\"size-5 text-indigo-700\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.5 12.75l6 6 9-13.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n<span class=\"text-gray-700\"> Help center access </span>\n</li>\n<li class=\"flex items-center gap-1\">\n<svg aria-hidden=\"true\" class=\"size-5 text-indigo-700\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.5 12.75l6 6 9-13.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n<span class=\"text-gray-700\"> Phone support </span>\n</li>\n<li class=\"flex items-center gap-1\">\n<svg aria-hidden=\"true\" class=\"size-5 text-indigo-700\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.5 12.75l6 6 9-13.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n<span class=\"text-gray-700\"> Community access </span>\n</li>\n</ul>\n<a class=\"mt-8 block rounded-full border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-indigo-700 hover:ring-1 hover:ring-indigo-700\" href=\"#\">\n            Get Started\n          </a>\n</div>\n<div class=\"rounded-2xl border border-gray-200 p-6 shadow-xs sm:px-8 lg:p-12\">\n<div class=\"text-center\">\n<h2 class=\"text-lg font-medium text-gray-900\">\n              Starter\n              <span class=\"sr-only\">Plan</span>\n</h2>\n<p class=\"mt-2 sm:mt-4\">\n<strong class=\"text-3xl font-bold text-gray-900 sm:text-4xl\"> $20 </strong>\n<span class=\"text-sm font-medium text-gray-700\">/month</span>\n</p>\n</div>\n<ul class=\"mt-6 space-y-2\">\n<li class=\"flex items-center gap-1\">\n<svg aria-hidden=\"true\" class=\"size-5 text-indigo-700\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.5 12.75l6 6 9-13.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n<span class=\"text-gray-700\"> 10 users included </span>\n</li>\n<li class=\"flex items-center gap-1\">\n<svg aria-hidden=\"true\" class=\"size-5 text-indigo-700\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.5 12.75l6 6 9-13.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n<span class=\"text-gray-700\"> 2GB of storage </span>\n</li>\n<li class=\"flex items-center gap-1\">\n<svg aria-hidden=\"true\" class=\"size-5 text-indigo-700\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.5 12.75l6 6 9-13.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n<span class=\"text-gray-700\"> Email support </span>\n</li>\n<li class=\"flex items-center gap-1\">\n<svg aria-hidden=\"true\" class=\"size-5 text-indigo-700\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.5 12.75l6 6 9-13.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n<span class=\"text-gray-700\"> Help center access </span>\n</li>\n</ul>\n<a class=\"mt-8 block rounded-full border border-indigo-600 bg-white px-12 py-3 text-center text-sm font-medium text-indigo-600 hover:ring-1 hover:ring-indigo-600\" href=\"#\">\n            Get Started\n          </a>\n</div>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:42Z",
+  "updated_at": "2026-10-26T05:29:42Z"
+}

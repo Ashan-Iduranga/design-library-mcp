@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-3bdel3ziz-t-gentle-vampirebat-46-7a054e",
+  "title": "Radio by 3bdel3ziz-T (gentle-vampirebat-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/3bdel3ziz-T/gentle-vampirebat-46",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "simple",
+    "minimalist",
+    "input",
+    "dark",
+    "light",
+    "custom",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 3bdel3ziz-T on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/3bdel3ziz-T_gentle-vampirebat-46.html",
+  "code": "<div class=\"select\">\n  <div\n    class=\"selected\"\n    data-default=\"All\"\n    data-one=\"option-1\"\n    data-two=\"option-2\"\n    data-three=\"option-3\"\n  >\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      height=\"1em\"\n      viewBox=\"0 0 512 512\"\n      class=\"arrow\"\n    >\n      <path\n        d=\"M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z\"\n      ></path>\n    </svg>\n  </div>\n  <div class=\"options\">\n    <div title=\"all\">\n      <input id=\"all\" name=\"option\" type=\"radio\" checked=\"\" />\n      <label class=\"option\" for=\"all\" data-txt=\"All\"></label>\n    </div>\n    <div title=\"option-1\">\n      <input id=\"option-1\" name=\"option\" type=\"radio\" />\n      <label class=\"option\" for=\"option-1\" data-txt=\"option-1\"></label>\n    </div>\n    <div title=\"option-2\">\n      <input id=\"option-2\" name=\"option\" type=\"radio\" />\n      <label class=\"option\" for=\"option-2\" data-txt=\"option-2\"></label>\n    </div>\n    <div title=\"option-3\">\n      <input id=\"option-3\" name=\"option\" type=\"radio\" />\n      <label class=\"option\" for=\"option-3\" data-txt=\"option-3\"></label>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by 3bdel3ziz-T  - Tags: simple, minimalist, input, dark, light, radio, custom, css */\n.select {\n  width: fit-content;\n  cursor: pointer;\n  position: relative;\n  transition: 300ms;\n  color: white;\n  overflow: hidden;\n}\n\n.selected {\n  background-color: #2a2f3b;\n  padding: 5px;\n  margin-bottom: 3px;\n  border-radius: 5px;\n  position: relative;\n  z-index: 100000;\n  font-size: 15px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\n.arrow {\n  position: relative;\n  right: 0px;\n  height: 10px;\n  transform: rotate(-90deg);\n  width: 25px;\n  fill: white;\n  z-index: 100000;\n  transition: 300ms;\n}\n\n.options {\n  display: flex;\n  flex-direction: column;\n  border-radius: 5px;\n  padding: 5px;\n  background-color: #2a2f3b;\n  position: relative;\n  top: -100px;\n  opacity: 0;\n  transition: 300ms;\n}\n\n.select:hover > .options {\n  opacity: 1;\n  top: 0;\n}\n\n.select:hover > .selected .arrow {\n  transform: rotate(0deg);\n}\n\n.option {\n  border-radius: 5px;\n  padding: 5px;\n  transition: 300ms;\n  background-color: #2a2f3b;\n  width: 150px;\n  font-size: 15px;\n}\n.option:hover {\n  background-color: #323741;\n}\n\n.options input[type=\"radio\"] {\n  display: none;\n}\n\n.options label {\n  display: inline-block;\n}\n.options label::before {\n  content: attr(data-txt);\n}\n\n.options input[type=\"radio\"]:checked + label {\n  display: none;\n}\n\n.options input[type=\"radio\"]#all:checked + label {\n  display: none;\n}\n\n.select:has(.options input[type=\"radio\"]#all:checked) .selected::before {\n  content: attr(data-default);\n}\n.select:has(.options input[type=\"radio\"]#option-1:checked) .selected::before {\n  content: attr(data-one);\n}\n.select:has(.options input[type=\"radio\"]#option-2:checked) .selected::before {\n  content: attr(data-two);\n}\n.select:has(.options input[type=\"radio\"]#option-3:checked) .selected::before {\n  content: attr(data-three);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

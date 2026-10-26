@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-abanoubmagdy1-fluffy-octopus-90-1987a2",
+  "title": "Toggle by AbanoubMagdy1 (fluffy-octopus-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AbanoubMagdy1/fluffy-octopus-90",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "flip"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AbanoubMagdy1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/AbanoubMagdy1_fluffy-octopus-90.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <div class=\"slider\"></div>\n  <div class=\"slider-card\">\n    <div class=\"slider-card-face slider-card-front\"></div>\n    <div class=\"slider-card-face slider-card-back\"></div>\n  </div>\n</label>\n<style>\n/* From Uiverse.io by AbanoubMagdy1 - Tags: switch, flip */\n.switch {\n  --circle-dim: 1.4em;\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #f5aeae;\n  transition: .4s;\n  border-radius: 30px;\n}\n\n.slider-card {\n  position: absolute;\n  content: \"\";\n  height: var(--circle-dim);\n  width: var(--circle-dim);\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  transition: .4s;\n  pointer-events: none;\n}\n\n.slider-card-face {\n  position: absolute;\n  inset: 0;\n  backface-visibility: hidden;\n  perspective: 1000px;\n  border-radius: 50%;\n  transition: .4s transform;\n}\n\n.slider-card-front {\n  background-color: #DC3535;\n}\n\n.slider-card-back {\n  background-color: #379237;\n  transform: rotateY(180deg);\n}\n\ninput:checked ~ .slider-card .slider-card-back {\n  transform: rotateY(0);\n}\n\ninput:checked ~ .slider-card .slider-card-front {\n  transform: rotateY(-180deg);\n}\n\ninput:checked ~ .slider-card {\n  transform: translateX(1.5em);\n}\n\ninput:checked ~ .slider {\n  background-color: #9ed99c;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

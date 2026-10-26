@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-ahmed-mit-dry-wolverine-85-91431b",
+  "title": "Loader by AHMED-MIT (dry-wolverine-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AHMED-MIT/dry-wolverine-85",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "accept",
+    "account"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AHMED-MIT on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/AHMED-MIT_dry-wolverine-85.html",
+  "code": "<div class=\"spinner\">\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n</div>\n<style>\n/* From Uiverse.io by AHMED-MIT - Tags: loader, accept, account */\n.spinner {\n  position: relative;\n  width: 33.6px;\n  height: 33.6px;\n  perspective: 67.2px;\n}\n\n.spinner div {\n  width: 100%;\n  height: 100%;\n  background: #474bff;\n  position: absolute;\n  left: 50%;\n  transform-origin: left;\n  animation: spinner-16s03x 2s infinite;\n}\n\n.spinner div:nth-child(1) {\n  animation-delay: 0.15s;\n}\n\n.spinner div:nth-child(2) {\n  animation-delay: 0.3s;\n}\n\n.spinner div:nth-child(3) {\n  animation-delay: 0.45s;\n}\n\n.spinner div:nth-child(4) {\n  animation-delay: 0.6s;\n}\n\n.spinner div:nth-child(5) {\n  animation-delay: 0.75s;\n}\n\n@keyframes spinner-16s03x {\n  0% {\n    transform: rotateY(0deg);\n  }\n\n  50%, 80% {\n    transform: rotateY(-180deg);\n  }\n\n  90%, 100% {\n    opacity: 0;\n    transform: rotateY(-180deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

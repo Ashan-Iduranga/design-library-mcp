@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-alaner-xs-white-parrot-57-36c0c8",
+  "title": "Checkbox by Alaner-xs (white-parrot-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Alaner-xs/white-parrot-57",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Alaner-xs on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Alaner-xs_white-parrot-57.html",
+  "code": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n<style>\n/* From Uiverse.io by Alaner-xs - Tags: checkbox */\n/* Hide the default checkbox */\n.container input {\n position: absolute;\n opacity: 0;\n cursor: pointer;\n height: 0;\n width: 0;\n}\n\n.container {\n display: block;\n position: relative;\n cursor: pointer;\n font-size: 20px;\n user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n position: relative;\n top: 0;\n left: 0;\n height: 1.3em;\n width: 1.3em;\n background-color: #ccc;\n border-bottom-left-radius: 15px;\n border-top-right-radius: 15px;\n box-shadow: 0px 0px 17px #c7bbb8;\n}\n\n/* When the checkbox is checked, add a blue background */\n.container input:checked ~ .checkmark {\n background-color: #f34b21;\n box-shadow: 0px 0px 17px #f34b21;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n content: \"\";\n position: absolute;\n display: none;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n display: block;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n left: 0.45em;\n top: 0.25em;\n width: 0.25em;\n height: 0.5em;\n border: solid rgb(233, 222, 222);\n border-width: 0 0.15em 0.15em 0;\n transform: rotate(45deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

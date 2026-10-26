@@ -1,0 +1,36 @@
+{
+  "id": "hyperui-application-charts-1",
+  "title": "Charts: Line chart with filled area and range toggle",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/charts",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "charts",
+    "hyperui",
+    "chart",
+    "graph",
+    "analytics",
+    "dashboard",
+    "data-visualization"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/charts/1.html",
+  "code": "<div class=\"mx-auto max-w-lg p-6\">\n<div class=\"rounded-lg border border-gray-200 bg-white p-6\">\n<div class=\"flex items-center justify-between\">\n<h2 class=\"text-sm font-medium text-gray-900\">Monthly revenue</h2>\n<div class=\"inline-flex rounded-md border border-gray-200 p-0.5 text-xs font-medium\">\n<button aria-pressed=\"true\" class=\"rounded-sm bg-gray-100 px-2 py-1 text-gray-900\" data-revenue-range=\"6m\" type=\"button\">\n            6M\n          </button>\n<button aria-pressed=\"false\" class=\"rounded-sm px-2 py-1 text-gray-600\" data-revenue-range=\"12m\" type=\"button\">\n            12M\n          </button>\n</div>\n</div>\n<div class=\"mt-4 h-64\">\n<canvas aria-label=\"Monthly revenue, line chart\" id=\"revenue-line-chart\" role=\"img\"></canvas>\n</div>\n<table aria-live=\"polite\" class=\"sr-only\" id=\"revenue-line-chart-table\">\n<caption>\n          Monthly revenue by month\n        </caption>\n<thead>\n<tr>\n<th scope=\"col\">Month</th>\n<th scope=\"col\">Revenue</th>\n</tr>\n</thead>\n<tbody></tbody>\n</table>\n</div>\n<script src=\"https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js\"></script>\n<script>\n      const revenueLineChartCanvas = document.getElementById('revenue-line-chart')\n      const revenueLineChartTableBody = document.querySelector('#revenue-line-chart-table tbody')\n      const revenueRangeButtons = document.querySelectorAll('[data-revenue-range]')\n\n      const revenueRangesByPeriod = {\n        '6m': {\n          labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],\n          values: [28000, 34000, 31000, 39000, 42000, 48000],\n        },\n        '12m': {\n          labels: [\n            'Jul',\n            'Aug',\n            'Sep',\n            'Oct',\n            'Nov',\n            'Dec',\n            'Jan',\n            'Feb',\n            'Mar',\n            'Apr',\n            'May',\n            'Jun',\n          ],\n          values: [\n            19000, 21500, 20000, 23500, 25000, 27000, 28000, 34000, 31000, 39000, 42000, 48000,\n          ],\n        },\n      }\n\n      const chartCanvasContext = revenueLineChartCanvas.getContext('2d')\n      const revenueFillGradient = chartCanvasContext.createLinearGradient(0, 0, 0, 256)\n\n      revenueFillGradient.addColorStop(0, 'rgba(79, 70, 229, 0.25)')\n      revenueFillGradient.addColorStop(1, 'rgba(79, 70, 229, 0)')\n\n      const revenueLineChart = new Chart(revenueLineChartCanvas, {\n        type: 'line',\n        data: {\n          labels: revenueRangesByPeriod['6m'].labels,\n          datasets: [\n            {\n              label: 'Revenue',\n              data: revenueRangesByPeriod['6m'].values,\n              borderColor: '#4f46e5',\n              backgroundColor: revenueFillGradient,\n              borderWidth: 2,\n              pointRadius: 0,\n              pointHoverRadius: 5,\n              pointHoverBackgroundColor: '#4f46e5',\n              pointHoverBorderColor: '#ffffff',\n              pointHoverBorderWidth: 2,\n              tension: 0.35,\n              fill: true,\n            },\n          ],\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: false,\n          interaction: {\n            mode: 'index',\n            intersect: false,\n          },\n          plugins: {\n            legend: { display: false },\n            tooltip: {\n              callbacks: {\n                label: (tooltipItem) => `$${tooltipItem.formattedValue}`,\n              },\n            },\n          },\n          scales: {\n            x: {\n              grid: { display: false },\n              ticks: { color: '#4b5563' },\n            },\n            y: {\n              beginAtZero: true,\n              grid: { color: '#e5e7eb' },\n              ticks: {\n                color: '#4b5563',\n                callback: (tickValue) => `$${Number(tickValue) / 1000}k`,\n              },\n            },\n          },\n        },\n      })\n\n      function renderRevenueTableRows(selectedRange) {\n        const { labels, values } = revenueRangesByPeriod[selectedRange]\n\n        revenueLineChartTableBody.innerHTML = labels\n          .map(\n            (monthLabel, monthIndex) => `\n              <tr>\n                <th scope=\"row\">${monthLabel}</th>\n                <td>$${values[monthIndex].toLocaleString()}</td>\n              </tr>\n            `,\n          )\n          .join('')\n      }\n\n      renderRevenueTableRows('6m')\n\n      revenueRangeButtons.forEach((revenueRangeButton) => {\n        revenueRangeButton.addEventListener('click', () => {\n          const selectedRange = revenueRangeButton.dataset.revenueRange\n\n          revenueRangeButtons.forEach((otherRangeButton) => {\n            const isSelectedButton = otherRangeButton === revenueRangeButton\n\n            otherRangeButton.setAttribute('aria-pressed', String(isSelectedButton))\n            otherRangeButton.classList.toggle('bg-gray-100', isSelectedButton)\n            otherRangeButton.classList.toggle('text-gray-900', isSelectedButton)\n            otherRangeButton.classList.toggle('text-gray-600', !isSelectedButton)\n          })\n\n          revenueLineChart.data.labels = revenueRangesByPeriod[selectedRange].labels\n          revenueLineChart.data.datasets[0].data = revenueRangesByPeriod[selectedRange].values\n          revenueLineChart.update()\n\n          renderRevenueTableRows(selectedRange)\n        })\n      })\n    </script>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:42Z",
+  "updated_at": "2026-10-26T05:29:42Z"
+}

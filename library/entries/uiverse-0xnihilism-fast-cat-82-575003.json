@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-0xnihilism-fast-cat-82-575003",
+  "title": "Button by 0xnihilism (fast-cat-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/0xnihilism/fast-cat-82",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "microsoft",
+    "animated",
+    "brutalism",
+    "brutalist",
+    "glare-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 0xnihilism on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/0xnihilism_fast-cat-82.html",
+  "code": "<a class=\"brutalist-button\" href=\"/\">\n  <div class=\"ms-logo\">\n    <div class=\"ms-logo-square\"></div>\n    <div class=\"ms-logo-square\"></div>\n    <div class=\"ms-logo-square\"></div>\n    <div class=\"ms-logo-square\"></div>\n  </div>\n  <div class=\"button-text\">\n    <span>Get it from</span>\n    <span>Microsoft</span>\n  </div>\n</a>\n\n<style>\n/* From Uiverse.io by 0xnihilism  - Tags: button, microsoft, animated, brutalism, brutalist, glare effect */\n.brutalist-button {\n  display: flex;\n  align-items: center;\n  width: 169px;\n  height: 60px;\n  background-color: #000;\n  color: #fff;\n  text-decoration: none;\n  font-family: Arial, sans-serif;\n  font-weight: bold;\n  border: 3px solid #fff;\n  outline: 3px solid #000;\n  box-shadow: 6px 6px 0 #00a4ef;\n  transition: all 0.1s ease-out;\n  padding: 0 15px;\n  box-sizing: border-box;\n  position: relative;\n  overflow: hidden;\n}\n\n.brutalist-button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: -100%;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n    90deg,\n    transparent,\n    rgba(255, 255, 255, 0.8),\n    transparent\n  );\n  z-index: 1;\n  transition: none;\n  /* Initially hide the pseudo-element */\n  opacity: 0;\n}\n\n@keyframes slide {\n  0% {\n    left: -100%;\n  }\n  100% {\n    left: 100%;\n  }\n}\n\n.brutalist-button:hover::before {\n  /* Show the pseudo-element on hover */\n  opacity: 1;\n  animation: slide 2s infinite;\n}\n\n.brutalist-button:hover {\n  transform: translate(-4px, -4px);\n  box-shadow: 10px 10px 0 #000;\n  background-color: #000;\n  color: #fff;\n}\n\n@keyframes slide {\n  0% {\n    left: -100%;\n  }\n  100% {\n    left: 100%;\n  }\n}\n\n.brutalist-button:active {\n  transform: translate(4px, 4px);\n  box-shadow: 0px 0px 0 #00a4ef;\n  background-color: #fff;\n  color: #000;\n  border-color: #000;\n}\n\n/* Rest of the CSS remains the same */\n\n.ms-logo {\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  gap: 1px;\n  width: 26px;\n  height: 26px;\n  margin-right: 8px;\n  flex-shrink: 0;\n  transition: transform 0.2s ease-out;\n  position: relative;\n  z-index: 1;\n}\n\n.brutalist-button:hover .ms-logo {\n  transform: rotate(-10deg) scale(1.1);\n}\n\n.brutalist-button:active .ms-logo {\n  transform: rotate(10deg) scale(0.9);\n}\n\n.ms-logo-square {\n  width: 100%;\n  height: 100%;\n}\n\n.ms-logo-square:nth-child(1) {\n  background-color: #f25022;\n}\n.ms-logo-square:nth-child(2) {\n  background-color: #7fba00;\n}\n.ms-logo-square:nth-child(3) {\n  background-color: #00a4ef;\n}\n.ms-logo-square:nth-child(4) {\n  background-color: #ffb900;\n}\n\n.button-text {\n  display: flex;\n  flex-direction: column;\n  line-height: 1.2;\n  transition: transform 0.2s ease-out;\n  position: relative;\n  z-index: 1;\n}\n\n.brutalist-button:hover .button-text {\n  transform: skew(-5deg);\n}\n\n.brutalist-button:active .button-text {\n  transform: skew(5deg);\n}\n\n.button-text span:first-child {\n  font-size: 11px;\n  text-transform: uppercase;\n}\n\n.button-text span:last-child {\n  font-size: 16px;\n  text-transform: uppercase;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:49Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

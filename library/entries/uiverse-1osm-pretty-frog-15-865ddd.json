@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-1osm-pretty-frog-15-865ddd",
+  "title": "Input by 1osm (pretty-frog-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/1osm/pretty-frog-15",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "message",
+    "send"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 1osm on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/1osm_pretty-frog-15.html",
+  "code": "<div class=\"Message\">\n  <input title=\"Write Message\" tabindex=\"i\" pattern=\"\\d+\" placeholder=\"Message..\" class=\"MsgInput\" type=\"text\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.0\" width=\"30.000000pt\" height=\"30.000000pt\" viewBox=\"0 0 30.000000 30.000000\" preserveAspectRatio=\"xMidYMid meet\" class=\"SendSVG\">\n  <g transform=\"translate(0.000000,30.000000) scale(0.100000,-0.100000)\" fill=\"#ffffff70\" stroke=\"none\">\n  <path d=\"M44 256 c-3 -8 -4 -29 -2 -48 3 -31 5 -33 56 -42 28 -5 52 -13 52 -16 0 -3 -24 -11 -52 -16 -52 -9 -53 -9 -56 -48 -2 -21 1 -43 6 -48 10 -10 232 97 232 112 0 7 -211 120 -224 120 -4 0 -9 -6 -12 -14z\"></path>\n  </g>\n</svg><span class=\"l\"></span>\n  \n</div>\n<style>\n/* From Uiverse.io by 1osm - Tags: input, message, send */\n.Message {\n  width: 310px;\n  height: 40px;\n  border-radius: 10px;\n  background-color: #40414f;\n  transform: translate(0px,0px);\n  box-shadow: 5px 5px #34343f;\n}\n\n.MsgInput {\n  font-size: 18px;\n  border-radius: 5px;\n  background-color: #40414f;\n  border: none;\n  outline: none;\n  width: 250px;\n  height: 30px;\n  transform: translate(5px,-3px);\n  color: white;\n  padding: 10px;\n  font-weight: bold;\n}\n\n.SendSVG {\n  width: 30px;\n  height: 30px;\n  border-width: 50px;\n  transform: translate(20px,5px);\n  background-size: 10px;\n  border-radius: 10px;\n  transition: 0.3s;\n}\n\n.SendSVG:hover {\n  background-color: #2b2b35;\n}\n\n.l {\n  position: absolute;\n  width: 1%;\n  height: 30px;\n  background-color: #2e2f38;\n  transform: translate(-20px,5px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

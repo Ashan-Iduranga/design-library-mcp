@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cksunandh-purple-zebra-43-12d0f1",
+  "title": "Form by Cksunandh (purple-zebra-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cksunandh/purple-zebra-43",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cksunandh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Cksunandh_purple-zebra-43.html",
+  "code": "<div class=\"file-upload-container\">\n  <div class=\"file-upload\">\n    <input multiple=\"\" class=\"file-input\" id=\"fileInput\" type=\"file\" />\n    <label class=\"file-label\" for=\"fileInput\">\n      <i class=\"upload-icon\">📁</i>\n      <p>Drag &amp; Drop your files here or click to upload</p>\n    </label>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Cksunandh  - Tags: form */\n.file-upload-container {\n  width: 50%;\n  max-width: 500px;\n}\n\n.file-upload {\n  position: relative;\n  border: 2px dashed #b8bcbf;\n  border-radius: 10px;\n  padding: 40px;\n  text-align: center;\n  background-color: rgb(255, 255, 255);\n  transition: background-color 0.3s ease-in-out;\n}\n\n.file-upload:hover {\n  background-color: #e2e6ea;\n}\n\n.file-input {\n  display: none;\n}\n\n.file-label {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  cursor: pointer;\n}\n\n.upload-icon {\n  font-size: 50px;\n  color: #007bff;\n  margin-bottom: 10px;\n}\n\n.file-upload p {\n  margin: 0;\n  font-size: 16px;\n  color: #6c757d;\n}\n\n.file-upload.dragover {\n  background-color: #007bff;\n  color: white;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

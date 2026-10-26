@@ -6,8 +6,8 @@ from designlib.core.schema import new_id, slugify
 
 
 def test_tags_are_cleaned():
-    entry = make_entry(tags=[" Card ", "card", "Hero", ""])
-    assert entry.tags == ["card", "hero"]
+    entry = make_entry(tags=[" Card ", "card", "Hero", "", "hover  effect"])
+    assert entry.tags == ["card", "hero", "hover-effect"]
 
 
 def test_code_requires_open_license():

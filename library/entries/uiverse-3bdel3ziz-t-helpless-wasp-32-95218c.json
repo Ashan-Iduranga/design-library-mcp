@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-3bdel3ziz-t-helpless-wasp-32-95218c",
+  "title": "Form by 3bdel3ziz-T (helpless-wasp-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/3bdel3ziz-T/helpless-wasp-32",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "material-design",
+    "tooltip",
+    "text-animation",
+    "click-animation",
+    "cool-card",
+    "cardhover",
+    "card-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 3bdel3ziz-T on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/3bdel3ziz-T_helpless-wasp-32.html",
+  "code": "<section class=\"add-card page\">\n  <form class=\"form\">\n    <label for=\"name\" class=\"label\">\n      <span class=\"title\">Card holder full name</span>\n      <input\n        class=\"input-field\"\n        type=\"text\"\n        name=\"input-name\"\n        title=\"Input title\"\n        placeholder=\"Enter your full name\"\n      />\n    </label>\n    <label for=\"serialCardNumber\" class=\"label\">\n      <span class=\"title\">Card Number</span>\n      <input\n        id=\"serialCardNumber\"\n        class=\"input-field\"\n        type=\"number\"\n        name=\"input-name\"\n        title=\"Input title\"\n        placeholder=\"0000 0000 0000 0000\"\n      />\n    </label>\n    <div class=\"split\">\n      <label for=\"ExDate\" class=\"label\">\n        <span class=\"title\">Expiry Date</span>\n        <input\n          id=\"ExDate\"\n          class=\"input-field\"\n          type=\"text\"\n          name=\"input-name\"\n          title=\"Expiry Date\"\n          placeholder=\"01/23\"\n        />\n      </label>\n      <label for=\"cvv\" class=\"label\">\n        <span class=\"title\"> CVV</span>\n        <input\n          id=\"cvv\"\n          class=\"input-field\"\n          type=\"number\"\n          name=\"cvv\"\n          title=\"CVV\"\n          placeholder=\"CVV\"\n        />\n      </label>\n    </div>\n    <input class=\"checkout-btn\" type=\"button\" value=\"Checkout\" />\n  </form>\n</section>\n\n<style>\n/* From Uiverse.io by 3bdel3ziz-T  - Tags: material design, tooltip, form, text animation, click animation, cool card, cardhover , card animation */\n.form {\n  background: #0c0f14;\n  box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01),\n    0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09),\n    0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);\n  width: 320px;\n  display: flex;\n  flex-direction: column;\n  gap: 15px;\n  padding: 20px;\n  position: relative;\n  border-radius: 25px;\n}\n.form .label {\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  height: -moz-fit-content;\n  height: fit-content;\n}\n.form .label:has(input:focus) .title {\n  top: 0;\n  left: 0;\n  color: #d17842;\n}\n.form .label .title {\n  padding: 0 10px;\n  transition: all 300ms;\n  font-size: 12px;\n  color: #8b8e98;\n  font-weight: 600;\n  width: -moz-fit-content;\n  width: fit-content;\n  top: 14px;\n  position: relative;\n  left: 15px;\n  background: #0c0f14;\n}\n.form .input-field {\n  width: auto;\n  height: 50px;\n  text-indent: 15px;\n  border-radius: 15px;\n  outline: none;\n  background-color: transparent;\n  border: 1px solid #21262e;\n  transition: all 0.3s;\n  caret-color: #d17842;\n  color: #aeaeae;\n}\n\n.form .input-field:hover {\n  border-color: rgba(209, 121, 66, 0.5);\n}\n\n.form .input-field:focus {\n  border-color: #d17842;\n}\n.form .split {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  width: 100%;\n  gap: 15px;\n}\n.form .split label {\n  width: 130px;\n}\n.form .checkout-btn {\n  margin-top: 20px;\n  padding: 20px 0;\n  border-radius: 25px;\n  font-weight: 700;\n  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);\n  cursor: pointer;\n  font-size: 20px;\n  font-weight: 500;\n  display: flex;\n  align-items: center;\n  border: none;\n  justify-content: center;\n  fill: #fff;\n  color: #fff;\n  border: 2px solid transparent;\n  background: #d17842;\n  transition: all 200ms;\n}\n.form .checkout-btn:active {\n  scale: 0.95;\n}\n\n.form .checkout-btn:hover {\n  color: #d17842;\n  border: 2px solid #d17842;\n  background: transparent;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

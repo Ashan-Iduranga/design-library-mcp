@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-0xnihilism-calm-baboon-55-9850e3",
+  "title": "Input by 0xnihilism (calm-baboon-55)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/0xnihilism/calm-baboon-55",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple",
+    "smooth",
+    "flip",
+    "hover-button",
+    "brutalist"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 0xnihilism on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/0xnihilism_calm-baboon-55.html",
+  "code": "<div class=\"brutalist-container\">\n  <input\n    placeholder=\"TYPE HERE\"\n    class=\"brutalist-input smooth-type\"\n    type=\"text\"\n  />\n  <label class=\"brutalist-label\">SMOOTH BRUTALIST</label>\n</div>\n\n<style>\n/* From Uiverse.io by 0xnihilism  - Tags: simple, input, smooth, flip, hover button, brutalist */\n.brutalist-container {\n  position: relative;\n  width: 250px;\n  font-family: monospace;\n}\n\n.brutalist-input {\n  width: 100%;\n  padding: 15px;\n  font-size: 18px;\n  font-weight: bold;\n  color: #000;\n  background-color: #fff;\n  border: 4px solid #000;\n  position: relative;\n  overflow: hidden;\n  border-radius: 0;\n  outline: none;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n  box-shadow: 5px 5px 0 #000, 10px 10px 0 #4a90e2;\n}\n\n@keyframes glitch {\n  0% {\n    transform: translate(0);\n  }\n  20% {\n    transform: translate(-2px, 2px);\n  }\n  40% {\n    transform: translate(-2px, -2px);\n  }\n  60% {\n    transform: translate(2px, 2px);\n  }\n  80% {\n    transform: translate(2px, -2px);\n  }\n  100% {\n    transform: translate(0);\n  }\n}\n\n.brutalist-input:focus {\n  animation: focus-pulse 4s cubic-bezier(0.25, 0.8, 0.25, 1) infinite,\n    glitch 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) infinite;\n}\n\n.brutalist-input:focus::after {\n  content: \"\";\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  right: -2px;\n  bottom: -2px;\n  background: white;\n  z-index: -1;\n}\n\n.brutalist-input:focus::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: black;\n  z-index: -2;\n  clip-path: inset(0 100% 0 0);\n  animation: glitch-slice 4s steps(2, end) infinite;\n}\n\n@keyframes glitch-slice {\n  0% {\n    clip-path: inset(0 100% 0 0);\n  }\n  10% {\n    clip-path: inset(0 5% 0 0);\n  }\n  20% {\n    clip-path: inset(0 80% 0 0);\n  }\n  30% {\n    clip-path: inset(0 10% 0 0);\n  }\n  40% {\n    clip-path: inset(0 50% 0 0);\n  }\n  50% {\n    clip-path: inset(0 30% 0 0);\n  }\n  60% {\n    clip-path: inset(0 70% 0 0);\n  }\n  70% {\n    clip-path: inset(0 15% 0 0);\n  }\n  80% {\n    clip-path: inset(0 90% 0 0);\n  }\n  90% {\n    clip-path: inset(0 5% 0 0);\n  }\n  100% {\n    clip-path: inset(0 100% 0 0);\n  }\n}\n\n.brutalist-label {\n  position: absolute;\n  left: -3px;\n  top: -35px;\n  font-size: 14px;\n  font-weight: bold;\n  color: #fff;\n  background-color: #000;\n  padding: 5px 10px;\n  transform: rotate(-1deg);\n  z-index: 1;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\n.brutalist-input:focus + .brutalist-label {\n  transform: rotate(0deg) scale(1.05);\n  background-color: #4a90e2;\n}\n\n.smooth-type {\n  position: relative;\n  overflow: hidden;\n}\n\n.smooth-type::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);\n  z-index: 1;\n  opacity: 0;\n  transition: opacity 0.3s ease;\n}\n\n.smooth-type:focus::before {\n  opacity: 1;\n  animation: type-gradient 2s linear infinite;\n}\n\n@keyframes type-gradient {\n  0% {\n    background-position: 300px 0;\n  }\n  100% {\n    background-position: 0 0;\n  }\n}\n\n.brutalist-input::placeholder {\n  color: #888;\n  transition: color 0.3s ease;\n}\n\n.brutalist-input:focus::placeholder {\n  color: transparent;\n}\n\n.brutalist-input:focus {\n  animation: focus-pulse 4s cubic-bezier(0.25, 0.8, 0.25, 1) infinite;\n}\n\n@keyframes focus-pulse {\n  0%,\n  100% {\n    border-color: #000;\n  }\n  50% {\n    border-color: #4a90e2;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

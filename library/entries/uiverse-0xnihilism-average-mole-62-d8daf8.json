@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-0xnihilism-average-mole-62-d8daf8",
+  "title": "Card by 0xnihilism (average-mole-62)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/0xnihilism/average-mole-62",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "3d",
+    "clean",
+    "brutalism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 0xnihilism on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/0xnihilism_average-mole-62.html",
+  "code": "<div class=\"card\">\n  <div class=\"banner\">\n    <span class=\"banner-text\">SUBSCRIBE</span>\n    <span class=\"banner-text\">JOIN US</span>\n  </div>\n  <span class=\"card__title\">Nihilism</span>\n  <p class=\"card__subtitle\">Get fresh void to your inbox every week.</p>\n  <form class=\"card__form\">\n    <input placeholder=\"Your Email\" type=\"email\" required=\"\" />\n    <button class=\"sign-up\">Sign up</button>\n  </form>\n</div>\n\n<style>\n/* From Uiverse.io by 0xnihilism  - Tags: 3d, card, clean, Brutalism */\n.card {\n  width: 320px;\n  padding: 30px;\n  background: #fff;\n  border: 8px solid #000;\n  box-shadow: 15px 15px 0 #000;\n  transform: rotate(-2deg);\n  transition: all 0.3s ease;\n  position: relative;\n  overflow: hidden;\n}\n.card:active {\n  animation: shake 0.5s ease-in-out;\n}\n.card:hover {\n  transform: rotate(0deg) scale(1.02);\n  box-shadow: 20px 20px 0 #000;\n}\n.banner {\n  position: absolute;\n  top: 3px;\n  right: -95px;\n  background: #000;\n  color: #fff;\n  padding: 15px;\n  width: 350px;\n  text-align: center;\n  transform: rotate(45deg);\n  font-weight: bold;\n  font-size: 18px;\n  letter-spacing: 2px;\n  overflow: hidden;\n  transition: background 0.5s ease;\n}\n.banner-text {\n  display: inline-block;\n  transition: opacity 0.5s ease, transform 0.5s ease;\n  width: 100%;\n  position: absolute;\n  left: 13%;\n  top: 50%;\n  transform: translateY(-50%);\n}\n.banner:hover .banner-text:first-child {\n  opacity: 0;\n  transform: translateY(-100%);\n}\n.banner:hover .banner-text:last-child {\n  opacity: 1;\n  transform: translateY(-40%);\n}\n.banner-text:last-child {\n  opacity: 0;\n  transform: translateY(60%);\n}\n.banner:hover {\n  background: red;\n}\n.card__title {\n  font-size: 24px;\n  font-weight: 700;\n  color: #000;\n  text-transform: uppercase;\n  margin-bottom: 10px;\n  display: block;\n  border-bottom: 2px solid #000;\n  width: 50%; /* or any other percentage or pixel value */\n}\n.card__subtitle {\n  font-size: 16px;\n  line-height: 1.4;\n  color: #333;\n  margin-bottom: 20px;\n  padding-bottom: 10px;\n}\n.card__form {\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n}\n.card__form input {\n  padding: 12px;\n  border: 4px solid #000;\n  font-size: 16px;\n  font-family: \"Proxima Nova\", sans-serif;\n  transition: all 0.3s ease;\n  background-color: #fff;\n}\n.card__form input:focus {\n  outline: none;\n  transform: scale(1.05);\n}\n.sign-up {\n  border: 4px solid #000;\n  background: #000;\n  color: #fff;\n  padding: 12px;\n  font-size: 18px;\n  font-weight: bold;\n  text-transform: uppercase;\n  cursor: pointer;\n  transition: all 0.3s ease;\n}\n.sign-up:hover {\n  background: #fff;\n  color: #000;\n  transform: translateY(-5px);\n  box-shadow: 0 5px 0 #000;\n}\n.sign-up:active {\n  animation: shake 0.5s ease-in-out;\n  transform: translateY(0);\n  box-shadow: none;\n}\n@keyframes shake {\n  0% {\n    transform: translateX(0);\n  }\n  25% {\n    transform: translateX(-5px);\n  }\n  50% {\n    transform: translateX(5px);\n  }\n  75% {\n    transform: translateX(-5px);\n  }\n  100% {\n    transform: translateX(0);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:49Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

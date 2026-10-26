@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-neobrutalism-alerts-1",
+  "title": "Alerts: Info (neobrutalism)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/neobrutalism/alerts",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "neobrutalism",
+    "alerts",
+    "hyperui",
+    "toast",
+    "feedback",
+    "notification"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/neobrutalism/alerts/1.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<div class=\"border-2 bg-blue-100 p-4 text-blue-900 shadow-[4px_4px_0_0] shadow-black\" role=\"alert\">\n<div class=\"flex items-start gap-3\">\n<svg aria-hidden=\"true\" class=\"mt-0.5 size-4\" fill=\"currentColor\" viewbox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\">\n<path clip-rule=\"evenodd\" d=\"M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0ZM9 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM6.75 8a.75.75 0 0 0 0 1.5h.75v1.75a.75.75 0 0 0 1.5 0v-2.5A.75.75 0 0 0 8.25 8h-1.5Z\" fill-rule=\"evenodd\"></path>\n</svg>\n<strong class=\"block flex-1 leading-tight font-semibold\">\n<span class=\"sr-only\">Info: </span>\n          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, eos!\n        </strong>\n</div>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:42Z",
+  "updated_at": "2026-10-26T05:29:42Z"
+}

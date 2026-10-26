@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-aiviiid-hungry-robin-21-a8c76f",
+  "title": "Checkbox by AIVIIID (hungry-robin-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AIVIIID/hungry-robin-21",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AIVIIID on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/AIVIIID_hungry-robin-21.html",
+  "code": "<label class=\"container\">\n\t\t<input type=\"checkbox\" checked=\"checked\">\n\t\t<div class=\"checkmark\"></div>\n\t</label>\n\n\n\n<style>\n/* From Uiverse.io by AIVIIID - Tags: checkbox */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 25px;\n  user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  background: black;\n  border-radius: 50px;\n  transition: all 0.7s;\n  --spread: 20px;\n}\n\n/* When the checkbox is checked, add a blue background */\n.container input:checked ~ .checkmark {\n  background: black;\n  box-shadow: -10px -10px var(--spread) 0px #FFD700, 0 -10px var(--spread) 0px #FFD700, 10px -10px var(--spread) 0px #FFD700, 10px 0 var(--spread) 0px #FFD700, 10px 10px var(--spread) 0px #FFD700, 0 10px var(--spread) 0px #FFD700, -10px 10px var(--spread) 0px #FFD700;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n  display: block;\n  animation: checkmark 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n  left: 0.45em;\n  top: 0.25em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid #FFD700;\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n}\n\n/* Add animation for checkmark */\n@keyframes checkmark {\n  from {\n    transform: rotate(-45deg) scale(0);\n  }\n\n  to {\n    transform: rotate(45deg) scale(1);\n  }\n}\n\n/* Style the label text */\n.container span {\n  margin-left: 2em;\n  color: black;\n  font-weight: bold;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:50Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}

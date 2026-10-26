@@ -1,0 +1,35 @@
+{
+  "id": "hyperui-application-filters-1",
+  "title": "Filters: Dropdown",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/filters",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "filters",
+    "hyperui",
+    "form",
+    "input",
+    "search",
+    "sort"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/filters/1.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<div class=\"flex gap-4 sm:gap-6\">\n<details class=\"group relative\">\n<summary class=\"flex items-center gap-2 border-b border-gray-300 pb-1 text-gray-700 transition-colors hover:border-gray-400 hover:text-gray-900 [&amp;::-webkit-details-marker]:hidden\">\n<span class=\"text-sm font-medium\"> Availability </span>\n<span class=\"transition-transform group-open:-rotate-180\">\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n</span>\n</summary>\n<div class=\"z-auto w-64 divide-y divide-gray-300 rounded border border-gray-300 bg-white shadow-sm group-open:absolute group-open:start-0 group-open:top-8\">\n<div class=\"flex items-center justify-between px-3 py-2\">\n<span class=\"text-sm text-gray-700\"> 0 Selected </span>\n<button class=\"text-sm text-gray-700 underline transition-colors hover:text-gray-900\" type=\"button\">\n              Reset\n            </button>\n</div>\n<fieldset class=\"p-3\">\n<legend class=\"sr-only\">Checkboxes</legend>\n<div class=\"flex flex-col items-start gap-3\">\n<label class=\"inline-flex items-center gap-3\" for=\"Option1\">\n<input class=\"size-5 rounded border-gray-300 shadow-sm\" id=\"Option1\" type=\"checkbox\"/>\n<span class=\"text-sm font-medium text-gray-700\"> Option 1 </span>\n</label>\n<label class=\"inline-flex items-center gap-3\" for=\"Option2\">\n<input class=\"size-5 rounded border-gray-300 shadow-sm\" id=\"Option2\" type=\"checkbox\"/>\n<span class=\"text-sm font-medium text-gray-700\"> Option 2 </span>\n</label>\n<label class=\"inline-flex items-center gap-3\" for=\"Option3\">\n<input class=\"size-5 rounded border-gray-300 shadow-sm\" id=\"Option3\" type=\"checkbox\"/>\n<span class=\"text-sm font-medium text-gray-700\"> Option 3 </span>\n</label>\n</div>\n</fieldset>\n</div>\n</details>\n<details class=\"group relative\">\n<summary class=\"flex items-center gap-2 border-b border-gray-300 pb-1 text-gray-700 transition-colors hover:border-gray-400 hover:text-gray-900 [&amp;::-webkit-details-marker]:hidden\">\n<span class=\"text-sm font-medium\"> Price </span>\n<span class=\"transition-transform group-open:-rotate-180\">\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n</span>\n</summary>\n<div class=\"z-auto w-64 divide-y divide-gray-300 rounded border border-gray-300 bg-white shadow-sm group-open:absolute group-open:start-0 group-open:top-8\">\n<div class=\"flex items-center justify-between px-3 py-2\">\n<span class=\"text-sm text-gray-700\"> Max price is $600 </span>\n<button class=\"text-sm text-gray-700 underline transition-colors hover:text-gray-900\" type=\"button\">\n              Reset\n            </button>\n</div>\n<div class=\"flex items-center gap-3 p-3\">\n<label for=\"MinPrice\">\n<span class=\"text-sm text-gray-700\"> Min </span>\n<input class=\"mt-0.5 w-full rounded border-gray-300 shadow-sm sm:text-sm\" id=\"MinPrice\" type=\"number\" value=\"0\"/>\n</label>\n<label for=\"MaxPrice\">\n<span class=\"text-sm text-gray-700\"> Max </span>\n<input class=\"mt-0.5 w-full rounded border-gray-300 shadow-sm sm:text-sm\" id=\"MaxPrice\" type=\"number\" value=\"600\"/>\n</label>\n</div>\n</div>\n</details>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:42Z",
+  "updated_at": "2026-10-26T05:29:42Z"
+}

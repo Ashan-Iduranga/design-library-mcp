@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-0xnihilism-moody-moth-91-23a756",
+  "title": "Card by 0xnihilism (moody-moth-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/0xnihilism/moody-moth-91",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "light"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 0xnihilism on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/0xnihilism_moody-moth-91.html",
+  "code": "<div class=\"card\">\n  <div class=\"content\">\n    <div class=\"name\">Nihilist</div>\n    <div class=\"handle\">@0xNihilist</div>\n    <div class=\"title\">\n      <span class=\"emoji\">😊</span> Happy<br />\n      Product Designer\n    </div>\n  </div>\n  <div class=\"dots orange-dots\"></div>\n  <div class=\"dots pink-dots\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by 0xnihilism  - Tags: simple, card, light */\n.card-container {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-family: Arial, sans-serif;\n  background: linear-gradient(135deg, #ffa07a 25%, transparent 25%) -50px 0,\n    linear-gradient(225deg, #ffa07a 25%, transparent 25%) -50px 0,\n    linear-gradient(315deg, #ffa07a 25%, transparent 25%),\n    linear-gradient(45deg, #ffa07a 25%, transparent 25%);\n  background-size: 100px 100px;\n  background-color: #ffffff;\n  perspective: 1000px;\n}\n\n.card {\n  width: 400px;\n  background-color: rgba(223, 216, 179, 0.9);\n  border-radius: 20px;\n  position: relative;\n  border: 3px solid #000;\n  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);\n  overflow: hidden;\n  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1),\n    box-shadow 0.5s cubic-bezier(0.23, 1, 0.32, 1);\n  transform-style: preserve-3d;\n}\n\n.card:hover {\n  transform: translateZ(20px) rotateX(5deg) rotateY(-5deg);\n  box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.2);\n}\n\n.card .content {\n  padding: 30px;\n  padding-top: 60px;\n}\n\n.card .name {\n  font-size: 36px;\n  font-weight: bold;\n  margin-bottom: 20px;\n}\n\n.card .handle {\n  position: absolute;\n  top: 0;\n  right: 20px;\n  background-color: #f4c430;\n  padding: 10px 20px;\n  border-radius: 0 0 15px 15px;\n  border: 2px solid #000;\n  border-top: none;\n  font-weight: bold;\n}\n\n.card .title {\n  font-size: 18px;\n}\n\n.card .emoji {\n  font-size: 24px;\n}\n\n.card::before {\n  content: \"\";\n  position: absolute;\n  top: -50%;\n  left: -50%;\n  width: 200%;\n  height: 200%;\n  background: linear-gradient(\n    to bottom right,\n    rgba(255, 255, 255, 0.3),\n    rgba(255, 255, 255, 0) 80%\n  );\n  transform: rotate(-30deg);\n  pointer-events: none;\n}\n\n.card .name,\n.card .title {\n  transition: transform 0.3s ease-out, opacity 0.3s ease-out;\n}\n\n.card:hover .name {\n  transform: translateZ(30px);\n}\n\n.card:hover .title {\n  transform: translateZ(20px);\n}\n\n.card .handle {\n  transition: transform 0.3s ease-out, background-color 0.3s ease-out;\n}\n\n.card:hover .handle {\n  transform: translateZ(40px) translateY(-5px);\n  background-color: #ffdb58;\n}\n\n.card .emoji {\n  display: inline-block;\n  transition: transform 0.3s ease-out;\n}\n\n.card:hover .emoji {\n  transform: translateZ(50px) rotate(15deg) scale(1.2);\n}\n\n@keyframes glitch {\n  0% {\n    clip-path: inset(50% 0 30% 0);\n    transform: translate(-5px, 5px);\n  }\n  20% {\n    clip-path: inset(10% 0 60% 0);\n    transform: translate(5px, -5px);\n  }\n  40% {\n    clip-path: inset(40% 0 20% 0);\n    transform: translate(-5px, 5px);\n  }\n  60% {\n    clip-path: inset(80% 0 5% 0);\n    transform: translate(5px, -5px);\n  }\n  80% {\n    clip-path: inset(15% 0 70% 0);\n    transform: translate(-5px, 5px);\n  }\n  100% {\n    clip-path: inset(50% 0 30% 0);\n    transform: translate(5px, -5px);\n  }\n}\n\n.card::after {\n  content: attr(data-content);\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(255, 255, 255, 0.9);\n  opacity: 0;\n  z-index: -1;\n}\n\n.card:hover::after {\n  opacity: 0.1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T05:29:49Z",
+  "updated_at": "2026-10-26T05:29:50Z"
+}
