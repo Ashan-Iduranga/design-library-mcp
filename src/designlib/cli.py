@@ -1,8 +1,81 @@
-"""Command line interface: `python -m designlib <command>`."""
+"""Command line interface: `python -m designlib <command>`.
+
+Commands:
+  add <url>     fetch page metadata and save a link-only entry
+  list          show entries (newest first)
+  search <q>    full-text search with optional filters
+  rebuild       rebuild index.db from the JSON entries
+"""
 
 import argparse
+import sys
 
+from designlib import config
+from designlib.core.fetch import FetchError
 from designlib.core.index import rebuild_index
+from designlib.core.library import add_from_url
+from designlib.core.schema import Entry, EntryType, Framework
+from designlib.core.search import Filters, search
+
+TYPES = [t.value for t in EntryType]
+FRAMEWORKS = [f.value for f in Framework]
+
+
+def split_tags(text: str | None) -> list[str]:
+    """'hero, dark ,saas' -> ['hero', 'dark', 'saas']"""
+    return [tag.strip() for tag in (text or "").split(",") if tag.strip()]
+
+
+def print_entries(entries: list[Entry]) -> None:
+    if not entries:
+        print("No entries found.")
+        return
+    for entry in entries:
+        stars = "*" * entry.my_rating
+        fav = " (fav)" if entry.favorite else ""
+        tags = ", ".join(entry.tags)
+        print(f"{entry.id:<45} {entry.type.value:<11} {stars:<5} {entry.title}{fav}")
+        if tags:
+            print(f"{'':<45} {'':<11} {'':<5} tags: {tags}")
+    print(f"\n{len(entries)} result(s)")
+
+
+def cmd_add(args: argparse.Namespace) -> None:
+    try:
+        entry = add_from_url(
+            args.url,
+            type=args.type,
+            tags=split_tags(args.tags),
+            notes=args.notes or "",
+            title=args.title,
+            fetch=not args.no_fetch,
+            framework=args.framework,
+            my_rating=args.rating,
+            favorite=args.favorite,
+        )
+    except FetchError as error:
+        sys.exit(f"Could not add: {error}\nTip: use --no-fetch --title '...' to add it without fetching.")
+    print(f"Added {entry.id}")
+    print(f"  title:  {entry.title}")
+    print(f"  source: {entry.source}")
+    print(f"  image:  {entry.preview_image_url or '(none)'}")
+    print(f"  file:   library/entries/{entry.id}.json")
+    print(f"  view:   {config.gallery_url(entry.id)}")
+
+
+def cmd_list(args: argparse.Namespace) -> None:
+    print_entries(search(Filters(type=args.type, sort="newest", limit=args.limit)))
+
+
+def cmd_search(args: argparse.Namespace) -> None:
+    filters = Filters(
+        query=" ".join(args.query),
+        type=args.type,
+        tags=split_tags(args.tags),
+        framework=args.framework,
+        limit=args.limit,
+    )
+    print_entries(search(filters))
 
 
 def cmd_rebuild(args: argparse.Namespace) -> None:
@@ -13,6 +86,31 @@ def cmd_rebuild(args: argparse.Namespace) -> None:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="designlib", description="Your local design library.")
     commands = parser.add_subparsers(dest="command", required=True)
+
+    add = commands.add_parser("add", help="save a page as a link-only reference")
+    add.add_argument("url")
+    add.add_argument("--type", required=True, choices=TYPES)
+    add.add_argument("--tags", help="comma separated, e.g. 'hero,dark,saas'")
+    add.add_argument("--notes", help="your notes (defaults to the page description)")
+    add.add_argument("--title", help="override the fetched title")
+    add.add_argument("--framework", default="none", choices=FRAMEWORKS)
+    add.add_argument("--rating", type=int, default=3, choices=range(1, 6))
+    add.add_argument("--favorite", action="store_true")
+    add.add_argument("--no-fetch", action="store_true", help="don't contact the site")
+    add.set_defaults(func=cmd_add)
+
+    list_ = commands.add_parser("list", help="list entries, newest first")
+    list_.add_argument("--type", choices=TYPES)
+    list_.add_argument("--limit", type=int, default=50)
+    list_.set_defaults(func=cmd_list)
+
+    find = commands.add_parser("search", help="full-text search")
+    find.add_argument("query", nargs="*", help="words to search for")
+    find.add_argument("--type", choices=TYPES)
+    find.add_argument("--tags", help="comma separated; all must match")
+    find.add_argument("--framework", choices=FRAMEWORKS)
+    find.add_argument("--limit", type=int, default=20)
+    find.set_defaults(func=cmd_search)
 
     rebuild = commands.add_parser("rebuild", help="rebuild index.db from the JSON entries")
     rebuild.set_defaults(func=cmd_rebuild)

@@ -102,7 +102,7 @@ def _insert(conn: sqlite3.Connection, entry: Entry) -> None:
             entry.title,
             " ".join(entry.tags),
             entry.source,
-            entry.style_notes.as_text(),
+            f"{entry.style_notes.as_text()} {entry.notes}",
             f"{entry.when_to_use} {entry.avoid_when} {entry.prompt or ''}",
             entry.code or "",
         ),

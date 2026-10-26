@@ -76,6 +76,7 @@ class Entry(BaseModel):
     tags: list[str] = []
     framework: Framework = Framework.none
     style_notes: StyleNotes = StyleNotes()
+    notes: str = ""  # your free-form notes (or the page description if you gave none)
     code: str | None = None
     prompt: str | None = None
     preview_image_url: str | None = None  # hotlinked, never downloaded
