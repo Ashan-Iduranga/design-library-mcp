@@ -126,3 +126,65 @@ def test_tags_and_sources_pages(client, sample_entries, temp_library):
 def test_grid_thumbnails_hide_scrollbars_but_detail_does_not(client, sample_entries):
     assert "overflow: hidden" in client.get("/").text
     assert "overflow: hidden" not in client.get("/d/pricing-table-aaaaaa").text
+
+
+def test_history_restore_gets_full_page(client, sample_entries):
+    """Back button after an HTMX update: htmx asks for the whole page, not the partial."""
+    page = client.get("/?q=glass", headers={"HX-Request": "true", "HX-History-Restore-Request": "true"}).text
+    assert "<html" in page
+
+
+def test_link_only_entry_shows_hotlinked_image(client):
+    from conftest import make_entry
+    from designlib.core.index import save_and_index
+
+    save_and_index(make_entry(id="shot-zzzzzz", type="screen", preview_image_url="https://example.com/og.png"))
+    page = client.get("/").text
+    assert 'src="https://example.com/og.png"' in page
+    assert 'referrerpolicy="no-referrer"' in page
+    assert "<iframe" not in page
+
+
+def test_upload_size_limit(client, monkeypatch):
+    from designlib.web import app as web_app
+
+    monkeypatch.setattr(web_app, "MAX_UPLOAD_BYTES", 10)
+    response = client.post(
+        "/new",
+        data={"title": "Huge", "type": "screen"},
+        files={"screenshot": ("big.png", b"x" * 50, "image/png")},
+    )
+    assert response.status_code == 422 and "larger than 5 MB" in response.text
+
+
+def test_remove_screenshot_on_edit(client):
+    created = client.post(
+        "/new",
+        data={"title": "Shot", "type": "screen"},
+        files={"screenshot": ("a.png", b"png", "image/png")},
+        follow_redirects=False,
+    )
+    entry_id = created.headers["location"].removeprefix("/d/")
+    client.post(f"/d/{entry_id}/edit", data={"title": "Shot", "type": "screen", "remove_image": "on"})
+    assert get_entry(entry_id).local_image is None
+
+
+def test_edit_keeps_added_at(client, sample_entries):
+    before = get_entry("glass-buttons-cccccc").added_at
+    client.post("/d/glass-buttons-cccccc/edit", data={"title": "Glass buttons", "type": "component",
+                                                      "license": "MIT", "framework": "html", "code": "<b>x</b>"})
+    assert get_entry("glass-buttons-cccccc").added_at == before
+
+
+def test_meta_api_reports_fetch_errors(client, monkeypatch):
+    def refuse(url):
+        raise fetch.FetchError("robots.txt does not allow fetching this page")
+
+    monkeypatch.setattr(fetch, "fetch_metadata", refuse)
+    response = client.get("/api/meta", params={"url": "https://x.dev"})
+    assert response.status_code == 422 and "robots.txt" in response.json()["error"]
+
+
+def test_edit_and_delete_unknown_entry_404(client):
+    assert client.get("/d/nope/edit").status_code == 404
+    assert client.post("/d/nope/delete").status_code == 404

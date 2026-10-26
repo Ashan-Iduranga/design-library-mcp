@@ -14,6 +14,8 @@ python -m uv run python -m designlib search pricing
 python -m uv run python -m designlib mcp       # MCP server over stdio (Claude starts this; setup in M7)
 ```
 
+Testing, including the MCP Inspector walkthrough: [docs/testing.md](docs/testing.md).
+
 Third-party files stored in the project (`src/designlib/web/static/vendor/`), each with its license:
 htmx 2.0.4 (0BSD), Tailwind CSS browser build 4.1.11 (MIT), highlight.js 11.10.0 (BSD-3),
 Familjen Grotesk font (SIL OFL 1.1).

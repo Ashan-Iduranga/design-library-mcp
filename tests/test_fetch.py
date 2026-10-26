@@ -75,3 +75,47 @@ def test_only_http_urls():
 def test_source_names():
     assert source_name("https://www.awwwards.com/sites/x") == "Awwwards"
     assert source_name("https://blog.example.org/post") == "blog.example.org"
+
+
+def test_rate_limit_waits_between_requests_to_same_host(monkeypatch):
+    monkeypatch.setattr(fetch, "MIN_DELAY_SECONDS", 2.0)
+    clock = {"now": 100.0}
+    slept = []
+    monkeypatch.setattr(fetch.time, "monotonic", lambda: clock["now"])
+    monkeypatch.setattr(fetch.time, "sleep", lambda seconds: slept.append(seconds))
+    fetch._last_request.clear()
+
+    fetch._wait_for_turn("example.com")  # first request: no wait
+    clock["now"] += 0.5
+    fetch._wait_for_turn("example.com")  # 0.5 s later: must wait the remaining 1.5 s
+    fetch._wait_for_turn("other.org")  # a different host is not delayed
+    assert slept == [1.5]
+
+
+def test_reads_at_most_max_bytes(monkeypatch):
+    monkeypatch.setattr(fetch, "MAX_BYTES", 100)
+    big_page = "<title>Big</title>" + "x" * 10_000
+    client, _ = mock_client(page=big_page)
+    _, html = fetch._read_limited(client, "https://example.com/big")
+    assert len(html) < 10_000
+
+
+def test_unreachable_robots_is_treated_as_allowed():
+    def handler(request):
+        if request.url.path == "/robots.txt":
+            raise httpx.ConnectError("no route")
+        return httpx.Response(200, text=PAGE, headers={"content-type": "text/html"})
+
+    client = httpx.Client(transport=httpx.MockTransport(handler))
+    assert fetch_metadata("https://example.com/", client=client).title == "Acme Landing"
+
+
+def test_http_errors_become_fetch_errors():
+    def handler(request):
+        if request.url.path == "/robots.txt":
+            return httpx.Response(404)
+        return httpx.Response(500)
+
+    client = httpx.Client(transport=httpx.MockTransport(handler))
+    with pytest.raises(FetchError, match="could not fetch"):
+        fetch_metadata("https://example.com/", client=client)

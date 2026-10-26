@@ -107,7 +107,9 @@ def _read_limited(client: httpx.Client, url: str) -> tuple[str, str]:
             if size >= MAX_BYTES:
                 break
         encoding = response.encoding or "utf-8"
-        return str(response.url), b"".join(chunks).decode(encoding, errors="replace")
+        # The last chunk can cross the limit, so cut exactly at MAX_BYTES.
+        data = b"".join(chunks)[:MAX_BYTES]
+        return str(response.url), data.decode(encoding, errors="replace")
 
 
 def parse_meta(html: str, page_url: str) -> PageMeta:

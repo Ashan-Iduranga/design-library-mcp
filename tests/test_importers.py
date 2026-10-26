@@ -125,3 +125,44 @@ def test_reimport_keeps_user_edits():
     kept = load_entry(entry.id)
     assert (kept.my_rating, kept.favorite, kept.when_to_use) == (5, True, "FAQ pages")
     assert search(Filters(query="accordion"))[0].id == entry.id
+
+
+def write_zip(path, files: dict[str, str]):
+    with zipfile.ZipFile(path, "w") as archive:
+        for name, text in files.items():
+            archive.writestr(name, text)
+    return path
+
+
+def test_hyperui_run_end_to_end(tmp_path, monkeypatch):
+    """run() = (cached) download -> license check -> collect -> save, with no network."""
+    archive = write_zip(tmp_path / "repo.zip", {n: hyperui_zip().read(n).decode() for n in hyperui_zip().namelist()})
+    monkeypatch.setattr(hyperui, "download_repo", lambda *a, **k: archive)
+    assert hyperui.run(limit=1) == (1, 0)
+    assert load_entry("hyperui-application-accordions-1").source == "HyperUI"
+
+
+def test_cli_import_stops_on_wrong_license(tmp_path, monkeypatch, capsys):
+    from designlib.cli import main
+
+    archive = write_zip(tmp_path / "repo.zip", {
+        "galaxy-main/LICENSE": "Copyright Someone. All rights reserved.",
+        "galaxy-main/Buttons/a_b-1.html": UIVERSE_CSS,
+    })
+    monkeypatch.setattr(uiverse, "download_repo", lambda *a, **k: archive)
+    with pytest.raises(SystemExit, match="Import stopped: LICENSE does not look like MIT"):
+        main(["import", "uiverse"])
+    assert search(Filters()) == []  # nothing was saved
+
+
+def test_cli_import_reports_counts(tmp_path, monkeypatch, capsys):
+    from designlib.cli import main
+
+    archive = write_zip(tmp_path / "repo.zip", {
+        "galaxy-main/LICENSE": MIT,
+        "galaxy-main/Buttons/a_b-1.html": UIVERSE_CSS,
+        "galaxy-main/Cards/c_d-2.html": UIVERSE_TAILWIND,
+    })
+    monkeypatch.setattr(uiverse, "download_repo", lambda *a, **k: archive)
+    main(["import", "uiverse", "--category", "cards"])
+    assert "1 new, 0 updated" in capsys.readouterr().out
