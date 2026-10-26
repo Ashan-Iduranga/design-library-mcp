@@ -89,7 +89,13 @@ def cmd_rebuild(args: argparse.Namespace) -> None:
 def cmd_serve(args: argparse.Namespace) -> None:
     import uvicorn  # imported here so other commands start fast
 
-    print(f"Design Library running at http://{config.HOST}:{args.port}  (Ctrl+C to stop)")
+    url = f"http://{config.HOST}:{args.port}"
+    print(f"Design Library running at {url}  (Ctrl+C to stop)")
+    if args.open:
+        import threading
+        import webbrowser
+
+        threading.Timer(1.5, webbrowser.open, args=[url]).start()  # give the server a moment to start
     uvicorn.run(
         "designlib.web.app:create_app",
         factory=True,
@@ -155,6 +161,7 @@ def build_parser() -> argparse.ArgumentParser:
     serve = commands.add_parser("serve", help="start the web gallery (local only)")
     serve.add_argument("--port", type=int, default=config.PORT)
     serve.add_argument("--reload", action="store_true", help="restart when code changes (development)")
+    serve.add_argument("--open", action="store_true", help="open the gallery in your browser")
     serve.set_defaults(func=cmd_serve)
 
     imp = commands.add_parser("import", help="import open-license components")
