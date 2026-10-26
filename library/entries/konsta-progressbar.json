@@ -1,0 +1,39 @@
+{
+  "id": "konsta-progressbar",
+  "title": "Progressbar (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/progressbar",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "progressbar",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "loader"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Progressbar example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Progressbar.jsx",
+  "code": "import React, { useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Block,\n  BlockTitle,\n  Progressbar,\n  Segmented,\n  SegmentedButton,\n} from 'konsta/react';\n\nexport default function ProgressbarPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [progress, setProgress] = useState(0.1);\n  return (\n    <Page>\n      <Navbar\n        title=\"Progressbar\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <BlockTitle>Determinate Progress Bar</BlockTitle>\n      <Block strong inset>\n        <div className=\"my-4\">\n          <Progressbar progress={progress} />\n        </div>\n        <Segmented roundedIos strongIos outlineMaterial>\n          <SegmentedButton\n            active={progress === 0.1}\n            onClick={() => setProgress(0.1)}\n          >\n            10%\n          </SegmentedButton>\n          <SegmentedButton\n            active={progress === 0.3}\n            onClick={() => setProgress(0.3)}\n          >\n            30%\n          </SegmentedButton>\n          <SegmentedButton\n            active={progress === 0.5}\n            onClick={() => setProgress(0.5)}\n          >\n            50%\n          </SegmentedButton>\n          <SegmentedButton\n            active={progress === 1.0}\n            onClick={() => setProgress(1.0)}\n          >\n            100%\n          </SegmentedButton>\n        </Segmented>\n      </Block>\n\n      <BlockTitle>Colors</BlockTitle>\n      <Block strong inset className=\"space-y-4\">\n        <Progressbar className=\"k-color-brand-red\" progress={0.25} />\n        <Progressbar className=\"k-color-brand-green\" progress={0.5} />\n        <Progressbar className=\"k-color-brand-yellow\" progress={0.75} />\n        <Progressbar className=\"k-color-brand-purple\" progress={1} />\n      </Block>\n    </Page>\n  );\n}\nProgressbarPage.displayName = 'ProgressbarPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

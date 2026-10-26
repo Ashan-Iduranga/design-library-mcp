@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-tooltip",
+  "title": "Tooltip (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/TooltipExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "tooltip",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "tooltip"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Tooltip example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { Platform, StyleSheet, View, Image } from 'react-native';\n\nimport { useNavigation } from '@react-navigation/native';\nimport {\n  Appbar,\n  Avatar,\n  Banner,\n  Chip,\n  FAB,\n  IconButton,\n  List,\n  Tooltip,\n  Card,\n} from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst MORE_ICON = Platform.OS === 'ios' ? 'dots-horizontal' : 'dots-vertical';\n\nconst DURATION_MEDIUM = 1500;\nconst DURATION_LONG = 3000;\n\nconst formOfTransport = [\n  { title: 'Car - default delays' },\n  { title: 'Airplane - default delays' },\n  { title: 'Taxi - long enter delay', enterTouchDelay: DURATION_MEDIUM },\n  { title: 'Train - long enter delay', enterTouchDelay: DURATION_MEDIUM },\n  { title: 'Ferry - long leave delay', leaveTouchDelay: DURATION_MEDIUM },\n  { title: 'Bus - long leave delay', leaveTouchDelay: DURATION_MEDIUM },\n  {\n    title: 'Walk - long both delays',\n    enterTouchDelay: DURATION_MEDIUM,\n    leaveTouchDelay: DURATION_LONG,\n  },\n];\n\nconst TooltipExample = () => {\n  const navigation = useNavigation('TooltipExample');\n\n  const [textAlign, setTextAlign] = React.useState('left');\n  React.useLayoutEffect(() => {\n    navigation.setOptions({\n      header: () => (\n        <Appbar.Header elevated>\n          <Tooltip title=\"Go back\">\n            <Appbar.BackAction onPress={() => navigation.goBack()} />\n          </Tooltip>\n          <Appbar.Content title=\"Tooltips\" />\n          <Tooltip title=\"Print ⌘ + P\">\n            <Appbar.Action icon=\"printer\" onPress={() => {}} />\n          </Tooltip>\n          <Tooltip title=\"Search\">\n            <Appbar.Action icon=\"magnify\" onPress={() => {}} />\n          </Tooltip>\n          <Tooltip title=\"More options\">\n            <Appbar.Action icon={MORE_ICON} onPress={() => {}} />\n          </Tooltip>\n        </Appbar.Header>\n      ),\n    });\n  });\n\n  return (\n    <>\n      <ScreenWrapper>\n        <Banner visible>\n          A tooltip is displayed upon\n          {Platform.OS !== 'web'\n            ? ' tapping and holding a screen element or component'\n            : ' hovering over a screen element or component'}\n          . Continuously display the tooltip as long as the user long-presses or\n          hovers over the element.\n        </Banner>\n        <List.Section title=\"Icon Buttons\">\n          <View style={styles.iconButtonContainer}>\n            {formOfTransport.map((transport, index) => (\n              <Tooltip\n                key={index}\n                title={transport.title}\n                enterTouchDelay={transport.enterTouchDelay}\n                leaveTouchDelay={transport.leaveTouchDelay}\n              >\n                <IconButton\n                  icon={transport.title.split(' ')[0].toLowerCase()}\n                  size={24}\n                  onPress={() => {}}\n                />\n              </Tooltip>\n            ))}\n          </View>\n        </List.Section>\n        <List.Section title=\"Icon toggles\">\n          <View style={styles.toggleRow}>\n            <Tooltip title=\"Align left\">\n              <IconButton\n                icon=\"format-align-left\"\n                mode=\"contained-tonal\"\n                selected={textAlign === 'left'}\n                onPress={() => setTextAlign('left')}\n              />\n            </Tooltip>\n            <Tooltip title=\"Align center\">\n              <IconButton\n                icon=\"format-align-center\"\n                mode=\"contained-tonal\"\n                selected={textAlign === 'center'}\n                onPress={() => setTextAlign('center')}\n              />\n            </Tooltip>\n            <Tooltip title=\"Align right\">\n              <IconButton\n                icon=\"format-align-right\"\n                mode=\"contained-tonal\"\n                selected={textAlign === 'right'}\n                disabled\n                onPress={() => setTextAlign('right')}\n              />\n            </Tooltip>\n          </View>\n        </List.Section>\n        <List.Section title=\"Avatar\">\n          <View style={styles.avatarContainer}>\n            <Tooltip title=\"Username\">\n              <Avatar.Text label=\"U\" />\n            </Tooltip>\n          </View>\n        </List.Section>\n        <List.Section title=\"Chip\">\n          <View style={styles.chipContainer}>\n            <Tooltip title=\"Copied\">\n              <Chip\n                mode=\"outlined\"\n                avatar={\n                  <Image\n                    source={require('../../assets/images/avatar.png')}\n                    accessibilityIgnoresInvertColors\n                  />\n                }\n              >\n                John Doe\n              </Chip>\n            </Tooltip>\n          </View>\n        </List.Section>\n        <List.Section title=\"Card\">\n          <Tooltip title=\"Cafeteria, 1st floor\">\n            <Card style={styles.cardContainer}>\n              <Card.Title\n                title=\"Lunch break\"\n                subtitle=\"1:00-2:00 PM\"\n                left={(props) => (\n                  <Avatar.Icon {...props} icon=\"food-fork-drink\" />\n                )}\n              />\n            </Card>\n          </Tooltip>\n        </List.Section>\n      </ScreenWrapper>\n      <View style={styles.fabContainer}>\n        <Tooltip title=\"Press Me\">\n          <FAB icon=\"plus\" onPress={() => {}} />\n        </Tooltip>\n      </View>\n    </>\n  );\n};\n\nTooltipExample.title = 'Tooltip';\n\nexport default TooltipExample;\n\nconst styles = StyleSheet.create({\n  avatarContainer: {\n    marginHorizontal: 16,\n    width: 64,\n  },\n  chipContainer: {\n    marginHorizontal: 16,\n    alignItems: 'center',\n    flexDirection: 'row',\n  },\n  fabContainer: {\n    margin: 16,\n    right: 0,\n    position: 'absolute',\n    bottom: 0,\n  },\n  cardContainer: {\n    margin: 16,\n  },\n  toggleRow: {\n    flexDirection: 'row',\n    paddingHorizontal: 16,\n  },\n  iconButtonContainer: {\n    flexDirection: 'row',\n    flexWrap: 'wrap',\n  },\n});",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

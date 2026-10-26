@@ -1,0 +1,38 @@
+{
+  "id": "rnreusables-textarea",
+  "title": "Textarea (react-native-reusables)",
+  "source": "react-native-reusables",
+  "url": "https://reactnativereusables.com/docs/components/textarea",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "textarea",
+    "react-native-reusables",
+    "shadcn",
+    "nativewind",
+    "react-native"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "form"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Textarea from react-native-reusables: shadcn/ui-style components for React Native, styled with Nativewind (Tailwind).\n\nInstall into a project: npx @react-native-reusables/cli@latest add textarea\n\nOriginal file: https://github.com/founded-labs/react-native-reusables/blob/main/packages/registry/src/nativewind/components/ui/textarea.tsx",
+  "code": "import { cn } from '@/registry/nativewind/lib/utils';\nimport { Platform, TextInput } from 'react-native';\n\nfunction Textarea({\n  className,\n  multiline = true,\n  numberOfLines = Platform.select({ web: 2, native: 8 }), // On web, numberOfLines also determines initial height. On native, it determines the maximum height.\n  placeholderClassName,\n  ...props\n}: React.ComponentProps<typeof TextInput> & React.RefAttributes<TextInput>) {\n  return (\n    <TextInput\n      className={cn(\n        'text-foreground border-input dark:bg-input/30 flex min-h-16 w-full flex-row rounded-md border bg-transparent px-3 py-2 text-base shadow-sm shadow-black/5 md:text-sm',\n        Platform.select({\n          web: 'placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive field-sizing-content resize-y outline-none transition-[color,box-shadow] focus-visible:ring-[3px] disabled:cursor-not-allowed',\n        }),\n        props.editable === false && 'opacity-50',\n        className\n      )}\n      placeholderClassName={cn('text-muted-foreground', placeholderClassName)}\n      multiline={multiline}\n      numberOfLines={numberOfLines}\n      textAlignVertical=\"top\"\n      {...props}\n    />\n  );\n}\n\nexport { Textarea };",
+  "prompt": "npx @react-native-reusables/cli@latest add textarea",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:52Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

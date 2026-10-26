@@ -1,0 +1,38 @@
+{
+  "id": "rnreusables-separator",
+  "title": "Separator (react-native-reusables)",
+  "source": "react-native-reusables",
+  "url": "https://reactnativereusables.com/docs/components/separator",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "separator",
+    "react-native-reusables",
+    "shadcn",
+    "nativewind",
+    "react-native"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "menu"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Separator from react-native-reusables: shadcn/ui-style components for React Native, styled with Nativewind (Tailwind).\n\nInstall into a project: npx @react-native-reusables/cli@latest add separator\n\nOriginal file: https://github.com/founded-labs/react-native-reusables/blob/main/packages/registry/src/nativewind/components/ui/separator.tsx",
+  "code": "import { cn } from '@/registry/nativewind/lib/utils';\nimport * as SeparatorPrimitive from '@rn-primitives/separator';\n\nfunction Separator({\n  className,\n  orientation = 'horizontal',\n  decorative = true,\n  ...props\n}: React.ComponentProps<typeof SeparatorPrimitive.Root>) {\n  return (\n    <SeparatorPrimitive.Root\n      decorative={decorative}\n      orientation={orientation}\n      className={cn(\n        'bg-border shrink-0',\n        orientation === 'horizontal' ? 'h-[1px] w-full' : 'h-full w-[1px]',\n        className\n      )}\n      {...props}\n    />\n  );\n}\n\nexport { Separator };",
+  "prompt": "npx @react-native-reusables/cli@latest add separator",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:52Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

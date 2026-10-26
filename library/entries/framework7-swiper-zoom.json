@@ -1,0 +1,38 @@
+{
+  "id": "framework7-swiper-zoom",
+  "title": "Zoom (Framework7 mobile screen)",
+  "source": "Framework7",
+  "url": "https://github.com/framework7io/framework7/blob/master/kitchen-sink/core/pages/swiper-zoom.html",
+  "license": "MIT",
+  "type": "screen",
+  "tags": [
+    "swiper-zoom",
+    "framework7",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "html",
+  "platform": "mobile",
+  "categories": [
+    "carousel"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A zoom screen from Framework7's kitchen sink, shown with Framework7's iOS or Material (Android) theme. Framework7 builds mobile apps (and PWAs / Capacitor apps) from HTML.\n\nUse: npm i framework7, then the same markup inside a Framework7 app. Docs: https://framework7.io/docs/",
+  "code": "<div class=\"page\">\n  <div class=\"navbar\">\n    <div class=\"navbar-bg\"></div>\n    <div class=\"navbar-inner sliding\">\n      <div class=\"left\">\n        <a class=\"link back\">\n          <i class=\"icon icon-back\"></i>\n\n        </a>\n      </div>\n      <div class=\"title\">Zoom</div>\n    </div>\n  </div>\n  <div class=\"page-content\">\n    <swiper-container pagination zoom navigation class=\"demo-swiper\">\n      <swiper-slide>\n        <div class=\"swiper-zoom-container\">\n          <img src=\"https://cdn.framework7.io/placeholder/nature-800x800-1.jpg\" />\n        </div>\n      </swiper-slide>\n      <swiper-slide>\n        <div class=\"swiper-zoom-container\">\n          <img src=\"https://cdn.framework7.io/placeholder/nature-800x800-2.jpg\" />\n        </div>\n      </swiper-slide>\n      <swiper-slide>\n        <div class=\"swiper-zoom-container\">\n          <img src=\"https://cdn.framework7.io/placeholder/nature-800x800-3.jpg\" />\n        </div>\n      </swiper-slide>\n      <swiper-slide>\n        <div class=\"swiper-zoom-container\">\n          <img src=\"https://cdn.framework7.io/placeholder/nature-800x800-4.jpg\" />\n        </div>\n      </swiper-slide>\n      <swiper-slide>\n        <div class=\"swiper-zoom-container\">\n          <img src=\"https://cdn.framework7.io/placeholder/nature-800x800-5.jpg\" />\n        </div>\n      </swiper-slide>\n      <swiper-slide>\n        <div class=\"swiper-zoom-container\">\n          <img src=\"https://cdn.framework7.io/placeholder/nature-800x800-6.jpg\" />\n        </div>\n      </swiper-slide>\n    </swiper-container>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:41Z",
+  "updated_at": "2026-10-26T14:18:39Z"
+}

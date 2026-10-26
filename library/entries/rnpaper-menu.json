@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-menu",
+  "title": "Menu (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/MenuExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "menu",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "menu"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Menu example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { Platform, StyleSheet, View } from 'react-native';\nimport type { GestureResponderEvent } from 'react-native';\n\nimport { useNavigation } from '@react-navigation/native';\nimport {\n  Appbar,\n  Button,\n  Divider,\n  List,\n  Menu,\n  TouchableRipple,\n} from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\ntype ContextualMenuCoord = { x: number; y: number };\n\ntype MenuVisibility = {\n  [key: string]: boolean | undefined;\n};\n\nconst MORE_ICON = Platform.OS === 'ios' ? 'dots-horizontal' : 'dots-vertical';\n\nconst MenuExample = () => {\n  const navigation = useNavigation('Menu');\n\n  const [visible, setVisible] = React.useState<MenuVisibility>({});\n  const [contextualMenuCoord, setContextualMenuCoor] =\n    React.useState<ContextualMenuCoord>({ x: 0, y: 0 });\n  const _toggleMenu = (name: string) => () =>\n    setVisible({ ...visible, [name]: !visible[name] });\n\n  const _getVisible = (name: string) => !!visible[name];\n\n  const _handleLongPress = (event: GestureResponderEvent) => {\n    const { nativeEvent } = event;\n    setContextualMenuCoor({\n      x: nativeEvent.pageX,\n      y: nativeEvent.pageY,\n    });\n    setVisible({ menu3: true });\n  };\n\n  React.useLayoutEffect(() => {\n    navigation.setOptions({\n      headerShown: false,\n    });\n  }, [navigation]);\n\n  return (\n    <View style={styles.screen}>\n      <Appbar.Header elevated>\n        <Appbar.BackAction onPress={() => navigation.goBack()} />\n        <Appbar.Content title=\"Menu\" />\n        <Menu\n          visible={_getVisible('menu1')}\n          onDismiss={_toggleMenu('menu1')}\n          anchor={\n            <Appbar.Action icon={MORE_ICON} onPress={_toggleMenu('menu1')} />\n          }\n        >\n          <Menu.Item onPress={() => {}} title=\"Undo\" />\n          <Menu.Item onPress={() => {}} title=\"Redo\" />\n          <Divider style={styles.md3Divider} />\n          <Menu.Item onPress={() => {}} title=\"Cut\" disabled />\n          <Menu.Item onPress={() => {}} title=\"Copy\" disabled />\n          <Menu.Item onPress={() => {}} title=\"Paste\" />\n        </Menu>\n      </Appbar.Header>\n      <ScreenWrapper\n        contentContainerStyle={styles.contentContainer}\n        style={styles.container}\n      >\n        <View>\n          <View style={styles.alignCenter}>\n            <Menu\n              visible={_getVisible('menu2')}\n              onDismiss={_toggleMenu('menu2')}\n              anchor={\n                <Button mode=\"outlined\" onPress={_toggleMenu('menu2')}>\n                  Menu with icons\n                </Button>\n              }\n            >\n              <Menu.Item leadingIcon=\"undo\" onPress={() => {}} title=\"Undo\" />\n              <Menu.Item leadingIcon=\"redo\" onPress={() => {}} title=\"Redo\" />\n\n              <Divider style={styles.md3Divider} />\n\n              <Menu.Item\n                leadingIcon=\"content-cut\"\n                onPress={() => {}}\n                title=\"Cut\"\n                disabled\n              />\n              <Menu.Item\n                leadingIcon=\"content-copy\"\n                onPress={() => {}}\n                title=\"Copy\"\n                disabled\n              />\n              <Menu.Item\n                leadingIcon=\"content-paste\"\n                onPress={() => {}}\n                title=\"Paste\"\n              />\n              <Menu.Item\n                trailingIcon=\"share-variant\"\n                onPress={() => {}}\n                title=\"Share\"\n              />\n            </Menu>\n          </View>\n          <Menu\n            visible={_getVisible('menu3')}\n            onDismiss={_toggleMenu('menu3')}\n            anchor={contextualMenuCoord}\n          >\n            <Menu.Item onPress={() => {}} title=\"Item 1\" />\n            <Menu.Item onPress={() => {}} title=\"Item 2\" />\n            <Divider style={styles.md3Divider} />\n            <Menu.Item onPress={() => {}} title=\"Item 3\" disabled />\n          </Menu>\n          <List.Section style={styles.list} title=\"Contextual menu\">\n            <TouchableRipple onPress={() => {}} onLongPress={_handleLongPress}>\n              <List.Item\n                title=\"List item\"\n                description=\"Long press me to open contextual menu\"\n              />\n            </TouchableRipple>\n          </List.Section>\n        </View>\n        <View style={styles.alignCenter}>\n          <Menu\n            visible={_getVisible('menu5')}\n            onDismiss={_toggleMenu('menu5')}\n            anchorPosition=\"bottom\"\n            anchor={\n              <Button mode=\"outlined\" onPress={_toggleMenu('menu5')}>\n                Menu with anchor position bottom\n              </Button>\n            }\n          >\n            <Menu.Item onPress={() => {}} title=\"Item 1\" />\n            <Menu.Item onPress={() => {}} title=\"Item 2\" />\n            <Menu.Item onPress={() => {}} title=\"Item 3\" />\n          </Menu>\n        </View>\n\n        <View style={styles.bottomMenu}>\n          <Menu\n            visible={_getVisible('menu4')}\n            onDismiss={_toggleMenu('menu4')}\n            anchor={\n              <Button mode=\"outlined\" onPress={_toggleMenu('menu4')}>\n                Menu at bottom\n              </Button>\n            }\n          >\n            <Menu.Item onPress={() => {}} title=\"Bottom Item 1\" />\n            <Menu.Item onPress={() => {}} title=\"Bottom Item 2\" />\n            <Menu.Item onPress={() => {}} title=\"Bottom Item 3\" />\n          </Menu>\n        </View>\n      </ScreenWrapper>\n    </View>\n  );\n};\n\nMenuExample.title = 'Menu';\n\nconst styles = StyleSheet.create({\n  screen: {\n    flex: 1,\n  },\n  container: {\n    paddingTop: 48,\n  },\n  list: {\n    marginTop: 48,\n  },\n  alignCenter: {\n    alignItems: 'center',\n  },\n  md3Divider: {\n    marginVertical: 8,\n  },\n  bottomMenu: { width: '40%' },\n  contentContainer: {\n    justifyContent: 'space-between',\n    flex: 1,\n  },\n});\n\nexport default MenuExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

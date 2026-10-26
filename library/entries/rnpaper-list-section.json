@@ -1,0 +1,40 @@
+{
+  "id": "rnpaper-list-section",
+  "title": "List Section (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/ListSectionExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "list-section",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "data-table",
+    "guidelines"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper List Section example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import { StyleSheet, Image, View } from 'react-native';\n\nimport { List, Text, Chip, Divider } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\nconst ListSectionExample = () => {\n  return (\n    <ScreenWrapper>\n      <List.Section>\n        <List.Subheader>Single line</List.Subheader>\n        <List.Item\n          left={(props) => <List.Icon {...props} icon=\"calendar\" />}\n          title=\"List item 1\"\n        />\n        <List.Item\n          left={(props) => <List.Icon {...props} icon=\"wallet-giftcard\" />}\n          title=\"List item 2\"\n        />\n        <List.Item\n          title=\"List item 3\"\n          left={(props) => <List.Icon {...props} icon=\"folder\" />}\n          right={(props) => <List.Icon {...props} icon=\"equal\" />}\n        />\n      </List.Section>\n      <Divider />\n      <List.Section>\n        <List.Subheader>Two line</List.Subheader>\n        <List.Item\n          left={() => (\n            <Image\n              source={require('../../assets/images/email-icon.png')}\n              style={styles.image}\n              accessibilityIgnoresInvertColors\n            />\n          )}\n          title=\"List item 1\"\n          description=\"Describes item 1\"\n        />\n        <List.Item\n          left={() => (\n            <Image\n              source={require('../../assets/images/email-icon.png')}\n              style={styles.image}\n              accessibilityIgnoresInvertColors\n            />\n          )}\n          right={(props) => <List.Icon {...props} icon=\"information\" />}\n          title=\"List item 2\"\n          description=\"Describes item 2\"\n        />\n      </List.Section>\n      <Divider />\n      <List.Section>\n        <List.Subheader>Three line</List.Subheader>\n        <List.Item\n          left={() => (\n            <Image\n              source={require('../../assets/images/email-icon.png')}\n              style={styles.image}\n              accessibilityIgnoresInvertColors\n            />\n          )}\n          title=\"List item 1\"\n          description=\"Describes item 1. Example of a very very long description.\"\n        />\n        <List.Item\n          left={() => (\n            <Image\n              source={require('../../assets/images/email-icon.png')}\n              style={styles.image}\n              accessibilityIgnoresInvertColors\n            />\n          )}\n          right={(props) => <List.Icon {...props} icon=\"star-outline\" />}\n          title=\"List item 2\"\n          description=\"Describes item 2. Example of a very very long description.\"\n        />\n      </List.Section>\n      <Divider />\n      <List.Section>\n        <List.Subheader>Custom title and description</List.Subheader>\n        <List.Item\n          left={() => (\n            <Image\n              source={require('../../assets/images/email-icon.png')}\n              style={styles.image}\n              accessibilityIgnoresInvertColors\n            />\n          )}\n          right={(props) => <List.Icon {...props} icon=\"star-outline\" />}\n          title={({ ellipsizeMode, color: titleColor, fontSize }) => (\n            <View style={[styles.container, styles.row, styles.customTitle]}>\n              <Text\n                ellipsizeMode={ellipsizeMode}\n                style={{ color: titleColor, fontSize }}\n              >\n                List Item\n              </Text>\n              <Text variant=\"bodySmall\">Yesterday</Text>\n            </View>\n          )}\n          description={({\n            ellipsizeMode,\n            color: descriptionColor,\n            fontSize,\n          }) => (\n            <View style={[styles.container, styles.column]}>\n              <Text\n                numberOfLines={2}\n                ellipsizeMode={ellipsizeMode}\n                style={{ color: descriptionColor, fontSize }}\n              >\n                React Native Paper is a high-quality, standard-compliant\n                Material Design library that has you covered in all major\n                use-cases.\n              </Text>\n              <View\n                style={[styles.container, styles.row, styles.additionalPadding]}\n              >\n                <Chip icon=\"file-pdf-box\" onPress={() => {}}>\n                  DOCS.pdf\n                </Chip>\n              </View>\n            </View>\n          )}\n        />\n      </List.Section>\n    </ScreenWrapper>\n  );\n};\n\nListSectionExample.title = 'List.Section';\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n  },\n  image: {\n    height: 40,\n    width: 40,\n    margin: 8,\n  },\n  row: {\n    flexDirection: 'row',\n  },\n  column: {\n    flexDirection: 'column',\n  },\n  customTitle: {\n    alignItems: 'center',\n    justifyContent: 'space-between',\n  },\n  additionalPadding: {\n    paddingTop: 8,\n  },\n});\n\nexport default ListSectionExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

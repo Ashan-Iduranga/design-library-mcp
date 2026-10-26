@@ -1,0 +1,38 @@
+{
+  "id": "rnreusables-skeleton",
+  "title": "Skeleton (react-native-reusables)",
+  "source": "react-native-reusables",
+  "url": "https://reactnativereusables.com/docs/components/skeleton",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "skeleton",
+    "react-native-reusables",
+    "shadcn",
+    "nativewind",
+    "react-native"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "empty-state"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Skeleton from react-native-reusables: shadcn/ui-style components for React Native, styled with Nativewind (Tailwind).\n\nInstall into a project: npx @react-native-reusables/cli@latest add skeleton\n\nOriginal file: https://github.com/founded-labs/react-native-reusables/blob/main/packages/registry/src/nativewind/components/ui/skeleton.tsx",
+  "code": "import { cn } from '@/registry/nativewind/lib/utils';\nimport { View } from 'react-native';\n\nfunction Skeleton({\n  className,\n  ...props\n}: React.ComponentProps<typeof View> & React.RefAttributes<View>) {\n  return <View className={cn('bg-accent animate-pulse rounded-md', className)} {...props} />;\n}\n\nexport { Skeleton };",
+  "prompt": "npx @react-native-reusables/cli@latest add skeleton",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:52Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

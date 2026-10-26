@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-badge",
+  "title": "Badge (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/BadgeExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "badge",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "badge"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Badge example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { StyleSheet, View } from 'react-native';\n\nimport {\n  Badge,\n  IconButton,\n  List,\n  Palette,\n  Text,\n  Switch,\n} from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst BadgeExample = () => {\n  const [visible, setVisible] = React.useState<boolean>(true);\n\n  return (\n    <ScreenWrapper>\n      <View style={[styles.row, styles.item]}>\n        <Text style={styles.label} variant=\"bodyMedium\">\n          Show badges\n        </Text>\n        <Switch\n          value={visible}\n          onValueChange={(visible) => setVisible(visible)}\n        />\n      </View>\n      <List.Section title=\"Text\">\n        <View style={styles.row}>\n          <View style={styles.item}>\n            <IconButton icon=\"palette-swatch\" size={36} style={styles.button} />\n            <Badge visible={visible} style={styles.textBadge}>\n              12\n            </Badge>\n          </View>\n          <View style={styles.item}>\n            <IconButton icon=\"inbox\" size={36} style={styles.button} />\n            <Badge\n              visible={visible}\n              style={[\n                styles.textBadge,\n                {\n                  backgroundColor: Palette.primary80,\n                },\n              ]}\n            >\n              999+\n            </Badge>\n          </View>\n        </View>\n      </List.Section>\n      <List.Section title=\"Dot\">\n        <View style={styles.row}>\n          <View style={styles.item}>\n            <IconButton icon=\"book-open\" size={36} style={styles.button} />\n            <Badge visible={visible} style={styles.dotBadge} />\n          </View>\n          <View style={styles.item}>\n            <IconButton icon=\"receipt\" size={36} style={styles.button} />\n            <Badge visible={visible} style={styles.dotBadge} />\n          </View>\n        </View>\n      </List.Section>\n    </ScreenWrapper>\n  );\n};\n\nBadgeExample.title = 'Badge';\n\nconst styles = StyleSheet.create({\n  row: {\n    flexDirection: 'row',\n    flexWrap: 'wrap',\n  },\n  item: {\n    margin: 16,\n  },\n  button: {\n    opacity: 0.6,\n  },\n  textBadge: {\n    position: 'absolute',\n    top: 12,\n    left: 38,\n  },\n  dotBadge: {\n    position: 'absolute',\n    top: 14,\n    right: 14,\n  },\n  label: {\n    flex: 1,\n  },\n});\n\nexport default BadgeExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

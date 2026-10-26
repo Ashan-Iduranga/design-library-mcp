@@ -1,0 +1,38 @@
+{
+  "id": "rnreusables-avatar",
+  "title": "Avatar (react-native-reusables)",
+  "source": "react-native-reusables",
+  "url": "https://reactnativereusables.com/docs/components/avatar",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "avatar",
+    "react-native-reusables",
+    "shadcn",
+    "nativewind",
+    "react-native"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "avatar"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Avatar from react-native-reusables: shadcn/ui-style components for React Native, styled with Nativewind (Tailwind).\n\nInstall into a project: npx @react-native-reusables/cli@latest add avatar\n\nOriginal file: https://github.com/founded-labs/react-native-reusables/blob/main/packages/registry/src/nativewind/components/ui/avatar.tsx",
+  "code": "import { cn } from '@/registry/nativewind/lib/utils';\nimport * as AvatarPrimitive from '@rn-primitives/avatar';\n\nfunction Avatar({\n  className,\n  ...props\n}: React.ComponentProps<typeof AvatarPrimitive.Root>) {\n  return (\n    <AvatarPrimitive.Root\n      className={cn('relative flex size-8 shrink-0 overflow-hidden rounded-full', className)}\n      {...props}\n    />\n  );\n}\n\nfunction AvatarImage({\n  className,\n  ...props\n}: React.ComponentProps<typeof AvatarPrimitive.Image>) {\n  return <AvatarPrimitive.Image className={cn('aspect-square size-full', className)} {...props} />;\n}\n\nfunction AvatarFallback({\n  className,\n  ...props\n}: React.ComponentProps<typeof AvatarPrimitive.Fallback>) {\n  return (\n    <AvatarPrimitive.Fallback\n      className={cn(\n        'bg-muted flex size-full flex-row items-center justify-center rounded-full',\n        className\n      )}\n      {...props}\n    />\n  );\n}\n\nexport { Avatar, AvatarFallback, AvatarImage };",
+  "prompt": "npx @react-native-reusables/cli@latest add avatar",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:52Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

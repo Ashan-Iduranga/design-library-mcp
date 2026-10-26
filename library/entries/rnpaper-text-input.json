@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-text-input",
+  "title": "Text Input (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/TextInputExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "text-input",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "form"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Text Input example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport {\n  StyleSheet,\n  TextInput as NativeTextInput,\n  View,\n  type TextStyle,\n  type ViewStyle,\n} from 'react-native';\n\nimport {\n  Divider,\n  List,\n  Switch,\n  Text,\n  TextInput,\n  TouchableRipple,\n  useTheme,\n  type TextInputAccessoryProps,\n  type TextInputVariant,\n} from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\ntype DemoControls = {\n  error: boolean;\n  disabled: boolean;\n  readOnly: boolean;\n  leadingIcon: boolean;\n  trailingIcon: boolean;\n  counter: boolean;\n  showPrefix: boolean;\n  showSuffix: boolean;\n  multiline: boolean;\n};\n\ntype DemoModifiers = {\n  label: string;\n  helperText: string;\n  placeholder: string;\n  prefix: string;\n  suffix: string;\n};\n\ntype TextInputDemoProps = {\n  variant: TextInputVariant;\n};\n\nconst TextInputDemo = ({ variant }: TextInputDemoProps) => {\n  const theme = useTheme();\n\n  const [value, setValue] = React.useState('');\n\n  const [controls, setControls] = React.useState<DemoControls>({\n    error: false,\n    disabled: false,\n    readOnly: false,\n    leadingIcon: false,\n    trailingIcon: false,\n    counter: false,\n    showPrefix: false,\n    showSuffix: false,\n    multiline: false,\n  });\n\n  const [modifiers, setModifiers] = React.useState<DemoModifiers>({\n    label: 'Label',\n    helperText: 'Supporting text',\n    placeholder: 'Placeholder',\n    prefix: '$',\n    suffix: '/100',\n  });\n\n  const toggleControl = (key: keyof DemoControls) =>\n    setControls((prev) => ({ ...prev, [key]: !prev[key] }));\n\n  const setModifier = (key: keyof DemoModifiers, text: string) =>\n    setModifiers((prev) => ({ ...prev, [key]: text }));\n\n  const leadingIcon = (props: TextInputAccessoryProps) => (\n    <TextInput.Icon {...props} icon=\"magnify\" />\n  );\n\n  const trailingIcon = (props: TextInputAccessoryProps) => (\n    <TextInput.Icon {...props} icon=\"close\" onPress={() => setValue('')} />\n  );\n\n  const inputColor = theme.colors.onSurfaceVariant;\n  const borderColor = theme.colors.outlineVariant;\n\n  const modifierInputStyle: TextStyle = {\n    flex: 1,\n    color: inputColor,\n    fontSize: 14,\n    paddingVertical: 4,\n    borderBottomWidth: StyleSheet.hairlineWidth,\n    borderBottomColor: borderColor,\n  };\n\n  const SWITCH_CONTROLS: { label: string; key: keyof DemoControls }[] = [\n    { label: 'Error', key: 'error' },\n    { label: 'Disabled', key: 'disabled' },\n    { label: 'Readonly', key: 'readOnly' },\n    { label: 'Leading icon', key: 'leadingIcon' },\n    { label: 'Trailing icon', key: 'trailingIcon' },\n    { label: 'Counter', key: 'counter' },\n    { label: 'Prefix', key: 'showPrefix' },\n    { label: 'Suffix', key: 'showSuffix' },\n    { label: 'Multiline', key: 'multiline' },\n  ];\n\n  const MODIFIER_FIELDS: { label: string; key: keyof DemoModifiers }[] = [\n    { label: 'Label', key: 'label' },\n    { label: 'Helper', key: 'helperText' },\n    { label: 'Placeholder', key: 'placeholder' },\n    { label: 'Prefix', key: 'prefix' },\n    { label: 'Suffix', key: 'suffix' },\n  ];\n\n  return (\n    <View style={styles.demoContainer}>\n      {/* Live TextInput */}\n      <TextInput\n        variant={variant}\n        label={modifiers.label || undefined}\n        placeholder={modifiers.placeholder || undefined}\n        supportingText={modifiers.helperText || undefined}\n        error={controls.error}\n        disabled={controls.disabled}\n        editable={!controls.readOnly}\n        value={value}\n        onChangeText={setValue}\n        multiline={controls.multiline}\n        counter={controls.counter}\n        maxLength={controls.counter ? 100 : undefined}\n        prefix={controls.showPrefix ? modifiers.prefix : undefined}\n        suffix={controls.showSuffix ? modifiers.suffix : undefined}\n        startAccessory={controls.leadingIcon ? leadingIcon : undefined}\n        endAccessory={controls.trailingIcon ? trailingIcon : undefined}\n      />\n\n      <Divider style={styles.divider} />\n\n      {/* Controls */}\n      <List.Subheader style={styles.subheader}>Controls</List.Subheader>\n      {SWITCH_CONTROLS.map(({ label, key }) => (\n        <TouchableRipple key={key} onPress={() => toggleControl(key)}>\n          <View style={styles.switchRow}>\n            <Text variant=\"bodyMedium\">{label}</Text>\n            <View pointerEvents=\"none\">\n              <Switch value={controls[key]} />\n            </View>\n          </View>\n        </TouchableRipple>\n      ))}\n\n      <Divider style={styles.divider} />\n\n      {/* Modifiers */}\n      <List.Subheader style={styles.subheader}>Modifiers</List.Subheader>\n      {MODIFIER_FIELDS.map(({ label, key }) => (\n        <View key={key} style={styles.modifierRow}>\n          <Text variant=\"bodyMedium\" style={styles.modifierLabel}>\n            {label}\n          </Text>\n          <NativeTextInput\n            value={modifiers[key]}\n            onChangeText={(text) => setModifier(key, text)}\n            style={modifierInputStyle}\n            placeholderTextColor={theme.colors.outline}\n            placeholder={`Enter ${label.toLowerCase()}…`}\n          />\n        </View>\n      ))}\n    </View>\n  );\n};\n\nconst TextInputExample = () => {\n  return (\n    <ScreenWrapper contentContainerStyle={styles.container}>\n      <List.Section title=\"Filled\">\n        <TextInputDemo variant=\"filled\" />\n      </List.Section>\n      <List.Section title=\"Outlined\">\n        <TextInputDemo variant=\"outlined\" />\n      </List.Section>\n    </ScreenWrapper>\n  );\n};\n\nTextInputExample.title = 'TextInput';\n\nconst styles = StyleSheet.create({\n  container: {\n    paddingHorizontal: 16,\n    paddingVertical: 8,\n  } satisfies ViewStyle,\n  demoContainer: {\n    gap: 4,\n  } satisfies ViewStyle,\n  divider: {\n    marginVertical: 8,\n  } satisfies ViewStyle,\n  subheader: {\n    paddingHorizontal: 0,\n  } satisfies TextStyle,\n  switchRow: {\n    flexDirection: 'row',\n    alignItems: 'center',\n    justifyContent: 'space-between',\n    paddingVertical: 8,\n    paddingHorizontal: 8,\n  } satisfies ViewStyle,\n  modifierRow: {\n    flexDirection: 'row',\n    alignItems: 'center',\n    gap: 12,\n    paddingVertical: 8,\n    paddingHorizontal: 8,\n  } satisfies ViewStyle,\n  modifierLabel: {\n    width: 80,\n  } satisfies TextStyle,\n});\n\nexport default TextInputExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "konsta-range-slider",
+  "title": "Range Slider (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/range-slider",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "range-slider",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "form"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Range Slider example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/RangeSlider.jsx",
+  "code": "import React, { useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  BlockTitle,\n  BlockHeader,\n  List,\n  ListItem,\n  Range,\n} from 'konsta/react';\n\nexport default function RangeSliderPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [volume, setVolume] = useState(50);\n  const [price, setPrice] = useState(150);\n  const [red, setRed] = useState(100);\n  const [green, setGreen] = useState(50);\n  const [blue, setBlue] = useState(75);\n  return (\n    <Page>\n      <Navbar\n        title=\"Range Slider\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <BlockTitle>Volume: {volume}</BlockTitle>\n      <BlockHeader>From 0 to 100 with step 10</BlockHeader>\n      <List strong inset>\n        <ListItem\n          innerClassName=\"flex gap-4 items-center\"\n          innerChildren={\n            <>\n              <span>0</span>\n              <Range\n                value={volume}\n                step={10}\n                onChange={(e) => setVolume(e.target.value)}\n              />\n              <span>100</span>\n            </>\n          }\n        />\n      </List>\n\n      <BlockTitle>Price: ${price}</BlockTitle>\n      <BlockHeader>From 0 to 1000 with step 1</BlockHeader>\n      <List strong inset>\n        <ListItem\n          innerClassName=\"flex gap-4 items-center\"\n          innerChildren={\n            <>\n              <span>$0</span>\n              <Range\n                value={price}\n                step={1}\n                min={0}\n                max={1000}\n                onChange={(e) => setPrice(e.target.value)}\n              />\n              <span>$1000</span>\n            </>\n          }\n        />\n      </List>\n\n      <BlockTitle>\n        Color: rgb({red}, {green}, {blue})\n      </BlockTitle>\n      <List strong inset>\n        <ListItem\n          innerChildren={\n            <Range\n              className=\"k-color-brand-red\"\n              value={red}\n              step={1}\n              min={0}\n              max={255}\n              onChange={(e) => setRed(e.target.value)}\n            />\n          }\n        />\n        <ListItem\n          innerChildren={\n            <Range\n              className=\"k-color-brand-green\"\n              value={green}\n              step={1}\n              min={0}\n              max={255}\n              onChange={(e) => setGreen(e.target.value)}\n            />\n          }\n        />\n        <ListItem\n          innerChildren={\n            <Range\n              className=\"k-color-brand-blue\"\n              value={blue}\n              step={1}\n              min={0}\n              max={255}\n              onChange={(e) => setBlue(e.target.value)}\n            />\n          }\n        />\n      </List>\n    </Page>\n  );\n}\nRangeSliderPage.displayName = 'RangeSliderPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-theme",
+  "title": "Theme (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/ThemeExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "theme",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "guidelines"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Theme example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import { StyleSheet } from 'react-native';\n\nimport { useNavigation } from '@react-navigation/native';\nimport { List, PaperProvider, Banner } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst ThemeExample = () => {\n  const navigation = useNavigation('Theme');\n\n  return (\n    <PaperProvider>\n      <ScreenWrapper contentContainerStyle={styles.container}>\n        <Banner visible>\n          React Native Paper automatically adapts theme based on system\n          preferences. Please change system theme to dark/light to see the\n          effect\n        </Banner>\n        <List.Section title={`Theme based on the source color`}>\n          <List.Item\n            title=\"Themed Sport App\"\n            description=\"Go to the example\"\n            onPress={() => navigation.navigate('TeamsList')}\n            right={(props) => <List.Icon {...props} icon=\"arrow-right\" />}\n          />\n        </List.Section>\n      </ScreenWrapper>\n    </PaperProvider>\n  );\n};\nThemeExample.title = 'Theme';\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n  },\n});\nexport default ThemeExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

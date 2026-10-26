@@ -1,0 +1,38 @@
+{
+  "id": "rnreusables-tabs",
+  "title": "Tabs (react-native-reusables)",
+  "source": "react-native-reusables",
+  "url": "https://reactnativereusables.com/docs/components/tabs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "tabs",
+    "react-native-reusables",
+    "shadcn",
+    "nativewind",
+    "react-native"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "tabs"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Tabs from react-native-reusables: shadcn/ui-style components for React Native, styled with Nativewind (Tailwind).\n\nInstall into a project: npx @react-native-reusables/cli@latest add tabs\n\nOriginal file: https://github.com/founded-labs/react-native-reusables/blob/main/packages/registry/src/nativewind/components/ui/tabs.tsx",
+  "code": "import { TextClassContext } from '@/registry/nativewind/components/ui/text';\nimport { cn } from '@/registry/nativewind/lib/utils';\nimport * as TabsPrimitive from '@rn-primitives/tabs';\nimport { Platform } from 'react-native';\n\nfunction Tabs({\n  className,\n  ...props\n}: React.ComponentProps<typeof TabsPrimitive.Root>) {\n  return <TabsPrimitive.Root className={cn('flex flex-col gap-2', className)} {...props} />;\n}\n\nfunction TabsList({\n  className,\n  ...props\n}: React.ComponentProps<typeof TabsPrimitive.List>) {\n  return (\n    <TabsPrimitive.List\n      className={cn(\n        'bg-muted flex h-9 flex-row items-center justify-center rounded-lg p-[3px]',\n        Platform.select({ web: 'inline-flex w-fit', native: 'mr-auto' }),\n        className\n      )}\n      {...props}\n    />\n  );\n}\n\nfunction TabsTrigger({\n  className,\n  ...props\n}: React.ComponentProps<typeof TabsPrimitive.Trigger>) {\n  const { value } = TabsPrimitive.useRootContext();\n  return (\n    <TextClassContext.Provider\n      value={cn(\n        'text-foreground dark:text-muted-foreground text-sm font-medium',\n        value === props.value && 'dark:text-foreground'\n      )}>\n      <TabsPrimitive.Trigger\n        className={cn(\n          'flex h-[calc(100%-1px)] flex-row items-center justify-center gap-1.5 rounded-md border border-transparent px-2 py-1 shadow-none shadow-black/5',\n          Platform.select({\n            web: 'focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring inline-flex cursor-default whitespace-nowrap transition-[color,box-shadow] focus-visible:outline-1 focus-visible:ring-[3px] disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:shrink-0',\n          }),\n          props.disabled && 'opacity-50',\n          props.value === value && 'bg-background dark:border-foreground/10 dark:bg-input/30',\n          className\n        )}\n        {...props}\n      />\n    </TextClassContext.Provider>\n  );\n}\n\nfunction TabsContent({\n  className,\n  ...props\n}: React.ComponentProps<typeof TabsPrimitive.Content>) {\n  return (\n    <TabsPrimitive.Content\n      className={cn(Platform.select({ web: 'flex-1 outline-none' }), className)}\n      {...props}\n    />\n  );\n}\n\nexport { Tabs, TabsContent, TabsList, TabsTrigger };",
+  "prompt": "npx @react-native-reusables/cli@latest add tabs",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:52Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "framework7-master-detail-master",
+  "title": "Master Detail (Framework7 mobile screen)",
+  "source": "Framework7",
+  "url": "https://github.com/framework7io/framework7/blob/master/kitchen-sink/core/pages/master-detail-master.html",
+  "license": "MIT",
+  "type": "screen",
+  "tags": [
+    "master-detail-master",
+    "framework7",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "html",
+  "platform": "mobile",
+  "categories": [
+    "accordion"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A master detail screen from Framework7's kitchen sink, shown with Framework7's iOS or Material (Android) theme. Framework7 builds mobile apps (and PWAs / Capacitor apps) from HTML.\n\nUse: npm i framework7, then the same markup inside a Framework7 app. Docs: https://framework7.io/docs/",
+  "code": "<div class=\"page\">\n  <div class=\"navbar\">\n    <div class=\"navbar-bg\"></div>\n    <div class=\"navbar-inner sliding\">\n      <div class=\"left\">\n        <a class=\"link back\">\n          <i class=\"icon icon-back\"></i>\n\n        </a>\n      </div>\n      <div class=\"title\">Master Detail</div>\n    </div>\n  </div>\n  <div class=\"page-content\">\n    <div class=\"block block-strong\">\n      <p>Master-Detail pattern oftenly used on wide enough screens and tablets, and consists of two views. Master - is\n        an area in the UI where you have a list of something. Detail - is the area that shows the relevant information\n        of a selection in the master.</p>\n      <p>To see Master Detail view make sure the window width is larger than 800px.</p>\n      <p>When collapsed (on narrow screen) navigation between such pages will behave as usual routing.</p>\n      <p>Navigation to/from Master-Detail view happens without transition.</p>\n    </div>\n\n    <div class=\"list links-list\">\n      <ul>\n        <li>\n          <a data-reload-detail=\"true\" href=\"/master-detail/1/\">Detail Page 1</a>\n        </li>\n        <li>\n          <a data-reload-detail=\"true\" href=\"/master-detail/2/\">Detail Page 2</a>\n        </li>\n        <li>\n          <a data-reload-detail=\"true\" href=\"/master-detail/3/\">Detail Page 3</a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:41Z",
+  "updated_at": "2026-10-26T14:18:39Z"
+}

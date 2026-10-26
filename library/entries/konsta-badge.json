@@ -1,0 +1,39 @@
+{
+  "id": "konsta-badge",
+  "title": "Badge (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/badge",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "badge",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "badge"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Badge example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Badge.jsx",
+  "code": "import React from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Badge,\n  Icon,\n  Link,\n  List,\n  ListItem,\n  Tabbar,\n  TabbarLink,\n  ToolbarPane,\n} from 'konsta/react';\nimport {\n  PersonCircleFill,\n  EnvelopeFill,\n  Calendar,\n  CloudUploadFill,\n} from 'framework7-icons/react';\nimport { MdPerson, MdEmail, MdToday, MdFileUpload } from 'react-icons/md';\nimport DemoIcon from '../components/DemoIcon';\n\nexport default function BadgePage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  return (\n    <Page>\n      <Navbar\n        title=\"Badge\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n        right={\n          <Link navbar iconOnly>\n            <Icon\n              ios={<PersonCircleFill className=\"w-7 h-7\" />}\n              material={<MdPerson className=\"w-6 h-6\" />}\n              badge=\"5\"\n              badgeColors={{ bg: 'bg-red-500' }}\n            />\n          </Link>\n        }\n      />\n      <Tabbar labels icons className=\"left-0 bottom-0 fixed\">\n        <ToolbarPane>\n          <TabbarLink\n            active\n            icon={\n              <Icon\n                ios={<EnvelopeFill className=\"w-7 h-7\" />}\n                material={<MdEmail className=\"w-6 h-6\" />}\n                badge=\"5\"\n                badgeColors={{ bg: 'bg-green-500' }}\n              />\n            }\n            label=\"Inbox\"\n          />\n          <TabbarLink\n            icon={\n              <Icon\n                ios={<Calendar className=\"w-7 h-7\" />}\n                material={<MdToday className=\"w-6 h-6\" />}\n                badge=\"7\"\n                badgeColors={{ bg: 'bg-red-500' }}\n              />\n            }\n            label=\"Calendar\"\n          />\n          <TabbarLink\n            icon={\n              <Icon\n                ios={<CloudUploadFill className=\"w-7 h-7\" />}\n                material={<MdFileUpload className=\"w-6 h-6\" />}\n                badge=\"1\"\n                badgeColors={{ bg: 'bg-red-500' }}\n              />\n            }\n            label=\"Upload\"\n          />\n        </ToolbarPane>\n      </Tabbar>\n      <List strong inset>\n        <ListItem\n          media={<DemoIcon />}\n          title=\"Foo Bar\"\n          after={<Badge colors={{ bg: 'bg-gray-500' }}>0</Badge>}\n        />\n\n        <ListItem\n          media={<DemoIcon />}\n          title=\"Ivan Petrov\"\n          after={<Badge>CEO</Badge>}\n        />\n\n        <ListItem\n          media={<DemoIcon />}\n          title=\"John Doe\"\n          after={<Badge colors={{ bg: 'bg-green-500' }}>5</Badge>}\n        />\n\n        <ListItem\n          media={<DemoIcon />}\n          title=\"Jane Doe\"\n          after={<Badge colors={{ bg: 'bg-yellow-500' }}>NEW</Badge>}\n        />\n      </List>\n    </Page>\n  );\n}\nBadgePage.displayName = 'BadgePage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

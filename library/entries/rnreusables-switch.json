@@ -1,0 +1,38 @@
+{
+  "id": "rnreusables-switch",
+  "title": "Switch (react-native-reusables)",
+  "source": "react-native-reusables",
+  "url": "https://reactnativereusables.com/docs/components/switch",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "switch",
+    "react-native-reusables",
+    "shadcn",
+    "nativewind",
+    "react-native"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "toggle"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Switch from react-native-reusables: shadcn/ui-style components for React Native, styled with Nativewind (Tailwind).\n\nInstall into a project: npx @react-native-reusables/cli@latest add switch\n\nOriginal file: https://github.com/founded-labs/react-native-reusables/blob/main/packages/registry/src/nativewind/components/ui/switch.tsx",
+  "code": "import { cn } from '@/registry/nativewind/lib/utils';\nimport * as SwitchPrimitives from '@rn-primitives/switch';\nimport { Platform } from 'react-native';\n\nfunction Switch({\n  className,\n  ...props\n}: React.ComponentProps<typeof SwitchPrimitives.Root>) {\n  return (\n    <SwitchPrimitives.Root\n      className={cn(\n        'flex h-[1.15rem] w-8 shrink-0 flex-row items-center rounded-full border border-transparent shadow-sm shadow-black/5',\n        Platform.select({\n          web: 'focus-visible:border-ring focus-visible:ring-ring/50 peer inline-flex outline-none transition-all focus-visible:ring-[3px] disabled:cursor-not-allowed',\n        }),\n        props.checked ? 'bg-primary' : 'bg-input dark:bg-input/80',\n        props.disabled && 'opacity-50',\n        className\n      )}\n      {...props}>\n      <SwitchPrimitives.Thumb\n        className={cn(\n          'bg-background size-4 rounded-full transition-transform',\n          Platform.select({\n            web: 'pointer-events-none block ring-0',\n          }),\n          props.checked\n            ? 'dark:bg-primary-foreground translate-x-3.5'\n            : 'dark:bg-foreground translate-x-0'\n        )}\n      />\n    </SwitchPrimitives.Root>\n  );\n}\n\nexport { Switch };",
+  "prompt": "npx @react-native-reusables/cli@latest add switch",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:52Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-switch",
+  "title": "Switch (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/SwitchExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "switch",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "toggle"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Switch example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { StyleSheet, View } from 'react-native';\n\nimport { Switch, Text, useTheme } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst Row = ({\n  label,\n  children,\n}: {\n  label: string;\n  children: React.ReactNode;\n}) => (\n  <View style={styles.row}>\n    <Text>{label}</Text>\n    <View style={styles.right}>{children}</View>\n  </View>\n);\n\nconst SwitchExample = () => {\n  const theme = useTheme();\n  const [defaultOn, setDefaultOn] = React.useState(true);\n  const [defaultCheckedIconOn, setDefaultCheckedIconOn] = React.useState(true);\n  const [defaultIconOn, setDefaultIconOn] = React.useState(true);\n  const [customOn, setCustomOn] = React.useState(true);\n  const [customIconOn, setCustomIconOn] = React.useState(true);\n  const [disableAll, setDisableAll] = React.useState(false);\n\n  const tertiaryTheme = React.useMemo(\n    () => ({\n      colors: {\n        primary: theme.colors.tertiary,\n        onPrimary: theme.colors.onTertiary,\n        primaryContainer: theme.colors.tertiaryContainer,\n        secondary: theme.colors.tertiary,\n      },\n    }),\n    [theme]\n  );\n\n  return (\n    <ScreenWrapper style={styles.container}>\n      <Row label=\"Default\">\n        <Switch\n          value={defaultOn}\n          onValueChange={setDefaultOn}\n          disabled={disableAll}\n        />\n      </Row>\n\n      <Row label=\"Default with icon when on\">\n        <Switch\n          value={defaultCheckedIconOn}\n          onValueChange={setDefaultCheckedIconOn}\n          checkedIcon=\"check\"\n          disabled={disableAll}\n        />\n      </Row>\n\n      <Row label=\"Default with icon\">\n        <Switch\n          value={defaultIconOn}\n          onValueChange={setDefaultIconOn}\n          checkedIcon=\"check\"\n          uncheckedIcon=\"close\"\n          disabled={disableAll}\n        />\n      </Row>\n\n      <Row label=\"Custom (tertiary theme)\">\n        <Switch\n          value={customOn}\n          onValueChange={setCustomOn}\n          theme={tertiaryTheme}\n          disabled={disableAll}\n        />\n      </Row>\n\n      <Row label=\"Custom with icon\">\n        <Switch\n          value={customIconOn}\n          onValueChange={setCustomIconOn}\n          checkedIcon=\"white-balance-sunny\"\n          uncheckedIcon=\"moon-waning-crescent\"\n          theme={tertiaryTheme}\n          disabled={disableAll}\n        />\n      </Row>\n\n      <View\n        style={[\n          styles.separator,\n          { backgroundColor: theme.colors.outlineVariant },\n        ]}\n      />\n\n      <Row label=\"Disable all switches\">\n        <Switch value={disableAll} onValueChange={setDisableAll} />\n      </Row>\n    </ScreenWrapper>\n  );\n};\n\nSwitchExample.title = 'Switch';\n\nconst styles = StyleSheet.create({\n  container: {\n    paddingVertical: 8,\n  },\n  row: {\n    flexDirection: 'row',\n    alignItems: 'center',\n    justifyContent: 'space-between',\n    paddingVertical: 8,\n    paddingHorizontal: 16,\n  },\n  right: {\n    flexDirection: 'row',\n    alignItems: 'center',\n    gap: 12,\n  },\n  separator: {\n    height: 1,\n    marginHorizontal: 16,\n    marginVertical: 16,\n  },\n});\n\nexport default SwitchExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

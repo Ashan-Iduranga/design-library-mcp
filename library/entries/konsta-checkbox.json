@@ -1,0 +1,39 @@
+{
+  "id": "konsta-checkbox",
+  "title": "Checkbox (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/checkbox",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "toggle"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Checkbox example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Checkbox.jsx",
+  "code": "import React, { useState } from 'react';\n\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Checkbox,\n  BlockTitle,\n  Block,\n  List,\n  ListItem,\n} from 'konsta/react';\n\nexport default function CheckboxPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [checked1, setChecked1] = useState(false);\n  const [checked2, setChecked2] = useState(true);\n\n  // Group\n  const [group, setGroup] = useState(['Books']);\n  const toggleGroupValue = (value) => {\n    if (group.includes(value)) group.splice(group.indexOf(value), 1);\n    else group.push(value);\n    setGroup([...group]);\n  };\n\n  // Indeterminate\n  const [movies, setMovies] = useState(['Movie 1']);\n  const onMovieChange = (e) => {\n    const value = e.target.value;\n    if (e.target.checked) {\n      movies.push(value);\n    } else {\n      movies.splice(movies.indexOf(value), 1);\n    }\n    setMovies([...movies]);\n  };\n  const onMoviesChange = () => {\n    if (movies.length === 1 || movies.length === 0) {\n      setMovies(['Movie 1', 'Movie 2']);\n    } else if (movies.length === 2) {\n      setMovies([]);\n    }\n  };\n\n  // Media\n  const [media, setMedia] = useState(['Item 1']);\n  const toggleMediaValue = (value) => {\n    if (media.includes(value)) media.splice(media.indexOf(value), 1);\n    else media.push(value);\n    setMedia([...media]);\n  };\n\n  return (\n    <Page>\n      <Navbar\n        title=\"Checkbox\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <BlockTitle>Inline</BlockTitle>\n      <Block strong inset>\n        <p>\n          Lorem{' '}\n          <Checkbox\n            name=\"checkbox-1\"\n            checked={checked1}\n            onChange={(e) => setChecked1(e.target.checked)}\n          />{' '}\n          ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae illo\n          nihil aut eius commodi sint eveniet aliquid eligendi{' '}\n          <Checkbox\n            name=\"checkbox-2\"\n            checked={checked2}\n            onChange={(e) => setChecked2(e.target.checked)}\n          />{' '}\n          ad delectus impedit tempore nemo, enim vel praesentium consequatur\n          nulla mollitia!\n        </p>\n      </Block>\n\n      <BlockTitle>Checkbox Group</BlockTitle>\n      <List strong inset>\n        <ListItem\n          label\n          title=\"Books\"\n          media={\n            <Checkbox\n              component=\"div\"\n              name=\"demo-checkbox\"\n              checked={group.includes('Books')}\n              onChange={() => toggleGroupValue('Books')}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"Movies\"\n          media={\n            <Checkbox\n              component=\"div\"\n              name=\"demo-checkbox\"\n              checked={group.includes('Movies')}\n              onChange={() => toggleGroupValue('Movies')}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"Food\"\n          media={\n            <Checkbox\n              component=\"div\"\n              name=\"demo-checkbox\"\n              checked={group.includes('Food')}\n              onChange={() => toggleGroupValue('Food')}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"Drinks\"\n          media={\n            <Checkbox\n              component=\"div\"\n              name=\"demo-checkbox\"\n              checked={group.includes('Drinks')}\n              onChange={() => toggleGroupValue('Drinks')}\n            />\n          }\n        />\n      </List>\n\n      <BlockTitle>Indeterminate State</BlockTitle>\n      <List strong inset>\n        <ListItem\n          label\n          title=\"Movies\"\n          name=\"demo-checkbox\"\n          media={\n            <Checkbox\n              checked={movies.length === 2}\n              indeterminate={movies.length === 1}\n              onChange={onMoviesChange}\n            />\n          }\n        >\n          <ul className=\"ps-12\">\n            <ListItem\n              label\n              title=\"Movie 1\"\n              media={\n                <Checkbox\n                  name=\"demo-checkbox\"\n                  value=\"Movie 1\"\n                  checked={movies.indexOf('Movie 1') >= 0}\n                  onChange={onMovieChange}\n                />\n              }\n            />\n            <ListItem\n              label\n              title=\"Movie 2\"\n              media={\n                <Checkbox\n                  name=\"demo-checkbox\"\n                  value=\"Movie 2\"\n                  checked={movies.indexOf('Movie 2') >= 0}\n                  onChange={onMovieChange}\n                />\n              }\n            />\n          </ul>\n        </ListItem>\n      </List>\n\n      <BlockTitle>With Media Lists</BlockTitle>\n      <List strong inset>\n        <ListItem\n          label\n          title=\"Facebook\"\n          after=\"17:14\"\n          subtitle=\"New messages from John Doe\"\n          text=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.\"\n          media={\n            <Checkbox\n              component=\"div\"\n              name=\"demo-media-checkbox\"\n              checked={media.includes('Item 1')}\n              onChange={() => toggleMediaValue('Item 1')}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"John Doe (via Twitter)\"\n          after=\"17:11\"\n          subtitle=\"John Doe (@_johndoe) mentioned you on Twitter!\"\n          text=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.\"\n          media={\n            <Checkbox\n              component=\"div\"\n              name=\"demo-media-checkbox\"\n              checked={media.includes('Item 2')}\n              onChange={() => toggleMediaValue('Item 2')}\n            />\n          }\n        />\n      </List>\n    </Page>\n  );\n}\nCheckboxPage.displayName = 'CheckboxPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

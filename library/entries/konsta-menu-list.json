@@ -1,0 +1,40 @@
+{
+  "id": "konsta-menu-list",
+  "title": "Menu List (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/menu-list",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "menu-list",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "data-table",
+    "menu"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Menu List example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/MenuList.jsx",
+  "code": "import React, { useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Block,\n  MenuList,\n  MenuListItem,\n} from 'konsta/react';\nimport DemoIcon from '../components/DemoIcon';\n\nexport default function MenuListPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [selected, setSelected] = useState('home');\n  const [selectedMedia, setSelectedMedia] = useState('home');\n\n  return (\n    <Page>\n      <Navbar\n        title=\"Menu List\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <Block strong inset>\n        <p>\n          Menu list unlike usual links list is designed to indicate currently\n          active screen (or section) of your app. Think about it like a Tabbar\n          but in a form of a list.\n        </p>\n      </Block>\n      <MenuList strongIos outlineIos>\n        <MenuListItem\n          title=\"Home\"\n          active={selected === 'home'}\n          onClick={() => setSelected('home')}\n          media={<DemoIcon />}\n        />\n        <MenuListItem\n          title=\"Profile\"\n          active={selected === 'profile'}\n          onClick={() => setSelected('profile')}\n          media={<DemoIcon />}\n        />\n        <MenuListItem\n          title=\"Settings\"\n          active={selected === 'settings'}\n          onClick={() => setSelected('settings')}\n          media={<DemoIcon />}\n        />\n      </MenuList>\n\n      <MenuList strongIos outlineIos>\n        <MenuListItem\n          title=\"Home\"\n          subtitle=\"Home subtitle\"\n          active={selectedMedia === 'home'}\n          onClick={() => setSelectedMedia('home')}\n          media={<DemoIcon />}\n        />\n        <MenuListItem\n          title=\"Profile\"\n          subtitle=\"Profile subtitle\"\n          active={selectedMedia === 'profile'}\n          onClick={() => setSelectedMedia('profile')}\n          media={<DemoIcon />}\n        />\n        <MenuListItem\n          title=\"Settings\"\n          subtitle=\"Settings subtitle\"\n          active={selectedMedia === 'settings'}\n          onClick={() => setSelectedMedia('settings')}\n          media={<DemoIcon />}\n        />\n      </MenuList>\n    </Page>\n  );\n}\nMenuListPage.displayName = 'MenuListPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

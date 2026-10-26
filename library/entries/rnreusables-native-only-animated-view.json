@@ -1,0 +1,39 @@
+{
+  "id": "rnreusables-native-only-animated-view",
+  "title": "Native Only Animated View (react-native-reusables)",
+  "source": "react-native-reusables",
+  "url": "https://reactnativereusables.com/docs/components/native-only-animated-view",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "native-only-animated-view",
+    "react-native-reusables",
+    "shadcn",
+    "nativewind",
+    "react-native"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "animation",
+    "navigation"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Native Only Animated View from react-native-reusables: shadcn/ui-style components for React Native, styled with Nativewind (Tailwind).\n\nInstall into a project: npx @react-native-reusables/cli@latest add native-only-animated-view\n\nOriginal file: https://github.com/founded-labs/react-native-reusables/blob/main/packages/registry/src/nativewind/components/ui/native-only-animated-view.tsx",
+  "code": "import { Platform, Pressable } from 'react-native';\nimport Animated from 'react-native-reanimated';\n\nconst AnimatedPressable = Animated.createAnimatedComponent(Pressable);\n\n/**\n * This component is used to wrap animated views that should only be animated on native.\n * @param props - The props for the animated view.\n * @returns The animated view if the platform is native, otherwise the children.\n * @example\n * <NativeOnlyAnimatedView entering={FadeIn} exiting={FadeOut}>\n *   <Text>I am only animated on native</Text>\n * </NativeOnlyAnimatedView>\n */\nfunction NativeOnlyAnimatedView(\n  props: (React.ComponentProps<typeof Animated.View> & React.RefAttributes<typeof Animated.View> \n    & { as?: \"View\" }) | (React.ComponentProps<typeof AnimatedPressable> & React.RefAttributes<typeof AnimatedPressable> & { as: \"Pressable\" })\n) {\n  if (Platform.OS === 'web') {\n    return <>{props.children as React.ReactNode}</>;\n  } else {\n    if (props.as === \"Pressable\"){\n      return <AnimatedPressable {...props} />;\n    }\n    return <Animated.View {...props} />;\n  }\n}\n\nexport { NativeOnlyAnimatedView };",
+  "prompt": "npx @react-native-reusables/cli@latest add native-only-animated-view",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:52Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

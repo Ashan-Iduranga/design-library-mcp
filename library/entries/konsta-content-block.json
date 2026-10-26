@@ -1,0 +1,39 @@
+{
+  "id": "konsta-content-block",
+  "title": "Content Block (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/content-block",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "content-block",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "typography-ui"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Content Block example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/ContentBlock.jsx",
+  "code": "import React from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Block,\n  BlockFooter,\n  BlockHeader,\n  BlockTitle,\n} from 'konsta/react';\n\nexport default function ContentBlockPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  return (\n    <Page>\n      <Navbar\n        title=\"Content Block\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <BlockTitle>Block Title</BlockTitle>\n      <Block>\n        <p>\n          Donec et nulla auctor massa pharetra adipiscing ut sit amet sem.\n          Suspendisse molestie velit vitae mattis tincidunt. Ut sit amet quam\n          mollis, vulputate turpis vel, sagittis felis.\n        </p>\n      </Block>\n      <BlockTitle>Strong Block</BlockTitle>\n      <Block strong>\n        <p>\n          Donec et nulla auctor massa pharetra adipiscing ut sit amet sem.\n          Suspendisse molestie velit vitae mattis tincidunt. Ut sit amet quam\n          mollis, vulputate turpis vel, sagittis felis.\n        </p>\n      </Block>\n      <BlockTitle>Strong Outline Block</BlockTitle>\n      <Block strong outline>\n        <p>\n          Donec et nulla auctor massa pharetra adipiscing ut sit amet sem.\n          Suspendisse molestie velit vitae mattis tincidunt. Ut sit amet quam\n          mollis, vulputate turpis vel, sagittis felis.\n        </p>\n      </Block>\n\n      <BlockTitle>Strong Inset Block</BlockTitle>\n      <Block strong inset>\n        <p>\n          Donec et nulla auctor massa pharetra adipiscing ut sit amet sem.\n          Suspendisse molestie velit vitae mattis tincidunt. Ut sit amet quam\n          mollis, vulputate turpis vel, sagittis felis.\n        </p>\n      </Block>\n\n      <BlockTitle>Strong Inset Outline Block</BlockTitle>\n      <Block strong inset outline>\n        <p>\n          Donec et nulla auctor massa pharetra adipiscing ut sit amet sem.\n          Suspendisse molestie velit vitae mattis tincidunt. Ut sit amet quam\n          mollis, vulputate turpis vel, sagittis felis.\n        </p>\n      </Block>\n      <BlockTitle>With Header & Footer</BlockTitle>\n      <BlockHeader>Header</BlockHeader>\n      <Block strong outline>\n        <p>\n          Donec et nulla auctor massa pharetra adipiscing ut sit amet sem.\n          Suspendisse molestie velit vitae mattis tincidunt. Ut sit amet quam\n          mollis, vulputate turpis vel, sagittis felis.\n        </p>\n      </Block>\n      <BlockFooter>Footer</BlockFooter>\n      <BlockTitle medium>Medium Title</BlockTitle>\n      <Block strong outline>\n        <p>\n          Donec et nulla auctor massa pharetra adipiscing ut sit amet sem.\n          Suspendisse molestie velit vitae mattis tincidunt. Ut sit amet quam\n          mollis, vulputate turpis vel, sagittis felis.\n        </p>\n      </Block>\n      <BlockTitle large>Large Title</BlockTitle>\n      <Block strong outline>\n        <p>\n          Donec et nulla auctor massa pharetra adipiscing ut sit amet sem.\n          Suspendisse molestie velit vitae mattis tincidunt. Ut sit amet quam\n          mollis, vulputate turpis vel, sagittis felis.\n        </p>\n      </Block>\n    </Page>\n  );\n}\nContentBlockPage.displayName = 'ContentBlockPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

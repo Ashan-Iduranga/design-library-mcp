@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-divider",
+  "title": "Divider (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/DividerExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "divider",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "menu"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Divider example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import { FlatList } from 'react-native';\n\nimport { Divider, List, useTheme } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst items = ['Apple', 'Banana', 'Coconut', 'Lemon', 'Mango', 'Peach'];\n\nconst DividerExample = () => {\n  const { colors } = useTheme();\n\n  return (\n    <ScreenWrapper withScrollView={false}>\n      <FlatList\n        style={{ backgroundColor: colors?.background }}\n        renderItem={({ item }) => <List.Item title={item} />}\n        keyExtractor={(item) => item}\n        ItemSeparatorComponent={Divider}\n        data={items}\n        alwaysBounceVertical={false}\n      />\n    </ScreenWrapper>\n  );\n};\n\nDividerExample.title = 'Divider';\n\nexport default DividerExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

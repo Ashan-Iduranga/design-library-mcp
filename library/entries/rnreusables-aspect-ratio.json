@@ -1,0 +1,38 @@
+{
+  "id": "rnreusables-aspect-ratio",
+  "title": "Aspect Ratio (react-native-reusables)",
+  "source": "react-native-reusables",
+  "url": "https://reactnativereusables.com/docs/components/aspect-ratio",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "aspect-ratio",
+    "react-native-reusables",
+    "shadcn",
+    "nativewind",
+    "react-native"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "layout"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Aspect Ratio from react-native-reusables: shadcn/ui-style components for React Native, styled with Nativewind (Tailwind).\n\nInstall into a project: npx @react-native-reusables/cli@latest add aspect-ratio\n\nOriginal file: https://github.com/founded-labs/react-native-reusables/blob/main/packages/registry/src/nativewind/components/ui/aspect-ratio.tsx",
+  "code": "import * as AspectRatioPrimitive from '@rn-primitives/aspect-ratio';\n\nconst AspectRatio = AspectRatioPrimitive.Root;\n\nexport { AspectRatio };",
+  "prompt": "npx @react-native-reusables/cli@latest add aspect-ratio",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:52Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

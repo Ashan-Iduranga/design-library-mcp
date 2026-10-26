@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-dialog",
+  "title": "Dialog (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/DialogExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "dialog",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "modal"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Dialog example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { Platform, StyleSheet } from 'react-native';\n\nimport { Button } from 'react-native-paper';\n\nimport {\n  DialogWithCustomColors,\n  DialogWithDismissableBackButton,\n  DialogWithIcon,\n  DialogWithLoadingIndicator,\n  DialogWithLongText,\n  DialogWithRadioBtns,\n  DialogWithUndismissableBackButton,\n  UndismissableDialog,\n} from './Dialogs';\nimport ScreenWrapper from '../ScreenWrapper';\n\ntype ButtonVisibility = {\n  [key: string]: boolean | undefined;\n};\n\nconst DialogExample = () => {\n  const [visible, setVisible] = React.useState<ButtonVisibility>({});\n\n  const _toggleDialog = (name: string) => () =>\n    setVisible({ ...visible, [name]: !visible[name] });\n\n  const _getVisible = (name: string) => !!visible[name];\n\n  return (\n    <ScreenWrapper style={styles.container}>\n      <Button\n        mode=\"outlined\"\n        onPress={_toggleDialog('dialog1')}\n        style={styles.button}\n      >\n        Long text\n      </Button>\n      <Button\n        mode=\"outlined\"\n        onPress={_toggleDialog('dialog2')}\n        style={styles.button}\n      >\n        Radio buttons\n      </Button>\n      <Button\n        mode=\"outlined\"\n        onPress={_toggleDialog('dialog3')}\n        style={styles.button}\n      >\n        Progress indicator\n      </Button>\n      <Button\n        mode=\"outlined\"\n        onPress={_toggleDialog('dialog4')}\n        style={styles.button}\n      >\n        Undismissable Dialog\n      </Button>\n      <Button\n        mode=\"outlined\"\n        onPress={_toggleDialog('dialog5')}\n        style={styles.button}\n      >\n        Custom colors\n      </Button>\n      <Button\n        mode=\"outlined\"\n        onPress={_toggleDialog('dialog6')}\n        style={styles.button}\n      >\n        With icon\n      </Button>\n      {Platform.OS === 'android' && (\n        <Button\n          mode=\"outlined\"\n          onPress={_toggleDialog('dialog7')}\n          style={styles.button}\n        >\n          Dismissable back button\n        </Button>\n      )}\n      {Platform.OS === 'android' && (\n        <Button\n          mode=\"outlined\"\n          onPress={_toggleDialog('dialog8')}\n          style={styles.button}\n        >\n          Undismissable back button\n        </Button>\n      )}\n      <DialogWithLongText\n        visible={_getVisible('dialog1')}\n        close={_toggleDialog('dialog1')}\n      />\n      <DialogWithRadioBtns\n        visible={_getVisible('dialog2')}\n        close={_toggleDialog('dialog2')}\n      />\n      <DialogWithLoadingIndicator\n        visible={_getVisible('dialog3')}\n        close={_toggleDialog('dialog3')}\n      />\n      <UndismissableDialog\n        visible={_getVisible('dialog4')}\n        close={_toggleDialog('dialog4')}\n      />\n      <DialogWithCustomColors\n        visible={_getVisible('dialog5')}\n        close={_toggleDialog('dialog5')}\n      />\n      <DialogWithIcon\n        visible={_getVisible('dialog6')}\n        close={_toggleDialog('dialog6')}\n      />\n      <DialogWithDismissableBackButton\n        visible={_getVisible('dialog7')}\n        close={_toggleDialog('dialog7')}\n      />\n      <DialogWithUndismissableBackButton\n        visible={_getVisible('dialog8')}\n        close={_toggleDialog('dialog8')}\n      />\n    </ScreenWrapper>\n  );\n};\n\nDialogExample.title = 'Dialog';\n\nconst styles = StyleSheet.create({\n  container: {\n    padding: 12,\n  },\n  button: {\n    margin: 4,\n  },\n});\n\nexport default DialogExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

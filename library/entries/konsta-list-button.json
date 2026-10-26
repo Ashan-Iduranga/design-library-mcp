@@ -1,0 +1,40 @@
+{
+  "id": "konsta-list-button",
+  "title": "List Button (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/list-button",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "list-button",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "button",
+    "data-table"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI List Button example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/ListButton.jsx",
+  "code": "import React from 'react';\nimport { Page, Navbar, NavbarBackLink, List, ListButton } from 'konsta/react';\n\nexport default function ListButtonPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  return (\n    <Page>\n      <Navbar\n        title=\"List Button\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <List strong outlineIos>\n        <ListButton>Button 1</ListButton>\n        <ListButton>Button 2</ListButton>\n        <ListButton>Button 3</ListButton>\n      </List>\n\n      <List inset strong>\n        <ListButton>Button 1</ListButton>\n        <ListButton>Button 2</ListButton>\n        <ListButton>Button 3</ListButton>\n      </List>\n      <List inset strong>\n        <ListButton className=\"k-color-brand-red\">Red Button</ListButton>\n      </List>\n    </Page>\n  );\n}\nListButtonPage.displayName = 'ListButtonPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

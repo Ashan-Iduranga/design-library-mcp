@@ -1,0 +1,39 @@
+{
+  "id": "konsta-chips",
+  "title": "Chips (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/chips",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "chips",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "button"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Chips example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Chips.jsx",
+  "code": "import React from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Chip,\n  Block,\n  BlockTitle,\n} from 'konsta/react';\n\nexport default function ChipsPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  return (\n    <Page>\n      <Navbar\n        title=\"Chips\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <BlockTitle>Chips With Text</BlockTitle>\n      <Block strong inset>\n        <Chip className=\"m-0.5\">Example Chip</Chip>\n        <Chip className=\"m-0.5\">Another Chip</Chip>\n        <Chip className=\"m-0.5\">One More Chip</Chip>\n        <Chip className=\"m-0.5\">Fourth Chip</Chip>\n        <Chip className=\"m-0.5\">Last One</Chip>\n      </Block>\n\n      <BlockTitle>Outline Chips</BlockTitle>\n      <Block strong inset>\n        <Chip outline className=\"m-0.5\">\n          Example Chip\n        </Chip>\n        <Chip outline className=\"m-0.5\">\n          Another Chip\n        </Chip>\n        <Chip outline className=\"m-0.5\">\n          One More Chip\n        </Chip>\n        <Chip outline className=\"m-0.5\">\n          Fourth Chip\n        </Chip>\n        <Chip outline className=\"m-0.5\">\n          Last One\n        </Chip>\n      </Block>\n\n      <BlockTitle>Contact Chips</BlockTitle>\n      <Block strong inset>\n        <Chip\n          className=\"m-0.5\"\n          media={\n            <img\n              alt=\"avatar\"\n              className=\"ios:h-7 material:h-6 rounded-full\"\n              src=\"https://cdn.framework7.io/placeholder/people-100x100-9.jpg\"\n            />\n          }\n        >\n          Jane Doe\n        </Chip>\n        <Chip\n          className=\"m-0.5\"\n          media={\n            <img\n              alt=\"avatar\"\n              className=\"ios:h-7 material:h-6 rounded-full\"\n              src=\"https://cdn.framework7.io/placeholder/people-100x100-3.jpg\"\n            />\n          }\n        >\n          John Doe\n        </Chip>\n        <Chip\n          className=\"m-0.5\"\n          media={\n            <img\n              alt=\"avatar\"\n              className=\"ios:h-7 material:h-6 rounded-full\"\n              src=\"https://cdn.framework7.io/placeholder/people-100x100-7.jpg\"\n            />\n          }\n        >\n          Adam Smith\n        </Chip>\n      </Block>\n\n      <BlockTitle>Deletable Chips / Tags</BlockTitle>\n      <Block strong inset>\n        <Chip\n          className=\"m-0.5\"\n          deleteButton\n          onDelete={() => console.log('Delete Chip')}\n        >\n          Example Chip\n        </Chip>\n        <Chip\n          className=\"m-0.5\"\n          deleteButton\n          onDelete={() => console.log('Delete Chip')}\n          media={\n            <img\n              alt=\"avatar\"\n              className=\"ios:h-7 material:h-6 rounded-full\"\n              src=\"https://cdn.framework7.io/placeholder/people-100x100-7.jpg\"\n            />\n          }\n        >\n          Adam Smith\n        </Chip>\n      </Block>\n      <BlockTitle>Color Chips</BlockTitle>\n      <Block strong inset>\n        <Chip\n          className=\"m-0.5\"\n          colors={{ fillBg: 'bg-red-500', fillText: 'text-white' }}\n        >\n          Red Chip\n        </Chip>\n        <Chip\n          className=\"m-0.5\"\n          colors={{ fillBg: 'bg-green-500', fillText: 'text-white' }}\n        >\n          Green Chip\n        </Chip>\n        <Chip\n          className=\"m-0.5\"\n          colors={{ fillBg: 'bg-blue-500', fillText: 'text-white' }}\n        >\n          Blue Chip\n        </Chip>\n        <Chip\n          className=\"m-0.5\"\n          colors={{ fillBg: 'bg-yellow-500', fillText: 'text-white' }}\n        >\n          Yellow Chip\n        </Chip>\n        <Chip\n          className=\"m-0.5\"\n          colors={{ fillBg: 'bg-pink-500', fillText: 'text-white' }}\n        >\n          Pink Chip\n        </Chip>\n        <Chip\n          className=\"m-0.5\"\n          outline\n          colors={{\n            outlineBorder: 'border-red-500',\n            outlineText: 'text-red-500',\n          }}\n        >\n          Red Chip\n        </Chip>\n        <Chip\n          className=\"m-0.5\"\n          outline\n          colors={{\n            outlineBorder: 'border-green-500',\n            outlineText: 'text-green-500',\n          }}\n        >\n          Green Chip\n        </Chip>\n        <Chip\n          className=\"m-0.5\"\n          outline\n          colors={{\n            outlineBorder: 'border-blue-500',\n            outlineText: 'text-blue-500',\n          }}\n        >\n          Blue Chip\n        </Chip>\n        <Chip\n          className=\"m-0.5\"\n          outline\n          colors={{\n            outlineBorder: 'border-yellow-500',\n            outlineText: 'text-yellow-500',\n          }}\n        >\n          Yellow Chip\n        </Chip>\n        <Chip\n          className=\"m-0.5\"\n          outline\n          colors={{\n            outlineBorder: 'border-pink-500',\n            outlineText: 'text-pink-500',\n          }}\n        >\n          Pink Chip\n        </Chip>\n      </Block>\n    </Page>\n  );\n}\nChipsPage.displayName = 'ChipsPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

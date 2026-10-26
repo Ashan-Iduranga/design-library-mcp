@@ -1,0 +1,39 @@
+{
+  "id": "konsta-searchbar",
+  "title": "Searchbar (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/searchbar",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "searchbar",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "search"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Searchbar example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Searchbar.jsx",
+  "code": "import React, { useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Searchbar,\n  List,\n  ListItem,\n} from 'konsta/react';\n\nconst items = [\n  { title: 'FC Ajax' },\n  { title: 'FC Arsenal' },\n  { title: 'FC Athletic' },\n  { title: 'FC Barcelona' },\n  { title: 'FC Bayern München' },\n  { title: 'FC Bordeaux' },\n  { title: 'FC Borussia Dortmund' },\n  { title: 'FC Chelsea' },\n  { title: 'FC Galatasaray' },\n  { title: 'FC Juventus' },\n  { title: 'FC Liverpool' },\n  { title: 'FC Manchester City' },\n  { title: 'FC Manchester United' },\n  { title: 'FC Paris Saint-Germain' },\n  { title: 'FC Real Madrid' },\n  { title: 'FC Tottenham Hotspur' },\n  { title: 'FC Valencia' },\n  { title: 'FC West Ham United' },\n];\n\nexport default function SearchbarPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [searchQuery, setSearchQuery] = useState('');\n\n  const handleSearch = (e) => {\n    setSearchQuery(e.target.value);\n  };\n  const handleClear = () => {\n    setSearchQuery('');\n  };\n  const handleDisable = () => {\n    console.log('Disable');\n  };\n  const filteredItems = searchQuery\n    ? items.filter((item) =>\n        item.title.toLowerCase().includes(searchQuery.toLowerCase())\n      )\n    : items;\n\n  return (\n    <Page>\n      <Navbar\n        title=\"Searchbar\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n        subnavbar={\n          <Searchbar\n            onInput={handleSearch}\n            value={searchQuery}\n            onClear={handleClear}\n            disableButton\n            disableButtonText=\"Cancel\"\n            onDisable={handleDisable}\n          />\n        }\n      />\n      <List strong inset>\n        {filteredItems.length === 0 ? (\n          <ListItem title=\"Nothing found\" className=\"text-center\" />\n        ) : (\n          filteredItems.map((item) => (\n            <ListItem key={item.title} title={item.title} />\n          ))\n        )}\n      </List>\n    </Page>\n  );\n}\nSearchbarPage.displayName = 'SearchbarPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

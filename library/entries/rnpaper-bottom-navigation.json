@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-bottom-navigation",
+  "title": "Bottom Navigation (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/BottomNavigationExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "bottom-navigation",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "navigation"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Bottom Navigation example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport {\n  Dimensions,\n  Easing,\n  Image,\n  Platform,\n  StyleSheet,\n  View,\n} from 'react-native';\n\nimport { useNavigation } from '@react-navigation/native';\nimport { Appbar, BottomNavigation, Menu } from 'react-native-paper';\nimport type { BottomNavigationRoute } from 'react-native-paper';\nimport { useSafeAreaInsets } from 'react-native-safe-area-context';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\ntype Route = { route: { key: string } };\n\nconst MORE_ICON = Platform.OS === 'ios' ? 'dots-horizontal' : 'dots-vertical';\n\nconst PhotoGallery = ({ route }: Route) => {\n  const PHOTOS = Array.from({ length: 24 }).map(\n    (_, i) => `https://unsplash.it/300/300/?random&__id=${route.key}${i}`\n  );\n\n  return (\n    <ScreenWrapper contentContainerStyle={styles.content}>\n      {PHOTOS.map((uri) => (\n        <View key={uri} style={styles.item}>\n          <Image\n            source={{ uri }}\n            resizeMode=\"cover\"\n            style={styles.photo}\n            accessibilityIgnoresInvertColors\n          />\n        </View>\n      ))}\n    </ScreenWrapper>\n  );\n};\n\nconst BottomNavigationExample = () => {\n  const navigation = useNavigation('BottomNavigation');\n\n  const insets = useSafeAreaInsets();\n  const [index, setIndex] = React.useState(0);\n  const [menuVisible, setMenuVisible] = React.useState(false);\n  const [sceneAnimation, setSceneAnimation] =\n    React.useState<\n      React.ComponentProps<typeof BottomNavigation>['sceneAnimationType']\n    >();\n\n  const [routes] = React.useState<BottomNavigationRoute[]>([\n    {\n      key: 'album',\n      title: 'Album',\n      focusedIcon: 'image-album',\n    },\n    {\n      key: 'library',\n      title: 'Library',\n      focusedIcon: 'inbox',\n      unfocusedIcon: 'inbox-outline',\n      badge: true,\n    },\n    {\n      key: 'favorites',\n      title: 'Favorites',\n      focusedIcon: 'heart',\n      unfocusedIcon: 'heart-outline',\n    },\n    {\n      key: 'purchased',\n      title: 'Purchased',\n      focusedIcon: 'shopping',\n      unfocusedIcon: 'shopping-outline',\n    },\n  ]);\n\n  React.useLayoutEffect(() => {\n    navigation.setOptions({\n      headerShown: false,\n    });\n  }, [navigation]);\n\n  return (\n    <View style={styles.screen}>\n      <Appbar.Header elevated>\n        <Appbar.BackAction onPress={() => navigation.goBack()} />\n        <Appbar.Content title=\"Bottom Navigation\" />\n        <Menu\n          visible={menuVisible}\n          onDismiss={() => setMenuVisible(false)}\n          anchor={\n            <Appbar.Action\n              icon={MORE_ICON}\n              onPress={() => setMenuVisible(true)}\n            />\n          }\n        >\n          <Menu.Item\n            trailingIcon={sceneAnimation === undefined ? 'check' : undefined}\n            onPress={() => {\n              setSceneAnimation(undefined);\n              setMenuVisible(false);\n            }}\n            title=\"Scene animation: none\"\n          />\n          <Menu.Item\n            trailingIcon={sceneAnimation === 'shifting' ? 'check' : undefined}\n            onPress={() => {\n              setSceneAnimation('shifting');\n              setMenuVisible(false);\n            }}\n            title=\"Scene animation: shifting\"\n          />\n          <Menu.Item\n            trailingIcon={sceneAnimation === 'opacity' ? 'check' : undefined}\n            onPress={() => {\n              setSceneAnimation('opacity');\n              setMenuVisible(false);\n            }}\n            title=\"Scene animation: opacity\"\n          />\n        </Menu>\n      </Appbar.Header>\n      <BottomNavigation\n        safeAreaInsets={{ bottom: insets.bottom }}\n        navigationState={{ index, routes }}\n        onIndexChange={setIndex}\n        labelMaxFontSizeMultiplier={2}\n        renderScene={BottomNavigation.SceneMap({\n          album: PhotoGallery,\n          library: PhotoGallery,\n          favorites: PhotoGallery,\n          purchased: PhotoGallery,\n        })}\n        sceneAnimationEnabled={sceneAnimation !== undefined}\n        sceneAnimationType={sceneAnimation}\n        sceneAnimationEasing={Easing.ease}\n        getLazy={({ route }) => route.key !== 'album'}\n      />\n    </View>\n  );\n};\n\nBottomNavigationExample.title = 'Bottom Navigation';\n\nexport default BottomNavigationExample;\n\nconst styles = StyleSheet.create({\n  ...Platform.select({\n    web: {\n      content: {\n        // there is no 'grid' type in RN :(\n        // eslint-disable-next-line @typescript-eslint/no-unsafe-type-assertion\n        display: 'grid' as 'none',\n        gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))',\n        gridRowGap: '8px',\n        gridColumnGap: '8px',\n        padding: 8,\n      },\n      item: {\n        width: '100%',\n        height: 150,\n      },\n    },\n    default: {\n      content: {\n        flexDirection: 'row',\n        flexWrap: 'wrap',\n        padding: 4,\n      },\n      item: {\n        height: Dimensions.get('window').width / 2,\n        width: '50%',\n        padding: 4,\n      },\n    },\n  }),\n  photo: {\n    flex: 1,\n  },\n  screen: {\n    flex: 1,\n  },\n});",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

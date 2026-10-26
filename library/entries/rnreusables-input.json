@@ -1,0 +1,38 @@
+{
+  "id": "rnreusables-input",
+  "title": "Input (react-native-reusables)",
+  "source": "react-native-reusables",
+  "url": "https://reactnativereusables.com/docs/components/input",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "react-native-reusables",
+    "shadcn",
+    "nativewind",
+    "react-native"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "form"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Input from react-native-reusables: shadcn/ui-style components for React Native, styled with Nativewind (Tailwind).\n\nInstall into a project: npx @react-native-reusables/cli@latest add input\n\nOriginal file: https://github.com/founded-labs/react-native-reusables/blob/main/packages/registry/src/nativewind/components/ui/input.tsx",
+  "code": "import { cn } from '@/registry/nativewind/lib/utils';\nimport { Platform, TextInput } from 'react-native';\n\nfunction Input({ className, ...props }: React.ComponentProps<typeof TextInput> & React.RefAttributes<TextInput>) {\n  return (\n    <TextInput\n      className={cn(\n        'dark:bg-input/30 border-input bg-background text-foreground flex h-10 w-full min-w-0 flex-row items-center rounded-md border px-3 py-1 text-base leading-5 shadow-sm shadow-black/5 sm:h-9',\n        props.editable === false &&\n        cn(\n          'opacity-50',\n          Platform.select({ web: 'disabled:pointer-events-none disabled:cursor-not-allowed' })\n        ),\n        Platform.select({\n          web: cn(\n            'placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground outline-none transition-[color,box-shadow] md:text-sm',\n            'focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]',\n            'aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive'\n          ),\n          native: 'placeholder:text-muted-foreground/50',\n        }),\n        className\n      )}\n      {...props}\n    />\n  );\n}\n\nexport { Input };",
+  "prompt": "npx @react-native-reusables/cli@latest add input",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:52Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

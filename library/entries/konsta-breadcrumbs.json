@@ -1,0 +1,39 @@
+{
+  "id": "konsta-breadcrumbs",
+  "title": "Breadcrumbs (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/breadcrumbs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "breadcrumbs",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "navigation"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Breadcrumbs example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Breadcrumbs.jsx",
+  "code": "import React, { useRef, useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  BlockTitle,\n  BlockHeader,\n  Block,\n  Breadcrumbs,\n  BreadcrumbsItem,\n  BreadcrumbsSeparator,\n  BreadcrumbsCollapsed,\n  Popover,\n  List,\n  ListItem,\n  Link,\n} from 'konsta/react';\n\nexport default function BreadcrumbsPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n\n  const popoverTargetRef = useRef(null);\n  const [popoverOpened, setPopoverOpened] = useState(false);\n  return (\n    <Page>\n      <Navbar\n        title=\"Breadcrumbs\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <Block strong inset>\n        Breadcrumbs allow users to keep track and maintain awareness of their\n        locations within the app or website. They should be used for large sites\n        and apps with hierarchically arranged pages.\n      </Block>\n\n      <BlockTitle>Basic</BlockTitle>\n      <Block strongIos outlineIos>\n        <Breadcrumbs>\n          <BreadcrumbsItem>\n            <Link>Home</Link>\n          </BreadcrumbsItem>\n          <BreadcrumbsSeparator />\n          <BreadcrumbsItem>\n            <Link>Catalog</Link>\n          </BreadcrumbsItem>\n          <BreadcrumbsItem active>\n            <Link>iPhone 12</Link>\n          </BreadcrumbsItem>\n        </Breadcrumbs>\n      </Block>\n\n      <BlockTitle>Scrollable</BlockTitle>\n      <BlockHeader>\n        Breadcrumbs will be scrollable if they don't fit the screen\n      </BlockHeader>\n      <Block strongIos outlineIos>\n        <Breadcrumbs>\n          <BreadcrumbsItem>\n            <Link>Home</Link>\n          </BreadcrumbsItem>\n          <BreadcrumbsSeparator />\n          <BreadcrumbsItem>\n            <Link>Catalog</Link>\n          </BreadcrumbsItem>\n          <BreadcrumbsSeparator />\n          <BreadcrumbsItem>\n            <Link>Phones</Link>\n          </BreadcrumbsItem>\n          <BreadcrumbsSeparator />\n          <BreadcrumbsItem>\n            <Link>Apple</Link>\n          </BreadcrumbsItem>\n          <BreadcrumbsSeparator />\n          <BreadcrumbsItem active>iPhone 12</BreadcrumbsItem>\n        </Breadcrumbs>\n      </Block>\n\n      <BlockTitle>Collapsed</BlockTitle>\n      <Block strongIos outlineIos>\n        <Breadcrumbs>\n          <BreadcrumbsItem>\n            <Link>Home</Link>\n          </BreadcrumbsItem>\n          <BreadcrumbsSeparator />\n          <BreadcrumbsCollapsed\n            ref={popoverTargetRef}\n            onClick={() => setPopoverOpened(true)}\n          />\n          <BreadcrumbsSeparator />\n          <BreadcrumbsItem active>iPhone 12</BreadcrumbsItem>\n        </Breadcrumbs>\n      </Block>\n\n      <Popover\n        opened={popoverOpened}\n        className=\"breadcrumbs-popover\"\n        style={{ width: '120px' }}\n        target={popoverTargetRef.current}\n        onBackdropClick={() => setPopoverOpened(false)}\n      >\n        <List nested>\n          <ListItem\n            link\n            title=\"Catalog\"\n            onClick={() => setPopoverOpened(false)}\n          />\n          <ListItem\n            link\n            title=\"Phones\"\n            onClick={() => setPopoverOpened(false)}\n          />\n          <ListItem\n            link\n            title=\"Apple\"\n            onClick={() => setPopoverOpened(false)}\n          />\n        </List>\n      </Popover>\n    </Page>\n  );\n}\nBreadcrumbsPage.displayName = 'BreadcrumbsPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

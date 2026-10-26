@@ -1,0 +1,39 @@
+{
+  "id": "konsta-notification",
+  "title": "Notification (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/notification",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "notifications"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Notification example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Notification.jsx",
+  "code": "import React, { useState, useEffect } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Block,\n  Notification,\n  Button,\n  Dialog,\n  DialogButton,\n} from 'konsta/react';\nimport DemoIcon from '../components/DemoIcon';\n\nexport default function NotificationPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [notificationFull, setNotificationFull] = useState(false);\n  const [notificationWithButton, setNotificationWithButton] = useState(false);\n  const [notificationCloseOnClick, setNotificationCloseOnClick] =\n    useState(false);\n  const [notificationCallbackOnClose, setNotificationCallbackOnClose] =\n    useState(false);\n  const [alertOpened, setAlertOpened] = useState(false);\n\n  const openNotification = (setter) => {\n    setNotificationFull(false);\n    setNotificationWithButton(false);\n    setNotificationCloseOnClick(false);\n    setNotificationCallbackOnClose(false);\n    setter(true);\n  };\n\n  useEffect(() => {\n    let timer;\n    if (notificationFull) {\n      timer = setTimeout(() => {\n        setNotificationFull(false);\n      }, 3000);\n    }\n    return () => clearTimeout(timer);\n  }, [notificationFull]);\n\n  return (\n    <Page>\n      <Navbar\n        title=\"Notification\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n      <Notification\n        opened={notificationFull}\n        icon={<DemoIcon />}\n        title=\"Konsta UI\"\n        titleRightText=\"now\"\n        subtitle=\"This is a subtitle\"\n        text=\"This is a simple notification message\"\n      />\n      <Notification\n        opened={notificationWithButton}\n        icon={<DemoIcon />}\n        title=\"Konsta UI\"\n        button\n        onClick={() => setNotificationWithButton(false)}\n        subtitle=\"Notification with close button\"\n        text=\"Click (x) button to close me\"\n      />\n      <Notification\n        opened={notificationCloseOnClick}\n        icon={<DemoIcon />}\n        title=\"Konsta UI\"\n        titleRightText=\"now\"\n        subtitle=\"Notification with close on click\"\n        text=\"Click me to close\"\n        onClick={() => setNotificationCloseOnClick(false)}\n      />\n      <Notification\n        opened={notificationCallbackOnClose}\n        icon={<DemoIcon />}\n        title=\"Konsta UI\"\n        titleRightText=\"now\"\n        subtitle=\"Notification with close on click\"\n        text=\"Click me to close\"\n        onClick={() => {\n          setNotificationCallbackOnClose(false);\n          setAlertOpened(true);\n        }}\n      />\n      <Dialog\n        opened={alertOpened}\n        onBackdropClick={() => setAlertOpened(false)}\n        title=\"Konsta UI\"\n        content=\"Notification closed\"\n        buttons={\n          <DialogButton onClick={() => setAlertOpened(false)}>Ok</DialogButton>\n        }\n      />\n      <Block inset strong className=\"space-y-4\">\n        <p>\n          Konsta UI comes with simple Notifications component that allows you to\n          show some useful messages to user and request basic actions.\n        </p>\n        <div className=\"grid gap-4 sm:grid-cols-2\">\n          <Button rounded onClick={() => openNotification(setNotificationFull)}>\n            Full layout notification\n          </Button>\n          <Button\n            rounded\n            onClick={() => openNotification(setNotificationWithButton)}\n          >\n            With Close Button\n          </Button>\n          <Button\n            rounded\n            onClick={() => openNotification(setNotificationCloseOnClick)}\n          >\n            Click to Close\n          </Button>\n          <Button\n            rounded\n            onClick={() => openNotification(setNotificationCallbackOnClose)}\n          >\n            Callback on Close\n          </Button>\n        </div>\n      </Block>\n    </Page>\n  );\n}\n\nNotificationPage.displayName = 'NotificationPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

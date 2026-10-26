@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-icon",
+  "title": "Icon (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/IconExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "icon",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "icons"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Icon example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import { StyleSheet, View, Image } from 'react-native';\n\nimport { Icon, List } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst AssetIcon = ({ size, testID }: { size: number; testID: string }) => (\n  <Image\n    accessibilityIgnoresInvertColors\n    source={require('../../assets/images/paper-icon.png')}\n    style={{ width: size, height: size }}\n    testID={testID}\n  />\n);\n\nconst IconExample = () => {\n  return (\n    <ScreenWrapper>\n      <List.Section title=\"Default icon (MaterialDesignIcons)\">\n        <View style={styles.row}>\n          <Icon source=\"camera\" size={24} />\n        </View>\n      </List.Section>\n      <List.Section title=\"Image icon\">\n        <View style={styles.row}>\n          <Icon source={{ uri: 'https://picsum.photos/700' }} size={48} />\n        </View>\n      </List.Section>\n      <List.Section title=\"Render function icon\">\n        <View style={styles.row}>\n          <Icon source={AssetIcon} size={48} />\n        </View>\n      </List.Section>\n    </ScreenWrapper>\n  );\n};\n\nIconExample.title = 'Icon';\n\nconst styles = StyleSheet.create({\n  row: {\n    flexDirection: 'row',\n    flexWrap: 'wrap',\n    alignItems: 'center',\n    marginLeft: 16,\n  },\n});\n\nexport default IconExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

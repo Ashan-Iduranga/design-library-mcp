@@ -1,0 +1,39 @@
+{
+  "id": "konsta-dialog",
+  "title": "Dialog (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/dialog",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "dialog",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "modal"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Dialog example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Dialog.jsx",
+  "code": "import React, { useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Dialog,\n  DialogButton,\n  Block,\n  List,\n  ListItem,\n  Radio,\n  Button,\n} from 'konsta/react';\n\nexport default function DialogPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [basicOpened, setBasicOpened] = useState(false);\n  const [alertOpened, setAlertOpened] = useState(false);\n  const [confirmOpened, setConfirmOpened] = useState(false);\n  const [listOpened, setListOpened] = useState(false);\n  const [radioValue, setRadioValue] = useState('batman');\n  return (\n    <Page>\n      <Navbar\n        title=\"Dialog\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <Block strong inset className=\"space-y-4\">\n        <p>\n          Dialog is a type of modal window that appears in front of app content\n          to provide critical information, or prompt for a decision to be made.\n        </p>\n      </Block>\n      <Block strong inset>\n        <p className=\"grid grid-cols-2 md:grid-cols-4 gap-4\">\n          <Button rounded onClick={() => setBasicOpened(true)}>\n            Basic\n          </Button>\n          <Button rounded onClick={() => setAlertOpened(true)}>\n            Alert\n          </Button>\n          <Button rounded onClick={() => setConfirmOpened(true)}>\n            Confirm\n          </Button>\n          <Button rounded onClick={() => setListOpened(true)}>\n            List\n          </Button>\n        </p>\n      </Block>\n      <Dialog\n        opened={basicOpened}\n        onBackdropClick={() => setBasicOpened(false)}\n        title=\"Dialog Title\"\n        content=\"Dialog is a type of modal window that appears in front of app content to provide critical information, or prompt for a decision to be made.\"\n        buttons={\n          <>\n            <DialogButton onClick={() => setBasicOpened(false)}>\n              Action 2\n            </DialogButton>\n            <DialogButton strong onClick={() => setBasicOpened(false)}>\n              Action 1\n            </DialogButton>\n          </>\n        }\n      />\n      <Dialog\n        opened={alertOpened}\n        onBackdropClick={() => setAlertOpened(false)}\n        title=\"Konsta UI\"\n        content=\"Hello world!\"\n        buttons={\n          <DialogButton strong onClick={() => setAlertOpened(false)}>\n            Ok\n          </DialogButton>\n        }\n      />\n      <Dialog\n        opened={confirmOpened}\n        onBackdropClick={() => setConfirmOpened(false)}\n        title=\"Konsta UI\"\n        content=\"All good today?\"\n        buttons={\n          <>\n            <DialogButton onClick={() => setConfirmOpened(false)}>\n              No\n            </DialogButton>\n            <DialogButton strong onClick={() => setConfirmOpened(false)}>\n              Yes\n            </DialogButton>\n          </>\n        }\n      />\n      <Dialog\n        opened={listOpened}\n        onBackdropClick={() => setListOpened(false)}\n        title=\"Your super hero\"\n        content={\n          <List nested className=\"-mx-4\">\n            <ListItem\n              label\n              title=\"Batman\"\n              after={\n                <Radio\n                  component=\"div\"\n                  value=\"batman\"\n                  checked={radioValue === 'batman'}\n                  onChange={() => setRadioValue('batman')}\n                />\n              }\n            />\n            <ListItem\n              label\n              title=\"Spider-man\"\n              after={\n                <Radio\n                  component=\"div\"\n                  value=\"spiderman\"\n                  checked={radioValue === 'spiderman'}\n                  onChange={() => setRadioValue('spiderman')}\n                />\n              }\n            />\n            <ListItem\n              label\n              title=\"Hulk\"\n              after={\n                <Radio\n                  component=\"div\"\n                  value=\"hulk\"\n                  checked={radioValue === 'hulk'}\n                  onChange={() => setRadioValue('hulk')}\n                />\n              }\n            />\n          </List>\n        }\n        buttons={\n          <DialogButton strong onClick={() => setListOpened(false)}>\n            Confirm\n          </DialogButton>\n        }\n      />\n    </Page>\n  );\n}\nDialogPage.displayName = 'DialogPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

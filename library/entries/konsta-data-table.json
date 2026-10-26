@@ -1,0 +1,39 @@
+{
+  "id": "konsta-data-table",
+  "title": "Data Table (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/data-table",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "data-table",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "data-table"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Data Table example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/DataTable.jsx",
+  "code": "import React from 'react';\nimport {\n  Page,\n  Block,\n  Navbar,\n  NavbarBackLink,\n  BlockTitle,\n  Card,\n  Table,\n  TableHead,\n  TableBody,\n  TableCell,\n  TableRow,\n} from 'konsta/react';\n\nexport default function DataTablePage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  return (\n    <Page>\n      <Navbar\n        title=\"Data Table\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n      <BlockTitle>Plain table</BlockTitle>\n      <Block className=\"overflow-x-auto !pl-safe !pr-safe\">\n        <Table>\n          <TableHead>\n            <TableRow header>\n              <TableCell header>Dessert (100g serving)</TableCell>\n              <TableCell header className=\"text-right\">\n                Calories\n              </TableCell>\n              <TableCell header className=\"text-right\">\n                Fat (g)\n              </TableCell>\n              <TableCell header className=\"text-right\">\n                Carbs\n              </TableCell>\n              <TableCell header className=\"text-right\">\n                Protein (g)\n              </TableCell>\n            </TableRow>\n          </TableHead>\n          <TableBody>\n            <TableRow>\n              <TableCell>Frozen yogurt</TableCell>\n              <TableCell className=\"text-right\">159</TableCell>\n              <TableCell className=\"text-right\">6.0</TableCell>\n              <TableCell className=\"text-right\">24</TableCell>\n              <TableCell className=\"text-right\">4.0</TableCell>\n            </TableRow>\n            <TableRow>\n              <TableCell>Ice cream sandwich</TableCell>\n              <TableCell className=\"text-right\">237</TableCell>\n              <TableCell className=\"text-right\">9.0</TableCell>\n              <TableCell className=\"text-right\">37</TableCell>\n              <TableCell className=\"text-right\">4.4</TableCell>\n            </TableRow>\n            <TableRow>\n              <TableCell>Eclair</TableCell>\n              <TableCell className=\"text-right\">262</TableCell>\n              <TableCell className=\"text-right\">16.0</TableCell>\n              <TableCell className=\"text-right\">24</TableCell>\n              <TableCell className=\"text-right\">6.0</TableCell>\n            </TableRow>\n            <TableRow>\n              <TableCell>Cupcake</TableCell>\n              <TableCell className=\"text-right\">305</TableCell>\n              <TableCell className=\"text-right\">3.7</TableCell>\n              <TableCell className=\"text-right\">67</TableCell>\n              <TableCell className=\"text-right\">4.3</TableCell>\n            </TableRow>\n          </TableBody>\n        </Table>\n      </Block>\n      <BlockTitle>Within card</BlockTitle>\n      <Card className=\"overflow-x-auto\" contentWrap={false}>\n        <Table>\n          <TableHead>\n            <TableRow header>\n              <TableCell header>Dessert (100g serving)</TableCell>\n              <TableCell header className=\"text-right\">\n                Calories\n              </TableCell>\n              <TableCell header className=\"text-right\">\n                Fat (g)\n              </TableCell>\n              <TableCell header className=\"text-right\">\n                Carbs\n              </TableCell>\n              <TableCell header className=\"text-right\">\n                Protein (g)\n              </TableCell>\n            </TableRow>\n          </TableHead>\n          <TableBody>\n            <TableRow>\n              <TableCell>Frozen yogurt</TableCell>\n              <TableCell className=\"text-right\">159</TableCell>\n              <TableCell className=\"text-right\">6.0</TableCell>\n              <TableCell className=\"text-right\">24</TableCell>\n              <TableCell className=\"text-right\">4.0</TableCell>\n            </TableRow>\n            <TableRow>\n              <TableCell>Ice cream sandwich</TableCell>\n              <TableCell className=\"text-right\">237</TableCell>\n              <TableCell className=\"text-right\">9.0</TableCell>\n              <TableCell className=\"text-right\">37</TableCell>\n              <TableCell className=\"text-right\">4.4</TableCell>\n            </TableRow>\n            <TableRow>\n              <TableCell>Eclair</TableCell>\n              <TableCell className=\"text-right\">262</TableCell>\n              <TableCell className=\"text-right\">16.0</TableCell>\n              <TableCell className=\"text-right\">24</TableCell>\n              <TableCell className=\"text-right\">6.0</TableCell>\n            </TableRow>\n            <TableRow>\n              <TableCell>Cupcake</TableCell>\n              <TableCell className=\"text-right\">305</TableCell>\n              <TableCell className=\"text-right\">3.7</TableCell>\n              <TableCell className=\"text-right\">67</TableCell>\n              <TableCell className=\"text-right\">4.3</TableCell>\n            </TableRow>\n          </TableBody>\n        </Table>\n      </Card>\n    </Page>\n  );\n}\nDataTablePage.displayName = 'DataTablePage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

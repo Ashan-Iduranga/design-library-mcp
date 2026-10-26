@@ -1,0 +1,39 @@
+{
+  "id": "konsta-subnavbar",
+  "title": "Subnavbar (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/subnavbar",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "subnavbar",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "navigation"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Subnavbar example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Subnavbar.jsx",
+  "code": "import React from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Block,\n  Segmented,\n  SegmentedButton,\n} from 'konsta/react';\n\nexport default function SubnavbarPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  return (\n    <Page>\n      <Navbar\n        title=\"Subnavbar\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n        subnavbar={\n          <Segmented strong rounded>\n            <SegmentedButton active>Button</SegmentedButton>\n            <SegmentedButton>Button</SegmentedButton>\n            <SegmentedButton>Button</SegmentedButton>\n          </Segmented>\n        }\n      />\n      <div className=\"relative\">\n        <Block strong inset>\n          <p>\n            Subnavbar is useful when you need to put any additional elements\n            into Navbar, like Tab Links or Search Bar. It also remains visible\n            when Navbar hidden.\n          </p>\n        </Block>\n        <Block strong inset className=\"space-y-4\">\n          <p>\n            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione\n            consequuntur numquam quia labore eligendi asperiores obcaecati neque\n            sapiente fugit vel praesentium accusantium, earum corporis officiis\n            tempora est delectus fugiat laudantium?\n          </p>\n          <p>\n            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure\n            possimus, magni excepturi molestias consequatur commodi nihil velit\n            quo odit adipisci voluptatibus quam fugit nesciunt repellat\n            accusantium libero repudiandae consectetur alias!\n          </p>\n          <p>\n            Nihil unde iusto ab animi eum? Quia natus provident fugit, molestias\n            ea numquam qui distinctio ex perferendis fuga! Fugit voluptates\n            obcaecati ipsa recusandae eos saepe ducimus repudiandae. Explicabo,\n            fuga obcaecati!\n          </p>\n          <p>\n            Neque voluptas eius, quod consequatur officia dolor sunt cupiditate,\n            animi commodi cumque nam ex totam autem ipsum doloribus! Possimus\n            eligendi unde provident, esse molestias amet minus! Laboriosam\n            veniam alias eum.\n          </p>\n          <p>\n            Dicta obcaecati, architecto at ducimus suscipit dolor ea praesentium\n            sint? Deleniti ipsam magni dolorem amet quibusdam temporibus\n            pariatur suscipit voluptas, quas harum nesciunt culpa facere\n            consequuntur id et accusamus exercitationem!\n          </p>\n          <p>\n            Officiis, quibusdam reprehenderit corporis non nisi debitis magnam.\n            Deleniti, recusandae iusto repellendus dicta magni exercitationem\n            labore natus reiciendis sapiente error dolorum necessitatibus maxime\n            laborum esse suscipit praesentium ratione. Ex, in.\n          </p>\n        </Block>\n      </div>\n    </Page>\n  );\n}\nSubnavbarPage.displayName = 'SubnavbarPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

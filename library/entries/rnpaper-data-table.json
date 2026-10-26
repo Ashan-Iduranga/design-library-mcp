@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-data-table",
+  "title": "Data Table (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/DataTableExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "data-table",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "data-table"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Data Table example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { StyleSheet } from 'react-native';\n\nimport { DataTable, Card } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\ntype ItemsState = Array<{\n  key: number;\n  name: string;\n  calories: number;\n  fat: number;\n}>;\n\nconst DataTableExample = () => {\n  const [sortAscending, setSortAscending] = React.useState<boolean>(true);\n  const [page, setPage] = React.useState<number>(0);\n  const [items] = React.useState<ItemsState>([\n    {\n      key: 1,\n      name: 'Cupcake',\n      calories: 356,\n      fat: 16,\n    },\n    {\n      key: 2,\n      name: 'Eclair',\n      calories: 262,\n      fat: 16,\n    },\n    {\n      key: 3,\n      name: 'Frozen yogurt',\n      calories: 159,\n      fat: 6,\n    },\n    {\n      key: 4,\n      name: 'Gingerbread',\n      calories: 305,\n      fat: 3.7,\n    },\n    {\n      key: 5,\n      name: 'Ice cream sandwich',\n      calories: 237,\n      fat: 9,\n    },\n    {\n      key: 6,\n      name: 'Jelly Bean',\n      calories: 375,\n      fat: 0,\n    },\n  ]);\n  const [numberOfItemsPerPageList] = React.useState([2, 3, 4, 200]);\n  const [itemsPerPage, onItemsPerPageChange] = React.useState(\n    numberOfItemsPerPageList[0]\n  );\n  const sortedItems = items\n    .slice()\n    .sort((item1, item2) =>\n      sortAscending\n        ? item1.name.localeCompare(item2.name)\n        : item2.name.localeCompare(item1.name)\n    );\n  const from = page * itemsPerPage;\n  const to = Math.min((page + 1) * itemsPerPage, items.length);\n\n  React.useEffect(() => {\n    setPage(0);\n  }, [itemsPerPage]);\n\n  return (\n    <ScreenWrapper contentContainerStyle={styles.content}>\n      <Card>\n        <DataTable>\n          <DataTable.Header>\n            <DataTable.Title\n              sortDirection={sortAscending ? 'ascending' : 'descending'}\n              onPress={() => setSortAscending(!sortAscending)}\n              style={styles.first}\n            >\n              Dessert\n            </DataTable.Title>\n            <DataTable.Title numberOfLines={2} numeric>\n              Calories per piece\n            </DataTable.Title>\n            <DataTable.Title numeric>Fat (g)</DataTable.Title>\n          </DataTable.Header>\n\n          {sortedItems.slice(from, to).map((item) => (\n            <DataTable.Row key={item.key}>\n              <DataTable.Cell style={styles.first}>{item.name}</DataTable.Cell>\n              <DataTable.Cell numeric>{item.calories}</DataTable.Cell>\n              <DataTable.Cell numeric>{item.fat}</DataTable.Cell>\n            </DataTable.Row>\n          ))}\n\n          <DataTable.Pagination\n            page={page}\n            numberOfPages={Math.ceil(sortedItems.length / itemsPerPage)}\n            onPageChange={(page) => setPage(page)}\n            label={`${from + 1}-${to} of ${sortedItems.length}`}\n            numberOfItemsPerPageList={numberOfItemsPerPageList}\n            numberOfItemsPerPage={itemsPerPage}\n            onItemsPerPageChange={onItemsPerPageChange}\n            showFastPaginationControls\n            selectPageDropdownLabel={'Rows per page'}\n          />\n        </DataTable>\n      </Card>\n    </ScreenWrapper>\n  );\n};\n\nDataTableExample.title = 'Data Table';\n\nconst styles = StyleSheet.create({\n  content: {\n    padding: 8,\n  },\n  first: {\n    flex: 2,\n  },\n});\n\nexport default DataTableExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

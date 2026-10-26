@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-progress-bar",
+  "title": "Progress Bar (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/ProgressBarExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "progress-bar",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "loader"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Progress Bar example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\n// eslint-disable-next-line no-restricted-imports -- TODO: remove after ProgressBar migrates to Reanimated.\nimport { View, StyleSheet, Animated } from 'react-native';\n\nimport {\n  Button,\n  Palette,\n  ProgressBar,\n  Text,\n  useTheme,\n} from 'react-native-paper';\nimport type { ProgressBarProps } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nclass ClassProgressBar extends React.Component {\n  constructor(props: ProgressBarProps) {\n    super(props);\n  }\n\n  render() {\n    return <ProgressBar {...this.props} />;\n  }\n}\n\nconst AnimatedProgressBar = Animated.createAnimatedComponent(ClassProgressBar);\n\nconst ProgressBarExample = () => {\n  const [visible, setVisible] = React.useState<boolean>(true);\n  const [progress, setProgress] = React.useState<number>(0.3);\n  const theme = useTheme();\n  const { current: progressBarValue } = React.useRef(new Animated.Value(0));\n\n  const runCustomAnimation = () => {\n    progressBarValue.setValue(0);\n    Animated.timing(progressBarValue, {\n      toValue: 1,\n      duration: 2000,\n      useNativeDriver: false,\n    }).start();\n  };\n\n  return (\n    <ScreenWrapper contentContainerStyle={styles.container}>\n      <Button onPress={() => setVisible(!visible)}>Toggle visibility</Button>\n      <Button onPress={() => setProgress(Math.random())}>\n        Random progress\n      </Button>\n      <Button onPress={runCustomAnimation}>Toggle animation</Button>\n\n      <View style={styles.row}>\n        <Text variant=\"bodyMedium\">Default ProgressBar</Text>\n        <ProgressBar progress={progress} visible={visible} />\n      </View>\n\n      <View style={styles.row}>\n        <Text variant=\"bodyMedium\">Indeterminate ProgressBar</Text>\n        <ProgressBar indeterminate visible={visible} />\n      </View>\n\n      <View style={styles.row}>\n        <Text variant=\"bodyMedium\">ProgressBar with custom color</Text>\n        <ProgressBar\n          progress={progress}\n          visible={visible}\n          color={Palette.error50}\n        />\n      </View>\n\n      <View style={styles.row}>\n        <Text variant=\"bodyMedium\">\n          ProgressBar with custom background color\n        </Text>\n        <ProgressBar\n          progress={progress}\n          visible={visible}\n          color={Palette.error40}\n          style={{\n            backgroundColor: Palette.secondary50,\n          }}\n        />\n      </View>\n\n      <View style={styles.row}>\n        <Text variant=\"bodyMedium\">ProgressBar with custom height</Text>\n        <ProgressBar\n          progress={progress}\n          visible={visible}\n          style={styles.customHeight}\n        />\n      </View>\n\n      <View style={styles.row}>\n        <Text variant=\"bodyMedium\">ProgressBar with animated value</Text>\n        <AnimatedProgressBar\n          visible={visible}\n          style={styles.progressBar}\n          animatedValue={progressBarValue}\n          theme={theme}\n        />\n      </View>\n\n      <View style={[styles.row, styles.fullRow]}>\n        <Text variant=\"bodyMedium\">\n          ProgressBar with custom percentage height\n        </Text>\n        <ProgressBar\n          style={styles.customPercentageHeight}\n          indeterminate\n          visible={visible}\n        />\n      </View>\n    </ScreenWrapper>\n  );\n};\n\nProgressBarExample.title = 'Progress Bar';\n\nconst styles = StyleSheet.create({\n  container: {\n    padding: 16,\n  },\n  row: {\n    marginVertical: 10,\n  },\n  fullRow: {\n    height: '100%',\n    width: '100%',\n  },\n  customHeight: {\n    height: 20,\n  },\n  customPercentageHeight: {\n    height: '50%',\n  },\n  progressBar: {\n    height: 15,\n  },\n});\n\nexport default ProgressBarExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

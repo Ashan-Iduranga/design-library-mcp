@@ -1,0 +1,39 @@
+{
+  "id": "konsta-toast",
+  "title": "Toast (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/toast",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "toast",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "alert"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Toast example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Toast.jsx",
+  "code": "import React, { useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Button,\n  Toast,\n  Block,\n} from 'konsta/react';\n\nexport default function ToastPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [toastLeftOpened, setToastLeftOpened] = useState(false);\n  const [toastCenterOpened, setToastCenterOpened] = useState(false);\n  const [toastRightOpened, setToastRightOpened] = useState(false);\n\n  const openToast = (setter) => {\n    // close other toast\n    setToastLeftOpened(false);\n    setToastCenterOpened(false);\n    setToastRightOpened(false);\n    setter(true);\n  };\n  return (\n    <Page>\n      <Navbar\n        title=\"Toast\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <Block inset strong className=\"flex flex-col gap-4\">\n        <Toast\n          position=\"left\"\n          opened={toastLeftOpened}\n          button={\n            <Button\n              rounded\n              clear\n              small\n              inline\n              onClick={() => setToastLeftOpened(false)}\n            >\n              Close\n            </Button>\n          }\n        >\n          <div className=\"shrink\">Hello this is left toast!</div>\n        </Toast>\n        <Toast\n          position=\"center\"\n          opened={toastCenterOpened}\n          button={\n            <Button\n              rounded\n              clear\n              small\n              inline\n              onClick={() => setToastCenterOpened(false)}\n            >\n              Close\n            </Button>\n          }\n        >\n          <div className=\"shrink\">Hello this is center toast!</div>\n        </Toast>\n        <Toast\n          position=\"right\"\n          opened={toastRightOpened}\n          button={\n            <Button\n              rounded\n              clear\n              small\n              inline\n              onClick={() => setToastRightOpened(false)}\n            >\n              Close\n            </Button>\n          }\n        >\n          <div className=\"shrink\">Hello this is right toast!</div>\n        </Toast>\n        <p>\n          Toasts provide brief feedback about an operation through a message on\n          the screen.\n        </p>\n        <p>\n          <Button rounded onClick={() => openToast(setToastLeftOpened)}>\n            Toast on Left\n          </Button>\n        </p>\n        <p>\n          <Button rounded onClick={() => openToast(setToastCenterOpened)}>\n            Toast on Center\n          </Button>\n        </p>\n        <p>\n          <Button rounded onClick={() => openToast(setToastRightOpened)}>\n            Toast on Right\n          </Button>\n        </p>\n      </Block>\n    </Page>\n  );\n}\nToastPage.displayName = 'ToastPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

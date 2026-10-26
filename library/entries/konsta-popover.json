@@ -1,0 +1,39 @@
+{
+  "id": "konsta-popover",
+  "title": "Popover (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/popover",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "popover",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "modal"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Popover example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Popover.jsx",
+  "code": "import React, { useRef, useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Popover,\n  Block,\n  Link,\n  Button,\n  List,\n  ListItem,\n} from 'konsta/react';\n\nexport default function PopoverPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [popoverOpened, setPopoverOpened] = useState(false);\n  const popoverTargetRef = useRef(null);\n\n  const openPopover = (targetRef) => {\n    popoverTargetRef.current = targetRef;\n    setPopoverOpened(true);\n  };\n\n  return (\n    <Page>\n      <Navbar\n        title=\"Popover\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n        right={\n          <Link\n            className=\"popover-navbar-link\"\n            onClick={() => openPopover('.popover-navbar-link')}\n          >\n            Popover\n          </Link>\n        }\n      />\n      <Block strong inset className=\"space-y-4\">\n        <Button\n          rounded\n          className=\"popover-button\"\n          onClick={() => openPopover('.popover-button')}\n        >\n          Open popover on me\n        </Button>\n      </Block>\n      <Block strong inset className=\"space-y-4\">\n        <p>\n          Mauris fermentum neque et luctus venenatis. Vivamus a sem rhoncus,\n          ornare tellus eu, euismod mauris. In porta turpis at semper convallis.\n          Duis adipiscing leo eu nulla lacinia, quis rhoncus metus condimentum.\n          Etiam nec malesuada nibh. Maecenas quis lacinia nisl, vel posuere\n          dolor. Vestibulum condimentum, nisl ac vulputate egestas, neque enim\n          dignissim elit, rhoncus volutpat magna enim a est. Aenean sit amet\n          ligula neque. Cras suscipit rutrum enim. Nam a odio facilisis,\n          elementum tellus non,{' '}\n          <Link\n            className=\"popover-link-1\"\n            onClick={() => openPopover('.popover-link-1')}\n          >\n            popover\n          </Link>{' '}\n          tortor. Pellentesque felis eros, dictum vitae lacinia quis, lobortis\n          vitae ipsum. Cras vehicula bibendum lorem quis imperdiet.\n        </p>\n        <p>\n          In hac habitasse platea dictumst. Etiam varius, ante vel ornare\n          facilisis, velit massa rutrum dolor, ac porta magna magna lacinia\n          nunc. Curabitur{' '}\n          <Link\n            className=\"popover-link-2\"\n            onClick={() => openPopover('.popover-link-2')}\n          >\n            popover!\n          </Link>{' '}\n          cursus laoreet. Aenean vel tempus augue. Pellentesque in imperdiet\n          nibh. Mauris rhoncus nulla id sem suscipit volutpat. Pellentesque ac\n          arcu in nisi viverra pulvinar. Nullam nulla orci, bibendum sed ligula\n          non, ullamcorper iaculis mi. In hac habitasse platea dictumst.\n          Praesent varius at nisl eu luctus. Cras aliquet porta est. Quisque\n          elementum quis dui et consectetur. Cum sociis natoque penatibus et\n          magnis dis parturient montes, nascetur ridiculus mus. Sed sed laoreet\n          purus. Pellentesque eget ante ante.\n        </p>\n        <p>\n          Duis et ultricies nibh. Sed facilisis turpis urna, ac imperdiet erat\n          venenatis eu. Proin sit amet faucibus tortor, et varius sem. Etiam\n          vitae lacinia neque. Aliquam nisi purus, interdum in arcu sed,\n          ultrices rutrum arcu. Nulla mi turpis, consectetur vel enim quis,\n          facilisis viverra dui. Aliquam quis convallis tortor, quis semper\n          ligula. Morbi ullamcorper{' '}\n          <Link\n            className=\"popover-link-3\"\n            onClick={() => openPopover('.popover-link-3')}\n          >\n            one more popover\n          </Link>{' '}\n          massa at accumsan. Etiam purus odio, posuere in ligula vitae, viverra\n          ultricies justo. Vestibulum nec interdum nisi. Aenean ac consectetur\n          velit, non malesuada magna. Sed pharetra vehicula augue, vel venenatis\n          lectus gravida eget. Curabitur lacus tellus, venenatis eu arcu in,\n          interdum auctor nunc. Nunc non metus neque. Suspendisse viverra lectus\n          sed risus aliquet, vel accumsan dolor feugiat.\n        </p>\n      </Block>\n\n      <Popover\n        opened={popoverOpened}\n        target={popoverTargetRef.current}\n        onBackdropClick={() => setPopoverOpened(false)}\n      >\n        <List nested>\n          <ListItem\n            title=\"Item 1\"\n            link\n            onClick={() => setPopoverOpened(false)}\n          />\n          <ListItem\n            title=\"List Item 2\"\n            link\n            onClick={() => setPopoverOpened(false)}\n          />\n          <ListItem\n            title=\"Item 3\"\n            link\n            onClick={() => setPopoverOpened(false)}\n          />\n          <ListItem\n            title=\"List Item 4\"\n            link\n            onClick={() => setPopoverOpened(false)}\n          />\n          <ListItem\n            title=\"Item 5\"\n            link\n            onClick={() => setPopoverOpened(false)}\n          />\n        </List>\n      </Popover>\n    </Page>\n  );\n}\nPopoverPage.displayName = 'PopoverPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

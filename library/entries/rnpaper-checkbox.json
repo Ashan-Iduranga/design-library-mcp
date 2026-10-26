@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-checkbox",
+  "title": "Checkbox (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/CheckboxExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "toggle"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Checkbox example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { StyleSheet, View } from 'react-native';\n\nimport { Checkbox, Text, useTheme } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\ntype Status = 'unchecked' | 'checked' | 'indeterminate';\n\nconst STATUSES: Status[] = ['unchecked', 'checked', 'indeterminate'];\n\ntype Row = {\n  label: string;\n  render: (status: Status) => React.ReactNode;\n};\n\nconst ROWS: Row[] = [\n  {\n    label: 'Default',\n    render: (status) => <Checkbox status={status} onPress={() => {}} />,\n  },\n  {\n    label: 'Disabled',\n    render: (status) => <Checkbox status={status} disabled />,\n  },\n  {\n    label: 'Custom color (tertiary)',\n    render: (status) => <CustomColorCheckbox status={status} />,\n  },\n  {\n    label: 'Error',\n    render: (status) => <Checkbox status={status} error onPress={() => {}} />,\n  },\n];\n\nconst CustomColorCheckbox = ({ status }: { status: Status }) => {\n  const theme = useTheme();\n  return (\n    <Checkbox\n      status={status}\n      color={theme.colors.tertiary}\n      uncheckedColor={theme.colors.tertiary}\n      onPress={() => {}}\n    />\n  );\n};\n\nconst Interactive = () => {\n  const theme = useTheme();\n  const [aChecked, setAChecked] = React.useState(false);\n  const [bIndeterminate, setBIndeterminate] = React.useState(false);\n  return (\n    <View style={styles.interactive}>\n      <Text style={[styles.rowLabel, { color: theme.colors.onSurfaceVariant }]}>\n        Tap to toggle\n      </Text>\n      <View style={styles.interactiveRow}>\n        <View style={styles.cell}>\n          <Checkbox\n            status={aChecked ? 'checked' : 'unchecked'}\n            onPress={() => setAChecked((v) => !v)}\n          />\n        </View>\n        <Text\n          style={[\n            styles.interactiveLabel,\n            { color: theme.colors.onSurfaceVariant },\n          ]}\n        >\n          unchecked ↔ checked\n        </Text>\n      </View>\n      <View style={[styles.interactiveRow, styles.interactiveRowSpacing]}>\n        <View style={styles.cell}>\n          <Checkbox\n            status={bIndeterminate ? 'indeterminate' : 'unchecked'}\n            onPress={() => setBIndeterminate((v) => !v)}\n          />\n        </View>\n        <Text\n          style={[\n            styles.interactiveLabel,\n            { color: theme.colors.onSurfaceVariant },\n          ]}\n        >\n          unchecked ↔ indeterminate\n        </Text>\n      </View>\n    </View>\n  );\n};\n\nconst IndeterminateParent = () => {\n  const theme = useTheme();\n  const [child1, setChild1] = React.useState(true);\n  const [child2, setChild2] = React.useState(false);\n  const [child3, setChild3] = React.useState(true);\n  const allChecked = child1 && child2 && child3;\n  const noneChecked = !child1 && !child2 && !child3;\n  const parentStatus: Status = allChecked\n    ? 'checked'\n    : noneChecked\n      ? 'unchecked'\n      : 'indeterminate';\n  const toggleAll = () => {\n    const next = !allChecked;\n    setChild1(next);\n    setChild2(next);\n    setChild3(next);\n  };\n  return (\n    <View style={styles.row}>\n      <Text style={[styles.rowLabel, { color: theme.colors.onSurfaceVariant }]}>\n        Parent / children (indeterminate)\n      </Text>\n      <View style={styles.parentRow}>\n        <Checkbox status={parentStatus} onPress={toggleAll} />\n        <Text\n          style={[styles.interactiveLabel, { color: theme.colors.onSurface }]}\n        >\n          Select all\n        </Text>\n      </View>\n      <View style={styles.childRow}>\n        <Checkbox\n          status={child1 ? 'checked' : 'unchecked'}\n          onPress={() => setChild1((v) => !v)}\n        />\n        <Text\n          style={[styles.interactiveLabel, { color: theme.colors.onSurface }]}\n        >\n          Apples\n        </Text>\n      </View>\n      <View style={styles.childRow}>\n        <Checkbox\n          status={child2 ? 'checked' : 'unchecked'}\n          onPress={() => setChild2((v) => !v)}\n        />\n        <Text\n          style={[styles.interactiveLabel, { color: theme.colors.onSurface }]}\n        >\n          Bananas\n        </Text>\n      </View>\n      <View style={styles.childRow}>\n        <Checkbox\n          status={child3 ? 'checked' : 'unchecked'}\n          onPress={() => setChild3((v) => !v)}\n        />\n        <Text\n          style={[styles.interactiveLabel, { color: theme.colors.onSurface }]}\n        >\n          Cherries\n        </Text>\n      </View>\n    </View>\n  );\n};\n\nconst CheckboxExample = () => {\n  const theme = useTheme();\n  return (\n    <ScreenWrapper contentContainerStyle={styles.scrollContent}>\n      <Interactive />\n      {ROWS.map((row) => (\n        <View key={row.label} style={styles.row}>\n          <Text\n            style={[styles.rowLabel, { color: theme.colors.onSurfaceVariant }]}\n          >\n            {row.label}\n          </Text>\n          <View style={styles.cells}>\n            {STATUSES.map((status) => (\n              <View key={status} style={styles.cell}>\n                {row.render(status)}\n              </View>\n            ))}\n          </View>\n        </View>\n      ))}\n      <IndeterminateParent />\n    </ScreenWrapper>\n  );\n};\n\nCheckboxExample.title = 'Checkbox';\n\nconst styles = StyleSheet.create({\n  scrollContent: { paddingHorizontal: 16, paddingTop: 16, paddingBottom: 32 },\n  row: { marginBottom: 20 },\n  rowLabel: {\n    fontSize: 14,\n    fontWeight: '500',\n    marginBottom: 6,\n    opacity: 0.7,\n  },\n  cells: {\n    flexDirection: 'row',\n    alignItems: 'center',\n  },\n  cell: {\n    width: 60,\n    alignItems: 'center',\n  },\n  interactive: { marginBottom: 24 },\n  interactiveRow: {\n    flexDirection: 'row',\n    alignItems: 'center',\n    gap: 12,\n  },\n  interactiveRowSpacing: { marginTop: 8 },\n  interactiveLabel: {\n    fontSize: 14,\n    opacity: 0.7,\n  },\n  parentRow: {\n    flexDirection: 'row',\n    alignItems: 'center',\n    gap: 12,\n  },\n  childRow: {\n    flexDirection: 'row',\n    alignItems: 'center',\n    gap: 12,\n    paddingLeft: 32,\n  },\n});\n\nexport default CheckboxExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

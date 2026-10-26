@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-surface",
+  "title": "Surface (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/SurfaceExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "surface",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "guidelines"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Surface example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { ScrollView, StyleSheet, View } from 'react-native';\n\nimport { Surface, Text, Palette, List, IconButton } from 'react-native-paper';\nimport type { Elevation } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst elevationLevels: Elevation[] = [0, 1, 2, 3, 4, 5];\n\nconst AnimatedSurface = () => {\n  const [index, setIndex] = React.useState(3);\n\n  const level = elevationLevels[index];\n\n  return (\n    <View style={styles.scroll}>\n      <Surface style={styles.surface} borderRadius={8} elevation={level}>\n        <Text variant=\"bodySmall\">{`Elevation ${level}`}</Text>\n      </Surface>\n      <View style={styles.actions}>\n        <IconButton\n          mode=\"contained-tonal\"\n          icon=\"minus\"\n          disabled={index === 0}\n          onPress={() => setIndex(index - 1)}\n        />\n        <IconButton\n          mode=\"contained-tonal\"\n          icon=\"plus\"\n          disabled={index === elevationLevels.length - 1}\n          onPress={() => setIndex(index + 1)}\n        />\n      </View>\n    </View>\n  );\n};\n\nconst SurfaceExample = () => {\n  const elevationValues: Elevation[] = [0, 1, 2, 3, 4, 5];\n\n  const renderSurface = (index: Elevation, mode: 'flat' | 'elevated') => (\n    <Surface\n      key={index}\n      style={styles.surface}\n      borderRadius={8}\n      mode={mode}\n      elevation={index}\n    >\n      <Text variant=\"bodySmall\">{`Elevation ${index}`}</Text>\n    </Surface>\n  );\n\n  return (\n    <ScreenWrapper>\n      <List.Section title=\"Elevated surface\">\n        <ScrollView\n          horizontal\n          showsHorizontalScrollIndicator={false}\n          contentContainerStyle={styles.scroll}\n        >\n          {elevationValues.map((elevation) =>\n            renderSurface(elevation, 'elevated')\n          )}\n        </ScrollView>\n      </List.Section>\n\n      <List.Section title=\"Flat surface\">\n        <ScrollView\n          horizontal\n          showsHorizontalScrollIndicator={false}\n          contentContainerStyle={styles.scroll}\n        >\n          {elevationValues.map((elevation) => renderSurface(elevation, 'flat'))}\n        </ScrollView>\n      </List.Section>\n\n      <List.Section title=\"Animated elevation\">\n        <AnimatedSurface />\n      </List.Section>\n\n      <List.Section title=\"Layout\">\n        <View style={styles.content}>\n          <View style={styles.horizontalSurfacesContainer}>\n            <Surface style={styles.horizontalSurface}>\n              <Text style={styles.centerText}>Left</Text>\n            </Surface>\n            <Surface style={styles.horizontalSurface}>\n              <Text style={styles.centerText}>Right</Text>\n            </Surface>\n          </View>\n          <View style={styles.verticalSurfacesContainer}>\n            <Surface\n              style={[styles.verticalSurface, styles.verticalSurfaceContent]}\n            >\n              <Text style={styles.centerText}>Top</Text>\n            </Surface>\n            <Surface\n              style={[styles.verticalSurface, styles.verticalSurfaceContent]}\n            >\n              <Text style={styles.centerText}>Bottom</Text>\n            </Surface>\n          </View>\n        </View>\n      </List.Section>\n    </ScreenWrapper>\n  );\n};\n\nSurfaceExample.title = 'Surface';\n\nconst styles = StyleSheet.create({\n  content: {\n    padding: 24,\n    alignItems: 'center',\n  },\n  scroll: {\n    gap: 24,\n    paddingHorizontal: 16,\n    paddingVertical: 24,\n  },\n  surface: {\n    height: 120,\n    width: 120,\n    alignItems: 'center',\n    justifyContent: 'center',\n  },\n  actions: {\n    flexDirection: 'row',\n    gap: 16,\n  },\n  horizontalSurfacesContainer: {\n    flexDirection: 'row',\n    justifyContent: 'space-between',\n    width: '100%',\n    marginBottom: 20,\n    borderColor: Palette.tertiary50,\n    padding: 10,\n    borderWidth: 1,\n  },\n  horizontalSurface: {\n    width: '48%',\n  },\n\n  verticalSurfacesContainer: {\n    height: 400,\n    justifyContent: 'space-between',\n    width: '100%',\n    marginBottom: 100,\n    borderColor: Palette.tertiary50,\n    padding: 10,\n    borderWidth: 1,\n  },\n  verticalSurface: {\n    height: '48%',\n  },\n  verticalSurfaceContent: {\n    justifyContent: 'center',\n  },\n\n  centerText: {\n    textAlign: 'center',\n  },\n});\n\nexport default SurfaceExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

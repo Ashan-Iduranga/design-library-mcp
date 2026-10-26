@@ -1,0 +1,39 @@
+{
+  "id": "konsta-preloader",
+  "title": "Preloader (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/preloader",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "preloader",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "loader"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Preloader example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Preloader.jsx",
+  "code": "import React from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Block,\n  BlockTitle,\n  Preloader,\n} from 'konsta/react';\n\nexport default function PreloaderPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  return (\n    <Page>\n      <Navbar\n        title=\"Preloader\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <BlockTitle>Default</BlockTitle>\n      <Block strong inset className=\"text-center\">\n        <Preloader />\n      </Block>\n\n      <BlockTitle>Colors</BlockTitle>\n      <Block strong inset className=\"grid grid-cols-4\">\n        <div className=\"text-center\">\n          <Preloader className=\"k-color-brand-red\" />\n        </div>\n        <div className=\"text-center\">\n          <Preloader className=\"k-color-brand-green\" />\n        </div>\n        <div className=\"text-center\">\n          <Preloader className=\"k-color-brand-purple\" />\n        </div>\n        <div className=\"text-center\">\n          <Preloader className=\"k-color-brand-yellow\" />\n        </div>\n      </Block>\n\n      <BlockTitle>Sizes</BlockTitle>\n      <Block strong inset className=\"grid grid-cols-4 items-center\">\n        <div className=\"text-center\">\n          <Preloader className=\"w-4 h-4\" />\n        </div>\n        <div className=\"text-center\">\n          <Preloader className=\"w-8 h-8\" />\n        </div>\n        <div className=\"text-center\">\n          <Preloader className=\"w-12 h-12\" />\n        </div>\n        <div className=\"text-center\">\n          <Preloader className=\"w-16 h-16\" />\n        </div>\n      </Block>\n    </Page>\n  );\n}\nPreloaderPage.displayName = 'PreloaderPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

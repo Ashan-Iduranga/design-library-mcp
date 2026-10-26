@@ -1,0 +1,41 @@
+{
+  "id": "rnpaper-list-accordion",
+  "title": "List Accordion (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/ListAccordionExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "list-accordion",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "accordion",
+    "data-table",
+    "guidelines"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper List Accordion example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\n\nimport { List, Divider } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst ListAccordionExample = () => {\n  const [expanded, setExpanded] = React.useState<boolean>(true);\n\n  const _handlePress = () => {\n    setExpanded(!expanded);\n  };\n\n  return (\n    <ScreenWrapper>\n      <List.Section title=\"Expandable list item\">\n        <List.Accordion\n          left={(props) => <List.Icon {...props} icon=\"folder\" />}\n          title=\"Expandable list item\"\n        >\n          <List.Item title=\"List item 1\" />\n          <List.Item title=\"List item 2\" />\n        </List.Accordion>\n        <List.Accordion\n          left={(props) => <List.Icon {...props} icon=\"folder\" />}\n          title=\"Start expanded\"\n          expanded={expanded}\n          onPress={_handlePress}\n        >\n          <List.Item title=\"List item 1\" />\n        </List.Accordion>\n      </List.Section>\n      <Divider />\n      <List.Section title=\"Expandable & multiline list item\">\n        <List.Accordion\n          title=\"Expandable list item\"\n          description=\"Describes the expandable list item\"\n        >\n          <List.Item title=\"List item 1\" />\n          <List.Item title=\"List item 2\" />\n        </List.Accordion>\n      </List.Section>\n      <Divider />\n      <List.Section title=\"Expandable list with icons\">\n        <List.Accordion\n          left={(props) => <List.Icon {...props} icon=\"star\" />}\n          title=\"Accordion item 1\"\n        >\n          <List.Item\n            left={(props) => <List.Icon {...props} icon=\"thumb-up\" />}\n            title=\"List item 1\"\n          />\n          <List.Item\n            left={(props) => <List.Icon {...props} icon=\"thumb-down\" />}\n            title=\"List item 2\"\n          />\n        </List.Accordion>\n      </List.Section>\n    </ScreenWrapper>\n  );\n};\n\nListAccordionExample.title = 'List.Accordion';\n\nexport default ListAccordionExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

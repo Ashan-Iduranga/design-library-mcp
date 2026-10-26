@@ -1,0 +1,41 @@
+{
+  "id": "rnpaper-radio-button-item",
+  "title": "Radio Button Item (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/RadioButtonItemExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio-button-item",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "button",
+    "menu",
+    "toggle"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Radio Button Item example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { StyleSheet } from 'react-native';\n\nimport { RadioButton } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst RadioButtonItemExample = () => {\n  const [checkedDefault, setCheckedDefault] = React.useState(true);\n  const [checkedAndroid, setCheckedAndroid] = React.useState(true);\n  const [checkedIOS, setCheckedIOS] = React.useState(true);\n  const [checkedLeadingControl, setCheckedLeadingControl] =\n    React.useState(true);\n  const [checkedDisabled, setCheckedDisabled] = React.useState<boolean>(true);\n  const [checkedLabelVariant, setCheckedLabelVariant] = React.useState(true);\n\n  return (\n    <ScreenWrapper style={styles.container}>\n      <RadioButton.Item\n        label=\"Default (will look like whatever system this is running on)\"\n        status={checkedDefault ? 'checked' : 'unchecked'}\n        onPress={() => setCheckedDefault(!checkedDefault)}\n        value=\"default\"\n      />\n      <RadioButton.Item\n        label=\"Material Design\"\n        mode=\"android\"\n        status={checkedAndroid ? 'checked' : 'unchecked'}\n        onPress={() => setCheckedAndroid(!checkedAndroid)}\n        value=\"android\"\n      />\n      <RadioButton.Item\n        label=\"iOS\"\n        mode=\"ios\"\n        status={checkedIOS ? 'checked' : 'unchecked'}\n        onPress={() => setCheckedIOS(!checkedIOS)}\n        value=\"iOS\"\n      />\n      <RadioButton.Item\n        label=\"Default with leading control\"\n        status={checkedLeadingControl ? 'checked' : 'unchecked'}\n        onPress={() => setCheckedLeadingControl(!checkedLeadingControl)}\n        value=\"iOS\"\n        position=\"leading\"\n      />\n      <RadioButton.Item\n        label=\"Disabled checkbox\"\n        status={checkedDisabled ? 'checked' : 'unchecked'}\n        onPress={() => setCheckedDisabled(!checkedDisabled)}\n        value=\"iOS\"\n        disabled\n      />\n      <RadioButton.Item\n        label=\"Default with titleLarge title variant\"\n        labelVariant=\"titleLarge\"\n        status={checkedLabelVariant ? 'checked' : 'unchecked'}\n        onPress={() => setCheckedLabelVariant(!checkedLabelVariant)}\n        value=\"default\"\n      />\n    </ScreenWrapper>\n  );\n};\n\nRadioButtonItemExample.title = 'Radio Button Item';\n\nconst styles = StyleSheet.create({\n  container: {\n    paddingVertical: 8,\n  },\n});\n\nexport default RadioButtonItemExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

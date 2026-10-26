@@ -1,0 +1,41 @@
+{
+  "id": "rnpaper-activity-indicator",
+  "title": "Activity Indicator (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/ActivityIndicatorExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "activity-indicator",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "badge",
+    "notifications",
+    "guidelines"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Activity Indicator example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { StyleSheet, View } from 'react-native';\n\nimport { ActivityIndicator, FAB, List, Palette } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst ActivityIndicatorExample = () => {\n  const [animating, setAnimating] = React.useState<boolean>(true);\n\n  return (\n    <ScreenWrapper style={styles.container}>\n      <View style={styles.row}>\n        <FAB\n          icon={animating ? 'pause' : 'play'}\n          onPress={() => setAnimating(!animating)}\n        />\n      </View>\n\n      <List.Section title=\"Default\">\n        <ActivityIndicator animating={animating} hidesWhenStopped={false} />\n      </List.Section>\n\n      <List.Section title=\"Large\">\n        <ActivityIndicator\n          animating={animating}\n          size=\"large\"\n          hidesWhenStopped={false}\n        />\n      </List.Section>\n\n      <List.Section title=\"Custom size\">\n        <ActivityIndicator\n          animating={animating}\n          size={100}\n          hidesWhenStopped={false}\n        />\n      </List.Section>\n\n      <List.Section title=\"Custom color\">\n        <ActivityIndicator\n          animating={animating}\n          color={Palette.error20}\n          hidesWhenStopped={false}\n        />\n      </List.Section>\n    </ScreenWrapper>\n  );\n};\n\nActivityIndicatorExample.title = 'Activity Indicator';\n\nconst styles = StyleSheet.create({\n  container: {\n    padding: 4,\n  },\n  row: {\n    justifyContent: 'center',\n    alignItems: 'center',\n    margin: 10,\n  },\n});\n\nexport default ActivityIndicatorExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

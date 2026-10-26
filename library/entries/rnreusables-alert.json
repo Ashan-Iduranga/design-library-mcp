@@ -1,0 +1,38 @@
+{
+  "id": "rnreusables-alert",
+  "title": "Alert (react-native-reusables)",
+  "source": "react-native-reusables",
+  "url": "https://reactnativereusables.com/docs/components/alert",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "alert",
+    "react-native-reusables",
+    "shadcn",
+    "nativewind",
+    "react-native"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "alert"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Alert from react-native-reusables: shadcn/ui-style components for React Native, styled with Nativewind (Tailwind).\n\nInstall into a project: npx @react-native-reusables/cli@latest add alert\n\nOriginal file: https://github.com/founded-labs/react-native-reusables/blob/main/packages/registry/src/nativewind/components/ui/alert.tsx",
+  "code": "import { Icon } from '@/registry/nativewind/components/ui/icon';\nimport { Text, TextClassContext } from '@/registry/nativewind/components/ui/text';\nimport { cn } from '@/registry/nativewind/lib/utils';\nimport type { LucideIcon } from 'lucide-react-native';\nimport * as React from 'react';\nimport { View } from 'react-native';\n\nfunction Alert({\n  className,\n  variant,\n  children,\n  icon,\n  iconClassName,\n  ...props\n}: React.ComponentProps<typeof View> & React.RefAttributes<View> & {\n  icon: LucideIcon;\n  variant?: 'default' | 'destructive';\n  iconClassName?: string;\n}) {\n  return (\n    <TextClassContext.Provider\n      value={cn(\n        'text-sm text-foreground',\n        variant === 'destructive' && 'text-destructive',\n        className\n      )}>\n      <View\n        role=\"alert\"\n        className={cn(\n          'bg-card border-border relative w-full rounded-lg border px-4 pb-2 pt-3.5',\n          className\n        )}\n        {...props}>\n        <View className=\"absolute left-3.5 top-3\">\n          <Icon\n            as={icon}\n            className={cn('size-4', variant === 'destructive' && 'text-destructive', iconClassName)}\n          />\n        </View>\n        {children}\n      </View>\n    </TextClassContext.Provider>\n  );\n}\n\nfunction AlertTitle({\n  className,\n  ...props\n}: React.ComponentProps<typeof Text>) {\n  return (\n    <Text\n      className={cn('mb-1 ml-0.5 min-h-4 pl-6 font-medium leading-none tracking-tight', className)}\n      {...props}\n    />\n  );\n}\n\nfunction AlertDescription({\n  className,\n  ...props\n}: React.ComponentProps<typeof Text>) {\n  const textClass = React.useContext(TextClassContext);\n  return (\n    <Text\n      className={cn(\n        'text-muted-foreground ml-0.5 pb-1.5 pl-6 text-sm leading-relaxed',\n        textClass?.includes('text-destructive') && 'text-destructive/90',\n        className\n      )}\n      {...props}\n    />\n  );\n}\n\nexport { Alert, AlertDescription, AlertTitle };",
+  "prompt": "npx @react-native-reusables/cli@latest add alert",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:52Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

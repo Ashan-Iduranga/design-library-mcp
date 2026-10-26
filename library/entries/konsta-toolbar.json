@@ -1,0 +1,39 @@
+{
+  "id": "konsta-toolbar",
+  "title": "Toolbar (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/toolbar",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "toolbar",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "navigation"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Toolbar example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Toolbar.jsx",
+  "code": "import React, { useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Toolbar,\n  Link,\n  Block,\n  Button,\n  ToolbarPane,\n} from 'konsta/react';\n\nexport default function ToolbarPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [isTop, setIsTop] = useState(false);\n  return (\n    <Page className=\"flex flex-col\">\n      <Navbar\n        title=\"Toolbar\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n      {isTop && (\n        <Toolbar\n          top\n          className={`left-0 ios:top-safe-15 ios:mt-1 material:top-safe-16 sticky w-full`}\n        >\n          <ToolbarPane>\n            <Link>Link 1</Link>\n            <Link>Link 2</Link>\n          </ToolbarPane>\n          <ToolbarPane>\n            <Link>Link 3</Link>\n          </ToolbarPane>\n        </Toolbar>\n      )}\n\n      <Block strong inset className=\"space-y-4 mb-0 shrink-0\">\n        <p>\n          Toolbar supports both top and bottom positions. Click the following\n          button to change its position.\n        </p>\n        <p>\n          <Button\n            rounded\n            onClick={() => {\n              setIsTop(!isTop);\n            }}\n          >\n            Toggle Toolbar Position\n          </Button>\n        </p>\n      </Block>\n      <Block strong inset className=\"space-y-4 shrink-0\">\n        <p>\n          Mauris fermentum neque et luctus venenatis. Vivamus a sem rhoncus,\n          ornare tellus eu, euismod mauris. In porta turpis at semper convallis.\n          Duis adipiscing leo eu nulla lacinia, quis rhoncus metus condimentum.\n          Etiam nec malesuada nibh. Maecenas quis lacinia nisl, vel posuere\n          dolor. Vestibulum condimentum, nisl ac vulputate egestas, neque enim\n          dignissim elit, rhoncus volutpat magna enim a est. Aenean sit amet\n          ligula neque. Cras suscipit rutrum enim. Nam a odio facilisis,\n          elementum tellus non, tortor. Pellentesque felis eros, dictum vitae\n          lacinia quis, lobortis vitae ipsum. Cras vehicula bibendum lorem quis\n          imperdiet.\n        </p>\n        <p>\n          In hac habitasse platea dictumst. Etiam varius, ante vel ornare\n          facilisis, velit massa rutrum dolor, ac porta magna magna lacinia\n          nunc. Curabitur cursus laoreet. Aenean vel tempus augue. Pellentesque\n          in imperdiet nibh. Mauris rhoncus nulla id sem suscipit volutpat.\n          Pellentesque ac arcu in nisi viverra pulvinar. Nullam nulla orci,\n          bibendum sed ligula non, ullamcorper iaculis mi. In hac habitasse\n          platea dictumst. Praesent varius at nisl eu luctus. Cras aliquet porta\n          est. Quisque elementum quis dui et consectetur. Cum sociis natoque\n          penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed\n          sed laoreet purus. Pellentesque eget ante ante.\n        </p>\n        <p>\n          Duis et ultricies nibh. Sed facilisis turpis urna, ac imperdiet erat\n          venenatis eu. Proin sit amet faucibus tortor, et varius sem. Etiam\n          vitae lacinia neque. Aliquam nisi purus, interdum in arcu sed,\n          ultrices rutrum arcu. Nulla mi turpis, consectetur vel enim quis,\n          facilisis viverra dui. Aliquam quis convallis tortor, quis semper\n          ligula. Morbi ullamcorper massa at accumsan. Etiam purus odio, posuere\n          in ligula vitae, viverra ultricies justo. Vestibulum nec interdum\n          nisi. Aenean ac consectetur velit, non malesuada magna. Sed pharetra\n          vehicula augue, vel venenatis lectus gravida eget. Curabitur lacus\n          tellus, venenatis eu arcu in, interdum auctor nunc. Nunc non metus\n          neque. Suspendisse viverra lectus sed risus aliquet, vel accumsan\n          dolor feugiat.\n        </p>\n      </Block>\n      {!isTop && (\n        <Toolbar className={`left-0 sticky bottom-0 w-full mt-auto`}>\n          <ToolbarPane>\n            <Link>Link 1</Link>\n            <Link>Link 2</Link>\n          </ToolbarPane>\n          <ToolbarPane>\n            <Link>Link 3</Link>\n          </ToolbarPane>\n        </Toolbar>\n      )}\n    </Page>\n  );\n}\nToolbarPage.displayName = 'ToolbarPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

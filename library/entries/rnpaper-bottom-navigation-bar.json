@@ -1,0 +1,40 @@
+{
+  "id": "rnpaper-bottom-navigation-bar",
+  "title": "Bottom Navigation Bar (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/BottomNavigationBarExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "bottom-navigation-bar",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "navigation",
+    "guidelines"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Bottom Navigation Bar example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import React from 'react';\nimport { View, StyleSheet, Image } from 'react-native';\n\nimport Icon from '@react-native-vector-icons/material-design-icons';\nimport {\n  createBottomTabNavigator,\n  createBottomTabScreen,\n} from '@react-navigation/bottom-tabs';\nimport {\n  CommonActions,\n  SFSymbol,\n  MaterialSymbol,\n} from '@react-navigation/native';\nimport { Text, BottomNavigation } from 'react-native-paper';\n\nfunction HomeScreen() {\n  return (\n    <View style={styles.container}>\n      <Text variant=\"headlineMedium\">Home!</Text>\n    </View>\n  );\n}\n\nfunction SettingsScreen() {\n  return (\n    <View style={styles.container}>\n      <Text variant=\"headlineMedium\">Settings!</Text>\n    </View>\n  );\n}\n\nconst BottomNavigationBarExample = createBottomTabNavigator({\n  screenOptions: {\n    headerShown: false,\n  },\n  tabBar: ({ navigation, state, descriptors }) => (\n    <BottomNavigation.Bar\n      navigationState={state}\n      onTabPress={({ route, preventDefault }) => {\n        const event = navigation.emit({\n          type: 'tabPress',\n          target: route.key,\n          canPreventDefault: true,\n        });\n\n        if (event.defaultPrevented) {\n          preventDefault();\n        } else {\n          // Custom tab bars must target the tab navigator state.\n          navigation.dispatch({\n            ...CommonActions.navigate(route.name, route.params),\n            target: state.key,\n          });\n        }\n      }}\n      renderIcon={({ route, focused, color }) => {\n        const tabBarIcon = descriptors[route.key].options.tabBarIcon;\n\n        const size = 24;\n        const icon =\n          typeof tabBarIcon === 'function'\n            ? tabBarIcon({ focused, color, size })\n            : tabBarIcon;\n\n        if (icon == null) {\n          return null;\n        }\n\n        if (React.isValidElement(icon)) {\n          return icon;\n        }\n\n        if (typeof icon === 'object' && icon !== null && 'type' in icon) {\n          switch (icon.type) {\n            case 'sfSymbol':\n              return <SFSymbol name={icon.name} size={size} color={color} />;\n            case 'materialSymbol':\n              return (\n                <MaterialSymbol name={icon.name} size={size} color={color} />\n              );\n            case 'image':\n              return (\n                <Image\n                  accessibilityIgnoresInvertColors\n                  source={icon.source}\n                  resizeMode=\"contain\"\n                  fadeDuration={0}\n                  style={{ width: size, height: size, tintColor: color }}\n                />\n              );\n          }\n        }\n\n        throw new Error(\n          'Tab bar icon is not a valid React element, SFSymbol, MaterialSymbol, or Image.'\n        );\n      }}\n      getLabelText={({ route }) => descriptors[route.key].route.name}\n    />\n  ),\n  screens: {\n    Home: createBottomTabScreen({\n      screen: HomeScreen,\n      options: {\n        tabBarIcon: ({ color, size }) => {\n          return <Icon name=\"home\" size={size} color={color} />;\n        },\n      },\n    }),\n    Settings: createBottomTabScreen({\n      screen: SettingsScreen,\n      options: {\n        tabBarIcon: ({ color, size }) => {\n          return <Icon name=\"cog\" size={size} color={color} />;\n        },\n      },\n    }),\n  },\n});\n\nexport default Object.assign(BottomNavigationBarExample, {\n  title: 'Bottom Navigation Bar',\n});\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    justifyContent: 'center',\n    alignItems: 'center',\n  },\n});",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "konsta-sheet-modal",
+  "title": "Sheet Modal (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/sheet-modal",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "sheet-modal",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "modal"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Sheet Modal example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/SheetModal.jsx",
+  "code": "import React, { useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Sheet,\n  Block,\n  Button,\n  Toolbar,\n  ToolbarPane,\n  Link,\n} from 'konsta/react';\nimport CloseIcon from '../components/CloseIcon';\n\nexport default function SheetModalPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [sheetOpened, setSheetOpened] = useState(false);\n  return (\n    <Page>\n      <Navbar\n        title=\"Sheet Modal\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <Block strong inset className=\"space-y-4\">\n        <p>\n          Sheet Modals slide up from the bottom of the screen to reveal more\n          content. Such modals allow to create custom overlays with custom\n          content.\n        </p>\n        <p>\n          <Button rounded onClick={() => setSheetOpened(true)}>\n            Open Sheet\n          </Button>\n        </p>\n      </Block>\n\n      <Sheet\n        className=\"pb-safe\"\n        opened={sheetOpened}\n        onBackdropClick={() => setSheetOpened(false)}\n      >\n        <Toolbar top className=\"justify-end ios:pt-4\">\n          <div className=\"ios:hidden\" />\n          <ToolbarPane>\n            <Link iconOnly onClick={() => setSheetOpened(false)}>\n              <CloseIcon />\n            </Link>\n          </ToolbarPane>\n        </Toolbar>\n        <Block className=\"ios:mt-4\">\n          <p>\n            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ad\n            excepturi nesciunt nobis aliquam. Quibusdam ducimus neque\n            necessitatibus, molestias cupiditate velit nihil alias incidunt,\n            excepturi voluptatem dolore itaque sapiente dolores!\n          </p>\n          <div className=\"mt-8\">\n            <Button large rounded onClick={() => setSheetOpened(false)}>\n              Action\n            </Button>\n          </div>\n        </Block>\n      </Sheet>\n    </Page>\n  );\n}\nSheetModalPage.displayName = 'SheetModalPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-banner",
+  "title": "Banner (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/BannerExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "banner",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "hero"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Banner example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { Dimensions, Image, Platform, StyleSheet, View } from 'react-native';\n\nimport { Banner, FAB, Palette, useTheme } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst PHOTOS = Array.from({ length: 24 }).map(\n  (_, i) => `https://unsplash.it/300/300/?random&__id=${i}`\n);\n\nconst BannerExample = () => {\n  const [visible, setVisible] = React.useState<boolean>(true);\n  const [useCustomTheme, setUseCustomTheme] = React.useState<boolean>(false);\n  const defaultTheme = useTheme();\n\n  const customTheme = {\n    ...defaultTheme,\n    colors: {\n      ...defaultTheme.colors,\n      onSurface: Palette.tertiary100,\n      elevation: {\n        ...defaultTheme.colors.elevation,\n        level1: Palette.tertiary50,\n      },\n      primary: Palette.tertiary10,\n    },\n  };\n\n  return (\n    <View style={styles.container}>\n      <Banner\n        actions={[\n          {\n            label: `Set ${useCustomTheme ? 'default' : 'custom'} theme`,\n            onPress: () => setUseCustomTheme(!useCustomTheme),\n          },\n          {\n            label: 'Fix it',\n            onPress: () => setVisible(false),\n          },\n        ]}\n        icon={require('../../assets/images/email-icon.png')}\n        visible={visible}\n        onShowAnimationFinished={() =>\n          console.log('Completed opening animation')\n        }\n        onHideAnimationFinished={() =>\n          console.log('Completed closing animation')\n        }\n        theme={useCustomTheme ? customTheme : defaultTheme}\n      >\n        Two line text string with two actions. One to two lines is preferable on\n        mobile.\n      </Banner>\n      <ScreenWrapper>\n        <View style={styles.grid}>\n          {PHOTOS.map((uri) => (\n            <View key={uri} style={styles.item}>\n              <Image\n                source={{ uri }}\n                resizeMode=\"cover\"\n                style={styles.photo}\n                accessibilityIgnoresInvertColors\n              />\n            </View>\n          ))}\n        </View>\n      </ScreenWrapper>\n      <FAB icon=\"eye\" style={styles.fab} onPress={() => setVisible(!visible)} />\n    </View>\n  );\n};\n\nBannerExample.title = 'Banner';\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n  },\n  ...Platform.select({\n    web: {\n      grid: {\n        // there is no 'grid' type in RN :(\n        // eslint-disable-next-line @typescript-eslint/no-unsafe-type-assertion\n        display: 'grid' as 'none',\n        gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))',\n        gridRowGap: '8px',\n        gridColumnGap: '8px',\n        padding: 8,\n      },\n      item: {\n        width: '100%',\n        height: 150,\n      },\n    },\n    default: {\n      grid: {\n        flexDirection: 'row',\n        flexWrap: 'wrap',\n        padding: 4,\n      },\n      item: {\n        height: Dimensions.get('window').width / 2,\n        width: '50%',\n        padding: 4,\n      },\n    },\n  }),\n  photo: {\n    flex: 1,\n  },\n  fab: {\n    alignSelf: 'center',\n    position: 'absolute',\n    bottom: 0,\n    margin: 16,\n  },\n});\n\nexport default BannerExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

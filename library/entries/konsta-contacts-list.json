@@ -1,0 +1,39 @@
+{
+  "id": "konsta-contacts-list",
+  "title": "Contacts List (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/contacts-list",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "contacts-list",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "contact"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Contacts List example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/ContactsList.jsx",
+  "code": "import React from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  List,\n  ListGroup,\n  ListItem,\n} from 'konsta/react';\n\nexport default function ContactsListPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  return (\n    <Page>\n      <Navbar\n        title=\"Contacts List\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n      <List strongIos>\n        <ListGroup dividers={false}>\n          <ListItem title=\"A\" groupTitle contacts />\n          <ListItem title=\"Aaron\" contacts />\n          <ListItem title=\"Abbie\" contacts />\n          <ListItem title=\"Adam\" contacts />\n          <ListItem title=\"Adele\" contacts />\n          <ListItem title=\"Agatha\" contacts />\n          <ListItem title=\"Agnes\" contacts />\n          <ListItem title=\"Albert\" contacts />\n          <ListItem title=\"Alexander\" contacts />\n        </ListGroup>\n        <ListGroup dividers={false}>\n          <ListItem title=\"B\" groupTitle contacts />\n          <ListItem title=\"Bailey\" contacts />\n          <ListItem title=\"Barclay\" contacts />\n          <ListItem title=\"Bartolo\" contacts />\n          <ListItem title=\"Bellamy\" contacts />\n          <ListItem title=\"Belle\" contacts />\n          <ListItem title=\"Benjamin\" contacts />\n        </ListGroup>\n        <ListGroup dividers={false}>\n          <ListItem title=\"C\" groupTitle contacts />\n          <ListItem title=\"Caiden\" contacts />\n          <ListItem title=\"Calvin\" contacts />\n          <ListItem title=\"Candy\" contacts />\n          <ListItem title=\"Carl\" contacts />\n          <ListItem title=\"Cherilyn\" contacts />\n          <ListItem title=\"Chester\" contacts />\n          <ListItem title=\"Chloe\" contacts />\n        </ListGroup>\n        <ListGroup dividers={false}>\n          <ListItem title=\"V\" groupTitle contacts />\n          <ListItem title=\"Vladimir\" contacts />\n        </ListGroup>\n      </List>\n    </Page>\n  );\n}\nContactsListPage.displayName = 'ContactsListPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

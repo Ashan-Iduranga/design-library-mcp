@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-snackbar",
+  "title": "Snackbar (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/SnackbarExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "snackbar",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "alert"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Snackbar example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { StyleSheet, View } from 'react-native';\n\nimport { Snackbar, Button, List, Text, Switch } from 'react-native-paper';\n\nimport { PreferencesContext } from '../PreferencesContext';\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst SHORT_MESSAGE = 'Single-line snackbar';\nconst LONG_MESSAGE =\n  'Snackbar with longer message which does not fit in one line';\n\nconst SnackbarExample = () => {\n  const preferences = React.useContext(PreferencesContext);\n\n  const [options, setOptions] = React.useState({\n    showSnackbar: false,\n    showAction: true,\n    showCloseIcon: false,\n    showLongerMessage: false,\n    showLongerAction: false,\n  });\n\n  const {\n    showSnackbar,\n    showAction,\n    showCloseIcon,\n    showLongerMessage,\n    showLongerAction,\n  } = options;\n\n  const action = {\n    label: showLongerAction ? 'Toggle Theme' : 'Action',\n    onPress: () => {\n      preferences?.toggleTheme();\n    },\n  };\n\n  return (\n    <>\n      <ScreenWrapper contentContainerStyle={styles.container}>\n        <List.Section title=\"Snackbar options\">\n          <View style={styles.row}>\n            <Text>Action button</Text>\n            <Switch\n              value={showAction}\n              onValueChange={() =>\n                setOptions({ ...options, showAction: !showAction })\n              }\n            />\n          </View>\n          <View style={styles.row}>\n            <Text>Close icon button</Text>\n            <Switch\n              value={showCloseIcon}\n              onValueChange={() =>\n                setOptions({ ...options, showCloseIcon: !showCloseIcon })\n              }\n            />\n          </View>\n          <View style={styles.row}>\n            <Text>Longer message</Text>\n            <Switch\n              value={showLongerMessage}\n              onValueChange={() =>\n                setOptions({\n                  ...options,\n                  showLongerMessage: !showLongerMessage,\n                })\n              }\n            />\n          </View>\n          <View style={styles.row}>\n            <Text>Longer action</Text>\n            <Switch\n              value={showLongerAction}\n              onValueChange={() =>\n                setOptions({\n                  ...options,\n                  showLongerAction: !showLongerAction,\n                })\n              }\n            />\n          </View>\n        </List.Section>\n\n        <View style={styles.wrapper}>\n          <Button\n            mode=\"outlined\"\n            onPress={() =>\n              setOptions({ ...options, showSnackbar: !showSnackbar })\n            }\n          >\n            {showSnackbar ? 'Hide' : 'Show'}\n          </Button>\n        </View>\n      </ScreenWrapper>\n      <Snackbar\n        visible={showSnackbar}\n        onDismiss={() => setOptions({ ...options, showSnackbar: false })}\n        action={showAction ? action : undefined}\n        onIconPress={\n          showCloseIcon\n            ? () => setOptions({ ...options, showSnackbar: false })\n            : undefined\n        }\n        duration={Snackbar.DURATION_MEDIUM}\n        style={showLongerAction && styles.longerAction}\n      >\n        {showLongerMessage ? LONG_MESSAGE : SHORT_MESSAGE}\n      </Snackbar>\n    </>\n  );\n};\n\nSnackbarExample.title = 'Snackbar';\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n  },\n  wrapper: {\n    justifyContent: 'center',\n    alignItems: 'center',\n  },\n  row: {\n    flexDirection: 'row',\n    alignItems: 'center',\n    justifyContent: 'space-between',\n    paddingVertical: 8,\n    paddingHorizontal: 16,\n  },\n  longerAction: {\n    flexDirection: 'column',\n  },\n});\n\nexport default SnackbarExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "konsta-home",
+  "title": "Home (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/home",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "home",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "other"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Home example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Home.jsx",
+  "code": "import React, { useLayoutEffect, useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  BlockTitle,\n  List,\n  ListItem,\n  Radio,\n  Toggle,\n  Link,\n  Popover,\n} from 'konsta/react';\nimport { Link as RouterLink } from 'react-router-dom';\nimport routes from '../routes.js';\nimport DemoIcon from '../components/DemoIcon';\n\nexport default function HomePage({\n  theme,\n  setTheme,\n  setColorTheme,\n  vibrant,\n  setVibrant,\n  monochrome,\n  setMonochrome,\n}) {\n  const [darkMode, setDarkMode] = useState(\n    document.documentElement.classList.contains('dark')\n  );\n  const [colorPickerOpened, setColorPickerOpened] = useState(false);\n\n  const toggleDarkMode = () => {\n    setDarkMode(!darkMode);\n    document.documentElement.classList.toggle('dark');\n  };\n\n  return (\n    <Page>\n      <Navbar title=\"Konsta UI\" large transparent centerTitle />\n      <BlockTitle>Theme</BlockTitle>\n      <List strong inset>\n        <ListItem\n          label\n          title=\"iOS Theme\"\n          media={\n            <Radio\n              onChange={() => setTheme('ios')}\n              component=\"div\"\n              checked={theme === 'ios'}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"Material Theme\"\n          media={\n            <Radio\n              onChange={() => setTheme('material')}\n              component=\"div\"\n              checked={theme === 'material'}\n            />\n          }\n        />\n      </List>\n      <List strong inset>\n        <ListItem\n          title=\"Dark Mode\"\n          label\n          after={\n            <Toggle\n              component=\"div\"\n              onChange={() => toggleDarkMode()}\n              checked={darkMode}\n            />\n          }\n        />\n        <ListItem\n          title=\"Color Theme\"\n          link\n          onClick={() => setColorPickerOpened(true)}\n          after={\n            <div className=\"w-6 h-6 rounded-full bg-primary home-color-picker\" />\n          }\n        />\n        {theme === 'material' && (\n          <>\n            <ListItem\n              title=\"Vibrant Colors\"\n              label\n              after={\n                <Toggle\n                  component=\"div\"\n                  onChange={() => setVibrant(!vibrant)}\n                  checked={vibrant}\n                />\n              }\n            />\n            <ListItem\n              title=\"Monochrome\"\n              label\n              after={\n                <Toggle\n                  component=\"div\"\n                  onChange={() => setMonochrome(!monochrome)}\n                  checked={monochrome}\n                />\n              }\n            />\n          </>\n        )}\n      </List>\n      <Popover\n        opened={colorPickerOpened}\n        onBackdropClick={() => setColorPickerOpened(false)}\n        className=\"w-auto\"\n        target=\".home-color-picker\"\n      >\n        <div className=\"grid grid-cols-3 py-2 ios:px-2\">\n          <Link\n            className=\"overflow-hidden h-12 w-12\"\n            onClick={() => setColorTheme('')}\n          >\n            <span className=\"bg-brand-primary w-6 h-6 rounded-full\" />\n          </Link>\n          <Link\n            className=\"overflow-hidden h-12 w-12\"\n            onClick={() => setColorTheme('k-color-brand-red')}\n          >\n            <span className=\"bg-brand-red w-6 h-6 rounded-full\" />\n          </Link>\n          <Link\n            className=\"overflow-hidden h-12 w-12\"\n            onClick={() => setColorTheme('k-color-brand-green')}\n          >\n            <span className=\"bg-brand-green w-6 h-6 rounded-full\" />\n          </Link>\n          <Link\n            className=\"overflow-hidden h-12 w-12\"\n            onClick={() => setColorTheme('k-color-brand-yellow')}\n          >\n            <span className=\"bg-brand-yellow w-6 h-6 rounded-full\" />\n          </Link>\n          <Link\n            className=\"overflow-hidden h-12 w-12\"\n            onClick={() => setColorTheme('k-color-brand-purple')}\n          >\n            <span className=\"bg-brand-purple w-6 h-6 rounded-full\" />\n          </Link>\n        </div>\n      </Popover>\n\n      <BlockTitle>Components</BlockTitle>\n      <List strong inset>\n        {routes.map((route) => (\n          <ListItem\n            key={route.path}\n            link\n            title={route.title}\n            linkComponent={RouterLink}\n            linkProps={{ to: route.path }}\n            media={<DemoIcon />}\n          />\n        ))}\n      </List>\n    </Page>\n  );\n}\nHomePage.displayName = 'HomePage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

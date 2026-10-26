@@ -1,0 +1,38 @@
+{
+  "id": "framework7-swiper",
+  "title": "Swiper Slider (Framework7 mobile screen)",
+  "source": "Framework7",
+  "url": "https://github.com/framework7io/framework7/blob/master/kitchen-sink/core/pages/swiper.html",
+  "license": "MIT",
+  "type": "screen",
+  "tags": [
+    "swiper",
+    "framework7",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "html",
+  "platform": "mobile",
+  "categories": [
+    "carousel"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A swiper slider screen from Framework7's kitchen sink, shown with Framework7's iOS or Material (Android) theme. Framework7 builds mobile apps (and PWAs / Capacitor apps) from HTML.\n\nUse: npm i framework7, then the same markup inside a Framework7 app. Docs: https://framework7.io/docs/",
+  "code": "<div class=\"page\">\n  <div class=\"navbar\">\n    <div class=\"navbar-bg\"></div>\n    <div class=\"navbar-inner sliding\">\n      <div class=\"left\">\n        <a class=\"link back\"> <i class=\"icon icon-back\"></i>\n\n        </a>\n      </div>\n      <div class=\"title\">Swiper Slider</div>\n    </div>\n  </div>\n  <div class=\"page-content\">\n    <div class=\"block block-strong inset\">\n      <p>\n        Framework7 comes with powerful and most modern touch slider ever -\n        <a href=\"https://swiperjs.com\" class=\"external\" target=\"_blank\">Swiper Slider</a>\n        with super flexible configuration and lot, lot of features. Just check the following demos:\n      </p>\n    </div>\n    <div class=\"list links-list list-strong inset list-dividers-ios\">\n      <ul>\n        <li>\n          <a href=\"swiper-horizontal/\">Swiper Horizontal</a>\n        </li>\n        <li>\n          <a href=\"swiper-vertical/\">Swiper Vertical</a>\n        </li>\n        <li>\n          <a href=\"swiper-space-between/\">Space Between Slides</a>\n        </li>\n        <li>\n          <a href=\"swiper-multiple/\">Multiple Per Page</a>\n        </li>\n        <li>\n          <a href=\"swiper-nested/\">Nested Swipers</a>\n        </li>\n        <li>\n          <a href=\"swiper-loop/\">Infinite Loop Mode</a>\n        </li>\n        <li>\n          <a href=\"swiper-3d-cube/\">3D Cube Effect</a>\n        </li>\n        <li>\n          <a href=\"swiper-3d-coverflow/\">3D Coverflow Effect</a>\n        </li>\n        <li>\n          <a href=\"swiper-3d-flip/\">3D Flip Effect</a>\n        </li>\n        <li>\n          <a href=\"swiper-fade/\">Fade Effect</a>\n        </li>\n        <li>\n          <a href=\"swiper-scrollbar/\">With Scrollbar</a>\n        </li>\n        <li>\n          <a href=\"swiper-gallery/\">Thumbs Gallery</a>\n        </li>\n        <li>\n          <a href=\"swiper-parallax/\">Parallax</a>\n        </li>\n        <li>\n          <a href=\"swiper-lazy/\">Lazy Loading</a>\n        </li>\n        <li>\n          <a href=\"swiper-pagination-progress/\">Progress Pagination</a>\n        </li>\n        <li>\n          <a href=\"swiper-pagination-fraction/\">Fraction Pagination</a>\n        </li>\n        <li>\n          <a href=\"swiper-zoom/\">Zoom</a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:41Z",
+  "updated_at": "2026-10-26T14:18:39Z"
+}

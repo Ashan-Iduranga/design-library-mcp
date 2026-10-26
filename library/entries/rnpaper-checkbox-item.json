@@ -1,0 +1,41 @@
+{
+  "id": "rnpaper-checkbox-item",
+  "title": "Checkbox Item (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/CheckboxItemExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox-item",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "menu",
+    "toggle",
+    "guidelines"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Checkbox Item example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { StyleSheet } from 'react-native';\n\nimport { Checkbox } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst CheckboxExample = () => {\n  const [checkedDefault, setCheckedDefault] = React.useState<boolean>(true);\n  const [checkedLeadingControl, setCheckedLeadingControl] =\n    React.useState<boolean>(true);\n  const [checkedDisabled, setCheckedDisabled] = React.useState<boolean>(true);\n  const [checkedLabelVariant, setCheckedLabelVariant] = React.useState(true);\n\n  return (\n    <ScreenWrapper style={styles.container}>\n      <Checkbox.Item\n        label=\"Default\"\n        status={checkedDefault ? 'checked' : 'unchecked'}\n        onPress={() => setCheckedDefault(!checkedDefault)}\n      />\n      <Checkbox.Item\n        label=\"Default with leading control\"\n        status={checkedLeadingControl ? 'checked' : 'unchecked'}\n        onPress={() => setCheckedLeadingControl(!checkedLeadingControl)}\n        position=\"leading\"\n      />\n      <Checkbox.Item\n        label=\"Disabled checkbox\"\n        status={checkedDisabled ? 'checked' : 'unchecked'}\n        onPress={() => setCheckedDisabled(!checkedDisabled)}\n        disabled\n      />\n      <Checkbox.Item\n        label=\"Default with titleLarge title variant\"\n        labelVariant=\"titleLarge\"\n        status={checkedLabelVariant ? 'checked' : 'unchecked'}\n        onPress={() => setCheckedLabelVariant(!checkedLabelVariant)}\n      />\n    </ScreenWrapper>\n  );\n};\n\nCheckboxExample.title = 'Checkbox Item';\n\nconst styles = StyleSheet.create({\n  container: {\n    paddingVertical: 8,\n  },\n});\n\nexport default CheckboxExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

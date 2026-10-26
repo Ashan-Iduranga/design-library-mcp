@@ -1,0 +1,39 @@
+{
+  "id": "konsta-navbar",
+  "title": "Navbar (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/navbar",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "navbar",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "navigation"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Navbar example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Navbar.jsx",
+  "code": "import React, { useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Link,\n  Block,\n  BlockTitle,\n  BlockHeader,\n  List,\n  ListItem,\n  Radio,\n  Toggle,\n} from 'konsta/react';\n\nexport default function NavbarPage() {\n  const [size, setSize] = useState('Default');\n  const [isTransparent, setIsTransparent] = useState(false);\n  const isPreview = document.location.href.includes('examplePreview');\n  return (\n    <Page>\n      <Navbar\n        title=\"Navbar\"\n        subtitle=\"Subtitle\"\n        className=\"top-0 sticky\"\n        medium={size === 'Medium'}\n        large={size === 'Large'}\n        transparent={isTransparent}\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n        right={<Link navbar>Right</Link>}\n      />\n      <div className=\"relative\">\n        <Block strong inset>\n          <p>\n            Navbar is a fixed area at the top of a screen that contains Page\n            title and navigation elements.\n          </p>\n        </Block>\n\n        <BlockTitle>Size</BlockTitle>\n        <BlockHeader>\n          Medium and Large will collapse to usual size on page scroll\n        </BlockHeader>\n        <List strong inset>\n          {['Default', 'Medium', 'Large'].map((v) => (\n            <ListItem\n              key={v}\n              label\n              title={v}\n              after={\n                <Radio\n                  component=\"div\"\n                  value={v}\n                  checked={size === v}\n                  onChange={() => setSize(v)}\n                />\n              }\n            />\n          ))}\n        </List>\n\n        <BlockTitle>Transparent</BlockTitle>\n\n        <BlockHeader>\n          When navbar is transparent, its title and background will become\n          visible on page scroll\n        </BlockHeader>\n        <List strong inset>\n          <ListItem\n            label\n            title=\"Transparent\"\n            after={\n              <Toggle\n                component=\"div\"\n                checked={isTransparent === true}\n                onChange={() => setIsTransparent(!isTransparent)}\n              />\n            }\n          />\n        </List>\n\n        <Block strong inset className=\"space-y-4\">\n          <p>\n            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto\n            tempore ratione unde accusantium distinctio nulla quia numquam earum\n            odio, optio, nisi rem deserunt. Molestiae delectus, ut assumenda\n            numquam magni enim.\n          </p>\n          <p>\n            Architecto molestias cum dolor dolorem provident consequuntur\n            incidunt sunt fugiat tenetur odio, recusandae placeat rem veniam.\n            Voluptates, repellendus odit, magni nesciunt, optio laborum\n            asperiores repudiandae consectetur suscipit ab cupiditate eum.\n          </p>\n          <p>\n            Aliquam, iste accusamus deleniti temporibus exercitationem neque\n            perferendis optio, blanditiis quisquam molestias perspiciatis cumque\n            harum tenetur veniam. Dolorum fugit doloribus est, deserunt,\n            eligendi, quaerat quidem itaque tempore laborum non illum?\n          </p>\n          <p>\n            Rerum magni sunt quis veniam, dolor ratione saepe ducimus tempore\n            voluptatum porro quod commodi? Aperiam laudantium deleniti totam\n            dolorum qui accusantium iste saepe facere optio, soluta maxime\n            mollitia deserunt cumque.\n          </p>\n          <p>\n            Iusto tempore quis provident, saepe illum ex ipsum cupiditate\n            explicabo ratione unde facere nemo delectus harum, blanditiis eius\n            sit asperiores nam. Aut cupiditate est tempore officia, perspiciatis\n            esse asperiores repudiandae?\n          </p>\n          <p>\n            Consequuntur itaque harum eos vero, reiciendis dolorum iure non\n            earum molestias tenetur sint enim, maxime recusandae ad perferendis\n            repudiandae! Sit, quos exercitationem beatae numquam laborum nobis\n            natus. Obcaecati, ea inventore.\n          </p>\n          <p>\n            Fugit culpa labore sapiente excepturi reiciendis, nulla, nihil neque\n            ut veritatis quis quibusdam dolorum? Voluptatibus animi officia\n            perspiciatis doloremque cum voluptatem, quia ratione modi vero,\n            consequatur ipsum, praesentium quibusdam amet?\n          </p>\n          <p>\n            Laudantium nihil sint nam placeat, nemo rerum ipsam explicabo iusto\n            dolores molestiae expedita eos consequuntur ut architecto\n            consequatur soluta ad maiores voluptatem tenetur in velit. Minima\n            quia molestiae nobis voluptatibus.\n          </p>\n          <p>\n            Expedita soluta quia inventore et placeat id exercitationem quisquam\n            eligendi est eius sapiente quo, cum nesciunt mollitia, sit veniam\n            ducimus tempora culpa adipisci commodi in autem nihil voluptatem\n            corporis? Perspiciatis.\n          </p>\n          <p>\n            Molestias, est? Eligendi vero distinctio voluptatem cumque id\n            voluptatibus, officia minima repellendus sit illo tempora labore\n            provident? Eum tenetur consectetur quae, in facilis autem ipsam\n            doloribus voluptate vitae suscipit nobis.\n          </p>\n          <p>\n            Obcaecati optio iste hic, soluta minus ullam, perferendis pariatur\n            non possimus autem nostrum libero sapiente. Corporis quo cum iusto\n            exercitationem velit. Non beatae eveniet asperiores ipsa\n            consequuntur temporibus sapiente earum!\n          </p>\n          <p>\n            Temporibus, omnis. Excepturi dolorum expedita laudantium quasi quod\n            id adipisci, esse, nam atque in, incidunt ex ab distinctio\n            repellendus beatae voluptatem alias odit illum quis. Illo numquam\n            voluptatibus error voluptatum!\n          </p>\n        </Block>\n      </div>\n    </Page>\n  );\n}\nNavbarPage.displayName = 'NavbarPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

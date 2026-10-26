@@ -1,0 +1,41 @@
+{
+  "id": "rnpaper-list-accordion-group",
+  "title": "List Accordion Group (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/ListAccordionGroupExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "list-accordion-group",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "accordion",
+    "data-table",
+    "guidelines"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper List Accordion Group example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\n\nimport { List } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\ntype State = string | number | undefined;\n\nconst ListAccordionGroupExample = () => {\n  const [expandedId, setExpandedId] = React.useState<State>(undefined);\n\n  const _onAccordionPress = (newExpandedId: string | number) =>\n    expandedId === newExpandedId\n      ? setExpandedId(undefined)\n      : setExpandedId(newExpandedId);\n\n  return (\n    <ScreenWrapper>\n      <List.AccordionGroup>\n        <List.Section title=\"Uncontrolled Accordion Group example\">\n          <List.Accordion\n            left={(props) => <List.Icon {...props} icon=\"folder\" />}\n            title=\"Expandable list item\"\n            id=\"1\"\n          >\n            <List.Item title=\"List item 1\" />\n            <List.Item title=\"List item 2\" />\n          </List.Accordion>\n          <List.Accordion\n            left={(props) => <List.Icon {...props} icon=\"folder\" />}\n            title=\"Expandable list item 2\"\n            id=\"2\"\n          >\n            <List.Item title=\"List item 1\" />\n          </List.Accordion>\n          <List.Accordion\n            left={(props) => <List.Icon {...props} icon=\"folder\" />}\n            title=\"Expandable list item 2\"\n            id=\"3\"\n          >\n            <List.Item title=\"Another item\" />\n          </List.Accordion>\n        </List.Section>\n      </List.AccordionGroup>\n      <List.AccordionGroup\n        expandedId={expandedId}\n        onAccordionPress={_onAccordionPress}\n      >\n        <List.Section title=\"Controlled Accordion Group example\">\n          <List.Accordion\n            left={(props) => <List.Icon {...props} icon=\"folder\" />}\n            title=\"Expandable list item\"\n            id=\"1\"\n          >\n            <List.Item title=\"List item 1\" />\n            <List.Item title=\"List item 2\" />\n          </List.Accordion>\n          <List.Accordion\n            left={(props) => <List.Icon {...props} icon=\"folder\" />}\n            title=\"Expandable list item 2\"\n            id=\"2\"\n          >\n            <List.Item title=\"List item 1\" />\n          </List.Accordion>\n          <List.Accordion\n            left={(props) => <List.Icon {...props} icon=\"folder\" />}\n            title=\"Expandable list item 2\"\n            id=\"3\"\n          >\n            <List.Item title=\"Another item\" />\n          </List.Accordion>\n        </List.Section>\n      </List.AccordionGroup>\n    </ScreenWrapper>\n  );\n};\n\nListAccordionGroupExample.title = 'List.AccordionGroup';\n\nexport default ListAccordionGroupExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

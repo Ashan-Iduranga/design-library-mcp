@@ -1,0 +1,38 @@
+{
+  "id": "rnreusables-collapsible",
+  "title": "Collapsible (react-native-reusables)",
+  "source": "react-native-reusables",
+  "url": "https://reactnativereusables.com/docs/components/collapsible",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "collapsible",
+    "react-native-reusables",
+    "shadcn",
+    "nativewind",
+    "react-native"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "accordion"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Collapsible from react-native-reusables: shadcn/ui-style components for React Native, styled with Nativewind (Tailwind).\n\nInstall into a project: npx @react-native-reusables/cli@latest add collapsible\n\nOriginal file: https://github.com/founded-labs/react-native-reusables/blob/main/packages/registry/src/nativewind/components/ui/collapsible.tsx",
+  "code": "import * as CollapsiblePrimitive from '@rn-primitives/collapsible';\n\nconst Collapsible = CollapsiblePrimitive.Root;\n\nconst CollapsibleTrigger = CollapsiblePrimitive.Trigger;\n\nconst CollapsibleContent = CollapsiblePrimitive.Content;\n\nexport { Collapsible, CollapsibleTrigger, CollapsibleContent };",
+  "prompt": "npx @react-native-reusables/cli@latest add collapsible",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:52Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

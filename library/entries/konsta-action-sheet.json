@@ -1,0 +1,39 @@
+{
+  "id": "konsta-action-sheet",
+  "title": "Action Sheet (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/action-sheet",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "action-sheet",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "modal"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Action Sheet example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/ActionSheet.jsx",
+  "code": "import React, { useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Button,\n  Block,\n  BlockTitle,\n  Actions,\n  ActionsGroup,\n  ActionsLabel,\n  ActionsButton,\n} from 'konsta/react';\n\nexport default function ActionSheetPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n\n  const [actionsOneOpened, setActionsOneOpened] = useState(false);\n  const [actionsTwoOpened, setActionsTwoOpened] = useState(false);\n  return (\n    <Page>\n      <Navbar\n        title=\"Action Sheet\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n      <Block strong inset className=\"space-y-4\">\n        <p>\n          Action Sheet is a slide-up pane for presenting the user with a set of\n          alternatives for how to proceed with a given task.\n        </p>\n      </Block>\n      <BlockTitle>Open Action Sheet</BlockTitle>\n      <Block strong inset className=\"flex space-x-4 rtl:space-x-reverse\">\n        <Button rounded onClick={() => setActionsOneOpened(true)}>\n          One group\n        </Button>\n        <Button rounded onClick={() => setActionsTwoOpened(true)}>\n          Two groups\n        </Button>\n      </Block>\n\n      <Actions\n        opened={actionsOneOpened}\n        onBackdropClick={() => setActionsOneOpened(false)}\n      >\n        <ActionsGroup>\n          <ActionsLabel>Do something</ActionsLabel>\n          <ActionsButton onClick={() => setActionsOneOpened(false)} bold>\n            Button 1\n          </ActionsButton>\n          <ActionsButton onClick={() => setActionsOneOpened(false)}>\n            Button 2\n          </ActionsButton>\n          <ActionsButton onClick={() => setActionsOneOpened(false)}>\n            Cancel\n          </ActionsButton>\n        </ActionsGroup>\n      </Actions>\n\n      <Actions\n        opened={actionsTwoOpened}\n        onBackdropClick={() => setActionsTwoOpened(false)}\n      >\n        <ActionsGroup>\n          <ActionsLabel>Do something</ActionsLabel>\n          <ActionsButton onClick={() => setActionsTwoOpened(false)} bold>\n            Button 1\n          </ActionsButton>\n          <ActionsButton onClick={() => setActionsTwoOpened(false)}>\n            Button 2\n          </ActionsButton>\n        </ActionsGroup>\n        <ActionsGroup>\n          <ActionsButton onClick={() => setActionsTwoOpened(false)}>\n            Cancel\n          </ActionsButton>\n        </ActionsGroup>\n      </Actions>\n    </Page>\n  );\n}\nActionSheetPage.displayName = 'ActionSheetPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

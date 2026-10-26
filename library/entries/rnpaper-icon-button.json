@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-icon-button",
+  "title": "Icon Button (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/IconButtonExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "icon-button",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "button"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Icon Button example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import { StyleSheet, View } from 'react-native';\n\nimport { IconButton, List, Palette } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst ButtonExample = () => {\n  return (\n    <ScreenWrapper contentContainerStyle={styles.v3Container}>\n      <List.Section title=\"Default\">\n        <View style={styles.row}>\n          <IconButton icon=\"camera\" size={24} onPress={() => {}} />\n          <IconButton icon=\"camera\" selected size={24} onPress={() => {}} />\n          <IconButton icon=\"camera\" disabled size={24} onPress={() => {}} />\n          <IconButton icon=\"camera\" size={24} onPress={() => {}} loading />\n        </View>\n      </List.Section>\n\n      <List.Section title=\"Contained\">\n        <View style={styles.row}>\n          <IconButton\n            icon=\"camera\"\n            mode=\"contained\"\n            size={24}\n            onPress={() => {}}\n          />\n          <IconButton\n            icon=\"camera\"\n            mode=\"contained\"\n            selected\n            size={24}\n            onPress={() => {}}\n          />\n          <IconButton\n            icon=\"camera\"\n            mode=\"contained\"\n            disabled\n            size={24}\n            onPress={() => {}}\n          />\n          <IconButton\n            icon=\"\"\n            mode=\"contained\"\n            selected\n            loading\n            size={24}\n            onPress={() => {}}\n          />\n        </View>\n      </List.Section>\n\n      <List.Section title=\"Contained-tonal\">\n        <View style={styles.row}>\n          <IconButton\n            icon=\"camera\"\n            mode=\"contained-tonal\"\n            size={24}\n            onPress={() => {}}\n          />\n          <IconButton\n            icon=\"camera\"\n            selected\n            mode=\"contained-tonal\"\n            size={24}\n            onPress={() => {}}\n          />\n          <IconButton\n            icon=\"camera\"\n            mode=\"contained-tonal\"\n            disabled\n            size={24}\n            onPress={() => {}}\n          />\n          <IconButton\n            icon=\"\"\n            mode=\"contained-tonal\"\n            disabled\n            size={24}\n            onPress={() => {}}\n            loading\n          />\n        </View>\n      </List.Section>\n\n      <List.Section title=\"Outlined\">\n        <View style={styles.row}>\n          <IconButton\n            icon=\"camera-outline\"\n            mode=\"outlined\"\n            size={24}\n            onPress={() => {}}\n          />\n          <IconButton\n            selected\n            icon=\"camera\"\n            mode=\"outlined\"\n            size={24}\n            onPress={() => {}}\n          />\n          <IconButton\n            icon=\"camera\"\n            mode=\"outlined\"\n            disabled\n            size={24}\n            onPress={() => {}}\n          />\n          <IconButton\n            icon=\"\"\n            mode=\"outlined\"\n            disabled\n            size={24}\n            onPress={() => {}}\n            loading\n          />\n        </View>\n      </List.Section>\n\n      <List.Section title=\"Custom\">\n        <View style={styles.row}>\n          <IconButton\n            icon=\"lock\"\n            size={24}\n            iconColor={Palette.tertiary50}\n            onPress={() => {}}\n          />\n          <IconButton\n            icon=\"eye\"\n            mode=\"contained\"\n            style={styles.square}\n            size={24}\n            iconColor={Palette.tertiary50}\n            onPress={() => {}}\n          />\n          <IconButton\n            icon=\"eye\"\n            mode=\"contained\"\n            style={styles.slightlyRounded}\n            size={24}\n            contentStyle={styles.contentPadding}\n            iconColor={Palette.tertiary50}\n            onPress={() => {}}\n          />\n          <IconButton\n            icon=\"heart\"\n            mode=\"contained-tonal\"\n            style={styles.differentBorderRadius}\n            size={24}\n            iconColor={Palette.tertiary50}\n            onPress={() => {}}\n          />\n          <IconButton\n            icon=\"heart\"\n            mode=\"outlined\"\n            style={styles.differentBorderRadius}\n            size={24}\n            iconColor={Palette.tertiary50}\n            onPress={() => {}}\n          />\n          <IconButton icon=\"camera\" size={36} onPress={() => {}} />\n          <IconButton\n            icon=\"lock\"\n            size={36}\n            onPress={() => {}}\n            containerColor={Palette.tertiary60}\n          />\n          <IconButton icon=\"heart\" size={60} onPress={() => {}} />\n          <IconButton icon=\"\" size={60} onPress={() => {}} loading />\n        </View>\n      </List.Section>\n    </ScreenWrapper>\n  );\n};\n\nButtonExample.title = 'Icon Button';\n\nconst styles = StyleSheet.create({\n  v3Container: {\n    flexDirection: 'column',\n  },\n  row: {\n    flexDirection: 'row',\n    paddingHorizontal: 12,\n  },\n  square: {\n    borderRadius: 0,\n  },\n  slightlyRounded: {\n    borderRadius: 4,\n    width: 48,\n    height: 48,\n  },\n  contentPadding: {\n    padding: 8,\n  },\n  differentBorderRadius: {\n    borderTopLeftRadius: 2,\n    borderTopRightRadius: 4,\n    borderBottomLeftRadius: 8,\n    borderBottomRightRadius: 6,\n  },\n});\n\nexport default ButtonExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

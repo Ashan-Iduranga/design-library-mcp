@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-radio-button",
+  "title": "Radio Button (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/RadioButtonExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio-button",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "toggle"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Radio Button example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { StyleSheet, View } from 'react-native';\n\nimport {\n  Palette,\n  RadioButton,\n  Text,\n  TouchableRipple,\n} from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\ntype State = 'normal' | 'normal-ios' | 'normal-item' | 'custom';\n\nconst RadioButtonExample = () => {\n  const [checked, setChecked] = React.useState<State>('normal');\n\n  return (\n    <ScreenWrapper style={styles.container}>\n      <TouchableRipple onPress={() => setChecked('normal')}>\n        <View style={styles.row}>\n          <Text>Normal - Material Design</Text>\n          <View pointerEvents=\"none\">\n            <RadioButton.Android\n              value=\"normal\"\n              status={checked === 'normal' ? 'checked' : 'unchecked'}\n            />\n          </View>\n        </View>\n      </TouchableRipple>\n      <TouchableRipple onPress={() => setChecked('normal-ios')}>\n        <View style={styles.row}>\n          <Text>Normal 2 - IOS</Text>\n          <View pointerEvents=\"none\">\n            <RadioButton.IOS\n              value=\"normal-ios\"\n              status={checked === 'normal-ios' ? 'checked' : 'unchecked'}\n            />\n          </View>\n        </View>\n      </TouchableRipple>\n      <TouchableRipple onPress={() => setChecked('custom')}>\n        <View style={styles.row}>\n          <Text>Custom</Text>\n          <View pointerEvents=\"none\">\n            <RadioButton\n              value=\"custom\"\n              color={Palette.error70}\n              status={checked === 'custom' ? 'checked' : 'unchecked'}\n            />\n          </View>\n        </View>\n      </TouchableRipple>\n      <RadioButton.Item\n        label=\"Normal 3 - Item\"\n        value=\"normal-item\"\n        status={checked === 'normal-item' ? 'checked' : 'unchecked'}\n        onPress={() => setChecked('normal-item')}\n      />\n      <View style={styles.row}>\n        <Text>Checked (Disabled)</Text>\n        <RadioButton value=\"first\" status=\"checked\" disabled />\n      </View>\n      <View style={styles.row}>\n        <Text>Unchecked (Disabled)</Text>\n        <RadioButton value=\"second\" status=\"unchecked\" disabled />\n      </View>\n      <RadioButton.Item\n        label=\"Checked - Item (Disabled)\"\n        value=\"third\"\n        status=\"checked\"\n        disabled\n      />\n      <RadioButton.Item\n        label=\"Unchecked - Item (Disabled)\"\n        value=\"fourth\"\n        status=\"unchecked\"\n        disabled\n      />\n    </ScreenWrapper>\n  );\n};\n\nRadioButtonExample.title = 'Radio Button';\n\nconst styles = StyleSheet.create({\n  container: {\n    paddingVertical: 8,\n  },\n  row: {\n    flexDirection: 'row',\n    alignItems: 'center',\n    justifyContent: 'space-between',\n    paddingVertical: 8,\n    paddingHorizontal: 16,\n  },\n});\n\nexport default RadioButtonExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

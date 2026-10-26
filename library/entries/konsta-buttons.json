@@ -1,0 +1,39 @@
+{
+  "id": "konsta-buttons",
+  "title": "Buttons (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/buttons",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "buttons",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "button"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Buttons example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Buttons.jsx",
+  "code": "import React from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Button,\n  Block,\n  BlockTitle,\n} from 'konsta/react';\n\nexport default function ButtonsPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  return (\n    <Page>\n      <Navbar\n        title=\"Buttons\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <BlockTitle>Default Buttons</BlockTitle>\n      <Block strong inset className=\"space-y-2\">\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button>Button</Button>\n          <Button className=\"k-color-brand-red\">Button</Button>\n          <Button>Button</Button>\n        </div>\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button outline>Outline</Button>\n          <Button className=\"k-color-brand-red\" outline>\n            Outline\n          </Button>\n          <Button outline>Outline</Button>\n        </div>\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button clear>Clear</Button>\n          <Button className=\"k-color-brand-red\" clear>\n            Clear\n          </Button>\n          <Button clear>Clear</Button>\n        </div>\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button tonal>Tonal</Button>\n          <Button className=\"k-color-brand-red\" tonal>\n            Tonal\n          </Button>\n          <Button tonal>Tonal</Button>\n        </div>\n      </Block>\n\n      <BlockTitle>Rounded Buttons</BlockTitle>\n      <Block strong inset className=\"space-y-2\">\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button rounded>Button</Button>\n          <Button rounded className=\"k-color-brand-green\">\n            Button\n          </Button>\n          <Button rounded>Button</Button>\n        </div>\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button rounded outline>\n            Outline\n          </Button>\n          <Button rounded outline className=\"k-color-brand-green\">\n            Outline\n          </Button>\n          <Button rounded outline>\n            Outline\n          </Button>\n        </div>\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button rounded clear>\n            Clear\n          </Button>\n          <Button rounded clear className=\"k-color-brand-green\">\n            Clear\n          </Button>\n          <Button rounded clear>\n            Clear\n          </Button>\n        </div>\n      </Block>\n\n      <BlockTitle>Large Buttons</BlockTitle>\n      <Block strong inset className=\"space-y-2\">\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button large>Button</Button>\n          <Button large className=\"k-color-brand-yellow\">\n            Button\n          </Button>\n          <Button large rounded>\n            Button\n          </Button>\n        </div>\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button large outline>\n            Outline\n          </Button>\n          <Button large outline className=\"k-color-brand-yellow\">\n            Outline\n          </Button>\n          <Button large rounded outline>\n            Outline\n          </Button>\n        </div>\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button large clear>\n            Clear\n          </Button>\n          <Button large clear className=\"k-color-brand-yellow\">\n            Clear\n          </Button>\n          <Button large rounded clear>\n            Clear\n          </Button>\n        </div>\n      </Block>\n\n      <BlockTitle>Small Buttons</BlockTitle>\n      <Block strong inset className=\"space-y-2\">\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button small>Button</Button>\n          <Button small>Button</Button>\n          <Button small rounded>\n            Button\n          </Button>\n        </div>\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button small outline>\n            Outline\n          </Button>\n          <Button small outline>\n            Outline\n          </Button>\n          <Button small rounded outline>\n            Outline\n          </Button>\n        </div>\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button small clear>\n            Clear\n          </Button>\n          <Button small clear>\n            Clear\n          </Button>\n          <Button small rounded clear>\n            Clear\n          </Button>\n        </div>\n      </Block>\n\n      <BlockTitle>Raised Buttons</BlockTitle>\n      <Block strong inset className=\"space-y-2\">\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button raised>Button</Button>\n          <Button raised>Button</Button>\n          <Button raised rounded>\n            Button\n          </Button>\n        </div>\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button raised outline>\n            Outline\n          </Button>\n          <Button raised outline>\n            Outline\n          </Button>\n          <Button raised rounded outline>\n            Outline\n          </Button>\n        </div>\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button raised clear>\n            Clear\n          </Button>\n          <Button raised clear>\n            Clear\n          </Button>\n          <Button raised rounded clear>\n            Clear\n          </Button>\n        </div>\n      </Block>\n\n      <BlockTitle>Disabled Buttons</BlockTitle>\n      <Block strong inset className=\"space-y-2\">\n        <div className=\"grid grid-cols-3 gap-x-4\">\n          <Button disabled>Button</Button>\n          <Button disabled outline>\n            Outline\n          </Button>\n          <Button disabled clear>\n            Clear\n          </Button>\n        </div>\n      </Block>\n    </Page>\n  );\n}\nButtonsPage.displayName = 'ButtonsPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

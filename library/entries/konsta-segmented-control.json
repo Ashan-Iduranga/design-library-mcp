@@ -1,0 +1,40 @@
+{
+  "id": "konsta-segmented-control",
+  "title": "Segmented Control (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/segmented-control",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "segmented-control",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "toggle",
+    "tabs"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Segmented Control example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/SegmentedControl.jsx",
+  "code": "import React, { useState } from 'react';\n\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Segmented,\n  SegmentedButton,\n  Block,\n  BlockTitle,\n} from 'konsta/react';\n\nexport default function SegmentedControlPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [activeSegmented, setActiveSegmented] = useState(1);\n  return (\n    <Page>\n      <Navbar\n        title=\"Segmented Control\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <BlockTitle>Default Segmented</BlockTitle>\n      <Block strong inset className=\"space-y-4\">\n        <Segmented>\n          <SegmentedButton\n            active={activeSegmented === 1}\n            onClick={() => setActiveSegmented(1)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 2}\n            onClick={() => setActiveSegmented(2)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 3}\n            onClick={() => setActiveSegmented(3)}\n          >\n            Button\n          </SegmentedButton>\n        </Segmented>\n\n        <Segmented rounded>\n          <SegmentedButton\n            active={activeSegmented === 1}\n            onClick={() => setActiveSegmented(1)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 2}\n            onClick={() => setActiveSegmented(2)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 3}\n            onClick={() => setActiveSegmented(3)}\n          >\n            Button\n          </SegmentedButton>\n        </Segmented>\n      </Block>\n\n      <BlockTitle>Raised Segmented</BlockTitle>\n      <Block strong inset className=\"space-y-4\">\n        <Segmented raised>\n          <SegmentedButton\n            active={activeSegmented === 1}\n            onClick={() => setActiveSegmented(1)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 2}\n            onClick={() => setActiveSegmented(2)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 3}\n            onClick={() => setActiveSegmented(3)}\n          >\n            Button\n          </SegmentedButton>\n        </Segmented>\n        <Segmented raised rounded>\n          <SegmentedButton\n            active={activeSegmented === 1}\n            onClick={() => setActiveSegmented(1)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 2}\n            onClick={() => setActiveSegmented(2)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 3}\n            onClick={() => setActiveSegmented(3)}\n          >\n            Button\n          </SegmentedButton>\n        </Segmented>\n      </Block>\n\n      <BlockTitle>Outline</BlockTitle>\n      <Block strong inset className=\"space-y-4\">\n        <Segmented outline>\n          <SegmentedButton\n            active={activeSegmented === 1}\n            onClick={() => setActiveSegmented(1)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 2}\n            onClick={() => setActiveSegmented(2)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 3}\n            onClick={() => setActiveSegmented(3)}\n          >\n            Button\n          </SegmentedButton>\n        </Segmented>\n        <Segmented rounded outline>\n          <SegmentedButton\n            active={activeSegmented === 1}\n            onClick={() => setActiveSegmented(1)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 2}\n            onClick={() => setActiveSegmented(2)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 3}\n            onClick={() => setActiveSegmented(3)}\n          >\n            Button\n          </SegmentedButton>\n        </Segmented>\n      </Block>\n\n      <BlockTitle>Strong Segmented</BlockTitle>\n      <Block strong inset className=\"space-y-4\">\n        <Segmented strong>\n          <SegmentedButton\n            active={activeSegmented === 1}\n            onClick={() => setActiveSegmented(1)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 2}\n            onClick={() => setActiveSegmented(2)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 3}\n            onClick={() => setActiveSegmented(3)}\n          >\n            Button\n          </SegmentedButton>\n        </Segmented>\n\n        <Segmented strong rounded>\n          <SegmentedButton\n            active={activeSegmented === 1}\n            onClick={() => setActiveSegmented(1)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 2}\n            onClick={() => setActiveSegmented(2)}\n          >\n            Button\n          </SegmentedButton>\n          <SegmentedButton\n            active={activeSegmented === 3}\n            onClick={() => setActiveSegmented(3)}\n          >\n            Button\n          </SegmentedButton>\n        </Segmented>\n      </Block>\n    </Page>\n  );\n}\nSegmentedControlPage.displayName = 'SegmentedControlPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

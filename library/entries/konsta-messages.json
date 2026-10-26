@@ -1,0 +1,39 @@
+{
+  "id": "konsta-messages",
+  "title": "Messages (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/messages",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "messages",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "chat"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Messages example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Messages.jsx",
+  "code": "/* eslint-disable react/no-array-index-key */\nimport { React, useState, useRef, useEffect } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Messagebar,\n  Messages,\n  Message,\n  MessagesTitle,\n  Link,\n  Icon,\n  ToolbarPane,\n} from 'konsta/react';\nimport { CameraFill, ArrowUpCircleFill } from 'framework7-icons/react';\nimport { MdCameraAlt, MdSend } from 'react-icons/md';\n\nexport default function MessagesPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [messageText, setMessageText] = useState('');\n  const [messagesData, setMessagesData] = useState([\n    {\n      type: 'sent',\n      text: 'Hi, Kate',\n    },\n    {\n      type: 'sent',\n      text: 'How are you?',\n    },\n    {\n      name: 'Kate',\n      type: 'received',\n      text: 'Hi, I am good!',\n      avatar: 'https://cdn.framework7.io/placeholder/people-100x100-9.jpg',\n    },\n    {\n      name: 'Blue Ninja',\n      type: 'received',\n      text: 'Hi there, I am also fine, thanks! And how are you?',\n      avatar: 'https://cdn.framework7.io/placeholder/people-100x100-7.jpg',\n    },\n    {\n      type: 'sent',\n      text: 'Hey, Blue Ninja! Glad to see you ;)',\n    },\n    {\n      type: 'sent',\n      text: 'How do you feel about going to the movies today?',\n    },\n    {\n      name: 'Kate',\n      type: 'received',\n      text: ' Oh, great idea!',\n      avatar: 'https://cdn.framework7.io/placeholder/people-100x100-9.jpg',\n    },\n    {\n      name: 'Kate',\n      type: 'received',\n      text: ' What cinema are we going to?',\n      avatar: 'https://cdn.framework7.io/placeholder/people-100x100-9.jpg',\n    },\n    {\n      name: 'Blue Ninja',\n      type: 'received',\n      text: 'Great. And what movie?',\n      avatar: 'https://cdn.framework7.io/placeholder/people-100x100-7.jpg',\n    },\n    {\n      name: 'Blue Ninja',\n      type: 'received',\n      text: 'What time?',\n      avatar: 'https://cdn.framework7.io/placeholder/people-100x100-7.jpg',\n    },\n  ]);\n\n  const pageRef = useRef();\n  const initiallyScrolled = useRef(false);\n\n  const scrollToBottom = () => {\n    const pageElement = pageRef.current || pageRef.current.el;\n    pageElement.scrollTo({\n      top: pageElement.scrollHeight - pageElement.offsetHeight,\n      behavior: initiallyScrolled.current ? 'smooth' : 'auto',\n    });\n  };\n\n  useEffect(() => {\n    scrollToBottom();\n    initiallyScrolled.current = true;\n  }, [messagesData]);\n\n  const handleSendClick = () => {\n    const text = messageText.replace(/\\n/g, '<br>').trim();\n    const type = 'sent';\n    const messagesToSend = [];\n    if (text.length) {\n      messagesToSend.push({\n        text,\n        type,\n      });\n    }\n    if (messagesToSend.length === 0) {\n      return;\n    }\n    setMessagesData([...messagesData, ...messagesToSend]);\n    setMessageText('');\n  };\n\n  const inputOpacity = messageText ? 1 : 0.3;\n  const isClickable = messageText.trim().length > 0;\n\n  const currentDate = new Intl.DateTimeFormat('en-US', {\n    weekday: 'long',\n    month: 'short',\n    day: 'numeric',\n    hour12: false,\n    hour: '2-digit',\n    minute: '2-digit',\n  })\n    .formatToParts(new Date())\n    .map((part) => {\n      if (['weekday', 'month', 'day'].includes(part.type)) {\n        return <b key={part.type}>{part.value}</b>;\n      }\n      return part.value;\n    });\n\n  return (\n    <Page className=\"ios:bg-white ios:dark:bg-black\" ref={pageRef}>\n      <Navbar\n        title=\"Messages\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n      <Messages>\n        <MessagesTitle>{currentDate}</MessagesTitle>\n        {messagesData.map((message, index) => (\n          <Message\n            key={index}\n            type={message.type}\n            name={message.name}\n            text={message.text}\n            avatar={\n              message.type === 'received' && (\n                <img\n                  alt=\"avatar\"\n                  src={message.avatar}\n                  className=\"w-8 h-8 rounded-full\"\n                />\n              )\n            }\n          />\n        ))}\n      </Messages>\n      <Messagebar\n        className=\"z-20\"\n        placeholder=\"Message\"\n        value={messageText}\n        onInput={(e) => setMessageText(e.target.value)}\n        left={\n          <ToolbarPane className=\"ios:h-10\">\n            <Link onClick={() => console.log('click')} iconOnly>\n              <Icon\n                ios={<CameraFill className=\"w-5 h-5\" />}\n                material={\n                  <MdCameraAlt className=\"w-6 h-6 fill-black dark:fill-md-dark-on-surface\" />\n                }\n              />\n            </Link>\n          </ToolbarPane>\n        }\n        right={\n          <ToolbarPane className=\"ios:h-10\">\n            <Link\n              onClick={isClickable ? handleSendClick : undefined}\n              iconOnly\n              style={{\n                opacity: inputOpacity,\n                cursor: isClickable ? 'pointer' : 'default',\n              }}\n            >\n              <Icon\n                ios={\n                  <ArrowUpCircleFill\n                    className={`w-7 h-7${isClickable ? ' text-primary' : ''}`}\n                  />\n                }\n                material={\n                  <MdSend className=\"w-6 h-6 fill-black dark:fill-md-dark-on-surface\" />\n                }\n              />\n            </Link>\n          </ToolbarPane>\n        }\n      />\n    </Page>\n  );\n}\n\nMessagesPage.displayName = 'MessagesPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

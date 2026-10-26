@@ -1,0 +1,40 @@
+{
+  "id": "rnreusables-hover-card",
+  "title": "Hover Card (react-native-reusables)",
+  "source": "react-native-reusables",
+  "url": "https://reactnativereusables.com/docs/components/hover-card",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "hover-card",
+    "react-native-reusables",
+    "shadcn",
+    "nativewind",
+    "react-native"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "tooltip",
+    "card",
+    "hover-effect"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Hover Card from react-native-reusables: shadcn/ui-style components for React Native, styled with Nativewind (Tailwind).\n\nInstall into a project: npx @react-native-reusables/cli@latest add hover-card\n\nOriginal file: https://github.com/founded-labs/react-native-reusables/blob/main/packages/registry/src/nativewind/components/ui/hover-card.tsx",
+  "code": "import { NativeOnlyAnimatedView } from '@/registry/nativewind/components/ui/native-only-animated-view';\nimport { TextClassContext } from '@/registry/nativewind/components/ui/text';\nimport { cn } from '@/registry/nativewind/lib/utils';\nimport * as HoverCardPrimitive from '@rn-primitives/hover-card';\nimport * as React from 'react';\nimport { Platform, StyleSheet } from 'react-native';\nimport { FadeIn, FadeOut, ReduceMotion } from 'react-native-reanimated';\nimport { FullWindowOverlay as RNFullWindowOverlay } from 'react-native-screens';\n\nconst HoverCard = HoverCardPrimitive.Root;\n\nconst HoverCardTrigger = HoverCardPrimitive.Trigger;\n\nconst FullWindowOverlay = Platform.OS === 'ios' ? RNFullWindowOverlay : React.Fragment;\n\nfunction HoverCardContent({\n  className,\n  align = 'center',\n  sideOffset = 4,\n  ...props\n}: React.ComponentProps<typeof HoverCardPrimitive.Content>) {\n  return (\n    <HoverCardPrimitive.Portal>\n      <FullWindowOverlay>\n        <HoverCardPrimitive.Overlay\n          style={Platform.select({ native: StyleSheet.absoluteFill })}\n          asChild={Platform.OS !== 'web'}>\n          <NativeOnlyAnimatedView\n            entering={FadeIn.reduceMotion(ReduceMotion.System)}\n            exiting={FadeOut.reduceMotion(ReduceMotion.System)}\n            as=\"Pressable\">\n            <TextClassContext.Provider value=\"text-popover-foreground\">\n              <HoverCardPrimitive.Content\n                align={align}\n                sideOffset={sideOffset}\n                className={cn(\n                  'bg-popover border-border outline-hidden z-50 w-64 rounded-md border p-4 shadow-md shadow-black/5',\n                  Platform.select({\n                    web: cn(\n                      'animate-in fade-in-0 zoom-in-95 origin-(--radix-hover-card-content-transform-origin) cursor-default [&>*]:cursor-auto',\n                      props.side === 'bottom' && 'slide-in-from-top-2',\n                      props.side === 'top' && 'slide-in-from-bottom-2'\n                    ),\n                  }),\n                  className\n                )}\n                {...props}\n              />\n            </TextClassContext.Provider>\n          </NativeOnlyAnimatedView>\n        </HoverCardPrimitive.Overlay>\n      </FullWindowOverlay>\n    </HoverCardPrimitive.Portal>\n  );\n}\n\nexport { HoverCard, HoverCardContent, HoverCardTrigger };",
+  "prompt": "npx @react-native-reusables/cli@latest add hover-card",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:52Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

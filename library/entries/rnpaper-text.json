@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-text",
+  "title": "Text (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/TextExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "text",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "typography-ui"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Text example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import { Platform, StyleSheet, View } from 'react-native';\n\nimport {\n  configureFonts,\n  LightTheme,\n  PaperProvider,\n  customText,\n} from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst Text = customText<'customVariant'>();\n\nconst TextExample = () => {\n  const fontConfig = {\n    customVariant: {\n      fontFamily: Platform.select({\n        ios: 'Noteworthy',\n        default: 'serif',\n      }),\n      fontWeight: '400',\n      letterSpacing: Platform.select({\n        ios: 7,\n        default: 4.6,\n      }),\n      lineHeight: 54,\n      fontSize: 40,\n    },\n  } as const;\n\n  const theme = {\n    ...LightTheme,\n    fonts: configureFonts({ config: fontConfig }),\n  };\n  return (\n    <ScreenWrapper>\n      <View style={styles.container}>\n        <Text style={styles.text} variant=\"displayLarge\">\n          Display Large\n        </Text>\n        <Text style={styles.text} variant=\"displayMedium\">\n          Display Medium\n        </Text>\n        <Text style={styles.text} variant=\"displaySmall\">\n          Display small\n        </Text>\n\n        <Text style={styles.text} variant=\"headlineLarge\">\n          Headline Large\n        </Text>\n        <Text style={styles.text} variant=\"headlineMedium\">\n          Headline Medium\n        </Text>\n        <Text style={styles.text} variant=\"headlineSmall\">\n          Headline Small\n        </Text>\n\n        <Text style={styles.text} variant=\"titleLarge\">\n          Title Large\n        </Text>\n        <Text style={styles.text} variant=\"titleMedium\">\n          Title Medium\n        </Text>\n        <Text style={styles.text} variant=\"titleSmall\">\n          Title Small\n        </Text>\n\n        <Text style={styles.text} variant=\"labelLarge\">\n          Label Large\n        </Text>\n        <Text style={styles.text} variant=\"labelMedium\">\n          Label Medium\n        </Text>\n        <Text style={styles.text} variant=\"labelSmall\">\n          Label Small\n        </Text>\n\n        <Text style={styles.text} variant=\"bodyLarge\">\n          Body Large\n        </Text>\n        <Text style={styles.text} variant=\"bodyMedium\">\n          Body Medium\n        </Text>\n        <Text style={styles.text} variant=\"bodySmall\">\n          Body Small\n        </Text>\n\n        <PaperProvider theme={theme}>\n          <Text style={styles.text} variant=\"customVariant\">\n            Custom Variant\n          </Text>\n        </PaperProvider>\n      </View>\n    </ScreenWrapper>\n  );\n};\n\nTextExample.title = 'Typography';\n\nconst styles = StyleSheet.create({\n  container: {\n    padding: 16,\n  },\n  text: {\n    marginVertical: 4,\n  },\n});\n\nexport default TextExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

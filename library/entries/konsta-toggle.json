@@ -1,0 +1,39 @@
+{
+  "id": "konsta-toggle",
+  "title": "Toggle (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/toggle",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "toggle",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "toggle"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Toggle example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Toggle.jsx",
+  "code": "import React, { useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  List,\n  ListItem,\n  Toggle,\n} from 'konsta/react';\n\nexport default function TogglePage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [checked1, setChecked1] = useState(true);\n  const [checked2, setChecked2] = useState(true);\n  const [checked3, setChecked3] = useState(true);\n  const [checked4, setChecked4] = useState(true);\n  return (\n    <Page>\n      <Navbar\n        title=\"Toggle\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <List strong inset>\n        <ListItem\n          label\n          title=\"Item 1\"\n          after={\n            <Toggle\n              component=\"div\"\n              className=\"-my-1\"\n              checked={checked1}\n              onChange={() => setChecked1(!checked1)}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"Item 2\"\n          after={\n            <Toggle\n              component=\"div\"\n              className=\"-my-1 k-color-brand-red\"\n              checked={checked2}\n              onChange={() => setChecked2(!checked2)}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"Item 3\"\n          after={\n            <Toggle\n              component=\"div\"\n              className=\"-my-1 k-color-brand-green\"\n              checked={checked3}\n              onChange={() => setChecked3(!checked3)}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"Item 4\"\n          after={\n            <Toggle\n              component=\"div\"\n              className=\"-my-1 k-color-brand-yellow\"\n              checked={checked4}\n              onChange={() => setChecked4(!checked4)}\n            />\n          }\n        />\n      </List>\n    </Page>\n  );\n}\nTogglePage.displayName = 'TogglePage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

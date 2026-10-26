@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-appbar",
+  "title": "Appbar (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/AppbarExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "appbar",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "navigation"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Appbar example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { Platform, StyleSheet, View } from 'react-native';\n\nimport { useNavigation } from '@react-navigation/native';\nimport {\n  Appbar,\n  FAB,\n  List,\n  Palette,\n  RadioButton,\n  Snackbar,\n  Switch,\n  Text,\n  useTheme,\n} from 'react-native-paper';\nimport { useSafeAreaInsets } from 'react-native-safe-area-context';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\ntype AppbarModes = 'small' | 'medium' | 'large' | 'center-aligned';\n\nconst MORE_ICON = Platform.OS === 'ios' ? 'dots-horizontal' : 'dots-vertical';\nconst MEDIUM_FAB_HEIGHT = 56;\n\nconst AppbarExample = () => {\n  const navigation = useNavigation('Appbar');\n\n  const [showLeftIcon, setShowLeftIcon] = React.useState(true);\n  const [showSubtitle, setShowSubtitle] = React.useState(true);\n  const [showSearchIcon, setShowSearchIcon] = React.useState(true);\n  const [showMoreIcon, setShowMoreIcon] = React.useState(true);\n  const [showCustomColor, setShowCustomColor] = React.useState(false);\n  const [appbarMode, setAppbarMode] = React.useState<AppbarModes>('small');\n  const [showCalendarIcon, setShowCalendarIcon] = React.useState(false);\n  const [showElevated, setShowElevated] = React.useState(false);\n  const [showSnackbar, setShowSnackbar] = React.useState(false);\n\n  const theme = useTheme();\n  const { bottom, left, right } = useSafeAreaInsets();\n  const height = 80;\n\n  const isCenterAlignedMode = appbarMode === 'center-aligned';\n\n  React.useLayoutEffect(() => {\n    navigation.setOptions({\n      header: () => (\n        <Appbar.Header\n          style={showCustomColor ? styles.customColor : null}\n          mode={appbarMode}\n          elevated={showElevated}\n        >\n          {showLeftIcon && (\n            <Appbar.BackAction onPress={() => navigation.goBack()} />\n          )}\n          <Appbar.Content title=\"Title\" onPress={() => setShowSnackbar(true)} />\n          {isCenterAlignedMode\n            ? false\n            : showCalendarIcon && (\n                <Appbar.Action icon=\"calendar\" onPress={() => {}} />\n              )}\n          {showSearchIcon && (\n            <Appbar.Action icon=\"magnify\" onPress={() => {}} />\n          )}\n          {showMoreIcon && (\n            <Appbar.Action icon={MORE_ICON} onPress={() => {}} />\n          )}\n        </Appbar.Header>\n      ),\n    });\n  }, [\n    navigation,\n    showLeftIcon,\n    showSubtitle,\n    showSearchIcon,\n    showMoreIcon,\n    showCustomColor,\n    appbarMode,\n    showCalendarIcon,\n    isCenterAlignedMode,\n    showElevated,\n  ]);\n\n  const renderFAB = () => {\n    return (\n      <FAB\n        icon=\"plus\"\n        onPress={() => {}}\n        style={[styles.fab, { top: (height - MEDIUM_FAB_HEIGHT) / 2 }]}\n      />\n    );\n  };\n\n  const renderDefaultOptions = () => (\n    <>\n      <View style={styles.row}>\n        <Text>Left icon</Text>\n        <Switch value={showLeftIcon} onValueChange={setShowLeftIcon} />\n      </View>\n      <View style={styles.row}>\n        <Text>Subtitle</Text>\n        <Switch value={showSubtitle} onValueChange={setShowSubtitle} />\n      </View>\n      <View style={styles.row}>\n        <Text>Search icon</Text>\n        <Switch value={showSearchIcon} onValueChange={setShowSearchIcon} />\n      </View>\n      <View style={styles.row}>\n        <Text>More icon</Text>\n        <Switch value={showMoreIcon} onValueChange={setShowMoreIcon} />\n      </View>\n      <View style={styles.row}>\n        <Text>Calendar icon</Text>\n        <Switch\n          value={isCenterAlignedMode ? false : showCalendarIcon}\n          disabled={isCenterAlignedMode}\n          onValueChange={setShowCalendarIcon}\n        />\n      </View>\n      <View style={styles.row}>\n        <Text>Custom Color</Text>\n        <Switch value={showCustomColor} onValueChange={setShowCustomColor} />\n      </View>\n      <View style={styles.row}>\n        <Text>Elevated</Text>\n        <Switch value={showElevated} onValueChange={setShowElevated} />\n      </View>\n    </>\n  );\n\n  return (\n    <>\n      <ScreenWrapper\n        style={{ marginBottom: height + bottom }}\n        contentContainerStyle={styles.contentContainer}\n      >\n        <List.Section title=\"Default options\">\n          {renderDefaultOptions()}\n        </List.Section>\n        <List.Section title=\"Appbar Modes\">\n          <RadioButton.Group\n            value={appbarMode}\n            onValueChange={(value: string) =>\n              // eslint-disable-next-line @typescript-eslint/no-unsafe-type-assertion\n              setAppbarMode(value as AppbarModes)\n            }\n          >\n            <View style={styles.row}>\n              <Text>Small (default)</Text>\n              <RadioButton value=\"small\" />\n            </View>\n            <View style={styles.row}>\n              <Text>Medium</Text>\n              <RadioButton value=\"medium\" />\n            </View>\n            <View style={styles.row}>\n              <Text>Large</Text>\n              <RadioButton value=\"large\" />\n            </View>\n            <View style={styles.row}>\n              <Text>Center-aligned</Text>\n              <RadioButton value=\"center-aligned\" />\n            </View>\n          </RadioButton.Group>\n        </List.Section>\n      </ScreenWrapper>\n      <Appbar\n        style={[\n          styles.bottom,\n          {\n            height: height + bottom,\n          },\n          {\n            backgroundColor: theme.colors.surfaceContainerHigh,\n          },\n        ]}\n        safeAreaInsets={{ bottom, left, right }}\n      >\n        <Appbar.Action icon=\"archive\" onPress={() => {}} />\n        <Appbar.Action icon=\"email\" onPress={() => {}} />\n        <Appbar.Action icon=\"label\" onPress={() => {}} />\n        <Appbar.Action icon=\"delete\" onPress={() => {}} />\n        {renderFAB()}\n      </Appbar>\n      <Snackbar\n        visible={showSnackbar}\n        onDismiss={() => setShowSnackbar(false)}\n        duration={Snackbar.DURATION_SHORT}\n      >\n        Heading pressed\n      </Snackbar>\n    </>\n  );\n};\n\nAppbarExample.title = 'Appbar';\n\nexport default AppbarExample;\n\nconst styles = StyleSheet.create({\n  contentContainer: {\n    paddingVertical: 8,\n  },\n  row: {\n    flexDirection: 'row',\n    alignItems: 'center',\n    justifyContent: 'space-between',\n    paddingVertical: 8,\n    paddingHorizontal: 16,\n  },\n  bottom: {\n    position: 'absolute',\n    left: 0,\n    right: 0,\n    bottom: 0,\n  },\n  fab: {\n    position: 'absolute',\n    right: 16,\n  },\n  customColor: {\n    backgroundColor: Palette.secondary80,\n  },\n});",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

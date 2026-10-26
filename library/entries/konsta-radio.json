@@ -1,0 +1,39 @@
+{
+  "id": "konsta-radio",
+  "title": "Radio (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/radio",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "toggle"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Radio example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Radio.jsx",
+  "code": "import React, { useState } from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Radio,\n  BlockTitle,\n  Block,\n  List,\n  ListItem,\n} from 'konsta/react';\n\nexport default function RadioPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const [inlineValue, setInlineValue] = useState('inline-1');\n  const [groupValue, setGroupValue] = useState('Books');\n  const [mediaValue, setMediaValue] = useState('Item 1');\n\n  return (\n    <Page>\n      <Navbar\n        title=\"Radio\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      <BlockTitle>Inline</BlockTitle>\n      <Block strong inset>\n        <p>\n          Lorem{' '}\n          <Radio\n            name=\"demo-radio-inline\"\n            value=\"inline-1\"\n            checked={inlineValue === 'inline-1'}\n            onChange={() => setInlineValue('inline-1')}\n          />{' '}\n          ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae illo\n          nihil aut eius commodi sint eveniet aliquid eligendi{' '}\n          <Radio\n            name=\"demo-radio-inline\"\n            value=\"inline-2\"\n            checked={inlineValue === 'inline-2'}\n            onChange={() => setInlineValue('inline-2')}\n          />{' '}\n          ad delectus impedit tempore nemo, enim vel praesentium consequatur\n          nulla mollitia!\n        </p>\n      </Block>\n\n      <BlockTitle>Radio Group</BlockTitle>\n      <List strong inset>\n        <ListItem\n          label\n          title=\"Books\"\n          media={\n            <Radio\n              component=\"div\"\n              value=\"Books\"\n              checked={groupValue === 'Books'}\n              onChange={() => setGroupValue('Books')}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"Movies\"\n          media={\n            <Radio\n              component=\"div\"\n              value=\"Movies\"\n              checked={groupValue === 'Movies'}\n              onChange={() => setGroupValue('Movies')}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"Food\"\n          media={\n            <Radio\n              component=\"div\"\n              value=\"Food\"\n              checked={groupValue === 'Food'}\n              onChange={() => setGroupValue('Food')}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"Drinks\"\n          media={\n            <Radio\n              component=\"div\"\n              value=\"Drinks\"\n              checked={groupValue === 'Drinks'}\n              onChange={() => setGroupValue('Drinks')}\n            />\n          }\n        />\n      </List>\n\n      <List strong inset>\n        <ListItem\n          label\n          title=\"Books\"\n          after={\n            <Radio\n              component=\"div\"\n              value=\"Books\"\n              checked={groupValue === 'Books'}\n              onChange={() => setGroupValue('Books')}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"Movies\"\n          after={\n            <Radio\n              component=\"div\"\n              value=\"Movies\"\n              checked={groupValue === 'Movies'}\n              onChange={() => setGroupValue('Movies')}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"Food\"\n          after={\n            <Radio\n              component=\"div\"\n              value=\"Food\"\n              checked={groupValue === 'Food'}\n              onChange={() => setGroupValue('Food')}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"Drinks\"\n          after={\n            <Radio\n              component=\"div\"\n              value=\"Drinks\"\n              checked={groupValue === 'Drinks'}\n              onChange={() => setGroupValue('Drinks')}\n            />\n          }\n        />\n      </List>\n\n      <BlockTitle>With Media Lists</BlockTitle>\n      <List strong inset>\n        <ListItem\n          label\n          title=\"Facebook\"\n          after=\"17:14\"\n          subtitle=\"New messages from John Doe\"\n          text=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.\"\n          media={\n            <Radio\n              component=\"div\"\n              checked={mediaValue === 'Item 1'}\n              onChange={() => setMediaValue('Item 1')}\n            />\n          }\n        />\n        <ListItem\n          label\n          title=\"John Doe (via Twitter)\"\n          after=\"17:11\"\n          subtitle=\"John Doe (@_johndoe) mentioned you on Twitter!\"\n          text=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.\"\n          media={\n            <Radio\n              component=\"div\"\n              checked={mediaValue === 'Item 2'}\n              onChange={() => setMediaValue('Item 2')}\n            />\n          }\n        />\n      </List>\n    </Page>\n  );\n}\nRadioPage.displayName = 'RadioPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}

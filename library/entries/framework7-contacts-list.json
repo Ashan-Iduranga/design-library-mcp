@@ -1,0 +1,38 @@
+{
+  "id": "framework7-contacts-list",
+  "title": "Contacts List (Framework7 mobile screen)",
+  "source": "Framework7",
+  "url": "https://github.com/framework7io/framework7/blob/master/kitchen-sink/core/pages/contacts-list.html",
+  "license": "MIT",
+  "type": "screen",
+  "tags": [
+    "contacts-list",
+    "framework7",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "html",
+  "platform": "mobile",
+  "categories": [
+    "contact"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A contacts list screen from Framework7's kitchen sink, shown with Framework7's iOS or Material (Android) theme. Framework7 builds mobile apps (and PWAs / Capacitor apps) from HTML.\n\nUse: npm i framework7, then the same markup inside a Framework7 app. Docs: https://framework7.io/docs/",
+  "code": "<div class=\"page\">\n  <div class=\"navbar\">\n    <div class=\"navbar-bg\"></div>\n    <div class=\"navbar-inner sliding\">\n      <div class=\"left\">\n        <a class=\"link back\">\n          <i class=\"icon icon-back\"></i>\n\n        </a>\n      </div>\n      <div class=\"title\">Contacts List</div>\n    </div>\n  </div>\n  <div class=\"page-content\">\n    <div class=\"list list-strong-ios contacts-list\">\n      <div class=\"list-group\">\n        <ul>\n          <li class=\"list-group-title\">A</li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Aaron </div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Abbie</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Adam</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Adele</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Agatha</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Agnes</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Albert</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Alexander</div>\n              </div>\n            </div>\n          </li>\n        </ul>\n      </div>\n      <div class=\"list-group\">\n        <ul>\n          <li class=\"list-group-title\">B</li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Bailey</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Barclay</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Bartolo</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Bellamy</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Belle</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Benjamin</div>\n              </div>\n            </div>\n          </li>\n        </ul>\n      </div>\n      <div class=\"list-group\">\n        <ul>\n          <li class=\"list-group-title\">C</li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Caiden</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Calvin</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Candy</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Carl</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Cherilyn</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Chester</div>\n              </div>\n            </div>\n          </li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Chloe</div>\n              </div>\n            </div>\n          </li>\n        </ul>\n      </div>\n      <div class=\"list-group\">\n        <ul>\n          <li class=\"list-group-title\">V</li>\n          <li>\n            <div class=\"item-content\">\n              <div class=\"item-inner\">\n                <div class=\"item-title\">Vladimir</div>\n              </div>\n            </div>\n          </li>\n        </ul>\n      </div>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:41Z",
+  "updated_at": "2026-10-26T14:18:39Z"
+}

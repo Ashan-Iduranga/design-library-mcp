@@ -1,0 +1,39 @@
+{
+  "id": "rnpaper-avatar",
+  "title": "Avatar (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/AvatarExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "avatar",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "avatar"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Avatar example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import { StyleSheet, View } from 'react-native';\n\nimport { Avatar, List, Palette } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst AvatarExample = () => {\n  return (\n    <ScreenWrapper>\n      <List.Section title=\"Text\">\n        <View style={styles.row}>\n          <Avatar.Text\n            style={[\n              styles.avatar,\n              {\n                backgroundColor: Palette.error70,\n              },\n            ]}\n            label=\"XD\"\n            color={Palette.primary0}\n          />\n          <Avatar.Text style={styles.avatar} label=\"XD\" />\n          <Avatar.Text style={styles.avatar} label=\"XD\" size={80} />\n        </View>\n      </List.Section>\n      <List.Section title=\"Icon\">\n        <View style={styles.row}>\n          <Avatar.Icon\n            style={[\n              styles.avatar,\n              {\n                backgroundColor: Palette.error70,\n              },\n            ]}\n            icon=\"folder\"\n            color={Palette.primary0}\n          />\n          <Avatar.Icon style={styles.avatar} icon=\"folder\" />\n          <Avatar.Icon style={styles.avatar} icon=\"folder\" size={80} />\n        </View>\n      </List.Section>\n      <List.Section title=\"Image\">\n        <View style={styles.row}>\n          <Avatar.Image\n            style={styles.avatar}\n            source={require('../../assets/images/avatar.png')}\n          />\n          <Avatar.Image\n            style={styles.avatar}\n            source={require('../../assets/images/avatar.png')}\n            size={80}\n          />\n        </View>\n      </List.Section>\n    </ScreenWrapper>\n  );\n};\n\nAvatarExample.title = 'Avatar';\n\nconst styles = StyleSheet.create({\n  row: {\n    flexDirection: 'row',\n    flexWrap: 'wrap',\n    alignItems: 'center',\n    margin: 8,\n  },\n  avatar: {\n    margin: 8,\n  },\n});\n\nexport default AvatarExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

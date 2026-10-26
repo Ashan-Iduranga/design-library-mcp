@@ -1,0 +1,41 @@
+{
+  "id": "rnpaper-radio-button-group",
+  "title": "Radio Button Group (React Native Paper, Material 3)",
+  "source": "React Native Paper",
+  "url": "https://github.com/callstack/react-native-paper/blob/main/example/src/Examples/RadioButtonGroupExample.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio-button-group",
+    "react-native-paper",
+    "material-3",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "framework": "react-native",
+  "platform": "mobile",
+  "categories": [
+    "button",
+    "toggle",
+    "guidelines"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "React Native Paper Radio Button Group example: Material Design 3 components for React Native (Android and iOS).\n\nInstall: npm install react-native-paper react-native-safe-area-context. Docs: https://reactnativepaper.com",
+  "code": "import * as React from 'react';\nimport { StyleSheet, View } from 'react-native';\n\nimport { List, RadioButton, Text, useTheme } from 'react-native-paper';\n\nimport ScreenWrapper from '../ScreenWrapper';\n\nconst RadioButtonGroupExample = () => {\n  const [value, setValue] = React.useState('first');\n  const [value2, setValue2] = React.useState('first');\n\n  const { colors } = useTheme();\n\n  return (\n    <ScreenWrapper>\n      <List.Section title=\"With RadioButton\">\n        <RadioButton.Group\n          value={value}\n          onValueChange={(value: string) => setValue(value)}\n        >\n          <View style={styles.row}>\n            <Text>First</Text>\n            <RadioButton value=\"first\" />\n          </View>\n          <View style={styles.row}>\n            <Text>Second</Text>\n            <RadioButton.Android value=\"second\" />\n          </View>\n          <View style={styles.row}>\n            <Text>Third</Text>\n            <RadioButton.IOS value=\"third\" />\n          </View>\n        </RadioButton.Group>\n      </List.Section>\n      <List.Section title=\"With RadioButton.Item\">\n        <RadioButton.Group\n          value={value2}\n          onValueChange={(value: string) => setValue2(value)}\n        >\n          <RadioButton.Item label=\"First item\" value=\"first\" />\n          <RadioButton.Item label=\"Second item\" value=\"second\" />\n          <RadioButton.Item\n            label=\"Third item\"\n            value=\"third\"\n            labelStyle={{ color: colors?.primary }}\n          />\n        </RadioButton.Group>\n      </List.Section>\n    </ScreenWrapper>\n  );\n};\n\nRadioButtonGroupExample.title = 'Radio Button Group';\n\nconst styles = StyleSheet.create({\n  row: {\n    flexDirection: 'row',\n    alignItems: 'center',\n    justifyContent: 'space-between',\n    paddingVertical: 8,\n    paddingHorizontal: 16,\n  },\n});\n\nexport default RadioButtonGroupExample;",
+  "prompt": "npm install react-native-paper react-native-safe-area-context",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:13:48Z",
+  "updated_at": "2026-10-26T14:13:55Z"
+}

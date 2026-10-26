@@ -1,0 +1,39 @@
+{
+  "id": "konsta-fab",
+  "title": "Fab (Konsta UI, iOS + Material)",
+  "source": "Konsta UI",
+  "url": "https://konstaui.com/react/fab",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "fab",
+    "konsta",
+    "tailwind",
+    "ios",
+    "material",
+    "mobile-app"
+  ],
+  "framework": "react",
+  "platform": "mobile",
+  "categories": [
+    "button"
+  ],
+  "categories_manual": false,
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Konsta UI Fab example: mobile components made with Tailwind CSS that follow iOS and Material Design (Android) look and feel.\n\nUse: npm i konsta (React, Vue or Svelte). Docs: https://konstaui.com\n\nOriginal file: https://github.com/konstaui/konsta/blob/master/kitchen-sink/react/pages/Fab.jsx",
+  "code": "import React from 'react';\nimport {\n  Page,\n  Navbar,\n  NavbarBackLink,\n  Block,\n  Fab,\n  useTheme,\n} from 'konsta/react';\nimport { Plus } from 'framework7-icons/react';\nimport { MdAdd } from 'react-icons/md';\n\nexport default function FabPage() {\n  const isPreview = document.location.href.includes('examplePreview');\n  const theme = useTheme();\n  const PlusIcon =\n    theme === 'ios' ? (\n      <Plus className=\"w-6 h-6\" />\n    ) : (\n      <MdAdd className=\"w-6 h-6\" />\n    );\n\n  return (\n    <Page>\n      <Navbar\n        title=\"FAB\"\n        left={!isPreview && <NavbarBackLink onClick={() => history.back()} />}\n      />\n\n      {/* Right Top */}\n      <Fab\n        className=\"fixed right-safe-4 ios:top-safe-19 material:top-safe-18 z-20 k-color-brand-red\"\n        icon={PlusIcon}\n      />\n\n      {/* Right Bottom */}\n      <Fab className=\"fixed right-safe-4 bottom-safe-4 z-20\" icon={PlusIcon} />\n\n      {/* Left Bottom */}\n      <Fab\n        className=\"fixed left-safe-4 bottom-safe-4 z-20 k-color-brand-green\"\n        icon={PlusIcon}\n      />\n\n      {/* Left Top */}\n      <Fab\n        className=\"fixed left-safe-4 ios:top-safe-19 material:top-safe-18 z-20 k-color-brand-yellow\"\n        icon={PlusIcon}\n      />\n\n      {/* Center Center */}\n      <Fab\n        className=\"fixed left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20\"\n        icon={PlusIcon}\n      />\n\n      {/* Center Bottom */}\n      <Fab\n        className=\"fixed left-1/2 bottom-safe-4 transform -translate-x-1/2 z-20\"\n        icon={PlusIcon}\n        text=\"Create\"\n        textPosition=\"after\"\n      />\n\n      <Block strong inset className=\"space-y-4\">\n        <p>\n          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quo\n          rem beatae, delectus eligendi est saepe molestias perferendis\n          suscipit, commodi labore ipsa non quasi eum magnam neque ducimus!\n          Quasi, numquam.\n        </p>\n        <p>\n          Maiores culpa, itaque! Eaque natus ab cum ipsam numquam blanditiis a,\n          quia, molestiae aut laudantium recusandae ipsa. Ad iste ex asperiores\n          ipsa, mollitia perferendis consectetur quam eaque, voluptate\n          laboriosam unde.\n        </p>\n        <p>\n          Sed odit quis aperiam temporibus vitae necessitatibus, laboriosam,\n          exercitationem dolores odio sapiente provident. Accusantium id, itaque\n          aliquam libero ipsum eos fugiat distinctio laboriosam exercitationem\n          sequi facere quas quidem magnam reprehenderit.\n        </p>\n        <p>\n          Pariatur corporis illo, amet doloremque. Ab veritatis sunt nisi\n          consectetur error modi, nam illo et nostrum quia aliquam ipsam vitae\n          facere voluptates atque similique odit mollitia, rerum placeat nobis\n          est.\n        </p>\n        <p>\n          Et impedit soluta minus a autem adipisci cupiditate eius dignissimos\n          nihil officia dolore voluptatibus aperiam reprehenderit esse facilis\n          labore qui, officiis consectetur. Ipsa obcaecati aspernatur odio\n          assumenda veniam, ipsum alias.\n        </p>\n      </Block>\n      <Block strong inset className=\"space-y-4\">\n        <p>\n          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ipsa\n          debitis sed nihil eaque dolore cum iste quibusdam, accusamus\n          doloribus, tempora quia quos voluptatibus corporis officia at quas\n          dolorem earum!\n        </p>\n        <p>\n          Quod soluta eos inventore magnam suscipit enim at hic in maiores\n          temporibus pariatur tempora minima blanditiis vero autem est\n          perspiciatis totam dolorum, itaque repellat? Nobis necessitatibus aut\n          odit aliquam adipisci.\n        </p>\n        <p>\n          Tenetur delectus perspiciatis ex numquam, unde corrupti velit! Quam\n          aperiam, animi fuga veritatis consectetur, voluptatibus atque\n          consequuntur dignissimos itaque, sint impedit cum cumque at. Adipisci\n          sint, iusto blanditiis ullam? Vel?\n        </p>\n        <p>\n          Dignissimos velit officia quibusdam! Eveniet beatae, aut, omnis\n          temporibus consequatur expedita eaque aliquid quos accusamus fugiat id\n          iusto autem obcaecati repellat fugit cupiditate suscipit natus quas\n          doloribus? Temporibus necessitatibus, libero.\n        </p>\n        <p>\n          Architecto quisquam ipsa fugit facere, repudiandae asperiores vitae\n          obcaecati possimus, labore excepturi reprehenderit consectetur\n          perferendis, ullam quidem hic, repellat fugiat eaque fuga. Consectetur\n          in eveniet, deleniti recusandae omnis eum quas?\n        </p>\n        <p>\n          Quos nulla consequatur quo, officia quaerat. Nulla voluptatum,\n          assumenda quibusdam, placeat cum aut illo deleniti dolores commodi\n          odio ipsam, recusandae est pariatur veniam repudiandae blanditiis.\n          Voluptas unde deleniti quisquam, nobis?\n        </p>\n        <p>\n          Atque qui quaerat quasi officia molestiae, molestias totam incidunt\n          reprehenderit laboriosam facilis veritatis, non iusto! Dolore ipsam\n          obcaecati voluptates minima maxime minus qui mollitia facere. Nostrum\n          esse recusandae voluptatibus eligendi.\n        </p>\n      </Block>\n    </Page>\n  );\n}\n\nFabPage.title = 'FAB (Floating Action Button)';\nFabPage.displayName = 'FabPage';",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T14:10:54Z",
+  "updated_at": "2026-10-26T14:10:56Z"
+}
