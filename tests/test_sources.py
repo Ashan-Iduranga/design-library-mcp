@@ -261,3 +261,28 @@ def test_collectui_entry_is_link_only_with_credit():
     assert entry.url == "https://x.com/a/status/1"  # credit goes to the designer's original post
     assert entry.preview_image_url == "https://cdn.collectui.com/t.jpg"  # thumbnail, not the video
     assert entry.type.value == "interaction" and "2" not in entry.tags
+
+
+def test_gallery_import_stops_cleanly_when_offline(monkeypatch):
+    from designlib.core.fetch import FetchError
+    from designlib.importers.common import ImportStopped
+
+    monkeypatch.setattr(galleries, "sitemap_urls", lambda sitemap: [f"https://designprompts.dev/components/s{i}" for i in range(30)])
+
+    def offline(url, client=None):
+        raise FetchError("getaddrinfo failed")
+
+    monkeypatch.setattr(galleries.fetch, "fetch_page", offline)
+    with pytest.raises(ImportStopped, match="Run the same command again to resume"):
+        galleries.run("designprompts")
+
+
+def test_sitemap_download_failure_is_a_clear_message(monkeypatch):
+    from designlib.importers.common import ImportStopped
+
+    def no_network(*args, **kwargs):
+        raise httpx.ConnectError("getaddrinfo failed")
+
+    monkeypatch.setattr(galleries.httpx, "get", no_network)
+    with pytest.raises(ImportStopped, match="Check your connection"):
+        galleries.sitemap_urls("https://designprompts.dev/sitemap.xml")

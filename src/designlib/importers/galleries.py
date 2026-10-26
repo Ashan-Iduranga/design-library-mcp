@@ -21,6 +21,9 @@ from designlib.core.fetch import FetchError
 from designlib.core.index import rebuild_index
 from designlib.core.schema import LINK_ONLY, Entry, slugify
 from designlib.core.storage import iter_entries, save_entry
+from designlib.importers.common import ImportStopped
+
+MAX_FAILURES_IN_A_ROW = 10  # this many failures in a row usually means the connection is down
 
 
 @dataclass
@@ -111,8 +114,11 @@ GALLERIES = {
 
 
 def sitemap_urls(sitemap: str) -> list[str]:
-    response = httpx.get(sitemap, headers={"User-Agent": fetch.USER_AGENT}, timeout=30, follow_redirects=True)
-    response.raise_for_status()
+    try:
+        response = httpx.get(sitemap, headers={"User-Agent": fetch.USER_AGENT}, timeout=30, follow_redirects=True)
+        response.raise_for_status()
+    except httpx.HTTPError as error:
+        raise ImportStopped(f"couldn't download the sitemap {sitemap} ({error}). Check your connection and run again.")
     return re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", response.text)
 
 
@@ -145,16 +151,24 @@ def run(name: str, limit: int = 0) -> tuple[int, int, int]:
     print(f"{gallery.name}: {len(urls)} pages in sitemap, {len(have)} already in library, {len(todo)} to fetch")
     print(f"About {len(todo) * fetch.MIN_DELAY_SECONDS / 60:.0f} minutes at one request every {fetch.MIN_DELAY_SECONDS:g} s.")
 
-    added = failed = 0
+    added = failed = failed_in_a_row = 0
     with httpx.Client(headers={"User-Agent": fetch.USER_AGENT}, timeout=fetch.TIMEOUT_SECONDS, follow_redirects=True) as client:
         for number, url in enumerate(todo, start=1):
             try:
                 meta, html = fetch.fetch_page(url, client=client)
                 save_entry(make_entry(gallery, Page(url=url, html=html, meta=meta)))
                 added += 1
+                failed_in_a_row = 0
             except (FetchError, ValueError) as error:
                 failed += 1
+                failed_in_a_row += 1
                 print(f"  skipped {url}: {error}")
+                if failed_in_a_row >= MAX_FAILURES_IN_A_ROW:
+                    rebuild_index()  # keep what was saved so far
+                    raise ImportStopped(
+                        f"{MAX_FAILURES_IN_A_ROW} pages failed in a row; the network or the site seems down. "
+                        f"{added} pages were saved. Run the same command again to resume."
+                    )
             if number % 100 == 0:
                 rebuild_index()  # make progress searchable while the import runs
                 print(f"  {number}/{len(todo)} done")
