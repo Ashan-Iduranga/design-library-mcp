@@ -7,6 +7,7 @@ Commands:
   rebuild       rebuild index.db from the JSON entries
   serve         start the web gallery on http://127.0.0.1:8000
   import <name> import open-license components (hyperui, uiverse)
+  mcp           run the MCP server over stdio (Claude starts this for you)
 """
 
 import argparse
@@ -113,6 +114,12 @@ def cmd_import(args: argparse.Namespace) -> None:
     print(f"Imported from {args.name}: {created} new, {updated} updated (your ratings and notes were kept).")
 
 
+def cmd_mcp(args: argparse.Namespace) -> None:
+    from designlib.mcp_server import main as run_server
+
+    run_server()
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="designlib", description="Your local design library.")
     commands = parser.add_subparsers(dest="command", required=True)
@@ -157,6 +164,9 @@ def build_parser() -> argparse.ArgumentParser:
     imp.add_argument("--category", help="uiverse: only these folders, e.g. 'buttons,cards'")
     imp.add_argument("--refresh", action="store_true", help="download the repo again")
     imp.set_defaults(func=cmd_import)
+
+    mcp = commands.add_parser("mcp", help="run the MCP server over stdio")
+    mcp.set_defaults(func=cmd_mcp)
 
     return parser
 

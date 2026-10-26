@@ -11,6 +11,7 @@ python -m uv run pytest                        # run the tests
 python -m uv run python -m designlib serve     # gallery at http://127.0.0.1:8000
 python -m uv run python -m designlib add <url> --type screen --tags hero,saas
 python -m uv run python -m designlib search pricing
+python -m uv run python -m designlib mcp       # MCP server over stdio (Claude starts this; setup in M7)
 ```
 
 Third-party files stored in the project (`src/designlib/web/static/vendor/`), each with its license:
