@@ -1,0 +1,23 @@
+{# Category sidebar, Collect UI style. It sits inside the #filters form, so picking a
+   category updates the results live. Re-sent "out of band" with every update so the counts
+   follow the current platform and filters. #}
+<aside id="sidebar" class="sidebar" aria-label="Categories"{% if oob %} hx-swap-oob="true"{% endif %}>
+  {% set active = (filters.categories or [""])[0] %}
+  <label class="side-item side-all">
+    <input type="radio" name="category" value="" {% if not active %}checked{% endif %}>
+    <span>All categories</span>
+  </label>
+  {% for group, cats in category_groups %}
+    {% set shown = cats | selectattr("slug", "in", visible_categories) | list %}
+    {% if shown %}
+    <p class="side-group">{{ group }}</p>
+    {% for c in shown %}
+    <label class="side-item">
+      <input type="radio" name="category" value="{{ c.slug }}" {% if active == c.slug %}checked{% endif %}>
+      <span>{{ c.label }}</span>
+      <small>{{ "{:,}".format(category_counts.get(c.slug, 0)) }}</small>
+    </label>
+    {% endfor %}
+    {% endif %}
+  {% endfor %}
+</aside>

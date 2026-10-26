@@ -1,8 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
 {#
-  One form holds every control. Any change sends GET / with all the fields;
-  HTMX swaps only #results and updates the address bar, so filters are bookmarkable.
+  One form holds every control: search, platform tabs, the category sidebar and the extra
+  filters. Any change sends GET / with all the fields; HTMX swaps #results (and refreshes the
+  sidebar and tab counts out of band) and updates the address bar, so every view is a URL.
 #}
 <form id="filters" class="gallery"
       action="/" method="get"
@@ -33,48 +34,60 @@
     </div>
   </div>
 
-  <details class="facets" open>
-    <summary>Filters</summary>
-    <div class="facet-groups">
-      <fieldset class="facet">
-        <legend>Type</legend>
-        <label class="chip"><input type="radio" name="type" value="" {% if not filters.type %}checked{% endif %}><span>Any</span></label>
-        {% for name, n in type_counts %}
-        <label class="chip"><input type="radio" name="type" value="{{ name }}" {% if filters.type == name %}checked{% endif %}><span><i class="notch type-{{ name }}" aria-hidden="true"></i>{{ name }} <small>{{ n }}</small></span></label>
-        {% endfor %}
-      </fieldset>
+  <div class="platform-row">
+    {% include "_platforms.html" %}
+    {# Phones only: opens the category sidebar as a drawer. #}
+    <button type="button" class="button drawer-toggle" aria-controls="sidebar" aria-expanded="false">Categories</button>
+  </div>
 
-      <fieldset class="facet">
-        <legend>Framework</legend>
-        <label class="chip"><input type="radio" name="framework" value="" {% if not filters.framework %}checked{% endif %}><span>Any</span></label>
-        {% for name, n in framework_counts %}
-        <label class="chip"><input type="radio" name="framework" value="{{ name }}" {% if filters.framework == name %}checked{% endif %}><span>{{ name }} <small>{{ n }}</small></span></label>
-        {% endfor %}
-      </fieldset>
+  <div class="browse">
+    {% include "_sidebar.html" %}
 
-      <fieldset class="facet">
-        <legend>Source</legend>
-        <label class="chip"><input type="radio" name="source" value="" {% if not filters.source %}checked{% endif %}><span>Any</span></label>
-        {% for name, n in source_counts %}
-        <label class="chip"><input type="radio" name="source" value="{{ name }}" {% if filters.source == name %}checked{% endif %}><span>{{ name }} <small>{{ n }}</small></span></label>
-        {% endfor %}
-      </fieldset>
+    <div class="browse-main">
+      <details class="facets">
+        <summary>More filters</summary>
+        <div class="facet-groups">
+          <fieldset class="facet">
+            <legend>Type</legend>
+            <label class="chip"><input type="radio" name="type" value="" {% if not filters.type %}checked{% endif %}><span>Any</span></label>
+            {% for name, n in type_counts %}
+            <label class="chip"><input type="radio" name="type" value="{{ name }}" {% if filters.type == name %}checked{% endif %}><span><i class="notch type-{{ name }}" aria-hidden="true"></i>{{ name }} <small>{{ n }}</small></span></label>
+            {% endfor %}
+          </fieldset>
 
-      {% if tag_counts %}
-      <fieldset class="facet facet-wide">
-        <legend>Tags <span class="hint">pick several to narrow down</span></legend>
-        {% for name, n in tag_counts %}
-        <label class="chip chip-tag"><input type="checkbox" name="tag" value="{{ name }}" {% if name in (filters.tags or []) %}checked{% endif %}><span>#{{ name }} <small>{{ n }}</small></span></label>
-        {% endfor %}
-      </fieldset>
-      {% endif %}
+          <fieldset class="facet">
+            <legend>Framework</legend>
+            <label class="chip"><input type="radio" name="framework" value="" {% if not filters.framework %}checked{% endif %}><span>Any</span></label>
+            {% for name, n in framework_counts %}
+            <label class="chip"><input type="radio" name="framework" value="{{ name }}" {% if filters.framework == name %}checked{% endif %}><span>{{ name }} <small>{{ n }}</small></span></label>
+            {% endfor %}
+          </fieldset>
+
+          <fieldset class="facet">
+            <legend>Source</legend>
+            <label class="chip"><input type="radio" name="source" value="" {% if not filters.source %}checked{% endif %}><span>Any</span></label>
+            {% for name, n in source_counts %}
+            <label class="chip"><input type="radio" name="source" value="{{ name }}" {% if filters.source == name %}checked{% endif %}><span>{{ name }} <small>{{ n }}</small></span></label>
+            {% endfor %}
+          </fieldset>
+
+          {% if tag_counts %}
+          <fieldset class="facet facet-wide">
+            <legend>Tags <span class="hint">pick several to narrow down</span></legend>
+            {% for name, n in tag_counts %}
+            <label class="chip chip-tag"><input type="checkbox" name="tag" value="{{ name }}" {% if name in (filters.tags or []) %}checked{% endif %}><span>#{{ name }} <small>{{ n }}</small></span></label>
+            {% endfor %}
+          </fieldset>
+          {% endif %}
+        </div>
+      </details>
+
+      <noscript><button class="button" type="submit">Apply filters</button></noscript>
+
+      <section id="results" aria-live="polite">
+        {% include "_results.html" %}
+      </section>
     </div>
-  </details>
-
-  <noscript><button class="button" type="submit">Apply filters</button></noscript>
+  </div>
 </form>
-
-<section id="results" aria-live="polite">
-  {% include "_results.html" %}
-</section>
 {% endblock %}

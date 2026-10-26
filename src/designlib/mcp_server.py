@@ -22,12 +22,16 @@ from designlib.core import semantic, styleguide
 from designlib.core.fetch import FetchError
 from designlib.core.library import add_from_url
 from designlib.core.schema import Entry
-from designlib.core.search import Filters, get_entry, list_tags as tag_counts, search
+from designlib.core.search import Filters, category_counts, get_entry, list_tags as tag_counts, search
+from designlib.core.taxonomy import SLUGS, grouped
 
 logging.basicConfig(stream=sys.stderr, level=logging.WARNING)
 
 EntryTypeName = Literal["style", "component", "screen", "interaction", "layout", "palette", "token"]
 FrameworkName = Literal["html", "tailwind", "react", "none"]
+PlatformName = Literal["web", "mobile", "desktop", "any"]
+# Every category slug from core/taxonomy.py, so Claude sees the full vocabulary in the schema.
+CategoryName = Literal[tuple(SLUGS)]  # type: ignore[valid-type]
 
 READ_ONLY = ToolAnnotations(readOnlyHint=True, openWorldHint=False)
 
@@ -38,9 +42,10 @@ server = MCPServer(
         "This is the user's own curated library of design references (styles, components, "
         "screens, layouts, palettes, tokens), each with notes on when to use it and when not to. "
         "Before designing or building any UI, call search_designs with the kind of thing you are "
-        "building, then get_design on the best matches, and check list_styles/get_style_guide "
-        "for the user's saved style rules. Prefer these references over generic defaults, and "
-        "mention which references you used. Code marked license 'link-only' was not stored: "
+        "building, then get_design on the best matches. Also call list_styles and "
+        "get_style_guide, and follow the matching style guide's rules. Prefer these references "
+        "and rules over generic defaults, and mention which references and style guide you "
+        "used. Code marked license 'link-only' was not stored: "
         "use only the notes and link for those."
     ),
 )
@@ -53,6 +58,8 @@ def summary(entry: Entry) -> dict[str, Any]:
         "title": entry.title,
         "type": entry.type.value,
         "framework": entry.framework.value,
+        "platform": entry.platform.value,
+        "categories": entry.categories,
         "source": entry.source,
         "license": entry.license,
         "tags": entry.tags,
@@ -71,6 +78,8 @@ def search_designs(
     type: EntryTypeName | None = None,
     tags: list[str] | None = None,
     framework: FrameworkName | None = None,
+    platform: PlatformName | None = None,
+    category: CategoryName | None = None,
     limit: int = 10,
     mode: Literal["hybrid", "keyword"] = "hybrid",
 ) -> list[dict[str, Any]]:
@@ -82,12 +91,16 @@ def search_designs(
     type: narrow to one kind of reference.
     tags: every tag listed must be present (use list_tags to see what exists).
     framework: narrow to html, tailwind or react code.
+    platform: "web", "mobile" or "desktop" references ("any" = icons, colors, or unclear).
+    category: what the reference is, e.g. "hero", "navigation", "pricing", "dashboard",
+              "auth", "button" (call list_categories for all of them with counts).
     mode: "hybrid" (default) also finds entries similar in meaning, e.g. "calm" finds
           "quiet, minimal" (when semantic search is installed); "keyword" = exact words only.
     Results are ranked by relevance, without code. Use get_design(id) for full details.
     """
     filters = Filters(
-        query=query, type=type, tags=tags, framework=framework, mode=mode, limit=max(1, min(limit, 50))
+        query=query, type=type, tags=tags, framework=framework, platform=platform,
+        categories=[category] if category else None, mode=mode, limit=max(1, min(limit, 50)),
     )
     return [summary(entry) for entry in search(filters)]
 
@@ -105,6 +118,26 @@ def get_design(id: str) -> dict[str, Any]:
     data = entry.model_dump(mode="json")
     data["gallery_url"] = config.gallery_url(entry.id)
     return data
+
+
+@server.tool(annotations=READ_ONLY)
+def list_categories(platform: PlatformName | None = None) -> list[dict[str, Any]]:
+    """List the library's categories (what references are: hero, navigation, pricing,
+    dashboard, login & sign up, button, ...) grouped like a design gallery's sidebar, with
+    how many references each has. Pass platform="web" / "mobile" / "desktop" to count only
+    that platform. Use a category slug with search_designs(category=...)."""
+    counts = category_counts(Filters(platform=platform))
+    return [
+        {
+            "group": group,
+            "categories": [
+                {"slug": c.slug, "label": c.label, "count": counts.get(c.slug, 0)}
+                for c in categories if counts.get(c.slug, 0)
+            ],
+        }
+        for group, categories in grouped()
+        if any(counts.get(c.slug, 0) for c in categories)
+    ]
 
 
 @server.tool(annotations=READ_ONLY)

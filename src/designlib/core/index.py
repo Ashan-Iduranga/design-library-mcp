@@ -13,12 +13,12 @@ import sqlite3
 from contextlib import closing
 
 from designlib import config
-from designlib.core import semantic, storage
+from designlib.core import categorize, semantic, storage
 from designlib.core.schema import Entry
 
 # Bump this when the tables below change. An index with an older version is
 # dropped and rebuilt from the JSON files automatically (it's only a cache).
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS entries (
@@ -29,6 +29,7 @@ CREATE TABLE IF NOT EXISTS entries (
     license     TEXT,
     type        TEXT,
     framework   TEXT,
+    platform    TEXT,                  -- web / mobile / desktop / any
     my_rating   INTEGER,
     favorite    INTEGER,
     added_at    TEXT,
@@ -41,6 +42,14 @@ CREATE TABLE IF NOT EXISTS entry_tags (
     entry_id TEXT NOT NULL,
     tag      TEXT NOT NULL,
     PRIMARY KEY (entry_id, tag)
+);
+
+-- One row per (entry, category) from core/taxonomy.py; position 0 = main category.
+CREATE TABLE IF NOT EXISTS entry_categories (
+    entry_id TEXT NOT NULL,
+    category TEXT NOT NULL,
+    position INTEGER NOT NULL,
+    PRIMARY KEY (entry_id, category)
 );
 
 -- 'porter' stemming lets "buttons" match "button".
@@ -60,7 +69,8 @@ def connect() -> sqlite3.Connection:
     conn.row_factory = sqlite3.Row  # rows behave like dicts: row["title"]
     # A brand-new file has user_version 0, so it is filled here too.
     if conn.execute("PRAGMA user_version").fetchone()[0] != SCHEMA_VERSION:
-        conn.executescript("DROP TABLE IF EXISTS entries; DROP TABLE IF EXISTS entry_tags; DROP TABLE IF EXISTS entries_fts;")
+        conn.executescript("DROP TABLE IF EXISTS entries; DROP TABLE IF EXISTS entry_tags; "
+            "DROP TABLE IF EXISTS entry_categories; DROP TABLE IF EXISTS entries_fts;")
         conn.executescript(SCHEMA)
         conn.execute(f"PRAGMA user_version = {SCHEMA_VERSION}")
         _fill(conn)
@@ -79,9 +89,9 @@ def _fill(conn: sqlite3.Connection) -> int:
 def _insert(conn: sqlite3.Connection, entry: Entry) -> None:
     conn.execute(
         """INSERT INTO entries
-           (id, title, source, url, license, type, framework, my_rating, favorite,
+           (id, title, source, url, license, type, framework, platform, my_rating, favorite,
             added_at, updated_at, text_hash, data)
-           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
         (
             entry.id,
             entry.title,
@@ -90,6 +100,7 @@ def _insert(conn: sqlite3.Connection, entry: Entry) -> None:
             entry.license,
             entry.type.value,
             entry.framework.value,
+            entry.platform.value,
             entry.my_rating,
             int(entry.favorite),
             entry.added_at.isoformat(),
@@ -102,13 +113,18 @@ def _insert(conn: sqlite3.Connection, entry: Entry) -> None:
         "INSERT INTO entry_tags (entry_id, tag) VALUES (?, ?)",
         [(entry.id, tag) for tag in entry.tags],
     )
+    conn.executemany(
+        "INSERT INTO entry_categories (entry_id, category, position) VALUES (?, ?, ?)",
+        [(entry.id, slug, position) for position, slug in enumerate(entry.categories)],
+    )
     conn.execute(
         """INSERT INTO entries_fts (id, title, tags, source, notes, usage, code)
            VALUES (?, ?, ?, ?, ?, ?, ?)""",
         (
             entry.id,
             entry.title,
-            " ".join(entry.tags),
+            # category names too, so "navbar" also finds everything in Navigation
+            " ".join([*entry.tags, *categorize.labels(entry.categories)]),
             entry.source,
             f"{entry.style_notes.as_text()} {entry.notes}",
             f"{entry.when_to_use} {entry.avoid_when} {entry.prompt or ''}",
@@ -120,6 +136,7 @@ def _insert(conn: sqlite3.Connection, entry: Entry) -> None:
 def _delete(conn: sqlite3.Connection, entry_id: str) -> None:
     conn.execute("DELETE FROM entries WHERE id = ?", (entry_id,))
     conn.execute("DELETE FROM entry_tags WHERE entry_id = ?", (entry_id,))
+    conn.execute("DELETE FROM entry_categories WHERE entry_id = ?", (entry_id,))
     conn.execute("DELETE FROM entries_fts WHERE id = ?", (entry_id,))
 
 
@@ -129,7 +146,7 @@ def rebuild_index() -> int:
         # BEGIN IMMEDIATE takes the write lock first, so two rebuilds running at the
         # same time (e.g. two imports) wait for each other instead of colliding.
         conn.execute("BEGIN IMMEDIATE")
-        for table in ("entries", "entry_tags", "entries_fts"):
+        for table in ("entries", "entry_tags", "entry_categories", "entries_fts"):
             conn.execute(f"DELETE FROM {table}")
         return _fill(conn)  # _fill commits, which releases the lock
 

@@ -63,6 +63,25 @@
         <input id="tags" name="tags" value="{{ (v.get('tags') or [])|join(', ') }}" placeholder="pricing, dark, saas">
         <p class="help">Separate with commas.</p>
       </div>
+      <div class="field">
+        <label for="platform">Platform</label>
+        <select id="platform" name="platform">
+          {% for p in platform_names %}<option value="{{ p }}" {% if (v.get('platform') or 'any') == p %}selected{% endif %}>{{ "any platform" if p == "any" else p }}</option>{% endfor %}
+        </select>
+      </div>
+      <fieldset class="field category-picker">
+        <legend>Categories</legend>
+        <p class="help">Pick what this is. Leave all unticked to let the library choose{% if v.get('categories') and not v.get('categories_manual') %} (it chose the ticked ones){% endif %}.</p>
+        {% set picked = v.get('categories') or [] %}
+        {% for group, cats in category_groups_all %}{% if cats and group != "Other" %}
+        <div class="category-group">
+          <p>{{ group }}</p>
+          {% for c in cats %}
+          <label class="chip"><input type="checkbox" name="categories" value="{{ c.slug }}" {% if c.slug in picked %}checked{% endif %}><span>{{ c.label }}</span></label>
+          {% endfor %}
+        </div>
+        {% endif %}{% endfor %}
+      </fieldset>
       <div class="row">
         <fieldset class="field rating-input">
           <legend>Your rating</legend>

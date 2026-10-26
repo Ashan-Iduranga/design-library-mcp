@@ -23,7 +23,8 @@
       <h3 class="label-title">{{ entry.title }}</h3>
       <p class="label-meta">
         <span class="notch type-{{ entry.type.value }}" aria-hidden="true"></span>
-        <span>{{ entry.type.value }}</span>
+        <span>{{ category_label(entry.categories[0]) if entry.categories else entry.type.value }}</span>
+        {% if entry.platform.value != "any" %}<span class="badge badge-platform">{{ entry.platform.value }}</span>{% endif %}
         {% if entry.source %}<span class="badge">{{ entry.source }}</span>{% endif %}
         <span class="badge {% if entry.license == 'link-only' %}badge-link{% else %}badge-open{% endif %}">{{ entry.license }}</span>
         <span class="rating" aria-label="Rated {{ entry.my_rating }} of 5">{% for i in range(5) %}<i class="{% if i < entry.my_rating %}on{% endif %}"></i>{% endfor %}</span>

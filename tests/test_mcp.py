@@ -12,7 +12,7 @@ from designlib import mcp_server
 from designlib.core import library
 from designlib.core.fetch import FetchError, PageMeta
 
-EXPECTED_TOOLS = {"search_designs", "get_design", "list_tags", "list_styles", "get_style_guide", "add_design"}
+EXPECTED_TOOLS = {"search_designs", "get_design", "list_categories", "list_tags", "list_styles", "get_style_guide", "add_design"}
 
 
 def test_tools_are_registered_with_descriptions():

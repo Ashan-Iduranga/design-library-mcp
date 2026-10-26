@@ -107,9 +107,12 @@ Claude reads the server's built-in instructions, but a line in your global
 `C:\Users\user\.claude\CLAUDE.md` makes it a habit in Claude Code:
 
 ```markdown
-Before designing or building any UI, query the `design-library` MCP server
-(search_designs, then get_design; check list_styles / get_style_guide) and say which references you used.
+Before designing or building any UI, search the `design-library` MCP server
+(search_designs, then get_design) and follow its style guide (list_styles / get_style_guide).
+Say which references and style guide you used.
 ```
+
+> Already done on this PC (26 Oct 2026).
 
 ### Things to ask Claude
 
@@ -122,7 +125,8 @@ Before designing or building any UI, query the `design-library` MCP server
 
 | Tool | Use |
 |---|---|
-| `search_designs(query, type?, tags?, framework?, limit=10, mode="hybrid")` | Ranked matches (no code) with `gallery_url` for each. `mode="keyword"` = exact words only |
+| `search_designs(query, type?, tags?, framework?, platform?, category?, limit=10, mode="hybrid")` | Ranked matches (no code) with `gallery_url`, platform and categories for each. `mode="keyword"` = exact words only |
+| `list_categories(platform?)` | The category sidebar as data: groups, categories, counts (optionally for one platform) |
 | `get_design(id)` | The full entry: code (when the license allows), style notes, when to use / avoid, license, `gallery_url` |
 | `list_tags()` | Tags and how many entries use each |
 | `list_styles()` | Your style guides in `library/styles/` |
@@ -160,6 +164,7 @@ python -m uv run python -m designlib <command>
 | `list` | `list --type component --limit 20` |
 | `search` | `search pricing table --tags saas --framework tailwind` (add `--keyword` for exact words only) |
 | `rebuild` | `rebuild` (recreate `index.db` from the JSON files, embed new/changed entries) |
+| `categorize` | `categorize` (sort new entries), `categorize --force` (redo all after editing the taxonomy), `--no-meaning` (rules only) |
 | `serve` | `serve --open` (`--port 8001`, `--reload` while developing) |
 | `import` | `import all` (every code library), or one of: `hyperui` (`--dark`), `uiverse` (`--category buttons,cards`), `shadcn`, `magicui`, `flowbite`, `daisyui`, `tokens`, `icons`, `saaslandingpage`, `designprompts`, `collectui`. Default: everything; `--limit N` for a sample |
 | `mcp` | Used by Claude; waits silently for a client |
@@ -200,6 +205,34 @@ preview_image_url, local_image, when_to_use, avoid_when, my_rating (1-5), favori
 - **Fetching is polite**: checks `robots.txt`, sends an honest User-Agent, waits 2 s between requests to
   the same site, reads at most 1 MB, and only reads metadata.
 - **Importers verify the repo's LICENSE file** before reading anything, and stop if it isn't open.
+
+### Categories and platforms
+
+Every reference is sorted two ways, like Collect UI's sidebar:
+
+- **Platform**: Web, Mobile, Desktop, or *Any platform* (icons, colors, logos, and shots that
+  don't say). Tabs at the top of the gallery.
+- **Category**: what it is, in five groups (left sidebar):
+  - *Pages & sections*: landing/home page, hero, navigation, footer, call to action, features,
+    pricing, testimonials, FAQ, blog, about, contact, logo cloud, stats, newsletter, 404, ...
+  - *App screens*: dashboard, login & sign up, onboarding, settings, profile, checkout,
+    e-commerce, chat, inbox, calendar, tables, charts, empty states, search, AI interfaces, ...
+  - *Components*: buttons, cards, forms, toggles, selects, modals, tooltips, tabs, accordions,
+    alerts, badges, avatars, loaders, pagination, carousels, timelines, layouts, menus, ...
+  - *Motion & effects*: animations, hover effects, text effects, scroll animations,
+    backgrounds, 3D/WebGL
+  - *Style & brand*: design styles, branding & logos, illustrations, typography, colors,
+    icons, design tokens
+
+An entry can be in up to three categories (best match first). Sorting is automatic:
+each tag and title word is looked up in [`core/taxonomy.py`](src/designlib/core/taxonomy.py),
+web code counts as Web, and `mobile-app` / `mac-app` style tags decide Mobile / Desktop. When
+the rules can't tell, `designlib categorize` asks the local meaning model, but only accepts
+answers it was measured to get right 96%+ of the time; everything else stays *Any platform*.
+
+To change a single entry, open it, choose Edit, and tick its categories and platform: your
+choice is kept from then on. To change the scheme, edit `core/taxonomy.py` and run
+`python -m uv run python -m designlib categorize --force`.
 
 ## 7. Project layout
 

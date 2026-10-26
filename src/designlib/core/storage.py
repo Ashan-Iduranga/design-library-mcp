@@ -10,6 +10,7 @@ from collections.abc import Iterator
 from pathlib import Path
 
 from designlib import config
+from designlib.core import categorize
 from designlib.core.schema import Entry, now
 
 
@@ -21,6 +22,7 @@ def save_entry(entry: Entry, touch: bool = True) -> Path:
     """Write one entry to <id>.json. `touch` bumps updated_at."""
     if touch:
         entry.updated_at = now()
+    categorize.apply(entry)  # sort new/uncategorised entries into the library's categories
     path = entry_path(entry.id)
     path.parent.mkdir(parents=True, exist_ok=True)
     data = entry.model_dump(mode="json", exclude_none=False)

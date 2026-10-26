@@ -91,3 +91,16 @@ document.getElementById("fetch-meta")?.addEventListener("click", async () => {
     status.className = "help is-error";
   }
 });
+
+// Phones: the category sidebar opens as a drawer, and closes again once you pick one.
+document.addEventListener("click", (event) => {
+  const toggle = event.target.closest(".drawer-toggle");
+  if (!toggle) return;
+  const open = document.querySelector(".browse").classList.toggle("drawer-open");
+  toggle.setAttribute("aria-expanded", String(open));
+});
+document.addEventListener("change", (event) => {
+  if (event.target.name !== "category" || !matchMedia("(max-width: 900px)").matches) return;
+  document.querySelector(".browse")?.classList.remove("drawer-open");
+  document.querySelector(".drawer-toggle")?.setAttribute("aria-expanded", "false");
+});

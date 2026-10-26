@@ -1,0 +1,7 @@
+{# Response to a live filter change: the new results, plus fresh sidebar and platform-tab
+   counts swapped in "out of band" (htmx replaces #sidebar and #platforms by id). #}
+{% include "_results.html" %}
+{% with oob = true %}
+  {% include "_sidebar.html" %}
+  {% include "_platforms.html" %}
+{% endwith %}

@@ -29,6 +29,8 @@ class Filters:
     tags: list[str] | None = None
     framework: str | None = None
     source: str | None = None
+    platform: str | None = None  # web / mobile / desktop / any
+    categories: list[str] | None = None  # match ANY of these category slugs
     favorites_only: bool = False
     sort: str = "relevance"
     limit: int = 60
@@ -136,6 +138,13 @@ def _conditions(filters: Filters, only_ids: list[str] | None = None) -> tuple[li
     if filters.source:
         where.append("e.source = ?")
         params.append(filters.source)
+    if filters.platform:
+        where.append("e.platform = ?")
+        params.append(filters.platform)
+    if filters.categories:
+        marks = ", ".join("?" * len(filters.categories))
+        where.append(f"EXISTS (SELECT 1 FROM entry_categories c WHERE c.entry_id = e.id AND c.category IN ({marks}))")
+        params.extend(filters.categories)
     if filters.favorites_only:
         where.append("e.favorite = 1")
     for tag in filters.tags or []:  # every selected tag must be present (AND)
@@ -205,6 +214,29 @@ def list_sources() -> list[tuple[str, int]]:
 
 def list_types() -> list[tuple[str, int]]:
     return _counts("SELECT type, COUNT(*) FROM entries GROUP BY type ORDER BY COUNT(*) DESC")
+
+
+def category_counts(filters: Filters) -> dict[str, int]:
+    """How many entries are in each category, for the current platform and filters
+    (but not the current category, so the sidebar still shows every option)."""
+    where, params, _ = _conditions(replace(filters, query="", categories=None))
+    sql = "SELECT c.category, COUNT(*) FROM entry_categories c JOIN entries e ON e.id = c.entry_id"
+    if where:
+        sql += " WHERE " + " AND ".join(where)
+    sql += " GROUP BY c.category"
+    with closing(connect()) as conn:
+        return dict(conn.execute(sql, params).fetchall())
+
+
+def platform_counts(filters: Filters) -> dict[str, int]:
+    """Entries per platform for the current category and filters (for the platform tabs)."""
+    where, params, _ = _conditions(replace(filters, query="", platform=None))
+    sql = "SELECT e.platform, COUNT(*) FROM entries e"
+    if where:
+        sql += " WHERE " + " AND ".join(where)
+    sql += " GROUP BY e.platform"
+    with closing(connect()) as conn:
+        return dict(conn.execute(sql, params).fetchall())
 
 
 def list_frameworks() -> list[tuple[str, int]]:

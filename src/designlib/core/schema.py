@@ -12,6 +12,8 @@ from enum import Enum
 
 from pydantic import BaseModel, Field, field_validator, model_validator
 
+from designlib.core.taxonomy import BY_SLUG
+
 # Code may only be stored when it comes from one of these licenses.
 # "Own" means you wrote it yourself.
 OPEN_LICENSES = {"MIT", "Apache-2.0", "ISC", "Own"}
@@ -35,6 +37,13 @@ class Framework(str, Enum):
     tailwind = "tailwind"
     react = "react"
     none = "none"
+
+
+class Platform(str, Enum):
+    web = "web"
+    mobile = "mobile"
+    desktop = "desktop"
+    any = "any"  # works anywhere (icons, colors) or we couldn't tell
 
 
 class StyleNotes(BaseModel):
@@ -75,6 +84,9 @@ class Entry(BaseModel):
     type: EntryType
     tags: list[str] = []
     framework: Framework = Framework.none
+    platform: Platform = Platform.any
+    categories: list[str] = []  # slugs from core/taxonomy.py, best match first
+    categories_manual: bool = False  # True once you set them by hand: never auto-changed
     style_notes: StyleNotes = StyleNotes()
     notes: str = ""  # your free-form notes (or the page description if you gave none)
     code: str | None = None
@@ -105,6 +117,14 @@ class Entry(BaseModel):
             if tag and tag not in cleaned:
                 cleaned.append(tag)
         return cleaned
+
+    @field_validator("categories")
+    @classmethod
+    def known_categories(cls, slugs: list[str]) -> list[str]:
+        unknown = [s for s in slugs if s not in BY_SLUG]
+        if unknown:
+            raise ValueError(f"unknown categories {unknown}; see core/taxonomy.py")
+        return list(dict.fromkeys(slugs))  # drop duplicates, keep order
 
     @field_validator("local_image")
     @classmethod

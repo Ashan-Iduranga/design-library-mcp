@@ -30,15 +30,18 @@ from designlib.core.search import (
     SORTS,
     Filters,
     count_entries,
+    category_counts,
     count_matches,
     get_entry,
     list_frameworks,
     list_sources,
     list_tags,
     list_types,
+    platform_counts,
     search,
     uses_meaning,
 )
+from designlib.core.taxonomy import BY_SLUG, grouped
 from designlib.web.preview import build_srcdoc, preview_kind
 
 HERE = Path(__file__).parent
@@ -46,6 +49,24 @@ IMAGE_TYPES = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 MAX_UPLOAD_BYTES = 5 * 1024 * 1024
 LICENSES = [LINK_ONLY, *sorted(OPEN_LICENSES)]
 PAGE_SIZE = 60  # cards per "page"; "Show more" appends the next 60
+PLATFORMS = [("", "All"), ("web", "Web"), ("mobile", "Mobile"), ("desktop", "Desktop"), ("any", "Any platform")]
+PLATFORM_VALUES = {value for value, _ in PLATFORMS if value}
+
+
+def sidebar_context(filters: Filters) -> dict:
+    """Counts for the category sidebar and the platform tabs, for the current filters."""
+    counts = category_counts(filters)
+    selected = set(filters.categories or [])
+    platforms = platform_counts(filters)
+    return {
+        "category_groups": grouped(),
+        "category_counts": counts,
+        # hide empty categories, but never the one you have selected
+        "visible_categories": {slug for slug, n in counts.items() if n} | selected,
+        "platforms": PLATFORMS,
+        "platform_counts": platforms,
+        "platform_total": sum(platforms.values()),
+    }
 
 templates = Jinja2Templates(directory=HERE / "templates")
 templates.env.globals.update(
@@ -55,6 +76,9 @@ templates.env.globals.update(
     frameworks=[f.value for f in Framework],
     licenses=LICENSES,
     sorts=SORTS,
+    category_label=lambda slug: BY_SLUG[slug].label if slug in BY_SLUG else slug,
+    category_groups_all=grouped(),
+    platform_names=["web", "mobile", "desktop", "any"],
 )
 
 
@@ -81,6 +105,8 @@ def create_app() -> FastAPI:
             type=params.get("type") or None,
             framework=params.get("framework") or None,
             source=params.get("source") or None,
+            platform=params.get("platform") if params.get("platform") in PLATFORM_VALUES else None,
+            categories=[c for c in params.getlist("category") if c in BY_SLUG] or None,
             tags=params.getlist("tag"),
             favorites_only=params.get("fav") == "1",
             sort=params.get("sort", "relevance"),
@@ -101,14 +127,15 @@ def create_app() -> FastAPI:
             "shown": shown,
             "more_url": "/?" + urlencode([*next_params, ("offset", shown), ("more", "1")]) if shown < matches else None,
             "meaning": uses_meaning(filters),
+            **sidebar_context(filters),
         }
         if params.get("more") == "1":  # "Show more": just the extra cards + a new button
             return templates.TemplateResponse(request, "_more.html", context)
         # HTMX sends HX-Request on live updates: answer with just the results.
         # On a history restore (back button, cache miss) it wants the full page.
         is_partial = request.headers.get("HX-Request") and not request.headers.get("HX-History-Restore-Request")
-        if is_partial:
-            return templates.TemplateResponse(request, "_results.html", context)
+        if is_partial:  # results + refreshed sidebar/tab counts
+            return templates.TemplateResponse(request, "_live.html", context)
         context.update(
             type_counts=list_types(),
             framework_counts=list_frameworks(),
@@ -213,6 +240,8 @@ def _form_to_values(form) -> dict:
         "license": text("license") or LINK_ONLY,
         "type": text("type"),
         "framework": text("framework") or "none",
+        "platform": text("platform") or "any",
+        "categories": [c for c in form.getlist("categories") if c],
         "tags": [t for t in text("tags").split(",")],
         "notes": text("notes"),
         "style_notes": {
@@ -255,6 +284,13 @@ async def _save_form(request: Request, existing: Entry | None):
             values["local_image"] = await _save_upload(upload, entry_id)
         if form.get("remove_image") == "on":
             values["local_image"] = None
+        # Categories count as "set by you" once you pick them (or change the automatic
+        # choice); then re-categorizing never overwrites them.
+        auto = (existing.platform.value, existing.categories) if existing else ("any", [])
+        chosen = (values["platform"], values["categories"])
+        values["categories_manual"] = bool(values["categories"]) and (
+            (existing is not None and existing.categories_manual) or chosen != auto
+        )
         entry = Entry(
             id=entry_id,
             added_at=existing.added_at if existing else now(),

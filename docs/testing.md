@@ -37,6 +37,7 @@ test at an empty temporary library (`DESIGNLIB_LIBRARY`), web fetches use
 | `test_mcp.py` | All 6 MCP tools, their descriptions, and a real stdio round trip (starts `python -m designlib mcp` like Claude does) |
 | `test_server.py` | `serve` doesn't crash when the gallery is already up; the background gallery; and end to end: start the MCP server like Claude does and open the `gallery_url` it returns |
 | `test_sources.py` | Paging ("Show more"), and each newer importer with tiny fake inputs: shadcn registry parsing, Flowbite/daisyUI example extraction, Radix light/dark swatches, Lucide icon groups, gallery tag filtering, Collect UI key discovery (anon key only) and link-only entries |
+| `test_categorize.py` | Taxonomy sanity (each keyword in one category), the categorizer per source, design style ranked last, manual categories kept, platform/category filters and counts, sidebar + tab refresh, edit form, MCP `list_categories` |
 | `test_semantic.py` | Vector sync (only changed text is re-embedded), meaning matches with no shared words, filters on meaning results, rank fusion, the gallery never waiting for the model, fallback to keywords on failure. Uses a fake embedder; the `slow` test uses the real model |
 
 ## 2. MCP Inspector (click through the tools in a browser)

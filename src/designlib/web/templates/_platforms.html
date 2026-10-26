@@ -1,0 +1,11 @@
+{# Platform tabs (All / Web / Mobile / Desktop / Any). Same out-of-band refresh as the sidebar. #}
+<div id="platforms" class="platform-tabs" role="radiogroup" aria-label="Platform"{% if oob %} hx-swap-oob="true"{% endif %}>
+  {% for value, label in platforms %}
+  {% set n = platform_total if not value else platform_counts.get(value, 0) %}
+  <label class="platform-tab">
+    <input type="radio" name="platform" value="{{ value }}"
+           {% if (filters.platform or "") == value %}checked{% endif %}>
+    <span>{{ label }} <small>{{ "{:,}".format(n) }}</small></span>
+  </label>
+  {% endfor %}
+</div>

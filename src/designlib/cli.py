@@ -5,6 +5,7 @@ Commands:
   list          show entries (newest first)
   search <q>    full-text search with optional filters
   rebuild       rebuild index.db from the JSON entries
+  categorize    sort entries into categories and web/mobile/desktop (see core/taxonomy.py)
   serve         start the web gallery on http://127.0.0.1:8000
   import <name> import a source (see `import --help`), or `import all` for every code library
   mcp           run the MCP server over stdio (Claude starts this for you)
@@ -83,6 +84,12 @@ def cmd_search(args: argparse.Namespace) -> None:
         mode="keyword" if args.keyword else "hybrid",
     )
     print_entries(search(filters))
+
+
+def cmd_categorize(args: argparse.Namespace) -> None:
+    from designlib.core import recategorize
+
+    print(recategorize.run(force=args.force, use_meaning=not args.no_meaning))
 
 
 def cmd_rebuild(args: argparse.Namespace) -> None:
@@ -178,6 +185,11 @@ def build_parser() -> argparse.ArgumentParser:
 
     rebuild = commands.add_parser("rebuild", help="rebuild index.db from the JSON entries")
     rebuild.set_defaults(func=cmd_rebuild)
+
+    cat = commands.add_parser("categorize", help="sort entries into categories and platforms")
+    cat.add_argument("--force", action="store_true", help="redo every entry (except ones you set by hand)")
+    cat.add_argument("--no-meaning", action="store_true", help="rules only; don't ask the meaning model")
+    cat.set_defaults(func=cmd_categorize)
 
     serve = commands.add_parser("serve", help="start the web gallery (local only)")
     serve.add_argument("--port", type=int, default=config.PORT)

@@ -12,6 +12,7 @@
       <p class="label-meta">
         <span class="notch type-{{ entry.type.value }}" aria-hidden="true"></span>
         <span>{{ entry.type.value }}</span>
+        <a class="badge badge-platform" href="/?platform={{ entry.platform.value }}">{{ "any platform" if entry.platform.value == "any" else entry.platform.value }}</a>
         {% if entry.framework.value != "none" %}<span class="badge">{{ entry.framework.value }}</span>{% endif %}
         {% if entry.source %}<a class="badge" href="/?source={{ entry.source|urlencode }}">{{ entry.source }}</a>{% endif %}
         <span class="badge {% if entry.license == 'link-only' %}badge-link{% else %}badge-open{% endif %}">{{ entry.license }}</span>
@@ -91,6 +92,13 @@
           {% if sn.spacing %}<dt>Spacing</dt><dd>{{ sn.spacing }}</dd>{% endif %}
           {% if sn.mood %}<dt>Mood</dt><dd>{{ sn.mood }}</dd>{% endif %}
         </dl>
+      </section>
+      {% endif %}
+      {% if entry.categories %}
+      <section>
+        <h2>Categories</h2>
+        <p class="tag-list">{% for slug in entry.categories %}<a class="chip-link" href="/?category={{ slug }}{% if entry.platform.value != 'any' %}&platform={{ entry.platform.value }}{% endif %}">{{ category_label(slug) }}</a>{% endfor %}</p>
+        {% if entry.categories_manual %}<p class="help">Set by you.</p>{% endif %}
       </section>
       {% endif %}
       {% if entry.tags %}
