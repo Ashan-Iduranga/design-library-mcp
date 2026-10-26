@@ -1,8 +1,18 @@
 """High-level actions shared by the CLI, the web gallery and the MCP server."""
 
+from designlib.core.dedupe import DuplicateIndex
 from designlib.core.fetch import PageMeta, fetch_metadata, source_name
 from designlib.core.index import save_and_index
 from designlib.core.schema import LINK_ONLY, Entry, new_id
+from designlib.core.storage import iter_entries, load_entry
+
+
+class AlreadyInLibrary(Exception):
+    """The page is already in the library; `.entry` is the existing entry."""
+
+    def __init__(self, entry: Entry):
+        super().__init__(f"already in your library as {entry.id}")
+        self.entry = entry
 
 
 def add_from_url(
@@ -35,4 +45,7 @@ def add_from_url(
         preview_image_url=meta.image_url,
         **fields,
     )
+    existing_id = DuplicateIndex(iter_entries()).duplicate_of(entry)
+    if existing_id:
+        raise AlreadyInLibrary(load_entry(existing_id))
     return save_and_index(entry)

@@ -5,6 +5,7 @@ Commands:
   list          show entries (newest first)
   search <q>    full-text search with optional filters
   rebuild       rebuild index.db from the JSON entries
+  dedupe        find and merge duplicate references
   categorize    sort entries into categories and web/mobile/desktop (see core/taxonomy.py)
   serve         start the web gallery on http://127.0.0.1:8000
   import <name> import a source (see `import --help`), or `import all` for every code library
@@ -17,13 +18,14 @@ import sys
 from designlib import config
 from designlib.core.fetch import FetchError
 from designlib.core.index import rebuild_index
-from designlib.core.library import add_from_url
+from designlib.core.library import AlreadyInLibrary, add_from_url
 from designlib.core.schema import Entry, EntryType, Framework
 from designlib.core.search import Filters, search
 
 TYPES = [t.value for t in EntryType]
-CODE_IMPORTERS = ["hyperui", "uiverse", "shadcn", "magicui", "flowbite", "daisyui", "tokens", "icons"]
-WEB_IMPORTERS = ["collectui", "saaslandingpage", "designprompts"]
+CODE_IMPORTERS = ["hyperui", "uiverse", "shadcn", "magicui", "flowbite", "daisyui", "tokens", "icons",
+                  "framework7", "konsta", "reactnative", "nativeapps"]
+WEB_IMPORTERS = ["collectui", "saaslandingpage", "designprompts", "penpot", "guidelines"]
 IMPORTERS = [*CODE_IMPORTERS, *WEB_IMPORTERS, "all"]
 FRAMEWORKS = [f.value for f in Framework]
 
@@ -62,6 +64,10 @@ def cmd_add(args: argparse.Namespace) -> None:
         )
     except FetchError as error:
         sys.exit(f"Could not add: {error}\nTip: use --no-fetch --title '...' to add it without fetching.")
+    except AlreadyInLibrary as already:
+        print(f"Already in your library: {already.entry.id} ({already.entry.title})")
+        print(f"  view:   {config.gallery_url(already.entry.id)}")
+        return
     print(f"Added {entry.id}")
     print(f"  title:  {entry.title}")
     print(f"  source: {entry.source}")
@@ -84,6 +90,30 @@ def cmd_search(args: argparse.Namespace) -> None:
         mode="keyword" if args.keyword else "hybrid",
     )
     print_entries(search(filters))
+
+
+def cmd_dedupe(args: argparse.Namespace) -> None:
+    from designlib.core import dedupe
+    from designlib.core.storage import delete_entry, iter_entries, save_entry
+
+    groups = dedupe.find_groups(list(iter_entries()))
+    if not groups:
+        print("No duplicates found.")
+        return
+    for group in groups:
+        print(f"Same resource ({group[0].source}): " + ", ".join(e.id for e in group))
+    if not args.apply:
+        print(f"{len(groups)} duplicate groups. Run `designlib dedupe --apply` to merge them.")
+        return
+    removed_total = 0
+    for group in groups:
+        kept, removed = dedupe.merge(group)
+        save_entry(kept, touch=False)
+        for entry in removed:
+            delete_entry(entry.id)
+        removed_total += len(removed)
+    rebuild_index()
+    print(f"Merged {len(groups)} groups: kept one of each, removed {removed_total} duplicates.")
 
 
 def cmd_categorize(args: argparse.Namespace) -> None:
@@ -110,12 +140,15 @@ def cmd_serve(args: argparse.Namespace) -> None:
 def run_importer(name: str, args: argparse.Namespace) -> str:
     """Run one importer and return a one-line summary."""
     from designlib.importers import (
-        collectui, daisyui, flowbite, galleries, hyperui, icons, magicui, shadcn, tokens, uiverse,
+        collectui, daisyui, flowbite, framework7, galleries, guidelines, hyperui, icons, konsta,
+        magicui, nativeapps, reactnative, shadcn, tokens, uiverse,
     )
 
     code_libraries = {  # importers that share the (limit, refresh) signature
         "shadcn": shadcn.run, "magicui": magicui.run, "flowbite": flowbite.run,
         "daisyui": daisyui.run, "tokens": tokens.run, "icons": icons.run,
+        "framework7": framework7.run, "konsta": konsta.run, "reactnative": reactnative.run,
+        "nativeapps": nativeapps.run, "guidelines": guidelines.run,
     }
     if name == "hyperui":
         created, updated = hyperui.run(limit=args.limit, include_dark=args.dark, refresh=args.refresh)
@@ -185,6 +218,10 @@ def build_parser() -> argparse.ArgumentParser:
 
     rebuild = commands.add_parser("rebuild", help="rebuild index.db from the JSON entries")
     rebuild.set_defaults(func=cmd_rebuild)
+
+    dup = commands.add_parser("dedupe", help="find (and with --apply, merge) duplicate references")
+    dup.add_argument("--apply", action="store_true", help="merge them: keep one, combine tags/categories")
+    dup.set_defaults(func=cmd_dedupe)
 
     cat = commands.add_parser("categorize", help="sort entries into categories and platforms")
     cat.add_argument("--force", action="store_true", help="redo every entry (except ones you set by hand)")

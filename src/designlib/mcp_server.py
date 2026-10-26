@@ -20,7 +20,7 @@ from mcp.types import ToolAnnotations
 from designlib import config
 from designlib.core import semantic, styleguide
 from designlib.core.fetch import FetchError
-from designlib.core.library import add_from_url
+from designlib.core.library import AlreadyInLibrary, add_from_url
 from designlib.core.schema import Entry
 from designlib.core.search import Filters, category_counts, get_entry, list_tags as tag_counts, search
 from designlib.core.taxonomy import SLUGS, grouped
@@ -28,7 +28,7 @@ from designlib.core.taxonomy import SLUGS, grouped
 logging.basicConfig(stream=sys.stderr, level=logging.WARNING)
 
 EntryTypeName = Literal["style", "component", "screen", "interaction", "layout", "palette", "token"]
-FrameworkName = Literal["html", "tailwind", "react", "none"]
+FrameworkName = Literal["html", "tailwind", "react", "react-native", "none"]
 PlatformName = Literal["web", "mobile", "desktop", "any"]
 # Every category slug from core/taxonomy.py, so Claude sees the full vocabulary in the schema.
 CategoryName = Literal[tuple(SLUGS)]  # type: ignore[valid-type]
@@ -90,7 +90,7 @@ def search_designs(
            tags, notes, style notes and code; partial words work.
     type: narrow to one kind of reference.
     tags: every tag listed must be present (use list_tags to see what exists).
-    framework: narrow to html, tailwind or react code.
+    framework: narrow to html, tailwind, react or react-native code.
     platform: "web", "mobile" or "desktop" references ("any" = icons, colors, or unclear).
     category: what the reference is, e.g. "hero", "navigation", "pricing", "dashboard",
               "auth", "button" (call list_categories for all of them with counts).
@@ -175,11 +175,14 @@ def add_design(url: str, type: EntryTypeName, tags: list[str] | None = None, not
     """
     warning = None
     try:
-        entry = add_from_url(url, type=type, tags=tags, notes=notes)
-    except FetchError as error:
-        # Still save the link; we just couldn't (or weren't allowed to) read the page.
-        warning = f"Saved without page details: {error}"
-        entry = add_from_url(url, type=type, tags=tags, notes=notes, fetch=False)
+        try:
+            entry = add_from_url(url, type=type, tags=tags, notes=notes)
+        except FetchError as error:
+            # Still save the link; we just couldn't (or weren't allowed to) read the page.
+            warning = f"Saved without page details: {error}"
+            entry = add_from_url(url, type=type, tags=tags, notes=notes, fetch=False)
+    except AlreadyInLibrary as already:
+        entry, warning = already.entry, "Already in your library; nothing was added."
     result = summary(entry)
     if warning:
         result["warning"] = warning

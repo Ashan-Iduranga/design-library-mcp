@@ -17,7 +17,8 @@ from designlib import config
 from designlib.core.fetch import USER_AGENT
 from designlib.core.index import rebuild_index
 from designlib.core.schema import Entry
-from designlib.core.storage import load_entry, save_entry
+from designlib.core.dedupe import DuplicateIndex
+from designlib.core.storage import iter_entries, load_entry, save_entry
 
 CACHE_DIR = config.PROJECT_ROOT / ".cache"
 
@@ -124,8 +125,13 @@ def save_imported(entries: Iterable[Entry]) -> tuple[int, int]:
     Returns (created, updated). The index is rebuilt once at the end, which is
     much faster than indexing hundreds of entries one by one.
     """
-    created = updated = 0
+    created = updated = skipped = 0
+    known = DuplicateIndex(iter_entries())  # everything already in the library
     for entry in entries:
+        if known.duplicate_of(entry):
+            skipped += 1  # same resource is already in the library under another id
+            continue
+        known.add(entry)
         existing = load_entry(entry.id)
         if existing:
             for field in USER_FIELDS:
@@ -135,4 +141,6 @@ def save_imported(entries: Iterable[Entry]) -> tuple[int, int]:
             created += 1
         save_entry(entry)
     rebuild_index()
+    if skipped:
+        print(f"Skipped {skipped} duplicates already in the library.")
     return created, updated

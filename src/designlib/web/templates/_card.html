@@ -1,7 +1,7 @@
 {% set kind = preview_kind(entry) %}
 <li class="card type-{{ entry.type.value }}">
   <a class="card-link" href="/d/{{ entry.id }}">
-    <div class="card-preview preview-{{ kind }}">
+    <div class="card-preview preview-{{ kind }}{% if kind == 'code' and entry.platform.value == 'mobile' %} preview-phone{% endif %}">
       {% if kind == "code" %}
         {# Rendered larger and scaled down, so components look like thumbnails. #}
         <iframe class="thumb-frame" sandbox="allow-scripts" loading="lazy" tabindex="-1"

@@ -164,9 +164,10 @@ python -m uv run python -m designlib <command>
 | `list` | `list --type component --limit 20` |
 | `search` | `search pricing table --tags saas --framework tailwind` (add `--keyword` for exact words only) |
 | `rebuild` | `rebuild` (recreate `index.db` from the JSON files, embed new/changed entries) |
+| `dedupe` | `dedupe` (list duplicates), `dedupe --apply` (merge them: keep one, combine tags) |
 | `categorize` | `categorize` (sort new entries), `categorize --force` (redo all after editing the taxonomy), `--no-meaning` (rules only) |
 | `serve` | `serve --open` (`--port 8001`, `--reload` while developing) |
-| `import` | `import all` (every code library), or one of: `hyperui` (`--dark`), `uiverse` (`--category buttons,cards`), `shadcn`, `magicui`, `flowbite`, `daisyui`, `tokens`, `icons`, `saaslandingpage`, `designprompts`, `collectui`. Default: everything; `--limit N` for a sample |
+| `import` | `import all` (every code library), or one of: `hyperui` (`--dark`), `uiverse` (`--category buttons,cards`), `shadcn`, `magicui`, `flowbite`, `daisyui`, `tokens`, `icons`, `framework7`, `konsta`, `reactnative`, `nativeapps`, `saaslandingpage`, `designprompts`, `collectui`, `penpot`, `guidelines`. Default: everything; `--limit N` for a sample |
 | `mcp` | Used by Claude; waits silently for a client |
 
 `add` options: `--title`, `--framework`, `--rating 1-5`, `--favorite`, `--no-fetch` (don't contact the site).
@@ -184,6 +185,8 @@ list, licenses and how each was collected are in [`library/sources.md`](library/
 | Tokens and color scales | Open Props, Radix Colors |
 | Icon sets (searchable by icon name) | Lucide, Heroicons |
 | Link-only inspiration | SaaS Landing Page, DesignPrompts, Collect UI, plus hand-picked pages |
+| Mobile apps | Framework7 (live iOS/Material phone screens), Konsta UI, React Native Paper, react-native-reusables, Android Compose samples, Flutter templates, Penpot kits |
+| Official guidelines and kits | Material Design 3, Apple Human Interface Guidelines, Apple and Wear OS Figma kits |
 
 - **Entries**: `library/entries/<id>.json`, one file per reference. Edit them in the gallery
   (or by hand, then run `rebuild`). Commit them with git like any other file.
@@ -205,6 +208,14 @@ preview_image_url, local_image, when_to_use, avoid_when, my_rating (1-5), favori
 - **Fetching is polite**: checks `robots.txt`, sends an honest User-Agent, waits 2 s between requests to
   the same site, reads at most 1 MB, and only reads metadata.
 - **Importers verify the repo's LICENSE file** before reading anything, and stop if it isn't open.
+
+### No duplicates
+
+Two entries count as the same resource when they have the same link **and** the same content
+(the same code, or the same preview image). Every import and `add` skips anything already in
+the library (`add` tells you which entry already has it), and `designlib dedupe` finds and
+merges older duplicates. Same link alone isn't a duplicate: a library's docs page can show
+several different examples, and one post can have several images.
 
 ### Categories and platforms
 

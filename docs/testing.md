@@ -38,6 +38,7 @@ test at an empty temporary library (`DESIGNLIB_LIBRARY`), web fetches use
 | `test_server.py` | `serve` doesn't crash when the gallery is already up; the background gallery; and end to end: start the MCP server like Claude does and open the `gallery_url` it returns |
 | `test_sources.py` | Paging ("Show more"), and each newer importer with tiny fake inputs: shadcn registry parsing, Flowbite/daisyUI example extraction, Radix light/dark swatches, Lucide icon groups, gallery tag filtering, Collect UI key discovery (anon key only) and link-only entries |
 | `test_categorize.py` | Taxonomy sanity (each keyword in one category), the categorizer per source, design style ranked last, manual categories kept, platform/category filters and counts, sidebar + tab refresh, edit form, MCP `list_categories` |
+| `test_mobile.py` | Duplicate rules (same docs link + different code is kept; same post + same image is a duplicate), merging keeps your edits, imports and `add` skip duplicates, each mobile importer's parsing, mobile platform rules, Framework7 iOS/Material phone previews |
 | `test_semantic.py` | Vector sync (only changed text is re-embedded), meaning matches with no shared words, filters on meaning results, rank fusion, the gallery never waiting for the model, fallback to keywords on failure. Uses a fake embedder; the `slow` test uses the real model |
 
 ## 2. MCP Inspector (click through the tools in a browser)

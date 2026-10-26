@@ -28,13 +28,20 @@
 
   <section class="stage" aria-label="Preview">
     {% if kind == "code" %}
+      {% set phone = entry.platform.value == "mobile" %}
       <div class="stage-bar" role="group" aria-label="Preview width">
-        <button type="button" class="seg" data-width="100%" aria-pressed="true">Desktop</button>
+        <button type="button" class="seg" data-width="100%" aria-pressed="{{ 'false' if phone else 'true' }}">Desktop</button>
         <button type="button" class="seg" data-width="768px" aria-pressed="false">Tablet</button>
-        <button type="button" class="seg" data-width="390px" aria-pressed="false">Mobile</button>
+        <button type="button" class="seg" data-width="390px" aria-pressed="{{ 'true' if phone else 'false' }}">Mobile</button>
+        {% if entry.source == "Framework7" %}
+        {# Both themes are rendered up front; the buttons swap them in the frame. #}
+        <span class="seg-gap" aria-hidden="true"></span>
+        <button type="button" class="seg" data-theme-srcdoc="{{ build_srcdoc(entry, theme='ios') }}" aria-pressed="true">iOS</button>
+        <button type="button" class="seg" data-theme-srcdoc="{{ build_srcdoc(entry, theme='md') }}" aria-pressed="false">Material</button>
+        {% endif %}
         <span class="stage-width muted" id="stage-width"></span>
       </div>
-      <div class="stage-frame" id="stage-frame">
+      <div class="stage-frame{% if phone %} stage-phone{% endif %}" id="stage-frame"{% if phone %} style="width: 390px"{% endif %}>
         <iframe sandbox="allow-scripts" title="Live preview of {{ entry.title }}" srcdoc="{{ build_srcdoc(entry) }}"></iframe>
       </div>
     {% elif kind == "local" %}

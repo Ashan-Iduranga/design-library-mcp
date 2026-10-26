@@ -22,7 +22,8 @@ import httpx
 from designlib.core.fetch import MIN_DELAY_SECONDS, USER_AGENT
 from designlib.core.index import rebuild_index
 from designlib.core.schema import LINK_ONLY, Entry, slugify
-from designlib.core.storage import load_entry, save_entry
+from designlib.core.dedupe import DuplicateIndex
+from designlib.core.storage import iter_entries, load_entry, save_entry
 from designlib.importers.common import ImportStopped
 
 SITE = "https://collectui.com"
@@ -131,11 +132,16 @@ def run(limit: int = 0) -> tuple[int, int]:
     if limit > 0:
         posts = posts[:limit]
 
-    created = updated = 0
+    created = updated = duplicates = 0
+    known = DuplicateIndex(iter_entries())
     for post in posts:
         entry = make_entry(post, names)
         if entry is None:
             continue
+        if known.duplicate_of(entry):
+            duplicates += 1  # Collect UI sometimes lists one image under two categories
+            continue
+        known.add(entry)
         existing = load_entry(entry.id)
         if existing:  # keep your own edits on re-import
             for field in USER_FIELDS:
@@ -146,4 +152,6 @@ def run(limit: int = 0) -> tuple[int, int]:
             created += 1
         save_entry(entry)
     rebuild_index()
+    if duplicates:
+        print(f"Skipped {duplicates} duplicates already in the library.")
     return created, updated

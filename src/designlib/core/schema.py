@@ -36,6 +36,7 @@ class Framework(str, Enum):
     html = "html"
     tailwind = "tailwind"
     react = "react"
+    react_native = "react-native"
     none = "none"
 
 

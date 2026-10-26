@@ -20,6 +20,7 @@ from designlib.core import fetch
 from designlib.core.fetch import FetchError
 from designlib.core.index import rebuild_index
 from designlib.core.schema import LINK_ONLY, Entry, slugify
+from designlib.core.dedupe import DuplicateIndex
 from designlib.core.storage import iter_entries, save_entry
 from designlib.importers.common import ImportStopped
 
@@ -95,6 +96,30 @@ def dp_build(page: Page) -> dict:
     }
 
 
+# ---------- Penpot community library ----------
+
+PENPOT_SKIP = {"submit", "report", "guides"}
+MOBILE_WORDS = {"mobile", "app", "android", "ios", "iphone", "smartwatch", "watch", "phone", "keyboard", "mastodon"}
+
+
+def penpot_wanted(url: str) -> bool:
+    parts = urlparse(url).path.strip("/").split("/")
+    return parts[:2] == ["penpothub", "libraries-templates"] and len(parts) == 3 and parts[2] not in PENPOT_SKIP
+
+
+def penpot_build(page: Page) -> dict:
+    slug = urlparse(page.url).path.strip("/").split("/")[-1]
+    title = re.sub(r"\s*[|–-]\s*Penpot.*$", "", page.meta.title).strip() or slug.replace("-", " ").title()
+    words = set(slug.split("-"))
+    return {
+        "title": f"{title} (Penpot kit)",
+        "type": "style",
+        "tags": [slug, "penpot", "ui-kit", *(["mobile-app"] if words & MOBILE_WORDS else [])],
+        "notes": f"{page.meta.description}\n\nFree Penpot community file (CC BY 4.0: credit the author). "
+                 f"Open it in Penpot (free, open source) or download the .penpot file from this page.",
+    }
+
+
 GALLERIES = {
     "saaslandingpage": Gallery(
         name="SaaS Landing Page",
@@ -102,6 +127,13 @@ GALLERIES = {
         sitemaps=["https://saaslandingpage.com/post-sitemap.xml"],
         wanted=slp_wanted,
         build=slp_build,
+    ),
+    "penpot": Gallery(
+        name="Penpot",
+        id_prefix="penpot",
+        sitemaps=["https://penpot.app/sitemap.xml"],
+        wanted=penpot_wanted,
+        build=penpot_build,
     ),
     "designprompts": Gallery(
         name="DesignPrompts",
@@ -134,9 +166,8 @@ def make_entry(gallery: Gallery, page: Page) -> Entry:
         source=gallery.name,
         url=page.url,
         license=LINK_ONLY,
-        notes=page.meta.description,
         preview_image_url=page.meta.image_url,
-        **fields,
+        **{"notes": page.meta.description, **fields},  # a gallery may write its own notes
     )
 
 
@@ -151,13 +182,19 @@ def run(name: str, limit: int = 0) -> tuple[int, int, int]:
     print(f"{gallery.name}: {len(urls)} pages in sitemap, {len(have)} already in library, {len(todo)} to fetch")
     print(f"About {len(todo) * fetch.MIN_DELAY_SECONDS / 60:.0f} minutes at one request every {fetch.MIN_DELAY_SECONDS:g} s.")
 
-    added = failed = failed_in_a_row = 0
+    added = failed = failed_in_a_row = duplicates = 0
+    known = DuplicateIndex(iter_entries())
     with httpx.Client(headers={"User-Agent": fetch.USER_AGENT}, timeout=fetch.TIMEOUT_SECONDS, follow_redirects=True) as client:
         for number, url in enumerate(todo, start=1):
             try:
                 meta, html = fetch.fetch_page(url, client=client)
-                save_entry(make_entry(gallery, Page(url=url, html=html, meta=meta)))
-                added += 1
+                entry = make_entry(gallery, Page(url=url, html=html, meta=meta))
+                if known.duplicate_of(entry):
+                    duplicates += 1  # e.g. the same page already added by hand
+                else:
+                    known.add(entry)
+                    save_entry(entry)
+                    added += 1
                 failed_in_a_row = 0
             except (FetchError, ValueError) as error:
                 failed += 1
@@ -173,4 +210,6 @@ def run(name: str, limit: int = 0) -> tuple[int, int, int]:
                 rebuild_index()  # make progress searchable while the import runs
                 print(f"  {number}/{len(todo)} done")
     rebuild_index()
+    if duplicates:
+        print(f"Skipped {duplicates} duplicates already in the library.")
     return added, len(have), failed

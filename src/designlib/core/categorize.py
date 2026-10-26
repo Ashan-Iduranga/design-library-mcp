@@ -113,13 +113,17 @@ def categorize_categories(entry: Entry) -> list[str]:
 
 # ---------- platform ----------
 
-MOBILE = {"mobile-app", "mobile", "app-screens", "app-screen", "ios", "android", "dynamic-island",
+MOBILE = {"mobile-app", "mobile", "app-screens", "app-screen", "ios", "android", "dynamic-island", "wear-os",
+          "watchos", "ipados", "material-3", "flutter", "jetpack-compose", "react-native",
           "splash-screen", "welcome-screen", "mobile-menu", "iphone", "watch", "widget-ios", "react-native"}
-DESKTOP = {"mac-app", "macos", "desktop-app", "desktop", "windows-app", "tv-app", "electron"}
+DESKTOP = {"mac-app", "macos", "desktop-app", "desktop", "windows-app", "tv-app", "tvos", "electron", "visionos"}
 WEB = {"landing-page", "landing", "website", "web", "hero", "hero-section", "navbar", "footer", "footers",
        "framer", "webflow", "wordpress", "landing-section", "ai-sites", "agency", "portfolio", "saas",
        "web-animation", "scroll-animation", "next-js", "gatsby", "nuxt-js", "header-navigation"}
 ANY_CATEGORIES = {"icons", "color", "tokens", "branding", "illustration", "fonts"}
+# Libraries and kits made for phone apps: their HTML/React code is still mobile UI.
+MOBILE_SOURCES = {"Framework7", "Konsta UI", "React Native Paper", "react-native-reusables",
+                  "Compose samples", "Best Flutter UI Templates"}
 WEB_SOURCES = {"SaaS Landing Page", "DesignPrompts", "Godly", "Land-book", "Awwwards", "Lapa Ninja"}
 
 
@@ -127,15 +131,17 @@ def platform_by_rules(entry: Entry, categories: list[str]) -> str | None:
     """'web' / 'mobile' / 'desktop' / 'any', or None when the rules can't tell."""
     tags = {normalise(t) for t in entry.tags} | {t.lower() for t in entry.tags}
     words = set(re.findall(r"[a-z0-9-]+", entry.title.lower()))
+    if entry.source in MOBILE_SOURCES or entry.framework.value == "react-native":
+        return "mobile"
     if categories and categories[0] in ANY_CATEGORIES:
         return "any"  # icons, colors, logos... work everywhere
     if entry.source in WEB_SOURCES or entry.framework.value in ("html", "tailwind", "react"):
         # Web code and website galleries are web, even an "iOS-style toggle" or a
         # landing page for a mobile app.
         return "web"
-    if tags & MOBILE or {"ios", "android", "iphone"} & words:
+    if tags & MOBILE or {"ios", "ipados", "android", "iphone", "watchos", "wear"} & words:
         return "mobile"
-    if tags & DESKTOP or {"macos", "desktop"} & words:
+    if tags & DESKTOP or {"macos", "desktop", "tvos", "visionos"} & words:
         return "desktop"
     if tags & WEB:
         return "web"

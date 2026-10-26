@@ -104,3 +104,12 @@ document.addEventListener("change", (event) => {
   document.querySelector(".browse")?.classList.remove("drawer-open");
   document.querySelector(".drawer-toggle")?.setAttribute("aria-expanded", "false");
 });
+
+// Detail page: iOS / Material theme switch for Framework7 mobile screens.
+document.querySelectorAll(".seg[data-theme-srcdoc]").forEach((button) => {
+  button.addEventListener("click", () => {
+    document.querySelectorAll(".seg[data-theme-srcdoc]").forEach((b) => b.setAttribute("aria-pressed", "false"));
+    button.setAttribute("aria-pressed", "true");
+    document.querySelector("#stage-frame iframe").srcdoc = button.dataset.themeSrcdoc;
+  });
+});
