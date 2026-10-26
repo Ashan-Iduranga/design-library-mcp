@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jkhuger-tidy-rat-84-7bdc23",
+  "title": "Checkbox by JkHuger (tidy-rat-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/tidy-rat-84",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/JkHuger_tidy-rat-84.html",
+  "code": "<label class=\"checkbox\">\n  <input type=\"checkbox\">\n  <span class=\"checkmark\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by JkHuger - Tags: checkbox */\n.checkbox {\n  display: inline-flex;\n  align-items: center;\n  cursor: pointer;\n}\n\n.checkbox input[type=\"checkbox\"] {\n  opacity: 0;\n  position: absolute;\n}\n\n.checkbox .checkmark {\n  display: inline-flex;\n  justify-content: center;\n  align-items: center;\n  width: 20px;\n  height: 20px;\n  border: 1px solid #ccc;\n  border-radius: 50%;\n  transition: background-color 0.2s ease;\n}\n\n.checkbox input[type=\"checkbox\"]:checked + .checkmark {\n  background-color: #0078d4;\n  border-color: #0078d4;\n}\n\n.checkbox input[type=\"checkbox\"]:checked + .checkmark:after {\n  content: \"\";\n  display: block;\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n  background-color: #fff;\n  transition: transform 0.2s ease;\n  transform: scale(1);\n}\n\n.checkbox .checkmark:after {\n  content: \"\";\n  display: block;\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n  background-color: transparent;\n  transform: scale(0);\n  transition: transform 0.2s ease;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

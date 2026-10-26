@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mrhyddenn-witty-deer-83-4c6709",
+  "title": "Loader by mrhyddenn (witty-deer-83)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/witty-deer-83",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "fluid",
+    "water"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_witty-deer-83.html",
+  "code": "<div class=\"loader\">\n    <span>uiverse</span>\n    <span>uiverse</span>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader, fluid, water */\n.loader {\n  position: relative;\n}\n\n.loader span {\n  position: absolute;\n  color: #fff;\n  transform: translate(-50%, -50%);\n  font-size: 38px;\n  letter-spacing: 5px;\n}\n\n.loader span:nth-child(1) {\n  color: transparent;\n  -webkit-text-stroke: 0.3px rgb(128, 198, 255);\n}\n\n.loader span:nth-child(2) {\n  color: rgb(128, 198, 255);\n  -webkit-text-stroke: 1px rgb(128, 198, 255);\n  animation: uiverse723 3s ease-in-out infinite;\n}\n\n@keyframes uiverse723 {\n  0%, 100% {\n    clip-path: polygon(0% 45%, 15% 44%, 32% 50%, \n     54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);\n  }\n\n  50% {\n    clip-path: polygon(0% 60%, 16% 65%, 34% 66%, \n     51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

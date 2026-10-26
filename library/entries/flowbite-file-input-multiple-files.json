@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-file-input-multiple-files",
+  "title": "File Input: Multiple files (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/file-input/#multiple-files",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "file-input",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Apply the `multiple` attribute to the file input component to allow more files to be uploaded.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/file-input.md",
+  "code": "<label class=\"block mb-2.5 text-sm font-medium text-heading\" for=\"multiple_files\">Upload multiple files</label>\n<input class=\"cursor-pointer bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full shadow-xs placeholder:text-body\" id=\"multiple_files\" type=\"file\" multiple>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

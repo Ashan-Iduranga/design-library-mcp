@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-ilkhoeri-blue-zebra-2-e19bbe",
+  "title": "Toggle by ilkhoeri (blue-zebra-2)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ilkhoeri/blue-zebra-2",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ilkhoeri on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/ilkhoeri_blue-zebra-2.html",
+  "code": "<div class=\"switch-wrap\">\n  <input\n    class=\"switch-input\"\n    aria-label=\"switch\"\n    name=\"switch\"\n    id=\"switch\"\n    type=\"checkbox\"\n    hidden=\"\"\n  />\n  <label class=\"switch-label\" for=\"switch\"></label>\n  <span class=\"switch-marbles\"></span>\n</div>\n\n<style>\n/* From Uiverse.io by ilkhoeri  - Tags: switch */\n.switch-wrap {\n  z-index: 20;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 9999px;\n  width: calc(var(--w-switch) + calc(var(--p) * 2));\n  height: calc(var(--h-switch) + calc(var(--p) * 2));\n  box-shadow: hsla(var(--pure-black), 0.25) 2px -5px 4px inset,\n    hsla(var(--pure-black), 0.25) 0px 2px 5px -1px,\n    hsla(var(--pure-black), 0.3) 0 1px 3px -1px,\n    0 70px 40px -20px hsla(var(--pure-black), 0.2),\n    hsla(var(--pure-black), 0.2) 0 0 0 1px inset;\n  --round: 4rem;\n  --pure-black: 0, 0%, 0%;\n  --pure-white: 0, 0%, 100%;\n  --scale-x: calc(1.35 * var(--round));\n  --p: calc(calc(6.25 / 100) * var(--round));\n  --checked: calc(100% - calc(var(--round) + var(--p)));\n  --sz-marbles: calc(var(--w-switch) + calc(var(--p) * 2));\n  --h-switch: calc(var(--round) + calc(var(--p) * 2));\n  --w-switch: calc(calc(var(--round) * 2) + calc(var(--p) * 2));\n  --bg-switch: var(--pure-black);\n  --box: var(--pure-white);\n}\n\n.switch-wrap .switch-input {\n  display: none;\n  background: transparent none;\n  visibility: hidden;\n}\n\n.switch-label {\n  cursor: pointer;\n  user-select: none;\n  position: relative;\n  z-index: 20;\n  width: var(--w-switch);\n  height: var(--h-switch);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  outline: none;\n  background-color: hsl(var(--pure-white));\n  border-radius: 9999px;\n  border-width: 0px;\n  transition: all linear 300ms;\n  box-shadow: var(--shadow);\n  --shadow: hsla(var(--pure-black), 0.4) 0 2px 4px,\n    hsla(var(--pure-black), 0.3) 0 7px 13px -3px,\n    hsla(var(--pure-black), 0.25) -2px -5px 4px inset,\n    hsla(var(--pure-black), 0.2) 0 0 0 1px inset;\n}\n\n.switch-label::after {\n  position: absolute;\n  display: block;\n  content: \"\";\n  width: var(--round);\n  height: var(--round);\n  left: var(--p);\n  border-radius: 9999px;\n  background-color: hsl(0, 0%, 100%);\n  will-change: left, width, margin, padding;\n  box-shadow: var(--shadow);\n  transition: left 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275),\n    width 300ms ease, padding 300ms ease, margin 300ms ease,\n    background-color 300ms ease, box-shadow 300ms linear;\n}\n\n.switch-input + .switch-label:active::after {\n  width: var(--scale-x);\n  --shadow: hsla(var(--pure-black), 0.4) 0 2px 4px,\n    hsla(var(--pure-black), 0.3) 0 7px 13px -3px,\n    hsla(var(--pure-black), 0.25) 0px -2px 8px 6px inset,\n    hsla(var(--pure-black), 0.25) 0 0 0 1px inset;\n}\n\n.switch-input:checked + .switch-label {\n  --shadow: hsla(var(--pure-black), 0.4) 0 2px 4px,\n    hsla(var(--pure-black), 0.3) 0 7px 13px -3px,\n    hsla(var(--pure-black), 0.25) 2px -5px 4px inset,\n    hsla(var(--pure-black), 0.2) 0 0 0 1px inset;\n  --bg-switch: var(--pure-white);\n  --box: var(--pure-black);\n}\n\n.switch-input:checked + .switch-label::after {\n  background: white linear-gradient(-45deg, #f8acff 0%, #696eff 100%);\n  left: var(--checked);\n}\n\n.switch-input:checked + .switch-label:active::after {\n  margin-left: calc(calc(var(--checked) - var(--scale-x)) - var(--p));\n}\n\n.switch-marbles {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n  border-radius: 9999px;\n}\n\n.switch-marbles::after {\n  height: var(--sz-marbles);\n  width: var(--sz-marbles);\n  z-index: 0;\n  content: \"\";\n  position: absolute;\n  border-radius: 9999px;\n}\n\n.switch-marbles::before {\n  content: \"\";\n  height: var(--sz-marbles);\n  width: var(--sz-marbles);\n  position: absolute;\n  border-radius: 9999px;\n  z-index: -1;\n  background-image: linear-gradient(-45deg, #f8acff 0%, #696eff);\n  filter: blur(20px);\n  opacity: var(0.7);\n  animation: rotate 4000ms linear running infinite;\n}\n\n@keyframes rotate {\n  to {\n    rotate: 360deg;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-spj2401dev-lucky-moth-60-9466cd",
+  "title": "Radio by spj2401Dev (lucky-moth-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/spj2401Dev/lucky-moth-60",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By spj2401Dev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/spj2401Dev_lucky-moth-60.html",
+  "code": "<fieldset>\n  <legend>Frameworks</legend>\n\n  <div class=\"button-group\">\n    <input type=\"radio\" id=\"svelt\" name=\"frameworks\" checked=\"\" />\n    <label for=\"svelt\">Svelt</label>\n  </div>\n\n  <div class=\"button-group\">\n    <input type=\"radio\" id=\"react\" name=\"frameworks\" />\n    <label for=\"react\">React</label>\n  </div>\n\n  <div class=\"button-group\">\n    <input type=\"radio\" id=\"vue\" name=\"frameworks\" />\n    <label for=\"vue\">Vue</label>\n  </div>\n</fieldset>\n\n<style>\n/* From Uiverse.io by spj2401Dev  - Tags:  */\n.button-group {\n  flex-grow: 1;\n  margin: auto;\n}\n\n.button-group input[type=\"radio\"] {\n  display: none;\n}\n\n.button-group label {\n  display: inline-block;\n  padding: 10px 20px;\n  cursor: pointer;\n  border: 1px solid #2b426d;\n  background-color: #385c7e;\n  color: white;\n  border-radius: 15px;\n  transition: all ease 0.2s;\n  text-align: center;\n  flex-grow: 1;\n  flex-basis: 0;\n  width: 90px;\n  font-size: 13px;\n  margin: 5px;\n  box-shadow: 0px 0px 50px -15px #000000;\n}\n\n.button-group input[type=\"radio\"]:checked + label {\n  background-color: white;\n  color: #02375a;\n  border: 1px solid #2b426d;\n}\n\nfieldset {\n  border: 0;\n  display: flex;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

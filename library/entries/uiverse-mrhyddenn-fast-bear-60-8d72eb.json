@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-fast-bear-60-8d72eb",
+  "title": "Loader by mrhyddenn (fast-bear-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/fast-bear-60",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_fast-bear-60.html",
+  "code": "<div class=\"mover\"></div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.mover {\n  background: rgba(248, 25, 25, 0.979);\n  height: 10px;\n  width: 80px;\n  border-radius: 10px;\n  position: relative;\n  animation: mover5 2s ease-in-out infinite;\n}\n\n.mover::before,\n.mover::after {\n  content: '';\n  position: absolute;\n  height: 10px;\n  border-radius: 10px;\n  left: 20px;\n  animation: mover5 2s ease-in-out infinite;\n}\n\n.mover::before {\n  background: rgb(201, 1, 1);\n  top: 20px;\n  width: 50px;\n}\n\n.mover::after {\n  background: rgb(255, 116, 106);\n  top: -20px;\n  width: 60px;\n}\n\n@keyframes mover5 {\n  0% {\n    transform: translateX(30px) scale(1);\n  }\n\n  50% {\n    transform: translateX(-30px) scale(1.1);\n  }\n\n  100% {\n    transform: translateX(30px) scale(1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

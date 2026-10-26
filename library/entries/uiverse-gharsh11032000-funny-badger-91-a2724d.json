@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-gharsh11032000-funny-badger-91-a2724d",
+  "title": "Form by gharsh11032000 (funny-badger-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/funny-badger-91",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "password",
+    "simple-form",
+    "forgot-password"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/gharsh11032000_funny-badger-91.html",
+  "code": "<div class=\"form-container\">\n      <div class=\"logo-container\">\n        Forgot Password\n      </div>\n\n      <form class=\"form\">\n        <div class=\"form-group\">\n          <label for=\"email\">Email</label>\n          <input type=\"text\" id=\"email\" name=\"email\" placeholder=\"Enter your email\" required=\"\">\n        </div>\n\n        <button class=\"form-submit-btn\" type=\"submit\">Send Email</button>\n      </form>\n\n      <p class=\"signup-link\">\n        Don't have an account?\n        <a href=\"#\" class=\"signup-link link\"> Sign up now</a>\n      </p>\n    </div>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: form, password, simple form, forgot password */\n.form-container {\n  max-width: 400px;\n  background-color: #fff;\n  padding: 32px 24px;\n  font-size: 14px;\n  font-family: inherit;\n  color: #212121;\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  box-sizing: border-box;\n  border-radius: 10px;\n  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);\n}\n\n.form-container button:active {\n  scale: 0.95;\n}\n\n.form-container .logo-container {\n  text-align: center;\n  font-weight: 600;\n  font-size: 18px;\n}\n\n.form-container .form {\n  display: flex;\n  flex-direction: column;\n}\n\n.form-container .form-group {\n  display: flex;\n  flex-direction: column;\n  gap: 2px;\n}\n\n.form-container .form-group label {\n  display: block;\n  margin-bottom: 5px;\n}\n\n.form-container .form-group input {\n  width: 100%;\n  padding: 12px 16px;\n  border-radius: 6px;\n  font-family: inherit;\n  border: 1px solid #ccc;\n}\n\n.form-container .form-group input::placeholder {\n  opacity: 0.5;\n}\n\n.form-container .form-group input:focus {\n  outline: none;\n  border-color: #1778f2;\n}\n\n.form-container .form-submit-btn {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-family: inherit;\n  color: #fff;\n  background-color: #212121;\n  border: none;\n  width: 100%;\n  padding: 12px 16px;\n  font-size: inherit;\n  gap: 8px;\n  margin: 12px 0;\n  cursor: pointer;\n  border-radius: 6px;\n  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);\n}\n\n.form-container .form-submit-btn:hover {\n  background-color: #313131;\n}\n\n.form-container .link {\n  color: #1778f2;\n  text-decoration: none;\n}\n\n.form-container .signup-link {\n  align-self: center;\n  font-weight: 500;\n}\n\n.form-container .signup-link .link {\n  font-weight: 400;\n}\n\n.form-container .link:hover {\n  text-decoration: underline;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-kareemtolan-tasty-snail-21-e624ea",
+  "title": "Toggle by KareemTolan (tasty-snail-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KareemTolan/tasty-snail-21",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KareemTolan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/KareemTolan_tasty-snail-21.html",
+  "code": "<label class=\"toggle-switch\">\n  <input type=\"checkbox\">\n  <span class=\"toggle-switch__slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by KareemTolan - Tags: switch */\n/* Toggle switch styles */\n.toggle-switch {\n  display: inline-block;\n  position: relative;\n  width: 60px;\n  height: 34px;\n}\n\n.toggle-switch input {\n  display: none;\n}\n\n.toggle-switch__slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  border-radius: 34px;\n  transition: background-color 0.2s ease-in-out;\n}\n\n.toggle-switch__slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  left: 4px;\n  bottom: 4px;\n  background-color: #fff;\n  border-radius: 50%;\n  transition: transform 0.2s ease-in-out;\n}\n\n.toggle-switch input:checked + .toggle-switch__slider {\n  background-color: #2196f3;\n  /* Neon effect */\n  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2196f3, 0 0 40px #2196f3, 0 0 50px #2196f3, 0 0 60px #2196f3, 0 0 70px #2196f3;\n}\n\n.toggle-switch input:checked + .toggle-switch__slider:before {\n  transform: translateX(26px);\n}\n\n/* Shake animation */\n.toggle-switch input:checked + .toggle-switch__slider:before:hover {\n  animation: shake 0.5s ease-in-out;\n}\n\n@keyframes shake {\n  0% {\n    transform: translateX(0);\n  }\n\n  25% {\n    transform: translateX(-5px);\n  }\n\n  50% {\n    transform: translateX(5px);\n  }\n\n  75% {\n    transform: translateX(-5px);\n  }\n\n  100% {\n    transform: translateX(0);\n  }\n}\n\n/* Accessibility styles */\n.toggle-switch input:focus + .toggle-switch__slider {\n  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.5);\n}\n\n.toggle-switch input:focus:not(:checked) + .toggle-switch__slider:before,\n.toggle-switch input:focus:checked + .toggle-switch__slider:before {\n  box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.5);\n}\n\n.toggle-switch input:not(:checked):disabled + .toggle-switch__slider,\n.toggle-switch input:checked:disabled + .toggle-switch__slider {\n  opacity: 0.5;\n  cursor: not-allowed;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-aqfox-clever-eel-67-d58738",
+  "title": "Loader by AqFox (clever-eel-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AqFox/clever-eel-67",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AqFox on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/AqFox_clever-eel-67.html",
+  "code": "<div class=\"spinner\">\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n</div>\n<style>\n/* From Uiverse.io by AqFox - Tags: loader */\n.spinner {\n position: relative;\n width: 56px;\n height: 56px;\n animation: spinner-3a5251 1.25s infinite linear;\n}\n\n.spinner div {\n position: absolute;\n top: 50%;\n left: 50%;\n width: 0;\n height: 0;\n border-left: 3.6px solid transparent;\n border-right: 3.6px solid transparent;\n border-bottom: 10.8px solid #004dff;\n transform-origin: center 10.8px;\n}\n\n.spinner div:before,\n.spinner div:after {\n content: '';\n position: absolute;\n width: 0;\n height: 0;\n display: block;\n border-left: 10.8px solid transparent;\n border-right: 10.8px solid transparent;\n border-bottom: 7.2px solid #004dff;\n}\n\n.spinner div:before {\n transform: translate(-10.8px, 7.2px) rotate(35deg);\n}\n\n.spinner div:after {\n transform: translate(-10.8px, 7.2px) rotate(-35deg);\n}\n\n.spinner div:nth-child(1) {\n transform: translate(-50%, -10.8px) rotate(51.42857deg) translate(0, 320%);\n}\n\n.spinner div:nth-child(2) {\n transform: translate(-50%, -10.8px) rotate(102.85714deg) translate(0, 320%);\n}\n\n.spinner div:nth-child(3) {\n transform: translate(-50%, -10.8px) rotate(154.28571deg) translate(0, 320%);\n}\n\n.spinner div:nth-child(4) {\n transform: translate(-50%, -10.8px) rotate(205.71429deg) translate(0, 320%);\n}\n\n.spinner div:nth-child(5) {\n transform: translate(-50%, -10.8px) rotate(257.14286deg) translate(0, 320%);\n}\n\n.spinner div:nth-child(6) {\n transform: translate(-50%, -10.8px) rotate(308.57143deg) translate(0, 320%);\n}\n\n.spinner div:nth-child(7) {\n transform: translate(-50%, -10.8px) rotate(360deg) translate(0, 320%);\n}\n\n@keyframes spinner-3a5251 {\n to {\n  transform: rotate(360deg);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

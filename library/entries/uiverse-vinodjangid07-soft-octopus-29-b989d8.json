@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vinodjangid07-soft-octopus-29-b989d8",
+  "title": "Toggle by vinodjangid07 (soft-octopus-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/soft-octopus-29",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "hamburger"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/vinodjangid07_soft-octopus-29.html",
+  "code": "<input type=\"checkbox\" id=\"checkbox\">\n    <label for=\"checkbox\" class=\"toggle\">\n        <div class=\"bars\" id=\"bar1\"></div>\n        <div class=\"bars\" id=\"bar2\"></div>\n        <div class=\"bars\" id=\"bar3\"></div>\n    </label>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: switch, hamburger */\n#checkbox {\n  display: none;\n}\n\n.toggle {\n  position: relative;\n  width: 40px;\n  height: 40px;\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  transition-duration: .5s;\n}\n\n.bars {\n  width: 100%;\n  height: 4px;\n  background-color: rgb(176, 92, 255);\n  border-radius: 4px;\n}\n\n#bar2 {\n  transition-duration: .8s;\n}\n\n#bar1,#bar3 {\n  width: 70%;\n}\n\n#checkbox:checked + .toggle .bars {\n  position: absolute;\n  transition-duration: .5s;\n}\n\n#checkbox:checked + .toggle #bar2 {\n  transform: scaleX(0);\n  transition-duration: .5s;\n}\n\n#checkbox:checked + .toggle #bar1 {\n  width: 100%;\n  transform: rotate(45deg);\n  transition-duration: .5s;\n}\n\n#checkbox:checked + .toggle #bar3 {\n  width: 100%;\n  transform: rotate(-45deg);\n  transition-duration: .5s;\n}\n\n#checkbox:checked + .toggle {\n  transition-duration: .5s;\n  transform: rotate(180deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

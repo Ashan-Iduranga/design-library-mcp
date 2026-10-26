@@ -1,0 +1,32 @@
+{
+  "id": "hyperui-application-tabs-3",
+  "title": "Tabs: Vertical",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/tabs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "tabs",
+    "hyperui",
+    "navigation"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/tabs/3.html",
+  "code": "<div class=\"mx-auto max-w-3xl p-6\">\n<div class=\"flex gap-4\">\n<div class=\"border-r border-gray-200\">\n<div class=\"-me-px flex flex-col gap-1\" role=\"tablist\">\n<button aria-selected=\"true\" class=\"border-r-2 border-blue-600 px-4 py-2 text-left text-sm font-medium text-blue-600 transition-colors hover:text-blue-700\" role=\"tab\">\n            General\n          </button>\n<button aria-selected=\"false\" class=\"border-r-2 border-transparent px-4 py-2 text-left text-sm font-medium text-gray-600 transition-colors hover:text-gray-700\" role=\"tab\">\n            Privacy\n          </button>\n<button aria-selected=\"false\" class=\"border-r-2 border-transparent px-4 py-2 text-left text-sm font-medium text-gray-600 transition-colors hover:text-gray-700\" role=\"tab\">\n            Security\n          </button>\n</div>\n</div>\n<div class=\"flex-1\" role=\"tabpanel\">\n<p class=\"text-gray-700\">\n          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt similique, quae hic\n          dicta quo facere facilis praesentium a sunt, est quia pariatur nam, modi aut minus iste\n          odio consectetur molestias iusto cupiditate ullam laborum veniam quos officia. Quos,\n          temporibus perspiciatis!\n        </p>\n</div>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-muskri-wise-pig-77-09970d",
+  "title": "Button by MusKRI (wise-pig-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MusKRI/wise-pig-77",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MusKRI on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/MusKRI_wise-pig-77.html",
+  "code": "<button class=\"button\">\n  <span></span>\n  Button\n  <span></span>\n</button>\n<style>\n/* From Uiverse.io by MusKRI - Source: https://www.youtube.com/watch?v=e3w9liPXSi4 - Tags: button, active, ripple */\n.button {\n  padding: 15px 40px;\n  background: linear-gradient(to right, #09021c, #0c061d);\n  color: white;\n  border: 1px solid transparent;\n  border-radius: 8px;\n  cursor: pointer;\n  transition: all 300ms ease-in-out;\n  position: relative;\n  isolation: isolate;\n  overflow: hidden;\n}\n\n.button > span {\n  position: absolute;\n  z-index: -1;\n  background: transparent;\n  opacity: 0.5;\n  width: 33.333%;\n  height: 100%;\n}\n\n.button > :first-child {\n  left: 0;\n  top: 0;\n}\n\n.button > :last-child {\n  right: 0;\n  top: 0;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  background: hsl(236, 19%, 25%);\n  opacity: 0;\n  width: 10%;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  inset: 0;\n  margin: auto;\n  transition: opacity 1000ms 200ms ease-in-out, transform 200ms ease-in-out;\n}\n\n.button:active::before {\n  transform: scale(13);\n  opacity: 1;\n  transition: all 400ms ease-in-out;\n}\n\n.button:has(:first-child:active)::before {\n  margin-left: 0;\n}\n\n.button:has(:last-child:active)::before {\n  margin-right: 0;\n}\n\n.button:has(:first-child:active)::before,\n.button:has(:last-child:active)::before {\n  transition: all 400ms ease-in-out;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

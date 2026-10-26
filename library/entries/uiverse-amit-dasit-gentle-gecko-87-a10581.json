@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-amit-dasit-gentle-gecko-87-a10581",
+  "title": "Button by AmIt-DasIT (gentle-gecko-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AmIt-DasIT/gentle-gecko-87",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AmIt-DasIT on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/AmIt-DasIT_gentle-gecko-87.html",
+  "code": "<div class=\"box\">\n  <div class=\"arrow right\"></div>\n  <div class=\"text\">Learn More</div>\n</div>\n<style>\n/* From Uiverse.io by AmIt-DasIT - Tags: button */\n.box {\n  width: 45px;\n  height: 45px;\n  background: #5cda5c;\n  border-radius: 25px;\n  display: flex;\n  justify-items: center;\n  justify-content: center;\n  align-items: center;\n  transition: 0.3s;\n  cursor: pointer;\n  position: relative;\n}\n\n.arrow {\n  border: solid black;\n  border-width: 0 3px 3px 0;\n  display: inline-block;\n  padding: 3px;\n}\n\n.right {\n  transform: rotate(-45deg);\n}\n\n.box:hover {\n  width: 160px;\n  background: linear-gradient(to right, #26d526, yellow);\n}\n\n.box:hover .arrow {\n  display: none;\n}\n\n.box .text {\n  display: none;\n}\n\n.box:hover .text {\n  display: flex;\n  font-size: 16px;\n  font-weight: 550;\n  color: black;\n  letter-spacing: 0.6px;\n  animation: anima 0.6s ease;\n}\n\n@keyframes anima {\n  0% {\n    opacity: 0;\n  }\n\n  100% {\n    opacity: 1;\n  }\n}\n\n.box:active {\n  background: linear-gradient(to right, rgb(38, 213, 38, 0.8), rgba(255, 255, 0, 0.8));\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cornerstone-04-rude-snake-92-66b035",
+  "title": "Button by Cornerstone-04 (rude-snake-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cornerstone-04/rude-snake-92",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cornerstone-04 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Cornerstone-04_rude-snake-92.html",
+  "code": "<button>\n    Hover\n</button>\n<style>\n/* From Uiverse.io by Cornerstone-04 - Tags: button */\nbutton {\n  display: flex;\n  align-items: center;\n  color: #000;\n  background: none;\n  border: none;\n  padding: 12px 18px;\n  position: relative;\n  font-size: 1rem;\n  text-transform: uppercase;\n  font-weight: 700;\n  font-family: monospace;\n  transition: linear .3s;\n}\n\nbutton:hover {\n  color: #fff;\n}\n\nbutton::before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%) translateX(calc(100% + 4px));\n  width: 45px;\n  height: 45px;\n  background-color: #dc143c;\n  border-radius: 50px;\n  transition: transform .25s .25s cubic-bezier(0, 0, .5, 2), width .25s cubic-bezier(0, 0, .5, 2);\n  z-index: -1;\n}\n\nbutton:hover::before {\n  width: 100%;\n  transform: translateY(-50%) translateX(-18px);\n  transition: transform .25s cubic-bezier(0,0,.5,2);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

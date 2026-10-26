@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-tooltips-placement",
+  "title": "Tooltip: Placement (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/tooltips/#placement",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "tooltip",
+    "tooltips",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "The positioning of the tooltip element relative to the triggering element (eg. button, link) can be set using the `data-tooltip-placement=\"{top|right|bottom|left}\"` data attribute.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/tooltips.md",
+  "code": "<!-- Show tooltip on top -->\n\n<button data-tooltip-target=\"tooltip-top\" data-tooltip-placement=\"top\" type=\"button\" class=\"mb-2 md:mb-0 text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Tooltip top</button>\n\n<div id=\"tooltip-top\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-dark rounded-base shadow-xs opacity-0 tooltip\">\n    Tooltip on top\n    <div class=\"tooltip-arrow\" data-popper-arrow></div>\n</div>\n\n<!-- Show tooltip on right -->\n\n<button data-tooltip-target=\"tooltip-right\" data-tooltip-placement=\"right\" type=\"button\" class=\"ms-3 mb-2 md:mb-0 text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Tooltip right</button>\n\n<div id=\"tooltip-right\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-dark rounded-base shadow-xs opacity-0 tooltip\">\n    Tooltip on right\n    <div class=\"tooltip-arrow\" data-popper-arrow></div>\n</div>\n\n<!-- Show tooltip on bottom -->\n\n<button data-tooltip-target=\"tooltip-bottom\" data-tooltip-placement=\"bottom\" type=\"button\" class=\"ms-3 mb-2 md:mb-0 text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Tooltip bottom</button>\n\n<div id=\"tooltip-bottom\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-dark rounded-base shadow-xs opacity-0 tooltip\">\n    Tooltip on bottom\n    <div class=\"tooltip-arrow\" data-popper-arrow></div>\n</div>\n\n<!-- Show tooltip on left -->\n\n<button data-tooltip-target=\"tooltip-left\" data-tooltip-placement=\"left\" type=\"button\" class=\"ms-3 mb-2 md:mb-0 text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Tooltip left</button>\n\n<div id=\"tooltip-left\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-dark rounded-base shadow-xs opacity-0 tooltip\">\n    Tooltip on left\n    <div class=\"tooltip-arrow\" data-popper-arrow></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

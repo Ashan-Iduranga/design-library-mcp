@@ -1,0 +1,36 @@
+{
+  "id": "magicui-cool-mode-demo",
+  "title": "Cool Mode Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/cool-mode",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "cool",
+    "mode",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing cool mode effect for buttons and links.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/cool-mode-demo.tsx",
+  "code": "import { Button } from \"@/components/ui/button\"\nimport { CoolMode } from \"@/registry/magicui/cool-mode\"\n\nexport default function CoolModeDemo() {\n  return (\n    <div className=\"relative justify-center\">\n      <CoolMode>\n        <Button>Click Me!</Button>\n      </CoolMode>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

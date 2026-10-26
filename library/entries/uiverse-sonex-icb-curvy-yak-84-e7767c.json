@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-sonex-icb-curvy-yak-84-e7767c",
+  "title": "Form by sonex-ICB (curvy-yak-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/sonex-ICB/curvy-yak-84",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "simple",
+    "login-form",
+    "subscribe"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By sonex-ICB on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/sonex-ICB_curvy-yak-84.html",
+  "code": "<div class=\"form\">\n  <input placeholder=\"Email Address\" class=\"input\" type=\"text\" />\n  <div class=\"btn\">SUBSCRIBE</div>\n</div>\n\n<style>\n/* From Uiverse.io by sonex-ICB  - Tags: simple, form, login form, subscribe */\n.input,\n.btn {\n  border: 0;\n  outline: 0;\n  padding: 10px;\n  text-align: center;\n  font-weight: 700;\n  color: gray;\n  font-family: \"Segoe UI\", Tahoma, Geneva, Verdana, sans-serif;\n  font-size: 14px;\n  border-radius: 18px 18px 0px 0px;\n}\n.btn {\n  border-radius: 0px 0px 18px 18px;\n  background-color: #c6cf9b;\n  color: #f6eca9;\n  cursor: pointer;\n  transition: 0.5s;\n}\n.form {\n  padding: 4px;\n  background-color: #f6eca9;\n  display: flex;\n  flex-direction: column;\n  border-radius: 18px;\n  box-shadow: 0px 0px 3px 1px #c6cf9b;\n}\n.form:hover {\n  box-shadow: 0px 0px 3px 1px rgb(162, 157, 157);\n}\n.btn:hover {\n  background-color: #f6eca9;\n  color: #c6cf9b;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

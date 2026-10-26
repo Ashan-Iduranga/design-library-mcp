@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-pradipkaityuiux-mean-yak-69-cc3bf8",
+  "title": "Loader by pradipkaityuiux (mean-yak-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/pradipkaityuiux/mean-yak-69",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "circle-loader",
+    "click-animation",
+    "line-loader",
+    "loading-animation",
+    "bounce-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By pradipkaityuiux on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/pradipkaityuiux_mean-yak-69.html",
+  "code": "<div class=\"loader\">Loading\n  <span></span>\n</div>\n<style>\n/* From Uiverse.io by pradipkaityuiux - Tags: loading, loader, circle loader, click animation, line loader, loading animation, bounce animation */\n.loader {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 150px;\n  height: 150px;\n  background: transparent;\n  border: 3px solid rgba(0, 102, 255, 0.1);\n  border-radius: 50%;\n  text-align: center;\n  line-height: 150px;\n  font-family: sans-serif;\n  font-size: 20px;\n  color: #0066ff;\n  letter-spacing: 2px;\n  text-transform: uppercase;\n  text-shadow: 0 0 10px #0066ff;\n  box-shadow: 0 0 20px rgba(0, 0, 0, .15);\n}\n\n.loader::before {\n  content: '';\n  position: absolute;\n  top: -3px;\n  left: -3px;\n  width: 100%;\n  height: 100%;\n  border: 3px solid transparent;\n  border-top: 3px solid #0066ff;\n  border-right: 3px solid #0066ff;\n  border-radius: 50%;\n  animation: animateC 2s linear infinite;\n}\n\n.loader span {\n  display: block;\n  position: absolute;\n  top: calc(50% - 2px);\n  left: 50%;\n  width: 50%;\n  height: 4px;\n  background: transparent;\n  transform-origin: left;\n  animation: animate 2s linear infinite;\n}\n\n.loader span::before {\n  content: '';\n  position: absolute;\n  width: 16px;\n  height: 16px;\n  border-radius: 50%;\n  background: #00aeff;\n  top: -6px;\n  right: -8px;\n  box-shadow: 0 0 20px 5px #0066ff;\n}\n\n@keyframes animateC {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes animate {\n  0% {\n    transform: rotate(45deg);\n  }\n\n  100% {\n    transform: rotate(405deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

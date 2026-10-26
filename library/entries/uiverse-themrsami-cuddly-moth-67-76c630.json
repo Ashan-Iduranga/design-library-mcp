@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-themrsami-cuddly-moth-67-76c630",
+  "title": "Form by themrsami (cuddly-moth-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/themrsami/cuddly-moth-67",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "css",
+    "themrsami",
+    "signupform",
+    "ligherversion"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By themrsami on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/themrsami_cuddly-moth-67.html",
+  "code": "<!-- From Uiverse.io by themrsami - Tags: form, css, tailwindcss, themrsami, signupform, ligherversion -->\n<div class=\"flex flex-col items-center justify-center h-screen\">\n  <div class=\"w-full max-w-md bg-white rounded-lg shadow-md p-6\">\n    <h2 class=\"text-2xl font-bold text-gray-900 mb-4\">Sign Up</h2>\n    <form class=\"flex flex-col\">\n      <input placeholder=\"First Name\" class=\"bg-gray-100 text-gray-900 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"text\">\n      <input placeholder=\"Last Name\" class=\"bg-gray-100 text-gray-900 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"text\">\n      <input placeholder=\"Email\" class=\"bg-gray-100 text-gray-900 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"email\">\n      <input placeholder=\"Confirm Email\" class=\"bg-gray-100 text-gray-900 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"email\">\n      <input placeholder=\"Password\" class=\"bg-gray-100 text-gray-900 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"password\">\n      <input placeholder=\"Confirm Password\" class=\"bg-gray-100 text-gray-900 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"password\">\n      <label class=\"text-sm mb-2 text-gray-900 cursor-pointer\" for=\"gender\">\n        Gender\n      </label>\n      <select class=\"bg-gray-100 text-gray-900 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" id=\"gender\">\n        <option value=\"male\">Male</option>\n        <option value=\"female\">Female</option>\n        <option value=\"other\">Other</option>\n      </select>\n      <label class=\"text-sm mb-2 text-gray-900 cursor-pointer\" for=\"age\">\n        Age\n      </label>\n      <input class=\"bg-gray-100 text-gray-900 border-0 rounded-md p-2\" id=\"age\" type=\"date\">\n      <p class=\"text-gray-900 mt-4\"> Already have an account? <a class=\"text-sm text-blue-500 -200 hover:underline mt-4\" href=\"#\">Login</a></p>\n      <button class=\"bg-gradient-to-r from-indigo-500 to-blue-500 text-white font-bold py-2 px-4 rounded-md mt-4 hover:bg-indigo-600 hover:to-blue-600 transition ease-in-out duration-150\" type=\"submit\">Sign Up</button>\n    </form>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

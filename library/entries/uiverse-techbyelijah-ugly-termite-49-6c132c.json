@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-techbyelijah-ugly-termite-49-6c132c",
+  "title": "Loader by TechByElijah (ugly-termite-49)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TechByElijah/ugly-termite-49",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animated",
+    "superhero",
+    "webstorm",
+    "comicbook",
+    "spiderman"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TechByElijah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/TechByElijah_ugly-termite-49.html",
+  "code": "<div class=\"container center\">\n  <div class=\"rope center\">\n    <div class=\"legs center\">\n      <div class=\"boot-l\"></div>\n      <div class=\"boot-r\"></div>\n    </div>\n    <div class=\"costume center\">\n      <div class=\"spider\">\n        <div class=\"s1 center\"></div>\n        <div class=\"s2 center\"></div>\n        <div class=\"s3\"></div>\n        <div class=\"s4\"></div>\n      </div>\n      <div class=\"belt center\"></div>\n      <div class=\"hand-r\"></div>\n      <div class=\"hand-l\"></div>\n      <div class=\"neck center\"></div>\n      <div class=\"mask center\">\n        <div class=\"eye-l\"></div>\n        <div class=\"eye-r\"></div>\n      </div>\n      <div class=\"cover center\"></div>\n    </div>\n</div></div>\n<style>\n/* From Uiverse.io by TechByElijah - Tags: loader, animated, superhero, webstorm, comicbook, spiderman */\n.center {\n  position: absolute;\n  transform: translateX(-50%);\n  left: 50%;\n}\n\n.container {\n  height: 31.25em;\n  width: 21.87em;\n  margin-top: -325px;\n}\n\n.rope {\n  height: 13.62em;\n  width: 0.15em;\n  background-color: #ffffff;\n  animation: swing 2s infinite;\n}\n\n@keyframes swing {\n  50% {\n    transform: translateY(-4em);\n  }\n}\n\n.legs {\n  height: 1.12em;\n  width: 7.5em;\n  background-color: transparent;\n  box-shadow: 0 0 0 0.12em #140243, 0 0 0 1.06em #1b1676, 0 0 0 1.18em #140243;\n  top: 12.5em;\n  border-radius: 3.12em;\n}\n\n.boot-l,\n.boot-r {\n  height: 1.25em;\n  width: 2.5em;\n  background-color: #e32832;\n  position: absolute;\n  border: 0.12em solid #140243;\n  bottom: 1.12em;\n}\n\n.boot-l {\n  left: 1em;\n}\n\n.boot-r {\n  transform: rotateY(180deg);\n  left: 3.81em;\n}\n\n.boot-l:before,\n.boot-r:before {\n  content: \"\";\n  position: absolute;\n  width: 0;\n  height: 0;\n  border-bottom: 1.12em solid #140243;\n  border-left: 1.18em solid transparent;\n  bottom: 1.31em;\n  left: 1.46em;\n}\n\n.boot-l:after,\n.boot-r:after {\n  content: \"\";\n  position: absolute;\n  width: 0;\n  height: 0;\n  border-bottom: 1.12em solid #e32832;\n  border-left: 1em solid transparent;\n  right: 0;\n  top: -0.93em;\n}\n\n.costume {\n  height: 6.25em;\n  width: 5.62em;\n  background: linear-gradient(\n    to right,\n    #1b1676 20%,\n    #e32832 20%,\n    #e32832 80%,\n    #1b1676 80%\n  );\n  border: 0.12em solid #140243;\n  top: 14.68em;\n}\n\n.spider {\n  height: 1.87em;\n  width: 0.93em;\n  background-color: #140243;\n  border-radius: 45%;\n  position: absolute;\n  transform: translate(-50%, -50%);\n  top: calc(50% + 0.93em);\n  left: 50%;\n}\n\n.s1,\n.s3 {\n  height: 7.5em;\n  width: 2.5em;\n  border-radius: 0 0 1.37em 1.37em;\n  border-bottom: 0.12em solid #140243;\n  position: absolute;\n}\n\n.s2,\n.s4 {\n  height: 7.5em;\n  width: 3.12em;\n  border-radius: 0 0 1.56em 1.56em;\n  border-bottom: 0.12em solid #140243;\n  position: absolute;\n}\n\n.s1,\n.s2,\n.s3,\n.s4 {\n  left: 50%;\n}\n\n.s1 {\n  bottom: 1.43em;\n}\n\n.s2 {\n  bottom: 0.93em;\n}\n\n.s3,\n.s4 {\n  transform: translateX(-50%) rotateX(180deg);\n}\n\n.s3 {\n  top: 1.43em;\n}\n\n.s4 {\n  top: 0.93em;\n}\n\n.belt {\n  height: 0.43em;\n  width: 5.87em;\n  background-color: #e32832;\n  border: 0.12em solid #140243;\n  top: -0.12em;\n}\n\n.hand-r,\n.hand-l {\n  height: 8.12em;\n  background: linear-gradient(\n    #e32832 4.6em,\n    #140243 4.6em,\n    #140243 4.75em,\n    #1b1676 4.75em,\n    #1b1676 8.12em\n  );\n  width: 1.12em;\n  border: 0.12em solid #140243;\n  border-radius: 1.25em;\n  position: absolute;\n  transform-origin: bottom;\n  bottom: -0.12em;\n}\n\n.hand-r {\n  right: -0.75em;\n  transform: rotate(-22deg);\n}\n\n.hand-l {\n  left: -0.75em;\n  transform: rotate(22deg);\n}\n\n.neck {\n  height: 0.37em;\n  width: 1.25em;\n  background-color: #e32832;\n  bottom: -0.62em;\n  border: 0.12em solid #140243;\n}\n\n.mask {\n  height: 4.65em;\n  width: 4.06em;\n  background-color: #e32832;\n  border-radius: 50% 50% 50% 50% / 54% 54% 46% 46%;\n  border: 0.12em solid #140243;\n  top: 6.56em;\n}\n\n.eye-l,\n.eye-r {\n  height: 0.68em;\n  width: 1.37em;\n  background-color: #ffffff;\n  border-radius: 1.37em 1.37em 0 0;\n  border: 0.12em solid #140243;\n  position: absolute;\n  top: 2.1em;\n}\n\n.eye-l {\n  left: 0.3em;\n}\n\n.eye-r {\n  right: 0.3em;\n}\n\n.cover {\n  height: 3.12em;\n  width: 0.15em;\n  background-color: #ffffff;\n  bottom: 8.12em;\n}\n\n@media screen and (min-width: 600px) {\n  .container {\n    font-size: 20px;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

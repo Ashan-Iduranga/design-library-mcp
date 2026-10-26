@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-vk-uiux-serious-wasp-12-8e2989",
+  "title": "Toggle by vk-uiux (serious-wasp-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vk-uiux/serious-wasp-12",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "animation",
+    "switch",
+    "hamburger",
+    "bars",
+    "css",
+    "toggle-switch",
+    "css-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vk-uiux on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/vk-uiux_serious-wasp-12.html",
+  "code": "<div id=\"menuToggle\">\n  <input id=\"checkbox\" type=\"checkbox\">\n  <label class=\"toggle\" for=\"checkbox\">\n    <div class=\"bar bar--top\"></div>\n    <div class=\"bar bar--middle\"></div>\n    <div class=\"bar bar--bottom\"></div>\n  </label>\n</div>\n<style>\n/* From Uiverse.io by vk-uiux - Tags: animation, switch, hamburger, bars, toggle, css, toggle switch, css effect, interactive, tornado */\n#checkbox {\n  display: none;\n}\n\n.toggle {\n  position: relative;\n  width: 40px;\n  cursor: pointer;\n  margin: auto;\n  display: block;\n  height: calc(4px * 3 + 11px * 2);\n}\n\n.bar {\n  position: absolute;\n  left: 0;\n  right: 0;\n  height: 4px;\n  border-radius: calc(4px / 2);\n  background: #7b52b9;\n  color: inherit;\n  opacity: 1;\n  transition: none 0.35s cubic-bezier(.5,-0.35,.35,1.5) 0s;\n}\n\n/***** Tornado Animation *****/\n\n.bar--top {\n  bottom: calc(50% + 11px + 4px/ 2);\n  transition-property: bottom,transform;\n  transition-delay: calc(0s + 0.35s) * .6;\n}\n\n.bar--middle {\n  top: calc(50% - 4px/ 2);\n  transition-property: opacity,transform;\n  transition-delay: calc(0s + 0.35s * .3);\n}\n\n.bar--bottom {\n  top: calc(50% + 11px + 4px/ 2);\n  transition-property: top,transform;\n  transition-delay: 0s;\n}\n\n#checkbox:checked + .toggle .bar--top {\n  transform: rotate(-135deg);\n  transition-delay: 0s;\n  bottom: calc(50% - 4px/ 2);\n}\n\n#checkbox:checked + .toggle .bar--middle {\n  opacity: 0;\n  transform: rotate(-135deg);\n  transition-delay: calc(0s + 0.35s * .3);\n}\n\n#checkbox:checked + .toggle .bar--bottom {\n  top: calc(50% - 4px/ 2);\n  transform: rotate(-225deg);\n  transition-delay: calc(0s + 0.35s * .6);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

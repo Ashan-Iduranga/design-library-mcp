@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-timepicker-timepicker-with-select",
+  "title": "Timepicker: Timepicker with select (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/timepicker/#timepicker-with-select",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "timepicker",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a select input next to the timepicker to select an option like a timezone.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/timepicker.md",
+  "code": "<form>\n    <label for=\"time\" class=\"block mb-2 text-sm font-medium text-heading\">Select time:</label>\n    <div class=\"flex\">\n        <input type=\"time\" id=\"time\" class=\"rounded-none rounded-s-lg flex-1 block w-full p-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body\" min=\"09:00\" max=\"18:00\" value=\"00:00\" required>\n        <select id=\"timezones\" name=\"timezone\" class=\"rounded-none border border-s-0 rounded-e-lg p-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body\" required>\n            <option value=\"America/New_York\" selected>EST - GMT-5 (New York)</option>\n            <option value=\"America/Los_Angeles\">PST - GMT-8 (Los Angeles)</option>\n            <option value=\"Europe/London\">GMT - GMT+0 (London)</option>\n            <option value=\"Europe/Paris\">CET - GMT+1 (Paris)</option>\n            <option value=\"Asia/Tokyo\">JST - GMT+9 (Tokyo)</option>\n            <option value=\"Australia/Sydney\">AEDT - GMT+11 (Sydney)</option>\n            <option value=\"Canada/Mountain\">MST - GMT-7 (Canada)</option>\n            <option value=\"Canada/Central\">CST - GMT-6 (Canada)</option>\n            <option value=\"Canada/Eastern\">EST - GMT-5 (Canada)</option>\n            <option value=\"Europe/Berlin\">CET - GMT+1 (Berlin)</option>\n            <option value=\"Asia/Dubai\">GST - GMT+4 (Dubai)</option>\n            <option value=\"Asia/Singapore\">SGT - GMT+8 (Singapore)</option>\n         </select>\n    </div>\n</form>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

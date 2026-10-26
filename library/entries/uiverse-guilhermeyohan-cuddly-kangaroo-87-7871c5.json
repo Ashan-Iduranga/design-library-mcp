@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-guilhermeyohan-cuddly-kangaroo-87-7871c5",
+  "title": "Form by guilhermeyohan (cuddly-kangaroo-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/guilhermeyohan/cuddly-kangaroo-87",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By guilhermeyohan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/guilhermeyohan_cuddly-kangaroo-87.html",
+  "code": "<div class=\"container\">\n\t\t<form>\n\t\t\t<label for=\"arquivo\">Choose a file:</label>\n\t\t\t<input accept=\".jpg, .jpeg, .png, .gif, .pdf\" class=\"inpdddut\" name=\"arquivo\" id=\"arquivo\" type=\"file\">\n\t\t\t<input value=\"Send\" type=\"submit\" class=\"inpdddut\">\n\t\t</form>\n\t</div>\n<style>\n/* From Uiverse.io by guilhermeyohan - Tags: form */\n.container {\n  max-width: 300px;\n  margin: 0 auto;\n  padding: 20px;\n  background-color: #13121269;\n  border-radius: 5px;\n}\n\nlabel {\n  font-weight: bold;\n  display: block;\n  margin-bottom: 10px;\n}\n\n.inpdddut[type=\"file\"] {\n  padding: 10px;\n  margin-bottom: 20px;\n  border: none;\n  background-color: #1aa3bb;\n  border-radius: 5px;\n  width: 100%;\n  cursor: pointer;\n}\n\n.inpdddut[type=\"submit\"] {\n  padding: 10px 20px;\n  background-color: #008CBA;\n  color: #fff;\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;\n}\n\n.inpdddut[type=\"submit\"]:hover {\n  background-color: #006F8F;\n}\n    \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

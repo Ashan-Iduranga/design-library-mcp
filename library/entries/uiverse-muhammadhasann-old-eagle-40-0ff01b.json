@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-muhammadhasann-old-eagle-40-0ff01b",
+  "title": "Card by MuhammadHasann (old-eagle-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MuhammadHasann/old-eagle-40",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "product",
+    "card-template",
+    "cool-card"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MuhammadHasann on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/MuhammadHasann_old-eagle-40.html",
+  "code": "<div class=\"card\">\n  <div class=\"image_container\">\n    <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" class=\"image\">\n      <path\n        d=\"M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z\"\n      ></path>\n    </svg>\n  </div>\n  <div class=\"title\">\n    <span>New brand name</span>\n  </div>\n  <div class=\"size\">\n    <span>Size</span>\n    <ul class=\"list-size\">\n      <li class=\"item-list\"><button class=\"item-list-button\">37</button></li>\n      <li class=\"item-list\"><button class=\"item-list-button\">38</button></li>\n      <li class=\"item-list\"><button class=\"item-list-button\">39</button></li>\n      <li class=\"item-list\"><button class=\"item-list-button\">40</button></li>\n      <li class=\"item-list\"><button class=\"item-list-button\">41</button></li>\n    </ul>\n  </div>\n  <div class=\"action\">\n    <div class=\"price\">\n      <span>$299</span>\n    </div>\n    <button class=\"cart-button\">\n      <svg\n        class=\"cart-icon\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.5\"\n        viewBox=\"0 0 24 24\"\n        fill=\"none\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n      >\n        <path\n          d=\"M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z\"\n          stroke-linejoin=\"round\"\n          stroke-linecap=\"round\"\n        ></path>\n      </svg>\n      <span>Add to cart</span>\n    </button>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by MuhammadHasann  - Tags: card, product, card template, cool card */\n.card {\n  --bg-card: #27272a;\n  --primary: #6d28d9;\n  --primary-800: #4c1d95;\n  --primary-shadow: #2e1065;\n  --light: #d9d9d9;\n  --zinc-800: #18181b;\n  --bg-linear: linear-gradient(0deg, var(--primary) 50%, var(--light) 125%);\n\n  position: relative;\n\n  display: flex;\n  flex-direction: column;\n  gap: 0.75rem;\n\n  padding: 1rem;\n  width: 14rem;\n  background-color: var(--bg-card);\n\n  border-radius: 1rem;\n}\n\n.image_container {\n  overflow: hidden;\n  cursor: pointer;\n\n  position: relative;\n  z-index: 5;\n\n  width: 100%;\n  height: 8rem;\n  background-color: var(--primary-800);\n\n  border-radius: 0.5rem;\n}\n\n.image_container .image {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n\n  width: 3rem;\n  fill: var(--light);\n}\n\n.title {\n  overflow: clip;\n\n  width: 100%;\n\n  font-size: 1rem;\n  font-weight: 600;\n  color: var(--light);\n  text-transform: capitalize;\n  text-wrap: nowrap;\n  text-overflow: ellipsis;\n}\n\n.size {\n  font-size: 0.75rem;\n  color: var(--light);\n}\n\n.list-size {\n  display: flex;\n  align-items: center;\n  gap: 0.25rem;\n\n  margin-top: 0.25rem;\n}\n\n.list-size .item-list {\n  list-style: none;\n}\n\n.list-size .item-list-button {\n  cursor: pointer;\n\n  padding: 0.5rem;\n  background-color: var(--zinc-800);\n\n  font-size: 0.75rem;\n  color: var(--light);\n\n  border: 2px solid var(--zinc-800);\n  border-radius: 0.25rem;\n\n  transition: all 0.3s ease-in-out;\n}\n\n.item-list-button:hover {\n  border: 2px solid var(--light);\n}\n.item-list-button:focus {\n  background-color: var(--primary);\n\n  border: 2px solid var(--primary-shadow);\n\n  box-shadow: inset 0px 1px 4px var(--primary-shadow);\n}\n\n.action {\n  display: flex;\n  align-items: center;\n  gap: 1rem;\n}\n\n.price {\n  font-size: 1.5rem;\n  font-weight: 700;\n  color: var(--light);\n}\n\n.cart-button {\n  cursor: pointer;\n\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 0.25rem;\n\n  padding: 0.5rem;\n  width: 100%;\n  background-image: var(--bg-linear);\n\n  font-size: 0.75rem;\n  font-weight: 500;\n  color: var(--light);\n  text-wrap: nowrap;\n\n  border: 2px solid hsla(262, 83%, 58%, 0.5);\n  border-radius: 0.5rem;\n  box-shadow: inset 0 0 0.25rem 1px var(--light);\n}\n\n.cart-button .cart-icon {\n  width: 1rem;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

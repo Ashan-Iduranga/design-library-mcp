@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-deri-kurniawan-moody-lion-47-d1c677",
+  "title": "Button by Deri-Kurniawan (moody-lion-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Deri-Kurniawan/moody-lion-47",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "colorful",
+    "btn",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Deri-Kurniawan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Deri-Kurniawan_moody-lion-47.html",
+  "code": "<button class=\"button\">\n  <div class=\"light-border\">Colorful Shiny</div>\n</button>\n\n<style>\n/* From Uiverse.io by Deri-Kurniawan  - Tags: button, colorful, btn, hover effect */\n.button {\n  position: relative;\n  cursor: pointer;\n  padding: 6px 6px;\n  position: relative;\n  background: linear-gradient(\n    75deg,\n    rgba(192, 97, 237, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(255, 255, 255, 0.4),\n    rgba(252, 144, 98, 0.8),\n    rgba(252, 144, 98, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(228, 89, 199, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(228, 89, 199, 0.8)\n  );\n  border: 1.5px solid transparent;\n  border-radius: 12px;\n  inset: 0;\n}\n\n.button .light-border {\n  padding: 8px 24px;\n  border: 0.1px solid rgba(255, 255, 255, 0.4);\n  border-radius: 8px;\n  pointer-events: none;\n  transition: all 0.3s ease-in-out;\n  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);\n}\n\n.button:hover {\n  filter: contrast(1.2) brightness(1.2);\n  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);\n  transition: all 0.3s ease-in-out;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

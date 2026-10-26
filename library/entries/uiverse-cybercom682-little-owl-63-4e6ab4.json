@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-cybercom682-little-owl-63-4e6ab4",
+  "title": "Button by Cybercom682 (little-owl-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cybercom682/little-owl-63",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "send",
+    "mastery",
+    "replica"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cybercom682 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Cybercom682_little-owl-63.html",
+  "code": "<button class=\"button\">\n  <svg height=\"15\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\">\n    <path\n      fill=\"transparent\"\n      stroke-width=\"30\"\n      stroke=\"black\"\n      d=\"M429.6 92.1c4.9-11.9 2.1-25.6-7-34.7s-22.8-11.9-34.7-7l-352 144c-14.2 5.8-22.2 20.8-19.3 35.8s16.1 25.8 31.4 25.8H224V432c0 15.3 10.8 28.4 25.8 31.4s30-5.1 35.8-19.3l144-352z\"\n    ></path>\n  </svg>\n  &nbsp;Send Message\n</button>\n\n<style>\n/* From Uiverse.io by Cybercom682  - Tags: button, send, mastery, replica */\n.button {\n  cursor: pointer;\n  position: relative;\n  display: flex;\n  padding: 0.8em 0.7em 0.8em 0.7em;\n  border-color: rgba(0, 0, 0, 0.336);\n  box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.158);\n  border-radius: 6px;\n}\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: inherit;\n  box-shadow: inset 0 0 20px rgb(255, 255, 255);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

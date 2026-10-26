@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jaydipprajapati1910-heavy-crab-98-5da134",
+  "title": "Loader by JaydipPrajapati1910 (heavy-crab-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/heavy-crab-98",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "circle",
+    "gold",
+    "golden-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JaydipPrajapati1910_heavy-crab-98.html",
+  "code": "<div class=\"loader\">\n\t<div></div>\n\t<div></div>\n\t<div></div>\n\t<div></div>\n\t<div></div>\n</div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: loader, circle, gold, golden effect  */\n.loader {\n  height: 30px;\n  display: inline-block;\n}\n\n.loader > div {\n  width: 10px;\n  height: 10px;\n  border-radius: 100%;\n  box-shadow: 0 0 10px orange;\n  background: #FFECBA;\n  float: left;\n  margin: 5px;\n  transform: scale(2);\n}\n\n.loader > div:nth-child(1) {\n  animation: anm-BL-53-move1 1s infinite linear;\n}\n\n.loader > div:nth-child(2) {\n  animation: anm-BL-53-move2 1s infinite linear;\n  animation-delay: 0.2s;\n}\n\n.loader > div:nth-child(3) {\n  animation: anm-BL-53-move3 1s infinite linear;\n  animation-delay: 0.3s;\n}\n\n.loader > div:nth-child(4) {\n  animation: anm-BL-53-move4 1s infinite linear;\n  animation-delay: 0.4s;\n}\n\n.loader > div:nth-child(5) {\n  animation: anm-BL-53-move5 1s infinite linear;\n  animation-delay: 0.5s;\n}\n\n@keyframes anm-BL-53-move1 {\n  50% {\n    background: #FFBB00;\n    transform: scale(1);\n  }\n}\n\n@keyframes anm-BL-53-move2 {\n  50% {\n    background: #FFBB00;\n    transform: scale(1);\n  }\n}\n\n@keyframes anm-BL-53-move3 {\n  50% {\n    background: #FFBB00;\n    transform: scale(1);\n  }\n}\n\n@keyframes anm-BL-53-move4 {\n  50% {\n    background: #FFBB00;\n    transform: scale(1);\n  }\n}\n\n@keyframes anm-BL-53-move5 {\n  50% {\n    background: #FFBB00;\n    transform: scale(1);\n  }\n}\n  \n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

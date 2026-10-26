@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jkhuger-giant-dodo-93-a5a4de",
+  "title": "Loader by JkHuger (giant-dodo-93)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/giant-dodo-93",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JkHuger_giant-dodo-93.html",
+  "code": "<div class=\"loader\">\n  <span></span>\n  <span></span>\n  <span></span>\n</div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: loader */\n.loader {\n  position: relative;\n  width: 180px;\n  height: 180px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transform-style: preserve-3d;\n  transform: perspective(500px) rotateX(45deg);\n}\n\n.loader span {\n  position: absolute;\n  display: block;\n  border: 15px solid #fff;\n  box-sizing: border-box;\n  border-radius: 50%;\n  box-shadow: 0 10px 0 #e0e0e0, inset 0 10px 0 #e0e0e0;\n  animation: animate_5013 4.5s ease-in-out infinite;\n}\n\n.loader span:nth-child(1) {\n  animation-delay: 0s;\n}\n\n.loader span:nth-child(2) {\n  animation-delay: 1.5s;\n}\n\n.loader span:nth-child(3) {\n  animation-delay: 3s;\n}\n\n@keyframes animate_5013 {\n  0% {\n    transform: translateZ(-100px);\n    width: 100%;\n    height: 100%;\n  }\n\n  25% {\n    transform: translateZ(100px);\n    width: 100%;\n    height: 100%;\n  }\n\n  50% {\n    transform: translateZ(100px);\n    width: 35%;\n    height: 35%;\n  }\n\n  75% {\n    transform: translateZ(-100px);\n    width: 35%;\n    height: 35%;\n  }\n\n  100% {\n    transform: translateZ(-100px);\n    width: 100%;\n    height: 100%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

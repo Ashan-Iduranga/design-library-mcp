@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-select-select-input-example",
+  "title": "Select: Select input example (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/select/#select-input-example",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "select",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Get started with the default example of a select input component to get a single option selection.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/select.md",
+  "code": "<form class=\"max-w-sm mx-auto\">\n  <label for=\"countries\" class=\"block mb-2.5 text-sm font-medium text-heading\">Select an option</label>\n  <select id=\"countries\" class=\"block w-full px-3 py-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body\">\n    <option selected>Choose a country</option>\n    <option value=\"US\">United States</option>\n    <option value=\"CA\">Canada</option>\n    <option value=\"FR\">France</option>\n    <option value=\"DE\">Germany</option>\n  </select>\n</form>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

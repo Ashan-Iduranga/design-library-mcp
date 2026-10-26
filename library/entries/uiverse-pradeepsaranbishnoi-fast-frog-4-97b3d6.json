@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-fast-frog-4-97b3d6",
+  "title": "Loader by Pradeepsaranbishnoi (fast-frog-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/fast-frog-4",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Pradeepsaranbishnoi_fast-frog-4.html",
+  "code": "<div>\n<div class=\"loader\"></div>\n</div>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: loader */\n.loader {\n  animation: rotate 1s infinite;\n  height: 50px;\n  width: 50px;\n}\n\n.loader:before,\n.loader:after {\n  border-radius: 50%;\n  content: '';\n  display: block;\n  height: 20px;\n  width: 20px;\n}\n\n.loader:before {\n  animation: ball1 1s infinite;\n  background-color: #cb2025;\n  box-shadow: 30px 0 0 #f8b334;\n  margin-bottom: 10px;\n}\n\n.loader:after {\n  animation: ball2 1s infinite;\n  background-color: #00a096;\n  box-shadow: 30px 0 0 #97bf0d;\n}\n\n@keyframes rotate {\n  0% {\n    -webkit-transform: rotate(0deg) scale(0.8);\n    -moz-transform: rotate(0deg) scale(0.8);\n  }\n\n  50% {\n    -webkit-transform: rotate(360deg) scale(1.2);\n    -moz-transform: rotate(360deg) scale(1.2);\n  }\n\n  100% {\n    -webkit-transform: rotate(720deg) scale(0.8);\n    -moz-transform: rotate(720deg) scale(0.8);\n  }\n}\n\n@keyframes ball1 {\n  0% {\n    box-shadow: 30px 0 0 #f8b334;\n  }\n\n  50% {\n    box-shadow: 0 0 0 #f8b334;\n    margin-bottom: 0;\n    -webkit-transform: translate(15px,15px);\n    -moz-transform: translate(15px, 15px);\n  }\n\n  100% {\n    box-shadow: 30px 0 0 #f8b334;\n    margin-bottom: 10px;\n  }\n}\n\n@keyframes ball2 {\n  0% {\n    box-shadow: 30px 0 0 #97bf0d;\n  }\n\n  50% {\n    box-shadow: 0 0 0 #97bf0d;\n    margin-top: -20px;\n    -webkit-transform: translate(15px,15px);\n    -moz-transform: translate(15px, 15px);\n  }\n\n  100% {\n    box-shadow: 30px 0 0 #97bf0d;\n    margin-top: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

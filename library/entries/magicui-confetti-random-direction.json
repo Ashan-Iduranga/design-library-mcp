@@ -1,0 +1,36 @@
+{
+  "id": "magicui-confetti-random-direction",
+  "title": "Confetti Random Direction (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/confetti-random-direction",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "confetti",
+    "random",
+    "direction",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing confetti with random directions.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/confetti-random-direction.tsx",
+  "code": "import { ConfettiButton } from \"@/registry/magicui/confetti\"\n\nexport default function ConfettiButtonDemo() {\n  return (\n    <div className=\"relative\">\n      <ConfettiButton\n        options={{\n          get angle() {\n            return Math.random() * 360\n          },\n        }}\n      >\n        Random Confetti 🎉\n      </ConfettiButton>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

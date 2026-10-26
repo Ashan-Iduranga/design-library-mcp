@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-bocikond-shaggy-pug-39-c512e4",
+  "title": "Card by bociKond (shaggy-pug-39)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/bociKond/shaggy-pug-39",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "animation",
+    "clock",
+    "pulse",
+    "box-shadow",
+    "am/pm",
+    "wrist",
+    "watch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By bociKond on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/bociKond_shaggy-pug-39.html",
+  "code": "<div class=\"one-div\"></div>\n<style>\n/* From Uiverse.io by bociKond - Tags: animation, card, clock, pulse, box-shadow, AM/PM, wrist, watch */\n.one-div {\n  --white: rgb(200,200,200);\n  --black: rgb(50,50,50);\n  --clr: #7BF1A8;\n  --clr1: #b4facf;\n  --clr2: #3E363F;\n  background-color: var(--clr2);\n  width: 190px;\n  height: 190px;\n  border-radius: 50%;\n  position: relative;\n  transition: all 300ms;\n  animation: shadow 1.5s infinite linear;\n}\n\n.one-div:hover {\n  background-color: var(--clr);\n  box-shadow: 0 0 100px var(--clr);\n  border-radius: 1rem;\n  border: 10px solid var(--clr1);\n}\n\n.one-div:hover::before {\n  border-radius: 1rem;\n  color: var(--clr2);\n  font-weight: 900;\n  clip-path: polygon(0% 0%, 100.1% 0%, 91% 50%, 100.1% 100.3%, 0% 100.3%);\n}\n\n.one-div:hover::after {\n  animation-play-state: running;\n}\n\n.one-div::before {\n  content: '14:30pm';\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  position: absolute;\n  background-color: transparent;\n  width: 250px;\n  height: 250px;\n  border-radius: 50%;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  z-index: 1;\n  border: 10px solid var(--clr2);\n  font-size: 2rem;\n  color: var(--clr);\n  transition: all 300ms;\n}\n\n.one-div::after {\n  content: '';\n  position: absolute;\n  background-image: repeating-linear-gradient(0deg, var(--black), var(--black) 4px, transparent 4px, transparent);\n  background-size: 16px 16px;\n  background-position: center;\n  background-color: var(--white);\n  width: 140px;\n  height: 450px;\n  border-radius: 2rem;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  z-index: -2;\n  border-left: 10px solid var(--clr2);\n  border-right: 10px solid var(--clr2);\n  transition: all 300ms;\n  animation: height 1.5s infinite linear;\n  animation-play-state: paused;\n}\n\n@keyframes height {\n  from {\n    height: 450px;\n  }\n\n  50% {\n    height: 400px;\n  }\n\n  to {\n    height: 450px;\n  }\n}\n\n@keyframes shadow {\n  from {\n    box-shadow: 0 0 100px var(--clr);\n  }\n\n  50% {\n    box-shadow: 0 0 100px 50px var(--clr);\n  }\n\n  to {\n    box-shadow: 0 0 100px var(--clr);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

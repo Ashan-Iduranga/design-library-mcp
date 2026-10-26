@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-santhoshsj-dev-short-goat-24-dc7115",
+  "title": "Button by SanthoshSJ-Dev (short-goat-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SanthoshSJ-Dev/short-goat-24",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "blue",
+    "bubble",
+    "plain"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SanthoshSJ-Dev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SanthoshSJ-Dev_short-goat-24.html",
+  "code": "<button class=\"button\">\n  <span>Bubble Button</span>\n  <svg aria-hidden=\"true\" preserveAspectRatio=\"none\" viewBox=\"-5 -5 110 110\">\n    <path d=\"M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0\"></path>\n  </svg>\n</button>\n\n<style>\n/* From Uiverse.io by SanthoshSJ-Dev - Tags: simple, blue, button, bubble, plain */\n.button {\n  appearance: none;\n  background: transparent;\n  border: 0;\n  color: #fff;\n  cursor: pointer;\n  font: inherit;\n  font-weight: 500;\n  line-height: 1;\n  padding: 1em 1.5em;\n  position: relative;\n  transition: filter 0.3s;\n}\n\n.button:hover {\n  filter: brightness(1.1);\n}\n\n.button:active {\n  filter: brightness(0.9);\n}\n\n.button>span {\n  display: block;\n  position: relative;\n  transition: transform 0.3s cubic-bezier(0.68, -0.6, 0.32, 1.6);\n  z-index: 1;\n}\n\n.button:hover>span {\n  transform: scale(1.05);\n}\n\n.button:active>span {\n  transform: scale(0.95);\n}\n\n.button>svg {\n  fill: #0c2cde;\n  position: absolute;\n  top: -5%;\n  left: -5%;\n  width: 110%;\n  height: 110%;\n}\n\n.button>svg>path {\n  transition: 0.3s cubic-bezier(0.68, -0.6, 0.32, 1.6);\n}\n\n.button:hover>svg>path {\n  d: path(\"M0,0 C0,-5 100,-5 100,0 C105,0 105,100 100,100 C100,105 0,105 0,100 C-5,100 -5,0 0,0\");\n}\n\n.button:active>svg>path {\n  d: path(\"M0,0 C30,10 70,10 100,0 C95,30 95,70 100,100 C70,90 30,90 0,100 C5,70 5,30 0,0\");\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

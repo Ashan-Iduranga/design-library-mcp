@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-arturcodecraft-black-chicken-8-fc1bce",
+  "title": "Button by ArturCodeCraft (black-chicken-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ArturCodeCraft/black-chicken-8",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "scroll-to-top",
+    "scroll"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ArturCodeCraft on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ArturCodeCraft_black-chicken-8.html",
+  "code": "<a id=\"scroll-up\" class=\"scroll-up\" href=\"#\">\n\t<svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t<path d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n\t\t<path fill=\"rgba(255,255,255,1)\" d=\"M11.9997 10.8284L7.04996 15.7782L5.63574 14.364L11.9997 8L18.3637 14.364L16.9495 15.7782L11.9997 10.8284Z\">\n\t\t</path>\n\t</svg>\n</a>\n<style>\n/* From Uiverse.io by ArturCodeCraft - Tags: button, scroll to top, scroll */\n/* <reset-style> ============================ */\na {\n  text-decoration: none;\n}\n/* <main-style> ============================ */\n.scroll-up {\n\t/* position: fixed; */\n  right: 3rem;\n  bottom: -50%;\n  z-index: 10;\n  width: 32px;\n  height: 32px;\n  border-radius: 4px;\n  background-color: rgba(29, 29, 31, 0.7);\n  backdrop-filter: saturate(180%) blur(20px);\n  -webkit-backdrop-filter: saturate(180%) blur(20px);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n  transition: bottom .4s, transform .4s;\n}\n\n.scroll-up:hover {\n  transform: translateY(-.25rem);\n}\n\n/* Show scroll-up */\n._show-scroll {\n  bottom: 3rem;\n}\n\n@media (max-width: 1199.98px) {\n  .scroll-up {\n    right: 1rem;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-original-lotfy-jolly-turkey-16-44f8f2",
+  "title": "Tooltip by original-lotfy (jolly-turkey-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/original-lotfy/jolly-turkey-16",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "simple",
+    "material-design",
+    "glassmorphism",
+    "flashy",
+    "action",
+    "purple",
+    "pink"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By original-lotfy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/original-lotfy_jolly-turkey-16.html",
+  "code": "<div class=\"tooltip-container\">\n  <span class=\"tooltip\">this is a test</span>\n  <span class=\"text\">Tooltip</span>\n</div>\n\n<style>\n/* From Uiverse.io by original-lotfy  - Tags: simple, material design, glassmorphism, flashy, tooltip, action, purple, pink */\n/* thsi is a test */\n.tooltip-container {\n  --background: #053c85;\n  position: relative;\n  background: linear-gradient(100deg, #9b40fc, #0acbec);\n  cursor: pointer;\n  transition: all 0.2s;\n  font-size: 17px;\n  padding: 0.7em 1.8em;\n  border-radius: 10px;\n}\n\n.tooltip-container > * {\n  border-radius: 10px;\n}\n\n.tooltip {\n  position: absolute;\n  width: 8rem;\n  top: 1rem;\n  left: 50%;\n  transform: translateX(-50%);\n  padding: 0.3em 0.6em;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.4s;\n  background: linear-gradient(-100deg, #9b40fc, #0acbec);\n}\n\n.tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 0.6em;\n  width: 0.6em;\n  bottom: -0.9em;\n  left: 50%;\n  transform: translate(-50%) rotate(45deg);\n  background: #4b5ef1;\n  box-shadow: 0px 0px 7px #0acbec;\n}\n\n.tooltip-container:hover .tooltip {\n  top: -120%;\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-csemszepp-ugly-bear-28-7b6ff1",
+  "title": "Pattern by csemszepp (ugly-bear-28)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/ugly-bear-28",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "material-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_ugly-bear-28.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  background: #fff;\n  filter: contrast(7);\n  --mask: linear-gradient(red, rgba(0, 0, 0, 0.45));\n}\n\n.container::before {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  background: radial-gradient(#000, transparent) 0 0/1em 1em space;\n  -webkit-mask: var(--mask);\n  mask: var(--mask);\n  content: \"\";\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

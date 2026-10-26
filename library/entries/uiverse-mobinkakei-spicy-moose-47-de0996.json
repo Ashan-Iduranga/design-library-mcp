@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-mobinkakei-spicy-moose-47-de0996",
+  "title": "Toggle by mobinkakei (spicy-moose-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/spicy-moose-47",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "checkbox"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/mobinkakei_spicy-moose-47.html",
+  "code": "<div class=\"toggler\">\n    <input id=\"toggler-1\" name=\"toggler-1\" type=\"checkbox\" value=\"1\">\n    <label for=\"toggler-1\">\n        <svg class=\"toggler-on\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 130.2 130.2\">\n            <polyline class=\"path check\" points=\"100.2,40.2 51.5,88.8 29.8,67.5\"></polyline>\n        </svg>\n        <svg class=\"toggler-off\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 130.2 130.2\">\n            <line class=\"path line\" x1=\"34.4\" y1=\"34.4\" x2=\"95.8\" y2=\"95.8\"></line>\n            <line class=\"path line\" x1=\"95.8\" y1=\"34.4\" x2=\"34.4\" y2=\"95.8\"></line>\n        </svg>\n    </label>\n</div>\n<style>\n/* From Uiverse.io by mobinkakei - Tags: checkbox */\n.toggler {\n  width: 72px;\n  margin: 40px auto;\n}\n\n.toggler input {\n  display: none;\n}\n\n.toggler label {\n  display: block;\n  position: relative;\n  width: 72px;\n  height: 36px;\n  border: 1px solid #d6d6d6;\n  border-radius: 36px;\n  background: #e4e8e8;\n  cursor: pointer;\n}\n\n.toggler label::after {\n  display: block;\n  border-radius: 100%;\n  background-color: #d7062a;\n  content: '';\n  animation-name: toggler-size;\n  animation-duration: 0.15s;\n  animation-timing-function: ease-out;\n  animation-direction: forwards;\n  animation-iteration-count: 1;\n  animation-play-state: running;\n}\n\n.toggler label::after, .toggler label .toggler-on, .toggler label .toggler-off {\n  position: absolute;\n  top: 50%;\n  left: 25%;\n  width: 26px;\n  height: 26px;\n  transform: translateY(-50%) translateX(-50%);\n  transition: left 0.15s ease-in-out, background-color 0.2s ease-out, width 0.15s ease-in-out, height 0.15s ease-in-out, opacity 0.15s ease-in-out;\n}\n\n.toggler input:checked + label::after, .toggler input:checked + label .toggler-on, .toggler input:checked + label .toggler-off {\n  left: 75%;\n}\n\n.toggler input:checked + label::after {\n  background-color: #50ac5d;\n  animation-name: toggler-size2;\n}\n\n.toggler .toggler-on, .toggler .toggler-off {\n  opacity: 1;\n  z-index: 2;\n}\n\n.toggler input:checked + label .toggler-off, .toggler input:not(:checked) + label .toggler-on {\n  width: 0;\n  height: 0;\n  opacity: 0;\n}\n\n.toggler .path {\n  fill: none;\n  stroke: #fefefe;\n  stroke-width: 7px;\n  stroke-linecap: round;\n  stroke-miterlimit: 10;\n}\n\n@keyframes toggler-size {\n  0%, 100% {\n    width: 26px;\n    height: 26px;\n  }\n\n  50% {\n    width: 20px;\n    height: 20px;\n  }\n}\n\n@keyframes toggler-size2 {\n  0%, 100% {\n    width: 26px;\n    height: 26px;\n  }\n\n  50% {\n    width: 20px;\n    height: 20px;\n  }\n}\n \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-doniaskima-heavy-skunk-100-a97196",
+  "title": "Button by doniaskima (heavy-skunk-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/heavy-skunk-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/doniaskima_heavy-skunk-100.html",
+  "code": "<button class=\"btn-25\"><span>Button</span></button>\n\n<style>\n/* From Uiverse.io by doniaskima - Tags: button, animated */\n.btn-25,\n.btn-25 *,\n.btn-25 :after,\n.btn-25 :before,\n.btn-25:after,\n.btn-25:before {\n  border: 0 solid;\n  box-sizing: border-box;\n}\n\n.btn-25 {\n  -webkit-tap-highlight-color: transparent;\n  -webkit-appearance: button;\n  background-color: #000;\n  background-image: none;\n  color: #fff;\n  cursor: pointer;\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,\n    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,\n    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;\n  font-size: 100%;\n  font-weight: 900;\n  line-height: 1.5;\n  margin: 0;\n  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);\n  padding: 0;\n  text-transform: uppercase;\n}\n\n.btn-25:disabled {\n  cursor: default;\n}\n\n.btn-25:-moz-focusring {\n  outline: auto;\n}\n\n.btn-25 svg {\n  display: block;\n  vertical-align: middle;\n}\n\n.btn-25 [hidden] {\n  display: none;\n}\n\n.btn-25 {\n  --background: #000;\n  background: none;\n  overflow: hidden;\n  padding: 0.8rem 3rem;\n  position: relative;\n}\n\n.btn-25 span {\n  display: block;\n  position: relative;\n  transition: transform 0.2s ease;\n}\n\n.btn-25:after,\n.btn-25:before {\n  --tilt: 20px;\n  background: #fff;\n  -webkit-clip-path: polygon(0 50%, 0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);\n  clip-path: polygon(0 50%, 0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);\n  content: \"\";\n  display: block;\n  height: 100%;\n  left: 0;\n  position: absolute;\n  top: 0;\n  transition: -webkit-clip-path 0.2s ease;\n  transition: clip-path 0.2s ease;\n  transition: clip-path 0.2s ease, -webkit-clip-path 0.2s ease;\n  width: 100%;\n  z-index: -1;\n}\n\n.btn-25:after {\n  --thickness: 5px;\n  background: var(--background);\n  height: calc(100% - var(--thickness) * 2);\n  left: var(--thickness);\n  top: var(--thickness);\n  width: calc(100% - var(--thickness) * 2);\n}\n\n.btn-25:hover:after,\n.btn-25:hover:before {\n  -webkit-clip-path: polygon(\n    0 50%,\n    var(--tilt) 0,\n    calc(100% - var(--tilt)) 0,\n    100% 50%,\n    calc(100% - var(--tilt)) 100%,\n    var(--tilt) 100%\n  );\n  clip-path: polygon(\n    0 50%,\n    var(--tilt) 0,\n    calc(100% - var(--tilt)) 0,\n    100% 50%,\n    calc(100% - var(--tilt)) 100%,\n    var(--tilt) 100%\n  );\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

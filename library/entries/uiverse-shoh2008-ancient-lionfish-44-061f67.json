@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-ancient-lionfish-44-061f67",
+  "title": "Loader by Shoh2008 (ancient-lionfish-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/ancient-lionfish-44",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_ancient-lionfish-44.html",
+  "code": "<span class=\"loader\">Loading</span>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  font-size: 48px;\n  display: inline-block;\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  color: #FFF;\n  letter-spacing: 2px;\n  position: relative;\n  box-sizing: border-box;\n}\n\n.loader::after {\n  content: 'Loading';\n  position: absolute;\n  left: 0;\n  top: 0;\n  color: #263238;\n  text-shadow: 0 0 2px #FFF, 0 0 1px #FFF, 0 0 1px #FFF;\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  box-sizing: border-box;\n  animation: animloader 6s linear infinite;\n}\n\n@keyframes animloader {\n  0% {\n    height: 100%;\n  }\n\n  100% {\n    height: 0%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

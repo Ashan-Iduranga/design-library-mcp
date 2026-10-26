@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-annixart-wonderful-liger-82-3b2f0c",
+  "title": "Card by AnnixArt (wonderful-liger-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AnnixArt/wonderful-liger-82",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "action",
+    "social"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AnnixArt on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/AnnixArt_wonderful-liger-82.html",
+  "code": "<div class=\"container\">\n  <div class=\"coffee-header\">\n    <div class=\"coffee-header__buttons coffee-header__button-one\"></div>\n    <div class=\"coffee-header__buttons coffee-header__button-two\"></div>\n    <div class=\"coffee-header__display\"></div>\n    <div class=\"coffee-header__details\"></div>\n  </div>\n  <div class=\"coffee-medium\">\n    <div class=\"coffe-medium__exit\"></div>\n    <div class=\"coffee-medium__arm\"></div>\n    <div class=\"coffee-medium__liquid\"></div>\n    <div class=\"coffee-medium__smoke coffee-medium__smoke-one\"></div>\n    <div class=\"coffee-medium__smoke coffee-medium__smoke-two\"></div>\n    <div class=\"coffee-medium__smoke coffee-medium__smoke-three\"></div>\n    <div class=\"coffee-medium__smoke coffee-medium__smoke-for\"></div>\n    <div class=\"coffee-medium__cup\"></div>\n  </div>\n  <div class=\"coffee-footer\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by AnnixArt  - Tags: action, social, card */\n.container {\n  width: 300px;\n  height: 280px;\n  position: absolute;\n  top: calc(50% - 140px);\n  left: calc(50% - 150px);\n}\n.coffee-header {\n  width: 100%;\n  height: 80px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-color: #ddcfcc;\n  border-radius: 10px;\n}\n.coffee-header__buttons {\n  width: 25px;\n  height: 25px;\n  position: absolute;\n  top: 25px;\n  background-color: #282323;\n  border-radius: 50%;\n}\n.coffee-header__buttons::after {\n  content: \"\";\n  width: 8px;\n  height: 8px;\n  position: absolute;\n  bottom: -8px;\n  left: calc(50% - 4px);\n  background-color: #615e5e;\n}\n.coffee-header__button-one {\n  left: 15px;\n}\n.coffee-header__button-two {\n  left: 50px;\n}\n.coffee-header__display {\n  width: 50px;\n  height: 50px;\n  position: absolute;\n  top: calc(50% - 25px);\n  left: calc(50% - 25px);\n  border-radius: 50%;\n  background-color: #9acfc5;\n  border: 5px solid #43beae;\n  box-sizing: border-box;\n}\n.coffee-header__details {\n  width: 8px;\n  height: 20px;\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background-color: #9b9091;\n  box-shadow: -12px 0 0 #9b9091, -24px 0 0 #9b9091;\n}\n.coffee-medium {\n  width: 90%;\n  height: 160px;\n  position: absolute;\n  top: 80px;\n  left: calc(50% - 45%);\n  background-color: #bcb0af;\n}\n.coffee-medium:before {\n  content: \"\";\n  width: 90%;\n  height: 100px;\n  background-color: #776f6e;\n  position: absolute;\n  bottom: 0;\n  left: calc(50% - 45%);\n  border-radius: 20px 20px 0 0;\n}\n.coffe-medium__exit {\n  width: 60px;\n  height: 20px;\n  position: absolute;\n  top: 0;\n  left: calc(50% - 30px);\n  background-color: #231f20;\n}\n.coffe-medium__exit::before {\n  content: \"\";\n  width: 50px;\n  height: 20px;\n  border-radius: 0 0 50% 50%;\n  position: absolute;\n  bottom: -20px;\n  left: calc(50% - 25px);\n  background-color: #231f20;\n}\n.coffe-medium__exit::after {\n  content: \"\";\n  width: 10px;\n  height: 10px;\n  position: absolute;\n  bottom: -30px;\n  left: calc(50% - 5px);\n  background-color: #231f20;\n}\n.coffee-medium__arm {\n  width: 70px;\n  height: 20px;\n  position: absolute;\n  top: 15px;\n  right: 25px;\n  background-color: #231f20;\n}\n.coffee-medium__arm::before {\n  content: \"\";\n  width: 15px;\n  height: 5px;\n  position: absolute;\n  top: 7px;\n  left: -15px;\n  background-color: #9e9495;\n}\n.coffee-medium__cup {\n  width: 80px;\n  height: 47px;\n  position: absolute;\n  bottom: 0;\n  left: calc(50% - 40px);\n  background-color: #fff;\n  border-radius: 0 0 70px 70px / 0 0 110px 110px;\n}\n.coffee-medium__cup::after {\n  content: \"\";\n  width: 20px;\n  height: 20px;\n  position: absolute;\n  top: 6px;\n  right: -13px;\n  border: 5px solid #fff;\n  border-radius: 50%;\n}\n@keyframes liquid {\n  0% {\n    height: 0px;\n    opacity: 1;\n  }\n  5% {\n    height: 0px;\n    opacity: 1;\n  }\n  20% {\n    height: 62px;\n    opacity: 1;\n  }\n  95% {\n    height: 62px;\n    opacity: 1;\n  }\n  100% {\n    height: 62px;\n    opacity: 0;\n  }\n}\n.coffee-medium__liquid {\n  width: 6px;\n  height: 63px;\n  opacity: 0;\n  position: absolute;\n  top: 50px;\n  left: calc(50% - 3px);\n  background-color: #74372b;\n  animation: liquid 4s 4s linear infinite;\n}\n.coffee-medium__smoke {\n  width: 8px;\n  height: 20px;\n  position: absolute;\n  border-radius: 5px;\n  background-color: #b3aeae;\n}\n@keyframes smokeOne {\n  0% {\n    bottom: 20px;\n    opacity: 0;\n  }\n  40% {\n    bottom: 50px;\n    opacity: 0.5;\n  }\n  80% {\n    bottom: 80px;\n    opacity: 0.3;\n  }\n  100% {\n    bottom: 80px;\n    opacity: 0;\n  }\n}\n@keyframes smokeTwo {\n  0% {\n    bottom: 40px;\n    opacity: 0;\n  }\n  40% {\n    bottom: 70px;\n    opacity: 0.5;\n  }\n  80% {\n    bottom: 80px;\n    opacity: 0.3;\n  }\n  100% {\n    bottom: 80px;\n    opacity: 0;\n  }\n}\n.coffee-medium__smoke-one {\n  opacity: 0;\n  bottom: 50px;\n  left: 102px;\n  animation: smokeOne 3s 4s linear infinite;\n}\n.coffee-medium__smoke-two {\n  opacity: 0;\n  bottom: 70px;\n  left: 118px;\n  animation: smokeTwo 3s 5s linear infinite;\n}\n.coffee-medium__smoke-three {\n  opacity: 0;\n  bottom: 65px;\n  right: 118px;\n  animation: smokeTwo 3s 6s linear infinite;\n}\n.coffee-medium__smoke-for {\n  opacity: 0;\n  bottom: 50px;\n  right: 102px;\n  animation: smokeOne 3s 5s linear infinite;\n}\n.coffee-footer {\n  width: 95%;\n  height: 15px;\n  position: absolute;\n  bottom: 25px;\n  left: calc(50% - 47.5%);\n  background-color: #41bdad;\n  border-radius: 10px;\n}\n.coffee-footer::after {\n  content: \"\";\n  width: 106%;\n  height: 26px;\n  position: absolute;\n  bottom: -25px;\n  left: -8px;\n  background-color: #000;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

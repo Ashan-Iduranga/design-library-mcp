@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-doniaskima-clever-wombat-14-f6d0ae",
+  "title": "Loader by doniaskima (clever-wombat-14)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/clever-wombat-14",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "neumorphism",
+    "flashy"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_clever-wombat-14.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: simple, neumorphism, flashy, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 100px;\n  height: 45px;\n  position: relative;\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background: #000;\n  box-shadow: 0 0 0 50px;\n  clip-path: polygon(-50px -20px,10% -12px,20% 0,calc(50% - 15px) 0,calc(50% - 10px) -20px,calc(50% - 8px) -15px,calc(50% + 8px) -15px,calc(50% + 10px) -20px,calc(50% + 15px) 0,80% 0,90% -12px,calc(100% + 50px) -20px,100% 80%,calc(100% + 10px) calc(100% + 10px),60% 100%,50% calc(100% + 15px),40% 100%,-10px calc(100% + 10px),0 80%);\n}\n\n.loader:after {\n  animation: l9 1s infinite;\n  transform: perspective(300px) translateZ(0px)\n}\n\n@keyframes l9 {\n  to {\n    transform: perspective(300px) translateZ(100px);\n    opacity: 0\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

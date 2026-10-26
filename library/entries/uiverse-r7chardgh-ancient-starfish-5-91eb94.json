@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-r7chardgh-ancient-starfish-5-91eb94",
+  "title": "Button by r7chardgh (ancient-starfish-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/r7chardgh/ancient-starfish-5",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d",
+    "nuclear-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By r7chardgh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/r7chardgh_ancient-starfish-5.html",
+  "code": "<button class=\"button\">\n  <span class=\"base\"></span>\n  <span class=\"red\"></span>\n</button>\n<style>\n/* From Uiverse.io by r7chardgh - Tags: 3d, button, nuclear-button */\n.button {\n  display: flex;\n  position: relative;\n  background: none;\n  border: 0;\n  transform-style: preserve-3d;\n  transform: rotateX(45deg)rotateZ(45deg);\n  cursor: pointer;\n}\n\n.button > .red {\n  position: absolute;\n  width: 1.5em;\n  height: 1.5em;\n  border-radius: 50%;\n  top: 50%;\n  left: 50%;\n  background-color: rgb(255, 49, 49);\n  transform: translate(-50%,-50%);\n  transform-style: preserve-3d;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.red::before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 1em;\n  left: 0;\n  background-color: rgb(255, 49, 49);\n  transform: rotateZ(-45deg) translateY(-.5em);\n  transition: height 150ms, transform 150ms;\n}\n\n.red::after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  border-radius: 50%;\n  background-color: rgb(255, 49, 49);\n  transform: rotateZ(-45deg) translateY(-1em);\n  transition: transform 150ms;\n  border: 1px solid rgb(255, 196, 196);\n}\n\n.button > .base {\n  position: relative;\n  width: 3em;\n  height: 3em;\n  background-color: rgb(245, 216, 90);\n  transform-style: preserve-3d;\n  border-bottom: 1px solid rgb(255, 255, 255);\n  border-right: 1px solid rgb(255, 255, 255);\n}\n\n.base::before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  background-color: rgb(245, 216, 90);\n  transform-origin: bottom;\n  transform: rotateX(90deg);\n  border-right: 1px solid #fff;\n}\n\n.base::after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  background-color: rgb(245, 216, 90);\n  transform-origin: right;\n  transform: rotateY(-90deg);\n  border-left: 1px solid #fff;\n}\n\n.button:active>.red::before {\n  transform: rotateZ(-45deg) translateY(0);\n  height: 0;\n}\n\n.button:active>.red::after {\n  transform: rotateZ(-45deg) translateY(0);\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

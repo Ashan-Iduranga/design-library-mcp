@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-aadium-purple-insect-27-6eed9a",
+  "title": "Button by aadium (purple-insect-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aadium/purple-insect-27",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "twist",
+    "dynamic"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aadium on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/aadium_purple-insect-27.html",
+  "code": "<button class=\"morph-button\"></button>\n\n<style>\n/* From Uiverse.io by aadium - Tags: button, twist, dynamic */\n.morph-button {\n  display: relative;\n  background-color: #66DA43;\n  color: #66DA43;\n  width: 85px;\n  height: 40px;\n  border: 2px solid transparent;\n  cursor: pointer;\n  transition: all 0.3s ease-in-out;\n}\n\n.morph-button:hover {\n  transform: scale(1.5);\n}\n\n.morph-button:active {\n  transform: scale(0.8);\n  background-color: #212121;\n  border: 2px solid #66DA43;\n}\n\n.morph-button:before {\n  content: \"Twist\";\n  display: block;\n  position: absolute;\n  margin-top: -22px;\n  margin-left: -2px;\n  padding: 12px 25px;\n  transform-origin: center;\n  transition: transform 0.3s ease-in-out;\n  z-index: 1;\n  background-color: #212121;\n  border: 2px solid #66DA43;\n}\n\n.morph-button:hover:before {\n  transform: rotate(45deg) scale(1.2);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

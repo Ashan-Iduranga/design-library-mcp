@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-dashrath-sharma-cowardly-dingo-27-76792d",
+  "title": "Button by Dashrath-Sharma (cowardly-dingo-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Dashrath-Sharma/cowardly-dingo-27",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Dashrath-Sharma on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Dashrath-Sharma_cowardly-dingo-27.html",
+  "code": "<button class=\"btn\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by Dashrath-Sharma - Tags: button */\n.btn {\n  border-right: 1px solid #ff758f;\n  border-bottom: 1px solid #ff758f;\n  border-top: 1px solid transparent;\n  border-left: 1px solid transparent;\n  outline: none;\n  background: #f8f9fa;\n  font-size: 17px;\n  padding: 1em 2em;\n  border-radius: .5em;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  overflow: hidden;\n  transition: all .5s;\n  z-index: 1;\n}\n\n.btn:hover {\n  color: #212529;\n  border-right: 1px solid transparent;\n  border-bottom: 1px solid transparent;\n  border-top: 1px solid #ff758f;\n  border-left: 1px solid #ff758f;\n  box-shadow: 1px 1px 0 #f8f9fa,\n             2px 2px 0 #e9ecef,\n             3px 3px 0 #fff0f3,\n             4px 4px 0 #ffb3c1,\n             5px 5px 0 #ff4d6d,\n             6px 6px 0 #6c757d,\n             7px 7px 0 #a4133c,\n             8px 8px 0 #800f2f,\n             9px 9px 0 #212529;\n}\n\n.btn:active {\n  transition: 0s;\n  transform: scale(.93);\n}\n\n.btn::before,\n.btn::after {\n  left: 0;\n  content: '';\n  position: absolute;\n  background: #ffccd5;\n  z-index: -1;\n}\n\n.btn::before {\n  width: 0;\n  height: 10%;\n  transition: width .5s;\n}\n\n.btn:hover::before {\n  width: 100%;\n}\n\n.btn::after {\n  width: 100%;\n  height: 0;\n  border-radius: 100%;\n  transition: all .5s .2s;\n}\n\n.btn:hover::after {\n  height: 100%;\n  border-radius: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

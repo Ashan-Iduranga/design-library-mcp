@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-srinivasaiml-lucky-cat-7-4605ec",
+  "title": "Card by srinivasaiml (lucky-cat-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/srinivasaiml/lucky-cat-7",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By srinivasaiml on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/srinivasaiml_lucky-cat-7.html",
+  "code": "<div class=\"ball1\"></div>\n<div class=\"card\">\n  <p>VISA</p>\n  <div class=\"card-num\">\n    6216 1906 5218 1991\n    <p>VALID : 15 - 04 - 2005</p>\n  </div>\n</div>\n<div class=\"ball2\"></div>\n\n<style>\n/* From Uiverse.io by srinivasaiml  - Tags: card */\n.card {\n  width: 330px;\n  height: 200px;\n  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));\n  border: 2px solid white;\n  border-radius: 20px;\n  backdrop-filter: blur(6px);\n  -webkit-backdrop-filter: blur(10px);\n}\n.ball1 {\n  z-index: -9;\n  position: absolute;\n  height: 150px;\n  width: 150px;\n  border: 0 solid;\n  border-radius: 50%;\n  top: 50px;\n  margin-left: -350px;\n  background: linear-gradient(\n    45deg,\n    rgb(239, 199, 199),\n    rgb(239, 52, 192),\n    rgb(232, 184, 95)\n  );\n}\n.ball2 {\n  position: absolute;\n  height: 150px;\n  width: 150px;\n  border: 0 solid;\n  border-radius: 50%;\n  bottom: 50px;\n  margin-right: -350px;\n  z-index: -1;\n  background: linear-gradient(\n    45deg,\n    rgb(239, 199, 199),\n    rgb(239, 52, 192),\n    rgb(232, 184, 95)\n  );\n}\n.card p {\n  font-size: 20px;\n  text-align: right;\n  padding: 10px;\n  font-weight: 600;\n  color: wheat;\n}\n.card-num {\n  color: hsl(0, 100%, 100%);\n  margin-left: 20px;\n  margin-top: 30px;\n  font-size: 20px;\n  font-weight: 600;\n}\n.card-num p {\n  color: white;\n  font-size: 15px;\n  text-align: start;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

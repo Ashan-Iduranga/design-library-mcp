@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nikk7007-nasty-wasp-56-15d4d8",
+  "title": "Button by nikk7007 (nasty-wasp-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/nikk7007/nasty-wasp-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By nikk7007 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/nikk7007_nasty-wasp-56.html",
+  "code": "<button class=\"btn\"> Button\n</button>\n<style>\n/* From Uiverse.io by nikk7007 - Tags: button */\n.btn {\n --color: #00A97F;\n --color2: rgb(10, 25, 30);\n padding: 0.8em 1.75em;\n background-color: transparent;\n border-radius: 6px;\n border: .3px solid var(--color);\n transition: .5s;\n position: relative;\n overflow: hidden;\n cursor: pointer;\n z-index: 1;\n font-weight: 300;\n font-size: 17px;\n font-family: 'Roboto', 'Segoe UI', sans-serif;\n text-transform: uppercase;\n color: var(--color);\n}\n\n.btn::after, .btn::before {\n content: '';\n display: block;\n height: 100%;\n width: 100%;\n transform: skew(90deg) translate(-50%, -50%);\n position: absolute;\n inset: 50%;\n left: 25%;\n z-index: -1;\n transition: .5s ease-out;\n background-color: var(--color);\n}\n\n.btn::before {\n top: -50%;\n left: -25%;\n transform: skew(90deg) rotate(180deg) translate(-50%, -50%);\n}\n\n.btn:hover::before {\n transform: skew(45deg) rotate(180deg) translate(-50%, -50%);\n}\n\n.btn:hover::after {\n transform: skew(45deg) translate(-50%, -50%);\n}\n\n.btn:hover {\n color: var(--color2);\n}\n\n.btn:active {\n filter: brightness(.7);\n transform: scale(.98);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

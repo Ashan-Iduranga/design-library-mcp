@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bernethe-modern-dolphin-97-43b13c",
+  "title": "Loader by bernethe (modern-dolphin-97)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/bernethe/modern-dolphin-97",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By bernethe on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/bernethe_modern-dolphin-97.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by bernethe - Tags: loader */\n.loader {\n  width: 2rem;\n  height: 2rem;\n  clear: both;\n  margin: 1rem auto;\n  border-radius: 50%;\n  border-left: 0 #000 solid;\n  border-right: 0 #000 solid;\n  animation: spSphere 1s infinite linear;\n}\n\n@keyframes spSphere {\n  0% {\n    border-left: 0 #000 solid;\n    border-right: 0 #000 solid;\n  }\n\n  33% {\n    border-left: 2rem #000 solid;\n    border-right: 0 #000 solid;\n  }\n\n  34% {\n    border-left: 0 #000 solid;\n    border-right: 2rem #000 solid;\n  }\n\n  66% {\n    border-left: 0 #000 solid;\n    border-right: 0 #000 solid;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-arturcodecraft-silly-firefox-72-76d4f7",
+  "title": "Button by ArturCodeCraft (silly-firefox-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ArturCodeCraft/silly-firefox-72",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "apple",
+    "menuicon",
+    "menu-button",
+    "hamburger-menu"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ArturCodeCraft on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ArturCodeCraft_silly-firefox-72.html",
+  "code": "<button class=\"menu__icon\">\n  <span></span>\n  <span></span>\n</button>\n<style>\n/* From Uiverse.io by ArturCodeCraft - Tags: icon, apple, button, menuicon, menu button , hamburger menu */\n/* <reset-style> ============================ */\nbutton {\n  border: none;\n  background: none;\n  padding: 0;\n  margin: 0;\n  cursor: pointer;\n  font-family: inherit;\n}\n/* <main-style> ============================ */\n.menu__icon {\n  width: 2rem;\n  height: 2rem;\n  padding: .25rem;\n  background-color: rgb(29, 29, 31, .7);\n  backdrop-filter: saturate(180%) blur(20px);\n  border: solid 1px rgba(66,66,69,0.7);\n  position: relative;\n}\n\n.menu__icon span {\n  width: 1.5rem;\n  height: 1.5rem;\n  position: absolute;\n  top: calc(.25rem - 1px);\n  left: calc(.25rem - 1px);\n  transition: transform .1806s cubic-bezier(.04,.04,.12,.96);\n}\n\n.menu__icon span:before {\n  content: '';\n  width: 1.5rem;\n  height: .125rem;\n  background-color: #fff;\n  position: absolute;\n  left: 0;\n  transition: transform .1596s cubic-bezier(.52,.16,.52,.84) .1008s;\n}\n\n.menu__icon span:nth-child(1)::before {\n  top: .625rem;\n  transform: translateY(-3px);\n}\n\n.menu__icon span:nth-child(2)::before {\n  bottom: .625rem;\n  transform: translateY(3px);\n}\n\n.menu__icon:hover :nth-child(1),\n.menu__icon:hover :nth-child(2) {\n  transition: transform .3192s cubic-bezier(.04,.04,.12,.96) .1008s;\n}\n\n.menu__icon:hover :nth-child(1)::before,\n.menu__icon:hover :nth-child(2)::before {\n  transform: none;\n  transition: transform .1806s cubic-bezier(.04,.04,.12,.96);\n}\n\n.menu__icon:hover :nth-child(1) {\n  transform: rotate(45deg) translateY(1px);\n}\n\n.menu__icon:hover :nth-child(2) {\n  transform: rotate(-45deg) translateY(-1px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

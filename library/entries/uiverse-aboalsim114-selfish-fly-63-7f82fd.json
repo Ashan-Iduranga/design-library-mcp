@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-aboalsim114-selfish-fly-63-7f82fd",
+  "title": "Form by aboalsim114 (selfish-fly-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aboalsim114/selfish-fly-63",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "3d"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aboalsim114 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/aboalsim114_selfish-fly-63.html",
+  "code": "<form class=\"form\">\n  <input placeholder=\"Enter your name\" class=\"input\" type=\"text\">\n  <input placeholder=\"Enter your email\" class=\"input\" type=\"text\">\n    <input placeholder=\"*********\" class=\"input\" type=\"password\">\n\n  <button>Submit</button>\n</form>\n<style>\n/* From Uiverse.io by aboalsim114 - Tags: 3d, form */\n.form {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  padding: 20px;\n  background: linear-gradient(to bottom, #0077be, #3b8df2);\n  border-radius: 10px;\n  overflow: hidden;\n  perspective: 1000px;\n  transform-style: preserve-3d;\n  transform: rotateX(-10deg);\n  transition: all 0.3s ease-in-out;\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;\n  animation: form-animation 0.5s ease-in-out;\n}\n\n@keyframes form-animation {\n  from {\n    transform: rotateX(-30deg);\n    opacity: 0;\n  }\n\n  to {\n    transform: rotateX(0deg);\n    opacity: 1;\n  }\n}\n\n.input {\n  padding: 10px;\n  border-radius: 5px;\n  background-color: transparent;\n  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;\n  transform-style: preserve-3d;\n  backface-visibility: hidden;\n  color: rgb(255, 255, 255);\n  border: 2px solid #3b8df2;\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;\n}\n\n.input::placeholder {\n  color: #fff;\n}\n\n.input:hover,\n.input:focus {\n  border-color: #3b8df2;\n  background-color: rgba(255, 255, 255, 0.2);\n  transform: scale(1.05) rotateY(20deg);\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);\n  outline: none;\n}\n\nbutton {\n  padding: 10px 20px;\n  border: none;\n  border-radius: 5px;\n  background-color: #3b8df2;\n  color: #fff;\n  font-size: 16px;\n  cursor: pointer;\n  transform-style: preserve-3d;\n  backface-visibility: hidden;\n  transform: rotateX(-10deg);\n  transition: all 0.3s ease-in-out;\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;\n}\n\nbutton:hover {\n  background-color: #0077be;\n  font-size: 17px;\n  transform: scale(1.05) rotateY(20deg) rotateX(10deg);\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

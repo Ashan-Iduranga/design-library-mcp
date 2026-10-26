@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-priyanshugupta28-silly-turtle-43-e664d9",
+  "title": "Card by PriyanshuGupta28 (silly-turtle-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/silly-turtle-43",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "contacts-form"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/PriyanshuGupta28_silly-turtle-43.html",
+  "code": "<div class=\"card\">\n  <p class=\"heading\">Form</p>\n  \n <div class=\"input-div\">\n    <input type=\"text\" class=\"input\" placeholder=\"Email\">\n    </div>\n    <div class=\"input-div\">\n    <input class=\"input\" type=\"text\" placeholder=\"Phone\">\n    </div>\n    <div class=\"input-div\">\n    <input class=\"input\" type=\"text\" placeholder=\"Message\">\n    </div>\n    <div class=\"button-div\">\n      <button class=\"submit\">Submit</button>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: contacts form */\n.card {\n  height: 20rem;\n  background: lightgrey;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  border-top-left-radius: 2rem;\n  border-bottom-right-radius: 2rem;\n  padding: 1rem;\n  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;\n  transition: 0.5s ease-in-out;\n}\n\n.heading {\n  text-align: center;\n  font-weight: 600;\n  padding-top: 1rem;\n  font-size: large;\n}\n\n.input-div {\n  display: flex;\n  margin-top: 1rem;\n  transition: 0.5s ease-in-out;\n}\n\n.card input {\n  background-color: transparent;\n  border: none;\n  border-bottom: 1px solid black;\n  width: 12rem;\n  padding: 8px;\n  outline: none;\n}\n\n.button-div {\n  text-align: center;\n}\n\n.submit {\n  margin-top: 3rem;\n  text-align: center;\n  padding: 8px 3rem;\n  border: none;\n  border-top-left-radius: 1rem;\n  border-bottom-right-radius: 1rem;\n  background-color: black;\n  color: white;\n  transition: 0.5s ease-in-out;\n  cursor: pointer\n}\n\n.submit:hover {\n  box-shadow: rgba(44, 43, 43, 0.664) 5px 5px, rgba(45, 45, 45, 0.3) 10px 10px, rgba(60, 59, 59, 0.2) 15px 15px, rgba(54, 53, 53, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;\n}\n\n.card input::placeholder {\n  color: black;\n}\n\n.input:focus {\n  transition: 0.2s ease-in-out;\n  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;\n}\n\n.input:hover {\n  transition: 0.2s ease-in-out;\n  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

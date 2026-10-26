@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-cuddly-moth-41-9334c6",
+  "title": "Button by mrhyddenn (cuddly-moth-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/cuddly-moth-41",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mrhyddenn_cuddly-moth-41.html",
+  "code": "<button>\n    <a>Hover me</a>\n</button>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: button */\nbutton {\n  background: transparent;\n  color: #fff;\n  font-size: 17px;\n  text-transform: uppercase;\n  font-weight: 600;\n  border: none;\n  padding: 20px 30px;\n  perspective: 30rem;\n  border-radius: 10px;\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308);\n}\n\nbutton::before {\n  content: '';\n  display: block;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  border-radius: 10px;\n  background: linear-gradient(320deg, rgba(0, 140, 255, 0.678), rgba(128, 0, 128, 0.308));\n  z-index: 1;\n  transition: background 3s;\n}\n\nbutton:hover::before {\n  animation: rotate 1s;\n  transition: all .5s;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotateY(180deg);\n  }\n\n  100% {\n    transform: rotateY(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

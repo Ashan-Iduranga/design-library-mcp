@@ -1,0 +1,37 @@
+{
+  "id": "magicui-text-animate-demo-8",
+  "title": "Text Animate Demo 8 (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/text-animate",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "text",
+    "animate",
+    "demo",
+    "8",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Eighth example showing various text animations.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/text-animate-demo-8.tsx",
+  "code": "import { TextAnimate } from \"@/registry/magicui/text-animate\"\n\nexport default function TextAnimateDemo8() {\n  return (\n    <TextAnimate animation=\"blurInUp\" by=\"character\" duration={5}>\n      Blur in by character\n    </TextAnimate>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

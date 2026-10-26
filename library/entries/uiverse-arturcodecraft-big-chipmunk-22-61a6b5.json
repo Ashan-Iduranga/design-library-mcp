@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-arturcodecraft-big-chipmunk-22-61a6b5",
+  "title": "Button by ArturCodeCraft (big-chipmunk-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ArturCodeCraft/big-chipmunk-22",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "theme",
+    "theme-switch",
+    "menu",
+    "menuicon",
+    "menu-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ArturCodeCraft on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ArturCodeCraft_big-chipmunk-22.html",
+  "code": "<div class=\"background\">\n  <button class=\"change-theme__icon\">\n    <span class=\"icon-sun-moon\"></span>\n    <span class=\"sun-rays\">\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n    </span>\n  </button>\n</div>\n<style>\n/* From Uiverse.io by ArturCodeCraft - Tags: icon, button, theme, theme-switch, menu, menuicon, menu button  */\n/* <reset-style> ============================ */\nbutton {\n  border: none;\n  background: none;\n  padding: 0;\n  margin: 0;\n  cursor: pointer;\n  font-family: inherit;\n}\n/* ============================ */\n/* <style for bg> ======== */\n.background {\n  border-radius: 16px;\n  border: 1px solid #1a1a1a;\n  background: rgba(74, 74, 74, 0.39);\n  mix-blend-mode: luminosity;\n  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.20);\n  backdrop-filter: blur(15px);\n  width: 65px;\n  height: 65px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n/* <style for change-theme__icon> ======== */\n.change-theme__icon {\n  width: 32px;\n  height: 32px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  overflow: hidden;\n}\n\n/* .icon-sun-moon */\n.change-theme__icon .icon-sun-moon {\n  width: 11.5px;\n  height: 11.5px;\n  border-radius: 100%;\n  background-color: rgb(28, 28, 30);\n  animation: ease reverse-change-theme .6s forwards;\n  transition: background-color .4s;\n  z-index: 10;\n}\n\n.change-theme__icon:hover .icon-sun-moon {\n  animation: change-theme .4s forwards;\n  background-color: #fff;\n}\n\n@keyframes change-theme {\n  0% {\n    width: 11.5px;\n    height: 11.5px;\n  }\n\n  100% {\n    width: 20px;\n    height: 20px;\n  }\n}\n\n@keyframes reverse-change-theme {\n  0% {\n    width: 20px;\n    height: 20px;\n  }\n\n  50% {\n    width: 10px;\n    height: 10px;\n  }\n\n  100% {\n    width: 11.5px;\n    height: 11.5px;\n  }\n}\n\n/* .icon-sun-moon:before */\n.change-theme__icon .icon-sun-moon:before {\n  content: '';\n  width: 20px;\n  height: 20px;\n  border-radius: 100%;\n  background-color: rgb(49,49,49);\n  position: absolute;\n  top: 2px;\n  right: -2px;\n  transform: translateX(100%) scale(.2);\n  transition: transform .4s;\n}\n\n.change-theme__icon:hover .icon-sun-moon:before {\n  transform: scale(1);\n  transition: transform .4s .12s;\n}\n\n/* sun-rays */\n.sun-rays {\n  width: 22px;\n  height: 22px;\n  position: absolute;\n}\n\n.sun-rays span {\n  width: 2px;\n  height: 4px;\n  border-radius: 2px;\n  background-color: rgb(28, 28, 30);\n  position: absolute;\n}\n\n/* ray */\n.sun-rays span:nth-child(1) {\n  left: 50%;\n  transform: translateX(-50%);\n}\n\n.sun-rays span:nth-child(2) {\n  bottom: 0;\n  left: 50%;\n  transform: translateX(-50%);\n}\n\n.sun-rays span:nth-child(3) {\n  top: 50%;\n  left: 1px;\n  transform: translateY(-50%) rotate(90deg);\n}\n\n.sun-rays span:nth-child(4) {\n  top: 50%;\n  right: 1px;\n  transform: translateY(-50%) rotate(90deg);\n}\n\n.sun-rays span:nth-child(5) {\n  top: 2px;\n  right: 2.5px;\n  transform: rotate(45deg);\n}\n\n.sun-rays span:nth-child(6) {\n  bottom: 2px;\n  left: 2.5px;\n  transform: rotate(45deg);\n}\n\n.sun-rays span:nth-child(7) {\n  top: 2px;\n  left: 2.5px;\n  transform: rotate(-45deg);\n}\n\n.sun-rays span:nth-child(8) {\n  bottom: 2px;\n  right: 2.5px;\n  transform: rotate(-45deg);\n}\n\n.sun-rays {\n  animation: reverse-sun-rays .6s forwards;\n}\n\n.change-theme__icon:hover .sun-rays {\n  animation: ease sun-rays .4s forwards;\n}\n\n@keyframes sun-rays {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(-45deg);\n    opacity: 0;\n  }\n}\n\n@keyframes reverse-sun-rays {\n  0% {\n    transform: rotate(-45deg);\n  }\n\n  50% {\n    transform: rotate(8deg);\n  }\n\n  100% {\n    transform: rotate(0deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-badge-outline",
+  "title": "Badge Outline (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/badge-outline.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "badge",
+    "outline",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Displays a badge or a component that looks like a badge.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/badge-outline.tsx",
+  "code": "import { Badge } from \"@/registry/new-york-v4/ui/badge\"\n\nexport default function BadgeOutline() {\n  return <Badge variant=\"outline\">Outline</Badge>\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

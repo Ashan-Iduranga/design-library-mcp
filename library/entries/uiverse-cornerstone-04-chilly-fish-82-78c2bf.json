@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cornerstone-04-chilly-fish-82-78c2bf",
+  "title": "Loader by Cornerstone-04 (chilly-fish-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cornerstone-04/chilly-fish-82",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cornerstone-04 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Cornerstone-04_chilly-fish-82.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Cornerstone-04 - Tags: loader */\n.loader {\n  width: 50px;\n  height: 50px;\n  position: relative;\n  z-index: 1;\n  transform: translateX(-50%);\n}\n\n.loader::before, \n.loader::after {\n  content: '';\n  position: absolute;\n  width: inherit;\n  height: inherit;\n  border-radius: 50%;\n  mix-blend-mode: multiply;\n  animation: rotate92523 2s infinite cubic-bezier(0.77, 0, 0.175, 1);\n}\n\n.loader::before {\n  background-color: #75e2ff;\n}\n\n.loader::after {\n  background-color: #ff8496;\n  animation-delay: 1s;\n}\n\n@keyframes rotate92523 {\n  0%, 100% {\n    left: 35px;\n  }\n\n  25% {\n    transform: scale(.3);\n  }\n\n  50% {\n    left: 0%;\n  }\n\n  75% {\n    transform: scale(1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

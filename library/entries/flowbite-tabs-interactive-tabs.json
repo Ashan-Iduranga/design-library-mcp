@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-tabs-interactive-tabs",
+  "title": "Tabs: Interactive tabs (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/tabs/#interactive-tabs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "tab",
+    "tabs",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the dynamic tabs component to interactively show and hide the content below the tabs based on the currently active tab item. Make sure that you initialize the component by using the `data-tabs-toggle=\"{parentTabContentSelector}\"` and also apply an `id` attribute to the same element.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/tabs.md",
+  "code": "<div class=\"mb-4 border-b border-default\">\n    <ul class=\"flex flex-wrap -mb-px text-sm font-medium text-center\" id=\"default-tab\" data-tabs-toggle=\"#default-tab-content\" role=\"tablist\">\n        <li class=\"me-2\" role=\"presentation\">\n            <button class=\"inline-block p-4 border-b-2 rounded-t-base\" id=\"profile-tab\" data-tabs-target=\"#profile\" type=\"button\" role=\"tab\" aria-controls=\"profile\" aria-selected=\"false\">Profile</button>\n        </li>\n        <li class=\"me-2\" role=\"presentation\">\n            <button class=\"inline-block p-4 border-b-2 rounded-t-base hover:text-fg-brand hover:border-brand\" id=\"dashboard-tab\" data-tabs-target=\"#dashboard\" type=\"button\" role=\"tab\" aria-controls=\"dashboard\" aria-selected=\"false\">Dashboard</button>\n        </li>\n        <li class=\"me-2\" role=\"presentation\">\n            <button class=\"inline-block p-4 border-b-2 rounded-t-base hover:text-fg-brand hover:border-brand\" id=\"settings-tab\" data-tabs-target=\"#settings\" type=\"button\" role=\"tab\" aria-controls=\"settings\" aria-selected=\"false\">Settings</button>\n        </li>\n        <li role=\"presentation\">\n            <button class=\"inline-block p-4 border-b-2 rounded-t-base hover:text-fg-brand hover:border-brand\" id=\"contacts-tab\" data-tabs-target=\"#contacts\" type=\"button\" role=\"tab\" aria-controls=\"contacts\" aria-selected=\"false\">Contacts</button>\n        </li>\n    </ul>\n</div>\n<div id=\"default-tab-content\">\n    <div class=\"hidden p-4 rounded-base bg-neutral-secondary-soft\" id=\"profile\" role=\"tabpanel\" aria-labelledby=\"profile-tab\">\n        <p class=\"text-sm text-body\">This is some placeholder content the <strong class=\"font-medium text-heading\">Profile tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>\n    </div>\n    <div class=\"hidden p-4 rounded-base bg-neutral-secondary-soft\" id=\"dashboard\" role=\"tabpanel\" aria-labelledby=\"dashboard-tab\">\n        <p class=\"text-sm text-body\">This is some placeholder content the <strong class=\"font-medium text-heading\">Dashboard tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>\n    </div>\n    <div class=\"hidden p-4 rounded-base bg-neutral-secondary-soft\" id=\"settings\" role=\"tabpanel\" aria-labelledby=\"settings-tab\">\n        <p class=\"text-sm text-body\">This is some placeholder content the <strong class=\"font-medium text-heading\">Settings tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>\n    </div>\n    <div class=\"hidden p-4 rounded-base bg-neutral-secondary-soft\" id=\"contacts\" role=\"tabpanel\" aria-labelledby=\"contacts-tab\">\n        <p class=\"text-sm text-body\">This is some placeholder content the <strong class=\"font-medium text-heading\">Contacts tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>\n    </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

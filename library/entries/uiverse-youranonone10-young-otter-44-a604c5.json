@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-youranonone10-young-otter-44-a604c5",
+  "title": "Loader by youranonone10 (young-otter-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/youranonone10/young-otter-44",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "minimalist"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By youranonone10 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/youranonone10_young-otter-44.html",
+  "code": "<div class=\"wrapper\">\n  <div class=\"cloud\">\n    <div class=\"cloud_left\"></div>\n    <div class=\"cloud_right\"></div>\n  </div>\n  <div class=\"rain\">\n    <div class=\"drop\"></div>\n    <div class=\"drop\"></div>\n    <div class=\"drop\"></div>\n    <div class=\"drop\"></div>\n    <div class=\"drop\"></div>\n  </div>\n  <div class=\"surface\">\n    <div class=\"hit\"></div>\n    <div class=\"hit\"></div>\n    <div class=\"hit\"></div>\n    <div class=\"hit\"></div>\n    <div class=\"hit\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by youranonone10  - Tags: animation, minimalist, loader */\n.wrapper {\n  height: 200px;\n}\n\n.cloud {\n  overflow: hidden;\n  padding: 5px;\n  height: 50px;\n}\n\n.cloud_left {\n  position: relative;\n  float: left;\n  background-color: #234;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.75);\n}\n\n.cloud_right {\n  position: relative;\n  float: left;\n  background-color: #203040;\n  width: 70px;\n  height: 70px;\n  border-radius: 50%;\n  top: 15px;\n  left: -30px;\n  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.75);\n}\n\n.rain {\n  width: 180px;\n  height: 140px;\n}\n\n.drop {\n  position: relative;\n  float: left;\n  width: 2px;\n  margin: 10px;\n  left: 20px;\n  background: #789;\n  box-shadow: 1px 0.5px 1px 0.5px rgba(0, 0, 0, 0.75);\n  animation: rain_401 0.8s infinite ease-out;\n}\n\n.drop:nth-child(1) {\n  height: 15px;\n  top: 5px;\n  animation-delay: -1.0s;\n}\n\n.drop:nth-child(2) {\n  height: 20px;\n  animation-delay: -1.4s;\n}\n\n.drop:nth-child(3) {\n  height: 15px;\n  top: 5px;\n  animation-delay: -1.6s;\n}\n\n.drop:nth-child(4) {\n  height: 10px;\n  top: 10px;\n  animation-delay: -1.2s;\n}\n\n.drop:nth-child(5) {\n  height: 5px;\n  top: 15px;\n  animation-delay: -1.6s;\n}\n\n@keyframes rain_401 {\n  0% {\n    opacity: 1;\n    transform: translate(0, 0);\n  }\n\n  100% {\n    opacity: 0.2;\n    transform: translate(0, 100px);\n  }\n}\n\n.surface {\n  position: relative;\n  width: 180px;\n  height: 140px;\n  top: -140px;\n}\n\n.hit {\n  position: absolute;\n  width: 3px;\n  height: 1px;\n  margin: 10px;\n  bottom: -5px;\n  border: 1px solid #456;\n  border-radius: 50%;\n  animation: hit_401 0.8s infinite ease;\n}\n\n.hit:nth-child(1) {\n  left: 19px;\n  animation-delay: -0.3s;\n}\n\n.hit:nth-child(2) {\n  left: 41px;\n  animation-delay: -0.7s;\n}\n\n.hit:nth-child(3) {\n  left: 63px;\n  animation-delay: -0.9s;\n}\n\n.hit:nth-child(4) {\n  left: 85px;\n  animation-delay: -0.5s;\n}\n\n.hit:nth-child(5) {\n  left: 107px;\n  animation-delay: -0.9s;\n}\n\n@keyframes hit_401 {\n  0% {\n    opacity: 0.75;\n    transform: scale(1);\n  }\n\n  100% {\n    opacity: 0;\n    transform: scale(2.5);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

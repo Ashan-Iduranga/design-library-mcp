@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-typography-blockquote",
+  "title": "Typography Blockquote (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/typography-blockquote.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "typography",
+    "blockquote",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Styles for headings, paragraphs, lists, etc.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/typography-blockquote.tsx",
+  "code": "export default function TypographyBlockquote() {\n  return (\n    <blockquote className=\"mt-6 border-l-2 pl-6 italic\">\n      &quot;After all,&quot; he said, &quot;everyone enjoys a good joke, so\n      it&apos;s only fair that they should pay for the privilege.&quot;\n    </blockquote>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

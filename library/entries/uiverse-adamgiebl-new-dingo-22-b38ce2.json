@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-adamgiebl-new-dingo-22-b38ce2",
+  "title": "Checkbox by adamgiebl (new-dingo-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/adamgiebl/new-dingo-22",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "neumorphism",
+    "skeuomorphism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By adamgiebl on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/adamgiebl_new-dingo-22.html",
+  "code": "<label class=\"checkbox\" for=\"checkbox1\">\n  <span class=\"label\">Checkbox</span>\n  <input checked=\"\" id=\"checkbox1\" type=\"checkbox\">\n  <span class=\"checkmark\"></span>\n</label>\n<style>\n/* From Uiverse.io by adamgiebl - Tags: neumorphism, skeuomorphism, checkbox */\n.checkbox {\n  display: flex;\n  align-items: center;\n  margin: 10px;\n  font-family: Arial, sans-serif;\n  color: black;\n}\n\n.checkbox input {\n  display: none;\n}\n\n.checkbox .checkmark {\n  width: 28px;\n  height: 28px;\n  border-radius: 10px;\n  background-color: #ffffff2b;\n  box-shadow: rgba(0, 0, 0, 0.62) 0px 0px 5px inset, rgba(0, 0, 0, 0.21) 0px 0px 0px 24px inset,\n        #22cc3f 0px 0px 0px 0px inset, rgba(224, 224, 224, 0.45) 0px 1px 0px 0px;\n  cursor: pointer;\n  position: relative;\n}\n\n.checkbox .checkmark::after {\n  content: \"\";\n  width: 18px;\n  height: 18px;\n  border-radius: 5px;\n  background-color: #e3e3e3;\n  box-shadow: transparent 0px 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 6px 6px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  transition: background-color 0.3s ease-in-out;\n}\n\n.checkbox input:checked + .checkmark {\n  background-color: #22cc3f;\n  box-shadow: rgba(0, 0, 0, 0.62) 0px 0px 5px inset, #22cc3f 0px 0px 0px 2px inset, #22cc3f 0px 0px 0px 24px inset,\n        rgba(224, 224, 224, 0.45) 0px 1px 0px 0px;\n}\n\n.checkbox input:checked + .checkmark::after {\n  background-color: white;\n}\n\n.checkbox .label {\n  margin-right: 10px;\n  user-select: none;\n  font-weight: 700;\n  cursor: pointer;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

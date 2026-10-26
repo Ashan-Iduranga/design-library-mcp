@@ -1,0 +1,37 @@
+{
+  "id": "hyperui-application-charts-6-dark",
+  "title": "Charts: Combo chart with bars and a target line (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/charts",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "charts",
+    "hyperui",
+    "chart",
+    "graph",
+    "analytics",
+    "dashboard",
+    "data-visualization",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/charts/6-dark.html",
+  "code": "<div class=\"mx-auto max-w-lg p-6\">\n<div class=\"rounded-lg border border-gray-800 bg-gray-900 p-6\">\n<h2 class=\"text-sm font-medium text-white\">Revenue vs target</h2>\n<div class=\"mt-4 h-64\">\n<canvas aria-label=\"Revenue vs target, combo chart\" id=\"revenue-target-combo-chart\" role=\"img\"></canvas>\n</div>\n<table class=\"sr-only\">\n<caption>\n          Monthly revenue against quarterly target\n        </caption>\n<thead>\n<tr>\n<th scope=\"col\">Month</th>\n<th scope=\"col\">Revenue</th>\n<th scope=\"col\">Target</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<th scope=\"row\">Jan</th>\n<td>$28,000</td>\n<td>$32,000</td>\n</tr>\n<tr>\n<th scope=\"row\">Feb</th>\n<td>$34,000</td>\n<td>$32,000</td>\n</tr>\n<tr>\n<th scope=\"row\">Mar</th>\n<td>$31,000</td>\n<td>$32,000</td>\n</tr>\n<tr>\n<th scope=\"row\">Apr</th>\n<td>$39,000</td>\n<td>$40,000</td>\n</tr>\n<tr>\n<th scope=\"row\">May</th>\n<td>$42,000</td>\n<td>$40,000</td>\n</tr>\n<tr>\n<th scope=\"row\">Jun</th>\n<td>$48,000</td>\n<td>$40,000</td>\n</tr>\n</tbody>\n</table>\n</div>\n<script src=\"https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js\"></script>\n<script>\n      const revenueTargetComboChartCanvas = document.getElementById('revenue-target-combo-chart')\n\n      new Chart(revenueTargetComboChartCanvas, {\n        type: 'bar',\n        data: {\n          labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],\n          datasets: [\n            {\n              type: 'bar',\n              label: 'Revenue',\n              data: [28000, 34000, 31000, 39000, 42000, 48000],\n              backgroundColor: '#818cf8',\n              hoverBackgroundColor: '#a5b4fc',\n              borderRadius: 4,\n              maxBarThickness: 32,\n              order: 2,\n            },\n            {\n              type: 'line',\n              label: 'Target',\n              data: [32000, 32000, 32000, 40000, 40000, 40000],\n              borderColor: '#fbbf24',\n              backgroundColor: '#fbbf24',\n              borderWidth: 2,\n              borderDash: [6, 4],\n              pointRadius: 0,\n              pointHoverRadius: 5,\n              pointHoverBackgroundColor: '#fbbf24',\n              pointHoverBorderColor: '#111827',\n              pointHoverBorderWidth: 2,\n              tension: 0,\n              fill: false,\n              order: 1,\n            },\n          ],\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: false,\n          interaction: {\n            mode: 'index',\n            intersect: false,\n          },\n          plugins: {\n            legend: {\n              position: 'bottom',\n              labels: { color: '#9ca3af' },\n            },\n            tooltip: {\n              callbacks: {\n                label: (tooltipItem) =>\n                  `${tooltipItem.dataset.label}: $${tooltipItem.formattedValue}`,\n              },\n            },\n          },\n          scales: {\n            x: {\n              grid: { display: false },\n              ticks: { color: '#9ca3af' },\n            },\n            y: {\n              beginAtZero: true,\n              grid: { color: 'rgba(255, 255, 255, 0.1)' },\n              ticks: {\n                color: '#9ca3af',\n                callback: (tickValue) => `$${Number(tickValue) / 1000}k`,\n              },\n            },\n          },\n        },\n      })\n    </script>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

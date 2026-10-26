@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-github-suriya-chilly-wasp-20-9cfdec",
+  "title": "Button by Github-Suriya (chilly-wasp-20)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Github-Suriya/chilly-wasp-20",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "material-design",
+    "white",
+    "smooth",
+    "message"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Github-Suriya on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Github-Suriya_chilly-wasp-20.html",
+  "code": "<button>\n  <div class=\"svg-name-con\">\n    <div class=\"svg-wrapper-1\">\n      <div class=\"svg-wrapper\">\n        <svg\n          height=\"24\"\n          width=\"24\"\n          viewBox=\"0 0 24 24\"\n          xmlns=\"http://www.w3.org/2000/svg\"\n        >\n          <path d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n          <path\n            d=\"M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z\"\n            fill=\"currentColor\"\n          ></path>\n        </svg>\n      </div>\n    </div>\n    <span>Send Message</span>\n  </div>\n</button>\n\n<style>\n/* From Uiverse.io by Github-Suriya  - Tags: material design, white, button, smooth, message */\nbutton {\n  font-family: inherit;\n  font-size: 20px;\n  background: #eef0ee;\n  padding: 0.3em;\n  border: none;\n  border-radius: 15px;\n  overflow: hidden;\n  transition: all 0.2s;\n  cursor: pointer;\n  box-shadow: 0px 0px 6px #c5c5c5;\n}\n\nbutton span {\n  display: block;\n  margin-left: 0.3em;\n  font-weight: 600;\n  transition: all 0.3s ease-in-out;\n}\n\nbutton svg {\n  display: block;\n  transform-origin: center center;\n  transition: transform 0.3s ease-in-out;\n}\n\nbutton .svg-name-con {\n  background: #fcfdfc;\n  border-radius: 25px;\n  display: flex;\n  align-items: center;\n  padding: 0.7em 1em;\n}\n\nbutton:hover .svg-wrapper {\n  animation: fly-1 0.6s ease-in-out infinite alternate;\n}\n\nbutton:hover svg {\n  transform: translateX(4.2em) rotate(45deg) scale(1.1);\n}\n\nbutton:hover span {\n  transform: translateX(9em);\n}\n\nbutton:active {\n  transform: scale(0.95);\n}\n\n@keyframes fly-1 {\n  from {\n    transform: translateY(0.1em);\n  }\n\n  to {\n    transform: translateY(-0.1em);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

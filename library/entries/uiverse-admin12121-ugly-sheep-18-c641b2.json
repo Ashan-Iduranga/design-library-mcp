@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-admin12121-ugly-sheep-18-c641b2",
+  "title": "Card by Admin12121 (ugly-sheep-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Admin12121/ugly-sheep-18",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "cardgift",
+    "card-template",
+    "cardhover",
+    "card-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Admin12121 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Admin12121_ugly-sheep-18.html",
+  "code": "<section class=\"container\">\n  <div class=\"card\">\n    <div class=\"content\">\n    <p class=\"logo\">Digital Way</p>\n      <div class=\"h6\">Data &amp; Infrastructure Agility</div>\n      <div class=\"hover_content\">\n        <p>mParticle’s customer data platform empowers you to Integrate all of your data and orchestrate it across channels, partners, and systems.</p>\n      </div>\n    </div>\n  </div>       \n</section>\n<style>\n/* From Uiverse.io by Admin12121 - Tags: cardgift, card template, cardhover , card animation */\n.container {\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.card {\n  position: relative;\n  display: flex;\n  justify-content: center;\n  cursor: pointer;\n  width: 22em;\n  max-width: 80%;\n  padding: 2em 0;\n  background: #FFF;\n  box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);\n  transition: all 0.35s ease;\n}\n\n.card::before, .card::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  background: orange;\n  height: 4px;\n}\n\n.card::before {\n  width: 0;\n  opacity: 0;\n  transition: opacity 0 ease, width 0 ease;\n  transition-delay: 0.5s;\n}\n\n.card::after {\n  width: 100%;\n  background: white;\n  transition: width 0.5s ease;\n}\n\n.card .content {\n  width: 18em;\n  max-width: 80%;\n}\n\n.card .logo {\n  margin: 0 0 1em;\n  width: 10.625em;\n  transition: all 0.35s ease;\n}\n\n.card .h6 {\n  color: #999;\n  font-weight: 600;\n  text-transform: uppercase;\n  margin: 0;\n  letter-spacing: 2px;\n}\n\n.card .hover_content {\n  overflow: hidden;\n  max-height: 0;\n  transform: translateY(1em);\n  transition: all 0.55s ease;\n}\n\n.card .hover_content p {\n  margin: 1.5em 0 0;\n  color: #6E6E70;\n  line-height: 1.4em;\n}\n\n.card:hover {\n  width: 24em;\n  box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.12);\n}\n\n.card:hover::before {\n  width: 100%;\n  opacity: 1;\n  transition: opacity 0.5s ease, width 0.5s ease;\n  transition-delay: 0;\n}\n\n.card:hover::after {\n  width: 0;\n  opacity: 0;\n  transition: width 0 ease;\n}\n\n.card:hover .logo {\n  margin-bottom: 0.5em;\n}\n\n.card:hover .hover_content {\n  max-height: 10em;\n  transform: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-tabs-default-tabs",
+  "title": "Tabs: Default tabs (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/tabs/#default-tabs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "tab",
+    "tabs",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the following default tabs component example to show a list of links that the user can navigate from on your website.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/tabs.md",
+  "code": "<ul class=\"flex flex-wrap text-sm font-medium text-center text-body border-b border-default\">\n    <li class=\"me-2\">\n        <a href=\"#\" aria-current=\"page\" class=\"inline-block p-4 text-fg-brand bg-neutral-secondary-soft rounded-t-base active\">Profile</a>\n    </li>\n    <li class=\"me-2\">\n        <a href=\"#\" class=\"inline-block p-4 rounded-t-base hover:text-heading hover:bg-neutral-secondary-soft\">Dashboard</a>\n    </li>\n    <li class=\"me-2\">\n        <a href=\"#\" class=\"inline-block p-4 rounded-t-base hover:text-heading hover:bg-neutral-secondary-soft\">Settings</a>\n    </li>\n    <li class=\"me-2\">\n        <a href=\"#\" class=\"inline-block p-4 rounded-t-base hover:text-heading hover:bg-neutral-secondary-soft\">Contacts</a>\n    </li>\n    <li>\n        <a class=\"inline-block p-4 text-fg-disabled rounded-t-base cursor-not-allowed\">Disabled</a>\n    </li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

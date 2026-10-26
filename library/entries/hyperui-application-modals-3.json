@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-modals-3",
+  "title": "Modals: Actions",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/modals",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "modals",
+    "hyperui",
+    "dialog",
+    "popup"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/modals/3.html",
+  "code": "<div class=\"p-6\">\n<button class=\"rounded border border-gray-300 bg-gray-100 px-3 py-1.5 text-sm text-gray-900\" data-modal-open=\"\">\n      Open\n    </button>\n<dialog aria-describedby=\"modalDescription\" aria-labelledby=\"modalTitle\" class=\"m-auto max-w-xl rounded-lg bg-white p-6 shadow-lg backdrop:bg-black/50\" closedby=\"any\">\n<div class=\"flex flex-col gap-4\">\n<h2 class=\"text-xl font-bold text-gray-900 sm:text-2xl\" id=\"modalTitle\">Modal Title</h2>\n<p class=\"text-pretty text-gray-700\" id=\"modalDescription\">\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu\n          consectetur. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n        </p>\n<div class=\"flex justify-end gap-2\">\n<button class=\"rounded bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-200 focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 focus:ring-offset-white focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 focus-visible:ring-offset-2 focus-visible:ring-offset-white focus-visible:outline-none\" data-modal-close=\"\" type=\"button\">\n            Cancel\n          </button>\n<button class=\"rounded bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-700 focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 focus:ring-offset-white focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 focus-visible:ring-offset-2 focus-visible:ring-offset-white focus-visible:outline-none\" data-modal-close=\"\" type=\"button\">\n            Done\n          </button>\n</div>\n</div>\n</dialog>\n<script>\n      const modalEl = document.querySelector('dialog')\n      const openButtonEl = document.querySelector('[data-modal-open]')\n\n      openButtonEl.addEventListener('click', () => modalEl.showModal())\n\n      document.querySelectorAll('[data-modal-close]').forEach((buttonEl) => {\n        buttonEl.addEventListener('click', () => modalEl.close())\n      })\n    </script>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

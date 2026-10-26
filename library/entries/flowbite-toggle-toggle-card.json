@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-toggle-toggle-card",
+  "title": "Toggle: Toggle card (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/toggle/#toggle-card",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "toggle",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This example can be used to add a toggle input field inside a card element with a description.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/toggle.md",
+  "code": "<label class=\"w-80 inline-flex cursor-pointer p-4 bg-neutral-primary-soft border border-default rounded-base shadow-xs\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\">\n  <div class=\"shrink-0 relative w-9 h-5 bg-neutral-quaternary peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-brand-soft dark:peer-focus:ring-brand-soft rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-buffer after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-brand\"></div>\n  <div class=\"ms-2.5 select-none\">\n    <p class=\"text-sm font-medium text-heading mb-1\">Weekly newsletter</p>\n    <p class=\"text-sm font-normal text-body\">Save my credentials for easier sign-in in the future.</p>\n  </div>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

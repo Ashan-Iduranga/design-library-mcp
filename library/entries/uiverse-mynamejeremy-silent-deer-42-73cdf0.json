@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mynamejeremy-silent-deer-42-73cdf0",
+  "title": "Loader by MyNameJeremy (silent-deer-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MyNameJeremy/silent-deer-42",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MyNameJeremy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/MyNameJeremy_silent-deer-42.html",
+  "code": "<div class=\"spinner-container\">\n  <div class=\"spinner-inner\">\n    <div class=\"spinner-outer\">\n      <div class=\"spinner-inner-1\"></div>\n      <div class=\"spinner-inner-2\"></div>\n      <div class=\"spinner-inner-3\"></div>\n      <div class=\"spinner-inner-4\"></div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by MyNameJeremy - Tags: loader */\n.spinner-container {\n  position: relative;\n  width: 100px;\n  height: 100px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: 50%;\n}\n\n.spinner-inner {\n  position: relative;\n  width: 60px;\n  height: 60px;\n  border-radius: 50%;\n  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.2), -10px -10px 20px 0px rgba(255, 255, 255, 0.5);\n}\n\n.spinner-outer {\n  position: relative;\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  box-shadow: -10px -10px 20px 0px rgba(255, 255, 255, 0.5), 10px 10px 20px 0px rgba(0, 0, 0, 0.2);\n  animation: spinner-rotate_51023 2s ease infinite;\n}\n\n.spinner-inner-1 {\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-color: rgba(0, 0, 0, 0.2);\n  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0\n  0.2), -10px -10px 20px 0px rgba(255, 255, 255, 0.5);\n  z-index: 10;\n  animation: spinner-rotate_51023 2s ease infinite;\n}\n\n.spinner-inner-2 {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-color: rgba(0, 0, 0, 0.2);\n  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.2), -10px -10px 20px 0px rgba(255, 255, 255, 0.5);\n  z-index: 10;\n  animation: spinner-rotate_51023 2s ease infinite;\n}\n\n.spinner-inner-3 {\n  position: absolute;\n  bottom: 10px;\n  left: 10px;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-color: rgba(0, 0, 0, 0.2);\n  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.2), -10px -10px 20px 0px rgba(255, 255, 255, 0.5);\n  z-index: 10;\n  animation: spinner-rotate_51023 2s ease infinite;\n}\n\n.spinner-inner-4 {\n  position: absolute;\n  bottom: 10px;\n  right: 10px;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-color: rgba(0, 0, 0, 0.2);\n  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.2), -10px -10px 20px 0px rgba(255, 255, 255, 0.5);\n  z-index: 10;\n  animation: spinner-rotate_51023 2s ease infinite;\n}\n\n@keyframes spinner-rotate_51023 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

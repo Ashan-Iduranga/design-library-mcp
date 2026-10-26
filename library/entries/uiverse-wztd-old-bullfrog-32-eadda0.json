@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-wztd-old-bullfrog-32-eadda0",
+  "title": "Loader by wztd (old-bullfrog-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/wztd/old-bullfrog-32",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By wztd on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/wztd_old-bullfrog-32.html",
+  "code": "<div class=\"loader\"><svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><defs><filter id=\"goo\"><feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"6\" result=\"blur\"></feGaussianBlur><feColorMatrix in=\"blur\" mode=\"matrix\" values=\"1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7\" result=\"goo\"></feColorMatrix><feBlend in=\"SourceGraphic\" in2=\"goo\"></feBlend></filter></defs></svg></div>\n\n<style>\n/* From Uiverse.io by wztd - Source: wztd - Tags: effect loader */\n.loader {\n  position: relative;\n  width: 1.5em;\n  aspect-ratio: 1/2;\n  filter: url(#goo);\n}\n\n#goo {\n  display: none\n}\n\n.loader:before, .loader:after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  margin: auto;\n  width: 100%;\n  aspect-ratio: 1/1;\n  animation: 1.5s ease-out infinite loader;\n  border-radius: 50%;\n}\n\n.loader:before {\n  background: linear-gradient(rgb(255, 206, 58), rgb(66, 181, 73))\n}\n\n.loader:after {\n  animation-delay: 0.75s;\n  background: linear-gradient(to top, rgb(114, 223, 231), rgb(66, 181, 73))\n}\n\n@keyframes loader {\n  0%, 50%, 100% {\n    transform: translateY(0)\n  }\n\n  25% {\n    transform: translateY(70%)\n  }\n\n  75% {\n    transform: translateY(-70%)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

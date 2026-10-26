@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-tsiangana-thin-cougar-23-c9057d",
+  "title": "Tooltip by Tsiangana (thin-cougar-23)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Tsiangana/thin-cougar-23",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "gradient",
+    "hover",
+    "space",
+    "modern"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Tsiangana on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/Tsiangana_thin-cougar-23.html",
+  "code": "<div class=\"tooltip-container\">\n  <span class=\"tooltip\">Discover</span>\n  <span class=\"text\">\n    <div class=\"borde-back\">\n      <div class=\"icon\">\n        <svg\n          viewBox=\"0 0 16 16\"\n          class=\"bi bi-discord\"\n          height=\"23\"\n          width=\"23\"\n          xmlns=\"http://www.w3.org/2000/svg\"\n        >\n          <path\n            d=\"M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z\"\n          ></path>\n        </svg>\n      </div>\n    </div>\n  </span>\n</div>\n\n<style>\n/* From Uiverse.io by Tsiangana  - Tags: tooltip, gradient, hover, space, modern */\n/* This is an example, feel free to delete this code */\n.tooltip-container {\n  position: relative;\n  background-color: #ff3cac;\n  background-image: linear-gradient(\n    225deg,\n    #ff3cac 0%,\n    #784ba0 50%,\n    #2b86c5 100%\n  );\n  cursor: pointer;\n  transition: all 0.2s;\n  font-size: 17px;\n  /*padding: 0.7em 1.8em;*/\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  fill: #fff;\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);\n  border: 1px solid rgba(255, 255, 255, 0.18);\n}\n.tooltip-container .borde-back {\n  width: 60px;\n  height: 60px;\n  background-color: #e8e8e8;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 50%;\n  box-shadow: none;\n}\n\n.tooltip-container .icon {\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 10;\n  background-color: #ff3cac;\n  background-image: linear-gradient(\n    225deg,\n    #ff3cac 0%,\n    #784ba0 50%,\n    #2b86c5 100%\n  );\n  cursor: pointer;\n}\n\n.tooltip {\n  position: absolute;\n  top: -2;\n  left: -45px; /* Altere a posição inicial para a esquerda, fora da tela */\n  transform: translateX(\n    -32%\n  ); /* Usando translateX para controlar a transição da esquerda para a direita */\n  width: 160px;\n  height: 52px;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.6s;\n  border-radius: 50px;\n  background-color: #ff3cac;\n  background-image: linear-gradient(\n    225deg,\n    #ff3cac 0%,\n    #784ba0 50%,\n    #2b86c5 100%\n  );\n  display: flex;\n  align-items: center;\n  justify-content: right;\n  padding-right: 16px;\n  color: #fff;\n  font-size: 18px;\n  font-family: sans-serif;\n  font-weight: 800px;\n}\n\n.tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 0.6em;\n  width: 0.6em;\n  right: -0.2em; /* Mude para a direita */\n  top: 50%; /* Altere o topo para o meio da tooltip */\n  transform: translateY(-50%) rotate(45deg); /* Use translateY para centralizar verticalmente */\n  background: var(--background);\n}\n\n.tooltip-container:hover .tooltip {\n  left: 100%; /* Altere para a posição desejada (a direita) */\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n  z-index: -10;\n}\n.tooltip-container:hover {\n  transform: translateX(-50px);\n  transition: 0.5s linear;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

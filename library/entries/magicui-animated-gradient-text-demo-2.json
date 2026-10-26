@@ -1,0 +1,38 @@
+{
+  "id": "magicui-animated-gradient-text-demo-2",
+  "title": "Animated Gradient Text Demo 2 (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/animated-gradient-text",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "animated",
+    "gradient",
+    "text",
+    "demo",
+    "2",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Second example showing text with animated gradient backgrounds.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/animated-gradient-text-demo-2.tsx",
+  "code": "import { AnimatedGradientText } from \"@/registry/magicui/animated-gradient-text\"\n\nexport default function AnimatedGradientTextDemo() {\n  return (\n    <AnimatedGradientText\n      speed={2}\n      colorFrom=\"#4ade80\"\n      colorTo=\"#06b6d4\"\n      className=\"text-4xl font-semibold tracking-tight\"\n    >\n      Fast Gradient\n    </AnimatedGradientText>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

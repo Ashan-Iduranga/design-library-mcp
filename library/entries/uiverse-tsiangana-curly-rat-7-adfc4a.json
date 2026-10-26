@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-tsiangana-curly-rat-7-adfc4a",
+  "title": "Button by Tsiangana (curly-rat-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Tsiangana/curly-rat-7",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "hover",
+    "space",
+    "download",
+    "futuristic",
+    "gradients",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Tsiangana on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Tsiangana_curly-rat-7.html",
+  "code": "<button class=\"botao\">\n  <svg width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"mysvg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\">\n    </g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\">\n       <g id=\"Interface / Download\"> \n       <path id=\"Vector\" d=\"M6 21H18M12 3V17M12 17L17 12M12 17L7 12\" stroke=\"#f1f1f1\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n       </path>\n    </g> </g>\n  </svg>\n  <span class=\"texto\">Download</span>\n</button>\n<style>\n/* From Uiverse.io by Tsiangana - Tags: animation, button, hover, space, download, futuristic, gradients, hover button */\n.botao {\n  width: 125px;\n  height: 45px;\n  border-radius: 20px;\n  border: none;\n  box-shadow: 1px 1px rgba(107, 221, 215, 0.37);\n  padding: 5px 10px;\n  background: rgb(47,93,197);\n  background: linear-gradient(160deg, rgba(47,93,197,1) 0%, rgba(46,86,194,1) 5%, rgba(47,93,197,1) 11%, rgba(59,190,230,1) 57%, rgba(0,212,255,1) 71%);\n  color: #fff;\n  font-family: Roboto, sans-serif;\n  font-weight: 505;\n  font-size: 16px;\n  line-height: 1;\n  cursor: pointer;\n  filter: drop-shadow(0 0 10px rgba(59, 190, 230, 0.568));\n  transition: .5s linear;\n}\n\n.botao .mysvg {\n  display: none;\n}\n\n.botao:hover {\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  transition: .5s linear;\n}\n\n.botao:hover .texto {\n  display: none;\n}\n\n.botao:hover .mysvg {\n  display: inline;\n}\n\n.botao:hover::before {\n  content: '';\n  position: absolute;\n  top: -3px;\n  left: -3px;\n  width: 100%;\n  height: 100%;\n  border: 3.5px solid transparent;\n  border-top: 3.5px solid #fff;\n  border-right: 3.5px solid #fff;\n  border-radius: 50%;\n  animation: animateC 2s linear infinite;\n}\n\n@keyframes animateC {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

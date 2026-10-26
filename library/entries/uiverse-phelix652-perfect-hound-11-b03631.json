@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-phelix652-perfect-hound-11-b03631",
+  "title": "Button by Phelix652 (perfect-hound-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Phelix652/perfect-hound-11",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Phelix652 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Phelix652_perfect-hound-11.html",
+  "code": "<button class=\"btn btn--primary\">\n\n  <span class=\"btn-inner\">\n    <span class=\"btn-label\">\n      Button \n    </span>\n  </span>\n  \n</button>\n<style>\n/* From Uiverse.io by Phelix652 - Tags: button */\n.btn {\n  --btn-gradient: var(--btn-gradient-from),var(--btn-gradient-to);\n  border: 0 none;\n  appearance: none;\n  transition: all .3s;\n  border-radius: 10px;\n  background-color: var(--btn-bg);\n  box-shadow: 0 0 2px 2px var(--btn-shadow), 0 0 4px 4px var(--btn-shadow), 0 0 8px 8px var(--btn-shadow);\n}\n\n.btn,\n.btn * {\n  box-sizing: border-box;\n}\n\n.btn-inner {\n  position: relative;\n  border-radius: inherit;\n  border: 1px solid transparent;\n  font-size: 1rem;\n  display: flex;\n  align-items: center;\n  min-width: 10rem;\n  padding: 1.5rem 2rem;\n  overflow: hidden;\n  color: var(--btn-text-color);\n}\n\n.btn-label {\n  position: absolute;\n  bottom: 1px;\n  left: 1px;\n  right: 1px;\n  top: 1px;\n  border-radius: inherit;\n  z-index: 10;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: var(--btn-bg);\n  background-image: linear-gradient(to bottom,var(--btn-gradient));\n}\n\n.btn:hover {\n  transform: translateY(-5px);\n  letter-spacing: 3px;\n  box-shadow: rgba(0, 131, 253, 0.596) 0px 1px 80px 40px;\n}\n\n.btn:active {\n  border-radius: 40px;\n  transform: translateY(4px);\n  transition: 0.1s;\n  letter-spacing: 3px;\n  box-shadow: rgb(0, 131, 253) 0px 1px 80px 40px;\n}\n\n.btn:active .btn-blur:before {\n  --transition: 0.5s;\n}\n\n.btn--primary {\n  --btn-bg: #111111;\n  --btn-gradient-from: #111111;\n  --btn-gradient-to: rgba(29, 6, 240, 0.5);\n  --btn-text-color: #ffffff;\n  --btn-shadow: #9b14c438;\n}\n\n@keyframes turn {\n  0% {\n    transform: translateY(-50%) rotate(0deg)\n  }\n\n  to {\n    transform: translateY(-50%) rotate(1turn)\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

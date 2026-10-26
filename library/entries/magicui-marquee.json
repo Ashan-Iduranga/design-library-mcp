@@ -1,0 +1,33 @@
+{
+  "id": "magicui-marquee",
+  "title": "Marquee (Magic UI)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/marquee",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "marquee",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "An infinite scrolling component that can be used to display text, images, or videos.\n\nInstall into a project: npx shadcn@latest add @magicui/marquee\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/magicui/marquee.tsx",
+  "code": "import { type ComponentPropsWithoutRef } from \"react\"\n\nimport { cn } from \"@/lib/utils\"\n\ninterface MarqueeProps extends ComponentPropsWithoutRef<\"div\"> {\n  /**\n   * Optional CSS class name to apply custom styles\n   */\n  className?: string\n  /**\n   * Whether to reverse the animation direction\n   * @default false\n   */\n  reverse?: boolean\n  /**\n   * Whether to pause the animation on hover\n   * @default false\n   */\n  pauseOnHover?: boolean\n  /**\n   * Content to be displayed in the marquee\n   */\n  children: React.ReactNode\n  /**\n   * Whether to animate vertically instead of horizontally\n   * @default false\n   */\n  vertical?: boolean\n  /**\n   * Number of times to repeat the content\n   * @default 4\n   */\n  repeat?: number\n}\n\nexport function Marquee({\n  className,\n  reverse = false,\n  pauseOnHover = false,\n  children,\n  vertical = false,\n  repeat = 4,\n  ...props\n}: MarqueeProps) {\n  return (\n    <div\n      {...props}\n      className={cn(\n        \"group flex gap-(--gap) overflow-hidden p-2 [--duration:40s] [--gap:1rem]\",\n        {\n          \"flex-row\": !vertical,\n          \"flex-col\": vertical,\n        },\n        className\n      )}\n    >\n      {Array(repeat)\n        .fill(0)\n        .map((_, i) => (\n          <div\n            key={i}\n            className={cn(\"flex shrink-0 justify-around gap-(--gap)\", {\n              \"animate-marquee flex-row\": !vertical,\n              \"animate-marquee-vertical flex-col\": vertical,\n              \"group-hover:[animation-play-state:paused]\": pauseOnHover,\n              \"[animation-direction:reverse]\": reverse,\n            })}\n          >\n            {children}\n          </div>\n        ))}\n    </div>\n  )\n}\n",
+  "prompt": "npx shadcn@latest add @magicui/marquee",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

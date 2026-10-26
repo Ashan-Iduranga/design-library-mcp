@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-aadium-weak-goose-59-c0148a",
+  "title": "Card by aadium (weak-goose-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aadium/weak-goose-59",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aadium on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/aadium_weak-goose-59.html",
+  "code": "<div class=\"post-card\">\n  <textarea placeholder=\"What's on your mind?\"></textarea>\n  <hr>\n  <div class=\"button-row\" id=\"first\">\n    <button class=\"upload\">\n      Upload\n    </button>\n    <button class=\"live-video\">\n      Live Video\n    </button>\n    <button class=\"life-event\">\n      Life Event\n    </button>\n  </div>\n  <div class=\"button-row\" id=\"second\">\n    <button class=\"people\">\n      People\n    </button>\n    <button class=\"location\">\n      Location\n    </button>\n    <button class=\"feeling\">\n      Feeling\n    </button>\n  </div>\n  <button class=\"post\">Post</button>\n</div>\n<style>\n/* From Uiverse.io by aadium - Tags: card */\n.post-card {\n  width: 260px;\n  height: 340px;\n  background: #1f1f1f;\n  box-shadow: 10px 10px 20px #0c0c0c, \n              -10px -10px 20px #333333;\n  padding: 10px;\n  border-radius: 15px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.post-card textarea {\n  resize: none;\n  width: 100%;\n  height: 40%;\n  padding: 5px;\n  font-family: Sans-serif;\n  font-size: 16px;\n  background-color: transparent;\n  border: none;\n  color: #fff;\n}\n\nhr {\n  border: 1px solid #464646;\n  width: 100%;\n  border-radius: 10em;\n}\n\n.button-row {\n  margin-top: 7px;\n  margin-bottom: 3px;\n}\n\n.button-row button {\n  border-radius: 10px;\n  border: none;\n  width: 77px;\n  height: 58px;\n  font-family: Sans-serif;\n  color: #fff;\n  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\n  transition: all 0.3s ease-in-out;\n}\n\n.button-row button:hover {\n  transform: translateY(-5px);\n  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);\n}\n\n.upload {\n  font-size: 14px;\n  background: linear-gradient(180deg, #cecb00 0%, #ef4949 100%);\n}\n\n.feeling {\n  font-size: 14px;\n  background: linear-gradient(180deg, #31c300 0%, #ab7811 100%);\n}\n\n.life-event {\n  font-size: 13.7px;\n  background: linear-gradient(180deg, #ff1024 0%, #ffb34a 100%);\n}\n\n.people {\n  font-size: 13.5px;\n  background: linear-gradient(180deg, #0095b7 0%, #5012ba 100%);\n}\n\n.location {\n  font-size: 14px;\n  background: linear-gradient(180deg, #c329c9 0%, #2b5dff 100%);\n}\n\n.live-video {\n  font-size: 13.8px;\n  background: linear-gradient(180deg, #c800ff 0%, #ff076a 51%, #ff6c6c 100%);\n}\n\n.post {\n  width: 100%;\n  padding: 10px;\n  margin-top: 7px;\n  border: none;\n  border-radius: 11px;\n  font-size: 18px;\n  font-family: Sans-serif;\n  color: #fff;\n  background-size: 200% 100%;\n  background-image: linear-gradient(145deg, #ff00e1, #0000ff, #00d9ff);\n  transition: 0.3s ease-out;\n}\n\n.post:hover {\n  background-position: 99%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

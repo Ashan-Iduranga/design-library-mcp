@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-adamgiebl-good-mouse-67-28e1b1",
+  "title": "Button by adamgiebl (good-mouse-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/adamgiebl/good-mouse-67",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "neumorphism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By adamgiebl on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/adamgiebl_good-mouse-67.html",
+  "code": "<button class=\"neu-button\">Press me</button>\n<style>\n/* From Uiverse.io by adamgiebl - Tags: neumorphism, button */\n.neu-button {\n  background-color: #e0e0e0;\n  border-radius: 50px;\n  box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;\n  color: #4d4d4d;\n  cursor: pointer;\n  font-size: 18px;\n  padding: 15px 40px;\n  transition: all 0.2s ease-in-out;\n  border: 2px solid rgb(206, 206, 206);\n}\n\n.neu-button:hover {\n  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;\n}\n\n.neu-button:focus {\n  outline: none;\n  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

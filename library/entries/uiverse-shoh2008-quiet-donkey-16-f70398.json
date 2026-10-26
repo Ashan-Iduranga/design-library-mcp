@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shoh2008-quiet-donkey-16-f70398",
+  "title": "Toggle by Shoh2008 (quiet-donkey-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/quiet-donkey-16",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Shoh2008_quiet-donkey-16.html",
+  "code": "<div class=\"checkbox-wrapper-35\">\n  <input value=\"private\" name=\"switch\" id=\"switch\" type=\"checkbox\" class=\"switch\">\n  <label for=\"switch\">\n    <span class=\"switch-x-text\">This is </span>\n    <span class=\"switch-x-toggletext\">\n      <span class=\"switch-x-unchecked\"><span class=\"switch-x-hiddenlabel\">Unchecked: </span>Off</span>\n      <span class=\"switch-x-checked\"><span class=\"switch-x-hiddenlabel\">Checked: </span>On</span>\n    </span>\n  </label>\n</div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: switch */\n.checkbox-wrapper-35 .switch {\n  display: none;\n}\n\n.checkbox-wrapper-35 .switch + label {\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -ms-flex-align: center;\n  align-items: center;\n  color: #78768d;\n  cursor: pointer;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  font-size: 12px;\n  line-height: 15px;\n  position: relative;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n.checkbox-wrapper-35 .switch + label::before,\n  .checkbox-wrapper-35 .switch + label::after {\n  content: '';\n  display: block;\n}\n\n.checkbox-wrapper-35 .switch + label::before {\n  background-color: #05012c;\n  border-radius: 500px;\n  height: 15px;\n  margin-right: 8px;\n  -webkit-transition: background-color 0.125s ease-out;\n  transition: background-color 0.125s ease-out;\n  width: 25px;\n}\n\n.checkbox-wrapper-35 .switch + label::after {\n  background-color: #fff;\n  border-radius: 13px;\n  box-shadow: 0 3px 1px 0 rgba(37, 34, 71, 0.05), 0 2px 2px 0 rgba(37, 34, 71, 0.1), 0 3px 3px 0 rgba(37, 34, 71, 0.05);\n  height: 13px;\n  left: 1px;\n  position: absolute;\n  top: 1px;\n  -webkit-transition: -webkit-transform 0.125s ease-out;\n  transition: -webkit-transform 0.125s ease-out;\n  transition: transform 0.125s ease-out;\n  transition: transform 0.125s ease-out, -webkit-transform 0.125s ease-out;\n  width: 13px;\n}\n\n.checkbox-wrapper-35 .switch + label .switch-x-text {\n  display: block;\n  margin-right: .3em;\n}\n\n.checkbox-wrapper-35 .switch + label .switch-x-toggletext {\n  display: block;\n  font-weight: bold;\n  height: 15px;\n  overflow: hidden;\n  position: relative;\n  width: 25px;\n}\n\n.checkbox-wrapper-35 .switch + label .switch-x-unchecked,\n  .checkbox-wrapper-35 .switch + label .switch-x-checked {\n  left: 0;\n  position: absolute;\n  top: 0;\n  -webkit-transition: opacity 0.125s ease-out, -webkit-transform 0.125s ease-out;\n  transition: opacity 0.125s ease-out, -webkit-transform 0.125s ease-out;\n  transition: transform 0.125s ease-out, opacity 0.125s ease-out;\n  transition: transform 0.125s ease-out, opacity 0.125s ease-out, -webkit-transform 0.125s ease-out;\n}\n\n.checkbox-wrapper-35 .switch + label .switch-x-unchecked {\n  opacity: 1;\n  -webkit-transform: none;\n  transform: none;\n}\n\n.checkbox-wrapper-35 .switch + label .switch-x-checked {\n  opacity: 0;\n  -webkit-transform: translate3d(0, 100%, 0);\n  transform: translate3d(0, 100%, 0);\n}\n\n.checkbox-wrapper-35 .switch + label .switch-x-hiddenlabel {\n  position: absolute;\n  visibility: hidden;\n}\n\n.checkbox-wrapper-35 .switch:checked + label::before {\n  background-color: #ffb500;\n}\n\n.checkbox-wrapper-35 .switch:checked + label::after {\n  -webkit-transform: translate3d(10px, 0, 0);\n  transform: translate3d(10px, 0, 0);\n}\n\n.checkbox-wrapper-35 .switch:checked + label .switch-x-unchecked {\n  opacity: 0;\n  -webkit-transform: translate3d(0, -100%, 0);\n  transform: translate3d(0, -100%, 0);\n}\n\n.checkbox-wrapper-35 .switch:checked + label .switch-x-checked {\n  opacity: 1;\n  -webkit-transform: none;\n  transform: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

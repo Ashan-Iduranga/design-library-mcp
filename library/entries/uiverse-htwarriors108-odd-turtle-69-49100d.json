@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-htwarriors108-odd-turtle-69-49100d",
+  "title": "Card by htwarriors108 (odd-turtle-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/htwarriors108/odd-turtle-69",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "hover",
+    "shadow",
+    "caller",
+    "hover-effect",
+    "call-reject",
+    "accept-call",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By htwarriors108 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/htwarriors108_odd-turtle-69.html",
+  "code": "<div class=\"card\">\n        <div class=\"imgBox\">\n            <svg viewBox=\"0 0 16 16\" class=\"bi bi-person-circle\" fill=\"currentColor\" height=\"16\" width=\"16\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path d=\"M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z\"></path>\n                <path d=\"M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z\" fill-rule=\"evenodd\"></path>\n            </svg>\n        </div>\n        <div class=\"name\">\n            <p class=\"p1\">John Doe</p>\n            <p class=\"p2\">Incoming Call</p>\n        </div>\n        <div class=\"caller\">\n            <span id=\"pick\" class=\"callerBtn\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-telephone-fill\" viewBox=\"0 0 16 16\">\n                    <path fill-rule=\"evenodd\" d=\"M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z\"></path>\n                </svg>\n            </span>\n            <span id=\"end\" class=\"callerBtn\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-telephone-fill\" viewBox=\"0 0 16 16\">\n                    <path fill-rule=\"evenodd\" d=\"M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z\"></path>\n                </svg>\n        </span></div>\n    </div>\n\n<style>\n/* From Uiverse.io by htwarriors108 - Tags: card, hover, shadow, caller, hover effect, call reject, accept call, box-shadow, cardhover  */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 1em;\n  flex-direction: column;\n  justify-content: space-evenly;\n  background-color: #080808;\n  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.8);\n  cursor: pointer;\n  transition: 0.2s ease-in-out;\n  padding: 5px;\n  color: #fff;\n}\n\n.card:hover {\n  rotate: 1deg;\n  scale: 1.05;\n}\n\n.card, .imgBox, .caller {\n  display: flex;\n  align-items: center;\n}\n\n.imgBox {\n  width: 6em;\n  height: 6em;\n  box-shadow: 0px 0.25em 1rem rgba(255, 255, 255, 0.5);\n  border-radius: 50%;\n  justify-content: center;\n}\n\n.imgBox svg {\n  width: 100%;\n  height: 100%;\n}\n\n.name {\n  width: 100%;\n  text-align: center;\n  font-weight: 900;\n  transition: 1s ease-in-out;\n}\n\n.name .p1 {\n  font-size: 1.2em;\n}\n\n.name .p2 {\n  font-size: 0.8em;\n  color: rgb(50, 146, 255);\n}\n\n.caller {\n  width: 100%;\n  flex-direction: row;\n  justify-content: space-evenly;\n}\n\n.callerBtn {\n  width: 2em;\n  height: 2em;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #fff;\n  font-size: 1.5rem;\n  cursor: pointer;\n  transition: 0.1s ease-in-out;\n  animation: animate linear infinite 2s;\n}\n\n.callerBtn:hover {\n  scale: 1.1;\n}\n\n#pick {\n  background-color: #28ff28;\n  box-shadow: 0px 3px 10px #28ff28;\n}\n\n#end {\n  background-color: #ff2828;\n  box-shadow: 0px 3px 10px #ff2828;\n}\n\n#end svg {\n  rotate: 135deg;\n}\n\n@keyframes animate {\n  0% {\n    transform: translateY(0px);\n  }\n\n  50% {\n    transform: translateY(3px) rotate(-10deg);\n  }\n\n  100% {\n    transform: translateY(0px);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

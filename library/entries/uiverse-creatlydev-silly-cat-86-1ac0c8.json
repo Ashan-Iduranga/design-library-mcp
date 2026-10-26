@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-creatlydev-silly-cat-86-1ac0c8",
+  "title": "Button by Creatlydev (silly-cat-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Creatlydev/silly-cat-86",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover-effect",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Creatlydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Creatlydev_silly-cat-86.html",
+  "code": "<a style=\"--clr: #7808d0\" class=\"button\" href=\"#\">\n            <span class=\"button__icon-wrapper\">\n                <svg width=\"10\" class=\"button__icon-svg\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 14 15\">\n                    <path fill=\"currentColor\" d=\"M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z\"></path>\n                </svg>\n                \n                <svg class=\"button__icon-svg  button__icon-svg--copy\" xmlns=\"http://www.w3.org/2000/svg\" width=\"10\" fill=\"none\" viewBox=\"0 0 14 15\">\n                    <path fill=\"currentColor\" d=\"M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z\"></path>\n                </svg>\n            </span>\n            Explore All\n        </a>\n<style>\n/* From Uiverse.io by Creatlydev - Tags: button, hover effect, hover button */\n.button {\n  line-height: 1;\n  text-decoration: none;\n  display: inline-flex;\n  align-items: center;\n  gap: .75rem;\n  background-color: var(--clr);\n  color: #fff;\n  border-radius: 10rem;\n  font-weight: 600;\n  padding: .75rem 1.5rem;\n  padding-left: 20px;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  transition: background-color .3s;\n}\n\n.button__icon-wrapper {\n  flex-shrink: 0;\n  width: 25px;\n  height: 25px;\n  position: relative;\n  color: var(--clr);\n  background-color: #fff;\n  border-radius: 50%;\n  display: grid;\n  place-items: center;\n  overflow: hidden;\n}\n\n.button:hover {\n  background-color: #000;\n}\n\n.button:hover .button__icon-wrapper {\n  color: #000;\n}\n\n.button__icon-svg--copy {\n  position: absolute;\n  transform: translate(-150%, 150%);\n}\n\n.button:hover .button__icon-svg:first-child {\n  transition: transform .3s ease-in-out;\n  transform: translate(150%, -150%);\n}\n\n.button:hover .button__icon-svg--copy {\n  transition: transform .3s ease-in-out .1s;\n  transform: translate(0);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-gagan-gv-rotten-fish-89-bf6dbf",
+  "title": "Button by gagan-gv (rotten-fish-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gagan-gv/rotten-fish-89",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gagan-gv on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/gagan-gv_rotten-fish-89.html",
+  "code": "<button type=\"button\" class=\"btn cube cube-hover\">\n  <div class=\"bg-top\">\n  <div class=\"bg-inner\"></div>\n  </div>\n  <div class=\"bg-right\">\n  <div class=\"bg-inner\"></div>\n  </div>\n  <div class=\"bg\">\n  <div class=\"bg-inner\"></div>\n  </div>\n  <div class=\"text\">Hover Me</div>\n</button>\n<style>\n/* From Uiverse.io by gagan-gv - Tags: button */\n.btn {\n display: block;\n padding: 0.7em 1em;\n background: transparent;\n outline: none;\n border: 0;\n color: #d4af37;\n letter-spacing: 0.1em;\n font-family: monospace;\n font-size: 17px;\n font-weight: bold;\n z-index: 1;\n}\n\n.cube {\n position: relative;\n transition: all 0.5s;\n}\n\n.cube .bg-top {\n position: absolute;\n height: 10px;\n background: #d4af37;\n bottom: 100%;\n left: 5px;\n right: -5px;\n transform: skew(-45deg, 0);\n margin: 0;\n transition: all 0.4s;\n}\n\n.cube .bg-top .bg-inner {\n bottom: 0;\n}\n\n.cube .bg {\n position: absolute;\n left: 0;\n bottom: 0;\n top: 0;\n right: 0;\n background: #d4af37;\n transition: all 0.4s;\n}\n\n.cube .bg-right {\n position: absolute;\n background: #d4af37;\n top: -5px;\n z-index: 0;\n bottom: 5px;\n width: 10px;\n left: 100%;\n transform: skew(0, -45deg);\n transition: all 0.4s;\n}\n\n.cube .bg-right .bg-inner {\n left: 0;\n}\n\n.cube .bg-inner {\n background: #28282d;\n position: absolute;\n left: 2px;\n right: 2px;\n top: 2px;\n bottom: 2px;\n}\n\n.cube .text {\n position: relative;\n transition: all 0.4s;\n}\n\n.cube:hover .bg-inner {\n background: #d4af37;\n transition: all 0.4s;\n}\n\n.cube:hover .text {\n color: #28282d;\n transition: all 0.4s;\n}\n\n.cube:hover .bg-right,\n.cube:hover .bg,\n.cube:hover .bg-top {\n background: #28282d;\n}\n\n.cube:active {\n z-index: 9999;\n animation: bounce .1s linear;\n}\n\n@keyframes bounce {\n 50% {\n  transform: scale(0.9);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

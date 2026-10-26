@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-button-groups-3",
+  "title": "Button Groups: Main and secondary",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/button-groups",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "button-groups",
+    "hyperui",
+    "action",
+    "group"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/button-groups/3.html",
+  "code": "<div class=\"flex justify-center p-6\">\n<div class=\"inline-flex\">\n<button class=\"rounded-s-sm border border-gray-200 px-4 py-2 font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900 focus:z-10 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-white focus:outline-none disabled:pointer-events-auto disabled:opacity-50\">\n        Edit\n      </button>\n<button aria-label=\"View\" class=\"-ms-px rounded-e-sm border border-gray-200 px-3 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900 focus:z-10 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-white focus:outline-none disabled:pointer-events-auto disabled:opacity-50\">\n<svg aria-hidden=\"true\" class=\"size-5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n</button>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

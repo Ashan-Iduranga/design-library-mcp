@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-gharsh11032000-orange-hound-27-0af4c3",
+  "title": "Button by gharsh11032000 (orange-hound-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/orange-hound-27",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "shadow",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/gharsh11032000_orange-hound-27.html",
+  "code": "<button class=\"button\">\n  Hover me\n</button>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: button, shadow, hover effect */\n.button {\n  padding: 15px 20px;\n  font-size: 16px;\n  font-weight: 600;\n  border: 2px solid #414141;\n  color: white;\n  background-color: transparent;\n  cursor: pointer;\n  border-radius: 10px;\n  text-transform: uppercase;\n  transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.button:hover {\n  border-color: #0974f1;\n  box-shadow: 0 0 20px rgba(9, 117, 241, 0.8);\n}\n\n.button:active {\n  box-shadow: 0 0 10px rgba(9, 117, 241, 0.4);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

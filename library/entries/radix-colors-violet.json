@@ -1,0 +1,34 @@
+{
+  "id": "radix-colors-violet",
+  "title": "Radix Colors: Violet scale",
+  "source": "Radix Colors",
+  "url": "https://www.radix-ui.com/colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "violet",
+    "radix",
+    "color-scale",
+    "color",
+    "accessible",
+    "dark-mode"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "12-step violet scale with a matching dark-mode scale. Steps 1-2: app and subtle backgrounds. 3-5: component backgrounds (normal, hover, pressed). 6-8: borders and focus rings. 9-10: solid backgrounds (e.g. buttons). 11-12: low and high contrast text.\n\nAlso available: violetA (alpha) and P3 wide-gamut versions.\n\nUse: npm i @radix-ui/colors, then import \"@radix-ui/colors/violet.css\" and \"@radix-ui/colors/violet-dark.css\".\n\nOriginal file: https://github.com/radix-ui/colors/blob/main/src/light.ts",
+  "code": "<style>\n:root {\n  --violet-1: #fdfcfe;\n  --violet-2: #faf8ff;\n  --violet-3: #f4f0fe;\n  --violet-4: #ebe4ff;\n  --violet-5: #e1d9ff;\n  --violet-6: #d4cafe;\n  --violet-7: #c2b5f5;\n  --violet-8: #aa99ec;\n  --violet-9: #6e56cf;\n  --violet-10: #654dc4;\n  --violet-11: #6550b9;\n  --violet-12: #2f265f;\n}\n.dark {\n  --violet-1: #14121f;\n  --violet-2: #1b1525;\n  --violet-3: #291f43;\n  --violet-4: #33255b;\n  --violet-5: #3c2e69;\n  --violet-6: #473876;\n  --violet-7: #56468b;\n  --violet-8: #6958ad;\n  --violet-9: #6e56cf;\n  --violet-10: #7d66d9;\n  --violet-11: #baa7ff;\n  --violet-12: #e2ddfe;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Radix violet</strong>\n<p>light</p><div class=\"row\"><div style=\"background:#fdfcfe\" title=\"--violet-1: #fdfcfe\"><span>1</span></div><div style=\"background:#faf8ff\" title=\"--violet-2: #faf8ff\"><span>2</span></div><div style=\"background:#f4f0fe\" title=\"--violet-3: #f4f0fe\"><span>3</span></div><div style=\"background:#ebe4ff\" title=\"--violet-4: #ebe4ff\"><span>4</span></div><div style=\"background:#e1d9ff\" title=\"--violet-5: #e1d9ff\"><span>5</span></div><div style=\"background:#d4cafe\" title=\"--violet-6: #d4cafe\"><span>6</span></div><div style=\"background:#c2b5f5\" title=\"--violet-7: #c2b5f5\"><span>7</span></div><div style=\"background:#aa99ec\" title=\"--violet-8: #aa99ec\"><span>8</span></div><div style=\"background:#6e56cf\" title=\"--violet-9: #6e56cf\"><span>9</span></div><div style=\"background:#654dc4\" title=\"--violet-10: #654dc4\"><span>10</span></div><div style=\"background:#6550b9\" title=\"--violet-11: #6550b9\"><span>11</span></div><div style=\"background:#2f265f\" title=\"--violet-12: #2f265f\"><span>12</span></div></div>\n<p>dark</p><div class=\"row\"><div style=\"background:#14121f\" title=\"--violet-1: #14121f\"><span>1</span></div><div style=\"background:#1b1525\" title=\"--violet-2: #1b1525\"><span>2</span></div><div style=\"background:#291f43\" title=\"--violet-3: #291f43\"><span>3</span></div><div style=\"background:#33255b\" title=\"--violet-4: #33255b\"><span>4</span></div><div style=\"background:#3c2e69\" title=\"--violet-5: #3c2e69\"><span>5</span></div><div style=\"background:#473876\" title=\"--violet-6: #473876\"><span>6</span></div><div style=\"background:#56468b\" title=\"--violet-7: #56468b\"><span>7</span></div><div style=\"background:#6958ad\" title=\"--violet-8: #6958ad\"><span>8</span></div><div style=\"background:#6e56cf\" title=\"--violet-9: #6e56cf\"><span>9</span></div><div style=\"background:#7d66d9\" title=\"--violet-10: #7d66d9\"><span>10</span></div><div style=\"background:#baa7ff\" title=\"--violet-11: #baa7ff\"><span>11</span></div><div style=\"background:#e2ddfe\" title=\"--violet-12: #e2ddfe\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "Building a UI color system with predictable steps for backgrounds, borders and text, including dark mode.",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-renouxm-weak-moose-10-650e43",
+  "title": "Button by RenouxM (weak-moose-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/RenouxM/weak-moose-10",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "3d"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By RenouxM on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/RenouxM_weak-moose-10.html",
+  "code": "<button class=\"button\">\n  <span class=\"front\"> ⚡Join Now </span>\n</button>\n\n<style>\n/* From Uiverse.io by RenouxM  - Tags: simple, 3d, button */\n.button {\n  box-sizing: border-box;\n  cursor: pointer;\n  padding: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 50px auto;\n  background-color: rgb(245, 134, 161);\n  font-family: arial;\n  font-size: 20px;\n  font-weight: bold;\n  border: none;\n  width: 280px;\n  height: 90px;\n  border-radius: 12px;\n}\n.front {\n  display: block;\n  padding: 28px 80px;\n  border-radius: 12px;\n  font-size: 1.25rem;\n  background: rgb(245, 74, 117);\n  transform: translateY(-4px);\n}\n.button:focus:not(:focus-visible) {\n  outline: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

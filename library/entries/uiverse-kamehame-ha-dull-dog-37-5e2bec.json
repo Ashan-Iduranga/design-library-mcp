@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-kamehame-ha-dull-dog-37-5e2bec",
+  "title": "Button by kamehame-ha (dull-dog-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kamehame-ha/dull-dog-37",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "discord",
+    "dark",
+    "light"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kamehame-ha on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/kamehame-ha_dull-dog-37.html",
+  "code": "<div class=\"light-button\">\n    <button class=\"bt\">\n        <div class=\"light-holder\">\n            <div class=\"dot\"></div>\n            <div class=\"light\"></div>\n        </div>\n        <div class=\"button-holder\">\n            <svg role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path d=\"M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z\"></path>\n            </svg>\n            <p>Discord</p>\n        </div>\n    </button>\n</div>\n<style>\n/* From Uiverse.io by kamehame-ha - Tags: button, hover, Discord, dark, light */\n.light-button button.bt {\n  position: relative;\n  height: 200px;\n  display: flex;\n  align-items: flex-end;\n  outline: none;\n  background: none;\n  border: none;\n}\n\n.light-button button.bt .button-holder {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 100px;\n  width: 100px;\n  background-color: #0a0a0a;\n  border-radius: 5px;\n  color: #0f0f0f;\n  font-weight: 700;\n  transition: 300ms;\n  outline: #0f0f0f 2px solid;\n  outline-offset: 20;\n}\n\n.light-button button.bt .button-holder svg {\n  height: 50px;\n  fill: #0f0f0f;\n  transition: 300ms;\n}\n\n.light-button button.bt .light-holder {\n  position: absolute;\n  height: 200px;\n  width: 100px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.light-button button.bt .light-holder .dot {\n  position: absolute;\n  top: 0;\n  width: 10px;\n  height: 10px;\n  background-color: #0a0a0a;\n  border-radius: 10px;\n  z-index: 2;\n}\n\n.light-button button.bt .light-holder .light {\n  position: absolute;\n  top: 0;\n  width: 200px;\n  height: 200px;\n  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);\n  background: transparent;\n}\n\n.light-button button.bt:hover .button-holder svg {\n  fill: rgba(88, 101, 242, 1);\n}\n\n.light-button button.bt:hover .button-holder {\n  color: rgba(88, 101, 242, 1);\n  outline: rgba(88, 101, 242, 1) 2px solid;\n  outline-offset: 2px;\n}\n\n.light-button button.bt:hover .light-holder .light {\n  background: rgb(255, 255, 255);\n  background: linear-gradient(180deg, rgba(88, 101, 242, 1) 0%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0) 100%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

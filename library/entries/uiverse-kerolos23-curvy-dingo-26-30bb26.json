@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-kerolos23-curvy-dingo-26-30bb26",
+  "title": "Loader by kerolos23 (curvy-dingo-26)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kerolos23/curvy-dingo-26",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kerolos23 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/kerolos23_curvy-dingo-26.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by kerolos23 - Tags: loader */\n.loader {\n  width: 53px;\n  height: 53px;\n  border: 5px dotted #000;\n  border-style: solid solid dotted dotted;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  box-sizing: border-box;\n  animation: rotation 2s linear infinite;\n}\n\n.loader::after {\n  content: '';\n  box-sizing: border-box;\n  position: absolute;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  margin: auto;\n  border: 4px dotted #F00;\n  border-style: solid solid dotted;\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  animation: rotationBack 1s linear infinite;\n  transform-origin: center center;\n}\n\n@keyframes rotation {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes rotationBack {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(-360deg);\n  }\n} \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

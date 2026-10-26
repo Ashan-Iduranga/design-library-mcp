@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-badge-badge-in-a-text",
+  "title": "Badge: Badge in a text (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/badge/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "badge",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Badges are used to inform the user of the status of specific data.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/badge/+page.md",
+  "code": "<h1 class=\"text-xl font-semibold\">\n  Heading 1 <span class=\"badge badge-xl\">Badge</span>\n</h1>\n\n<h2 class=\"text-lg font-semibold\">\n  Heading 2 <span class=\"badge badge-lg\">Badge</span>\n</h2>\n\n<h3 class=\"text-base font-semibold\">\n  Heading 3 <span class=\"badge badge-md\">Badge</span>\n</h3>\n\n<h4 class=\"text-sm font-semibold\">\n  Heading 4 <span class=\"badge badge-sm\">Badge</span>\n</h4>\n\n<h5 class=\"text-xs font-semibold\">\n  Heading 5 <span class=\"badge badge-xs\">Badge</span>\n</h5>\n\n<p class=\"text-xs\">\n  Paragraph <span class=\"badge badge-xs\">Badge</span>\n</p>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

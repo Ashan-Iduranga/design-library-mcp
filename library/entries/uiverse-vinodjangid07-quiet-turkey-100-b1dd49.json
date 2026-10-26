@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vinodjangid07-quiet-turkey-100-b1dd49",
+  "title": "Button by vinodjangid07 (quiet-turkey-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/quiet-turkey-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "share",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_quiet-turkey-100.html",
+  "code": "<button class=\"Btn\">\n  <span class=\"svgContainer\">\n    <svg viewBox=\"0 0 448 512\"><path d=\"M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z\"></path></svg>\n  </span>\n  <span class=\"textContainer\">Share</span>\n</button>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: button, share, hover effect */\n.Btn {\n  width: 145px;\n  height: 45px;\n  background: linear-gradient(-45deg, #6bc5f8, #cf59e6, #6bc5f8, #cf59e6);\n  border: none;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  box-shadow: 5px 5px 0px #4dc6d93d;\n  background-size: 400% 400%;\n}\n\n.svgContainer {\n  width: 45px;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.2);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.svgContainer svg {\n  width: 16px;\n}\n\n.svgContainer svg path {\n  fill: white;\n}\n\n.textContainer {\n  width: 100px;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: white;\n  font-weight: 600;\n}\n\n.Btn:hover {\n  animation: gradient 5s ease infinite;\n}\n/* Button's gradient animation */\n@keyframes gradient {\n  0% {\n    background-position: 0 50%;\n  }\n\n  50% {\n    background-position: 100% 50%;\n  }\n\n  100% {\n    background-position: 0 50%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

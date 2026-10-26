@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-indicators-indicator-position",
+  "title": "Indicators: Indicator position (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/indicators/#indicator-position",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "indicator",
+    "indicators",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use these examples to position the indicator component anywhere relative to the parent element.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/indicators.md",
+  "code": "<div class=\"relative bg-neutral-secondary-soft h-56 w-56 border border-default text-fg-brand-strong text-xs font-medium rounded-base\">\n    <span class=\"bg-brand-softer text-xs font-medium text-fg-brand text-center p-0.5 ring-1 ring-inset ring-brand-subtle rounded-base px-2 absolute -translate-y-1/2 translate-x-1/2 right-1/2\">top-center</span>\n    <span class=\"bg-brand-softer text-xs font-medium text-fg-brand text-center p-0.5 ring-1 ring-inset ring-brand-subtle rounded-base px-2 absolute -translate-y-1/2 -translate-x-1/2 right-auto top-0 left-0\">top-left</span>\n    <span class=\"bg-brand-softer text-xs font-medium text-fg-brand text-center p-0.5 ring-1 ring-inset ring-brand-subtle rounded-base px-2 absolute -translate-y-1/2 translate-x-1/2 left-auto top-0 right-0\">top-right</span>\n    <span class=\"bg-brand-softer text-xs font-medium text-fg-brand text-center p-0.5 ring-1 ring-inset ring-brand-subtle rounded-base px-2 absolute -translate-y-1/2 -translate-x-1/2 top-2/4 left-1/2\">middle-center</span>\n    <span class=\"bg-brand-softer text-xs font-medium text-fg-brand text-center p-0.5 ring-1 ring-inset ring-brand-subtle rounded-base px-2 absolute -translate-y-1/2 -translate-x-1/2 right-auto left-0 top-2/4\">middle-left</span>\n    <span class=\"bg-brand-softer text-xs font-medium text-fg-brand text-center p-0.5 ring-1 ring-inset ring-brand-subtle rounded-base px-2 absolute -translate-y-1/2 translate-x-1/2 left-auto right-0 top-2/4\">middle-right</span>\n    <span class=\"bg-brand-softer text-xs font-medium text-fg-brand text-center p-0.5 ring-1 ring-inset ring-brand-subtle rounded-base px-2 absolute translate-y-1/2 translate-x-1/2 bottom-0 right-1/2\">bottom-center</span>\n    <span class=\"bg-brand-softer text-xs font-medium text-fg-brand text-center p-0.5 ring-1 ring-inset ring-brand-subtle rounded-base px-2 absolute translate-y-1/2 -translate-x-1/2 right-auto bottom-0 left-0\">bottom-left</span>\n    <span class=\"bg-brand-softer text-xs font-medium text-fg-brand text-center p-0.5 ring-1 ring-inset ring-brand-subtle rounded-base px-2 absolute translate-y-1/2 translate-x-1/2 left-auto bottom-0 right-0\">bottom-right</span>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

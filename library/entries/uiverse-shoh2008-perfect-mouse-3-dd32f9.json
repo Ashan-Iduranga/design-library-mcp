@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-perfect-mouse-3-dd32f9",
+  "title": "Checkbox by Shoh2008 (perfect-mouse-3)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/perfect-mouse-3",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Shoh2008_perfect-mouse-3.html",
+  "code": "<div class=\"checkbox-wrapper-33\">\n  <label class=\"checkbox\">\n    <input type=\"checkbox\" class=\"checkbox__trigger visuallyhidden\">\n    <span class=\"checkbox__symbol\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1\" viewBox=\"0 0 28 28\" height=\"28px\" width=\"28px\" class=\"icon-checkbox\" aria-hidden=\"true\">\n        <path d=\"M4 14l8 7L24 7\"></path>\n      </svg>\n    </span>\n    <p class=\"checkbox__textwrapper\">Checkbox</p>\n  </label>\n</div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: checkbox */\n.checkbox-wrapper-33 {\n  --s-xsmall: 0.625em;\n  --s-small: 1.2em;\n  --border-width: 1px;\n  --c-primary: #5F11E8;\n  --c-primary-20-percent-opacity: rgb(95 17 232 / 20%);\n  --c-primary-10-percent-opacity: rgb(95 17 232 / 10%);\n  --t-base: 0.4s;\n  --t-fast: 0.2s;\n  --e-in: ease-in;\n  --e-out: cubic-bezier(.11,.29,.18,.98);\n}\n\n.checkbox-wrapper-33 .visuallyhidden {\n  border: 0;\n  clip: rect(0 0 0 0);\n  height: 1px;\n  margin: -1px;\n  overflow: hidden;\n  padding: 0;\n  position: absolute;\n  width: 1px;\n}\n\n.checkbox-wrapper-33 .checkbox {\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n}\n\n.checkbox-wrapper-33 .checkbox + .checkbox {\n  margin-top: var(--s-small);\n}\n\n.checkbox-wrapper-33 .checkbox__symbol {\n  display: inline-block;\n  display: flex;\n  margin-right: calc(var(--s-small) * 0.7);\n  border: var(--border-width) solid var(--c-primary);\n  position: relative;\n  border-radius: 0.1em;\n  width: 1.5em;\n  height: 1.5em;\n  transition: box-shadow var(--t-base) var(--e-out), background-color var(--t-base);\n  box-shadow: 0 0 0 0 var(--c-primary-10-percent-opacity);\n}\n\n.checkbox-wrapper-33 .checkbox__symbol:after {\n  content: \"\";\n  position: absolute;\n  top: 0.5em;\n  left: 0.5em;\n  width: 0.25em;\n  height: 0.25em;\n  background-color: var(--c-primary-20-percent-opacity);\n  opacity: 0;\n  border-radius: 3em;\n  transform: scale(1);\n  transform-origin: 50% 50%;\n}\n\n.checkbox-wrapper-33 .checkbox .icon-checkbox {\n  width: 1em;\n  height: 1em;\n  margin: auto;\n  fill: none;\n  stroke-width: 3;\n  stroke: currentColor;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-miterlimit: 10;\n  color: var(--c-primary);\n  display: inline-block;\n}\n\n.checkbox-wrapper-33 .checkbox .icon-checkbox path {\n  transition: stroke-dashoffset var(--t-fast) var(--e-in);\n  stroke-dasharray: 30px, 31px;\n  stroke-dashoffset: 31px;\n}\n\n.checkbox-wrapper-33 .checkbox__textwrapper {\n  margin: 0;\n}\n\n.checkbox-wrapper-33 .checkbox__trigger:checked + .checkbox__symbol:after {\n  -webkit-animation: ripple-33 1.5s var(--e-out);\n  animation: ripple-33 1.5s var(--e-out);\n}\n\n.checkbox-wrapper-33 .checkbox__trigger:checked + .checkbox__symbol .icon-checkbox path {\n  transition: stroke-dashoffset var(--t-base) var(--e-out);\n  stroke-dashoffset: 0px;\n}\n\n.checkbox-wrapper-33 .checkbox__trigger:focus + .checkbox__symbol {\n  box-shadow: 0 0 0 0.25em var(--c-primary-20-percent-opacity);\n}\n\n@-webkit-keyframes ripple-33 {\n  from {\n    transform: scale(0);\n    opacity: 1;\n  }\n\n  to {\n    opacity: 0;\n    transform: scale(20);\n  }\n}\n\n@keyframes ripple-33 {\n  from {\n    transform: scale(0);\n    opacity: 1;\n  }\n\n  to {\n    opacity: 0;\n    transform: scale(20);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

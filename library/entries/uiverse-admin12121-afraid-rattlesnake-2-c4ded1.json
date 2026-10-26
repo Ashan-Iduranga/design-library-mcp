@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-admin12121-afraid-rattlesnake-2-c4ded1",
+  "title": "Input by Admin12121 (afraid-rattlesnake-2)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Admin12121/afraid-rattlesnake-2",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "toggle",
+    "futuristic",
+    "input-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Admin12121 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Admin12121_afraid-rattlesnake-2.html",
+  "code": "<div class=\"div\">\n  <input type=\"checkbox\" />\n  <span>\n    <svg\n      class=\"svgi\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      width=\"24\"\n      height=\"24\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"#909090\"\n      stroke-width=\"2\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n    >\n      <rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"></rect>\n      <path d=\"M7 11V7a5 5 0 0 1 10 0v4\"></path>\n    </svg>\n\n    <svg\n      class=\"svgii\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      width=\"24\"\n      height=\"24\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"#3fc079\"\n      stroke-width=\"2\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n    >\n      <rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"></rect>\n      <path d=\"M7 11V7a5 5 0 0 1 9.9-1\"></path>\n    </svg>\n  </span>\n  <input type=\"text\" placeholder=\"'Unlock' me by clicking the lock icon\" />\n</div>\n\n<style>\n/* From Uiverse.io by Admin12121  - Tags: input, toggle, futuristic, input effect  */\n.div {\n  --field-size: 50px;\n  --field-border-color: #ccc;\n  margin: 0 auto;\n  font-size: 1rem;\n  box-shadow:\n    0 20px 25px -5px rgba(0, 0, 0, 0.1),\n    0 10px 10px -5px rgba(0, 0, 0, 0.04);\n  background: #ffffff;\n  border-radius: 5px;\n  position: relative;\n  width: 300px;\n  overflow: hidden;\n  display: flex;\n  background: white;\n}\n\n.div input[type=\"checkbox\"] {\n  position: absolute;\n  opacity: 0;\n  width: var(--field-size);\n  height: var(--field-size);\n  cursor: pointer;\n  padding: 0;\n  margin: 0;\n}\n\n.div input[type=\"checkbox\"]:hover + span .svgi {\n  display: none;\n  /* Remove the background image */\n}\n.div input[type=\"checkbox\"]:hover + span .svgii {\n  display: block;\n}\n\n.div input[type=\"checkbox\"]:checked + span .svgi {\n  display: none; /* Remove the background image */\n}\n\n.div input[type=\"checkbox\"]:checked + span .svgii {\n  display: block;\n}\n\n.div input[type=\"checkbox\"]:checked + span::before,\n.div input[type=\"checkbox\"]:checked + span::after {\n  pointer-events: none;\n}\n\n.div input[type=\"checkbox\"]:checked + span::after {\n  transform: translateY(-100%);\n}\n\n.div input[type=\"checkbox\"]:checked + span::before {\n  transform: translateY(100%);\n}\n.div input[type=\"checkbox\"] + span .svgii {\n  display: none;\n}\n.div input[type=\"checkbox\"] + span,\n.svgi,\n.svgii {\n  width: var(--field-size);\n  height: var(--field-size);\n  padding: 5px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  border-right: 1px solid var(--field-border-color);\n  cursor: pointer;\n}\n\n.div input[type=\"checkbox\"] + span::after,\n.div input[type=\"checkbox\"] + span::before {\n  content: \"\";\n  position: absolute;\n  right: 0;\n  height: 50%;\n  left: var(--field-size);\n  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);\n  background: rgba(0, 0, 0, 0.075);\n  z-index: 2;\n  cursor: not-allowed;\n}\n\n.div input[type=\"checkbox\"] + span::after {\n  top: 0;\n}\n\n.div input[type=\"checkbox\"] + span::before {\n  bottom: 0;\n}\n\n.div input[type=\"text\"] {\n  padding: 1em;\n  border: 0;\n  flex: 1;\n  font-size: 1rem;\n  --placeholder-color: #ababab;\n  font-family: inherit;\n}\n\n.div input[type=\"text\"]::-webkit-input-placeholder {\n  color: var(--placeholder-color);\n}\n\n.div input[type=\"text\"]:-ms-input-placeholder {\n  color: var(--placeholder-color);\n}\n\n.div input[type=\"text\"]::-moz-placeholder {\n  color: var(--placeholder-color);\n}\n\n.div input[type=\"text\"]:-moz-placeholder {\n  color: var(--placeholder-color);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

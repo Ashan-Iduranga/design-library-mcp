@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-ui-aspect-ratio",
+  "title": "Aspect Ratio (shadcn/ui)",
+  "source": "shadcn/ui",
+  "url": "https://ui.shadcn.com/docs/components/aspect-ratio",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "ui",
+    "aspect",
+    "ratio",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Displays content within a desired ratio.\n\nInstall into a project: npx shadcn@latest add aspect-ratio\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/ui/aspect-ratio.tsx",
+  "code": "\"use client\"\n\nimport { AspectRatio as AspectRatioPrimitive } from \"radix-ui\"\n\nfunction AspectRatio({\n  ...props\n}: React.ComponentProps<typeof AspectRatioPrimitive.Root>) {\n  return <AspectRatioPrimitive.Root data-slot=\"aspect-ratio\" {...props} />\n}\n\nexport { AspectRatio }\n",
+  "prompt": "npx shadcn@latest add aspect-ratio",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-sabbircoder07-fresh-tiger-75-3813ee",
+  "title": "Loader by sabbircoder07 (fresh-tiger-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/sabbircoder07/fresh-tiger-75",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animated",
+    "css3"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By sabbircoder07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/sabbircoder07_fresh-tiger-75.html",
+  "code": "<div class=\"progress\">\n      <div class=\"inner\"></div>\n</div>\n<style>\n/* From Uiverse.io by sabbircoder07 - Tags: loader, animated, css3 */\n.progress {\n  background-color: #ffffff;\n  width: 220px;\n  height: 20px;\n  border-radius: 100px;\n  overflow: hidden;\n  backface-visibility: hidden;\n}\n\n.inner {\n  background-image: linear-gradient(to left, #00cdac, #00c2c9, #00b4e3, #00a2f1, #008cef, #0088eb, #0085e6, #0081e2, #0090de, #009bd2, #00a3c1, #02aab0);\n  height: 100%;\n  transform-origin: left;\n  animation: progress 2s infinite;\n}\n\n@keyframes progress {\n  0% {\n    transform: scaleX(10%) translateX(-10%);\n  }\n\n  100% {\n    transform: scaleX(80%) translateX(150%);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

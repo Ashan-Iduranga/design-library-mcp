@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-javierrocadev-happy-newt-18-0f587f",
+  "title": "Card by Javierrocadev (happy-newt-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/happy-newt-18",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Javierrocadev_happy-newt-18.html",
+  "code": "<div class=\"card\">\n  <p class=\"title\">Who to follow</p>\n  <div class=\"user__container\">\n    <div class=\"user\">\n      <div class=\"image\"></div>\n      <div class=\"user__content\">\n        <div class=\"text\">\n          <span class=\"name\">Name</span>\n          <p class=\"username\">@namedlorem</p>\n        </div>\n        <button class=\"follow\">Follow</button>\n      </div>\n      \n    </div> \n    <div class=\"user\">\n      <div class=\"image\"></div>\n      <div class=\"user__content\">\n        <div class=\"text\">\n          <span class=\"name\">Name</span>\n          <p class=\"username\">@namedlorem</p>\n        </div>\n        <button class=\"follow\">Follow</button>\n      </div>\n      \n    </div> \n    <div class=\"user\">\n      <div class=\"image\"></div>\n      <div class=\"user__content\">\n        <div class=\"text\">\n          <span class=\"name\">Name</span>\n          <p class=\"username\">@namedlorem</p>\n        </div>\n        <button class=\"follow\">Follow</button>\n      </div>\n      \n    </div> \n\n  </div>\n  <a class=\"more\" href=\"#\">See more</a>\n</div>\n<style>\n/* From Uiverse.io by Javierrocadev - Source: twitter.com - Tags: twitter, card, card hover */\n.card {\n  width: 350px;\n  height: 350px;\n  background: #E8EAEA;\n  border-radius: 15px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\n.title, .more {\n  padding: 10px 15px;\n}\n\n.user {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: space-between;\n  padding: 10px 15px;\n}\n\n.user__content {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-grow: 1;\n}\n\n.user__container {\n  display: flex;\n  flex-direction: column;\n}\n\n.title {\n  font-weight: 900;\n  font-size: 1.3em;\n}\n\n.name {\n  font-weight: 800;\n}\n\n.username {\n  font-size: .9em;\n  color: #64696e;\n}\n\n.image {\n  width: 60px;\n  height: 60px;\n  background: rgb(22,19,70);\n  background: linear-gradient(295deg, rgba(22,19,70,1) 41%, rgba(89,177,237,1) 100%);\n  border-radius: 50%;\n  margin-right: 15px;\n}\n\n.follow {\n  border: none;\n  border-radius: 25px;\n  background-color: #0f1113;\n  color: white;\n  padding: 8px 15px;\n  font-weight: 700;\n}\n\n.more {\n  display: block;\n  text-decoration: none;\n  color: rgb(29, 155, 240);\n  font-weight: 800;\n}\n\n.user:hover {\n  background-color: #b3b6b6;\n}\n\n.more:hover {\n  background-color: #b3b6b6;\n  border-radius: 0px 0px 15px 15px;\n}\n\n.follow:hover {\n  background-color: #2c3136;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

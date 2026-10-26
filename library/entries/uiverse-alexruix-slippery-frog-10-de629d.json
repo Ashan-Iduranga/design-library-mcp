@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-alexruix-slippery-frog-10-de629d",
+  "title": "Input by alexruix (slippery-frog-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/slippery-frog-10",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "search"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/alexruix_slippery-frog-10.html",
+  "code": "<div class=\"group\">\n  <svg class=\"icon\" aria-hidden=\"true\" viewBox=\"0 0 24 24\"><g><path d=\"M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z\"></path></g></svg>\n  <input placeholder=\"Search\" type=\"search\" class=\"input\">\n</div>\n<style>\n/* From Uiverse.io by alexruix - Tags: input, search */\n.group {\n display: flex;\n line-height: 28px;\n align-items: center;\n position: relative;\n max-width: 190px;\n}\n\n.input {\n width: 100%;\n height: 40px;\n line-height: 28px;\n padding: 0 1rem;\n padding-left: 2.5rem;\n border: 2px solid transparent;\n border-radius: 8px;\n outline: none;\n background-color: #f3f3f4;\n color: #0d0c22;\n transition: .3s ease;\n}\n\n.input::placeholder {\n color: #9e9ea7;\n}\n\n.input:focus, input:hover {\n outline: none;\n border-color: rgba(234,76,137,0.4);\n background-color: #fff;\n box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);\n}\n\n.icon {\n position: absolute;\n left: 1rem;\n fill: #9e9ea7;\n width: 1rem;\n height: 1rem;\n}\n\n\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

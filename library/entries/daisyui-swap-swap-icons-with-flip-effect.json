@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-swap-swap-icons-with-flip-effect",
+  "title": "Swap: Swap icons with flip effect (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/swap/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "swap",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Swap allows you to toggle the visibility of two elements using a checkbox or a class name.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/swap/+page.md",
+  "code": "<label class=\"swap swap-flip text-9xl\">\n  <!-- this hidden checkbox controls the state -->\n  <input type=\"checkbox\" />\n\n  <div class=\"swap-on\">😈</div>\n  <div class=\"swap-off\">😇</div>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

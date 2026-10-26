@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-alert-destructive",
+  "title": "Alert Destructive (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/alert-destructive.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "alert",
+    "destructive",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Displays a callout for user attention.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/alert-destructive.tsx",
+  "code": "import { AlertCircleIcon } from \"lucide-react\"\n\nimport {\n  Alert,\n  AlertDescription,\n  AlertTitle,\n} from \"@/registry/new-york-v4/ui/alert\"\n\nexport default function AlertDestructive() {\n  return (\n    <Alert variant=\"destructive\">\n      <AlertCircleIcon />\n      <AlertTitle>Error</AlertTitle>\n      <AlertDescription>\n        Your session has expired. Please log in again.\n      </AlertDescription>\n    </Alert>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

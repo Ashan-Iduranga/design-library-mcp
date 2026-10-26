@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-jkhuger-short-lizard-27-7345e8",
+  "title": "Toggle by JkHuger (short-lizard-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/short-lizard-27",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/JkHuger_short-lizard-27.html",
+  "code": "<input id=\"toggle_checkbox\" type=\"checkbox\">\n<label for=\"toggle_checkbox\"></label>\n<style>\n/* From Uiverse.io by JkHuger - Tags: switch */\n#toggle_checkbox {\n  display: none;\n}\n\nlabel {\n  position: absolute;\n  top: 50%;\n  right: 0px;\n  left: 0;\n  display: block;\n  width: 70px;\n  height: 35px;\n  margin: 0 auto;\n  transform: translateY(-50%);\n  cursor: pointer;\n}\n\nlabel:before {\n  top: 4px;\n  left: 4px;\n  width: 27px;\n  height: 27px;\n  border: 2px solid red;\n}\n\nlabel:after {\n  top: 0;\n  right: 0;\n  width: 70px;\n  height: 35px;\n  border: 2px solid #143240;\n}\n\nlabel:before,\nlabel:after {\n  content: \"\";\n  position: absolute;\n  border-radius: 50px;\n  box-sizing: border-box;\n  transition: 0.5s ease top, 0.5s ease left, 0.5s ease right, 0.5s ease width,\n    0.5s ease height, 0.5s ease border-color;\n}\n\n#toggle_checkbox:checked + label:before {\n  top: 0;\n  left: 0;\n  width: 70px;\n  height: 35px;\n  border-color: #143240;\n  border: 2px solid #143240\n}\n\n#toggle_checkbox:checked + label:after {\n  top: 4px;\n  right: 4px;\n  width: 27px;\n  height: 27px;\n  border-color: red;\n  border: 2px solid red;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

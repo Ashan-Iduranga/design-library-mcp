@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satwinder04-afraid-treefrog-79-b43ace",
+  "title": "Loader by Satwinder04 (afraid-treefrog-79)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Satwinder04/afraid-treefrog-79",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Satwinder04 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Satwinder04_afraid-treefrog-79.html",
+  "code": "<div class=\"loader\">\n  <div class=\"loader-text\">Loading...</div>\n  <div class=\"loader-bar\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by Satwinder04 - Tags: loader */\n.loader {\n  /* background-color: blue; */\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\n.loader-text {\n  font-size: 24px;\n  color: rgb(0, 0, 0);\n  margin-bottom: 20px;\n  align-self: center;\n}\n\n.loader-bar {\n  width: 30%;\n  height: 10px;\n  border-radius: 5px;\n  background-color: rgb(0, 0, 0);\n  animation: loader-bar-animation 2s ease-in-out infinite;\n}\n\n@keyframes loader-bar-animation {\n  0% {\n    /* transform: translateX(-100%) rotate(270deg); */\n    transform: translateX(-100%);\n  }\n\n  50% {\n    /* transform: translateX(100%) rotate(-90deg); */\n    transform: translateX(100%);\n  }\n\n  100% {\n    /* transform: translateX(-100%) rotate(270deg); */\n    transform: translateX(-100%);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

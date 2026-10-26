@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-kbd-demo",
+  "title": "Kbd Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/kbd-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "kbd",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Used to display textual user input from keyboard.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/kbd-demo.tsx",
+  "code": "import { Kbd, KbdGroup } from \"@/registry/new-york-v4/ui/kbd\"\n\nexport default function KbdDemo() {\n  return (\n    <div className=\"flex flex-col items-center gap-4\">\n      <KbdGroup>\n        <Kbd>⌘</Kbd>\n        <Kbd>⇧</Kbd>\n        <Kbd>⌥</Kbd>\n        <Kbd>⌃</Kbd>\n      </KbdGroup>\n      <KbdGroup>\n        <Kbd>Ctrl</Kbd>\n        <span>+</span>\n        <Kbd>B</Kbd>\n      </KbdGroup>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

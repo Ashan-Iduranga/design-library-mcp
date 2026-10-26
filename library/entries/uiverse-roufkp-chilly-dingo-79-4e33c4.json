@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-roufkp-chilly-dingo-79-4e33c4",
+  "title": "Button by roufkp (chilly-dingo-79)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/roufkp/chilly-dingo-79",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By roufkp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/roufkp_chilly-dingo-79.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by roufkp - Tags: button, hover */\n.button {\n  width: fit-content;\n  padding: 12px 28px;\n  font-size: 15px;\n  font-weight: 600;\n  letter-spacing: .1rem;\n  border: none;\n  background: transparent;\n  box-shadow: inset -20px -16px 0px 2px rgb(2 184 72);\n  border-radius: 100px;\n  color: rgb(67, 46, 19);\n  transition: all 1s cubic-bezier(.66, .00, .34, 1.00);\n}\n\nbutton:hover {\n  box-shadow: inset 0px 0px 0px 0px rgb(2 184 72);\n  background: rgb(33, 30, 24);\n  transform: translateY(-5px);\n  color: rgb(230, 221, 221);\n  font-weight: 700;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

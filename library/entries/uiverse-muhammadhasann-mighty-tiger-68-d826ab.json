@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-muhammadhasann-mighty-tiger-68-d826ab",
+  "title": "Card by MuhammadHasann (mighty-tiger-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MuhammadHasann/mighty-tiger-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "animation",
+    "minimalist",
+    "rounded",
+    "smooth",
+    "image",
+    "card-template"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MuhammadHasann on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/MuhammadHasann_mighty-tiger-68.html",
+  "code": "<div class=\"card\">\n  <div class=\"sub-card category\">\n    <span class=\"text_span\">Basketball sport</span>\n    <svg\n      class=\"icon_svg\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 512 512\"\n    >\n      <path\n        d=\"M86.6 64l85.2 85.2C194.5 121.7 208 86.4 208 48c0-14.7-2-28.9-5.7-42.4C158.6 15 119 35.5 86.6 64zM64 86.6C35.5 119 15 158.6 5.6 202.3C19.1 206 33.3 208 48 208c38.4 0 73.7-13.5 101.3-36.1L64 86.6zM256 0c-7.3 0-14.6 .3-21.8 .9C238 16 240 31.8 240 48c0 47.3-17.1 90.5-45.4 124L256 233.4 425.4 64C380.2 24.2 320.9 0 256 0zM48 240c-16.2 0-32-2-47.1-5.8C.3 241.4 0 248.7 0 256c0 64.9 24.2 124.2 64 169.4L233.4 256 172 194.6C138.5 222.9 95.3 240 48 240zm463.1 37.8c.6-7.2 .9-14.5 .9-21.8c0-64.9-24.2-124.2-64-169.4L278.6 256 340 317.4c33.4-28.3 76.7-45.4 124-45.4c16.2 0 32 2 47.1 5.8zm-4.7 31.9C492.9 306 478.7 304 464 304c-38.4 0-73.7 13.5-101.3 36.1L448 425.4c28.5-32.3 49.1-71.9 58.4-115.7zM340.1 362.7C317.5 390.3 304 425.6 304 464c0 14.7 2 28.9 5.7 42.4C353.4 497 393 476.5 425.4 448l-85.2-85.2zM317.4 340L256 278.6 86.6 448c45.1 39.8 104.4 64 169.4 64c7.3 0 14.6-.3 21.8-.9C274 496 272 480.2 272 464c0-47.3 17.1-90.5 45.4-124z\"\n      ></path>\n    </svg>\n  </div>\n  <div class=\"card_container\">\n    <svg class=\"image\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n      <path\n        d=\"M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z\"\n      ></path>\n    </svg>\n  </div>\n  <div class=\"sub-card named\">\n    <span class=\"text_span\">Golden state warriors</span>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by MuhammadHasann  - Tags: simple, animation, minimalist, card, rounded, smooth, image, card template */\n.card {\n  --white: hsl(0, 0%, 83%);\n  --black: hsl(240, 15%, 9%);\n  --stone-300: hsl(24, 6%, 83%);\n  --pink-500: hsl(299, 100%, 83%);\n\n  cursor: pointer;\n\n  position: relative;\n\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.sub-card {\n  display: flex;\n  align-items: center;\n\n  padding: 0.75rem;\n  min-width: 11.5rem;\n  height: 2.25rem;\n  background-color: var(--stone-300);\n}\n.sub-card.category {\n  justify-content: space-between;\n\n  border-radius: 0.5rem 0.5rem 0rem 0rem;\n\n  transition: all 0.5s cubic-bezier(1, 0, 0, 1);\n}\n.sub-card.named {\n  justify-content: center;\n\n  border-radius: 0rem 0rem 0.5rem 0.5rem;\n\n  transition: all 0.5s cubic-bezier(1, 0, 0, 1);\n}\n\n.card:hover .sub-card.category {\n  transform: translateY(100%);\n}\n.card:hover .sub-card.named {\n  transform: translateY(-100%);\n}\n\n.sub-card .text_span {\n  font-size: 0.75rem;\n  font-weight: 600;\n  color: var(--black);\n  text-transform: capitalize;\n}\n\n.sub-card .icon_svg {\n  width: 1rem;\n  fill: var(--black);\n}\n\n.card_container {\n  overflow: hidden;\n\n  position: relative;\n  z-index: 5;\n\n  width: 17rem;\n  height: 14rem;\n  background-color: var(--pink-500);\n\n  border-radius: 0.5rem;\n}\n.card_container::before {\n  content: \"\";\n\n  position: absolute;\n  z-index: 10;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n\n  width: 0rem;\n  aspect-ratio: 1;\n  background-color: hsl(240, 15%, 9%, 0.2);\n\n  border-radius: 50%;\n  transform-origin: center;\n\n  transition: all 1s cubic-bezier(1, 0, 0, 1) 0.2s;\n}\n.card_container::after {\n  content: \"See more\";\n\n  position: absolute;\n  z-index: 10;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n\n  display: flex;\n  justify-content: center;\n  align-items: center;\n\n  padding: 0rem;\n  box-sizing: border-box;\n  width: 0rem;\n  aspect-ratio: 1;\n  background-color: hsl(240, 15%, 9%, 0.5);\n\n  font-size: 0rem;\n  font-weight: bold;\n  color: var(--white);\n  text-align: center;\n\n  border-radius: 50%;\n  transform-origin: center;\n\n  transition: all 1s cubic-bezier(1, 0, 0, 1) 0s;\n}\n\n.card:hover .card_container::before {\n  width: 22.5rem;\n\n  transition: all 1s cubic-bezier(1, 0, 0, 1) 0s;\n}\n.card:hover .card_container::after {\n  padding: 1rem;\n  width: 5rem;\n\n  font-size: 0.75rem;\n\n  transition: all 0.3s ease-in-out 0.4s;\n}\n\n.card_container .image {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n\n  width: 3rem;\n  fill: var(--black);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-lists-horizontal-list",
+  "title": "Lists: Horizontal list (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/typography/lists/#horizontal-list",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "list",
+    "lists",
+    "typography",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to create a horizontally aligned list of items.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/typography/lists.md",
+  "code": "<ul class=\"flex flex-wrap items-center justify-center text-heading\">\n    <li>\n        <a href=\"#\" class=\"me-4 hover:underline md:me-6 \">About</a>\n    </li>\n    <li>\n        <a href=\"#\" class=\"me-4 hover:underline md:me-6\">Premium</a>\n    </li>\n    <li>\n        <a href=\"#\" class=\"me-4 hover:underline md:me-6 \">Campaigns</a>\n    </li>\n    <li>\n        <a href=\"#\" class=\"me-4 hover:underline md:me-6\">Blog</a>\n    </li>\n    <li>\n        <a href=\"#\" class=\"me-4 hover:underline md:me-6\">Affiliate Program</a>\n    </li>\n    <li>\n        <a href=\"#\" class=\"me-4 hover:underline md:me-6\">FAQs</a>\n    </li>\n    <li>\n        <a href=\"#\" class=\"me-4 hover:underline md:me-6\">Contact</a>\n    </li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

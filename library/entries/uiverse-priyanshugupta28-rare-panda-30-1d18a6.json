@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-priyanshugupta28-rare-panda-30-1d18a6",
+  "title": "Loader by PriyanshuGupta28 (rare-panda-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/rare-panda-30",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/PriyanshuGupta28_rare-panda-30.html",
+  "code": "<div class=\"custom-loader\"></div>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: loader, simple loader */\n.custom-loader {\n  width: 50px;\n  height: 50px;\n  display: grid;\n}\n\n.custom-loader::before,\n.custom-loader::after {\n  content: \"\";\n  grid-area: 1/1;\n  --c: radial-gradient(farthest-side,#1692f8 92%,rgba(179, 53, 53, 0));\n  background: var(--c) 50%  0, \n      var(--c) 50%  100%, \n      var(--c) 100% 50%, \n      var(--c) 0    50%;\n  background-size: 12px 12px;\n  background-repeat: no-repeat;\n  animation: s2 1s infinite;\n}\n\n.custom-loader::before {\n  margin: 4px;\n  filter: hue-rotate(45deg);\n  background-size: 8px 8px;\n  animation-timing-function: linear\n}\n\n@keyframes s2 {\n \n  100% {\n    transform: rotate(.5turn)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

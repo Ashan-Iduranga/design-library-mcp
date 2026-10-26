@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-codebykay101-dull-shrimp-28-287fe1",
+  "title": "Loader by codebykay101 (dull-shrimp-28)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/codebykay101/dull-shrimp-28",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "neon",
+    "css",
+    "effects"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By codebykay101 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/codebykay101_dull-shrimp-28.html",
+  "code": "<div class=\"container\">\n  <div class=\"square\">\n    <span style=\"--i:0;\"></span>\n    <span style=\"--i:1;\"></span>\n    <span style=\"--i:2;\"></span>\n    <span style=\"--i:3;\"></span>\n  </div>\n  <div class=\"square\">\n    <span style=\"--i:0;\"></span>\n    <span style=\"--i:1;\"></span>\n    <span style=\"--i:2;\"></span>\n    <span style=\"--i:3;\"></span>\n  </div>\n  <div class=\"square\">\n    <span style=\"--i:0;\"></span>\n    <span style=\"--i:1;\"></span>\n    <span style=\"--i:2;\"></span>\n    <span style=\"--i:3;\"></span>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by codebykay101 - Tags: animation, neon, css, effects */\n.container {\n  position: relative;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.container .square {\n  position: absolute;\n  width: 200px;\n  height: 200px;\n}\n\n.container .square:nth-child(2) {\n  transform: translate(-25%, -25%) rotateX(180deg);\n  filter: hue-rotate(60deg);\n}\n\n.container .square:nth-child(3) {\n  transform: translate(25%, 25%) rotate(180deg);\n  filter: hue-rotate(180deg);\n}\n\n.container .square::before {\n  content: '';\n  position: absolute;\n  width: 20px;\n  height: 20px;\n  background: #0f0;\n  box-shadow: 0 0 0 8px #0f03, 0 0 0 15px #0f01;\n  animation: animateSquare 4s linear infinite;\n}\n\n@keyframes animateSquare {\n  0% {\n    transform: translate(2px,2px);\n  }\n\n  25% {\n    transform: translate(178px,2px);\n  }\n\n  50% {\n    transform: translate(178px,178px);\n  }\n\n  75% {\n    transform: translate(2px,178px);\n  }\n\n  100% {\n    transform: translate(2px,2px);\n  }\n}\n\n.container .square span {\n  position: absolute;\n  inset: 10px;\n  overflow: hidden;\n  transform: rotate(calc(90deg * var(--i)));\n}\n\n.container .square span::before {\n  content: '';\n  position: absolute;\n  width: 100%;\n  height: 4px;\n  background: #0f0;\n  transform: translateX(-100%);\n  animation: animate 4s linear infinite;\n  animation-delay: calc(1s * var(--i));\n}\n\n@keyframes animate {\n  0% {\n    transform: translateX(-100%);\n  }\n\n  50%,100% {\n    transform: translateX(100%);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

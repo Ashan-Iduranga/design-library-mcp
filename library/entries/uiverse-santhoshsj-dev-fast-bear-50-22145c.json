@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-santhoshsj-dev-fast-bear-50-22145c",
+  "title": "Button by SanthoshSJ-Dev (fast-bear-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SanthoshSJ-Dev/fast-bear-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "blue",
+    "fluid",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SanthoshSJ-Dev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SanthoshSJ-Dev_fast-bear-50.html",
+  "code": "<button class=\"button\">\n  <span class=\"button-text\">Hover me</span>\n  <div class=\"fill-container\"></div>\n</button>\n<style>\n/* From Uiverse.io by SanthoshSJ-Dev - Tags: simple, blue, button, fluid, animated */\n.button {\n  position: relative;\n  padding: 24px 64px;\n  border-radius: 50px;\n  color: #fafafa;\n  text-transform: uppercase;\n  font-weight: 900;\n  letter-spacing: 2px;\n  background-color: #212121;\n  border: solid 1px #fafafa4d;\n  overflow: hidden;\n  cursor: pointer;\n  transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);\n}\n\n.button .button-text {\n  position: relative;\n  z-index: 2;\n}\n\n.button .fill-container {\n  position: absolute;\n  left: 0;\n  top: 50%;\n  width: 100%;\n  padding-bottom: 100%;\n  transform: translateY(-50%) rotate(180deg);\n}\n\n.button .fill-container::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  background-color: blue;\n  border-radius: 50px;\n  transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);\n  transform: translateY(-100%);\n}\n\n.button:hover {\n  border-color: blue;\n  transform: translateY(-4px);\n}\n\n.button:hover .fill-container {\n  transform: translateY(-50%) rotate(0);\n}\n\n.button:hover .fill-container::after {\n  transform: translateY(0);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

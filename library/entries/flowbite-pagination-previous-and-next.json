@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-pagination-previous-and-next",
+  "title": "Pagination: Previous and next (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/pagination/#previous-and-next",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "pagination",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the following markup to show simple previous and next elements.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/pagination.md",
+  "code": "<div class=\"flex space-x-2\">\n  <!-- Previous Button -->\n  <a href=\"#\" class=\"text-body bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none\">\n    Previous\n  </a>\n\n  <!-- Next Button -->\n  <a href=\"#\" class=\"text-body bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none\">\n    Next\n  </a>\n</div>\n\n<div class=\"flex space-x-2\">\n  <!-- Previous Button -->\n  <a href=\"#\" class=\"text-body bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">\n    Previous\n  </a>\n\n  <!-- Next Button -->\n  <a href=\"#\" class=\"text-body bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">\n    Next\n  </a>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

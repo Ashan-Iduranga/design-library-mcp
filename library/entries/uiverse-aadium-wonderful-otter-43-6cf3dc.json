@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-aadium-wonderful-otter-43-6cf3dc",
+  "title": "Loader by aadium (wonderful-otter-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aadium/wonderful-otter-43",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "clock",
+    "timer"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aadium on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/aadium_wonderful-otter-43.html",
+  "code": "<div class=\"cloader\">\n  <div class=\"clface\">\n    <div class=\"clsface\">\n      <div id=\"h2\" class=\"hand\"></div>\n    </div>\n    <div class=\"top\"></div>\n    <div class=\"bottom\"></div>\n    <div class=\"left\"></div>\n    <div class=\"right\"></div>\n    <div id=\"sub\" class=\"pin\"></div>\n    <div id=\"h1\" class=\"hand\"></div>\n    <div id=\"main\" class=\"pin\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by aadium - Tags: loader, clock, timer */\n.cloader {\n  width: 10em;\n  height: 10em;\n  border: 4px solid white;\n  border-radius: 50%;\n  margin: 50px auto;\n  position: relative;\n  padding: 2rem;\n}\n\n.clface {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  transform: translateY(-3px);\n}\n\n.top {\n  height: 10px;\n  width: 4px;\n  content: '';\n  background-color: white;\n  border-radius: 5em;\n  margin-top: -30px;\n  margin-left: 42px;\n}\n\n.bottom {\n  height: 10px;\n  width: 4px;\n  content: '';\n  background-color: white;\n  border-radius: 5em;\n  margin-top: 135px;\n  margin-left: 42px;\n}\n\n.left {\n  height: 4px;\n  width: 10px;\n  content: '';\n  background-color: white;\n  border-radius: 5em;\n  margin-top: -82px;\n  margin-left: 112px;\n}\n\n.right {\n  height: 4px;\n  width: 10px;\n  content: '';\n  background-color: white;\n  border-radius: 5em;\n  margin-top: -4px;\n  margin-left: -35px;\n}\n\n.clsface {\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  margin-left: 24px;\n  margin-top: 15px;\n  border-radius: 6em;\n  border: 2px solid #636363;\n}\n\n.hand {\n  width: 65%;\n  height: 4px;\n  background-color: white;\n  border-radius: 3em;\n  border: none;\n  position: absolute;\n  top: 85%;\n  left: -15%;\n  transform-origin: 100%;\n  transform: rotate(90deg);\n}\n\n.pin {\n  width: 25%;\n  height: 25%;\n  border-radius: 50%;\n  background: white;\n  position: absolute;\n  top: 86%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n\n#sub {\n  width: 10%;\n  height: 10%;\n  border-radius: 50%;\n  background: #636363;\n  position: absolute;\n  top: 40%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n\n#h1 {\n  animation: rotate 4s linear infinite;\n}\n\n#h2 {\n  width: 45%;\n  left: 5%;\n  top: 45%;\n  background-color: #636363;\n  animation: rotate 1s linear infinite;\n}\n\n@keyframes rotate {\n  from {\n    transform: rotate(90deg);\n  }\n\n  to {\n    transform: rotate(450deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-alshahwan-sour-baboon-86-e78ce3",
+  "title": "Button by alshahwan (sour-baboon-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alshahwan/sour-baboon-86",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "linkedin",
+    "follow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alshahwan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/alshahwan_sour-baboon-86.html",
+  "code": "<button>\n    <p>Follow me</p>\n    <svg viewBox=\"0 0 16 16\" class=\"bi bi-whatsapp\" fill=\"currentColor\" height=\"16\" width=\"16\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z\"></path>\n    </svg>\n</button>\n<style>\n/* From Uiverse.io by alshahwan - Tags: button, linkedin, follow */\n/* From uiverse.io by @alshahwan */\n/* From uiverse.io by @alshahwan */\nbutton {\n  background-color: #fff;\n  border: 1px solid #0077b5;\n  padding: 5px;\n  position: relative;\n  width: 7.2em;\n  height: 2em;\n  transition: 0.5s;\n  font-size: 17px;\n  border-radius: 0.4em;\n}\n\nbutton p {\n  position: absolute;\n  top: 0.4em;\n  left: 1.2em;\n  margin: 0;\n  padding: 0;\n  transition: .5s;\n  color: #0077b5;\n}\n\nbutton svg {\n  position: absolute;\n  top: 0.45em;\n  right: 0.5em;\n  margin: 0;\n  padding: 0;\n  opacity: 0;\n  transition: 0.5s;\n  height: 1em;\n  fill: #fff\n}\n\nbutton:hover p {\n  left: 0.6em;\n  color: #fff\n}\n\nbutton:hover svg {\n  opacity: 1;\n}\n\nbutton:hover {\n  background-color: #0077b5;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

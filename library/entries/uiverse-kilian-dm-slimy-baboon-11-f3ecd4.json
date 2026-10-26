@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-kilian-dm-slimy-baboon-11-f3ecd4",
+  "title": "Button by Kilian-DM (slimy-baboon-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Kilian-DM/slimy-baboon-11",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Kilian-DM on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Kilian-DM_slimy-baboon-11.html",
+  "code": "<button class=\"button-3d\">button</button>\n\n<style>\n/* From Uiverse.io by Kilian-DM - Tags: 3d, button */\n.button-3d {\n  display: inline-block;\n  padding: 0.5em 1em;\n  font-size: 1.06em;\n  font-weight: bold;\n  text-transform: uppercase;\n  color: #fff;\n  background-color: #8e44ad;\n  border: none;\n  border-radius: 0.25em;\n  box-shadow: 0 0.15em 0.3em rgba(0, 0, 0, 0.3);\n  transform: perspective(1em) rotateX(-1deg) rotateY(1deg);\n  transition: all 0.2s ease-in-out;\n}\n\n.button-3d:hover {\n  transform: perspective(1em) rotateX(-3deg) rotateY(3deg) translateY(-0.05em);\n  background-color: #9b59b6;\n  box-shadow: 0 0.3em 0.6em rgba(0, 0, 0, 0.3);\n}\n\n.button-3d:focus,\n.button-3d:active {\n  transform: perspective(1em) rotateX(-3deg) rotateY(3deg) translateY(-0.05em);\n  background-color: #e74c3c;\n  box-shadow: 0 0.3em 0.6em rgba(0, 0, 0, 0.3);\n  outline: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

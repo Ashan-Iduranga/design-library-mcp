@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nawsome-terrible-dog-7-1eda05",
+  "title": "Loader by Nawsome (terrible-dog-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/terrible-dog-7",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Nawsome_terrible-dog-7.html",
+  "code": "<div class=\"blobs\">\n\t<div class=\"blob-center\"></div>\n\t<div class=\"blob\"></div>\n\t<div class=\"blob\"></div>\n\t<div class=\"blob\"></div>\n\t<div class=\"blob\"></div>\n\t<div class=\"blob\"></div>\n\t<div class=\"blob\"></div>\n</div>\n<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n  <defs>\n    <filter id=\"goo\">\n      <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"10\" result=\"blur\"></feGaussianBlur>\n      <feColorMatrix in=\"blur\" mode=\"matrix\" values=\"1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7\" result=\"goo\"></feColorMatrix>\n      <feBlend in=\"SourceGraphic\" in2=\"goo\"></feBlend>\n  \t</filter>\n  </defs>\n</svg>\n<style>\n/* From Uiverse.io by Nawsome - Tags: loader */\n.blobs {\n  width: 300px;\n  height: 300px;\n  position: absolute;\n  overflow: hidden;\n  border-radius: 70px;\n  transform-style: preserve-3d;\n}\n\n.blobs .blob-center {\n  transform-style: preserve-3d;\n  position: absolute;\n  background: #1d1d1d;\n  top: 50%;\n  left: 50%;\n  width: 30px;\n  height: 30px;\n  transform-origin: left top;\n  transform: scale(0.9) translate(-50%, -50%);\n  animation: blob-grow_2 linear 3.4s infinite;\n  border-radius: 50%;\n  box-shadow: 0 -10px 40px -5px #1d1d1d;\n}\n\n.blob {\n  position: absolute;\n  background: #1d1d1d;\n  top: 50%;\n  left: 50%;\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  animation: blobs_2 ease-out 3.4s infinite;\n  transform: scale(0.9) translate(-50%, -50%);\n  transform-origin: center top;\n  opacity: 0;\n}\n\n.blob:nth-child(1) {\n  -webkit-animation-delay: 0.2s;\n  animation-delay: 0.2s;\n}\n\n.blob:nth-child(2) {\n  -webkit-animation-delay: 0.4s;\n  animation-delay: 0.4s;\n}\n\n.blob:nth-child(3) {\n  -webkit-animation-delay: 0.6s;\n  animation-delay: 0.6s;\n}\n\n.blob:nth-child(4) {\n  -webkit-animation-delay: 0.8s;\n  animation-delay: 0.8s;\n}\n\n.blob:nth-child(5) {\n  -webkit-animation-delay: 1s;\n  animation-delay: 1s;\n}\n\n@keyframes blobs_2 {\n  0% {\n    opacity: 0;\n    transform: scale(0) translate(calc(-330px - 50%), -50%);\n  }\n\n  1% {\n    opacity: 1;\n  }\n\n  35%, 65% {\n    opacity: 1;\n    transform: scale(0.9) translate(-50%, -50%);\n  }\n\n  99% {\n    opacity: 1;\n  }\n\n  100% {\n    opacity: 0;\n    transform: scale(0) translate(calc(330px - 50%), -50%);\n  }\n}\n\n@keyframes blob-grow_2 {\n  0%, 39% {\n    transform: scale(0) translate(-50%, -50%);\n  }\n\n  40%, 42% {\n    transform: scale(1, 0.9) translate(-50%, -50%);\n  }\n\n  43%, 44% {\n    transform: scale(1.2, 1.1) translate(-50%, -50%);\n  }\n\n  45%, 46% {\n    transform: scale(1.3, 1.2) translate(-50%, -50%);\n  }\n\n  47%, 48% {\n    transform: scale(1.4, 1.3) translate(-50%, -50%);\n  }\n\n  52% {\n    transform: scale(1.5, 1.4) translate(-50%, -50%);\n  }\n\n  54% {\n    transform: scale(1.7, 1.6) translate(-50%, -50%);\n  }\n\n  58% {\n    transform: scale(1.8, 1.7) translate(-50%, -50%);\n  }\n\n  68%, 70% {\n    transform: scale(1.7, 1.5) translate(-50%, -50%);\n  }\n\n  78% {\n    transform: scale(1.6, 1.4) translate(-50%, -50%);\n  }\n\n  80%, 81% {\n    transform: scale(1.5, 1.4) translate(-50%, -50%);\n  }\n\n  82%, 83% {\n    transform: scale(1.4, 1.3) translate(-50%, -50%);\n  }\n\n  84%, 85% {\n    transform: scale(1.3, 1.2) translate(-50%, -50%);\n  }\n\n  86%, 87% {\n    transform: scale(1.2, 1.1) translate(-50%, -50%);\n  }\n\n  90%, 91% {\n    transform: scale(1, 0.9) translate(-50%, -50%);\n  }\n\n  92%, 100% {\n    transform: scale(0) translate(-50%, -50%);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-jeremyssocial-curvy-walrus-79-0eb0e6",
+  "title": "Loader by jeremyssocial (curvy-walrus-79)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/jeremyssocial/curvy-walrus-79",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "green",
+    "black",
+    "animated",
+    "css-effect",
+    "cool-card",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By jeremyssocial on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/jeremyssocial_curvy-walrus-79.html",
+  "code": "<div class=\"hacker-loader\">\n  <div class=\"loader-text\">\n    <span data-text=\"Initializing...\" class=\"text-glitch\">Initializing...</span>\n  </div>\n  <div class=\"loader-bar\">\n    <div class=\"bar-fill\"></div>\n    <div class=\"bar-glitch\"></div>\n  </div>\n  <div class=\"particles\">\n    <div class=\"particle\"></div>\n    <div class=\"particle\"></div>\n    <div class=\"particle\"></div>\n    <div class=\"particle\"></div>\n    <div class=\"particle\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by jeremyssocial  - Tags: animation, green, black, loader, animated, css effect, cool card, loading animation */\n.hacker-loader {\n  position: relative;\n  width: 24em;\n  height: 6em;\n  background-color: #0a0a0a;\n  border: 0.2em solid #00ff00;\n  border-radius: 0.5em;\n  padding: 1em;\n  overflow: hidden;\n  box-shadow: 0 0 1em rgba(0, 255, 0, 0.3);\n}\n\n.loader-text {\n  text-align: center;\n  margin-bottom: 1em;\n}\n\n.text-glitch {\n  color: #00ff00;\n  font-family: monospace;\n  font-size: 1.5em;\n  position: relative;\n  display: inline-block;\n}\n\n.text-glitch::before,\n.text-glitch::after {\n  content: attr(data-text);\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: #0a0a0a;\n  clip: rect(0, 0, 0, 0);\n}\n\n.text-glitch::before {\n  left: -0.1em;\n  text-shadow: 0.1em 0 #ff00ff;\n  animation: glitch-effect 3s infinite linear alternate-reverse;\n}\n\n.text-glitch::after {\n  left: 0.1em;\n  text-shadow: -0.1em 0 #00ffff;\n  animation: glitch-effect 2s infinite linear alternate-reverse;\n}\n\n.loader-bar {\n  width: 100%;\n  height: 0.5em;\n  background-color: #003300;\n  border-radius: 0.25em;\n  position: relative;\n  overflow: hidden;\n}\n\n.bar-fill {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 0;\n  height: 100%;\n  background-color: #00ff00;\n  animation: bar-fill-animation 2s infinite ease-in-out;\n}\n\n.bar-glitch {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n    45deg,\n    transparent,\n    rgba(0, 255, 0, 0.2),\n    transparent\n  );\n  background-size: 200% 200%;\n  animation: bar-glitch-animation 2s infinite linear;\n}\n\n.particles {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  pointer-events: none;\n}\n\n.particle {\n  position: absolute;\n  width: 0.2em;\n  height: 0.2em;\n  background-color: #00ff00;\n  border-radius: 50%;\n  opacity: 0;\n  animation: particle-animation 2s infinite linear;\n}\n\n.particle:nth-child(1) {\n  top: 10%;\n  left: 10%;\n  animation-delay: 0s;\n}\n\n.particle:nth-child(2) {\n  top: 30%;\n  left: 60%;\n  animation-delay: 0.5s;\n}\n\n.particle:nth-child(3) {\n  top: 70%;\n  left: 30%;\n  animation-delay: 1s;\n}\n\n.particle:nth-child(4) {\n  top: 90%;\n  left: 90%;\n  animation-delay: 1.5s;\n}\n\n.particle:nth-child(5) {\n  top: 50%;\n  left: 50%;\n  animation-delay: 2s;\n}\n\n@keyframes glitch-effect {\n  0% {\n    clip: rect(42px, 9999px, 44px, 0);\n  }\n  5% {\n    clip: rect(12px, 9999px, 59px, 0);\n  }\n  10% {\n    clip: rect(48px, 9999px, 29px, 0);\n  }\n  15.0% {\n    clip: rect(42px, 9999px, 73px, 0);\n  }\n  20% {\n    clip: rect(63px, 9999px, 27px, 0);\n  }\n  25% {\n    clip: rect(34px, 9999px, 55px, 0);\n  }\n  30.0% {\n    clip: rect(86px, 9999px, 73px, 0);\n  }\n  35% {\n    clip: rect(20px, 9999px, 20px, 0);\n  }\n  40% {\n    clip: rect(26px, 9999px, 60px, 0);\n  }\n  45% {\n    clip: rect(25px, 9999px, 66px, 0);\n  }\n  50% {\n    clip: rect(57px, 9999px, 98px, 0);\n  }\n  55.0% {\n    clip: rect(5px, 9999px, 46px, 0);\n  }\n  60.0% {\n    clip: rect(82px, 9999px, 31px, 0);\n  }\n  65% {\n    clip: rect(54px, 9999px, 27px, 0);\n  }\n  70% {\n    clip: rect(28px, 9999px, 99px, 0);\n  }\n  75% {\n    clip: rect(45px, 9999px, 69px, 0);\n  }\n  80% {\n    clip: rect(23px, 9999px, 85px, 0);\n  }\n  85.0% {\n    clip: rect(54px, 9999px, 84px, 0);\n  }\n  90% {\n    clip: rect(45px, 9999px, 47px, 0);\n  }\n  95% {\n    clip: rect(37px, 9999px, 20px, 0);\n  }\n  100% {\n    clip: rect(4px, 9999px, 91px, 0);\n  }\n}\n\n@keyframes bar-fill-animation {\n  0%,\n  100% {\n    width: 0;\n  }\n  50% {\n    width: 100%;\n  }\n}\n\n@keyframes bar-glitch-animation {\n  0% {\n    background-position: 0 0;\n  }\n  100% {\n    background-position: 200% 0;\n  }\n}\n\n@keyframes particle-animation {\n  0% {\n    opacity: 0;\n    transform: translate(0, 0);\n  }\n  50% {\n    opacity: 1;\n  }\n  100% {\n    opacity: 0;\n    transform: translate(2em, 2em);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

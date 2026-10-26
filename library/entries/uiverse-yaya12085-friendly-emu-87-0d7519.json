@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-yaya12085-friendly-emu-87-0d7519",
+  "title": "Form by Yaya12085 (friendly-emu-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/friendly-emu-87",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "active",
+    "input",
+    "comment"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Yaya12085_friendly-emu-87.html",
+  "code": "<div class=\"card\">\n  <span class=\"title\">Leave a Comment</span>\n  <form class=\"form\">\n    <div class=\"group\">\n    <input placeholder=\"‎\" type=\"text\" required=\"\">\n    <label for=\"name\">Name</label>\n    </div>\n<div class=\"group\">\n    <input placeholder=\"‎\" type=\"email\" id=\"email\" name=\"email\" required=\"\">\n    <label for=\"email\">Email</label>\n    </div>\n<div class=\"group\">\n    <textarea placeholder=\"‎\" id=\"comment\" name=\"comment\" rows=\"5\" required=\"\"></textarea>\n    <label for=\"comment\">Comment</label>\n</div>\n    <button type=\"submit\">Submit</button>\n  </form>\n</div>\n\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: form, active, input, comment */\n.card {\n  background-color: #fff;\n  border-radius: 10px;\n  padding: 20px;\n  width: 350px;\n  display: flex;\n  flex-direction: column;\n}\n\n.title {\n  font-size: 24px;\n  font-weight: 600;\n  text-align: center;\n}\n\n.form {\n  margin-top: 20px;\n  display: flex;\n  flex-direction: column;\n}\n\n.group {\n  position: relative;\n}\n\n.form .group label {\n  font-size: 14px;\n  color: rgb(99, 102, 102);\n  position: absolute;\n  top: -10px;\n  left: 10px;\n  background-color: #fff;\n  transition: all .3s ease;\n}\n\n.form .group input,\n.form .group textarea {\n  padding: 10px;\n  border-radius: 5px;\n  border: 1px solid rgba(0, 0, 0, 0.2);\n  margin-bottom: 20px;\n  outline: 0;\n  width: 100%;\n  background-color: transparent;\n}\n\n.form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {\n  top: 10px;\n  background-color: transparent;\n}\n\n.form .group input:focus,\n.form .group textarea:focus {\n  border-color: #3366cc;\n}\n\n.form .group input:focus+ label, .form .group textarea:focus +label {\n  top: -10px;\n  left: 10px;\n  background-color: #fff;\n  color: #3366cc;\n  font-weight: 600;\n  font-size: 14px;\n}\n\n.form .group textarea {\n  resize: none;\n  height: 100px;\n}\n\n.form button {\n  background-color: #3366cc;\n  color: #fff;\n  border: none;\n  border-radius: 5px;\n  padding: 10px;\n  font-size: 16px;\n  cursor: pointer;\n  transition: all 0.3s ease;\n}\n\n.form button:hover {\n  background-color: #27408b;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

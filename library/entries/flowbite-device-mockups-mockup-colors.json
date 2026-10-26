@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-device-mockups-mockup-colors",
+  "title": "Device Mockups: Mockup colors (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/device-mockups/#mockup-colors",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "device-mockup",
+    "device-mockups",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "You can easily update the color of the mockup by changing the background color with Tailwind CSS.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/device-mockups.md",
+  "code": "<div class=\"relative mx-auto border-default bg-base dark:bg-base border-[14px] rounded-[2.5rem] h-[600px] w-[300px]\">\n    <div class=\"h-[32px] w-[3px] bg-base absolute -start-[17px] top-[72px] rounded-s-lg\"></div>\n    <div class=\"h-[46px] w-[3px] bg-base absolute -start-[17px] top-[124px] rounded-s-lg\"></div>\n    <div class=\"h-[46px] w-[3px] bg-base absolute -start-[17px] top-[178px] rounded-s-lg\"></div>\n    <div class=\"h-[64px] w-[3px] bg-base absolute -end-[17px] top-[142px] rounded-e-lg\"></div>\n    <div class=\"rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-neutral-primary \">\n        <img src=\"https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-1-light.png\" class=\"dark:hidden w-[272px] h-[572px]\" alt=\"\">\n        <img src=\"https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-1-dark.png\" class=\"hidden dark:block w-[272px] h-[572px]\" alt=\"\">\n    </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

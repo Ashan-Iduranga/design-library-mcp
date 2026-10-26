@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-prince192000-heavy-panda-63-62938f",
+  "title": "Button by prince192000 (heavy-panda-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/prince192000/heavy-panda-63",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By prince192000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/prince192000_heavy-panda-63.html",
+  "code": "<button>\n  Button\n</button>\n<style>\n/* From Uiverse.io by prince192000 - Tags: button */\nbutton {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  padding: 15px 30px;\n  text-transform: uppercase;\n  text-decoration: none;\n  color: #fff;\n  background: black;\n  border: none;\n  letter-spacing: 2px;\n  font-size: 17px;\n}\n\nbutton:before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: #03a;\n  z-index: -1;\n  transition: transform 0.5s;\n  transform-origin: bottom right;\n  transform: scale(0);\n}\n\nbutton:hover:before {\n  transition: transform 0.5s;\n  transform-origin: top left;\n  transform: scale(1);\n}\n\nbutton:after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: transparent;\n  border: 2px solid #fff;\n  box-sizing: border-box;\n  z-index: -1;\n  transition: transform 0.5s;\n  transform-origin: bottom right;\n  transform: scale(1);\n}\n\nbutton:hover:after {\n  transition: transform 0.5s;\n  transform-origin: top left;\n  transform: scale(0);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

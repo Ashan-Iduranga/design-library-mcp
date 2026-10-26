@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-znvscripts-stale-tiger-99-57928a",
+  "title": "Button by znvscripts (stale-tiger-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/znvscripts/stale-tiger-99",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "click-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By znvscripts on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/znvscripts_stale-tiger-99.html",
+  "code": "<button>Button</button>\n\n<style>\n/* From Uiverse.io by znvscripts  - Tags: simple, button, click effect */\nbutton {\n  position: relative;\n  background: transparent;\n  cursor: pointer;\n  outline-offset: 4px;\n  transition: filter 250ms;\n  user-select: none;\n  touch-action: manipulation;\n  font-size: 1.1rem;\n  color: white;\n  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.3);\n  background: rgb(255, 0, 0);\n  border-radius: 12px;\n  padding: 12px 27px;\n  border: 3px solid black;\n}\n\nbutton:hover {\n  filter: brightness(110%);\n}\n\nbutton:active {\n  transform: translateY(2px);\n  transition: transform 34ms;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

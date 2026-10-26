@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-plastic-quail-42-f29d11",
+  "title": "Button by Yaya12085 (plastic-quail-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/plastic-quail-42",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Yaya12085_plastic-quail-42.html",
+  "code": "<button class=\"button\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 36 24\">\n        <path d=\"m18 0 8 12 10-8-4 20H4L0 4l10 8 8-12z\"></path>\n    </svg>\n    Unlock Pro\n</button>\n<style>\n/* From Uiverse.io by Yaya12085 - Source: https://uiverse.io/satyamchaudharydev/great-seahorse-44 - Tags: button, design, hover button */\n.button {\n  width: fit-content;\n  display: flex;\n  padding: 1.2em 1rem;\n  cursor: pointer;\n  gap: 0.4rem;\n  font-weight: bold;\n  border-radius: 30px;\n  text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);\n  background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;\n  background-size: 300%;\n  color: #fff;\n  border: none;\n  background-position: left center;\n  box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);\n  transition: background .3s ease;\n}\n\n.button:hover {\n  background-size: 320%;\n  background-position: right center;\n}\n\n.button:hover svg {\n  fill: #fff;\n}\n\n.button svg {\n  width: 23px;\n  fill: #f09f33;\n  transition: .3s ease;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

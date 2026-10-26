@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-dimasptrautmaa-kind-eel-48-5ba7e1",
+  "title": "Loader by dimasptrautmaa (kind-eel-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/dimasptrautmaa/kind-eel-48",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "3d",
+    "colorful"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By dimasptrautmaa on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/dimasptrautmaa_kind-eel-48.html",
+  "code": "<div id=\"page\">\n        <div id=\"container\">\n            <div id=\"ring\"></div>\n            <div id=\"ring\"></div>\n            <div id=\"ring\"></div>\n            <div id=\"ring\"></div>\n            <div id=\"h3\">loading</div>\n        </div>\n</div>\n<style>\n/* From Uiverse.io by dimasptrautmaa - Tags: 3d, loader, colorful */\n#page {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n#container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n\n#h3 {\n  color: white;\n}\n\n#ring {\n  width: 190px;\n  height: 190px;\n  border: 1px solid transparent;\n  border-radius: 50%;\n  position: absolute;\n}\n\n#ring:nth-child(1) {\n  border-bottom: 8px solid rgb(255, 141, 249);\n  animation: rotate1 2s linear infinite;\n}\n\n@keyframes rotate1 {\n  from {\n    transform: rotateX(50deg) rotateZ(110deg);\n  }\n\n  to {\n    transform: rotateX(50deg) rotateZ(470deg);\n  }\n}\n\n#ring:nth-child(2) {\n  border-bottom: 8px solid rgb(255,65,106);\n  animation: rotate2 2s linear infinite;\n}\n\n@keyframes rotate2 {\n  from {\n    transform: rotateX(20deg) rotateY(50deg) rotateZ(20deg);\n  }\n\n  to {\n    transform: rotateX(20deg) rotateY(50deg) rotateZ(380deg);\n  }\n}\n\n#ring:nth-child(3) {\n  border-bottom: 8px solid rgb(0,255,255);\n  animation: rotate3 2s linear infinite;\n}\n\n@keyframes rotate3 {\n  from {\n    transform: rotateX(40deg) rotateY(130deg) rotateZ(450deg);\n  }\n\n  to {\n    transform: rotateX(40deg) rotateY(130deg) rotateZ(90deg);\n  }\n}\n\n#ring:nth-child(4) {\n  border-bottom: 8px solid rgb(252, 183, 55);\n  animation: rotate4 2s linear infinite;\n}\n\n@keyframes rotate4 {\n  from {\n    transform: rotateX(70deg) rotateZ(270deg);\n  }\n\n  to {\n    transform: rotateX(70deg) rotateZ(630deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

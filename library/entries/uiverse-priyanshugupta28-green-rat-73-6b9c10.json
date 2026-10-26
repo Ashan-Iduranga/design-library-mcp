@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-priyanshugupta28-green-rat-73-6b9c10",
+  "title": "Loader by PriyanshuGupta28 (green-rat-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/green-rat-73",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "car-loader",
+    "3d-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/PriyanshuGupta28_green-rat-73.html",
+  "code": "<div class=\"loader-container\">\n    <div class=\"loader\">\n      <div class=\"circle\"></div>\n      <div class=\"circle\"></div>\n      <div class=\"circle\"></div>\n      <div class=\"circle\"></div>\n    </div>\n  </div>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: loader, car loader, 3d loader */\n.loader-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%\n}\n\n.loader {\n  width: 80px;\n  height: 80px;\n  position: relative;\n}\n\n.loader .circle {\n  position: absolute;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  animation: pulse 1.2s infinite ease-in-out;\n}\n\n.loader .circle:nth-child(1) {\n  top: 0;\n  left: 30px;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;\n}\n\n.loader .circle:nth-child(2) {\n  top: 30px;\n  left: 60px;\n  background-color: #0093E9;\n  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);\n  animation-delay: 0.4s;\n  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;\n}\n\n.loader .circle:nth-child(3) {\n  top: 60px;\n  left: 30px;\n  background-color: #00DBDE;\n  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);\n  animation-delay: 0.8s;\n  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;\n}\n\n.loader .circle:nth-child(4) {\n  top: 30px;\n  left: 0;\n  background-color: #3EECAC;\n  background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);\n  animation-delay: 1.2s;\n  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(0.2);\n    opacity: 0.5;\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

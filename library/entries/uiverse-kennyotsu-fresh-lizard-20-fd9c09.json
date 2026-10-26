@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-kennyotsu-fresh-lizard-20-fd9c09",
+  "title": "Loader by kennyotsu (fresh-lizard-20)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kennyotsu/fresh-lizard-20",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kennyotsu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/kennyotsu_fresh-lizard-20.html",
+  "code": "<div class=\"card\">\n  <div class=\"loader\">\n    <p>loading</p>\n    <div class=\"words\">\n      <span class=\"word\">buttons</span>\n      <span class=\"word\">forms</span>\n      <span class=\"word\">switches</span>\n      <span class=\"word\">cards</span>\n      <span class=\"word\">buttons</span>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by kennyotsu - Tags: simple */\n.card {\n  /* color used to softly clip top and bottom of the .words container */\n  --bg-color: #212121;\n  background-color: var(--bg-color);\n  padding: 1rem 2rem;\n  border-radius: 1.25rem;\n}\n.loader {\n  color: rgb(124, 124, 124);\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 500;\n  font-size: 25px;\n  -webkit-box-sizing: content-box;\n  box-sizing: content-box;\n  height: 40px;\n  padding: 10px 10px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  border-radius: 8px;\n}\n\n.words {\n  overflow: hidden;\n  position: relative;\n}\n.words::after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background: linear-gradient(\n    var(--bg-color) 10%,\n    transparent 30%,\n    transparent 70%,\n    var(--bg-color) 90%\n  );\n  z-index: 20;\n}\n\n.word {\n  display: block;\n  height: 100%;\n  padding-left: 6px;\n  color: #956afa;\n  animation: spin_4991 4s infinite;\n}\n\n@keyframes spin_4991 {\n  10% {\n    -webkit-transform: translateY(-102%);\n    transform: translateY(-102%);\n  }\n\n  25% {\n    -webkit-transform: translateY(-100%);\n    transform: translateY(-100%);\n  }\n\n  35% {\n    -webkit-transform: translateY(-202%);\n    transform: translateY(-202%);\n  }\n\n  50% {\n    -webkit-transform: translateY(-200%);\n    transform: translateY(-200%);\n  }\n\n  60% {\n    -webkit-transform: translateY(-302%);\n    transform: translateY(-302%);\n  }\n\n  75% {\n    -webkit-transform: translateY(-300%);\n    transform: translateY(-300%);\n  }\n\n  85% {\n    -webkit-transform: translateY(-402%);\n    transform: translateY(-402%);\n  }\n\n  100% {\n    -webkit-transform: translateY(-400%);\n    transform: translateY(-400%);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

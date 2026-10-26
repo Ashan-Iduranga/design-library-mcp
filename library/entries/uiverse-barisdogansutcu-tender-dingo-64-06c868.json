@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-barisdogansutcu-tender-dingo-64-06c868",
+  "title": "Toggle by barisdogansutcu (tender-dingo-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/barisdogansutcu/tender-dingo-64",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "complex",
+    "switch",
+    "heart"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By barisdogansutcu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/barisdogansutcu_tender-dingo-64.html",
+  "code": "<div class=\"love\">\n  <input id=\"switch\" type=\"checkbox\">\n  <label class=\"love-heart\" for=\"switch\">\n    <i class=\"left\"></i>\n    <i class=\"right\"></i>\n    <i class=\"bottom\"></i>\n    <div class=\"round\"></div>\n  </label>\n</div>\n<style>\n/* From Uiverse.io by barisdogansutcu - Tags: complex, switch, heart */\n.love-heart:before,#switch {\n display: none;\n}\n\n.love-heart, .love-heart::after {\n border-color: hsl(231deg 28% 86%);\n border: 1px solid;\n border-top-left-radius: 100px;\n border-top-right-radius: 100px;\n width: 10px;\n height: 8px;\n border-bottom: 0\n}\n\n.round {\n position: absolute;\n z-index: 1;\n width: 8px;\n height: 8px;\n background: hsl(0deg 0% 100%);\n box-shadow: rgb(0 0 0 / 24%) 0px 0px 4px 0px;\n border-radius: 100%;\n left: 0px;\n bottom: -1px;\n transition: all .5s ease;\n animation: check-animation2 .5s forwards;\n}\n\ninput:checked + label .round {\n transform: translate(0px, 0px);\n animation: check-animation .5s forwards;\n background-color: hsl(0deg 0% 100%);\n}\n\n@keyframes check-animation {\n 0% {\n  transform: translate(0px, 0px);\n }\n\n 50% {\n  transform: translate(0px, 7px);\n }\n\n 100% {\n  transform: translate(7px, 7px);\n }\n}\n\n@keyframes check-animation2 {\n 0% {\n  transform: translate(7px, 7px);\n }\n\n 50% {\n  transform: translate(0px, 7px);\n }\n\n 100% {\n  transform: translate(0px, 0px);\n }\n}\n\n.love-heart {\n box-sizing: border-box;\n position: relative;\n transform: rotate(-45deg) translate(-50%, -33px) scale(4);\n display: block;\n border-color: hsl(231deg 28% 86%);\n cursor: pointer;\n top: 0;\n}\n\ninput:checked + .love-heart, input:checked + .love-heart::after, input:checked + .love-heart .bottom {\n border-color: hsl(347deg 81% 61%);\n box-shadow: inset 6px -5px 0px 2px hsl(347deg 99% 72%);\n}\n\n.love-heart::after, .love-heart .bottom {\n content: \"\";\n display: block;\n box-sizing: border-box;\n position: absolute;\n border-color: hsl(231deg 28% 86%);\n}\n\n.love-heart::after {\n right: -9px;\n transform: rotate(90deg);\n top: 7px;\n}\n\n.love-heart .bottom {\n width: 11px;\n height: 11px;\n border-left: 1px solid;\n border-bottom: 1px solid;\n border-color: hsl(231deg 28% 86%);\n left: -1px;\n top: 5px;\n border-radius: 0px 0px 0px 5px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

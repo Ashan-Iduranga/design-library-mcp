@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-guilhermeyohan-chatty-lion-35-e94981",
+  "title": "Checkbox by guilhermeyohan (chatty-lion-35)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/guilhermeyohan/chatty-lion-35",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By guilhermeyohan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/guilhermeyohan_chatty-lion-35.html",
+  "code": "<div class=\"checkbox-wrapper-13\">\n  <input type=\"checkbox\" id=\"c1-13\"> \n</div>\n\n<style>\n/* From Uiverse.io by guilhermeyohan - Tags: checkbox */\n@supports (-webkit-appearance: none) or (-moz-appearance: none) {\n  .checkbox-wrapper-13 input[type=checkbox] {\n    --active: #275EFE;\n    --active-inner: #fff;\n    --focus: 2px rgba(39, 94, 254, .3);\n    --border: #BBC1E1;\n    --border-hover: #275EFE;\n    --background: #fff;\n    --disabled: #F6F8FF;\n    --disabled-inner: #E1E6F9;\n    -webkit-appearance: none;\n    -moz-appearance: none;\n    height: 21px;\n    outline: none;\n    display: inline-block;\n    vertical-align: top;\n    position: relative;\n    margin: 0;\n    cursor: pointer;\n    border: 1px solid var(--bc, var(--border));\n    background: var(--b, var(--background));\n    transition: background 0.3s, border-color 0.3s, box-shadow 0.2s;\n  }\n\n  .checkbox-wrapper-13 input[type=checkbox]:after {\n    content: \"\";\n    display: block;\n    left: 0;\n    top: 0;\n    position: absolute;\n    transition: transform var(--d-t, 0.3s) var(--d-t-e, ease), opacity var(--d-o, 0.2s);\n  }\n\n  .checkbox-wrapper-13 input[type=checkbox]:checked {\n    --b: var(--active);\n    --bc: var(--active);\n    --d-o: .3s;\n    --d-t: .6s;\n    --d-t-e: cubic-bezier(.2, .85, .32, 1.2);\n  }\n\n  .checkbox-wrapper-13 input[type=checkbox]:disabled {\n    --b: var(--disabled);\n    cursor: not-allowed;\n    opacity: 0.9;\n  }\n\n  .checkbox-wrapper-13 input[type=checkbox]:disabled:checked {\n    --b: var(--disabled-inner);\n    --bc: var(--border);\n  }\n\n  .checkbox-wrapper-13 input[type=checkbox]:disabled + label {\n    cursor: not-allowed;\n  }\n\n  .checkbox-wrapper-13 input[type=checkbox]:hover:not(:checked):not(:disabled) {\n    --bc: var(--border-hover);\n  }\n\n  .checkbox-wrapper-13 input[type=checkbox]:focus {\n    box-shadow: 0 0 0 var(--focus);\n  }\n\n  .checkbox-wrapper-13 input[type=checkbox]:not(.switch) {\n    width: 21px;\n  }\n\n  .checkbox-wrapper-13 input[type=checkbox]:not(.switch):after {\n    opacity: var(--o, 0);\n  }\n\n  .checkbox-wrapper-13 input[type=checkbox]:not(.switch):checked {\n    --o: 1;\n  }\n\n  .checkbox-wrapper-13 input[type=checkbox] + label {\n    display: inline-block;\n    vertical-align: middle;\n    cursor: pointer;\n    margin-left: 4px;\n  }\n\n  .checkbox-wrapper-13 input[type=checkbox]:not(.switch) {\n    border-radius: 7px;\n  }\n\n  .checkbox-wrapper-13 input[type=checkbox]:not(.switch):after {\n    width: 5px;\n    height: 9px;\n    border: 2px solid var(--active-inner);\n    border-top: 0;\n    border-left: 0;\n    left: 7px;\n    top: 4px;\n    transform: rotate(var(--r, 20deg));\n  }\n\n  .checkbox-wrapper-13 input[type=checkbox]:not(.switch):checked {\n    --r: 43deg;\n  }\n}\n\n.checkbox-wrapper-13 * {\n  box-sizing: inherit;\n}\n\n.checkbox-wrapper-13 *:before,\n  .checkbox-wrapper-13 *:after {\n  box-sizing: inherit;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

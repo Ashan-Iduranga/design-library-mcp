@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-context-menu-demo",
+  "title": "Context Menu Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/context-menu-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "context",
+    "menu",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Displays a menu of actions triggered by a right click.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/context-menu-demo.tsx",
+  "code": "import {\n  ContextMenu,\n  ContextMenuCheckboxItem,\n  ContextMenuContent,\n  ContextMenuItem,\n  ContextMenuLabel,\n  ContextMenuRadioGroup,\n  ContextMenuRadioItem,\n  ContextMenuSeparator,\n  ContextMenuShortcut,\n  ContextMenuSub,\n  ContextMenuSubContent,\n  ContextMenuSubTrigger,\n  ContextMenuTrigger,\n} from \"@/registry/new-york-v4/ui/context-menu\"\n\nexport default function ContextMenuDemo() {\n  return (\n    <ContextMenu>\n      <ContextMenuTrigger className=\"flex h-[150px] w-[300px] items-center justify-center rounded-md border border-dashed text-sm\">\n        Right click here\n      </ContextMenuTrigger>\n      <ContextMenuContent className=\"w-52\">\n        <ContextMenuItem inset>\n          Back\n          <ContextMenuShortcut>⌘[</ContextMenuShortcut>\n        </ContextMenuItem>\n        <ContextMenuItem inset disabled>\n          Forward\n          <ContextMenuShortcut>⌘]</ContextMenuShortcut>\n        </ContextMenuItem>\n        <ContextMenuItem inset>\n          Reload\n          <ContextMenuShortcut>⌘R</ContextMenuShortcut>\n        </ContextMenuItem>\n        <ContextMenuSub>\n          <ContextMenuSubTrigger inset>More Tools</ContextMenuSubTrigger>\n          <ContextMenuSubContent className=\"w-44\">\n            <ContextMenuItem>Save Page...</ContextMenuItem>\n            <ContextMenuItem>Create Shortcut...</ContextMenuItem>\n            <ContextMenuItem>Name Window...</ContextMenuItem>\n            <ContextMenuSeparator />\n            <ContextMenuItem>Developer Tools</ContextMenuItem>\n            <ContextMenuSeparator />\n            <ContextMenuItem variant=\"destructive\">Delete</ContextMenuItem>\n          </ContextMenuSubContent>\n        </ContextMenuSub>\n        <ContextMenuSeparator />\n        <ContextMenuCheckboxItem checked>\n          Show Bookmarks\n        </ContextMenuCheckboxItem>\n        <ContextMenuCheckboxItem>Show Full URLs</ContextMenuCheckboxItem>\n        <ContextMenuSeparator />\n        <ContextMenuRadioGroup value=\"pedro\">\n          <ContextMenuLabel inset>People</ContextMenuLabel>\n          <ContextMenuRadioItem value=\"pedro\">\n            Pedro Duarte\n          </ContextMenuRadioItem>\n          <ContextMenuRadioItem value=\"colm\">Colm Tuite</ContextMenuRadioItem>\n        </ContextMenuRadioGroup>\n      </ContextMenuContent>\n    </ContextMenu>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

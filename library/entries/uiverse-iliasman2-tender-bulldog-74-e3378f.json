@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-iliasman2-tender-bulldog-74-e3378f",
+  "title": "Loader by Iliasman2 (tender-bulldog-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Iliasman2/tender-bulldog-74",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Iliasman2 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Iliasman2_tender-bulldog-74.html",
+  "code": "<div class=\"lamp\">\n  <div class=\"glass\">\n    <div class=\"lava\">\n      <div class=\"blob\"></div>\n      <div class=\"blob\"></div>\n      <div class=\"blob\"></div>\n      <div class=\"blob top\"></div>\n      <div class=\"blob bottom\"></div>\n    </div>\n  </div>\n</div>\n\n<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n  <defs>\n    <filter id=\"goo\">\n      <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"10\" result=\"blur\"></feGaussianBlur>\n      <feColorMatrix in=\"blur\" mode=\"matrix\" values=\"1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7\" result=\"goo\"></feColorMatrix>\n      <feBlend in=\"SourceGraphic\" in2=\"goo\"></feBlend>\n    </filter>\n  </defs>\n</svg>\n<style>\n/* From Uiverse.io by Iliasman2 - Tags: loader */\n.lamp {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  height: 30em;\n  min-height: 300px;\n  width: 13em;\n  min-width: calc(300px * 3 / 7);\n  background: #2b4353;\n  clip-path: polygon(33% 0, 0 70%, 22% 88%, 0 100%, 100% 100%, 78% 88%, 100% 70%, 67% 0);\n}\n\n.glass {\n  background: #b6e1e0;\n  width: 100%;\n  height: 60%;\n  position: absolute;\n  bottom: 30%;\n  overflow: hidden;\n}\n\n.lava {\n  filter: url(\"#goo\");\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  left: 0;\n}\n\n.blob {\n  border-radius: 50%;\n  background: #e8630a;\n  position: absolute;\n}\n\n.blob.top {\n  width: 100%;\n  height: 4%;\n  top: -3.7%;\n  left: 0;\n}\n\n.blob.bottom {\n  width: 100%;\n  height: 4%;\n  bottom: -3%;\n  left: 0;\n}\n\n.blob:nth-child(1) {\n  width: calc(15% * 1.4);\n  height: 15%;\n  left: 45%;\n  bottom: -15%;\n  animation: blob-one_2 ease-in-out 7s infinite;\n}\n\n.blob:nth-child(2) {\n  width: calc(22% * 1.4);\n  height: 22%;\n  right: 14%;\n  bottom: -15%;\n  animation: blob-two_2 ease-in-out 11s infinite;\n}\n\n.blob:nth-child(3) {\n  width: calc(32% * 1.4);\n  height: 32%;\n  bottom: -15%;\n  left: 14%;\n  animation: blob-three_2 ease-in-out 16s infinite;\n}\n\n@keyframes blob-one_2 {\n  0%, 100% {\n    transform: translatey(0);\n  }\n\n  50% {\n    transform: translatey(-700%);\n  }\n}\n\n@keyframes blob-two_2 {\n  0%, 100% {\n    transform: translatey(0);\n  }\n\n  50% {\n    transform: translatey(-420%);\n  }\n}\n\n@keyframes blob-three_2 {\n  0%, 100% {\n    transform: translatey(0);\n  }\n\n  50% {\n    transform: translatey(-305%);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

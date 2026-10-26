@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-benjimich-shy-newt-25-a2df27",
+  "title": "Loader by benjimich (shy-newt-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/benjimich/shy-newt-25",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "color"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By benjimich on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/benjimich_shy-newt-25.html",
+  "code": "<div class=\"loader\">\n  <div class=\"inner_loader\"></div>\n</div>\n<style>\n/* From Uiverse.io by benjimich - Tags: loader, color */\n.loader {\n  width: 200px;\n  height: 10px;\n  background: #004643;\n  border-radius: 50px;\n  overflow: hidden;\n}\n\n.inner_loader {\n  width: 60%;\n  height: 100%;\n  background: #f9bc60;\n  border-radius: 50px;\n  animation: moveLeftRight 3s ease-in-out infinite;\n}\n\n@keyframes moveLeftRight {\n  0% {\n    transform: translateX(calc(-100% + 10px));\n  }\n\n  50% {\n    transform: translateX(calc(200px - 10px));\n  }\n\n  100% {\n    transform: translateX(calc(-100% + 10px));\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

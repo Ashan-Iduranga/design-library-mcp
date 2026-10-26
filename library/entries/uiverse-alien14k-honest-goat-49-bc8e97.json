@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-alien14k-honest-goat-49-bc8e97",
+  "title": "Input by Alien14k (honest-goat-49)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Alien14k/honest-goat-49",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Alien14k on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Alien14k_honest-goat-49.html",
+  "code": "<div class=\"form__group\">\n    <input type=\"text\" class=\"form__field w-100\" placeholder=\"Input text\">\n    <label for=\"name\" class=\"form__label\"> Input text </label>\n</div>\n<style>\n/* From Uiverse.io by Alien14k - Tags: input */\n.form__group {\n  position: relative;\n}\n\n.form__field {\n  border: 1px solid silver !important;\n  border-radius: 5px;\n  box-sizing: border-box;\n  color: #313a46;\n  height: 40px;\n  padding: 0rem 15px;\n}\n\n.form__field::placeholder {\n  color: transparent;\n}\n\n.form__field:placeholder-shown ~ .form__label {\n  top: 10px;\n  border-right: none;\n  border-left: none;\n}\n\n.form__label {\n  background-color: white;\n  border-left: 1px solid silver;\n  border-right: 1px solid silver;\n  color: #9b9b9b;\n  display: block;\n  font-size: .9em;\n  margin-left: 10px;\n  padding: 0 10px;\n  pointer-events: none;\n  position: absolute;\n  top: -10px;\n  transition: 0.2s;\n}\n\n.form__field:focus {\n  border: 1px solid #B9192C !important;\n  outline: none;\n}\n\n.form__field:focus ~ .form__label {\n  background-color: white;\n  border-right: 1px solid #B9192C;\n  border-left: 1px solid #B9192C;\n  color: #B9192C;\n  font-size: .9em;\n  margin-left: 10px;\n  padding: 0 10px;\n  position: absolute;\n  top: -10px;\n  transition: 0.2s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

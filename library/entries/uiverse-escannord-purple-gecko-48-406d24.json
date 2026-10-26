@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-escannord-purple-gecko-48-406d24",
+  "title": "Radio by escannord (purple-gecko-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/escannord/purple-gecko-48",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "simple",
+    "material-design",
+    "payment"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By escannord on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/escannord_purple-gecko-48.html",
+  "code": "<div class=\"radio-input\">\n  <input value=\"value-1\" name=\"value-radio\" id=\"value-1\" type=\"radio\" />\n  <label for=\"value-1\">\n    <div class=\"text\">\n      <span class=\"circle\"></span>\n      Monthly\n    </div>\n    <div class=\"price\">\n      <span>$30/mo</span>\n      <span class=\"small\">$30 billed every month</span>\n    </div> </label\n  ><input value=\"value-2\" name=\"value-radio\" id=\"value-2\" type=\"radio\" />\n  <label for=\"value-2\">\n    <div class=\"text\">\n      <span class=\"circle\"></span>\n      Annualy\n    </div>\n    <div class=\"price\">\n      <span>$15/mo</span>\n      <span class=\"small\">$180 billed once a year</span>\n    </div>\n    <span class=\"info\">save up to 50%</span>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by escannord  - Tags: simple, material design, radio, payment */\n.radio-input input {\n  display: none;\n}\n\n.radio-input label {\n  --border-color: #a1b0d8;\n\n  border: 1px solid var(--border-color);\n  border-radius: 6px;\n  min-width: 5rem;\n  margin: 1rem;\n  padding: 1rem;\n  display: flex;\n  justify-content: space-between;\n  position: relative;\n  align-items: center;\n}\n\n.radio-input input:checked + label {\n  --border-color: #2f64d8;\n  border-color: var(--border-color);\n  border-width: 2px;\n}\n.radio-input label:hover {\n  --border-color: #2f64d8;\n  border-color: var(--border-color);\n}\n\n.radio-input {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-direction: column;\n}\n\n.circle {\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-color: rgb(189, 187, 207);\n  margin-right: 0.5rem;\n  position: relative;\n}\n\n.radio-input input:checked + label span.circle::before {\n  content: \"\";\n  display: inline;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: #2f64d8;\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n}\n.text {\n  display: flex;\n  align-items: center;\n}\n\n.price {\n  display: flex;\n  flex-direction: column;\n  text-align: right;\n  font-weight: bold;\n}\n\n.small {\n  font-size: 10px;\n  color: rgb(136, 138, 139);\n  font-weight: 100;\n}\n\n.info {\n  position: absolute;\n  display: inline-block;\n  font-size: 11px;\n  background-color: rgb(31, 236, 123);\n  border-radius: 20px;\n  padding: 1px 9px;\n  top: 0;\n  transform: translateY(-50%);\n  right: 5px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

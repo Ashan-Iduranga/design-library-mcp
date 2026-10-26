@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-themrsami-orange-cat-97-70cf9a",
+  "title": "Form by themrsami (orange-cat-97)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/themrsami/orange-cat-97",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "animation",
+    "login",
+    "modern",
+    "transition",
+    "click-effect",
+    "input-effect"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By themrsami on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/themrsami_orange-cat-97.html",
+  "code": "<!-- From Uiverse.io by themrsami - Tags: animation, login, form, modern, transition, click effect, input effect  -->\n<div class=\"h-96 flex items-center justify-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-500\">\n  <div class=\"relative\">\n    <div class=\"absolute -top-2 -left-2 -right-2 -bottom-2 rounded-lg bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 shadow-lg animate-pulse\"></div>\n    <div id=\"form-container\" class=\"bg-white p-16 rounded-lg shadow-2xl w-80 relative z-10 transform transition duration-500 ease-in-out\">\n      <h2 id=\"form-title\" class=\"text-center text-3xl font-bold mb-10 text-gray-800\">Login</h2>\n      <form class=\"space-y-5\">\n        <input class=\"w-full h-12 border border-gray-800 px-3 rounded-lg\" placeholder=\"Email\" id=\"\" name=\"\" type=\"text\">\n        <input class=\"w-full h-12 border border-gray-800 px-3 rounded-lg\" placeholder=\"Password\" id=\"\" name=\"\" type=\"password\">\n        <button class=\"w-full h-12 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline\">Sign in</button>\n        <a class=\"text-blue-500 hover:text-blue-800 text-sm\" href=\"#\">Forgot Password?</a>\n      </form>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

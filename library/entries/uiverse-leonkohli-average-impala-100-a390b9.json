@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-leonkohli-average-impala-100-a390b9",
+  "title": "Checkbox by LeonKohli (average-impala-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/LeonKohli/average-impala-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "icon",
+    "animation",
+    "active",
+    "glow",
+    "svg",
+    "cool-checkbox"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By LeonKohli on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/LeonKohli_average-impala-100.html",
+  "code": "<div class=\"bookmark-checkbox\">\n  <input\n    type=\"checkbox\"\n    id=\"bookmark-toggle\"\n    class=\"bookmark-checkbox__input\"\n  />\n  <label for=\"bookmark-toggle\" class=\"bookmark-checkbox__label\">\n    <svg class=\"bookmark-checkbox__icon\" viewBox=\"0 0 24 24\">\n      <path\n        class=\"bookmark-checkbox__icon-back\"\n        d=\"M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z\"\n      ></path>\n      <path class=\"bookmark-checkbox__icon-check\" d=\"M8 11l3 3 5-5\"></path>\n    </svg>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by LeonKohli  - Tags: icon, animation, active, checkbox, glow, svg, cool checkbox */\n.bookmark-checkbox {\n  display: inline-block;\n}\n\n.bookmark-checkbox__input {\n  display: none;\n}\n\n.bookmark-checkbox__label {\n  cursor: pointer;\n}\n\n.bookmark-checkbox__icon {\n  width: 2em;\n  height: 2em;\n  fill: none;\n  stroke-width: 2;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  transition: stroke 0.3s, fill 0.3s;\n}\n\n.bookmark-checkbox__icon-back {\n  stroke: #333;\n  transition: transform 0.3s;\n}\n\n.bookmark-checkbox__icon-check {\n  stroke: #fff;\n  stroke-dasharray: 16;\n  stroke-dashoffset: 16;\n  transition: stroke-dashoffset 0.3s, transform 0.3s;\n  transform: translateX(2px);\n}\n\n.bookmark-checkbox__input:checked\n  + .bookmark-checkbox__label\n  .bookmark-checkbox__icon {\n  fill: #ff5a5f;\n}\n\n.bookmark-checkbox__input:checked\n  + .bookmark-checkbox__label\n  .bookmark-checkbox__icon-back {\n  stroke: #ff5a5f;\n  transform: scale(1.1);\n  animation: bookmark-pop 0.4s ease;\n}\n\n.bookmark-checkbox__input:checked\n  + .bookmark-checkbox__label\n  .bookmark-checkbox__icon-check {\n  stroke-dashoffset: 0;\n  transition-delay: 0.2s;\n}\n\n@keyframes bookmark-pop {\n  0% {\n    transform: scale(1);\n  }\n  50% {\n    transform: scale(1.2);\n  }\n  100% {\n    transform: scale(1.1);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

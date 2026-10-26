@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-reshades-fast-ladybug-78-e2df63",
+  "title": "Button by reshades (fast-ladybug-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/reshades/fast-ladybug-78",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "svg"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By reshades on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/reshades_fast-ladybug-78.html",
+  "code": "<button class=\"button\">\n  <svg class=\"w-6 h-6\" stroke=\"currentColor\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n  </svg>\n  <span class=\"text\">\n    Button\n  </span>\n</button>\n<style>\n/* From Uiverse.io by reshades - Tags: button, hover, svg */\n.button {\n  width: 10em;\n  height: 3em;\n  border-radius: 8px;\n  border: 0.15em solid rgb(162, 63, 255);\n  color: rgb(162, 63, 255);\n  background-color: #00000000;\n  transition: all 0.5s ease;\n}\n\n.button .text {\n  display: none\n}\n\n.button:hover>.text {\n  display: block;\n}\n\n.button:hover>svg {\n  display: none;\n}\n\n.button:hover {\n  background-color: rgb(162, 63, 255);\n  color: #fff\n}\n\n.button svg {\n  width: 1.5em;\n  margin-top: 3px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-subaashbala-quiet-ape-66-497dc8",
+  "title": "Toggle by Subaashbala (quiet-ape-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Subaashbala/quiet-ape-66",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Subaashbala on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Subaashbala_quiet-ape-66.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by Subaashbala  - Tags: switch */\n/* The switch - the box around the slider */\n.switch {\n  --INITIAL-SWITCH-TRACK-COLOR: #fffbeb;\n  --INITIAL-THUMB-COLOR: #ff5722;\n  --OVERALL-TRANSITION-DURATION: 500ms; /* Overall transition speed */\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.75em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: var(--INITIAL-SWITCH-TRACK-COLOR);\n  transition: var(--OVERALL-TRANSITION-DURATION);\n  border-radius: 30px;\n  overflow: hidden;\n}\n\n/* Thumb */\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 100%;\n  aspect-ratio: 1;\n  border-radius: 20px;\n  left: 0;\n  bottom: 0;\n  background-color: var(--INITIAL-THUMB-COLOR);\n  transition: var(--OVERALL-TRANSITION-DURATION);\n}\n\n.switch input:checked + .slider {\n  background-color: var(--INITIAL-THUMB-COLOR);\n}\n\n/* Actions to be performed when the switch is TOGGLED ON */\n.switch input:checked + .slider::before {\n  transform-origin: left;\n  background-color: var(--INITIAL-SWITCH-TRACK-COLOR);\n  animation: wobble var(--OVERALL-TRANSITION-DURATION)\n    cubic-bezier(0.075, 0.82, 0.165, 1);\n  transform: scale(1, 1) translateX(2rem);\n}\n\n/* Actions to be performed when the switch is TOGGLED OFF */\n.switch input:not(:checked) + .slider::before {\n  transform-origin: right;\n  animation: reverse-wobble var(--OVERALL-TRANSITION-DURATION)\n    cubic-bezier(0.075, 0.82, 0.165, 1);\n}\n\n@keyframes wobble {\n  0% {\n    transform: scale(1, 1);\n  }\n  50% {\n    transform: scale(3, 1);\n  }\n  100% {\n    transform: scale(1, 1) translateX(2rem);\n  }\n}\n\n@keyframes reverse-wobble {\n  0% {\n    transform: scale(1, 1) translateX(2rem);\n  }\n  50% {\n    transform: scale(3, 1);\n  }\n  100% {\n    transform: scale(1, 1) translateX(0);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

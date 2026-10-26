@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-alexmaracinaru-empty-moose-12-8ee4ed",
+  "title": "Button by alexmaracinaru (empty-moose-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexmaracinaru/empty-moose-12",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "shop"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexmaracinaru on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/alexmaracinaru_empty-moose-12.html",
+  "code": "<button class=\"cta\">\n    <span class=\"hover-underline-animation\"> Shop now </span>\n    <svg viewBox=\"0 0 46 16\" height=\"10\" width=\"30\" xmlns=\"http://www.w3.org/2000/svg\" id=\"arrow-horizontal\">\n        <path transform=\"translate(30)\" d=\"M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z\" data-name=\"Path 10\" id=\"Path_10\"></path>\n    </svg>\n</button>\n<style>\n/* From Uiverse.io by alexmaracinaru - Tags: button, shop */\n.cta {\n  border: none;\n  background: none;\n}\n\n.cta span {\n  padding-bottom: 7px;\n  letter-spacing: 4px;\n  font-size: 14px;\n  padding-right: 15px;\n  text-transform: uppercase;\n}\n\n.cta svg {\n  transform: translateX(-8px);\n  transition: all 0.3s ease;\n}\n\n.cta:hover svg {\n  transform: translateX(0);\n}\n\n.cta:active svg {\n  transform: scale(0.9);\n}\n\n.hover-underline-animation {\n  position: relative;\n  color: black;\n  padding-bottom: 20px;\n}\n\n.hover-underline-animation:after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  transform: scaleX(0);\n  height: 2px;\n  bottom: 0;\n  left: 0;\n  background-color: #000000;\n  transform-origin: bottom right;\n  transition: transform 0.25s ease-out;\n}\n\n.cta:hover .hover-underline-animation:after {\n  transform: scaleX(1);\n  transform-origin: bottom left;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

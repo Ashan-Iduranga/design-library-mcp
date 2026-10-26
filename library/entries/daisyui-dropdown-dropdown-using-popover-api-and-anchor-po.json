@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-dropdown-dropdown-using-popover-api-and-anchor-po",
+  "title": "Dropdown: Dropdown using popover API and anchor positioning (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/dropdown/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "dropdown",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Dropdown can open a menu or any other element when the button is clicked.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/dropdown/+page.md",
+  "code": "<!-- change popover-1 and --anchor-1 names. Use unique names for each dropdown -->\n<button class=\"btn\" popovertarget=\"popover-1\" style=\"anchor-name:--anchor-1\">\n  Button\n</button>\n<ul class=\"dropdown menu w-52 rounded-box bg-base-100 shadow-sm\"\n  popover id=\"popover-1\" style=\"position-anchor:--anchor-1\">\n  <li><a>Item 1</a></li>\n  <li><a>Item 2</a></li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

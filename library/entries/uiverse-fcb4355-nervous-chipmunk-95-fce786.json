@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-fcb4355-nervous-chipmunk-95-fce786",
+  "title": "Button by fcb4355 (nervous-chipmunk-95)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/fcb4355/nervous-chipmunk-95",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "after",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By fcb4355 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/fcb4355_nervous-chipmunk-95.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by fcb4355 - Tags: button, after, 3d button */\n.button {\n  position: relative;\n  padding: 10px 20px;\n  border: none;\n  color: #007ffe;\n  cursor: pointer;\n  transition: .3s;\n  transition-delay: .3s;\n  z-index: 0;\n}\n\n.button::after {\n  position: absolute;\n  content: '';\n  width: 17px;\n  height: 17px;\n  background-color: #007ffe;\n  right: -20px;\n  border-radius: 50%;\n  top: 50%;\n  transform: translateY(-50%);\n  transition: .3s;\n  opacity: 0;\n}\n\n.button::before {\n  position: absolute;\n  z-index: 0;\n  content: '';\n  width: 17px;\n  height: 17px;\n  background-color: #007ffe;\n  left: -20px;\n  border-radius: 50%;\n  top: 50%;\n  transform: translateY(-50%);\n  transition: .3s;\n  opacity: 0;\n}\n\nbutton:hover::after {\n  z-index: -1;\n  right: 0;\n  width: 50%;\n  height: 100%;\n  border-radius: 0;\n  opacity: 1;\n}\n\nbutton:hover::before {\n  z-index: -1;\n  left: 0;\n  width: 50%;\n  height: 100%;\n  border-radius: 0;\n  opacity: 1;\n}\n\nbutton:hover {\n  color: #fff;\n  box-shadow: 10px 50px 50px rgba(52, 152, 219,.2);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

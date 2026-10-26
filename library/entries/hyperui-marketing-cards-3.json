@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-marketing-cards-3",
+  "title": "Cards: Darkened Background with Content on Hover",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/cards",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "marketing",
+    "cards",
+    "hyperui",
+    "profile",
+    "post"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/cards/3.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<a class=\"group relative block bg-black\" href=\"#\">\n<img alt=\"\" class=\"absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50\" src=\"https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?auto=format&amp;fit=crop&amp;q=80&amp;w=1160\"/>\n<div class=\"relative p-4 sm:p-6 lg:p-8\">\n<p class=\"text-sm font-medium tracking-widest text-pink-500 uppercase\">Developer</p>\n<p class=\"text-xl font-bold text-white sm:text-2xl\">Tony Wayne</p>\n<div class=\"mt-32 sm:mt-48 lg:mt-64\">\n<div class=\"translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100\">\n<p class=\"text-sm text-white\">\n              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic\n              asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum.\n              Repudiandae?\n            </p>\n</div>\n</div>\n</div>\n</a>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-jkhuger-quick-rattlesnake-57-8935ce",
+  "title": "Loader by JkHuger (quick-rattlesnake-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/quick-rattlesnake-57",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "text"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JkHuger_quick-rattlesnake-57.html",
+  "code": "<div class=\"container\">\n  <div class=\"content\">\n    <div class=\"content__container\">\n      <p class=\"content__container__text\">\n        Hello\n      </p>\n    \n      <ul class=\"content__container__list\">\n        <li class=\"content__container__list__item\">world !</li>\n        <li class=\"content__container__list__item\">coder !</li>\n        <li class=\"content__container__list__item\">users !</li>\n        <li class=\"content__container__list__item\">uiverse</li>\n      </ul>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: animation, loader, text */\n.container {\n  width: 307px;\n  height: 50px;\n}\n\n.content {\n  display: block;\n  position: sticky;\n  overflow: hidden;\n  font-family: 'Lato', sans-serif;\n  font-size: 35px;\n  line-height: 40px;\n  color: #ecf0f1;\n}\n\n.content__container {\n  font-weight: 600;\n  overflow: hidden;\n  height: 40px;\n  padding: 0 40px;\n}\n\n.content__container:before {\n  content: '[';\n  left: 0;\n}\n\n.content__container:after {\n  content: ']';\n  position: absolute;\n  right: 0;\n}\n\n.content__container:after, .content__container:before {\n  position: absolute;\n  top: -2px;\n  color: #16a085;\n  font-size: 42px;\n  line-height: 40px;\n  -webkit-animation-name: opacity;\n  -webkit-animation-duration: 2s;\n  -webkit-animation-iteration-count: infinite;\n  animation-name: opacity;\n  animation-duration: 2s;\n  animation-iteration-count: infinite;\n}\n\n.content__container__text {\n  display: inline;\n  float: left;\n  margin: 0;\n}\n\n.content__container__list {\n  margin-top: 0;\n  padding-left: 110px;\n  text-align: left;\n  list-style: none;\n  -webkit-animation-name: change;\n  -webkit-animation-duration: 10s;\n  -webkit-animation-iteration-count: infinite;\n  animation-name: change;\n  animation-duration: 10s;\n  animation-iteration-count: infinite;\n}\n\n.content__container__list__item {\n  line-height: 40px;\n  margin: 0;\n}\n\n@keyframes opacity {\n  0%, 100% {\n    opacity: 0;\n  }\n\n  50% {\n    opacity: 1;\n  }\n}\n\n@keyframes change {\n  0%, 12.66%, 100% {\n    transform: translate3d(0, 0, 0);\n  }\n\n  16.66%, 29.32% {\n    transform: translate3d(0, -25%, 0);\n  }\n\n  33.32%, 45.98% {\n    transform: translate3d(0, -50%, 0);\n  }\n\n  49.98%, 62.64% {\n    transform: translate3d(0, -75%, 0);\n  }\n\n  66.64%, 79.3% {\n    transform: translate3d(0, -50%, 0);\n  }\n\n  83.3%, 95.96% {\n    transform: translate3d(0, -25%, 0);\n  }\n}\n \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

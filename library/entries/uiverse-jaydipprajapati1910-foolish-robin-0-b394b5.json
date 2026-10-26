@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-jaydipprajapati1910-foolish-robin-0-b394b5",
+  "title": "Button by JaydipPrajapati1910 (foolish-robin-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/foolish-robin-0",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover-effect",
+    "buttons"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JaydipPrajapati1910_foolish-robin-0.html",
+  "code": "<ul class=\"wrapper\">\n    <li class=\"icon black\">\n        <span class=\"tooltip\">UP</span>\n        <span><svg viewBox=\"0 0 16 16\" class=\"bi bi-chevron-double-up\" fill=\"currentColor\" height=\"16\" width=\"16\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z\" fill-rule=\"evenodd\"></path>\n  <path d=\"M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z\" fill-rule=\"evenodd\"></path>\n</svg></span>\n    </li>\n    <li class=\"icon black\">\n        <span class=\"tooltip\">Down</span>\n        <span><svg viewBox=\"0 0 16 16\" class=\"bi bi-chevron-double-down\" fill=\"currentColor\" height=\"16\" width=\"16\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z\" fill-rule=\"evenodd\"></path>\n  <path d=\"M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z\" fill-rule=\"evenodd\"></path>\n</svg></span>\n    </li>\n    <li class=\"icon black\">\n        <span class=\"tooltip\">Left</span>\n        <span><svg viewBox=\"0 0 16 16\" class=\"bi bi-chevron-double-left\" fill=\"currentColor\" height=\"16\" width=\"16\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z\" fill-rule=\"evenodd\"></path>\n  <path d=\"M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z\" fill-rule=\"evenodd\"></path>\n</svg></span>\n    </li>\n     <li class=\"icon black\">\n        <span class=\"tooltip\">Right</span>\n        <span><svg viewBox=\"0 0 16 16\" class=\"bi bi-chevron-double-right\" fill=\"currentColor\" height=\"16\" width=\"16\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z\" fill-rule=\"evenodd\"></path>\n  <path d=\"M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z\" fill-rule=\"evenodd\"></path>\n</svg></span>\n    </li>\n</ul>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: button, hover effect, buttons */\n.wrapper {\n  display: inline-flex;\n  list-style: none;\n  height: 120px;\n  width: 100%;\n  padding-top: 40px;\n  font-family: \"Poppins\", sans-serif;\n  justify-content: center;\n}\n\n.wrapper .icon {\n  position: relative;\n  background: #fff;\n  border-radius: 50%;\n  margin: 10px;\n  width: 50px;\n  height: 50px;\n  font-size: 18px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);\n  cursor: pointer;\n  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);\n}\n\n.wrapper .tooltip {\n  position: absolute;\n  top: 0;\n  font-size: 14px;\n  background: #fff;\n  color: #fff;\n  padding: 5px 8px;\n  border-radius: 5px;\n  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);\n}\n\n.wrapper .tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 8px;\n  width: 8px;\n  background: #fff;\n  bottom: -3px;\n  left: 50%;\n  transform: translate(-50%) rotate(45deg);\n  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);\n}\n\n.wrapper .icon:hover .tooltip {\n  top: -45px;\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n}\n\n.wrapper .icon:hover span,\n.wrapper .icon:hover .tooltip {\n  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);\n}\n\n.wrapper svg {\n  fill: green;\n}\n\n.wrapper span:hover,\n.wrapper svg:hover,\n.wrapper .black:hover,\n.wrapper .black:hover .tooltip,\n.wrapper .black:hover .tooltip::before {\n  background: #222;\n  color: white;\n  fill: white;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

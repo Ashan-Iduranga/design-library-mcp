@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-jules-gitclerc-red-bear-19-78d431",
+  "title": "Input by Jules-gitclerc (red-bear-19)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Jules-gitclerc/red-bear-19",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "material-design",
+    "creditcard",
+    "payment",
+    "mastercard"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Jules-gitclerc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Jules-gitclerc_red-bear-19.html",
+  "code": "<!-- From Uiverse.io by Jules-gitclerc  - Tags: material design, input, creditcard, payment, mastercard -->\n<div\n  class=\"flex items-center justify-center bg-gray-800 overflow-hidden p-1 border border-white border-opacity-30 rounded-lg shadow-md h-9\"\n>\n  <input\n    class=\"w-42 h-full border-none outline-none text-sm bg-gray-800 text-white font-semibold caret-orange-500 pl-2\"\n    type=\"text\"\n    name=\"text\"\n    id=\"input\"\n    placeholder=\"0000 0000 0000 0000\"\n  />\n  <div\n    class=\"flex items-center justify-center relative w-10 h-6 bg-gray-800 border border-white border-opacity-20 rounded-md\"\n  >\n    <svg\n      class=\"text-white fill-current\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      width=\"23\"\n      height=\"23\"\n      viewBox=\"0 0 48 48\"\n    >\n      <path\n        fill=\"#ff9800\"\n        d=\"M32 10A14 14 0 1 0 32 38A14 14 0 1 0 32 10Z\"\n      ></path>\n      <path\n        fill=\"#d50000\"\n        d=\"M16 10A14 14 0 1 0 16 38A14 14 0 1 0 16 10Z\"\n      ></path>\n      <path\n        fill=\"#ff3d00\"\n        d=\"M18,24c0,4.755,2.376,8.95,6,11.48c3.624-2.53,6-6.725,6-11.48s-2.376-8.95-6-11.48 C20.376,15.05,18,19.245,18,24z\"\n      ></path>\n    </svg>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

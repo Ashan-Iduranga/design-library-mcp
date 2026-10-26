@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-praashoo7-happy-husky-85-325fe4",
+  "title": "Loader by Praashoo7 (happy-husky-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/happy-husky-85",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Praashoo7_happy-husky-85.html",
+  "code": "<div class=\"loader2\">\n  <div class=\"load21\"></div>\n  <div class=\"load22\"></div>\n  <div class=\"load23\"></div>\n  <div class=\"load24\"></div>\n  <div class=\"load25\"></div>\n</div>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: animation, loader */\n.loader2 {\n  display: flex;\n  align-items: center;\n}\n\n.load21 {\n  position: relative;\n  content: \"\";\n  height: 0.2em;\n  width: 4em;\n  border-radius: 5px;\n  opacity: 0;\n  background-color: white;\n  box-shadow: 0 1px 7px rgba(0,0,0,0.3);\n  animation: 2s flow_21 infinite;\n  animation-delay: 0.2s;\n}\n\n.load22 {\n  position: absolute;\n  content: \"\";\n  height: 0.2em;\n  width: 4em;\n  opacity: 0;\n  border-radius: 5px;\n  background-color: white;\n  animation: 2s flow_21 infinite;\n  animation-delay: 0.4s;\n}\n\n.load23 {\n  position: absolute;\n  content: \"\";\n  height: 0.2em;\n  width: 4em;\n  opacity: 0;\n  border-radius: 5px;\n  background-color: white;\n  animation: 2s flow_21 infinite;\n  animation-delay: 0.6s;\n}\n\n.load24 {\n  position: absolute;\n  content: \"\";\n  height: 0.2em;\n  width: 4em;\n  opacity: 0;\n  border-radius: 5px;\n  background-color: white;\n  animation: 2s flow_21 infinite;\n  animation-delay: 0.8s;\n}\n\n.load25 {\n  position: absolute;\n  content: \"\";\n  height: 0.2em;\n  width: 4em;\n  opacity: 0;\n  border-radius: 5px;\n  background-color: white;\n  animation: 2s flow_21 infinite;\n  animation-delay: 1s;\n}\n\n@keyframes flow_21 {\n  0% {\n    transform: translateY(1em);\n    opacity: 1;\n  }\n\n  50% {\n    transform: translateY(-1em);\n    opacity: 1;\n  }\n\n  100% {\n    transform: translateY(1em);\n    opacity: 1;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

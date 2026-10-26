@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-indicators-indicator-count",
+  "title": "Indicators: Indicator count (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/indicators/#indicator-count",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "indicator",
+    "indicators",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This example can be used to show a number count inside the indicator and position it relative to a button component.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/indicators.md",
+  "code": "<button type=\"button\" class=\"relative inline-flex items-center text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">\n    <svg class=\"w-4 h-4 me-1.5 -ms-0.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 13h3.439a.991.991 0 0 1 .908.6 3.978 3.978 0 0 0 7.306 0 .99.99 0 0 1 .908-.6H20M4 13v6a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-6M4 13l2-9h12l2 9M9 7h6m-7 3h8\"/></svg>\n    <span class=\"sr-only\">Notifications</span>\n    Messages\n  <div class=\"absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-danger border-2 border-buffer rounded-full -top-2 -end-2\">8</div>\n</button>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-praashoo7-giant-mole-65-e88e1c",
+  "title": "Loader by Praashoo7 (giant-mole-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/giant-mole-65",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "loading"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Praashoo7_giant-mole-65.html",
+  "code": "<div class=\"loading\">\n<span class=\"l\">L</span>\n<span class=\"o\">o</span>\n<span class=\"a\">a</span>\n<span class=\"d\">d</span>\n<span class=\"i\">i</span>\n<span class=\"n\">n</span>\n<span class=\"g\">g</span>\n<span class=\"d1\">.</span>\n<span class=\"d2\">.</span>\n<div class=\"load\">\n    <div class=\"progress\"></div>\n    <div class=\"progress\"></div>\n    <div class=\"progress\"></div>\n    <div class=\"progress\"></div>\n</div>\n</div>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: animation, loading, loader */\n.loading {\n  transform: translate(0%, -50%);\n}\n\n.l {\n  color: black;\n  opacity: 0;\n  animation: op 2s ease-in-out infinite;\n  animation-delay: 0.2s;\n}\n\n.o {\n  color: black;\n  opacity: 0;\n  animation: op 2s ease-in-out infinite;\n  animation-delay: 0.4s;\n}\n\n.a {\n  color: black;\n  opacity: 0;\n  animation: op 2s ease-in-out infinite;\n  animation-delay: 0.6s;\n}\n\n.d {\n  color: black;\n  opacity: 0;\n  animation: op 2s ease-in-out infinite;\n  animation-delay: 0.8s;\n}\n\n.i {\n  color: black;\n  opacity: 0;\n  animation: op 2s ease-in-out infinite;\n  animation-delay: 1s;\n}\n\n.n {\n  color: black;\n  opacity: 0;\n  animation: op 2s ease-in-out infinite;\n  animation-delay: 1.2s;\n}\n\n.g {\n  color: black;\n  opacity: 0;\n  animation: op 2s ease-in-out infinite;\n  animation-delay: 1.4s;\n}\n\n.d1 {\n  color: black;\n  opacity: 0;\n  animation: op1 2s ease-in-out infinite;\n  animation-delay: 1.6s;\n}\n\n.d2 {\n  color: black;\n  opacity: 0;\n  animation: op1 2s ease-in-out infinite;\n  animation-delay: 2s;\n}\n\n.load {\n  position: relative;\n  width: 1.2em;\n  height: 1.2em;\n  border-radius: 50%;\n}\n\n.progress {\n  top: 50%;\n  left: -80%;\n  position: absolute;\n  margin-top: 2.2em;\n  transform: translate(10%, -50%);\n  content: '';\n  width: 3.1em;\n  height: 3.1em;\n  background: transparent;\n  border-radius: 50%;\n  animation: load_37100 2s ease-in-out infinite;\n  animation-delay: 1s;\n}\n\n@keyframes load_37100 {\n  0% {\n    background-color: #DB4437;\n  }\n\n  25% {\n    background-color: #F4B400;\n  }\n\n  75% {\n    background-color: #0F9D58;\n  }\n\n  100% {\n    background-color: #4285F4;\n  }\n}\n\n.progress:nth-child(2) {\n  left: 50%;\n  animation-delay: 1.3s;\n}\n\n.progress:nth-child(3) {\n  left: 180%;\n  animation-delay: 1.7s;\n}\n\n.progress:nth-child(4) {\n  left: 300%;\n  animation-delay: 2s;\n}\n\n@keyframes op {\n  0% {\n    color: black;\n    opacity: 1;\n  }\n\n  50% {\n    color: green;\n    opacity: 1;\n  }\n\n  100% {\n    color: black;\n    opacity: 1;\n  }\n}\n\n@keyframes op1 {\n  0% {\n    color: black;\n    opacity: 1;\n  }\n\n  50% {\n    color: green;\n    opacity: 0;\n  }\n\n  100% {\n    color: black;\n    opacity: 1;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

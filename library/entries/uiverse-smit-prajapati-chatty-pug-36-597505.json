@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-smit-prajapati-chatty-pug-36-597505",
+  "title": "Button by Smit-Prajapati (chatty-pug-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Smit-Prajapati/chatty-pug-36",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "hover-effect",
+    "glass-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Smit-Prajapati on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Smit-Prajapati_chatty-pug-36.html",
+  "code": "<button class=\"button\">\n  <div class=\"bloom-container\">\n    <div class=\"button-container-main\">\n      <div class=\"button-inner\">\n        <div class=\"back\"></div>\n        <div class=\"front\">\n          <svg viewBox=\"0 0 512 512\" class=\"svg\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z\"></path></svg>\n        </div>\n      </div>\n      <div class=\"button-glass\">\n        <div class=\"back\"></div>\n        <div class=\"front\"></div>\n      </div>\n    </div>\n    <div class=\"bloom bloom1\"></div>\n    <div class=\"bloom bloom2\">\n  </div>\n  </div></button>\n<style>\n/* From Uiverse.io by Smit-Prajapati - Tags: gradient, button, hover effect, glass button */\n.button {\n  background: none;\n  border: none;\n}\n\n.button .bloom-container {\n  position: relative;\n  transition: all 0.2s ease-in-out;\n  border: none;\n  background: none;\n}\n\n.button .bloom-container .button-container-main {\n  width: 110px;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  overflow: hidden;\n  position: relative;\n  display: grid;\n  place-content: center;\n  border-right: 5px solid white;\n  border-left: 5px solid rgba(128, 128, 128, 0.147);\n  transform: rotate(-45deg);\n  transition: all 0.5s ease-in-out;\n}\n\n.button .bloom-container .button-container-main .button-inner {\n  height: 60px;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  position: relative;\n  box-shadow: rgba(100, 100, 111, 0.5) -10px 5px 10px 0px;\n  transition: all 0.5s ease-in-out;\n}\n\n.button .bloom-container .button-container-main .button-inner .back {\n  position: absolute;\n  inset: 0;\n  border-radius: 50%;\n  background: linear-gradient(60deg, rgb(1, 85, 103) 0%, rgb(147, 245, 255) 100%);\n}\n\n.button .bloom-container .button-container-main .button-inner .front {\n  position: absolute;\n  inset: 5px;\n  border-radius: 50%;\n  background: linear-gradient(60deg, rgb(0, 103, 140) 0%, rgb(58, 209, 233) 100%);\n  display: grid;\n  place-content: center;\n}\n\n.button .bloom-container .button-container-main .button-inner .front .svg {\n  fill: #ffffff;\n  opacity: 0.5;\n  width: 30px;\n  aspect-ratio: 1;\n  transform: rotate(45deg);\n  transition: all 0.2s ease-in;\n}\n\n.button .bloom-container .button-container-main .button-glass {\n  position: absolute;\n  inset: 0;\n  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.888) 100%);\n  transform: translate(0%, -50%) rotate(0deg);\n  transform-origin: bottom center;\n  transition: all 0.5s ease-in-out;\n}\n\n.button .bloom-container .bloom {\n  height: 1px;\n  width: 1px;\n  position: absolute;\n  background: white;\n}\n\n.button .bloom-container .bloom1 {\n  top: 10px;\n  right: 20px;\n  box-shadow: rgb(255, 255, 255) 0px 0px 10px 10px, rgb(255, 255, 255) 0px 0px 20px 20px;\n}\n\n.button .bloom-container .bloom2 {\n  bottom: 10px;\n  left: 20px;\n  box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 10px 10px, rgba(255, 255, 255, 0.5) 0px 0px 30px 20px;\n}\n\n.button .bloom-container:hover {\n  transform: scale(1.1);\n}\n\n.button .bloom-container:hover .button-container-main .button-glass {\n  transform: translate(0%, -40%);\n}\n\n.button .bloom-container:hover .button-container-main .button-inner .front .svg {\n  opacity: 1;\n  filter: drop-shadow(0 0 10px white);\n}\n\n.button .bloom-container:active {\n  transform: scale(0.7);\n}\n\n.button .bloom-container:active .button-container-main .button-inner {\n  transform: scale(1.2);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

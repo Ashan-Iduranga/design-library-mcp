@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-nice-swan-72-7506e0",
+  "title": "Loader by mrhyddenn (nice-swan-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/nice-swan-72",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_nice-swan-72.html",
+  "code": "<div class=\"loader-box\">\n    <div class=\"loading-wrapper\">\n        <div class=\"loader\">\n            <div class=\"loader-inner\">\n            </div>\n        </div>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader */\nloader-box {\n  background: #fff;\n  top: 50%;\n  left: 50%;\n  position: absolute;\n  transform: translate(-50%, -50%);\n}\n\n.loading-wrapper {\n  width: 80px;\n  height: 80px;\n  border-radius: 50%;\n}\n\n.loading-wrapper .loader {\n  height: 80px;\n  width: 80px;\n  border: 3px solid #e5e5e5;\n  border-radius: 50%;\n  -webkit-animation: pulse1572 1200ms ease-in-out;\n  animation: pulse1572 1200ms ease-in-out;\n  -webkit-animation-iteration-count: infinite;\n  animation-iteration-count: infinite;\n}\n\n.loading-wrapper .loader .loader-inner {\n  display: block;\n  height: 40px;\n  width: 40px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translateX(-50%) translateY(-50%);\n  transform: translateX(-50%) translateY(-50%);\n  background: linear-gradient(180deg, rgb(0, 140, 255) 0%, rgb(218, 67, 218) 100%);\n  -webkit-transform-origin: 50% 50%;\n  transform-origin: 50% 50%;\n  border-radius: 50%;\n  -webkit-animation: innerPulse934 1200ms ease-in-out;\n  animation: innerPulse934 1200ms ease-in-out;\n  -webkit-animation-iteration-count: infinite;\n  animation-iteration-count: infinite;\n  -webkit-animation-delay: 600ms;\n  animation-delay: 600ms;\n  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);\n}\n\n@keyframes pulse1572 {\n  0% {\n    border: 3px solid #fff;\n  }\n\n  50% {\n    border: 40px solid #fff;\n  }\n\n  100% {\n    border: 3px solid #fff;\n  }\n}\n\n@keyframes innerPulse934 {\n  0% {\n    height: 30px;\n    width: 30px;\n  }\n\n  50% {\n    height: 53.33333px;\n    width: 53.33333px;\n  }\n\n  100% {\n    height: 30px;\n    width: 30px;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

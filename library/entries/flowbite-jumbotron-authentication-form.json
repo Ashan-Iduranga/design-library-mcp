@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-jumbotron-authentication-form",
+  "title": "Jumbotron: Authentication form (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/jumbotron/#authentication-form",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "jumbotron",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this component to show a sign in or register form as the first section of your website.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/jumbotron.md",
+  "code": "<section class=\"bg-neutral-primary\">\n    <div class=\"py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16\">\n        <div class=\"flex flex-col justify-center\">\n            <h1 class=\"mb-6 text-4xl font-bold tracking-tighter text-heading md:text-5xl lg:text-6xl\">We invest in the world’s potential</h1>\n            <p class=\"mb-8 text-base font-normal text-body md:text-xl\">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>\n            <a href=\"#\" class=\"text-fg-brand hover:underline font-medium text-lg inline-flex items-center\">Read more about our app \n            <svg class=\"w-6 h-6 rtl:rotate-180 ms-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 12H5m14 0-4 4m4-4-4-4\"/></svg>\n            </a>\n        </div>\n        <div>\n            <div class=\"w-full bg-neutral-primary-soft p-6 border border-default rounded-base shadow-xs\">\n                <form action=\"#\">\n                    <h5 class=\"text-xl font-semibold text-heading mb-6\">Sign in to our platform</h5>\n                    <div class=\"mb-4\">\n                        <label for=\"email\" class=\"block mb-2.5 text-sm font-medium text-heading\">Your email</label>\n                        <input type=\"email\" id=\"email\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" placeholder=\"example@company.com\" required />\n                    </div>\n                    <div>\n                        <label for=\"password\" class=\"block mb-2.5 text-sm font-medium text-heading\">Your password</label>\n                        <input type=\"password\" id=\"password\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" placeholder=\"•••••••••\" required />\n                    </div>\n                    <div class=\"flex items-start my-6\">\n                        <div class=\"flex items-center\">\n                            <input id=\"checkbox-remember\" type=\"checkbox\" value=\"\" class=\"w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n                            <label for=\"checkbox-remember\" class=\"ms-2 text-sm font-medium text-heading\">Remember me</label>\n                        </div>\n                        <a href=\"#\" class=\"ms-auto text-sm font-medium text-fg-brand hover:underline\">Lost Password?</a>\n                    </div>\n                    <button type=\"submit\" class=\"text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none w-full mb-3\">Login to your account</button>\n                    <div class=\"text-sm font-medium text-body\">Not registered? <a href=\"#\" class=\"text-fg-brand hover:underline\">Create account</a></div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

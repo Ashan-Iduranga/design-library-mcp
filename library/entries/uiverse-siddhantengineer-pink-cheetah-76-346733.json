@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-siddhantengineer-pink-cheetah-76-346733",
+  "title": "Button by SiddhantEngineer (pink-cheetah-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SiddhantEngineer/pink-cheetah-76",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SiddhantEngineer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SiddhantEngineer_pink-cheetah-76.html",
+  "code": "<button class=\"button\">Click Me</button>\n\n<style>\n/* From Uiverse.io by SiddhantEngineer  - Tags: button */\n.button {\n  --button-accent: rgb(255, 0, 0);\n  border: none;\n  padding: 5px 20px;\n  background: var(--button-accent);\n  box-shadow: 0px 5px 0px 0px\n      color-mix(in oklab, var(--button-accent) 80%, black),\n    0px 5px 0px 5px black;\n  border-radius: 10px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 24px;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto,\n    Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif;\n  font-weight: 900;\n  color: white;\n  text-shadow: 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black;\n  cursor: pointer;\n  transition: all 0.1s ease-in-out;\n}\n.button:active {\n  box-shadow: 0px 0px 0px 0px color-mix(in oklab, var(--button-accent), black),\n    0px 0px 0px 5px black;\n  transform: translateY(5px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nawsome-tiny-chipmunk-51-4dc81d",
+  "title": "Button by Nawsome (tiny-chipmunk-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/tiny-chipmunk-51",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Nawsome_tiny-chipmunk-51.html",
+  "code": "<div class=\"buttons\">\n   <button class=\"btn\"><span></span><p data-start=\"good luck!\" data-text=\"start!\" data-title=\"new game\"></p></button>\n</div>\n<style>\n/* From Uiverse.io by Nawsome - Tags: button */\n/*bg*/\n/*txt*/\n/*success*/\n.buttons {\n  display: flex;\n  justify-content: space-around;\n  top: 20px;\n  left: 20px;\n}\n\n.buttons button {\n  width: 150px;\n  height: 50px;\n  background-color: white;\n  margin: 20px;\n  color: #568fa6;\n  position: relative;\n  overflow: hidden;\n  font-size: 14px;\n  letter-spacing: 1px;\n  font-weight: 500;\n  text-transform: uppercase;\n  transition: all 0.3s ease;\n  cursor: pointer;\n  border: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 3px;\n}\n\n.buttons button:before, .buttons button:after {\n  content: \"\";\n  position: absolute;\n  width: 0;\n  height: 2px;\n  background-color: #44d8a4;\n  transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);\n}\n\n.buttons button:before {\n  right: 0;\n  top: 0;\n  transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);\n}\n\n.buttons button:after {\n  left: 0;\n  bottom: 0;\n}\n\n.buttons button span {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  left: 0;\n  top: 0;\n  margin: 0;\n  padding: 0;\n  z-index: 1;\n}\n\n.buttons button span:before, .buttons button span:after {\n  content: \"\";\n  position: absolute;\n  width: 2px;\n  height: 0;\n  background-color: #44d8a4;\n  transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);\n}\n\n.buttons button span:before {\n  right: 0;\n  top: 0;\n  transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);\n}\n\n.buttons button span:after {\n  left: 0;\n  bottom: 0;\n}\n\n.buttons button p {\n  padding: 0;\n  margin: 0;\n  transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n\n.buttons button p:before, .buttons button p:after {\n  position: absolute;\n  width: 100%;\n  transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);\n  z-index: 1;\n  left: 0;\n}\n\n.buttons button p:before {\n  content: attr(data-title);\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.buttons button p:after {\n  content: attr(data-text);\n  top: 150%;\n  color: #44d8a4;\n}\n\n.buttons button:hover:before, .buttons button:hover:after {\n  width: 100%;\n}\n\n.buttons button:hover span {\n  z-index: 1;\n}\n\n.buttons button:hover span:before, .buttons button:hover span:after {\n  height: 100%;\n}\n\n.buttons button:hover p:before {\n  top: -50%;\n  transform: rotate(5deg);\n}\n\n.buttons button:hover p:after {\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.buttons button.start {\n  background-color: #44d8a4;\n  box-shadow: 0px 5px 10px -10px rgba(0, 0, 0, 0.2);\n  transition: all 0.2s ease;\n}\n\n.buttons button.start p:before {\n  top: -50%;\n  transform: rotate(5deg);\n}\n\n.buttons button.start p:after {\n  color: white;\n  transition: all 0s ease;\n  content: attr(data-start);\n  top: 50%;\n  transform: translateY(-50%);\n  animation: start 0.3s ease;\n  animation-fill-mode: forwards;\n}\n\n@keyframes start {\n  from {\n    top: -50%;\n  }\n}\n\n.buttons button.start:hover:before, .buttons button.start:hover:after {\n  display: none;\n}\n\n.buttons button.start:hover span {\n  display: none;\n}\n\n.buttons button:active {\n  outline: none;\n  border: none;\n}\n\n.buttons button:focus {\n  outline: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

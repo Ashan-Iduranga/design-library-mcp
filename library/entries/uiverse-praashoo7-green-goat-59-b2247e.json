@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-praashoo7-green-goat-59-b2247e",
+  "title": "Loader by Praashoo7 (green-goat-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/green-goat-59",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "dots"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Praashoo7_green-goat-59.html",
+  "code": "<div class=\"load\">\n    <div class=\"progress\"></div>\n    <div class=\"progress\"></div>\n    <div class=\"progress\"></div>\n</div>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: animation, loader, dots */\n.load {\n  display: flex;\n  border-radius: 50%;\n  flex-direction: row;\n}\n\n.progress {\n  width: 2em;\n  height: 2em;\n  margin: 0.4em;\n  scale: 0;\n  border-radius: 50%;\n  background: rgb(255, 255, 255);\n  animation: loading_492 2s ease infinite;\n  animation-delay: 1s;\n}\n\n@keyframes loading_492 {\n  50% {\n    scale: 1;\n  }\n}\n\n.progress:nth-child(2) {\n  animation-delay: 1.3s;\n}\n\n.progress:nth-child(3) {\n  animation-delay: 1.7s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

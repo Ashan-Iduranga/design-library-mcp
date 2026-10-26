@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-ugly-bulldog-75-a527fe",
+  "title": "Loader by satyamchaudharydev (ugly-bulldog-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/ugly-bulldog-75",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/satyamchaudharydev_ugly-bulldog-75.html",
+  "code": "<div class=\"loading\">\n  <span></span>\n  <span></span>\n  <span></span>\n  <span></span>\n  <span></span>\n</div>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.loading {\n --speed-of-animation: 0.9s;\n --gap: 6px;\n --first-color: #4c86f9;\n --second-color: #49a84c;\n --third-color: #f6bb02;\n --fourth-color: #f6bb02;\n --fifth-color: #2196f3;\n display: flex;\n justify-content: center;\n align-items: center;\n width: 100px;\n gap: 6px;\n height: 100px;\n}\n\n.loading span {\n width: 4px;\n height: 50px;\n background: var(--first-color);\n animation: scale var(--speed-of-animation) ease-in-out infinite;\n}\n\n.loading span:nth-child(2) {\n background: var(--second-color);\n animation-delay: -0.8s;\n}\n\n.loading span:nth-child(3) {\n background: var(--third-color);\n animation-delay: -0.7s;\n}\n\n.loading span:nth-child(4) {\n background: var(--fourth-color);\n animation-delay: -0.6s;\n}\n\n.loading span:nth-child(5) {\n background: var(--fifth-color);\n animation-delay: -0.5s;\n}\n\n@keyframes scale {\n 0%, 40%, 100% {\n  transform: scaleY(0.05);\n }\n\n 20% {\n  transform: scaleY(1);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

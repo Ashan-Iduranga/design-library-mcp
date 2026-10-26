@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-javierrocadev-nasty-dingo-81-2de982",
+  "title": "Card by Javierrocadev (nasty-dingo-81)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/nasty-dingo-81",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Javierrocadev_nasty-dingo-81.html",
+  "code": "<div class=\"card\">\n  <div class=\"pentagon1\"></div>\n  <div class=\"pentagon2\"></div>\n  <div class=\"pentagon3\"></div>\n  <div class=\"pentagon4\"></div>\n  <div class=\"pentagon5\"></div>\n</div>\n<style>\n/* From Uiverse.io by Javierrocadev - Source: Javierrocadev - Tags: card, clip-path, shape, card hover, clip path animation */\n.card {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.card * {\n  position: absolute;\n}\n\n.pentagon1 {\n  width: 250px;\n  height: 250px;\n  background: #03045e;\n  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);\n  transition: all .3s ease-in-out;\n}\n\n.pentagon2 {\n  width: 220px;\n  height: 220px;\n  background: #0077b6;\n  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);\n  transition: all .4s ease-in-out;\n}\n\n.pentagon3 {\n  width: 190px;\n  height: 190px;\n  background: #00b4d8;\n  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);\n  transition: all .5s ease-in-out;\n}\n\n.pentagon4 {\n  width: 160px;\n  height: 160px;\n  background: #90e0ef;\n  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);\n  transition: all .6s ease-in-out;\n}\n\n.pentagon5 {\n  width: 130px;\n  height: 130px;\n  background: #caf0f8;\n  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);\n  transition: all .7s ease-in-out;\n}\n\n.card:hover .pentagon1, .card:hover .pentagon2 , .card:hover .pentagon3, .card:hover .pentagon4, .card:hover .pentagon5 {\n  transform: rotate(35deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

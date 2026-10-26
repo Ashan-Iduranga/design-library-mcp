@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-santhoshsj-dev-mean-wolverine-8-f8dd64",
+  "title": "Input by SanthoshSJ-Dev (mean-wolverine-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SanthoshSJ-Dev/mean-wolverine-8",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple",
+    "material-design",
+    "animated",
+    "line",
+    "text"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SanthoshSJ-Dev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/SanthoshSJ-Dev_mean-wolverine-8.html",
+  "code": "<div class=\"input-wrapper\">\n  <input class=\"input-box\" type=\"text\" placeholder=\"Enter your text\">\n  <span class=\"underline\"></span>\n</div>\n\n<style>\n/* From Uiverse.io by SanthoshSJ-Dev - Tags: simple, material design, input, animated, line, text */\n.input-wrapper {\n  position: relative;\n  width: 200px;\n  margin: 50px auto;\n}\n\n.input-box {\n  font-size: 16px;\n  padding: 10px 0;\n  border: none;\n  border-bottom: 2px solid #ccc;\n  color: #08AEEA;\n  width: 100%;\n  background-color: transparent;\n  transition: border-color 0.3s ease-in-out;\n}\n\n.underline {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2px;\n  background-color: #08AEEA;\n  transform: scaleX(0);\n  transition: transform 0.3s ease-in-out;\n}\n\n.input-box:focus {\n  border-color: #08AEEA;\n  outline: none;\n}\n\n.input-box:focus + .underline {\n  transform: scaleX(1);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

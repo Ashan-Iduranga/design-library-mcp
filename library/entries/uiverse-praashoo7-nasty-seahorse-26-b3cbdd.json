@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-praashoo7-nasty-seahorse-26-b3cbdd",
+  "title": "Toggle by Praashoo7 (nasty-seahorse-26)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/nasty-seahorse-26",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "torch",
+    "flashlight"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Praashoo7_nasty-seahorse-26.html",
+  "code": "<label class=\"switch\">\n  <input class=\"chk_85\" type=\"checkbox\">\n  <span class=\"slider\">\n    <svg viewBox=\"0 0 100 100\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" class=\"torch\">\n    <path d=\"M 63.85,54.65 Q 62.77,54.13 61.88,53.31 Q 54.13,46.12 46.31,37.69 Q 43.88,35.06 44.29,31.53 Q 44.51,29.56 46.54,25.87 Q 56.15,8.39 59.06,3.56 Q 60.59,1.03 63.83,2.41 Q 67.73,4.07 71.11,6.55 Q 72.85,7.82 77.51,11.86 Q 89.11,21.92 96.94,34.06 Q 100.09,38.95 95.24,41.73 Q 83.77,48.31 72.16,54.64 Q 68.24,56.77 63.85,54.65 Z\" fill=\"#ffffff\"></path>\n    <path d=\"M 14.03,66.29 Q 27.40,51.66 40.57,37.33 A 0.54,0.54 52.1 0 1 41.44,37.44 Q 43.25,40.72 45.58,43.04 Q 47.66,45.11 47.71,45.17 Q 54.67,52.58 62.60,58.93 A 0.44,0.43 43.0 0 1 62.63,59.59 Q 42.87,77.87 22.77,95.78 Q 20.75,97.58 19.20,97.93 Q 16.72,98.49 14.81,96.94 Q 6.88,90.47 2.81,84.94 Q 1.47,83.11 2.03,80.84 Q 2.37,79.43 4.04,77.51 Q 8.97,71.84 14.03,66.29 ZM 42.9269,57.1766 A 3.76 3.76 0.0 0 0 37.6102,57.0930 L 33.1721,61.3938 A 3.76 3.76 0.0 0 0 33.0886,66.7106 L 33.3531,66.9834 A 3.76 3.76 0.0 0 0 38.6698,67.0670 L 43.1079,62.7662 A 3.76 3.76 0.0 0 0 43.1914,57.4494 L 42.9269,57.1766 Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg class=\"b\" width=\"100%\" height=\"50%\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M29 20L31 22\" class=\"bling_85\"></path>\n    <path d=\"M31.5 15H34.5\" class=\"bling_85\"></path>\n    <path d=\"M29 10L31 8\" class=\"bling_85\"></path>\n    </svg>\n  </span>\n</label>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: switch, torch, flashlight */\n/* The switch - the box around the slider */\n.switch {\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 3.8em;\n  height: 3.8em;\n}\n\n.torch {\n  margin-top: 0.9em;\n  margin-left: 0.95em;\n  width: 30px;\n  height: 30px;\n  transform: rotate(-45deg);\n}\n\n.slider .b {\n  position: relative;\n  top: -3.3em;\n  transform: rotate(270deg);\n}\n\n.slider .bling_85 {\n  stroke: #fff;\n  stroke-width: 2.5;\n  stroke-linecap: round;\n  stroke-dasharray: 3;\n  stroke-dashoffset: 15;\n  transition: all 0.3s ease;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  transition: .4s;\n  border-radius: 50%;\n  background-color: rgba(116, 115, 115, 0.2);\n  backdrop-filter: blur(5px);\n  -webkit-backdrop-filter: blur(5px);\n  border: 1px solid rgba(255, 255, 255, 0.3);\n}\n\n.chk_85:checked + .slider {\n  animation: tap 0.3s linear forwards;\n}\n\n.chk_85:checked + .slider .bling_85 {\n  animation: bling_8561328 0.3s linear forwards;\n  animation-delay: 0.2s;\n}\n\n.chk_85:checked + .slider {\n  background-color: #FFA133;\n}\n\n.chk_85:focus + .slider {\n  box-shadow: 0 0 1px #FFA133;\n}\n\n@keyframes bling_8561328 {\n  50% {\n    stroke-dasharray: 3;\n    stroke-dashoffset: 12;\n  }\n\n  100% {\n    stroke-dasharray: 3;\n    stroke-dashoffset: 9;\n  }\n}\n\n@keyframes tap {\n  50% {\n    scale: 0.9;\n  }\n\n  100% {\n    scale: 1;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

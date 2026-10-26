@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csozidev-jolly-termite-4-8f3607",
+  "title": "Loader by csozidev (jolly-termite-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csozidev/jolly-termite-4",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csozidev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/csozidev_jolly-termite-4.html",
+  "code": "<div class=\"spinner-box\">\n  <div class=\"configure-border-1\">  \n    <div class=\"configure-core\"></div>\n  </div>  \n  <div class=\"configure-border-2\">\n    <div class=\"configure-core\"></div>\n  </div> \n</div>\n<style>\n/* From Uiverse.io by csozidev - Source: https://codepen.io/AlexWarnes/pen/jXYYKL - Tags: simple, loader, modern, animated, repost */\n/*\n I DID NOT MAKE THIS! THIS IS JUST A REPOST FROM: \n codepen.io/AlexWarnes/pen/jXYYKL \n My website: english.csozi.hu*/\n\n.configure-border-1 {\n  width: 50px;\n  height: 50px;\n  padding: 3px;\n  position: absolute;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: #fb5b53;\n  animation: configure-clockwise 3s ease-in-out 0s infinite alternate;\n}\n\n.configure-border-2 {\n  width: 50px;\n  height: 50px;\n  padding: 3px;\n  left: -50px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: rgb(63,249,220);\n  transform: rotate(45deg);\n  animation: configure-xclockwise 3s ease-in-out 0s infinite alternate;\n}\n\n.configure-core {\n  width: 100%;\n  height: 100%;\n  background-color: #1d2630;\n}\n\n@keyframes configure-clockwise {\n  0% {\n    transform: rotate(0);\n  }\n\n  25% {\n    transform: rotate(90deg);\n  }\n\n  50% {\n    transform: rotate(180deg);\n  }\n\n  75% {\n    transform: rotate(270deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes configure-xclockwise {\n  0% {\n    transform: rotate(45deg);\n  }\n\n  25% {\n    transform: rotate(-45deg);\n  }\n\n  50% {\n    transform: rotate(-135deg);\n  }\n\n  75% {\n    transform: rotate(-225deg);\n  }\n\n  100% {\n    transform: rotate(-315deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

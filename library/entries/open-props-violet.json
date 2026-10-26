@@ -1,0 +1,33 @@
+{
+  "id": "open-props-violet",
+  "title": "Open Props: Violet color scale",
+  "source": "Open Props",
+  "url": "https://open-props.style/#colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "violet",
+    "open-props",
+    "css-variables",
+    "tokens",
+    "color"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "13 CSS custom properties, e.g. --violet-0, --violet-1, --violet-2, --violet-3.\n\nUse: npm i open-props, then @import \"open-props/violet\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.violet.css",
+  "code": "<style>\n:where(html) {\n  --violet-0: #f3f0ff;\n  --violet-1: #e5dbff;\n  --violet-2: #d0bfff;\n  --violet-3: #b197fc;\n  --violet-4: #9775fa;\n  --violet-5: #845ef7;\n  --violet-6: #7950f2;\n  --violet-7: #7048e8;\n  --violet-8: #6741d9;\n  --violet-9: #5f3dc4;\n  --violet-10: #5235ab;\n  --violet-11: #462d91;\n  --violet-12: #3a2578;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Open Props violet</strong>\n<p>violet</p><div class=\"row\"><div style=\"background:#f3f0ff\" title=\"--violet-0: #f3f0ff\"><span>0</span></div><div style=\"background:#e5dbff\" title=\"--violet-1: #e5dbff\"><span>1</span></div><div style=\"background:#d0bfff\" title=\"--violet-2: #d0bfff\"><span>2</span></div><div style=\"background:#b197fc\" title=\"--violet-3: #b197fc\"><span>3</span></div><div style=\"background:#9775fa\" title=\"--violet-4: #9775fa\"><span>4</span></div><div style=\"background:#845ef7\" title=\"--violet-5: #845ef7\"><span>5</span></div><div style=\"background:#7950f2\" title=\"--violet-6: #7950f2\"><span>6</span></div><div style=\"background:#7048e8\" title=\"--violet-7: #7048e8\"><span>7</span></div><div style=\"background:#6741d9\" title=\"--violet-8: #6741d9\"><span>8</span></div><div style=\"background:#5f3dc4\" title=\"--violet-9: #5f3dc4\"><span>9</span></div><div style=\"background:#5235ab\" title=\"--violet-10: #5235ab\"><span>10</span></div><div style=\"background:#462d91\" title=\"--violet-11: #462d91\"><span>11</span></div><div style=\"background:#3a2578\" title=\"--violet-12: #3a2578\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

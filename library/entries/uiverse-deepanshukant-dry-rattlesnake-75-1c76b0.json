@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-deepanshukant-dry-rattlesnake-75-1c76b0",
+  "title": "Button by DeepanshuKant (dry-rattlesnake-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/DeepanshuKant/dry-rattlesnake-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By DeepanshuKant on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/DeepanshuKant_dry-rattlesnake-75.html",
+  "code": "<button class=\"btn\">\n   Button\n</button>\n<style>\n/* From Uiverse.io by DeepanshuKant - Tags: button */\n.btn {\n  position: relative;\n  padding: 1rem 2.5rem;\n  color: #ffd739;\n  font-size: 1em;\n  background-color: #27045b;\n  outline: none;\n  border: none;\n  font-weight: bold;\n  border-radius: 5px;\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n  transition-property: all;\n  transition-duration: 0.3s;\n  cursor: pointer;\n}\n\n.btn:hover {\n  background-color: #6807f9;\n  box-shadow: 0px 14px 56px -11px #6807f9;\n}\n\n.btn::before {\n  content: \"\";\n  position: absolute;\n  height: 5px;\n  width: 5px;\n  background-color: white;\n  border-radius: 100px;\n  right: 2rem;\n  bottom: 37%;\n  animation: 0.5s both ease-in-out infinite;\n}\n\n.btn:hover::before {\n  animation-name: bounce_591;\n  transition: all 0.3s ease;\n}\n\n@keyframes bounce_591 {\n  0% {\n    bottom: 37%;\n  }\n\n  50% {\n    bottom: 70%;\n  }\n\n  100% {\n    bottom: 37%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

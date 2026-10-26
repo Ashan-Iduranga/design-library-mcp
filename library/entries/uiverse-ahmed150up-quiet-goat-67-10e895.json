@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-ahmed150up-quiet-goat-67-10e895",
+  "title": "Form by ahmed150up (quiet-goat-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ahmed150up/quiet-goat-67",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "spotify",
+    "music"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ahmed150up on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/ahmed150up_quiet-goat-67.html",
+  "code": "<div class=\"audio-player\">\n  <div class=\"album-cover\"></div>\n  <div class=\"player-controls\">\n    <div class=\"song-info\">\n      <div class=\"song-title\">Song Title</div>\n      <p class=\"artist\">Artist</p>\n    </div>\n    <div class=\"progress-bar\">\n      <div class=\"progress\"></div>\n    </div>\n    <div class=\"buttons\">\n      <button class=\"play-btn\"><svg viewBox=\"0 0 16 16\" class=\"bi bi-play-fill\" fill=\"currentColor\" height=\"16\" width=\"16\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: white\"> <path fill=\"white\" d=\"m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z\"></path> </svg></button>\n      <button class=\"pause-btn\"><svg viewBox=\"0 0 16 16\" class=\"bi bi-pause-fill\" fill=\"currentColor\" height=\"16\" width=\"16\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: white\"> <path fill=\"white\" d=\"M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z\"></path> </svg></button>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by ahmed150up - Tags: form, spotify, music */\n.audio-player {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 300px;\n  height: 80px;\n  background-color: #282828;\n  border-radius: 8px;\n  padding: 8px;\n  box-sizing: border-box;\n}\n\n.album-cover {\n  width: 64px;\n  height: 64px;\n  background-color: #fff;\n  border-radius: 50%;\n  margin-right: 12px;\n}\n\n.player-controls {\n  flex-grow: 1;\n  display: flex;\n  flex-direction: column;\n}\n\n.song-info {\n  margin-bottom: 4px;\n}\n\n.song-title {\n  font-size: 16px;\n  color: #fff;\n  margin: 0;\n}\n\n.artist {\n  font-size: 12px;\n  color: #b3b3b3;\n  margin: 0;\n}\n\n.progress-bar {\n  width: 100%;\n  height: 4px;\n  background-color: #4f4f4f;\n  border-radius: 2px;\n  overflow: hidden;\n}\n\n.progress {\n  width: 50%;\n  height: 100%;\n  background-color: #1db954;\n  transform-origin: left;\n  animation: progress-animation 10s linear infinite;\n}\n\n.buttons {\n  display: flex;\n}\n\nbutton {\n  background: none;\n  border: none;\n  cursor: pointer;\n  outline: none;\n}\n\n.play-btn,\n.pause-btn {\n  font-size: 16px;\n  color: #fff;\n  margin-right: 8px;\n  transition: transform 0.2s ease-in-out;\n}\n\n.play-btn:hover,\n.pause-btn:hover {\n  transform: scale(1.2);\n}\n\n@keyframes progress-animation {\n  0% {\n    transform: scaleX(0);\n  }\n\n  100% {\n    transform: scaleX(1);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

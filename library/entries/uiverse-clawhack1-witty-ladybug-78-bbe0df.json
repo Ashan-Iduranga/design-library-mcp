@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-clawhack1-witty-ladybug-78-bbe0df",
+  "title": "Loader by ClawHack1 (witty-ladybug-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ClawHack1/witty-ladybug-78",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ClawHack1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/ClawHack1_witty-ladybug-78.html",
+  "code": "<div class=\"loader\">\n  <div class=\"loader-inner\">\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by ClawHack1 - Tags: loader */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 80px;\n  height: 80px;\n  position: relative;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  top: -10px;\n  left: -10px;\n  right: -10px;\n  bottom: -10px;\n  border-radius: 50%;\n}\n\n.loader-inner {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n\n.loader-block {\n  display: inline-block;\n  width: 10px;\n  height: 10px;\n  margin: 2px;\n  background-color: #fff;\n  box-shadow: 0 0 20px #fff;\n  animation: loader_562 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;\n}\n\n.loader-block:nth-child(1) {\n  animation-delay: 0.1s;\n}\n\n.loader-block:nth-child(2) {\n  animation-delay: 0.2s;\n}\n\n.loader-block:nth-child(3) {\n  animation-delay: 0.3s;\n}\n\n.loader-block:nth-child(4) {\n  animation-delay: 0.4s;\n}\n\n.loader-block:nth-child(5) {\n  animation-delay: 0.5s;\n}\n\n.loader-block:nth-child(6) {\n  animation-delay: 0.6s;\n}\n\n.loader-block:nth-child(7) {\n  animation-delay: 0.7s;\n}\n\n.loader-block:nth-child(8) {\n  animation-delay: 0.8s;\n}\n\n@keyframes loader_562 {\n  0% {\n    transform: scale(1);\n    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);\n  }\n\n  20% {\n    transform: scale(1, 2.5);\n    box-shadow: 0 0 50px rgba(255, 255, 255, 0.7);\n  }\n\n  40% {\n    transform: scale(1);\n    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

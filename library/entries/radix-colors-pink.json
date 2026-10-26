@@ -1,0 +1,34 @@
+{
+  "id": "radix-colors-pink",
+  "title": "Radix Colors: Pink scale",
+  "source": "Radix Colors",
+  "url": "https://www.radix-ui.com/colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "pink",
+    "radix",
+    "color-scale",
+    "color",
+    "accessible",
+    "dark-mode"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "12-step pink scale with a matching dark-mode scale. Steps 1-2: app and subtle backgrounds. 3-5: component backgrounds (normal, hover, pressed). 6-8: borders and focus rings. 9-10: solid backgrounds (e.g. buttons). 11-12: low and high contrast text.\n\nAlso available: pinkA (alpha) and P3 wide-gamut versions.\n\nUse: npm i @radix-ui/colors, then import \"@radix-ui/colors/pink.css\" and \"@radix-ui/colors/pink-dark.css\".\n\nOriginal file: https://github.com/radix-ui/colors/blob/main/src/light.ts",
+  "code": "<style>\n:root {\n  --pink-1: #fffcfe;\n  --pink-2: #fef7fb;\n  --pink-3: #fee9f5;\n  --pink-4: #fbdcef;\n  --pink-5: #f6cee7;\n  --pink-6: #efbfdd;\n  --pink-7: #e7acd0;\n  --pink-8: #dd93c2;\n  --pink-9: #d6409f;\n  --pink-10: #cf3897;\n  --pink-11: #c2298a;\n  --pink-12: #651249;\n}\n.dark {\n  --pink-1: #191117;\n  --pink-2: #21121d;\n  --pink-3: #37172f;\n  --pink-4: #4b143d;\n  --pink-5: #591c47;\n  --pink-6: #692955;\n  --pink-7: #833869;\n  --pink-8: #a84885;\n  --pink-9: #d6409f;\n  --pink-10: #de51a8;\n  --pink-11: #ff8dcc;\n  --pink-12: #fdd1ea;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Radix pink</strong>\n<p>light</p><div class=\"row\"><div style=\"background:#fffcfe\" title=\"--pink-1: #fffcfe\"><span>1</span></div><div style=\"background:#fef7fb\" title=\"--pink-2: #fef7fb\"><span>2</span></div><div style=\"background:#fee9f5\" title=\"--pink-3: #fee9f5\"><span>3</span></div><div style=\"background:#fbdcef\" title=\"--pink-4: #fbdcef\"><span>4</span></div><div style=\"background:#f6cee7\" title=\"--pink-5: #f6cee7\"><span>5</span></div><div style=\"background:#efbfdd\" title=\"--pink-6: #efbfdd\"><span>6</span></div><div style=\"background:#e7acd0\" title=\"--pink-7: #e7acd0\"><span>7</span></div><div style=\"background:#dd93c2\" title=\"--pink-8: #dd93c2\"><span>8</span></div><div style=\"background:#d6409f\" title=\"--pink-9: #d6409f\"><span>9</span></div><div style=\"background:#cf3897\" title=\"--pink-10: #cf3897\"><span>10</span></div><div style=\"background:#c2298a\" title=\"--pink-11: #c2298a\"><span>11</span></div><div style=\"background:#651249\" title=\"--pink-12: #651249\"><span>12</span></div></div>\n<p>dark</p><div class=\"row\"><div style=\"background:#191117\" title=\"--pink-1: #191117\"><span>1</span></div><div style=\"background:#21121d\" title=\"--pink-2: #21121d\"><span>2</span></div><div style=\"background:#37172f\" title=\"--pink-3: #37172f\"><span>3</span></div><div style=\"background:#4b143d\" title=\"--pink-4: #4b143d\"><span>4</span></div><div style=\"background:#591c47\" title=\"--pink-5: #591c47\"><span>5</span></div><div style=\"background:#692955\" title=\"--pink-6: #692955\"><span>6</span></div><div style=\"background:#833869\" title=\"--pink-7: #833869\"><span>7</span></div><div style=\"background:#a84885\" title=\"--pink-8: #a84885\"><span>8</span></div><div style=\"background:#d6409f\" title=\"--pink-9: #d6409f\"><span>9</span></div><div style=\"background:#de51a8\" title=\"--pink-10: #de51a8\"><span>10</span></div><div style=\"background:#ff8dcc\" title=\"--pink-11: #ff8dcc\"><span>11</span></div><div style=\"background:#fdd1ea\" title=\"--pink-12: #fdd1ea\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "Building a UI color system with predictable steps for backgrounds, borders and text, including dark mode.",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

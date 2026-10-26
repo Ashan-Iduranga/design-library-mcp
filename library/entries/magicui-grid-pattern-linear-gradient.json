@@ -1,0 +1,37 @@
+{
+  "id": "magicui-grid-pattern-linear-gradient",
+  "title": "Grid Pattern Linear Gradient (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/grid-pattern-linear-gradient",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "grid",
+    "pattern",
+    "linear",
+    "gradient",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a grid pattern with linear gradient effects.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/grid-pattern-linear-gradient.tsx",
+  "code": "\"use client\"\n\nimport { cn } from \"@/lib/utils\"\nimport { GridPattern } from \"@/registry/magicui/grid-pattern\"\n\nexport default function GridPatternLinearGradient() {\n  return (\n    <div className=\"bg-background relative flex size-full items-center justify-center overflow-hidden rounded-lg border p-20\">\n      <GridPattern\n        width={20}\n        height={20}\n        x={-1}\n        y={-1}\n        className={cn(\n          \"[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)]\"\n        )}\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-charly-t-weak-panther-69-ca4c73",
+  "title": "Loader by Charly-T (weak-panther-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Charly-T/weak-panther-69",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Charly-T on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Charly-T_weak-panther-69.html",
+  "code": "<div class=\"container\">\n    <svg width=\"100%\" height=\"100\" viewBox=\"-1 -1 22 22\">\n        <path style=\"--order: 7\" class=\"eight e-8\"></path>\n        <path style=\"--order: 6\" class=\"eight e-7\"></path>\n        <path style=\"--order: 5\" class=\"eight e-6\"></path>\n        <path style=\"--order: 4\" class=\"eight e-5\"></path>\n        <path style=\"--order: 3\" class=\"eight e-4\"></path>\n        <path style=\"--order: 2\" class=\"eight e-3\"></path>\n        <path style=\"--order: 1\" class=\"eight e-2\"></path>\n        <path style=\"--order: 0\" class=\"eight e-1\"></path>\n    </svg>\n</div>\n<style>\n/* From Uiverse.io by Charly-T - Tags: loader */\n.container {\n  overflow: hidden;\n}\n\n.container svg {\n  --spin-duration: 2000ms;\n  --infinity-duration: 2000ms;\n  --hsl-base-h: 5deg;\n  --hsl-base-s: 70%;\n  --hsl-base-l: 50%;\n  animation: spin81213 var(--spin-duration) linear infinite;\n}\n\n.eight {\n  --eight-length-px: 60.84563446044922px;\n /* As seen on getTotalLength */\n  --offset: calc(var(--order) * 5px);\n  animation: infinity8123 var(--infinity-duration) linear infinite;\n  d: path(\"m5 5a1 1 0 0110 0c0 4-10 6-10 10a1 1 0 0010 0c0-4-10-6-10-10\");\n  fill: none;\n  stroke: hsl(calc(var(--hsl-base-h) * var(--order)) var(--hsl-base-s) var(--hsl-base-l));\n  stroke-dasharray: 6px calc(var(--eight-length-px) - 6px);\n  stroke-linecap: round;\n  stroke-width: calc(1 - var(--order) / 10);\n}\n\n@keyframes infinity8123 {\n  0% {\n    stroke-dashoffset: calc(var(--eight-length-px) + var(--offset));\n  }\n\n  100% {\n    stroke-dashoffset: var(--offset);\n  }\n}\n\n@keyframes spin81213 {\n  0% {\n    transform: rotate(0)\n  }\n\n  100% {\n    transform: rotate(360deg)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

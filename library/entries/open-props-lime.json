@@ -1,0 +1,33 @@
+{
+  "id": "open-props-lime",
+  "title": "Open Props: Lime color scale",
+  "source": "Open Props",
+  "url": "https://open-props.style/#colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "lime",
+    "open-props",
+    "css-variables",
+    "tokens",
+    "color"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "13 CSS custom properties, e.g. --lime-0, --lime-1, --lime-2, --lime-3.\n\nUse: npm i open-props, then @import \"open-props/lime\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.lime.css",
+  "code": "<style>\n:where(html) {\n  --lime-0: #f4fce3;\n  --lime-1: #e9fac8;\n  --lime-2: #d8f5a2;\n  --lime-3: #c0eb75;\n  --lime-4: #a9e34b;\n  --lime-5: #94d82d;\n  --lime-6: #82c91e;\n  --lime-7: #74b816;\n  --lime-8: #66a80f;\n  --lime-9: #5c940d;\n  --lime-10: #4c7a0b;\n  --lime-11: #3c6109;\n  --lime-12: #2c4706;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Open Props lime</strong>\n<p>lime</p><div class=\"row\"><div style=\"background:#f4fce3\" title=\"--lime-0: #f4fce3\"><span>0</span></div><div style=\"background:#e9fac8\" title=\"--lime-1: #e9fac8\"><span>1</span></div><div style=\"background:#d8f5a2\" title=\"--lime-2: #d8f5a2\"><span>2</span></div><div style=\"background:#c0eb75\" title=\"--lime-3: #c0eb75\"><span>3</span></div><div style=\"background:#a9e34b\" title=\"--lime-4: #a9e34b\"><span>4</span></div><div style=\"background:#94d82d\" title=\"--lime-5: #94d82d\"><span>5</span></div><div style=\"background:#82c91e\" title=\"--lime-6: #82c91e\"><span>6</span></div><div style=\"background:#74b816\" title=\"--lime-7: #74b816\"><span>7</span></div><div style=\"background:#66a80f\" title=\"--lime-8: #66a80f\"><span>8</span></div><div style=\"background:#5c940d\" title=\"--lime-9: #5c940d\"><span>9</span></div><div style=\"background:#4c7a0b\" title=\"--lime-10: #4c7a0b\"><span>10</span></div><div style=\"background:#3c6109\" title=\"--lime-11: #3c6109\"><span>11</span></div><div style=\"background:#2c4706\" title=\"--lime-12: #2c4706\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

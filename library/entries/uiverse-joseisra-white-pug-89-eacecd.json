@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-joseisra-white-pug-89-eacecd",
+  "title": "Card by JoseIsra (white-pug-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JoseIsra/white-pug-89",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "flip"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JoseIsra on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/JoseIsra_white-pug-89.html",
+  "code": "<div class=\"card\">\n       <div class=\"content\">\n           <div class=\"front\">\n               <h3 class=\"title\">Hey</h3>\n               <p class=\"subtitle\">Hover me :)</p>\n           </div>\n\n           <div class=\"back\">\n               <p class=\"description\">\n                   Cool description so you can read it too my friend\n               </p>\n           </div>\n       </div>\n   </div>\n<style>\n/* From Uiverse.io by JoseIsra - Tags: card, flip */\n.card {\n  width: 12rem;\n  cursor: pointer;\n}\n\n.content {\n  text-align: center;\n  position: relative;\n  transition: all 2.25s;\n  background-color: rgb(127, 204, 240);\n  padding: 5em;\n  transform-style: preserve-3d;\n}\n\n.card:hover .content {\n  transform: rotateY(0.5turn);\n}\n\n.front,\n.back {\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  padding: 2em;\n  transform-style: preserve-3d;\n  backface-visibility: hidden;\n}\n\n.title {\n  transform: translateZ(5rem);\n  font-size: 2rem;\n}\n\n.subtitle {\n  transform: translateZ(2rem);\n}\n\n.back {\n  transform: rotateY(0.5turn);\n  background-color: #009bff;\n}\n\n.description {\n  transform: translateZ(3rem);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

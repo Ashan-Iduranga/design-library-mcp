@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-radwakhalil22-good-quail-97-e27d84",
+  "title": "Radio by radwakhalil22 (good-quail-97)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/radwakhalil22/good-quail-97",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By radwakhalil22 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/radwakhalil22_good-quail-97.html",
+  "code": "<div class=\"radio-input\">\n  <input type=\"radio\" id=\"neonShadow\" name=\"value-radio\"><span class=\"span\"></span>\n  <input type=\"radio\" id=\"neonShadow\" name=\"value-radio\"><span class=\"span\"></span>\n  <input type=\"radio\" id=\"neonShadow\" name=\"value-radio\"><span class=\"span\"></span>\n</div>\n\n\n<style>\n/* From Uiverse.io by radwakhalil22 - Tags:  */\n.radio-input #neonShadow {\n  height: 30px;\n  width: 30px;\n  border: none;\n  border-radius: 50px;\n  background-color: rgba(5, 19, 16, 0.3);\n  animation: glow 1s infinite;\n  transition: 0.5s;\n  accent-color: black;\n  appearance: none;\n  background-size: contain;\n}\n\n#neonShadow[type='radio']:after {\n  width: 100%;\n  height: 100%;\n  border-radius: 15px;\n  position: relative;\n  content: '';\n  display: inline-block;\n  visibility: visible;\n}\n\n#neonShadow[type='radio']:checked:after {\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  position: relative;\n  background-color: white;\n  content: '';\n  display: inline-block;\n  visibility: visible;\n}\n\n.span {\n  display: block;\n  width: 100%;\n  height: 100%;\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: 700;\n  padding-top: 15%;\n  padding-right: 2.5%;\n  margin-right: 0px;\n  font-size: 1.2rem;\n  transition: 0.3s;\n  opacity: 0;\n}\n\n.span:hover {\n  transition: 0.3s;\n  opacity: 1;\n  font-weight: 700;\n}\n\n#neonShadow:hover {\n  transform: scale(0.9);\n  background-color: #c3bacc;\n  transition: 0.5s;\n}\n\n@keyframes glow {\n  0% {\n    box-shadow: 5px 5px 20px rgb(93, 52, 168),-5px -5px 20px rgb(93, 52, 168);\n  }\n\n  50% {\n    box-shadow: 5px 5px 20px rgb(81, 224, 210),-5px -5px 20px rgb(81, 224, 210)\n  }\n\n  100% {\n    box-shadow: 5px 5px 20px rgb(93, 52, 168),-5px -5px 20px rgb(93, 52, 168)\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

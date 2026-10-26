@@ -1,0 +1,36 @@
+{
+  "id": "magicui-pixel-image-demo",
+  "title": "Pixel Image Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/pixel-image",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "pixel",
+    "image",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a pixelated image effect.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/pixel-image-demo.tsx",
+  "code": "import { PixelImage } from \"@/registry/magicui/pixel-image\"\n\nexport default function Home() {\n  return (\n    <PixelImage\n      src=\"/pixel-image-demo.jpg\"\n      customGrid={{ rows: 4, cols: 6 }}\n      grayscaleAnimation\n    />\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

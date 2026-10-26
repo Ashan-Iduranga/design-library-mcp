@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-omar-alghaish-fluffy-cougar-42-2c61cb",
+  "title": "Form by omar-alghaish (fluffy-cougar-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/omar-alghaish/fluffy-cougar-42",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "login"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By omar-alghaish on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/omar-alghaish_fluffy-cougar-42.html",
+  "code": "<div class=\"form-container\">\n    <p>Login</p>\n<form class=\"form\">\n    <label>Email</label>\n    <input type=\"text\" class=\"input\" placeholder=\"Enter yout email\">\n    <label>Password</label>\n    <input type=\"password\" class=\"input\" placeholder=\"Password\"> \n    <button>Submit</button>\n</form>\n</div>\n<style>\n/* From Uiverse.io by omar-alghaish - Tags: login, form */\n.form-container {\n  width: 300px;\n  background: linear-gradient(180deg,rgb(0, 183, 255) 25%,rgb(255, 255, 255) 20%);\n  height: 350px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n\n.form {\n  width: 80%;\n  display: flex;\n  flex-direction: column;\n  margin-top: 40px;\n}\n\n.form-container p {\n  position: absolute;\n  top: 10%;\n  left: 10%;\n  font-size: 30px;\n  font-weight: 900;\n  color: rgb(255, 255, 255);\n}\n\n.form-container label {\n  color: rgb(40, 42, 44);\n  margin-top: 15px;\n  margin-bottom: 5px;\n  font-size: 15px;\n}\n\n.form-container .input {\n  padding: 10px;\n  height: 35px;\n  border: none;\n  background-color: rgb(224, 231, 236);\n}\n\n.form-container .input:focus {\n  outline: none;\n}\n\n.form-container button {\n  border: none;\n  height: 35px;\n  margin-top: 30px;\n  background-color: rgb(0, 183, 255);\n  color: white;\n  font-size: 16px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

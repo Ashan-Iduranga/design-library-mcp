@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-umairmanzoor1143-cuddly-jellyfish-95-210745",
+  "title": "Button by umairmanzoor1143 (cuddly-jellyfish-95)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/umairmanzoor1143/cuddly-jellyfish-95",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "loading",
+    "on",
+    "off",
+    "glow",
+    "circle",
+    "rotate",
+    "click"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By umairmanzoor1143 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/umairmanzoor1143_cuddly-jellyfish-95.html",
+  "code": "<button class=\"button\">\n  <span class=\"span\">Button</span>\n</button>\n\n<style>\n/* From Uiverse.io by umairmanzoor1143  - Tags: loading, button, on, off, glow, circle, rotate, click */\n.button {\n  background: #fff;\n  position: relative;\n  border: none;\n  padding: 10px 20px;\n  display: inline-block;\n  font-size: 15px;\n  font-weight: 600;\n  text-transform: uppercase;\n  cursor: pointer;\n  transition: 0.5s;\n}\n.span {\n  display: inline-block;\n}\n.button:hover {\n  font-size: 20px;\n  transform: skew(-5deg);\n  padding-right: 30px;\n}\n.button::before {\n  content: \"\";\n  box-sizing: border-box;\n  position: absolute;\n  top: 50%;\n  left: 70%;\n  width: 15px;\n  height: 15px;\n  margin-top: -8px;\n  margin-left: -5px;\n  border-radius: 50%;\n  border: 2px solid #ccc;\n  border-top-color: #000;\n  opacity: 0;\n  animation: spinner 0.6s linear infinite;\n  transition: 0.5s;\n}\n.button:hover::before {\n  opacity: 1;\n  left: 85%;\n}\n@keyframes spinner {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

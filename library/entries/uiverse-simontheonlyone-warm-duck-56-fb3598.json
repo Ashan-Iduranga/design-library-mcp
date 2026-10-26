@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-simontheonlyone-warm-duck-56-fb3598",
+  "title": "Button by simontheonlyone (warm-duck-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/simontheonlyone/warm-duck-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By simontheonlyone on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/simontheonlyone_warm-duck-56.html",
+  "code": "<button class=\"button\">\n  <span class=\"X\"></span>\n  <span class=\"Y\"></span>\n  <div class=\"close\">Close</div>\n</button>\n<style>\n/* From Uiverse.io by simontheonlyone - Source: no source link just the close button of Microsoft Windows - Tags: button, animated, click animation, close, minimal */\n.button {\n  position: relative;\n  width: 6em;\n  height: 4em;\n  border: none;\n  background: none;\n}\n\n.X {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 33%;\n  width: 2em;\n  height: 1.5px;\n  background-color: #fff;\n  transform: rotate(45deg);\n}\n\n.Y {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 33%;\n  width: 2em;\n  height: 1.5px;\n  background-color: #fff;\n  transform: rotate(-45deg);\n}\n\n.close {\n  position: absolute;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  bottom: -40%;\n  left: 70%;\n  width: 3em;\n  height: 1.7em;\n  font-size: 16px;\n  background-color: rgb(254, 255, 225);\n  color: #000;\n  border: 1px solid #000;\n  pointer-events: none;\n  opacity: 0;\n}\n\n.button:hover {\n  background-color: rgb(210, 0, 0);\n}\n\n.button:active {\n  background-color: rgb(130, 0, 0);\n}\n\n.button:hover > .close {\n  animation: close 0.2s forwards 1.25s;\n}\n\n@keyframes close {\n  100% {\n    opacity: 1;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

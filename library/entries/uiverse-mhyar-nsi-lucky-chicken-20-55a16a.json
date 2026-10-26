@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mhyar-nsi-lucky-chicken-20-55a16a",
+  "title": "Loader by Mhyar-nsi (lucky-chicken-20)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Mhyar-nsi/lucky-chicken-20",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Mhyar-nsi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Mhyar-nsi_lucky-chicken-20.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Mhyar-nsi - Tags: loader */\n.loader {\n  display: inline-block;\n  vertical-align: middle;\n  position: relative;\n  margin: 10px;\n}\n\n@keyframes loader-bubbles {\n  0% {\n    box-shadow: 0 -10px #3b82f6,\n                3px 0 #3b82f6,\n                5px 0 #3b82f6;\n  }\n\n  30% {\n    box-shadow: 3px -20px rgba(239,223,255,0),\n                5px -10px #3b82f6,\n                5px 0 #3b82f6;\n  }\n\n  60% {\n    box-shadow: 3px 0 rgba(239,223,255,0),\n                4px -20px rgba(239,223,255,0),\n                3px -10px #3b82f6;\n  }\n\n  61% {\n    box-shadow: 3px 0 #3b82f6,\n                4px -20px rgba(239,223,255,0),\n                3px -10px #3b82f6;\n  }\n\n  100% {\n    box-shadow: 0 -10px #3b82f6,\n                4px -20px rgba(239,223,255,0),\n                5px -20px rgba(239,223,255,0);\n  }\n}\n\n.loader {\n  width: 10px;\n  height: 20px;\n  margin-left: 20px;\n  margin-right: 20px;\n  background: #3b82f6;\n}\n\n.loader:before,\n.loader:after {\n  content: '';\n  position: absolute;\n}\n\n.loader:before {\n  top: -8px;\n  left: -13px;\n  width: 0;\n  height: 0;\n  border: 18px solid transparent;\n  border-bottom: 20px solid #3b82f6;\n  border-radius: 3px;\n}\n\n.loader:after {\n  top: 0;\n  left: 0;\n  width: 4px;\n  height: 4px;\n  background: #3b82f6;\n  border-radius: 50%;\n  animation: loader-bubbles 1s linear infinite forwards;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

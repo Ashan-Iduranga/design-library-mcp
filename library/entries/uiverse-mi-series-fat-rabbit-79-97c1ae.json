@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-mi-series-fat-rabbit-79-97c1ae",
+  "title": "Button by mi-series (fat-rabbit-79)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mi-series/fat-rabbit-79",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "spin"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mi-series on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mi-series_fat-rabbit-79.html",
+  "code": "<button>\n  Hover Me\n</button>\n<style>\n/* From Uiverse.io by mi-series - Tags: button, spin */\nbutton {\n  width: 150px;\n  height: 50px;\n  border: 2px solid #000;\n  font-family: 'Lato', sans-serif;\n  font-size: 17px;\n  text-decoration: none;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  font-weight: 500;\n  background: transparent;\n  cursor: pointer;\n  position: relative;\n  display: inline-block;\n  margin: 20px;\n  outline: none;\n  text-align: center;\n  z-index: 2;\n  transition: all 0.3s ease;\n  overflow: hidden;\n}\n\nbutton::after {\n  position: absolute;\n  content: \" \";\n  z-index: -1;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  transition: all 0.3s ease;\n}\n\nbutton:hover {\n  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),\n              -4px -4px 6px 0 rgba(116, 125, 136, .2), \n    inset -4px -4px 6px 0 rgba(255,255,255,.5),\n    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);\n  color: #fff;\n}\n\nbutton:hover::after {\n  transform: scale(2) rotate(180deg);\n  background: #000;\n  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),\n              -4px -4px 6px 0 rgba(116, 125, 136, .2), \n    inset -4px -4px 6px 0 rgba(255,255,255,.5),\n    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

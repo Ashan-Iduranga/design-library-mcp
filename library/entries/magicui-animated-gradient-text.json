@@ -1,0 +1,35 @@
+{
+  "id": "magicui-animated-gradient-text",
+  "title": "Animated Gradient Text (Magic UI)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/animated-gradient-text",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "animated",
+    "gradient",
+    "text",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "An animated gradient background which transitions between colors for text.\n\nInstall into a project: npx shadcn@latest add @magicui/animated-gradient-text\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/magicui/animated-gradient-text.tsx",
+  "code": "import { type ComponentPropsWithoutRef } from \"react\"\n\nimport { cn } from \"@/lib/utils\"\n\nexport interface AnimatedGradientTextProps extends ComponentPropsWithoutRef<\"div\"> {\n  speed?: number\n  colorFrom?: string\n  colorTo?: string\n}\n\nexport function AnimatedGradientText({\n  children,\n  className,\n  speed = 1,\n  colorFrom = \"#ffaa40\",\n  colorTo = \"#9c40ff\",\n  ...props\n}: AnimatedGradientTextProps) {\n  return (\n    <span\n      style={\n        {\n          \"--bg-size\": `${speed * 300}%`,\n          \"--color-from\": colorFrom,\n          \"--color-to\": colorTo,\n        } as React.CSSProperties\n      }\n      className={cn(\n        `animate-gradient inline bg-linear-to-r from-(--color-from) via-(--color-to) to-(--color-from) bg-size-[var(--bg-size)_100%] bg-clip-text text-transparent`,\n        className\n      )}\n      {...props}\n    >\n      {children}\n    </span>\n  )\n}\n",
+  "prompt": "npx shadcn@latest add @magicui/animated-gradient-text",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

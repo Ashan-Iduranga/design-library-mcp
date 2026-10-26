@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-praashoo7-cuddly-bat-26-77d119",
+  "title": "Checkbox by Praashoo7 (cuddly-bat-26)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/cuddly-bat-26",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "moon",
+    "sun",
+    "light&dark",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Praashoo7_cuddly-bat-26.html",
+  "code": "<label class=\"theme-switch\" for=\"checkbox\" id=\"themeswitch\">\n      <input type=\"checkbox\" id=\"checkbox\">\n      <div class=\"slider round\"></div>\n      <span class=\"name\"></span>\n      <div class=\"back\"></div>\n</label>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: checkbox, moon, sun, light&dark, box-shadow */\n.theme-switch {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  width: 9em;\n  height: 2.5em;\n  font-size: 20px;\n  font-family: Montserrat;\n  font-weight: 600;\n  color: black;\n  background-color: white;\n  padding: 0.5em;\n  border: 1px solid black;\n  box-shadow: 6px 6px 0px black;\n  transition: .4s;\n  z-index: 1;\n}\n\n.name::before {\n  color: black;\n  content: \"Dark Mode\";\n  margin-right: 2em;\n  transition: .2s ease-in-out;\n}\n\n.name::after {\n  color: black;\n  content: \"Light Mode\";\n  margin-right: 1.7em;\n  transition: .2s ease-in-out;\n  display: none;\n}\n\n.theme-switch .slider {\n  position: absolute;\n  background-color: #222;\n  margin-left: 6.2em;\n  width: 25px;\n  height: 25px;\n  border-radius: 50%;\n  border: 4px solid #222;\n  transform: rotate(-120deg);\n  box-shadow: inset 0px 6px #999, inset 0px 6px 1px 1px #999;\n  -moz-box-shadow: inset 0px 6px #999, inset 0px 6px 1px 1px #999;\n}\n\n.theme-switch:hover {\n  color: white;\n  cursor: pointer;\n  box-shadow: none;\n  transform: translateX(6px) translateY(6px);\n  background-color: black;\n  border: none;\n}\n\n.theme-switch:hover .name::before {\n  color: white;\n}\n\n.theme-switch:hover .name::after {\n  color: white;\n}\n\n.theme-switch input[type=checkbox]:checked + .slider {\n  transform: rotate(360deg);\n  box-shadow: none;\n  border: 4px solid #F28C38;\n  background-color: #F28C38;\n}\n\n.theme-switch input[type=checkbox]:checked ~ .name::before {\n  display: none;\n}\n\n.theme-switch input[type=checkbox]:checked ~ .name::after {\n  display: block;\n}\n\n.theme-switch input[type=checkbox] {\n  position: absolute;\n  visibility: hidden;\n}\n\n.slider {\n  transition: 300ms ease;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

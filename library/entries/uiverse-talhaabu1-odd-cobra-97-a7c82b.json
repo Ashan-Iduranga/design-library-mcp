@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-talhaabu1-odd-cobra-97-a7c82b",
+  "title": "Checkbox by talhaabu1 (odd-cobra-97)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/talhaabu1/odd-cobra-97",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By talhaabu1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/talhaabu1_odd-cobra-97.html",
+  "code": "<div class=\"checkbox-wrapper-23\">\n  <input type=\"checkbox\" id=\"check-23\">\n  <label for=\"check-23\" style=\"--size: 30px\">\n    <svg viewBox=\"0,0,50,50\">\n      <path d=\"M5 30 L 20 45 L 45 5\"></path>\n    </svg>\n  </label>\n</div>\n<style>\n/* From Uiverse.io by talhaabu1 - Tags: checkbox */\n.checkbox-wrapper-23 *,\n  .checkbox-wrapper-23 *:after,\n  .checkbox-wrapper-23 *:before {\n  box-sizing: border-box;\n}\n\n.checkbox-wrapper-23 input {\n  position: absolute;\n  opacity: 0;\n}\n\n.checkbox-wrapper-23 input:checked + label svg path {\n  stroke-dashoffset: 0;\n}\n\n.checkbox-wrapper-23 input:focus + label {\n  transform: scale(1.03);\n}\n\n.checkbox-wrapper-23 input + label {\n  display: block;\n  border: 2px solid rgb(253, 237, 237);\n  width: var(--size);\n  height: var(--size);\n  border-radius: 6px;\n  cursor: pointer;\n  transition: all .2s ease;\n}\n\n.checkbox-wrapper-23 input + label:active {\n  transform: scale(1.05);\n  border-radius: 12px;\n}\n\n.checkbox-wrapper-23 input + label svg {\n  pointer-events: none;\n  padding: 5%;\n}\n\n.checkbox-wrapper-23 input + label svg path {\n  fill: none;\n  stroke: rgb(247, 247, 247);\n  stroke-width: 4px;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-dasharray: 100;\n  stroke-dashoffset: 101;\n  transition: all 250ms cubic-bezier(1,0,.37,.91);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

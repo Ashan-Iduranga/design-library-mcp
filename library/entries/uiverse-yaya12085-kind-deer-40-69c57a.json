@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-yaya12085-kind-deer-40-69c57a",
+  "title": "Form by Yaya12085 (kind-deer-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/kind-deer-40",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "button",
+    "otp",
+    "input"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Yaya12085_kind-deer-40.html",
+  "code": "<form class=\"form\"> <div class=\"title\">OTP</div> <div class=\"title\">Verification Code</div> <p class=\"message\">We have sent a verification code to your mobile number</p> <div class=\"inputs\"> <input id=\"input1\" type=\"text\" maxlength=\"1\"> <input id=\"input2\" type=\"text\" maxlength=\"1\"> <input id=\"input3\" type=\"text\" maxlength=\"1\"> <input id=\"input4\" type=\"text\" maxlength=\"1\"> </div> <button class=\"action\">verify me</button> </form>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: button, OTP, form, input */\n.form {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  justify-content: space-around;\n  width: 300px;\n  background-color: white;\n  border-radius: 12px;\n  padding: 20px;\n}\n\n.title {\n  font-size: 20px;\n  font-weight: bold;\n  color: black\n}\n\n.message {\n  color: #a3a3a3;\n  font-size: 14px;\n  margin-top: 4px;\n  text-align: center\n}\n\n.inputs {\n  margin-top: 10px\n}\n\n.inputs input {\n  width: 32px;\n  height: 32px;\n  text-align: center;\n  border: none;\n  border-bottom: 1.5px solid #d2d2d2;\n  margin: 0 10px;\n}\n\n.inputs input:focus {\n  border-bottom: 1.5px solid royalblue;\n  outline: none;\n}\n\n.action {\n  margin-top: 24px;\n  padding: 12px 16px;\n  border-radius: 8px;\n  border: none;\n  background-color: royalblue;\n  color: white;\n  cursor: pointer;\n  align-self: end;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

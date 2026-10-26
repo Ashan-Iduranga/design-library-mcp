@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-countdown-in-boxes",
+  "title": "Countdown: In boxes (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/countdown/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "countdown",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Countdown gives you a transition effect when you change a number between 0 to 999.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/countdown/+page.md",
+  "code": "<div class=\"grid auto-cols-max grid-flow-col gap-5 text-center\">\n  <div class=\"bg-neutral rounded-box text-neutral-content flex flex-col p-2\">\n    <span class=\"countdown font-mono text-5xl\">\n      <span style=\"--value:15;\" aria-live=\"polite\" aria-label=\"15\">15</span>\n    </span>\n    days\n  </div>\n  <div class=\"bg-neutral rounded-box text-neutral-content flex flex-col p-2\">\n    <span class=\"countdown font-mono text-5xl\">\n      <span style=\"--value:10;\" aria-live=\"polite\" aria-label=\"10\">10</span>\n    </span>\n    hours\n  </div>\n  <div class=\"bg-neutral rounded-box text-neutral-content flex flex-col p-2\">\n    <span class=\"countdown font-mono text-5xl\">\n      <span style=\"--value:24;\" aria-live=\"polite\" aria-label=\"24\">24</span>\n    </span>\n    min\n  </div>\n  <div class=\"bg-neutral rounded-box text-neutral-content flex flex-col p-2\">\n    <span class=\"countdown font-mono text-5xl\">\n      <span style=\"--value:59;\" aria-live=\"polite\" aria-label=\"59\">59</span>\n    </span>\n    sec\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

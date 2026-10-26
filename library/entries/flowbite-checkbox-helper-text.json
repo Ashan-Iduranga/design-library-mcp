@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-checkbox-helper-text",
+  "title": "Checkbox: Helper text (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/checkbox/#helper-text",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Get started with this example if you want to add a secondary helper text for the checkbox component.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/checkbox.md",
+  "code": "<div class=\"flex\">\n    <div class=\"flex items-center h-5\">\n        <input id=\"helper-checkbox\" aria-describedby=\"helper-checkbox-text\" type=\"checkbox\" value=\"\" class=\"w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n    </div>\n    <div class=\"ms-2 text-sm select-none\">\n        <label for=\"helper-checkbox\" class=\"font-medium text-heading\">Free shipping via Flowbite</label>\n        <p id=\"helper-checkbox-text\" class=\"text-xs font-normal text-body\">For orders shipped from $25 in books or $29 in other categories</p>\n    </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-remon125-perfect-shrimp-95-c3df46",
+  "title": "Button by Remon125 (perfect-shrimp-95)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Remon125/perfect-shrimp-95",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "smooth-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Remon125 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Remon125_perfect-shrimp-95.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by Remon125 - Tags: button, smooth button */\nbutton {\n  padding: 15px 60px;\n  background: transparent;\n  border: 2px solid #6528F7;\n  font-size: 15px;\n  font-weight: bold;\n  color: #ffffff;\n  border-radius: 6px;\n  cursor: pointer;\n  position: relative;\n  display: flex;\n  overflow: hidden;\n  transition: all 0.5s;\n  text-transform: uppercase;\n}\n\nbutton span {\n  transition: all 0.5s;\n  z-index: -1;\n}\n\nbutton::after,\nbutton::before {\n  content: \"\";\n  position: absolute;\n  width: 0;\n  height: 100%;\n  background: #6528F7;\n  top: 0;\n  transform: skewX(35deg);\n  transition: all 0.5s;\n  z-index: -1;\n}\n\nbutton::after {\n  left: -20px;\n}\n\nbutton::before {\n  right: -20px;\n}\n\nbutton:hover::after {\n  width: 50%;\n  left: 0;\n}\n\nbutton:hover::before {\n  width: 50%;\n  right: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

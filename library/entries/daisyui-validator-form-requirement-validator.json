@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-validator-form-requirement-validator",
+  "title": "Validator: Form requirement validator (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/validator/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "validator",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Validator class changes the color of form elements to error or success based on input's validation rules.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/validator/+page.md",
+  "code": "<form class=\"fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4\">\n  <fieldset class=\"fieldset\">\n    <label class=\"label\">Email</label>\n    <input type=\"email\" class=\"input validator\" placeholder=\"Email\" required />\n    <p class=\"validator-hint hidden\">Required</p>\n  </fieldset>\n\n  <label class=\"fieldset\">\n    <span class=\"label\">Password</span>\n    <input type=\"password\" class=\"input validator\" placeholder=\"Password\" required />\n    <span class=\"validator-hint hidden\">Required</span>\n  </label>\n\n  <button class=\"btn btn-neutral mt-4\" type=\"submit\">Login</button>\n  <button class=\"btn btn-ghost mt-1\" type=\"reset\">Reset</button>\n</form>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

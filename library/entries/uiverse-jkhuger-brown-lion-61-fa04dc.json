@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jkhuger-brown-lion-61-fa04dc",
+  "title": "Button by JkHuger (brown-lion-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/brown-lion-61",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "progress",
+    "progress-bar",
+    "download"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JkHuger_brown-lion-61.html",
+  "code": "<div class=\"installer\">\n\t<label for=\"progressLinux\"><input id=\"progressLinux\" type=\"radio\"><span></span></label>\n</div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: button, progress, progress bar, download */\n.installer {\n  width: 200px;\n  height: 40px;\n}\n\n.installer label {\n  position: absolute;\n  height: 40px;\n  width: 200px;\n  border-radius: 5px;\n  overflow: hidden;\n  cursor: pointer;\n}\n\n.installer label input {\n  display: none;\n}\n\n.installer label span {\n  position: absolute;\n  height: 40px;\n  width: 200px;\n  line-height: 40px;\n  text-align: center;\n  color: #fff;\n  background: #3F8EFC;\n  border-radius: 5px;\n}\n\n.installer label input:checked ~ span {\n  background: #87E544;\n  animation: downloadSuccess 3.1s ease;\n}\n\n.installer label span:after {\n  content: 'DOWNLOAD';\n  position: absolute;\n  width: 80%;\n  height: 100%;\n  left: 10%;\n}\n\n.installer label input:checked ~ span:after {\n  content: 'Thank you!';\n  animation: downloadState 3s;\n}\n\n.installer label span:before {\n  content: '';\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0px;\n  left: 0px;\n  opacity: 0;\n  background: rgba(255,255,255,.2);\n}\n\n.installer label input:checked ~ span:before {\n  animation: downloadProgress 3s cubic-bezier(.67,.13,.1,.81);\n}\n\n@keyframes downloadSuccess {\n  0%, 90% {\n    background: #3F8EFC;\n  }\n\n  100% {\n    background: #87E544;\n  }\n}\n\n@keyframes downloadState {\n  0%, 95% {\n    content: 'DOWNLOADING...'\n  }\n\n  100% {\n    content: 'Thank you for download!'\n  }\n}\n\n@keyframes downloadProgress {\n  0% {\n    width: 5%;\n    opacity: 1;\n  }\n\n  35% {\n    width: 17%;\n  }\n\n  64% {\n    width: 51%;\n  }\n\n  81% {\n    width: 70%;\n  }\n\n  90% {\n    width: 86%;\n    opacity: 1;\n  }\n\n  100% {\n    width: 100%;\n    opacity: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-tamaniphiri-black-ape-85-a730ef",
+  "title": "Input by TamaniPhiri (black-ape-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TamaniPhiri/black-ape-85",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple",
+    "email",
+    "login",
+    "login-form"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TamaniPhiri on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/TamaniPhiri_black-ape-85.html",
+  "code": "<!-- From Uiverse.io by TamaniPhiri  - Tags: simple, email, input, login , login form, input -->\n<div\n  class=\"shadow-lg flex gap-2 items-center bg-white p-2 hover:shadow-xl duration-300 hover:border-2 border-gray-400 group delay-200 rounded-md\"\n>\n  <svg\n    class=\"group-hover:rotate-[360deg] duration-300\"\n    fill=\"none\"\n    stroke=\"currentColor\"\n    viewBox=\"0 0 24 24\"\n    height=\"1em\"\n    width=\"1em\"\n  >\n    <path\n      d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"\n    ></path>\n    <path d=\"M22 6l-10 7L2 6\"></path>\n  </svg>\n  <input\n    type=\"email\"\n    name=\"text\"\n    class=\"flex-1 focus:outline-none\"\n    placeholder=\"Email\"\n  />\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

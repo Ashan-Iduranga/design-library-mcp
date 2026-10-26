@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-device-mockups-desktop-mockup",
+  "title": "Device Mockups: Desktop mockup (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/device-mockups/#desktop-mockup",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "device-mockup",
+    "device-mockups",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a preview of your application inside a desktop device such as an iMac.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/device-mockups.md",
+  "code": "<div class=\"relative mx-auto border-default bg-base border-[16px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]\">\n    <div class=\"rounded-xl overflow-hidden h-[140px] md:h-[262px]\">\n        <img src=\"https://flowbite.s3.amazonaws.com/docs/device-mockups/screen-image-imac.png\" class=\"dark:hidden h-[140px] md:h-[262px] w-full rounded-xl\" alt=\"\">\n        <img src=\"https://flowbite.s3.amazonaws.com/docs/device-mockups/screen-image-imac-dark.png\" class=\"hidden dark:block h-[140px] md:h-[262px] w-full rounded-xl\" alt=\"\">\n    </div>\n</div>\n<div class=\"relative mx-auto bg-base rounded-b-xl h-[24px] max-w-[301px] md:h-[42px] md:max-w-[512px]\"></div>\n<div class=\"relative mx-auto bg-base rounded-b-xl h-[55px] max-w-[83px] md:h-[95px] md:max-w-[142px]\"></div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

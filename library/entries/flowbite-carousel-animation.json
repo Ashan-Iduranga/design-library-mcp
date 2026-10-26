@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-carousel-animation",
+  "title": "Carousel: Animation (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/carousel/#animation",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "carousel",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "You can easily customize the duration and animation style of the carousel component by using the `duration-*` and `ease-*` utility classes from Tailwind CSS.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/carousel.md",
+  "code": "<div id=\"animation-carousel\" class=\"relative w-full\" data-carousel=\"static\">\n    <!-- Carousel wrapper -->\n    <div class=\"relative h-56 overflow-hidden rounded-base md:h-96\">\n         <!-- Item 1 -->\n        <div class=\"hidden duration-200 ease-linear\" data-carousel-item>\n            <img src=\"/docs/images/carousel/carousel-1.svg\" class=\"absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2\" alt=\"...\">\n        </div>\n        <!-- Item 2 -->\n        <div class=\"hidden duration-200 ease-linear\" data-carousel-item>\n            <img src=\"/docs/images/carousel/carousel-2.svg\" class=\"absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2\" alt=\"...\">\n        </div>\n        <!-- Item 3 -->\n        <div class=\"hidden duration-200 ease-linear\" data-carousel-item=\"active\">\n            <img src=\"/docs/images/carousel/carousel-3.svg\" class=\"absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2\" alt=\"...\">\n        </div>\n        <!-- Item 4 -->\n        <div class=\"hidden duration-200 ease-linear\" data-carousel-item>\n            <img src=\"/docs/images/carousel/carousel-4.svg\" class=\"absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2\" alt=\"...\">\n        </div>\n        <!-- Item 5 -->\n        <div class=\"hidden duration-200 ease-linear\" data-carousel-item>\n            <img src=\"/docs/images/carousel/carousel-5.svg\" class=\"absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2\" alt=\"...\">\n        </div>\n    </div>\n    <!-- Slider controls -->\n    <button type=\"button\" class=\"absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none\" data-carousel-prev>\n        <span class=\"inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none\">\n            <svg class=\"w-5 h-5 text-white rtl:rotate-180\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m15 19-7-7 7-7\"/></svg>\n            <span class=\"sr-only\">Previous</span>\n        </span>\n    </button>\n    <button type=\"button\" class=\"absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none\" data-carousel-next>\n        <span class=\"inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none\">\n            <svg class=\"w-5 h-5 text-white rtl:rotate-180\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m9 5 7 7-7 7\"/></svg>\n            <span class=\"sr-only\">Next</span>\n        </span>\n    </button>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

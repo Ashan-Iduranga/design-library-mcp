@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mrhyddenn-tasty-crab-98-e2a489",
+  "title": "Loader by mrhyddenn (tasty-crab-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/tasty-crab-98",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "progress",
+    "progress-bar"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_tasty-crab-98.html",
+  "code": "<div class=\"progress-loader\">\n    <div class=\"progress\"></div>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: progress, progress bar, loader */\n.progress-loader {\n  top: 50%;\n  left: 50%;\n  position: absolute;\n  transform: translate(-50%, -50%);\n}\n\n.progress-loader {\n  width: 150px;\n  background: rgba(236, 236, 238, 0.253);\n  height: 3px;\n  border-radius: 7px;\n}\n\n.progress {\n  content: '';\n  width: 1px;\n  height: 3px;\n  border-radius: 7px;\n  background: rgb(255, 255, 255);\n  transition: 0.5s;\n  animation: loading1274 2s ease infinite;\n}\n\n@keyframes loading1274 {\n  0% {\n    width: 0%;\n  }\n\n  10% {\n    width: 10%;\n  }\n\n  50% {\n    width: 40%;\n  }\n\n  60% {\n    width: 60%;\n  }\n\n  100% {\n    width: 100%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

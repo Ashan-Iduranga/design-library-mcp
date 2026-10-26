@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-tsiangana-sweet-rattlesnake-28-ca92f0",
+  "title": "Button by Tsiangana (sweet-rattlesnake-28)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Tsiangana/sweet-rattlesnake-28",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "delete",
+    "hover-effect",
+    "button-hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Tsiangana on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Tsiangana_sweet-rattlesnake-28.html",
+  "code": "<button class=\"Btn\">\n  <div class=\"sign\">\n    <svg\n      viewBox=\"0 0 16 16\"\n      class=\"bi bi-trash3-fill\"\n      fill=\"currentColor\"\n      height=\"18\"\n      width=\"18\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5\"\n      ></path>\n    </svg>\n  </div>\n\n  <div class=\"text\">Delete</div>\n</button>\n\n<style>\n/* From Uiverse.io by Tsiangana  - Tags: gradient, button, delete, hover effect, button hover effect  */\n.Btn {\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  width: 45px;\n  height: 45px;\n  border: none;\n  border-radius: 50%;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition-duration: 0.3s;\n  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);\n  background: rgb(255, 135, 65);\n  background: linear-gradient(\n    250deg,\n    rgba(255, 135, 65, 1) 15%,\n    rgba(255, 65, 65, 1) 65%\n  );\n}\n\n/* plus sign */\n.sign {\n  width: 100%;\n  transition-duration: 0.3s;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.sign svg {\n  width: 17px;\n}\n\n.sign svg path {\n  fill: white;\n}\n/* text */\n.text {\n  position: absolute;\n  right: 0%;\n  width: 0%;\n  opacity: 0;\n  color: white;\n  font-size: 1.2em;\n  font-weight: 600;\n  transition-duration: 0.3s;\n}\n/* hover effect on button width */\n.Btn:hover {\n  width: 125px;\n  border-radius: 40px;\n  transition-duration: 0.3s;\n}\n\n.Btn:hover .sign {\n  width: 30%;\n  transition-duration: 0.3s;\n  padding-left: 20px;\n}\n/* hover effect button's text */\n.Btn:hover .text {\n  opacity: 1;\n  width: 70%;\n  transition-duration: 0.3s;\n  padding-right: 10px;\n}\n/* button click effect*/\n.Btn:active {\n  transform: translate(2px, 2px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

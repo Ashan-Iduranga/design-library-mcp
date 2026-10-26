@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mininaim-helpless-horse-85-8b950c",
+  "title": "Button by mininaim (helpless-horse-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mininaim/helpless-horse-85",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mininaim on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mininaim_helpless-horse-85.html",
+  "code": "<button class=\"space-button\">\n  <svg class=\"space-icon\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\">\n    <path fill=\"currentColor\" d=\"M12 0c-1.2 0-2.2 1-2.2 2.2v3.3c0 .6-.5 1.1-1.1 1.1-.6 0-1.1-.5-1.1-1.1V2.2C7.6 1 6.7 0 5.5 0S3.4 1 3.4 2.2v3.3c0 .6-.5 1.1-1.1 1.1S1.1 6.1 1.1 5.5V2.2C1.1 1 0 2 0 3.2 0 16.3 7.7 24 20.8 24 23 24 24 23 24 20.8c0-1.2-1-2.2-2.2-2.2s-2.2 1-2.2 2.2c0 .6-.5 1.1-1.1 1.1-.6 0-1.1-.5-1.1-1.1 0-1.2-1-2.2-2.2-2.2s-2.2 1-2.2 2.2c0 .6-.5 1.1-1.1 1.1-.6 0-1.1-.5-1.1-1.1 0-2.1 1.7-3.8 3.8-3.8s3.8 1.7 3.8 3.8c0 .6-.5 1.1-1.1 1.1-.6 0-1.1-.5-1.1-1.1 0-1.2-1-2.2-2.2-2.2z\"></path>\n  </svg>\n  Launch\n</button>\n\n<style>\n/* From Uiverse.io by mininaim - Tags: button */\n.space-button {\n  font-size: 1.2rem;\n  font-weight: bold;\n  text-transform: uppercase;\n  border: none;\n  border-radius: 5px;\n  padding: 10px 20px;\n  transition: all 0.3s ease;\n  display: flex;\n  align-items: center;\n}\n\n.space-icon {\n  margin-right: 10px;\n  fill: currentColor;\n}\n\n/* Light Mode */\n@media (prefers-color-scheme: light) {\n  .space-button {\n    background-color: #0074D9;\n    color: #fff;\n    box-shadow: 0px 0px 10px 0px #0074D9;\n  }\n\n  .space-button:hover {\n    box-shadow: 0px 0px 20px 0px #fff;\n  }\n\n  .space-button:active {\n    box-shadow: none;\n    background-color: #001f3f;\n  }\n}\n\n/* Dark Mode */\n@media (prefers-color-scheme: dark) {\n  .space-button {\n    background-color: #f0f0f0;\n    color: #000;\n    box-shadow: 0px 0px 10px 0px #000;\n  }\n\n  .space-button:hover {\n    box-shadow: 0px 0px 20px 0px #fff;\n  }\n\n  .space-button:active {\n    box-shadow: none;\n    background-color: #bbb;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

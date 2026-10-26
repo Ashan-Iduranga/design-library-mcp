@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-aadium-nervous-baboon-15-660dfb",
+  "title": "Checkbox by aadium (nervous-baboon-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aadium/nervous-baboon-15",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aadium on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/aadium_nervous-baboon-15.html",
+  "code": "<label class=\"container\">\n  <input type=\"checkbox\">\n  <div class=\"checkmark\">\n    <svg xml:space=\"preserve\" viewBox=\"0 0 49.548 49.549\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns=\"http://www.w3.org/2000/svg\" id=\"Capa_1\" version=\"1.1\">\n<g>\n\t<g>\n\t\t<g>\n\t\t\t<path d=\"M30.203,4.387v4.385c7.653,2.332,13.238,9.451,13.238,17.857c0,10.293-8.373,18.667-18.667,18.667\n\t\t\t\tS6.106,36.922,6.106,26.629c0-8.405,5.585-15.525,13.238-17.857V4.387C9.323,6.835,1.855,15.866,1.855,26.629\n\t\t\t\tc0,12.639,10.281,22.92,22.919,22.92s22.92-10.281,22.92-22.92C47.694,15.865,40.224,6.835,30.203,4.387z\"></path>\n\t\t</g>\n\t\t<g>\n\t\t\t<path d=\"M24.776,27.225c-1.41,0-2.554-1.145-2.554-2.555V2.554c0-1.41,1.144-2.554,2.554-2.554c1.41,0,2.554,1.144,2.554,2.554\n\t\t\t\tV24.67C27.33,26.08,26.186,27.225,24.776,27.225z\"></path>\n\t\t</g>\n\t</g>\n</g>\n</svg>\n  </div>\n</label>\n<style>\n/* From Uiverse.io by aadium - Tags: checkbox */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  height: 70px;\n  width: 70px;\n  border-radius: 10em;\n  background-color: #212121;\n  transition: 0.3s;\n  box-shadow: 6px 6px 10px #000000,\n  -6px -6px 10px #3c3c3c;\n}\n\n.checkmark svg {\n  width: 45px;\n  height: 45px;\n  margin-top: 11px;\n  margin-left: 12.5px;\n  fill: #264d39;\n  transition: 0.2s;\n}\n\n.checkmark:active {\n  box-shadow: 2px 2px 3px #000000,\n  -2px -2px 3px #3c3c3c;\n}\n\n/* When the checkbox is checked */\n.container input:checked ~ .checkmark {\n  box-shadow: 4px 4px 6px #000000,\n  -4px -4px 6px #3c3c3c;\n}\n\n.container input:checked ~ .checkmark svg {\n  fill: #00ff7b;\n}\n\n.container input:checked ~ .checkmark:active {\n  box-shadow: 2px 2px 3px #000000,\n  -2px -2px 3px #3c3c3c;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

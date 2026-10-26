@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-aqfox-pretty-lionfish-11-a80298",
+  "title": "Button by AqFox (pretty-lionfish-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AqFox/pretty-lionfish-11",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "skeuomorphism",
+    "blue",
+    "realistic"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AqFox on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/AqFox_pretty-lionfish-11.html",
+  "code": "<button class=\"custom-btn btn-2\">Read More</button>\n<style>\n/* From Uiverse.io by AqFox - Tags: skeuomorphism, blue, button, realistic */\n.custom-btn {\n  width: 130px;\n  height: 40px;\n  color: #fff;\n  border-radius: 5px;\n  padding: 10px 25px;\n  font-family: 'Lato', sans-serif;\n  font-weight: 500;\n  background: transparent;\n  cursor: pointer;\n  transition: all 0.3s ease;\n  position: relative;\n  display: inline-block;\n  box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),\n   7px 7px 20px 0px rgba(0,0,0,.1),\n   4px 4px 5px 0px rgba(0,0,0,.1);\n  outline: none;\n  font-size: 15px;\n}\n\n.btn-2 {\n  background: #004dff;\n  background: linear-gradient(0deg, #004dff 0%, #004dff 100%);\n  border: none;\n}\n\n.btn-2:before {\n  height: 0%;\n  width: 2px;\n}\n\n.btn-2:hover {\n  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),\n              -4px -4px 6px 0 rgba(116, 125, 136, .5), \n    inset -4px -4px 6px 0 rgba(255,255,255,.2),\n    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

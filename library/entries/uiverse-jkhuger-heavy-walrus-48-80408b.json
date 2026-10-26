@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jkhuger-heavy-walrus-48-80408b",
+  "title": "Loader by JkHuger (heavy-walrus-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/heavy-walrus-48",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JkHuger_heavy-walrus-48.html",
+  "code": "<div class=\"loader\">\n  Loading\n</div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: loader */\n.loader {\n  font-size: 2rem;\n  font-family: sans-serif;\n  font-variant: small-caps;\n  font-weight: 900;\n  background: conic-gradient(\n    #dff2ae 0 25%,\n    #ff904f 25% 50%,\n    #feefe7 50% 75%,\n    #ffde2b 75%\n  );\n  background-size: 200% 200%;\n  animation: animateBackground 4.5s ease-in-out infinite;\n  color: transparent;\n  background-clip: text;\n  -webkit-background-clip: text;\n}\n\n@keyframes animateBackground {\n  25% {\n    background-position: 0 100%;\n  }\n\n  50% {\n    background-position: 100% 100%;\n  }\n\n  75% {\n    background-position: 100% 0%;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

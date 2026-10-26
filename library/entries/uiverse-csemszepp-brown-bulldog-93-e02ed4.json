@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-brown-bulldog-93-e02ed4",
+  "title": "Pattern by csemszepp (brown-bulldog-93)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/brown-bulldog-93",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_brown-bulldog-93.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 20px; /* size of the lines */\n  --g: 15px; /* gap between lines */\n\n  --c1: #c02942;\n  --c2: #53777a;\n\n  background: conic-gradient(\n        at var(--s) calc(100% - var(--s)),\n        #0000 270deg,\n        var(--c1) 0\n      )\n      calc(var(--s) + var(--g)) 0,\n    linear-gradient(var(--c2) var(--s), #0000 0) 0 var(--g),\n    conic-gradient(\n      at var(--s) calc(100% - var(--s)),\n      #0000 90deg,\n      var(--c2) 0 180deg,\n      var(--c1) 0\n    ),\n    #ecd078;\n  background-size: calc(2 * (var(--s) + var(--g)))\n    calc(2 * (var(--s) + var(--g)));\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

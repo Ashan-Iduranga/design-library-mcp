@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-indicator-for-avatar",
+  "title": "Indicator: for avatar (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/indicator/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "indicator",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Indicators are used to place an element on the corner of another element.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/indicator/+page.md",
+  "code": "<div class=\"avatar indicator\">\n  <span class=\"indicator-item badge badge-secondary\">Justice</span>\n  <div class=\"h-20 w-20 rounded-lg\">\n    <img\n      alt=\"Tailwind CSS examples\"\n      src=\"https://img.daisyui.com/images/profile/demo/batperson@192.webp\"\n    />\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

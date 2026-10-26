@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-mrpumps31232-heavy-bear-50-9593b1",
+  "title": "Checkbox by mrpumps31232 (heavy-bear-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrpumps31232/heavy-bear-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "green",
+    "minimalist",
+    "circle",
+    "animated",
+    "clean"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrpumps31232 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/mrpumps31232_heavy-bear-50.html",
+  "code": "<label class=\"checkbox\">\n  <input type=\"checkbox\">\n  <div class=\"checkbox-circle\">\n    <svg viewBox=\"0 0 52 52\" class=\"checkmark\">\n      <circle fill=\"none\" r=\"25\" cy=\"26\" cx=\"26\" class=\"checkmark-circle\"></circle>\n      <path d=\"M16 26l9.2 8.4 17.4-21.4\" class=\"checkmark-kick\"></path>\n    </svg>\n  </div>\n</label>\n\n<style>\n/* From Uiverse.io by mrpumps31232 - Tags: green, minimalist, checkbox, circle, animated, clean */\n.checkbox {\n  position: relative;\n  display: inline-block;\n  vertical-align: middle;\n  margin-right: 20px;\n}\n\n.checkbox input[type=\"checkbox\"] {\n  position: absolute;\n  opacity: 0;\n}\n\n.checkbox-circle {\n  position: relative;\n  display: inline-block;\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  border: 2px solid #aaa;\n  transition: all 0.3s;\n}\n\n.checkbox input[type=\"checkbox\"]:checked ~ .checkbox-circle {\n  background: #4CAF50;\n  border-color: #4CAF50;\n}\n\n.checkmark {\n  position: absolute;\n  top: 0;\n  left: 0;\n  fill: none;\n  stroke: #fff;\n  stroke-width: 3;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  opacity: 0;\n  transition: all 0.3s;\n}\n\n.checkbox input[type=\"checkbox\"]:checked ~ .checkbox-circle .checkmark {\n  opacity: 1;\n}\n\n.checkmark-circle {\n  stroke-dasharray: 166;\n  stroke-dashoffset: 166;\n  transition: stroke-dashoffset 0.3s;\n}\n\n.checkbox input[type=\"checkbox\"]:checked ~ .checkbox-circle .checkmark-circle {\n  stroke-dashoffset: 0;\n}\n\n.checkmark-kick {\n  stroke-dasharray: 50;\n  stroke-dashoffset: 50;\n  transition: stroke-dashoffset 0.3s;\n}\n\n.checkbox input[type=\"checkbox\"]:checked ~ .checkbox-circle .checkmark-kick {\n  stroke-dashoffset: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

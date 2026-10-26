@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-spacious74-horrible-horse-4-668e75",
+  "title": "Button by Spacious74 (horrible-horse-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Spacious74/horrible-horse-4",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "minimalist",
+    "gradient",
+    "hover",
+    "dark",
+    "gradients",
+    "border",
+    "click-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Spacious74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Spacious74_horrible-horse-4.html",
+  "code": "<div class=\"container\">\n  <button class=\"button\">Hover me</button>\n</div>\n\n<style>\n/* From Uiverse.io by Spacious74  - Tags: minimalist, gradient, button, hover, dark, gradients, border, click effect */\nbutton {\n  font-size: 1.4em;\n  padding: 0.6em 0.8em;\n  border-radius: 0.5em;\n  border: none;\n  background-color: #000;\n  color: #fff;\n  cursor: pointer;\n  box-shadow: 2px 2px 3px #000000b4;\n}\n\n.container {\n  position: relative;\n  padding: 3px;\n  background: linear-gradient(90deg, #03a9f4, #f441a5);\n  border-radius: 0.9em;\n  transition: all 0.4s ease;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  margin: auto;\n  border-radius: 0.9em;\n  z-index: -10;\n  filter: blur(0);\n  transition: filter 0.4s ease;\n}\n\n.container:hover::before {\n  background: linear-gradient(90deg, #03a9f4, #f441a5);\n  filter: blur(1.2em);\n}\n.container:active::before {\n  filter: blur(0.2em);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

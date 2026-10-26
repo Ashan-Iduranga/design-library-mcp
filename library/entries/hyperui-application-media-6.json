@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-media-6",
+  "title": "Media: Right align center",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/media",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "media",
+    "hyperui",
+    "avatar",
+    "image"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/media/6.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<div class=\"flex flex-row-reverse items-center gap-4\">\n<img alt=\"\" class=\"size-20 rounded object-cover\" src=\"https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&amp;fit=crop&amp;q=80&amp;w=1160\"/>\n<div>\n<h3 class=\"font-medium text-gray-900 sm:text-lg\">Title goes here</h3>\n<p class=\"mt-0.5 text-gray-700\">\n          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptas distinctio\n          nesciunt quas non animi.\n        </p>\n</div>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

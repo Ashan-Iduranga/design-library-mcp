@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-timeline-stepper-timeline",
+  "title": "Timeline: Stepper timeline (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/timeline/#stepper-timeline",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "timeline",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this horizontally aligned timeline component to show a series of data in a chronological order.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/timeline.md",
+  "code": "<ol class=\"items-center sm:flex\">\n    <li class=\"relative mb-6 sm:mb-0\">\n        <div class=\"flex items-center\">\n            <div class=\"z-10 flex items-center justify-center w-6 h-6 bg-brand-softer rounded-full ring-0 ring-buffer sm:ring-8 shrink-0\">\n                <svg class=\"w-3 h-3 text-fg-brand-strong\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 10h16m-8-3V4M7 7V4m10 3V4M5 20h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Zm3-7h.01v.01H8V13Zm4 0h.01v.01H12V13Zm4 0h.01v.01H16V13Zm-8 4h.01v.01H8V17Zm4 0h.01v.01H12V17Zm4 0h.01v.01H16V17Z\"/></svg>\n            </div>\n            <div class=\"hidden sm:flex w-full bg-neutral-quaternary h-px\"></div>\n        </div>\n        <div class=\"mt-3 sm:pe-8\">\n            <time class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-xs font-medium px-1.5 py-0.5 rounded\">January 09th, 2025</time>\n            <h3 class=\"text-lg font-semibold text-heading my-2\">Flowbite Library v1.0.0</h3>\n            <p class=\"text-body mb-4\">Get started with dozens of web components and interactive elements.</p>\n            <button type=\"button\" class=\"text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none\">Read more</button>\n        </div>\n    </li>\n    <li class=\"relative mb-6 sm:mb-0\">\n        <div class=\"flex items-center\">\n            <div class=\"z-10 flex items-center justify-center w-6 h-6 bg-brand-softer rounded-full ring-0 ring-buffer sm:ring-8 shrink-0\">\n                <svg class=\"w-3 h-3 text-fg-brand-strong\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 10h16m-8-3V4M7 7V4m10 3V4M5 20h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Zm3-7h.01v.01H8V13Zm4 0h.01v.01H12V13Zm4 0h.01v.01H16V13Zm-8 4h.01v.01H8V17Zm4 0h.01v.01H12V17Zm4 0h.01v.01H16V17Z\"/></svg>\n            </div>\n            <div class=\"hidden sm:flex w-full bg-neutral-quaternary h-px\"></div>\n        </div>\n        <div class=\"mt-3 sm:pe-8\">\n            <time class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-xs font-medium px-1.5 py-0.5 rounded\">March 14th, 2025</time>\n            <h3 class=\"text-lg font-semibold text-heading my-2\">Flowbite Library v1.2.0</h3>\n            <p class=\"text-body mb-4\">Get started with dozens of web components and interactive elements.</p>\n            <button type=\"button\" class=\"text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none\">Read more</button>\n        </div>\n    </li>\n    <li class=\"relative mb-6 sm:mb-0\">\n        <div class=\"flex items-center\">\n            <div class=\"z-10 flex items-center justify-center w-6 h-6 bg-brand-softer rounded-full ring-0 ring-buffer sm:ring-8 shrink-0\">\n                <svg class=\"w-3 h-3 text-fg-brand-strong\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 10h16m-8-3V4M7 7V4m10 3V4M5 20h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Zm3-7h.01v.01H8V13Zm4 0h.01v.01H12V13Zm4 0h.01v.01H16V13Zm-8 4h.01v.01H8V17Zm4 0h.01v.01H12V17Zm4 0h.01v.01H16V17Z\"/></svg>\n            </div>\n            <div class=\"hidden sm:flex w-full bg-neutral-quaternary h-px\"></div>\n        </div>\n        <div class=\"mt-3 sm:pe-8\">\n            <time class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-xs font-medium px-1.5 py-0.5 rounded\">September 26th, 2025</time>\n            <h3 class=\"text-lg font-semibold text-heading my-2\">Flowbite Library v1.3.0</h3>\n            <p class=\"text-body mb-4\">Get started with dozens of web components and interactive elements.</p>\n            <button type=\"button\" class=\"text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none\">Read more</button>\n        </div>\n    </li>\n</ol>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

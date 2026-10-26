@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-reshades-tiny-monkey-43-ab1895",
+  "title": "Form by reshades (tiny-monkey-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/reshades/tiny-monkey-43",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "otp",
+    "verify",
+    "verification"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By reshades on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/reshades_tiny-monkey-43.html",
+  "code": "<form class=\"form\">\n  <div class=\"content\">\n    <p align=\"center\">Enter your OTP Code</p>\n    <div class=\"inp\">\n    <input maxlength=\"1\" class=\"input\" type=\"text\" placeholder=\"\">\n    <input maxlength=\"1\" class=\"input\" type=\"text\" placeholder=\"\"> \n    <input maxlength=\"1\" class=\"input\" type=\"text\" placeholder=\"\"> \n    <input maxlength=\"1\" class=\"input\" type=\"text\" placeholder=\"\"> \n    </div>\n    <button>Verify</button>\n  </div>\n  \n</form>\n<style>\n/* From Uiverse.io by reshades - Tags: OTP, form, verify, Verification */\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  background: #333333;\n  border-radius: 5px;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  backdrop-filter: blur(8.2px);\n  -webkit-backdrop-filter: blur(8.2px);\n  border: 1px solid #fff;\n  width: 17em;\n  height: 12em;\n}\n\n.content {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.form p {\n  color: #fff;\n  font-weight: bolder;\n}\n\n.inp {\n  margin-left: auto;\n  margin-right: auto;\n  white-space: 4px;\n}\n\n.input + .input {\n  margin-left: 0.5em\n}\n\n.input {\n  color: #fff;\n  height: 2em;\n  width: 2em;\n  float: left;\n  text-align: center;\n  background: #00000000;\n  outline: none;\n  border: 1px #fff solid;\n  border-radius: 5px;\n  transition: all 0.6s ease;\n  font-size: larger;\n}\n\n.input:focus {\n  outline: none;\n  border: 1px #fff solid;\n}\n\n.input:not(:placeholder-shown) {\n  background-color: #fff;\n  width: 1em;\n  height: 1em\n}\n\n.form button {\n  margin-left: auto;\n  margin-right: auto;\n  background-color: #00000000;\n  color: #fff;\n  width: 8.5em;\n  height: 2.3em;\n  border: #fff 0.1em solid;\n  border-radius: 5px;\n  transition: all 0.5s ease;\n}\n\n.form button:hover {\n  background-color: #fff;\n  color: #000\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

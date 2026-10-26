@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-leryley-big-baboon-18-4332d2",
+  "title": "Button by LeryLey (big-baboon-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/LeryLey/big-baboon-18",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "dark"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By LeryLey on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/LeryLey_big-baboon-18.html",
+  "code": "<button class=\"button\">Button</button>\n\n<style>\n/* From Uiverse.io by LeryLey  - Tags: button, hover, dark */\n.button {\n  cursor: pointer;\n  position: relative;\n  width: 125px;\n  height: 40px;\n  border-radius: 60px;\n  background: #222;\n  color: #fff;\n  outline: none;\n  overflow: hidden;\n  border: 2px solid rgb(56, 56, 56);\n  font-weight: 600;\n  z-index: 1;\n  transition: 0.5s;\n}\n.button:hover {\n  color: white;\n}\n.button::before {\n  position: absolute;\n  content: \"\";\n  width: 0;\n  height: 0;\n  border-radius: 50%;\n  background: linear-gradient(\n    to right,\n    rgb(59, 59, 184),\n    rgb(163, 65, 65),\n    rgb(172, 26, 26)\n  );\n  left: -15px;\n  bottom: 0;\n  transform: translateY(50%);\n  transition: 0.5s;\n  z-index: -1;\n}\n.button:hover:before {\n  width: 170px;\n  height: 170px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

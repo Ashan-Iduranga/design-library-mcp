@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-forms-helper-text",
+  "title": "Forms: Helper text (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/forms/#helper-text",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "forms",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the following markup to also add a helper text below your form input item. Usually used for newsletter signup elements.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/forms.md",
+  "code": "<form class=\"max-w-sm mx-auto\"> \n  <label for=\"email\" class=\"block mb-2.5 text-sm font-medium text-heading\">Your email</label>\n  <input type=\"email\" id=\"email\" aria-describedby=\"helper-text-explanation\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" placeholder=\"name@flowbite.com\">\n\n  <p id=\"helper-text-explanation\" class=\"mt-2.5 text-sm text-body\">Read our <a href=\"#\" class=\"font-medium text-fg-brand hover:underline \">Privacy Policy</a>.</p>\n</form>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

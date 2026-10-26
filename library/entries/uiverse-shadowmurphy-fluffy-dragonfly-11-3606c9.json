@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-shadowmurphy-fluffy-dragonfly-11-3606c9",
+  "title": "Button by shadowmurphy (fluffy-dragonfly-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/shadowmurphy/fluffy-dragonfly-11",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "active",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By shadowmurphy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/shadowmurphy_fluffy-dragonfly-11.html",
+  "code": "<button class=\"button\">\n  <span class=\"inner-circle\"></span>\n  <span class=\"text\">Button</span>\n</button>\n<style>\n/* From Uiverse.io by shadowmurphy - Tags: button, active, animated */\n.button * {\n  cursor: pointer;\n}\n\n.button {\n  position: relative;\n  width: 160px;\n  height: 50px;\n  background: none;\n  border-radius: 8px;\n  outline: none;\n  font-size: 19px;\n  font-family: \"Montserrat\", sans-serif;\n  overflow: hidden;\n  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;\n  text-decoration: none;\n  border: none;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: all 0.4s;\n}\n\n.button::before {\n  content: '';\n  position: absolute;\n  width: 200%;\n  height: 100%;\n  background-image: linear-gradient(to right, #AF40FF, #5B42F3, #006eeb, #42a0f3, #AF40FF);\n  background-size: 200% 100%;\n  background-position: 100% 0;\n  animation: moveGradient 3s linear infinite;\n  z-index: -1;\n}\n\n.inner-circle {\n  position: absolute;\n  width: 94%;\n  height: 84%;\n  background-color: rgb(2, 3, 20);\n  border-radius: 6px;\n  opacity: 1;\n  transition: opacity 0.2s;\n}\n\n.text {\n  z-index: 3;\n  color: white;\n  cursor: pointer;\n}\n\n@keyframes moveGradient {\n  0% {\n    background-position: 100% 0;\n  }\n\n  100% {\n    background-position: -100% 0;\n  }\n}\n\n.button:active {\n  transform: scale(0.9);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

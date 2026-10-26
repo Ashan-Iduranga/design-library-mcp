@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mi-series-angry-lizard-63-f34021",
+  "title": "Form by mi-series (angry-lizard-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mi-series/angry-lizard-63",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "password",
+    "forgot-password"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mi-series on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/mi-series_angry-lizard-63.html",
+  "code": "<form class=\"forgot-password\">\n  <div class=\"header\">\n    <span class=\"title\">Forgot Password</span>\n    <p class=\"sub-title\">Please Select Option To Reset Password</p>\n  </div>\n  <div class=\"reset-option\">\n    <input value=\"email\" id=\"email\" name=\"option\" type=\"radio\" checked=\"\">\n    <label for=\"email\">\n      <div class=\"reset-info\">\n        <span class=\"reset-title\">Reset via Email</span>\n        <span class=\"reset-sub-title\">Reset link will be sent to your registered email address</span>\n      </div>\n    </label>\n  </div>\n  <div class=\"reset-option\">\n    <input value=\"sms\" id=\"sms\" name=\"option\" type=\"radio\">\n    <label for=\"sms\">\n       <div class=\"reset-info\">\n        <span class=\"reset-title\">Reset via SMS</span>\n        <span class=\"reset-sub-title\">Reset link will be sent to your registered number</span>\n      </div>\n    </label>\n  </div>\n    <a href=\"#\" title=\"\" class=\"send-btn\">Send Link</a>\n    <p class=\"sub-title\">Didn't receive link? <span class=\"resend\">Resend<span></span></span></p>\n</form>\n<style>\n/* From Uiverse.io by mi-series - Tags: form, password, forgot password */\n.forgot-password {\n  background-color: #E8EAE3;\n  max-width: 450px;\n  border-radius: 10px;\n  padding: 20px;\n  color: #000;\n  box-shadow: 0px 87px 78px -39px rgba(0,0,0,0.4);\n}\n\n.header {\n  text-align: center;\n  margin-top: 0.75rem;\n}\n\n.forgot-password .title {\n  font-size: 1.875rem;\n  font-weight: 700;\n  line-height: 1.25rem;\n  color: rgba(0, 0, 0, 1);\n}\n\n.forgot-password .sub-title {\n  margin-top: 0.4rem;\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n\n.reset-option {\n  margin-top: 1rem;\n  margin-bottom: 15px;\n}\n\n.reset-option label {\n  cursor: pointer;\n  overflow: hidden;\n  border: 2px solid rgba(229, 231, 235, 1);\n  border-radius: 0.375rem;\n  background-color: #F7F7F7;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 1rem .4rem;\n  margin: 10px 0;\n  transform: all .15s ease;\n}\n\n.reset-option label .reset-info {\n  display: flex;\n  flex-direction: column;\n  margin-left: 10px;\n}\n\n.reset-title {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n  font-weight: 600;\n  color: rgba(0, 0, 0, 1);\n}\n\n.reset-sub-title {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n\n.reset-option input:checked + label {\n  border-color: #FA2742;\n}\n\n.send-btn {\n  text-decoration: none;\n  width: 100%;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 0.375rem;\n  background-color: #FA2742;\n  padding: 1rem 3rem;\n  font-weight: 600;\n  color: #000;\n  transform: all .15s ease;\n}\n\n.send-btn:hover {\n  opacity: .9;\n}\n\n.reset-option input {\n  display: none;\n}\n\n.resend {\n  color: #FA2742;\n  font-weight: 600;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

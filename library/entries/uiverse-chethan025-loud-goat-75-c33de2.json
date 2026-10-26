@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-chethan025-loud-goat-75-c33de2",
+  "title": "Button by chethan025 (loud-goat-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/chethan025/loud-goat-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "scroll-snap"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By chethan025 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/chethan025_loud-goat-75.html",
+  "code": "<button class=\"button\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 97 162\" height=\"162\" width=\"97\" class=\"svg\">\n<path fill=\"#262626\" d=\"M47.2124 0H54.0796V151.644L86.6991 128.712H97L50.646 162L0 128.712H10.3009L47.2124 151.644V0Z\"></path>\n</svg>\n\n</button>\n<style>\n/* From Uiverse.io by chethan025 - Tags: button, scroll snap */\n.button {\n  width: 38px;\n  height: 82px;\n  padding: 2px;\n  border: 1px solid #474747;\n  border-radius: 50px;\n  background: rgba(141, 141, 141, 0.18);\n  transition: all 0.3s ease-in-out;\n  transform: rotate(180deg);\n}\n\n.svg {\n  width: 22px;\n  height: 62px;\n  transform: rotate(180deg);\n}\n\n.button:hover {\n  transform: scale(-1.2);\n}\n\n.button:focus {\n  height: 0px;\n  width: 0px;\n  padding: 0px;\n  border: 0px;\n}\n\n.button:focus > .svg {\n  display: none;\n  height: 0px;\n}\n  \n  \n  \n  \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

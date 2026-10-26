@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-priyanshugupta28-spicy-starfish-71-dd2ca9",
+  "title": "Checkbox by PriyanshuGupta28 (spicy-starfish-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/spicy-starfish-71",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "toggle-switch",
+    "cool-switch",
+    "tick-mark-swicth"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/PriyanshuGupta28_spicy-starfish-71.html",
+  "code": "<div class=\"checkbox-wrapper\">\n  <input id=\"_checkbox-26\" type=\"checkbox\">\n  <label for=\"_checkbox-26\">\n    <div class=\"tick_mark\"></div>\n  </label>\n</div>\n\n\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: checkbox, toggle switch, cool switch, tick mark swicth */\n.checkbox-wrapper * {\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n}\n\n.checkbox-wrapper input[type=\"checkbox\"] {\n  display: none;\n}\n\n.checkbox-wrapper label {\n  --size: 50px;\n  --shadow: calc(var(--size) * .07) calc(var(--size) * .1);\n  position: relative;\n  display: block;\n  width: var(--size);\n  height: var(--size);\n  margin: 0 auto;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  border-radius: 50%;\n  box-shadow: 0 var(--shadow) #ffbeb8;\n  cursor: pointer;\n  transition: 0.2s ease transform, 0.2s ease background-color,\n      0.2s ease box-shadow;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.checkbox-wrapper label:before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  right: 0;\n  left: 0;\n  width: calc(var(--size) * .7);\n  height: calc(var(--size) * .7);\n  margin: 0 auto;\n  background-color: #fff;\n  transform: translateY(-50%);\n  border-radius: 50%;\n  box-shadow: inset 0 var(--shadow) #ffbeb8;\n  transition: 0.2s ease width, 0.2s ease height;\n}\n\n.checkbox-wrapper label:hover:before {\n  width: calc(var(--size) * .55);\n  height: calc(var(--size) * .55);\n  box-shadow: inset 0 var(--shadow) #ff9d96;\n}\n\n.checkbox-wrapper label:active {\n  transform: scale(0.9);\n}\n\n.checkbox-wrapper .tick_mark {\n  position: absolute;\n  top: -1px;\n  right: 0;\n  left: calc(var(--size) * -.05);\n  width: calc(var(--size) * .6);\n  height: calc(var(--size) * .6);\n  margin: 0 auto;\n  margin-left: calc(var(--size) * .14);\n  transform: rotateZ(-40deg);\n}\n\n.checkbox-wrapper .tick_mark:before,\n  .checkbox-wrapper .tick_mark:after {\n  content: \"\";\n  position: absolute;\n  background-color: #fff;\n  border-radius: 2px;\n  opacity: 0;\n  transition: 0.2s ease transform, 0.2s ease opacity;\n}\n\n.checkbox-wrapper .tick_mark:before {\n  left: 0;\n  bottom: 0;\n  width: calc(var(--size) * .1);\n  height: calc(var(--size) * .3);\n  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.23);\n  transform: translateY(calc(var(--size) * -.68));\n}\n\n.checkbox-wrapper .tick_mark:after {\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  height: calc(var(--size) * .1);\n  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.23);\n  transform: translateX(calc(var(--size) * .78));\n}\n\n.checkbox-wrapper input[type=\"checkbox\"]:checked + label {\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;\n}\n\n.checkbox-wrapper input[type=\"checkbox\"]:checked + label:before {\n  width: 0;\n  height: 0;\n}\n\n.checkbox-wrapper input[type=\"checkbox\"]:checked + label .tick_mark:before,\n  .checkbox-wrapper input[type=\"checkbox\"]:checked + label .tick_mark:after {\n  transform: translate(0);\n  opacity: 1;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

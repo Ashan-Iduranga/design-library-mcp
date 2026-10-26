@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-javierrocadev-fast-panther-65-6eb42c",
+  "title": "Card by Javierrocadev (fast-panther-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/fast-panther-65",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "list",
+    "blue",
+    "hover",
+    "dark",
+    "hover-effect",
+    "card-hover",
+    "mozilla"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Javierrocadev_fast-panther-65.html",
+  "code": "<div class=\"card\">\n  <span>In this article</span>\n  <div class=\"card__container\">\n   <p class=\"element\">Try it</p> \n   <p class=\"element\">Syntax</p> \n   <p class=\"element active\">Formal definition</p> \n   <p class=\"element\">Formal syntax</p> \n   <p class=\"element\">Examples</p> \n   <p class=\"element\">See also</p> \n  </div>\n</div>\n<style>\n/* From Uiverse.io by Javierrocadev - Tags: list, blue, card, hover, dark, hover effect, card hover, mozilla */\n.card {\n  width: 250px;\n  height: 290px;\n  border-radius: 15px;\n  background: rgb(27, 26, 26);\n  color: white;\n  font-weight: 600;\n  font-size: 1.2em;\n  padding: 15px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  box-shadow: -5px 5px 1px 0px #004d92;\n}\n\n.element {\n  color: grey;\n  font-size: .8em;\n  padding: 6px 15px;\n  border-left: 2px solid grey;\n  cursor: pointer;\n}\n\n.active {\n  background-color: #004d92;\n  border-left: 2px solid #8cb4ff;\n  color: azure;\n}\n\n.element:hover:not(.active) {\n  color: #3775bb;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

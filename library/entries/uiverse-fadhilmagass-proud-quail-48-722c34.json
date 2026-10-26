@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-fadhilmagass-proud-quail-48-722c34",
+  "title": "Button by Fadhilmagass (proud-quail-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Fadhilmagass/proud-quail-48",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Fadhilmagass on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Fadhilmagass_proud-quail-48.html",
+  "code": "<button class=\"space-button\">\n  <span class=\"space-button-text\">Explore Space</span>\n  <svg class=\"space-button-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n    <path fill=\"currentColor\" d=\"M12 0C8.411 0 5.418 2.993 5.418 6.582c0 3.153 2.443 5.792 5.595 6.473v2.526c0 .748.603 1.352 1.352 1.352s1.352-.604 1.352-1.352V13.05c3.152-.68 5.595-3.32 5.595-6.473C18.582 2.993 15.589 0 12 0zm0 9.288a3.706 3.706 0 1 1 0-7.412 3.706 3.706 0 0 1 0 7.412zM7.292 6.582c0-2.129 1.733-3.862 3.862-3.862s3.862 1.733 3.862 3.862c0 2.129-1.733 3.862-3.862 3.862s-3.862-1.733-3.862-3.862z\"></path>\n  </svg>\n</button>\n\n<style>\n/* From Uiverse.io by Fadhilmagass  - Tags: icon, animation, button */\n.space-button {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  padding: 1rem 1.5rem;\n  font-size: 1.25rem;\n  color: #fff;\n  background: -webkit-gradient(linear, left top, right bottom, from(#0a192f), to(#1c3548));\n  background: linear-gradient(to bottom right, #0a192f, #1c3548);\n  border: none;\n  border-radius: 0.5rem;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n}\n\n.space-button:before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n  -ms-transform: translate(-50%, -50%);\n  transform: translate(-50%, -50%);\n  width: 0;\n  height: 0;\n  background-color: rgba(255, 255, 255, 0.2);\n  border-radius: 50%;\n  -webkit-transition: width 0.3s ease, height 0.3s ease;\n  transition: width 0.3s ease, height 0.3s ease;\n}\n\n.space-button:hover:before {\n  width: 500px;\n  height: 500px;\n}\n\n.space-button:hover .space-button-icon {\n  -webkit-transform: rotate(360deg);\n  -ms-transform: rotate(360deg);\n  transform: rotate(360deg);\n}\n\n.space-button:hover {\n  background: -webkit-gradient(linear, left top, right bottom, from(#0b5ed7), to(#1c3548));\n  background: linear-gradient(to bottom right, #0b5ed7, #1c3548);\n}\n\n.space-button:active {\n  background-color: #0642ab;\n}\n\n.space-button-text {\n  margin-right: 0.5rem;\n}\n\n.space-button-icon {\n  width: 1.25rem;\n  height: 1.25rem;\n  fill: currentColor;\n  margin-right: 0.5rem;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

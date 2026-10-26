@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-muhammadhasann-quick-goose-5-a6edd6",
+  "title": "Button by MuhammadHasann (quick-goose-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MuhammadHasann/quick-goose-5",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "complex",
+    "3d",
+    "hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MuhammadHasann on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/MuhammadHasann_quick-goose-5.html",
+  "code": "<div class=\"container-button\">\n  <div class=\"hover bt-1\"></div>\n  <div class=\"hover bt-2\"></div>\n  <div class=\"hover bt-3\"></div>\n  <div class=\"hover bt-4\"></div>\n  <div class=\"hover bt-5\"></div>\n  <div class=\"hover bt-6\"></div>\n  <button></button>\n</div>\n<style>\n/* From Uiverse.io by MuhammadHasann - Tags: complex, 3d, button, hover */\n.container-button {\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr;\n  grid-template-rows: 1fr 1fr;\n  grid-template-areas: \"bt-1 bt-2 bt-3\"\n    \"bt-4 bt-5 bt-6\";\n  position: relative;\n  perspective: 800;\n  padding: 0;\n  width: 135px;\n  height: 47px;\n  transition: all 0.3s ease-in-out;\n}\n\n.container-button:active {\n  transform: scale(0.95);\n}\n\n.hover {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  z-index: 200;\n}\n\n.bt-1 {\n  grid-area: bt-1;\n}\n\n.bt-2 {\n  grid-area: bt-2;\n}\n\n.bt-3 {\n  grid-area: bt-3;\n}\n\n.bt-4 {\n  grid-area: bt-4;\n}\n\n.bt-5 {\n  grid-area: bt-5;\n}\n\n.bt-6 {\n  grid-area: bt-6;\n}\n\n.bt-1:hover ~ button {\n  transform: rotateX(15deg) rotateY(-15deg) rotateZ(0deg);\n  box-shadow: -2px -2px #18181888;\n}\n\n.bt-1:hover ~ button::after {\n  animation: shake 0.5s ease-in-out 0.3s;\n  text-shadow: -2px -2px #18181888;\n}\n\n.bt-3:hover ~ button {\n  transform: rotateX(15deg) rotateY(15deg) rotateZ(0deg);\n  box-shadow: 2px -2px #18181888;\n}\n\n.bt-3:hover ~ button::after {\n  animation: shake 0.5s ease-in-out 0.3s;\n  text-shadow: 2px -2px #18181888;\n}\n\n.bt-4:hover ~ button {\n  transform: rotateX(-15deg) rotateY(-15deg) rotateZ(0deg);\n  box-shadow: -2px 2px #18181888;\n}\n\n.bt-4:hover ~ button::after {\n  animation: shake 0.5s ease-in-out 0.3s;\n  text-shadow: -2px 2px #18181888;\n}\n\n.bt-6:hover ~ button {\n  transform: rotateX(-15deg) rotateY(15deg) rotateZ(0deg);\n  box-shadow: 2px 2px #18181888;\n}\n\n.bt-6:hover ~ button::after {\n  animation: shake 0.5s ease-in-out 0.3s;\n  text-shadow: 2px 2px #18181888;\n}\n\n.hover:hover ~ button::before {\n  background: transparent;\n}\n\n.hover:hover ~ button::after {\n  content: \"Click\";\n  top: -150%;\n  transform: translate(-50%, 0);\n  font-size: 34px;\n  color: #f19c2b;\n}\n\nbutton {\n  position: absolute;\n  padding: 0;\n  width: 135px;\n  height: 47px;\n  background: transparent;\n  font-size: 17px;\n  font-weight: 900;\n  border: 3px solid #f39923;\n  border-radius: 12px;\n  transition: all 0.3s ease-in-out;\n}\n\nbutton::before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 135px;\n  height: 47px;\n  background-color: #f5ae51;\n  border-radius: 12px;\n  transition: all 0.3s ease-in-out;\n  z-index: -1;\n}\n\nbutton::after {\n  content: \"Hover\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 135px;\n  height: 47px;\n  background-color: transparent;\n  font-size: 17px;\n  font-weight: 900;\n  line-height: 47px;\n  color: #ffffff;\n  border: none;\n  border-radius: 12px;\n  transition: all 0.3s ease-in-out;\n  z-index: 2;\n}\n\n@keyframes shake {\n  0% {\n    left: 45%;\n  }\n\n  25% {\n    left: 54%;\n  }\n\n  50% {\n    left: 48%;\n  }\n\n  75% {\n    left: 52%;\n  }\n\n  100% {\n    left: 50%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

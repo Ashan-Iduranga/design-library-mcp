@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-join-join",
+  "title": "Join (group items): Join (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/join/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "join",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Join is a container for grouping multiple items, it can be used to group buttons, inputs, etc. Join applies border radius to the first and last item. Join can be used to create a horizontal or vertical list of items.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/join/+page.md",
+  "code": "<div class=\"join\">\n  <button class=\"btn join-item\">Button</button>\n  <button class=\"btn join-item\">Button</button>\n  <button class=\"btn join-item\">Button</button>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

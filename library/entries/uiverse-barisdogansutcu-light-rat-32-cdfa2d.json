@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-barisdogansutcu-light-rat-32-cdfa2d",
+  "title": "Loader by barisdogansutcu (light-rat-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/barisdogansutcu/light-rat-32",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "spinner"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By barisdogansutcu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/barisdogansutcu_light-rat-32.html",
+  "code": "<svg viewBox=\"25 25 50 50\">\n  <circle r=\"20\" cy=\"50\" cx=\"50\"></circle>\n</svg>\n<style>\n/* From Uiverse.io by barisdogansutcu - Tags: loader, spinner */\nsvg {\n width: 3.25em;\n transform-origin: center;\n animation: rotate4 2s linear infinite;\n}\n\ncircle {\n fill: none;\n stroke: hsl(214, 97%, 59%);\n stroke-width: 2;\n stroke-dasharray: 1, 200;\n stroke-dashoffset: 0;\n stroke-linecap: round;\n animation: dash4 1.5s ease-in-out infinite;\n}\n\n@keyframes rotate4 {\n 100% {\n  transform: rotate(360deg);\n }\n}\n\n@keyframes dash4 {\n 0% {\n  stroke-dasharray: 1, 200;\n  stroke-dashoffset: 0;\n }\n\n 50% {\n  stroke-dasharray: 90, 200;\n  stroke-dashoffset: -35px;\n }\n\n 100% {\n  stroke-dashoffset: -125px;\n }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

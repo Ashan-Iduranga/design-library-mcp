@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-checkbox-colors",
+  "title": "Checkbox: Colors (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/checkbox/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Checkboxes are used to select or deselect a value.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/checkbox/+page.md",
+  "code": "<input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-primary\" />\n<input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-secondary\" />\n<input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-accent\" />\n<input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-neutral\" />\n\n<input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-info\" />\n<input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-success\" />\n<input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-warning\" />\n<input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-error\" />",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

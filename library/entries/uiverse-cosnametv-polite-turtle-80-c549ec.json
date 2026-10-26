@@ -1,0 +1,38 @@
+{
+  "id": "uiverse-cosnametv-polite-turtle-80-c549ec",
+  "title": "Toggle by cosnametv (polite-turtle-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cosnametv/polite-turtle-80",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "material-design",
+    "notification",
+    "switch",
+    "checkbox",
+    "download",
+    "circle",
+    "light&dark",
+    "creative"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cosnametv on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/cosnametv_polite-turtle-80.html",
+  "code": "<label class=\"switch\">\n  <div class=\"toggle-switch\">\n    <input id=\"switch\" type=\"checkbox\" />\n    <label for=\"switch\"></label>\n  </div>\n</label>\n\n<style>\n/* From Uiverse.io by cosnametv  - Tags: material design, notification, switch, checkbox, download, circle, light&dark, creative */\n.toggle-switch {\n  position: relative;\n  width: 80px;\n  height: 40px;\n}\n\n.toggle-switch input {\n  display: none;\n}\n\n.toggle-switch label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: linear-gradient(to right, #2e2e2e, #4a4a4a);\n  border-radius: 20px;\n  cursor: pointer;\n  transition: background 0.3s;\n}\n\n.toggle-switch input:checked + label {\n  background: linear-gradient(to right, #66bb6a, #43a047);\n}\n\n.toggle-switch label:before {\n  content: \"\";\n  position: absolute;\n  height: 36px;\n  width: 36px;\n  left: 2px;\n  bottom: 2px;\n  background-color: #fff;\n  border-radius: 50%;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);\n  transition: transform 0.3s, background 0.3s;\n}\n\n.toggle-switch input:checked + label:before {\n  transform: translateX(40px);\n  background-color: #66bb6a;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

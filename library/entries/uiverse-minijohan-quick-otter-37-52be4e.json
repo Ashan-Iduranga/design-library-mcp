@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-minijohan-quick-otter-37-52be4e",
+  "title": "Loader by MiniJohan (quick-otter-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MiniJohan/quick-otter-37",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "animation",
+    "white"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MiniJohan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/MiniJohan_quick-otter-37.html",
+  "code": "<div class=\"loader\">\n  <li class=\"orb\"></li>\n  <li class=\"orb\"></li>\n  <li class=\"orb\"></li>\n  <li class=\"orb\"></li>\n  <li class=\"orb\"></li>\n  <li class=\"orb\"></li>\n  <li class=\"orb\"></li>\n  <li class=\"orb\"></li>\n  <li class=\"orb\"></li>\n</div>\n\n<style>\n/* From Uiverse.io by MiniJohan  - Tags: simple, animation, white, loader */\n.loader {\n  display: flex;\n  max-width: 350;\n  position: relative;\n  gap: 20px;\n  justify-content: space-evenly;\n  animation: rotate 3s linear infinite;\n  color: white;\n}\n\n.loading {\n}\n\n.orb {\n  width: 25px;\n  height: 25px;\n  background-color: rgb(255, 255, 255);\n  border-radius: 50%;\n  position: absolute;\n}\n\n.orb:nth-child(1) {\n  top: 20px;\n  left: 20px;\n  animation: bounce2 1.5s ease 1s infinite;\n}\n\n.orb:nth-child(2) {\n  top: 20px;\n  right: 20px;\n  animation: bounce2 1.5s ease 1s infinite;\n}\n\n.orb:nth-child(3) {\n  bottom: 20px;\n  left: 20px;\n  animation: bounce2 1.5s ease 1s infinite;\n}\n\n.orb:nth-child(4) {\n  bottom: 20px;\n  right: 20px;\n  animation: bounce2 1.5s ease 1s infinite;\n}\n\n.orb:nth-child(5) {\n  top: 20px;\n  animation: bounce2 1.5s ease 1s infinite;\n}\n\n.orb:nth-child(6) {\n  bottom: 20px;\n  animation: bounce2 1.5s ease 1s infinite;\n}\n\n.orb:nth-child(7) {\n  left: 20px;\n  top: -12.5px;\n  animation: bounce2 1.5s ease 1s infinite;\n}\n\n.orb:nth-child(8) {\n  right: 20px;\n  top: -12.5px;\n  animation: bounce2 1.5s ease 1s infinite;\n}\n\n.orb:nth-child(9) {\n  top: -12.5px;\n  animation: bounce 1.5s ease 1.5s infinite;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(0);\n  }\n\n  25% {\n    transform: rotate(90deg);\n  }\n\n  50% {\n    transform: rotate(180deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes bounce {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(0.5);\n  }\n}\n\n@keyframes bounce2 {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(0.5);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

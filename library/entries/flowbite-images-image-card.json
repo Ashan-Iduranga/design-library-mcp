@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-images-image-card",
+  "title": "Images: Image card (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/typography/images/#image-card",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "image",
+    "images",
+    "typography",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to make the image a card item with a link and a short text description.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/typography/images.md",
+  "code": "<figure class=\"relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0\">\n  <a href=\"#\">\n    <img class=\"rounded-base\" src=\"https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png\" alt=\"image description\">\n  </a>\n  <figcaption class=\"absolute px-4 text-lg text-white bottom-6\">\n      <p>Do you want to get notified when a new component is added to Flowbite?</p>\n  </figcaption>\n</figure>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

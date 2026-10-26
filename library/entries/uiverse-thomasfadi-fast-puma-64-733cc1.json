@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-thomasfadi-fast-puma-64-733cc1",
+  "title": "Card by Thomasfadi (fast-puma-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Thomasfadi/fast-puma-64",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "action",
+    "creative"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Thomasfadi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Thomasfadi_fast-puma-64.html",
+  "code": "<div class=\"container\">\n  <div class=\"card\">\n    <span class=\"logo\"\n      ><svg\n        viewBox=\"0 0 256 83\"\n        height=\"83\"\n        width=\"256\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n      >\n        <defs>\n          <linearGradient\n            y2=\"100%\"\n            y1=\"-2.006%\"\n            x2=\"54.877%\"\n            x1=\"45.974%\"\n            id=\"logosVisa0\"\n          >\n            <stop stop-color=\"#222357\" offset=\"0%\"></stop>\n            <stop stop-color=\"#254AA5\" offset=\"100%\"></stop>\n          </linearGradient>\n        </defs>\n        <path\n          transform=\"matrix(1 0 0 -1 0 82.668)\"\n          d=\"M132.397 56.24c-.146-11.516 10.263-17.942 18.104-21.763c8.056-3.92 10.762-6.434 10.73-9.94c-.06-5.365-6.426-7.733-12.383-7.825c-10.393-.161-16.436 2.806-21.24 5.05l-3.744-17.519c4.82-2.221 13.745-4.158 23-4.243c21.725 0 35.938 10.724 36.015 27.351c.085 21.102-29.188 22.27-28.988 31.702c.069 2.86 2.798 5.912 8.778 6.688c2.96.392 11.131.692 20.395-3.574l3.636 16.95c-4.982 1.814-11.385 3.551-19.357 3.551c-20.448 0-34.83-10.87-34.946-26.428m89.241 24.968c-3.967 0-7.31-2.314-8.802-5.865L181.803 1.245h21.709l4.32 11.939h26.528l2.506-11.939H256l-16.697 79.963h-17.665m3.037-21.601l6.265-30.027h-17.158l10.893 30.027m-118.599 21.6L88.964 1.246h20.687l17.104 79.963h-20.679m-30.603 0L53.941 26.782l-8.71 46.277c-1.022 5.166-5.058 8.149-9.54 8.149H.493L0 78.886c7.226-1.568 15.436-4.097 20.41-6.803c3.044-1.653 3.912-3.098 4.912-7.026L41.819 1.245H63.68l33.516 79.963H75.473\"\n          fill=\"url(#logosVisa0)\"\n        ></path></svg\n    ></span>\n\n    <span class=\"number\">\n      <div class=\"wave-group\">\n        <span class=\"label-char\" style=\"--index: 0\">card</span>\n        <span class=\"label-char\" style=\"--index: 1\">number</span>\n        <input required=\"\" type=\"text\" class=\"input\" />\n        <span class=\"bar\"></span>\n        <label class=\"label\">\n          <br />\n        </label>\n      </div>\n    </span>\n    <span class=\"owner\">Thomas.F</span>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Thomasfadi  - Tags: action, card, creative */\n.logo svg {\n  height: 48px;\n  width: 54px;\n}\n\n::selection {\n  background-color: rgba(0, 0, 0, 0);\n}\n\n.container {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n\n.card {\n  background: radial-gradient(circle, white 0%, #d5d5d5 100%);\n  width: 300px;\n  height: 200px;\n  border-radius: 20px;\n  position: relative;\n  box-shadow: 3px 3px 17px 0px rgba(0, 0, 0, 0.55);\n}\n\n.card .remove,\n.card .logo {\n  position: absolute;\n  display: inline-block;\n  cursor: pointer;\n}\n\n.card .remove {\n  top: 30px;\n  right: 30px;\n  opacity: 0.9;\n  color: black;\n}\n\n.card .remove:hover {\n  color: #f06b5d;\n}\n\n.card .logo {\n  top: 20px;\n  left: 30px;\n  font-size: 3em;\n  opacity: 1;\n}\n\n.card .number,\n.card .owner {\n  display: block;\n  position: absolute;\n  left: 30px;\n  cursor: default;\n  color: black;\n  opacity: 0.9;\n  transition: color 0.7s ease-out;\n}\n\n.card .number {\n  bottom: 60px;\n  letter-spacing: 4px;\n}\n\n.card .owner {\n  bottom: 30px;\n  letter-spacing: 1px;\n}\n.wave-group {\n  position: relative;\n}\n\n.wave-group .input {\n  font-size: 16px;\n  padding: 10px 10px 10px 5px;\n  display: block;\n  width: 200px;\n  border: none;\n  border-bottom: 1px solid #515151;\n  background: transparent;\n}\n\n.wave-group .input:focus {\n  outline: none;\n}\n\n.wave-group .label {\n  color: #999;\n  font-size: 18px;\n  font-weight: normal;\n  position: absolute;\n  pointer-events: none;\n  left: 5px;\n  top: 10px;\n  display: flex;\n}\n\n.wave-group .label-char {\n  transition: 0.2s ease all;\n  transition-delay: calc(var(--index) * 0.05s);\n}\n\n.wave-group .input:focus ~ label .label-char,\n.wave-group .input:valid ~ label .label-char {\n  transform: translateY(-20px);\n  font-size: 14px;\n  color: #6e7fc1;\n}\n\n.wave-group .bar {\n  position: relative;\n  display: block;\n  width: 200px;\n}\n\n.wave-group .bar:before,\n.wave-group .bar:after {\n  content: \"\";\n  height: 2px;\n  width: 0;\n  bottom: 1px;\n  position: absolute;\n  background: #0727a6;\n  transition: 0.2s ease all;\n  -moz-transition: 0.2s ease all;\n  -webkit-transition: 0.2s ease all;\n}\n\n.wave-group .bar:before {\n  left: 50%;\n}\n\n.wave-group .bar:after {\n  right: 50%;\n}\n\n.wave-group .input:focus ~ .bar:before,\n.wave-group .input:focus ~ .bar:after {\n  width: 50%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

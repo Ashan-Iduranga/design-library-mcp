@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-smit-prajapati-soft-donkey-32-4f37b9",
+  "title": "Loader by Smit-Prajapati (soft-donkey-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Smit-Prajapati/soft-donkey-32",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "blue",
+    "light",
+    "neon"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Smit-Prajapati on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Smit-Prajapati_soft-donkey-32.html",
+  "code": "<div class=\"loader\">\n  <div class=\"light\"></div>\n  <div class=\"black_overlay\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by Smit-Prajapati  - Tags: blue, loader, light, neon */\n.loader {\n  height: 2px;\n  width: 300px;\n  background: rgb(44, 44, 44);\n  position: relative;\n  overflow: hidden;\n}\n.loader .black_overlay {\n  background: linear-gradient(\n    87deg,\n    rgb(0, 0, 0) 0%,\n    rgba(0, 0, 0, 0.14) 30%,\n    rgba(0, 0, 0, 0.14) 70%,\n    rgb(0, 0, 0) 100%\n  );\n  position: absolute;\n  inset: 0px;\n}\n.loader .light {\n  width: 70px;\n  height: 100%;\n  position: absolute;\n  left: -20%;\n  top: 0px;\n  background: linear-gradient(\n    87deg,\n    rgba(0, 0, 0, 0) 0%,\n    rgb(0, 204, 255) 40%,\n    rgb(0, 204, 255) 60%,\n    rgba(0, 0, 0, 0) 100%\n  );\n  animation: light 2s infinite ease-in-out;\n}\n\n@keyframes light {\n  from {\n    left: -30%;\n  }\n  to {\n    left: 100%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

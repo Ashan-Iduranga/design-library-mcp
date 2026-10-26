@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-aspect-ratio-demo",
+  "title": "Aspect Ratio Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/aspect-ratio-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "aspect",
+    "ratio",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Displays content within a desired ratio.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/aspect-ratio-demo.tsx",
+  "code": "import Image from \"next/image\"\n\nimport { AspectRatio } from \"@/registry/new-york-v4/ui/aspect-ratio\"\n\nexport default function AspectRatioDemo() {\n  return (\n    <AspectRatio ratio={16 / 9} className=\"rounded-lg bg-muted\">\n      <Image\n        src=\"https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=800&dpr=2&q=80\"\n        alt=\"Photo by Drew Beamer\"\n        fill\n        className=\"h-full w-full rounded-lg object-cover dark:brightness-[0.2] dark:grayscale\"\n      />\n    </AspectRatio>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-ratinax-massive-tiger-88-3de069",
+  "title": "Button by Ratinax (massive-tiger-88)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Ratinax/massive-tiger-88",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "red",
+    "active"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Ratinax on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Ratinax_massive-tiger-88.html",
+  "code": "<div class=\"container\">\n  <button class=\"button\">\n    Button\n  </button>\n</div>\n<style>\n/* From Uiverse.io by Ratinax - Tags: simple, red, button, active */\n.container {\n  position: relative;\n  width: 4.5em;\n  height: 4em;\n  background-color: red;\n  overflow: hidden;\n  border-radius: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  scale: 2;\n  box-shadow: 0 .5em #AA1111;\n}\n\n.button {\n  cursor: pointer;\n  position: absolute;\n  text-transform: uppercase;\n  height: 110%;\n  width: 110%;\n  background-color: red;\n  color: white;\n  text-shadow: 0 0.1em 0.1em black;\n}\n\n.container:has(.button:active) {\n  box-shadow: none;\n  margin-top: 2em;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

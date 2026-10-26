@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-checkbox-disabled",
+  "title": "Checkbox Disabled (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/checkbox-disabled.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "checkbox",
+    "disabled",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A control that allows the user to toggle between checked and not checked.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/checkbox-disabled.tsx",
+  "code": "import { Checkbox } from \"@/registry/new-york-v4/ui/checkbox\"\n\nexport default function CheckboxDisabled() {\n  return (\n    <div className=\"flex items-center space-x-2\">\n      <Checkbox id=\"terms2\" disabled />\n      <label\n        htmlFor=\"terms2\"\n        className=\"text-sm leading-none font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70\"\n      >\n        Accept terms and conditions\n      </label>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

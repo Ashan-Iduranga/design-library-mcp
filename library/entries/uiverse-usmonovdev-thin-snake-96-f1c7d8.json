@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-usmonovdev-thin-snake-96-f1c7d8",
+  "title": "Loader by usmonovdev (thin-snake-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/usmonovdev/thin-snake-96",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By usmonovdev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/usmonovdev_thin-snake-96.html",
+  "code": "<div class=\"spinner\">\n<div></div>\n<div></div>\n</div>\n<style>\n/* From Uiverse.io by usmonovdev - Tags: loader */\n.spinner {\n position: relative;\n width: 56px;\n height: 56px;\n}\n\n.spinner > div {\n width: 100%;\n height: 100%;\n border-radius: 50%;\n border: 13px solid rgba(181, 126, 16, 0.196);\n position: absolute;\n top: 0;\n left: 0;\n animation: spinner-g7vlvwmd 0.65s linear infinite;\n z-index: 0;\n}\n\n.spinner > div::before {\n content: '';\n height: 13px;\n width: 13px;\n border-radius: 50%;\n background: #ff8a23;\n position: absolute;\n top: 50%;\n animation: spinner-h1vps1md 1.3s infinite reverse steps(1);\n transform: translate(calc(2 * var(--translate-2)), calc(var(--translate) * 1%));\n z-index: 1;\n}\n\n.spinner > div:nth-of-type(1) {\n --translate: -50;\n --translate-2: calc(56px / 8);\n}\n\n.spinner > div:nth-of-type(1)::before {\n right: 0;\n}\n\n.spinner > div:nth-of-type(2) {\n --translate: 50;\n --translate-2: calc(-56px / 8);\n animation-delay: 0.65s;\n animation-direction: reverse;\n transform: translate(21.5px, 0);\n}\n\n.spinner > div:nth-of-type(2)::before {\n left: 0;\n transform: translate(calc(-56px / 4), -50%);\n animation-direction: normal;\n}\n\n@keyframes spinner-h1vps1md {\n 0% {\n  opacity: 0;\n }\n\n 50% {\n  opacity: 1;\n }\n}\n\n@keyframes spinner-g7vlvwmd {\n from {\n  transform: translate(calc(var(--translate) * 1%), 0) translate(calc(var(--translate-2)), 0) rotate(0deg);\n }\n\n to {\n  transform: translate(calc(var(--translate) * 1%), 0) translate(calc(var(--translate-2)), 0) rotate(360deg);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

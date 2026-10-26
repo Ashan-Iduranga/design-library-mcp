@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-reshades-average-horse-80-2ea8ba",
+  "title": "Checkbox by reshades (average-horse-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/reshades/average-horse-80",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "clean"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By reshades on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/reshades_average-horse-80.html",
+  "code": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\">\n    <div class=\"checkmark2\"></div>\n  </div>\n</label>\n<style>\n/* From Uiverse.io by reshades - Tags: checkbox, clean */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n}\n\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  background-color: #ffffff00;\n  border-radius: 5px;\n  border: #fff 1px solid;\n  transition: all 0.2s;\n}\n\n.checkmark2 {\n  position: relative;\n  top: 0.12em;\n  left: 0.12em;\n  height: 1.0em;\n  width: 1.0em;\n  background-color: #ffffff00;\n  border-radius: 111px;\n  border: #fff 1px solid;\n  transition: all 0.2s;\n}\n\n.container input:checked ~ .checkmark {\n  background-color: #4346ff;\n  border: #4346ff 1px solid\n}\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

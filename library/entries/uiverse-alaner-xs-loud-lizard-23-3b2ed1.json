@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-alaner-xs-loud-lizard-23-3b2ed1",
+  "title": "Loader by Alaner-xs (loud-lizard-23)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Alaner-xs/loud-lizard-23",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Alaner-xs on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Alaner-xs_loud-lizard-23.html",
+  "code": "<div class=\"shake\">\n<div class=\"loader\"></div>\n</div>\n<style>\n/* From Uiverse.io by Alaner-xs - Tags: loader */\n.loader {\n --border-width: 10px;\n --size: 60px;\n border: var(--border-width) solid #f3f3f3;\n border-radius: 50%;\n border-top: var(--border-width) solid #1bbeff;\n border-bottom: var(--border-width) solid #1bbeff;\n border-left: var(--border-width) solid #147ec5;\n border-right: var(--border-width) solid #147ec5;\n width: var(--size);\n height: var(--size);\n animation: spin35112 2s linear infinite;\n}\n\n@keyframes spin35112 {\n 0% {\n  transform: rotate(0deg);\n }\n\n 100% {\n  transform: rotate(360deg);\n }\n}\n\n.shake {\n animation: shake61790 1s linear infinite;\n}\n\n@keyframes shake61790 {\n 0% {\n  transform: skewX(0deg);\n }\n\n 50% {\n  transform: skewX(20deg);\n }\n\n 100% {\n  transform: skewX(0deg);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

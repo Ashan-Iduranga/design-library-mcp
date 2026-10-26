@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vinodjangid07-horrible-husky-70-214c86",
+  "title": "Button by vinodjangid07 (horrible-husky-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/horrible-husky-70",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "jelly",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_horrible-husky-70.html",
+  "code": "<button class=\"Btn\">\n  Jelly Button\n</button>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: button, jelly, hover effect */\n.Btn {\n  position: relative;\n  width: 150px;\n  height: 55px;\n  border-radius: 45px;\n  border: none;\n  background-color: rgb(151, 95, 255);\n  color: white;\n  box-shadow: 0px 10px 10px rgb(210, 187, 253) inset,\n  0px 5px 10px rgba(5, 5, 5, 0.212),\n  0px -10px 10px rgb(124, 54, 255) inset;\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.Btn::before {\n  width: 70%;\n  height: 2px;\n  position: absolute;\n  background-color: rgba(250, 250, 250, 0.678);\n  content: \"\";\n  filter: blur(1px);\n  top: 7px;\n  border-radius: 50%;\n}\n\n.Btn::after {\n  width: 70%;\n  height: 2px;\n  position: absolute;\n  background-color: rgba(250, 250, 250, 0.137);\n  content: \"\";\n  filter: blur(1px);\n  bottom: 7px;\n  border-radius: 50%;\n}\n\n.Btn:hover {\n  animation: jello-horizontal 0.9s both;\n}\n\n@keyframes jello-horizontal {\n  0% {\n    transform: scale3d(1, 1, 1);\n  }\n\n  30% {\n    transform: scale3d(1.25, 0.75, 1);\n  }\n\n  40% {\n    transform: scale3d(0.75, 1.25, 1);\n  }\n\n  50% {\n    transform: scale3d(1.15, 0.85, 1);\n  }\n\n  65% {\n    transform: scale3d(0.95, 1.05, 1);\n  }\n\n  75% {\n    transform: scale3d(1.05, 0.95, 1);\n  }\n\n  100% {\n    transform: scale3d(1, 1, 1);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

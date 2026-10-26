@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jaydipprajapati1910-average-shrimp-57-a3f1c2",
+  "title": "Toggle by JaydipPrajapati1910 (average-shrimp-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/average-shrimp-57",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "toggle-switch",
+    "light-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/JaydipPrajapati1910_average-shrimp-57.html",
+  "code": "<div class=\"fx-block\">\n\t<div class=\"toggle\">\n\t\t<div>\n\t\t\t<input type=\"checkbox\" id=\"toggles\">\n\t\t\t<div data-unchecked=\"On\" data-checked=\"Off\">\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n\n\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: switch, toggle switch, light switch */\n.toggle > div {\n  position: relative;\n  padding: 10px;\n  width: 150px;\n  height: 75px;\n  border-radius: 50px;\n  box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, .5), 0px 1px 1px 0 rgba(255, 255, 255, 1);\n  background: rgb(189, 191, 193);\n  background: linear-gradient(to bottom, rgba(189, 191, 193, 1) 0%, rgba(249, 251, 254, 1) 100%);\n}\n\n.toggle > div > input[type=checkbox] {\n  position: absolute;\n  opacity: 0;\n  top: -3px;\n  left: 17px;\n  width: 130px;\n  height: 55px;\n  z-index: 5;\n}\n\n.toggle > div > input[type=checkbox] ~ div {\n  width: 130px;\n  height: 55px;\n  border-radius: 50px;\n  border: 1px solid #979797;\n  box-shadow: inset 5px 0 0 0 rgba(0, 0, 0, .1), inset -5px 0 0 0 rgba(0, 0, 0, .1), inset -6px 0 0 0 rgba(255, 255, 255, .5), inset -4px 6px 11px -5px rgba(0, 0, 0, .2), inset 1px 1px 0 0 rgba(255, 255, 255, 1), -6px 4px 11px -7px rgba(0, 0, 0, .5);\n  background: rgb(253, 252, 251);\n  background: linear-gradient(to right, rgba(253, 252, 251, 1) 37%, rgba(229, 229, 229, 1) 61%);\n}\n\n.toggle > div > input[type=checkbox]:checked ~ div {\n  box-shadow: inset -5px 0 0 0 rgba(0, 0, 0, .1), inset 5px 0 0 0 rgba(0, 0, 0, .1), inset 6px 0 0 0 rgba(255, 255, 255, .5), inset -4px 6px 11px -5px rgba(0, 0, 0, .2), inset 1px 1px 0 0 rgba(255, 255, 255, 1), -6px 4px 11px -7px rgba(0, 0, 0, .5);\n  background: rgb(229, 229, 229);\n  background: linear-gradient(to right, rgba(229, 229, 229, 1) 39%, rgba(253, 252, 251, 1) 63%);\n}\n\n.toggle > div > input[type=checkbox] ~ div:before {\n  content: attr(data-unchecked);\n  display: block;\n  position: absolute;\n  border-radius: 10px;\n  top: 27px;\n  left: 30px;\n}\n\n.toggle > div > input[type=checkbox] ~ div:after {\n  content: attr(data-checked);\n  color: #df0000;\n  text-shadow: 0 1px 0 #fff, 0px 0 7px #df0000;\n  filter: dropshadow(color=#df0000, offx=0, offy=0);\n  display: block;\n  position: absolute;\n  border-radius: 10px;\n  top: 27px;\n  left: 100px;\n}\n\n.toggle > div > input[type=checkbox]:checked ~ div:before {\n  color: #119400;\n  text-shadow: 0 1px 0 #fff, 0px 0 7px #007a08;\n  filter: dropshadow(color=#007a08, offx=0, offy=0);\n}\n\n.toggle > div > input[type=checkbox]:checked ~ div:after {\n  color: #000;\n  text-shadow: none;\n  filter: dropshadow(none);\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-vinodjangid07-new-emu-14-b7603c",
+  "title": "Button by vinodjangid07 (new-emu-14)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/new-emu-14",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "animation",
+    "blue",
+    "gradient",
+    "next",
+    "hover-effect",
+    "skip"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_new-emu-14.html",
+  "code": "<button class=\"Btn\">\n  SKIP\n  <svg viewBox=\"0 0 320 512\" class=\"svg\">\n    <path\n      d=\"M52.5 440.6c-9.5 7.9-22.8 9.7-34.1 4.4S0 428.4 0 416V96C0 83.6 7.2 72.3 18.4 67s24.5-3.6 34.1 4.4l192 160L256 241V96c0-17.7 14.3-32 32-32s32 14.3 32 32V416c0 17.7-14.3 32-32 32s-32-14.3-32-32V271l-11.5 9.6-192 160z\"\n    ></path>\n  </svg>\n</button>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: icon, animation, blue, gradient, button, next, hover effect, skip */\n.Btn {\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  width: 100px;\n  height: 40px;\n  border: none;\n  padding: 0px 20px;\n  background: linear-gradient(to right, #8be3fc, #576bff);\n  color: white;\n  font-size: 16px;\n  font-weight: 600;\n  cursor: pointer;\n  border-radius: 12px;\n  box-shadow: 0 20px 30px -7px rgba(97, 118, 238, 0.5);\n  transition-duration: 0.3s;\n}\n\n.svg {\n  width: 12px;\n  position: absolute;\n  right: 0;\n  margin-right: 20px;\n  fill: white;\n  transition-duration: 0.3s;\n}\n\n.Btn:hover {\n  color: transparent;\n}\n\n.Btn:hover svg {\n  right: 43%;\n  margin: 0;\n  padding: 0;\n  border: none;\n  transition-duration: 0.3s;\n}\n\n.Btn:active {\n  transform: translate(3px, 3px);\n  transition-duration: 0.3s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

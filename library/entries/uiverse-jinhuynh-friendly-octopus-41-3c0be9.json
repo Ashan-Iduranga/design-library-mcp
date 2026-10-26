@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jinhuynh-friendly-octopus-41-3c0be9",
+  "title": "Card by JinHuynh (friendly-octopus-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JinHuynh/friendly-octopus-41",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "hover-effect",
+    "cardhover",
+    "card-hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JinHuynh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/JinHuynh_friendly-octopus-41.html",
+  "code": "<a class=\"card education\" href=\"#\">\n  <div class=\"overlay\"></div>\n  <div class=\"circle\">\n    <svg\n      xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      version=\"1.1\"\n      viewBox=\"29 14 71 76\"\n      height=\"76px\"\n      width=\"71px\"\n    >\n      <desc>Created with Sketch.</desc>\n      <defs></defs>\n      <g\n        transform=\"translate(30.000000, 14.000000)\"\n        fill-rule=\"evenodd\"\n        fill=\"none\"\n        stroke-width=\"1\"\n        stroke=\"none\"\n        id=\"Group\"\n      >\n        <g fill=\"#D98A19\" id=\"Group-8\">\n          <g id=\"Group-7\">\n            <g id=\"Group-6\">\n              <path\n                id=\"Fill-1\"\n                d=\"M0,0 L0,75.9204805 L69.1511499,75.9204805 L0,0 Z M14.0563973,32.2825679 L42.9457663,63.9991501 L14.2315268,63.9991501 L14.0563973,32.2825679 Z\"\n              ></path>\n            </g>\n          </g>\n        </g>\n        <g\n          stroke-linecap=\"square\"\n          stroke=\"#FFFFFF\"\n          transform=\"translate(0.000000, 14.114286)\"\n          id=\"Group-20\"\n        >\n          <path\n            id=\"Line\"\n            d=\"M0.419998734,54.9642857 L4.70316223,54.9642857\"\n          ></path>\n          <path\n            id=\"Line\"\n            d=\"M0.419998734,50.4404762 L4.70316223,50.4404762\"\n          ></path>\n          <path\n            id=\"Line\"\n            d=\"M0.419998734,45.9166667 L4.70316223,45.9166667\"\n          ></path>\n          <path\n            id=\"Line\"\n            d=\"M0.419998734,41.3928571 L2.93999114,41.3928571\"\n          ></path>\n          <path\n            id=\"Line\"\n            d=\"M0.419998734,36.8690476 L4.70316223,36.8690476\"\n          ></path>\n          <path\n            id=\"Line\"\n            d=\"M0.419998734,32.3452381 L4.70316223,32.3452381\"\n          ></path>\n          <path\n            id=\"Line\"\n            d=\"M0.419998734,27.8214286 L4.70316223,27.8214286\"\n          ></path>\n          <path\n            id=\"Line\"\n            d=\"M0.419998734,23.297619 L2.93999114,23.297619\"\n          ></path>\n          <path\n            id=\"Line\"\n            d=\"M0.419998734,18.7738095 L4.70316223,18.7738095\"\n          ></path>\n          <path id=\"Line\" d=\"M0.419998734,14.25 L4.70316223,14.25\"></path>\n          <path\n            id=\"Line\"\n            d=\"M0.419998734,9.72619048 L4.70316223,9.72619048\"\n          ></path>\n          <path\n            id=\"Line\"\n            d=\"M0.419998734,5.20238095 L2.93999114,5.20238095\"\n          ></path>\n          <path\n            id=\"Line\"\n            d=\"M0.419998734,0.678571429 L4.70316223,0.678571429\"\n          ></path>\n        </g>\n      </g>\n    </svg>\n  </div>\n  <p>Education</p>\n</a>\n\n<style>\n/* From Uiverse.io by JinHuynh  - Tags: card, hover effect, cardhover , card hover */\n.education {\n  --bg-color: #ffd861;\n  --bg-color-light: #ffeeba;\n  --text-color-hover: #4c5656;\n  --box-shadow-color: rgba(255, 215, 97, 0.48);\n}\n\n.credentialing {\n  --bg-color: #b8f9d3;\n  --bg-color-light: #e2fced;\n  --text-color-hover: #4c5656;\n  --box-shadow-color: rgba(184, 249, 211, 0.48);\n}\n\n.wallet {\n  --bg-color: #ceb2fc;\n  --bg-color-light: #f0e7ff;\n  --text-color-hover: #fff;\n  --box-shadow-color: rgba(206, 178, 252, 0.48);\n}\n\n.human-resources {\n  --bg-color: #dce9ff;\n  --bg-color-light: #f1f7ff;\n  --text-color-hover: #4c5656;\n  --box-shadow-color: rgba(220, 233, 255, 0.48);\n}\n\n.card {\n  width: 220px;\n  height: 321px;\n  background: #fff;\n  border-top-right-radius: 10px;\n  overflow: hidden;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);\n  transition: all 0.3s ease-out;\n  text-decoration: none;\n}\n\n.card:hover {\n  transform: translateY(-5px) scale(1.005) translateZ(0);\n  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),\n    0 24px 46px var(--box-shadow-color);\n}\n\n.card:hover .overlay {\n  transform: scale(4) translateZ(0);\n}\n\n.card:hover .circle {\n  border-color: var(--bg-color-light);\n  background: var(--bg-color);\n}\n\n.card:hover .circle:after {\n  background: var(--bg-color-light);\n}\n\n.card:hover p {\n  color: var(--text-color-hover);\n}\n\n.card:active {\n  transform: scale(1) translateZ(0);\n  box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),\n    0 15px 24px var(--box-shadow-color);\n}\n\n.card p {\n  font-size: 17px;\n  color: #4c5656;\n  margin-top: 30px;\n  z-index: 1000;\n  transition: color 0.3s ease-out;\n}\n\n.circle {\n  width: 136px;\n  height: 136px;\n  border-radius: 50%;\n  background: #fff;\n  border: 2px solid var(--bg-color);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  z-index: 1;\n  transition: all 0.3s ease-out;\n}\n\n.circle:after {\n  content: \"\";\n  width: 118px;\n  height: 118px;\n  display: block;\n  position: absolute;\n  background: var(--bg-color);\n  border-radius: 50%;\n  top: 7px;\n  left: 7px;\n  transition: opacity 0.3s ease-out;\n}\n\n.circle svg {\n  z-index: 10000;\n  transform: translateZ(0);\n}\n\n.overlay {\n  width: 118px;\n  position: absolute;\n  height: 118px;\n  border-radius: 50%;\n  background: var(--bg-color);\n  top: 70px;\n  left: 50px;\n  z-index: 0;\n  transition: transform 0.3s ease-out;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

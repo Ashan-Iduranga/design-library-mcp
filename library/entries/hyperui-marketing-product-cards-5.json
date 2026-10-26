@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-marketing-product-cards-5",
+  "title": "Product Cards: Product with image, title, price and variant options",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/product-cards",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "marketing",
+    "product-cards",
+    "hyperui",
+    "card",
+    "ecommerce"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/product-cards/5.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<a class=\"group block\" href=\"#\">\n<img alt=\"\" class=\"h-87.5 w-full object-cover sm:h-112.5\" src=\"https://images.unsplash.com/photo-1592921870789-04563d55041c?auto=format&amp;fit=crop&amp;q=80&amp;w=1160\"/>\n<div class=\"mt-1.5\">\n<p class=\"text-xs text-gray-500\">Space Grey</p>\n<div class=\"mt-1.5 flex gap-1\">\n<form>\n<fieldset>\n<legend class=\"sr-only\">Color</legend>\n</fieldset>\n<div class=\"flex flex-wrap justify-center gap-1\">\n<div>\n<input class=\"sr-only\" id=\"ColorSg\" type=\"checkbox\"/>\n<label class=\"block size-4 cursor-pointer rounded-full bg-[#595759]\" for=\"ColorSg\">\n<span class=\"sr-only\"> Space Gray </span>\n</label>\n</div>\n<div>\n<input class=\"sr-only\" id=\"ColorS\" type=\"checkbox\"/>\n<label class=\"block size-4 cursor-pointer rounded-full bg-[#d2d3d4]\" for=\"ColorS\">\n<span class=\"sr-only\"> Silver </span>\n</label>\n</div>\n<div>\n<input class=\"sr-only\" id=\"ColorP\" type=\"checkbox\"/>\n<label class=\"block size-4 cursor-pointer rounded-full bg-[#d89f97]\" for=\"ColorP\">\n<span class=\"sr-only\"> Pink </span>\n</label>\n</div>\n<div>\n<input class=\"sr-only\" id=\"ColorG\" type=\"checkbox\"/>\n<label class=\"block size-4 cursor-pointer rounded-full bg-[#afbfab]\" for=\"ColorG\">\n<span class=\"sr-only\"> Pink </span>\n</label>\n</div>\n<div>\n<input class=\"sr-only\" id=\"ColorSb\" type=\"checkbox\"/>\n<label class=\"block size-4 cursor-pointer rounded-full bg-[#91a5bb]\" for=\"ColorSb\">\n<span class=\"sr-only\"> Pink </span>\n</label>\n</div>\n</div>\n</form>\n</div>\n<div class=\"mt-3 flex justify-between text-sm\">\n<h3 class=\"text-gray-900 group-hover:underline group-hover:underline-offset-4\">\n            Small Headphones\n          </h3>\n<p class=\"text-gray-900\">$299</p>\n</div>\n</div>\n</a>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

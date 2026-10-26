@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-andrew-demchenk0-purple-bird-74-3ef00a",
+  "title": "Form by andrew-demchenk0 (purple-bird-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/purple-bird-74",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "order"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/andrew-demchenk0_purple-bird-74.html",
+  "code": "<section class=\"section_form\">\n  <form id=\"consultation-form\" class=\"feed-form\" action=\"#\">\n    <input required=\"\" placeholder=\"Name\" type=\"text\">\n    <input name=\"phone\" required=\"\" placeholder=\"Phone number\">\n    <input name=\"email\" required=\"\" placeholder=\"E-mail\" type=\"email\">\n    <button class=\"button_submit\">ORDER</button>\n  </form>\n</section>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: order, form */\n.feed-form {\n  margin-top: 36px;\n  display: flex;\n  flex-direction: column;\n  width: 300px;\n}\n\n.feed-form input {\n  height: 54px;\n  border-radius: 5px;\n  background: white;\n  margin-bottom: 15px;\n  border: none;\n  padding: 0 20px;\n  font-weight: 300;\n  font-size: 14px;\n  color: #4B4B4B;\n}\n\n.button_submit:hover, .feed-form input:hover {\n  transform: scale(1.009);\n  box-shadow: 0px 0px 3px 0px #212529;\n}\n\n.button_submit {\n  width: 100%;\n  height: 54px;\n  font-size: 14px;\n  color: white;\n  background: red;\n  border-radius: 5px;\n  border: none;\n  font-weight: 500;\n  text-transform: uppercase;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

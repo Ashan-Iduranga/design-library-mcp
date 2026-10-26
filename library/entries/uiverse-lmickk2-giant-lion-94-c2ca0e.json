@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-lmickk2-giant-lion-94-c2ca0e",
+  "title": "Loader by Lmickk2 (giant-lion-94)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Lmickk2/giant-lion-94",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "light",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Lmickk2 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Lmickk2_giant-lion-94.html",
+  "code": "<div class=\"loader\">\n  <div class=\"box-load1\"></div>\n  <div class=\"box-load2\"></div>\n  <div class=\"box-load3\"></div>\n</div>\n<style>\n/* From Uiverse.io by Lmickk2 - Tags: loader, light, animated */\n.loader {\n  display: flex;\n  transition: all 0.4s;\n}\n\n.loader div {\n  margin-left: 0.8rem;\n  background-color: transparent;\n  box-shadow: 0px 2px 2px black;\n  border-radius: 3em;\n  height: 1rem;\n  width: 2rem;\n}\n\n.box-load1 {\n  animation: brighten 1.5s infinite;\n}\n\n.box-load2 {\n  animation: brighten 1.5s infinite;\n  animation-delay: .3s;\n}\n\n.box-load3 {\n  animation: brighten 1.5s infinite;\n  animation-delay: .6s;\n}\n\n@keyframes brighten {\n  100% {\n    background-color: black;\n    box-shadow: none;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

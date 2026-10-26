@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-yaya12085-curvy-otter-58-85604a",
+  "title": "Card by Yaya12085 (curvy-otter-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/curvy-otter-58",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "animation",
+    "loading",
+    "placeholder"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Yaya12085_curvy-otter-58.html",
+  "code": "<div class=\"card\">\n    <div class=\"card-1\">\n    </div>\n    <div class=\"right\">\n            <div class=\"card-2\">\n            </div>\n            <div class=\"card-3\">\n            </div>\n            <div class=\"card-3\">\n            </div>\n            <div class=\"card-3\">\n            </div>\n            <div class=\"card-3\">\n        </div>\n        <div class=\"bottom\">\n            <div class=\"card-4\">\n            </div>\n            <div class=\"card-4\">\n            </div>\n            <div class=\"card-4\">\n            </div>\n        </div>\n    </div>\n</div>\n\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: animation, loading, card, placeholder */\n.card {\n  --gray: rgba(229, 231, 235, 1);\n  width: 350px;\n  height: 13rem;\n  display: flex;\n  grid-gap: 1.25rem;\n  gap: 1.25rem;\n  border-radius: 1rem;\n  background-color: rgba(255, 255, 255, 1);\n  padding: 1.5rem;\n}\n\n.card-1 {\n  width: 40%;\n  border-radius: 0.75rem;\n  background-color: var(--gray);\n  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) alternate-reverse infinite;\n}\n\n.right {\n  display: flex;\n  flex: 1 1 0%;\n  flex-direction: column;\n  grid-gap: 1.25rem;\n  gap: 1.25rem;\n}\n\n.card-2 {\n  height: 3.5rem;\n  width: 100%;\n  border-radius: 1rem;\n  background-color: var(--gray);\n  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) alternate-reverse infinite;\n}\n\n.card-3 {\n  height: 0.75rem;\n  width: 100%;\n  border-radius: 1rem;\n  background-color: var(--gray);\n  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) alternate-reverse infinite;\n}\n\n.bottom {\n  margin-top: auto;\n  display: flex;\n  grid-gap: 0.75rem;\n  gap: 0.75rem;\n}\n\n.card-4 {\n  height: 2rem;\n  width: 33%;\n  border-radius: 9999px;\n  background-color: var(--gray);\n  animation: pulse 1s cubic-bezier(0.4, 0, 0.6, 1) alternate-reverse infinite;\n}\n\n@keyframes pulse {\n  to {\n    opacity: .2;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

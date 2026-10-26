@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-cssbuttons-io-wonderful-baboon-62-3b3349",
+  "title": "Button by cssbuttons-io (wonderful-baboon-62)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cssbuttons-io/wonderful-baboon-62",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cssbuttons-io on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/cssbuttons-io_wonderful-baboon-62.html",
+  "code": "<button>\n  <span class=\"text\">Button</span>\n</button>\n<style>\n/* From Uiverse.io by cssbuttons-io - Tags: gradient, button */\nbutton {\n align-items: center;\n background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);\n border: 0;\n border-radius: 8px;\n box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;\n box-sizing: border-box;\n color: #FFFFFF;\n display: flex;\n font-family: Phantomsans, sans-serif;\n font-size: 18px;\n justify-content: center;\n line-height: 1em;\n max-width: 100%;\n min-width: 140px;\n padding: 3px;\n text-decoration: none;\n user-select: none;\n -webkit-user-select: none;\n touch-action: manipulation;\n white-space: nowrap;\n cursor: pointer;\n transition: all .3s;\n}\n\nbutton:active,\nbutton:hover {\n outline: 0;\n}\n\nbutton span {\n background-color: rgb(5, 6, 45);\n padding: 16px 24px;\n border-radius: 6px;\n width: 100%;\n height: 100%;\n transition: 300ms;\n}\n\nbutton:hover span {\n background: none;\n}\n\nbutton:active {\n transform: scale(0.9);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

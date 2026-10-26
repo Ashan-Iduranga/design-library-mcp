@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-catraco-wet-quail-86-b8cca3",
+  "title": "Input by catraco (wet-quail-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/catraco/wet-quail-86",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "dark",
+    "advanced",
+    "input-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By catraco on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/catraco_wet-quail-86.html",
+  "code": "<div class=\"container\">\n\n  <div class=\"title\">Title</div>\n  <input class=\"input\" name=\"text\" type=\"text\">\n  \n</div>\n<style>\n/* From Uiverse.io by catraco - Tags: input, dark, advanced, input effect  */\n.container {\n  --light: rgb(255, 255, 255);\n  --dark: rgb(50, 50, 50);\n  --br: 8px;\n}\n\n.container:hover .title {\n  opacity: 1;\n}\n\n.input {\n  background-color: transparent;\n  border: 2px solid white;\n  color: var(--light);\n  max-width: 200px;\n  padding: .5rem;\n  border-radius: var(--br);\n  outline: none;\n  opacity: .8;\n  transition: .2s ease-in-out;\n}\n\n.input:focus {\n  opacity: 1;\n}\n\n.title {\n  border-radius: var(--br);\n  transform: translate(-50%, -150%);\n  background-color: var(--light);\n  transition: .2s ease-in-out;\n  opacity: 0;\n  color: var(--dark);\n  position: absolute;\n  font-size: 15px;\n  font-weight: 600;\n  letter-spacing: 2px;\n  padding: .5rem;\n  left: 50%;\n}\n\n.title::before {\n  transform: translate(-50%, 50%) rotate(45deg);\n  background-color: var(--light);\n  position: absolute;\n  z-index: -1;\n  content: '';\n  width: 10px;\n  height: 10px;\n  bottom: 0;\n  left: 50%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

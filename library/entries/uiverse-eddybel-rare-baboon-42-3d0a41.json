@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-eddybel-rare-baboon-42-3d0a41",
+  "title": "Input by EddyBel (rare-baboon-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/EddyBel/rare-baboon-42",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By EddyBel on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/EddyBel_rare-baboon-42.html",
+  "code": "<div class=\"input__container\">\n  <div class=\"shadow__input\"></div>\n  <button class=\"input__button__shadow\">\n    <svg fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" height=\"20px\" width=\"20px\">\n      <path d=\"M4 9a5 5 0 1110 0A5 5 0 014 9zm5-7a7 7 0 104.2 12.6.999.999 0 00.093.107l3 3a1 1 0 001.414-1.414l-3-3a.999.999 0 00-.107-.093A7 7 0 009 2z\" fill-rule=\"evenodd\" fill=\"#17202A\"></path>\n    </svg>\n  </button>\n  <input type=\"text\" name=\"text\" class=\"input__search\" placeholder=\"What do you want to search?\">\n</div>\n<style>\n/* From Uiverse.io by EddyBel - Tags: input */\n.input__container {\n  position: relative;\n  background: rgba(255, 255, 255, 0.664);\n  padding: 10px 15px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 5px;\n  border-radius: 22px;\n  max-width: 300px;\n  transition: transform 400ms;\n  transform-style: preserve-3d;\n  transform: rotateX(15deg) rotateY(-20deg);\n  perspective: 500px;\n}\n\n.shadow__input {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  left: 0;\n  bottom: 0;\n  z-index: -1;\n  filter: blur(30px);\n  border-radius: 20px;\n  background-color: #999cff;\n  background-image: radial-gradient(at 85% 51%, hsla(60,60%,61%,1) 0px, transparent 50%),\n    radial-gradient(at 74% 68%, hsla(235,69%,77%,1) 0px, transparent 50%),\n    radial-gradient(at 64% 79%, hsla(284,72%,73%,1) 0px, transparent 50%),\n    radial-gradient(at 75% 16%, hsla(283,60%,72%,1) 0px, transparent 50%),\n    radial-gradient(at 90% 65%, hsla(153,70%,64%,1) 0px, transparent 50%),\n    radial-gradient(at 91% 83%, hsla(283,74%,69%,1) 0px, transparent 50%),\n    radial-gradient(at 72% 91%, hsla(213,75%,75%,1) 0px, transparent 50%);\n}\n\n.input__button__shadow {\n  cursor: pointer;\n  border: none;\n  background: none;\n  transition: transform 400ms, background 400ms;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: 12px;\n  padding: 5px;\n}\n\n.input__button__shadow:hover {\n  background: rgba(255, 255, 255, 0.411);\n}\n\n.input__search {\n  width: 100%;\n  border-radius: 20px;\n  outline: none;\n  border: none;\n  padding: 8px;\n  position: relative;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

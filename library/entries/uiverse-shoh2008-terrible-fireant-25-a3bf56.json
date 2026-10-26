@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-terrible-fireant-25-a3bf56",
+  "title": "Loader by Shoh2008 (terrible-fireant-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/terrible-fireant-25",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_terrible-fireant-25.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 100px;\n  height: 46px;\n  position: relative;\n  border-bottom: 5px solid #FFF;\n  border-top: 5px solid #FFF;\n  box-sizing: border-box;\n}\n\n.loader:before , .loader:after {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: -20px;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: orange;\n  border: 5px solid #FFF;\n  box-sizing: border-box;\n  animation: slide_391 1s infinite ease-in-out alternate;\n}\n\n.loader:after {\n  top: 20px;\n  animation-direction: alternate-reverse;\n}\n\n@keyframes slide_391 {\n  0% , 20% {\n    transform: translateX(70px)\n  }\n\n  80% , 100% {\n    transform: translateX(-1px)\n  }\n}\n  \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

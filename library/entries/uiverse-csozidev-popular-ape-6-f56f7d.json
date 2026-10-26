@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-csozidev-popular-ape-6-f56f7d",
+  "title": "Loader by csozidev (popular-ape-6)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csozidev/popular-ape-6",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "black",
+    "loop"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csozidev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/csozidev_popular-ape-6.html",
+  "code": "<div class=\"loader\">\n  <div class=\"block b_1\"></div>\n  <div class=\"block b_2\"></div>\n  <div class=\"block b_3\"></div>\n  <div class=\"block b_4\"></div>\n  <div class=\"block b_5\"></div>\n  <div class=\"block b_6\"></div>\n  <div class=\"block b_7\"></div>\n  <div class=\"block b_8\"></div>\n</div>\n<style>\n/* From Uiverse.io by csozidev - Tags: simple, black, loader, loop */\n/* Simple loader made by: csozi | Website: www.csozi.hu*/\n\n.loader {\n  height: 50px;\n  width: 50px;\n  position: relative;\n}\n\n.block {\n  height: 10px;\n  width: 10px;\n  background-color: black;\n  position: absolute;\n  opacity: 0;\n}\n\n.b_1 {\n  top: 0;\n  left: 0;\n  animation: load 2s infinite;\n  animation-delay: 0;\n}\n\n.b_2 {\n  top: 0;\n  left: 20px;\n  animation: load 2s infinite;\n  animation-delay: 0.25s;\n}\n\n.b_3 {\n  top: 0;\n  right: 0;\n  animation: load 2s infinite;\n  animation-delay: 0.5s;\n}\n\n.b_4 {\n  top: 20px;\n  right: 0;\n  animation: load 2s infinite;\n  animation-delay: 0.75s;\n}\n\n.b_5 {\n  bottom: 0;\n  right: 0;\n  animation: load 2s infinite;\n  animation-delay: 1s;\n}\n\n.b_6 {\n  bottom: 0;\n  left: 20px;\n  animation: load 2s infinite;\n  animation-delay: 1.25s;\n}\n\n.b_7 {\n  bottom: 0;\n  left: 0;\n  animation: load 2s infinite;\n  animation-delay: 1.5s;\n}\n\n.b_8 {\n  top: 20px;\n  left: 0;\n  animation: load 2s infinite;\n  animation-delay: 1.75s;\n}\n\n@keyframes load {\n  0% {\n    opacity: 1;\n  }\n\n  85% {\n    opacity: 0;\n  }\n\n  100% {\n    opacity: 1;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

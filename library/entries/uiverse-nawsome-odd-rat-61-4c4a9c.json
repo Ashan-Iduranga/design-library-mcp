@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nawsome-odd-rat-61-4c4a9c",
+  "title": "Loader by Nawsome (odd-rat-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/odd-rat-61",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Nawsome_odd-rat-61.html",
+  "code": "<div class=\"triangles\">\n  <div class=\"tri invert\"></div>\n  <div class=\"tri invert\"></div>\n  <div class=\"tri\"></div>\n  <div class=\"tri invert\"></div>\n  <div class=\"tri invert\"></div>\n  <div class=\"tri\"></div>\n  <div class=\"tri invert\"></div>\n  <div class=\"tri\"></div>\n  <div class=\"tri invert\"></div>\n</div>\n<style>\n/* From Uiverse.io by Nawsome - Tags: loader */\n.triangles {\n  transform: translate(-50%, -50%);\n  height: 81px;\n  width: 90px;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n}\n\n.tri {\n  position: absolute;\n  animation: pulse_51 750ms ease-in infinite;\n  border-top: 27px solid #215A6D;\n  border-left: 15px solid transparent;\n  border-right: 15px solid transparent;\n  border-bottom: 0px;\n}\n\n.tri.invert {\n  border-top: 0px;\n  border-bottom: 27px solid #215A6D;\n  border-left: 15px solid transparent;\n  border-right: 15px solid transparent;\n}\n\n.tri:nth-child(1) {\n  left: 30px;\n}\n\n.tri:nth-child(2) {\n  left: 15px;\n  top: 27px;\n  animation-delay: -125ms;\n}\n\n.tri:nth-child(3) {\n  left: 30px;\n  top: 27px;\n}\n\n.tri:nth-child(4) {\n  left: 45px;\n  top: 27px;\n  animation-delay: -625ms;\n}\n\n.tri:nth-child(5) {\n  top: 54px;\n  animation-delay: -250ms;\n}\n\n.tri:nth-child(6) {\n  top: 54px;\n  left: 15px;\n  animation-delay: -250ms;\n}\n\n.tri:nth-child(7) {\n  top: 54px;\n  left: 30px;\n  animation-delay: -375ms;\n}\n\n.tri:nth-child(8) {\n  top: 54px;\n  left: 45px;\n  animation-delay: -500ms;\n}\n\n.tri:nth-child(9) {\n  top: 54px;\n  left: 60px;\n  animation-delay: -500ms;\n}\n\n@keyframes pulse_51 {\n  0% {\n    opacity: 1;\n  }\n\n  16.666% {\n    opacity: 1;\n  }\n\n  100% {\n    opacity: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

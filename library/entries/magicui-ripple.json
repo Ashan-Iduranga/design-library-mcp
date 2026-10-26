@@ -1,0 +1,33 @@
+{
+  "id": "magicui-ripple",
+  "title": "Ripple (Magic UI)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/ripple",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "ripple",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "An animated ripple effect typically used behind elements to emphasize them.\n\nInstall into a project: npx shadcn@latest add @magicui/ripple\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/magicui/ripple.tsx",
+  "code": "import React, { type ComponentPropsWithoutRef, type CSSProperties } from \"react\"\n\nimport { cn } from \"@/lib/utils\"\n\ninterface RippleProps extends ComponentPropsWithoutRef<\"div\"> {\n  mainCircleSize?: number\n  mainCircleOpacity?: number\n  numCircles?: number\n}\n\nexport const Ripple = React.memo(function Ripple({\n  mainCircleSize = 210,\n  mainCircleOpacity = 0.24,\n  numCircles = 8,\n  className,\n  ...props\n}: RippleProps) {\n  return (\n    <div\n      className={cn(\n        \"pointer-events-none absolute inset-0 mask-[linear-gradient(to_bottom,white,transparent)] select-none\",\n        className\n      )}\n      {...props}\n    >\n      {Array.from({ length: numCircles }, (_, i) => {\n        const size = mainCircleSize + i * 70\n        const opacity = mainCircleOpacity - i * 0.03\n        const animationDelay = `${i * 0.06}s`\n        const borderStyle = \"solid\"\n\n        return (\n          <div\n            key={i}\n            className={`animate-ripple bg-foreground/25 absolute rounded-full border shadow-xl`}\n            style={\n              {\n                \"--i\": i,\n                width: `${size}px`,\n                height: `${size}px`,\n                opacity,\n                animationDelay,\n                borderStyle,\n                borderWidth: \"1px\",\n                borderColor: `var(--foreground)`,\n                top: \"50%\",\n                left: \"50%\",\n                transform: \"translate(-50%, -50%) scale(1)\",\n              } as CSSProperties\n            }\n          />\n        )\n      })}\n    </div>\n  )\n})\n\nRipple.displayName = \"Ripple\"\n",
+  "prompt": "npx shadcn@latest add @magicui/ripple",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

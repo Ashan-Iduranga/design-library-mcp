@@ -1,0 +1,38 @@
+{
+  "id": "uiverse-ardianhu-stale-lionfish-9-72eb52",
+  "title": "Card by ardianhu (stale-lionfish-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ardianhu/stale-lionfish-9",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "input",
+    "dark",
+    "minimal",
+    "colorful",
+    "terminal",
+    "login",
+    "prompt",
+    "command"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ardianhu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/ardianhu_stale-lionfish-9.html",
+  "code": "<!-- From Uiverse.io by ardianhu  - Tags: input, dark, minimal, colorful, terminal, login, prompt, command, authentication, shell, register -->\n<div class=\"terminal p-5 rounded-lg font-mono min-w-[480px]\">\n  <div\n    class=\"terminal-header bg-zinc-700 text-white p-2 rounded-t-lg flex items-center\"\n  >\n    <span class=\"text-red-500 text-5xl leading-[0px] align-middle -mt-2\"\n      >•</span\n    >\n    <span class=\"text-yellow-500 text-5xl leading-[0px] align-middle -mt-2 ml-1\"\n      >•</span\n    >\n    <span class=\"text-green-500 text-5xl leading-[0px] align-middle -mt-2 ml-1\"\n      >•</span\n    >\n    <span class=\"ml-4 align-baseline\">authentication --- bash - zsh </span>\n  </div>\n  <div class=\"pl-4 pt-2 bg-gray-900 max-h-[500px] overflow-auto\" id=\"output\">\n    <p class=\"text-gray-500\">You need to authenticate to continue!</p>\n    <p class=\"text-sky-300\">Enter 1 to login</p>\n    <p class=\"text-sky-300\">Enter 2 to register</p>\n  </div>\n  <div\n    class=\"input flex pl-4 bg-gray-900 pb-4 rounded-b-lg items-center\"\n    id=\"terminal-input-container\"\n  >\n    <span class=\"text-green-500\">➝</span>\n    <span class=\"text-sky-300 ml-2\">~</span>\n    <span class=\"ml-2 text-md text-gray-500\" id=\"placeholder\"></span>\n    <input\n      class=\"bg-transparent border-none outline-none ring-0 focus:ring-0 text-amber-400 w-full\"\n      id=\"terminal-input\"\n      type=\"text\"\n    />\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

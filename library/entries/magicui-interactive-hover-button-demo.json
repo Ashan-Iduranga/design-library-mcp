@@ -1,0 +1,37 @@
+{
+  "id": "magicui-interactive-hover-button-demo",
+  "title": "Interactive Hover Button Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/interactive-hover-button",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "interactive",
+    "hover",
+    "button",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing an interactive button with hover effects.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/interactive-hover-button-demo.tsx",
+  "code": "import { InteractiveHoverButton } from \"@/registry/magicui/interactive-hover-button\"\n\nexport default function InteractiveHoverButtonDemo() {\n  return <InteractiveHoverButton>Hover Me</InteractiveHoverButton>\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

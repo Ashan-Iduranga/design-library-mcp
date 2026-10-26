@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-tables-2-dark",
+  "title": "Tables: Bordered (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/tables",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "tables",
+    "hyperui",
+    "data",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/tables/2-dark.html",
+  "code": "<div class=\"mx-auto max-w-3xl p-6\">\n<div class=\"overflow-x-auto rounded border border-gray-300 shadow-sm dark:border-gray-600\">\n<table class=\"min-w-full divide-y-2 divide-gray-200 dark:divide-gray-700\">\n<thead class=\"ltr:text-left rtl:text-right\">\n<tr class=\"*:font-medium *:text-gray-900 dark:*:text-white\">\n<th class=\"px-3 py-2 whitespace-nowrap\">Name</th>\n<th class=\"px-3 py-2 whitespace-nowrap\">DoB</th>\n<th class=\"px-3 py-2 whitespace-nowrap\">Role</th>\n<th class=\"px-3 py-2 whitespace-nowrap\">Salary</th>\n</tr>\n</thead>\n<tbody class=\"divide-y divide-gray-200 dark:divide-gray-700\">\n<tr class=\"*:text-gray-900 *:first:font-medium dark:*:text-white\">\n<td class=\"px-3 py-2 whitespace-nowrap\">Nandor the Relentless</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">04/06/1262</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">Vampire Warrior</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">$0</td>\n</tr>\n<tr class=\"*:text-gray-900 *:first:font-medium dark:*:text-white\">\n<td class=\"px-3 py-2 whitespace-nowrap\">Laszlo Cravensworth</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">19/10/1678</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">Vampire Gentleman</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">$0</td>\n</tr>\n<tr class=\"*:text-gray-900 *:first:font-medium dark:*:text-white\">\n<td class=\"px-3 py-2 whitespace-nowrap\">Nadja</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">15/03/1593</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">Vampire Seductress</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">$0</td>\n</tr>\n<tr class=\"*:text-gray-900 *:first:font-medium dark:*:text-white\">\n<td class=\"px-3 py-2 whitespace-nowrap\">Colin Robinson</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">01/09/1971</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">Energy Vampire</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">$53,000</td>\n</tr>\n<tr class=\"*:text-gray-900 *:first:font-medium dark:*:text-white\">\n<td class=\"px-3 py-2 whitespace-nowrap\">Guillermo de la Cruz</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">18/11/1991</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">Familiar/Vampire Hunter</td>\n<td class=\"px-3 py-2 whitespace-nowrap\">$0</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

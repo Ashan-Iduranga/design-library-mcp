@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-escannord-lovely-panther-66-f8573f",
+  "title": "Card by escannord (lovely-panther-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/escannord/lovely-panther-66",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "shadow",
+    "water"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By escannord on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/escannord_lovely-panther-66.html",
+  "code": "<div class=\"card\"></div>\n\n<style>\n/* From Uiverse.io by escannord  - Tags: simple, card, shadow, water */\n.card {\n  width: 200px;\n  height: 200px;\n  background-color: transparent;\n  box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.158),\n    10px 10px 20px rgba(0, 0, 0, 0.466),\n    inset -10px -10px 10px 10px rgba(255, 255, 255, 0.897);\n  border-radius: 51% 49% 62% 38% / 25% 57% 43% 75%;\n  position: relative;\n}\n\n.card::after {\n  content: \"\";\n  display: inline-block;\n  width: 10px;\n  height: 10px;\n  position: absolute;\n  background-color: rgba(255, 255, 255, 0.842);\n  border-radius: 80% 20% 91% 9% / 48% 67% 33% 52%;\n  top: 40px;\n  left: 40px;\n}\n\n.card::before {\n  content: \"\";\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  position: absolute;\n  background-color: rgba(255, 255, 255, 0.842);\n  border-radius: 48% 52% 45% 55% / 48% 67% 33% 52%;\n  top: 35px;\n  left: 60px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

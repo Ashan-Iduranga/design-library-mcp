@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mythsoul-strange-insect-92-0d0f5d",
+  "title": "Input by Mythsoul (strange-insect-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Mythsoul/strange-insect-92",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Mythsoul on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Mythsoul_strange-insect-92.html",
+  "code": "<div class=\"custom-search-container\">\n  <div class=\"custom-search-bar\">\n    <div class=\"custom-icon\">\n      <svg\n        class=\"feather feather-search\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n        stroke-width=\"2\"\n        stroke=\"currentColor\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n      >\n        <circle r=\"8\" cy=\"11\" cx=\"11\"></circle>\n        <line y2=\"16.65\" x2=\"16.65\" y1=\"21\" x1=\"21\"></line>\n      </svg>\n    </div>\n    <input placeholder=\"Search...\" class=\"custom-search-input\" type=\"text\" />\n    <div class=\"custom-icon\">\n      <svg\n        class=\"feather feather-filter\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n        stroke-width=\"2\"\n        stroke=\"currentColor\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n      >\n        <polygon points=\"22 3 2 3 10 13 10 19 14 21 14 13 22 3\"></polygon>\n      </svg>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Mythsoul  - Tags:  */\n.custom-search-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n  background-color: #000;\n  background-image: radial-gradient(\n    circle,\n    rgba(255, 0, 255, 0.1),\n    rgba(0, 0, 255, 0.1)\n  );\n  background-size: cover, 10px 10px;\n}\n\n.custom-search-bar {\n  display: flex;\n  align-items: center;\n  background-color: #111;\n  padding: 10px;\n  border-radius: 20px;\n  position: relative;\n  width: 80%;\n  max-width: 400px;\n  box-shadow: 0 0 15px rgba(255, 0, 150, 0.5), 0 0 15px rgba(0, 0, 255, 0.5);\n  transition: width 0.3s;\n}\n\n.custom-icon {\n  color: #fff;\n  margin: 0 10px;\n  display: flex;\n  align-items: center;\n}\n\n.custom-search-input {\n  border: none;\n  outline: none;\n  background: transparent;\n  color: #fff;\n  font-size: 16px;\n  width: 100%;\n}\n\n.custom-search-input::placeholder {\n  color: #aaa;\n}\n\n.custom-search-bar:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  border-radius: 20px;\n  background: linear-gradient(\n    90deg,\n    rgba(255, 0, 255, 0.5),\n    rgba(0, 0, 255, 0.5)\n  );\n  z-index: -1;\n  filter: blur(10px);\n  animation: glow 4s infinite alternate;\n}\n\n@keyframes glow {\n  0% {\n    filter: blur(10px);\n    opacity: 0.7;\n    transform: scale(1);\n  }\n  50% {\n    filter: blur(20px);\n    opacity: 1;\n    transform: scale(1.05);\n  }\n  100% {\n    filter: blur(10px);\n    opacity: 0.7;\n    transform: scale(1);\n  }\n}\n\n.custom-icon svg {\n  width: 24px;\n  height: 24px;\n  stroke: currentColor;\n  transition: color 0.3s, transform 0.3s;\n}\n\n.custom-icon:hover svg {\n  color: #ff00ff;\n  cursor: pointer;\n  transform: scale(1.1);\n}\n\n/* Media queries for better responsiveness */\n@media (max-width: 600px) {\n  .custom-search-bar {\n    width: 90%;\n  }\n}\n\n@media (max-width: 400px) {\n  .custom-search-bar {\n    width: 100%;\n  }\n\n  .custom-search-input {\n    font-size: 14px;\n  }\n\n  .custom-icon {\n    margin: 0 5px;\n  }\n\n  .custom-icon svg {\n    width: 20px;\n    height: 20px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

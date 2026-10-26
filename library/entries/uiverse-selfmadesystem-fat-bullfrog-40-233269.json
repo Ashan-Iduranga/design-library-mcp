@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-selfmadesystem-fat-bullfrog-40-233269",
+  "title": "Radio by SelfMadeSystem (fat-bullfrog-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/fat-bullfrog-40",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/SelfMadeSystem_fat-bullfrog-40.html",
+  "code": "<div class=\"radio-input\">\n  <label class=\"container\">\n    <svg>\n      <rect class=\"hi\" pathLength=\"800\"></rect>\n    </svg>\n    <input type=\"radio\" id=\"value-1\" name=\"value-radio\" checked=\"\" value=\"value-1\">\n  </label>\n  <label class=\"container\">\n    <svg>\n      <rect class=\"hi\" pathLength=\"600\"></rect>\n    </svg>\n    <input type=\"radio\" id=\"value-2\" name=\"value-radio\" value=\"value-2\">\n  </label>\n  <label class=\"container\">\n    <svg>\n      <rect class=\"hi\" pathLength=\"700\"></rect>\n    </svg>\n    <input type=\"radio\" id=\"value-3\" name=\"value-radio\" value=\"value-3\">\n  </label>\n</div>\n<style>\n/* From Uiverse.io by SelfMadeSystem - Tags: radio */\n.radio-input {\n  --c: rgb(74, 156, 233);\n}\n\n.radio-input label {\n  position: relative;\n  display: inline-block;\n  border-radius: 99999px;\n  appearance: unset;\n  margin: 8px;\n  width: 3em;\n  height: 3em;\n}\n\n.radio-input input {\n  position: absolute;\n  border-radius: 99999px;\n  appearance: unset;\n  inset: 0.75em;\n  margin: 0;\n  transition: background-color 0.5s;\n}\n\n.radio-input input:checked {\n  background-color: var(--c);\n  filter: drop-shadow(0 0 10px var(--c));\n}\n\n.radio-input svg {\n  position: absolute;\n  pointer-events: none;\n  overflow: visible;\n  filter: drop-shadow(0 0 4px var(--c));\n}\n\n.radio-input svg .hi {\n  width: 3em;\n  height: 3em;\n  rx: 1.5em;\n  fill: transparent;\n  stroke: var(--c);\n  stroke-width: 0.25em;\n  stroke-dasharray: 70 30;\n  animation: strokeWee 32s linear infinite;\n}\n\n@keyframes strokeWee {\n  0% {\n    stroke-dashoffset: 0;\n  }\n\n  100% {\n    stroke-dashoffset: 1000;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

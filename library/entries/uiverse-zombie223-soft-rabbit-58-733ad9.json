@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-zombie223-soft-rabbit-58-733ad9",
+  "title": "Form by zombie223 (soft-rabbit-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/zombie223/soft-rabbit-58",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "login"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By zombie223 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/zombie223_soft-rabbit-58.html",
+  "code": "<form class=\"form\">\n  <p>Login</p>\n  <div class=\"group\">\n    <input required=\"true\" class=\"main-input\" type=\"text\">\n    <span class=\"highlight-span\"></span>\n    <label class=\"lebal-email\">Email</label>\n  </div>\n  <div class=\"container-1\">\n    <div class=\"group\">\n      <input required=\"true\" class=\"main-input\" type=\"text\">\n      <span class=\"highlight-span\"></span>\n      <label class=\"lebal-email\">password</label>\n    </div>\n  </div>\n  <button class=\"submit\">submit</button>\n</form>\n<style>\n/* From Uiverse.io by zombie223 - Tags: login, form */\n.group {\n  position: relative;\n}\n\n.form {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -ms-flex-direction: column;\n  flex-direction: column;\n  border: 1px solid white;\n  padding: 120px 40px;\n  padding-top: 60px;\n  padding-bottom: 90px;\n  padding-right: 40px;\n  padding-left: 40px;\n  background-color: black;\n  border-radius: 20px;\n  position: relative;\n}\n\n.form p {\n  padding-bottom: 20px;\n  font-size: 24px;\n  font-weight: bold;\n  letter-spacing: .5px;\n  color: white;\n}\n\n.container-1 {\n  padding-top: 30px;\n}\n\n.main-input {\n  font-size: 16px;\n  padding: 10px 10px 10px 5px;\n  display: block;\n  width: 185px;\n  border: none;\n  border-bottom: 1px solid #6c6c6c;\n  background: transparent;\n  color: #ffffff;\n}\n\n.main-input:focus {\n  outline: none;\n  border-bottom-color: #42ff1c;\n}\n\n.lebal-email {\n  color: #999999;\n  font-size: 18px;\n  font-weight: normal;\n  position: absolute;\n  pointer-events: none;\n  left: 5px;\n  top: 10px;\n  transition: 0.2s ease all;\n  -moz-transition: 0.2s ease all;\n  -webkit-transition: 0.2s ease all;\n}\n\n.main-input:focus ~ .lebal-email,\n.main-input:valid ~ .lebal-email {\n  top: -20px;\n  font-size: 14px;\n  color: #42ff1c;\n}\n\n.highlight-span {\n  position: absolute;\n  height: 60%;\n  width: 0px;\n  top: 25%;\n  left: 0;\n  pointer-events: none;\n  opacity: 0.5;\n}\n\n.main-input:focus ~ .highlight-span {\n  -webkit-animation: input-focus 0.3s ease;\n  animation: input-focus 0.3s ease;\n}\n\n@keyframes input-focus {\n  from {\n    background: #42ff1c;\n  }\n\n  to {\n    width: 185px;\n  }\n}\n\n.submit {\n  margin-top: 1.2rem;\n  padding: 10px 20px;\n  border-radius: 10px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-gianluks90-curly-catfish-36-33a6bc",
+  "title": "Card by Gianluks90 (curly-catfish-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Gianluks90/curly-catfish-36",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "creditcard"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Gianluks90 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Gianluks90_curly-catfish-36.html",
+  "code": "<div class=\"card\">\n  <div class=\"foreground\">\n    <div class=\"credit-card-header\">\n      <div class=\"category\"> <strong>Credit</strong> card</div>\n      <div class=\"bank\">bank-name</div>\n    </div>\n    <div class=\"credit-card-chip-container\">\n      <svg xml:space=\"preserve\" viewBox=\"0 0 511 511\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns=\"http://www.w3.org/2000/svg\" id=\"Capa_1\" version=\"1.1\" width=\"800px\" height=\"800px\" fill=\"#d4af37\" class=\"chip\">\n        <path d=\"M455.5,56h-400C24.897,56,0,80.897,0,111.5v288C0,430.103,24.897,455,55.5,455h400c30.603,0,55.5-24.897,55.5-55.5v-288\n\tC511,80.897,486.103,56,455.5,56z M464,248H343v-56.5c0-4.687,3.813-8.5,8.5-8.5H464V248z M343,263h121v65H343V263z M479,223h17v65\n\th-17V223z M479,208v-65h17v65H479z M464,168H351.5c-12.958,0-23.5,10.542-23.5,23.5V408H183V103h272.5c4.687,0,8.5,3.813,8.5,8.5\n\tV168z M168,248H47v-65h121V248z M32,288H15v-65h17V288z M47,263h121v65H47V263z M263,88V71h137v17H263z M248,88H111V71h137V88z\n\t M168,103v65H47v-56.5c0-4.687,3.813-8.5,8.5-8.5H168z M32,208H15v-65h17V208z M15,303h17v65H15V303z M47,343h121v65H55.5\n\tc-4.687,0-8.5-3.813-8.5-8.5V343z M248,423v17H111v-17H248z M263,423h137v17H263V423z M343,408v-65h121v56.5\n\tc0,4.687-3.813,8.5-8.5,8.5H343z M479,303h17v65h-17V303z M496,111.5V128h-17v-16.5c0-12.958-10.542-23.5-23.5-23.5H415V71h40.5\n\tC477.832,71,496,89.168,496,111.5z M55.5,71H96v17H55.5C42.542,88,32,98.542,32,111.5V128H15v-16.5C15,89.168,33.168,71,55.5,71z\n\t M15,399.5V383h17v16.5c0,12.958,10.542,23.5,23.5,23.5H96v17H55.5C33.168,440,15,421.832,15,399.5z M455.5,440H415v-17h40.5\n\tc12.958,0,23.5-10.542,23.5-23.5V383h17v16.5C496,421.832,477.832,440,455.5,440z\"></path>\n      </svg>\n    </div>\n    <div class=\"info-container\">\n      <p class=\"names\">Owner name</p>\n      <p class=\"serial\">1264 3245 3322 1356</p>\n      <p class=\"expire\">03/24</p>\n    </div>\n  </div>\n  <svg viewBox=\"0 0 1600 800\" height=\"100%\" width=\"100%\" class=\"background\">\n    <rect height=\"800\" width=\"1600\" fill=\"#ff9d00\"></rect>\n    <g transform=\"rotate(-30 500 100)\" stroke-opacity=\"0.05\" stroke-width=\"66.7\" stroke=\"#000\">\n      <circle r=\"1800\" cy=\"0\" cx=\"0\" fill=\"#ff9d00\"></circle>\n      <circle r=\"1700\" cy=\"0\" cx=\"0\" fill=\"#fb8d17\"></circle>\n      <circle r=\"1600\" cy=\"0\" cx=\"0\" fill=\"#f47d24\"></circle>\n      <circle r=\"1500\" cy=\"0\" cx=\"0\" fill=\"#ed6e2d\"></circle>\n      <circle r=\"1400\" cy=\"0\" cx=\"0\" fill=\"#e35f34\"></circle>\n      <circle r=\"1300\" cy=\"0\" cx=\"0\" fill=\"#d85239\"></circle>\n      <circle r=\"1200\" cy=\"0\" cx=\"0\" fill=\"#cc453e\"></circle>\n      <circle r=\"1100\" cy=\"0\" cx=\"0\" fill=\"#be3941\"></circle>\n      <circle r=\"1000\" cy=\"0\" cx=\"0\" fill=\"#b02f43\"></circle>\n      <circle r=\"900\" cy=\"0\" cx=\"0\" fill=\"#a02644\"></circle>\n      <circle r=\"800\" cy=\"0\" cx=\"0\" fill=\"#901e44\"></circle>\n      <circle r=\"700\" cy=\"0\" cx=\"0\" fill=\"#801843\"></circle>\n      <circle r=\"600\" cy=\"0\" cx=\"0\" fill=\"#6f1341\"></circle>\n      <circle r=\"500\" cy=\"0\" cx=\"0\" fill=\"#5e0f3d\"></circle>\n      <circle r=\"400\" cy=\"0\" cx=\"0\" fill=\"#4e0c38\"></circle>\n      <circle r=\"300\" cy=\"0\" cx=\"0\" fill=\"#3e0933\"></circle>\n      <circle r=\"200\" cy=\"0\" cx=\"0\" fill=\"#2e062c\"></circle>\n      <circle r=\"100\" cy=\"0\" cx=\"0\" fill=\"#210024\"></circle>\n    </g>\n  </svg>\n\n</div>\n<style>\n/* From Uiverse.io by Gianluks90 - Tags: card, creditcard */\n.card {\n  width: 245px;\n  height: 155px;\n  background: lightgrey;\n  position: relative;\n  border-radius: 15px;\n  overflow: hidden;\n}\n\n.foreground {\n  border-radius: 15px;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: rgba(255, 255, 255, 0.18);\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  backdrop-filter: blur(2.8px);\n  -webkit-backdrop-filter: blur(2.8px);\n  padding: 16px;\n  color: white;\n}\n\n.credit-card-header {\n  display: flex;\n  justify-content: space-between;\n}\n\n.credit-card-chip-container {\n  margin: 8px 0;\n  height: 40px;\n  width: 40px;\n}\n\n.chip {\n  width: 100%;\n  height: 100%;\n}\n\n.category, .bank {\n  font-size: smaller;\n}\n\n.info-container {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n\n.names {\n  align-self: flex-end;\n  text-transform: uppercase;\n  font-size: smaller;\n}\n\n.serial {\n  align-self: flex-end;\n  letter-spacing: 2px;\n  font-size: 15px;\n  font-family: monospace;\n}\n\n.expire {\n  margin-left: 3px;\n  font-size: smaller;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

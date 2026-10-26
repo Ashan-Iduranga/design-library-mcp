@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-smit-prajapati-brave-hound-66-aa9820",
+  "title": "Input by Smit-Prajapati (brave-hound-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Smit-Prajapati/brave-hound-66",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "search",
+    "search-bar",
+    "css-input"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Smit-Prajapati on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Smit-Prajapati_brave-hound-66.html",
+  "code": "<div class=\"container\">\n<div class=\"search-container\">\n  <input class=\"input\" type=\"text\">\n  <svg viewBox=\"0 0 24 24\" class=\"search__icon\">\n    <g>\n      <path d=\"M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z\">\n      </path>\n    </g>\n  </svg>\n</div>\n</div>\n<style>\n/* From Uiverse.io by Smit-Prajapati - Tags: input, search, search bar, css input */\n.container {\n  position: relative;\n  background: linear-gradient(135deg, rgb(179, 208, 253) 0%, rgb(164, 202, 248) 100%);\n  border-radius: 1000px;\n  padding: 10px;\n  display: grid;\n  place-content: center;\n  z-index: 0;\n  max-width: 300px;\n  margin: 0 10px;\n}\n\n.search-container {\n  position: relative;\n  width: 100%;\n  border-radius: 50px;\n  background: linear-gradient(135deg, rgb(218, 232, 247) 0%, rgb(214, 229, 247) 100%);\n  padding: 5px;\n  display: flex;\n  align-items: center;\n}\n\n.search-container::after, .search-container::before {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  border-radius: inherit;\n  position: absolute;\n}\n\n.search-container::before {\n  top: -1px;\n  left: -1px;\n  background: linear-gradient(0deg, rgb(218, 232, 247) 0%, rgb(255, 255, 255) 100%);\n  z-index: -1;\n}\n\n.search-container::after {\n  bottom: -1px;\n  right: -1px;\n  background: linear-gradient(0deg, rgb(163, 206, 255) 0%, rgb(211, 232, 255) 100%);\n  box-shadow: rgba(79, 156, 232, 0.7019607843) 3px 3px 5px 0px, rgba(79, 156, 232, 0.7019607843) 5px 5px 20px 0px;\n  z-index: -2;\n}\n\n.input {\n  padding: 10px;\n  width: 100%;\n  background: linear-gradient(135deg, rgb(218, 232, 247) 0%, rgb(214, 229, 247) 100%);\n  border: none;\n  color: #9EBCD9;\n  font-size: 20px;\n  border-radius: 50px;\n}\n\n.input:focus {\n  outline: none;\n  background: linear-gradient(135deg, rgb(239, 247, 255) 0%, rgb(214, 229, 247) 100%);\n}\n\n.search__icon {\n  width: 50px;\n  aspect-ratio: 1;\n  border-left: 2px solid white;\n  border-top: 3px solid transparent;\n  border-bottom: 3px solid transparent;\n  border-radius: 50%;\n  padding-left: 12px;\n  margin-right: 10px;\n}\n\n.search__icon:hover {\n  border-left: 3px solid white;\n}\n\n.search__icon path {\n  fill: white;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

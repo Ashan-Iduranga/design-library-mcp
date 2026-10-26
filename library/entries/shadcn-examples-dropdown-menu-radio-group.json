@@ -1,0 +1,36 @@
+{
+  "id": "shadcn-examples-dropdown-menu-radio-group",
+  "title": "Dropdown Menu Radio Group (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/dropdown-menu-radio-group.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "dropdown",
+    "menu",
+    "radio",
+    "group",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Displays a menu to the user — such as a set of actions or functions — triggered by a button.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/dropdown-menu-radio-group.tsx",
+  "code": "\"use client\"\n\nimport * as React from \"react\"\n\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuLabel,\n  DropdownMenuRadioGroup,\n  DropdownMenuRadioItem,\n  DropdownMenuSeparator,\n  DropdownMenuTrigger,\n} from \"@/registry/new-york-v4/ui/dropdown-menu\"\n\nexport default function DropdownMenuRadioGroupDemo() {\n  const [position, setPosition] = React.useState(\"bottom\")\n\n  return (\n    <DropdownMenu>\n      <DropdownMenuTrigger asChild>\n        <Button variant=\"outline\">Open</Button>\n      </DropdownMenuTrigger>\n      <DropdownMenuContent className=\"w-56\">\n        <DropdownMenuLabel>Panel Position</DropdownMenuLabel>\n        <DropdownMenuSeparator />\n        <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>\n          <DropdownMenuRadioItem value=\"top\">Top</DropdownMenuRadioItem>\n          <DropdownMenuRadioItem value=\"bottom\">Bottom</DropdownMenuRadioItem>\n          <DropdownMenuRadioItem value=\"right\">Right</DropdownMenuRadioItem>\n        </DropdownMenuRadioGroup>\n      </DropdownMenuContent>\n    </DropdownMenu>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

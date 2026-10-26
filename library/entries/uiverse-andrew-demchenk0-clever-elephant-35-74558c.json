@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-andrew-demchenk0-clever-elephant-35-74558c",
+  "title": "Radio by andrew-demchenk0 (clever-elephant-35)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/clever-elephant-35",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "stars",
+    "rating"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/andrew-demchenk0_clever-elephant-35.html",
+  "code": "<div class=\"rating\">\n  <input value=\"5\" name=\"rate\" id=\"star5\" type=\"radio\">\n  <label title=\"text\" for=\"star5\"></label>\n  <input value=\"4\" name=\"rate\" id=\"star4\" type=\"radio\">\n  <label title=\"text\" for=\"star4\"></label>\n  <input value=\"3\" name=\"rate\" id=\"star3\" type=\"radio\" checked=\"\">\n  <label title=\"text\" for=\"star3\"></label>\n  <input value=\"2\" name=\"rate\" id=\"star2\" type=\"radio\">\n  <label title=\"text\" for=\"star2\"></label>\n  <input value=\"1\" name=\"rate\" id=\"star1\" type=\"radio\">\n  <label title=\"text\" for=\"star1\"></label>\n</div>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: radio, stars, rating */\n.rating:not(:checked) > input {\n  position: absolute;\n  appearance: none;\n}\n\n.rating:not(:checked) > label {\n  float: right;\n  cursor: pointer;\n  font-size: 30px;\n  color: #666;\n}\n\n.rating:not(:checked) > label:before {\n  content: '★';\n}\n\n.rating > input:checked + label:hover,\n.rating > input:checked + label:hover ~ label,\n.rating > input:checked ~ label:hover,\n.rating > input:checked ~ label:hover ~ label,\n.rating > label:hover ~ input:checked ~ label {\n  color: #e58e09;\n}\n\n.rating:not(:checked) > label:hover,\n.rating:not(:checked) > label:hover ~ label {\n  color: #ff9e0b;\n}\n\n.rating > input:checked ~ label {\n  color: #ffa723;\n}\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

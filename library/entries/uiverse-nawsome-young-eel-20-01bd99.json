@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nawsome-young-eel-20-01bd99",
+  "title": "Loader by Nawsome (young-eel-20)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/young-eel-20",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Nawsome_young-eel-20.html",
+  "code": "<figure class=\"loader\">\n    <div class=\"dot white\"></div>\n    <div class=\"dot\"></div>\n    <div class=\"dot\"></div>\n    <div class=\"dot\"></div>\n    <div class=\"dot\"></div>\n</figure>\n<style>\n/* From Uiverse.io by Nawsome - Tags: loader */\n.loader {\n  position: absolute;\n  margin: auto;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  width: 6.250em;\n  height: 6.250em;\n  animation: rotate5123 2.4s linear infinite;\n}\n\n.white {\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  background: white;\n  animation: flash 2.4s linear infinite;\n  opacity: 0;\n}\n\n.dot {\n  position: absolute;\n  margin: auto;\n  width: 2.4em;\n  height: 2.4em;\n  border-radius: 100%;\n  transition: all 1s ease;\n}\n\n.dot:nth-child(2) {\n  top: 0;\n  bottom: 0;\n  left: 0;\n  background: #FF4444;\n  animation: dotsY 2.4s linear infinite;\n}\n\n.dot:nth-child(3) {\n  left: 0;\n  right: 0;\n  top: 0;\n  background: #FFBB33;\n  animation: dotsX 2.4s linear infinite;\n}\n\n.dot:nth-child(4) {\n  top: 0;\n  bottom: 0;\n  right: 0;\n  background: #99CC00;\n  animation: dotsY 2.4s linear infinite;\n}\n\n.dot:nth-child(5) {\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: #33B5E5;\n  animation: dotsX 2.4s linear infinite;\n}\n\n@keyframes rotate5123 {\n  0% {\n    transform: rotate( 0 );\n  }\n\n  10% {\n    width: 6.250em;\n    height: 6.250em;\n  }\n\n  66% {\n    width: 2.4em;\n    height: 2.4em;\n  }\n\n  100% {\n    transform: rotate(360deg);\n    width: 6.250em;\n    height: 6.250em;\n  }\n}\n\n@keyframes dotsY {\n  66% {\n    opacity: .1;\n    width: 2.4em;\n  }\n\n  77% {\n    opacity: 1;\n    width: 0;\n  }\n}\n\n@keyframes dotsX {\n  66% {\n    opacity: .1;\n    height: 2.4em;\n  }\n\n  77% {\n    opacity: 1;\n    height: 0;\n  }\n}\n\n@keyframes flash {\n  33% {\n    opacity: 0;\n    border-radius: 0%;\n  }\n\n  55% {\n    opacity: .6;\n    border-radius: 100%;\n  }\n\n  66% {\n    opacity: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

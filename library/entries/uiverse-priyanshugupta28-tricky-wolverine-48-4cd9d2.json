@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-priyanshugupta28-tricky-wolverine-48-4cd9d2",
+  "title": "Loader by PriyanshuGupta28 (tricky-wolverine-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/tricky-wolverine-48",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "3d-loader",
+    "3d-cude-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/PriyanshuGupta28_tricky-wolverine-48.html",
+  "code": "<div class=\"loader-container\">\n    <div class=\"loader\">\n      <div class=\"face front\"></div>\n      <div class=\"face back\"></div>\n      <div class=\"face left\"></div>\n      <div class=\"face right\"></div>\n      <div class=\"face top\"></div>\n      <div class=\"face bottom\"></div>\n    </div>\n  </div>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: loader, 3d loader, 3d cude loader */\n.loader-container {\n  perspective: 800px;\n}\n\n.loader {\n  position: relative;\n  width: 80px;\n  height: 80px;\n  transform-style: preserve-3d;\n  animation: spin 3s linear infinite;\n}\n\n.face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: #2196F3;\n  border: 2px solid #1976D2;\n}\n\n.front {\n  transform: translateZ(40px);\n}\n\n.back {\n  transform: rotateY(180deg) translateZ(40px);\n}\n\n.left {\n  transform: rotateY(-90deg) translateZ(40px);\n}\n\n.right {\n  transform: rotateY(90deg) translateZ(40px);\n}\n\n.top {\n  transform: rotateX(90deg) translateZ(40px);\n}\n\n.bottom {\n  transform: rotateX(-90deg) translateZ(40px);\n}\n\n@keyframes spin {\n  0% {\n    transform: rotateX(0) rotateY(0) rotateZ(0);\n  }\n\n  100% {\n    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

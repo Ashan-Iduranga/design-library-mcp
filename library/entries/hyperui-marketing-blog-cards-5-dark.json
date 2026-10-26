@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-marketing-blog-cards-5-dark",
+  "title": "Blog Cards: Bordered with icon, title, excerpt and call to action, shadow on hover (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/blog-cards",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "marketing",
+    "blog-cards",
+    "hyperui",
+    "blog",
+    "post",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/blog-cards/5-dark.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<article class=\"rounded-lg border border-gray-100 bg-white p-4 shadow-xs transition hover:shadow-lg sm:p-6 dark:border-gray-800 dark:bg-gray-900 dark:shadow-gray-700/25\">\n<span class=\"inline-block rounded-sm bg-blue-600 p-2 text-white dark:bg-blue-700\">\n<svg aria-hidden=\"true\" class=\"size-6\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 14l9-5-9-5-9 5 9 5z\"></path>\n<path d=\"M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z\"></path>\n<path d=\"M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n</svg>\n</span>\n<a href=\"#\">\n<h3 class=\"mt-0.5 text-lg font-medium text-gray-900 dark:text-white\">\n          Lorem ipsum dolor sit, amet consectetur adipisicing elit.\n        </h3>\n</a>\n<p class=\"mt-2 line-clamp-3 text-sm/relaxed text-gray-500 dark:text-gray-400\">\n        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus\n        pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis\n        quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius\n        atque dignissimos. Molestias explicabo corporis voluptatem?\n      </p>\n<a class=\"group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600\" href=\"#\">\n        Find out more\n\n        <span aria-hidden=\"true\" class=\"block transition-all group-hover:ms-0.5 rtl:rotate-180\">\n          →\n        </span>\n</a>\n</article>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

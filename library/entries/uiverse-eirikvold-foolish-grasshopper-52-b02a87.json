@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-eirikvold-foolish-grasshopper-52-b02a87",
+  "title": "Button by eirikvold (foolish-grasshopper-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/eirikvold/foolish-grasshopper-52",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By eirikvold on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/eirikvold_foolish-grasshopper-52.html",
+  "code": "<button>\n  <div class=\"svg-wrapper-1\">\n    <div class=\"svg-wrapper\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\">\n        <path fill=\"none\" d=\"M0 0h24v24H0z\"></path>\n        <path fill=\"currentColor\" d=\"M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z\"></path>\n      </svg>\n    </div>\n  </div>\n  <span>Send</span>\n</button>\n<style>\n/* From Uiverse.io by eirikvold - Tags: button */\nbutton {\n  font-family: inherit;\n  font-size: 18px;\n  background: linear-gradient(to bottom, #4dc7d9 0%,#66a6ff 100%);\n  color: white;\n  padding: 0.8em 1.2em;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: none;\n  border-radius: 25px;\n  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);\n  transition: all 0.3s;\n}\n\nbutton:hover {\n  transform: translateY(-3px);\n  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);\n}\n\nbutton:active {\n  transform: scale(0.95);\n  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);\n}\n\nbutton span {\n  display: block;\n  margin-left: 0.4em;\n  transition: all 0.3s;\n}\n\nbutton svg {\n  width: 18px;\n  height: 18px;\n  fill: white;\n  transition: all 0.3s;\n}\n\nbutton .svg-wrapper {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  background-color: rgba(255, 255, 255, 0.2);\n  margin-right: 0.5em;\n  transition: all 0.3s;\n}\n\nbutton:hover .svg-wrapper {\n  background-color: rgba(255, 255, 255, 0.5);\n}\n\nbutton:hover svg {\n  transform: rotate(45deg);\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

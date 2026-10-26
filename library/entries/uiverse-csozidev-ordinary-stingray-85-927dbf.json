@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-csozidev-ordinary-stingray-85-927dbf",
+  "title": "Radio by csozidev (ordinary-stingray-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csozidev/ordinary-stingray-85",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "simple",
+    "button",
+    "hover",
+    "input",
+    "gender",
+    "colorful"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csozidev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/csozidev_ordinary-stingray-85.html",
+  "code": "<div class=\"radio-input\">\n  <input value=\"value-1\" name=\"value-radio\" id=\"value-1\" type=\"radio\" class=\"input i_female\">\n  <input value=\"value-2\" name=\"value-radio\" id=\"value-2\" type=\"radio\" class=\"input i_no-gender\">\n  <input value=\"value-3\" name=\"value-radio\" id=\"value-3\" type=\"radio\" class=\"input i_male\">\n  <div class=\"card female\">\n    <svg class=\"logo\" width=\"48\" height=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n     <path d=\"M12 15.75A7.125 7.125 0 1 0 12 1.5a7.125 7.125 0 0 0 0 14.25Z\"></path>\n     <path d=\"M12 15.75v6.75\"></path>\n     <path d=\"M14.719 19.5H9.28\"></path>\n    </svg>\n    <div class=\"title\">Female</div>\n  </div>\n  <div class=\"card no-gender\">\n    <svg class=\"logo\" width=\"48\" height=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n     <path d=\"M10.125 15.75a6.375 6.375 0 1 0 0-12.75 6.375 6.375 0 0 0 0 12.75Z\"></path>\n     <path d=\"M10.125 16.5v6\"></path>\n     <path d=\"M12.75 19.5H7.5\"></path>\n     <path d=\"M20.25 5.25V1.5H16.5\"></path>\n     <path d=\"M15.717 6.034 20.25 1.5\"></path>\n    </svg>\n    <div class=\"title\">N/A</div>\n  </div>\n  <div class=\"card male\">\n    <svg class=\"logo\" width=\"48\" height=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n     <path d=\"M10.125 21a7.125 7.125 0 1 0 0-14.25 7.125 7.125 0 0 0 0 14.25Z\"></path>\n     <path d=\"M21 7.5V3h-4.5\"></path>\n     <path d=\"M15.188 8.813 21 3\"></path>\n    </svg>\n    <div class=\"title\">Male</div>\n  </div>\n\n</div>\n<style>\n/* From Uiverse.io by csozidev - Tags: simple, button, hover, input, radio, gender, colorful */\n/* Gender selector made by: csozi | Website: www.csozi.hu*/\n\n.radio-input {\n  display: flex;\n  flex-wrap: wrap;\n  width: 320px;\n  height: fit-content;\n  gap: 10px;\n  scale: 0.7;\n}\n\n.radio-input input {\n  height: 100px;\n  width: 100px;\n  translate: 0px 55px;\n  opacity: 0;\n  z-index: 10;\n}\n\n.card {\n  height: 100px;\n  width: 100px;\n  border: solid darkgray;\n  background-color: lightgray;\n  border-radius: 10px;\n  translate: 0px -55px;\n  position: relative;\n  z-index: 9;\n  transition: 0.2s;\n  color: darkgray;\n}\n\n.logo {\n  position: absolute;\n  top: 10px;\n  left: 50%;\n  translate: -50% 0px;\n}\n\n.card .title {\n  width: 100%;\n  position: absolute;\n  text-align: center;\n  font-size: 23px;\n  bottom: 0px;\n  font-weight: bold;\n}\n\n.i_female:hover ~ .female {\n  filter: brightness(1.1);\n}\n\n.i_male:hover ~ .male {\n  filter: brightness(1.1);\n}\n\n.i_no-gender:hover ~ .no-gender {\n  filter: brightness(1.1);\n}\n\n.i_female:checked ~ .female {\n  border: solid #ff87bf;\n  color: #ff87bf;\n  background-color: #ffb8d9;\n}\n\n.i_male:checked ~ .male {\n  border: solid #3d44ff;\n  color: #3d44ff;\n  background-color: #85a5ff;\n}\n\n.i_no-gender:checked ~ .no-gender {\n  border: solid #c9c600;\n  color: #c9c600;\n  background-color: #fffd82;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

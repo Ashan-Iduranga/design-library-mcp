@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vikramsinghnegi-curly-mole-58-2bd851",
+  "title": "Loader by vikramsinghnegi (curly-mole-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikramsinghnegi/curly-mole-58",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "blob"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikramsinghnegi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vikramsinghnegi_curly-mole-58.html",
+  "code": "<div class=\"blob\"></div>\n\n<style>\n/* From Uiverse.io by vikramsinghnegi  - Tags: simple, loader, blob */\n.blob {\n  width: 112px;\n  height: 112px;\n  display: grid;\n  background: #fff;\n  filter: blur(5.6px) contrast(10);\n  padding: 11.2px;\n  mix-blend-mode: darken;\n}\n\n.blob:before,\n.blob:after {\n  content: \"\";\n  grid-area: 1/1;\n  width: 44.8px;\n  height: 44.8px;\n  background: #474bff;\n  animation: blob-rhf26m 2s infinite;\n}\n\n.blob:after {\n  animation-delay: -1s;\n}\n\n@keyframes blob-rhf26m {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  25% {\n    transform: translate(100%, 0);\n  }\n\n  50% {\n    transform: translate(100%, 100%);\n  }\n\n  75% {\n    transform: translate(0, 100%);\n  }\n\n  100% {\n    transform: translate(0, 0);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

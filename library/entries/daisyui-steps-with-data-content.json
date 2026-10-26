@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-steps-with-data-content",
+  "title": "Steps: With data-content (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/steps/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "steps",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Steps can be used to show a list of steps in a process.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/steps/+page.md",
+  "code": "<ul class=\"steps\">\n  <li data-content=\"?\" class=\"step step-neutral\">Step 1</li>\n  <li data-content=\"!\" class=\"step step-neutral\">Step 2</li>\n  <li data-content=\"✓\" class=\"step step-neutral\">Step 3</li>\n  <li data-content=\"✕\" class=\"step step-neutral\">Step 4</li>\n  <li data-content=\"★\" class=\"step step-neutral\">Step 5</li>\n  <li data-content=\"\" class=\"step step-neutral\">Step 6</li>\n  <li data-content=\"●\" class=\"step step-neutral\">Step 7</li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

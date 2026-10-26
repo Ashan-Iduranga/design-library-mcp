@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-benjimich-young-pug-75-a1b321",
+  "title": "Button by benjimich (young-pug-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/benjimich/young-pug-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "skeuomorphism",
+    "animation",
+    "email",
+    "3d",
+    "action",
+    "realistic",
+    "svg"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By benjimich on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/benjimich_young-pug-75.html",
+  "code": "<div class=\"wrapper\">\n  <div class=\"container\">\n    <button class=\"button\">\n      <svg\n        class=\"imgSvg\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n      >\n        <g stroke-width=\"0\" id=\"SVGRepo_bgCarrier\"></g>\n        <g\n          stroke-linejoin=\"round\"\n          stroke-linecap=\"round\"\n          id=\"SVGRepo_tracerCarrier\"\n        ></g>\n        <g id=\"SVGRepo_iconCarrier\">\n          <path\n            fill=\"#000\"\n            d=\"M20.33 3.66996C20.1408 3.48213 19.9035 3.35008 19.6442 3.28833C19.3849 3.22659 19.1135 3.23753 18.86 3.31996L4.23 8.19996C3.95867 8.28593 3.71891 8.45039 3.54099 8.67255C3.36307 8.89471 3.25498 9.16462 3.23037 9.44818C3.20576 9.73174 3.26573 10.0162 3.40271 10.2657C3.5397 10.5152 3.74754 10.7185 4 10.85L10.07 13.85L13.07 19.94C13.1906 20.1783 13.3751 20.3785 13.6029 20.518C13.8307 20.6575 14.0929 20.7309 14.36 20.73H14.46C14.7461 20.7089 15.0192 20.6023 15.2439 20.4239C15.4686 20.2456 15.6345 20.0038 15.72 19.73L20.67 5.13996C20.7584 4.88789 20.7734 4.6159 20.7132 4.35565C20.653 4.09541 20.5201 3.85762 20.33 3.66996ZM4.85 9.57996L17.62 5.31996L10.53 12.41L4.85 9.57996ZM14.43 19.15L11.59 13.47L18.68 6.37996L14.43 19.15Z\"\n          ></path>\n        </g>\n      </svg>\n\n      <span>Send Message</span>\n    </button>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by benjimich  - Tags: skeuomorphism, animation, email, 3d, action, button, realistic, svg */\n.wrapper {\n  background-color: #fff;\n  padding: 0.5px;\n  border-radius: 10px;\n  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n.wrapper:hover {\n  scale: 1.05;\n}\n.wrapper:active {\n  scale: 1;\n}\n.container {\n  cursor: pointer;\n  background-color: #fff;\n  padding: 5px;\n  border-radius: inherit;\n  border: 2px rgb(158, 158, 158) solid;\n  box-shadow: inset 0px -12px 20px -3px rgba(0, 0, 0, 0.1);\n  transition: box-shadow 0.3s ease;\n}\n.container:hover {\n  box-shadow: 0px 10px 25px -3px rgba(0, 0, 0, 0.1),\n    inset 0px -12px 20px -3px rgba(0, 0, 0, 0.1);\n}\n.button {\n  min-width: 200px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: inherit;\n  font-size: 20px;\n  font-weight: 700;\n  background-color: #fff;\n  border-radius: 50px;\n  border: none;\n  padding: 14px;\n  box-shadow: inset 0px 12px 20px -3px rgba(0, 0, 0, 0.1);\n}\n\n.imgSvg {\n  width: 24px;\n  margin-right: 14px;\n}\n.wrapper:hover .imgSvg {\n  transform: rotate(405deg);\n  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.125);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

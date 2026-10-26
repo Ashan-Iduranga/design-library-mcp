@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-afraid-skunk-10-ef2e4e",
+  "title": "Button by mrhyddenn (afraid-skunk-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/afraid-skunk-10",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mrhyddenn_afraid-skunk-10.html",
+  "code": "<button>\n    <span>Button</span>\n</button>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: button */\nbutton {\n  background: #fff;\n  border: none;\n  padding: 10px 20px;\n  display: inline-block;\n  font-size: 15px;\n  font-weight: 600;\n  width: 120px;\n  text-transform: uppercase;\n  cursor: pointer;\n  transform: skew(-21deg);\n}\n\nspan {\n  display: inline-block;\n  transform: skew(21deg);\n}\n\nbutton::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 100%;\n  left: 0;\n  background: rgb(20, 20, 20);\n  opacity: 0;\n  z-index: -1;\n  transition: all 0.5s;\n}\n\nbutton:hover {\n  color: #fff;\n}\n\nbutton:hover::before {\n  left: 0;\n  right: 0;\n  opacity: 1;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

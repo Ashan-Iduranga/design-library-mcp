@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-gksckt-young-eagle-60-f2137c",
+  "title": "Button by gksckt (young-eagle-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gksckt/young-eagle-60",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gksckt on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/gksckt_young-eagle-60.html",
+  "code": "<button> Button\n</button>\n<style>\n/* From Uiverse.io by gksckt - Tags: button */\nbutton {\n background-color: #444141;\n border-radius: 4px;\n color: #fff;\n cursor: pointer;\n padding: 15px 30px;\n font-size: 18px;\n font-weight: bold;\n letter-spacing: 1px;\n border: none;\n}\n\nbutton:hover {\n background-image: linear-gradient(90deg, #53cbef 0%, #dcc66c 50%, #ffa3b6 75%, #53cbef 100%);\n animation: slidernbw 5s linear infinite;\n color: #000;\n}\n\n@keyframes slidernbw {\n to {\n  background-position: 20vw;\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

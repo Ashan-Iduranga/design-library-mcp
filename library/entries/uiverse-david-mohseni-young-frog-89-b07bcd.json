@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-david-mohseni-young-frog-89-b07bcd",
+  "title": "Card by david-mohseni (young-frog-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/david-mohseni/young-frog-89",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "skeuomorphism",
+    "realistic",
+    "clock"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By david-mohseni on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/david-mohseni_young-frog-89.html",
+  "code": "<div class=\"face\">\n    <p class=\"v-index\">II\n    </p>\n    <p class=\"h-index\">II\n    </p>\n    <div class=\"hand\">\n        <div class=\"hand\">\n            <div class=\"hour\"></div>\n            <div class=\"minute\"></div>\n            <div class=\"second\"></div>\n        </div>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by david-mohseni - Tags: skeuomorphism, card, realistic, clock */\n.face {\n  position: relative;\n  width: 180px;\n  height: 180px;\n  border-radius: 50%;\n  outline: 10px solid #333;\n  background: repeating-radial-gradient(circle at 50% 50%, \n  rgba(200,200,200,.2) 0%, rgba(200,200,200,.2) 2%, \n  transparent 2%, transparent 3%, rgba(200,200,200,.2) 3%, \n  transparent 3%), conic-gradient(white 0%, silver 10%, \n  white 35%, silver 45%, white 60%, silver 70%, \n  white 80%, silver 95%, white 100%);\n  box-shadow: inset 0 0 20px #0007;\n}\n\n.hour {\n  position: absolute;\n  width: 5px;\n  height: 60px;\n  background: #aaa;\n  left: 87.5px;\n  top: 43px;\n  border-radius: 3px 3px 1px 1px;\n  transform-origin: 2px 47px;\n  box-shadow: 0 0 5px #0005,inset 1.5px 3px 0px #333, inset -1.5px -3px 0px #333;\n  z-index: 1;\n  animation: watch 43200s linear infinite;\n}\n\n.minute {\n  position: absolute;\n  width: 4px;\n  height: 78px;\n  background: #aaa;\n  left: 88px;\n  top: 25px;\n  border-radius: 3px 3px 1px 1px;\n  transform-origin: 2px 65px;\n  box-shadow: 0 0 5px #0005, inset 1.5px 3px 0px #333, inset -1.5px -3px 0px #333;\n  z-index: 2;\n  animation: watch 3600s linear infinite;\n}\n\n.second {\n  position: absolute;\n  width: 10px;\n  height: 10px;\n  background: red;\n  left: 85px;\n  top: 85px;\n  border-radius: 50%;\n  border: 1px solid #eee;\n  z-index: 3;\n  animation: watch 60s steps(60, end) 0s infinite;\n}\n\n.second::before {\n  content: \"\";\n  position: absolute;\n  width: 1px;\n  height: 85px;\n  left: 3px;\n  bottom: -10px;\n  background: red;\n  border-radius: 2px;\n  box-shadow: 5px 0 2px rgba(128, 128, 128, 0.2);\n}\n\n.second::after {\n  content: \"\";\n  position: absolute;\n  width: 4px;\n  height: 4px;\n  left: 2px;\n  top: 2px;\n  background: #555;\n  border-radius: 50%;\n}\n\n.v-index {\n  position: absolute;\n  color: #333;\n  font-size: 24px;\n  left: 83.5px;\n  top: -3px;\n  text-shadow: 0 157px 0 #333;\n  z-index: 1\n}\n\n.h-index {\n  position: absolute;\n  color: #333;\n  font-size: 24px;\n  top: 72px;\n  left: 5px;\n  transform: rotate(-90deg);\n  text-shadow: 0 158px 0 #333;\n  z-index: 1;\n}\n\n@keyframes watch {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

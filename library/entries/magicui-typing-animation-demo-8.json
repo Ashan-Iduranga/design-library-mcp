@@ -1,0 +1,36 @@
+{
+  "id": "magicui-typing-animation-demo-8",
+  "title": "Typing Animation Cursor Styles (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/typing-animation",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "typing",
+    "animation",
+    "demo",
+    "8",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing different cursor styles (line, block, underscore).\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/typing-animation-demo-8.tsx",
+  "code": "import { TypingAnimation } from \"@/registry/magicui/typing-animation\"\n\nexport default function Component() {\n  return (\n    <div className=\"flex-1 space-y-8\">\n      <div>\n        <p className=\"text-muted-foreground mb-2 text-sm\">\n          Line cursor (default)\n        </p>\n        <TypingAnimation\n          words={[\"Line cursor\"]}\n          cursorStyle=\"line\"\n          loop\n          className=\"text-4xl font-bold\"\n        />\n      </div>\n      <div>\n        <p className=\"text-muted-foreground mb-2 text-sm\">\n          Block cursor (VSCode style)\n        </p>\n        <TypingAnimation\n          words={[\"Block cursor\"]}\n          cursorStyle=\"block\"\n          loop\n          className=\"text-4xl font-bold\"\n        />\n      </div>\n      <div>\n        <p className=\"text-muted-foreground mb-2 text-sm\">Underscore cursor</p>\n        <TypingAnimation\n          words={[\"Underscore cursor\"]}\n          cursorStyle=\"underscore\"\n          loop\n          className=\"text-4xl font-bold\"\n        />\n      </div>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

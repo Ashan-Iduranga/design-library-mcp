@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-boryanakrasteva-hard-pig-16-026150",
+  "title": "Input by boryanakrasteva (hard-pig-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/boryanakrasteva/hard-pig-16",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "search"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By boryanakrasteva on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/boryanakrasteva_hard-pig-16.html",
+  "code": "<div class=\"input-container\">\n  <input type=\"text\" name=\"text\" class=\"input\" placeholder=\"search...\">\n  <span class=\"icon\"> \n    <svg width=\"19px\" height=\"19px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <path opacity=\"1\" d=\"M14 5H20\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> <path opacity=\"1\" d=\"M14 8H17\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> <path d=\"M21 11.5C21 16.75 16.75 21 11.5 21C6.25 21 2 16.75 2 11.5C2 6.25 6.25 2 11.5 2\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> <path opacity=\"1\" d=\"M22 22L20 20\" stroke=\"#000\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> </g></svg>\n  </span>\n</div>\n<style>\n/* From Uiverse.io by boryanakrasteva - Tags: input, search */\n.input-container {\n  width: 220px;\n  position: relative;\n}\n\n.icon {\n  position: absolute;\n  right: 10px;\n  top: calc(50% + 5px);\n  transform: translateY(calc(-50% - 5px));\n}\n\n.input {\n  width: 100%;\n  height: 40px;\n  padding: 10px;\n  transition: .2s linear;\n  border: 2.5px solid black;\n  font-size: 14px;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n}\n\n.input:focus {\n  outline: none;\n  border: 0.5px solid black;\n  box-shadow: -5px -5px 0px black;\n}\n\n.input-container:hover > .icon {\n  animation: anim 1s linear infinite;\n}\n\n@keyframes anim {\n  0%,\n  100% {\n    transform: translateY(calc(-50% - 5px)) scale(1);\n  }\n\n  50% {\n    transform: translateY(calc(-50% - 5px)) scale(1.1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

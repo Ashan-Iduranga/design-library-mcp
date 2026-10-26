@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-doniaskima-brown-falcon-48-a8653a",
+  "title": "Button by doniaskima (brown-falcon-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/brown-falcon-48",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/doniaskima_brown-falcon-48.html",
+  "code": "<button class=\"btn-60\"><span>Button</span></button>\n\n<style>\n/* From Uiverse.io by doniaskima - Tags: button, animated */\n.btn-60,\n.btn-60 *,\n.btn-60 :after,\n.btn-60 :before,\n.btn-60:after,\n.btn-60:before {\n  border: 0 solid;\n  box-sizing: border-box;\n}\n\n.btn-60 {\n  -webkit-tap-highlight-color: transparent;\n  -webkit-appearance: button;\n  background-color: #000;\n  background-image: none;\n  color: #fff;\n  cursor: pointer;\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,\n    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,\n    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;\n  font-size: 100%;\n  line-height: 1.5;\n  margin: 0;\n  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);\n  padding: 0;\n}\n\n.btn-60:disabled {\n  cursor: default;\n}\n\n.btn-60:-moz-focusring {\n  outline: auto;\n}\n\n.btn-60 svg {\n  display: block;\n  vertical-align: middle;\n}\n\n.btn-60 [hidden] {\n  display: none;\n}\n\n.btn-60 {\n  background: none;\n  box-sizing: border-box;\n  color: #000;\n  display: block;\n  font-weight: 900;\n  -webkit-mask-image: none;\n  padding: 1.5rem 4rem;\n  position: relative;\n  text-transform: uppercase;\n}\n\n.btn-60 span {\n  background: #fff;\n  border: 1px solid;\n  border-radius: 999px;\n  display: grid;\n  inset: 0;\n  place-items: center;\n  pointer-events: none;\n  position: absolute;\n}\n\n.btn-60:hover span {\n  -webkit-animation: jello 0.8s;\n  animation: jello 0.8s;\n}\n\n@-webkit-keyframes jello {\n  0%,\n  11.1%,\n  to {\n    transform: translateZ(0);\n  }\n\n  22.2% {\n    transform: skewX(-12.5deg) skewY(-12.5deg);\n  }\n\n  33.3% {\n    transform: skewX(6.25deg) skewY(6.25deg);\n  }\n\n  44.4% {\n    transform: skewX(-3.125deg) skewY(-3.125deg);\n  }\n\n  55.5% {\n    transform: skewX(1.5625deg) skewY(1.5625deg);\n  }\n\n  66.6% {\n    transform: skewX(-0.78125deg) skewY(-0.78125deg);\n  }\n\n  77.7% {\n    transform: skewX(0.390625deg) skewY(0.390625deg);\n  }\n\n  88.8% {\n    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);\n  }\n}\n\n@keyframes jello {\n  0%,\n  11.1%,\n  to {\n    transform: translateZ(0);\n  }\n\n  22.2% {\n    transform: skewX(-12.5deg) skewY(-12.5deg);\n  }\n\n  33.3% {\n    transform: skewX(6.25deg) skewY(6.25deg);\n  }\n\n  44.4% {\n    transform: skewX(-3.125deg) skewY(-3.125deg);\n  }\n\n  55.5% {\n    transform: skewX(1.5625deg) skewY(1.5625deg);\n  }\n\n  66.6% {\n    transform: skewX(-0.78125deg) skewY(-0.78125deg);\n  }\n\n  77.7% {\n    transform: skewX(0.390625deg) skewY(0.390625deg);\n  }\n\n  88.8% {\n    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

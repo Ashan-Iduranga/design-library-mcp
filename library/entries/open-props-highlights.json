@@ -1,0 +1,32 @@
+{
+  "id": "open-props-highlights",
+  "title": "Open Props: Highlights tokens",
+  "source": "Open Props",
+  "url": "https://open-props.style/#highlights",
+  "license": "MIT",
+  "type": "token",
+  "tags": [
+    "highlights",
+    "open-props",
+    "css-variables",
+    "tokens"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "4 CSS custom properties, e.g. --highlight-size, --highlight-color, --highlight, --highlight-color.\n\nUse: npm i open-props, then @import \"open-props/highlights\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.highlights.css",
+  "code": ":where(html) {\n  --highlight-size: 10px;\n  --highlight-color: hsl(0 0% 0% / 20%);\n\n  --highlight: \n    0 0 0 \n    var(--highlight-size) \n    var(--highlight-color)\n  ;\n\n  @media (--OSdark) {\n    --highlight-color: hsl(0 0% 100% / 20%);\n  }\n}",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

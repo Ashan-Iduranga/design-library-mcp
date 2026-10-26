@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-andrew-demchenk0-nasty-rabbit-89-f97d5d",
+  "title": "Button by andrew-demchenk0 (nasty-rabbit-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/nasty-rabbit-89",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/andrew-demchenk0_nasty-rabbit-89.html",
+  "code": "<button>\n  <span class=\"text\">FIRE !!!</span>\n  <span class=\"bullet\"></span>\n</button>\n\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: button */\nbutton {\n  padding: 0 15px 0 15px;\n  font-size: 17px;\n  font-weight: 700;\n  text-shadow: 1px 1px 2.3px rgba(255,255,255, 0.8);\n  position: relative;\n  width: 150px;\n  height: 40px;\n  border-radius: 100% 9% 9% 100% / 0% 100% 100% 0%;\n  border: none;\n  background-image: linear-gradient(\n                    180deg, #CDB373, #795E2B,\n                    #AD8D53, #FFFAB7, #795D2F,\n                    #614818, #BC9859, #876A35,\n                    #736141);\n}\n\nbutton::before {\n  content: '';\n  height: 44px;\n  width: 10px;\n  position: absolute;\n  top: -4.7%;\n  left: -5.9%;\n  border-radius: 100% 31% 28% 100% / 0% 100% 100% 0%;\n  background-image: linear-gradient(\n                    180deg, #CDB373, #795E2B,\n                    #AD8D53, #FFFAB7, #795D2F,\n                    #614818, #BC9859, #876A35,\n                    #736141);\n}\n\n.bullet {\n  height: 38px;\n  width: 60px;\n  position: absolute;\n  top: 3%;\n  left: 95%;\n  border-radius: 10% 100% 100% 10% / 10% 50% 50% 10%;\n  background-image: linear-gradient(\n                    180deg, #512614, #A1623A,\n                    #BA7447, #EDC38B, #B27449,\n                    #DDAB77, #EAC4AE, #B67E4E,\n                    #5B2D17, #44271C);\n  z-index: -1;\n}\n\nbutton:active .bullet {\n  left: 115%;\n  transition: all 0.2s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

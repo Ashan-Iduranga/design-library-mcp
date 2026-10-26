@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-thin-turkey-8-5e7b10",
+  "title": "Loader by Shoh2008 (thin-turkey-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/thin-turkey-8",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_thin-turkey-8.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 70px;\n  height: 35px;\n  position: relative;\n  overflow: hidden;\n}\n\n.loader:before {\n  content: \"\";\n  width: 70px;\n  height: 70px;\n  position: absolute;\n  left: 0;\n  top: 0;\n  border: 5px solid #0000;\n  border-color: #fff #fff #0000 #0000;\n  border-radius: 50%;\n  box-sizing: border-box;\n  animation: rotate_5131 3s ease-in-out infinite;\n  transform: rotate(-200deg);\n}\n\n@keyframes rotate_5131 {\n  0% {\n    border-width: 10px;\n  }\n\n  25% {\n    border-width: 3px;\n  }\n\n  50% {\n    transform: rotate(115deg);\n    border-width: 10px;\n  }\n\n  75% {\n    border-width: 3px;\n  }\n\n  100% {\n    border-width: 10px;\n  }\n}\n      \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

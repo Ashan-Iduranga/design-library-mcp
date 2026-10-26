@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-toast-positioning",
+  "title": "Toast: Positioning (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/toast/#positioning",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "toast",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the `fixed` class from Tailwind CSS to position these toast components relative to the main content wrapper element from your document:\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/toast.md",
+  "code": "<div id=\"toast-top-left\" class=\"fixed flex items-center w-full max-w-xs p-4 text-body bg-neutral-primary-soft rounded-base shadow-xs border border-default top-5 start-5\" role=\"alert\">\n    <div class=\"text-sm font-normal\">Top left positioning.</div>\n</div>\n<div id=\"toast-top-right\" class=\"fixed flex items-center w-full max-w-xs p-4 text-body bg-neutral-primary-soft rounded-base shadow-xs border border-default top-5 end-5\" role=\"alert\">\n    <div class=\"text-sm font-normal\">Top right positioning.</div>\n</div>\n<div id=\"toast-bottom-right\" class=\"fixed flex items-center w-full max-w-xs p-4 text-body bg-neutral-primary-soft rounded-base shadow-xs border border-default end-5 bottom-5\" role=\"alert\">\n    <div class=\"text-sm font-normal\">Bottom right positioning.</div>\n</div>\n<div id=\"toast-bottom-left\" class=\"fixed flex items-center w-full max-w-xs p-4 text-body bg-neutral-primary-soft rounded-base shadow-xs border border-default bottom-5 start-5\" role=\"alert\">\n    <div class=\"text-sm font-normal\">Bottom left positioning.</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

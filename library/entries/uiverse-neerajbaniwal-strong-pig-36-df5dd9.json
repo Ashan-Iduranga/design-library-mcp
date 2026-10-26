@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-neerajbaniwal-strong-pig-36-df5dd9",
+  "title": "Button by neerajbaniwal (strong-pig-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/neerajbaniwal/strong-pig-36",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By neerajbaniwal on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/neerajbaniwal_strong-pig-36.html",
+  "code": "<button class=\"button\"><span>➢</span> Button</button>\n\n<style>\n/* From Uiverse.io by neerajbaniwal  - Tags: simple, button, 3d button */\n.button {\n  display: inline-flex;\n  align-items: center;\n  padding: 15px 40px;\n  background-color: #fefefe;\n  border: 1px solid #dcdcdc;\n  border-radius: 12px;\n\n  font-family: \"Ubuntu\", sans-serif;\n  font-size: 16px;\n  font-weight: bold;\n  color: #333;\n  cursor: pointer;\n  text-decoration: none;\n  transition: all 0.3s ease;\n  position: relative;\n  overflow: hidden;\n  z-index: 0;\n  outline: 2px solid #fafafa;\n  box-shadow: 9px 9px 44px #cecece3a, -9px -9px 44px #d3d3d33d,\n    inset 0 0 0 2px rgba(192, 192, 192, 0.25);\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 3px;\n  left: 3px;\n  right: 3px;\n  bottom: 3px;\n  border-radius: 30px;\n  background: linear-gradient(\n    0deg,\n    #fbfbfb 0%,\n    #fafafa 5%,\n    #f7f7f7 72%,\n    #f2f2f2 86%,\n    #f0f0f0 100%\n  );\n  box-shadow: inset 0 2px 7px rgba(143, 143, 143, 0.16);\n  transition: all 0.3s ease;\n  z-index: -1;\n  margin: 2px;\n}\n\n.button:focus {\n  outline: 2px solid #fefefe;\n  box-shadow: 9px 9px 44px #cecece3a, -9px -9px 44px #d3d3d33d,\n    inset 0 0 0 2px rgba(192, 192, 192, 0.5);\n}\n\n.send-icon {\n  margin-right: 5px;\n  transition: transform 0.3s ease;\n}\n\n.button:hover span {\n  transform: translateX(7px);\n  transition: all 0.4s;\n}\n\n.button span {\n  transform: rotate(-40deg);\n  margin-right: 10px;\n  transition: all 0.4s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

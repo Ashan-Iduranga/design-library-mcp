@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-native-select-demo",
+  "title": "Native Select Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/native-select-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "native",
+    "select",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A styled native HTML select element with consistent design system integration.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/native-select-demo.tsx",
+  "code": "import {\n  NativeSelect,\n  NativeSelectOption,\n} from \"@/registry/new-york-v4/ui/native-select\"\n\nexport default function NativeSelectDemo() {\n  return (\n    <NativeSelect>\n      <NativeSelectOption value=\"\">Select status</NativeSelectOption>\n      <NativeSelectOption value=\"todo\">Todo</NativeSelectOption>\n      <NativeSelectOption value=\"in-progress\">In Progress</NativeSelectOption>\n      <NativeSelectOption value=\"done\">Done</NativeSelectOption>\n      <NativeSelectOption value=\"cancelled\">Cancelled</NativeSelectOption>\n    </NativeSelect>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

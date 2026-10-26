@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bocikond-dull-mole-77-c15090",
+  "title": "Form by bociKond (dull-mole-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/bociKond/dull-mole-77",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By bociKond on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/bociKond_dull-mole-77.html",
+  "code": "<form class=\"form\">\n  <span class=\"input-span\">\n  <label for=\"email\" class=\"label\">Email</label>\n  <input type=\"email\" name=\"email\" id=\"email\"></span>\n  <span class=\"input-span\">\n  <label for=\"password\" class=\"label\">Password</label>\n  <input type=\"password\" name=\"password\" id=\"password\"></span>\n  <span class=\"span\"><a href=\"#\">Forgot password?</a></span>\n  <input class=\"submit\" type=\"submit\" value=\"Log in\">\n  <span class=\"span\">Don't have an account? <a href=\"#\">Sign up</a></span>\n</form>\n<style>\n/* From Uiverse.io by bociKond - Source: https://dribbble.com/shots/21363706-Haze-Website-Log-in-Page - Tags: form, hover, focus, submit, label */\nform {\n  --bg-light: #efefef;\n  --bg-dark: #707070;\n  --clr: #58BC82;\n  --clr-alpha: #9c9c9c60;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 1rem;\n  width: 100%;\n}\n\n.form .input-span {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  gap: .5rem;\n}\n\nform input[type=\"email\"],\nform input[type=\"password\"] {\n  border-radius: 0.5rem;\n  padding: 1rem 0.75rem;\n  width: 100%;\n  border: none;\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  background-color: var(--clr-alpha);\n  outline: 2px solid var(--bg-dark);\n}\n\nform input[type=\"email\"]:focus,\nform input[type=\"password\"]:focus {\n  outline: 2px solid var(--clr);\n}\n\n.label {\n  align-self: flex-start;\n  color: var(--clr);\n  font-weight: 600;\n}\n\nform .submit {\n  padding: 1rem 0.75rem;\n  width: 100%;\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  border-radius: 3rem;\n  background-color: var(--bg-dark);\n  color: var(--bg-light);\n  border: none;\n  cursor: pointer;\n  transition: all 300ms;\n  font-weight: 600;\n  font-size: .9rem;\n}\n\nform .submit:hover {\n  background-color: var(--clr);\n  color: var(--bg-dark);\n}\n\n.span {\n  text-decoration: none;\n  color: var(--bg-dark);\n}\n\n.span a {\n  color: var(--clr);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

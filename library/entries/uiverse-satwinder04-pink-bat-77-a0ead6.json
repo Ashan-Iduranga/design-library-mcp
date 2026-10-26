@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satwinder04-pink-bat-77-a0ead6",
+  "title": "Input by Satwinder04 (pink-bat-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Satwinder04/pink-bat-77",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Satwinder04 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Satwinder04_pink-bat-77.html",
+  "code": "<div class=\"input-container\">\n  <input type=\"text\" id=\"input\" required=\"\">\n  <label for=\"input\" class=\"label\">Enter Text</label>\n  <div class=\"underline\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by Satwinder04 - Tags: input */\n.input-container {\n  position: relative;\n  margin: 50px auto;\n  width: 200px;\n}\n\n.input-container input[type=\"text\"] {\n  font-size: 20px;\n  width: 100%;\n  border: none;\n  border-bottom: 2px solid #ccc;\n  padding: 5px 0;\n  background-color: transparent;\n  outline: none;\n}\n\n.input-container .label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  color: #ccc;\n  transition: all 0.3s ease;\n  pointer-events: none;\n}\n\n.input-container input[type=\"text\"]:focus ~ .label,\n.input-container input[type=\"text\"]:valid ~ .label {\n  top: -20px;\n  font-size: 16px;\n  color: #333;\n}\n\n.input-container .underline {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  height: 2px;\n  width: 100%;\n  background-color: #333;\n  transform: scaleX(0);\n  transition: all 0.3s ease;\n}\n\n.input-container input[type=\"text\"]:focus ~ .underline,\n.input-container input[type=\"text\"]:valid ~ .underline {\n  transform: scaleX(1);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

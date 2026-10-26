@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-g4b413l-angry-snail-76-552534",
+  "title": "Loader by G4b413l (angry-snail-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/angry-snail-76",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/G4b413l_angry-snail-76.html",
+  "code": "<div class=\"superballs\">\n    <div class=\"superballs__dot\"></div>\n    <div class=\"superballs__dot\"></div>\n</div>\n<style>\n/* From Uiverse.io by G4b413l - Tags: loader */\n.superballs {\n  --uib-size: 45px;\n  --uib-speed: 1.1s;\n  --uib-color: #3b3b23;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: var(--uib-size);\n  width: var(--uib-size);\n}\n\n.superballs__dot {\n  position: absolute;\n  top: 0;\n  left: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  width: 100%;\n}\n\n.superballs__dot::before {\n  content: '';\n  height: 30%;\n  width: 30%;\n  border-radius: 50%;\n  background-color: var(--uib-color);\n  will-change: transform;\n  flex-shrink: 0;\n}\n\n.superballs__dot:nth-child(1) {\n  transform: rotate(45deg);\n}\n\n.superballs__dot:nth-child(1)::before {\n  animation: orbit82140 var(--uib-speed) linear calc(var(--uib-speed) * -0.143)\n    infinite;\n}\n\n.superballs__dot:nth-child(2) {\n  transform: rotate(-45deg);\n}\n\n.superballs__dot:nth-child(2)::before {\n  animation: orbit82140 var(--uib-speed) linear calc(var(--uib-speed) / -2)\n    infinite;\n}\n\n@keyframes orbit82140 {\n  0% {\n    transform: translate(calc(var(--uib-size) * 0.5)) scale(0.73684);\n    opacity: 0.65;\n  }\n\n  5% {\n    transform: translate(calc(var(--uib-size) * 0.4)) scale(0.684208);\n    opacity: 0.58;\n  }\n\n  10% {\n    transform: translate(calc(var(--uib-size) * 0.3)) scale(0.631576);\n    opacity: 0.51;\n  }\n\n  15% {\n    transform: translate(calc(var(--uib-size) * 0.2)) scale(0.578944);\n    opacity: 0.44;\n  }\n\n  20% {\n    transform: translate(calc(var(--uib-size) * 0.1)) scale(0.526312);\n    opacity: 0.37;\n  }\n\n  25% {\n    transform: translate(0%) scale(0.47368);\n    opacity: 0.3;\n  }\n\n  30% {\n    transform: translate(calc(var(--uib-size) * -0.1)) scale(0.526312);\n    opacity: 0.37;\n  }\n\n  35% {\n    transform: translate(calc(var(--uib-size) * -0.2)) scale(0.578944);\n    opacity: 0.44;\n  }\n\n  40% {\n    transform: translate(calc(var(--uib-size) * -0.3)) scale(0.631576);\n    opacity: 0.51;\n  }\n\n  45% {\n    transform: translate(calc(var(--uib-size) * -0.4)) scale(0.684208);\n    opacity: 0.58;\n  }\n\n  50% {\n    transform: translate(calc(var(--uib-size) * -0.5)) scale(0.73684);\n    opacity: 0.65;\n  }\n\n  55% {\n    transform: translate(calc(var(--uib-size) * -0.4)) scale(0.789472);\n    opacity: 0.72;\n  }\n\n  60% {\n    transform: translate(calc(var(--uib-size) * -0.3)) scale(0.842104);\n    opacity: 0.79;\n  }\n\n  65% {\n    transform: translate(calc(var(--uib-size) * -0.2)) scale(0.894736);\n    opacity: 0.86;\n  }\n\n  70% {\n    transform: translate(calc(var(--uib-size) * -0.1)) scale(0.947368);\n    opacity: 0.93;\n  }\n\n  75% {\n    transform: translate(0%) scale(1);\n    opacity: 1;\n  }\n\n  80% {\n    transform: translate(calc(var(--uib-size) * 0.1)) scale(0.947368);\n    opacity: 0.93;\n  }\n\n  85% {\n    transform: translate(calc(var(--uib-size) * 0.2)) scale(0.894736);\n    opacity: 0.86;\n  }\n\n  90% {\n    transform: translate(calc(var(--uib-size) * 0.3)) scale(0.842104);\n    opacity: 0.79;\n  }\n\n  95% {\n    transform: translate(calc(var(--uib-size) * 0.4)) scale(0.789472);\n    opacity: 0.72;\n  }\n\n  100% {\n    transform: translate(calc(var(--uib-size) * 0.5)) scale(0.73684);\n    opacity: 0.65;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

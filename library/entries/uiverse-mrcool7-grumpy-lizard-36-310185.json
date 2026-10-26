@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mrcool7-grumpy-lizard-36-310185",
+  "title": "Pattern by mRcOol7 (grumpy-lizard-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mRcOol7/grumpy-lizard-36",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "pink",
+    "black"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mRcOol7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/mRcOol7_grumpy-lizard-36.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by mRcOol7  - Tags: pink, black, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 150px;\n  --c1: #282c34;\n  --c2: #3e4149;\n  --c3: #525762;\n  --c4: #ff6384;\n  --c5: #36a2eb;\n  --c6: #4bc0c0;\n  --c7: #ffcc29;\n  --c8: #8e8f91;\n  --c9: #626262;\n\n  background: repeating-conic-gradient(\n        from 30deg,\n        #0000 0 120deg,\n        var(--c3) 0 180deg\n      )\n      calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),\n    repeating-conic-gradient(\n      from 30deg,\n      var(--c1) 0 45deg,\n      var(--c2) 0 90deg,\n      var(--c3) 0 135deg,\n      var(--c4) 0 180deg,\n      var(--c5) 0 225deg,\n      var(--c6) 0 270deg,\n      var(--c7) 0 315deg,\n      var(--c8) 0 360deg,\n      var(--c9) 0 405deg\n    );\n  background-size: var(--s) calc(var(--s) * 0.577);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

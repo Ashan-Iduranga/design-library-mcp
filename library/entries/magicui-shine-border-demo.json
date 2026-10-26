@@ -1,0 +1,36 @@
+{
+  "id": "magicui-shine-border-demo",
+  "title": "Shine Border Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/shine-border",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "shine",
+    "border",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing an animated shining border effect.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/shine-border-demo.tsx",
+  "code": "import { Button } from \"@/components/ui/button\"\nimport {\n  Card,\n  CardContent,\n  CardDescription,\n  CardFooter,\n  CardHeader,\n  CardTitle,\n} from \"@/components/ui/card\"\nimport { Input } from \"@/components/ui/input\"\nimport { Label } from \"@/components/ui/label\"\nimport { ShineBorder } from \"@/registry/magicui/shine-border\"\n\nexport default function ShineBorderDemo() {\n  return (\n    <Card className=\"relative w-full max-w-[350px] overflow-hidden\">\n      <ShineBorder shineColor={[\"#A07CFE\", \"#FE8FB5\", \"#FFBE7B\"]} />\n      <CardHeader>\n        <CardTitle>Login</CardTitle>\n        <CardDescription>\n          Enter your credentials to access your account\n        </CardDescription>\n      </CardHeader>\n      <CardContent>\n        <form>\n          <div className=\"grid gap-4\">\n            <div className=\"grid gap-2\">\n              <Label htmlFor=\"email\">Email</Label>\n              <Input id=\"email\" type=\"email\" placeholder=\"name@example.com\" />\n            </div>\n            <div className=\"grid gap-2\">\n              <Label htmlFor=\"password\">Password</Label>\n              <Input id=\"password\" type=\"password\" />\n            </div>\n          </div>\n        </form>\n      </CardContent>\n      <CardFooter>\n        <Button className=\"w-full\">Sign In</Button>\n      </CardFooter>\n    </Card>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

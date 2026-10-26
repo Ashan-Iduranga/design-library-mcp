@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-alexruix-tame-fly-42-65948b",
+  "title": "Loader by alexruix (tame-fly-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/tame-fly-42",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/alexruix_tame-fly-42.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by alexruix - Tags: loader */\n.loader {\n  position: relative;\n  width: 120px;\n  height: 90px;\n  margin: 0 auto;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  bottom: 30px;\n  left: 50px;\n  height: 30px;\n  width: 30px;\n  border-radius: 50%;\n  background: #2a9d8f;\n  animation: loading-bounce 0.5s ease-in-out infinite alternate;\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  right: 0;\n  top: 0;\n  height: 7px;\n  width: 45px;\n  border-radius: 4px;\n  box-shadow: 0 5px 0 #f2f2f2, -35px 50px 0 #f2f2f2, -70px 95px 0 #f2f2f2;\n  animation: loading-step 1s ease-in-out infinite;\n}\n\n@keyframes loading-bounce {\n  0% {\n    transform: scale(1, 0.7);\n  }\n\n  40% {\n    transform: scale(0.8, 1.2);\n  }\n\n  60% {\n    transform: scale(1, 1);\n  }\n\n  100% {\n    bottom: 140px;\n  }\n}\n\n@keyframes loading-step {\n  0% {\n    box-shadow: 0 10px 0 rgba(0, 0, 0, 0),\n            0 10px 0 #f2f2f2,\n            -35px 50px 0 #f2f2f2,\n            -70px 90px 0 #f2f2f2;\n  }\n\n  100% {\n    box-shadow: 0 10px 0 #f2f2f2,\n            -35px 50px 0 #f2f2f2,\n            -70px 90px 0 #f2f2f2,\n            -70px 90px 0 rgba(0, 0, 0, 0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

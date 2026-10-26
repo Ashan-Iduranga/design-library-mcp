@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-na3ar-17-shy-firefox-86-9b90fc",
+  "title": "Button by Na3ar-17 (shy-firefox-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Na3ar-17/shy-firefox-86",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "icon",
+    "animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Na3ar-17 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Na3ar-17_shy-firefox-86.html",
+  "code": "<button class=\"button\">\n  <svg\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    height=\"24\"\n    width=\"24\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    aria-hidden=\"true\"\n    class=\"icon\"\n  >\n    <path\n      d=\"M5 12h14m-7 7V5\"\n      stroke-width=\"2\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      stroke=\"currentColor\"\n    ></path>\n  </svg>\n\n  Create Task\n</button>\n\n<style>\n/* From Uiverse.io by Na3ar-17  - Tags: simple, icon, animation, button */\n.button {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 18px;\n  cursor: pointer;\n  transition: all 0.2s ease;\n  display: flex;\n  align-items: center;\n  font-weight: 500;\n  background-color: #268bff;\n  color: white;\n  border: none;\n  gap: 2px;\n  border-radius: 8px;\n  padding: 4px 8px;\n}\n\n.button .icon {\n  width: 20px;\n}\n\n.button:hover {\n  background-color: #268bffaf;\n}\n.button:active {\n  transform: translateY(2px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-cssbuttons-io-tame-panda-59-82e3fe",
+  "title": "Button by cssbuttons-io (tame-panda-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cssbuttons-io/tame-panda-59",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "ukraine"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cssbuttons-io on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/cssbuttons-io_tame-panda-59.html",
+  "code": "<button>\n  <span class=\"button-content\">\n    <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 0H24V24H0z\" fill=\"none\"></path><path d=\"M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228z\" fill=\"currentColor\"></path></svg> Ukraine\n  </span>\n</button>\n<style>\n/* From Uiverse.io by cssbuttons-io - Tags: button, ukraine */\nbutton {\n font-size: 17px;\n font-family: inherit;\n font-weight: 700;\n padding: 4px;\n border-radius: 20px;\n border: none;\n color: black;\n box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;\n background: linear-gradient(0deg, rgba(255,213,0,1) 0%, rgba(255,213,0,1) 47%, rgba(0,91,187,1) 47%, rgba(0,91,187,1) 100%);\n}\n\nbutton .button-content {\n display: flex;\n align-items: center;\n background: white;\n padding: 0.7em 1.5em;\n padding-left: 1.2em;\n border-radius: 16px;\n}\n\nbutton svg {\n width: 22px;\n height: 22px;\n margin-right: 6px;\n color: #ff0000;\n transition: transform 0.3s;\n}\n\nbutton:hover svg {\n transform: scale(1.2);\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

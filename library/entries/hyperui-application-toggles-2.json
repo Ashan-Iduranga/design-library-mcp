@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-toggles-2",
+  "title": "Toggles: Base with icon",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/toggles",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "toggles",
+    "hyperui",
+    "form",
+    "switch"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/toggles/2.html",
+  "code": "<div class=\"flex justify-center p-6\">\n<label class=\"group relative block h-8 w-14 rounded-full bg-gray-300 transition-colors [-webkit-tap-highlight-color:transparent] has-checked:bg-green-500\" for=\"AcceptConditions\">\n<input class=\"peer sr-only\" id=\"AcceptConditions\" type=\"checkbox\"/>\n<span class=\"absolute inset-y-0 start-0 m-1 grid size-6 place-content-center rounded-full bg-white text-gray-700 transition-[inset-inline-start] peer-checked:start-6 peer-checked:*:first:hidden *:last:hidden peer-checked:*:last:block\">\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6 18 18 6M6 6l12 12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"m4.5 12.75 6 6 9-13.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n</span>\n</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

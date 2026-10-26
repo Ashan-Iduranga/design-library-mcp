@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yashasewi-evil-dog-33-f91063",
+  "title": "Button by Yashasewi (evil-dog-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yashasewi/evil-dog-33",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yashasewi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Yashasewi_evil-dog-33.html",
+  "code": "<div class=\"item button-parrot\" style=\"--bg-color: #2c3e50\">\n    <button>Click Me!\n      <div class=\"parrot\"></div>\n      <div class=\"parrot\"></div>\n      <div class=\"parrot\"></div>\n      <div class=\"parrot\"></div>\n      <div class=\"parrot\"></div>\n      <div class=\"parrot\"></div>\n    </button>\n  </div>\n<style>\n/* From Uiverse.io by Yashasewi - Tags: button */\nbutton {\n  background: transparent;\n  color: #fff;\n  border: 3px solid #fff;\n  border-radius: 50px;\n  padding: 0.8rem 2rem;\n  font: 18px \"Margarine\", sans-serif;\n  outline: none;\n  cursor: pointer;\n  position: relative;\n  transition: 0.2s ease-in-out;\n  letter-spacing: 2px;\n}\n\n.name {\n  width: 100%;\n  text-align: center;\n  padding: 0 0 3rem;\n  padding-top: 4rem;\n  font: 500 14px \"Rubik\", sans-serif;\n  letter-spacing: 0.5px;\n  text-transform: uppercase;\n  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);\n}\n\n.button-parrot .parrot {\n  position: absolute;\n  width: 60px;\n  text-align: center;\n  animation: blink 0.8s infinite;\n  color: transparent;\n}\n\n.button-parrot .parrot:before {\n  content: \"Click Me!\";\n}\n\n.button-parrot .parrot:nth-child(1) {\n  top: -30px;\n  left: -40px;\n  font: 12px/1 \"Margarine\", sans-serif;\n  transform: rotate(-20deg);\n  animation-duration: 0.5s;\n}\n\n.button-parrot .parrot:nth-child(2) {\n  font: 12px/1 \"Margarine\", sans-serif;\n  right: -40px;\n  top: -20px;\n  transform: rotate(15deg);\n  animation-duration: 0.3s;\n}\n\n.button-parrot .parrot:nth-child(3) {\n  font: 16px/1 \"Margarine\", sans-serif;\n  top: -60px;\n  left: 15px;\n  transform: rotate(10deg);\n  animation-duration: 1s;\n}\n\n.button-parrot .parrot:nth-child(4) {\n  font: 18px/1 \"Margarine\", sans-serif;\n  top: -70px;\n  left: 95px;\n  transform: rotate(2deg);\n  animation-duration: 0.7s;\n}\n\n.button-parrot .parrot:nth-child(5) {\n  font: 14px/1 \"Margarine\", sans-serif;\n  top: 80px;\n  left: 105px;\n  transform: rotate(-20deg);\n  animation-duration: 0.8s;\n}\n\n.button-parrot .parrot:nth-child(6) {\n  font: 12px/1 \"Margarine\", sans-serif;\n  top: 80px;\n  left: 5px;\n  transform: rotate(10deg);\n  animation-duration: 1.2s;\n}\n\n.button-parrot button:hover .parrot:before {\n  content: \"Do it!\";\n  width: 70px;\n}\n\n@keyframes blink {\n  25%, 75% {\n    color: transparent;\n  }\n\n  40%, 60% {\n    color: #fff;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

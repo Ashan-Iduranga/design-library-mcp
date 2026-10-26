@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-tooltip-demo",
+  "title": "Tooltip Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/tooltip-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "tooltip",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/tooltip-demo.tsx",
+  "code": "import { Button } from \"@/registry/new-york-v4/ui/button\"\nimport {\n  Tooltip,\n  TooltipContent,\n  TooltipTrigger,\n} from \"@/registry/new-york-v4/ui/tooltip\"\n\nexport default function TooltipDemo() {\n  return (\n    <Tooltip>\n      <TooltipTrigger asChild>\n        <Button variant=\"outline\">Hover</Button>\n      </TooltipTrigger>\n      <TooltipContent>\n        <p>Add to library</p>\n      </TooltipContent>\n    </Tooltip>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

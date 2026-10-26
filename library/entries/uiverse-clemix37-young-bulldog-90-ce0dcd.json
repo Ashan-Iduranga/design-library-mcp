@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-clemix37-young-bulldog-90-ce0dcd",
+  "title": "Loader by Clemix37 (young-bulldog-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Clemix37/young-bulldog-90",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Clemix37 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Clemix37_young-bulldog-90.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Clemix37 - Tags: loader */\n.loader {\n width: 60px;\n height: 60px;\n}\n\n.loader::before {\n content: \"\";\n box-sizing: border-box;\n position: absolute;\n width: 60px;\n height: 60px;\n border-radius: 50%;\n border-top: 2px solid #8900FF;\n border-right: 2px solid transparent;\n animation: spinner8217 0.8s linear infinite;\n}\n\n@keyframes spinner8217 {\n to {\n  transform: rotate(360deg);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

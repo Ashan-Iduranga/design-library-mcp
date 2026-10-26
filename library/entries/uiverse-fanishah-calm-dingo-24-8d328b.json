@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-fanishah-calm-dingo-24-8d328b",
+  "title": "Loader by fanishah (calm-dingo-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/fanishah/calm-dingo-24",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "bicycle"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By fanishah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/fanishah_calm-dingo-24.html",
+  "code": "<div>\n  <svg class=\"loader\" viewBox=\"0 0 48 30\" width=\"48px\" height=\"30px\">\n  <g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\">\n    <g transform=\"translate(9.5,19)\">\n      <circle class=\"loader_tire\" r=\"9\" stroke-dasharray=\"56.549 56.549\"></circle>\n      <g class=\"loader_spokes-spin\" stroke-dasharray=\"31.416 31.416\" stroke-dashoffset=\"-23.562\">\n        <circle class=\"loader_spokes\" r=\"5\"></circle>\n        <circle class=\"loader_spokes\" r=\"5\" transform=\"rotate(180,0,0)\"></circle>\n      </g>\n    </g>\n    <g transform=\"translate(24,19)\">\n      <g class=\"loader_pedals-spin\" stroke-dasharray=\"25.133 25.133\" stroke-dashoffset=\"-21.991\" transform=\"rotate(67.5,0,0)\">\n        <circle class=\"loader_pedals\" r=\"4\"></circle>\n        <circle class=\"loader_pedals\" r=\"4\" transform=\"rotate(180,0,0)\"></circle>\n      </g>\n    </g>\n    <g transform=\"translate(38.5,19)\">\n      <circle class=\"loader_tire\" r=\"9\" stroke-dasharray=\"56.549 56.549\"></circle>\n      <g class=\"loader_spokes-spin\" stroke-dasharray=\"31.416 31.416\" stroke-dashoffset=\"-23.562\">\n        <circle class=\"loader_spokes\" r=\"5\"></circle>\n        <circle class=\"loader_spokes\" r=\"5\" transform=\"rotate(180,0,0)\"></circle>\n      </g>\n    </g>\n    <polyline class=\"loader_seat\" points=\"14 3,18 3\" stroke-dasharray=\"5 5\"></polyline>\n    <polyline class=\"loader_body\" points=\"16 3,24 19,9.5 19,18 8,34 7,24 19\" stroke-dasharray=\"79 79\"></polyline>\n    <path class=\"loader_handlebars\" d=\"m30,2h6s1,0,1,1-1,1-1,1\" stroke-dasharray=\"10 10\"></path>\n    <polyline class=\"loader_front\" points=\"32.5 2,38.5 19\" stroke-dasharray=\"19 19\"></polyline>\n  </g>\n</svg>\n</div>\n<style>\n/* From Uiverse.io by fanishah - Tags: loading, loader, bicycle */\n.loader {\n  display: block;\n  width: 150px;\n  height: auto;\n}\n\n.loader_body,\n  .loader_front,\n  .loader_handlebars,\n  .loader_pedals,\n  .loader_pedals-spin,\n  .loader_seat,\n  .loader_spokes,\n  .loader_spokes-spin,\n  .loader_tire {\n  animation: bikeBody 3s ease-in-out infinite;\n  stroke: var(--primary);\n  transition: stroke var(--trans-dur);\n}\n\n.loader_front {\n  animation-name: bikeFront;\n}\n\n.loader_handlebars {\n  animation-name: bikeHandlebars;\n}\n\n.loader_pedals {\n  animation-name: bikePedals;\n}\n\n.loader_pedals-spin {\n  animation-name: bikePedalsSpin;\n}\n\n.loader_seat {\n  animation-name: bikeSeat;\n}\n\n.loader_spokes,\n  .loader_tire {\n  stroke: currentColor;\n}\n\n.loader_spokes {\n  animation-name: bikeSpokes;\n}\n\n.loader_spokes-spin {\n  animation-name: bikeSpokesSpin;\n}\n\n.loader_tire {\n  animation-name: bikeTire;\n}\n\n  /* Dark theme */\n@media (prefers-color-scheme: dark) {\n  :root {\n    --bg: hsl(var(--hue), 90%, 10%);\n    --fg: hsl(var(--hue), 90%, 90%);\n  }\n}\n\n  /* Animations */\n@keyframes bikeBody {\n  from {\n    stroke-dashoffset: 79;\n  }\n\n  33%,\n    67% {\n    stroke-dashoffset: 0;\n  }\n\n  to {\n    stroke-dashoffset: -79;\n  }\n}\n\n@keyframes bikeFront {\n  from {\n    stroke-dashoffset: 19;\n  }\n\n  33%,\n    67% {\n    stroke-dashoffset: 0;\n  }\n\n  to {\n    stroke-dashoffset: -19;\n  }\n}\n\n@keyframes bikeHandlebars {\n  from {\n    stroke-dashoffset: 10;\n  }\n\n  33%,\n    67% {\n    stroke-dashoffset: 0;\n  }\n\n  to {\n    stroke-dashoffset: -10;\n  }\n}\n\n@keyframes bikePedals {\n  from {\n    animation-timing-function: ease-in;\n    stroke-dashoffset: -25.133;\n  }\n\n  33%,\n    67% {\n    animation-timing-function: ease-out;\n    stroke-dashoffset: -21.991;\n  }\n\n  to {\n    stroke-dashoffset: -25.133;\n  }\n}\n\n@keyframes bikePedalsSpin {\n  from {\n    transform: rotate(0.1875turn);\n  }\n\n  to {\n    transform: rotate(3.1875turn);\n  }\n}\n\n@keyframes bikeSeat {\n  from {\n    stroke-dashoffset: 5;\n  }\n\n  33%,\n    67% {\n    stroke-dashoffset: 0;\n  }\n\n  to {\n    stroke-dashoffset: -5;\n  }\n}\n\n@keyframes bikeSpokes {\n  from {\n    animation-timing-function: ease-in;\n    stroke-dashoffset: -31.416;\n  }\n\n  33%,\n    67% {\n    animation-timing-function: ease-out;\n    stroke-dashoffset: -23.562;\n  }\n\n  to {\n    stroke-dashoffset: -31.416;\n  }\n}\n\n@keyframes bikeSpokesSpin {\n  from {\n    transform: rotate(0);\n  }\n\n  to {\n    transform: rotate(3turn);\n  }\n}\n\n@keyframes bikeTire {\n  from {\n    animation-timing-function: ease-in;\n    stroke-dashoffset: 56.549;\n    transform: rotate(0);\n  }\n\n  33% {\n    stroke-dashoffset: 0;\n    transform: rotate(0.33turn);\n  }\n\n  67% {\n    animation-timing-function: ease-out;\n    stroke-dashoffset: 0;\n    transform: rotate(0.67turn);\n  }\n\n  to {\n    stroke-dashoffset: -56.549;\n    transform: rotate(1turn);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

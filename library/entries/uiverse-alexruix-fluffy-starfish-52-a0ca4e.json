@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-alexruix-fluffy-starfish-52-a0ca4e",
+  "title": "Loader by alexruix (fluffy-starfish-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/fluffy-starfish-52",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/alexruix_fluffy-starfish-52.html",
+  "code": "<div class=\"loader\">\n  <div class=\"cell d-0\"></div>\n  <div class=\"cell d-1\"></div>\n  <div class=\"cell d-2\"></div>\n\n  <div class=\"cell d-1\"></div>\n  <div class=\"cell d-2\"></div>\n  \n  \n  <div class=\"cell d-2\"></div>\n  <div class=\"cell d-3\"></div>\n  \n  \n  <div class=\"cell d-3\"></div>\n  <div class=\"cell d-4\"></div>\n  \n  \n</div>\n<style>\n/* From Uiverse.io by alexruix - Tags: loader */\n.loader {\n  --cell-size: 52px;\n  --cell-spacing: 1px;\n  --cells: 3;\n  --total-size: calc(var(--cells) * (var(--cell-size) + 2 * var(--cell-spacing)));\n  display: flex;\n  flex-wrap: wrap;\n  width: var(--total-size);\n  height: var(--total-size);\n}\n\n.cell {\n  flex: 0 0 var(--cell-size);\n  margin: var(--cell-spacing);\n  background-color: transparent;\n  box-sizing: border-box;\n  border-radius: 4px;\n  animation: 1.5s ripple ease infinite;\n}\n\n.cell.d-1 {\n  animation-delay: 100ms;\n}\n\n.cell.d-2 {\n  animation-delay: 200ms;\n}\n\n.cell.d-3 {\n  animation-delay: 300ms;\n}\n\n.cell.d-4 {\n  animation-delay: 400ms;\n}\n\n.cell:nth-child(1) {\n  --cell-color: #00FF87;\n}\n\n.cell:nth-child(2) {\n  --cell-color: #0CFD95;\n}\n\n.cell:nth-child(3) {\n  --cell-color: #17FBA2;\n}\n\n.cell:nth-child(4) {\n  --cell-color: #23F9B2;\n}\n\n.cell:nth-child(5) {\n  --cell-color: #30F7C3;\n}\n\n.cell:nth-child(6) {\n  --cell-color: #3DF5D4;\n}\n\n.cell:nth-child(7) {\n  --cell-color: #45F4DE;\n}\n\n.cell:nth-child(8) {\n  --cell-color: #53F1F0;\n}\n\n.cell:nth-child(9) {\n  --cell-color: #60EFFF;\n}\n\n/*Animation*/\n@keyframes ripple {\n  0% {\n    background-color: transparent;\n  }\n\n  30% {\n    background-color: var(--cell-color);\n  }\n\n  60% {\n    background-color: transparent;\n  }\n\n  100% {\n    background-color: transparent;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

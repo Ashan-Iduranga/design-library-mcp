@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-ahmedyasserdev-funny-treefrog-48-e37755",
+  "title": "Input by ahmedyasserdev (funny-treefrog-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ahmedyasserdev/funny-treefrog-48",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "search",
+    "input-effect"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ahmedyasserdev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/ahmedyasserdev_funny-treefrog-48.html",
+  "code": "<!-- From Uiverse.io by ahmedyasserdev  - Tags: input, search, input effect  -->\n<form class=\"form relative\">\n  <button class=\"absolute left-2 -translate-y-1/2 top-1/2 p-1\">\n    <svg\n      width=\"17\"\n      height=\"16\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      role=\"img\"\n      aria-labelledby=\"search\"\n      class=\"w-5 h-5 text-gray-700\"\n    >\n      <path\n        d=\"M7.667 12.667A5.333 5.333 0 107.667 2a5.333 5.333 0 000 10.667zM14.334 14l-2.9-2.9\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.333\"\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n      ></path>\n    </svg>\n  </button>\n  <input\n    class=\"input rounded-full px-8 py-3 border-2 border-transparent focus:outline-none focus:border-blue-500 placeholder-gray-400 transition-all duration-300 shadow-md\"\n    placeholder=\"Search...\"\n    required=\"\"\n    type=\"text\"\n  />\n  <button type=\"reset\" class=\"absolute right-3 -translate-y-1/2 top-1/2 p-1\">\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      class=\"w-5 h-5 text-gray-700\"\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      stroke=\"currentColor\"\n    >\n      <path\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n        d=\"M6 18L18 6M6 6l12 12\"\n      ></path>\n    </svg>\n  </button>\n</form>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

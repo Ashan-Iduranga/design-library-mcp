@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-eddybel-slimy-penguin-36-503ebf",
+  "title": "Toggle by EddyBel (slimy-penguin-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/EddyBel/slimy-penguin-36",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By EddyBel on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/EddyBel_slimy-penguin-36.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\" class=\"input__check\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by EddyBel - Tags: switch */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n  transform-style: preserve-3d;\n  perspective: 500px;\n  animation: toggle__animation 3s infinite;\n}\n\n.switch::before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  left: 0;\n  top: 0;\n  filter: blur(20px);\n  z-index: -1;\n  border-radius: 50px;\n  background-color: #d8ff99;\n  background-image: radial-gradient(at 21% 46%, hsla(183,65%,60%,1) 0px, transparent 50%),\nradial-gradient(at 23% 25%, hsla(359,74%,70%,1) 0px, transparent 50%),\nradial-gradient(at 20% 1%, hsla(267,83%,75%,1) 0px, transparent 50%),\nradial-gradient(at 86% 87%, hsla(204,69%,68%,1) 0px, transparent 50%),\nradial-gradient(at 99% 41%, hsla(171,72%,77%,1) 0px, transparent 50%),\nradial-gradient(at 55% 24%, hsla(138,60%,62%,1) 0px, transparent 50%);\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #fdfefedc;\n  transition: .4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  left: 0.3em;\n  bottom: 0.35em;\n  transition: .4s;\n  border-radius: 50%;\n  box-shadow: rgba(0, 0, 0, 0.17) 0px -10px 10px 0px inset,\n     rgba(0, 0, 0, 0.09) 0px -1px 15px -8px;\n  background-color: #ff99fd;\n  background-image: radial-gradient(at 81% 39%, hsla(327,79%,79%,1) 0px, transparent 50%),\n  radial-gradient(at 11% 72%, hsla(264,64%,79%,1) 0px, transparent 50%),\n  radial-gradient(at 23% 20%, hsla(75,98%,71%,1) 0px, transparent 50%);\n}\n\n.input__check:checked + .slider {\n  background-color: #17202A;\n}\n\n.input__check:checked + .slider:before {\n  transform: translateX(1.5em);\n}\n\n@keyframes toggle__animation {\n  0%, 100% {\n    transform: translateY(-10px) rotateX(15deg) rotateY(-20deg);\n  }\n\n  50% {\n    transform: translateY(0px) rotateX(15deg) rotateY(-20deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

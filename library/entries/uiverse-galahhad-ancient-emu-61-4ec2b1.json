@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-galahhad-ancient-emu-61-4ec2b1",
+  "title": "Button by Galahhad (ancient-emu-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Galahhad/ancient-emu-61",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "glitch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Galahhad on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Galahhad_ancient-emu-61.html",
+  "code": "<button class=\"ui-btn\">\n  <span>\n    Button \n  </span>\n</button>\n<style>\n/* From Uiverse.io by Galahhad - Tags: button, glitch */\n.ui-btn {\n  --btn-default-bg: rgb(41, 41, 41);\n  --btn-padding: 15px 20px;\n  --btn-hover-bg: rgb(51, 51, 51);\n  --btn-transition: .3s;\n  --btn-letter-spacing: .1rem;\n  --btn-animation-duration: 1.2s;\n  --btn-shadow-color: rgba(0, 0, 0, 0.137);\n  --btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);\n  --hover-btn-color: #FAC921;\n  --default-btn-color: #fff;\n  --font-size: 16px;\n  /* 👆 this field should not be empty */\n  --font-weight: 600;\n  --font-family: Menlo,Roboto Mono,monospace;\n  /* 👆 this field should not be empty */\n}\n\n/* button settings 👆 */\n\n.ui-btn {\n  box-sizing: border-box;\n  padding: var(--btn-padding);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: var(--default-btn-color);\n  font: var(--font-weight) var(--font-size) var(--font-family);\n  background: var(--btn-default-bg);\n  border: none;\n  cursor: pointer;\n  transition: var(--btn-transition);\n  overflow: hidden;\n  box-shadow: var(--btn-shadow);\n}\n\n.ui-btn span {\n  letter-spacing: var(--btn-letter-spacing);\n  transition: var(--btn-transition);\n  box-sizing: border-box;\n  position: relative;\n  background: inherit;\n}\n\n.ui-btn span::before {\n  box-sizing: border-box;\n  position: absolute;\n  content: \"\";\n  background: inherit;\n}\n\n.ui-btn:hover, .ui-btn:focus {\n  background: var(--btn-hover-bg);\n}\n\n.ui-btn:hover span, .ui-btn:focus span {\n  color: var(--hover-btn-color);\n}\n\n.ui-btn:hover span::before, .ui-btn:focus span::before {\n  animation: chitchat linear both var(--btn-animation-duration);\n}\n\n@keyframes chitchat {\n  0% {\n    content: \"#\";\n  }\n\n  5% {\n    content: \".\";\n  }\n\n  10% {\n    content: \"^{\";\n  }\n\n  15% {\n    content: \"-!\";\n  }\n\n  20% {\n    content: \"#$_\";\n  }\n\n  25% {\n    content: \"№:0\";\n  }\n\n  30% {\n    content: \"#{+.\";\n  }\n\n  35% {\n    content: \"@}-?\";\n  }\n\n  40% {\n    content: \"?{4@%\";\n  }\n\n  45% {\n    content: \"=.,^!\";\n  }\n\n  50% {\n    content: \"?2@%\";\n  }\n\n  55% {\n    content: \"\\;1}]\";\n  }\n\n  60% {\n    content: \"?{%:%\";\n    right: 0;\n  }\n\n  65% {\n    content: \"|{f[4\";\n    right: 0;\n  }\n\n  70% {\n    content: \"{4%0%\";\n    right: 0;\n  }\n\n  75% {\n    content: \"'1_0<\";\n    right: 0;\n  }\n\n  80% {\n    content: \"{0%\";\n    right: 0;\n  }\n\n  85% {\n    content: \"]>'\";\n    right: 0;\n  }\n\n  90% {\n    content: \"4\";\n    right: 0;\n  }\n\n  95% {\n    content: \"2\";\n    right: 0;\n  }\n\n  100% {\n    content: \"\";\n    right: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

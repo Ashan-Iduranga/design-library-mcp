@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-megamenu-megamenu-with-wide-popovers-and-horizont",
+  "title": "Megamenu: Megamenu with wide popovers and horizontal menus (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/megamenu/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "megamenu",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A megamenu is a large, horizontal menu where each item opens a popover to show a large block of navigation links. Megamenu must be used once, on top of the page. Inside each popover, you can use a daisyUI menu, or any custom content. Megamenu fits better on large screens only, and for small screens, you can hide the megamenu and show the content in a dropdown or a drawer.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/megamenu/+page.md",
+  "code": "<button class=\"btn sm:hidden\" popovertarget=\"my-megamenu-2\">Menu</button>\n<div class=\"megamenu max-sm:megamenu-vertical megamenu-wide p-2 border border-base-300\" id=\"my-megamenu-2\" popover>\n  <span class=\"megamenu-active\"></span>\n\n  <button popovertarget=\"b1\">One</button>\n  <div id=\"b1\" popover>\n    <ul class=\"menu menu-horizontal\">\n      <li><a>Enterprise</a></li>\n      <li><a>CRM software</a></li>\n      <li><a>Security</a></li>\n      <li><a>Consulting</a></li>\n    </ul>\n  </div>\n\n  <button popovertarget=\"b2\">Two</button>\n  <div id=\"b2\" popover>\n    <ul class=\"menu menu-horizontal\">\n      <li><a>AI infrastructure</a></li>\n      <li><a>Image generation</a></li>\n      <li><a>MCP servers</a></li>\n    </ul>\n  </div>\n\n  <button popovertarget=\"b3\">Three</button>\n  <div id=\"b3\" popover>\n    <ul class=\"menu menu-horizontal\">\n      <li><a>Cloud computing</a></li>\n      <li><a>Storage solutions</a></li>\n      <li><a>Database services</a></li>\n      <li><a>CDN performance</a></li>\n    </ul>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shubh0408-afraid-octopus-54-d69e92",
+  "title": "Toggle by Shubh0408 (afraid-octopus-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shubh0408/afraid-octopus-54",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shubh0408 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Shubh0408_afraid-octopus-54.html",
+  "code": "<!-- From Uiverse.io by Shubh0408  - Tags: switch -->\n<label\n  class=\"switch cursor-pointer relative flex w-[6.7rem] scale-75 overflow-hidden p-2\"\n>\n  <input type=\"checkbox\" name=\"\" class=\"peer hidden\" />\n  <div\n    class=\"absolute -right-[6.5rem] z-[1] flex h-12 w-24 skew-x-12 items-center justify-center text-lg duration-500 peer-checked:right-1\"\n  >\n    <span class=\"-skew-x-12\">ON</span>\n  </div>\n  <div\n    class=\"z-0 h-12 w-24 -skew-x-12 border border-black duration-500 peer-checked:skew-x-12 peer-checked:bg-green-500\"\n  ></div>\n  <div\n    class=\"absolute left-[0.3rem] flex h-12 w-24 -skew-x-12 items-center justify-center text-lg duration-500 peer-checked:-left-[6.5rem]\"\n  >\n    <span class=\"skew-x-12\">OFF</span>\n  </div>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

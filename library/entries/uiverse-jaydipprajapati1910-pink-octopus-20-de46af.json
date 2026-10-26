@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jaydipprajapati1910-pink-octopus-20-de46af",
+  "title": "Loader by JaydipPrajapati1910 (pink-octopus-20)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/pink-octopus-20",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "circle",
+    "circle-loader",
+    "pen"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JaydipPrajapati1910_pink-octopus-20.html",
+  "code": "<div class=\"loader\">\n        <div class=\"pencil\">\n            <p>Loading...</p>\n            <div class=\"top\"></div>\n        </div>\n        <div class=\"stroke\">\n        </div>\n    </div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: loader, circle, circle loader, pen */\n.loader {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  animation: animate 8s linear infinite;\n}\n\n.pencil {\n  width: 150px;\n  background: #ffc334;\n  border-top: 10px solid #ffd268;\n  border-bottom: 10px solid #e3af38;\n  overflow: hidden;\n  transform-origin: top;\n}\n\n.pencil p {\n  margin: 0;\n  padding: 0;\n  text-align: center;\n  font-size: 12px;\n  line-height: 15px;\n  text-transform: uppercase;\n  font-weight: bold;\n  color: #d09200;\n}\n\n.pencil:before {\n  content: '';\n  position: absolute;\n  left: -80px;\n  top: 0;\n  border-style: solid;\n  border-color: transparent #e29663 transparent transparent;\n  border-width: 17px 40px 18px;\n}\n\n.pencil:after {\n  content: '';\n  position: absolute;\n  left: -80px;\n  top: 0;\n  border-style: solid;\n  border-color: transparent #262626 transparent transparent;\n  border-width: 17px 40px 18px;\n  transform: scale(.3);\n}\n\n.top {\n  position: absolute;\n  top: 0;\n  right: 0;\n  height: 35px;\n  width: 35px;\n  background: #ccc;\n  border-top: 10px solid #dedede;\n  border-bottom: 10px solid #b9bfbf;\n}\n\n.top:before {\n  content: '';\n  position: absolute;\n  top: -10px;\n  right: -100%;\n  width: 150%;\n  height: 100%;\n  background: #d76f6e;\n  border-top: 10px solid #da8e8d;\n  border-bottom: 10px solid #c85957;\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n  z-index: 2;\n}\n\n.stroke {\n  position: absolute;\n  top: 50%;\n  left: calc(100% - 80px);\n  transform: translate(-50%,-50%) rotate(45deg);\n  border: 5px solid transparent;\n  border-left-color: #000;\n  border-top-color: #000;\n  width: 220px;\n  height: 220px;\n  border-radius: 50%;\n  z-index: 1;\n}\n\n@keyframes animate {\n  0% {\n    transform: translate(-50%,-50%) rotate(360deg);\n  }\n\n  100% {\n    transform: translate(-50%,-50%) rotate(0deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

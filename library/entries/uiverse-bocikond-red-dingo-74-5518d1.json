@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bocikond-red-dingo-74-5518d1",
+  "title": "Loader by bociKond (red-dingo-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/bociKond/red-dingo-74",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By bociKond on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/bociKond_red-dingo-74.html",
+  "code": "<div class=\"spinner\">\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n</div>\n<style>\n/* From Uiverse.io by bociKond - Source: https://10015.io - Tags: green, loader, spinner, custom, variables */\n.spinner {\n  position: relative;\n  width: 24.6px;\n  height: 24.6px;\n  animation-name: rotateSpin;\n  animation-duration: 2s;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-direction: normal;\n  --clr: #3E885B;\n}\n\n@keyframes rotateSpin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.spinner div {\n  width: 100%;\n  height: 100%;\n  background-color: var(--clr);\n  border-radius: 50%;\n  animation: spinnerAni 1s infinite backwards;\n}\n\n.spinner div:nth-child(1) {\n  animation-delay: 0.12s;\n  background-color: var(--clr);\n  opacity: .9;\n}\n\n.spinner div:nth-child(2) {\n  animation-delay: 0.24s;\n  background-color: var(--clr);\n  opacity: .8;\n}\n\n.spinner div:nth-child(3) {\n  animation-delay: 0.36s;\n  background-color: var(--clr);\n  opacity: .7;\n}\n\n.spinner div:nth-child(4) {\n  animation-delay: 0.48s;\n  background-color: var(--clr);\n  opacity: .6;\n}\n\n.spinner div:nth-child(5) {\n  animation-delay: 0.60s;\n  background-color: var(--clr);\n  opacity: .5;\n}\n\n@keyframes spinnerAni {\n  0% {\n    transform: rotate(0deg) translateY(-200%);\n  }\n\n  60%, 100% {\n    transform: rotate(360deg) translateY(-200%);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

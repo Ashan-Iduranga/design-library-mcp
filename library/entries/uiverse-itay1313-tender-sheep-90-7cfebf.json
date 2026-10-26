@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-itay1313-tender-sheep-90-7cfebf",
+  "title": "Button by itay1313 (tender-sheep-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/itay1313/tender-sheep-90",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By itay1313 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/itay1313_tender-sheep-90.html",
+  "code": "<button class=\"box\">\n    <span class=\"button\">How Are you today?</span>\n  </button>\n\n\n<style>\n/* From Uiverse.io by itay1313 - Tags: button */\n.box {\n  --border-radius: 4vmin;\n  --bg: #3A3544;\n  --color: #D0BCFF;\n  --deg: 30deg;\n  -webkit-perspective: 200px;\n  perspective: 200px;\n  -webkit-transform-origin: top center;\n  -ms-transform-origin: top center;\n  transform-origin: top center;\n  max-width: 350px;\n  text-align: center;\n  outline: none;\n  border: none;\n  background: none;\n}\n\n.button {\n  -webkit-transform-style: preserve-3d;\n  transform-style: preserve-3d;\n  -webkit-transform: rotateY(var(--deg));\n  transform: rotateY(var(--deg));\n  -webkit-transition: all 800ms ease-in-out;\n  transition: all 800ms ease-in-out;\n  border-radius: var(--border-radius);\n  font-style: normal;\n  border: none;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  font-size: 2vmin;\n  letter-spacing: 0.03vmin;\n  padding: 1.3vmin 2.5vmin;\n  background: var(--bg);\n  color: var(--color);\n}\n\n.button:hover {\n  -webkit-transform: rotateY(calc(-1 * var(--deg)));\n  transform: rotateY(calc(-1 * var(--deg)));\n}\n\n.box:active .button {\n  -webkit-transform: rotateY(calc(-1 * var(--deg) / 3));\n  transform: rotateY(calc(-1 * var(--deg) / 3));\n}\n\n.box:focus .button {\n  border: 0.05vmin solid var(--color);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

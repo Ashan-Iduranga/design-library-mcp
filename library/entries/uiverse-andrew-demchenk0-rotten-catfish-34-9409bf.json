@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-andrew-demchenk0-rotten-catfish-34-9409bf",
+  "title": "Checkbox by andrew-demchenk0 (rotten-catfish-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/rotten-catfish-34",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "blue",
+    "transition",
+    "checkmark",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/andrew-demchenk0_rotten-catfish-34.html",
+  "code": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: blue, checkbox, transition, checkmark, box-shadow */\n.container {\n  --input-focus: #2d8cf0;\n  --input-out-of-focus: #ccc;\n  --bg-color: #fff;\n  --bg-color-alt: #666;\n  --main-color: #323232;\n  position: relative;\n  cursor: pointer;\n}\n\n.container input {\n  position: absolute;\n  opacity: 0;\n}\n\n.checkmark {\n  width: 30px;\n  height: 30px;\n  position: relative;\n  top: 0;\n  left: 0;\n  border: 2px solid var(--main-color);\n  border-radius: 5px;\n  box-shadow: 4px 4px var(--main-color);\n  background-color: var(--input-out-of-focus);\n  transition: all 0.3s;\n}\n\n.container input:checked ~ .checkmark {\n  background-color: var(--input-focus);\n}\n\n.checkmark:after {\n  content: \"\";\n  width: 7px;\n  height: 15px;\n  position: absolute;\n  top: 2px;\n  left: 8px;\n  display: none;\n  border: solid var(--bg-color);\n  border-width: 0 2.5px 2.5px 0;\n  transform: rotate(45deg);\n}\n\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

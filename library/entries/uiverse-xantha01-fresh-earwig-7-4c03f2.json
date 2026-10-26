@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-xantha01-fresh-earwig-7-4c03f2",
+  "title": "Button by xantha01 (fresh-earwig-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/xantha01/fresh-earwig-7",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "arrow",
+    "startbutton"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By xantha01 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/xantha01_fresh-earwig-7.html",
+  "code": "<a class=\"swipe\">Get Started <span class=\"container\"><svg height=\"24\" width=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z\" fill=\"currentColor\"></path></svg></span> </a>\n<style>\n/* From Uiverse.io by xantha01 - Tags: button, arrow, startbutton  */\n.swipe {\n  position: relative;\n  background-color: #F1F7F7;\n  width: 200px;\n  height: 60px;\n  color: rgba(255, , 204, 1);\n  border-radius: 60px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-decoration: none;\n  letter-spacing: 2px;\n  border-top: 0.5px solid rgba(0, 0, 0, 0.35);\n  border-left: 0.5px solid rgba(0, 0, 0, 0.35);\n  padding-left: 40px;\n  cursor: pointer;\n  transition: 0.35s ease;\n}\n\n.swipe:hover {\n  padding-left: 0;\n  padding-right: 40px;\n  color: #324B4C;\n}\n\n.container {\n  position: absolute;\n  left: 5px;\n  width: 50px;\n  height: 50px;\n  background: #7AB5B7;\n  border-radius: 50%;\n  transition: 0.35s ease;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: #f1f4f7;\n}\n\n.swipe:hover .container {\n  left: calc(100% - 55px);\n  color: #324B4C;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

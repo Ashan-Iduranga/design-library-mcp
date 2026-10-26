@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-skeleton-list-placeholder",
+  "title": "Skeleton: List placeholder (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/skeleton/#list-placeholder",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "skeleton",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a placeholder when loading a list of items.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/skeleton.md",
+  "code": "<div role=\"status\" class=\"max-w-md p-4 border border-default divide-y divide-default rounded-base shadow-xs animate-pulse md:p-6\">\n    <div class=\"flex items-center justify-between pb-4\">\n        <div>\n            <div class=\"h-2.5 bg-neutral-quaternary rounded-full w-24 mb-2.5\"></div>\n            <div class=\"w-32 h-2 bg-neutral-quaternary rounded-full\"></div>\n        </div>\n        <div class=\"h-2.5 bg-default rounded-full w-12\"></div>\n    </div>\n    <div class=\"flex items-center justify-between py-4\">\n        <div>\n            <div class=\"h-2.5 bg-neutral-quaternary rounded-full w-24 mb-2.5\"></div>\n            <div class=\"w-32 h-2 bg-neutral-quaternary rounded-full\"></div>\n        </div>\n        <div class=\"h-2.5 bg-default rounded-full w-12\"></div>\n    </div>\n    <div class=\"flex items-center justify-between py-4\">\n        <div>\n            <div class=\"h-2.5 bg-neutral-quaternary rounded-full w-24 mb-2.5\"></div>\n            <div class=\"w-32 h-2 bg-neutral-quaternary rounded-full\"></div>\n        </div>\n        <div class=\"h-2.5 bg-default rounded-full w-12\"></div>\n    </div>\n    <div class=\"flex items-center justify-between py-4\">\n        <div>\n            <div class=\"h-2.5 bg-neutral-quaternary rounded-full w-24 mb-2.5\"></div>\n            <div class=\"w-32 h-2 bg-neutral-quaternary rounded-full\"></div>\n        </div>\n        <div class=\"h-2.5 bg-default rounded-full w-12\"></div>\n    </div>\n    <div class=\"flex items-center justify-between py-4\">\n        <div>\n            <div class=\"h-2.5 bg-neutral-quaternary rounded-full w-24 mb-2.5\"></div>\n            <div class=\"w-32 h-2 bg-neutral-quaternary rounded-full\"></div>\n        </div>\n        <div class=\"h-2.5 bg-default rounded-full w-12\"></div>\n    </div>\n    <span class=\"sr-only\">Loading...</span>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

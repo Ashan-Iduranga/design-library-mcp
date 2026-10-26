@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-light-liger-50-4c175b",
+  "title": "Card by Yaya12085 (light-liger-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/light-liger-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Yaya12085_light-liger-50.html",
+  "code": "<div class=\"card\">\n    <div class=\"infos\">\n        <div class=\"image\"></div>\n        <div class=\"info\">\n            <div>\n                <p class=\"name\">\n                    John Doe\n                </p>\n                <p class=\"function\">\n                    Front-end dev \n                </p>\n            </div>\n            <div class=\"stats\">\n                    <p class=\"flex flex-col\">\n                        Articles\n                        <span class=\"state-value\">\n                            34\n                        </span>\n                    </p>\n                    <p class=\"flex\">\n                        Followers\n                        <span class=\"state-value\">\n                            455\n                        </span>\n                    </p>\n                    \n            </div>\n        </div>\n    </div>\n    <button class=\"request\" type=\"button\">\n            Add friend\n        </button>\n</div>\n\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: card */\n.card {\n  max-width: 320px;\n  border-radius: 1rem;\n  background-color: rgba(31, 41, 55, 1);\n  padding: 1rem;\n}\n\n.infos {\n  display: flex;\n  flex-direction: row;\n  align-items: flex-start;\n  grid-gap: 1rem;\n  gap: 1rem;\n}\n\n.image {\n  height: 7rem;\n  width: 7rem;\n  border-radius: 0.5rem;\n  background-color: rgb(118, 36, 194);\n  background: linear-gradient(to bottom right, rgb(118, 36, 194), rgb(185, 128, 240));\n}\n\n.info {\n  height: 7rem;\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\n.name {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n  font-weight: 500;\n  color: rgba(255, 255, 255, 1);\n}\n\n.function {\n  font-size: 0.75rem;\n  line-height: 1rem;\n  color: rgba(156, 163, 175, 1);\n}\n\n.stats {\n  width: 100%;\n  border-radius: 0.5rem;\n  background-color: rgba(255, 255, 255, 1);\n  padding: 0.5rem;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  font-size: 0.75rem;\n  line-height: 1rem;\n  color: rgba(0, 0, 0, 1);\n}\n\n.flex {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin: 0 4px;\n}\n\n.state-value {\n  font-weight: 700;\n  color: rgb(118, 36, 194);\n}\n\n.request {\n  margin-top: 1.5rem;\n  width: 100%;\n  border: 1px solid transparent;\n  border-radius: 0.5rem;\n  padding: 0.5rem 1rem;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  transition: all .3s ease;\n}\n\n.request:hover {\n  background-color: rgb(118, 36, 194);\n  color: #fff;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

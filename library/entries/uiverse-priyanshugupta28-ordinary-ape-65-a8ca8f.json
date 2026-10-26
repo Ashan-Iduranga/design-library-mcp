@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-priyanshugupta28-ordinary-ape-65-a8ca8f",
+  "title": "Toggle by PriyanshuGupta28 (ordinary-ape-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/ordinary-ape-65",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "light-switch",
+    "3d-switch",
+    "cool-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/PriyanshuGupta28_ordinary-ape-65.html",
+  "code": "<div class=\"checkbox-wrapper-51\">\n  <input id=\"cbx-51\" type=\"checkbox\">\n  <label class=\"toggle\" for=\"cbx-51\">\n    <span>\n      <svg viewBox=\"0 0 10 10\" height=\"10px\" width=\"10px\">\n        <path d=\"M5,1 L5,1 C2.790861,1 1,2.790861 1,5 L1,5 C1,7.209139 2.790861,9 5,9 L5,9 C7.209139,9 9,7.209139 9,5 L9,5 C9,2.790861 7.209139,1 5,1 L5,9 L5,1 Z\"></path>\n      </svg>\n    </span>\n  </label>\n</div>\n\n\n\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: switch, light switch, 3d switch, cool switch */\n.checkbox-wrapper-51 input[type=\"checkbox\"] {\n  visibility: hidden;\n  display: none;\n}\n\n.checkbox-wrapper-51 .toggle {\n  position: relative;\n  display: block;\n  width: 42px;\n  height: 24px;\n  cursor: pointer;\n  -webkit-tap-highlight-color: transparent;\n  transform: translate3d(0, 0, 0);\n}\n\n.checkbox-wrapper-51 .toggle:before {\n  content: \"\";\n  position: relative;\n  top: 1px;\n  left: 1px;\n  width: 40px;\n  height: 22px;\n  display: block;\n  background: #c8ccd4;\n  border-radius: 12px;\n  transition: background 0.2s ease;\n}\n\n.checkbox-wrapper-51 .toggle span {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 24px;\n  height: 24px;\n  display: block;\n  background: #fff;\n  border-radius: 50%;\n  box-shadow: 0 2px 6px rgba(154,153,153,0.75);\n  transition: all 0.2s ease;\n}\n\n.checkbox-wrapper-51 .toggle span svg {\n  margin: 7px;\n  fill: none;\n}\n\n.checkbox-wrapper-51 .toggle span svg path {\n  stroke: #c8ccd4;\n  stroke-width: 2;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-dasharray: 24;\n  stroke-dashoffset: 0;\n  transition: all 0.5s linear;\n}\n\n.checkbox-wrapper-51 input[type=\"checkbox\"]:checked + .toggle:before {\n  background: #1175c7;\n}\n\n.checkbox-wrapper-51 input[type=\"checkbox\"]:checked + .toggle span {\n  transform: translateX(18px);\n}\n\n.checkbox-wrapper-51 input[type=\"checkbox\"]:checked + .toggle span path {\n  stroke: #000000;\n  stroke-dasharray: 25;\n  stroke-dashoffset: 25;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

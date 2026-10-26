@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-ui-hover-card",
+  "title": "Hover Card (shadcn/ui)",
+  "source": "shadcn/ui",
+  "url": "https://ui.shadcn.com/docs/components/hover-card",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "ui",
+    "hover",
+    "card",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "For sighted users to preview content available behind a link.\n\nInstall into a project: npx shadcn@latest add hover-card\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/ui/hover-card.tsx",
+  "code": "\"use client\"\n\nimport * as React from \"react\"\nimport { cn } from \"cn\"\nimport { HoverCard as HoverCardPrimitive } from \"radix-ui\"\n\nfunction HoverCard({\n  ...props\n}: React.ComponentProps<typeof HoverCardPrimitive.Root>) {\n  return <HoverCardPrimitive.Root data-slot=\"hover-card\" {...props} />\n}\n\nfunction HoverCardTrigger({\n  ...props\n}: React.ComponentProps<typeof HoverCardPrimitive.Trigger>) {\n  return (\n    <HoverCardPrimitive.Trigger data-slot=\"hover-card-trigger\" {...props} />\n  )\n}\n\nfunction HoverCardContent({\n  className,\n  align = \"center\",\n  sideOffset = 4,\n  ...props\n}: React.ComponentProps<typeof HoverCardPrimitive.Content>) {\n  return (\n    <HoverCardPrimitive.Portal data-slot=\"hover-card-portal\">\n      <HoverCardPrimitive.Content\n        data-slot=\"hover-card-content\"\n        align={align}\n        sideOffset={sideOffset}\n        className={cn(\n          \"z-50 w-64 origin-(--radix-hover-card-content-transform-origin) rounded-md border bg-popover p-4 text-popover-foreground shadow-md outline-hidden data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[state=open]:animate-in data-[state=open]:fade-in-0 data-[state=open]:zoom-in-95\",\n          className\n        )}\n        {...props}\n      />\n    </HoverCardPrimitive.Portal>\n  )\n}\n\nexport { HoverCard, HoverCardTrigger, HoverCardContent }\n",
+  "prompt": "npx shadcn@latest add hover-card",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

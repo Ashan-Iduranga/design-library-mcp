@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-hysean2-unlucky-cat-84-d57120",
+  "title": "Button by Hysean2 (unlucky-cat-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Hysean2/unlucky-cat-84",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "minimalist",
+    "modern"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Hysean2 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Hysean2_unlucky-cat-84.html",
+  "code": "<button class=\"button\">Click me</button>\n\n<style>\n/* From Uiverse.io by Hysean2  - Tags: simple, minimalist, button, modern */\n.button {\n  cursor: pointer;\n  padding: 1em 1.8em;\n  border-radius: 2em;\n  border: 3px solid #414141;\n  font-weight: bold;\n  font-size: 1em;\n  color: white;\n  background-color: #222222;\n  transition: transform 0.3s ease;\n}\n\n.button:hover {\n  transform: scale(1.15);\n  border: none;\n  background: linear-gradient(\n    -80deg,\n    rgba(150, 93, 233, 1) 10%,\n    rgba(99, 88, 238, 1) 95%\n  );\n}\n\n.button:active {\n  transform: scale(0.95);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

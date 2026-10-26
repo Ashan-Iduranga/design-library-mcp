@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-vinodjangid07-neat-panther-45-1665be",
+  "title": "Button by vinodjangid07 (neat-panther-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/neat-panther-45",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "animation",
+    "hover",
+    "hover-effect",
+    "open",
+    "file"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_neat-panther-45.html",
+  "code": "<button class=\"open-file\">\n  <span class=\"file-wrapper\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 71 67\">\n      <path\n        stroke-width=\"5\"\n        stroke=\"black\"\n        d=\"M41.7322 11.7678L42.4645 12.5H43.5H68.5V64.5H2.5V2.5H32.4645L41.7322 11.7678Z\"\n      ></path>\n    </svg>\n    <span class=\"file-front\"></span>\n  </span>\n  Open file\n</button>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: simple, animation, button, hover, hover effect, open, file */\n.open-file {\n  background-color: rgb(255, 255, 255);\n  width: 140px;\n  height: 45px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 20px;\n  border: 1px solid rgb(217, 217, 217);\n  font-size: 15px;\n  cursor: pointer;\n  transition: all 0.3s;\n  border-radius: 10px;\n}\n.file-wrapper {\n  width: 15px;\n  height: auto;\n  display: flex;\n  align-items: flex-end;\n  justify-content: center;\n  position: relative;\n}\n.file-wrapper svg {\n  width: 100%;\n}\n.file-front {\n  position: absolute;\n  width: 100%;\n  height: 70%;\n  border: 2px solid rgb(0, 0, 0);\n  border-bottom: 1px solid black;\n  transform: skewX(-40deg);\n  transform-origin: bottom right;\n  background-color: white;\n  transition: all 0.5s;\n  bottom: 0;\n}\n.open-file:hover .file-front {\n  height: 50%;\n  transform-origin: bottom right;\n  transform: skewX(-55deg);\n}\n.open-file:hover {\n  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.048);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

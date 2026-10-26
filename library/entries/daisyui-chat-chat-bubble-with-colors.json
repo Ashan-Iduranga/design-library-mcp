@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-chat-chat-bubble-with-colors",
+  "title": "Chat bubble: Chat Bubble with colors (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/chat/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "chat",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Chat bubbles are used to show one line of conversation and all its data, including the author image, author name, time, etc.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/chat/+page.md",
+  "code": "<div class=\"chat chat-start\">\n  <div class=\"chat-bubble chat-bubble-primary\">What kind of nonsense is this</div>\n</div>\n<div class=\"chat chat-start\">\n  <div class=\"chat-bubble chat-bubble-secondary\">\n    Put me on the Council and not make me a Master!??\n  </div>\n</div>\n<div class=\"chat chat-start\">\n  <div class=\"chat-bubble chat-bubble-accent\">\n    That's never been done in the history of the Jedi.\n  </div>\n</div>\n<div class=\"chat chat-start\">\n  <div class=\"chat-bubble chat-bubble-neutral\">It's insulting!</div>\n</div>\n<div class=\"chat chat-end\">\n  <div class=\"chat-bubble chat-bubble-info\">Calm down, Anakin.</div>\n</div>\n<div class=\"chat chat-end\">\n  <div class=\"chat-bubble chat-bubble-success\">You have been given a great honor.</div>\n</div>\n<div class=\"chat chat-end\">\n  <div class=\"chat-bubble chat-bubble-warning\">To be on the Council at your age.</div>\n</div>\n<div class=\"chat chat-end\">\n  <div class=\"chat-bubble chat-bubble-error\">It's never happened before.</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-vk-uiux-sour-stingray-86-7bf4bb",
+  "title": "Radio by vk-uiux (sour-stingray-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vk-uiux/sour-stingray-86",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vk-uiux on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/vk-uiux_sour-stingray-86.html",
+  "code": "<div class=\"radio-input-wrapper\">\n  <label class=\"label\">\n    <input value=\"value-2\" name=\"value-radio\" id=\"value-2\" class=\"radio-input\" type=\"radio\">\n    <div class=\"radio-design\"></div>\n    <div class=\"label-text\">Clouds</div>\n  </label>\n  <label class=\"label\">\n    <input value=\"value-3\" name=\"value-radio\" id=\"value-3\" class=\"radio-input\" type=\"radio\">\n    <div class=\"radio-design\"></div>\n    <div class=\"label-text\">Earth</div>\n  </label>\n  <label class=\"label\">\n    <input value=\"value-4\" name=\"value-radio\" id=\"value-4\" class=\"radio-input\" type=\"radio\">\n    <div class=\"radio-design\"></div>\n    <div class=\"label-text\">Water</div>\n  </label>\n</div>\n<style>\n/* From Uiverse.io by vk-uiux - Source: https://codepen.io/AbubakerSaeed/pen/MWaEqJP - Tags: list, gradient, card, radio, animated, radio-buttons, html, css, hover effect, css effect */\n/* MAIN */\n/* =============================================== */\n.label {\n  display: flex;\n  align-items: center;\n  border-radius: 100px;\n  padding: 14px 16px;\n  margin: 5px 0;\n  cursor: pointer;\n  transition: .3s;\n}\n\n.label:hover,\n.label:focus-within,\n.label:active {\n  background: hsla(0, 0%, 80%, .14);\n}\n\n.radio-input {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 1px;\n  height: 1px;\n  opacity: 0;\n  z-index: -1;\n}\n\n.radio-design {\n  width: 22px;\n  height: 22px;\n  border-radius: 100px;\n  background: linear-gradient(to right bottom, hsl(154, 97%, 62%), hsl(225, 97%, 62%));\n  position: relative;\n}\n\n.radio-design::before {\n  content: '';\n  display: inline-block;\n  width: inherit;\n  height: inherit;\n  border-radius: inherit;\n  background: hsl(0, 0%, 90%);\n  transform: scale(1.1);\n  transition: .3s;\n}\n\n.radio-input:checked+.radio-design::before {\n  transform: scale(0);\n}\n\n.label-text {\n  color: hsl(0, 0%, 60%);\n  margin-left: 14px;\n  letter-spacing: 3px;\n  text-transform: uppercase;\n  font-size: 18px;\n  font-weight: 900;\n  transition: .3s;\n}\n\n.radio-input:checked~.label-text {\n  color: hsl(0, 0%, 40%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "magicui-safari-demo",
+  "title": "Safari Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/safari",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "safari",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a Safari browser mockup.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/safari-demo.tsx",
+  "code": "import { Safari } from \"@/registry/magicui/safari\"\n\nexport default function SafariDemo() {\n  return (\n    <div className=\"w-[1203px]\">\n      <Safari url=\"magicui.design\" />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ksaplay-helpless-moose-10-da110f",
+  "title": "Loader by KSAplay (helpless-moose-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KSAplay/helpless-moose-10",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KSAplay on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/KSAplay_helpless-moose-10.html",
+  "code": "<div class=\"loader\">LOADING</div>\n<style>\n/* From Uiverse.io by KSAplay - Tags: loader */\n.loader {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n  font-weight: bold;\n  font-size: 12px;\n  color: #f2df95;\n  height: 150px;\n  width: 250px;\n  background-color: #907A24;\n  border-style: solid;\n  border-width: 50px 250px 50px 0px;\n  border-color: #C9B656 #AD9531 #87621B #AD9531;\n  animation: camera_effect 4s infinite linear;\n}\n\n@keyframes camera_effect {\n  0% {\n    border-width: 0px 250px 0px 0px;\n  }\n\n  10% {\n    border-width: 45px 250px 45px 0px;\n  }\n\n  20% {\n    border-width: 50px 160px 50px 0px;\n  }\n\n  30% {\n    border-width: 50px 80px 50px 80px;\n  }\n\n  45% {\n    border-width: 45px 75px 55px 85px;\n  }\n\n  55% {\n    border-width: 55px 70px 45px 90px;\n  }\n\n  65% {\n    border-width: 55px 85px 45px 75px;\n  }\n\n  70% {\n    border-width: 50px 80px 50px 80px;\n  }\n\n  80% {\n    border-width: 50px 0px 50px 160px;\n  }\n\n  90% {\n    border-width: 45px 0px 45px 250px;\n  }\n\n  100% {\n    border-width: 0px 0px 0px 250px;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

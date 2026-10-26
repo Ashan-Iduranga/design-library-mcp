@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-revanth-004-brown-pig-37-139742",
+  "title": "Card by revanth-004 (brown-pig-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/revanth-004/brown-pig-37",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "sun",
+    "app",
+    "css",
+    "mountains",
+    "scenery",
+    "art"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By revanth-004 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/revanth-004_brown-pig-37.html",
+  "code": "<div class=\"center\">\n  <div class=\"design\">\n    <div class=\"circle-1 center color-border\">\n      <div class=\"circle-2 center color-border\">\n        <div class=\"circle-3 center color-border\">\n          <div class=\"circle-4 center color-border\">\n            <div class=\"circle-5\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"mountain-1 shape shadow\"></div>\n    <div class=\"mountain-2 shape\"></div>\n    <div class=\"mountain-3 shape shadow\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by revanth-004  - Tags: sun, app, css, mountains, scenery, art */\n.center {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.design {\n  height: 200px;\n  width: 200px;\n  border-radius: 40px;\n  background: rgb(255, 11, 0);\n  background: linear-gradient(\n    180deg,\n    rgba(255, 11, 0, 1) 13%,\n    rgba(255, 158, 0, 1) 100%\n  );\n  position: relative;\n  overflow: hidden;\n}\n\n.color-border {\n  border-radius: 50%;\n  background-color: #ffffff20;\n  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);\n}\n.circle-1 {\n  height: 220px;\n  width: 220px;\n  position: absolute;\n  right: -50px;\n  top: -50px;\n}\n.circle-2 {\n  height: 180px;\n  width: 180px;\n}\n.circle-3 {\n  height: 140px;\n  width: 140px;\n}\n.circle-4 {\n  height: 105px;\n  width: 105px;\n}\n.circle-5 {\n  height: 70px;\n  width: 70px;\n  border-radius: 50%;\n  background-color: #ffffff;\n}\n\n.shape {\n  height: 200px;\n  width: 200px;\n  background-color: #484848;\n  transform: rotate(45deg);\n  position: absolute;\n}\n.shadow {\n  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);\n}\n.mountain-1 {\n  z-index: 1;\n  bottom: -100px;\n  left: -100px;\n}\n.mountain-2 {\n  bottom: -110px;\n  left: -30px;\n}\n.mountain-3 {\n  z-index: 2;\n  bottom: -150px;\n  left: 90px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

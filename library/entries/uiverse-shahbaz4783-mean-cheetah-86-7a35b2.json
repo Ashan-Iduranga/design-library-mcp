@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-shahbaz4783-mean-cheetah-86-7a35b2",
+  "title": "Card by shahbaz4783 (mean-cheetah-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/shahbaz4783/mean-cheetah-86",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "material-design",
+    "green",
+    "product",
+    "card-template"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By shahbaz4783 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/shahbaz4783_mean-cheetah-86.html",
+  "code": "<article class=\"job-card\">\n  <div>\n    <p class=\"text-title\">Affiliate and Influencer Marketing</p>\n    <p class=\"post-date\">Posted on 23 Dec, 2023</p>\n  </div>\n\n  <div class=\"budget-exp\">\n    <div>\n      <p class=\"value\">$120</p>\n      <p class=\"label\">Budget</p>\n    </div>\n    <div>\n      <p class=\"value\">Intermediate</p>\n      <p class=\"label\">Experience</p>\n    </div>\n  </div>\n\n  <p class=\"text-body\">\n    Are you a highly motivated and results-driven individual with a passion for\n    affiliate and influencer marketing? Jaspr, a fast-growing company\n    specializing in air quality products, is seeking a dedicated specialist to\n    help us scale our affiliate and influencer marketing efforts, utilizing\n    tools like Hype Auditor.\n  </p>\n\n  <div class=\"tags\">\n    <article>\n      <p>marketing</p>\n      <p>seo</p>\n      <p>content writing</p>\n    </article>\n  </div>\n\n  <div>\n    <a href=\"/job/<%= job._id %>\">\n      <button class=\"card-btn\">See More</button>\n    </a>\n  </div>\n</article>\n\n<style>\n/* From Uiverse.io by shahbaz4783  - Tags: simple, material design, green, card, product, card template */\n.job-card {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 1.2em;\n  box-shadow: #091e4240 0px 1px 1px, #091e4221 0px 0px 1px 1px;\n  border-radius: 0.6em;\n  padding: 1em;\n  max-width: 30em;\n}\n\n.text-title {\n  display: -webkit-box;\n  -webkit-line-clamp: 1;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  font-size: 1.25em;\n  font-weight: 600;\n  font-family: \"Noto Sans\", sans-serif;\n}\n\n.text-body {\n  display: -webkit-box;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  font-family: \"Poppins\", sans-serif;\n  letter-spacing: 0.4px;\n}\n\n.post-date {\n  color: #598551;\n}\n\n.budget-exp {\n  display: flex;\n  gap: 5em;\n}\n\n.budget-exp .value {\n  font-size: 1em;\n  font-weight: 600;\n}\n\n.budget-exp .label {\n  font-size: 1em;\n  color: #598551;\n}\n\n.card-btn {\n  border: none;\n  font-size: 1rem;\n  background-color: green;\n  color: white;\n  cursor: pointer;\n  transition: all 0.3s ease;\n  border-radius: 2em;\n  padding: 0.6em 1em;\n}\n\n.card-btn:hover {\n  background-color: #026602;\n}\n\n.tags article {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 0.6em;\n}\n\n.tags p {\n  border-radius: 1.2em;\n  padding: 0.2em 0.5em;\n  background-color: #f2f7f2;\n  color: #598551;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-csemszepp-fat-panther-54-66e04c",
+  "title": "Pattern by csemszepp (fat-panther-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/fat-panther-54",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "minimalist"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_fat-panther-54.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp  - Tags: simple, minimalist, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 37px; /* control the size */\n\n  --c: #0000, #2fb8ac 0.5deg 119.5deg, #0000 120deg;\n  --g1: conic-gradient(from 60deg at 56.25% calc(425% / 6), var(--c));\n  --g2: conic-gradient(from 180deg at 43.75% calc(425% / 6), var(--c));\n  --g3: conic-gradient(from -60deg at 50% calc(175% / 12), var(--c));\n  background: var(--g1), var(--g1) var(--s) calc(1.73 * var(--s)), var(--g2),\n    var(--g2) var(--s) calc(1.73 * var(--s)), var(--g3) var(--s) 0,\n    var(--g3) 0 calc(1.73 * var(--s)) #ecbe13;\n  background-size: calc(2 * var(--s)) calc(3.46 * var(--s));\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jhavelang-hard-penguin-52-a1073b",
+  "title": "Button by JhaveLang (hard-penguin-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JhaveLang/hard-penguin-52",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "animation",
+    "simple-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JhaveLang on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JhaveLang_hard-penguin-52.html",
+  "code": "<button class=\"button\">Enter</button>\n\n<style>\n/* From Uiverse.io by JhaveLang  - Tags: simple, animation, simple button */\n.button {\n  font-weight: 600;\n  padding: 1em 4em 1em 4em;\n  border-radius: 4em;\n  border: 0;\n  background: rgb(251, 213, 213);\n  background: linear-gradient(\n    115deg,\n    rgba(251, 213, 213, 1) 20%,\n    rgba(248, 180, 180, 1) 41%,\n    rgba(252, 233, 106, 1) 100%\n  );\n  cursor: pointer;\n  box-shadow: 0em 0em 0em 0.3em rgb(251, 213, 213);\n  transition: background 0.3s ease;\n}\n.button:hover {\n  background: rgb(252, 233, 106);\n  background: linear-gradient(\n    115deg,\n    rgba(252, 233, 106, 1) 0%,\n    rgba(251, 213, 213, 1) 37%,\n    rgba(248, 180, 180, 1) 100%\n  );\n}\n.button:hover {\n  background: rgb(252, 233, 106);\n  background: linear-gradient(\n    115deg,\n    rgba(252, 233, 106, 1) 0%,\n    rgba(251, 213, 213, 1) 37%,\n    rgba(248, 180, 180, 1) 100%\n  );\n}\n\n@keyframes bounce {\n  0%,\n  20%,\n  50%,\n  80%,\n  100% {\n    transform: translateY(0);\n  }\n  40% {\n    transform: translateY(-10px);\n  }\n  60% {\n    transform: translateY(-5px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

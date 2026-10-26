@@ -1,0 +1,33 @@
+{
+  "id": "open-props-stone",
+  "title": "Open Props: Stone color scale",
+  "source": "Open Props",
+  "url": "https://open-props.style/#colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "stone",
+    "open-props",
+    "css-variables",
+    "tokens",
+    "color"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "13 CSS custom properties, e.g. --stone-0, --stone-1, --stone-2, --stone-3.\n\nUse: npm i open-props, then @import \"open-props/stone\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.stone.css",
+  "code": "<style>\n:where(html) {\n  --stone-0: #f8fafb;\n  --stone-1: #f2f4f6;\n  --stone-2: #ebedef;\n  --stone-3: #e0e4e5;\n  --stone-4: #d1d6d8;\n  --stone-5: #b1b6b9;\n  --stone-6: #979b9d;\n  --stone-7: #7e8282;\n  --stone-8: #666968;\n  --stone-9: #50514f;\n  --stone-10: #3a3a37;\n  --stone-11: #252521;\n  --stone-12: #121210;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Open Props stone</strong>\n<p>stone</p><div class=\"row\"><div style=\"background:#f8fafb\" title=\"--stone-0: #f8fafb\"><span>0</span></div><div style=\"background:#f2f4f6\" title=\"--stone-1: #f2f4f6\"><span>1</span></div><div style=\"background:#ebedef\" title=\"--stone-2: #ebedef\"><span>2</span></div><div style=\"background:#e0e4e5\" title=\"--stone-3: #e0e4e5\"><span>3</span></div><div style=\"background:#d1d6d8\" title=\"--stone-4: #d1d6d8\"><span>4</span></div><div style=\"background:#b1b6b9\" title=\"--stone-5: #b1b6b9\"><span>5</span></div><div style=\"background:#979b9d\" title=\"--stone-6: #979b9d\"><span>6</span></div><div style=\"background:#7e8282\" title=\"--stone-7: #7e8282\"><span>7</span></div><div style=\"background:#666968\" title=\"--stone-8: #666968\"><span>8</span></div><div style=\"background:#50514f\" title=\"--stone-9: #50514f\"><span>9</span></div><div style=\"background:#3a3a37\" title=\"--stone-10: #3a3a37\"><span>10</span></div><div style=\"background:#252521\" title=\"--stone-11: #252521\"><span>11</span></div><div style=\"background:#121210\" title=\"--stone-12: #121210\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

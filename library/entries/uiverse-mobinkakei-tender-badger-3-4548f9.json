@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-mobinkakei-tender-badger-3-4548f9",
+  "title": "Checkbox by mobinkakei (tender-badger-3)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/tender-badger-3",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "switch",
+    "input",
+    "off"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/mobinkakei_tender-badger-3.html",
+  "code": "<div class=\"container\">\n  <label>\n    <input class=\"play-btn\" type=\"checkbox\" />\n    <div class=\"play-icon\"></div>\n    <div class=\"pause-icon\"></div>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by mobinkakei  - Tags: switch, checkbox, input, off */\n.container {\n  width: 80px;\n  height: 80px;\n  position: relative;\n  border-radius: 50%;\n}\n\n.play-btn {\n  position: absolute;\n  appearance: none;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background: conic-gradient(#ff6347, #ff6347);\n  cursor: pointer;\n  outline: none;\n}\n\n.play-btn::before {\n  content: \"\";\n  position: absolute;\n  width: 93%;\n  height: 93%;\n  background-color: #000;\n  border-radius: 50%;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n\n.play-btn:checked {\n  animation: borderAnimate 700ms ease-in-out 1;\n  animation-fill-mode: forwards;\n}\n\n@keyframes borderAnimate {\n  0% {\n    transform: rotate(0);\n    background: conic-gradient(#ff6347, transparent 20%);\n  }\n\n  80% {\n    background: conic-gradient(#ff6347, transparent 90%);\n  }\n\n  100% {\n    transform: rotate(360deg);\n    background: conic-gradient(#ff6347, #ff6347);\n  }\n}\n\n.play-icon {\n  position: absolute;\n  width: 30px;\n  height: 30px;\n  left: 60%;\n  top: 50%;\n  background-color: #ff6347;\n  transform: translate(-60%, -50%) rotate(90deg);\n  clip-path: polygon(50% 15%, 0% 100%, 100% 100%);\n  transition: all 400ms ease-in-out;\n  cursor: pointer;\n}\n\n.play-btn:checked + .play-icon {\n  clip-path: polygon(0 100%, 0% 100%, 100% 100%);\n}\n\n.pause-icon {\n  position: absolute;\n  width: 30px;\n  height: 30px;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  cursor: pointer;\n}\n\n.pause-icon::before {\n  content: \"\";\n  position: absolute;\n  width: 0%;\n  height: 100%;\n  background-color: #ff6347;\n  left: 0;\n}\n\n.pause-icon::after {\n  content: \"\";\n  position: absolute;\n  width: 0;\n  height: 100%;\n  background-color: #ff6347;\n  right: 0;\n}\n\n.play-btn:checked ~ .pause-icon::before {\n  animation: reveal 300ms ease-in-out 350ms 1;\n  animation-fill-mode: forwards;\n}\n\n.play-btn:checked ~ .pause-icon::after {\n  animation: reveal 300ms ease-in-out 600ms 1;\n  animation-fill-mode: forwards;\n}\n\n@keyframes reveal {\n  0% {\n    width: 0;\n  }\n\n  100% {\n    width: 35%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

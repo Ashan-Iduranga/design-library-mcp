@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-application-textareas-3-dark",
+  "title": "Textareas: Actions outside (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/textareas",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "textareas",
+    "hyperui",
+    "form",
+    "input",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/textareas/3-dark.html",
+  "code": "<div class=\"mx-auto max-w-lg p-6\">\n<div>\n<label for=\"Notes\">\n<span class=\"text-sm font-medium text-gray-700 dark:text-gray-200\"> Notes </span>\n<textarea class=\"mt-0.5 w-full resize-none rounded border-gray-300 shadow-sm sm:text-sm dark:border-gray-600 dark:bg-gray-900 dark:text-white\" id=\"Notes\" rows=\"4\"></textarea>\n</label>\n<div class=\"mt-1.5 flex items-center justify-end gap-2\">\n<button class=\"rounded border border-transparent px-3 py-1.5 text-sm font-medium text-gray-700 transition-colors hover:text-gray-900 dark:text-gray-200 dark:hover:text-white\" type=\"button\">\n          Clear\n        </button>\n<button class=\"rounded border border-gray-300 px-3 py-1.5 text-sm font-medium text-gray-900 shadow-sm transition-colors hover:bg-gray-100 dark:border-gray-600 dark:text-white dark:hover:bg-gray-700\" type=\"button\">\n          Save\n        </button>\n</div>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

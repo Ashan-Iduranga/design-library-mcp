@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-modal-dialog-modal-with-a-close-button-at-corn",
+  "title": "Modal: Dialog modal with a close button at corner (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/modal/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "modal",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Modal is used to show a dialog or a box when you click a button.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/modal/+page.md",
+  "code": "<!-- You can open the modal using ID.showModal() method -->\n<button class=\"btn\" onclick=\"my_modal_3.showModal()\">open modal</button>\n<dialog id=\"my_modal_3\" class=\"modal\">\n  <div class=\"modal-box\">\n    <form method=\"dialog\">\n      <button class=\"btn btn-sm btn-circle btn-ghost absolute right-2 top-2\">✕</button>\n    </form>\n    <h3 class=\"text-lg font-bold\">Hello!</h3>\n    <p class=\"py-4\">Press ESC key or click on ✕ button to close</p>\n  </div>\n</dialog>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

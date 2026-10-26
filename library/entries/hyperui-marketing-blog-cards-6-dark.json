@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-marketing-blog-cards-6-dark",
+  "title": "Blog Cards: Artistic with rotated date, image, title, excerpt and call to action, shadow on hover (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/blog-cards",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "marketing",
+    "blog-cards",
+    "hyperui",
+    "blog",
+    "post",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/blog-cards/6-dark.html",
+  "code": "<div class=\"mx-auto max-w-3xl p-6\">\n<article class=\"flex bg-white transition hover:shadow-xl dark:bg-gray-900 dark:shadow-gray-800/25\">\n<div class=\"rotate-180 p-2 [writing-mode:vertical-lr]\">\n<time class=\"flex items-center justify-between gap-4 text-xs font-bold text-gray-900 uppercase dark:text-white\" datetime=\"2022-10-10\">\n<span>2022</span>\n<span class=\"w-px flex-1 bg-gray-900/10 dark:bg-white/10\"></span>\n<span>Oct 10</span>\n</time>\n</div>\n<div class=\"hidden sm:block sm:basis-56\">\n<img alt=\"\" class=\"aspect-square h-full w-full object-cover\" src=\"https://images.unsplash.com/photo-1609557927087-f9cf8e88de18?auto=format&amp;fit=crop&amp;q=80&amp;w=1160\"/>\n</div>\n<div class=\"flex flex-1 flex-col justify-between\">\n<div class=\"border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6 dark:border-white/10\">\n<a href=\"#\">\n<h3 class=\"font-bold text-gray-900 uppercase dark:text-white\">\n              Finding the right guitar for your style - 5 tips\n            </h3>\n</a>\n<p class=\"mt-2 line-clamp-3 text-sm/relaxed text-gray-700 dark:text-gray-200\">\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus\n            pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis\n            quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius\n            atque dignissimos. Molestias explicabo corporis voluptatem?\n          </p>\n</div>\n<div class=\"sm:flex sm:items-end sm:justify-end\">\n<a class=\"block bg-yellow-400 px-5 py-3 text-center text-xs font-bold text-gray-900 uppercase transition hover:bg-yellow-500\" href=\"#\">\n            Read Blog\n          </a>\n</div>\n</div>\n</article>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

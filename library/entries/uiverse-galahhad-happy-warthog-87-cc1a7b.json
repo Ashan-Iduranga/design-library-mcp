@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-galahhad-happy-warthog-87-cc1a7b",
+  "title": "Toggle by Galahhad (happy-warthog-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Galahhad/happy-warthog-87",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "active",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Galahhad on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Galahhad_happy-warthog-87.html",
+  "code": "<label class=\"switch\">\n    <input type=\"checkbox\" class=\"checkbox\">\n    <div class=\"slider\"></div>\n</label>\n<style>\n/* From Uiverse.io by Galahhad - Tags: active, switch */\n.checkbox {\n  display: none;\n}\n\n.slider {\n  width: 60px;\n  height: 30px;\n  background-color: lightgray;\n  border-radius: 20px;\n  overflow: hidden;\n  display: flex;\n  align-items: center;\n  border: 4px solid transparent;\n  transition: .3s;\n  box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.25) inset;\n  cursor: pointer;\n}\n\n.slider::before {\n  content: '';\n  display: block;\n  width: 100%;\n  height: 100%;\n  background-color: #fff;\n  transform: translateX(-30px);\n  border-radius: 20px;\n  transition: .3s;\n  box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.25);\n}\n\n.checkbox:checked ~ .slider::before {\n  transform: translateX(30px);\n  box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.25);\n}\n\n.checkbox:checked ~ .slider {\n  background-color: #2196F3;\n}\n\n.checkbox:active ~ .slider::before {\n  transform: translate(0);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

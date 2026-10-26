@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-faxriddin20-lazy-squid-52-c0949f",
+  "title": "Button by faxriddin20 (lazy-squid-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/faxriddin20/lazy-squid-52",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d",
+    "hover",
+    "active",
+    "hover-effect",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By faxriddin20 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/faxriddin20_lazy-squid-52.html",
+  "code": "<button class=\"button\">Button</button>\n\n<style>\n/* From Uiverse.io by faxriddin20  - Tags: 3d, button, hover, active, hover effect, hover button */\n.button {\n  cursor: pointer;\n  width: 160px;\n  height: 50px;\n  border-radius: 20px;\n  color: violet;\n  border: 2px solid violet;\n  transition: all 0.6s ease;\n}\n.button:hover {\n  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,\n    rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,\n    rgba(240, 46, 170, 0.05) 0px 25px;\n}\n.button:active {\n  box-shadow: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

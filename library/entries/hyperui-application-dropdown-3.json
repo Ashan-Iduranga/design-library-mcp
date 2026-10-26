@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-dropdown-3",
+  "title": "Dropdowns: Grouped",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/dropdown",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "dropdown",
+    "hyperui",
+    "menu",
+    "navigation"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/dropdown/3.html",
+  "code": "<div class=\"mx-auto flex max-w-sm justify-center p-6\">\n<div class=\"relative inline-flex\">\n<span class=\"inline-flex divide-x divide-gray-300 overflow-hidden rounded border border-gray-300 bg-white shadow-sm\">\n<button class=\"px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900 focus:relative\" type=\"button\">\n          Product\n        </button>\n<button aria-label=\"Menu\" class=\"px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900 focus:relative\" type=\"button\">\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"m19.5 8.25-7.5 7.5-7.5-7.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n</button>\n</span>\n<div class=\"absolute end-0 top-12 z-auto w-56 divide-y divide-gray-200 overflow-hidden rounded border border-gray-300 bg-white shadow-sm\" role=\"menu\">\n<div>\n<p class=\"block px-3 py-2 text-sm text-gray-500\">General</p>\n<a class=\"block px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900\" href=\"#\" role=\"menuitem\">\n            Storefront\n          </a>\n<a class=\"block px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900\" href=\"#\" role=\"menuitem\">\n            Warehouse\n          </a>\n<a class=\"block px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900\" href=\"#\" role=\"menuitem\">\n            Stock\n          </a>\n</div>\n<div>\n<p class=\"block px-3 py-2 text-sm text-gray-500\">Actions</p>\n<button class=\"block w-full px-3 py-2 text-sm font-medium text-red-700 transition-colors hover:bg-red-50 ltr:text-left rtl:text-right\" type=\"button\">\n            Delete\n          </button>\n</div>\n</div>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

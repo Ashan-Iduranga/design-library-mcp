@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-na3ar-17-afraid-bulldog-66-c0576c",
+  "title": "Card by Na3ar-17 (afraid-bulldog-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Na3ar-17/afraid-bulldog-66",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Na3ar-17 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Na3ar-17_afraid-bulldog-66.html",
+  "code": "<div class=\"card\">\n  <div class=\"deg\">\n    <span>Rain</span>\n    <p class=\"number\">\n      21\n      <span>0</span>\n    </p>\n  </div>\n  <div class=\"date\">\n    <p>Monday,22 October Saigon</p>\n  </div>\n  <div class=\"rain\">\n    <div class=\"block\">\n      <div class=\"drop\"></div>\n      <div class=\"drop\"></div>\n    </div>\n    <div class=\"block\">\n      <div class=\"drop\"></div>\n      <div class=\"drop\"></div>\n    </div>\n    <div class=\"block\">\n      <div class=\"drop\"></div>\n      <div class=\"drop\"></div>\n    </div>\n    <div class=\"block\">\n      <div class=\"drop\"></div>\n      <div class=\"drop\"></div>\n    </div>\n    <div class=\"block\">\n      <div class=\"drop\"></div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Na3ar-17  - Website: https://dribbble.com/shots/16188207-Weather-Card-UI - Tags: animation, card, cool card, card hover */\n.card {\n  background-color: #232732;\n  border-radius: 12px;\n  min-width: 200px;\n  display: grid;\n  grid-template-columns: 100px 1fr 1fr;\n  padding: 10px 14px 0px 20px;\n  color: #fff;\n  align-items: center;\n  gap: 20px;\n  width: 450px;\n  position: relative;\n  height: 105px;\n  transition: all 0.4s ease-in-out;\n}\n\n.card .deg span {\n  color: #adb0b8;\n}\n.card .deg .number {\n  font-size: 45px;\n  position: relative;\n}\n\n.card .deg .number span {\n  position: absolute;\n  font-size: 20px;\n  color: #fff;\n}\n\n.card .date p {\n  font-size: 17px;\n  max-width: 220px;\n  color: #adb0b8;\n}\n\n.card .rain {\n  --bg1: #494b57;\n  --bg2: #bfc0c0;\n  position: absolute;\n  right: 5px;\n  top: -3px;\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  width: 150px;\n  transform: rotate(-56deg);\n}\n\n.card .rain .block {\n  display: grid;\n  gap: 5px;\n  --start-position: 0px;\n  --mid-position: 10px;\n  --end-position: 0;\n}\n\n.card .rain .block .drop {\n  height: 10px;\n  border-radius: 20px;\n  background-color: var(--bg2);\n}\n\n.card .rain .block:first-child {\n  grid-template-columns: 40px 1fr;\n  margin-left: 60px;\n}\n\n.card .rain .block:nth-child(2) {\n  grid-template-columns: 60px 1fr;\n  margin-right: 40px;\n}\n\n.card .rain .block:nth-child(3) {\n  grid-template-columns: 30px 1fr;\n  margin-left: 40px;\n}\n.card .rain .block:nth-child(4) {\n  grid-template-columns: 20px 1fr;\n  margin-left: 20px;\n}\n\n.card .rain .block:last-child {\n  width: 30px;\n  margin-left: 70px;\n}\n\n.card .rain .block:first-child .drop:first-child {\n  background-color: var(--bg2);\n}\n.card .rain .block:first-child .drop:last-child {\n  -webkit-box-shadow: 21px 8px 58px 2px rgba(86, 91, 91, 1);\n  -moz-box-shadow: 21px 8px 58px 2px rgba(86, 91, 91, 1);\n  box-shadow: 21px 8px 58px 2px rgba(86, 91, 91, 1);\n}\n\n.card .rain .block:nth-child(2) .drop:last-child {\n  background-color: var(--bg1);\n}\n\n.card .rain .block:nth-child(3) .drop:first-child {\n  background-color: var(--bg1);\n}\n\n.card .rain .block:nth-child(3) .drop:last-child {\n  background-color: var(--bg2);\n}\n\n.card .rain .block:nth-child(4) .drop:last-child {\n  background-color: var(--bg1);\n}\n\n.card:hover .rain .block:first-child .drop:first-child {\n  animation: move 3s ease infinite;\n}\n.card:hover .rain .block:first-child .drop:last-child {\n  --mid-position: 9px;\n  animation: move 3s ease infinite 0.2s;\n}\n\n.card:hover .rain .block:nth-child(2) .drop:first-child {\n  --mid-position: 13px;\n  --start-position: 0px;\n  --end-position: 0;\n  animation: move 3s ease infinite 0.3s;\n}\n.card:hover .rain .block:nth-child(2) .drop:last-child {\n  --mid-position: 10px;\n  --start-position: 0px;\n  --end-position: 0;\n  animation: move 3.2s ease infinite 0.4s;\n}\n.card:hover .rain .block:nth-child(3) .drop:last-child {\n  --mid-position: 15px;\n  --start-position: 0px;\n  --end-position: 0;\n  animation: move 3.2s ease infinite 0.2s;\n}\n.card:hover .rain .block:nth-child(3) .drop:first-child {\n  --mid-position: 13px;\n  --start-position: 0px;\n  --end-position: 0;\n  animation: move 3s ease infinite 0.2s;\n}\n.card:hover .rain .block:nth-child(4) .drop:first-child {\n  --mid-position: 20px;\n  --start-position: 0px;\n  --end-position: 0;\n  animation: move 3s ease infinite 0.2s;\n}\n.card:hover .rain .block:nth-child(4) .drop:last-child {\n  --mid-position: 25px;\n  --start-position: 0px;\n  --end-position: 0;\n  animation: move 3s ease infinite 0.3s;\n}\n\n.card:hover .rain .block:last-child .drop:last-child {\n  --mid-position: 30px;\n  --start-position: 0px;\n  --end-position: 0;\n  animation: move 3s ease infinite 0.3s;\n}\n\n@keyframes move {\n  0% {\n    transform: translateX(var(--start-position, 0px));\n  }\n  50% {\n    transform: translateX(var(--mid-position, 10px));\n  }\n  100% {\n    transform: translateX(var(--end-position, 0));\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

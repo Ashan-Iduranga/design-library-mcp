@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-kind-frog-70-62400b",
+  "title": "Pattern by csemszepp (kind-frog-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/kind-frog-70",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_kind-frog-70.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 84px;\n  --c1: #f2f2f2;\n  --c2: #cdcbcc;\n  --c3: #999999;\n\n  --_g: 0 120deg, #0000 0;\n  background: conic-gradient(\n      from 0deg at calc(500% / 6) calc(100% / 3),\n      var(--c3) var(--_g)\n    ),\n    conic-gradient(\n      from -120deg at calc(100% / 6) calc(100% / 3),\n      var(--c2) var(--_g)\n    ),\n    conic-gradient(\n      from 120deg at calc(100% / 3) calc(500% / 6),\n      var(--c1) var(--_g)\n    ),\n    conic-gradient(\n      from 120deg at calc(200% / 3) calc(500% / 6),\n      var(--c1) var(--_g)\n    ),\n    conic-gradient(\n      from -180deg at calc(100% / 3) 50%,\n      var(--c2) 60deg,\n      var(--c1) var(--_g)\n    ),\n    conic-gradient(\n      from 60deg at calc(200% / 3) 50%,\n      var(--c1) 60deg,\n      var(--c3) var(--_g)\n    ),\n    conic-gradient(\n      from -60deg at 50% calc(100% / 3),\n      var(--c1) 120deg,\n      var(--c2) 0 240deg,\n      var(--c3) 0\n    );\n  background-size: calc(var(--s) * 1.732) var(--s);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

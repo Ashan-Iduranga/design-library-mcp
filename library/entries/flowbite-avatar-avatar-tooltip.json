@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-avatar-avatar-tooltip",
+  "title": "Avatar: Avatar tooltip (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/avatar/#avatar-tooltip",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "avatar",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a tooltip when hovering over the avatar.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/avatar.md",
+  "code": "<div>\n  <div id=\"tooltip-jese\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-dark rounded-base shadow-xs opacity-0 tooltip\">\n      Jese Leos\n      <div class=\"tooltip-arrow\" data-popper-arrow></div>\n  </div>\n  <img data-tooltip-target=\"tooltip-jese\" class=\"w-10 h-10 rounded-base\" src=\"/docs/images/people/profile-picture-5.jpg\" alt=\"Medium avatar\">\n</div>\n<div>\n  <div id=\"tooltip-roberta\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-dark rounded-base shadow-xs opacity-0 tooltip\">\n      Roberta Casas\n      <div class=\"tooltip-arrow\" data-popper-arrow></div>\n  </div>\n  <img data-tooltip-target=\"tooltip-roberta\" class=\"w-10 h-10 rounded-base\" src=\"/docs/images/people/profile-picture-4.jpg\" alt=\"Medium avatar\">\n</div>\n<div>\n  <div id=\"tooltip-bonnie\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-dark rounded-base shadow-xs opacity-0 tooltip\">\n      Bonnie Green\n      <div class=\"tooltip-arrow\" data-popper-arrow></div>\n  </div>\n  <img data-tooltip-target=\"tooltip-bonnie\" class=\"w-10 h-10 rounded-base\" src=\"/docs/images/people/profile-picture-3.jpg\" alt=\"Medium avatar\">\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

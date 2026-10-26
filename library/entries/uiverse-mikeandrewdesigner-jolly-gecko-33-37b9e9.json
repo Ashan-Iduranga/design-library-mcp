@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mikeandrewdesigner-jolly-gecko-33-37b9e9",
+  "title": "Checkbox by MikeAndrewDesigner (jolly-gecko-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MikeAndrewDesigner/jolly-gecko-33",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "rounded",
+    "clean"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MikeAndrewDesigner on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/MikeAndrewDesigner_jolly-gecko-33.html",
+  "code": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n<style>\n/* From Uiverse.io by MikeAndrewDesigner - Tags: checkbox, rounded, clean */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 30px;\n  user-select: none;\n}\n\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.6em;\n  width: 1.6em;\n  border-radius: 50%;\n  background: #ffeded38;\n  transition: all 0.2s ease;\n}\n\n.checkmark {\n  opacity: 0.4;\n}\n\n.container input:checked ~ .checkmark {\n  background: linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb);\n  opacity: 0.9;\n  transition: all 0.2s ease;\n}\n\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n}\n\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n.container .checkmark:after {\n  left: 0.61em;\n  top: 0.43em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid rgb(255, 255, 255);\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

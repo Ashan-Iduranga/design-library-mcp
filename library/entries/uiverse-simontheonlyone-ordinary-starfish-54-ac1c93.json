@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-simontheonlyone-ordinary-starfish-54-ac1c93",
+  "title": "Button by simontheonlyone (ordinary-starfish-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/simontheonlyone/ordinary-starfish-54",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "orange",
+    "heart",
+    "unique",
+    "text-animation",
+    "focus",
+    "creative"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By simontheonlyone on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/simontheonlyone_ordinary-starfish-54.html",
+  "code": "<button class=\"container\">\n  <span class=\"effect orange_effect\"></span>\n  <span class=\"effect white_effect\"></span>\n  <div class=\"heart heart_left\"></div>\n  <div class=\"heart heart_right\"></div>\n  <div class=\"like\">I love it</div>\n</button>\n\n<style>\n/* From Uiverse.io by simontheonlyone - Tags: animation, orange, button, heart, unique, text animation, focus, creative, minimal */\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  width: 6em;\n  height: 6em;\n  border: none;\n  border-radius: 1em;\n  background: #ddd;\n  box-shadow: 0 0 20px rgba(0, 0, 0, .4);\n  cursor: pointer;\n}\n\n.heart {\n  width: 2.4em;\n  height: 4.3em;\n  border: none;\n  border-radius: 10em;\n  pointer-events: none;\n}\n\n.heart_left {\n  background-color: rgb(252, 102, 56);\n  box-shadow: 0 0 5px rgba(0, 0, 0, .4);\n  transform: rotate(-38deg);\n  margin-right: -16px;\n  z-index: 2;\n}\n\n.heart_right {\n  background-color: rgb(199, 81, 45);\n  box-shadow: 0 0 5px rgba(0, 0, 0, .3);\n  transform: rotate(38deg);\n  z-index: 1;\n}\n\n.container:hover > .heart_left {\n  animation: like 450ms ease forwards;\n}\n\n@keyframes like {\n  0% {\n    margin-right: -16px;\n  }\n\n  25% {\n    transform: rotate(0deg);\n    margin-right: -32px;\n  }\n\n  50% {\n    transform: rotate(-38deg);\n    margin-right: -16px;\n  }\n\n  75% {\n    transform: rotate(0deg);\n    margin-right: -32px;\n  }\n\n  100% {\n    transform: rotate(-38deg);\n  }\n}\n\n.container:hover > .heart_right {\n  animation: loke 450ms ease;\n}\n\n@keyframes loke {\n  25% {\n    transform: rotate(0deg);\n    box-shadow: none;\n  }\n\n  50% {\n    transform: rotate(38deg);\n  }\n\n  75% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(38deg);\n  }\n}\n\n.orange_effect,\n.white_effect {\n  position: absolute;\n  inset: 40.5%;\n  border: none;\n  border-radius: .2em;\n  width: 1em;\n  height: 1em;\n  scale: 1;\n  opacity: 1;\n}\n\n.orange_effect {\n  background: rgba(255, 102, 55, .3);\n  transition: scale 250ms linear, opacity 500ms linear 270ms;\n}\n\n.container:hover > .orange_effect {\n  scale: 6;\n  opacity: 0;\n}\n\n.white_effect {\n  background: rgba(255, 134, 42, 0.3);\n  transition: scale 280ms linear 200ms, opacity 500ms linear 270ms;\n}\n\n.container:hover > .white_effect {\n  scale: 6;\n  opacity: 0;\n}\n\n.like {\n  position: absolute;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  min-width: 10em;\n  min-height: 2.2em;\n  background: #e5e5e5;\n  box-shadow: 0 0 20px rgba(0, 0, 0, .15);\n  font-size: 15px;\n  letter-spacing: 3px;\n  border: none;\n  border-radius: .65em;\n  pointer-events: none;\n  scale: 0;\n  opacity: 0;\n}\n\n.container:focus .like {\n  animation: pop-up 400ms ease forwards;\n}\n\n@keyframes pop-up {\n  0% {\n    top: 0;\n  }\n\n  80%, 100% {\n    top: -60px;\n    scale: 1;\n    opacity: 1;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

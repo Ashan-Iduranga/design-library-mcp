@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-g4b413l-unlucky-stingray-83-c67b0b",
+  "title": "Loader by G4b413l (unlucky-stingray-83)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/unlucky-stingray-83",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/G4b413l_unlucky-stingray-83.html",
+  "code": "<div class=\"dot-wave\">\n    <div class=\"dot-wave__dot\"></div>\n    <div class=\"dot-wave__dot\"></div>\n    <div class=\"dot-wave__dot\"></div>\n    <div class=\"dot-wave__dot\"></div>\n</div>\n<style>\n/* From Uiverse.io by G4b413l - Tags: loader */\n.dot-wave {\n  --uib-size: 50px;\n  --uib-speed: 0.6s;\n  --uib-color: #0d0909;\n  display: flex;\n  flex-flow: row nowrap;\n  align-items: center;\n  justify-content: space-between;\n  width: var(--uib-size);\n  height: calc(var(--uib-size) * 0.17);\n  padding-top: calc(var(--uib-size) * 0.34);\n}\n\n.dot-wave__dot {\n  flex-shrink: 0;\n  width: calc(var(--uib-size) * 0.17);\n  height: calc(var(--uib-size) * 0.17);\n  border-radius: 50%;\n  background-color: var(--uib-color);\n  will-change: transform;\n}\n\n.dot-wave__dot:nth-child(1) {\n  animation: jump824 var(--uib-speed) ease-in-out\n    calc(var(--uib-speed) * -0.45) infinite;\n}\n\n.dot-wave__dot:nth-child(2) {\n  animation: jump824 var(--uib-speed) ease-in-out\n    calc(var(--uib-speed) * -0.3) infinite;\n}\n\n.dot-wave__dot:nth-child(3) {\n  animation: jump824 var(--uib-speed) ease-in-out\n    calc(var(--uib-speed) * -0.15) infinite;\n}\n\n.dot-wave__dot:nth-child(4) {\n  animation: jump824 var(--uib-speed) ease-in-out infinite;\n}\n\n@keyframes jump824 {\n  0%,\n  100% {\n    transform: translateY(0px);\n  }\n\n  50% {\n    transform: translateY(-200%);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

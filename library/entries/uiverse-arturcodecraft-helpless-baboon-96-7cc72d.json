@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-arturcodecraft-helpless-baboon-96-7cc72d",
+  "title": "Button by ArturCodeCraft (helpless-baboon-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ArturCodeCraft/helpless-baboon-96",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "apple",
+    "menu",
+    "menuicon",
+    "menu-button",
+    "hamburger-menu"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ArturCodeCraft on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ArturCodeCraft_helpless-baboon-96.html",
+  "code": "<button class=\"menu__icon\">\n</button>\n<style>\n/* From Uiverse.io by ArturCodeCraft - Tags: icon, apple, button, menu, menuicon, menu button , hamburger menu */\n/* <reset-style> ============================ */\nbutton {\n  border: none;\n  background: none;\n  padding: 0;\n  margin: 0;\n  cursor: pointer;\n  font-family: inherit;\n}\n/* <main-style> ============================ */\n.menu__icon {\n  width: 2rem;\n  height: 2rem;\n  padding: .25rem;\n  backdrop-filter: saturate(180%) blur(20px);\n  background-color: rgb(29, 29, 31, .7);\n  border: solid 1px rgba(66,66,69,0.7);\n}\n\n.menu__icon::before {\n  display: block;\n  content: \"+\";\n  color: rgb(245, 245, 247);\n  font-size: 1.125rem;\n  font-weight: 400;\n  transition: transform .3s ease-out;\n  transform-origin: center;\n}\n\n.menu__icon:hover::before {\n  transform: rotate(45deg) scale(1.08);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

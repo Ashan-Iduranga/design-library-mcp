@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-curly-wombat-86-7f1749",
+  "title": "Loader by Shoh2008 (curly-wombat-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/curly-wombat-86",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_curly-wombat-86.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 148px;\n  height: 148px;\n  border-radius: 50%;\n  margin: -64px auto 0;\n  background-color: #ccc;\n  background-image: radial-gradient(#fff 4px, #0000  0),\n                    radial-gradient(#fff 4px, #0000  0),\n                    radial-gradient(#fff 4px, #0000  0),\n                    radial-gradient(#fff 4px, #0000  0);\n  background-position: 24px center, 8px center, -8px center, -24px center;\n  position: relative;\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15) inset;\n  animation: flash 1s linear infinite;\n}\n\n.loader::before , .loader::after {\n  content: '';\n  position: absolute;\n  border: 1px solid #ccc;\n  border-top-color: #0000;\n  left: 50%;\n  top: 100%;\n  transform: translateX(-50%);\n  width: 16px;\n  height: 18px;\n  background: #fff;\n}\n\n.loader::before {\n  width: 0px;\n  height: 64px;\n  transform: translate(-50% , 18px);\n}\n\n@keyframes flash {\n  0% {\n    background-image: radial-gradient(#DDD 4px, #0000  0),\n        radial-gradient(#DDD 4px, #0000  0),\n        radial-gradient(#DDD 4px, #0000  0),\n        radial-gradient(#DDD 4px, #0000  0);\n  }\n\n  25% {\n    background-image: radial-gradient(#DDD 4px, #0000  0),\n      radial-gradient(#DDD 4px, #0000  0),\n      radial-gradient(#DDD 4px, #0000  0),\n      radial-gradient(#fff 4px, #0000  0);\n  }\n\n  50% {\n    background-image: radial-gradient(#DDD 4px, #0000  0),\n      radial-gradient(#DDD 4px, #0000  0),\n      radial-gradient(#fff 4px, #0000  0),\n      radial-gradient(#fff 4px, #0000  0);\n  }\n\n  75% {\n    background-image: radial-gradient(#DDD 4px, #0000  0),\n        radial-gradient(#fff 4px, #0000  0),\n        radial-gradient(#fff 4px, #0000  0),\n        radial-gradient(#fff 4px, #0000  0);\n  }\n\n  100% {\n    background-image: radial-gradient(#fff 4px, #0000  0),\n        radial-gradient(#fff 4px, #0000  0),\n        radial-gradient(#fff 4px, #0000  0),\n        radial-gradient(#fff 4px, #0000  0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

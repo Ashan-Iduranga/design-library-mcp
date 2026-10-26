@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-mr-roy-alt-fat-kangaroo-51-e87ecf",
+  "title": "Form by Mr-Roy-alt (fat-kangaroo-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Mr-Roy-alt/fat-kangaroo-51",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "sign-up"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Mr-Roy-alt on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Mr-Roy-alt_fat-kangaroo-51.html",
+  "code": "<form class=\"form\">\n    <span class=\"signup\">Sign Up</span>\n    <input type=\"email\" placeholder=\"Email address\" class=\"form--input\">\n    <input type=\"password\" placeholder=\"Password\" class=\"form--input\">\n    <input type=\"password\" placeholder=\"Confirm password\" class=\"form--input\">\n    \n    <div class=\"form--marketing\">\n        <input id=\"okayToEmail\" type=\"checkbox\">\n        <label for=\"okayToEmail\" class=\"checkbox\">\n          I want to join the newsletter\n        </label>\n    </div>\n    <button class=\"form--submit\">\n        Sign up\n    </button>\n</form>\n<style>\n/* From Uiverse.io by Mr-Roy-alt - Tags: form, sign-up */\n.form {\n  background-color: white;\n  padding: 3.125em;\n  border-radius: 10px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);\n}\n\n.signup {\n  color: rgb(77, 75, 75);\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  display: block;\n  font-weight: bold;\n  font-size: x-large;\n  margin-bottom: 0.5em;\n}\n\n.form--input {\n  width: 100%;\n  margin-bottom: 1.25em;\n  height: 40px;\n  border-radius: 5px;\n  border: 1px solid gray;\n  padding: 0.8em;\n  font-family: 'Inter', sans-serif;\n  outline: none;\n}\n\n.form--input:focus {\n  border: 1px solid #639;\n  outline: none;\n}\n\n.form--marketing {\n  display: flex;\n  margin-bottom: 1.25em;\n  align-items: center;\n}\n\n.form--marketing > input {\n  margin-right: 0.625em;\n}\n\n.form--marketing > label {\n  color: grey;\n}\n\n.checkbox, input[type=\"checkbox\"] {\n  accent-color: #639;\n}\n\n.form--submit {\n  width: 50%;\n  padding: 0.625em;\n  border-radius: 5px;\n  color: white;\n  background-color: #639;\n  border: 1px dashed #639;\n  cursor: pointer;\n}\n\n.form--submit:hover {\n  color: #639;\n  background-color: white;\n  border: 1px dashed #639;\n  cursor: pointer;\n  transition: 0.5s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

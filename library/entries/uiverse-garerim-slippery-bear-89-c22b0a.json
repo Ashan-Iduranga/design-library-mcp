@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-garerim-slippery-bear-89-c22b0a",
+  "title": "Card by garerim (slippery-bear-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/garerim/slippery-bear-89",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By garerim on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/garerim_slippery-bear-89.html",
+  "code": "<div class=\"card\">\n  <div class=\"img-card\">\n  </div>\n  <div class=\"add-cart\">Add to Cart</div>\n  <div class=\"info-card\">\n    <p><strong>Lorem ipsum</strong></p>\n    <p>Price : 15$</p>\n  </div>\n  \n</div>\n<style>\n/* From Uiverse.io by garerim - Tags: card */\n.card {\n  position: relative;\n  width: 190px;\n  height: 254px;\n  background: #fff;\n  border: solid 4px #333;\n  box-shadow: -5px 5px #333;\n  transition: all .2s ease-in-out;\n  display: flex;\n  justify-content: center;\n  cursor: pointer;\n}\n\n.card:hover {\n  margin: 10px 10px 0 0;\n  box-shadow: 0px 0px #333;\n}\n\n.card .img-card {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: calc(100% - 50px);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: filter .2s 1s ease-in-out;\n}\n\n.card:hover .img-card {\n  filter: blur(1px);\n}\n\n.card .add-cart {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: calc(100% - 50px);\n  background-color: rgba(0, 0, 0, 0.1);\n  text-align: center;\n  line-height: 250px;\n  font-weight: bold;\n  font-size: 19px;\n  opacity: 0;\n}\n\n.card:hover .add-cart {\n  opacity: 1;\n  transition: opacity .3s 1s ease-in-out;\n}\n\n.card .info-card {\n  position: absolute;\n  height: 50px;\n  width: 100%;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  border-top: solid 1px #333;\n}\n\n.card .info-card p {\n  font-size: 14px;\n  margin: 5px;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

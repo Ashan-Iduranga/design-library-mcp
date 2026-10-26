@@ -1,0 +1,33 @@
+{
+  "id": "shadcn-ui-skeleton",
+  "title": "Skeleton (shadcn/ui)",
+  "source": "shadcn/ui",
+  "url": "https://ui.shadcn.com/docs/components/skeleton",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "ui",
+    "skeleton",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use to show a placeholder while content is loading.\n\nInstall into a project: npx shadcn@latest add skeleton\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/ui/skeleton.tsx",
+  "code": "import { cn } from \"cn\"\n\nfunction Skeleton({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"skeleton\"\n      className={cn(\"animate-pulse rounded-md bg-accent\", className)}\n      {...props}\n    />\n  )\n}\n\nexport { Skeleton }\n",
+  "prompt": "npx shadcn@latest add skeleton",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

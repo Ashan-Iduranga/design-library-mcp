@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shoh2008-lucky-emu-65-d88efc",
+  "title": "Loader by Shoh2008 (lucky-emu-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/lucky-emu-65",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "bear"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_lucky-emu-65.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader, bear */\n.loader {\n  width: 160px;\n  height: 185px;\n  position: relative;\n  background: #fff;\n  border-radius: 100px 100px 0 0;\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  width: 100px;\n  height: 125px;\n  left: 50%;\n  top: 25px;\n  transform: translateX(-50%);\n  background-image: radial-gradient(circle, #000 48%, transparent 55%),\n    radial-gradient(circle, #000 48%, transparent 55%),\n    radial-gradient(circle, #fff 30%, transparent 45%),\n    radial-gradient(circle, #000 48%, transparent 51%),\n    linear-gradient(#000 20px, transparent 0),\n    linear-gradient(#cfecf9 60px, transparent 0),\n    radial-gradient(circle, #cfecf9 50%, transparent 51%),\n    radial-gradient(circle, #cfecf9 50%, transparent 51%);\n  background-repeat: no-repeat;\n  background-size: 16px 16px, 16px 16px, 10px 10px, 42px 42px, 12px 3px,\n    50px 25px, 70px 70px, 70px 70px;\n  background-position: 25px 10px, 55px 10px, 36px 44px, 50% 30px, 50% 85px,\n    50% 50px, 50% 22px, 50% 45px;\n  animation: faceLift 3s linear infinite alternate;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  width: 140%;\n  height: 125px;\n  left: -20%;\n  top: 0;\n  background-image: radial-gradient(circle, #fff 48%, transparent 50%),\n    radial-gradient(circle, #fff 48%, transparent 50%);\n  background-repeat: no-repeat;\n  background-size: 65px 65px;\n  background-position: 0px 12px, 145px 12px;\n  animation: earLift 3s linear infinite alternate;\n}\n\n@keyframes faceLift {\n  0% {\n    transform: translateX(-60%);\n  }\n\n  100% {\n    transform: translateX(-30%);\n  }\n}\n\n@keyframes earLift {\n  0% {\n    transform: translateX(10px);\n  }\n\n  100% {\n    transform: translateX(0px);\n  }\n}\n  \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

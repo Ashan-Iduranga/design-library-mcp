@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-sulilevente-soft-horse-30-31afd2",
+  "title": "Button by SuliLevente (soft-horse-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SuliLevente/soft-horse-30",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SuliLevente on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SuliLevente_soft-horse-30.html",
+  "code": "<button>UIVERSE</button>\n<style>\n/* From Uiverse.io by SuliLevente - Tags: button */\nbutton {\n  display: inline-block;\n  border: 3px solid #DFB112;\n  padding: 10px;\n  background-color: #212121;\n  color: white;\n  font-weight: bold;\n  font-size: 17px;\n  z-index: 1;\n  overflow: hidden;\n  position: relative;\n  border-radius: 8px;\n}\n\nbutton::before {\n  content: \"\";\n  z-index: -1;\n  -webkit-transform: translateY(-100%) translateX(-100%);\n  -ms-transform: translateY(-100%) translateX(-100%);\n  transform: translateY(-100%) translateX(-100%);\n  -webkit-transition: all 0.3s;\n  transition: all 0.3s;\n  background-color: #DFB112;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  position: absolute;\n}\n\nbutton:hover::before {\n  -webkit-transform: translateY(0) translateX(0);\n  -ms-transform: translateY(0) translateX(0);\n  transform: translateY(0) translateX(0);\n}\n\nbutton:hover::after {\n  -webkit-transform: translateY(100%) translateX(100%);\n  -ms-transform: translateY(100%) translateX(100%);\n  transform: translateY(100%) translateX(100%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

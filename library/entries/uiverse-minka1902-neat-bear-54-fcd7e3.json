@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-minka1902-neat-bear-54-fcd7e3",
+  "title": "Input by Minka1902 (neat-bear-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Minka1902/neat-bear-54",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "code",
+    "click",
+    "border",
+    "html",
+    "css",
+    "css-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Minka1902 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Minka1902_neat-bear-54.html",
+  "code": "<div class=\"input-container\">\n  <input type=\"text\" name=\"text\" class=\"input\">\n  <label class=\"label\">Input title</label>\n  <div class=\"top-line\"></div>\n  <div class=\"under-line\"></div>\n</div>\n<style>\n/* From Uiverse.io by Minka1902 - Tags: input, code, click, border, html, css, css effect */\n.input-container {\n  position: relative;\n  width: clamp(100px, 100%, 200px);\n}\n\n.input {\n  padding: 10px;\n  height: 40px;\n  width: clamp(100px, 100%, 200px);\n  border: 2px solid #0B2447;\n  border-top: none;\n  font-size: 16px;\n  background: transparent;\n  outline: none;\n  box-shadow: 7px 7px 0px 0px #0B2447;\n  transition: all 0.5s;\n}\n\n.input:focus {\n  box-shadow: none;\n  transition: all 0.5s;\n}\n\n.label {\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  color: #0B2447;\n  transition: all 0.5s;\n  transform: scale(0);\n  z-index: -1;\n}\n\n.input-container .top-line {\n  position: absolute;\n  content: \"\";\n  background-color: #0B2447;\n  width: 100%;\n  height: 2px;\n  right: 0;\n  top: 0;\n  transition: all 0.5s;\n}\n\n.input-container input[type=\"text\"]:focus~.top-line {\n  width: 35%;\n  transition: all 0.5s;\n}\n\n.input-container .under-line {\n  position: absolute;\n  content: \"\";\n  background-color: #0B2447;\n  width: 0%;\n  height: 2px;\n  right: 0;\n  bottom: 0;\n  transition: all 0.5s;\n}\n\n.input-container input[type=\"text\"]:focus~.under-line {\n  width: 100%;\n  transition: all 0.5s;\n}\n\n.input-container input[type=\"text\"]:focus~.label {\n  top: -10px;\n  transform: scale(1);\n  transition: all 0.5s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

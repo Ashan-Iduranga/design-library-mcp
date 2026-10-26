@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-asgardop-ancient-cow-78-a7a7c2",
+  "title": "Loader by asgardOP (ancient-cow-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/asgardOP/ancient-cow-78",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "purple",
+    "loading",
+    "modern",
+    "css",
+    "effect-loader",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By asgardOP on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/asgardOP_ancient-cow-78.html",
+  "code": "<ul>\n  <li>\n    <div class=\"loader\">\n      <div class=\"child\"></div>\n    </div>\n  </li>\n\n  <li>\n    <div class=\"text\"></div>\n  </li>\n</ul>\n\n<style>\n/* From Uiverse.io by asgardOP  - Tags: simple, purple, loading, loader, modern, css, effect loader, loading animation */\n.loader {\n  width: 100px;\n  height: 3px;\n  background-color: rgb(15, 15, 15);\n  border-radius: 20px;\n  overflow: hidden;\n}\n\n.child {\n  width: 60px;\n  height: 3px;\n  background-color: rgb(107, 27, 255);\n  border-radius: 20px;\n  z-index: 0;\n  margin-left: -60px;\n  animation: go 1s 0s infinite;\n}\n\n@keyframes go {\n  from {\n    margin-left: -100px;\n    width: 80px;\n  }\n  to {\n    width: 30px;\n    margin-left: 110px;\n  }\n}\n\nul {\n  list-style: none;\n}\n\n.text {\n  width: 100px;\n  height: 30px;\n  background-color: transparent;\n  margin-top: 20px;\n  text-align: center;\n}\n\n.text::before {\n  content: \"Loading\";\n  color: white;\n  animation: text 1s 0s infinite;\n}\n\n@keyframes text {\n  0% {\n    content: \"Loading\";\n  }\n\n  30% {\n    content: \"Loading.\";\n  }\n\n  60% {\n    content: \"Loading..\";\n  }\n\n  100% {\n    content: \"Loading...\";\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

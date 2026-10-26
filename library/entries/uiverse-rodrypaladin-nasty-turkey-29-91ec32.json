@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-rodrypaladin-nasty-turkey-29-91ec32",
+  "title": "Card by Rodrypaladin (nasty-turkey-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Rodrypaladin/nasty-turkey-29",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "animation",
+    "purple",
+    "pink",
+    "hover",
+    "html",
+    "css",
+    "cool-card"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Rodrypaladin on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Rodrypaladin_nasty-turkey-29.html",
+  "code": "<article class=\"card\">\n    <div class=\"card-int\">\n        <span class=\"card__span\">Category</span>\n        <div class=\"img\"></div>\n        <div class=\"card-data\">\n          <p class=\"title\">This is a test title\n          </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n          <button class=\"button\">More info</button>\n        </div>\n    </div>\n</article>\n<style>\n/* From Uiverse.io by Rodrypaladin - Tags: animation, purple, pink, card, hover, html, css, cool card */\n.card {\n  width: 300px;\n  padding: 10px;\n  background-image: linear-gradient(to right bottom, #5d0391, #7b05ae, #9b05cb, #bd00e7, #bd00e7);\n  background-size: 200% 200%;\n  border-radius: 12px;\n}\n\n.card-int {\n  position: relative;\n  height: 100%;\n  overflow: hidden;\n  font-size: 14px;\n  border-radius: 6px;\n  background-color: white;\n}\n\n.img {\n  width: 100%;\n  height: 175px;\n  background-color: pink;\n}\n\n.title {\n  font-weight: bold;\n  font-size: 16px;\n  margin-bottom: 10px;\n}\n\n.card-data {\n  padding: 20px;\n  font-size: 14px;\n}\n\n.card__span {\n  font-family: 'Lucida Sans' sans-serif;\n  font-size: 11px;\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  background-color: white;\n  padding: 5px 10px;\n  border-radius: 15px;\n}\n\nbutton {\n  width: 100%;\n  margin-top: 15px;\n  background-image: linear-gradient(to right bottom, #5d0391, #7b05ae, #9b05cb, #bd00e7, #bd00e7);\n  background-size: 200% 200%;\n  border: none;\n  padding: 8px 10px;\n  color: white;\n  font-size: 14px;\n  font-weight: bold;\n  border-radius: 5px;\n  transition: transform 0.1s ease-in;\n}\n\nbutton:active {\n  transform: translateY(3px);\n}\n\n.card:hover, button:hover {\n  animation: gradient 0.8s ease-in 1;\n}\n\n@keyframes gradient {\n  0% {\n    background-position: 200% 200%;\n  }\n\n  100% {\n    background-position: 400% 400%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

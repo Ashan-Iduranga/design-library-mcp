@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-mockup-window-window-mockup-with-border",
+  "title": "Window mockup: window mockup with border (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/mockup-window/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "mockup-window",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Window mockup shows a box that looks like an operating system window.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/mockup-window/+page.md",
+  "code": "<div class=\"mockup-window border border-base-300 w-full\">\n  <div class=\"grid place-content-center border-t border-base-300 h-80\">Hello!</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

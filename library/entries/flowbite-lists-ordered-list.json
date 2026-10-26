@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-lists-ordered-list",
+  "title": "Lists: Ordered list (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/typography/lists/#ordered-list",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "list",
+    "lists",
+    "typography",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the `<ol>` tag to create an ordered list of items with numbers.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/typography/lists.md",
+  "code": "<h2 class=\"mb-3 text-lg font-medium text-heading\">Top students:</h2>\n<ol class=\"max-w-md space-y-2 text-body list-decimal list-inside\">\n    <li>\n        <span class=\"font-medium text-heading\">Bonnie Green</span> with <span class=\"font-medium text-heading\">70</span> points\n    </li>\n    <li>\n        <span class=\"font-medium text-heading\">Jese Leos</span> with <span class=\"font-medium text-heading\">63</span> points\n    </li>\n    <li>\n        <span class=\"font-medium text-heading\">Leslie Livingston</span> with <span class=\"font-medium text-heading\">57</span> points\n    </li>\n</ol>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-spacious74-plastic-bulldog-78-913a85",
+  "title": "Button by Spacious74 (plastic-bulldog-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Spacious74/plastic-bulldog-78",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "neumorphism",
+    "shadow",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Spacious74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Spacious74_plastic-bulldog-78.html",
+  "code": "<button class=\"button\">\n  <div class=\"inner\">\n    <div class=\"roundInner\">\n      <svg\n        class=\"svg\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n        width=\"1.3em\"\n        height=\"1.3em\"\n        viewBox=\"0 0 24 24\"\n      >\n        <path\n          fill=\"none\"\n          stroke=\"currentColor\"\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n          stroke-width=\"1.5\"\n          d=\"m5 12l-.604-5.437C4.223 5.007 5.825 3.864 7.24 4.535l11.944 5.658c1.525.722 1.525 2.892 0 3.614L7.24 19.466c-1.415.67-3.017-.472-2.844-2.028zm0 0h7\"\n        ></path>\n      </svg>\n      Send Message\n    </div>\n  </div>\n</button>\n\n<style>\n/* From Uiverse.io by Spacious74  - Tags: neumorphism, button, shadow, 3d button */\n.button {\n  cursor: pointer;\n  background: linear-gradient(180deg, #cfcfcf, #808080);\n  padding: 3px;\n  border-radius: 15px;\n  border: solid 1px #ebebeb;\n  box-shadow: 0 3px 10px -1px #00000017, 0px 1px 5px #0000000e,\n    0 10px 40px -15px #0000006e;\n  transition: all 0.3s ease;\n}\n.inner {\n  background: linear-gradient(180deg, #fff, #e0e0e0);\n  padding: 5px;\n  border-radius: 12px;\n}\n.roundInner {\n  font-size: 1.2rem;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 5px;\n  font-weight: bold;\n  padding: 14px 12px;\n  border-radius: 300px;\n  box-shadow: inset 0 10px 20px #0000000c;\n  background-color: #f8fafa;\n  transition: all 0.4s ease;\n}\n.roundInner .svg {\n  transform: rotate(-45deg);\n  margin-bottom: 5px;\n  transition: all 0.3s ease;\n}\n.roundInner:active > .svg {\n  transform: translate(3px, -3px) rotate(-45deg);\n}\n\n.button:active {\n  box-shadow: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

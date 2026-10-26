@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-zjssun-tidy-sloth-40-ef938e",
+  "title": "Button by zjssun (tidy-sloth-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/zjssun/tidy-sloth-40",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "neon"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By zjssun on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/zjssun_tidy-sloth-40.html",
+  "code": "<button id=\"btn\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by zjssun - Tags: button, neon */\nbutton {\n  padding: 10px 20px;\n  text-transform: uppercase;\n  border-radius: 8px;\n  font-size: 17px;\n  font-weight: 500;\n  color: #ffffff80;\n  text-shadow: none;\n  background: transparent;\n  box-shadow: transparent;\n  border: 1px solid #ffffff80;\n  transition: 0.5s ease;\n  user-select: none;\n}\n\n#btn:hover,:focus {\n  color: #ffffff;\n  background: #008cff;\n  border: 1px solid #008cff;\n  text-shadow: 0 0 5px #ffffff,\n              0 0 10px #ffffff,\n              0 0 20px #ffffff;\n  box-shadow: 0 0 5px #008cff,\n              0 0 20px #008cff,\n              0 0 50px #008cff,\n              0 0 100px #008cff;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

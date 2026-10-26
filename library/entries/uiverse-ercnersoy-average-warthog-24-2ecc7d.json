@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ercnersoy-average-warthog-24-2ecc7d",
+  "title": "Button by ercnersoy (average-warthog-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ercnersoy/average-warthog-24",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ercnersoy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ercnersoy_average-warthog-24.html",
+  "code": "<button>BUTTON</button>\n<style>\n/* From Uiverse.io by ercnersoy - Tags: button */\nbutton {\n padding: 20px 30px;\n border-radius: 30px;\n border: 5px solid #ffffff;\n background-color: #5584AC;\n font-size: 15px;\n color: white;\n letter-spacing: 5px;\n font-weight: bolder;\n animation: none;\n transition: all .5s ease-in-out;\n font-family: 'Rajdhani', sans-serif;\n}\n\nbutton:hover {\n border-radius: 30px 30px 0px 30px;\n box-shadow: inset 0px 30px 10px -25px black;\n transition: all .5s ease-in-out;\n animation: bounce42 1.6s infinite;\n}\n\n@keyframes bounce42 {\n 0%, 20%, 50%, 80%, 100% {\n  transform: translateY(0);\n }\n\n 40% {\n  transform: translateY(-5px);\n }\n\n 60% {\n  transform: translateY(-5px);\n }\n} \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

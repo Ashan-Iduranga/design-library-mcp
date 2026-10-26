@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-elijahgummer-hot-fly-77-5f8688",
+  "title": "Card by elijahgummer (hot-fly-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/hot-fly-77",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "animation",
+    "minimalist",
+    "gradient",
+    "loading"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/elijahgummer_hot-fly-77.html",
+  "code": "<div class=\"card\">\n  <div class=\"header\">\n    <div class=\"img\"></div>\n    <div class=\"details\">\n      <span class=\"name\"></span>\n      <span class=\"about\"></span>\n    </div>\n  </div>\n  <div class=\"description\">\n    <div class=\"line line-1\"></div>\n    <div class=\"line line-2\"></div>\n    <div class=\"line line-3\"></div>\n  </div>\n  <div class=\"btns\">\n    <div class=\"btn btn-1\"></div>\n    <div class=\"btn btn-2\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, animation, minimalist, gradient, loading, card */\n.card {\n  max-width: 250px;\n  width: 100%;\n  background: #fff;\n  padding: 30px;\n  border-radius: 10px;\n  border: 1px solid #d9d9d9;\n}\n.card .header {\n  display: flex;\n  align-items: center;\n}\n.header .img {\n  height: 45px;\n  width: 45px;\n  background: #d9d9d9;\n  border-radius: 50%;\n  position: relative;\n  overflow: hidden;\n}\n.header .details {\n  margin-left: 20px;\n}\n.details span {\n  display: block;\n  background: #d9d9d9;\n  border-radius: 10px;\n  overflow: hidden;\n  position: relative;\n}\n.details .name {\n  height: 12px;\n  width: 70px;\n}\n.details .about {\n  height: 13px;\n  width: 120px;\n  margin-top: 10px;\n}\n.card .description {\n  margin: 25px 0;\n}\n.description .line {\n  background: #d9d9d9;\n  border-radius: 10px;\n  height: 11px;\n  margin: 10px 0;\n  overflow: hidden;\n  position: relative;\n}\n.description .line-1 {\n  width: calc(100% - 15%);\n}\n.description .line-3 {\n  width: calc(100% - 40%);\n}\n.card .btns {\n  display: flex;\n}\n.card .btns .btn {\n  height: 25px;\n  width: 100%;\n  background: #d9d9d9;\n  border-radius: 25px;\n  position: relative;\n  overflow: hidden;\n}\n.btns .btn-1 {\n  margin-right: 8px;\n}\n.btns .btn-2 {\n  margin-left: 8px;\n}\n.header .img::before,\n.details span::before,\n.description .line::before,\n.btns .btn::before {\n  position: absolute;\n  content: \"\";\n  height: 100%;\n  width: 100%;\n  background-image: linear-gradient(\n    to right,\n    #d9d9d9 0%,\n    rgba(0, 0, 0, 0.05) 20%,\n    #d9d9d9 40%,\n    #d9d9d9 100%\n  );\n  background-repeat: no-repeat;\n  background-size: 450px 400px;\n  animation: shimmer 1s linear infinite;\n}\n.header .img::before {\n  background-size: 650px 600px;\n}\n.details span::before {\n  animation-delay: 0.2s;\n}\n.btns .btn-2::before {\n  animation-delay: 0.22s;\n}\n@keyframes shimmer {\n  0% {\n    background-position: -450px 0;\n  }\n  100% {\n    background-position: 450px 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

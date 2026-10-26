@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mobinkakei-bright-wolverine-29-c190df",
+  "title": "Loader by mobinkakei (bright-wolverine-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/bright-wolverine-29",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mobinkakei_bright-wolverine-29.html",
+  "code": "<div class=\"loader-3\">\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n</div>\n<style>\n/* From Uiverse.io by mobinkakei - Tags: loader */\n.loader-3 {\n  width: 10em;\n  display: flex;\n  justify-content: space-evenly;\n}\n\n.circle {\n  width: 1em;\n  height: 1em;\n  border-radius: 50%;\n  position: relative;\n}\n\n.circle:nth-child(1) {\n  background-color: #90be6d;\n}\n\n.circle:nth-child(2) {\n  background-color: #f9c74f;\n}\n\n.circle:nth-child(3) {\n  background-color: #f8961e;\n}\n\n.circle:nth-child(4) {\n  background-color: #f3722c;\n}\n\n.circle:nth-child(5) {\n  background-color: #f94346;\n}\n\n.circle::before {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  border-radius: 50%;\n  opacity: 0.5;\n  animation: animateLoader38 2s ease-out infinite;\n}\n\n.circle:nth-child(1)::before {\n  background-color: #90be6d;\n}\n\n.circle:nth-child(2)::before {\n  background-color: #f9c74f;\n  animation-delay: 0.2s;\n}\n\n.circle:nth-child(3)::before {\n  background-color: #f8961e;\n  animation-delay: 0.4s;\n}\n\n.circle:nth-child(4)::before {\n  background-color: #f3722c;\n  animation-delay: 0.6s;\n}\n\n.circle:nth-child(5)::before {\n  background-color: #f94346;\n  animation-delay: 0.8s;\n}\n\n@keyframes animateLoader38 {\n  0% {\n    transform: scale(1);\n  }\n\n  50%,\n  75% {\n    transform: scale(2.5);\n  }\n\n  80%,\n  100% {\n    opacity: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

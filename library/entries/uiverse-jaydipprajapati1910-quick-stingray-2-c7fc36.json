@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-jaydipprajapati1910-quick-stingray-2-c7fc36",
+  "title": "Button by JaydipPrajapati1910 (quick-stingray-2)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/quick-stingray-2",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "shipping",
+    "buy-now"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JaydipPrajapati1910_quick-stingray-2.html",
+  "code": "<div data-tooltip=\"Price:-$20\" class=\"button\">\n<div class=\"button-wrapper\">\n  <div class=\"text\">Buy Now</div>\n    <span class=\"icon\">\n      <svg viewBox=\"0 0 16 16\" class=\"bi bi-cart2\" fill=\"currentColor\" height=\"16\" width=\"16\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z\"></path>\n</svg>\n    </span>\n  </div>\n</div>\n\n\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: button, shipping , buy now */\n.button {\n  --width: 100px;\n  --height: 35px;\n  --tooltip-height: 35px;\n  --tooltip-width: 90px;\n  --gap-between-tooltip-to-button: 18px;\n  --button-color: #222;\n  --tooltip-color: #fff;\n  width: var(--width);\n  height: var(--height);\n  background: var(--button-color);\n  position: relative;\n  text-align: center;\n  border-radius: 0.45em;\n  font-family: \"Arial\";\n  transition: background 0.3s;\n}\n\n.button::before {\n  position: absolute;\n  content: attr(data-tooltip);\n  width: var(--tooltip-width);\n  height: var(--tooltip-height);\n  background-color: #555;\n  font-size: 0.9rem;\n  color: #fff;\n  border-radius: .25em;\n  line-height: var(--tooltip-height);\n  bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);\n  left: calc(50% - var(--tooltip-width) / 2);\n}\n\n.button::after {\n  position: absolute;\n  content: '';\n  width: 0;\n  height: 0;\n  border: 10px solid transparent;\n  border-top-color: #555;\n  left: calc(50% - 10px);\n  bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);\n}\n\n.button::after,.button::before {\n  opacity: 0;\n  visibility: hidden;\n  transition: all 0.5s;\n}\n\n.text {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.button-wrapper,.text,.icon {\n  overflow: hidden;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  left: 0;\n  color: #fff;\n}\n\n.text {\n  top: 0\n}\n\n.text,.icon {\n  transition: top 0.5s;\n}\n\n.icon {\n  color: #fff;\n  top: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.icon svg {\n  width: 24px;\n  height: 24px;\n}\n\n.button:hover {\n  background: #222;\n}\n\n.button:hover .text {\n  top: -100%;\n}\n\n.button:hover .icon {\n  top: 0;\n}\n\n.button:hover:before,.button:hover:after {\n  opacity: 1;\n  visibility: visible;\n}\n\n.button:hover:after {\n  bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);\n}\n\n.button:hover:before {\n  bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));\n}\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

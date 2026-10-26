@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-clever-goose-73-522b43",
+  "title": "Loader by Shoh2008 (clever-goose-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/clever-goose-73",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_clever-goose-73.html",
+  "code": "<span class=\"loader\"></span>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n  max-width: 6rem;\n  margin-top: 3rem;\n  margin-bottom: 3rem;\n}\n\n.loader:before,\n  .loader:after {\n  content: \"\";\n  position: absolute;\n  border-radius: 50%;\n  animation: pulsOut 1.8s ease-in-out infinite;\n  filter: drop-shadow(0 0 1rem rgba(255, 255, 255, 0.75));\n}\n\n.loader:before {\n  width: 100%;\n  padding-bottom: 100%;\n  box-shadow: inset 0 0 0 1rem #fff;\n  animation-name: pulsIn;\n}\n\n.loader:after {\n  width: calc(100% - 2rem);\n  padding-bottom: calc(100% - 2rem);\n  box-shadow: 0 0 0 0 #fff;\n}\n\n@keyframes pulsIn {\n  0% {\n    box-shadow: inset 0 0 0 1rem #fff;\n    opacity: 1;\n  }\n\n  50%, 100% {\n    box-shadow: inset 0 0 0 0 #fff;\n    opacity: 0;\n  }\n}\n\n@keyframes pulsOut {\n  0%, 50% {\n    box-shadow: 0 0 0 0 #fff;\n    opacity: 0;\n  }\n\n  100% {\n    box-shadow: 0 0 0 1rem #fff;\n    opacity: 1;\n  }\n}\n      \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

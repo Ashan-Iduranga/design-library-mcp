@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-dev-mdtuhin-grumpy-panda-46-d8988e",
+  "title": "Checkbox by Dev-MdTuhin (grumpy-panda-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Dev-MdTuhin/grumpy-panda-46",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Dev-MdTuhin on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Dev-MdTuhin_grumpy-panda-46.html",
+  "code": "<div class=\"checkbox-wrapper-10\">\n  <input checked=\"\" type=\"checkbox\" id=\"cb5\" class=\"tgl tgl-flip\">\n  <label for=\"cb5\" data-tg-on=\"Yeah!\" data-tg-off=\"Nope\" class=\"tgl-btn\"></label>\n</div>\n\n<style>\n/* From Uiverse.io by Dev-MdTuhin - Tags: checkbox */\n.checkbox-wrapper-10 .tgl {\n  display: none;\n}\n\n.checkbox-wrapper-10 .tgl,\n  .checkbox-wrapper-10 .tgl:after,\n  .checkbox-wrapper-10 .tgl:before,\n  .checkbox-wrapper-10 .tgl *,\n  .checkbox-wrapper-10 .tgl *:after,\n  .checkbox-wrapper-10 .tgl *:before,\n  .checkbox-wrapper-10 .tgl + .tgl-btn {\n  box-sizing: border-box;\n}\n\n.checkbox-wrapper-10 .tgl::-moz-selection,\n  .checkbox-wrapper-10 .tgl:after::-moz-selection,\n  .checkbox-wrapper-10 .tgl:before::-moz-selection,\n  .checkbox-wrapper-10 .tgl *::-moz-selection,\n  .checkbox-wrapper-10 .tgl *:after::-moz-selection,\n  .checkbox-wrapper-10 .tgl *:before::-moz-selection,\n  .checkbox-wrapper-10 .tgl + .tgl-btn::-moz-selection,\n  .checkbox-wrapper-10 .tgl::selection,\n  .checkbox-wrapper-10 .tgl:after::selection,\n  .checkbox-wrapper-10 .tgl:before::selection,\n  .checkbox-wrapper-10 .tgl *::selection,\n  .checkbox-wrapper-10 .tgl *:after::selection,\n  .checkbox-wrapper-10 .tgl *:before::selection,\n  .checkbox-wrapper-10 .tgl + .tgl-btn::selection {\n  background: none;\n}\n\n.checkbox-wrapper-10 .tgl + .tgl-btn {\n  outline: 0;\n  display: block;\n  width: 4em;\n  height: 2em;\n  position: relative;\n  cursor: pointer;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n.checkbox-wrapper-10 .tgl + .tgl-btn:after,\n  .checkbox-wrapper-10 .tgl + .tgl-btn:before {\n  position: relative;\n  display: block;\n  content: \"\";\n  width: 50%;\n  height: 100%;\n}\n\n.checkbox-wrapper-10 .tgl + .tgl-btn:after {\n  left: 0;\n}\n\n.checkbox-wrapper-10 .tgl + .tgl-btn:before {\n  display: none;\n}\n\n.checkbox-wrapper-10 .tgl:checked + .tgl-btn:after {\n  left: 50%;\n}\n\n.checkbox-wrapper-10 .tgl-flip + .tgl-btn {\n  padding: 2px;\n  transition: all 0.2s ease;\n  font-family: sans-serif;\n  perspective: 100px;\n}\n\n.checkbox-wrapper-10 .tgl-flip + .tgl-btn:after,\n  .checkbox-wrapper-10 .tgl-flip + .tgl-btn:before {\n  display: inline-block;\n  transition: all 0.4s ease;\n  width: 100%;\n  text-align: center;\n  position: absolute;\n  line-height: 2em;\n  font-weight: bold;\n  color: #fff;\n  position: absolute;\n  top: 0;\n  left: 0;\n  -webkit-backface-visibility: hidden;\n  backface-visibility: hidden;\n  border-radius: 4px;\n}\n\n.checkbox-wrapper-10 .tgl-flip + .tgl-btn:after {\n  content: attr(data-tg-on);\n  background: #02C66F;\n  transform: rotateY(-180deg);\n}\n\n.checkbox-wrapper-10 .tgl-flip + .tgl-btn:before {\n  background: #FF3A19;\n  content: attr(data-tg-off);\n}\n\n.checkbox-wrapper-10 .tgl-flip + .tgl-btn:active:before {\n  transform: rotateY(-20deg);\n}\n\n.checkbox-wrapper-10 .tgl-flip:checked + .tgl-btn:before {\n  transform: rotateY(180deg);\n}\n\n.checkbox-wrapper-10 .tgl-flip:checked + .tgl-btn:after {\n  transform: rotateY(0);\n  left: 0;\n  background: #7FC6A6;\n}\n\n.checkbox-wrapper-10 .tgl-flip:checked + .tgl-btn:active:after {\n  transform: rotateY(20deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

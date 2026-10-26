@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-evil-catfish-13-aade4d",
+  "title": "Pattern by csemszepp (evil-catfish-13)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/evil-catfish-13",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_evil-catfish-13.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 125px; /* control the size */\n  --c1: #f8ca00;\n  --c2: #bd1550;\n\n  --_g: var(--c1) 90deg, var(--c2) 0 135deg, #0000 0;\n  background: conic-gradient(\n      from -45deg at calc(100% / 3) calc(100% / 3),\n      var(--c1) 90deg,\n      #0000 0\n    ),\n    conic-gradient(from -135deg at calc(100% / 3) calc(2 * 100% / 3), var(--_g)),\n    conic-gradient(\n      from 135deg at calc(2 * 100% / 3) calc(2 * 100% / 3),\n      var(--_g)\n    ),\n    conic-gradient(\n      from 45deg at calc(2 * 100% / 3) calc(100% / 3),\n      var(--_g),\n      var(--c1) 0 225deg,\n      var(--c2) 0\n    );\n  background-size: var(--s) var(--s);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

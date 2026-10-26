@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-wlidha09-smooth-mouse-48-7b8994",
+  "title": "Button by Wlidha09 (smooth-mouse-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Wlidha09/smooth-mouse-48",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Wlidha09 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Wlidha09_smooth-mouse-48.html",
+  "code": "<div class=\"box\">\n  <div class=\"btn\">\n    <button href=\"#\">HOVER ME</button>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Wlidha09 - Tags: button */\n.box {\n  height: 66.66%;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.btn {\n  line-height: 50px;\n  height: 50px;\n  text-align: center;\n  width: 150px;\n  cursor: pointer;\n  color: #FFF;\n  transition: all 0.3s;\n  position: relative;\n}\n\n.btn button {\n  z-index: 2;\n  display: block;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  color: #fff;\n  font-size: 17px;\n  border: none;\n  background-color: transparent;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 1;\n  transition: all 0.5s;\n  border: 1px solid rgba(255,255,255,0.2);\n  background-color: rgba(255,255,255,0.1);\n}\n\n.btn::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 1;\n  transition: all 0.5s;\n  border: 1px solid rgba(255,255,255,0.2);\n  background-color: rgba(255,255,255,0.1);\n}\n\n.btn:hover::before {\n  transform: rotate(-45deg);\n  background-color: rgba(255,255,255,0);\n}\n\n.btn:hover::after {\n  transform: rotate(45deg);\n  background-color: rgba(255,255,255,0);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

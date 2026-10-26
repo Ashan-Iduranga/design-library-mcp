@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-danilomgutavo-stupid-mouse-85-f26973",
+  "title": "Checkbox by DaniloMGutavo (stupid-mouse-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/DaniloMGutavo/stupid-mouse-85",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "cool-checkbox",
+    "check"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By DaniloMGutavo on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/DaniloMGutavo_stupid-mouse-85.html",
+  "code": "<label class=\"checkbox-container\">\n    <input class=\"custom-checkbox\" checked=\"\" type=\"checkbox\">\n    <span class=\"checkmark\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by DaniloMGutavo - Tags: checkbox, cool checkbox, check */\n.checkbox-container {\n  display: inline-block;\n  position: relative;\n  padding-left: 35px;\n  margin-bottom: 12px;\n  cursor: pointer;\n  font-size: 16px;\n  user-select: none;\n}\n\n.custom-checkbox {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.checkmark {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 25px;\n  width: 25px;\n  background-color: #eee;\n  border-radius: 4px;\n  transition: background-color 0.3s;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);\n}\n\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n  left: 9px;\n  top: 5px;\n  width: 5px;\n  height: 10px;\n  border: solid white;\n  border-width: 0 3px 3px 0;\n  transform: rotate(45deg);\n}\n\n.custom-checkbox:checked ~ .checkmark {\n  background-color: #2196F3;\n  box-shadow: 0 3px 7px rgba(33, 150, 243, 0.3);\n}\n\n.custom-checkbox:checked ~ .checkmark:after {\n  display: block;\n}\n\n@keyframes checkAnim {\n  0% {\n    height: 0;\n  }\n\n  100% {\n    height: 10px;\n  }\n}\n\n.custom-checkbox:checked ~ .checkmark:after {\n  animation: checkAnim 0.2s forwards;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

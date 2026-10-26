@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-iliasman2-grumpy-lizard-3-d388b5",
+  "title": "Button by Iliasman2 (grumpy-lizard-3)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Iliasman2/grumpy-lizard-3",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Iliasman2 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Iliasman2_grumpy-lizard-3.html",
+  "code": "<button class=\"designer-btn\">Click me</button>\n\n<style>\n/* From Uiverse.io by Iliasman2 - Tags: button */\n.designer-btn {\n  display: inline-block;\n  padding: 14px 40px;\n  font-size: 20px;\n  font-weight: bold;\n  text-align: center;\n  border-radius: 30px;\n  cursor: pointer;\n  border: 2px solid black;\n  transition: all 0.3s ease;\n  background: linear-gradient(to bottom, #b2b5b3, #a5a7a6);\n  color: rgb(57, 53, 53);\n}\n\n.designer-btn:hover {\n  border: 2px solid rgb(109, 107, 107);\n  color: #a5a7a6;\n  box-shadow: 0 5px #666;\n  transform: translateY(-5px);\n  background: linear-gradient(to bottom, #2e2f2e, #323433);\n}\n\n.designer-btn:focus,\n.designer-btn:active {\n  transform: translateY(4px);\n}\n  \n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

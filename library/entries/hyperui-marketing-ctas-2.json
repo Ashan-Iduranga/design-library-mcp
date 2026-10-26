@@ -1,0 +1,32 @@
+{
+  "id": "hyperui-marketing-ctas-2",
+  "title": "CTAs: Newsletter sign up form with centered content and form",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/ctas",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "marketing",
+    "ctas",
+    "hyperui",
+    "signup"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/ctas/2.html",
+  "code": "<section class=\"bg-gray-50\">\n<div class=\"p-8 md:p-12 lg:px-16 lg:py-24\">\n<div class=\"mx-auto max-w-lg text-center\">\n<h2 class=\"text-2xl font-bold text-gray-900 md:text-3xl\">\n            Lorem, ipsum dolor sit amet consectetur adipisicing elit\n          </h2>\n<p class=\"hidden text-gray-500 sm:mt-4 sm:block\">\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolor officia blanditiis\n            repellat in, vero, aperiam porro ipsum laboriosam consequuntur exercitationem incidunt\n            tempora nisi?\n          </p>\n</div>\n<div class=\"mx-auto mt-8 max-w-xl\">\n<form action=\"#\" class=\"sm:flex sm:gap-4\">\n<div class=\"sm:flex-1\">\n<label class=\"sr-only\" for=\"email\">Email</label>\n<input class=\"w-full rounded-md border-gray-200 bg-white p-3 text-gray-700 shadow-xs transition focus:border-white focus:ring-2 focus:ring-yellow-400 focus:outline-hidden\" placeholder=\"Email address\" type=\"email\"/>\n</div>\n<button class=\"group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-rose-600 px-5 py-3 text-white transition focus:ring-2 focus:ring-yellow-400 focus:outline-hidden sm:mt-0 sm:w-auto\" type=\"submit\">\n<span class=\"text-sm font-medium\"> Sign Up </span>\n<svg aria-hidden=\"true\" class=\"size-5 shadow-sm rtl:rotate-180\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M17 8l4 4m0 0l-4 4m4-4H3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n</svg>\n</button>\n</form>\n</div>\n</div>\n</section>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "hyperui-marketing-faqs-2-dark",
+  "title": "FAQs: Divided with chevrons (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/faqs",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "marketing",
+    "faqs",
+    "hyperui",
+    "question",
+    "answer",
+    "support",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/faqs/2-dark.html",
+  "code": "<div class=\"mx-auto max-w-3xl p-6\">\n<div class=\"flow-root\">\n<div class=\"-my-4 flex flex-col divide-y divide-gray-200 dark:divide-gray-700\">\n<details class=\"group py-4 [&amp;_summary::-webkit-details-marker]:hidden\" open=\"\">\n<summary class=\"flex items-center justify-between gap-1.5 text-gray-900 dark:text-white\">\n<h2 class=\"text-lg font-medium\">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>\n<svg aria-hidden=\"true\" class=\"size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19 9l-7 7-7-7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n</svg>\n</summary>\n<p class=\"pt-4 text-gray-900 dark:text-white\">\n            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias\n            culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo\n            officiis explicabo consequuntur distinctio corporis earum similique!\n          </p>\n</details>\n<details class=\"group py-4 [&amp;_summary::-webkit-details-marker]:hidden\">\n<summary class=\"flex items-center justify-between gap-1.5 text-gray-900 dark:text-white\">\n<h2 class=\"text-lg font-medium\">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>\n<svg aria-hidden=\"true\" class=\"size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19 9l-7 7-7-7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n</svg>\n</summary>\n<p class=\"pt-4 text-gray-900 dark:text-white\">\n            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias\n            culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo\n            officiis explicabo consequuntur distinctio corporis earum similique!\n          </p>\n</details>\n<details class=\"group py-4 [&amp;_summary::-webkit-details-marker]:hidden\">\n<summary class=\"flex items-center justify-between gap-1.5 text-gray-900 dark:text-white\">\n<h2 class=\"text-lg font-medium\">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>\n<svg aria-hidden=\"true\" class=\"size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19 9l-7 7-7-7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n</svg>\n</summary>\n<p class=\"pt-4 text-gray-900 dark:text-white\">\n            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias\n            culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo\n            officiis explicabo consequuntur distinctio corporis earum similique!\n          </p>\n</details>\n</div>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-itay1313-orange-otter-84-5ffa1b",
+  "title": "Button by itay1313 (orange-otter-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/itay1313/orange-otter-84",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By itay1313 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/itay1313_orange-otter-84.html",
+  "code": "<div class=\"body\">\n<button class=\"btn btn-hover\">\n  <span class=\"btn-text\">Practice now</span>\n</button>\n</div>\n<style>\n/* From Uiverse.io by itay1313 - Tags: button */\n.body {\n  --transition: all 0.55s cubic-bezier(0.68, -0.55, 0.265, 1.55);\n  --yellow-bg: transparent linear-gradient(114deg, #fdc100 0%, #dd7d00 100%) 0%\n    0% no-repeat padding-box;\n  color: white;\n  margin: 0;\n}\n\n.btn {\n  border-radius: 23px;\n  letter-spacing: 0.8px;\n  font-size: 14px;\n  font-weight: 300;\n  color: white;\n  white-space: nowrap;\n  margin: 20px auto;\n  width: 166px;\n  height: 45px;\n  cursor: pointer;\n  position: relative;\n  border: 1px solid #dd7d00;\n  background: transparent;\n}\n\n.btn::before {\n  -webkit-transition: var(--transition);\n  transition: var(--transition);\n  content: \"\";\n  width: 50%;\n  height: 100%;\n  background: black;\n  position: absolute;\n  top: 0;\n  right: 0;\n}\n\n.btn:hover::before {\n  width: 100%;\n}\n\n.btn.btn-hover {\n  border-radius: 50px;\n  position: relative;\n}\n\n.btn.btn-hover .btn-text {\n  color: white;\n  -webkit-transition: var(--transition);\n  transition: var(--transition);\n  mix-blend-mode: lighten;\n}\n\n.btn.btn-hover::before {\n  border-radius: 50px;\n  width: 100%;\n  background: conic-gradient(\n    transparent 240deg, #ac633697 240deg,\n    #fff2af6a 300deg, transparent 300deg\n  )\n  100% / 64%\n  no-repeat, var(--yellow-bg);\n}\n\n.btn.btn-hover:hover .btn-text {\n  margin-right: 30px;\n}\n\n.btn.btn-hover:hover::before {\n  background-position: right;\n  border-radius: 23px;\n  width: 25%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

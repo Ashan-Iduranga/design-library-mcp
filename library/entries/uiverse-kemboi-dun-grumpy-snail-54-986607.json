@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-kemboi-dun-grumpy-snail-54-986607",
+  "title": "Card by Kemboi-Dun (grumpy-snail-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Kemboi-Dun/grumpy-snail-54",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Kemboi-Dun on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Kemboi-Dun_grumpy-snail-54.html",
+  "code": "<article class=\"card\">\n    <div class=\"temporary_text\">\n        Place image here\n    </div>\n<div class=\"card_content\">\n    <span class=\"card_title\">This is a Title</span>\n        <span class=\"card_subtitle\">Thsi is a subtitle of this page. Let us see how it looks on the Web.</span>\n        <p class=\"card_description\">Lorem ipsum dolor, sit amet  expedita exercitationem recusandae aut dolor tempora aperiam itaque possimus at, cupiditate earum, quae repudiandae aspernatur? Labore minus soluta consequatur placeat.</p>\n    \n</div>\n</article>\n<style>\n/* From Uiverse.io by Kemboi-Dun - Tags: card */\n.card {\n  position: relative;\n  width: 250px;\n  height: 250px;\n  color: #2e2d31;\n  background: #131313;\n  overflow: hidden;\n  border-radius: 20px;\n}\n\n.temporary_text {\n  font-weight: bold;\n  font-size: 24px;\n  padding: 6px 12px;\n  color: #f8f8f8;\n}\n\n.card_title {\n  font-weight: bold;\n}\n\n.card_content {\n  position: absolute;\n  left: 0;\n  bottom: 0;\n    /* edit the width to fit card */\n  width: 100%;\n  padding: 20px;\n  background: #f2f2f2;\n  border-top-left-radius: 20px;\n    /* edit here to change the height of the content box */\n  transform: translateY(150px);\n  transition: transform .25s;\n}\n\n.card_content::before {\n  content: '';\n  position: absolute;\n  top: -47px;\n  right: -45px;\n  width: 100px;\n  height: 100px;\n  transform: rotate(-175deg);\n  border-radius: 50%;\n  box-shadow: inset 48px 48px #f2f2f2;\n}\n\n.card_title {\n  color: #131313;\n  line-height: 15px;\n}\n\n.card_subtitle {\n  display: block;\n  font-size: 12px;\n  margin-bottom: 10px;\n}\n\n.card_description {\n  font-size: 14px;\n  opacity: 0;\n  transition: opacity .5s;\n}\n\n.card:hover .card_content {\n  transform: translateY(0);\n}\n\n.card:hover .card_description {\n  opacity: 1;\n  transition-delay: .25s;\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "open-props-pink",
+  "title": "Open Props: Pink color scale",
+  "source": "Open Props",
+  "url": "https://open-props.style/#colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "pink",
+    "open-props",
+    "css-variables",
+    "tokens",
+    "color"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "13 CSS custom properties, e.g. --pink-0, --pink-1, --pink-2, --pink-3.\n\nUse: npm i open-props, then @import \"open-props/pink\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.pink.css",
+  "code": "<style>\n:where(html) {\n  --pink-0: #fff0f6;\n  --pink-1: #ffdeeb;\n  --pink-2: #fcc2d7;\n  --pink-3: #faa2c1;\n  --pink-4: #f783ac;\n  --pink-5: #f06595;\n  --pink-6: #e64980;\n  --pink-7: #d6336c;\n  --pink-8: #c2255c;\n  --pink-9: #a61e4d;\n  --pink-10: #8c1941;\n  --pink-11: #731536;\n  --pink-12: #59102a;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Open Props pink</strong>\n<p>pink</p><div class=\"row\"><div style=\"background:#fff0f6\" title=\"--pink-0: #fff0f6\"><span>0</span></div><div style=\"background:#ffdeeb\" title=\"--pink-1: #ffdeeb\"><span>1</span></div><div style=\"background:#fcc2d7\" title=\"--pink-2: #fcc2d7\"><span>2</span></div><div style=\"background:#faa2c1\" title=\"--pink-3: #faa2c1\"><span>3</span></div><div style=\"background:#f783ac\" title=\"--pink-4: #f783ac\"><span>4</span></div><div style=\"background:#f06595\" title=\"--pink-5: #f06595\"><span>5</span></div><div style=\"background:#e64980\" title=\"--pink-6: #e64980\"><span>6</span></div><div style=\"background:#d6336c\" title=\"--pink-7: #d6336c\"><span>7</span></div><div style=\"background:#c2255c\" title=\"--pink-8: #c2255c\"><span>8</span></div><div style=\"background:#a61e4d\" title=\"--pink-9: #a61e4d\"><span>9</span></div><div style=\"background:#8c1941\" title=\"--pink-10: #8c1941\"><span>10</span></div><div style=\"background:#731536\" title=\"--pink-11: #731536\"><span>11</span></div><div style=\"background:#59102a\" title=\"--pink-12: #59102a\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

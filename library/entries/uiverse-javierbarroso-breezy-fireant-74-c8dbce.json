@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-javierbarroso-breezy-fireant-74-c8dbce",
+  "title": "Input by javierBarroso (breezy-fireant-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/javierBarroso/breezy-fireant-74",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "blue",
+    "purple",
+    "dark",
+    "search",
+    "modern",
+    "neon",
+    "transition"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By javierBarroso on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/javierBarroso_breezy-fireant-74.html",
+  "code": "<div class=\"page\">\n  <div class=\"search\">\n    <input type=\"text\" name=\"text\" class=\"input\" />\n    <div class=\"icon\">\n      <svg\n        version=\"1.1\"\n        id=\"Capa_1\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n        xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n        viewBox=\"0 0 488.4 488.4\"\n        xml:space=\"preserve\"\n      >\n        <g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g>\n        <g\n          id=\"SVGRepo_tracerCarrier\"\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n        ></g>\n        <g id=\"SVGRepo_iconCarrier\">\n          <g>\n            <g>\n              <path\n                d=\"M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z\"\n              ></path>\n            </g>\n          </g>\n        </g>\n      </svg>\n    </div>\n    <div class=\"i\"></div>\n    <div class=\"i\"></div>\n    <div class=\"i\"></div>\n    <div class=\"i\"></div>\n    <span></span>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by javierBarroso  - Tags: blue, purple, input, dark, search, modern, neon, transition */\n.input {\n  min-width: 50px;\n  width: 50px;\n  transition-duration: 0.8s;\n  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  height: 50px;\n  border-radius: 50px;\n  border: none;\n  padding: 20px;\n  font-size: 18px;\n  font-weight: 200;\n  color: transparent;\n  font-family: \"Courier New\", Courier, monospace;\n  background: rgba(1, 1, 1, 0.9);\n  box-shadow: 0 2px 5px rgba(20, 20, 20, 0);\n  background: linear-gradient(0deg, #141414ec, #00000cea, #00000cea, #141414ec);\n}\n\n.page {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n  height: 100%;\n  background-color: #111;\n  z-index: -5;\n  opacity: 1;\n  background-image: linear-gradient(#18305527 1px, transparent 1px),\n    linear-gradient(to right, #18305527 1px, #00000c 1px);\n  background-size: 10px 10px;\n}\n\n.input:focus {\n  color: #999;\n  width: 300px;\n  outline-style: none;\n}\n\n.search {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: fit-content;\n  height: fit-content;\n  position: relative;\n}\n\n.search .i {\n  position: absolute;\n  inset: -1px;\n  display: block;\n  border-radius: 50px;\n  pointer-events: none;\n  z-index: -1;\n  transition-duration: 0.8s;\n  background: linear-gradient(\n    -35deg,\n    #f7f7f721 10%,\n    transparent,\n    rgba(243, 238, 243, 0.349) 80%\n  );\n}\n\n.search .span {\n  width: 100%;\n  height: 100%;\n  background-color: #222;\n  position: absolute;\n  pointer-events: none;\n  border-radius: 50px;\n}\n\n.search .i:nth-child(3) {\n  filter: blur(10px);\n  background: linear-gradient(\n    -35deg,\n    #118cff 0%,\n    transparent,\n    transparent,\n    #f1e 99%\n  );\n  inset: -2px;\n}\n\n.search .i:nth-child(5) {\n  background: linear-gradient(\n    -35deg,\n    #118cff 0%,\n    transparent,\n    transparent,\n    #f1e 99%\n  );\n  z-index: -1;\n}\n\n.search .icon {\n  position: absolute;\n  pointer-events: none;\n  transition-duration: 0.8s;\n  right: 0;\n  width: 50px;\n  height: 50px;\n  margin: 0px;\n  padding: 15px;\n  border-radius: 50px;\n  fill: #aaa;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

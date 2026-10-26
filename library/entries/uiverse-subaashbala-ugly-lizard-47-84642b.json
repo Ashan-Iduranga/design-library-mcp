@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-subaashbala-ugly-lizard-47-84642b",
+  "title": "Loader by Subaashbala (ugly-lizard-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Subaashbala/ugly-lizard-47",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "glassmorphism",
+    "animation",
+    "circle-loader",
+    "box-shadow",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Subaashbala on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Subaashbala_ugly-lizard-47.html",
+  "code": "<div class=\"loader\">\n  <div class=\"clockLoader\">\n    <div class=\"clockHand minuteHand\"></div>\n    <div class=\"clockHand hourHand\"></div>\n  </div>\n  <div class=\"decorativeElementContainer\">\n    <div class=\"decorativeElement decorativeElement1\"></div>\n    <div class=\"decorativeElement decorativeElement2\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Subaashbala  - Tags: glassmorphism, animation, loader, circle loader, box-shadow, loading animation */\n.loader {\n  position: relative;\n  --duration: 1500ms; /* minute hand's rotation time duration */\n}\n.clockLoader {\n  width: 15em;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  border: 0.25em solid black;\n  background: rgba(255, 255, 255, 0.5);\n  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.171);\n  backdrop-filter: blur(10px);\n  z-index: 100;\n  animation: floatEffect 15s linear infinite alternate;\n}\n.clockLoader::after {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -65%);\n  width: 0.5em;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  background-color: black;\n}\n.clockHand {\n  position: absolute;\n  background-color: black;\n  border-radius: 5em;\n  width: 0.25em;\n  transform-origin: bottom;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -100%);\n}\n.hourHand {\n  height: 20%;\n  animation: rotateHand calc(12 * var(--duration)) linear infinite;\n}\n.minuteHand {\n  height: 30%;\n  animation: rotateHand var(--duration) linear infinite;\n}\n.decorativeElementContainer {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform-origin: center center;\n  animation: rotate calc(50 * var(--duration)) linear infinite;\n  z-index: -1;\n  transform: translate(-50%, -50%);\n}\n.decorativeElement {\n  position: relative;\n  width: 7em;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  z-index: -1;\n}\n.decorativeElement1 {\n  left: 50% !important;\n  background: orangered;\n  animation: floatEffect 16ss linear infinite;\n}\n.decorativeElement2 {\n  right: 55%;\n  background: hotpink;\n}\n@keyframes rotateHand {\n  to {\n    transform: translate(-50%, -100%) rotate(360deg);\n  }\n}\n@keyframes rotate {\n  to {\n    transform: translate(-50%, -50%) rotateZ(360deg);\n  }\n}\n@keyframes floatEffect {\n  0% {\n    transform: translate(0);\n  }\n  100% {\n    transform: translate(0, 2em);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

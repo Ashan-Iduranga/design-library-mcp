@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-krlozcj-horrible-fish-14-77f271",
+  "title": "Loader by krlozCJ (horrible-fish-14)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/krlozCJ/horrible-fish-14",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By krlozCJ on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/krlozCJ_horrible-fish-14.html",
+  "code": "<div class=\"loader\">\n    <div class=\"orbe\" style=\"--index: 0\"></div>\n    <div class=\"orbe\" style=\"--index: 1\"></div>\n    <div class=\"orbe\" style=\"--index: 2\"></div>\n    <div class=\"orbe\" style=\"--index: 3\"></div>\n    <div class=\"orbe\" style=\"--index: 4\"></div>\n</div>\n<style>\n/* From Uiverse.io by krlozCJ - Tags: loader */\n.loader {\n  --size-loader: 50px;\n  --size-orbe: 10px;\n  width: var(--size-loader);\n  height: var(--size-loader);\n  position: relative;\n  transform: rotate(45deg);\n}\n\n.orbe {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  --delay: calc(var(--index) * 0.1s);\n  animation: orbit7456 ease-in-out 1.5s var(--delay) infinite;\n  opacity: calc(1 - calc(0.2 * var(--index)));\n}\n\n.orbe::after {\n  position: absolute;\n  content: '';\n  top: 0;\n  left: 0;\n  width: var(--size-orbe);\n  height: var(--size-orbe);\n  background-color: #3ae374;\n  box-shadow: 0px 0px 20px 2px #3ae374;\n  border-radius: 50%;\n}\n\n@keyframes orbit7456 {\n  0% {\n  }\n\n  80% {\n    transform: rotate(360deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

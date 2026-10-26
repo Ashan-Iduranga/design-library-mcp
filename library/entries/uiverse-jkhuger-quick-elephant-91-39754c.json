@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jkhuger-quick-elephant-91-39754c",
+  "title": "Loader by JkHuger (quick-elephant-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/quick-elephant-91",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JkHuger_quick-elephant-91.html",
+  "code": "<div class=\"mini-loader-content\">\n  <svg viewBox=\"0 0 500.00001 500.00001\" height=\"100\" width=\"100\" xmlns=\"http://www.w3.org/2000/svg\" id=\"mini-loader\">\n    <g>\n      <path d=\"M66.734 66.734v366.533h366.532V66.734H66.734zm15 15h336.532v336.533H81.734V81.734z\" id=\"b0\">\n      </path>\n      <path d=\"M354.16 2.5v143.34H497.5V2.5H354.16zm10 10H487.5v123.34H364.16V12.5z\" id=\"b2\">\n      </path>\n      <path d=\"M0 2.5v143.34h143.34V2.5H0zm10 10h123.34v123.34H10V12.5z\" id=\"b1\">\n      </path>\n      <path d=\"M354.16 356.66V500H497.5V356.66H354.16zm10 10H487.5V490H364.16V366.66z\" id=\"b3\">\n      </path>\n      <path d=\"M0 356.66V500h143.34V356.66H0zm10 10h123.34V490H10V366.66z\" id=\"b4\">\n      </path>\n    </g>\n  </svg>\n</div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: loader */\n#b0 {\n  animation: b0 4s infinite ease;\n  transform-origin: 250px 250px;\n}\n\n#b1 {\n  animation: b1 4s infinite ease;\n}\n\n#b2 {\n  animation: b2 4s infinite ease;\n}\n\n#b3 {\n  animation: b3 4s infinite ease;\n}\n\n#b4 {\n  animation: b4 4s infinite ease;\n}\n\n@keyframes b0 {\n  0% {\n    transform: rotate(0);\n  }\n\n  25% {\n    transform: rotate(-90deg);\n  }\n\n  50% {\n    transform: rotate(-180deg);\n  }\n\n  75% {\n    transform: rotate(-270deg);\n  }\n\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n\n@keyframes b1 {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  25% {\n    transform: translate(0, 355px);\n  }\n\n  50% {\n    transform: translate(355px, 355px);\n  }\n\n  75% {\n    transform: translate(355px, 0);\n  }\n\n  100% {\n    transform: translate(0, 0);\n  }\n}\n\n@keyframes b2 {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  25% {\n    transform: translate(-355px, 0);\n  }\n\n  50% {\n    transform: translate(-355px, 355px);\n  }\n\n  75% {\n    transform: translate(0, 355px);\n  }\n\n  100% {\n    transform: translate(0, 0);\n  }\n}\n\n@keyframes b3 {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  25% {\n    transform: translate(0, -355px);\n  }\n\n  50% {\n    transform: translate(-355px, -355px);\n  }\n\n  75% {\n    transform: translate(-355px, 0);\n  }\n\n  100% {\n    transform: translate(0, 0);\n  }\n}\n\n@keyframes b4 {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  25% {\n    transform: translate(355px, 0);\n  }\n\n  50% {\n    transform: translate(355px, -355px);\n  }\n\n  75% {\n    transform: translate(0, -355px);\n  }\n\n  100% {\n    transform: translate(0, 0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

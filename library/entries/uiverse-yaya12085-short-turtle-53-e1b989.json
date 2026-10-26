@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-yaya12085-short-turtle-53-e1b989",
+  "title": "Form by Yaya12085 (short-turtle-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/short-turtle-53",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "input",
+    "sign-up",
+    "register"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Yaya12085_short-turtle-53.html",
+  "code": "<form class=\"form\">\n    <p class=\"title\">Register </p>\n    <p class=\"message\">Signup now and get full access to our app. </p>\n        <div class=\"flex\">\n        <label>\n            <input required=\"\" placeholder=\"\" type=\"text\" class=\"input\">\n            <span>Firstname</span>\n        </label>\n\n        <label>\n            <input required=\"\" placeholder=\"\" type=\"text\" class=\"input\">\n            <span>Lastname</span>\n        </label>\n    </div>  \n            \n    <label>\n        <input required=\"\" placeholder=\"\" type=\"email\" class=\"input\">\n        <span>Email</span>\n    </label> \n        \n    <label>\n        <input required=\"\" placeholder=\"\" type=\"password\" class=\"input\">\n        <span>Password</span>\n    </label>\n    <label>\n        <input required=\"\" placeholder=\"\" type=\"password\" class=\"input\">\n        <span>Confirm password</span>\n    </label>\n    <button class=\"submit\">Submit</button>\n    <p class=\"signin\">Already have an acount ? <a href=\"#\">Signin</a> </p>\n</form>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: form, input, sign-up, register */\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  max-width: 350px;\n  background-color: #fff;\n  padding: 20px;\n  border-radius: 20px;\n  position: relative;\n}\n\n.title {\n  font-size: 28px;\n  color: royalblue;\n  font-weight: 600;\n  letter-spacing: -1px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  padding-left: 30px;\n}\n\n.title::before,.title::after {\n  position: absolute;\n  content: \"\";\n  height: 16px;\n  width: 16px;\n  border-radius: 50%;\n  left: 0px;\n  background-color: royalblue;\n}\n\n.title::before {\n  width: 18px;\n  height: 18px;\n  background-color: royalblue;\n}\n\n.title::after {\n  width: 18px;\n  height: 18px;\n  animation: pulse 1s linear infinite;\n}\n\n.message, .signin {\n  color: rgba(88, 87, 87, 0.822);\n  font-size: 14px;\n}\n\n.signin {\n  text-align: center;\n}\n\n.signin a {\n  color: royalblue;\n}\n\n.signin a:hover {\n  text-decoration: underline royalblue;\n}\n\n.flex {\n  display: flex;\n  width: 100%;\n  gap: 6px;\n}\n\n.form label {\n  position: relative;\n}\n\n.form label .input {\n  width: 100%;\n  padding: 10px 10px 20px 10px;\n  outline: 0;\n  border: 1px solid rgba(105, 105, 105, 0.397);\n  border-radius: 10px;\n}\n\n.form label .input + span {\n  position: absolute;\n  left: 10px;\n  top: 15px;\n  color: grey;\n  font-size: 0.9em;\n  cursor: text;\n  transition: 0.3s ease;\n}\n\n.form label .input:placeholder-shown + span {\n  top: 15px;\n  font-size: 0.9em;\n}\n\n.form label .input:focus + span,.form label .input:valid + span {\n  top: 30px;\n  font-size: 0.7em;\n  font-weight: 600;\n}\n\n.form label .input:valid + span {\n  color: green;\n}\n\n.submit {\n  border: none;\n  outline: none;\n  background-color: royalblue;\n  padding: 10px;\n  border-radius: 10px;\n  color: #fff;\n  font-size: 16px;\n  transform: .3s ease;\n}\n\n.submit:hover {\n  background-color: rgb(56, 90, 194);\n}\n\n@keyframes pulse {\n  from {\n    transform: scale(0.9);\n    opacity: 1;\n  }\n\n  to {\n    transform: scale(1.8);\n    opacity: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-guilhermeyohan-pretty-liger-37-66c949",
+  "title": "Button by guilhermeyohan (pretty-liger-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/guilhermeyohan/pretty-liger-37",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By guilhermeyohan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/guilhermeyohan_pretty-liger-37.html",
+  "code": "<button class=\"container moon-container\">\n  <div class=\"moon\">\n    <div class=\"mancha2\"></div>\n    </div>\n\t\t <div class=\"moon-text\">To the Moon</div>\n</button>\n\n<style>\n/* From Uiverse.io by guilhermeyohan - Tags: button */\n.moon-container {\n  width: 170px;\n  height: 50px;\n  background: linear-gradient(0, #120c56, #000000);\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 7px;\n  border-radius: 20px;\n  border-color: transparent;\n}\n\n.moon-container:hover {\n  transform: scale(1.2);\n  border-radius: 62px;\n  box-shadow: 1px 0px 100px #ece1bd60;\n  transition: all 1.4s;\n}\n\n.moon-text {\n  position: relative;\n  font-size: 15px;\n  font-weight: bold;\n  color: #fff;\n}\n\n.moon {\n  position: relative;\n  border-color: transparent;\n  width: 75px;\n  height: 75px;\n  border-radius: 50%;\n  background-color: #F0EAD6;\n  box-shadow: 0px 0px 10px #F0EAD6;\n}\n\n.moon::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 22%;\n  left: 45%;\n  transform: translateX(-50%);\n  width: 12px;\n  height: 12px;\n  border-radius: 50%;\n  background-color: #333;\n  opacity: 0.4;\n}\n\n.moon::after {\n  content: \"\";\n  position: absolute;\n  top: 67%;\n  left: 30%;\n  transform: translateX(-50%);\n  width: 10px;\n  height: 10px;\n  border-radius: 50%;\n  background-color: #333;\n  opacity: 0.3;\n}\n\n.mancha2 {\n  content: \"\";\n  width: 10px;\n  height: 10px;\n  background-color: rgba(51, 51, 51, 0.583);\n  border-radius: 50%;\n  position: absolute;\n  top: 47%;\n  left: 75%;\n  transform: translate(-50%, -50%);\n}\n\n.moon:hover {\n  box-shadow: 0px 0px 100px #F0EAD6;\n  transition: all 1.4s;\n}\n\n.moon:active {\n  transform: scale(1.5);\n  transition: all 1.4s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jkhuger-little-falcon-22-feb543",
+  "title": "Loader by JkHuger (little-falcon-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/little-falcon-22",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JkHuger_little-falcon-22.html",
+  "code": "<div class=\"item\">\n    <div class=\"loader-pulse\"></div>\n</div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: loader */\n.loader-pulse {\n  width: 64px;\n  height: 64px;\n  border-radius: 50%;\n  background: #8f44fd;\n  animation: load-pulse 0.85s infinite linear;\n}\n\n@keyframes load-pulse {\n  0% {\n    transform: scale(0.15);\n    opacity: 0;\n  }\n\n  50% {\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(1);\n    opacity: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

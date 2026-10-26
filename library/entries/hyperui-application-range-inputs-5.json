@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-application-range-inputs-5",
+  "title": "Range Inputs: Native with label marks",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/range-inputs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "range-inputs",
+    "hyperui",
+    "filter",
+    "form",
+    "slider"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/range-inputs/5.html",
+  "code": "<div class=\"mx-auto max-w-sm p-6\">\n<label for=\"maxVolume\">\n<span class=\"block text-sm font-medium text-gray-900\">Max Volume</span>\n<input class=\"mt-1 w-full\" id=\"maxVolume\" list=\"volumeTicks\" max=\"100\" min=\"0\" name=\"maxVolume\" type=\"range\" value=\"20\"/>\n<datalist class=\"flex w-full flex-col justify-between [writing-mode:vertical-lr]\" id=\"volumeTicks\">\n<option label=\"0\" value=\"0\"></option>\n<option label=\"25\" value=\"25\"></option>\n<option label=\"50\" value=\"50\"></option>\n<option label=\"75\" value=\"75\"></option>\n<option label=\"100\" value=\"100\"></option>\n</datalist>\n</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

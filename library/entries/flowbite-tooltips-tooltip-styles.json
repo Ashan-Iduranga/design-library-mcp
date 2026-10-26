@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-tooltips-tooltip-styles",
+  "title": "Tooltip: Tooltip styles (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/tooltips/#tooltip-styles",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "tooltip",
+    "tooltips",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "You can use choose between dark and light version styles for the tooltip component by changing the utility classes from Tailwind CSS and by applying the `data-tooltip-style=\"{light|dark}\"` data attribute.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/tooltips.md",
+  "code": "<!-- Light style tooltip -->\n\n<button data-tooltip-target=\"tooltip-light\" data-tooltip-style=\"light\" type=\"button\" class=\"text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Light tooltip</button>\n\n<div id=\"tooltip-light\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-heading bg-neutral-primary-medium border border-default rounded-base shadow-xs opacity-0 tooltip\">\n    Tooltip content\n    <div class=\"tooltip-arrow\" data-popper-arrow></div>\n</div>\n\n<!-- Dark style tooltip -->\n\n<button data-tooltip-target=\"tooltip-dark\" type=\"button\" class=\"ms-3 text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Dark tooltip</button>\n\n<div id=\"tooltip-dark\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-dark rounded-base shadow-xs opacity-0 tooltip\">\n    Tooltip content\n    <div class=\"tooltip-arrow\" data-popper-arrow></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

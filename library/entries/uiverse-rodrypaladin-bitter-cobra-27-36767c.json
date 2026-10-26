@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-rodrypaladin-bitter-cobra-27-36767c",
+  "title": "Input by Rodrypaladin (bitter-cobra-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Rodrypaladin/bitter-cobra-27",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "animation",
+    "form",
+    "animated",
+    "colorful"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Rodrypaladin on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Rodrypaladin_bitter-cobra-27.html",
+  "code": "<div class=\"box-input\">\n  <div class=\"border\">\n    <input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Name\">\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Rodrypaladin - Tags: animation, form, input, animated, colorful */\n.box-input {\n  position: relative;\n}\n\n.border {\n  background-image: linear-gradient(to right bottom, #e300ff, #ff00aa, #ff5956, #ffb900, #fffe00);\n  box-shadow: -25px -10px 30px -5px rgba(225, 0, 255, 0.5),\n    25px -10px 30px -5px rgba(255, 0, 212, 0.5),\n    25px 10px 30px -5px rgba(255, 174, 0, 0.5),\n    -25px 10px 30px -5px rgba(255, 230, 0, 0.5);\n  padding: 4px;\n}\n\n.input {\n  background-color: #212121;\n  max-width: 250px;\n  height: 40px;\n  padding: 0 19px 0 10px;\n  font-size: 1.1em;\n  position: relative;\n  border: none;\n  color: white;\n  outline: 0;\n  overflow: hidden;\n}\n\n.box-input::after,\n.box-input::before {\n  content: \"\";\n  width: 130px;\n  height: 30px;\n  position: absolute;\n  z-index: -1;\n}\n\n.box-input::after {\n  bottom: 0;\n  right: 0;\n}\n\n.box-input::before {\n  top: 0;\n  left: 0;\n}\n\n.input::placeholder {\n  transition: all 0.5s ease-in, transform 0.2s ease-in 0.6s;\n}\n\n.input:focus::placeholder {\n  padding-left: 165px;\n  transform: translateY(-50px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

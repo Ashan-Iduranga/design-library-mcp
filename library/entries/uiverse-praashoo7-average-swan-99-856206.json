@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-praashoo7-average-swan-99-856206",
+  "title": "Button by Praashoo7 (average-swan-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/average-swan-99",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "neumorphism",
+    "realistic",
+    "buttons",
+    "teenage-engineering"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Praashoo7_average-swan-99.html",
+  "code": "<div class=\"main\">\n  <div class=\"buttons\">\n    <div class=\"button_pair\">\n      <div class=\"btn\">\n        <button class=\"button1\">\n          <svg\n            viewBox=\"0 -960 960 960\"\n            class=\"svg1\"\n            xmlns=\"http://www.w3.org/2000/svg\"\n          >\n            <path d=\"M200-440v-80h560v80H200Z\"></path>\n          </svg>\n        </button>\n      </div>\n      <div class=\"btn\">\n        <button class=\"button2\">\n          <svg\n            viewBox=\"0 -960 960 960\"\n            xmlns=\"http://www.w3.org/2000/svg\"\n            class=\"svg2\"\n          >\n            <path\n              d=\"M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z\"\n            ></path>\n          </svg>\n        </button>\n      </div>\n    </div>\n    <div class=\"button_pair\">\n      <div class=\"btn\">\n        <button class=\"button3\">\n          <span class=\"button_text\">RECORD</span>\n        </button>\n      </div>\n      <div class=\"btn\">\n        <button class=\"button4\">\n          <span class=\"button_text\">PLAY</span>\n        </button>\n      </div>\n    </div>\n  </div>\n  <div class=\"text\">Teenage Engineering [EP-133 K.O. II] - Buttons</div>\n</div>\n\n<style>\n/* From Uiverse.io by Praashoo7  - Tags: neumorphism, button, realistic, buttons, teenage engineering */\n/* Teenage Engineering [EP-133 K.O. II] - Buttons */\n\n.main {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  row-gap: 1.25em;\n}\n\n.buttons {\n  display: flex;\n  flex-direction: column;\n  row-gap: 1.5em;\n}\n.button_pair {\n  display: flex;\n  column-gap: 1.5em;\n}\n.button_pair1 {\n  display: flex;\n  flex-direction: column;\n  row-gap: 0.9em;\n}\n\n.btn {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 5em;\n  height: 5em;\n  background-color: #171717;\n  border-radius: 5px;\n}\n\n.button1 {\n  width: 5.7em;\n  height: 5.7em;\n  border-radius: 10px;\n  border: none;\n  outline: none;\n  background-color: #c7c3c0;\n  box-shadow: rgba(0, 0, 0, 0.377) 10px 10px 8px,\n    #ffffff 1.5px 1.5px 2px 0px inset, #c7c3c0 -3.2px -3.2px 8px 0px inset;\n  cursor: pointer;\n  font-family: Montserrat;\n  transition: 0.1s ease-in-out;\n}\n.button2 {\n  width: 5.7em;\n  height: 5.7em;\n  border-radius: 10px;\n  border: none;\n  outline: none;\n  background-color: #c7c3c0;\n  box-shadow: rgba(0, 0, 0, 0.377) 10px 10px 8px,\n    #ffffff 1.5px 1.5px 2px 0px inset, #c7c3c0 -3.2px -3.2px 8px 0px inset;\n  cursor: pointer;\n  font-family: Montserrat;\n  transition: 0.1s ease-in-out;\n}\n.svg1 {\n  fill: #5f5f5f;\n  width: 25px;\n  height: 25px;\n  transition: 0.1s ease-in-out;\n}\n.svg2 {\n  fill: #5f5f5f;\n  width: 25px;\n  height: 25px;\n  transition: 0.1s ease-in-out;\n}\n\n.button3 {\n  display: flex;\n  align-items: flex-start;\n  justify-content: center;\n  width: 5.7em;\n  height: 5.7em;\n  border-radius: 10px;\n  border: none;\n  outline: none;\n  background-color: #d42a02;\n  box-shadow: rgba(0, 0, 0, 0.377) 10px 10px 8px, #fb702c 2px 2px 10px 0px inset,\n    #d42a02 -4px -4px 1px 0px inset;\n  cursor: pointer;\n  font-family: Montserrat;\n  transition: 0.1s ease-in-out;\n}\n.button4 {\n  display: flex;\n  align-items: flex-start;\n  justify-content: center;\n  width: 5.7em;\n  height: 5.7em;\n  border-radius: 10px;\n  border: none;\n  outline: none;\n  background-color: #545251;\n  box-shadow: rgba(0, 0, 0, 0.377) 10px 10px 8px,\n    #a8a6a4 1.5px 1.5px 1px 0px inset, #545251 -3.2px -3.2px 8px 0px inset;\n  cursor: pointer;\n  font-family: Montserrat;\n  transition: 0.1s ease-in-out;\n}\n\n.button_text {\n  color: white;\n  padding-top: 0.9em;\n  letter-spacing: 0.075em;\n  font-size: 0.85em;\n  transition: 0.1s ease-in-out;\n}\n\n.text {\n  font-family: Montserrat;\n  text-align: center;\n  font-size: 0.65em;\n}\n\n.button1:active,\n.button2:active {\n  box-shadow: rgba(0, 0, 0, 0.377) 0px 0px 0px, inset 0.5px 0.5px 4px #000000,\n    #c7c3c0 -3.2px -3.2px 8px 0px inset;\n}\n.button1:active .svg1,\n.button2:active .svg2 {\n  scale: 0.95;\n}\n.button3:active {\n  box-shadow: rgba(0, 0, 0, 0.377) 0px 0px 0px, inset 0.5px 0.5px 4px #000000,\n    #d42a02 -3.2px -3.2px 8px 0px inset;\n}\n.button3:active .button_text {\n  transform: translateY(0.5px);\n}\n.button4:active {\n  box-shadow: rgba(0, 0, 0, 0.377) 0px 0px 0px, inset 0.5px 0.5px 4px #000000,\n    #545251 -3.2px -3.2px 8px 0px inset;\n}\n.button4:active .button_text {\n  transform: translateY(0.5px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

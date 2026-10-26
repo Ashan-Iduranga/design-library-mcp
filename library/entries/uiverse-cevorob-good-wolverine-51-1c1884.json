@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-cevorob-good-wolverine-51-1c1884",
+  "title": "Checkbox by Cevorob (good-wolverine-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cevorob/good-wolverine-51",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "hamburger"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cevorob on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Cevorob_good-wolverine-51.html",
+  "code": "<label class=\"burger\" for=\"burger\">\n  <input type=\"checkbox\" id=\"burger\">\n  <span></span>\n  <span></span>\n  <span></span>\n</label>\n<style>\n/* From Uiverse.io by Cevorob - Tags: hamburger */\n.burger {\n  position: relative;\n  width: 40px;\n  height: 30px;\n  background: transparent;\n  cursor: pointer;\n  display: block;\n}\n\n.burger input {\n  display: none;\n}\n\n.burger span {\n  display: block;\n  position: absolute;\n  height: 4px;\n  width: 100%;\n  background: black;\n  border-radius: 9px;\n  opacity: 1;\n  left: 0;\n  transform: rotate(0deg);\n  transition: .25s ease-in-out;\n}\n\n.burger span:nth-of-type(1) {\n  top: 0px;\n  transform-origin: left center;\n}\n\n.burger span:nth-of-type(2) {\n  top: 50%;\n  transform: translateY(-50%);\n  transform-origin: left center;\n}\n\n.burger span:nth-of-type(3) {\n  top: 100%;\n  transform-origin: left center;\n  transform: translateY(-100%);\n}\n\n.burger input:checked ~ span:nth-of-type(1) {\n  transform: rotate(45deg);\n  top: 0px;\n  left: 5px;\n}\n\n.burger input:checked ~ span:nth-of-type(2) {\n  width: 0%;\n  opacity: 0;\n}\n\n.burger input:checked ~ span:nth-of-type(3) {\n  transform: rotate(-45deg);\n  top: 28px;\n  left: 5px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

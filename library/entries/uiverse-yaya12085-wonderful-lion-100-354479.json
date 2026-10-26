@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-wonderful-lion-100-354479",
+  "title": "Button by Yaya12085 (wonderful-lion-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/wonderful-lion-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Yaya12085_wonderful-lion-100.html",
+  "code": "<button class=\"pushable\">\n  <span class=\"shadow\"></span>\n  <span class=\"front\"\n    >Join Today\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g>\n      <g\n        id=\"SVGRepo_tracerCarrier\"\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n      ></g>\n      <g id=\"SVGRepo_iconCarrier\">\n        <path\n          d=\"M6 12H18M18 12L13 7M18 12L13 17\"\n          stroke=\"#fff\"\n          stroke-width=\"2\"\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n        ></path>\n      </g>\n    </svg>\n  </span>\n</button>\n\n<style>\n/* From Uiverse.io by Yaya12085  - Tags: button */\n.pushable {\n  --dark: #5e2986;\n  --medium: #8732cb;\n  --light: #d08bfe;\n  --white: #fff;\n  cursor: pointer;\n  outline: none;\n  border: none;\n  padding: 0;\n  border-radius: 12px;\n  background-color: var(--dark);\n  position: relative;\n}\n\n.front {\n  display: flex;\n  gap: 10px;\n  align-items: center;\n  justify-content: space-between;\n  padding: 12px 42px;\n  border-radius: 12px;\n  font-size: 1.25rem;\n  font-weight: 600;\n  background-color: var(--dark);\n  background-image: linear-gradient(to top, var(--medium), var(--light));\n  color: white;\n  transform: translateY(-4px);\n  border: 2px solid var(--medium);\n}\n\n.front svg {\n  width: 30px;\n  height: 30px;\n}\n.shadow {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: 12px;\n  background: hsl(0deg 0% 0% / 0.25);\n  transform: translateY(2px);\n}\n.pushable:focus:not(:focus-visible) {\n  outline: none;\n}\n.front {\n  will-change: transform;\n  transition: transform 250ms;\n}\n\n.pushable:hover .front {\n  transform: translateY(-6px);\n}\n\n.pushable:active .front {\n  transform: translateY(-2px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

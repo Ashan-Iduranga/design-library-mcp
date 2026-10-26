@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-ahmed150up-clever-fly-79-0432b6",
+  "title": "Card by ahmed150up (clever-fly-79)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ahmed150up/clever-fly-79",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "chat",
+    "chatgpt"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ahmed150up on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/ahmed150up_clever-fly-79.html",
+  "code": "<div class=\"chat-card\">\n  <div class=\"chat-header\">\n   <div class=\"h2\">ChatGPT</div>\n  </div>\n  <div class=\"chat-body\">\n    <div class=\"message incoming\">\n      <p>Hello, how can I assist you today?</p>\n    </div>\n    <div class=\"message outgoing\">\n      <p>I have a question about your services.</p>\n    </div>\n    <div class=\"message incoming\">\n      <p>Sure, I'm here to help. What would you like to know?</p>\n    </div>\n    \n  </div>\n  <div class=\"chat-footer\">\n    <input placeholder=\"Type your message\" type=\"text\">\n    <button>Send</button>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by ahmed150up - Tags: card, chat, chatgpt */\n.chat-card {\n  width: 300px;\n  background-color: #fff;\n  border-radius: 5px;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n  overflow: hidden;\n}\n\n.chat-header {\n  padding: 10px;\n  background-color: #f2f2f2;\n  display: flex;\n  align-items: center;\n}\n\n.chat-header .h2 {\n  font-size: 16px;\n  color: #333;\n}\n\n.chat-body {\n  padding: 20px;\n}\n\n.message {\n  margin-bottom: 10px;\n  padding: 10px;\n  border-radius: 5px;\n}\n\n.incoming {\n  background-color: #e1e1e1;\n}\n\n.outgoing {\n  background-color: #f2f2f2;\n  text-align: right;\n}\n\n.message p {\n  font-size: 14px;\n  color: #333;\n  margin: 0;\n}\n\n.chat-footer {\n  padding: 10px;\n  background-color: #f2f2f2;\n  display: flex;\n}\n\n.chat-footer input[type=\"text\"] {\n  flex-grow: 1;\n  padding: 5px;\n  border: none;\n  border-radius: 3px;\n}\n\n.chat-footer button {\n  padding: 5px 10px;\n  border: none;\n  background-color: #4285f4;\n  color: #fff;\n  font-weight: bold;\n  cursor: pointer;\n  transition: background-color 0.3s;\n}\n\n.chat-footer button:hover {\n  background-color: #0f9d58;\n}\n\n@keyframes chatAnimation {\n  0% {\n    opacity: 0;\n    transform: translateY(10px);\n  }\n\n  100% {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n\n.chat-card .message {\n  animation: chatAnimation 0.3s ease-in-out;\n  animation-fill-mode: both;\n  animation-delay: 0.1s;\n}\n\n.chat-card .message:nth-child(even) {\n  animation-delay: 0.2s;\n}\n\n.chat-card .message:nth-child(odd) {\n  animation-delay: 0.3s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

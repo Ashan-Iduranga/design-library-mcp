@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-z1789976172-blue-rat-89-cf8e40",
+  "title": "Button by z1789976172 (blue-rat-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/z1789976172/blue-rat-89",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By z1789976172 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/z1789976172_blue-rat-89.html",
+  "code": "<div class=\"btn btn--huge\">\n  <div class=\"btn--huge__text\">\n    <div>\n      Explore More\n      <span>Explore More</span>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by z1789976172 - Source: https://www.respawn.com/ - Tags: button, animal, hover button */\n:after,:before {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n.btn--huge {\n  cursor: pointer;\n  position: relative;\n  height: 45px;\n  background-color: #ff4e33;\n  text-transform: uppercase;\n  display: inline-block;\n  color: fff;\n  font-family: Arial;\n  font-weight: 800;\n  font-size: 12px;\n  letter-spacing: 1px;\n  padding: 0 20px 0 50px;\n  white-space: nowrap;\n}\n\n.btn--huge:before {\n  -webkit-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);\n  transition: all 0.5s cubic-bezier(0.785, 0.15 , 0.15, 0.86);\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 30px;\n  height: 100%;\n  background-color: #D6D4D3;\n}\n\n.btn--huge:after {\n  -webkit-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);\n  transition: all 0.5s cubic-bezier(0.785, 0.15 , 0.15, 0.86);\n  content: '→';\n  font-size: 14px;\n  line-height: 1;\n  color: #D6D4D3;\n  position: absolute;\n  left: 20px;\n  top: 50%;\n  width: 22px;\n  height: 22px;\n  margin-top: -11px;\n  background: #FF4E33;\n  z-index: 2;\n  border-radius: 50%;\n  border: 1px solid #D6D4D3;\n}\n\n.btn--huge__text {\n  position: relative;\n  top: -1px;\n  -webkit-transition: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);\n  transition: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);\n  height: 100%;\n  display: flex;\n  align-items: center;\n}\n\n.btn--huge__text div {\n  position: relative;\n  color: #fff;\n}\n\n.btn--huge__text span {\n  -webkit-transition: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);\n  transition: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);\n  overflow: hidden;\n  position: absolute;\n  white-space: nowrap;\n  top: 0;\n  left: 0;\n  color: #000;\n  width: 0;\n}\n\n.btn--huge:hover:after {\n  -webkit-transform: translateX(-30px);\n  transform: translateX(-30px);\n}\n\n.btn--huge:hover:before {\n  width: 0;\n}\n\n.btn--huge:hover .btn--huge__text span {\n  width: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

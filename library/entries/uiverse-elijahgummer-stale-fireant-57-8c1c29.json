@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-elijahgummer-stale-fireant-57-8c1c29",
+  "title": "Button by elijahgummer (stale-fireant-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/stale-fireant-57",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "animation",
+    "shadow",
+    "realistic",
+    "click-effect",
+    "gold",
+    "golden-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/elijahgummer_stale-fireant-57.html",
+  "code": "<button role=\"button\" class=\"golden-button\">\n  <span class=\"golden-text\">Golden Button</span>\n</button>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, animation, button, shadow, realistic, click effect, gold, golden effect  */\n.golden-button {\n  touch-action: manipulation;\n  display: inline-block;\n  outline: none;\n  font-family: inherit;\n  font-size: 1em;\n  box-sizing: border-box;\n  border: none;\n  border-radius: 0.3em;\n  height: 2.75em;\n  line-height: 2.5em;\n  text-transform: uppercase;\n  padding: 0 1em;\n  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(110, 80, 20, 0.4),\n    inset 0 -2px 5px 1px rgba(139, 66, 8, 1),\n    inset 0 -1px 1px 3px rgba(250, 227, 133, 1);\n  background-image: linear-gradient(\n    160deg,\n    #a54e07,\n    #b47e11,\n    #fef1a2,\n    #bc881b,\n    #a54e07\n  );\n  border: 1px solid #a55d07;\n  color: rgb(120, 50, 5);\n  text-shadow: 0 2px 2px rgba(250, 227, 133, 1);\n  cursor: pointer;\n  transition: all 0.2s ease-in-out;\n  background-size: 100% 100%;\n  background-position: center;\n}\n\n.golden-button:focus,\n.golden-button:hover {\n  background-size: 150% 150%;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23),\n    inset 0 -2px 5px 1px #b17d10, inset 0 -1px 1px 3px rgba(250, 227, 133, 1);\n  border: 1px solid rgba(165, 93, 7, 0.6);\n  color: rgba(120, 50, 5, 0.8);\n}\n\n.golden-button:active {\n  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(110, 80, 20, 0.4),\n    inset 0 -2px 5px 1px #b17d10, inset 0 -1px 1px 3px rgba(250, 227, 133, 1);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-neat-swan-21-205af5",
+  "title": "Loader by Pradeepsaranbishnoi (neat-swan-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/neat-swan-21",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "retro",
+    "windows",
+    "xp"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Pradeepsaranbishnoi_neat-swan-21.html",
+  "code": "<div class=\"window\">\n  <div class=\"logo\">\n    <p class=\"top\">Microsoft</p>\n    <p class=\"mid\">Windows<span>XP</span></p>\n    <p class=\"bottom\">Professional</p>\n  </div>\n  <div class=\"container\">\n    <div class=\"box\"></div>\n    <div class=\"box\"></div>\n    <div class=\"box\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: loader, retro, windows, xp */\n.container {\n  width: 150px;\n  height: 10px;\n  border: 2px solid #b2b2b2;\n  border-radius: 7px;\n  margin: 0 auto;\n  padding: 2px 1px;\n  overflow: hidden;\n  font-size: 0;\n}\n\n.box {\n  width: 9px;\n  height: 100%;\n  background: linear-gradient(to bottom, #2838c7 0%,#5979ef 17%,#869ef3 32%,#869ef3 45%,#5979ef 59%,#2838c7 100%);\n  display: inline-block;\n  margin-right: 2px;\n  animation: loader 2s infinite;\n  animation-timing-function: linear;\n}\n\n.logo {\n  width: 220px;\n  margin: 50px auto;\n  margin-top: 20px;\n}\n\n.logo p {\n  margin: 0;\n  padding: 0;\n}\n\n.top {\n  font-size: 16px;\n  font-weight: 300;\n  line-height: 16px;\n}\n\n.top:after {\n  content: \"\\00a9\";\n  font-size: 10px;\n  position: relative;\n  top: -5px;\n  margin-left: 2px;\n}\n\n.mid {\n  font-size: 46px;\n  font-weight: 700;\n  line-height: 36px;\n}\n\n.mid span {\n  font-size: 22px;\n  display: inline-block;\n  vertical-align: top;\n  color: #FF6821;\n  margin-top: -8px;\n}\n\n.logo .bottom {\n  font-size: 30px;\n  font-weight: 300;\n  line-height: 30px;\n  margin-left: 5px;\n}\n\n@keyframes loader {\n  0% {\n    transform: translate(-30px);\n  }\n\n  100% {\n    transform: translate(150px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

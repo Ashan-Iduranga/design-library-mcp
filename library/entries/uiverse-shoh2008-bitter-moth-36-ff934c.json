@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-bitter-moth-36-ff934c",
+  "title": "Loader by Shoh2008 (bitter-moth-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/bitter-moth-36",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_bitter-moth-36.html",
+  "code": "<span class=\"loader\"></span>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  display: block;\n  margin: 15px auto;\n  position: relative;\n  color: #FFF;\n  box-sizing: border-box;\n  animation: rotation_19 1s linear infinite;\n}\n\n.loader::after,\n.loader::before {\n  content: '';\n  box-sizing: border-box;\n  position: absolute;\n  width: 24px;\n  height: 24px;\n  top: 0;\n  background-color: #FFF;\n  border-radius: 50%;\n  animation: scale50 1s infinite ease-in-out;\n}\n\n.loader::before {\n  top: auto;\n  bottom: 0;\n  background-color: #FF3D00;\n  animation-delay: 0.5s;\n}\n\n@keyframes rotation_19 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes scale50 {\n  0%, 100% {\n    transform: scale(0);\n  }\n\n  50% {\n    transform: scale(1);\n  }\n} \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

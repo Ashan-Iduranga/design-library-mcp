@@ -1,0 +1,32 @@
+{
+  "id": "open-props-aspects",
+  "title": "Open Props: Aspects tokens",
+  "source": "Open Props",
+  "url": "https://open-props.style/#aspects",
+  "license": "MIT",
+  "type": "token",
+  "tags": [
+    "aspects",
+    "open-props",
+    "css-variables",
+    "tokens"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "6 CSS custom properties, e.g. --ratio-square, --ratio-landscape, --ratio-portrait, --ratio-widescreen.\n\nUse: npm i open-props, then @import \"open-props/aspects\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.aspects.css",
+  "code": ":where(html) {\n  --ratio-square: 1;\n  --ratio-landscape: 4/3;\n  --ratio-portrait: 3/4;\n  --ratio-widescreen: 16/9;\n  --ratio-ultrawide: 18/5;\n  --ratio-golden: 1.6180/1;\n}",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

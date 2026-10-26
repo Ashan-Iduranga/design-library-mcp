@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-vinodjangid07-heavy-cheetah-84-84e87c",
+  "title": "Loader by vinodjangid07 (heavy-cheetah-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/heavy-cheetah-84",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "purple",
+    "loading",
+    "search"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vinodjangid07_heavy-cheetah-84.html",
+  "code": "<div class=\"loader\">\n  <div class=\"loaderMiniContainer\">\n    <div class=\"barContainer\">\n      <span class=\"bar\"></span>\n      <span class=\"bar bar2\"></span>\n    </div>\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      fill=\"none\"\n      viewBox=\"0 0 101 114\"\n      class=\"svgIcon\"\n    >\n      <circle\n        stroke-width=\"7\"\n        stroke=\"black\"\n        transform=\"rotate(36.0692 46.1726 46.1727)\"\n        r=\"29.5497\"\n        cy=\"46.1727\"\n        cx=\"46.1726\"\n      ></circle>\n      <line\n        stroke-width=\"7\"\n        stroke=\"black\"\n        y2=\"111.784\"\n        x2=\"97.7088\"\n        y1=\"67.7837\"\n        x1=\"61.7089\"\n      ></line>\n    </svg>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: animation, purple, loading, loader, search */\n.loader {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.loaderMiniContainer {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  width: 130px;\n  height: fit-content;\n}\n.barContainer {\n  width: 100%;\n  height: fit-content;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: center;\n  gap: 10px;\n  background-position: left;\n}\n.bar {\n  width: 100%;\n  height: 8px;\n  background: linear-gradient(\n    to right,\n    rgb(161, 94, 255),\n    rgb(217, 190, 255),\n    rgb(161, 94, 255)\n  );\n  background-size: 200% 100%;\n  border-radius: 10px;\n  animation: bar ease-in-out 3s infinite alternate-reverse;\n}\n@keyframes bar {\n  0% {\n    background-position: left;\n  }\n  100% {\n    background-position: right;\n  }\n}\n.bar2 {\n  width: 50%;\n}\n.svgIcon {\n  position: absolute;\n  left: -25px;\n  margin-top: 18px;\n  z-index: 2;\n  width: 70%;\n  animation: search ease-in-out 3s infinite alternate-reverse;\n}\n@keyframes search {\n  0% {\n    transform: translateX(0%) rotate(70deg);\n  }\n\n  100% {\n    transform: translateX(100px) rotate(10deg);\n  }\n}\n.svgIcon circle,\nline {\n  stroke: rgb(162, 55, 255);\n}\n.svgIcon circle {\n  fill: rgba(98, 65, 142, 0.238);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

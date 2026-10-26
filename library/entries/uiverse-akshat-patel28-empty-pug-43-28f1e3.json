@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-akshat-patel28-empty-pug-43-28f1e3",
+  "title": "Form by akshat-patel28 (empty-pug-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/akshat-patel28/empty-pug-43",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "transition",
+    "login",
+    "html",
+    "css",
+    "login-form",
+    "css-effect",
+    "input-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By akshat-patel28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/akshat-patel28_empty-pug-43.html",
+  "code": "<div class=\"form-container\">\n  <form class=\"form\">\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      class=\"lock-icon\"\n      width=\"1em\"\n      height=\"1em\"\n      viewBox=\"0 0 24 24\"\n      stroke-width=\"0\"\n      fill=\"currentColor\"\n      stroke=\"currentColor\"\n    >\n      <path\n        d=\"M12 2C9.243 2 7 4.243 7 7v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7c0-2.757-2.243-5-5-5zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v3H9V7zm4 10.723V20h-2v-2.277a1.993 1.993 0 0 1 .567-3.677A2.001 2.001 0 0 1 14 16a1.99 1.99 0 0 1-1 1.723z\"\n      ></path>\n    </svg>\n    <input class=\"toggle-input\" id=\"toggle-checkbox\" type=\"checkbox\" />\n    <p class=\"form-title\">Welcome back</p>\n    <p class=\"form-sub-title\">\n      Glad to see you again Login to your account below.\n    </p>\n    <div class=\"login-card\">\n      <div class=\"field-container\">\n        <input placeholder=\"\" class=\"input\" type=\"email\" />\n        <span class=\"placeholder\">Email</span>\n      </div>\n      <button class=\"btn\" type=\"button\">\n        <label class=\"btn-label\" for=\"toggle-checkbox\">Continue</label>\n      </button>\n    </div>\n    <div class=\"password-card\">\n      <div class=\"field-container\">\n        <input placeholder=\"\" class=\"input\" type=\"password\" />\n        <span class=\"placeholder\">Password</span>\n      </div>\n      <button class=\"btn\" type=\"button\">\n        <label class=\"btn-label\" for=\"toggle-checkbox\">Login</label>\n      </button>\n    </div>\n  </form>\n</div>\n\n<style>\n/* From Uiverse.io by akshat-patel28  - Tags: form, transition, login , html, css, login form, css effect, input effect  */\n.form-container {\n  width: 400px;\n  height: 254px;\n  background: #fff;\n  border-radius: 8px;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,\n    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;\n  box-sizing: border-box;\n  position: relative;\n  overflow: hidden;\n}\n.lock-icon {\n  font-size: 20px;\n  color: #0e2954;\n}\n.form {\n  width: 100%;\n  height: 100%;\n  padding: 20px 15px;\n  font-family: \"Trebuchet MS\", \"Lucida Sans Unicode\", \"Lucida Grande\",\n    \"Lucida Sans\", Arial, sans-serif;\n  box-sizing: border-box;\n  color: #0e2954;\n  position: relative;\n}\n.toggle-input {\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 0;\n}\n.form-title {\n  margin-top: 10px;\n  margin-bottom: 5px;\n  font-size: 25px;\n  font-weight: 700;\n  font-family: \"Trebuchet MS\", \"Lucida Sans Unicode\", \"Lucida Grande\",\n    \"Lucida Sans\", Arial, sans-serif;\n}\n.form-sub-title {\n  margin: 0;\n  font-size: 15px;\n  font-weight: 500;\n  font-family: \"Trebuchet MS\", \"Lucida Sans Unicode\", \"Lucida Grande\",\n    \"Lucida Sans\", Arial, sans-serif;\n}\n.login-card,\n.password-card {\n  display: flex;\n  flex-direction: column;\n  box-sizing: border-box;\n  padding-top: 25px;\n  gap: 20px;\n  align-items: flex-end;\n  position: absolute;\n  width: calc(100% - 30px);\n  transition: all 0.3s ease-in-out;\n  bottom: 20px;\n}\n.login-card {\n  left: 15px;\n}\n.password-card {\n  left: 100%;\n}\n.field-container {\n  border: 1px solid #a7a7a7;\n  border-radius: 8px;\n  width: 100%;\n  height: 45px;\n  position: relative;\n  box-sizing: border-box;\n  overflow: hidden;\n  display: flex;\n  align-items: flex-end;\n  justify-content: flex-start;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);\n}\n.input {\n  width: 100%;\n  height: 100%;\n  padding: 5px 10px;\n  box-sizing: border-box;\n  border: none;\n  outline: none;\n  background: transparent;\n  position: relative;\n  z-index: 11;\n}\n.placeholder {\n  position: absolute;\n  top: 50%;\n  left: 10px;\n  transform: translateY(-50%);\n  color: #a7a7a7;\n  transition: all 0.3s ease;\n  font-size: 16px;\n}\n.input:focus ~ .placeholder,\n.input:not(:placeholder-shown) ~ .placeholder {\n  top: 5px;\n  transform: none;\n  font-size: 12px;\n}\n.input:focus,\n.input:not(:placeholder-shown) {\n  height: 68%;\n}\n.btn {\n  width: 100px;\n  height: 40px;\n  border-radius: 8px;\n  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;\n  background: #0e2954;\n  border: none;\n  outline: none;\n}\n.btn:focus {\n  box-shadow: none;\n}\n\n.btn-label {\n  font-size: 15px;\n  font-weight: 600;\n  color: #fff;\n  cursor: pointer;\n}\n.toggle-input:checked ~ .login-card {\n  left: -100%;\n}\n.toggle-input:checked ~ .password-card {\n  left: 15px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

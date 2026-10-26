@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-htwarriors108-spicy-bird-33-008863",
+  "title": "Button by htwarriors108 (spicy-bird-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/htwarriors108/spicy-bird-33",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "glassmorphism",
+    "facebook",
+    "hover",
+    "share",
+    "social-media",
+    "clean",
+    "links"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By htwarriors108 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/htwarriors108_spicy-bird-33.html",
+  "code": "<button>\n  <a href=\"#\">\n     <svg viewBox=\"0 0 16 16\" fill=\"currentColor\" id=\"facebook\">\n                        <path d=\"M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z\"></path>\n                    </svg>\n      </a>\n      </button>\n<style>\n/* From Uiverse.io by htwarriors108 - Tags: glassmorphism, facebook, button, hover, share, social media, clean, links, hover effect, buttons */\nbutton {\n  position: relative;\n  border: none;\n  margin: 10px;\n  background-color: transparent;\n}\n\nbutton a {\n  width: 80px;\n  height: 80px;\n  border-radius: 15px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border: 1px solid rgba(255, 255, 255, 0.5);\n  border-right: 1px solid rgba(255, 255, 255, 0.2);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.2);\n  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.3);\n  backdrop-filter: blur(2px);\n  transition: 0.5s;\n  overflow: hidden;\n  background-color: rgba(255, 255, 255, 0.1);\n}\n\nbutton a:hover {\n  transform: translateY(-20px);\n}\n\nbutton a::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50px;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.5);\n  transform: skewX(45deg) translateX(150px);\n  transition: 0.5s ease;\n}\n\nbutton a:hover::before {\n  transform: skewX(45deg) translateX(-150px);\n}\n\nbutton a svg {\n  width: 3em;\n}\n\n#facebook {\n  color: rgba(10, 128, 236, 0.7);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

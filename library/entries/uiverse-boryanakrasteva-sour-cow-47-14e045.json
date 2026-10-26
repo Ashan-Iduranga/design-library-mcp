@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-boryanakrasteva-sour-cow-47-14e045",
+  "title": "Button by boryanakrasteva (sour-cow-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/boryanakrasteva/sour-cow-47",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "delete"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By boryanakrasteva on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/boryanakrasteva_sour-cow-47.html",
+  "code": "<button class=\"btn\">\n  <p class=\"paragraph\"> delete </p>\n  <span class=\"icon-wrapper\">\n    <svg class=\"icon\" width=\"30px\" height=\"30px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"M6 7V18C6 19.1046 6.89543 20 8 20H16C17.1046 20 18 19.1046 18 18V7M6 7H5M6 7H8M18 7H19M18 7H16M10 11V16M14 11V16M8 7V5C8 3.89543 8.89543 3 10 3H14C15.1046 3 16 3.89543 16 5V7M8 7H16\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n    </svg>\n  </span>\n</button>\n<style>\n/* From Uiverse.io by boryanakrasteva - Tags: button, delete */\n.btn {\n  cursor: pointer;\n  width: 50px;\n  height: 50px;\n  border: none;\n  position: relative;\n  border-radius: 10px;\n  -webkit-box-shadow: 1px 1px 5px .2px #00000035;\n  box-shadow: 1px 1px 5px .2px #00000035;\n  -webkit-transition: .2s linear;\n  transition: .2s linear;\n  transition-delay: .2s;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: space-between;\n}\n\n.btn:hover {\n  width: 150px;\n  transition-delay: .2s;\n}\n\n.btn:hover > .paragraph {\n  visibility: visible;\n  opacity: 1;\n  -webkit-transition-delay: .4s;\n  transition-delay: .4s;\n}\n\n.btn:hover > .icon-wrapper .icon {\n  transform: scale(1.1);\n}\n\n.bnt:hover > .icon-wrapper .icon path {\n  stroke: black;\n}\n\n.paragraph {\n  color: black;\n  visibility: hidden;\n  opacity: 0;\n  font-size: 18px;\n  margin-right: 20px;\n  padding-left: 20px;\n  -webkit-transition: .2s linear;\n  transition: .2s linear;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n\n.icon-wrapper {\n  width: 50px;\n  height: 50px;\n  position: absolute;\n  top: 0;\n  right: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.icon {\n  transform: scale(.9);\n  transition: .2s linear;\n}\n\n.icon path {\n  stroke: #000;\n  stroke-width: 2px;\n  -webkit-transition: .2s linear;\n  transition: .2s linear;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

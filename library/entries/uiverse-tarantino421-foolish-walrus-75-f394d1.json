@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-tarantino421-foolish-walrus-75-f394d1",
+  "title": "Button by tarantino421 (foolish-walrus-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/tarantino421/foolish-walrus-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover-button",
+    "rain"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By tarantino421 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/tarantino421_foolish-walrus-75.html",
+  "code": "<div class=\"box\">\n  <button class=\"button\">RAIN</button>\n  <div class=\"rain\">\n    <span style=\"--i: 15\" class=\"raindrop\"></span>\n    <span style=\"--i: 8\" class=\"raindrop\"></span>\n    <span style=\"--i: 19\" class=\"raindrop\"></span>\n    <span style=\"--i: 9\" class=\"raindrop\"></span>\n    <span style=\"--i: 12\" class=\"raindrop\"></span>\n    <span style=\"--i: 14\" class=\"raindrop\"></span>\n    <span style=\"--i: 11\" class=\"raindrop\"></span>\n    <span style=\"--i: 18\" class=\"raindrop\"></span>\n    <span style=\"--i: 16\" class=\"raindrop\"></span>\n    <span style=\"--i: 9\" class=\"raindrop\"></span>\n    <span style=\"--i: 19\" class=\"raindrop\"></span>\n    <span style=\"--i: 17\" class=\"raindrop\"></span>\n    <span style=\"--i: 9\" class=\"raindrop\"></span>\n    <span style=\"--i: 20\" class=\"raindrop\"></span>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by tarantino421 - Tags: button, hover button, rain */\n.box {\n  --clr-shadow__border: #5987a3;\n  --clr-text: #F6F4EB;\n  --clr-rain: #192333;\n  --clr-raindrop: #E9F8F9;\n  --size: 3rem;\n  position: relative;\n  outline: 1px solid var(--clr-shadow__border);\n}\n\n.button {\n  font-weight: 600;\n  font-size: 1.5rem;\n  background: transparent;\n  padding: calc(var(--size) / 3) var(--size);\n  border: none;\n  cursor: pointer;\n  color: var(--clr-text);\n  letter-spacing: 0.2rem;\n  text-shadow: 2px 0px var(--clr-shadow__border), 0px 2px var(--clr-shadow__border),\n  -2px 0px var(--clr-shadow__border), 0px -2px var(--clr-shadow__border);\n}\n\n.rain {\n  width: 100%;\n  height: 100%;\n  bottom: 0%;\n  gap: 0.6rem;\n  z-index: -1;\n  opacity: 0;\n  transition: 0.5s ease-in-out;\n  overflow: hidden;\n  position: absolute;\n  display: flex;\n  background: var(--clr-rain);\n}\n\n.box:hover .rain {\n  opacity: 1;\n}\n\n.raindrop {\n  height: 1.4rem;\n  min-width: 0.1rem;\n  box-shadow: 60px 100px var(--clr-raindrop),-40px -90px var(--clr-raindrop);\n  background-color: var(--clr-raindrop);\n  animation: rain-animation calc(0.05s * var(--i)) linear infinite;\n  opacity: .3;\n}\n\n@keyframes rain-animation {\n  0% {\n    transform: rotate(20deg) translateY(calc(-100% * var(--i)));\n  }\n\n  100% {\n    transform: rotate(20deg) translateY(calc(100% * var(--i)));\n  }\n}\n\n\n\n\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-roopaish-wicked-moth-24-592e18",
+  "title": "Button by Roopaish (wicked-moth-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Roopaish/wicked-moth-24",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "bubble",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Roopaish on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Roopaish_wicked-moth-24.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by Roopaish - Tags: button, bubble, animated */\nbutton {\n  outline: none;\n  border: none;\n  cursor: pointer;\n  padding: 10px 20px;\n  font-size: 12px;\n  font-weight: 700;\n  color: hsl(0, 0%, 100%);\n  border-radius: 10px;\n  text-transform: uppercase;\n  transition: all 0.2s ease-in-out;\n  position: relative;\n  background-color: #ff0081;\n  box-shadow: rgba(233, 30, 99, 0.5);\n}\n\nbutton::after,\nbutton::before {\n  transition: all 0.2s ease-in-out;\n}\n\nbutton::before {\n  z-index: -1;\n  position: absolute;\n  content: \"\";\n  left: -2em;\n  right: -2em;\n  top: -2em;\n  bottom: -2em;\n  background-repeat: no-repeat;\n  background-image: radial-gradient(circle, #ff0081 20%, transparent 20%),\n    radial-gradient(circle, transparent 10%, #ff0081 20%, transparent 20%),\n    radial-gradient(circle, transparent 10%, white 20%, transparent 20%),\n    radial-gradient(circle, #ff0081 20%, transparent 20%),\n    radial-gradient(circle, transparent 10%, #ff0081 20%, transparent 20%),\n    radial-gradient(circle, #ff0081 20%, transparent 20%),\n    radial-gradient(circle, transparent 10%, #ff0081 20%, transparent 20%),\n    radial-gradient(circle, #ff0081 20%, transparent 20%),\n    radial-gradient(circle, transparent 10%, #ff0081 20%, transparent 20%),\n    /*  */\n      radial-gradient(circle, transparent 10%, #ff0081 20%, transparent 20%),\n    radial-gradient(circle, #ff0081 20%, transparent 20%),\n    radial-gradient(circle, transparent 10%, white 20%, transparent 20%),\n    radial-gradient(circle, #ff0081 20%, transparent 20%),\n    radial-gradient(circle, transparent 10%, #ff0081 20%, transparent 20%),\n    radial-gradient(circle, #ff0081 20%, transparent 20%),\n    radial-gradient(circle, transparent 10%, white 20%, transparent 20%);\n  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,\n    10% 10%, 18% 18%, 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%,\n    20% 20%;\n  background-position: 18% 40%, 20% 31%, 30% 30%, 40% 30%, 50% 30%, 57% 30%,\n    65% 30%, 80% 32%, 15% 60%, 83% 60%, 18% 70%, 25% 70%, 41% 70%, 50% 70%,\n    64% 70%, 80% 71%;\n}\n\nbutton:hover::before {\n  background-position: 5% 44%, -5% 20%, 7% 5%, 23% 0%, 37% 0, 58% -2%, 80% 0%,\n    100% -2%, -5% 80%, 100% 55%, 2% 100%, 23% 100%, 42% 100%, 60% 95%, 70% 96%,\n    100% 100%;\n  background-size: 0% 0%;\n  transition: background-position 0.5s ease-in-out,\n    background-size 0.75s ease-in-out;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

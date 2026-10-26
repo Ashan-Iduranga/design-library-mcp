@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-input-email-input-with-icon-and-validator",
+  "title": "Text Input: Email input with icon and validator (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/input/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Text Input is a simple input field.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/input/+page.md",
+  "code": "<label class=\"input validator\">\n  <svg class=\"h-[1em] opacity-50\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n    <g\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      stroke-width=\"2.5\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n    >\n      <rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"></rect>\n      <path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"></path>\n    </g>\n  </svg>\n  <input type=\"email\" placeholder=\"mail@site.com\" required />\n</label>\n<div class=\"validator-hint hidden\">Enter valid email address</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

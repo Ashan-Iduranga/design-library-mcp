@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-bodyhc-wet-squid-26-5f74ca",
+  "title": "Toggle by Bodyhc (wet-squid-26)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Bodyhc/wet-squid-26",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "click",
+    "buttons"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Bodyhc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Bodyhc_wet-squid-26.html",
+  "code": "<div class=\"flipswitch\">\n    <input checked=\"\" id=\"fs\" class=\"flipswitch-cb\" name=\"flipswitch\" type=\"checkbox\">\n    <label for=\"fs\" class=\"flipswitch-label\">\n        <div class=\"flipswitch-inner\"></div>\n        <div class=\"flipswitch-switch\"></div>\n    </label>\n</div>\n\n<style>\n/* From Uiverse.io by Bodyhc - Tags: switch, click, buttons */\n.flipswitch {\n  position: relative;\n  width: 100px;\n}\n\n.flipswitch input[type=checkbox] {\n  display: none;\n}\n\n.flipswitch-label {\n  display: block;\n  overflow: hidden;\n  cursor: pointer;\n  border: 1px solid #999999;\n  border-radius: 50px;\n}\n\n.flipswitch-inner {\n  width: 200%;\n  margin-left: -100%;\n  transition: margin 0.3s ease-in 0s;\n}\n\n.flipswitch-inner:before, .flipswitch-inner:after {\n  float: left;\n  width: 50%;\n  height: 30px;\n  padding: 0;\n  line-height: 30px;\n  font-size: 20px;\n  color: white;\n  font-family: Trebuchet, Arial, sans-serif;\n  font-weight: bold;\n  box-sizing: border-box;\n}\n\n.flipswitch-inner:before {\n  content: \"ON\";\n  padding-left: 18px;\n  background-color: #437A99;\n  color: #FFFFFF;\n}\n\n.flipswitch-inner:after {\n  content: \"OFF\";\n  padding-right: 18px;\n  background-color: #FFFFFF;\n  color: #437A99;\n  text-align: right;\n}\n\n.flipswitch-switch {\n  width: 35px;\n  margin: -2.5px;\n  background: #FFFFFF;\n  border: 1px solid #999999;\n  border-radius: 50px;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 67px;\n  transition: all 0.3s ease-in 0s;\n}\n\n.flipswitch-cb:checked + .flipswitch-label .flipswitch-inner {\n  margin-left: 0;\n}\n\n.flipswitch-cb:checked + .flipswitch-label .flipswitch-switch {\n  right: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-cuzpq-gentle-goat-72-0486a4",
+  "title": "Toggle by cuzpq (gentle-goat-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cuzpq/gentle-goat-72",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "theme",
+    "light&dark"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cuzpq on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/cuzpq_gentle-goat-72.html",
+  "code": "<input type=\"checkbox\" class=\"theme-checkbox\">\n<style>\n/* From Uiverse.io by cuzpq - Tags: switch, theme, light&dark */\n.theme-checkbox {\n  --toggle-size: 16px;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  width: 6.25em;\n  height: 3.125em;\n  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #efefef), color-stop(50%, #2a2a2a)) no-repeat;\n  background: -o-linear-gradient(left, #efefef 50%, #2a2a2a 50%) no-repeat;\n  background: linear-gradient(to right, #efefef 50%, #2a2a2a 50%) no-repeat;\n  background-size: 205%;\n  background-position: 0;\n  -webkit-transition: 0.4s;\n  -o-transition: 0.4s;\n  transition: 0.4s;\n  border-radius: 99em;\n  position: relative;\n  cursor: pointer;\n  font-size: var(--toggle-size);\n}\n\n.theme-checkbox::before {\n  content: \"\";\n  width: 2.25em;\n  height: 2.25em;\n  position: absolute;\n  top: 0.438em;\n  left: 0.438em;\n  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #efefef), color-stop(50%, #2a2a2a)) no-repeat;\n  background: -o-linear-gradient(left, #efefef 50%, #2a2a2a 50%) no-repeat;\n  background: linear-gradient(to right, #efefef 50%, #2a2a2a 50%) no-repeat;\n  background-size: 205%;\n  background-position: 100%;\n  border-radius: 50%;\n  -webkit-transition: 0.4s;\n  -o-transition: 0.4s;\n  transition: 0.4s;\n}\n\n.theme-checkbox:checked::before {\n  left: calc(100% - 2.25em - 0.438em);\n  background-position: 0;\n}\n\n.theme-checkbox:checked {\n  background-position: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

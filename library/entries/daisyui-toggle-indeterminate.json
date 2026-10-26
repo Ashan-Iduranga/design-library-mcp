@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-toggle-indeterminate",
+  "title": "Toggle: Indeterminate (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/toggle/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "toggle",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Toggle is a checkbox that is styled to look like a switch button.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/toggle/+page.md",
+  "code": "<!-- You can make a checkbox indeterminate using JS -->\n<script>\n  document.getElementById(\"my-toggle\").indeterminate = true\n</script>\n<input type=\"checkbox\" class=\"toggle\" id=\"my-toggle\" />",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

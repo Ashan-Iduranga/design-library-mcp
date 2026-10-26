@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-muhammadhasann-hungry-cougar-64-20f166",
+  "title": "Button by MuhammadHasann (hungry-cougar-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MuhammadHasann/hungry-cougar-64",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "minimalist"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MuhammadHasann on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/MuhammadHasann_hungry-cougar-64.html",
+  "code": "<button class=\"button\">\n  hover me\n  <span></span><span></span><span></span><span></span>\n</button>\n\n<style>\n/* From Uiverse.io by MuhammadHasann  - Tags: simple, minimalist, button */\n.button {\n  cursor: pointer;\n  --c: #0ea5e9;\n  padding: 12px 28px;\n  margin: 1em;\n  position: relative;\n  min-width: 12em;\n  background: transparent;\n  font-size: 12px;\n  font-weight: bold;\n  color: var(--c);\n  text-align: center;\n  text-transform: uppercase;\n  font-family: sans-serif;\n  letter-spacing: 0.1em;\n  border: 2px solid var(--c);\n  border-radius: 8px;\n  overflow: hidden;\n  z-index: 1;\n  transition: 0.5s;\n}\n\n.button span {\n  position: absolute;\n  width: 25%;\n  height: 100%;\n  background-color: var(--c);\n  transform: translateY(150%);\n  border-radius: 50%;\n  left: calc((var(--n) - 1) * 25%);\n  transition: 0.5s;\n  transition-delay: calc((var(--n) - 1) * 0.1s);\n  z-index: -1;\n}\n\n.button:hover {\n  color: black;\n}\n\n.button:hover span {\n  transform: translateY(0) scale(2);\n}\n\n.button span:nth-child(1) {\n  --n: 1;\n}\n\n.button span:nth-child(2) {\n  --n: 2;\n}\n\n.button span:nth-child(3) {\n  --n: 3;\n}\n\n.button span:nth-child(4) {\n  --n: 4;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

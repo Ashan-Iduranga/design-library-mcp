@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-priyanshugupta28-modern-snail-2-ee1763",
+  "title": "Button by PriyanshuGupta28 (modern-snail-2)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/modern-snail-2",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d-button",
+    "cool-button",
+    "button-hover-effect",
+    "smooth-effect",
+    "smooth-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/PriyanshuGupta28_modern-snail-2.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: button, 3d button, cool button, button hover effect , smooth effect , smooth button */\n.button {\n  display: inline-block;\n  padding: 15px 30px;\n  background: linear-gradient(45deg, #00b5ff, #005eff);\n  color: #fff;\n  font-size: 18px;\n  font-weight: bold;\n  text-transform: uppercase;\n  border: none;\n  border-radius: 10px;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: box-shadow 0.3s, transform 0.3s;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(255, 255, 255, 0.1);\n  transform: translateY(100%) rotateX(90deg);\n  transition: transform 0.3s ease-in-out;\n}\n\n.button:hover::before {\n  transform: translateY(0) rotateX(0);\n}\n\n.button::after {\n  content: \"\";\n  position: absolute;\n  top: -5px;\n  left: -5px;\n  width: calc(100% + 10px);\n  height: calc(100% + 10px);\n  border-radius: 15px;\n  border: 1px solid #00b5ff;\n  z-index: -1;\n}\n\n    /* Hover Effect */\n.button:hover {\n  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);\n  transform: scale(1.05);\n}\n\n    /* Active Effect */\n.button:active {\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n  transform: scale(0.95);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

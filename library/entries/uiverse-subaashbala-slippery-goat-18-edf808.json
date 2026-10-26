@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-subaashbala-slippery-goat-18-edf808",
+  "title": "Button by Subaashbala (slippery-goat-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Subaashbala/slippery-goat-18",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "login",
+    "transition",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Subaashbala on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Subaashbala_slippery-goat-18.html",
+  "code": "<button class=\"button\">\n  <div class=\"bgContainer\">\n    <span>Hover</span>\n    <span>Hover</span>\n  </div>\n  <div class=\"arrowContainer\">\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      fill=\"none\"\n      viewBox=\"0 0 45 38\"\n      height=\"25\"\n      width=\"25\"\n    >\n      <path\n        fill=\"black\"\n        d=\"M43.7678 20.7678C44.7441 19.7915 44.7441 18.2085 43.7678 17.2322L27.8579 1.32233C26.8816 0.34602 25.2986 0.34602 24.3223 1.32233C23.346 2.29864 23.346 3.88155 24.3223 4.85786L38.4645 19L24.3223 33.1421C23.346 34.1184 23.346 35.7014 24.3223 36.6777C25.2986 37.654 26.8816 37.654 27.8579 36.6777L43.7678 20.7678ZM0 21.5L42 21.5V16.5L0 16.5L0 21.5Z\"\n      ></path>\n    </svg>\n  </div>\n</button>\n\n<style>\n/* From Uiverse.io by Subaashbala  - Tags: login, button, transition, hover button */\nbutton {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  padding: 1em 0em 1em 1em;\n  background-color: yellow;\n  box-shadow: 4px 6px 0px black;\n  border: 4px solid;\n  border-radius: 15px;\n  position: relative;\n  overflow: hidden;\n  z-index: 100;\n  transition: box-shadow 250ms, transform 250ms, filter 50ms;\n}\nbutton:hover {\n  transform: translate(2px, 2px);\n  box-shadow: 2px 3px 0px black;\n}\nbutton:active {\n  filter: saturate(0.75);\n}\nbutton::after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background-color: pink;\n  z-index: -1;\n  transform: translateX(-100%);\n  transition: transform 250ms;\n}\nbutton:hover::after {\n  transform: translateX(0);\n}\n.bgContainer {\n  position: relative;\n  display: flex;\n  justify-content: start;\n  align-items: center;\n  overflow: hidden;\n  max-width: 35%; /* adjust this if the button text is not proper */\n  font-size: 2em;\n  font-weight: 600;\n}\n.bgContainer span {\n  position: relative;\n  transform: translateX(-100%);\n  transition: all 250ms;\n}\n.button:hover .bgContainer > span {\n  transform: translateX(0);\n}\n.arrowContainer {\n  padding: 1em;\n  margin-inline-end: 1em;\n  border: 4px solid;\n  border-radius: 50%;\n  background-color: pink;\n  position: relative;\n  overflow: hidden;\n  transition: transform 250ms, background-color 250ms;\n  z-index: 100;\n}\n.arrowContainer::after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  border-radius: inherit;\n  background-color: yellow;\n  transform: translateX(-100%);\n  z-index: -1;\n  transition: transform 250ms ease-in-out;\n}\nbutton:hover .arrowContainer::after {\n  transform: translateX(0);\n}\nbutton:hover .arrowContainer {\n  transform: translateX(5px);\n}\nbutton:active .arrowContainer {\n  transform: translateX(8px);\n}\n.arrowContainer svg {\n  vertical-align: middle;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

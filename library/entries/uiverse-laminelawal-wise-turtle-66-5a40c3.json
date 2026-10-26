@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-laminelawal-wise-turtle-66-5a40c3",
+  "title": "Button by laminelawal (wise-turtle-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/laminelawal/wise-turtle-66",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "alert",
+    "2d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By laminelawal on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/laminelawal_wise-turtle-66.html",
+  "code": "<div class=\"frame\">\n  <div class=\"center\">\n\t\t<button>Hover me</button>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by laminelawal - Tags: alert, button, 2d button */\n.frame {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 400px;\n  height: 400px;\n  margin-top: -200px;\n  margin-left: -200px;\n  border-radius: 2px;\n  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);\n  overflow: hidden;\n  background: #fff;\n  color: #333;\n  font-family: 'Open Sans', Helvetica, sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\n.center {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n}\n\nbutton {\n  padding: 15px 15px;\n  border: none;\n  width: 170px;\n  height: 55px;\n  box-shadow: 15px 15px darkblue;\n  cursor: pointer;\n  transition: 0.5s ease;\n  background: lightgray;\n  font-size: 18px;\n  font-weight: bolder;\n  text-transform: uppercase;\n}\n\nbutton:hover {\n  box-shadow: -15px -15px lightgray;\n  transform: translate(15px, 15px);\n  background: darkblue;\n  color: white;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

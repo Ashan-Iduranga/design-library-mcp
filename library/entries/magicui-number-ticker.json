@@ -1,0 +1,34 @@
+{
+  "id": "magicui-number-ticker",
+  "title": "Number Ticker (Magic UI)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/number-ticker",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "number",
+    "ticker",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Animate numbers to count up or down to a target number\n\nInstall into a project: npx shadcn@latest add @magicui/number-ticker\n\nnpm dependencies: motion\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/magicui/number-ticker.tsx",
+  "code": "\"use client\"\n\nimport { useEffect, useRef, type ComponentPropsWithoutRef } from \"react\"\nimport { useInView, useMotionValue, useSpring } from \"motion/react\"\n\nimport { cn } from \"@/lib/utils\"\n\ninterface NumberTickerProps extends ComponentPropsWithoutRef<\"span\"> {\n  value: number\n  startValue?: number\n  direction?: \"up\" | \"down\"\n  delay?: number\n  decimalPlaces?: number\n}\n\nexport function NumberTicker({\n  value,\n  startValue = 0,\n  direction = \"up\",\n  delay = 0,\n  className,\n  decimalPlaces = 0,\n  ...props\n}: NumberTickerProps) {\n  const ref = useRef<HTMLSpanElement>(null)\n  const motionValue = useMotionValue(direction === \"down\" ? value : startValue)\n  const springValue = useSpring(motionValue, {\n    damping: 60,\n    stiffness: 100,\n  })\n  const isInView = useInView(ref, { once: true, margin: \"0px\" })\n\n  useEffect(() => {\n    let timer: ReturnType<typeof setTimeout> | null = null\n\n    if (isInView) {\n      timer = setTimeout(() => {\n        motionValue.set(direction === \"down\" ? startValue : value)\n      }, delay * 1000)\n    }\n\n    return () => {\n      if (timer !== null) {\n        clearTimeout(timer)\n      }\n    }\n  }, [motionValue, isInView, delay, value, direction, startValue])\n\n  useEffect(\n    () =>\n      springValue.on(\"change\", (latest) => {\n        if (ref.current) {\n          ref.current.textContent = Intl.NumberFormat(\"en-US\", {\n            minimumFractionDigits: decimalPlaces,\n            maximumFractionDigits: decimalPlaces,\n          }).format(Number(latest.toFixed(decimalPlaces)))\n        }\n      }),\n    [springValue, decimalPlaces]\n  )\n\n  return (\n    <span\n      ref={ref}\n      className={cn(\n        \"inline-block tracking-wider text-black tabular-nums dark:text-white\",\n        className\n      )}\n      {...props}\n    >\n      {startValue}\n    </span>\n  )\n}\n",
+  "prompt": "npx shadcn@latest add @magicui/number-ticker",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

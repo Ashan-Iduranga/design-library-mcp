@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-progress-with-label-outside",
+  "title": "Progress Bar: With label outside (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/progress/#with-label-outside",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "progres",
+    "progress",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "And this is an example of using a progress bar outside the bar.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/progress.md",
+  "code": "<div class=\"flex justify-between mb-1\">\n  <span class=\"text-sm font-medium text-body\">Flowbite</span>\n  <span class=\"text-sm font-medium text-body\">45%</span>\n</div>\n<div class=\"w-full bg-neutral-quaternary rounded-full h-2\">\n  <div class=\"bg-brand h-2 rounded-full\" style=\"width: 45%\"></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

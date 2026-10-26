@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-jkhuger-selfish-mule-85-3c6029",
+  "title": "Toggle by JkHuger (selfish-mule-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/selfish-mule-85",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/JkHuger_selfish-mule-85.html",
+  "code": "<input value=\"is_hot\" name=\"temperature\" type=\"checkbox\" class=\"ch\">\n\n<style>\n/* From Uiverse.io by JkHuger - Tags: switch */\n.ch, .ch:before, .ch:after {\n  transition: all 0.3s ease-in-out;\n}\n\n.ch {\n  background-color: rgb(27,123,145);\n  border-radius: 0.2em;\n  box-shadow: 0 0.05em 0 0.05em rgba(0,0,0,0.3) inset;\n  font-size: 20px;\n  overflow: hidden;\n  position: relative;\n  width: 3em;\n  height: 1.5em;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  z-index: 0;\n}\n\n.ch:before, .ch:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n}\n\n.ch:before {\n  background-color: currentColor;\n  border-radius: 0.125em;\n  box-shadow: 0 0 0 0.05em inset,\n\t\t-0.12em -0.12em 0 rgb(109,148,184) inset,\n\t\t-0.4em -0.3em 0 0.05em inset,\n\t\t0.12em 0.12em 0 rgb(255,255,255) inset;\n  color: rgb(149,188,224);\n  opacity: 0.9;\n  bottom: 0;\n  left: 0.125em;\n  width: 1.25em;\n  height: 1.25em;\n  z-index: 2;\n}\n\n.ch:after {\n  background-image: /* white */radial-gradient(0.2em 0.5em at 38% 95%, rgb(255,255,255) 49%, rgba(255,255,255,0) 50%),\n\t\tradial-gradient(0.3em 0.8em at 52% 95%, rgb(255,255,255) 49%, rgba(255,255,255,0) 50%),\n\t\tradial-gradient(0.25em 0.4em at 67% 95%, rgb(255,255,255) 49%, rgba(255,255,255,0) 50%),\n\t\t/* yellow */\n\t\tradial-gradient(0.25em 0.7em at 36% 95%, rgb(255,224,0) 49%, rgba(255,224,0,0) 50%),\n\t\tradial-gradient(0.4em 1.2em at 52% 95%, rgb(255,224,0) 49%, rgba(255,224,0,0) 50%),\n\t\tradial-gradient(0.25em 0.6em at 70% 93%, rgb(255,224,0) 49%, rgba(255,224,0,0) 50%),\n\t\t/* orange */\n\t\tradial-gradient(0.3em 0.8em at 32% 81%, rgb(255,144,0) 49%, rgba(255,144,0,0) 50%),\n\t\tradial-gradient(0.5em 1.6em at 52% 95%, rgb(255,144,0) 49%, rgba(255,144,0,0) 50%),\n\t\tradial-gradient(0.3em 0.9em at 74% 86%, rgb(255,144,0) 49%, rgba(255,144,0,0) 50%),\n\t\t/* red-orange */\n\t\tradial-gradient(0.4em 1em at 25% 70%, rgb(255,76,0) 49%, rgba(255,76,0,0) 50%),\n\t\tradial-gradient(0.7em 2.75em at 52% 100%, rgb(255,76,0) 49%, rgba(255,76,0,0) 50%),\n\t\tradial-gradient(0.4em 1.2em at 79% 75%, rgb(255,76,0) 49%, rgba(255,76,0,0) 50%);\n  background-position: 100% 1.5em;\n  background-size: 1.5em 1.5em;\n  background-repeat: no-repeat;\n  border-radius: 0 0 0 0.1em / 0 0 0 0;\n  box-shadow: 0 0 0 0 rgb(169,208,244) inset;\n  bottom: 0;\n  left: 0;\n  width: 1.5em;\n  height: 1.5em;\n  z-index: 1;\n}\n/* Checked */\n.ch:checked {\n  background-color: rgb(92,8,8);\n}\n\n.ch:checked:before {\n  border-radius: 50%;\n  transform: translate(1.5em,1.5em) rotate(45deg) scale(0.5);\n}\n\n.ch:checked:after {\n  background-position: 100% 0;\n  box-shadow: 0 -0.15em 0 0 rgb(169,208,244) inset;\n  width: 3em;\n}\n\n/* Other States */\n.ch:focus {\n\t/* Usually an anti-A11Y practice but set to remove an annoyance just for this demo */\n  outline: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

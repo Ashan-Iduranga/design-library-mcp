@@ -1,0 +1,34 @@
+{
+  "id": "magicui-shine-border",
+  "title": "Shine Border (Magic UI)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/shine-border",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "shine",
+    "border",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Shine border is an animated background border effect.\n\nInstall into a project: npx shadcn@latest add @magicui/shine-border\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/magicui/shine-border.tsx",
+  "code": "\"use client\"\n\nimport * as React from \"react\"\n\nimport { cn } from \"@/lib/utils\"\n\ninterface ShineBorderProps extends React.HTMLAttributes<HTMLDivElement> {\n  /**\n   * Width of the border in pixels\n   * @default 1\n   */\n  borderWidth?: number\n  /**\n   * Duration of the animation in seconds\n   * @default 14\n   */\n  duration?: number\n  /**\n   * Color of the border, can be a single color or an array of colors\n   * @default \"#000000\"\n   */\n  shineColor?: string | string[]\n}\n\n/**\n * Shine Border\n *\n * An animated background border effect component with configurable properties.\n */\nexport function ShineBorder({\n  borderWidth = 1,\n  duration = 14,\n  shineColor = \"#000000\",\n  className,\n  style,\n  ...props\n}: ShineBorderProps) {\n  return (\n    <div\n      style={\n        {\n          \"--border-width\": `${borderWidth}px`,\n          \"--duration\": `${duration}s`,\n          backgroundImage: `radial-gradient(transparent,transparent, ${\n            Array.isArray(shineColor) ? shineColor.join(\",\") : shineColor\n          },transparent,transparent)`,\n          backgroundSize: \"300% 300%\",\n          mask: `linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)`,\n          WebkitMask: `linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)`,\n          WebkitMaskComposite: \"xor\",\n          maskComposite: \"exclude\",\n          padding: \"var(--border-width)\",\n          ...style,\n        } as React.CSSProperties\n      }\n      className={cn(\n        \"motion-safe:animate-shine pointer-events-none absolute inset-0 size-full rounded-[inherit] will-change-[background-position]\",\n        className\n      )}\n      {...props}\n    />\n  )\n}\n",
+  "prompt": "npx shadcn@latest add @magicui/shine-border",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

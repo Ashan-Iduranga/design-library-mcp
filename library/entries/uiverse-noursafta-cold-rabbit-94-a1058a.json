@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-noursafta-cold-rabbit-94-a1058a",
+  "title": "Loader by NourSafta (cold-rabbit-94)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/NourSafta/cold-rabbit-94",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "circle-loader",
+    "cool-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By NourSafta on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/NourSafta_cold-rabbit-94.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by NourSafta - Tags: circle loader, cool loader */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  top: 0;\n  left: 0;\n  width: 100px;\n  height: 100px;\n}\n\n.loader::after {\n  content: \"\";\n  width: 75px;\n  height: 75px;\n  border: 15px solid #dddddd;\n  border-top-color: #46C380;\n  border-radius: 50%;\n  animation: loading 0.75s ease-out infinite;\n}\n\n@keyframes loading {\n  from {\n    transform: rotate(0turn);\n  }\n\n  to {\n    transform: rotate(1turn);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

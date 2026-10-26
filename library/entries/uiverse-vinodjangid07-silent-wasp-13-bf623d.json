@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-vinodjangid07-silent-wasp-13-bf623d",
+  "title": "Card by vinodjangid07 (silent-wasp-13)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/silent-wasp-13",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "cookies",
+    "accept",
+    "cookie-card",
+    "policy"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/vinodjangid07_silent-wasp-13.html",
+  "code": "<div class=\"cookies-card\">\n  <p class=\"cookie-heading\">Cookie Policy</p>\n  <p class=\"cookie-para\">\n    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi\n  </p>\n  <div class=\"button-wrapper\">\n    <button class=\"accept cookie-button\">Accept</button>\n    <button class=\"reject cookie-button\">Reject</button>\n  </div>\n  <button class=\"exit-button\">\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      fill=\"none\"\n      viewBox=\"0 0 162 162\"\n      class=\"svgIconCross\"\n    >\n      <path\n        stroke-linecap=\"round\"\n        stroke-width=\"17\"\n        stroke=\"black\"\n        d=\"M9.01074 8.98926L153.021 153\"\n      ></path>\n      <path\n        stroke-linecap=\"round\"\n        stroke-width=\"17\"\n        stroke=\"black\"\n        d=\"M9.01074 153L153.021 8.98926\"\n      ></path>\n    </svg>\n  </button>\n</div>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: simple, card, cookies, accept, cookie card, policy */\n.cookies-card {\n  width: 280px;\n  height: fit-content;\n  background-color: rgb(255, 250, 250);\n  border-radius: 10px;\n  border: 1px solid rgb(206, 206, 206);\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: space-between;\n  padding: 20px;\n  gap: 15px;\n  position: relative;\n  font-family: Arial, Helvetica, sans-serif;\n  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.066);\n}\n\n.cookie-heading {\n  color: rgb(34, 34, 34);\n  font-weight: 800;\n}\n.cookie-para {\n  font-size: 11px;\n  font-weight: 400;\n  color: rgb(51, 51, 51);\n}\n.button-wrapper {\n  width: 100%;\n  height: auto;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 20px;\n}\n.cookie-button {\n  width: 50%;\n  padding: 8px 0;\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;\n}\n.accept {\n  background-color: rgb(34, 34, 34);\n  color: white;\n}\n.reject {\n  background-color: #ececec;\n  color: rgb(34, 34, 34);\n}\n.accept:hover {\n  background-color: rgb(0, 0, 0);\n}\n.reject:hover {\n  background-color: #ddd;\n}\n.exit-button {\n  position: absolute;\n  top: 17px;\n  right: 17px;\n  width: 20px;\n  height: 20px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: transparent;\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;\n}\n.exit-button:hover {\n  background-color: #ddd;\n  color: white;\n}\n.svgIconCross {\n  height: 10px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

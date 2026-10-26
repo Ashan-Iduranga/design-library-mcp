@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-eduardo-amaro-maciel-slimy-stingray-64-cdbf22",
+  "title": "Button by eduardo-amaro-maciel (slimy-stingray-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/eduardo-amaro-maciel/slimy-stingray-64",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "blue",
+    "minimalist",
+    "hover",
+    "border",
+    "hover-effect",
+    "css-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By eduardo-amaro-maciel on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/eduardo-amaro-maciel_slimy-stingray-64.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by eduardo-amaro-maciel - Tags: blue, minimalist, button, hover, border, hover effect, css effect */\n.button {\n  width: 150px;\n  height: 50px;\n  border-radius: 50px;\n  background-color: transparent;\n  border: 2px solid #000814;\n  overflow: hidden;\n  position: relative;\n  font-size: 16px;\n  font-weight: 500;\n  text-transform: uppercase;\n  transition: 300ms ease;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  width: 150px;\n  height: 150px;\n  border-radius: 50%;\n  background-color: #003566;\n  top: 100%;\n  left: 0;\n  transition: 500ms ease;\n}\n\n.button:hover {\n  color: #fff;\n  letter-spacing: 3px;\n}\n\n.button:hover::before {\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

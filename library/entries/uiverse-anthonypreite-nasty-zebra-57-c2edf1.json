@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-anthonypreite-nasty-zebra-57-c2edf1",
+  "title": "Checkbox by AnthonyPreite (nasty-zebra-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AnthonyPreite/nasty-zebra-57",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "red",
+    "green",
+    "minimalist"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AnthonyPreite on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/AnthonyPreite_nasty-zebra-57.html",
+  "code": "<div><input type=\"checkbox\" id=\"ni\">\n<label for=\"ni\" class=\"ni\"></label></div>\n\n\n<style>\n/* From Uiverse.io by AnthonyPreite - Tags: red, green, minimalist, checkbox */\n/* ni means name input*/\n\n.ni {\n  font-size: 16px;\n  font-weight: 600;\n  text-decoration: none;\n  transition: all 0.3s ease;\n  padding: 8px 20px;\n  border-radius: .8rem;\n  min-width: 124px;\n  text-align: center;\n  background: rgba(78, 190, 150, 0.1);\n  border: 0.5px solid rgba(22, 179, 124, 0.2);\n  cursor: pointer;\n}\n\n.ni:before {\n  content: \"Check\";\n  color: #4EBE96;\n}\n\n.ni:active {\n  transform: scale(0.94);\n}\n\n#ni {\n  position: fixed;\n  opacity: 0;\n  visibility: hidden;\n}\n\n#ni:checked + .ni {\n  background: rgba(216, 79, 104, 0.1);\n  border-color: rgba(216, 79, 104, 0.2);\n}\n\n#ni:checked + .ni:before {\n  content: \"Uncheck\";\n  color: #D84F68;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

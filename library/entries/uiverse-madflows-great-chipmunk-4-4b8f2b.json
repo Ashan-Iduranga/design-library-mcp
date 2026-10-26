@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-madflows-great-chipmunk-4-4b8f2b",
+  "title": "Card by Madflows (great-chipmunk-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Madflows/great-chipmunk-4",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Madflows on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Madflows_great-chipmunk-4.html",
+  "code": "<div class=\"card\">\n<header class=\"card-header\">\n  <p>May 3rd 2023</p>\n  <span class=\"title\">A Tale of Two Divs</span>\n</header>\n<div class=\"card-author\">\n  <a class=\"author-avatar\" href=\"#\">\n    <span>\n  </span></a>\n  <svg class=\"half-circle\" viewBox=\"0 0 106 57\">\n    <path d=\"M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4\"></path>\n  </svg>\n  <div class=\"author-name\">\n    <div class=\"author-name-prefix\">Author</div> Folarin Lawal\n    </div>\n  </div>\n  <div class=\"tags\">\n    <a href=\"#\">html</a>\n    <a href=\"#\">css</a>\n    <a href=\"#\">web-dev</a>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Madflows - Tags: card */\n.card {\n  display: flex;\n  position: relative;\n  flex-direction: column;\n  height: 350px;\n  width: 190px;\n  min-width: 250px;\n  padding: 1rem;\n  border-radius: 16px;\n  background: #17141d;\n  box-shadow: -1rem 0 3rem #00000067;\n  transition: .2s;\n  font-family: 'Inter', sans-serif;\n}\n\n.card:hover {\n  transform: translateY(-0.4rem);\n}\n\n.card-author {\n  position: relative;\n  display: grid;\n  grid-template-columns: 75px 1fr;\n  align-items: center;\n  margin: 3rem 0 0;\n}\n\n.author-name {\n  color: #7a7a8c;\n}\n\n.author-name-prefix {\n  color: #e52e71;\n  font-weight: 600;\n}\n\n.author-avatar span {\n  display: block;\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  background: #f2f2f2;\n  margin: 16px 10px;\n}\n\n.half-circle {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 60px;\n  height: 48px;\n  fill: none;\n  stroke: #ff8a00;\n  stroke-width: 8;\n  stroke-linecap: round;\n}\n\n.card-header {\n  margin-bottom: auto;\n  color: #7a7a8c;\n}\n\n.card-header p {\n  font-size: 14px;\n  margin: 0 0 1rem;\n  color: #7a7a8c;\n}\n\n.card-header .title {\n  font-size: 25px;\n  margin: .25rem 0 auto;\n  cursor: pointer;\n  font-family: 'Arial Black', sans-serif;\n}\n\n.card-header .title:hover {\n  background: linear-gradient(90deg,#ff8a00,#e52e71);\n  text-shadow: none;\n  background-clip: text;\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n}\n\n.tags {\n  margin: 1rem 0 2rem;\n  padding: .5rem 0 1rem;\n  line-height: 2;\n  margin-bottom: 0;\n}\n\n.tags a {\n  font-style: normal;\n  font-weight: 700;\n  color: #7a7a8c;\n  text-transform: uppercase;\n  font-size: .66rem;\n  border: 3px solid #28242f;\n  border-radius: 2rem;\n  padding: .2rem .85rem .25rem;\n  position: relative;\n}\n\n.tags a:hover {\n  background: linear-gradient(90deg,#ff8a00,#e52e71);\n  text-shadow: none;\n  -webkit-text-fill-color: transparent;\n  -webkit-background-clip: text;\n  -webkit-box-decoration-break: clone;\n  box-decoration-break: clone;\n  background-clip: text;\n  border-color: white;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

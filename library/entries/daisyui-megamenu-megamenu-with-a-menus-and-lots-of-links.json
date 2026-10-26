@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-megamenu-megamenu-with-a-menus-and-lots-of-links",
+  "title": "Megamenu: Megamenu with a menus and lots of links (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/megamenu/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "megamenu",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A megamenu is a large, horizontal menu where each item opens a popover to show a large block of navigation links. Megamenu must be used once, on top of the page. Inside each popover, you can use a daisyUI menu, or any custom content. Megamenu fits better on large screens only, and for small screens, you can hide the megamenu and show the content in a dropdown or a drawer.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/megamenu/+page.md",
+  "code": "<button class=\"btn sm:hidden\" popovertarget=\"my-megamenu-3\">Menu</button>\n<div class=\"megamenu max-sm:megamenu-vertical megamenu-wide p-2 border border-base-300\" id=\"my-megamenu-3\" popover>\n  <span class=\"megamenu-active\"></span>\n\n  <button popovertarget=\"c1\">One</button>\n  <div id=\"c1\" popover>\n    <div class=\"flex max-sm:flex-col items-start\">\n      <ul class=\"menu w-full md:menu-horizontal\">\n        <li>\n          <a>Enterprise</a>\n          <ul>\n            <li><a>CRM software</a></li>\n            <li><a>Marketing management</a></li>\n            <li><a>Security</a></li>\n            <li><a>Consulting</a></li>\n          </ul>\n        </li>\n        <li>\n          <a>Company</a>\n          <ul>\n            <li><a>About us</a></li>\n            <li><a>Contact us</a></li>\n            <li><a>Privacy policy</a></li>\n            <li><a>Press kit</a></li>\n          </ul>\n        </li>\n      </ul>\n      <img src=\"https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp\" class=\"md:max-w-sm max-md:w-auto\" alt=\"Tailwind CSS megamenu\" />\n    </div>\n  </div>\n\n  <button popovertarget=\"c2\">Two</button>\n  <div id=\"c2\" popover>\n    <div class=\"flex max-sm:flex-col items-start\">\n      <ul class=\"menu w-full md:menu-horizontal\">\n        <li>\n          <a>Enterprise</a>\n          <ul>\n            <li><a>CRM software</a></li>\n            <li><a>Marketing management</a></li>\n            <li><a>Security</a></li>\n            <li><a>Consulting</a></li>\n            <li><a>Privacy policy</a></li>\n            <li><a>Press kit</a></li>\n          </ul>\n        </li>\n        <li>\n          <a>Products</a>\n          <ul>\n            <li><a>UI Kit</a></li>\n            <li><a>WordPress themes</a></li>\n            <li><a>WordPress plugins</a></li>\n            <li><a>Color picker app</a></li>\n            <li><a>About us</a></li>\n            <li><a>Contact us</a></li>\n          </ul>\n        </li>\n      </ul>\n      <img src=\"https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp\" class=\"md:max-w-sm max-md:w-auto\" alt=\"Tailwind CSS megamenu component\" />\n    </div>\n  </div>\n\n  <button popovertarget=\"c3\">Three</button>\n  <div id=\"c3\" popover>\n    <div class=\"flex max-sm:flex-col items-start\">\n      <ul class=\"menu w-full md:menu-horizontal\">\n        <li>\n          <ul>\n            <li class=\"menu-title\">Solutions</li>\n            <li><a>Design</a></li>\n            <li><a>Development</a></li>\n            <li><a>Hosting</a></li>\n            <li><a>Domain register</a></li>\n          </ul>\n        </li>\n        <li>\n          <ul>\n            <li class=\"menu-title\">Products</li>\n            <li><a>UI Kit</a></li>\n            <li><a>Cloud Platform</a></li>\n            <li><a>Open source</a></li>\n            <li>\n              <ul>\n                <li><a>Auth management system</a></li>\n                <li><a>VScode theme</a></li>\n                <li><a>Color picker app</a></li>\n              </ul>\n            </li>\n          </ul>\n        </li>\n        <li>\n          <ul>\n            <li class=\"menu-title\">Enterprise</li>\n            <li><a>CRM software</a></li>\n            <li><a>Marketing management</a></li>\n            <li><a>Security</a></li>\n            <li><a>Consulting</a></li>\n          </ul>\n        </li>\n        <li>\n          <ul>\n            <li class=\"menu-title\">Company</li>\n            <li><a>About us</a></li>\n            <li><a>Contact us</a></li>\n            <li><a>Privacy policy</a></li>\n            <li><a>Press kit</a></li>\n          </ul>\n        </li>\n      </ul>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

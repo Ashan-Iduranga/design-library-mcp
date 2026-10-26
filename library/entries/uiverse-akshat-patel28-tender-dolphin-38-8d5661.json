@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-akshat-patel28-tender-dolphin-38-8d5661",
+  "title": "Input by akshat-patel28 (tender-dolphin-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/akshat-patel28/tender-dolphin-38",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "neon",
+    "fillup",
+    "box-shadow",
+    "file-upload"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By akshat-patel28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/akshat-patel28_tender-dolphin-38.html",
+  "code": "<div class=\"input-div\">\n  <input class=\"input\" name=\"file\" type=\"file\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" height=\"1em\" stroke-linejoin=\"round\" stroke-linecap=\"round\" viewBox=\"0 0 24 24\" stroke-width=\"2\" fill=\"none\" stroke=\"currentColor\" class=\"icon\"><polyline points=\"16 16 12 12 8 16\"></polyline><line y2=\"21\" x2=\"12\" y1=\"12\" x1=\"12\"></line><path d=\"M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3\"></path><polyline points=\"16 16 12 12 8 16\"></polyline></svg>\n</div>\n<style>\n/* From Uiverse.io by akshat-patel28 - Tags: input, neon, fillup, box-shadow, file upload */\n.input-div {\n  position: relative;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  border: 2px solid rgb(1, 235, 252);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  overflow: hidden;\n  box-shadow: 0px 0px 100px rgb(1, 235, 252) , inset 0px 0px 10px rgb(1, 235, 252),0px 0px 5px rgb(255, 255, 255);\n  animation: flicker 2s linear infinite;\n}\n\n.icon {\n  color: rgb(1, 235, 252);\n  font-size: 2rem;\n  cursor: pointer;\n  animation: iconflicker 2s linear infinite;\n}\n\n.input {\n  position: absolute;\n  opacity: 0;\n  width: 100%;\n  height: 100%;\n  cursor: pointer !important;\n}\n\n@keyframes flicker {\n  0% {\n    border: 2px solid rgb(1, 235, 252);\n    box-shadow: 0px 0px 100px rgb(1, 235, 252) , inset 0px 0px 10px rgb(1, 235, 252),0px 0px 5px rgb(255, 255, 255);\n  }\n\n  5% {\n    border: none;\n    box-shadow: none;\n  }\n\n  10% {\n    border: 2px solid rgb(1, 235, 252);\n    box-shadow: 0px 0px 100px rgb(1, 235, 252) , inset 0px 0px 10px rgb(1, 235, 252),0px 0px 5px rgb(255, 255, 255);\n  }\n\n  25% {\n    border: none;\n    box-shadow: none;\n  }\n\n  30% {\n    border: 2px solid rgb(1, 235, 252);\n    box-shadow: 0px 0px 100px rgb(1, 235, 252) , inset 0px 0px 10px rgb(1, 235, 252),0px 0px 5px rgb(255, 255, 255);\n  }\n\n  100% {\n    border: 2px solid rgb(1, 235, 252);\n    box-shadow: 0px 0px 100px rgb(1, 235, 252) , inset 0px 0px 10px rgb(1, 235, 252),0px 0px 5px rgb(255, 255, 255);\n  }\n}\n\n@keyframes iconflicker {\n  0% {\n    opacity: 1;\n  }\n\n  5% {\n    opacity: 0.2;\n  }\n\n  10% {\n    opacity: 1;\n  }\n\n  25% {\n    opacity: 0.2;\n  }\n\n  30% {\n    opacity: 1;\n  }\n\n  100% {\n    opacity: 1;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

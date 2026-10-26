@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-indicators-stepper-indicator",
+  "title": "Indicators: Stepper indicator (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/indicators/#stepper-indicator",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "indicator",
+    "indicators",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "You can also use the indicators inside of a stepper component when completing a form element.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/indicators.md",
+  "code": "<ol class=\"flex items-center\">\n    <li class=\"relative w-full mb-6\">\n        <div class=\"flex items-center\">\n            <div class=\"z-10 flex items-center justify-center w-6 h-6 bg-brand rounded-full ring-0 ring-buffer sm:ring-8 shrink-0\">\n                <svg class=\"w-4 h-4 text-white\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 11.917 9.724 16.5 19 7.5\"/></svg>\n            </div>\n            <div class=\"flex w-full bg-base h-0.5\"></div>\n        </div>\n        <div class=\"mt-3\">\n            <h3 class=\"font-medium text-heading\">Step 1</h3>\n        </div>\n    </li>\n    <li class=\"relative w-full mb-6\">\n        <div class=\"flex items-center\">\n            <div class=\"z-10 flex items-center justify-center w-6 h-6 bg-brand rounded-full ring-0 ring-buffer sm:ring-8 shrink-0\">\n                <svg class=\"w-4 h-4 text-white\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 11.917 9.724 16.5 19 7.5\"/></svg>\n            </div>\n            <div class=\"flex w-full bg-base h-0.5\"></div>\n        </div>\n        <div class=\"mt-3\">\n            <h3 class=\"font-medium text-heading\">Step 2</h3>\n        </div>\n    </li>\n    <li class=\"relative w-full mb-6\">\n        <div class=\"flex items-center\">\n            <div class=\"z-10 flex items-center justify-center w-6 h-6 bg-brand rounded-full ring-0 ring-buffer sm:ring-8 shrink-0\">\n                <svg class=\"w-4 h-4 text-white\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 11.917 9.724 16.5 19 7.5\"/></svg>\n            </div>\n            <div class=\"flex w-full bg-base h-0.5\"></div>\n        </div>\n        <div class=\"mt-3\">\n            <h3 class=\"font-medium text-heading\">Step 2</h3>\n        </div>\n    </li>\n    <li class=\"relative w-full mb-6\">\n        <div class=\"flex items-center\">\n            <div class=\"z-10 flex items-center justify-center w-6 h-6 bg-neutral-tertiary rounded-full ring-0 ring-buffer sm:ring-8 shrink-0\">\n                <svg class=\"w-4 h-4 text-heading\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 11.917 9.724 16.5 19 7.5\"/></svg>\n            </div>\n        </div>\n        <div class=\"mt-3\">\n            <h3 class=\"font-medium text-heading\">Step 3</h3>\n        </div>\n    </li>\n</ol>\n<ol class=\"flex items-center\">\n    <li class=\"relative w-full mb-6\">\n        <div class=\"flex items-center\">\n            <div class=\"z-10 flex items-center justify-center w-6 h-6 bg-brand-subtle rounded-full ring-0 ring-buffer sm:ring-8 shrink-0\">\n                <span class=\"flex w-3 h-3 bg-brand rounded-full\"></span>\n            </div>\n            <div class=\"flex w-full bg-base h-0.5\"></div>\n        </div>\n        <div class=\"mt-3\">\n            <h3 class=\"font-medium text-heading\">Step 1</h3>\n        </div>\n    </li>\n    <li class=\"relative w-full mb-6\">\n        <div class=\"flex items-center\">\n            <div class=\"z-10 flex items-center justify-center w-6 h-6 bg-brand-subtle rounded-full ring-0 ring-buffer sm:ring-8 shrink-0\">\n                <span class=\"flex w-3 h-3 bg-brand rounded-full\"></span>\n            </div>\n            <div class=\"flex w-full bg-base h-0.5\"></div>\n        </div>\n        <div class=\"mt-3\">\n            <h3 class=\"font-medium text-heading\">Step 2</h3>\n        </div>\n    </li>\n    <li class=\"relative w-full mb-6\">\n        <div class=\"flex items-center\">\n            <div class=\"z-10 flex items-center justify-center w-6 h-6 bg-brand-subtle rounded-full ring-0 ring-buffer sm:ring-8 shrink-0\">\n                <span class=\"flex w-3 h-3 bg-brand rounded-full\"></span>\n            </div>\n            <div class=\"flex w-full bg-base h-0.5\"></div>\n        </div>\n        <div class=\"mt-3\">\n            <h3 class=\"font-medium text-heading\">Step 2</h3>\n        </div>\n    </li>\n    <li class=\"relative w-full mb-6\">\n        <div class=\"flex items-center\">\n            <div class=\"z-10 flex items-center justify-center w-6 h-6 bg-neutral-tertiary rounded-full ring-0 ring-buffer sm:ring-8 shrink-0\">\n                <span class=\"flex w-3 h-3 bg-heading rounded-full\"></span>\n            </div>\n        </div>\n        <div class=\"mt-3\">\n            <h3 class=\"font-medium text-heading\">Step 3</h3>\n        </div>\n    </li>\n</ol>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

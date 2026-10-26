@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-youngjid-gentle-dragonfly-99-540e1a",
+  "title": "Loader by youngjid (gentle-dragonfly-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/youngjid/gentle-dragonfly-99",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "dark",
+    "glitch",
+    "text-animation",
+    "css-effect",
+    "glitch-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By youngjid on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/youngjid_gentle-dragonfly-99.html",
+  "code": "<div class=\"glitch\" data-text=\"Loading ...\">Loading ...</div>\n\n<style>\n/* From Uiverse.io by youngjid  - Tags: loader, dark, glitch, text animation, css effect, glitch Effect */\n.glitch {\n  position: relative;\n  font-size: 60px;\n  font-weight: bold;\n  color: #ffffff;\n  letter-spacing: 3px;\n  z-index: 1;\n}\n\n.glitch:before,\n.glitch:after {\n  display: block;\n  content: attr(data-text);\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 0.8;\n}\n\n.glitch:before {\n  animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;\n  color: #00ffff;\n  z-index: -1;\n}\n\n.glitch:after {\n  animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both\n    infinite;\n  color: #ff00ff;\n  z-index: -2;\n}\n\n@keyframes glitch-it {\n  0% {\n    transform: translate(0);\n  }\n  20% {\n    transform: translate(-2px, 2px);\n  }\n  40% {\n    transform: translate(-2px, -2px);\n  }\n  60% {\n    transform: translate(2px, 2px);\n  }\n  80% {\n    transform: translate(2px, -2px);\n  }\n  to {\n    transform: translate(0);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

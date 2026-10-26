@@ -1,0 +1,35 @@
+{
+  "id": "hyperui-neobrutalism-badges-1-dark",
+  "title": "Badges: Base (neobrutalism) (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/neobrutalism/badges",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "neobrutalism",
+    "badges",
+    "hyperui",
+    "alert",
+    "status",
+    "tag",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/neobrutalism/badges/1-dark.html",
+  "code": "<div class=\"flex flex-wrap justify-center gap-4 p-6\">\n<span class=\"border-2 border-black bg-blue-100 px-3 py-1.5 text-sm/none font-semibold text-black shadow-[2px_2px_0_0] shadow-black dark:border-white dark:bg-blue-800 dark:text-white dark:shadow-white\">\n      Info\n    </span>\n<span class=\"border-2 border-black bg-green-100 px-3 py-1.5 text-sm/none font-semibold text-black shadow-[2px_2px_0_0] shadow-black dark:border-white dark:bg-green-800 dark:text-white dark:shadow-white\">\n      Success\n    </span>\n<span class=\"border-2 border-black bg-red-100 px-3 py-1.5 text-sm/none font-semibold text-black shadow-[2px_2px_0_0] shadow-black dark:border-white dark:bg-red-800 dark:text-white dark:shadow-white\">\n      Error\n    </span>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

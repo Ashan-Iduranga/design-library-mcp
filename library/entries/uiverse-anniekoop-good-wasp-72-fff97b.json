@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-anniekoop-good-wasp-72-fff97b",
+  "title": "Card by anniekoop (good-wasp-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/anniekoop/good-wasp-72",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "neumorphism",
+    "action",
+    "alert",
+    "minimalist",
+    "notification",
+    "light"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By anniekoop on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/anniekoop_good-wasp-72.html",
+  "code": "<div class=\"card\">\n  <div class=\"container\">\n    <div class=\"left\">\n      <div class=\"status-ind\"></div>\n    </div>\n    <div class=\"right\">\n      <div class=\"text-wrap\">\n        <p class=\"text-content\">\n          <a class=\"text-link\" href=\"#\">Jane Doe</a> invited you to edit the\n          <a class=\"text-link\" href=\"#\">Web Design</a> file.\n        </p>\n        <p class=\"time\">2 hours ago</p>\n      </div>\n      <div class=\"button-wrap\">\n        <button class=\"primary-cta\">View file</button>\n        <button class=\"secondary-cta\">Mark as read</button>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by anniekoop  - Tags: simple, neumorphism, action, alert, minimalist, notification, card, light */\n.card {\n  width: fit-content;\n  background-color: #f2f3f7;\n  border-radius: 0.75em;\n  cursor: pointer;\n  transition: ease 0.2s;\n  box-shadow: 1em 1em 1em #d8dae0b1, -0.75em -0.75em 1em #ffffff;\n  border: 1.5px solid #f2f3f7;\n}\n\n.card:hover {\n  background-color: #d3ddf1;\n  border: 1.5px solid #1677ff;\n}\n\n.container {\n  margin-top: 1.25em;\n  margin-bottom: 1.375em;\n  margin-left: 1.375em;\n  margin-right: 2em;\n  display: flex;\n  flex-direction: row;\n  gap: 0.75em;\n}\n\n.status-ind {\n  width: 0.625em;\n  height: 0.625em;\n  background-color: #ff0000;\n  margin: 0.375em 0;\n  border-radius: 0.5em;\n}\n\n.text-wrap {\n  display: flex;\n  flex-direction: column;\n  gap: 0.25em;\n  color: #333;\n}\n\n.time {\n  font-size: 0.875em;\n  color: #777;\n}\n\n.text-link {\n  font-weight: 500;\n  text-decoration: none;\n  color: black;\n}\n\n.button-wrap {\n  display: flex;\n  flex-direction: row;\n  gap: 1em;\n  align-items: center;\n}\n\n.secondary-cta {\n  background-color: transparent;\n  border: none;\n  font-size: 15px;\n  font-weight: 400;\n  color: #666;\n  cursor: pointer;\n}\n\n.primary-cta {\n  font-size: 15px;\n  background-color: transparent;\n  font-weight: 600;\n  color: #1677ff;\n  border: none;\n  border-radius: 1.5em;\n  cursor: pointer;\n}\n\nbutton:hover {\n  text-decoration: underline;\n}\n\n.right {\n  display: flex;\n  flex-direction: column;\n  gap: 0.875em;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

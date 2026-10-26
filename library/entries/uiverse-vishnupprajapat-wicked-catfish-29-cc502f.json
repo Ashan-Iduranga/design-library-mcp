@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-vishnupprajapat-wicked-catfish-29-cc502f",
+  "title": "Checkbox by vishnupprajapat (wicked-catfish-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vishnupprajapat/wicked-catfish-29",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "button",
+    "switcher",
+    "click-effect",
+    "cool-checkbox"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vishnupprajapat on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/vishnupprajapat_wicked-catfish-29.html",
+  "code": "<div class=\"checkbox-wrapper-46\">\n  <input type=\"checkbox\" id=\"cbx-46\" class=\"inp-cbx\" />\n  <label for=\"cbx-46\" class=\"cbx\"\n    ><span>\n      <svg viewBox=\"0 0 12 10\" height=\"10px\" width=\"12px\">\n        <polyline points=\"1.5 6 4.5 9 10.5 1\"></polyline></svg></span\n    ><span>Checkbox</span>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by vishnupprajapat  - Tags: button, checkbox, switcher, click effect, cool checkbox */\n.checkbox-wrapper-46 input[type=\"checkbox\"] {\n  display: none;\n  visibility: hidden;\n}\n\n.checkbox-wrapper-46 .cbx {\n  margin: auto;\n  -webkit-user-select: none;\n  user-select: none;\n  cursor: pointer;\n}\n.checkbox-wrapper-46 .cbx span {\n  display: inline-block;\n  vertical-align: middle;\n  transform: translate3d(0, 0, 0);\n}\n.checkbox-wrapper-46 .cbx span:first-child {\n  position: relative;\n  width: 18px;\n  height: 18px;\n  border-radius: 3px;\n  transform: scale(1);\n  vertical-align: middle;\n  border: 1px solid #9098a9;\n  transition: all 0.2s ease;\n}\n.checkbox-wrapper-46 .cbx span:first-child svg {\n  position: absolute;\n  top: 3px;\n  left: 2px;\n  fill: none;\n  stroke: #ffffff;\n  stroke-width: 2;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-dasharray: 16px;\n  stroke-dashoffset: 16px;\n  transition: all 0.3s ease;\n  transition-delay: 0.1s;\n  transform: translate3d(0, 0, 0);\n}\n.checkbox-wrapper-46 .cbx span:first-child:before {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background: #506eec;\n  display: block;\n  transform: scale(0);\n  opacity: 1;\n  border-radius: 50%;\n}\n.checkbox-wrapper-46 .cbx span:last-child {\n  padding-left: 8px;\n}\n.checkbox-wrapper-46 .cbx:hover span:first-child {\n  border-color: #506eec;\n}\n\n.checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child {\n  background: #506eec;\n  border-color: #506eec;\n  animation: wave-46 0.4s ease;\n}\n.checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child svg {\n  stroke-dashoffset: 0;\n}\n.checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child:before {\n  transform: scale(3.5);\n  opacity: 0;\n  transition: all 0.6s ease;\n}\n\n@keyframes wave-46 {\n  50% {\n    transform: scale(0.9);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

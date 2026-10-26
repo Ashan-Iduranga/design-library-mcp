@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-smit-prajapati-curly-goose-86-567cac",
+  "title": "Card by Smit-Prajapati (curly-goose-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Smit-Prajapati/curly-goose-86",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "sci-fi",
+    "cool-card",
+    "cardhover",
+    "card-animation",
+    "card-hover",
+    "card-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Smit-Prajapati on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Smit-Prajapati_curly-goose-86.html",
+  "code": "<div class=\"card\">\n  <div class=\"boxshadow\"></div>\n  <div class=\"main\">\n    <div class=\"top\"></div>\n    <div class=\"left side\"></div>\n    <div class=\"right side\"></div>\n    <div class=\"title\">TITLE</div>\n    <div class=\"button-container\">\n      <button class=\"button\">\n        <svg class=\"svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke=\"red\" fill=\"none\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n            <rect width=\"20\" height=\"20\" x=\"2\" y=\"2\" rx=\"5\" ry=\"5\"></rect>\n            <path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"></path>\n            <line x1=\"17.5\" x2=\"17.51\" y1=\"6.5\" y2=\"6.5\"></line>\n        </svg>\n      </button>\n      <button class=\"button\">\n        <svg class=\"svg twitter\" xmlns=\"http://www.w3.org/2000/svg\" height=\"24\" width=\"24\" fill=\"red\" viewBox=\"0 0 512 512\">\n            <path d=\"M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z\">\n            </path>\n        </svg>\n      </button>\n      <button class=\"button\">\n        <svg class=\"svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"red\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n            <path d=\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\">\n            </path>\n            <path d=\"M9 18c-4.51 2-5-2-7-2\"></path>\n        </svg>\n      </button>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Smit-Prajapati - Tags: card, sci-fi, cool card, cardhover , card animation, card hover, card design */\n.card {\n  position: relative;\n  height: 300px;\n  width: 230px;\n}\n\n.card .boxshadow {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  border: 1px solid red;\n  transform: scale(0.8);\n  box-shadow: rgb(255, 0, 0) 0px 30px 70px 0px;\n  transition: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);\n}\n\n.card .main {\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  background: red;\n  background: linear-gradient(0deg, rgb(62, 0, 0) 0%, rgb(255, 0, 0) 60%, rgb(62, 0, 0) 100%);\n  position: relative;\n  -webkit-clip-path: polygon(0 40px, 40px 0, calc(100% - 40px) 0, 100% 40px, 100% calc(100% - 40px), calc(100% - 40px) 100%, 40px 100%, 0 calc(100% - 40px));\n  clip-path: polygon(0 40px, 40px 0, calc(100% - 40px) 0, 100% 40px, 100% calc(100% - 40px), calc(100% - 40px) 100%, 40px 100%, 0 calc(100% - 40px));\n  -webkit-clip-path: polygon(0 0, 100% 0, 100% 40px, 100% calc(100% - 40px), calc(100% - 40px) 100%, 40px 100%, 0 calc(100% - 40px));\n  clip-path: polygon(0 0, 100% 0, 100% 40px, 100% calc(100% - 40px), calc(100% - 40px) 100%, 40px 100%, 0 calc(100% - 40px));\n  box-shadow: rgb(255, 0, 0) 0px 7px 29px 0px;\n  transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);\n}\n\n.card .main .top {\n  position: absolute;\n  top: 0px;\n  left: 0;\n  width: 0px;\n  height: 0px;\n  z-index: 2;\n  border-top: 115px solid black;\n  border-left: 115px solid transparent;\n  border-right: 115px solid transparent;\n  transition: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);\n}\n\n.card .main .side {\n  position: absolute;\n  width: 100%;\n  top: 0;\n  transform: translateX(-50%);\n  height: 101%;\n  background: black;\n  -webkit-clip-path: polygon(0% 0%, 50% 0, 95% 45%, 100% 100%, 0% 100%);\n  clip-path: polygon(0% 0%, 50% 0, 95% 45%, 100% 100%, 0% 100%);\n  transition: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s;\n}\n\n.card .main .left {\n  left: 0;\n}\n\n.card .main .right {\n  right: 0;\n  transform: translateX(50%) scale(-1, 1);\n}\n\n.card .main .title {\n  position: absolute;\n  left: 50%;\n  transform: translateX(-50%);\n  top: 90px;\n  font-weight: bold;\n  font-size: 25px;\n  opacity: 0;\n  z-index: -1;\n  transition: all 0.2s ease-out 0s;\n}\n\n.card .main .button-container {\n  position: absolute;\n  bottom: 10px;\n  left: 50%;\n  transform: translateX(-50%);\n}\n\n.card .main .button-container .button {\n  position: absolute;\n  transform: translateX(-50%);\n  padding: 5px 10px;\n  -webkit-clip-path: polygon(0 0, 100% 0, 81% 100%, 21% 100%);\n  clip-path: polygon(0 0, 100% 0, 81% 100%, 21% 100%);\n  background: black;\n  border: none;\n  color: white;\n  display: grid;\n  place-content: center;\n  transition: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);\n}\n\n.card .main .button-container .button .svg {\n  width: 15px;\n  transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);\n}\n\n.card .main .button-container .button:nth-child(1) {\n  bottom: 300px;\n  transition-delay: 0.4s;\n}\n\n.card .main .button-container .button:nth-child(2) {\n  bottom: 300px;\n  transition-delay: 0.6s;\n}\n\n.card .main .button-container .button:nth-child(3) {\n  bottom: 300px;\n  transition-delay: 0.8s;\n}\n\n.card .main .button-container .button:hover .svg {\n  transform: scale(1.2);\n}\n\n.card .main .button-container .button:active .svg {\n  transform: scale(0.7);\n}\n\n.card:hover .main {\n  transform: scale(1.1);\n}\n\n.card:hover .main .top {\n  top: -50px;\n}\n\n.card:hover .main .left {\n  left: -50px;\n  transition: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.1s;\n}\n\n.card:hover .main .right {\n  right: -50px;\n  transition: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.1s;\n}\n\n.card:hover .main .title {\n  opacity: 1;\n  transition: all 0.2s ease-out 1.3s;\n}\n\n.card:hover .main .button-container .button:nth-child(1) {\n  bottom: 80px;\n  transition-delay: 0.8s;\n}\n\n.card:hover .main .button-container .button:nth-child(2) {\n  bottom: 40px;\n  transition-delay: 0.6s;\n}\n\n.card:hover .main .button-container .button:nth-child(3) {\n  bottom: 0;\n  transition-delay: 0.4s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

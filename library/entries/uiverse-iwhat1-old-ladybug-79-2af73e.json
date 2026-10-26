@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-iwhat1-old-ladybug-79-2af73e",
+  "title": "Card by IWhat1 (old-ladybug-79)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/IWhat1/old-ladybug-79",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "neumorphism",
+    "skeuomorphism",
+    "glassmorphism",
+    "login",
+    "login-form",
+    "cool-card",
+    "card-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By IWhat1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/IWhat1_old-ladybug-79.html",
+  "code": "<div class=\"card-container\">\n    <div class=\"circle1\"></div>\n    <div class=\"circle2\"></div>\n    <div class=\"container\">\n        <div class=\"log-card\">\n    <p class=\"heading\">Welcome Back</p>\n    <p>We are you to have you Again</p>\n\n    <div class=\"input-group\">\n        <p class=\"text\">Username</p>\n        <input class=\"input\" type=\"username\" placeholder=\"For Ex: Jayakrishna007\">\n        <p class=\"text\">Password</p>\n        <input class=\"input\" type=\"password\" placeholder=\"Enter Password\">\n    </div>\n\n    <div class=\"password-group\">\n        <div class=\"checkbox-group\">\n            <input type=\"checkbox\">\n            <label class=\"label\">Remember Me</label>\n        </div>\n            <a href=\"\" class=\"forget-password\">Forget Password</a>\n    </div>\n\n    <button class=\"btn\">Sign In</button>\n\n    <p class=\"no-account\">Don't Have an Account ?<a class=\"link\"> Sign Up</a></p>\n</div>\n    </div>\n</div>\n\n<style>\n/* From Uiverse.io by IWhat1 - Tags: neumorphism, skeuomorphism, glassmorphism, login, card, login form, cool card, card animation */\n.card-container {\n  width: 350px;\n  height: 440px;\n  background: transparent;\n  position: relative;\n}\n\n.container {\n  display: flex;\n  height: 100%;\n  width: 100%;\n  align-items: center;\n  justify-content: center;\n}\n\n.circle1 {\n  height: 80px;\n  width: 80px;\n  border-radius: 50%;\n  background-color: #2879f3;\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n\n.circle2 {\n  height: 80px;\n  width: 80px;\n  border-radius: 50%;\n  background-color: #f37e10;\n  position: absolute;\n  right: 0;\n  bottom: 0;\n}\n\n.log-card {\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n  position: absolute;\n  width: 300px;\n  border-radius: 8px;\n  display: flex;\n  flex-direction: column;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);\n  backdrop-filter: blur(5px);\n  padding: 20px;\n}\n\n.heading {\n  font-size: 28px;\n  font-weight: 800;\n}\n\n.para {\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.text {\n  margin-top: 15px;\n  margin-bottom: 0;\n  font-size: 14px;\n  font-weight: 600;\n  color: lightslategray;\n}\n\n.input-group {\n  margin-top: 10px;\n  margin-bottom: 4px;\n}\n\n.input {\n  box-sizing: border-box;\n  margin-bottom: 5px;\n  width: 100%;\n  border: none;\n  padding: 8px 16px;\n  background-color: transparent;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);\n  border-radius: 8px;\n  font-weight: 600;\n  color: #2879f3;\n}\n\n.input:hover {\n  color: #2879f3;\n  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);\n}\n\n.password-group {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 5px;\n}\n\n.checkbox-group {\n  color: black;\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.forget-password {\n  font-size: 14px;\n  font-weight: 500;\n  color: #2879f3;\n  text-decoration: none;\n}\n\n.forget-password:hover {\n  text-decoration: underline;\n  color: #f37e10;\n}\n\n.btn {\n  margin-top: 20px;\n  margin-bottom: 10px;\n  padding: 8px 16px;\n  border: none;\n  background-color: #2879f3;\n  color: white;\n  font-size: 16px;\n  font-weight: 700;\n  border-radius: 8px;\n}\n\n.btn:hover {\n  background-color: #0653c7;\n}\n\n.no-account {\n  font-size: 16px;\n  font-weight: 400;\n}\n\n.link {\n  font-weight: 800;\n  color: #2879f3;\n}\n\n.link:hover {\n  color: #f37e10;\n  text-decoration: underline;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-input-input-colors",
+  "title": "Text Input: Input colors (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/input/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Text Input is a simple input field.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/input/+page.md",
+  "code": "<input type=\"text\" placeholder=\"neutral\" class=\"input input-neutral\" />\n<input type=\"text\" placeholder=\"Primary\" class=\"input input-primary\" />\n<input type=\"text\" placeholder=\"Secondary\" class=\"input input-secondary\" />\n<input type=\"text\" placeholder=\"Accent\" class=\"input input-accent\" />\n\n<input type=\"text\" placeholder=\"Info\" class=\"input input-info\" />\n<input type=\"text\" placeholder=\"Success\" class=\"input input-success\" />\n<input type=\"text\" placeholder=\"Warning\" class=\"input input-warning\" />\n<input type=\"text\" placeholder=\"Error\" class=\"input input-error\" />",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

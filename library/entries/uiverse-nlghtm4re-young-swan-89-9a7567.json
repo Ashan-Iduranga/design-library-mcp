@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nlghtm4re-young-swan-89-9a7567",
+  "title": "Loader by NlghtM4re (young-swan-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/NlghtM4re/young-swan-89",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By NlghtM4re on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/NlghtM4re_young-swan-89.html",
+  "code": "<div class=\"container\">\n  <div class=\"dash first\"></div>\n  <div class=\"dash seconde\"></div>\n  <div class=\"dash third\"></div>\n  <div class=\"dash fourth\"></div>\n</div>\n<style>\n/* From Uiverse.io by NlghtM4re - Tags: loader */\n.container {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  display: flex;\n}\n\n.dash {\n  margin: 0 15px;\n  width: 35px;\n  height: 15px;\n  border-radius: 8px;\n  background: rgb(82, 159, 246);\n  box-shadow: rgb(82, 159, 246) 0 0 15px 0;\n}\n\n.first {\n  margin-right: -18px;\n  transform-origin: center left;\n  animation: spin 3s linear infinite;\n}\n\n.seconde {\n  transform-origin: center right;\n  animation: spin2 3s linear infinite;\n  animation-delay: .2s;\n}\n\n.third {\n  transform-origin: center right;\n  animation: spin3 3s linear infinite;\n  animation-delay: .3s;\n}\n\n.fourth {\n  transform-origin: center right;\n  animation: spin4 3s linear infinite;\n  animation-delay: .4s;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  25% {\n    transform: rotate(360deg);\n  }\n\n  30% {\n    transform: rotate(370deg);\n  }\n\n  35% {\n    transform: rotate(360deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes spin2 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  20% {\n    transform: rotate(0deg);\n  }\n\n  30% {\n    transform: rotate(-180deg);\n  }\n\n  35% {\n    transform: rotate(-190deg);\n  }\n\n  40% {\n    transform: rotate(-180deg);\n  }\n\n  78% {\n    transform: rotate(-180deg);\n  }\n\n  95% {\n    transform: rotate(-360deg);\n  }\n\n  98% {\n    transform: rotate(-370deg);\n  }\n\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n\n@keyframes spin3 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  27% {\n    transform: rotate(0deg);\n  }\n\n  40% {\n    transform: rotate(180deg);\n  }\n\n  45% {\n    transform: rotate(190deg);\n  }\n\n  50% {\n    transform: rotate(180deg);\n  }\n\n  62% {\n    transform: rotate(180deg);\n  }\n\n  75% {\n    transform: rotate(360deg);\n  }\n\n  80% {\n    transform: rotate(370deg);\n  }\n\n  85% {\n    transform: rotate(360deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes spin4 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  38% {\n    transform: rotate(0deg);\n  }\n\n  60% {\n    transform: rotate(-360deg);\n  }\n\n  65% {\n    transform: rotate(-370deg);\n  }\n\n  75% {\n    transform: rotate(-360deg);\n  }\n\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

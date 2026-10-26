@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-input-field-disabled-state",
+  "title": "Input Field: Disabled state (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/input-field/#disabled-state",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input-field",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Get started with this example if you want to apply the disabled state to an input field.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/input-field.md",
+  "code": "<input type=\"text\" id=\"disabled-input\" aria-label=\"disabled input\" class=\"bg-neutral-secondary-medium border border-default-medium text-fg-disabled text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" value=\"Disabled input\" disabled>\n<input type=\"text\" id=\"disabled-input-2\" aria-label=\"disabled input 2\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" value=\"Disabled readonly input\" disabled readonly>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

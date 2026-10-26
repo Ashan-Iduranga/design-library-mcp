@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-empty-background",
+  "title": "Empty Background (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/empty-background.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "empty",
+    "background",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the Empty component to display an empty state.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/empty-background.tsx",
+  "code": "import { IconBell } from \"@tabler/icons-react\"\nimport { RefreshCcwIcon } from \"lucide-react\"\n\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\nimport {\n  Empty,\n  EmptyContent,\n  EmptyDescription,\n  EmptyHeader,\n  EmptyMedia,\n  EmptyTitle,\n} from \"@/registry/new-york-v4/ui/empty\"\n\nexport default function EmptyMuted() {\n  return (\n    <Empty className=\"h-full bg-gradient-to-b from-muted/50 from-30% to-background\">\n      <EmptyHeader>\n        <EmptyMedia variant=\"icon\">\n          <IconBell />\n        </EmptyMedia>\n        <EmptyTitle>No Notifications</EmptyTitle>\n        <EmptyDescription>\n          You&apos;re all caught up. New notifications will appear here.\n        </EmptyDescription>\n      </EmptyHeader>\n      <EmptyContent>\n        <Button variant=\"outline\" size=\"sm\">\n          <RefreshCcwIcon />\n          Refresh\n        </Button>\n      </EmptyContent>\n    </Empty>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

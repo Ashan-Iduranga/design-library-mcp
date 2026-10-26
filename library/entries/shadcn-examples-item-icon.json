@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-item-icon",
+  "title": "Item Icon (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/item-icon.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "item",
+    "icon",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A versatile component for displaying content with media, title, description, and actions.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/item-icon.tsx",
+  "code": "import { ShieldAlertIcon } from \"lucide-react\"\n\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\nimport {\n  Item,\n  ItemActions,\n  ItemContent,\n  ItemDescription,\n  ItemMedia,\n  ItemTitle,\n} from \"@/registry/new-york-v4/ui/item\"\n\nexport default function ItemIcon() {\n  return (\n    <div className=\"flex w-full max-w-lg flex-col gap-6\">\n      <Item variant=\"outline\">\n        <ItemMedia variant=\"icon\">\n          <ShieldAlertIcon />\n        </ItemMedia>\n        <ItemContent>\n          <ItemTitle>Security Alert</ItemTitle>\n          <ItemDescription>\n            New login detected from unknown device.\n          </ItemDescription>\n        </ItemContent>\n        <ItemActions>\n          <Button size=\"sm\" variant=\"outline\">\n            Review\n          </Button>\n        </ItemActions>\n      </Item>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

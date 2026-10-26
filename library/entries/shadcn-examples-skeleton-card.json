@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-skeleton-card",
+  "title": "Skeleton Card (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/skeleton-card.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "skeleton",
+    "card",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use to show a placeholder while content is loading.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/skeleton-card.tsx",
+  "code": "import { Skeleton } from \"@/registry/new-york-v4/ui/skeleton\"\n\nexport default function SkeletonCard() {\n  return (\n    <div className=\"flex flex-col space-y-3\">\n      <Skeleton className=\"h-[125px] w-[250px] rounded-xl\" />\n      <div className=\"space-y-2\">\n        <Skeleton className=\"h-4 w-[250px]\" />\n        <Skeleton className=\"h-4 w-[200px]\" />\n      </div>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

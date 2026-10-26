@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-faxriddin20-yellow-falcon-57-8c84f8",
+  "title": "Button by faxriddin20 (yellow-falcon-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/faxriddin20/yellow-falcon-57",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "purple",
+    "download",
+    "#button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By faxriddin20 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/faxriddin20_yellow-falcon-57.html",
+  "code": "<button class=\"download-btn\">\n  <svg\n    id=\"download\"\n    viewBox=\"0 0 24 24\"\n    data-name=\"Layer 1\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M14.29,17.29,13,18.59V13a1,1,0,0,0-2,0v5.59l-1.29-1.3a1,1,0,0,0-1.42,1.42l3,3a1,1,0,0,0,.33.21.94.94,0,0,0,.76,0,1,1,0,0,0,.33-.21l3-3a1,1,0,0,0-1.42-1.42ZM18.42,6.22A7,7,0,0,0,5.06,8.11,4,4,0,0,0,6,16a1,1,0,0,0,0-2,2,2,0,0,1,0-4A1,1,0,0,0,7,9a5,5,0,0,1,9.73-1.61,1,1,0,0,0,.78.67,3,3,0,0,1,.24,5.84,1,1,0,1,0,.5,1.94,5,5,0,0,0,.17-9.62Z\"\n    ></path>\n  </svg>\n</button>\n\n<style>\n/* From Uiverse.io by faxriddin20  - Tags: purple, button, download, #button */\n.download-btn {\n  border: 2px solid rgb(168, 38, 255);\n  background-color: white;\n  width: 50px;\n  height: 50px;\n  border-radius: 10px;\n  position: relative;\n  z-index: 1;\n  transition: all 0.2s ease;\n  cursor: pointer;\n}\n.download-btn svg {\n  width: 25px;\n  height: 25px;\n  transition: all 0.3s ease;\n}\n.download-btn:hover svg {\n  fill: white;\n}\n.download-btn:hover {\n  background-color: rgb(168, 38, 255);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

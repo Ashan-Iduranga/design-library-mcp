@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-cssbuttons-io-stupid-impala-51-fa2fd1",
+  "title": "Button by cssbuttons-io (stupid-impala-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cssbuttons-io/stupid-impala-51",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "red",
+    "delete"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cssbuttons-io on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/cssbuttons-io_stupid-impala-51.html",
+  "code": "<button class=\"noselect\"><span class=\"text\">Delete</span><span class=\"icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z\"></path></svg></span></button>\n<style>\n/* From Uiverse.io by cssbuttons-io - Tags: icon, red, button, delete */\nbutton {\n width: 150px;\n height: 50px;\n cursor: pointer;\n display: flex;\n align-items: center;\n background: red;\n border: none;\n border-radius: 5px;\n box-shadow: 1px 1px 3px rgba(0,0,0,0.15);\n background: #e62222;\n}\n\nbutton, button span {\n transition: 200ms;\n}\n\nbutton .text {\n transform: translateX(35px);\n color: white;\n font-weight: bold;\n}\n\nbutton .icon {\n position: absolute;\n border-left: 1px solid #c41b1b;\n transform: translateX(110px);\n height: 40px;\n width: 40px;\n display: flex;\n align-items: center;\n justify-content: center;\n}\n\nbutton svg {\n width: 15px;\n fill: #eee;\n}\n\nbutton:hover {\n background: #ff3636;\n}\n\nbutton:hover .text {\n color: transparent;\n}\n\nbutton:hover .icon {\n width: 150px;\n border-left: none;\n transform: translateX(0);\n}\n\nbutton:focus {\n outline: none;\n}\n\nbutton:active .icon svg {\n transform: scale(0.8);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

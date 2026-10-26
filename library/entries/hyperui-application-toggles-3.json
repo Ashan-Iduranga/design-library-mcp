@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-toggles-3",
+  "title": "Toggles: Material",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/toggles",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "toggles",
+    "hyperui",
+    "form",
+    "switch"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/toggles/3.html",
+  "code": "<div class=\"flex justify-center p-6\">\n<label class=\"relative block h-8 w-12 [-webkit-tap-highlight-color:transparent]\" for=\"AcceptConditions\">\n<input class=\"peer sr-only\" id=\"AcceptConditions\" type=\"checkbox\"/>\n<span class=\"absolute inset-0 m-auto h-2 rounded-full bg-gray-300\"></span>\n<span class=\"absolute inset-y-0 start-0 m-auto size-6 rounded-full bg-gray-500 transition-[inset-inline-start] peer-checked:start-6 peer-checked:*:scale-0\">\n<span class=\"absolute inset-0 m-auto size-4 rounded-full bg-gray-200 transition-transform\">\n</span>\n</span>\n</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

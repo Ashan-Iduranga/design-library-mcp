@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-faxriddin20-splendid-wolverine-24-9eb1e7",
+  "title": "Button by faxriddin20 (splendid-wolverine-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/faxriddin20/splendid-wolverine-24",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "neumorphism",
+    "minimalist",
+    "smooth",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By faxriddin20 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/faxriddin20_splendid-wolverine-24.html",
+  "code": "<button class=\"telegram\">\n  <svg\n    style=\"fill:#FFFFFF;\"\n    class=\"telegram-svg\"\n    viewBox=\"0,0,256,256\"\n    y=\"0px\"\n    x=\"0px\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <g\n      style=\"mix-blend-mode: normal\"\n      text-anchor=\"none\"\n      font-size=\"none\"\n      font-weight=\"none\"\n      font-family=\"none\"\n      stroke-dashoffset=\"0\"\n      stroke-dasharray=\"\"\n      stroke-miterlimit=\"10\"\n      stroke-linejoin=\"miter\"\n      stroke-linecap=\"butt\"\n      stroke-width=\"1\"\n      stroke=\"none\"\n      fill-rule=\"nonzero\"\n      fill=\"#ffffff\"\n    >\n      <g transform=\"scale(5.12,5.12)\">\n        <path\n          d=\"M46.137,6.552c-0.75,-0.636 -1.928,-0.727 -3.146,-0.238h-0.002c-1.281,0.514 -36.261,15.518 -37.685,16.131c-0.259,0.09 -2.521,0.934 -2.288,2.814c0.208,1.695 2.026,2.397 2.248,2.478l8.893,3.045c0.59,1.964 2.765,9.21 3.246,10.758c0.3,0.965 0.789,2.233 1.646,2.494c0.752,0.29 1.5,0.025 1.984,-0.355l5.437,-5.043l8.777,6.845l0.209,0.125c0.596,0.264 1.167,0.396 1.712,0.396c0.421,0 0.825,-0.079 1.211,-0.237c1.315,-0.54 1.841,-1.793 1.896,-1.935l6.556,-34.077c0.4,-1.82 -0.156,-2.746 -0.694,-3.201zM22,32l-3,8l-3,-10l23,-17z\"\n        ></path>\n      </g>\n    </g>\n  </svg>\n  <span class=\"telegram-text\">Telegram</span>\n</button>\n\n<style>\n/* From Uiverse.io by faxriddin20  - Tags: neumorphism, minimalist, smooth, hover effect */\n.telegram {\n  transition: none 0.5s ease;\n  display: flex;\n  align-items: center;\n  position: relative;\n  padding-left: 10px;\n  padding-right: 10px;\n  width: 130px;\n  height: 50px;\n  gap: 10px;\n  border: none;\n  background-color: rgb(42 171 238);\n  color: white;\n  border-radius: 15px;\n  cursor: pointer;\n}\n\n.telegram-text {\n  transition: none 0.3s ease;\n  font-weight: bold;\n  font-size: 1rem;\n}\n\n.telegram:hover .telegram-text {\n  display: none;\n  position: absolute;\n}\n\n.telegram-svg {\n  width: 23px;\n  height: 23px;\n  transition: 0.8s;\n}\n\n.telegram:hover .telegram-svg {\n  margin-left: 40px;\n  display: block;\n  transform: rotate(50deg);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

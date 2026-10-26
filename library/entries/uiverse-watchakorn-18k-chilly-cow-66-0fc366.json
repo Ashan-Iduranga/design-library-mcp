@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-watchakorn-18k-chilly-cow-66-0fc366",
+  "title": "Button by watchakorn-18k (chilly-cow-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/watchakorn-18k/chilly-cow-66",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "transition"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By watchakorn-18k on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/watchakorn-18k_chilly-cow-66.html",
+  "code": "<button class=\"btn-space space\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by watchakorn-18k - Tags: gradient, button, transition */\n.btn-space {\n  padding: 15px 45px;\n  text-align: center;\n  text-transform: uppercase;\n  -webkit-transition: 0.5s;\n  transition: 0.5s;\n  background-size: 500% auto;\n  font-weight: bold;\n  font-size: 1rem;\n  color: rgba(255, 255, 255, 0.103);\n  border-radius: 10px;\n}\n\n.btn-space:hover {\n  background-position: right center;\n  border-image-source: linear-gradient(90deg, #d53a9d,#743ad5 );\n  -webkit-box-shadow: 0 0 20px #743ad5;\n  box-shadow: 0 0 20px #743ad5;\n  color: rgb(255, 255, 255);\n  text-shadow: 1px 1px 10px #d53a9d;\n}\n\n.space {\n  background-image: -webkit-gradient(linear, left top, right top, from(#743ad5), color-stop(51%, #d53a9d), to(#743ad5));\n  background-image: linear-gradient(to right, #743ad5 0%, #d53a9d 51%, #743ad5 100%);\n  border-image-source: linear-gradient(45deg, #743ad5, #d53a9d );\n  border-image-outset: 1em;\n}\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

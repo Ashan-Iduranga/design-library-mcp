@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-1osm-little-insect-93-317044",
+  "title": "Card by 1osm (little-insect-93)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/1osm/little-insect-93",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 1osm on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/1osm_little-insect-93.html",
+  "code": "<div class=\"card\">\n  <div class=\"GameImg\">\n\n    <div class=\"Gfooter\">\n      <div class=\"SmallIcon\"></div>\n      <span class=\"Stars\"><svg preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 50.000000 50.000000\" height=\"50.000000pt\" width=\"50.000000pt\" version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" class=\"StarIcon\">\n      <g stroke=\"none\" fill=\"#ebd300\" transform=\"translate(0.000000,50.000000) scale(0.100000,-0.100000)\">\n      <path d=\"M210 405 l-33 -85 -83 0 c-45 0 -85 -4 -88 -9 -3 -5 23 -33 59 -62 36 -29 65 -60 65 -68 0 -9 -9 -48 -20 -86 -11 -38 -20 -71 -20 -72 0 -12 35 4 85 37 33 22 67 40 75 40 8 0 42 -18 75 -40 50 -33 85 -49 85 -37 0 1 -9 34 -20 72 -11 38 -20 77 -20 86 0 8 29 39 65 68 36 28 63 56 60 62 -4 5 -44 9 -90 9 l-83 0 -33 85 c-17 47 -35 85 -39 85 -4 0 -22 -38 -40 -85z\"></path>\n      </g>\n      </svg>\n        5/5</span>\n      <span class=\"Descripion\">This is Descripion of The Game</span>\n    </div>\n\n    <svg preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 50.000000 50.000000\" height=\"50.000000pt\" width=\"50.000000pt\" version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" class=\"GameIcon\">\n    <g stroke=\"none\" fill=\"#ff5858\" transform=\"translate(0.000000,50.000000) scale(0.100000,-0.100000)\">\n    <path d=\"M427 471 c-2 -11 -36 -35 -78 -57 -62 -33 -77 -46 -94 -81 -14 -30 -24 -41 -35 -36 -64 25 -90 27 -117 7 -58 -42 -115 -185 -99 -248 19 -76 81 -73 195 9 19 14 41 25 50 25 9 0 43 -18 75 -40 33 -22 70 -43 83 -46 64 -16 101 30 89 113 -7 56 -62 159 -99 187 -28 20 -56 18 -121 -9 -16 -7 -17 -5 -11 16 12 39 36 60 102 90 56 25 83 50 83 78 0 18 -17 12 -23 -8z m-41 -252 c10 -17 -13 -36 -27 -22 -12 12 -4 33 11 33 5 0 12 -5 16 -11z m-236 -14 c0 -8 7 -15 15 -15 8 0 15 -7 15 -15 0 -8 -7 -15 -15 -15 -8 0 -15 -7 -15 -15 0 -8 -7 -15 -15 -15 -8 0 -15 7 -15 15 0 8 -7 15 -15 15 -8 0 -15 7 -15 15 0 8 7 15 15 15 8 0 15 7 15 15 0 8 7 15 15 15 8 0 15 -7 15 -15z m196 -26 c10 -17 -13 -36 -27 -22 -12 12 -4 33 11 33 5 0 12 -5 16 -11z m80 0 c10 -17 -13 -36 -27 -22 -12 12 -4 33 11 33 5 0 12 -5 16 -11z m-40 -40 c10 -17 -13 -36 -27 -22 -12 12 -4 33 11 33 5 0 12 -5 16 -11z\"></path></g></svg>\n    <span class=\"Name\">Game Name</span>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by 1osm - Tags: card */\n.card {\n  width: 200px;\n  height: 250px;\n  background: #262626;\n}\n\n.GameIcon {\n  transform: translate(-80px,-50px);\n  position: absolute;\n  width: 200px;\n  height: 200px;\n  transition: 0.3s;\n}\n\n.GameImg {\n  width: 100%;\n  height: 100%;\n}\n\n.Gfooter {\n  width: 100%;\n  height: 0%;\n  background-color: #262626;\n  border-radius: 10px;\n  transition: all 0.3s;\n}\n\n.Name {\n  transform: translate(10px,200px);\n  position: absolute;\n  background-color: transparent;\n  font-weight: bold;\n  font-size: 18px;\n  transition: 0.3s;\n  color: #ff5858;\n}\n\n.SmallIcon {\n  width: 0px;\n  height: 0px;\n  transform: translate(10px,10px);\n  border-radius: 10px;\n  background-color: #ff5858;\n  transition: 0.2s;\n}\n\n.Descripion {\n  padding: 10px;\n  position: absolute;\n  transform: translate(0px,20px);\n  opacity: 0%;\n  color: #ff5858;\n  font-weight: bold;\n  font-size: 15px;\n}\n\n.StarIcon {\n  transform: translate(-0px,25px);\n  width: 20px;\n  fill: #ebd300;\n}\n\n.Stars {\n  position: absolute;\n  color: white;\n  font-size: 15px;\n  font-weight: bold;\n  transform: translate(80px,-70px);\n}\n\n.GameImg:hover .Descripion {\n  opacity: 100%;\n}\n\n.GameImg:hover .Gfooter {\n  width: 100%;\n  height: 100%;\n}\n\n.GameImg:hover .SmallIcon {\n  width: 60px;\n  height: 60px;\n}\n\n.GameImg:hover .Name {\n  transform: translate(75px,-235px);\n}\n\n.GameImg:hover .GameIcon {\n  transform: translate(100px,-160px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

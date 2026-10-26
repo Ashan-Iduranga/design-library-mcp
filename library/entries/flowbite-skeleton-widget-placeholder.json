@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-skeleton-widget-placeholder",
+  "title": "Skeleton: Widget placeholder (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/skeleton/#widget-placeholder",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "skeleton",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This example can be used to show a placeholder of skeleton when fetching data for widgets and cards inside an application.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/skeleton.md",
+  "code": "<div role=\"status\" class=\"max-w-sm p-4 border border-default rounded-base shadow-xs animate-pulse md:p-6\">\n    <div class=\"h-2.5 bg-neutral-quaternary rounded-full w-32 mb-2.5\"></div>\n    <div class=\"w-48 h-2 mb-10 bg-neutral-quaternary rounded-full\"></div>\n    <div class=\"flex items-baseline mt-4\">\n        <div class=\"w-full bg-neutral-quaternary rounded-t-full h-72\"></div>\n        <div class=\"w-full h-56 ms-6 bg-neutral-quaternary rounded-t-full\"></div>\n        <div class=\"w-full bg-neutral-quaternary rounded-t-full h-72 ms-6\"></div>\n        <div class=\"w-full h-64 ms-6 bg-neutral-quaternary rounded-t-full\"></div>\n        <div class=\"w-full bg-neutral-quaternary rounded-t-full h-80 ms-6\"></div>\n        <div class=\"w-full bg-neutral-quaternary rounded-t-full h-72 ms-6\"></div>\n        <div class=\"w-full bg-neutral-quaternary rounded-t-full h-80 ms-6\"></div>\n    </div>\n    <span class=\"sr-only\">Loading...</span>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

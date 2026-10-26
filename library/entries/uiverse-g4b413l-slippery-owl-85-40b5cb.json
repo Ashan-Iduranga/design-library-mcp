@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-g4b413l-slippery-owl-85-40b5cb",
+  "title": "Button by G4b413l (slippery-owl-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/slippery-owl-85",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "download"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/G4b413l_slippery-owl-85.html",
+  "code": "<button class=\"buttonDownload\">Download</button>\n<style>\n/* From Uiverse.io by G4b413l - Tags: button, download */\n.buttonDownload {\n display: inline-block;\n position: relative;\n padding: 10px 25px;\n background-color: #4CC713;\n color: white;\n font-family: sans-serif;\n text-decoration: none;\n font-size: 0.9em;\n text-align: center;\n text-indent: 15px;\n border: none;\n}\n\n.buttonDownload:hover {\n background-color: #45a21a;\n color: white;\n}\n\n.buttonDownload:before, .buttonDownload:after {\n content: ' ';\n display: block;\n position: absolute;\n left: 15px;\n top: 52%;\n}\n\n.buttonDownload:before {\n width: 10px;\n height: 2px;\n border-style: solid;\n border-width: 0 2px 2px;\n}\n\n.buttonDownload:after {\n width: 0;\n height: 0;\n margin-left: 3px;\n margin-top: -7px;\n border-style: solid;\n border-width: 4px 4px 0 4px;\n border-color: transparent;\n border-top-color: inherit;\n animation: downloadArrow 1s linear infinite;\n animation-play-state: paused;\n}\n\n.buttonDownload:hover:before {\n border-color: #cdefbd;\n}\n\n.buttonDownload:hover:after {\n border-top-color: #cdefbd;\n animation-play-state: running;\n}\n\n@keyframes downloadArrow {\n 0% {\n  margin-top: -7px;\n  opacity: 1;\n }\n\n 0.001% {\n  margin-top: -15px;\n  opacity: 0.4;\n }\n\n 50% {\n  opacity: 1;\n }\n\n 100% {\n  margin-top: 0;\n  opacity: 0.4;\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

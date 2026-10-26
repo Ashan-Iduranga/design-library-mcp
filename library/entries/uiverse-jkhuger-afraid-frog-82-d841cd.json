@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-jkhuger-afraid-frog-82-d841cd",
+  "title": "Form by JkHuger (afraid-frog-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/afraid-frog-82",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "sign-up"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/JkHuger_afraid-frog-82.html",
+  "code": "<div class=\"container\">\n        <div class=\"card\">\n            <a class=\"singup\">Sign Up</a>\n            <div class=\"inputBox1\">\n                <input type=\"text\" required=\"required\">\n                <span class=\"user\">Email</span>\n            </div>\n\n            <div class=\"inputBox\">\n                <input type=\"text\" required=\"required\">\n                <span>Username</span>\n            </div>\n\n            <div class=\"inputBox\">\n                <input type=\"password\" required=\"required\">\n                <span>Password</span>\n            </div>\n\n            <button class=\"enter\">Enter</button>\n\n        </div>\n    </div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: form, sign-up */\n.singup {\n  color: #000;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  display: block;\n  font-weight: bold;\n  font-size: x-large;\n  margin-top: 1.5em;\n}\n\n.card {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  min-height: 350px;\n  width: 300px;\n  flex-direction: column;\n  gap: 35px;\n  border-radius: 15px;\n  background: #e3e3e3;\n  box-shadow: 16px 16px 32px #c8c8c8,\n        -16px -16px 32px #fefefe;\n  border-radius: 8px;\n}\n\n.inputBox,\n.inputBox1 {\n  position: relative;\n  width: 250px;\n}\n\n.inputBox input,\n.inputBox1 input {\n  width: 100%;\n  padding: 10px;\n  outline: none;\n  border: none;\n  color: #000;\n  font-size: 1em;\n  background: transparent;\n  border-left: 2px solid #000;\n  border-bottom: 2px solid #000;\n  transition: 0.1s;\n  border-bottom-left-radius: 8px;\n}\n\n.inputBox span,\n.inputBox1 span {\n  margin-top: 5px;\n  position: absolute;\n  left: 0;\n  transform: translateY(-4px);\n  margin-left: 10px;\n  padding: 10px;\n  pointer-events: none;\n  font-size: 12px;\n  color: #000;\n  text-transform: uppercase;\n  transition: 0.5s;\n  letter-spacing: 3px;\n  border-radius: 8px;\n}\n\n.inputBox input:valid~span,\n.inputBox input:focus~span {\n  transform: translateX(113px) translateY(-15px);\n  font-size: 0.8em;\n  padding: 5px 10px;\n  background: #000;\n  letter-spacing: 0.2em;\n  color: #fff;\n  border: 2px;\n}\n\n.inputBox1 input:valid~span,\n.inputBox1 input:focus~span {\n  transform: translateX(156px) translateY(-15px);\n  font-size: 0.8em;\n  padding: 5px 10px;\n  background: #000;\n  letter-spacing: 0.2em;\n  color: #fff;\n  border: 2px;\n}\n\n.inputBox input:valid,\n.inputBox input:focus,\n.inputBox1 input:valid,\n.inputBox1 input:focus {\n  border: 2px solid #000;\n  border-radius: 8px;\n}\n\n.enter {\n  height: 45px;\n  width: 100px;\n  border-radius: 5px;\n  border: 2px solid #000;\n  cursor: pointer;\n  background-color: transparent;\n  transition: 0.5s;\n  text-transform: uppercase;\n  font-size: 10px;\n  letter-spacing: 2px;\n  margin-bottom: 3em;\n}\n\n.enter:hover {\n  background-color: rgb(0, 0, 0);\n  color: white;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

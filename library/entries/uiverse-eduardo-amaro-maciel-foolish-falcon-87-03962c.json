@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-eduardo-amaro-maciel-foolish-falcon-87-03962c",
+  "title": "Card by eduardo-amaro-maciel (foolish-falcon-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/eduardo-amaro-maciel/foolish-falcon-87",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "scroll-snap",
+    "dynamic"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By eduardo-amaro-maciel on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/eduardo-amaro-maciel_foolish-falcon-87.html",
+  "code": "<div class=\"container scroll-1\">\n  <div class=\"card\">\n    <div class=\"card__image\"></div>\n    <div class=\"card__content\">\n        <span class=\"card__title\">Hello</span>\n        <p class=\"card__describe\">\n            Lorem ipsum dolor sit amet consectetur adipisicing elit.\n        </p>\n    </div>\n  </div>\n  <div class=\"card\">\n    <div class=\"card__image\"></div>\n    <div class=\"card__content\">\n        <span class=\"card__title\">Hello</span>\n        <p class=\"card__describe\">\n            Lorem ipsum dolor sit amet consectetur adipisicing elit.\n        </p>\n    </div>\n  </div>\n  <div class=\"card\">\n    <div class=\"card__image\"></div>\n    <div class=\"card__content\">\n        <span class=\"card__title\">Hello</span>\n        <p class=\"card__describe\">\n            Lorem ipsum dolor sit amet consectetur adipisicing elit.\n        </p>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by eduardo-amaro-maciel - Tags: card, scroll snap, dynamic */\n.scroll-1::-webkit-scrollbar {\n  width: 8px;\n  height: 8px;\n}\n\n.scroll-1::-webkit-scrollbar-thumb {\n  border-radius: 20px;\n  background: #888;\n}\n\n.container * {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n  color: #fff;\n}\n\n.container {\n  display: flex;\n  overflow-x: scroll;\n  padding: 24px;\n  width: 300px;\n  scroll-snap-type: x mandatory;\n  scroll-padding-top: 24px;\n  border-radius: 8px;\n  gap: 20px;\n}\n\n.container .card {\n  flex: 0 0 100%;\n  overflow: hidden;\n  border-radius: 8px;\n  background-color: #141414;\n  scroll-snap-align: start;\n}\n\n.card .card__image {\n  flex: 1;\n  height: 140px;\n}\n\n.card:nth-child(1) .card__image {\n  background-image: linear-gradient(\n      to right top,\n      #051937, \n      #004d7a, \n      #008793, \n      #00bf72, \n      #a8eb12\n  );\n}\n\n.card:nth-child(2) .card__image {\n  background-image: linear-gradient(\n    to right top, \n    #dc09a5, \n    #ce00b4, \n    #ba00c5, \n    #9c00d8, \n    #6f12eb\n  );\n}\n\n.card:nth-child(3) .card__image {\n  background-image: linear-gradient(\n    to right top, \n    #dc1009, \n    #e55f00, \n    #e49200, \n    #dac000, \n    #c7eb12\n  );\n}\n\n.card .card__content {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  padding: 20px;\n}\n\n.card .card__content .card__title {\n  font-size: 32px;\n  color: #fff;\n  text-transform: capitalize;\n}\n\n.card .card__content .card__describe {\n  color: #fff;\n  font-size: 16px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

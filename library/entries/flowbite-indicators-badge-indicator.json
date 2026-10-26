@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-indicators-badge-indicator",
+  "title": "Indicators: Badge indicator (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/indicators/#badge-indicator",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "indicator",
+    "indicators",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This example can be used to add an indicator inside of a badge component.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/indicators.md",
+  "code": "<ul role=\"list\" class=\"max-w-md divide-y divide-default\">\n    <li class=\"py-3 sm:py-4\">\n        <div class=\"flex items-center space-x-3 rtl:space-x-reverse\">\n            <div class=\"shrink-0\">\n                <img class=\"w-8 h-8 rounded-full\" src=\"/docs/images/people/profile-picture-5.jpg\" alt=\"Neil image\">\n            </div>\n            <div class=\"flex-1 min-w-0\">\n                <p class=\"text-sm font-semibold text-heading truncate\">\n                    Neil Sims\n                </p>\n                <p class=\"text-sm text-body truncate \">\n                    email@flowbite.com\n                </p>\n            </div>\n            <span class=\"inline-flex items-center bg-success-soft border border-success-subtle text-fg-success-strong text-xs font-medium px-1.5 py-0.5 rounded-sm\">\n                <span class=\"w-2 h-2 me-1 bg-success rounded-full\"></span>\n                Available\n            </span>\n        </div>\n    </li>\n    <li class=\"py-3 sm:py-4\">\n        <div class=\"flex items-center space-x-3 rtl:space-x-reverse\">\n            <div class=\"shrink-0\">\n                <img class=\"w-8 h-8 rounded-full\" src=\"/docs/images/people/profile-picture-4.jpg\" alt=\"Neil image\">\n            </div>\n            <div class=\"flex-1 min-w-0\">\n                <p class=\"text-sm font-semibold text-heading truncate\">\n                    Bonnie Green\n                </p>\n                <p class=\"text-sm text-body truncate \">\n                    email@flowbite.com\n                </p>\n            </div>\n            <span class=\"inline-flex items-center bg-danger-soft border border-danger-subtle text-fg-danger-strong text-xs font-medium px-1.5 py-0.5 rounded-sm\">\n                <span class=\"w-2 h-2 me-1 bg-danger rounded-full\"></span>\n                Unavailable\n            </span>\n        </div>\n    </li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

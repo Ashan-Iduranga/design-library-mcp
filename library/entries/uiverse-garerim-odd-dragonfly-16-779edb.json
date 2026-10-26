@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-garerim-odd-dragonfly-16-779edb",
+  "title": "Button by garerim (odd-dragonfly-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/garerim/odd-dragonfly-16",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By garerim on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/garerim_odd-dragonfly-16.html",
+  "code": "<button>Hover me</button>\n<style>\n/* From Uiverse.io by garerim - Tags: button */\nbutton {\n  z-index: 2;\n  display: block;\n  width: fit-content;\n  height: auto;\n  outline: none;\n  border: none;\n  background-color: inherit;\n  font-size: 24px;\n  font-weight: bold;\n  padding: 10px 20px;\n  position: relative;\n  cursor: pointer;\n}\n\nbutton::before {\n  content: \"\";\n  display: block;\n  width: 100%;\n  height: 100%;\n  z-index: 3;\n  position: absolute;\n  top: 0%;\n  left: 0%;\n  transform: scaleX(0.2) scaleY(0.5) translate(250%, 100%);\n  border-top: solid 2px #333;\n  border-left: solid 4px #333;\n  transition: all .4s ease-in-out;\n}\n\nbutton::after {\n  content: \"\";\n  display: block;\n  width: 100%;\n  height: 100%;\n  z-index: 3;\n  position: absolute;\n  top: 0;\n  left: 0;\n  transform: translate(-50%, -50%) scaleX(0.2) scaleY(0.5);\n  border-bottom: solid 2px #333;\n  border-right: solid 4px #333;\n  transition: all .4s ease-in-out;\n}\n\nbutton:hover::before {\n  transform: translate(0%, 0%) scaleX(1) scaleY(1);\n  border-top: solid 1px #333;\n  border-left: solid 1px #333;\n}\n\nbutton:hover::after {\n  transform: scaleX(1) scaleY(1) translate(0%, 0%);\n  border-bottom: solid 1px #333;\n  border-right: solid 1px #333;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "hyperui-marketing-contact-forms-2-dark",
+  "title": "Contact Forms: Base with triage (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/contact-forms",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "marketing",
+    "contact-forms",
+    "hyperui",
+    "input",
+    "inquiry",
+    "newsletter",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/contact-forms/2-dark.html",
+  "code": "<div class=\"p-6\">\n<form action=\"#\" class=\"mx-auto max-w-md space-y-4 rounded-lg border border-gray-300 bg-gray-100 p-6 dark:border-gray-600 dark:bg-gray-800\">\n<div>\n<label class=\"block text-sm font-medium text-gray-900 dark:text-white\" for=\"name\">\n          Name\n        </label>\n<input class=\"mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none dark:border-gray-600 dark:bg-gray-900 dark:text-white\" id=\"name\" placeholder=\"Your name\" type=\"text\"/>\n</div>\n<div>\n<label class=\"block text-sm font-medium text-gray-900 dark:text-white\" for=\"email\">\n          Email\n        </label>\n<input class=\"mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none dark:border-gray-600 dark:bg-gray-900 dark:text-white\" id=\"email\" placeholder=\"Your email\" type=\"email\"/>\n</div>\n<div>\n<label class=\"block text-sm font-medium text-gray-900 dark:text-white\" for=\"subject\">\n          Subject\n        </label>\n<select class=\"mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none dark:border-gray-600 dark:bg-gray-900 dark:text-white\" id=\"subject\">\n<option value=\"\">Select a subject</option>\n<option value=\"general-inquiry\">General Inquiry</option>\n<option value=\"support\">Support</option>\n<option value=\"feedback\">Feedback</option>\n</select>\n</div>\n<div>\n<label class=\"block text-sm font-medium text-gray-900 dark:text-white\" for=\"priority\">\n          Priority\n        </label>\n<select class=\"mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none dark:border-gray-600 dark:bg-gray-900 dark:text-white\" id=\"priority\">\n<option value=\"\">Select a priority</option>\n<option value=\"low\">Low</option>\n<option value=\"medium\">Medium</option>\n<option value=\"high\">High</option>\n</select>\n</div>\n<div>\n<label class=\"block text-sm font-medium text-gray-900 dark:text-white\" for=\"message\">\n          Message\n        </label>\n<textarea class=\"mt-1 w-full resize-none rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none dark:border-gray-600 dark:bg-gray-900 dark:text-white\" id=\"message\" placeholder=\"Your message\" rows=\"4\"></textarea>\n</div>\n<button class=\"block w-full rounded-lg border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-indigo-600 dark:hover:bg-indigo-700 dark:hover:text-white\" type=\"submit\">\n        Send Message\n      </button>\n</form>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

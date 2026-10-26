@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-adamsco51-moody-vampirebat-6-a0fb81",
+  "title": "Input by Adamsco51 (moody-vampirebat-6)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Adamsco51/moody-vampirebat-6",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple",
+    "click"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Adamsco51 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Adamsco51_moody-vampirebat-6.html",
+  "code": "<div class=\"container\">\n  <span class=\"bg-color\"></span>\n  <input placeholder=\"Search...\" class=\"input\" name=\"text\" type=\"text\" />\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    fill=\"none\"\n    viewBox=\"0 0 24 24\"\n    class=\"search icon\"\n  >\n    <g stroke-width=\"0\" id=\"SVGRepo_bgCarrier\"></g>\n    <g\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      id=\"SVGRepo_tracerCarrier\"\n    ></g>\n    <g id=\"SVGRepo_iconCarrier\">\n      <path\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n        stroke-width=\"2\"\n        stroke=\"#dedede\"\n        d=\"M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z\"\n      ></path>\n    </g>\n  </svg>\n  <button>\n    <svg\n      stroke=\"#ffffff\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      fill=\"none\"\n      viewBox=\"0 0 24.00 24.00\"\n      height=\"104px\"\n      width=\"104px\"\n      class=\"icon\"\n    >\n      <g stroke-width=\"0\" id=\"SVGRepo_bgCarrier\"></g>\n      <g\n        stroke-width=\"0.144\"\n        stroke=\"#CCCCCC\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n        id=\"SVGRepo_tracerCarrier\"\n      ></g>\n      <g id=\"SVGRepo_iconCarrier\">\n        <path\n          stroke-linejoin=\"round\"\n          stroke-linecap=\"round\"\n          stroke-width=\"1\"\n          stroke=\"#dedede\"\n          d=\"M3 4.6C3 4.03995 3 3.75992 3.10899 3.54601C3.20487 3.35785 3.35785 3.20487 3.54601 3.10899C3.75992 3 4.03995 3 4.6 3H19.4C19.9601 3 20.2401 3 20.454 3.10899C20.6422 3.20487 20.7951 3.35785 20.891 3.54601C21 3.75992 21 4.03995 21 4.6V6.33726C21 6.58185 21 6.70414 20.9724 6.81923C20.9479 6.92127 20.9075 7.01881 20.8526 7.10828C20.7908 7.2092 20.7043 7.29568 20.5314 7.46863L14.4686 13.5314C14.2957 13.7043 14.2092 13.7908 14.1474 13.8917C14.0925 13.9812 14.0521 14.0787 14.0276 14.1808C14 14.2959 14 14.4182 14 14.6627V17L10 21V14.6627C10 14.4182 10 14.2959 9.97237 14.1808C9.94787 14.0787 9.90747 13.9812 9.85264 13.8917C9.7908 13.7908 9.70432 13.7043 9.53137 13.5314L3.46863 7.46863C3.29568 7.29568 3.2092 7.2092 3.14736 7.10828C3.09253 7.01881 3.05213 6.92127 3.02763 6.81923C3 6.70414 3 6.58185 3 6.33726V4.6Z\"\n        ></path>\n      </g>\n    </svg>\n  </button>\n</div>\n\n<style>\n/* From Uiverse.io by Adamsco51  - Tags: simple, input, click */\n.container {\n  width: 300px;\n  height: 40px;\n  background: #000;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 16px;\n  padding: 2px;\n}\n\n.input {\n  flex: 1;\n  width: 100%;\n  height: 100%;\n  border: none;\n  outline: none;\n  padding-left: 55px;\n  padding-right: 65px;\n  border-radius: 12px;\n  background: transparent;\n  overflow: hidden;\n  font-size: 1.25rem;\n  color: #dedede;\n  font-weight: 500;\n  font-family: \"Lucida Sans\", \"Lucida Sans Regular\", \"Lucida Grande\",\n    \"Lucida Sans Unicode\", Geneva, Verdana, sans-serif;\n}\n\n.search {\n  position: absolute;\n  left: 0;\n  margin: 0 12px;\n  z-index: 99;\n  stroke: #fff;\n}\n\n.icon {\n  width: 32px;\n  height: 32px;\n  color: #fff;\n  cursor: pointer;\n}\n\nbutton {\n  position: absolute;\n  backdrop-filter: blur(8px);\n  background: transparent;\n  background-clip: border-box;\n  border: 1px solid #fff;\n  border-radius: 8px;\n  padding: 2px;\n  right: 0;\n  margin-right: 12px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  left: -25px;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  background: rgb(202, 241, 61);\n  z-index: -1;\n  opacity: 0.1;\n}\n\n.container::after {\n  content: \"\";\n  position: absolute;\n  right: -25px;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  background: rgb(202, 241, 61);\n  z-index: -1;\n  opacity: 0.1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

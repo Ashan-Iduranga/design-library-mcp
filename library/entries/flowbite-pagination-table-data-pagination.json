@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-pagination-table-data-pagination",
+  "title": "Pagination: Table data pagination (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/pagination/#table-data-pagination",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "pagination",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "You can use the following markup to show the number of data shown inside a table element and also the previous and next action buttons.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/pagination.md",
+  "code": "<div class=\"flex flex-col items-center\">\n  <!-- Help text -->\n  <span class=\"text-sm text-body\">\n      Showing <span class=\"font-semibold text-heading\">1</span> to <span class=\"font-semibold text-heading\">10</span> of <span class=\"font-semibold text-heading\">100</span> Entries\n  </span>\n  <!-- Buttons -->\n  <div class=\"inline-flex mt-4 -space-x-px\">\n    <!-- Previous Button -->\n    <button type=\"button\" class=\"inline-flex items-center text-body bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading shadow-xs font-medium leading-5 rounded-s-base text-sm px-3 py-2 focus:outline-none\">\n      Previous\n    </button>\n    <!-- Next Button -->\n    <button type=\"button\" class=\"inline-flex items-center text-body bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading shadow-xs font-medium leading-5 rounded-e-base text-sm px-3 py-2 focus:outline-none\">\n      Next\n    </button>\n  </div>\n</div>\n<div class=\"flex flex-col items-center\">\n  <!-- Help text -->\n  <span class=\"text-sm text-body\">\n      Showing <span class=\"font-semibold text-heading\">1</span> to <span class=\"font-semibold text-heading\">10</span> of <span class=\"font-semibold text-heading\">100</span> Entries\n  </span>\n  <!-- Buttons -->\n  <div class=\"inline-flex mt-4 -space-x-px\">\n    <!-- Previous Button -->\n    <button type=\"button\" class=\"inline-flex items-center text-body bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading shadow-xs font-medium leading-5 rounded-s-base text-sm px-4 py-2.5 focus:outline-none\">\n      Previous\n    </button>\n    <!-- Next Button -->\n    <button type=\"button\" class=\"inline-flex items-center text-body bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading shadow-xs font-medium leading-5 rounded-e-base text-sm px-4 py-2.5 focus:outline-none\">\n      Next\n    </button>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

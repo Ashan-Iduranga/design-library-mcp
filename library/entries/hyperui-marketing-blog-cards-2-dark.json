@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-marketing-blog-cards-2-dark",
+  "title": "Blog Cards: Floating image with title and excerpt (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/blog-cards",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "marketing",
+    "blog-cards",
+    "hyperui",
+    "blog",
+    "post",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/blog-cards/2-dark.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<article class=\"group\">\n<img alt=\"\" class=\"h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-50 dark:shadow-gray-700/25\" src=\"https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?auto=format&amp;fit=crop&amp;q=80&amp;w=1160\"/>\n<div class=\"p-4\">\n<a href=\"#\">\n<h3 class=\"text-lg font-medium text-gray-900 dark:text-white\">\n            Finding the Journey to Mordor\n          </h3>\n</a>\n<p class=\"mt-2 line-clamp-3 text-sm/relaxed text-gray-500 dark:text-gray-400\">\n          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus\n          pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis\n          quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius\n          atque dignissimos. Molestias explicabo corporis voluptatem?\n        </p>\n</div>\n</article>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

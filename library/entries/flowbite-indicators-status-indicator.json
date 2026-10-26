@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-indicators-status-indicator",
+  "title": "Indicators: Status indicator (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/indicators/#status-indicator",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "indicator",
+    "indicators",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a status indicator for the currently logged in user by showing red for offline and green for online.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/indicators.md",
+  "code": "<div class=\"relative me-4\">\n    <img class=\"w-10 h-10 rounded-full\" src=\"/docs/images/people/profile-picture-5.jpg\" alt=\"profile image\">\n    <span class=\"top-0 start-7 absolute w-3.5 h-3.5 bg-success border-2 border-buffer rounded-full\"></span>\n</div>\n<div class=\"relative\">\n    <img class=\"w-10 h-10 rounded-full\" src=\"/docs/images/people/profile-picture-5.jpg\" alt=\"profile image\">\n    <span class=\"top-0 start-7 absolute w-3.5 h-3.5 bg-danger border-2 border-buffer rounded-full\"></span>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

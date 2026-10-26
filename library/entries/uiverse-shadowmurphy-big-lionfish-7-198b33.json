@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-shadowmurphy-big-lionfish-7-198b33",
+  "title": "Loader by shadowmurphy (big-lionfish-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/shadowmurphy/big-lionfish-7",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "material-design",
+    "neumorphism",
+    "skeuomorphism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By shadowmurphy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/shadowmurphy_big-lionfish-7.html",
+  "code": "<main>\n\t<svg height=\"128px\" width=\"128px\" viewBox=\"0 0 128 128\" class=\"pl1\">\n\t\t<defs>\n\t\t\t<linearGradient y2=\"1\" x2=\"1\" y1=\"0\" x1=\"0\" id=\"pl-grad\">\n\t\t\t\t<stop stop-color=\"#000\" offset=\"0%\"></stop>\n\t\t\t\t<stop stop-color=\"#fff\" offset=\"100%\"></stop>\n\t\t\t</linearGradient>\n\t\t\t<mask id=\"pl-mask\">\n\t\t\t\t<rect fill=\"url(#pl-grad)\" height=\"128\" width=\"128\" y=\"0\" x=\"0\"></rect>\n\t\t\t</mask>\n\t\t</defs>\n\t\t<g fill=\"var(--primary)\">\n\t\t\t<g class=\"pl1__g\">\n\t\t\t\t<g transform=\"translate(20,20) rotate(0,44,44)\">\n\t\t\t\t\t<g class=\"pl1__rect-g\">\n\t\t\t\t\t\t<rect height=\"40\" width=\"40\" ry=\"8\" rx=\"8\" class=\"pl1__rect\"></rect>\n\t\t\t\t\t\t<rect transform=\"translate(0,48)\" height=\"40\" width=\"40\" ry=\"8\" rx=\"8\" class=\"pl1__rect\"></rect>\n\t\t\t\t\t</g>\n\t\t\t\t\t<g transform=\"rotate(180,44,44)\" class=\"pl1__rect-g\">\n\t\t\t\t\t\t<rect height=\"40\" width=\"40\" ry=\"8\" rx=\"8\" class=\"pl1__rect\"></rect>\n\t\t\t\t\t\t<rect transform=\"translate(0,48)\" height=\"40\" width=\"40\" ry=\"8\" rx=\"8\" class=\"pl1__rect\"></rect>\n\t\t\t\t\t</g>\n\t\t\t\t</g>\n\t\t\t</g>\n\t\t</g>\n\t\t<g mask=\"url(#pl-mask)\" fill=\"hsl(343,90%,50%)\">\n\t\t\t<g class=\"pl1__g\">\n\t\t\t\t<g transform=\"translate(20,20) rotate(0,44,44)\">\n\t\t\t\t\t<g class=\"pl1__rect-g\">\n\t\t\t\t\t\t<rect height=\"40\" width=\"40\" ry=\"8\" rx=\"8\" class=\"pl1__rect\"></rect>\n\t\t\t\t\t\t<rect transform=\"translate(0,48)\" height=\"40\" width=\"40\" ry=\"8\" rx=\"8\" class=\"pl1__rect\"></rect>\n\t\t\t\t\t</g>\n\t\t\t\t\t<g transform=\"rotate(180,44,44)\" class=\"pl1__rect-g\">\n\t\t\t\t\t\t<rect height=\"40\" width=\"40\" ry=\"8\" rx=\"8\" class=\"pl1__rect\"></rect>\n\t\t\t\t\t\t<rect transform=\"translate(0,48)\" height=\"40\" width=\"40\" ry=\"8\" rx=\"8\" class=\"pl1__rect\"></rect>\n\t\t\t\t\t</g>\n\t\t\t\t</g>\n\t\t\t</g>\n\t\t</g>\n\t</svg>\n</main>\n<style>\n/* From Uiverse.io by shadowmurphy - Tags: simple, material design, neumorphism, skeuomorphism, loader */\n.pl1 {\n  display: block;\n  width: 8em;\n  height: 8em;\n}\n\n.pl1__g,\n  .pl1__rect {\n  animation: pl1-a 1.5s cubic-bezier(0.65,0,0.35,1) infinite;\n}\n\n.pl1__g {\n  transform-origin: 64px 64px;\n}\n\n.pl1__rect:first-child {\n  animation-name: pl1-b;\n}\n\n.pl1__rect:nth-child(2) {\n  animation-name: pl1-c;\n}\n\n@keyframes pl1-a {\n  from {\n    transform: rotate(0);\n  }\n\n  80%,\n      to {\n    animation-timing-function: steps(1,start);\n    transform: rotate(90deg);\n  }\n}\n\n@keyframes pl1-b {\n  from {\n    animation-timing-function: cubic-bezier(0.33,0,0.67,0);\n    width: 40px;\n    height: 40px;\n  }\n\n  20% {\n    animation-timing-function: steps(1,start);\n    width: 40px;\n    height: 0;\n  }\n\n  60% {\n    animation-timing-function: cubic-bezier(0.65,0,0.35,1);\n    width: 0;\n    height: 40px;\n  }\n\n  80%,\n      to {\n    width: 40px;\n    height: 40px;\n  }\n}\n\n@keyframes pl1-c {\n  from {\n    animation-timing-function: cubic-bezier(0.33,0,0.67,0);\n    width: 40px;\n    height: 40px;\n    transform: translate(0,48px);\n  }\n\n  20% {\n    animation-timing-function: cubic-bezier(0.33,1,0.67,1);\n    width: 40px;\n    height: 88px;\n    transform: translate(0,0);\n  }\n\n  40% {\n    animation-timing-function: cubic-bezier(0.33,0,0.67,0);\n    width: 40px;\n    height: 40px;\n    transform: translate(0,0);\n  }\n\n  60% {\n    animation-timing-function: cubic-bezier(0.33,1,0.67,1);\n    width: 88px;\n    height: 40px;\n    transform: translate(0,0);\n  }\n\n  80%,\n      to {\n    width: 40px;\n    height: 40px;\n    transform: translate(48px,0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

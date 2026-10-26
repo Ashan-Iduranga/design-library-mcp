@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jack17432-shaggy-earwig-15-62cf01",
+  "title": "Checkbox by Jack17432 (shaggy-earwig-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Jack17432/shaggy-earwig-15",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "glassmorphism",
+    "hamburger",
+    "shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Jack17432 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Jack17432_shaggy-earwig-15.html",
+  "code": "<label for=\"check\" class=\"menuButton\">\n    <input id=\"check\" type=\"checkbox\">\n    <span class=\"top\"></span>\n    <span class=\"mid\"></span>\n    <span class=\"bot\"></span>\n</label>\n<style>\n/* From Uiverse.io by Jack17432 - Tags: glassmorphism, checkbox, hamburger, shadow */\n/* \nButton insperation by @ke1221\nMenu icon transofmation insperation by @Ali-Tahmazi99\n*/\n.menuButton {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  gap: 13%;\n  color: #090909;\n  width: 3.5em;\n  height: 3.5em;\n  border-radius: 0.5em;\n  background: #e8e8e8;\n  border: 1px solid #e8e8e8;\n  transition: all .3s;\n  box-shadow: 6px 6px 12px #c5c5c5,\n             -6px -6px 12px #ffffff;\n}\n\n.menuButton:hover {\n  border: 1px solid white;\n}\n\n.menuButton:active {\n  color: #666;\n  box-shadow: inset 4px 4px 12px #c5c5c5,\n             inset -4px -4px 12px #ffffff;\n}\n\ninput[type = \"checkbox\"] {\n  -webkit-appearance: none;\n  display: none;\n  visibility: hidden;\n}\n\n.menuButton span {\n  width: 30px;\n  height: 4px;\n  background: #131313;\n  border-radius: 100px;\n  transition: 0.3s ease;\n}\n\ninput[type]:checked ~ span.top {\n  transform: translateY(290%)rotate(45deg);\n  width: 40px;\n}\n\ninput[type]:checked ~ span.bot {\n  transform: translateY(-270%) rotate(-45deg);\n  width: 40px;\n  box-shadow: 0 0 10px #495057;\n}\n\ninput[type]:checked ~ span.mid {\n  transform: translateX(-20px);\n  opacity: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

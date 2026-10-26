@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-yaya12085-gentle-robin-36-c0dcc6",
+  "title": "Loader by Yaya12085 (gentle-robin-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/gentle-robin-36",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "moon"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Yaya12085_gentle-robin-36.html",
+  "code": "<div class=\"container\">\n<div class=\"loader\">\n<div class=\"shadow\"></div>\n</div>\n</div>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: loader, moon */\n.container {\n  background-color: #212121;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.loader {\n  height: 100px;\n  width: 100px;\n  border-radius: 50%;\n  background-color: #e8e8e8;\n  border: 4px solid #e8e8e8;\n  box-shadow: 0 0 3px #e8e8e8;\n  filter: blur(.4px);\n}\n\n.shadow {\n  height: 120px;\n  width: 120px;\n  border-radius: 50%;\n  background-color: #212121;\n  top: -5px;\n  left: 0;\n  animation: animate 3s infinite 1.5s;\n}\n\n@keyframes animate {\n  0% {\n    transform: translateX(150px);\n    background-color: #212121;\n  }\n\n  50% {\n    transform: translateX(-10px);\n    background-color: #212121;\n  }\n\n  100% {\n    transform: translateX(-170px);\n    background-color: #212121;\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

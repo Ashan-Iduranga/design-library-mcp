@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-yaya12085-hot-swan-8-2e3e6e",
+  "title": "Card by Yaya12085 (hot-swan-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/hot-swan-8",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "green",
+    "animated",
+    "colorful"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Yaya12085_hot-swan-8.html",
+  "code": "<div class=\"one-div\"></div>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: green, card, animated, colorful */\n.one-div {\n  position: relative;\n  width: 200px;\n  height: 200px;\n  background: repeating-radial-gradient(circle at 50%, rgba(10, 222, 61,.4), rgba(10, 222, 61,.4) 2px, #000  2px, #000 12px);\n  border-radius: 50%;\n  border: 1px dotted rgba(10, 222, 61,.4);\n  overflow: hidden;\n}\n\n.one-div::before {\n  position: absolute;\n  content: \"\";\n  top: calc(100% - 25%);\n  left: 50%;\n  transform-origin: 5px 0;\n  transform: translate(-50%, -50%);\n  width: 10px;\n  height: 50%;\n  border-radius: 10px;\n  filter: blur(3px);\n  background-image: linear-gradient(to left, rgba(10, 222, 61, .3) 50% , rgb(10, 222, 61) 50%);\n  opacity: .7;\n  animation: radar-animation 2.5s infinite linear;\n}\n\n.one-div::after {\n  content: \"\";\n  position: absolute;\n  bottom: 24%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 6px;\n  height: 6px;\n  border-radius: 3px;\n  background-color: rgba(10, 222, 61,1);\n  animation: dot-animation 2.5s infinite ease-in-out;\n}\n\n@keyframes radar-animation {\n  0% {\n    transform: translate(-50%, -50%) rotate(0);\n  }\n\n  100% {\n    transform: translate(-50%, -50%) rotate(360deg);\n  }\n}\n\n@keyframes dot-animation {\n  50% {\n    opacity: 0;\n    transform: translate(-50%, -50%) scale(2);\n  }\n\n  100% {\n    opacity: 0;\n    transform: translate(-50%, -50%) scale(1);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-guilhermeyohan-yellow-badger-63-f777ae",
+  "title": "Form by guilhermeyohan (yellow-badger-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/guilhermeyohan/yellow-badger-63",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By guilhermeyohan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/guilhermeyohan_yellow-badger-63.html",
+  "code": "<form class=\"form\">\n<label class=\"lb\" for=\"nome\">Name:</label>\n      <input name=\"nome\" id=\"nome\" type=\"text\" class=\"infos\">\n\n      <label for=\"email\" class=\"lb\">E-mail:</label>\n      <input name=\"email\" id=\"email\" type=\"email\" class=\"infos\">\n\n      <label for=\"data\" class=\"lb\">Date:</label>\n      <input name=\"data\" id=\"data\" type=\"date\" class=\"infos\">\n\n      <button id=\"send\" type=\"submit\">Send</button>\n      <button id=\"limpar\" type=\"reset\">Clear </button>\n    </form>\n<style>\n/* From Uiverse.io by guilhermeyohan - Tags: form */\nform {\n  background-color: #444444;\n  border-radius: 10px;\n  padding: 20px;\n  width: 300px;\n  margin: 50px auto;\n}\n\n.lb {\n  display: block;\n  margin-bottom: 10px;\n  font-size: 18px;\n  font-weight: bold;\n}\n\n.infos[type=\"text\"], input[type=\"email\"], input[type=\"date\"] {\n  width: 100%;\n  padding: 10px;\n  font-size: 16px;\n  border-radius: 5px;\n  border: none;\n  margin-bottom: 20px;\n  background-color: #333333;\n  color: white;\n}\n\n#send {\n  --glow-color: rgb(176, 255, 189);\n  --glow-spread-color: rgba(123, 255, 160, 0.781);\n  --enhanced-glow-color: rgb(182, 175, 71);\n  --btn-color: rgba(13, 241, 21, 0.508);\n  border: .25em solid var(--glow-color);\n  padding: 1em 2em;\n  color: var(--glow-color);\n  font-size: 14px;\n  font-weight: bold;\n  background-color: var(--btn-color);\n  border-radius: 1em;\n  outline: none;\n  box-shadow: 0 0 1em .25em var(--glow-color),\n        0 0 4em 1em var(--glow-spread-color),\n        inset 0 0 .05em .25em var(--glow-color);\n  text-shadow: 0 0 .5em var(--glow-color);\n  position: relative;\n  transition: all 0.3s;\n}\n\n#send::after {\n  pointer-events: none;\n  content: \"\";\n  position: absolute;\n  top: 120%;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  background-color: var(--glow-spread-color);\n  filter: blur(2em);\n  opacity: .7;\n  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);\n}\n\n#send:hover {\n  color: var(--btn-color);\n  background-color: var(--glow-color);\n  box-shadow: 0 0 1em .25em var(--glow-color),\n        0 0 4em 2em var(--glow-spread-color),\n        inset 0 0 .75em .25em var(--glow-color);\n}\n\n#send:active {\n  box-shadow: 0 0 0.6em .25em var(--glow-color),\n        0 0 2.5em 2em var(--glow-spread-color),\n        inset 0 0 .5em .25em var(--glow-color);\n}\n\n#limpar {\n  --glow-color: rgb(255, 176, 176);\n  --glow-spread-color: rgba(255, 123, 123, 0.781);\n  --enhanced-glow-color: rgb(182, 175, 71);\n  --btn-color: rgba(241, 13, 13, 0.508);\n  border: .25em solid var(--glow-color);\n  padding: 1em 2em;\n  color: var(--glow-color);\n  font-size: 14px;\n  font-weight: bold;\n  background-color: var(--btn-color);\n  border-radius: 1em;\n  outline: none;\n  box-shadow: 0 0 1em .25em var(--glow-color),\n        0 0 4em 1em var(--glow-spread-color),\n        inset 0 0 .05em .25em var(--glow-color);\n  text-shadow: 0 0 .5em var(--glow-color);\n  position: relative;\n  transition: all 0.3s;\n}\n\n#limpar::after {\n  pointer-events: none;\n  content: \"\";\n  position: absolute;\n  top: 120%;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  background-color: var(--glow-spread-color);\n  filter: blur(2em);\n  opacity: .7;\n  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);\n}\n\n#limpar:hover {\n  color: var(--btn-color);\n  background-color: var(--glow-color);\n  box-shadow: 0 0 1em .25em var(--glow-color),\n        0 0 4em 2em var(--glow-spread-color),\n        inset 0 0 .75em .25em var(--glow-color);\n}\n\n#limpar:active {\n  box-shadow: 0 0 0.6em .25em var(--glow-color),\n        0 0 2.5em 2em var(--glow-spread-color),\n        inset 0 0 .5em .25em var(--glow-color);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

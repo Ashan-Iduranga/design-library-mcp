@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vinodjangid07-lucky-mole-65-5b02f9",
+  "title": "Toggle by vinodjangid07 (lucky-mole-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/lucky-mole-65",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "skeuomorphism",
+    "switch",
+    "metal"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/vinodjangid07_lucky-mole-65.html",
+  "code": "<input id=\"checkboxInput\" type=\"checkbox\">\n    <label class=\"toggleSwitch\" for=\"checkboxInput\">\n    </label>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: skeuomorphism, switch, metal */\n/* To hide the checkbox */\n#checkboxInput {\n  display: none;\n}\n\n.toggleSwitch {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  width: 80px;\n  height: 40px;\n  background-color: rgb(199, 199, 199);\n  border-radius: 20px;\n  cursor: pointer;\n  transition-duration: .3s;\n}\n\n.toggleSwitch::after {\n  content: \"\";\n  position: absolute;\n  height: 40px;\n  width: 40px;\n  left: 0px;\n  background: conic-gradient(rgb(104, 104, 104),white,rgb(104, 104, 104),white,rgb(104, 104, 104));\n  border-radius: 50%;\n  transition-duration: .3s;\n  box-shadow: 5px 2px 7px rgba(8, 8, 8, 0.308);\n}\n\n#checkboxInput:checked+.toggleSwitch::after {\n  transform: translateX(100%);\n  transition-duration: .3s;\n}\n/* Switch background change */\n#checkboxInput:checked+.toggleSwitch {\n  background-color: rgb(153, 197, 151);\n  transition-duration: .3s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-akaspidey01-brown-quail-36-bdc1bb",
+  "title": "Button by AKAspidey01 (brown-quail-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AKAspidey01/brown-quail-36",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "animation",
+    "#button",
+    "button-hover-effect"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AKAspidey01 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/AKAspidey01_brown-quail-36.html",
+  "code": "<!-- From Uiverse.io by AKAspidey01  - Tags: simple, animation, button, #button, tailwind, button hover effect  -->\n<button\n  class=\"relative border-2 border-black group hover:border-green-500 w-12 h-12 duration-500 overflow-hidden\"\n  type=\"button\"\n>\n  <p\n    class=\"font-Manrope text-3xl h-full w-full flex items-center justify-center text-black duration-500 relative z-10 group-hover:scale-0\"\n  >\n    ×\n  </p>\n  <span\n    class=\"absolute w-full h-full bg-green-500 rotate-45 group-hover:top-9 duration-500 top-12 left-0\"\n  ></span>\n  <span\n    class=\"absolute w-full h-full bg-green-500 rotate-45 top-0 group-hover:left-9 duration-500 left-12\"\n  ></span>\n  <span\n    class=\"absolute w-full h-full bg-green-500 rotate-45 top-0 group-hover:right-9 duration-500 right-12\"\n  ></span>\n  <span\n    class=\"absolute w-full h-full bg-green-500 rotate-45 group-hover:bottom-9 duration-500 bottom-12 right-0\"\n  ></span>\n</button>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-abrahamcalsin-breezy-panther-14-cc7637",
+  "title": "Loader by abrahamcalsin (breezy-panther-14)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/abrahamcalsin/breezy-panther-14",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By abrahamcalsin on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/abrahamcalsin_breezy-panther-14.html",
+  "code": "<div class=\"loaderRectangle\">\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n</div>\n<style>\n/* From Uiverse.io by abrahamcalsin - Tags: loader */\n.loaderRectangle {\n display: flex;\n justify-content: center;\n align-items: center;\n gap: 0 3px;\n}\n\n.loaderRectangle div {\n width: 10px;\n height: 16px;\n animation: .9s ease-in-out infinite;\n background: #183153;\n box-shadow: 0 0 20px rgba(18, 31, 53, 0.3);\n}\n\n.loaderRectangle div:nth-child(1) {\n animation-name: rectangleOneAnim;\n animation-delay: 1s;\n}\n\n@keyframes rectangleOneAnim {\n 0% {\n  height: 15px;\n }\n\n 40% {\n  height: 30px;\n }\n\n 100% {\n  height: 15px;\n }\n}\n\n.loaderRectangle div:nth-child(2) {\n animation-name: rectangleTwoAnim;\n animation-delay: 1.1s;\n}\n\n@keyframes rectangleTwoAnim {\n 0% {\n  height: 15px;\n }\n\n 40% {\n  height: 40px;\n }\n\n 100% {\n  height: 15px;\n }\n}\n\n.loaderRectangle div:nth-child(3) {\n animation-name: rectangleThreeAnim;\n animation-delay: 1.2s;\n}\n\n@keyframes rectangleThreeAnim {\n 0% {\n  height: 15px;\n }\n\n 40% {\n  height: 50px;\n }\n\n 100% {\n  height: 15px;\n }\n}\n\n.loaderRectangle div:nth-child(4) {\n animation-name: rectangleFourAnim;\n animation-delay: 1.3s;\n}\n\n@keyframes rectangleFourAnim {\n 0% {\n  height: 15px;\n }\n\n 40% {\n  height: 40px;\n }\n\n 100% {\n  height: 15px;\n }\n}\n\n.loaderRectangle div:nth-child(5) {\n animation-name: rectangleFiveAnim;\n animation-delay: 1.4s;\n}\n\n@keyframes rectangleFiveAnim {\n 0% {\n  height: 15px;\n }\n\n 40% {\n  height: 30px;\n }\n\n 100% {\n  height: 15px;\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

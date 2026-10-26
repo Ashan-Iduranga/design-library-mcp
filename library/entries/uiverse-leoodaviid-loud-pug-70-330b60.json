@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-leoodaviid-loud-pug-70-330b60",
+  "title": "Button by Leoodaviid (loud-pug-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Leoodaviid/loud-pug-70",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Leoodaviid on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Leoodaviid_loud-pug-70.html",
+  "code": "<button class=\"loading\">\n  <p>Loading...</p>\n</button>\n<style>\n/* From Uiverse.io by Leoodaviid - Tags: button */\nbutton {\n  position: relative;\n  overflow: hidden;\n  padding: 1rem 2.5rem 1rem 2.5rem;\n  border: 0;\n  border-radius: 2rem;\n  font-size: 18px;\n  font-weight: 500;\n  background: transparent;\n  color: #1d1d1d;\n}\n\nbutton:hover {\n  cursor: wait;\n}\n\nbutton > p {\n  position: relative;\n  z-index: 3;\n}\n\nbutton::before,\nbutton::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: -100%;\n  width: 300%;\n  height: 100%;\n  opacity: 0;\n}\n\nbutton::before {\n  background: #79efff repeating-linear-gradient(50deg, transparent, transparent 10px, #71e0ef 10px, #71e0ef 20px);\n}\n\nbutton::after {\n  z-index: 2;\n  background: linear-gradient(#79efff 30%, transparent 100%);\n}\n\nbutton.loading::before,\nbutton.loading::after {\n  opacity: 1;\n}\n\n@keyframes loading_49100 {\n  0% {\n    translate: 25px 0;\n  }\n\n  100% {\n    translate: -30px 0;\n  }\n}\n\nbutton.loading::before {\n  animation: loading_49100 0.6s infinite linear;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bhargavpatel1244-wise-shrimp-88-9d4fc3",
+  "title": "Button by BHARGAVPATEL1244 (wise-shrimp-88)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/BHARGAVPATEL1244/wise-shrimp-88",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By BHARGAVPATEL1244 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/BHARGAVPATEL1244_wise-shrimp-88.html",
+  "code": "<button class=\"space-button\">\n  <span>Explore space</span>\n  <svg viewBox=\"0 0 24 24\">\n    <path d=\"M5.5 16.5l5-5-5-5\"></path>\n    <path d=\"M11 11h8v2h-8z\"></path>\n    <path d=\"M16.5 7.5l5-5-5-5\"></path>\n    <path d=\"M19 4v8h-2v-8z\"></path>\n  </svg>\n</button>\n\n<style>\n/* From Uiverse.io by BHARGAVPATEL1244 - Tags: button */\n.space-button {\n  display: inline-block;\n  background-color: #111;\n  color: #fff;\n  border: none;\n  border-radius: 30px;\n  padding: 12px 32px;\n  font-size: 1.2em;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  position: relative;\n  overflow: hidden;\n  cursor: pointer;\n  transition: background-color 0.3s ease;\n}\n\n.space-button span {\n  position: relative;\n  z-index: 1;\n}\n\n.space-button svg {\n  position: absolute;\n  top: 50%;\n  right: 12px;\n  transform: translateY(-50%);\n  width: 16px;\n  height: 16px;\n  fill: #fff;\n  transition: transform 0.3s ease;\n}\n\n.space-button:hover {\n  background-color: #f8f8f8;\n  color: #111;\n}\n\n.space-button:hover svg {\n  transform: translateX(4px);\n}\n\n.space-button:active {\n  background-color: #f94b4c;\n  color: #fff;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

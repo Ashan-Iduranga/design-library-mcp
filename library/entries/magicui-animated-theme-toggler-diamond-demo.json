@@ -1,0 +1,38 @@
+{
+  "id": "magicui-animated-theme-toggler-diamond-demo",
+  "title": "Animated Theme Toggler — Diamond (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/animated-theme-toggler-diamond",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "animated",
+    "theme",
+    "toggler",
+    "diamond",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Theme transition with a diamond-shaped clip reveal.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/animated-theme-toggler-diamond-demo.tsx",
+  "code": "import { AnimatedThemeToggler } from \"@/registry/magicui/animated-theme-toggler\"\n\nexport default function AnimatedThemeTogglerDiamondDemo() {\n  return (\n    <div className=\"flex justify-center p-6\">\n      <AnimatedThemeToggler variant=\"diamond\" />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

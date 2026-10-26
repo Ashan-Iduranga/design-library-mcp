@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-alexreyes091-soft-crab-61-9096d1",
+  "title": "Button by alexreyes091 (soft-crab-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexreyes091/soft-crab-61",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexreyes091 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/alexreyes091_soft-crab-61.html",
+  "code": "<button class=\"btn\"> Button\n</button>\n<style>\n/* From Uiverse.io by alexreyes091 - Tags: button */\n.btn {\n padding: 1rem 2rem;\n font-weight: 700;\n background: rgb(255, 255, 255);\n color: blueviolet;\n border-radius: .5rem;\n border-bottom: 2px solid blueviolet;\n border-right: 2px solid blueviolet;\n border-top: 2px solid white;\n border-left: 2px solid white;\n transition-duration: 1s;\n transition-property: border-top, \n    border-left, \n    border-bottom,\n    border-right,\n    box-shadow;\n}\n\n.btn:hover {\n border-top: 2px solid blueviolet;\n border-left: 2px solid blueviolet;\n border-bottom: 2px solid rgb(238, 103, 238);\n border-right: 2px solid rgb(238, 103, 238);\n box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

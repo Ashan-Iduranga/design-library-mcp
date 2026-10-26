@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-item-demo",
+  "title": "Item Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/item-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "item",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A versatile component for displaying content with media, title, description, and actions.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/item-demo.tsx",
+  "code": "import { BadgeCheckIcon, ChevronRightIcon } from \"lucide-react\"\n\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\nimport {\n  Item,\n  ItemActions,\n  ItemContent,\n  ItemDescription,\n  ItemMedia,\n  ItemTitle,\n} from \"@/registry/new-york-v4/ui/item\"\n\nexport default function ItemDemo() {\n  return (\n    <div className=\"flex w-full max-w-md flex-col gap-6\">\n      <Item variant=\"outline\">\n        <ItemContent>\n          <ItemTitle>Basic Item</ItemTitle>\n          <ItemDescription>\n            A simple item with title and description.\n          </ItemDescription>\n        </ItemContent>\n        <ItemActions>\n          <Button variant=\"outline\" size=\"sm\">\n            Action\n          </Button>\n        </ItemActions>\n      </Item>\n      <Item variant=\"outline\" size=\"sm\" asChild>\n        <a href=\"#\">\n          <ItemMedia>\n            <BadgeCheckIcon className=\"size-5\" />\n          </ItemMedia>\n          <ItemContent>\n            <ItemTitle>Your profile has been verified.</ItemTitle>\n          </ItemContent>\n          <ItemActions>\n            <ChevronRightIcon className=\"size-4\" />\n          </ItemActions>\n        </a>\n      </Item>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-mikeandrewdesigner-fuzzy-duck-40-8e73a0",
+  "title": "Pattern by MikeAndrewDesigner (fuzzy-duck-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MikeAndrewDesigner/fuzzy-duck-40",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "wave",
+    "css",
+    "css-effect",
+    "bg"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MikeAndrewDesigner on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/MikeAndrewDesigner_fuzzy-duck-40.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by MikeAndrewDesigner  - Tags: wave, css, css effect, pattern, bg */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 60px;\n  --c1: #180a22;\n  --c2: #5b42f3;\n  --_g: radial-gradient(\n    25% 25% at 25% 25%,\n    var(--c1) 99%,\n    rgba(0, 0, 0, 0) 101%\n  );\n  background: var(--_g) var(--s) var(--s) / calc(2 * var(--s))\n      calc(2 * var(--s)),\n    var(--_g) 0 0 / calc(2 * var(--s)) calc(2 * var(--s)),\n    radial-gradient(50% 50%, var(--c2) 98%, rgba(0, 0, 0, 0)) 0 0 / var(--s)\n      var(--s),\n    repeating-conic-gradient(var(--c2) 0 50%, var(--c1) 0 100%)\n      calc(0.5 * var(--s)) 0 / calc(2 * var(--s)) var(--s);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-cybercom682-slippery-bulldog-47-9e6bfb",
+  "title": "Loader by Cybercom682 (slippery-bulldog-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cybercom682/slippery-bulldog-47",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "magnet"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cybercom682 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Cybercom682_slippery-bulldog-47.html",
+  "code": "<div class=\"loader\">\n  <div class=\"magnetism\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by Cybercom682  - Tags: animation, loader, magnet */\n.loader {\n  position: relative;\n  background-color: red;\n  height: 40px;\n  width: 10px;\n  border-radius: 6px 0px 0px 6px;\n  animation: rotate 5s infinite;\n}\n.magnetism {\n  position: absolute;\n  color: rgb(0, 151, 252);\n  bottom: 0;\n  width: 80px;\n  left: 0%;\n  height: 40px;\n  border: solid 2px currentColor;\n  border-color: currentColor transparent transparent transparent;\n  border-radius: 50%;\n  transform: rotate(90deg);\n  animation: go 0.5s ease-in-out infinite;\n}\n\n.loader::before {\n  content: \"\";\n  left: 10px;\n  position: absolute;\n  background: rgb(255, 0, 0);\n  background: linear-gradient(\n    90deg,\n    rgba(255, 0, 0, 1) 0%,\n    rgba(255, 0, 0, 1) 50%,\n    rgba(158, 158, 158, 1) 50%,\n    rgba(184, 184, 184, 1) 100%\n  );\n  height: 10px;\n  width: 20px;\n}\n.loader::after {\n  content: \"\";\n  left: 10px;\n  position: absolute;\n  bottom: 0;\n  background: rgb(255, 0, 0);\n  background: linear-gradient(\n    90deg,\n    rgba(255, 0, 0, 1) 0%,\n    rgba(255, 0, 0, 1) 50%,\n    rgba(158, 158, 158, 1) 50%,\n    rgba(184, 184, 184, 1) 100%\n  );\n  height: 10px;\n  width: 20px;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(-30deg);\n  }\n  50% {\n    transform: rotate(30deg);\n  }\n  100% {\n    transform: rotate(-30deg);\n  }\n}\n\n@keyframes go {\n  0% {\n    left: 0%;\n    width: 30px;\n    opacity: 1;\n  }\n  50% {\n    left: 100%;\n    width: 60px;\n    opacity: 0.5;\n  }\n  100% {\n    width: 90px;\n    left: 200%;\n    opacity: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

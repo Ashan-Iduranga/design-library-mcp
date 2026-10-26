@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-select-size-attribute",
+  "title": "Select: Size attribute (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/select/#size-attribute",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "select",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the size attribute for the select component to specify the number of visible options in the list.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/select.md",
+  "code": "<form class=\"max-w-sm mx-auto\">\n  <label for=\"years\" class=\"block mb-2.5 text-sm font-medium text-heading\">Select an option</label>\n  <select id=\"years\" size=\"5\" class=\"block w-full bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand px-3 py-2.5 shadow-xs placeholder:text-body\">\n    <option>2016</option>\n    <option>2017</option>\n    <option>2018</option>\n    <option>2019</option>\n    <option>2020</option>\n    <option>2021</option>\n    <option>2022</option>\n  </select>\n</form>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

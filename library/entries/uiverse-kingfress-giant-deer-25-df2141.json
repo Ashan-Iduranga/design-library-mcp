@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-kingfress-giant-deer-25-df2141",
+  "title": "Button by KINGFRESS (giant-deer-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KINGFRESS/giant-deer-25",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KINGFRESS on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/KINGFRESS_giant-deer-25.html",
+  "code": "<button>\n  <span class=\"span-mother\">\n      <span>B</span>\n      <span>u</span>\n      <span>t</span>\n      <span>t</span>\n      <span>o</span>\n      <span>n</span>\n  </span>\n  <span class=\"span-mother2\">\n      <span>B</span>\n      <span>u</span>\n      <span>t</span>\n      <span>t</span>\n      <span>o</span>\n      <span>n</span>\n  </span>\n</button>\n<style>\n/* From Uiverse.io by KINGFRESS - Tags: button */\nbutton {\n  font-weight: bold;\n  color: white;\n  border-radius: 2rem;\n  width: 95.02px;\n  height: 42.66px;\n  border: none;\n  background-color: #3653F8;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\nbutton .span-mother {\n  display: flex;\n  overflow: hidden;\n}\n\nbutton:hover .span-mother {\n  position: absolute;\n}\n\nbutton:hover .span-mother span {\n  transform: translateY(1.2em);\n}\n\nbutton .span-mother span:nth-child(1) {\n  transition: .2s;\n}\n\nbutton .span-mother span:nth-child(2) {\n  transition: .3s;\n}\n\nbutton .span-mother span:nth-child(3) {\n  transition: .4s;\n}\n\nbutton .span-mother span:nth-child(4) {\n  transition: .5s;\n}\n\nbutton .span-mother span:nth-child(5) {\n  transition: .6s;\n}\n\nbutton .span-mother span:nth-child(6) {\n  transition: .7s;\n}\n\nbutton .span-mother2 {\n  display: flex;\n  position: absolute;\n  overflow: hidden;\n}\n\nbutton .span-mother2 span {\n  transform: translateY(-1.2em);\n}\n\nbutton:hover .span-mother2 span {\n  transform: translateY(0);\n}\n\nbutton .span-mother2 span {\n  transition: .2s;\n}\n\nbutton .span-mother2 span:nth-child(2) {\n  transition: .3s;\n}\n\nbutton .span-mother2 span:nth-child(3) {\n  transition: .4s;\n}\n\nbutton .span-mother2 span:nth-child(4) {\n  transition: .5s;\n}\n\nbutton .span-mother2 span:nth-child(5) {\n  transition: .6s;\n}\n\nbutton .span-mother2 span:nth-child(6) {\n  transition: .7s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

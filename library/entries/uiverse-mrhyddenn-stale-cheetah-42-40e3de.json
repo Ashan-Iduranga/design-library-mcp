@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-stale-cheetah-42-40e3de",
+  "title": "Button by mrhyddenn (stale-cheetah-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/stale-cheetah-42",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mrhyddenn_stale-cheetah-42.html",
+  "code": "<button>\n    Button\n</button>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: button */\nbutton {\n  position: relative;\n  padding: 10px 20px;\n  border-radius: 7px;\n  border: 1px solid rgb(61, 106, 255);\n  font-size: 14px;\n  text-transform: uppercase;\n  font-weight: 600;\n  letter-spacing: 2px;\n  background: transparent;\n  color: #fff;\n  overflow: hidden;\n  box-shadow: 0 0 0 0 transparent;\n  -webkit-transition: all 0.2s ease-in;\n  -moz-transition: all 0.2s ease-in;\n  transition: all 0.2s ease-in;\n}\n\nbutton:hover {\n  background: rgb(61, 106, 255);\n  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);\n  -webkit-transition: all 0.2s ease-out;\n  -moz-transition: all 0.2s ease-out;\n  transition: all 0.2s ease-out;\n}\n\nbutton:hover::before {\n  -webkit-animation: sh02 0.5s 0s linear;\n  -moz-animation: sh02 0.5s 0s linear;\n  animation: sh02 0.5s 0s linear;\n}\n\nbutton::before {\n  content: '';\n  display: block;\n  width: 0px;\n  height: 86%;\n  position: absolute;\n  top: 7%;\n  left: 0%;\n  opacity: 0;\n  background: #fff;\n  box-shadow: 0 0 50px 30px #fff;\n  -webkit-transform: skewX(-20deg);\n  -moz-transform: skewX(-20deg);\n  -ms-transform: skewX(-20deg);\n  -o-transform: skewX(-20deg);\n  transform: skewX(-20deg);\n}\n\n@keyframes sh02 {\n  from {\n    opacity: 0;\n    left: 0%;\n  }\n\n  50% {\n    opacity: 1;\n  }\n\n  to {\n    opacity: 0;\n    left: 100%;\n  }\n}\n\nbutton:active {\n  box-shadow: 0 0 0 0 transparent;\n  -webkit-transition: box-shadow 0.2s ease-in;\n  -moz-transition: box-shadow 0.2s ease-in;\n  transition: box-shadow 0.2s ease-in;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-marketing-banners-1-dark",
+  "title": "Banners: Center (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/banners",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "marketing",
+    "banners",
+    "hyperui",
+    "hero",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/banners/1-dark.html",
+  "code": "<section class=\"bg-white lg:grid lg:h-screen lg:place-content-center dark:bg-gray-900\">\n<div class=\"mx-auto w-screen max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32\">\n<div class=\"mx-auto max-w-prose text-center\">\n<h1 class=\"text-4xl font-bold text-gray-900 sm:text-5xl dark:text-white\">\n            Understand user flow and\n            <strong class=\"text-indigo-600\"> increase </strong>\n            conversions\n          </h1>\n<p class=\"mt-4 text-base text-pretty text-gray-700 sm:text-lg/relaxed dark:text-gray-200\">\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nisi. Natus, provident\n            accusamus impedit minima harum corporis iusto.\n          </p>\n<div class=\"mt-4 flex justify-center gap-4 sm:mt-6\">\n<a class=\"inline-block rounded border border-indigo-600 bg-indigo-600 px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-700\" href=\"#\">\n              Get Started\n            </a>\n<a class=\"inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-white\" href=\"#\">\n              Learn More\n            </a>\n</div>\n</div>\n</div>\n</section>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

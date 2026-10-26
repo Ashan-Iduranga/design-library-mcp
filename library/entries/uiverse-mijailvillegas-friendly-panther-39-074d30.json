@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-mijailvillegas-friendly-panther-39-074d30",
+  "title": "Radio by MijailVillegas (friendly-panther-39)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MijailVillegas/friendly-panther-39",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "cyberpunk",
+    "neon",
+    "futuristic",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MijailVillegas on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/MijailVillegas_friendly-panther-39.html",
+  "code": "<form action=\"\" class=\"container\">\n        <input class=\"input-btn\" type=\"radio\" id=\"valueIs-1\" name=\"valueIs-radio\" checked=\"\" value=\"valueIs-1\">\n        <label class=\"neon-btn\" for=\"valueIs-1\">\n            <span class=\"span\"></span>\n            <span class=\"txt\">OPTION 1</span>\n        </label>\n\n        <input class=\"input-btn\" type=\"radio\" id=\"valueIs-2\" name=\"valueIs-radio\" value=\"valueIs-2\">\n        <label class=\"neon-btn\" for=\"valueIs-2\">\n            <span class=\"span\"></span>\n            <span class=\"txt\">OPTION 2</span>\n        </label>\n    </form>\n<style>\n/* From Uiverse.io by MijailVillegas - Tags: cyberpunk, neon, radio, futuristic, animated */\n.container {\n  font-family: \"Segoe UI\", Tahoma, Geneva, Verdana, sans-serif;\n  font-style: italic;\n  font-weight: bold;\n  font-size: 1.2em;\n  display: grid;\n  gap: 2em;\n  place-content: center;\n  width: 400px;\n}\n\n.container input[type=radio] {\n  display: none;\n}\n\n.input-btn:is(:checked) + .neon-btn .span {\n  inset: 2px;\n  background-color: #4090b5;\n  background: repeating-linear-gradient(to bottom, transparent 0%, #4090b5 1px, #4090b5 3px, #4090b5 5px, #4090b5 4px, transparent 0.5%), repeating-linear-gradient(to left, hsl(295, 60%, 12%) 100%, hsl(295, 60%, 12%) 100%);\n  box-shadow: inset 0 40px 20px hsl(296, 59%, 10%);\n}\n\n.input-btn:is(:checked) + .neon-btn .txt {\n  text-shadow: 2px 4px 1px #9e30a9, 2px 2px 1px #4090b5, 0 0 20px rgba(255, 255, 255, 0.616);\n  color: rgb(255, 255, 255);\n  animation: colorchange 0.3s ease;\n}\n\n.input-btn:is(:checked) + .neon-btn::before {\n  animation-duration: 0.6s;\n}\n\n.input-btn:is(:checked) + .neon-btn::after {\n  animation-duration: 0.6s;\n}\n\n.neon-btn {\n  width: 300px;\n  height: 60px;\n  cursor: pointer;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 0.5em 5em;\n  text-align: right;\n  background: transparent;\n  position: relative;\n  overflow: hidden;\n  transition: all 2s ease-in-out;\n  -webkit-clip-path: polygon(6% 0, 93% 0, 100% 8%, 100% 86%, 90% 89%, 88% 100%, 5% 100%, 0% 85%);\n  clip-path: polygon(6% 0, 93% 0, 100% 8%, 100% 86%, 90% 89%, 88% 100%, 5% 100%, 0% 85%);\n}\n\n.neon-btn .span {\n  display: flex;\n  -webkit-clip-path: polygon(6% 0, 93% 0, 100% 8%, 100% 86%, 90% 89%, 88% 100%, 5% 100%, 0% 85%);\n  clip-path: polygon(6% 0, 93% 0, 100% 8%, 100% 86%, 90% 89%, 88% 100%, 5% 100%, 0% 85%);\n  position: absolute;\n  inset: 1px;\n  background-color: #212121;\n  z-index: 1;\n}\n\n.neon-btn .txt {\n  text-align: right;\n  position: relative;\n  z-index: 2;\n  color: aliceblue;\n  font-size: 1em;\n  transition: all ease-in-out 2s linear;\n  text-shadow: 0px 0px 1px #4090b5, 0px 0px 1px #9e30a9, 0 0 1px white;\n}\n\n.neon-btn::before {\n  content: \"\";\n  position: absolute;\n  height: 300px;\n  aspect-ratio: 1.5/1;\n  box-shadow: -17px -19px 20px #9e30a9;\n  background-image: conic-gradient(#9e30a9, transparent, transparent, transparent, transparent, transparent, transparent, #9e30a9);\n  animation: rotate 4s linear infinite -2s;\n}\n\n.neon-btn::after {\n  content: \"\";\n  position: absolute;\n  height: 300px;\n  aspect-ratio: 1.5/1;\n  box-shadow: -17px -19px 10px #4090b5;\n  background-image: conic-gradient(#4090b5, transparent, transparent, transparent, transparent, transparent, transparent, transparent, #4090b5);\n  animation: rotate 4s linear infinite;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes colorchange {\n  0% {\n    text-shadow: 0px 0px 0px #9e30a9, 0px 0px 0px #4090b5, 0 0 0px rgba(255, 255, 255, 0.616);\n  }\n\n  50% {\n    text-shadow: -6px 5px 1px #9e30a9, 5px 11px 1px #4090b5, 0 0 20px rgba(255, 255, 255, 0.616);\n  }\n\n  to {\n    text-shadow: 2px 4px 1px #9e30a9, 2px 2px 1px #4090b5, 0 0 20px rgba(255, 255, 255, 0.616);\n  }\n}\n\n@keyframes backgroundchange {\n  0% {\n    background-color: transparent;\n  }\n\n  50% {\n    background-color: #4090b5;\n  }\n\n  to {\n    background-color: transparent;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

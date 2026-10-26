@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-javierrocadev-great-swan-88-c02a99",
+  "title": "Card by Javierrocadev (great-swan-88)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/great-swan-88",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "green",
+    "black"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Javierrocadev_great-swan-88.html",
+  "code": "<div class=\"container\">\n  <div class=\"data\">\n    <p>34° 36' 30″ S; 58° 22' 16″ O</p>\n  </div>\n  <div class=\"card\">\n    <div class=\"circle\"></div>\n    <div class=\"dot\"></div>\n    <div class=\"dot2\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Javierrocadev - Tags: green, black, card */\n.container {\n  width: 280px;\n  height: 380px;\n  background-color: #151716;\n  border-radius: 20px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: flex-start;\n  filter: hue-rotate(10deg);\n  color: #2fbb39;\n  gap: 20px;\n}\n\n.data {\n  margin-top: 25px;\n  border: 2px solid;\n  padding: 15px;\n  border-radius: 5px;\n  background: #000000;\n}\n\n.data::after {\n  background: #000000;\n  content: \"WIND - 54,3\";\n  position: absolute;\n  bottom: 5%;\n  right: 5%;\n  border: 2px solid;\n  padding: 3px;\n  border-radius: 5px;\n  font-size: .7em;\n}\n\n.data::before {\n  content: \"DEPT - 600\";\n  position: absolute;\n  bottom: 5%;\n  left: 5%;\n  border: 2px solid;\n  padding: 3px;\n  border-radius: 5px;\n  font-size: .7em;\n  background: #000000;\n}\n\n.card {\n  width: 200px;\n  height: 200px;\n  background: #000000;\n  border-radius: 50%;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 2px solid #18D322;\n  overflow: hidden;\n}\n\n.card::after {\n  content: \"\";\n  position: absolute;\n  width: 2px;\n  height: 200px;\n  left: 49%;\n  background-color: #18D322;\n  animation: rotate 3s linear infinite;\n  z-index: 6;\n}\n\n.card::before {\n  content: \"\";\n  position: absolute;\n  width: 0px;\n  height: 200px;\n  left: 49%;\n  transform: rotate(-4deg);\n  background-color: #18D322;\n  animation: rotate 3s linear infinite;\n  box-shadow: 0 0 10px 10px #2fbb39;\n  z-index: 6;\n}\n\n.circle {\n  width: 100px;\n  height: 100px;\n  border: 2px solid #18D322;\n  border-radius: 50%;\n}\n\n.circle::before {\n  content: \"\";\n  position: absolute;\n  width: 50px;\n  height: 50px;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%,-50%);\n  border: 2px solid #18D322;\n  border-radius: 50%;\n}\n\n.circle::after {\n  content: \"\";\n  position: absolute;\n  width: 150px;\n  height: 150px;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%,-50%);\n  border: 2px solid #18D322;\n  border-radius: 50%;\n}\n\n.dot {\n  width: 4px;\n  height: 4px;\n  top: 30%;\n  background-color: #18D322;\n  border-radius: 50%;\n  position: absolute;\n  animation: doted 1.5s  ease infinite;\n}\n\n.dot2 {\n  width: 4px;\n  height: 4px;\n  top: 80%;\n  right: 30%;\n  background-color: #18D322;\n  border-radius: 50%;\n  position: absolute;\n  animation: doted 1.5s  1.2s ease infinite;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes doted {\n  0% {\n    transform: scale(0.95);\n    box-shadow: 0 0 10px 5px rgba(24, 211, 33, 0.3),0 0 10px 10px rgba(24, 211, 33, 0.3);\n  }\n\n  60% {\n    transform: scale(0.95);\n    box-shadow: 0 0 10px 5px rgba(24, 211, 33, 0.3),0 0 10px 10px rgba(24, 211, 33, 0.3);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 0 0 0 0 rgba(24, 211, 33, 0.7),0 0 0 0 rgba(24, 211, 33, 0.5),0 0 0 0 rgba(24, 211, 33, 0.3);\n    opacity: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

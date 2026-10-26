@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-ksaplay-tasty-tiger-23-44baf5",
+  "title": "Checkbox by KSAplay (tasty-tiger-23)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KSAplay/tasty-tiger-23",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "square"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KSAplay on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/KSAplay_tasty-tiger-23.html",
+  "code": "<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>\n<style>\n/* From Uiverse.io by KSAplay - Tags: checkbox, square */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  position: relative;\n  cursor: pointer;\n  font-size: 17px;\n  width: 2em;\n  height: 2em;\n  user-select: none;\n  border: 5px solid white;\n  display: block;\n}\n\n.checkmark {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.checkmark:after {\n  content: '';\n  position: absolute;\n  top: 25%;\n  left: 25%;\n  background-color: white;\n  width: 50%;\n  height: 50%;\n  transform: scale(0);\n  transition: .1s ease;\n}\n\n.container input:checked ~ .checkmark:after {\n  transform: scale(1);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

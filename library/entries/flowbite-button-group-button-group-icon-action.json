@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-button-group-button-group-icon-action",
+  "title": "Button Group: Button group icon action (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/button-group/#button-group-icon-action",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button-group",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this component to show a button with text and another button with an icon.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/button-group.md",
+  "code": "<div class=\"inline-flex rounded-base shadow-xs -space-x-px\" role=\"group\">\n  <button type=\"button\" class=\"inline-flex items-center text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary-soft font-medium leading-5 rounded-s-base text-sm px-3 py-2 focus:outline-none\" disabled>\n    Save book\n  </button>\n  <button type=\"button\" class=\"inline-flex items-center justify-center text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary-soft font-medium leading-5 rounded-e-base text-sm w-9 h-full focus:outline-none\">\n    <svg class=\"w-4 h-4\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m17 21-5-4-5 4V3.889a.92.92 0 0 1 .244-.629.808.808 0 0 1 .59-.26h8.333a.81.81 0 0 1 .589.26.92.92 0 0 1 .244.63V21Z\"/></svg>\n  </button>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

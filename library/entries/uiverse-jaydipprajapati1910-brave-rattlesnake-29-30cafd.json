@@ -1,0 +1,38 @@
+{
+  "id": "uiverse-jaydipprajapati1910-brave-rattlesnake-29-30cafd",
+  "title": "Toggle by JaydipPrajapati1910 (brave-rattlesnake-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/brave-rattlesnake-29",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "animation",
+    "action",
+    "switch",
+    "theme-switch",
+    "yes",
+    "no",
+    "text-animation",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/JaydipPrajapati1910_brave-rattlesnake-29.html",
+  "code": "<div class=\"toggle-button-cover\">\n        <div id=\"button-3\" class=\"button r\">\n          <input class=\"checkbox\" type=\"checkbox\">\n          <div class=\"knobs\"></div>\n          <div class=\"layer\"></div>\n        </div>\n      </div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, action, switch, theme-switch, yes, no, text animation, animated, toggle switch */\n.toggle-button-cover {\n  display: table-cell;\n  position: relative;\n  width: 200px;\n  height: 140px;\n  box-sizing: border-box;\n}\n\n.button-cover {\n  height: 100px;\n  margin: 20px;\n  background-color: #fff;\n  box-shadow: 0 10px 20px -8px #c5d6d6;\n  border-radius: 4px;\n}\n\n.button-cover:before {\n  counter-increment: button-counter;\n  content: counter(button-counter);\n  position: absolute;\n  right: 0;\n  bottom: 0;\n  color: #d7e3e3;\n  font-size: 12px;\n  line-height: 1;\n  padding: 5px;\n}\n\n.button-cover,\n.knobs,\n.layer {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n\n.button {\n  position: relative;\n  top: 50%;\n  width: 74px;\n  height: 36px;\n  margin: -20px auto 0 auto;\n  overflow: hidden;\n}\n\n.checkbox {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n  opacity: 0;\n  cursor: pointer;\n  z-index: 3;\n}\n\n.knobs {\n  z-index: 2;\n}\n\n.layer {\n  width: 100%;\n  background-color: #ebf7fc;\n  transition: 0.3s ease all;\n  z-index: 1;\n}\n\n.button.r,\n.button.r .layer {\n  border-radius: 100px;\n}\n\n#button-3 .knobs:before {\n  content: \"YES\";\n  position: absolute;\n  top: 4px;\n  left: 4px;\n  width: 20px;\n  height: 10px;\n  color: #fff;\n  font-size: 10px;\n  font-weight: bold;\n  text-align: center;\n  line-height: 1;\n  padding: 9px 4px;\n  background-color: #03a9f4;\n  border-radius: 50%;\n  transition: 0.3s ease all, left 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15);\n}\n\n#button-3 .checkbox:active + .knobs:before {\n  width: 46px;\n  border-radius: 100px;\n}\n\n#button-3 .checkbox:checked:active + .knobs:before {\n  margin-left: -26px;\n}\n\n#button-3 .checkbox:checked + .knobs:before {\n  content: \"NO\";\n  left: 42px;\n  background-color: #f44336;\n}\n\n#button-3 .checkbox:checked ~ .layer {\n  background-color: #fcebeb;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

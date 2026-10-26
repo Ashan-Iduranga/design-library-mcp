@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-dylanharriscameron-ancient-falcon-18-a4f0aa",
+  "title": "Loader by dylanharriscameron (ancient-falcon-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/dylanharriscameron/ancient-falcon-18",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "infinite"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By dylanharriscameron on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/dylanharriscameron_ancient-falcon-18.html",
+  "code": "<div class=\"loaderBar\"></div>\n<style>\n/* From Uiverse.io by dylanharriscameron - Tags: loading, loader, infinite */\n.loaderBar {\n  width: calc(160px / 0.707);\n  height: 10px;\n  background: #F9F9F9;\n  border-radius: 10px;\n  border: 1px solid #006DFE;\n  position: relative;\n  overflow: hidden;\n}\n\n.loaderBar::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  border-radius: 5px;\n  background: repeating-linear-gradient(45deg, #0031F2 0 30px, #006DFE 0 40px) right/200% 100%;\n  animation: fillProgress 6s ease-in-out infinite, lightEffect 1s infinite linear;\n  animation-fill-mode: forwards;\n}\n\n@keyframes fillProgress {\n  0% {\n    width: 0;\n  }\n\n  33% {\n    width: 33.333%;\n  }\n\n  66% {\n    width: 66.67%;\n  }\n\n  100% {\n    width: 100%;\n  }\n}\n\n@keyframes lightEffect {\n  0%, 20%, 40%, 60%, 80%, 100% {\n    background: repeating-linear-gradient(45deg, #0031F2 0 30px, #006DFE 0 40px) right/200% 100%;\n  }\n\n  10%, 30%, 50%, 70%, 90% {\n    background: repeating-linear-gradient(45deg, #0031F2 0 30px, #006DFE 0 40px, rgba(255, 255, 255, 0.3) 0 40px) right/200% 100%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-diff-diff",
+  "title": "Diff: Diff (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/diff/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "diff",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Diff component shows a side-by-side comparison of two items.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/diff/+page.md",
+  "code": "<figure class=\"diff aspect-16/9\" tabindex=\"0\">\n  <div class=\"diff-item-1\" role=\"img\" tabindex=\"0\">\n    <img alt=\"daisy\" src=\"https://img.daisyui.com/images/stock/photo-1560717789-0ac7c58ac90a.webp\" />\n  </div>\n  <div class=\"diff-item-2\" role=\"img\">\n    <img\n      alt=\"daisy\"\n      src=\"https://img.daisyui.com/images/stock/photo-1560717789-0ac7c58ac90a-blur.webp\" />\n  </div>\n  <div class=\"diff-resizer\"></div>\n</figure>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

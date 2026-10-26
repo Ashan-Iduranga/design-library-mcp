@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-aryan-81-rare-rattlesnake-22-465545",
+  "title": "Card by Aryan-81 (rare-rattlesnake-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Aryan-81/rare-rattlesnake-22",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "black",
+    "square",
+    "gradient",
+    "minimalistic",
+    "neon",
+    "glow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Aryan-81 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Aryan-81_rare-rattlesnake-22.html",
+  "code": "<div class=\"card\">\n  <div>\n    <p class=\"heading\">Popular this month</p>\n    <p>Powered By</p>\n    <p>Uiverse</p>\n  </div>\n\n  <button class=\"card-button\">More Info</button>\n</div>\n\n<style>\n/* From Uiverse.io by Aryan-81  - Tags: card, black, square, gradient, minimalistic, card, neon, glow, monthly, popular, Uiverse */\n.card {\n  position: relative;\n  width: 190px;\n  height: 190px;\n  background-color: #000;\n  display: flex;\n  flex-direction: column;\n  justify-content: end;\n  padding: 12px;\n  gap: 12px;\n  border-radius: 8px;\n  cursor: pointer;\n  color: rgb(255, 255, 255);\n}\n.card > div {\n  margin: auto auto;\n}\n.card::before {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  left: -5px;\n  margin: auto;\n  width: 200px;\n  height: 200px;\n  border-radius: 10px;\n  background: linear-gradient(-45deg, #fff01c 0%, #40c9ff 100%);\n  z-index: -10;\n  pointer-events: none;\n  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.card::after {\n  content: \"\";\n  z-index: -1;\n  position: absolute;\n  inset: 0;\n  background: linear-gradient(-45deg, #fff01c 0%, #40c9ff 100%);\n  transform: translate3d(0, 0, 0) scale(0.95);\n  filter: blur(20px);\n}\n\n.heading {\n  font-size: 20px;\n  text-transform: capitalize;\n  font-weight: 700;\n}\n\n.card p:not(.heading) {\n  font-size: 14px;\n}\n\n.card p:last-child {\n  color: #e81cff;\n  font-weight: 600;\n}\n\n.card:hover::after {\n  filter: blur(30px);\n}\n\n.card:hover::before {\n  transform: rotate(-90deg) scaleX(1) scaleY(1);\n}\n\n.card:hover .card-button {\n  transform: translate(-50%, 50%);\n  opacity: 1;\n}\n.card-button {\n  transform: translate(-50%, 125%);\n  width: 60%;\n  border-radius: 1rem;\n  border: none;\n  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);\n  color: #fff;\n  font-size: 1rem;\n  padding: 0.5rem 1rem;\n  position: absolute;\n  left: 50%;\n  bottom: 0;\n  opacity: 0;\n  transition: 0.3s ease-out;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

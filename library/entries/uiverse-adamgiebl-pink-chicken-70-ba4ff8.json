@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-adamgiebl-pink-chicken-70-ba4ff8",
+  "title": "Button by adamgiebl (pink-chicken-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/adamgiebl/pink-chicken-70",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "code"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By adamgiebl on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/adamgiebl_pink-chicken-70.html",
+  "code": "<button class=\"cssbuttons-io\">\n  <span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path fill=\"none\" d=\"M0 0h24v24H0z\"></path><path fill=\"currentColor\" d=\"M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z\"></path></svg> Code</span>\n</button>\n<style>\n/* From Uiverse.io by adamgiebl - Tags: icon, button, code */\n.cssbuttons-io {\n  position: relative;\n  font-family: inherit;\n  font-weight: 500;\n  font-size: 18px;\n  letter-spacing: 0.05em;\n  border-radius: 0.8em;\n  border: none;\n  background: linear-gradient(to right, #8e2de2, #4a00e0);\n  color: ghostwhite;\n  overflow: hidden;\n}\n\n.cssbuttons-io svg {\n  width: 1.2em;\n  height: 1.2em;\n  margin-right: 0.5em;\n}\n\n.cssbuttons-io span {\n  position: relative;\n  z-index: 10;\n  transition: color 0.4s;\n  display: inline-flex;\n  align-items: center;\n  padding: 0.8em 1.2em 0.8em 1.05em;\n}\n\n.cssbuttons-io::before,\n.cssbuttons-io::after {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 0;\n}\n\n.cssbuttons-io::before {\n  content: \"\";\n  background: #000;\n  width: 120%;\n  left: -10%;\n  transform: skew(30deg);\n  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);\n}\n\n.cssbuttons-io:hover::before {\n  transform: translate3d(100%, 0, 0);\n}\n\n.cssbuttons-io:active {\n  transform: scale(0.95);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

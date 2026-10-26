@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-gharsh11032000-moody-dog-23-f49fec",
+  "title": "Radio by gharsh11032000 (moody-dog-23)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/moody-dog-23",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "radio-buttons",
+    "click-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/gharsh11032000_moody-dog-23.html",
+  "code": "<div class=\"radio-button-container\">\n  <div class=\"radio-button\">\n  <input type=\"radio\" class=\"radio-button__input\" id=\"radio1\" name=\"radio-group\">\n  <label class=\"radio-button__label\" for=\"radio1\">\n    <span class=\"radio-button__custom\"></span>\n    React\n  </label>\n</div>\n<div class=\"radio-button\">\n  <input type=\"radio\" class=\"radio-button__input\" id=\"radio2\" name=\"radio-group\">\n  <label class=\"radio-button__label\" for=\"radio2\">\n    <span class=\"radio-button__custom\"></span>\n    Angular\n  </label>\n</div>\n<div class=\"radio-button\">\n  <input type=\"radio\" class=\"radio-button__input\" id=\"radio3\" name=\"radio-group\">\n  <label class=\"radio-button__label\" for=\"radio3\">\n    <span class=\"radio-button__custom\"></span>\n    Vue\n  </label>\n</div>\n</div>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: radio, radio-buttons, click effect */\n.radio-button-container {\n  display: flex;\n  align-items: center;\n  gap: 24px;\n}\n\n.radio-button {\n  display: inline-block;\n  position: relative;\n  cursor: pointer;\n}\n\n.radio-button__input {\n  position: absolute;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.radio-button__label {\n  display: inline-block;\n  padding-left: 30px;\n  margin-bottom: 10px;\n  position: relative;\n  font-size: 15px;\n  color: #f2f2f2;\n  font-weight: 600;\n  cursor: pointer;\n  text-transform: uppercase;\n  transition: all 0.3s ease;\n}\n\n.radio-button__custom {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  border: 2px solid #555;\n  transition: all 0.3s ease;\n}\n\n.radio-button__input:checked + .radio-button__label .radio-button__custom {\n  background-color: #4c8bf5;\n  border-color: transparent;\n  transform: scale(0.8);\n  box-shadow: 0 0 20px #4c8bf580;\n}\n\n.radio-button__input:checked + .radio-button__label {\n  color: #4c8bf5;\n}\n\n.radio-button__label:hover .radio-button__custom {\n  transform: scale(1.2);\n  border-color: #4c8bf5;\n  box-shadow: 0 0 20px #4c8bf580;\n}\n\n\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

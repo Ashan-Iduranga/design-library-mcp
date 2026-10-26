@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-piyush831-rare-dragon-75-aec403",
+  "title": "Form by Piyush831 (rare-dragon-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Piyush831/rare-dragon-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "creative",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Piyush831 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Piyush831_rare-dragon-75.html",
+  "code": "<form class=\"form\">\n    <div class=\"flex\">\n      <div class=\"login color\">Login</div>\n      <label class=\"color\">Username :</label>\n      <input type=\"text\" class=\"input\">\n      <label class=\"color\">Password :</label>\n      <input type=\"password\" class=\"input\"> \n      <button class=\"\">Log-in</button>\n      <br>\n      <div class=\"color align\">Don't have account? <span class=\"span\">Sign-Up</span></div>\n    </div>\n</form>\n<style>\n/* From Uiverse.io by Piyush831 - Tags: form, creative, box-shadow */\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  background: linear-gradient(to right ,grey,silver);\n  padding: 40px;\n  border-radius: 10px;\n}\n\n.login {\n  font-size: 25px;\n  font-weight: bold;\n  text-align: center;\n  margin-bottom: 20px;\n}\n\n.flex {\n  display: flex;\n  flex-direction: column;\n}\n\n.form button {\n  margin-top: 25px;\n  margin-bottom: 6px;\n  border-radius: 10px;\n  border: none;\n  padding-top: 4px;\n  padding-bottom: 4px;\n  font-size: 19px;\n  font-weight: bold;\n  color: grey;\n}\n\n.form label {\n  margin-top: 20px;\n  margin-bottom: 5px;\n}\n\n.form button:hover {\n  box-shadow: 2px 2px 12px white;\n}\n\n.input {\n  height: 30px;\n  outline: none;\n  padding: 15px;\n  border-radius: 10px;\n  border: none;\n  font-weight: bold;\n  font-size: 15px;\n  box-shadow: 2px 2px 12px inset black;\n}\n\n.span:hover {\n  font-weight: bold;\n}\n\n.color {\n  color: white;\n}\n\n.align {\n  text-align: center;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

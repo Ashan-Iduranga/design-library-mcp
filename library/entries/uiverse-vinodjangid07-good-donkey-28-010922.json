@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-vinodjangid07-good-donkey-28-010922",
+  "title": "Input by vinodjangid07 (good-donkey-28)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/good-donkey-28",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "message",
+    "send",
+    "image",
+    "upload",
+    "file"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/vinodjangid07_good-donkey-28.html",
+  "code": "<div class=\"messageBox\">\n  <div class=\"fileUploadWrapper\">\n    <label for=\"file\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 337 337\">\n        <circle\n          stroke-width=\"20\"\n          stroke=\"#6c6c6c\"\n          fill=\"none\"\n          r=\"158.5\"\n          cy=\"168.5\"\n          cx=\"168.5\"\n        ></circle>\n        <path\n          stroke-linecap=\"round\"\n          stroke-width=\"25\"\n          stroke=\"#6c6c6c\"\n          d=\"M167.759 79V259\"\n        ></path>\n        <path\n          stroke-linecap=\"round\"\n          stroke-width=\"25\"\n          stroke=\"#6c6c6c\"\n          d=\"M79 167.138H259\"\n        ></path>\n      </svg>\n      <span class=\"tooltip\">Add an image</span>\n    </label>\n    <input type=\"file\" id=\"file\" name=\"file\" />\n  </div>\n  <input required=\"\" placeholder=\"Message...\" type=\"text\" id=\"messageInput\" />\n  <button id=\"sendButton\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 664 663\">\n      <path\n        fill=\"none\"\n        d=\"M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888\"\n      ></path>\n      <path\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n        stroke-width=\"33.67\"\n        stroke=\"#6c6c6c\"\n        d=\"M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888\"\n      ></path>\n    </svg>\n  </button>\n</div>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: input, message, send, image, upload, file */\n.messageBox {\n  width: fit-content;\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: #2d2d2d;\n  padding: 0 15px;\n  border-radius: 10px;\n  border: 1px solid rgb(63, 63, 63);\n}\n.messageBox:focus-within {\n  border: 1px solid rgb(110, 110, 110);\n}\n.fileUploadWrapper {\n  width: fit-content;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-family: Arial, Helvetica, sans-serif;\n}\n\n#file {\n  display: none;\n}\n.fileUploadWrapper label {\n  cursor: pointer;\n  width: fit-content;\n  height: fit-content;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n}\n.fileUploadWrapper label svg {\n  height: 18px;\n}\n.fileUploadWrapper label svg path {\n  transition: all 0.3s;\n}\n.fileUploadWrapper label svg circle {\n  transition: all 0.3s;\n}\n.fileUploadWrapper label:hover svg path {\n  stroke: #fff;\n}\n.fileUploadWrapper label:hover svg circle {\n  stroke: #fff;\n  fill: #3c3c3c;\n}\n.fileUploadWrapper label:hover .tooltip {\n  display: block;\n  opacity: 1;\n}\n.tooltip {\n  position: absolute;\n  top: -40px;\n  display: none;\n  opacity: 0;\n  color: white;\n  font-size: 10px;\n  text-wrap: nowrap;\n  background-color: #000;\n  padding: 6px 10px;\n  border: 1px solid #3c3c3c;\n  border-radius: 5px;\n  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.596);\n  transition: all 0.3s;\n}\n#messageInput {\n  width: 200px;\n  height: 100%;\n  background-color: transparent;\n  outline: none;\n  border: none;\n  padding-left: 10px;\n  color: white;\n}\n#messageInput:focus ~ #sendButton svg path,\n#messageInput:valid ~ #sendButton svg path {\n  fill: #3c3c3c;\n  stroke: white;\n}\n\n#sendButton {\n  width: fit-content;\n  height: 100%;\n  background-color: transparent;\n  outline: none;\n  border: none;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  transition: all 0.3s;\n}\n#sendButton svg {\n  height: 18px;\n  transition: all 0.3s;\n}\n#sendButton svg path {\n  transition: all 0.3s;\n}\n#sendButton:hover svg path {\n  fill: #3c3c3c;\n  stroke: white;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

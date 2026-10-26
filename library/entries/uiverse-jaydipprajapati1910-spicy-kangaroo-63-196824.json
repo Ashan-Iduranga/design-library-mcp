@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-jaydipprajapati1910-spicy-kangaroo-63-196824",
+  "title": "Toggle by JaydipPrajapati1910 (spicy-kangaroo-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/spicy-kangaroo-63",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "toggle-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/JaydipPrajapati1910_spicy-kangaroo-63.html",
+  "code": "<div class=\"switch\">\n\t<input class=\"switch-check\" id=\"switch1\" type=\"checkbox\">\n\t<label class=\"switch-label\" for=\"switch1\">\n\t\tCheck\n\t\t<span></span>\n\t</label>\n</div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: switch, toggle, toggle switch */\n.switch {\n  background-color: rgba(0, 0, 0, 0.2);\n  border-radius: 30px;\n  border: 4px solid rgba(58, 58, 58, 0.1);\n  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5) inset;\n  height: 48px;\n  margin: 2px;\n  position: relative;\n  width: 120px;\n  display: inline-block;\n  user-select: none;\n}\n\n.switch-check {\n  position: absolute;\n  visibility: hidden;\n  user-select: none;\n}\n\n.switch-label {\n  cursor: pointer;\n  display: block;\n  height: 42px;\n  text-indent: -9999px;\n  width: 115px;\n  user-select: none;\n}\n\n.switch-label:before {\n  background: #fff;\n  background: -webkit-radial-gradient(45%, circle, rgb(255, 58, 58) 0%, rgb(255, 113, 113) 100%);\n  border-radius: 10px;\n  border: 1px solid #742323;\n  box-shadow: 0 2px 5px rgba(255, 67, 48, 0.6), 0 0 5px rgba(255, 159, 109, 0.5) inset;\n  content: \"\";\n  display: block;\n  height: 10px;\n  left: -20%;\n  position: absolute;\n  top: 16px;\n  transition: all 0.2s;\n  width: 10px;\n  z-index: 12;\n  user-select: none;\n}\n\n.switch-label:after {\n  background: #fff;\n  background: -moz-radial-gradient(45%, circle, rgba(60, 60, 60, 0.6) 0%, rgba(151, 151, 151, 0.6) 100%);\n  border-radius: 10px;\n  border: 1px solid #111;\n  box-shadow: 0 2px 5px rgba(20, 20, 20, 0.5);\n  content: \"\";\n  display: block;\n  height: 10px;\n  right: -20%;\n  position: absolute;\n  top: 16px;\n  transition: all 0.2s;\n  width: 10px;\n  z-index: 12;\n  user-select: none;\n}\n\n.switch-label span {\n  background: linear-gradient(#4f4f4f, #2b2b2b);\n  border-radius: 30px;\n  border: 1px solid #1a1a1a;\n  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5), 0 1px 1px rgba(255, 255, 255, 0.1) inset, 0 -2px 0 rgba(0, 0, 0, 0.2) inset;\n  display: block;\n  height: 38px;\n  left: 1px;\n  position: absolute;\n  top: 1px;\n  -webkit-transition: all 0.2s linear;\n  -moz-transition: all 0.2s linear;\n  -o-transition: all 0.2s linear;\n  transition: all 0.2s linear;\n  width: 53px;\n  user-select: none;\n}\n\n.switch-label span:before {\n  background: #fff;\n  background: -webkit-linear-gradient(left, rgba(48, 48, 48, 0.4), rgba(34, 34, 34, 0.4));\n  background: linear-gradient(left, rgba(48, 48, 48, 0.4), rgba(34, 34, 34, 0.4));\n  border-radius: 30px 10px 10px 30px;\n  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2) inset;\n  content: \"\";\n  display: block;\n  height: 33px;\n  left: 2px;\n  position: absolute;\n  top: 2px;\n  width: 21px;\n  user-select: none;\n}\n\n.switch-label span:after {\n  background: #fff;\n  background: -webkit-linear-gradient(right, rgba(48, 48, 48, 0.4), rgba(34, 34, 34, 0.4));\n  border-radius: 10px 30px 30px 10px;\n  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2) inset;\n  content: \"\";\n  display: block;\n  height: 33px;\n  position: absolute;\n  right: 2px;\n  top: 2px;\n  width: 21px;\n  user-select: none;\n}\n\n.switch-check:checked + .switch-label span {\n  left: 59px;\n}\n\n.switch-check:checked + .switch-label:before {\n  background: -webkit-radial-gradient(45%, circle, rgba(60, 60, 60, 0.6) 0%, rgba(151, 151, 151, 0.6) 100%);\n  border: 1px solid #111;\n  box-shadow: 0 2px 5px rgba(20, 20, 20, 0.5);\n  user-select: none;\n}\n\n.switch-check:checked + .switch-label:after {\n  background: -webkit-radial-gradient(45%, circle, lightgreen  0%, lightgreen 100%);\n  border: 1px solid #004562;\n  box-shadow: 0 2px 5px green, 0 0 5px green inset;\n  user-select: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

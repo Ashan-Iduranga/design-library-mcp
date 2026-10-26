@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-ahmed150up-strange-fox-68-c86cd8",
+  "title": "Checkbox by ahmed150up (strange-fox-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ahmed150up/strange-fox-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "star"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ahmed150up on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/ahmed150up_strange-fox-68.html",
+  "code": "<input type=\"checkbox\" id=\"star\">\n<label for=\"star\">\n  <svg viewBox=\"0 0 24 24\">\n    <path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path>\n  </svg>\n</label>\n\n<style>\n/* From Uiverse.io by ahmed150up - Tags: checkbox, star */\ninput[type=\"checkbox\"] {\n  display: none;\n}\n\nlabel svg {\n  width: 44px;\n  height: 44px;\n  fill: none;\n  stroke: #000;\n  stroke-width: 2px;\n}\n\ninput[type=\"checkbox\"]:checked + label svg {\n  fill: #FFC107;\n  animation: pop_42 0.5s ease-out;\n}\n\n@keyframes pop_42 {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.5);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

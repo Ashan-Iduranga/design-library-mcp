@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-selfmadesystem-quiet-panda-44-3cebc9",
+  "title": "Button by SelfMadeSystem (quiet-panda-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/quiet-panda-44",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "upload",
+    "line",
+    "lineart",
+    "line-art"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SelfMadeSystem_quiet-panda-44.html",
+  "code": "<button class=\"button\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\">\n    <rect class=\"border\" pathLength=\"100\"></rect>\n    <rect class=\"loading\" pathLength=\"100\"></rect>\n\n    <svg\n      class=\"done-svg\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n    >\n      <path\n        class=\"done done-cloud\"\n        pathLength=\"100\"\n        d=\"M 6.5,20 Q 4.22,20 2.61,18.43 1,16.85 1,14.58 1,12.63 2.17,11.1 3.35,9.57 5.25,9.15 5.88,6.85 7.75,5.43 9.63,4 12,4 14.93,4 16.96,6.04 19,8.07 19,11 q 1.73,0.2 2.86,1.5 1.14,1.28 1.14,3 0,1.88 -1.31,3.19 Q 20.38,20 18.5,20 Z\"\n      ></path>\n      <path\n        class=\"done done-check\"\n        pathLength=\"100\"\n        d=\"M 7.515,12.74 10.34143,15.563569 15.275,10.625\"\n      ></path>\n    </svg>\n  </svg>\n  <div class=\"txt-upload\">Upload</div>\n</button>\n\n<style>\n/* From Uiverse.io by SelfMadeSystem  - Tags: animation, button, upload, line, lineart, line-art */\n.button {\n  position: relative;\n  width: 10rem;\n  height: 3rem;\n  cursor: pointer;\n  border: none;\n  background: none;\n}\n\n.button svg {\n  width: 100%;\n  height: 100%;\n  overflow: visible;\n}\n\n.border {\n  width: 100%;\n  height: 100%;\n  stroke: black;\n  stroke-width: 2px;\n  fill: #0000;\n  rx: 1em;\n  ry: 1em;\n  stroke-dasharray: 25;\n  transition: fill 0.25s;\n  animation: 4s linear infinite stroke-animation;\n}\n\n.button:hover .border {\n  fill: #0001;\n}\n\n.button:focus .border {\n  transition: fill 0.25s 7.75s;\n  fill: #0000;\n}\n\n@keyframes stroke-animation {\n  0% {\n    stroke-dashoffset: 100;\n  }\n  to {\n    stroke-dashoffset: 0;\n  }\n}\n\n.txt-upload {\n  position: absolute;\n  inset: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.txt-upload::after {\n  content: \"\";\n}\n\n.button:focus .rect {\n  stroke-dasharray: 50;\n}\n.button:focus .border {\n  stroke: #0000;\n}\n\n.button:focus .txt-upload {\n  opacity: 0;\n  transition: opacity 0.25s 8s;\n}\n\n.button:focus .txt-upload::after {\n  animation: 0.66666s anim step-end forwards,\n    1.33333s 0.6666s anim2 linear infinite alternate;\n}\n\n@keyframes anim {\n  0% {\n    content: \"i\";\n  }\n  50% {\n    content: \"in\";\n  }\n  to {\n    content: \"ing\";\n  }\n}\n\n@keyframes anim2 {\n  0% {\n    content: \"ing\";\n  }\n  33% {\n    content: \"ing.\";\n  }\n  66% {\n    content: \"ing..\";\n  }\n  to {\n    content: \"ing...\";\n  }\n}\n\n.loading {\n  width: 100%;\n  height: 100%;\n  stroke: #0055d4;\n  stroke-width: 2px;\n  fill: none;\n  rx: 1em;\n  ry: 1em;\n  stroke-dasharray: 0 100;\n}\n\n.button:focus .loading {\n  transition: stroke 0.5s 7.5s, stroke-dasharray 8s 0.5s ease-out;\n  stroke: #08ca08;\n  stroke-dasharray: 100 0;\n}\n\n.done {\n  fill: none;\n  stroke: #000;\n  stroke-dasharray: 0 100;\n}\n\n.button:focus .done-cloud {\n  transition: stroke-dasharray 0.75s 8.5s ease-out;\n  stroke-dasharray: 100 0;\n}\n\n.button:focus .done-check {\n  transition: stroke-dasharray 0.5s 9.2s ease-out;\n  stroke: #08ca08;\n  stroke-dasharray: 100 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

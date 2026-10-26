@@ -1,0 +1,36 @@
+{
+  "id": "magicui-grid-pattern-dashed",
+  "title": "Grid Pattern Dashed (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/grid-pattern-dashed",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "grid",
+    "pattern",
+    "dashed",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a dashed grid pattern.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/grid-pattern-dashed.tsx",
+  "code": "\"use client\"\n\nimport { cn } from \"@/lib/utils\"\nimport { GridPattern } from \"@/registry/magicui/grid-pattern\"\n\nexport default function GridPatternDashed() {\n  return (\n    <div className=\"bg-background relative flex size-full items-center justify-center overflow-hidden rounded-lg border p-20\">\n      <GridPattern\n        width={30}\n        height={30}\n        x={-1}\n        y={-1}\n        strokeDasharray={\"4 2\"}\n        className={cn(\n          \"[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]\"\n        )}\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

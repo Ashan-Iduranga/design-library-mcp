@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaseen549-average-firefox-86-47ce53",
+  "title": "Input by Yaseen549 (average-firefox-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaseen549/average-firefox-86",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaseen549 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Yaseen549_average-firefox-86.html",
+  "code": "<input placeholder=\"Enter your text...\" class=\"input\" name=\"text\" type=\"text\">\n<style>\n/* From Uiverse.io by Yaseen549 - Tags: input */\n.input {\n  background-color: #212121;\n  max-width: 190px;\n  height: 40px;\n  padding: 10px;\n  /* text-align: center; */\n  border: 2px solid white;\n  border-radius: 5px;\n  /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */\n}\n\n.input:focus {\n  color: rgb(0, 255, 255);\n  background-color: #212121;\n  outline-color: rgb(0, 255, 255);\n  box-shadow: -3px -3px 15px rgb(0, 255, 255);\n  transition: .1s;\n  transition-property: box-shadow;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-label-demo",
+  "title": "Label Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/label-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "label",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Renders an accessible label associated with controls.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/label-demo.tsx",
+  "code": "import { Checkbox } from \"@/registry/new-york-v4/ui/checkbox\"\nimport { Label } from \"@/registry/new-york-v4/ui/label\"\n\nexport default function LabelDemo() {\n  return (\n    <div>\n      <div className=\"flex items-center space-x-2\">\n        <Checkbox id=\"terms\" />\n        <Label htmlFor=\"terms\">Accept terms and conditions</Label>\n      </div>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

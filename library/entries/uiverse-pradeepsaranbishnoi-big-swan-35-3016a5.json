@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-big-swan-35-3016a5",
+  "title": "Radio by Pradeepsaranbishnoi (big-swan-35)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/big-swan-35",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Pradeepsaranbishnoi_big-swan-35.html",
+  "code": "<div class=\"cont\">\n  <input name=\"radio\" type=\"radio\" id=\"r1\">\n  <label for=\"r1\"></label>\n  <input name=\"radio\" type=\"radio\" id=\"r2\">\n  <label for=\"r2\"></label>\n  <input checked=\"true\" name=\"radio\" type=\"radio\" id=\"r3\">\n  <label for=\"r3\"></label>\n  <div class=\"slider\">\n    <div class=\"line1\"></div>\n    <div class=\"line2\"></div>\n    <div class=\"dot2\"></div>\n    <div class=\"dot\"></div>\n  </div>\n</div>\n<div class=\"cont\">\n  <input name=\"radio2\" type=\"radio\" id=\"r4\">\n  <label for=\"r4\"></label>\n  <input name=\"radio2\" type=\"radio\" id=\"r5\">\n  <label for=\"r5\"></label>\n  <input checked=\"true\" name=\"radio2\" type=\"radio\" id=\"r6\">\n  <label for=\"r6\"></label>\n  <div class=\"slider\">\n    <div class=\"line1\"></div>\n    <div class=\"line2\"></div>\n    <div class=\"dot2\"></div>\n    <div class=\"dot\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: radio */\n.cont input[type=\"radio\"] {\n  display: none;\n}\n\n.cont {\n  width: 140px;\n  position: absolute;\n  transform: translateX(-50%);\n}\n\n.cont label:before {\n  cursor: pointer;\n  content: '';\n  display: block;\n  height: 20px;\n  width: 20px;\n  border: 2px solid #111;\n  border-radius: 50%;\n  float: left;\n  margin: 0 10px;\n}\n\n.cont .slider > .dot {\n  height: 10px;\n  width: 10px;\n  border-radius: 50%;\n  position: relative;\n  top: 5px;\n  left: 15px;\n  opacity: 0;\n  background-color: #111;\n  transition: all 0.3s;\n}\n\n.cont input[type=\"radio\"]:checked ~ .slider > .dot {\n  opacity: 1;\n}\n\n.cont .line1 {\n  height: 65px;\n  width: 2px;\n  background-color: #111;\n  position: absolute;\n  transform-origin: bottom;\n  transform: translateX(65px) translateY(20px);\n  transition: all 0.3s;\n}\n\n.cont .line2 {\n  position: absolute;\n  height: 150px;\n  width: 2px;\n  background-color: #111;\n  transform: translateX(65px) translateY(80px);\n}\n\n.cont .dot2 {\n  position: absolute;\n  height: 6.66667px;\n  width: 6.66667px;\n  background-color: #111;\n  border-radius: 50%;\n  transform: translateX(62.66667px) translateY(76.66667px);\n}\n\n.cont #r1:checked ~ .slider > .dot, .cont #r4:checked ~ .slider > .dot {\n  transform: translateX(2px) translateY(2px);\n}\n\n.cont #r1:checked ~ .slider > .line1, .cont #r4:checked ~ .slider > .line1 {\n  transform: translateX(63px) translateY(13px) rotate(-32deg) scaleY(1.2)\n}\n\n.cont #r2:checked ~ .slider > .dot, .cont #r5:checked ~ .slider > .dot {\n  transform: translateX(46px) translateY(2px);\n}\n\n.cont #r2:checked ~ .slider > .line1, .cont #r5:checked ~ .slider > .line1 {\n  transform: translateX(65px) translateY(15px);\n}\n\n.cont #r3:checked ~ .slider > .dot, .cont #r6:checked ~ .slider > .dot {\n  transform: translateX(90px) translateY(2px);\n}\n\n.cont #r3:checked ~ .slider > .line1, .cont #r6:checked ~ .slider > .line1 {\n  transform: translateX(66px) translateY(16px) rotate(32deg) scaleY(1.3)\n}\n\n.cont:nth-of-type(2) {\n  transform: translateX(-50%) scaleY(-1) translateY(37px);\n}\n\n.zapp, .zapp:after, .zapp:before {\n  content: '';\n  position: absolute;\n  height: 40px;\n  width: 4px;\n  margin-left: -2px;\n  background-color: #f00;\n}\n\n.zapp {\n  transform: translateY(-40px);\n}\n\n.zapp:after {\n  transform: translateX(42px);\n}\n\n.zapp:before {\n  transform: translateX(-38px);\n}\n\n#c1:checked ~ #c4:checked ~ .zapp {\n  display: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

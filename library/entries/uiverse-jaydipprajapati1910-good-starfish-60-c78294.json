@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-jaydipprajapati1910-good-starfish-60-c78294",
+  "title": "Loader by JaydipPrajapati1910 (good-starfish-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/good-starfish-60",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "red",
+    "loading"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JaydipPrajapati1910_good-starfish-60.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: red, loading, loader */\n.loader {\n  box-sizing: border-box;\n  display: inline-block;\n  width: 50px;\n  height: 80px;\n  border-top: 5px solid #fff;\n  border-bottom: 5px solid #fff;\n  position: relative;\n  background: linear-gradient(#FF3D00 30px, transparent 0) no-repeat;\n  background-size: 2px 40px;\n  background-position: 50% 0px;\n  animation: spinx 5s linear infinite;\n}\n\n.loader:before, .loader:after {\n  content: \"\";\n  width: 40px;\n  left: 50%;\n  height: 35px;\n  position: absolute;\n  top: 0;\n  transform: translatex(-50%);\n  background: rgba(255, 255, 255, 0.4);\n  border-radius: 0 0 20px 20px;\n  background-size: 100% auto;\n  background-repeat: no-repeat;\n  background-position: 0 0px;\n  animation: lqt 5s linear infinite;\n}\n\n.loader:after {\n  top: auto;\n  bottom: 0;\n  border-radius: 20px 20px 0 0;\n  animation: lqb 5s linear infinite;\n}\n\n@keyframes lqt {\n  0%, 100% {\n    background-image: linear-gradient(#FF3D00 40px, transparent 0);\n    background-position: 0% 0px;\n  }\n\n  50% {\n    background-image: linear-gradient(#FF3D00 40px, transparent 0);\n    background-position: 0% 40px;\n  }\n\n  50.1% {\n    background-image: linear-gradient(#FF3D00 40px, transparent 0);\n    background-position: 0% -40px;\n  }\n}\n\n@keyframes lqb {\n  0% {\n    background-image: linear-gradient(#FF3D00 40px, transparent 0);\n    background-position: 0 40px;\n  }\n\n  100% {\n    background-image: linear-gradient(#FF3D00 40px, transparent 0);\n    background-position: 0 -40px;\n  }\n}\n\n@keyframes spinx {\n  0%, 49% {\n    transform: rotate(0deg);\n    background-position: 50% 36px;\n  }\n\n  51%, 98% {\n    transform: rotate(180deg);\n    background-position: 50% 4px;\n  }\n\n  100% {\n    transform: rotate(360deg);\n    background-position: 50% 36px;\n  }\n}\n    \n  \n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

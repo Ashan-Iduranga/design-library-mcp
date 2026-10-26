@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-peary74-foolish-sloth-23-002523",
+  "title": "Loader by Peary74 (foolish-sloth-23)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Peary74/foolish-sloth-23",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animated",
+    "google"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Peary74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Peary74_foolish-sloth-23.html",
+  "code": "<div class=\"loader\">\n\n  <div class=\"cercle\">\n  </div>\n  <div class=\"cercle\">\n  </div>\n  <div class=\"cercle\">\n  </div>\n  <div class=\"cercle\">\n  </div>\n\n</div>\n<style>\n/* From Uiverse.io by Peary74 - Tags: loader, animated, google */\n.loader {\n  position: absolute;\n}\n\n.cercle {\n  position: absolute;\n  background: #3f7ee8;\n  border-radius: 50%;\n  width: 60px;\n  height: 60px;\n  top: -40px;\n  left: -70px;\n  animation: move-up6 .4s ease-in infinite alternate-reverse;\n}\n\n.cercle:nth-child(2) {\n  width: 25px;\n  height: 25px;\n  top: -2px;\n  left: -5px;\n  background: #de4032;\n  animation: move-down1 .4s ease-in infinite alternate-reverse;\n}\n\n.cercle:nth-child(3) {\n  width: 30px;\n  height: 30px;\n  top: 35px;\n  left: -7px;\n  background: #eeb205;\n  animation: move-updown1 .4s ease-in infinite alternate-reverse;\n}\n\n.cercle:nth-child(4) {\n  width: 12px;\n  height: 12px;\n  top: -10px;\n  left: 25px;\n  background: #31aa52;\n  animation: move-up6 .4s ease-in infinite alternate-reverse;\n}\n\n@keyframes move-up6 {\n  to {\n    transform: translateY(-5px);\n  }\n}\n\n@keyframes move-down1 {\n  to {\n    transform: translateY(5px);\n  }\n}\n\n@keyframes move-updown1 {\n  to {\n    transform: translateY(10px);\n  }\n\n  from {\n    transform: translateY(-7px);\n  }\n}\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

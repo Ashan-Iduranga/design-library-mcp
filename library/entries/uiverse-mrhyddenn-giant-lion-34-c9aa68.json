@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-giant-lion-34-c9aa68",
+  "title": "Loader by mrhyddenn (giant-lion-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/giant-lion-34",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_giant-lion-34.html",
+  "code": "<div class=\"loader\">\n    <span></span>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  position: relative;\n  width: 150px;\n  height: 150px;\n  background: transparent;\n  border-radius: 50%;\n  box-shadow: 25px 25px 75px rgba(0,0,0,0.55);\n  border: 1px solid #333;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n}\n\n.loader::before {\n  content: '';\n  position: absolute;\n  inset: 20px;\n  background: transparent;\n  border: 1px dashed#444;\n  border-radius: 50%;\n  box-shadow: inset -5px -5px 25px rgba(0,0,0,0.25),\n  inset 5px 5px 35px rgba(0,0,0,0.25);\n}\n\n.loader::after {\n  content: '';\n  position: absolute;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  border: 1px dashed#444;\n  box-shadow: inset -5px -5px 25px rgba(0,0,0,0.25),\n  inset 5px 5px 35px rgba(0,0,0,0.25);\n}\n\n.loader span {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 50%;\n  height: 100%;\n  background: transparent;\n  transform-origin: top left;\n  animation: radar81 2s linear infinite;\n  border-top: 1px dashed #fff;\n}\n\n.loader span::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: seagreen;\n  transform-origin: top left;\n  transform: rotate(-55deg);\n  filter: blur(30px) drop-shadow(20px 20px 20px seagreen);\n}\n\n@keyframes radar81 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

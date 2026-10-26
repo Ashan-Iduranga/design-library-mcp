@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-pagination-default-pagination",
+  "title": "Pagination: Default pagination (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/pagination/#default-pagination",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "pagination",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the following list of pagination items based on two sizes powered by Tailwind CSS utility classes to indicate a series of content for your website.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/pagination.md",
+  "code": "<nav aria-label=\"Page navigation example\">\n  <ul class=\"flex -space-x-px text-sm\">\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading font-medium rounded-s-base text-sm px-3 h-9 focus:outline-none\">Previous</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading font-medium text-sm w-9 h-9 focus:outline-none\">1</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading font-medium text-sm w-9 h-9 focus:outline-none\">2</a>\n    </li>\n    <li>\n      <a href=\"#\" aria-current=\"page\" class=\"flex items-center justify-center text-fg-brand bg-neutral-tertiary-medium box-border border border-default-medium hover:text-fg-brand font-medium text-sm w-9 h-9 focus:outline-none\">3</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading font-medium text-sm w-9 h-9 focus:outline-none\">4</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading font-medium text-sm w-9 h-9 focus:outline-none\">5</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading font-medium rounded-e-base text-sm px-3 h-9 focus:outline-none\">Next</a>\n    </li>\n  </ul>\n</nav>\n\n<nav aria-label=\"Page navigation example\">\n  <ul class=\"flex -space-x-px text-sm\">\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading font-medium rounded-s-base text-sm px-3 h-10 focus:outline-none\">Previous</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading font-medium text-sm w-10 h-10 focus:outline-none\">1</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading font-medium text-sm w-10 h-10 focus:outline-none\">2</a>\n    </li>\n    <li>\n      <a href=\"#\" aria-current=\"page\" class=\"flex items-center justify-center text-fg-brand bg-neutral-tertiary-medium box-border border border-default-medium hover:text-fg-brand font-medium text-sm w-10 h-10 focus:outline-none\">3</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading font-medium text-sm w-10 h-10 focus:outline-none\">4</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading font-medium text-sm w-10 h-10 focus:outline-none\">5</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading font-medium rounded-e-base text-sm px-3 h-10 focus:outline-none\">Next</a>\n    </li>\n  </ul>\n</nav>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

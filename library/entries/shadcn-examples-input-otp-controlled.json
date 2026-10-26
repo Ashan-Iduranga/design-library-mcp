@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-input-otp-controlled",
+  "title": "Input Otp Controlled (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/input-otp-controlled.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "input",
+    "otp",
+    "controlled",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Accessible one-time password component with copy-paste functionality.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/input-otp-controlled.tsx",
+  "code": "\"use client\"\n\nimport * as React from \"react\"\n\nimport {\n  InputOTP,\n  InputOTPGroup,\n  InputOTPSlot,\n} from \"@/registry/new-york-v4/ui/input-otp\"\n\nexport default function InputOTPControlled() {\n  const [value, setValue] = React.useState(\"\")\n\n  return (\n    <div className=\"space-y-2\">\n      <InputOTP\n        maxLength={6}\n        value={value}\n        onChange={(value) => setValue(value)}\n      >\n        <InputOTPGroup>\n          <InputOTPSlot index={0} />\n          <InputOTPSlot index={1} />\n          <InputOTPSlot index={2} />\n          <InputOTPSlot index={3} />\n          <InputOTPSlot index={4} />\n          <InputOTPSlot index={5} />\n        </InputOTPGroup>\n      </InputOTP>\n      <div className=\"text-center text-sm\">\n        {value === \"\" ? (\n          <>Enter your one-time password.</>\n        ) : (\n          <>You entered: {value}</>\n        )}\n      </div>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

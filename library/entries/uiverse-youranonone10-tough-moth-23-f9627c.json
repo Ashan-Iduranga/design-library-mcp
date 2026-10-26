@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-youranonone10-tough-moth-23-f9627c",
+  "title": "Loader by youranonone10 (tough-moth-23)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/youranonone10/tough-moth-23",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By youranonone10 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/youranonone10_tough-moth-23.html",
+  "code": "<div class=\"holder\">\n        <div class=\"candle\">\n          <div class=\"blinking-glow\"></div>\n          <div class=\"thread\"></div>\n          <div class=\"glow\"></div>\n          <div class=\"flame\"></div>\n        </div>\n    </div>\n      \n<style>\n/* From Uiverse.io by youranonone10 - Tags: loader */\n.holder {\n  margin: 12rem auto 0;\n  width: 150px;\n  height: 400px;\n  position: relative;\n}\n\n.holder *, .holder *:before, .holder *:after {\n  position: absolute;\n  content: \"\";\n}\n\n.candle {\n  bottom: 0;\n  width: 150px;\n  height: 300px;\n  border-radius: 150px / 40px;\n  -webkit-box-shadow: inset 20px -30px 50px 0 rgba(0, 0, 0, 0.4), inset -20px 0 50px 0 rgba(0, 0, 0, 0.4);\n  box-shadow: inset 20px -30px 50px 0 rgba(0, 0, 0, 0.4), inset -20px 0 50px 0 rgba(0, 0, 0, 0.4);\n  background: #190f02;\n  background: -webkit-gradient(linear, left top, left bottom, from(#e48825), color-stop(#e78e0e), color-stop(#833c03), color-stop(50%, #4c1a03), to(#1c0900));\n  background: linear-gradient(#e48825, #e78e0e, #833c03, #4c1a03 50%, #1c0900);\n}\n\n.candle:before {\n  width: 100%;\n  height: 40px;\n  border-radius: 50%;\n  border: 2px solid #d47401;\n  background: #b86409;\n  background: radial-gradient(#ffef80, #b86409 60%);\n  background: radial-gradient(#eaa121, #8e4901 45%, #b86409 80%);\n}\n\n.candle:after {\n  width: 34px;\n  height: 10px;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  transform: translateX(-50%);\n  border-radius: 50%;\n  top: 14px;\n  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);\n  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);\n  background: radial-gradient(rgba(0, 0, 0, 0.6), transparent 45%);\n}\n\n.thread {\n  width: 6px;\n  height: 36px;\n  top: -17px;\n  left: 50%;\n  z-index: 1;\n  border-radius: 40% 40% 0 0;\n  -webkit-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  transform: translateX(-50%);\n  background: #121212;\n  background: -webkit-gradient(linear, left top, left bottom, from(#d6994a), color-stop(#4b232c), color-stop(#121212), color-stop(black), color-stop(90%, #e8bb31));\n  background: linear-gradient(#d6994a, #4b232c, #121212, black, #e8bb31 90%);\n}\n\n.flame {\n  width: 24px;\n  height: 120px;\n  left: 50%;\n  -webkit-transform-origin: 50% 100%;\n  -ms-transform-origin: 50% 100%;\n  transform-origin: 50% 100%;\n  -webkit-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  transform: translateX(-50%);\n  bottom: 100%;\n  border-radius: 50% 50% 20% 20%;\n  background: rgba(255, 255, 255, 1);\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, white), to(transparent));\n  background: linear-gradient(white 80%, transparent);\n  -webkit-animation: moveFlame 6s linear infinite, enlargeFlame 5s linear infinite;\n  animation: moveFlame 6s linear infinite, enlargeFlame 5s linear infinite;\n}\n\n.flame:before {\n  width: 100%;\n  height: 100%;\n  border-radius: 50% 50% 20% 20%;\n  -webkit-box-shadow: 0 0 15px 0 rgba(247, 93, 0, .4), 0 -6px 4px 0 rgba(247, 128, 0, .7);\n  box-shadow: 0 0 15px 0 rgba(247, 93, 0, .4), 0 -6px 4px 0 rgba(247, 128, 0, .7);\n}\n\n@-webkit-keyframes moveFlame {\n  0%, 100% {\n    -webkit-transform: translateX(-50%) rotate(-2deg);\n    transform: translateX(-50%) rotate(-2deg);\n  }\n\n  50% {\n    -webkit-transform: translateX(-50%) rotate(2deg);\n    transform: translateX(-50%) rotate(2deg);\n  }\n}\n\n@keyframes moveFlame {\n  0%, 100% {\n    -webkit-transform: translateX(-50%) rotate(-2deg);\n    transform: translateX(-50%) rotate(-2deg);\n  }\n\n  50% {\n    -webkit-transform: translateX(-50%) rotate(2deg);\n    transform: translateX(-50%) rotate(2deg);\n  }\n}\n\n@-webkit-keyframes enlargeFlame {\n  0%, 100% {\n    height: 120px;\n  }\n\n  50% {\n    height: 140px;\n  }\n}\n\n@keyframes enlargeFlame {\n  0%, 100% {\n    height: 120px;\n  }\n\n  50% {\n    height: 140px;\n  }\n}\n\n.glow {\n  width: 26px;\n  height: 60px;\n  border-radius: 50% 50% 35% 35%;\n  left: 50%;\n  top: -48px;\n  -webkit-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  transform: translateX(-50%);\n  background: rgba(0, 133, 255, .7);\n  -webkit-box-shadow: 0 -40px 30px 0 #dc8a0c, 0 40px 50px 0 #dc8a0c, inset 3px 0 2px 0 rgba(0, 133, 255, .6), inset -3px 0 2px 0 rgba(0, 133, 255, .6);\n  box-shadow: 0 -40px 30px 0 #dc8a0c, 0 40px 50px 0 #dc8a0c, inset 3px 0 2px 0 rgba(0, 133, 255, .6), inset -3px 0 2px 0 rgba(0, 133, 255, .6);\n}\n\n.glow:before {\n  width: 70%;\n  height: 60%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  transform: translateX(-50%);\n  bottom: 0;\n  border-radius: 50%;\n  background: rgba(0, 0, 0, 0.35);\n}\n\n.blinking-glow {\n  width: 100px;\n  height: 180px;\n  left: 50%;\n  top: -55%;\n  -webkit-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  transform: translateX(-50%);\n  border-radius: 50%;\n  background: #ff6000;\n  -webkit-filter: blur(50px);\n  -moz-filter: blur(60px);\n  -o-filter: blur(60px);\n  -ms-filter: blur(60px);\n  filter: blur(60px);\n  -webkit-animation: blinkIt .1s infinite;\n  animation: blinkIt .1s infinite;\n}\n\n@-webkit-keyframes blinkIt {\n  50% {\n    opacity: .8;\n  }\n}\n\n@keyframes blinkIt {\n  50% {\n    opacity: .8;\n  }\n}\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-subaashbala-ancient-lizard-57-bea2c1",
+  "title": "Loader by Subaashbala (ancient-lizard-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Subaashbala/ancient-lizard-57",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "3d",
+    "dice",
+    "loading-animation",
+    "3d-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Subaashbala on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Subaashbala_ancient-lizard-57.html",
+  "code": "<div class=\"loaderViewPort\">\n  <div class=\"loader\">\n    <div class=\"side front\">\n      <div class=\"dot\"></div>\n    </div>\n    <div class=\"side back\">\n      <div class=\"dotContainer\">\n        <div class=\"dot\"></div>\n        <div class=\"dot\"></div>\n        <div class=\"dot\"></div>\n      </div>\n    </div>\n    <div class=\"side left\">\n      <div class=\"dotContainer\">\n        <div class=\"dot\"></div>\n        <div class=\"dot\"></div>\n      </div>\n    </div>\n    <div class=\"side right\">\n      <div class=\"dotContainer\">\n        <div class=\"subDotContainer\">\n          <div class=\"dot\"></div>\n          <div class=\"dot\"></div>\n        </div>\n        <div class=\"subDotContainer\">\n          <div class=\"dot\"></div>\n          <div class=\"dot\"></div>\n        </div>\n      </div>\n    </div>\n    <div class=\"side top\">\n      <div class=\"dotContainer\">\n        <div class=\"subDotContainer\">\n          <div class=\"dot\"></div>\n          <div class=\"dot\"></div>\n        </div>\n        <div class=\"subDotContainer\">\n          <div class=\"dot\"></div>\n        </div>\n        <div class=\"subDotContainer\">\n          <div class=\"dot\"></div>\n          <div class=\"dot\"></div>\n        </div>\n      </div>\n    </div>\n    <div class=\"side bottom\">\n      <div class=\"dotContainer\">\n        <div class=\"subDotContainer\">\n          <div class=\"dot\"></div>\n          <div class=\"dot\"></div>\n        </div>\n        <div class=\"subDotContainer\">\n          <div class=\"dot\"></div>\n          <div class=\"dot\"></div>\n        </div>\n        <div class=\"subDotContainer\">\n          <div class=\"dot\"></div>\n          <div class=\"dot\"></div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Subaashbala  - Tags: 3d, loader, dice, loading animation, 3d loader */\n.loaderViewPort {\n  width: 15rem; /* Background circle around the dice */\n  aspect-ratio: 1;\n  border-radius: 50%;\n  perspective: 1000px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border: 4px solid black;\n  animation: changeColor 5s ease infinite;\n}\n.loader {\n  /* Container for the dice*/\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transform: rotateX(90deg);\n  transform-style: preserve-3d;\n  animation: revolve 5s ease infinite;\n}\n.dot {\n  width: 1rem;\n  aspect-ratio: 1;\n  background-color: black;\n  border-radius: 50%;\n}\n.dotContainer {\n  /* Flexbox to arrange dots horizontally */\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n}\n.subDotContainer {\n  /* Flexbox to arrange dots vertically */\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n}\n.left .dotContainer {\n  transform: rotate(45deg);\n}\n.side {\n  /* Actual sides of the dice */\n  background-color: rgba(255, 255, 255, 1);\n  padding: 1rem;\n  position: absolute;\n  width: 6em; /* Varying this will vary the Dice's size */\n  aspect-ratio: 1;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border: 4px solid black;\n}\n.front {\n  transform: translateZ(3rem);\n}\n.back {\n  transform: translateZ(-3rem);\n}\n.back .dotContainer {\n  transform: rotate(-45deg);\n}\n.left {\n  transform: rotateY(90deg) translateZ(3rem);\n}\n.right {\n  transform: rotateY(90deg) translateZ(-3rem);\n}\n.bottom {\n  transform: translateY(3rem) rotateX(90deg);\n}\n.top {\n  transform: translateY(-3rem) rotateX(90deg);\n}\n@keyframes revolve {\n  0% {\n    transform: rotate3d(1, 0, 0, 0deg) rotate3d(0, 1, 0, 0deg)\n      rotate3d(0, 0, 1, 0deg);\n  }\n  20% {\n    transform: rotate3d(1, 0, 0, 72deg) rotate3d(0, 1, 0, 72deg)\n      rotate3d(0, 0, 1, 72deg);\n  }\n  40% {\n    transform: rotate3d(1, 0, 0, 148deg) rotate3d(0, 1, 0, 148deg)\n      rotate3d(0, 0, 1, 148deg);\n  }\n  60% {\n    transform: rotate3d(1, 0, 0, 216deg) rotate3d(0, 1, 0, 216deg)\n      rotate3d(0, 0, 1, 216deg);\n  }\n  80% {\n    transform: rotate3d(1, 0, 0, 288deg) rotate3d(0, 1, 0, 288deg)\n      rotate3d(0, 0, 1, 288deg);\n  }\n  100% {\n    transform: rotate3d(1, 0, 0, 360deg) rotate3d(0, 1, 0, 360deg)\n      rotate3d(0, 0, 1, 360deg);\n  }\n}\n@keyframes changeColor {\n  0% {\n    background-color: #00dfa2;\n  }\n  20% {\n    background-color: #f72798;\n  }\n  40% {\n    background-color: #f57d1f;\n  }\n  60% {\n    background-color: #16ff00;\n  }\n  80% {\n    background-color: #ff004d;\n  }\n  100% {\n    background-color: #00dfa2;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

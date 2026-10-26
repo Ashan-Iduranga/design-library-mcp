@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-subu19-plastic-skunk-56-e27f2b",
+  "title": "Button by Subu19 (plastic-skunk-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Subu19/plastic-skunk-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "hamburger",
+    "click",
+    "menu"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Subu19 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Subu19_plastic-skunk-56.html",
+  "code": "<div class=\"hamburger\">\n  <input class=\"checkbox\" type=\"checkbox\" />\n  <svg fill=\"none\" viewBox=\"0 0 50 50\" height=\"50\" width=\"50\">\n    <path\n      class=\"lineTop line\"\n      stroke-linecap=\"round\"\n      stroke-width=\"4\"\n      stroke=\"black\"\n      d=\"M6 11L44 11\"\n    ></path>\n    <path\n      stroke-linecap=\"round\"\n      stroke-width=\"4\"\n      stroke=\"black\"\n      d=\"M6 24H43\"\n      class=\"lineMid line\"\n    ></path>\n    <path\n      stroke-linecap=\"round\"\n      stroke-width=\"4\"\n      stroke=\"black\"\n      d=\"M6 37H43\"\n      class=\"lineBottom line\"\n    ></path>\n  </svg>\n</div>\n\n<style>\n/* From Uiverse.io by Subu19  - Tags: animation, button, hamburger, click, menu */\n.hamburger {\n  height: 50px;\n  width: 50px;\n  transform: 0.2s;\n  position: relative;\n}\n.hamburger .checkbox {\n  position: absolute;\n  opacity: 0;\n  height: 100%;\n  width: 100%;\n  cursor: pointer;\n}\n.line {\n  transition: 0.5s;\n  stroke-width: 6px;\n  stroke: black;\n}\n.lineTop {\n  stroke-dasharray: 40 40;\n  stroke-dashoffset: 25;\n}\n.lineBottom {\n  stroke-dasharray: 40 40;\n  stroke-dashoffset: 60;\n}\n.lineMid {\n  stroke-dasharray: 40 40;\n}\n.hamburger .checkbox:checked + svg .line {\n  stroke: crimson;\n}\n.hamburger .checkbox:checked + svg .lineTop {\n  stroke-dashoffset: 0;\n  transform-origin: left;\n  transform: rotateZ(45deg) translate(-7px, -5px);\n}\n.hamburger .checkbox:checked + svg .lineMid {\n  stroke-dashoffset: 40;\n}\n.hamburger .checkbox:checked + svg .lineBottom {\n  stroke-dashoffset: 0;\n  transform-origin: left;\n  transform: rotateZ(-45deg) translate(-5px, 5px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

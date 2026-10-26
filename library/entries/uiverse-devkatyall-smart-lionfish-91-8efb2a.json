@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-devkatyall-smart-lionfish-91-8efb2a",
+  "title": "Input by devkatyall (smart-lionfish-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/devkatyall/smart-lionfish-91",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "submit",
+    "close"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By devkatyall on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/devkatyall_smart-lionfish-91.html",
+  "code": "<div class=\"input\">\n  <input\n    class=\"to-do-input\"\n    placeholder=\"Your Tasks Go Here...\"\n    name=\"text\"\n    type=\"text\"\n  />\n  <div class=\"todo-line\">&nbsp;</div>\n</div>\n<button class=\"input button\">Add</button>\n\n<style>\n/* From Uiverse.io by devkatyall  - Tags: input, submit, close */\n.input {\n  display: block;\n}\n.to-do-input {\n  color: rgb(133, 198, 255);\n  display: block;\n  max-width: 190px;\n  height: 2.7em;\n  padding: 1em 1em;\n  font-family: \"Instrument Sans\", sans-serif;\n  border: none;\n  border-radius: 4px;\n  background-color: black;\n}\n.to-do-input:focus {\n  outline: none;\n}\n.todo-line {\n  z-index: 2;\n  position: absolute;\n  margin-top: -2px;\n  width: 216px;\n  height: 2px;\n  border-radius: 4px;\n  background-color: black;\n}\n.to-do-input:focus ~ .todo-line {\n  animation: draw 0.3s ease-in;\n  background: rgb(49, 228, 255);\n}\n@keyframes draw {\n  0% {\n    opacity: 0;\n    width: 0px;\n    filter: hue-rotate(0deg);\n  }\n  100% {\n    opacity: 1;\n    width: 200px;\n    filter: hue-rotate(360deg);\n  }\n}\n.input.button {\n  border-top-right-radius: 4px;\n  border-bottom-right-radius: 4px;\n  display: flex;\n  height: 2.7em;\n  padding: 1em 1em;\n  align-items: center;\n  background-color: black;\n  border: none;\n  color: white;\n  transform: translateX(-4px);\n  cursor: pointer;\n  transition: 0.5s all;\n}\n.input.button:active {\n  background-color: rgb(49, 228, 255);\n  transition: 0.5s all;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

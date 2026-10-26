@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-skeleton-default-skeleton",
+  "title": "Skeleton: Default skeleton (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/skeleton/#default-skeleton",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "skeleton",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a placeholder when loading text content.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/skeleton.md",
+  "code": "<div role=\"status\" class=\"max-w-sm animate-pulse\">\n    <div class=\"h-2.5 bg-neutral-quaternary rounded-full w-48 mb-4\"></div>\n    <div class=\"h-2 bg-neutral-quaternary rounded-full max-w-[360px] mb-2.5\"></div>\n    <div class=\"h-2 bg-neutral-quaternary rounded-full mb-2.5\"></div>\n    <div class=\"h-2 bg-neutral-quaternary rounded-full max-w-[330px] mb-2.5\"></div>\n    <div class=\"h-2 bg-neutral-quaternary rounded-full max-w-[300px] mb-2.5\"></div>\n    <div class=\"h-2 bg-neutral-quaternary rounded-full max-w-[360px]\"></div>\n    <span class=\"sr-only\">Loading...</span>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-donewenfu-massive-badger-47-af5462",
+  "title": "Loader by Donewenfu (massive-badger-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Donewenfu/massive-badger-47",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Donewenfu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Donewenfu_massive-badger-47.html",
+  "code": "<div class=\"loader\">\n  <div class=\"justify-content-center jimu-primary-loading\"></div>\n</div>\n<style>\n/* From Uiverse.io by Donewenfu - Tags: loader */\n.loader {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n\n.jimu-primary-loading:before,\n.jimu-primary-loading:after {\n  position: absolute;\n  top: 0;\n  content: '';\n}\n\n.jimu-primary-loading:before {\n  left: -19.992px;\n}\n\n.jimu-primary-loading:after {\n  left: 19.992px;\n  -webkit-animation-delay: 0.32s !important;\n  animation-delay: 0.32s !important;\n}\n\n.jimu-primary-loading:before,\n.jimu-primary-loading:after,\n.jimu-primary-loading {\n  background: #076fe5;\n  -webkit-animation: loading-keys-app-loading 0.8s infinite ease-in-out;\n  animation: loading-keys-app-loading 0.8s infinite ease-in-out;\n  width: 13.6px;\n  height: 32px;\n}\n\n.jimu-primary-loading {\n  text-indent: -9999em;\n  margin: auto;\n  position: absolute;\n  right: calc(50% - 6.8px);\n  top: calc(50% - 16px);\n  -webkit-animation-delay: 0.16s !important;\n  animation-delay: 0.16s !important;\n}\n\n@-webkit-keyframes loading-keys-app-loading {\n\n  0%,\n  80%,\n  100% {\n    opacity: .75;\n    box-shadow: 0 0 #076fe5;\n    height: 32px;\n  }\n\n  40% {\n    opacity: 1;\n    box-shadow: 0 -8px #076fe5;\n    height: 40px;\n  }\n}\n\n@keyframes loading-keys-app-loading {\n\n  0%,\n  80%,\n  100% {\n    opacity: .75;\n    box-shadow: 0 0 #076fe5;\n    height: 32px;\n  }\n\n  40% {\n    opacity: 1;\n    box-shadow: 0 -8px #076fe5;\n    height: 40px;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

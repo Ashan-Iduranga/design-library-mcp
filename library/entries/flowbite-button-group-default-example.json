@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-button-group-default-example",
+  "title": "Button Group: Default example (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/button-group/#default-example",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button-group",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the following code to stack together buttons into a single group.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/button-group.md",
+  "code": "<div class=\"inline-flex rounded-base shadow-xs -space-x-px\" role=\"group\">\n  <button type=\"button\" class=\"text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary-soft font-medium leading-5 rounded-s-base text-sm px-3 py-2 focus:outline-none\">\n    Profile\n  </button>\n  <button type=\"button\" class=\"text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary-soft font-medium leading-5 text-sm px-3 py-2 focus:outline-none\">\n    Settings\n  </button>\n  <button type=\"button\" class=\"text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary-soft font-medium leading-5 rounded-e-base text-sm px-3 py-2 focus:outline-none\">\n    Messages\n  </button>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

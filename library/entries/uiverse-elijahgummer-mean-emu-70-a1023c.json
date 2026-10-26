@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-elijahgummer-mean-emu-70-a1023c",
+  "title": "Pattern by elijahgummer (mean-emu-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/mean-emu-70",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "animation",
+    "blue",
+    "gradient",
+    "circle",
+    "transition"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/elijahgummer_mean-emu-70.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, animation, blue, gradient, circle, transition, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: lightblue;\n  position: relative;\n  overflow: hidden;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  top: -50%;\n  left: -50%;\n  width: 200%;\n  height: 200%;\n  background: radial-gradient(circle, #3498db 10%, transparent 20%),\n    radial-gradient(circle, transparent 10%, #3498db 20%);\n  background-size: 30px 30px; /* Adjust the size of the pattern */\n  animation: moveBackground 8s linear infinite; /* Adjust the animation duration and timing function */\n}\n\n@keyframes moveBackground {\n  0% {\n    transform: translate(0, 0);\n  }\n  100% {\n    transform: translate(20%, 20%);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

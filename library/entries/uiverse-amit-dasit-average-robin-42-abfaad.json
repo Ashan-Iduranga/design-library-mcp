@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-amit-dasit-average-robin-42-abfaad",
+  "title": "Toggle by AmIt-DasIT (average-robin-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AmIt-DasIT/average-robin-42",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AmIt-DasIT on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/AmIt-DasIT_average-robin-42.html",
+  "code": "<input id=\"checkbox_toggle\" type=\"checkbox\" class=\"check\">\n<div class=\"checkbox\">\n  <label class=\"slide\" for=\"checkbox_toggle\">\n    <label class=\"toggle\" for=\"checkbox_toggle\"></label>\n    <label class=\"text\" for=\"checkbox_toggle\">Day</label>\n    <label class=\"text\" for=\"checkbox_toggle\">Night</label>\n  </label>\n</div>\n<style>\n/* From Uiverse.io by AmIt-DasIT - Tags: switch, animated */\n.checkbox {\n  width: 223px;\n  height: 60px;\n  background-color: #d0d0d0;\n  border-radius: 30px;\n  position: relative;\n  color: black;\n  overflow: hidden;\n}\n\n#checkbox_toggle {\n  display: none;\n}\n\n.checkbox .toggle {\n  width: 100px;\n  height: 50px;\n  position: absolute;\n  border-radius: 30px;\n  left: 5px;\n  cursor: pointer;\n  background: linear-gradient(40deg, #FF0080,#FF8C00 70%);\n  transition: 0.4s;\n  box-shadow: 0px 0px 3px rgb(255, 255, 20), 0px 0px 5px rgb(255, 255, 20);\n}\n\n.checkbox .slide {\n  width: 230px;\n  height: 60px;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  cursor: pointer;\n}\n\n.checkbox .slide .text {\n  font-size: 16px;\n  font-weight: 700;\n  z-index: 100;\n  cursor: pointer;\n}\n\n.check:checked + .checkbox .slide .toggle {\n  transform: translateX(113px);\n  background: linear-gradient(40deg, #8983F7, #A3DAFB 70%);\n  box-shadow: -0px -0px 10px #8983F7, -0px -0px 3px #8983F7;\n}\n\n.check:checked + .checkbox .slide {\n  background-color: #0a1929;\n  color: #fff;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

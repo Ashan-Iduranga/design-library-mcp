@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-csemszepp-old-hound-37-648d8a",
+  "title": "Pattern by csemszepp (old-hound-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/old-hound-37",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "minimalist"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_old-hound-37.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp  - Tags: simple, minimalist, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 200px; /* control the size */\n\n  --_g: #dc9d37 25%, #fed450 0 50%, #0000 0;\n  --_l1: #fff 0 1px, #0000 0 calc(25% - 1px), #fff 0 25%;\n  --_l2: #fff 0 1px, #0000 0 calc(50% - 1px), #fff 0 50%;\n  background: repeating-linear-gradient(45deg, var(--_l1)),\n    repeating-linear-gradient(-45deg, var(--_l1)),\n    repeating-linear-gradient(0deg, var(--_l2)),\n    repeating-linear-gradient(90deg, var(--_l2)),\n    conic-gradient(from 135deg at 25% 75%, var(--_g)),\n    conic-gradient(from 225deg at 25% 25%, var(--_g)),\n    conic-gradient(from 45deg at 75% 75%, var(--_g)),\n    conic-gradient(from -45deg at 75% 25%, var(--_g)),\n    repeating-conic-gradient(#125c65 0 45deg, #bc4a33 0 90deg);\n  background-size: var(--s) var(--s);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

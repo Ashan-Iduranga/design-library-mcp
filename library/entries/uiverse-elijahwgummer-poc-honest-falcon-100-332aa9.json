@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-elijahwgummer-poc-honest-falcon-100-332aa9",
+  "title": "Button by elijahwgummer-poc (honest-falcon-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahwgummer-poc/honest-falcon-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "bubble",
+    "animated",
+    "shine"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahwgummer-poc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/elijahwgummer-poc_honest-falcon-100.html",
+  "code": "<button class=\"button\">\n  <span>Button</span>\n  <div class=\"overlay\"></div>\n  <div class=\"shine\"></div>\n</button>\n\n<style>\n/* From Uiverse.io by elijahwgummer-poc - Tags: button, bubble, animated, shine */\n.button {\n  position: relative;\n  display: inline-block;\n  padding: 12px 26px;\n  font-size: 20px;\n  font-weight: bold;\n  text-align: center;\n  text-decoration: none;\n  border-radius: 50px;\n  color: #fff;\n  background-color: #ff6b6b;\n  border: none;\n  overflow: hidden;\n  transition: all 0.3s ease;\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);\n}\n\n.button span {\n  position: relative;\n  z-index: 1;\n}\n\n.button .overlay {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.3);\n  opacity: 0;\n  transition: opacity 0.3s ease;\n}\n\n.button .shine {\n  position: absolute;\n  top: -80px;\n  left: -80px;\n  width: 160px;\n  height: 160px;\n  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.8) 0%, transparent 80%);\n  transform: rotate(45deg);\n  opacity: 0;\n  transition: opacity 0.3s ease;\n}\n\n.button:hover .overlay {\n  opacity: 0.7;\n}\n\n.button:hover .shine {\n  opacity: 1;\n}\n\n.button:hover {\n  background-color: #ff3333;\n}\n\n.button:active {\n  background-color: #cc0000;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

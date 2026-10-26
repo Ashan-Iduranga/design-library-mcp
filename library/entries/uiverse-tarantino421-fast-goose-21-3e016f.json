@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-tarantino421-fast-goose-21-3e016f",
+  "title": "Button by tarantino421 (fast-goose-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/tarantino421/fast-goose-21",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "music",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By tarantino421 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/tarantino421_fast-goose-21.html",
+  "code": "<div class=\"box\">\n  <button class=\"button\">LISTEN</button>\n  <div class=\"music\">\n    <span class=\"soundwave\" style=\"--i: 12\"></span>\n    <span class=\"soundwave\" style=\"--i: 31\"></span>\n    <span class=\"soundwave\" style=\"--i: 25\"></span>\n    <span class=\"soundwave\" style=\"--i: 18\"></span>\n    <span class=\"soundwave\" style=\"--i: 11\"></span>\n    <span class=\"soundwave\" style=\"--i: 23\"></span>\n    <span class=\"soundwave\" style=\"--i: 16\"></span>\n    <span class=\"soundwave\" style=\"--i: 34\"></span>\n    <span class=\"soundwave\" style=\"--i: 19\"></span>\n    <span class=\"soundwave\" style=\"--i: 14\"></span>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by tarantino421 - Tags: button, music, hover button */\n.box {\n  --clr-shadow__border: #3effff;\n  --clr-text: #F6F4EB;\n  --clr-soundwave: #83e4ac;\n  --clr-music: #30858d;\n  --size: 3rem;\n  position: relative;\n  outline: 1px solid var(--clr-shadow__border);\n}\n\n.button {\n  background: transparent;\n  padding: calc(var(--size) / 3) var(--size);\n  font-weight: 600;\n  font-size: 1.5rem;\n  border: none;\n  cursor: pointer;\n  color: var(--clr-text);\n  letter-spacing: 0.2rem;\n  text-shadow: 2px 0px var(--clr-shadow__border), 0px 2px var(--clr-shadow__border),-2px 0px var(--clr-shadow__border), 0px -2px var(--clr-shadow__border);\n}\n\n.music {\n  width: 100%;\n  height: 100%;\n  bottom: 0%;\n  transition: 0.5s ease-in-out;\n  z-index: -1;\n  opacity: 0;\n  overflow: hidden;\n  position: absolute;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  background: var(--clr-music);\n}\n\n.box:hover .music {\n  opacity: 1;\n}\n\n.soundwave {\n  width: 100%;\n  border: 1px solid var(--clr-music);\n  border-bottom: none;\n  background: linear-gradient(to top, var(--clr-soundwave) 70%, var(--clr-music));\n  animation: music-animation calc(0.03s * var(--i)) linear infinite;\n  opacity: 1;\n}\n\n@keyframes music-animation {\n  0%, 100% {\n    height: calc(0.06rem * var(--i));\n  }\n\n  10% {\n    height: calc(0.04rem * var(--i));\n  }\n\n  20% {\n    height: calc(0.05rem * var(--i));\n  }\n\n  30% {\n    height: calc(0.01rem * var(--i));\n  }\n\n  40% {\n    height: calc(0.07rem * var(--i));\n  }\n\n  50% {\n    height: calc(0.04rem * var(--i));\n  }\n\n  60% {\n    height: calc(0.08rem * var(--i));\n  }\n\n  70% {\n    height: calc(0.06rem * var(--i));\n  }\n\n  80% {\n    height: calc(0.09rem * var(--i));\n  }\n\n  90% {\n    height: calc(0.05rem * var(--i));\n  }\n}\n\n\n\n\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

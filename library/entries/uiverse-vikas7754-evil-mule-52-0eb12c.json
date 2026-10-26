@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-vikas7754-evil-mule-52-0eb12c",
+  "title": "Tooltip by vikas7754 (evil-mule-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikas7754/evil-mule-52",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "neumorphism",
+    "3d",
+    "dark",
+    "modern"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikas7754 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/vikas7754_evil-mule-52.html",
+  "code": "<div class=\"tooltip-container\">\n  <div class=\"tooltip\">\n    <div class=\"profile\">\n      <div class=\"user\">\n        <div class=\"img\">Ui</div>\n        <div class=\"details\">\n          <div class=\"name\">User</div>\n          <div class=\"username\">@username</div>\n        </div>\n      </div>\n      <div class=\"about\">500+ Connections</div>\n    </div>\n  </div>\n  <div class=\"text\">\n    <a class=\"icon\" href=\"https://freecodez.com/\">\n      <div class=\"layer\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span class=\"fab fa-linkedin\">\n          <svg viewBox=\"0 0 448 512\" height=\"1em\">\n            <path\n              d=\"M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z\"\n            ></path>\n          </svg>\n        </span>\n      </div>\n      <div class=\"text\">LinkedIn</div>\n    </a>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by vikas7754  - Tags: neumorphism, tooltip, 3d, dark, modern */\n.tooltip-container {\n  position: relative;\n  cursor: pointer;\n  transition: all 0.2s;\n  font-size: 17px;\n  border-radius: 10px;\n}\n\n.tooltip {\n  position: absolute;\n  top: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  padding: 10px;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s;\n  border-radius: 15px;\n  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),\n    inset -5px -5px 15px rgba(255, 255, 255, 0.1),\n    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);\n}\n\n.profile {\n  background: #2a2b2f;\n  border-radius: 10px 15px;\n  padding: 10px;\n  border: 1px solid rgba(11, 63, 95, 1);\n}\n\n.tooltip-container:hover .tooltip {\n  top: -150px;\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n}\n\n.icon {\n  text-decoration: none;\n  color: #fff;\n  display: block;\n  position: relative;\n}\n.layer {\n  width: 55px;\n  height: 55px;\n  transition: transform 0.3s;\n}\n.icon:hover .layer {\n  transform: rotate(-35deg) skew(20deg);\n}\n.layer span {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  border: 1px solid #fff;\n  border-radius: 5px;\n  transition: all 0.3s;\n}\n\n.layer span,\n.text {\n  color: #1da1f2;\n  border-color: #1da1f2;\n}\n\n.icon:hover.layer span {\n  box-shadow: -1px 1px 3px #1da1f2;\n}\n.icon .text {\n  position: absolute;\n  left: 50%;\n  bottom: -5px;\n  opacity: 0;\n  font-weight: 500;\n  transform: translateX(-50%);\n  transition: bottom 0.3s ease, opacity 0.3s ease;\n}\n.icon:hover .text {\n  bottom: -35px;\n  opacity: 1;\n}\n\n.icon:hover .layer span:nth-child(1) {\n  opacity: 0.2;\n}\n.icon:hover .layer span:nth-child(2) {\n  opacity: 0.4;\n  transform: translate(5px, -5px);\n}\n.icon:hover .layer span:nth-child(3) {\n  opacity: 0.6;\n  transform: translate(10px, -10px);\n}\n.icon:hover .layer span:nth-child(4) {\n  opacity: 0.8;\n  transform: translate(15px, -15px);\n}\n.icon:hover .layer span:nth-child(5) {\n  opacity: 1;\n  transform: translate(20px, -20px);\n}\n\n.layer span.fab {\n  font-size: 30px;\n  line-height: 64px;\n  text-align: center;\n  fill: #1da1f2;\n  background: #000;\n}\n.user {\n  display: flex;\n  gap: 10px;\n}\n.img {\n  width: 50px;\n  height: 50px;\n  font-size: 25px;\n  font-weight: 700;\n  border: 1px solid #1da1f2;\n  border-radius: 10px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: #fff;\n}\n.name {\n  font-size: 17px;\n  font-weight: 700;\n  color: #1da1f2;\n}\n.details {\n  display: flex;\n  flex-direction: column;\n  gap: 0;\n  color: #fff;\n}\n.about {\n  color: #ccc;\n  padding-top: 5px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

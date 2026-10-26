@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-nazarbayev01-moody-otter-91-274b8c",
+  "title": "Button by nazarbayev01 (moody-otter-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/nazarbayev01/moody-otter-91",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "active"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By nazarbayev01 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/nazarbayev01_moody-otter-91.html",
+  "code": "<button class=\"button\">button</button>\n<style>\n/* From Uiverse.io by nazarbayev01 - Tags: button, active */\nbutton {\n  padding: 1em 2em;\n  border: none;\n  border-radius: 5px;\n  font-weight: bold;\n  letter-spacing: 3px;\n  background: #DCFFFC;\n  text-transform: uppercase;\n  color: #088178;\n  transition: all 1000ms;\n  font-size: 15px;\n  position: relative;\n  overflow: hidden;\n  outline: 2px solid #088178;\n}\n\nbutton:hover {\n  color: #DCFFFC;\n  transform: scale(1);\n  outline: 2px solid #088178;\n  box-shadow: 4px 5px 17px -4px #088178;\n}\n\nbutton::before {\n  content: \"\";\n  position: absolute;\n  left: -50px;\n  top: 0;\n  width: 0;\n  height: 100%;\n  background-color: #088178;\n  transform: skewX(30deg);\n  z-index: -1;\n  transition: width 1000ms;\n}\n\nbutton:hover::before {\n  width: 250%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

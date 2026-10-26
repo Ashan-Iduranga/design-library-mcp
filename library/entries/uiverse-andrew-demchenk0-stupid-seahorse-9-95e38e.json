@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-andrew-demchenk0-stupid-seahorse-9-95e38e",
+  "title": "Radio by andrew-demchenk0 (stupid-seahorse-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/stupid-seahorse-9",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "select",
+    "radio-buttons",
+    "options"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/andrew-demchenk0_stupid-seahorse-9.html",
+  "code": "<div class=\"wrapper\">\n  <div class=\"option\">\n    <input class=\"input\" type=\"radio\" name=\"btn\" value=\"option1\" checked=\"\">\n    <div class=\"btn\">\n      <span class=\"span\">Option</span>\n    </div>\n  </div>\n  <div class=\"option\">\n    <input class=\"input\" type=\"radio\" name=\"btn\" value=\"option2\">\n    <div class=\"btn\">\n      <span class=\"span\">Option</span>\n    </div>  </div>\n  <div class=\"option\">\n    <input class=\"input\" type=\"radio\" name=\"btn\" value=\"option3\">\n    <div class=\"btn\">\n      <span class=\"span\">Option</span>\n    </div>  \n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: radio, select, radio-buttons, options  */\n.wrapper {\n  --font-color-dark: #323232;\n  --font-color-light: #FFF;\n  --bg-color: #fff;\n  --main-color: #323232;\n  position: relative;\n  width: 250px;\n  height: 36px;\n  background-color: var(--bg-color);\n  border: 2px solid var(--main-color);\n  border-radius: 34px;\n  display: flex;\n  flex-direction: row;\n  box-shadow: 4px 4px var(--main-color);\n}\n\n.option {\n  width: 80.5px;\n  height: 28px;\n  position: relative;\n  top: 2px;\n  left: 2px;\n}\n\n.input {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  left: 0;\n  top: 0;\n  appearance: none;\n  cursor: pointer;\n}\n\n.btn {\n  width: 100%;\n  height: 100%;\n  background-color: var(--bg-color);\n  border-radius: 50px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.span {\n  color: var(--font-color-dark);\n}\n\n.input:checked + .btn {\n  background-color: var(--main-color);\n}\n\n.input:checked + .btn .span {\n  color: var(--font-color-light);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

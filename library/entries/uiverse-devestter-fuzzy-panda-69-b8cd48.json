@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-devestter-fuzzy-panda-69-b8cd48",
+  "title": "Input by devestter (fuzzy-panda-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/devestter/fuzzy-panda-69",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "about-me",
+    "clean",
+    "btn"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By devestter on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/devestter_fuzzy-panda-69.html",
+  "code": "<form class=\"container\" action=\"#\">\n<input placeholder=\"im an input!\" class=\"input\" name=\"text\" type=\"text\">\n<button class=\"button\" type=\"submit\">submit</button>\n</form>\n<style>\n/* From Uiverse.io by devestter - Tags: input, about me, clean, btn */\n.container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  max-width: 500px;\n  user-select: none;\n}\n\n.text {\n  font-size: 0.8rem;\n  text-align: left;\n  width: 100%;\n  color: black;\n  font-weight: bold;\n  margin-bottom: 3px;\n}\n\n.input {\n  border-radius: 8px;\n  padding: 7px 16px;\n  box-shadow: rgba(77, 79, 82, 0.2) 0px 8px 24px;\n  border: 2px solid rgb(184, 180, 180);\n  font-size: 0.8rem;\n  outline: none;\n  transition: 0.5s ease;\n}\n\n.input:hover {\n  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;\n  border-color: rgb(138, 175, 255);\n}\n\n.input:focus {\n  border: 2px solid rgb(57, 120, 255);\n  box-shadow: rgba(133, 130, 130, 0.1) 0px 4px 12px;\n  transform: scale(0.99);\n}\n\n.input::placeholder {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.button {\n  padding: 6px 15px;\n  text-align: center;\n  color: rgb(95, 87, 87);\n  cursor: pointer;\n  background-color: white;\n  border-radius: 6px;\n  border: none;\n  transition: 0.5s;\n  width: 100%;\n  margin-top: 7px;\n  font-size: 13px;\n  box-shadow: rgba(104, 100, 100, 0.1) 0px 4px 6px -1px, rgba(49, 42, 42, 0.06) 0px 2px 4px -1px;\n}\n\n.button:hover {\n  border-radius: 7px;\n  background-color: rgb(243, 242, 242);\n  border-color: rgb(236, 232, 232);\n}\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

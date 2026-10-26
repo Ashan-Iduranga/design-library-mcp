@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-izoxvl-wise-goat-75-6ae362",
+  "title": "Button by iZOXVL (wise-goat-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/iZOXVL/wise-goat-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "material-design",
+    "animation",
+    "minimalist",
+    "black"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By iZOXVL on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/iZOXVL_wise-goat-75.html",
+  "code": "<button class=\"boton-elegante\">Explorar</button>\n\n<style>\n/* From Uiverse.io by iZOXVL  - Tags: simple, material design, animation, minimalist, black, button */\n.boton-elegante {\n  padding: 15px 30px;\n  border: 2px solid #2c2c2c;\n  background-color: #1a1a1a;\n  color: #ffffff;\n  font-size: 1.2rem;\n  cursor: pointer;\n  border-radius: 30px;\n  transition: all 0.4s ease;\n  outline: none;\n  position: relative;\n  overflow: hidden;\n  font-weight: bold;\n}\n\n.boton-elegante::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: radial-gradient(\n    circle,\n    rgba(255, 255, 255, 0.25) 0%,\n    rgba(255, 255, 255, 0) 70%\n  );\n  transform: scale(0);\n  transition: transform 0.5s ease;\n}\n\n.boton-elegante:hover::after {\n  transform: scale(4);\n}\n\n.boton-elegante:hover {\n  border-color: #666666;\n  background: #292929;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

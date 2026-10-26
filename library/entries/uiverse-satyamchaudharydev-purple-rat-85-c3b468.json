@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-satyamchaudharydev-purple-rat-85-c3b468",
+  "title": "Button by satyamchaudharydev (purple-rat-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/purple-rat-85",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/satyamchaudharydev_purple-rat-85.html",
+  "code": "<button>\n    Click me\n</button>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: 3d, button */\nbutton {\n  --bg: #e74c3c;\n  --text-color: #fff;\n  position: relative;\n  width: 150px;\n  border: none;\n  background: var(--bg);\n  color: var(--text-color);\n  padding: 1em;\n  font-weight: bold;\n  text-transform: uppercase;\n  transition: 0.2s;\n  border-radius: 5px;\n  opacity: 0.8;\n  letter-spacing: 1px;\n  box-shadow: #c0392b 0px 7px 2px, #000 0px 8px 5px;\n}\n\nbutton:hover {\n  opacity: 1;\n}\n\nbutton:active {\n  top: 4px;\n  box-shadow: #c0392b 0px 3px 2px,#000 0px 3px 5px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

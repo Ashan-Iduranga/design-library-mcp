@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-priyanshugupta28-short-horse-44-bf2eb7",
+  "title": "Button by PriyanshuGupta28 (short-horse-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/short-horse-44",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "bootsrap-button",
+    "button-hover-effect",
+    "2d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/PriyanshuGupta28_short-horse-44.html",
+  "code": "<button class=\"swipe-button\">Hover Me</button>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: button, bootsrap button, button hover effect , 2d button */\n.swipe-button {\n  padding: 10px 20px;\n  font-size: 18px;\n  border: none;\n  background: linear-gradient(45deg, #3498db, #e74c3c, #9b59b6, #2ecc71);\n  background-size: 200% 200%;\n  background-position: 0 0;\n  color: white;\n  border-radius: 5px;\n  cursor: pointer;\n  font-family: sans-serif;\n  transition: background-position 0.5s ease-in-out, transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;\n}\n\n.swipe-button:hover {\n  background-position: 100% 100%;\n  transform: scale(1.05);\n  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n\n.swipe-button:active {\n  transform: translateY(2px);\n  color: #fff;\n /* Change text color when active */\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

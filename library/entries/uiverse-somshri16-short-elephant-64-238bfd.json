@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-somshri16-short-elephant-64-238bfd",
+  "title": "Form by somshri16 (short-elephant-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/somshri16/short-elephant-64",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By somshri16 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/somshri16_short-elephant-64.html",
+  "code": "<form class=\"form\">\n    \n    <div class=\"flex\">\n        <label>\n            <input required=\"\" placeholder=\"\" type=\"text\" class=\"input\">\n            <span>first name</span>\n        </label>\n\n        <label>\n            <input required=\"\" placeholder=\"\" type=\"text\" class=\"input\">\n            <span>last name</span>\n        </label>\n    </div>  \n            \n    <label>\n        <input required=\"\" placeholder=\"\" type=\"email\" class=\"input\">\n        <span>email</span>\n    </label> \n        \n    <label>\n        <input required=\"\" type=\"tel\" placeholder=\"\" class=\"input\">\n        <span>contact number</span>\n    </label>\n    <label>\n        <textarea required=\"\" rows=\"3\" placeholder=\"\" class=\"input01\"></textarea>\n        <span>message</span>\n    </label>\n    \n    <button class=\"fancy\" href=\"#\">\n      <span class=\"top-key\"></span>\n      <span class=\"text\">submit</span>\n      <span class=\"bottom-key-1\"></span>\n      <span class=\"bottom-key-2\"></span>\n    </button>\n</form>\n<style>\n/* From Uiverse.io by somshri16 - Source: https://uiverse.io/cssbuttons-io/brown-otter-21 - Tags: form, contact, box */\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  max-width: 350px;\n  background-color: #fff;\n  padding: 20px;\n  border-radius: 10px;\n  position: relative;\n}\n\n.message {\n  color: rgba(88, 87, 87, 0.822);\n  font-size: 14px;\n}\n\n.flex {\n  display: flex;\n  width: 100%;\n  gap: 6px;\n}\n\n.form label {\n  position: relative;\n}\n\n.form label .input {\n  width: 100%;\n  padding: 10px 10px 20px 10px;\n  outline: 0;\n  border: 1px solid rgba(105, 105, 105, 0.397);\n  border-radius: 5px;\n}\n\n.form label .input + span {\n  position: absolute;\n  left: 10px;\n  top: 15px;\n  color: grey;\n  font-size: 0.9em;\n  cursor: text;\n  transition: 0.3s ease;\n}\n\n.form label .input:placeholder-shown + span {\n  top: 15px;\n  font-size: 0.9em;\n}\n\n.form label .input:focus + span,.form label .input:valid + span {\n  top: 30px;\n  font-size: 0.7em;\n  font-weight: 600;\n}\n\n.form label .input:valid + span {\n  color: green;\n}\n\n.input01 {\n  width: 100%;\n  padding: 10px 10px 20px 10px;\n  outline: 0;\n  border: 1px solid rgba(105, 105, 105, 0.397);\n  border-radius: 5px;\n}\n\n.form label .input01 + span {\n  position: absolute;\n  left: 10px;\n  top: 50px;\n  color: grey;\n  font-size: 0.9em;\n  cursor: text;\n  transition: 0.3s ease;\n}\n\n.form label .input01:placeholder-shown + span {\n  top: 40px;\n  font-size: 0.9em;\n}\n\n.form label .input01:focus + span,.form label .input01:valid + span {\n  top: 50px;\n  font-size: 0.7em;\n  font-weight: 600;\n}\n\n.form label .input01:valid + span {\n  color: green;\n}\n\n.fancy {\n  background-color: transparent;\n  border: 2px solid #cacaca;\n  border-radius: 0px;\n  box-sizing: border-box;\n  color: #fff;\n  cursor: pointer;\n  display: inline-block;\n  font-weight: 390;\n  letter-spacing: 2px;\n  margin: 0;\n  outline: none;\n  overflow: visible;\n  padding: 8px 30px;\n  position: relative;\n  text-align: center;\n  text-decoration: none;\n  text-transform: none;\n  transition: all 0.3s ease-in-out;\n  user-select: none;\n  font-size: 13px;\n}\n\n.fancy::before {\n  content: \" \";\n  width: 1.7rem;\n  height: 2px;\n  background: #cacaca;\n  top: 50%;\n  left: 1.5em;\n  position: absolute;\n  transform: translateY(-50%);\n  transform: translateX(230%);\n  transform-origin: center;\n  transition: background 0.3s linear, width 0.3s linear;\n}\n\n.fancy .text {\n  font-size: 1.125em;\n  line-height: 1.33333em;\n  padding-left: 2em;\n  display: block;\n  text-align: left;\n  transition: all 0.3s ease-in-out;\n  text-transform: lowercase;\n  text-decoration: none;\n  color: #818181;\n  transform: translateX(30%);\n}\n\n.fancy .top-key {\n  height: 2px;\n  width: 1.5625rem;\n  top: -2px;\n  left: 0.625rem;\n  position: absolute;\n  background: white;\n  transition: width 0.5s ease-out, left 0.3s ease-out;\n}\n\n.fancy .bottom-key-1 {\n  height: 2px;\n  width: 1.5625rem;\n  right: 1.875rem;\n  bottom: -2px;\n  position: absolute;\n  background: white;\n  transition: width 0.5s ease-out, right 0.3s ease-out;\n}\n\n.fancy .bottom-key-2 {\n  height: 2px;\n  width: 0.625rem;\n  right: 0.625rem;\n  bottom: -2px;\n  position: absolute;\n  background: white;\n  transition: width 0.5s ease-out, right 0.3s ease-out;\n}\n\n.fancy:hover {\n  color: white;\n  background: #cacaca;\n}\n\n.fancy:hover::before {\n  width: 1.5rem;\n  background: white;\n}\n\n.fancy:hover .text {\n  color: white;\n  padding-left: 1.5em;\n}\n\n.fancy:hover .top-key {\n  left: -2px;\n  width: 0px;\n}\n\n.fancy:hover .bottom-key-1,\n .fancy:hover .bottom-key-2 {\n  right: 0;\n  width: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

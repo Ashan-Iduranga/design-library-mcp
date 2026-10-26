@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nawsome-heavy-cheetah-95-efeefa",
+  "title": "Checkbox by Nawsome (heavy-cheetah-95)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/heavy-cheetah-95",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Nawsome_heavy-cheetah-95.html",
+  "code": "<div class=\"content\">\n  <label class=\"checkBox\">\n    <input id=\"ch1\" type=\"checkbox\">\n    <div class=\"transition\"></div>\n  </label>\n</div>\n<style>\n/* From Uiverse.io by Nawsome - Tags: checkbox */\n.clear {\n  clear: both;\n}\n\n.checkBox {\n  display: block;\n  cursor: pointer;\n  width: 30px;\n  height: 30px;\n  border: 3px solid rgba(255, 255, 255, 0);\n  border-radius: 10px;\n  position: relative;\n  overflow: hidden;\n  box-shadow: 0px 0px 0px 2px #fff;\n}\n\n.checkBox div {\n  width: 60px;\n  height: 60px;\n  background-color: #fff;\n  top: -52px;\n  left: -52px;\n  position: absolute;\n  transform: rotateZ(45deg);\n  z-index: 100;\n}\n\n.checkBox input[type=checkbox]:checked + div {\n  left: -10px;\n  top: -10px;\n}\n\n.checkBox input[type=checkbox] {\n  position: absolute;\n  left: 50px;\n  visibility: hidden;\n}\n\n.transition {\n  transition: 300ms ease;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

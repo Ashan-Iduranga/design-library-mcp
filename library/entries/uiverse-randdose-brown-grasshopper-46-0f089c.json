@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-randdose-brown-grasshopper-46-0f089c",
+  "title": "Button by Randdose (brown-grasshopper-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Randdose/brown-grasshopper-46",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "transition",
+    "transform"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Randdose on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Randdose_brown-grasshopper-46.html",
+  "code": "<button class=\"button\">\n  <p>Button</p>\n</button>\n<style>\n/* From Uiverse.io by Randdose - Tags: button, transition, transform */\n.button {\n  all: unset;\n  display: flex;\n  align-items: center;\n  position: relative;\n  padding: 0.6em 2em;\n  border: mediumspringgreen solid 0.15em;\n  border-radius: 0.25em;\n  color: mediumspringgreen;\n  font-size: 1.5em;\n  font-weight: 600;\n  cursor: pointer;\n  overflow: hidden;\n  transition: border 300ms, color 300ms;\n  user-select: none;\n}\n\n.button p {\n  z-index: 1;\n}\n\n.button:hover {\n  color: #212121;\n}\n\n.button:active {\n  border-color: teal;\n}\n\n.button::after, .button::before {\n  content: \"\";\n  position: absolute;\n  width: 9em;\n  aspect-ratio: 1;\n  background: mediumspringgreen;\n  opacity: 50%;\n  border-radius: 50%;\n  transition: transform 500ms, background 300ms;\n}\n\n.button::before {\n  left: 0;\n  transform: translateX(-8em);\n}\n\n.button::after {\n  right: 0;\n  transform: translateX(8em);\n}\n\n.button:hover:before {\n  transform: translateX(-1em);\n}\n\n.button:hover:after {\n  transform: translateX(1em);\n}\n\n.button:active:before,\n.button:active:after {\n  background: teal;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

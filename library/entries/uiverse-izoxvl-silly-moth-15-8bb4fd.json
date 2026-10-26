@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-izoxvl-silly-moth-15-8bb4fd",
+  "title": "Form by iZOXVL (silly-moth-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/iZOXVL/silly-moth-15",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "simple",
+    "material-design",
+    "login",
+    "purple",
+    "minimalist",
+    "button",
+    "card"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By iZOXVL on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/iZOXVL_silly-moth-15.html",
+  "code": "<!-- From Uiverse.io by iZOXVL  - Tags: simple, material design, login, purple, minimalist, button, form, card -->\n<div\n  style=\"animation: slideInFromLeft 1s ease-out;\"\n  class=\"max-w-md w-full bg-gradient-to-r from-blue-800 to-purple-600 rounded-xl shadow-2xl overflow-hidden p-8 space-y-8\"\n>\n  <h2\n    style=\"animation: appear 2s ease-out;\"\n    class=\"text-center text-4xl font-extrabold text-white\"\n  >\n    Welcome\n  </h2>\n  <p style=\"animation: appear 3s ease-out;\" class=\"text-center text-gray-200\">\n    Sign in to your account\n  </p>\n  <form method=\"POST\" action=\"#\" class=\"space-y-6\">\n    <div class=\"relative\">\n      <input\n        placeholder=\"john@example.com\"\n        class=\"peer h-10 w-full border-b-2 border-gray-300 text-white bg-transparent placeholder-transparent focus:outline-none focus:border-purple-500\"\n        required=\"\"\n        id=\"email\"\n        name=\"email\"\n        type=\"email\"\n      />\n      <label\n        class=\"absolute left-0 -top-3.5 text-gray-500 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-purple-500 peer-focus:text-sm\"\n        for=\"email\"\n        >Email address</label\n      >\n    </div>\n    <div class=\"relative\">\n      <input\n        placeholder=\"Password\"\n        class=\"peer h-10 w-full border-b-2 border-gray-300 text-white bg-transparent placeholder-transparent focus:outline-none focus:border-purple-500\"\n        required=\"\"\n        id=\"password\"\n        name=\"password\"\n        type=\"password\"\n      />\n      <label\n        class=\"absolute left-0 -top-3.5 text-gray-500 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-purple-500 peer-focus:text-sm\"\n        for=\"password\"\n        >Password</label\n      >\n    </div>\n    <div class=\"flex items-center justify-between\">\n      <label class=\"flex items-center text-sm text-gray-200\">\n        <input\n          class=\"form-checkbox h-4 w-4 text-purple-600 bg-gray-800 border-gray-300 rounded\"\n          type=\"checkbox\"\n        />\n        <span class=\"ml-2\">Remember me</span>\n      </label>\n      <a class=\"text-sm text-purple-200 hover:underline\" href=\"#\"\n        >Forgot your password?</a\n      >\n    </div>\n    <button\n      class=\"w-full py-2 px-4 bg-purple-500 hover:bg-purple-700 rounded-md shadow-lg text-white font-semibold transition duration-200\"\n      type=\"submit\"\n    >\n      Sign In\n    </button>\n  </form>\n  <div class=\"text-center text-gray-300\">\n    Don't have an account?\n    <a class=\"text-purple-300 hover:underline\" href=\"#\">Sign up</a>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

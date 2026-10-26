@@ -1,0 +1,33 @@
+{
+  "id": "open-props-jungle",
+  "title": "Open Props: Jungle color scale",
+  "source": "Open Props",
+  "url": "https://open-props.style/#colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "jungle",
+    "open-props",
+    "css-variables",
+    "tokens",
+    "color"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "13 CSS custom properties, e.g. --jungle-0, --jungle-1, --jungle-2, --jungle-3.\n\nUse: npm i open-props, then @import \"open-props/jungle\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.jungle.css",
+  "code": "<style>\n:where(html) {\n  --jungle-0: #ecfeb0;\n  --jungle-1: #def39a;\n  --jungle-2: #d0e884;\n  --jungle-3: #c2dd6e;\n  --jungle-4: #b5d15b;\n  --jungle-5: #a8c648;\n  --jungle-6: #9bbb36;\n  --jungle-7: #8fb024;\n  --jungle-8: #84a513;\n  --jungle-9: #7a9908;\n  --jungle-10: #658006;\n  --jungle-11: #516605;\n  --jungle-12: #3d4d04;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Open Props jungle</strong>\n<p>jungle</p><div class=\"row\"><div style=\"background:#ecfeb0\" title=\"--jungle-0: #ecfeb0\"><span>0</span></div><div style=\"background:#def39a\" title=\"--jungle-1: #def39a\"><span>1</span></div><div style=\"background:#d0e884\" title=\"--jungle-2: #d0e884\"><span>2</span></div><div style=\"background:#c2dd6e\" title=\"--jungle-3: #c2dd6e\"><span>3</span></div><div style=\"background:#b5d15b\" title=\"--jungle-4: #b5d15b\"><span>4</span></div><div style=\"background:#a8c648\" title=\"--jungle-5: #a8c648\"><span>5</span></div><div style=\"background:#9bbb36\" title=\"--jungle-6: #9bbb36\"><span>6</span></div><div style=\"background:#8fb024\" title=\"--jungle-7: #8fb024\"><span>7</span></div><div style=\"background:#84a513\" title=\"--jungle-8: #84a513\"><span>8</span></div><div style=\"background:#7a9908\" title=\"--jungle-9: #7a9908\"><span>9</span></div><div style=\"background:#658006\" title=\"--jungle-10: #658006\"><span>10</span></div><div style=\"background:#516605\" title=\"--jungle-11: #516605\"><span>11</span></div><div style=\"background:#3d4d04\" title=\"--jungle-12: #3d4d04\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

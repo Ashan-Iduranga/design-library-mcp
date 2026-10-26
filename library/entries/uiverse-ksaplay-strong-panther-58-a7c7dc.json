@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ksaplay-strong-panther-58-a7c7dc",
+  "title": "Button by KSAplay (strong-panther-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KSAplay/strong-panther-58",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KSAplay on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/KSAplay_strong-panther-58.html",
+  "code": "<button class=\"btn\">\n  <span class=\"text\">Play</span>\n</button>\n<style>\n/* From Uiverse.io by KSAplay - Tags: button */\n.btn {\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n  padding: 1em 2em;\n  font-size: 15px;\n  font-weight: bold;\n  border-width: 0;\n  border-radius: 1.5em;\n  text-transform: uppercase;\n  transition: .2s ease;\n}\n\n.text {\n  font-size: 1.2em;\n  color: white;\n  z-index: 1;\n}\n\n.btn::before {\n  position: absolute;\n  content: '';\n  width: 120%;\n  height: 260%;\n  background-image: linear-gradient(135deg, rgba(0,5,255,1) 0%, rgba(255,0,159,1) 100%);\n}\n\n.btn::after {\n  position: absolute;\n  content: '';\n  width: 88%;\n  height: 80%;\n  border-width: 0;\n  border-radius: 1.2em;\n  background-color: black;\n  opacity: .7;\n  transition: 100ms ease;\n}\n\n.btn:hover.btn {\n  transform: scale(1.1);\n}\n\n.btn:hover.btn::after {\n  opacity: .5;\n}\n\n.btn:hover.btn::before {\n  animation: turn_4810 .4s infinite linear;\n}\n\n.btn:active.btn {\n  transform: scale(1.05);\n}\n\n.btn:active.btn::before {\n  transform: scale(1.05);\n  animation: turn_4810 .2s infinite linear;\n}\n\n@keyframes turn_4810 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

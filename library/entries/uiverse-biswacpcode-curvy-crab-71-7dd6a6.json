@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-biswacpcode-curvy-crab-71-7dd6a6",
+  "title": "Button by biswacpcode (curvy-crab-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/biswacpcode/curvy-crab-71",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By biswacpcode on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/biswacpcode_curvy-crab-71.html",
+  "code": "<button>\n  HOVER ME\n</button>\n<style>\n/* From Uiverse.io by biswacpcode - Tags: button */\nbutton {\n  color: white;\n  text-decoration: none;\n  font-size: 25px;\n  border: none;\n  background: none;\n  font-weight: 600;\n  font-family: 'Poppins', sans-serif;\n}\n\nbutton::before {\n  margin-left: auto;\n}\n\nbutton::after, button::before {\n  content: '';\n  width: 0%;\n  height: 2px;\n  background: #f44336;\n  display: block;\n  transition: 0.5s;\n}\n\nbutton:hover::after, button:hover::before {\n  width: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

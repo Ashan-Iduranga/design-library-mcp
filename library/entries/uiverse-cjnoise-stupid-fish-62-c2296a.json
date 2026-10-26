@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-cjnoise-stupid-fish-62-c2296a",
+  "title": "Button by cjnoise (stupid-fish-62)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cjnoise/stupid-fish-62",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "blue",
+    "animated",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cjnoise on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/cjnoise_stupid-fish-62.html",
+  "code": "<button class=\"button\">Button</button>\n\n<style>\n/* From Uiverse.io by cjnoise  - Tags: blue, button, animated, 3d button */\n.button {\n  display: inline-block;\n  padding: 10px 20px;\n  font-size: 16px;\n  text-align: center;\n  text-decoration: none;\n  cursor: pointer;\n  border: 1px solid #3498db;\n  color: #fff;\n  background-color: #3498db;\n  border-radius: 5px;\n  position: relative;\n  overflow: hidden;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.1);\n  transform: perspective(5px) rotateX(2deg) rotateY(2deg);\n  transition: transform 0.3s;\n  pointer-events: none;\n}\n\n.button:hover::before {\n  transform: perspective(5px) rotateX(0) rotateY(0);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-kingfress-nice-deer-12-7e5be0",
+  "title": "Button by KINGFRESS (nice-deer-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KINGFRESS/nice-deer-12",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KINGFRESS on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/KINGFRESS_nice-deer-12.html",
+  "code": "<button>\n  <span class=\"txt\">click me</span>\n  <span class=\"txt2\">You did it</span>\n  <span class=\"gradient\"></span>\n</button>\n<style>\n/* From Uiverse.io by KINGFRESS - Tags: gradient, button */\nbutton {\n  background-color: transparent;\n  color: white;\n  font-weight: bold;\n  height: 3.3em;\n  width: 12em;\n  border: none;\n  border-radius: 25px;\n  cursor: pointer;\n  transition: .4s ease;\n  position: relative;\n  overflow: hidden;\n  text-transform: uppercase;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\nbutton .gradient {\n  height: 100%;\n  width: 350%;\n  background: linear-gradient(to right, #156aa3 25%, #64EAE7 65%, #16a085 90%);\n  position: absolute;\n  top: 0;\n  left: 60%;\n  transform: translateX(-50%);\n  z-index: -1;\n  transition: .4s ease;\n}\n\nbutton .txt {\n  transition: .4s ease .5s;\n}\n\nbutton .txt2 {\n  position: absolute;\n  opacity: 0;\n  transition: .4s;\n}\n\nbutton:hover .gradient {\n  transition: .4s ease;\n  transform: translateX(-40%);\n}\n\nbutton:focus .gradient {\n  background-size: 200%;\n  background-position: right;\n  transform: translateX(-88%);\n  transition: 1s ease;\n}\n\nbutton:focus .txt {\n  opacity: 0;\n  transition: .4s ease;\n}\n\nbutton:focus .txt2 {\n  opacity: 1;\n  transition: 1s ease .5s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

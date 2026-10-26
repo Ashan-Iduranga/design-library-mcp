@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vinodjangid07-splendid-panda-48-d8caa4",
+  "title": "Button by vinodjangid07 (splendid-panda-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/splendid-panda-48",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover-effect",
+    "filter",
+    "setting"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_splendid-panda-48.html",
+  "code": "<button title=\"filter\" class=\"filter\">\n  <svg viewBox=\"0 0 512 512\" height=\"1em\">\n    <path\n      d=\"M0 416c0 17.7 14.3 32 32 32l54.7 0c12.3 28.3 40.5 48 73.3 48s61-19.7 73.3-48L480 448c17.7 0 32-14.3 32-32s-14.3-32-32-32l-246.7 0c-12.3-28.3-40.5-48-73.3-48s-61 19.7-73.3 48L32 384c-17.7 0-32 14.3-32 32zm128 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM320 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm32-80c-32.8 0-61 19.7-73.3 48L32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l246.7 0c12.3 28.3 40.5 48 73.3 48s61-19.7 73.3-48l54.7 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-54.7 0c-12.3-28.3-40.5-48-73.3-48zM192 128a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm73.3-64C253 35.7 224.8 16 192 16s-61 19.7-73.3 48L32 64C14.3 64 0 78.3 0 96s14.3 32 32 32l86.7 0c12.3 28.3 40.5 48 73.3 48s61-19.7 73.3-48L480 128c17.7 0 32-14.3 32-32s-14.3-32-32-32L265.3 64z\"\n    ></path>\n  </svg>\n</button>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: button, hover effect, filter, setting */\n.filter {\n  width: 50px;\n  height: 50px;\n  border-radius: 10px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid rgba(0, 0, 0, 0.192);\n  cursor: pointer;\n  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.021);\n  transition: all 0.3s;\n}\n\n.filter svg {\n  height: 16px;\n  fill: rgb(77, 77, 77);\n  transition: all 0.3s;\n}\n.filter:hover {\n  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.11);\n  background-color: rgb(59, 59, 59);\n}\n.filter:hover svg {\n  fill: white;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

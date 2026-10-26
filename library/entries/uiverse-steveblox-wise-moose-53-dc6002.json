@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-steveblox-wise-moose-53-dc6002",
+  "title": "Loader by SteveBloX (wise-moose-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SteveBloX/wise-moose-53",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "progress",
+    "progress-bar",
+    "dark",
+    "animated",
+    "background"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SteveBloX on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/SteveBloX_wise-moose-53.html",
+  "code": "<div class=\"progress-loader\">\n  <div class=\"progress\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by SteveBloX  - Tags: loading, progress, progress bar, loader, dark, animated, loader, background, gray, white, minimal, bar, progress, horizontal */\n.progress-loader {\n  top: 50%;\n  left: 50%;\n  position: absolute;\n  transform: translate(-50%, -50%);\n  width: 150px;\n  background: rgba(236, 236, 238, 0.253);\n  height: 10px;\n  border-radius: 7px;\n  overflow: hidden;\n}\n\n.progress {\n  width: 1px;\n  height: 10px;\n  border-radius: 7px;\n  background: rgb(255, 255, 255);\n  transition: 0.5s;\n  animation: loading_44 5s cubic-bezier(0.4, 1.01, 1, 1) infinite;\n}\n\n@keyframes loading_44 {\n  0% {\n    width: 0%;\n  }\n\n  50% {\n    width: 100%;\n  }\n\n  100% {\n    width: 0%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

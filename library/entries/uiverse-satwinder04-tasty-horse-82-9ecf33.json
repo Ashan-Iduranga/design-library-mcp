@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-satwinder04-tasty-horse-82-9ecf33",
+  "title": "Button by Satwinder04 (tasty-horse-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Satwinder04/tasty-horse-82",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "blue",
+    "ripple"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Satwinder04 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Satwinder04_tasty-horse-82.html",
+  "code": "<button class=\"animated-button\">hover me</button>\n\n<style>\n/* From Uiverse.io by Satwinder04 - Tags: blue, button, ripple */\n.animated-button {\n  position: relative;\n  display: inline-block;\n  padding: 16px 28px;\n  font-size: 20px;\n  font-weight: bold;\n  text-transform: uppercase;\n  color: #fff;\n  text-align: center;\n  text-decoration: none;\n  background-color: #1f347b;\n  /* border-radius: 40px; */\n  overflow: hidden;\n  border: none;\n  z-index: 1;\n}\n\n.animated-button:before {\n  transition: 1s;\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 0;\n  height: 0;\n  background-color: #fff;\n  border-radius: 50%;\n  opacity: 0;\n  transform: translate(-50%, -50%);\n  z-index: -1;\n}\n\n.animated-button:hover:before {\n  width: 300px;\n  height: 300px;\n  opacity: 0.4;\n  transition: all 0.5s ease-out;\n}\n\n.animated-button:hover {\n  background-color: #fff;\n  color: #202960;\n  transition: all 0.5s ease-out;\n}\n\n.animated-button:hover:after {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 0;\n  height: 0;\n  background-color: #255ea4;\n  border-radius: 50%;\n  transform: translate(-50%, -50%);\n  z-index: -2;\n  animation: pulse 2s infinite;\n}\n\n@keyframes pulse {\n  0% {\n    width: 0;\n    height: 0;\n    opacity: 0.5;\n  }\n\n  100% {\n    width: 200px;\n    height: 200px;\n    opacity: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

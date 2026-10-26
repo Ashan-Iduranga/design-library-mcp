@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-witty-chipmunk-68-707de6",
+  "title": "Loader by Pradeepsaranbishnoi (witty-chipmunk-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/witty-chipmunk-68",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Pradeepsaranbishnoi_witty-chipmunk-68.html",
+  "code": "<div class=\"loader\">\n  <div class=\"cube\">\n    <div class=\"face1\"></div>\n    <div class=\"face2\"></div>\n    <div class=\"face3\"></div>\n    <div class=\"face4\"></div>\n    <div class=\"face5\"></div>\n    <div class=\"face6\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: loader */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.cube {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  transform-style: preserve-3d;\n  animation: rotate-cube 2s infinite;\n}\n\n.face1,\n.face2,\n.face3,\n.face4,\n.face5,\n.face6 {\n  position: absolute;\n  width: 50px;\n  height: 50px;\n  background-color: transparent;\n  border: 2px solid #00BFFF;\n  box-sizing: border-box;\n}\n\n.face1 {\n  transform: rotateY(0deg) translateZ(25px);\n  animation: change-color 2s infinite;\n}\n\n.face2 {\n  transform: rotateX(90deg) translateZ(25px);\n}\n\n.face3 {\n  transform: rotateY(90deg) translateZ(25px);\n  animation: change-color 2s infinite;\n}\n\n.face4 {\n  transform: rotateY(180deg) translateZ(25px);\n  animation: change-color 2s infinite;\n}\n\n.face5 {\n  transform: rotateX(-90deg) translateZ(25px);\n}\n\n.face6 {\n  transform: rotateY(-90deg) translateZ(25px);\n  animation: change-color 2s infinite;\n}\n\n@keyframes rotate-cube {\n  from {\n    transform: rotateX(0deg) rotateY(0deg);\n  }\n\n  to {\n    transform: rotateX(360deg) rotateY(360deg);\n  }\n}\n\n@keyframes change-color {\n  0% {\n    background-color: #00BFFF;\n  }\n\n  25% {\n    background-color: #FF1493;\n  }\n\n  50% {\n    background-color: #32CD32;\n  }\n\n  75% {\n    background-color: #FFA500;\n  }\n\n  100% {\n    background-color: #00BFFF;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

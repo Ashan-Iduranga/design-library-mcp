@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-tab-radio-tabs-lift-tab-content-on-bottom",
+  "title": "Tabs: radio tabs-lift + tab content on bottom (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/tab/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "tab",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Tabs can be used to show a list of links in a tabbed format.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/tab/+page.md",
+  "code": "<!-- name of each tab group should be unique -->\n<div class=\"tabs tabs-lift tabs-bottom\">\n  <input type=\"radio\" name=\"my_tabs_5\" class=\"tab\" aria-label=\"Tab 1\" />\n  <div class=\"tab-content bg-base-100 border-base-300 p-6\">Tab content 1</div>\n\n  <input type=\"radio\" name=\"my_tabs_5\" class=\"tab\" aria-label=\"Tab 2\" checked=\"checked\" />\n  <div class=\"tab-content bg-base-100 border-base-300 p-6\">Tab content 2</div>\n\n  <input type=\"radio\" name=\"my_tabs_5\" class=\"tab\" aria-label=\"Tab 3\" />\n  <div class=\"tab-content bg-base-100 border-base-300 p-6\">Tab content 3</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

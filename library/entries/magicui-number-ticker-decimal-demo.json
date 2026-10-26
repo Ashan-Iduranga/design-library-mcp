@@ -1,0 +1,37 @@
+{
+  "id": "magicui-number-ticker-decimal-demo",
+  "title": "Number Ticker Decimal Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/number-ticker-decimal",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "number",
+    "ticker",
+    "decimal",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing animated counting decimal numbers.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/number-ticker-decimal-demo.tsx",
+  "code": "import { NumberTicker } from \"@/registry/magicui/number-ticker\"\n\nexport default function NumberTickerDemo() {\n  return (\n    <NumberTicker\n      value={5.67}\n      decimalPlaces={2}\n      className=\"text-8xl font-medium tracking-tighter whitespace-pre-wrap text-black dark:text-white\"\n    />\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-moody-starfish-95-617ae7",
+  "title": "Radio by Pradeepsaranbishnoi (moody-starfish-95)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/moody-starfish-95",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Pradeepsaranbishnoi_moody-starfish-95.html",
+  "code": "<div class=\"radio\">\n  <input\n    checked=\"\"\n    value=\"male\"\n    name=\"gender\"\n    id=\"male\"\n    type=\"radio\"\n    label=\"Yes\"\n  />\n  <input value=\"female\" name=\"gender\" id=\"female\" type=\"radio\" label=\"No\" />\n  <input\n    value=\"other\"\n    name=\"gender\"\n    id=\"other\"\n    type=\"radio\"\n    label=\"Keep Smile 😊\"\n  />\n</div>\n\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi  - Website: https://codepen.io/scottyzen/pen/ZEWYdZm - Name: Scott - Tags: simple, button, radio */\n.radio {\n  background: #454857;\n  padding: 4px;\n  border-radius: 3px;\n  box-shadow: inset 0 0 0 3px rgba(35, 33, 45, 0.3),\n    0 0 0 3px rgba(185, 185, 185, 0.3);\n  position: relative;\n}\n\n.radio input {\n  width: auto;\n  height: 100%;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  outline: none;\n  cursor: pointer;\n  border-radius: 2px;\n  padding: 4px 8px;\n  background: #454857;\n  color: #bdbdbdbd;\n  font-size: 14px;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto,\n    \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\",\n    \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  transition: all 100ms linear;\n}\n\n.radio input:checked {\n  background-image: linear-gradient(180deg, #95d891, #74bbad);\n  color: #fff;\n  box-shadow: 0 1px 1px #0000002e;\n  text-shadow: 0 1px 0px #79485f7a;\n}\n\n.radio input:before {\n  content: attr(label);\n  display: inline-block;\n  text-align: center;\n  width: 100%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

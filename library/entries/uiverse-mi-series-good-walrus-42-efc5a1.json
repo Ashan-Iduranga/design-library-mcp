@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-mi-series-good-walrus-42-efc5a1",
+  "title": "Form by mi-series (good-walrus-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mi-series/good-walrus-42",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "register",
+    "registration-form",
+    "registration"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mi-series on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/mi-series_good-walrus-42.html",
+  "code": "<section class=\"container\">\n  <header>Registration Form</header>\n  <form class=\"form\" action=\"#\">\n      <div class=\"input-box\">\n          <label>Full Name</label>\n          <input required=\"\" placeholder=\"Enter full name\" type=\"text\">\n      </div>\n      <div class=\"column\">\n          <div class=\"input-box\">\n            <label>Phone Number</label>\n            <input required=\"\" placeholder=\"Enter phone number\" type=\"telephone\">\n          </div>\n          <div class=\"input-box\">\n            <label>Birth Date</label>\n            <input required=\"\" placeholder=\"Enter birth date\" type=\"date\">\n          </div>\n      </div>\n      <div class=\"gender-box\">\n        <label>Gender</label>\n        <div class=\"gender-option\">\n          <div class=\"gender\">\n            <input checked=\"\" name=\"gender\" id=\"check-male\" type=\"radio\">\n            <label for=\"check-male\">Male</label>\n          </div>\n          <div class=\"gender\">\n            <input name=\"gender\" id=\"check-female\" type=\"radio\">\n            <label for=\"check-female\">Female</label>\n          </div>\n          <div class=\"gender\">\n            <input name=\"gender\" id=\"check-other\" type=\"radio\">\n            <label for=\"check-other\">Prefer not to say</label>\n          </div>\n        </div>\n      </div>\n      <div class=\"input-box address\">\n        <label>Address</label>\n        <input required=\"\" placeholder=\"Enter street address\" type=\"text\">\n        <div class=\"column\">\n          <div class=\"select-box\">\n            <select>\n              <option hidden=\"\">Country</option>\n              <option>USA</option>\n              <option>UK</option>\n              <option>Germany</option>\n              <option>Japan</option>\n            </select>\n          </div>\n        <input required=\"\" placeholder=\"Enter your city\" type=\"text\">\n        </div>\n      </div>\n      <button>Submit</button>\n  </form>\n</section>\n<style>\n/* From Uiverse.io by mi-series - Tags: form, register, registration form, registration */\n.container {\n  position: relative;\n  max-width: 500px;\n  width: 100%;\n  background: #FCEDDA;\n  padding: 25px;\n  border-radius: 8px;\n  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);\n}\n\n.container header {\n  font-size: 1.2rem;\n  color: #000;\n  font-weight: 600;\n  text-align: center;\n}\n\n.container .form {\n  margin-top: 15px;\n}\n\n.form .input-box {\n  width: 100%;\n  margin-top: 10px;\n}\n\n.input-box label {\n  color: #000;\n}\n\n.form :where(.input-box input, .select-box) {\n  position: relative;\n  height: 35px;\n  width: 100%;\n  outline: none;\n  font-size: 1rem;\n  color: #808080;\n  margin-top: 5px;\n  border: 1px solid #EE4E34;\n  border-radius: 6px;\n  padding: 0 15px;\n  background: #FCEDDA;\n}\n\n.input-box input:focus {\n  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);\n}\n\n.form .column {\n  display: flex;\n  column-gap: 15px;\n}\n\n.form .gender-box {\n  margin-top: 10px;\n}\n\n.form :where(.gender-option, .gender) {\n  display: flex;\n  align-items: center;\n  column-gap: 50px;\n  flex-wrap: wrap;\n}\n\n.form .gender {\n  column-gap: 5px;\n}\n\n.gender input {\n  accent-color: #EE4E34;\n}\n\n.form :where(.gender input, .gender label) {\n  cursor: pointer;\n}\n\n.gender label {\n  color: #000;\n}\n\n.address :where(input, .select-box) {\n  margin-top: 10px;\n}\n\n.select-box select {\n  height: 100%;\n  width: 100%;\n  outline: none;\n  border: none;\n  color: #808080;\n  font-size: 1rem;\n  background: #FCEDDA;\n}\n\n.form button {\n  height: 40px;\n  width: 100%;\n  color: #000;\n  font-size: 1rem;\n  font-weight: 400;\n  margin-top: 15px;\n  border: none;\n  border-radius: 6px;\n  cursor: pointer;\n  transition: all 0.2s ease;\n  background: #EE4E34;\n}\n\n.form button:hover {\n  background: #EE3E34;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

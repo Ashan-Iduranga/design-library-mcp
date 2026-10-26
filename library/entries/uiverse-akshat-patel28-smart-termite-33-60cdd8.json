@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-akshat-patel28-smart-termite-33-60cdd8",
+  "title": "Card by akshat-patel28 (smart-termite-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/akshat-patel28/smart-termite-33",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "video",
+    "html5",
+    "css3",
+    "button-hover-effect",
+    "card-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By akshat-patel28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/akshat-patel28_smart-termite-33.html",
+  "code": "<div class=\"card\">\n      <div class=\"card-image-container\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" height=\"1em\" viewBox=\"0 0 512 512\" stroke-width=\"0\" fill=\"currentColor\" stroke=\"currentColor\" class=\"video-icon\">\n          <path d=\"M464 384.39a32 32 0 01-13-2.77 15.77 15.77 0 01-2.71-1.54l-82.71-58.22A32 32 0 01352 295.7v-79.4a32 32 0 0113.58-26.16l82.71-58.22a15.77 15.77 0 012.71-1.54 32 32 0 0145 29.24v192.76a32 32 0 01-32 32zM268 400H84a68.07 68.07 0 01-68-68V180a68.07 68.07 0 0168-68h184.48A67.6 67.6 0 01336 179.52V332a68.07 68.07 0 01-68 68z\"></path>\n        </svg>\n      </div>\n      <p class=\"card-title\">Card Title</p>\n      <p class=\"card-des\">\n        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam\n        inventore natus modi repellendus dolorem unde odio sequi! Porro, cum\n        maiores tempore suscipit laudantium perspiciatis, illo sunt,\n        reprehenderit quae est blanditiis.\n      </p>\n      <div class=\"card-btn\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" height=\"1em\" viewBox=\"0 0 384 512\" stroke-width=\"0\" fill=\"currentColor\" stroke=\"currentColor\">\n          <path d=\"M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z\"></path>\n        </svg>\n        <span class=\"card-btn-text\">Watch Video</span>\n      </div>\n    </div>\n<style>\n/* From Uiverse.io by akshat-patel28 - Tags: card, video, html5, css3, button hover effect , card design */\n.card {\n  display: flex;\n  flex-direction: column;\n  width: 230px;\n  height: 280px;\n  max-height: 330px;\n  background-color: var(--white);\n  border-radius: 10px;\n  box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.08),\n          -4px -4px 12px rgba(0, 0, 0, 0.08);\n  overflow: hidden;\n  transition: all 0.3s;\n  cursor: pointer;\n  box-sizing: border-box;\n  padding: 10px;\n}\n\n.card:hover {\n  transform: translateY(-10px);\n  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1),\n          -4px -4px 12px rgba(0, 0, 0, 0.08);\n}\n\n.card-image-container {\n  width: 100%;\n  height: 64%;\n  border-radius: 10px;\n  margin-bottom: 12px;\n  overflow: hidden;\n  background-color: rgb(165, 165, 165);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.video-icon {\n  font-size: 40px;\n}\n\n.card-title {\n  margin: 0;\n  font-size: 17px;\n  font-family: \"Lucida Sans\", \"Lucida Sans Regular\", \"Lucida Grande\",\n          \"Lucida Sans Unicode\", Geneva, Verdana, sans-serif;\n  font-weight: 600;\n  color: #1797b8;\n  cursor: default;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  display: -webkit-box;\n  -webkit-line-clamp: 1;\n  line-clamp: 1;\n}\n\n.card-des {\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  display: -webkit-box;\n  -webkit-line-clamp: 1;\n  line-clamp: 1;\n  margin: 0;\n  font-size: 13px;\n  font-family: \"Lucida Sans\", \"Lucida Sans Regular\", \"Lucida Grande\",\n          \"Lucida Sans Unicode\", Geneva, Verdana, sans-serif;\n  color: #1797b8;\n  cursor: default;\n}\n\n.card-btn {\n  font-size: 15px;\n  font-family: \"Lucida Sans\", \"Lucida Sans Regular\", \"Lucida Grande\",\n          \"Lucida Sans Unicode\", Geneva, Verdana, sans-serif;\n  color: #fff;\n  cursor: pointer;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #12bde7;\n  width: 25px;\n  height: 25px;\n  max-height: 25px;\n  border-radius: 10px;\n  overflow: hidden;\n  transition: all ease-in-out 0.5s;\n  gap: 1px;\n  box-sizing: border-box;\n  padding-left: 5px;\n  margin-top: 8px;\n}\n\n.card-btn:hover {\n  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.06);\n  width: 100%;\n  border-radius: 8px;\n  height: 30px;\n  gap: 10px;\n  padding: 0;\n}\n\n.card-btn-text {\n  opacity: 0;\n  font-size: 1px;\n  font-weight: 500;\n  transition: all ease-in-out 0.5s;\n}\n\n.card-btn:hover > .card-btn-text {\n  opacity: 1;\n  font-size: 15px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

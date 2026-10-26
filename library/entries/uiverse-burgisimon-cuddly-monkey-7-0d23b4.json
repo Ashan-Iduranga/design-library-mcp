@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-burgisimon-cuddly-monkey-7-0d23b4",
+  "title": "Button by BurgiSimon (cuddly-monkey-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/BurgiSimon/cuddly-monkey-7",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By BurgiSimon on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/BurgiSimon_cuddly-monkey-7.html",
+  "code": "<button class=\"button-3d\">\n  <span class=\"button-text\">CLICK ME</span>\n</button>\n\n<style>\n/* From Uiverse.io by BurgiSimon  - Website: https://codepen.io/bepctak/pen/ojXjzR - Name: Artur - Tags: simple, 3d, white, button, rounded, light, css, 3d button */\n.button-3d {\n  position: relative;\n  top: -6px;\n  border: 1.5px rgb(0, 0, 0) inset;\n  border-radius: 10px;\n  transition: all 40ms ease-out;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  margin-left: 2px;\n  margin-right: 2px;\n  padding-top: 10px;\n  padding-bottom: 10px;\n  padding-left: 10px;\n  padding-right: 10px;\n  color: #666666;\n\n  box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.1) inset,\n    0 8px 0 0 #f5f5f5, 0 8px 8px 1px rgba(0, 0, 0, 0.2);\n  background-color: #fff;\n}\n\n.button-text {\n  font-family: sans-serif;\n  font-weight: 0;\n  font-size: 16px;\n  letter-spacing: 3px;\n  color: #000000;\n  border-bottom: 0px solid;\n}\n\n.button-3d:hover {\n  border: 2px rgb(0, 0, 0) inset;\n}\n\n.button-3d:active {\n  top: 1px;\n  color: #666666;\n  box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset,\n    0 1px 3px 1px rgba(136, 136, 136, 0.479);\n  background-color: #fff;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

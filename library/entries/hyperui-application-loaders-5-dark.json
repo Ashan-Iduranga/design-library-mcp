@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-loaders-5-dark",
+  "title": "Loaders: Dots pulse (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/loaders",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "loaders",
+    "hyperui",
+    "progress",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Three animated dots with sequential pulse effect\n\nOriginal file: https://github.com/markmead/hyperui/blob/main/public/examples/application/loaders/5-dark.html",
+  "code": "<div class=\"flex min-h-screen items-center justify-center p-6\">\n<div aria-label=\"Loading\" class=\"flex gap-2\" role=\"status\">\n<span aria-hidden=\"true\" class=\"size-3 animate-pulse rounded-full bg-indigo-600 dark:bg-indigo-300\"></span>\n<span aria-hidden=\"true\" class=\"size-3 animate-pulse rounded-full bg-indigo-600 [animation-delay:0.2s] dark:bg-indigo-300\"></span>\n<span aria-hidden=\"true\" class=\"size-3 animate-pulse rounded-full bg-indigo-600 [animation-delay:0.4s] dark:bg-indigo-300\"></span>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

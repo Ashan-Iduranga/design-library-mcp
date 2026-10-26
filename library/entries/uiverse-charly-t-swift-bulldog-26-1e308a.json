@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-charly-t-swift-bulldog-26-1e308a",
+  "title": "Loader by Charly-T (swift-bulldog-26)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Charly-T/swift-bulldog-26",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Charly-T on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Charly-T_swift-bulldog-26.html",
+  "code": "<svg class=\"loader\" viewBox=\"0 0 100 100\">\n    <circle class=\"moon moon-back\"></circle>\n    <circle class=\"planet\"></circle>\n    <circle class=\"moon moon-front\"></circle>\n</svg>\n<style>\n/* From Uiverse.io by Charly-T - Tags: loader */\n.loader {\n  --moon-r: 0.7em;\n  --planet-r: 1.75em;\n  --planet-stroke-width: 4;\n  --center: 50;\n  --moon-max: 80;\n  --moon-min: 20;\n  --animation-duration: 4000ms;\n  --planet-stroke: black;\n  --planet-fill: white;\n  --moon-fill: #fecb00;\n  width: 7em;\n}\n\n.planet {\n  cx: var(--center);\n  cy: var(--center);\n  r: var(--planet-r);\n  fill: var(--planet-fill);\n  stroke: var(--planet-stroke);\n  stroke-width: var(--planet-stroke-width);\n}\n\n.moon {\n  fill: var(--moon-fill);\n  r: var(--moon-r);\n}\n\n.moon-front {\n  animation: orbit0234 var(--animation-duration) ease-in-out infinite,\n    orbit-front var(--animation-duration) linear infinite;\n}\n\n.moon-back {\n  animation: orbit0234 var(--animation-duration) ease-in-out infinite;\n}\n\n@keyframes orbit0234 {\n  0% {\n    cx: var(--moon-max);\n    cy: var(--moon-min);\n  }\n\n  50% {\n    cx: var(--moon-min);\n    cy: var(--moon-max);\n  }\n\n  100% {\n    cx: var(--moon-max);\n    cy: var(--moon-min);\n  }\n}\n\n@keyframes orbit-front {\n  0% {\n    opacity: 0;\n  }\n\n  49% {\n    opacity: 0;\n  }\n\n  50% {\n    opacity: 1;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

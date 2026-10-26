@@ -1,0 +1,34 @@
+{
+  "id": "radix-colors-red",
+  "title": "Radix Colors: Red scale",
+  "source": "Radix Colors",
+  "url": "https://www.radix-ui.com/colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "red",
+    "radix",
+    "color-scale",
+    "color",
+    "accessible",
+    "dark-mode"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "12-step red scale with a matching dark-mode scale. Steps 1-2: app and subtle backgrounds. 3-5: component backgrounds (normal, hover, pressed). 6-8: borders and focus rings. 9-10: solid backgrounds (e.g. buttons). 11-12: low and high contrast text.\n\nAlso available: redA (alpha) and P3 wide-gamut versions.\n\nUse: npm i @radix-ui/colors, then import \"@radix-ui/colors/red.css\" and \"@radix-ui/colors/red-dark.css\".\n\nOriginal file: https://github.com/radix-ui/colors/blob/main/src/light.ts",
+  "code": "<style>\n:root {\n  --red-1: #fffcfc;\n  --red-2: #fff7f7;\n  --red-3: #feebec;\n  --red-4: #ffdbdc;\n  --red-5: #ffcdce;\n  --red-6: #fdbdbe;\n  --red-7: #f4a9aa;\n  --red-8: #eb8e90;\n  --red-9: #e5484d;\n  --red-10: #dc3e42;\n  --red-11: #ce2c31;\n  --red-12: #641723;\n}\n.dark {\n  --red-1: #191111;\n  --red-2: #201314;\n  --red-3: #3b1219;\n  --red-4: #500f1c;\n  --red-5: #611623;\n  --red-6: #72232d;\n  --red-7: #8c333a;\n  --red-8: #b54548;\n  --red-9: #e5484d;\n  --red-10: #ec5d5e;\n  --red-11: #ff9592;\n  --red-12: #ffd1d9;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Radix red</strong>\n<p>light</p><div class=\"row\"><div style=\"background:#fffcfc\" title=\"--red-1: #fffcfc\"><span>1</span></div><div style=\"background:#fff7f7\" title=\"--red-2: #fff7f7\"><span>2</span></div><div style=\"background:#feebec\" title=\"--red-3: #feebec\"><span>3</span></div><div style=\"background:#ffdbdc\" title=\"--red-4: #ffdbdc\"><span>4</span></div><div style=\"background:#ffcdce\" title=\"--red-5: #ffcdce\"><span>5</span></div><div style=\"background:#fdbdbe\" title=\"--red-6: #fdbdbe\"><span>6</span></div><div style=\"background:#f4a9aa\" title=\"--red-7: #f4a9aa\"><span>7</span></div><div style=\"background:#eb8e90\" title=\"--red-8: #eb8e90\"><span>8</span></div><div style=\"background:#e5484d\" title=\"--red-9: #e5484d\"><span>9</span></div><div style=\"background:#dc3e42\" title=\"--red-10: #dc3e42\"><span>10</span></div><div style=\"background:#ce2c31\" title=\"--red-11: #ce2c31\"><span>11</span></div><div style=\"background:#641723\" title=\"--red-12: #641723\"><span>12</span></div></div>\n<p>dark</p><div class=\"row\"><div style=\"background:#191111\" title=\"--red-1: #191111\"><span>1</span></div><div style=\"background:#201314\" title=\"--red-2: #201314\"><span>2</span></div><div style=\"background:#3b1219\" title=\"--red-3: #3b1219\"><span>3</span></div><div style=\"background:#500f1c\" title=\"--red-4: #500f1c\"><span>4</span></div><div style=\"background:#611623\" title=\"--red-5: #611623\"><span>5</span></div><div style=\"background:#72232d\" title=\"--red-6: #72232d\"><span>6</span></div><div style=\"background:#8c333a\" title=\"--red-7: #8c333a\"><span>7</span></div><div style=\"background:#b54548\" title=\"--red-8: #b54548\"><span>8</span></div><div style=\"background:#e5484d\" title=\"--red-9: #e5484d\"><span>9</span></div><div style=\"background:#ec5d5e\" title=\"--red-10: #ec5d5e\"><span>10</span></div><div style=\"background:#ff9592\" title=\"--red-11: #ff9592\"><span>11</span></div><div style=\"background:#ffd1d9\" title=\"--red-12: #ffd1d9\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "Building a UI color system with predictable steps for backgrounds, borders and text, including dark mode.",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

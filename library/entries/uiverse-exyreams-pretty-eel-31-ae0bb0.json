@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-exyreams-pretty-eel-31-ae0bb0",
+  "title": "Loader by exyreams (pretty-eel-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/exyreams/pretty-eel-31",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By exyreams on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/exyreams_pretty-eel-31.html",
+  "code": "<div class=\"spinner\">\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n</div>\n<style>\n/* From Uiverse.io by exyreams - Tags: loading, loader, loading animation */\n.spinner {\n  position: relative;\n  width: 80px;\n /* Adjust the width accordingly */\n  height: 16px;\n /* Keep the height the same */\n}\n\n.spinner div {\n  position: absolute;\n  width: 16px;\n  height: 16px;\n  background-color: #004dff;\n  border-radius: 50%;\n  animation: spinner-4t3wzl 2s infinite linear;\n}\n\n.spinner div:nth-child(1) {\n  left: 0;\n  animation-delay: 0.15s;\n  background-color: rgba(0, 77, 255, 0.9);\n}\n\n.spinner div:nth-child(2) {\n  left: 25%;\n  animation-delay: 0.3s;\n  background-color: rgba(0, 77, 255, 0.8);\n}\n\n.spinner div:nth-child(3) {\n  left: 50%;\n  animation-delay: 0.45s;\n  background-color: rgba(0, 77, 255, 0.7);\n}\n\n.spinner div:nth-child(4) {\n  left: 75%;\n  animation-delay: 0.6s;\n  background-color: rgba(0, 77, 255, 0.6);\n}\n\n.spinner div:nth-child(5) {\n  left: 100%;\n  animation-delay: 0.75s;\n  background-color: rgba(0, 77, 255, 0.5);\n}\n\n@keyframes spinner-4t3wzl {\n  0% {\n    transform: rotate(0deg) translateX(-100%);\n  }\n\n  100% {\n    transform: rotate(360deg) translateX(-100%);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

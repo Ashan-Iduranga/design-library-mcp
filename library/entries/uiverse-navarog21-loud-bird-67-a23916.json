@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-navarog21-loud-bird-67-a23916",
+  "title": "Button by Navarog21 (loud-bird-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Navarog21/loud-bird-67",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Navarog21 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Navarog21_loud-bird-67.html",
+  "code": "<button>\n    Hover me\n</button>\n<style>\n/* From Uiverse.io by Navarog21 - Tags: button */\nbutton {\n  width: 10em;\n  position: relative;\n  height: 3.5em;\n  border: 3px ridge #149CEA;\n  outline: none;\n  background-color: transparent;\n  color: white;\n  transition: 1s;\n  border-radius: 0.3em;\n  font-size: 16px;\n  font-weight: bold;\n}\n\nbutton::after {\n  content: \"\";\n  position: absolute;\n  top: -10px;\n  left: 3%;\n  width: 95%;\n  height: 40%;\n  background-color: #212121;\n  transition: 0.5s;\n  transform-origin: center;\n}\n\nbutton::before {\n  content: \"\";\n  transform-origin: center;\n  position: absolute;\n  top: 80%;\n  left: 3%;\n  width: 95%;\n  height: 40%;\n  background-color: #212121;\n  transition: 0.5s;\n}\n\nbutton:hover::before, button:hover::after {\n  transform: scale(0)\n}\n\nbutton:hover {\n  box-shadow: inset 0px 0px 25px #1479EA;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

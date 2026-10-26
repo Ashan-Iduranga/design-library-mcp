@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-ozgeozkaraa01-evil-cheetah-7-97569c",
+  "title": "Toggle by ozgeozkaraa01 (evil-cheetah-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ozgeozkaraa01/evil-cheetah-7",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "toggle-switch",
+    "3d-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ozgeozkaraa01 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/ozgeozkaraa01_evil-cheetah-7.html",
+  "code": "<div class=\"toggle-switch\">\n  <input class=\"toggle-input\" id=\"toggle\" type=\"checkbox\">\n  <label class=\"toggle-label\" for=\"toggle\"></label>\n</div>\n<style>\n/* From Uiverse.io by ozgeozkaraa01 - Tags: switch, toggle switch, 3d switch */\n.toggle-switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n\n.toggle-input {\n  display: none;\n}\n\n.toggle-label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 60px;\n  height: 34px;\n  border-radius: 17px;\n  background-color: #ccc;\n  cursor: pointer;\n  transition: background-color 0.4s ease;\n}\n\n.toggle-label:before {\n  content: '';\n  position: absolute;\n  top: 3px;\n  left: 3px;\n  width: 28px;\n  height: 28px;\n  border-radius: 50%;\n  background-color: #fff;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);\n  transition: transform 0.4s ease;\n}\n\n.toggle-input:checked + .toggle-label {\n  background-color: #86d993;\n}\n\n.toggle-input:checked + .toggle-label:before {\n  transform: translateX(26px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

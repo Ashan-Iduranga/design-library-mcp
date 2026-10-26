@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-jkhuger-warm-panther-53-02311a",
+  "title": "Toggle by JkHuger (warm-panther-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/warm-panther-53",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/JkHuger_warm-panther-53.html",
+  "code": "<input type=\"checkbox\" class=\"l\">\n<style>\n/* From Uiverse.io by JkHuger - Tags: switch */\n.l {\n  display: block;\n  margin-bottom: 1.5em;\n  font-size: 1em;\n}\n\n.l {\n  background-color: rgba(0,0,0,0.7);\n  border-radius: 0.75em;\n  box-shadow: 0.125em 0.125em 0 0.125em rgba(0,0,0,0.3) inset;\n  color: #fdea7b;\n  display: inline-flex;\n  align-items: center;\n  margin: auto;\n  padding: 0.15em;\n  width: 3em;\n  height: 1.5em;\n  transition: background-color 0.1s 0.3s ease-out, box-shadow 0.1s 0.3s ease-out;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n}\n\n.l:before, .l:after {\n  content: \"\";\n  display: block;\n}\n\n.l:before {\n  background-color: #d7d7d7;\n  border-radius: 50%;\n  width: 1.2em;\n  height: 1.2em;\n  transition: background-color 0.1s 0.3s ease-out, transform 0.3s ease-out;\n  z-index: 1;\n}\n\n.l:after {\n  background: linear-gradient(transparent 50%, rgba(0,0,0,0.15) 0) 0 50% / 50% 100%,\n\t\trepeating-linear-gradient(90deg,#bbb 0,#bbb,#bbb 20%,#999 20%,#999 40%) 0 50% / 50% 100%,\n\t\tradial-gradient(circle at 50% 50%,#888 25%, transparent 26%);\n  background-repeat: no-repeat;\n  border: 0.25em solid transparent;\n  border-left: 0.4em solid #d8d8d8;\n  border-right: 0 solid transparent;\n  transition: border-left-color 0.1s 0.3s ease-out, transform 0.3s ease-out;\n  transform: translateX(-22.5%);\n  transform-origin: 25% 50%;\n  width: 1.2em;\n  height: 1em;\n  box-sizing: border-box;\n}\n/* Checked */\n.l:checked {\n  background-color: rgba(0,0,0,0.45);\n  box-shadow: 0.125em 0.125em 0 0.125em rgba(0,0,0,0.1) inset;\n}\n\n.l:checked:before {\n  background-color: currentColor;\n  transform: translateX(125%)\n}\n\n.l:checked:after {\n  border-left-color: currentColor;\n  transform: translateX(-2.5%) rotateY(180deg);\n}\n/* Other States */\n.l:focus {\n\t/* Usually an anti-A11Y practice but set to remove an annoyance just for this demo */\n  outline: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

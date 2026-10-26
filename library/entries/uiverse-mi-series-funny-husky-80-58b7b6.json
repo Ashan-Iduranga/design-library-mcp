@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-mi-series-funny-husky-80-58b7b6",
+  "title": "Form by mi-series (funny-husky-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mi-series/funny-husky-80",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "material-design",
+    "minimalist",
+    "checkbox",
+    "password",
+    "minimal",
+    "#button",
+    "password-generator"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mi-series on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/mi-series_funny-husky-80.html",
+  "code": "<div class=\"container\">\n      <p>Password Generator</p>\n      <div class=\"wrapper\">\n        <div class=\"input-box\">\n          <input disabled=\"\" type=\"text\">\n          <span>Copy</span>\n        </div>\n        <div class=\"pass-settings\">\n          <label class=\"title\">Password Settings</label>\n          <ul class=\"options\">\n            <li class=\"option\">\n              <input checked=\"\" id=\"lowercase\" type=\"checkbox\">\n              <label for=\"lowercase\">Lowercase (a-z)</label>\n            </li>\n            <li class=\"option\">\n              <input id=\"uppercase\" type=\"checkbox\">\n              <label for=\"uppercase\">Uppercase (A-Z)</label>\n            </li>\n            <li class=\"option\">\n              <input id=\"numbers\" type=\"checkbox\">\n              <label for=\"numbers\">Numbers (0-9)</label>\n            </li>\n            <li class=\"option\">\n              <input id=\"symbols\" type=\"checkbox\">\n              <label for=\"symbols\">Symbols (!-$^+)</label>\n            </li>\n            <li class=\"option\">\n              <input id=\"exc-duplicate\" type=\"checkbox\">\n              <label for=\"exc-duplicate\">Exclude Duplicate</label>\n            </li>\n            <li class=\"option\">\n              <input id=\"spaces\" type=\"checkbox\">\n              <label for=\"spaces\">Include Spaces</label>\n            </li>\n          </ul>\n        </div>\n        <button class=\"generate-btn\">Generate Password</button>\n      </div>\n</div>\n\n<style>\n/* From Uiverse.io by mi-series - Tags: material design, minimalist, form, checkbox, password, minimal, #button, password generator */\n.container {\n  width: 450px;\n  background: #8C92BB;\n  border-radius: 8px;\n  box-shadow: 0 10px 20px rgba(0,0,0,0.05);\n}\n\n.container p {\n  font-weight: 600;\n  font-size: 1.31rem;\n  padding: 1rem 1.75rem;\n  border-bottom: 1px solid #858BB2;\n}\n\n.wrapper {\n  margin: 1.25rem 1.75rem;\n}\n\n.wrapper .input-box {\n  position: relative;\n}\n\n.input-box input {\n  width: 100%;\n  height: 53px;\n  color: #858BB2;\n  background: #858BB2;\n  font-size: 1.06rem;\n  font-weight: 500;\n  border-radius: 4px;\n  letter-spacing: 1.4px;\n  border: 1px solid #000;\n  padding: 0 2.85rem 0 1rem;\n}\n\n.input-box span {\n  position: absolute;\n  right: 13px;\n  cursor: pointer;\n  line-height: 53px;\n  color: #000;\n}\n\n.input-box span:hover {\n  color: #46495E!important;\n}\n\n.wrapper .pass-settings {\n  margin: 1.56rem 0 1.25rem;\n}\n\n.pass-settings .options {\n  display: flex;\n  list-style: none;\n  flex-wrap: wrap;\n  margin-top: 1rem;\n}\n\n.pass-settings .options .option {\n  display: flex;\n  align-items: center;\n  margin-bottom: 1rem;\n  width: calc(100% / 2);\n}\n\n.options .option:first-child input {\n  opacity: 0.7;\n}\n\n.options .option input {\n  height: 16px;\n  width: 16px;\n  cursor: pointer;\n}\n\n.options .option label {\n  cursor: pointer;\n  color: #000;\n  padding-left: 0.63rem;\n}\n\n.pass-settings input[type='checkbox'] {\n  accent-color: #46496E;\n}\n\n.wrapper .generate-btn {\n  width: 100%;\n  color: #000;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  background: #46496E;\n  font-size: 1.06rem;\n  padding: 0.94rem 0;\n  border-radius: 5px;\n  text-transform: uppercase;\n  margin: 0.94rem 0 1.3rem;\n}\n\n.wrapper .generate-btn:hover {\n  background: #46495E;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

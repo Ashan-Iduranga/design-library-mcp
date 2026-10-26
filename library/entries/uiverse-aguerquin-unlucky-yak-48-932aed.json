@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-aguerquin-unlucky-yak-48-932aed",
+  "title": "Radio by aguerquin (unlucky-yak-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aguerquin/unlucky-yak-48",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "hover",
+    "stars",
+    "rating"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aguerquin on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/aguerquin_unlucky-yak-48.html",
+  "code": "<div class=\"rating\">\n  <input type=\"radio\" id=\"star5\" name=\"rate\" value=\"5\" />\n  <label title=\"Excellent!\" for=\"star5\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"1em\" viewBox=\"0 0 576 512\">\n      <path\n        d=\"M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z\"\n      ></path>\n    </svg>\n  </label>\n  <input value=\"4\" name=\"rate\" id=\"star4\" type=\"radio\" />\n  <label title=\"Great!\" for=\"star4\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"1em\" viewBox=\"0 0 576 512\">\n      <path\n        d=\"M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z\"\n      ></path>\n    </svg>\n  </label>\n  <input value=\"3\" name=\"rate\" id=\"star3\" type=\"radio\" />\n  <label title=\"Good\" for=\"star3\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"1em\" viewBox=\"0 0 576 512\">\n      <path\n        d=\"M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z\"\n      ></path>\n    </svg>\n  </label>\n  <input value=\"2\" name=\"rate\" id=\"star2\" type=\"radio\" />\n  <label title=\"Okay\" for=\"star2\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"1em\" viewBox=\"0 0 576 512\">\n      <path\n        d=\"M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z\"\n      ></path>\n    </svg>\n  </label>\n  <input value=\"1\" name=\"rate\" id=\"star1\" type=\"radio\" />\n  <label title=\"Bad\" for=\"star1\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"1em\" viewBox=\"0 0 576 512\">\n      <path\n        d=\"M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z\"\n      ></path>\n    </svg>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by aguerquin  - Tags: hover, radio, stars, rating */\n.rating > label {\n  margin-right: 4px;\n}\n\n.rating:not(:checked) > input {\n  display: none;\n}\n\n.rating:not(:checked) > label {\n  float: right;\n  cursor: pointer;\n  font-size: 30px;\n}\n\n.rating:not(:checked) > label > svg {\n  fill: #666;\n  transition: fill 0.3s ease;\n}\n\n.rating > input:checked ~ label > svg {\n  fill: #ffa723;\n}\n\n.rating:not(:checked) > label:hover ~ label > svg,\n.rating:not(:checked) > label:hover > svg {\n  fill: #ff9e0b;\n}\n\n#star1:hover ~ label > svg,\n#star1:hover > svg {\n  fill: #a23c3c !important;\n}\n\n#star2:hover ~ label > svg,\n#star2:hover > svg {\n  fill: #99542d !important;\n}\n\n#star3:hover ~ label > svg,\n#star3:hover > svg {\n  fill: #9f7e18 !important;\n}\n\n#star4:hover ~ label > svg,\n#star4:hover > svg {\n  fill: #22885e !important;\n}\n\n#star5:hover ~ label > svg,\n#star5:hover > svg {\n  fill: #7951ac !important;\n}\n\n#star1:checked ~ label > svg {\n  fill: #ef4444;\n}\n\n#star2:checked ~ label > svg {\n  fill: #e06c2b;\n}\n\n#star3:checked ~ label > svg {\n  fill: #eab308;\n}\n\n#star4:checked ~ label > svg {\n  fill: #19c37d;\n}\n\n#star5:checked ~ label > svg {\n  fill: #ab68ff;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

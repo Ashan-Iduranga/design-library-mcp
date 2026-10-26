@@ -1,0 +1,34 @@
+{
+  "id": "radix-colors-indigo",
+  "title": "Radix Colors: Indigo scale",
+  "source": "Radix Colors",
+  "url": "https://www.radix-ui.com/colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "indigo",
+    "radix",
+    "color-scale",
+    "color",
+    "accessible",
+    "dark-mode"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "12-step indigo scale with a matching dark-mode scale. Steps 1-2: app and subtle backgrounds. 3-5: component backgrounds (normal, hover, pressed). 6-8: borders and focus rings. 9-10: solid backgrounds (e.g. buttons). 11-12: low and high contrast text.\n\nAlso available: indigoA (alpha) and P3 wide-gamut versions.\n\nUse: npm i @radix-ui/colors, then import \"@radix-ui/colors/indigo.css\" and \"@radix-ui/colors/indigo-dark.css\".\n\nOriginal file: https://github.com/radix-ui/colors/blob/main/src/light.ts",
+  "code": "<style>\n:root {\n  --indigo-1: #fdfdfe;\n  --indigo-2: #f7f9ff;\n  --indigo-3: #edf2fe;\n  --indigo-4: #e1e9ff;\n  --indigo-5: #d2deff;\n  --indigo-6: #c1d0ff;\n  --indigo-7: #abbdf9;\n  --indigo-8: #8da4ef;\n  --indigo-9: #3e63dd;\n  --indigo-10: #3358d4;\n  --indigo-11: #3a5bc7;\n  --indigo-12: #1f2d5c;\n}\n.dark {\n  --indigo-1: #11131f;\n  --indigo-2: #141726;\n  --indigo-3: #182449;\n  --indigo-4: #1d2e62;\n  --indigo-5: #253974;\n  --indigo-6: #304384;\n  --indigo-7: #3a4f97;\n  --indigo-8: #435db1;\n  --indigo-9: #3e63dd;\n  --indigo-10: #5472e4;\n  --indigo-11: #9eb1ff;\n  --indigo-12: #d6e1ff;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Radix indigo</strong>\n<p>light</p><div class=\"row\"><div style=\"background:#fdfdfe\" title=\"--indigo-1: #fdfdfe\"><span>1</span></div><div style=\"background:#f7f9ff\" title=\"--indigo-2: #f7f9ff\"><span>2</span></div><div style=\"background:#edf2fe\" title=\"--indigo-3: #edf2fe\"><span>3</span></div><div style=\"background:#e1e9ff\" title=\"--indigo-4: #e1e9ff\"><span>4</span></div><div style=\"background:#d2deff\" title=\"--indigo-5: #d2deff\"><span>5</span></div><div style=\"background:#c1d0ff\" title=\"--indigo-6: #c1d0ff\"><span>6</span></div><div style=\"background:#abbdf9\" title=\"--indigo-7: #abbdf9\"><span>7</span></div><div style=\"background:#8da4ef\" title=\"--indigo-8: #8da4ef\"><span>8</span></div><div style=\"background:#3e63dd\" title=\"--indigo-9: #3e63dd\"><span>9</span></div><div style=\"background:#3358d4\" title=\"--indigo-10: #3358d4\"><span>10</span></div><div style=\"background:#3a5bc7\" title=\"--indigo-11: #3a5bc7\"><span>11</span></div><div style=\"background:#1f2d5c\" title=\"--indigo-12: #1f2d5c\"><span>12</span></div></div>\n<p>dark</p><div class=\"row\"><div style=\"background:#11131f\" title=\"--indigo-1: #11131f\"><span>1</span></div><div style=\"background:#141726\" title=\"--indigo-2: #141726\"><span>2</span></div><div style=\"background:#182449\" title=\"--indigo-3: #182449\"><span>3</span></div><div style=\"background:#1d2e62\" title=\"--indigo-4: #1d2e62\"><span>4</span></div><div style=\"background:#253974\" title=\"--indigo-5: #253974\"><span>5</span></div><div style=\"background:#304384\" title=\"--indigo-6: #304384\"><span>6</span></div><div style=\"background:#3a4f97\" title=\"--indigo-7: #3a4f97\"><span>7</span></div><div style=\"background:#435db1\" title=\"--indigo-8: #435db1\"><span>8</span></div><div style=\"background:#3e63dd\" title=\"--indigo-9: #3e63dd\"><span>9</span></div><div style=\"background:#5472e4\" title=\"--indigo-10: #5472e4\"><span>10</span></div><div style=\"background:#9eb1ff\" title=\"--indigo-11: #9eb1ff\"><span>11</span></div><div style=\"background:#d6e1ff\" title=\"--indigo-12: #d6e1ff\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "Building a UI color system with predictable steps for backgrounds, borders and text, including dark mode.",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

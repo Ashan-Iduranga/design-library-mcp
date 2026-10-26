@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-jaydipprajapati1910-curly-monkey-15-187ec4",
+  "title": "Loader by JaydipPrajapati1910 (curly-monkey-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/curly-monkey-15",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "infinite"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JaydipPrajapati1910_curly-monkey-15.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, loader, infinite */\n.loader {\n  width: calc(160px / 0.707);\n  height: 28px;\n  background: repeating-linear-gradient(-45deg, #766DF4 0 30px,#0000 0 40px) left/200% 100%;\n  animation: i3 2s infinite linear;\n  border-radius: 10px;\n  border: 1px solid #766DF4;\n}\n\n@keyframes i3 {\n  100% {\n    background-position: right\n  }\n}\n  \n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

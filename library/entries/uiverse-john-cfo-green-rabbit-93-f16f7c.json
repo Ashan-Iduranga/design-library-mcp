@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-john-cfo-green-rabbit-93-f16f7c",
+  "title": "Button by John-CFO (green-rabbit-93)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/John-CFO/green-rabbit-93",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "glow",
+    "reflection"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By John-CFO on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/John-CFO_green-rabbit-93.html",
+  "code": "<button class=\"btn\">\n  <span class=\"text\">Button</span>\n</button>\n<style>\n/* From Uiverse.io by John-CFO - Tags: button, glow, reflection */\n.btn {\n  height: 3.5rem;\n  width: 13.2rem;\n  border-radius: 5px;\n  border: 5px solid rgb(255, 255, 255);\n  cursor: pointer;\n  filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));\n  animation: flickering 2s linear infinite both;\n  text-transform: uppercase;\n  background-color: rgb(83, 82, 82);\n  color: rgb(234, 234, 234);\n  font-weight: 700;\n  transition: 0.6s;\n  box-shadow: 0px 0px 60px #1f4c65;\n  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));\n}\n\n@keyframes flickering {\n  0%,\n  100% {\n    opacity: 1;\n  }\n\n  41.99% {\n    opacity: 1;\n  }\n\n  42% {\n    opacity: 0;\n  }\n\n  43% {\n    opacity: 0;\n  }\n\n  43.01% {\n    opacity: 1;\n  }\n\n  47.99% {\n    opacity: 1;\n  }\n\n  48% {\n    opacity: 0;\n  }\n\n  49% {\n    opacity: 0;\n  }\n\n  49.01% {\n    opacity: 1;\n  }\n}\n\n.text {\n  font-size: 1.8rem;\n  font-family: Arial, Helvetica, sans-serif;\n}\n\n.btn:hover {\n  background-color: black;\n  border-radius: 0;\n}\n\n\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

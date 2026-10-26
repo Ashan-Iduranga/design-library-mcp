@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-emacoto-breezy-cobra-71-b23a3c",
+  "title": "Button by EmaCoto (breezy-cobra-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/EmaCoto/breezy-cobra-71",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "green",
+    "add"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By EmaCoto on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/EmaCoto_breezy-cobra-71.html",
+  "code": "<!-- From Uiverse.io by EmaCoto  - Tags: icon, green, button, add -->\n<button\n  class=\"rounded-lg relative w-36 h-10 cursor-pointer flex items-center border border-green-500 bg-green-500 group hover:bg-green-500 active:bg-green-500 active:border-green-500\"\n>\n  <span\n    class=\"text-gray-200 font-semibold ml-8 transform group-hover:translate-x-20 transition-all duration-300\"\n    >Add Item</span\n  >\n  <span\n    class=\"absolute right-0 h-full w-10 rounded-lg bg-green-500 flex items-center justify-center transform group-hover:translate-x-0 group-hover:w-full transition-all duration-300\"\n  >\n    <svg\n      class=\"svg w-8 text-white\"\n      fill=\"none\"\n      height=\"24\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      width=\"24\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <line x1=\"12\" x2=\"12\" y1=\"5\" y2=\"19\"></line>\n      <line x1=\"5\" x2=\"19\" y1=\"12\" y2=\"12\"></line>\n    </svg>\n  </span>\n</button>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

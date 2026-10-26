@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-dsb2004-ugly-yak-77-97eb66",
+  "title": "Loader by DSB2004 (ugly-yak-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/DSB2004/ugly-yak-77",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By DSB2004 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/DSB2004_ugly-yak-77.html",
+  "code": "<div id=\"Loading\">\n  <div id=\"loading_div\">\n    <div id=\"loading_bouncer\"></div>\n    <div id=\"shadow\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by DSB2004  - Tags: simple, gradient, loader */\n#Loading {\n  height: 100%;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n#loading_div {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n@keyframes bounce {\n  0% {\n    transform: translateY(0px);\n  }\n  50% {\n    transform: translateY(-50px);\n  }\n  100% {\n    transform: translateY(0px);\n  }\n}\n@keyframes shadow {\n  0% {\n    height: 50px;\n    width: 50px;\n  }\n  50% {\n    height: 10px;\n    width: 10px;\n  }\n  100% {\n    height: 50px;\n    width: 50px;\n  }\n}\n#loading_bouncer {\n  height: 50px;\n  width: 50px;\n  border-radius: 100%;\n  background: linear-gradient(\n    to bottom,\n    rgb(89, 0, 255),\n    rgb(0, 110, 255),\n    rgb(25, 0, 255)\n  );\n  animation: bounce 500ms ease-in-out infinite;\n}\n#shadow {\n  position: absolute;\n  height: 50px;\n  width: 50px;\n  border-radius: 100%;\n  background: black;\n  top: 30px;\n  transform: rotateX(80deg);\n  animation: shadow 500ms ease-in-out infinite;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

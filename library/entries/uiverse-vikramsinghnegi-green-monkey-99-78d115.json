@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vikramsinghnegi-green-monkey-99-78d115",
+  "title": "Toggle by vikramsinghnegi (green-monkey-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikramsinghnegi/green-monkey-99",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "simple",
+    "button",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikramsinghnegi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/vikramsinghnegi_green-monkey-99.html",
+  "code": "<div class=\"onoffswitch\">\n  <input\n    checked=\"\"\n    id=\"myonoffswitch\"\n    class=\"onoffswitch-checkbox\"\n    name=\"onoffswitch\"\n    type=\"checkbox\"\n  />\n  <label for=\"myonoffswitch\" class=\"onoffswitch-label\">\n    <div class=\"onoffswitch-inner\"></div>\n    <div class=\"onoffswitch-switch\"></div>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by vikramsinghnegi  - Tags: simple, button, switch */\n.onoffswitch {\n  position: relative;\n  width: 90px;\n  user-select: none;\n}\n.onoffswitch-checkbox {\n  display: none;\n}\n.onoffswitch-label {\n  display: block;\n  overflow: hidden;\n  cursor: pointer;\n  border: 2px solid #999999;\n  border-radius: 20px;\n}\n.onoffswitch-inner {\n  width: 200%;\n  margin-left: -100%;\n  transition: margin 0.3s ease-in 0s;\n}\n.onoffswitch-inner:before,\n.onoffswitch-inner:after {\n  float: left;\n  width: 50%;\n  height: 30px;\n  padding: 0;\n  line-height: 30px;\n  font-size: 14px;\n  color: white;\n  font-family: Trebuchet, Arial, sans-serif;\n  font-weight: bold;\n  box-sizing: border-box;\n}\n.onoffswitch-inner:before {\n  content: \"ON\";\n  padding-left: 10px;\n  background-color: #212f33;\n  color: #ffffff;\n}\n.onoffswitch-inner:after {\n  content: \"OFF\";\n  padding-right: 10px;\n  background-color: #eeeeee;\n  color: #999999;\n  text-align: right;\n}\n.onoffswitch-switch {\n  width: 18px;\n  margin: 6px;\n  background: #ffffff;\n  border: 2px solid #271616;\n  border-radius: 20px;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 56px;\n  transition: all 0.3s ease-in 0s;\n}\n.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {\n  margin-left: 0;\n}\n.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {\n  right: 0px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

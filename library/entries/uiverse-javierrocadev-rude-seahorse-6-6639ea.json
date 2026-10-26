@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-javierrocadev-rude-seahorse-6-6639ea",
+  "title": "Tooltip by Javierrocadev (rude-seahorse-6)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/rude-seahorse-6",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "gradient",
+    "dark",
+    "hover-effect",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/Javierrocadev_rude-seahorse-6.html",
+  "code": "<div class=\"tooltip-container\">\n  <div class=\"tooltip\">\n    LET'S CREATE!\n    <span class=\"tooltip-item\">1 - Explore</span>\n    <span class=\"tooltip-item\">2 - Have fun!</span>\n  </div>\n  <button class=\"btn\">uiverse</button>\n</div>\n\n<style>\n/* From Uiverse.io by Javierrocadev  - Tags: tooltip, gradient, dark, hover effect, hover button */\n.tooltip-container {\n  --background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);\n  position: relative;\n  color: aliceblue;\n\n  cursor: pointer;\n  transition: all 0.2s;\n  font-size: 17px;\n  padding: 0.7em 1.8em;\n  border-radius: 16px;\n}\n\n.tooltip {\n  position: absolute;\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  width: 100px;\n  height: 120px;\n  z-index: -1;\n  top: 0;\n  left: 50%;\n  background-color: #212121;\n  color: antiquewhite;\n  transform: translateX(-50%);\n  padding: 0.3em 0.6em;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s;\n  border-radius: 4px;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n  font-weight: bold;\n  font-size: 12px;\n  overflow: hidden;\n}\n\n.tooltip-item {\n  z-index: 5;\n  background-color: #171717;\n  border-radius: 4px;\n  padding: 4px;\n  font-weight: bolder;\n  font-size: 6px;\n}\n\n.tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 0.5em;\n  width: 0.5em;\n  top: 0.8em;\n  left: 85%;\n  border-radius: 2px;\n  transform: rotate(45deg);\n  background: var(--background);\n  animation: tooltipBeforeAnimation 4s infinite alternate;\n}\n\n.tooltip::after {\n  position: absolute;\n  content: \"\";\n  height: 3.6em;\n  width: 3.6em;\n  bottom: -0.8em;\n  border-radius: 999px;\n  filter: blur(8px);\n  right: -5%;\n  background: var(--background);\n  animation: tooltipAnimation 5s infinite alternate;\n}\n\n.btn {\n  background: var(--background);\n  border: none;\n  color: aliceblue;\n  cursor: pointer;\n  background-size: 100%;\n  transition: all 0.2s;\n  font-size: 12px;\n  padding: 0.7em 1.8em;\n  border-radius: 16px;\n  font-weight: 700;\n}\n.btn:hover {\n  background-size: 150%;\n  background-position-x: right;\n}\n\n@keyframes tooltipAnimation {\n  0% {\n    transform: scale(1);\n  }\n  100% {\n    transform: scale(1.8);\n  }\n}\n@keyframes tooltipBeforeAnimation {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.tooltip-container:hover .tooltip {\n  transform: scale(2);\n}\n\n.tooltip-container:hover .tooltip {\n  top: -210%;\n  left: 43%;\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

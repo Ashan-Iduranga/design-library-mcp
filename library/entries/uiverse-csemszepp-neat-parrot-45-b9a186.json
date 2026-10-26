@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-neat-parrot-45-b9a186",
+  "title": "Pattern by csemszepp (neat-parrot-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/neat-parrot-45",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_neat-parrot-45.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://css-pattern.com/ - Name: Temani Afif - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 100px; /* control the size */\n  --c1: #f8b195;\n  --c2: #355c7d;\n\n  --_g: var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%,\n    var(--c1) 36% 44%, var(--c2) 46% 54%, var(--c1) 56% 64%, var(--c2) 66% 74%,\n    var(--c1) 76% 84%, var(--c2) 86% 94%;\n  background: radial-gradient(\n      100% 100% at 100% 0,\n      var(--c1) 4%,\n      var(--_g),\n      #0008 96%,\n      #0000\n    ),\n    radial-gradient(\n        100% 100% at 0 100%,\n        #0000,\n        #0008 4%,\n        var(--_g),\n        var(--c1) 96%\n      )\n      var(--c1);\n  background-size: var(--s) var(--s);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

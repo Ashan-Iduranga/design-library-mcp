@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-sulilevente-hard-sloth-56-03bf0c",
+  "title": "Button by SuliLevente (hard-sloth-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SuliLevente/hard-sloth-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SuliLevente on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SuliLevente_hard-sloth-56.html",
+  "code": "<button>Button</button>\n<style>\n/* From Uiverse.io by SuliLevente - Tags: button */\nbutton {\n  background-color: #040810;\n  color: #C7C7C7;\n  padding: 15px;\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 17px;\n  overflow: hidden;\n  position: relative;\n  border: 3px double #2D6FBB;\n  z-index: 1;\n}\n\nbutton::before {\n  content: \"\";\n  background-color: #2D6FBB;\n  transform: translateX(-100%);\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  left: 0;\n  transition: all 0.3s;\n  z-index: -1;\n}\n\nbutton:hover::before {\n  transform: translateX(0);\n}\n\nbutton::after {\n  content: \"\";\n  background-color: #2D6FBB;\n  transform: translateX(100%);\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  left: 0;\n  transition: all 0.3s;\n  z-index: -1;\n}\n\nbutton:hover::after {\n  transform: translateX(0);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

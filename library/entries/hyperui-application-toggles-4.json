@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-toggles-4",
+  "title": "Toggles: Apple",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/toggles",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "toggles",
+    "hyperui",
+    "form",
+    "switch"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/toggles/4.html",
+  "code": "<div class=\"flex justify-center p-6\">\n<label class=\"relative block h-8 w-14 rounded-full bg-gray-300 transition-colors [-webkit-tap-highlight-color:transparent] has-checked:bg-blue-500\" for=\"AcceptConditions\">\n<input class=\"peer sr-only\" id=\"AcceptConditions\" type=\"checkbox\"/>\n<span class=\"absolute inset-y-0 start-0 m-1 size-6 rounded-full bg-gray-300 ring-[6px] ring-white transition-all ring-inset peer-checked:start-8 peer-checked:w-2 peer-checked:bg-white peer-checked:ring-transparent\">\n</span>\n</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

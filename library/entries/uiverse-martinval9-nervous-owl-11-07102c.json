@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-martinval9-nervous-owl-11-07102c",
+  "title": "Button by martinval9 (nervous-owl-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/martinval9/nervous-owl-11",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By martinval9 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/martinval9_nervous-owl-11.html",
+  "code": "<button class=\"btn\">Button\n</button>\n<style>\n/* From Uiverse.io by martinval9 - Tags: button */\n.btn {\n color: #B500FF;\n padding: 13px 20px;\n border: 2px solid #B500FF;\n font-size: 17px;\n transition: 0.3s;\n border-radius: 10px;\n font-family: Arial;\n font-weight: 600;\n}\n\n.btn:hover {\n transition: 0.3s;\n background-color: #B500FF;\n margin-top: -20px;\n color: #fff;\n animation-name: button_animation;\n animation-duration: 3s;\n animation-iteration-count: infinite;\n}\n\n.btn:active {\n transform: scale(0.97);\n}\n\n@keyframes button_animation {\n 0% {\n  background-color: #B500FF;\n }\n\n 25% {\n  background-color: #000000;\n }\n\n 50% {\n  background-color: #B500FF;\n }\n\n 75% {\n  background-color: #000000;\n }\n\n 100% {\n  background-color: #B500FF;\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

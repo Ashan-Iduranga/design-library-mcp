@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-carousel-api",
+  "title": "Carousel Api (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/carousel-api.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "carousel",
+    "api",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A carousel with motion and swipe built using Embla.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/carousel-api.tsx",
+  "code": "\"use client\"\n\nimport * as React from \"react\"\n\nimport { Card, CardContent } from \"@/registry/new-york-v4/ui/card\"\nimport {\n  Carousel,\n  CarouselContent,\n  CarouselItem,\n  CarouselNext,\n  CarouselPrevious,\n  type CarouselApi,\n} from \"@/registry/new-york-v4/ui/carousel\"\n\nexport default function CarouselDApiDemo() {\n  const [api, setApi] = React.useState<CarouselApi>()\n  const [current, setCurrent] = React.useState(0)\n  const [count, setCount] = React.useState(0)\n\n  React.useEffect(() => {\n    if (!api) {\n      return\n    }\n\n    setCount(api.scrollSnapList().length)\n    setCurrent(api.selectedScrollSnap() + 1)\n\n    api.on(\"select\", () => {\n      setCurrent(api.selectedScrollSnap() + 1)\n    })\n  }, [api])\n\n  return (\n    <div className=\"mx-auto max-w-xs\">\n      <Carousel setApi={setApi} className=\"w-full max-w-xs\">\n        <CarouselContent>\n          {Array.from({ length: 5 }).map((_, index) => (\n            <CarouselItem key={index}>\n              <Card>\n                <CardContent className=\"flex aspect-square items-center justify-center p-6\">\n                  <span className=\"text-4xl font-semibold\">{index + 1}</span>\n                </CardContent>\n              </Card>\n            </CarouselItem>\n          ))}\n        </CarouselContent>\n        <CarouselPrevious />\n        <CarouselNext />\n      </Carousel>\n      <div className=\"py-2 text-center text-sm text-muted-foreground\">\n        Slide {current} of {count}\n      </div>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

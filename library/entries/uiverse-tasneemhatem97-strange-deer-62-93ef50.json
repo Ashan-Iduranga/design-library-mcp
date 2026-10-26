@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-tasneemhatem97-strange-deer-62-93ef50",
+  "title": "Form by TasneemHatem97 (strange-deer-62)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TasneemHatem97/strange-deer-62",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "password",
+    "login-form"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TasneemHatem97 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/TasneemHatem97_strange-deer-62.html",
+  "code": "<div class=\"body\">\n        <div class=\"container\">\n            <form>\n                <div class=\"head\">\n                    <span>Sign up</span>\n                    <p>Create a free account with your email.</p>\n                </div>\n                <div class=\"inputs\">\n                    <input type=\"text\" placeholder=\"Full Name\">\n                    <input type=\"email\" placeholder=\"Email\">\n                    <input type=\"password\" placeholder=\"Password\">\n                </div>\n                <button>Sign up</button>\n            </form>\n            <div class=\"form-footer\">\n                <p>Have an account? <a href=\"#\">Log in</a></p> \n            </div>\n    \n        </div>\n\n    </div>\n    \n<style>\n/* From Uiverse.io by TasneemHatem97 - Tags: form, password, login form */\n.container {\n  max-width: 300px;\n  background-color: #F1F7FE;\n  border-radius: 15px;\n  overflow: hidden;\n}\n\nform {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  padding: 32px 24px 24px;\n  gap: 16px;\n  text-align: center;\n}\n\nform .head {\n  display: flex;\n  flex-direction: column;\n  gap: 16px;\n}\n\nform .head span {\n  font-size: 1.6rem;\n  font-weight: bolder;\n  color: black;\n}\n\nform .head p {\n  font-size: 1.1rem;\n  color: #7C6666;\n}\n\nform .inputs {\n  overflow: hidden;\n  background-color: #fff;\n  width: 100%;\n  margin: 1rem 0.5rem;\n  border-radius: 8px;\n  border-bottom: none;\n  outline: 0;\n}\n\nform .inputs input {\n  border: none;\n  outline: none;\n  padding: 8px 15px;\n    /* علشان اقدر اخلي البلاس هولدر من اول الفورم بديله نفس الويدس */\n  width: 100%;\n  height: 40px;\n  border-bottom: 1px solid rgba(128, 128, 128, 0.299);\n  font-weight: 200;\n}\n\nform button {\n  background-color: #4287ef;\n  color: white;\n  width: 100%;\n  height: 40px;\n  padding-top: 8px;\n  padding-bottom: 8px;\n  border: 0;\n  overflow: hidden;\n  border-radius: 25px;\n  font-size: 1rem;\n  font-weight: 600;\n  cursor: pointer;\n  transition: all 1s ease-in-out;\n}\n\nform button:hover {\n  background-color: #005ce6;\n}\n\n.form-footer {\n  background-color: #e0ecfb;\n  padding: 16px;\n  font-size: 1rem;\n  text-align: center;\n}\n\n.form-footer a {\n  font-weight: bolder;\n  color: #0066ff;\n  transition: all 3s ease-in-out;\n}\n\n.form-footer a:hover {\n  color: #005ce6;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

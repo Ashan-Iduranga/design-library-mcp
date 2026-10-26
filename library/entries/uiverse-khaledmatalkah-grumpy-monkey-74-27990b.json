@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-khaledmatalkah-grumpy-monkey-74-27990b",
+  "title": "Button by KhaledMatalkah (grumpy-monkey-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KhaledMatalkah/grumpy-monkey-74",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KhaledMatalkah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/KhaledMatalkah_grumpy-monkey-74.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by KhaledMatalkah - Tags: gradient, button */\n.button {\n  display: inline-block;\n  padding: 15px 32px;\n  font-size: 17px;\n  font-weight: bold;\n  color: #fff;\n  background-color: #000;\n  border: none;\n  border-radius: 50px;\n  text-align: center;\n  text-decoration: none;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.button:before,\n.button:after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: 50px;\n  opacity: 0.3;\n  pointer-events: none;\n  transition: all 0.3s ease-in-out;\n}\n\n.button:before {\n  left: -100%;\n  background: linear-gradient(90deg, rgba(0, 136, 255, 0.8), rgba(255, 0, 170, 0.8), rgba(0, 136, 255, 0.8));\n  z-index: -1;\n}\n\n.button:hover:before {\n  left: 0;\n}\n\n.button:after {\n  right: -100%;\n  background: linear-gradient(270deg, rgba(0, 136, 255, 0.8), rgba(255, 0, 170, 0.8), rgba(0, 136, 255, 0.8));\n  z-index: -1;\n}\n\n.button:hover:after {\n  right: 0;\n}\n\n.button:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n}\n\n.button:active {\n  transform: translateY(1px);\n  box-shadow: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

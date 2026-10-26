@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-boryanakrasteva-fast-eagle-21-c431e4",
+  "title": "Loader by boryanakrasteva (fast-eagle-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/boryanakrasteva/fast-eagle-21",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By boryanakrasteva on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/boryanakrasteva_fast-eagle-21.html",
+  "code": "<div class=\"loader\">\n  <div class=\"circle\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"circle\"></div>\n</div>\n<style>\n/* From Uiverse.io by boryanakrasteva - Tags: loader */\n.loader {\n  position: relative;\n}\n\n.circle {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 0px;\n  height: 0px;\n  border-radius: 100%;\n  opacity: 0;\n  animation: pulse_4923 4s infinite linear;\n  border: 0.5px solid #f3f3f3;\n  box-shadow: 0px 0px 5px #eef0e5;\n}\n\n.circle:nth-child(1) {\n  animation-delay: .2s;\n}\n\n.circle:nth-child(2) {\n  animation-delay: .4s;\n}\n\n.circle:nth-child(3) {\n  animation-delay: .8s;\n}\n\n.circle:nth-child(4) {\n  animation-delay: 1s;\n}\n\n@keyframes pulse_4923 {\n  0% {\n    opacity: 0.0;\n    width: 0px;\n    height: 0px;\n    transform: translate(-50%, -50%) scale(1);\n  }\n\n  10% {\n    opacity: 0.5;\n    transform: translate(-50%, -50%) scale(2);\n  }\n\n  100% {\n    opacity: 0.0;\n    width: 100px;\n    height: 100px;\n    transform: translate(-50%, -50%) scale(1);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

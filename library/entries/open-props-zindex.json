@@ -1,0 +1,32 @@
+{
+  "id": "open-props-zindex",
+  "title": "Open Props: Zindex tokens",
+  "source": "Open Props",
+  "url": "https://open-props.style/#zindex",
+  "license": "MIT",
+  "type": "token",
+  "tags": [
+    "zindex",
+    "open-props",
+    "css-variables",
+    "tokens"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "6 CSS custom properties, e.g. --layer-1, --layer-2, --layer-3, --layer-4.\n\nUse: npm i open-props, then @import \"open-props/zindex\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.zindex.css",
+  "code": ":where(html) {\n  --layer-1: 1;\n  --layer-2: 2;\n  --layer-3: 3;\n  --layer-4: 4;\n  --layer-5: 5;\n  --layer-important: 2147483647;\n}",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-lakshay-art-chilly-goat-78-5573e2",
+  "title": "Button by Lakshay-art (chilly-goat-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Lakshay-art/chilly-goat-78",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Lakshay-art on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Lakshay-art_chilly-goat-78.html",
+  "code": "<button>\n  <div class=\"main\">\n    <div class=\"rings\" id=\"ring1\"></div>\n    <div class=\"rings\" id=\"ring2\"></div>\n    <div class=\"asteriods-large\" id=\"asteriod1\"></div>\n    <div class=\"asteriods-large\" id=\"asteriod2\"></div>\n    <div class=\"asteriods-large\" id=\"asteriod3\"></div>\n    <div class=\"asteriods-large\" id=\"asteriod4\"></div>\n    <div class=\"asteriods-large\" id=\"asteriod5\"></div>\n    <div class=\"asteriods-small\" id=\"asteriod6\"></div>\n    <div class=\"asteriods-small\" id=\"asteriod7\"></div>\n    <div class=\"asteriods-small\" id=\"asteriod8\"></div>\n    <div class=\"asteriods-small\" id=\"asteriod9\"></div>\n    <div class=\"asteriods-small\" id=\"asteriod10\"></div>\n    <div id=\"saturn\"></div>\n    <div id=\"explore\">Explore</div>\n\n  </div>\n</button>\n<style>\n/* From Uiverse.io by Lakshay-art - Tags: button */\nbutton {\n  border: 0;\n  background: radial-gradient(ellipse at 50% 50%,black 20%,transparent 72%);\n  font-size: 17px;\n  height: 200px;\n  width: 300px;\n  zoom: 1.2;\n}\n\n.main {\n  width: 70px;\n  margin: auto;\n  position: relative;\n  transform: rotateZ(0deg);\n  isolation: isolate;\n  scale: 1;\n  transition: all 1.5s;\n}\n\n.main:hover {\n  transform: rotateZ(240deg);\n  scale: 2;\n  /* filter: drop-shadow(10px,10px,10px,white); */\n  filter: drop-shadow(-1px -1px 5px #69e9d6);\n}\n\n.rings {\n  position: absolute;\n  width: 200px;\n  height: 100px;\n  /* background-color: #000000; */\n  border-radius: 150px 150px 0 0;\n  background: radial-gradient(circle at 50% 100%,transparent 30%, #69e9d6 40%,#404D44 50%,#44867c 60%,#404D44 70%,transparent);\n}\n\n#saturn {\n  width: 70px;\n  height: 70px;\n  border-radius: 50%;\n  background: linear-gradient(80deg,#69e9d6,#404D44,#000000);\n}\n\n#ring1 {\n  transform: rotateX(80deg);\n  top: -20px;\n  left: -65px;\n}\n\n#ring2 {\n  transform: rotateX(-100deg);\n  left: -65px;\n  z-index: -1;\n  top: -3px;\n}\n\n.asteriods-large {\n  position: absolute;\n  width: 8px;\n  height: 10px;\n  border-radius: 15px 8px;\n  background: linear-gradient(220deg,#6f7776,#598ea3,#311515);\n  transform: rotateZ(0deg);\n  transition: all 3s;\n}\n\n#asteriod1 {\n  top: 8px;\n  height: 12px;\n  width: 12px;\n  border-radius: 50%;\n}\n\n#asteriod2 {\n  top: 35px;\n  height: 10px;\n  left: -55px;\n}\n\n#asteriod3 {\n  top: 35px;\n  height: 8px;\n  left: 85px;\n}\n\n#asteriod4 {\n  top: 40px;\n  height: 4px;\n  width: 4px;\n  left: -40px;\n}\n\n#asteriod5 {\n  top: 35px;\n  height: 4px;\n  width: 4px;\n  left: 82px;\n}\n\n.asteriods-small {\n  position: absolute;\n  width: 4px;\n  height: 3px;\n  border-radius: 15px 8px;\n  background: linear-gradient(80deg,#6f7776,#598ea3,#311515);\n  transform-origin: 50px 50px;\n  transform: rotateZ(0deg);\n  transition: all 3s;\n}\n\n#asteriod6 {\n  top: 6px;\n  left: -5px;\n  border-radius: 50%;\n}\n\n#asteriod7 {\n  top: 15px;\n  left: -35px;\n}\n\n#asteriod8 {\n  top: 35px;\n  left: 65px;\n}\n\n#asteriod9 {\n  top: 60px;\n  left: -10px;\n}\n\n#asteriod10 {\n  top: 15px;\n  left: 112px;\n}\n\n#explore {\n  position: absolute;\n  top: 32px;\n  font-size: 15px;\n  color: hsl(171, 59%, 74%);\n  left: 10px;\n  transition: all 3s;\n}\n\n.main:hover > .asteriods-large,.main:hover > .asteriods-small {\n  transform: translateX(28px);\n}\n\n.main:hover > #explore {\n  translate: -10px 20px;\n  transform: rotateZ(120deg);\n}\n\n.main:not(hover) > #explore {\n  translate: 0px;\n  transform: rotateZ(0deg);\n}\n\n.main:not(hover) > .asteriods-large,.main:not(hover) > .asteriods-small {\n  transform: translateX(0px);\n}\n\n.main:is(:active) > #explore {\n  translate: -100px 200px;\n}\n\n.main:is(:active) {\n  translate: -200px;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

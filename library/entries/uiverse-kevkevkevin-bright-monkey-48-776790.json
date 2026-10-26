@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-kevkevkevin-bright-monkey-48-776790",
+  "title": "Button by kevkevkevin (bright-monkey-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kevkevkevin/bright-monkey-48",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "creative",
+    "css",
+    "css-effect",
+    "hoverme"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kevkevkevin on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/kevkevkevin_bright-monkey-48.html",
+  "code": "<button class=\"button\">\n  HOVER ME 🙈\n</button>\n<style>\n/* From Uiverse.io by kevkevkevin - Tags: button, hover, creative, css, css effect, hoverme */\n.button {\n  border: 2px solid #246bfd;\n  color: #101a29;\n  line-height: 52px;\n  border-radius: 30px;\n  font-weight: 600;\n  height: 55px;\n  overflow: hidden;\n  padding: 0 30px;\n  position: relative;\n  transition: all .5s ease;\n  z-index: 0;\n}\n\nbutton:after {\n  content: \"\";\n  height: 100%;\n  left: -35%;\n  position: absolute;\n  top: 0;\n  background: #246bfd;\n  -webkit-transform: skew(30deg);\n  transform: skew(30deg);\n  -webkit-transform-origin: top left;\n  transform-origin: top left;\n  transition: all .3s ease-in;\n  transition-duration: .6s;\n  width: 0;\n  z-index: -1;\n}\n\nbutton:hover {\n  color: #fff;\n  background-color: #ffffff00;\n  border-color: #ffffff00;\n}\n\nbutton:hover:after {\n  height: 100%;\n  width: 135%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

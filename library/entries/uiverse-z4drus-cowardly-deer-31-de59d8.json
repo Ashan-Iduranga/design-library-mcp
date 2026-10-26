@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-z4drus-cowardly-deer-31-de59d8",
+  "title": "Loader by Z4drus (cowardly-deer-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Z4drus/cowardly-deer-31",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Z4drus on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Z4drus_cowardly-deer-31.html",
+  "code": "<div class=\"loader\">\n  <svg\n    preserveAspectRatio=\"xMidYMid meet\"\n    width=\"40\"\n    height=\"40\"\n    viewBox=\"0 0 40 40\"\n    y=\"0px\"\n    x=\"0px\"\n    class=\"container\"\n  >\n    <path\n      d=\"M29.760000000000005 18.72 c0 7.28 -3.9200000000000004 13.600000000000001 -9.840000000000002 16.96 c -2.8800000000000003 1.6800000000000002 -6.24 2.64 -9.840000000000002 2.64 c -3.6 0 -6.88 -0.96 -9.76 -2.64 c0 -7.28 3.9200000000000004 -13.52 9.840000000000002 -16.96 c2.8800000000000003 -1.6800000000000002 6.24 -2.64 9.76 -2.64 S26.880000000000003 17.040000000000003 29.760000000000005 18.72 c5.84 3.3600000000000003 9.76 9.68 9.840000000000002 16.96 c -2.8800000000000003 1.6800000000000002 -6.24 2.64 -9.76 2.64 c -3.6 0 -6.88 -0.96 -9.840000000000002 -2.64 c -5.84 -3.3600000000000003 -9.76 -9.68 -9.76 -16.96 c0 -7.28 3.9200000000000004 -13.600000000000001 9.76 -16.96 C25.84 5.120000000000001 29.760000000000005 11.440000000000001 29.760000000000005 18.72z\"\n      pathLength=\"100\"\n      stroke-width=\"4\"\n      fill=\"none\"\n      class=\"track\"\n    ></path>\n    <path\n      d=\"M29.760000000000005 18.72 c0 7.28 -3.9200000000000004 13.600000000000001 -9.840000000000002 16.96 c -2.8800000000000003 1.6800000000000002 -6.24 2.64 -9.840000000000002 2.64 c -3.6 0 -6.88 -0.96 -9.76 -2.64 c0 -7.28 3.9200000000000004 -13.52 9.840000000000002 -16.96 c2.8800000000000003 -1.6800000000000002 6.24 -2.64 9.76 -2.64 S26.880000000000003 17.040000000000003 29.760000000000005 18.72 c5.84 3.3600000000000003 9.76 9.68 9.840000000000002 16.96 c -2.8800000000000003 1.6800000000000002 -6.24 2.64 -9.76 2.64 c -3.6 0 -6.88 -0.96 -9.840000000000002 -2.64 c -5.84 -3.3600000000000003 -9.76 -9.68 -9.76 -16.96 c0 -7.28 3.9200000000000004 -13.600000000000001 9.76 -16.96 C25.84 5.120000000000001 29.760000000000005 11.440000000000001 29.760000000000005 18.72z\"\n      pathLength=\"100\"\n      stroke-width=\"4\"\n      fill=\"none\"\n      class=\"car\"\n    ></path>\n  </svg>\n</div>\n\n<style>\n/* From Uiverse.io by Z4drus  - Tags: loader */\n.container {\n  --uib-size: 100px;\n  --uib-color: rgb(51, 172, 241);\n  --uib-speed: 1.4s;\n  --uib-bg-opacity: 0.1;\n  height: var(--uib-size);\n  width: var(--uib-size);\n  transform-origin: center;\n  overflow: visible;\n}\n\n.car {\n  fill: none;\n  stroke: var(--uib-color);\n  stroke-dasharray: 15, 85;\n  stroke-dashoffset: 0;\n  stroke-linecap: round;\n  animation: travel var(--uib-speed) linear infinite;\n  will-change: stroke-dasharray, stroke-dashoffset;\n  transition: stroke 0.5s ease;\n}\n\n.track {\n  stroke: var(--uib-color);\n  opacity: var(--uib-bg-opacity);\n  transition: stroke 0.5s ease;\n}\n\n@keyframes travel {\n  0% {\n    stroke-dashoffset: 0;\n  }\n\n  100% {\n    stroke-dashoffset: -100;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

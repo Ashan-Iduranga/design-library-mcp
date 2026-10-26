@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jorginoserra-chatty-earwig-93-fbd533",
+  "title": "Loader by JorginoSerra (chatty-earwig-93)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JorginoSerra/chatty-earwig-93",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JorginoSerra on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JorginoSerra_chatty-earwig-93.html",
+  "code": "<div id=\"js-preloader\" class=\"js-preloader\">\n      <div class=\"preloader-inner\">\n          <span class=\"dot\"></span>\n          <div class=\"dots\">\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </div>\n  </div>\n<style>\n/* From Uiverse.io by JorginoSerra - Tags: loader */\n/* \n---------------------------------------------\nLoader Style\n--------------------------------------------- \n*/\n\n.js-preloader {\n  /* You must change postion:relative; for position:fixed;  */\n  position: relative;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  justify-content: center;\n  opacity: 1;\n  visibility: visible;\n  z-index: 9999;\n  -webkit-transition: opacity 0.25s ease;\n  transition: opacity 0.25s ease;\n}\n\n.js-preloader.loaded {\n  opacity: 0;\n  visibility: hidden;\n  pointer-events: none;\n}\n\n@keyframes dot8567 {\n  50% {\n    -webkit-transform: translateX(96px);\n    transform: translateX(96px);\n  }\n}\n\n@keyframes dots723423 {\n  50% {\n    -webkit-transform: translateX(-31px);\n    transform: translateX(-31px);\n  }\n}\n\n.preloader-inner {\n  position: relative;\n  width: 142px;\n  height: 40px;\n  background: transparent;\n}\n\n.preloader-inner .dot {\n  position: absolute;\n  width: 16px;\n  height: 16px;\n  top: 12px;\n  left: 15px;\n  background: #e75e8d;\n  border-radius: 50%;\n  -webkit-transform: translateX(0);\n  transform: translateX(0);\n  -webkit-animation: dot8567 2.8s infinite;\n  animation: dot8567 2.8s infinite;\n}\n\n.preloader-inner .dots {\n  -webkit-transform: translateX(0);\n  transform: translateX(0);\n  margin-top: 12px;\n  margin-left: 31px;\n  -webkit-animation: dots723423 2.8s infinite;\n  animation: dots723423 2.8s infinite;\n}\n\n.preloader-inner .dots span {\n  display: block;\n  float: left;\n  width: 16px;\n  height: 16px;\n  margin-left: 16px;\n  background: #e75e8d;\n  border-radius: 50%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-rude-vampirebat-100-958ffc",
+  "title": "Loader by Pradeepsaranbishnoi (rude-vampirebat-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/rude-vampirebat-100",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Pradeepsaranbishnoi_rude-vampirebat-100.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: loader */\n.loader {\n  --s: 5px;\n /* control the size */\n  width: calc(10*var(--s));\n  display: grid;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  -webkit-mask: radial-gradient(50% 50%,#0000 calc(99% - 2*var(--s)),#000 calc(101% - 2*var(--s)));\n  animation: r 4s linear infinite;\n}\n\n.loader:before {\n  content: \"\";\n  /* adjust the colors below */\n  background: conic-gradient(from 25deg,#f8a201 25%,#fa2402 0 50%,#fdb3b0 0 75%,#02dde1 0);\n  -webkit-mask: repeating-conic-gradient(#0000 0 25deg,#000 23% 25%),\n    radial-gradient(var(--s) at var(--s) 50%,#000 97%,#0000) \n      left/calc(100% - 2*var(--s)) 100% repeat-x,\n    radial-gradient(var(--s) at 50% var(--s),#000 97%,#0000) \n      top /100% calc(100% - 2*var(--s)) repeat-y;\n}\n\n@keyframes r {\n  to {\n    transform: rotate(1turn)\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

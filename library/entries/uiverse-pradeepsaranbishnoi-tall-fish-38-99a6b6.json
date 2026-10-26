@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-tall-fish-38-99a6b6",
+  "title": "Loader by Pradeepsaranbishnoi (tall-fish-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/tall-fish-38",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "hand"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Pradeepsaranbishnoi_tall-fish-38.html",
+  "code": "<div class=\"🤚\">\n\t<div class=\"👉\"></div>\n\t<div class=\"👉\"></div>\n\t<div class=\"👉\"></div>\n\t<div class=\"👉\"></div>\n\t<div class=\"🌴\"></div>\t\t\n\t<div class=\"👍\"></div>\n</div>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: animation, loader, hand */\n.🤚 {\n  --skin-color: #E4C560;\n  --tap-speed: 0.6s;\n  --tap-stagger: 0.1s;\n  position: relative;\n  width: 80px;\n  height: 60px;\n  margin-left: 80px;\n}\n\n.🤚:before {\n  content: '';\n  display: block;\n  width: 180%;\n  height: 75%;\n  position: absolute;\n  top: 70%;\n  right: 20%;\n  background-color: black;\n  border-radius: 40px 10px;\n  filter: blur(10px);\n  opacity: 0.3;\n}\n\n.🌴 {\n  display: block;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-color: var(--skin-color);\n  border-radius: 10px 40px;\n}\n\n.👍 {\n  position: absolute;\n  width: 120%;\n  height: 38px;\n  background-color: var(--skin-color);\n  bottom: -18%;\n  right: 1%;\n  transform-origin: calc(100% - 20px) 20px;\n  transform: rotate(-20deg);\n  border-radius: 30px 20px 20px 10px;\n  border-bottom: 2px solid rgba(0, 0, 0, 0.1);\n  border-left: 2px solid rgba(0, 0, 0, 0.1);\n}\n\n.👍:after {\n  width: 20%;\n  height: 60%;\n  content: '';\n  background-color: rgba(255, 255, 255, 0.3);\n  position: absolute;\n  bottom: -8%;\n  left: 5px;\n  border-radius: 60% 10% 10% 30%;\n  border-right: 2px solid rgba(0, 0, 0, 0.05);\n}\n\n.👉 {\n  position: absolute;\n  width: 80%;\n  height: 35px;\n  background-color: var(--skin-color);\n  bottom: 32%;\n  right: 64%;\n  transform-origin: 100% 20px;\n  animation-duration: calc(var(--tap-speed) * 2);\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  transform: rotate(10deg);\n}\n\n.👉:before {\n  content: '';\n  position: absolute;\n  width: 140%;\n  height: 30px;\n  background-color: var(--skin-color);\n  bottom: 8%;\n  right: 65%;\n  transform-origin: calc(100% - 20px) 20px;\n  transform: rotate(-60deg);\n  border-radius: 20px;\n}\n\n.👉:nth-child(1) {\n  animation-delay: 0;\n  filter: brightness(70%);\n  animation-name: tap-upper-1;\n}\n\n.👉:nth-child(2) {\n  animation-delay: var(--tap-stagger);\n  filter: brightness(80%);\n  animation-name: tap-upper-2;\n}\n\n.👉:nth-child(3) {\n  animation-delay: calc(var(--tap-stagger) * 2);\n  filter: brightness(90%);\n  animation-name: tap-upper-3;\n}\n\n.👉:nth-child(4) {\n  animation-delay: calc(var(--tap-stagger) * 3);\n  filter: brightness(100%);\n  animation-name: tap-upper-4;\n}\n\n@keyframes tap-upper-1 {\n  0%, 50%, 100% {\n    transform: rotate(10deg) scale(0.4);\n  }\n\n  40% {\n    transform: rotate(50deg) scale(0.4);\n  }\n}\n\n@keyframes tap-upper-2 {\n  0%, 50%, 100% {\n    transform: rotate(10deg) scale(0.6);\n  }\n\n  40% {\n    transform: rotate(50deg) scale(0.6);\n  }\n}\n\n@keyframes tap-upper-3 {\n  0%, 50%, 100% {\n    transform: rotate(10deg) scale(0.8);\n  }\n\n  40% {\n    transform: rotate(50deg) scale(0.8);\n  }\n}\n\n@keyframes tap-upper-4 {\n  0%, 50%, 100% {\n    transform: rotate(10deg) scale(1);\n  }\n\n  40% {\n    transform: rotate(50deg) scale(1);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

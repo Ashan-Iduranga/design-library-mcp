@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-thin-walrus-48-acd2de",
+  "title": "Loader by Shoh2008 (thin-walrus-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/thin-walrus-48",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_thin-walrus-48.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 215px;\n  height: 215px;\n  display: block;\n  margin: auto;\n  position: relative;\n  background: #FFF;\n  box-sizing: border-box;\n  border-radius: 10px;\n}\n\n.loader::after {\n  content: '';\n  width: calc(100% - 30px);\n  height: calc(100% - 30px);\n  top: 15px;\n  left: 15px;\n  position: absolute;\n  background-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5) 50%, transparent 100%),\n   radial-gradient(circle 50px , #DDD 100%, transparent 0),\n   linear-gradient(#DDD 16px, transparent 0),\n   linear-gradient(#DDD 24px, transparent 0);\n  background-repeat: no-repeat;\n  background-size: 75px 175px, 100% 100px, 80% 16px, 80% 16px;\n  background-position: -185px 0, center 10px, center 125px, center 155px;\n  box-sizing: border-box;\n  animation: animloader 1s linear infinite;\n}\n\n@keyframes animloader {\n  to {\n    background-position: 185px 0, center 10px, center 125px, center 155px;\n  }\n}\n  \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

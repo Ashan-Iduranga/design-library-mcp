@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-fanishah-selfish-goose-88-a51588",
+  "title": "Loader by fanishah (selfish-goose-88)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/fanishah/selfish-goose-88",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By fanishah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/fanishah_selfish-goose-88.html",
+  "code": "<div class=\"loading-bar\">\n    Loading\n</div>\n<style>\n/* From Uiverse.io by fanishah - Tags: loading, loader */\n.loading-bar {\n  position: absolute;\n  transform: translate(-50%,-50%);\n  width: 110px;\n  height: 110px;\n  background: transparent;\n  border: px solid #3c3c3c;\n  border-radius: 50%;\n  text-align: center;\n  line-height: 111px;\n  font-family: sans-serif;\n  font-size: 15px;\n  color: #fff000;\n  letter-spacing: 3px;\n  text-transform: uppercase;\n  text-shadow: 0 0 20px #fff000;\n  box-shadow: 0 0 20px rgba(0,0,0,.5);\n}\n\n.loading-bar:before {\n  content: '';\n  position: absolute;\n  top: -3px;\n  left: -3px;\n  width: 100%;\n  height: 100%;\n  border: 3px solid transparent;\n  border-top: 5px solid #fff000;\n  border-right: 5px solid #fff000;\n  border-radius: 50%;\n  animation: animateC 2s linear infinite;\n}\n\n@keyframes animateC {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes animate {\n  0% {\n    transform: rotate(45deg);\n  }\n\n  100% {\n    transform: rotate(405deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

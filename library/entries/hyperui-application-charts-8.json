@@ -1,0 +1,36 @@
+{
+  "id": "hyperui-application-charts-8",
+  "title": "Charts: Radar chart comparing two series",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/charts",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "charts",
+    "hyperui",
+    "chart",
+    "graph",
+    "analytics",
+    "dashboard",
+    "data-visualization"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/charts/8.html",
+  "code": "<div class=\"mx-auto max-w-sm p-6\">\n<div class=\"rounded-lg border border-gray-200 bg-white p-6\">\n<h2 class=\"text-sm font-medium text-gray-900\">Team performance</h2>\n<div class=\"mt-4 h-64\">\n<canvas aria-label=\"Team performance, radar chart\" id=\"team-performance-radar-chart\" role=\"img\"></canvas>\n</div>\n<table class=\"sr-only\">\n<caption>\n          Team performance by metric\n        </caption>\n<thead>\n<tr>\n<th scope=\"col\">Metric</th>\n<th scope=\"col\">Team A</th>\n<th scope=\"col\">Team B</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<th scope=\"row\">Speed</th>\n<td>80</td>\n<td>65</td>\n</tr>\n<tr>\n<th scope=\"row\">Quality</th>\n<td>90</td>\n<td>75</td>\n</tr>\n<tr>\n<th scope=\"row\">Collaboration</th>\n<td>70</td>\n<td>88</td>\n</tr>\n<tr>\n<th scope=\"row\">Innovation</th>\n<td>60</td>\n<td>92</td>\n</tr>\n<tr>\n<th scope=\"row\">Reliability</th>\n<td>85</td>\n<td>70</td>\n</tr>\n</tbody>\n</table>\n</div>\n<script src=\"https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js\"></script>\n<script>\n      const teamPerformanceRadarChartCanvas = document.getElementById(\n        'team-performance-radar-chart',\n      )\n\n      new Chart(teamPerformanceRadarChartCanvas, {\n        type: 'radar',\n        data: {\n          labels: ['Speed', 'Quality', 'Collaboration', 'Innovation', 'Reliability'],\n          datasets: [\n            {\n              label: 'Team A',\n              data: [80, 90, 70, 60, 85],\n              borderColor: '#4f46e5',\n              backgroundColor: 'rgba(79, 70, 229, 0.2)',\n              pointBackgroundColor: '#4f46e5',\n              pointBorderColor: '#ffffff',\n              pointHoverRadius: 5,\n              borderWidth: 2,\n            },\n            {\n              label: 'Team B',\n              data: [65, 75, 88, 92, 70],\n              borderColor: '#10b981',\n              backgroundColor: 'rgba(16, 185, 129, 0.2)',\n              pointBackgroundColor: '#10b981',\n              pointBorderColor: '#ffffff',\n              pointHoverRadius: 5,\n              borderWidth: 2,\n            },\n          ],\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: false,\n          plugins: {\n            legend: {\n              position: 'bottom',\n              labels: { color: '#4b5563' },\n            },\n            tooltip: {\n              callbacks: {\n                label: (tooltipItem) =>\n                  `${tooltipItem.dataset.label}: ${tooltipItem.formattedValue}`,\n              },\n            },\n          },\n          scales: {\n            r: {\n              beginAtZero: true,\n              max: 100,\n              angleLines: { color: '#e5e7eb' },\n              grid: { color: '#e5e7eb' },\n              pointLabels: { color: '#4b5563', font: { size: 11 } },\n              ticks: { display: false },\n            },\n          },\n        },\n      })\n    </script>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

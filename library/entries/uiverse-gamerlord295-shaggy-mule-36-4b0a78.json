@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-gamerlord295-shaggy-mule-36-4b0a78",
+  "title": "Checkbox by gamerlord295 (shaggy-mule-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gamerlord295/shaggy-mule-36",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gamerlord295 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/gamerlord295_shaggy-mule-36.html",
+  "code": "<!-- From Uiverse.io by gamerlord295  - Tags: checkbox -->\n<label\n  for=\"hr\"\n  class=\"flex flex-row items-center gap-2.5 dark:text-white light:text-black\"\n>\n  <input id=\"hr\" type=\"checkbox\" class=\"peer hidden\" />\n  <div\n    for=\"hr\"\n    class=\"h-5 w-5 flex rounded-md border border-[#a2a1a833] light:bg-[#e8e8e8] dark:bg-[#212121] peer-checked:bg-[#7152f3] transition\"\n  >\n    <svg\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      class=\"w-5 h-5 light:stroke-[#e8e8e8] dark:stroke-[#212121]\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M4 12.6111L8.92308 17.5L20 6.5\"\n        stroke-width=\"2\"\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n      ></path>\n    </svg>\n  </div>\n  Front-end\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

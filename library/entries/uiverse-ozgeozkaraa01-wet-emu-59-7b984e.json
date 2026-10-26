@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-ozgeozkaraa01-wet-emu-59-7b984e",
+  "title": "Radio by ozgeozkaraa01 (wet-emu-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ozgeozkaraa01/wet-emu-59",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "button",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ozgeozkaraa01 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/ozgeozkaraa01_wet-emu-59.html",
+  "code": "<div class=\"container\">\n  <div class=\"custom-radio\">\n    <input type=\"radio\" id=\"radio-1\" name=\"tabs\" checked=\"\">\n    <label class=\"radio-label\" for=\"radio-1\">\n      <div class=\"radio-circle\"></div>\n      <span class=\"radio-text\">Option 1</span>\n    </label>\n    <input type=\"radio\" id=\"radio-2\" name=\"tabs\">\n    <label class=\"radio-label\" for=\"radio-2\">\n      <div class=\"radio-circle\"></div>\n      <span class=\"radio-text\">Option 2</span>\n    </label>\n    <input type=\"radio\" id=\"radio-3\" name=\"tabs\">\n    <label class=\"radio-label\" for=\"radio-3\">\n      <div class=\"radio-circle\"></div>\n      <span class=\"radio-text\">Option 3</span>\n    </label>\n  </div>\n</div>\n\n\n<style>\n/* From Uiverse.io by ozgeozkaraa01 - Tags: button, radio, hover button */\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #f2f2f2;\n}\n\n.custom-radio {\n  display: flex;\n  flex-direction: column;\n  background-color: #fff;\n  border-radius: 10px;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n  overflow: hidden;\n}\n\n.custom-radio input[type=\"radio\"] {\n  display: none;\n}\n\n.radio-label {\n  display: flex;\n  align-items: center;\n  padding: 10px 20px;\n  cursor: pointer;\n  transition: background-color 0.3s ease-in-out;\n}\n\n.radio-circle {\n  width: 20px;\n  height: 20px;\n  border: 2px solid #ffcc00;\n  border-radius: 50%;\n  margin-right: 10px;\n  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;\n}\n\n.radio-text {\n  font-size: 1rem;\n  color: #333;\n  transition: color 0.3s ease-in-out;\n}\n\n.custom-radio input[type=\"radio\"]:checked + .radio-label {\n  background-color: #ffcc00;\n}\n\n.custom-radio input[type=\"radio\"]:checked + .radio-label .radio-circle {\n  border-color: #fff;\n  background-color: #ffcc00;\n}\n\n.custom-radio input[type=\"radio\"]:checked + .radio-label .radio-text {\n  color: #64748b;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

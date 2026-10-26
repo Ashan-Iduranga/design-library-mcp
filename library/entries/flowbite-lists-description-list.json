@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-lists-description-list",
+  "title": "Lists: Description list (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/typography/lists/#description-list",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "list",
+    "lists",
+    "typography",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Create a description list by using the `<dl>` tag and set the term and name with the following example.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/typography/lists.md",
+  "code": "<dl class=\"max-w-md text-heading divide-y divide-default\">\n    <div class=\"flex flex-col pb-3\">\n        <dt class=\"mb-1 text-body\">Email address</dt>\n        <dd class=\"text-lg font-medium\">yourname@flowbite.com</dd>\n    </div>\n    <div class=\"flex flex-col py-3\">\n        <dt class=\"mb-1 text-body\">Home address</dt>\n        <dd class=\"text-lg font-medium\">92 Miles Drive, Newark, NJ 07103, California, USA</dd>\n    </div>\n    <div class=\"flex flex-col pt-3\">\n        <dt class=\"mb-1 text-body\">Phone number</dt>\n        <dd class=\"text-lg font-medium\">+00 123 456 789 / +12 345 678</dd>\n    </div>\n</dl>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

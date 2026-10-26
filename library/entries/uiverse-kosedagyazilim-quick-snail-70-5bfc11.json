@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-kosedagyazilim-quick-snail-70-5bfc11",
+  "title": "Button by kosedagyazilim (quick-snail-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kosedagyazilim/quick-snail-70",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kosedagyazilim on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/kosedagyazilim_quick-snail-70.html",
+  "code": "<button class=\"button\">Button</button>\n<style>\n/* From Uiverse.io by kosedagyazilim - Tags: button */\n.button {\n  display: inline-block;\n  padding: 12px 28px;\n  margin: 10px;\n  font-size: 24px;\n  font-weight: bold;\n  text-transform: uppercase;\n  color: #fff;\n  background-image: linear-gradient(to bottom right, #00c6ff, #0072ff);\n  border: none;\n  border-radius: 40px;\n  box-shadow: 0px 4px 0px #0072ff;\n  transition: all 0.2s ease-in-out;\n}\n\n.button:hover {\n  transform: translateY(-2px);\n  box-shadow: 0px 6px 0px #0072ff;\n}\n\n.button:active {\n  transform: translateY(0px);\n  box-shadow: none;\n  background-image: linear-gradient(to bottom right, #0072ff, #00c6ff);\n}\n\n.button:before,\n.button:after {\n  content: \"\";\n  position: absolute;\n  width: 0;\n  height: 0;\n}\n\n.button:before {\n  top: -3px;\n  left: -3px;\n  border-radius: 40px;\n  border-top: 3px solid #fff;\n  border-left: 3px solid #fff;\n}\n\n.button:after {\n  bottom: -3px;\n  right: -3px;\n  border-radius: 40px;\n  border-bottom: 3px solid #fff;\n  border-right: 3px solid #fff;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

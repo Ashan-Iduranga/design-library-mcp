@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-roroland-unlucky-goose-22-0598be",
+  "title": "Radio by roroland (unlucky-goose-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/roroland/unlucky-goose-22",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By roroland on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/roroland_unlucky-goose-22.html",
+  "code": "<div class=\"radio-input\">\n  <div>\n    <label for=\"circrad1\">\n    <input value=\"circvalue-1\" id=\"circrad1\" name=\"namcircle\" type=\"radio\" checked=\"\">\n    </label>\n    <label for=\"circrad2\">\n    <input value=\"circvalue-2\" id=\"circrad2\" name=\"namcircle\" type=\"radio\">\n    </label>\n    <label for=\"circrad3\">\n    <input value=\"circvalue-3\" id=\"circrad3\" name=\"namcircle\" type=\"radio\">\n    </label>\n  </div>\n  <div class=\"circ-container\">\n  <div class=\"circle\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"circle\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by roroland - Tags: radio */\n.radio-input {\n  --base: rgb(119, 119, 119);\n  --ring: rgb(187, 176, 19);\n  --center: rgb(192, 165, 14);\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: min-content;\n  place-items: center;\n  place-content: center;\n  aspect-ratio: 1;\n  position: relative;\n  width: 50%;\n  height: 50%;\n}\n\n.radio-input > div {\n  display: flex;\n  flex-flow: row nowrap;\n  gap: 2rem;\n  position: relative;\n  z-index: 0;\n  grid-column: 1/-1;\n  grid-row: 1/-1;\n}\n\n.radio-input input[type=\"radio\"] {\n  appearance: none;\n  outline: 2px solid var(--base);\n  box-shadow: 0 0 1.5em white;\n  padding: .5em;\n  border-radius: 50%;\n  width: .35rem;\n  height: .35rem;\n  cursor: pointer;\n  position: relative;\n  transition: all 1s ease-out;\n  z-index: 10;\n}\n\n.radio-input input[type=\"radio\"]:hover {\n  scale: 1.25;\n}\n\n.radio-input input[type=\"radio\"]:checked {\n  scale: 2;\n  outline: 2px solid var(--ring);\n  box-shadow: 0 0 1.5em white,  inset 0 0 .75em var(--center);\n  filter: blur(2px);\n}\n\n.radio-input div {\n  position: relative;\n}\n\n.radio-input .circ-container > * {\n  animation: spin 2.5s linear infinite;\n  background-color: rgb(255, 255, 255);\n  transition: all .3s ease-out;\n}\n\n.radio-input:has(input[type=\"radio\"]:checked) div .circle {\n  --size: .3rem;\n  --offset: 6rem;\n  --toCheck: '';\n  --circWidth: 2.185rem;\n  --items: 8;\n  width: var(--size);\n  pointer-events: none;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  background-color: var(--ring);\n  position: absolute;\n  left: var(--toCheck);\n  top: calc(var(--size) * -.5);\n  transform: translate(\n    calc(cos(var(--angle)) * var(--offset)),\n    calc(sin(var(--angle)) * var(--offset))\n  );\n}\n\n.circle:nth-of-type(1) {\n  --angle: calc(1 * (360deg / var(--items)));\n}\n\n.circle:nth-of-type(2) {\n  --angle: calc(2 * (360deg / var(--items)));\n}\n\n.circle:nth-of-type(3) {\n  --angle: calc(3 * (360deg / var(--items)));\n}\n\n.circle:nth-of-type(4) {\n  --angle: calc(4 * (360deg / var(--items)));\n}\n\n.circle:nth-of-type(5) {\n  --angle: calc(5 * (360deg / var(--items)));\n}\n\n.circle:nth-of-type(6) {\n  --angle: calc(6 * (360deg / var(--items)));\n}\n\n.circle:nth-of-type(7) {\n  --angle: calc(7 * (360deg / var(--items)));\n}\n\n.circle:nth-of-type(8) {\n  --angle: calc(8 * (360deg / var(--items)));\n}\n\n.radio-input div:has(label:nth-of-type(1) input[type=\"radio\"]:checked) ~ div .circle {\n  --toCheck: calc(var(--circWidth) * -1.525 + var(--size));\n}\n\n.radio-input  div:has(label:nth-of-type(2) input[type=\"radio\"]:checked) ~ div .circle {\n  --toCheck: calc(var(--size) * -.5);\n}\n\n.radio-input div:has(label:nth-of-type(3) input[type=\"radio\"]:checked) ~ div .circle {\n  --toCheck: calc(var(--circWidth) * 1.5 - var(--size) * 2);\n}\n\n@keyframes spin {\n  0% {\n    rotate: 360deg;\n    scale: .5;\n    background-color: white;\n  }\n\n  50% {\n    scale: 1;\n    background-color: white;\n  }\n\n  60% {\n    scale: .25;\n    background-color: var(--center);\n  }\n\n  100% {\n    rotate: -360deg;\n    scale: .5;\n    background-color: var(--ring);\n    ;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

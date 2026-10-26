@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mrhyddenn-silly-starfish-53-e51e14",
+  "title": "Toggle by mrhyddenn (silly-starfish-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/silly-starfish-53",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "skeuomorphism",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/mrhyddenn_silly-starfish-53.html",
+  "code": "<label class=\"switch\">\n    <div class=\"round\"><input name=\"onoff\" id=\"onoff\" type=\"checkbox\">\n        <div class=\"back\"><label for=\"onoff\" class=\"but\"><span class=\"on\">0</span><span class=\"off\">I</span></label></div>\n    </div>\n</label>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: skeuomorphism, switch */\ninput {\n  display: none\n}\n\n.on,.off {\n  position: absolute;\n  text-align: center;\n  text-shadow: inset 1px 1px 1px black;\n  width: 100%;\n}\n\n.on {\n  color: #fff;\n  top: 10px;\n  transition: all 0.1s;\n  font-family: sans-serif\n}\n\n.off {\n  color: #636161;\n  bottom: 5px;\n  transition: all 0.1s;\n  transform: scaleY(0.85);\n}\n\n.but {\n  background-color: #000;\n  border-radius: 400px 400px 400px 400px / 400px 400px 300px 300px;\n  border-bottom-width: 0px;\n  box-shadow: inset 8px 6px 5px -7px rgba(0,0,0,1)\n    ,inset -8px 6px 5px -7px rgba(0,0,0,1)\n    ,inset 0 -3px 2px -2px rgba(200,200,200,.5)\n    ,0 3px 3px -2px rgba(0,0,0,1)\n    ,inset 0 -230px 60px -200px rgba(255,255,255,.2)\n    ,inset 0 220px 40px -200px rgba(0,0,0,.3);\n  display: block;\n  font-size: 17px;\n  height: 60px;\n  position: relative;\n  transition: all 0.2s;\n  width: 40px;\n}\n\n.back {\n  background-color: #000;\n  background-image: -webkit-linear-gradient(0deg, transparent 30%, transparent 65%)\n    ,-webkit-linear-gradient(0deg, rgba(245, 245, 245, 0) 30%, rgba(150,150,150,.1) 50%, rgba(150,150,150,0) 70%);\n  border-radius: 115px;\n  box-sizing: border-box;\n  height: 85px;\n  padding: 4px 4px;\n  transition: all 0.2s;\n  width: 50px;\n}\n\ninput:checked + .back .on,input:checked + .back .off {\n  text-shadow: inset 1px 1px 1px black;\n}\n\ninput:checked + .back .on {\n  color: rgb(141, 141, 141);\n  top: 10px;\n  transform: scaleY(0.85);\n}\n\ninput:checked + .back .off {\n  color: #fff;\n  bottom: 5px;\n  transform: scaleY(1);\n}\n\ninput:checked + .back .but {\n  background: #232323;\n  background-image: -webkit-radial-gradient(55% 18%,circle closest-corner,rgba(0,0,0,.3) ,rgba(0,0,0,0));\n  border-radius: 410px 410px 410px 410px / 310px 310px 410px 410px;\n  box-shadow: inset 8px -4px 5px -7px rgba(0,0,0,1)\n    ,inset -8px -4px 5px -7px rgba(0,0,0,1)\n    , 0 -3px 8px -4px rgba(250,250,250,.4)\n    ,inset 0 3px 4px -2px rgba(10,10,10,1)\n    ,inset 0 280px 40px -200px rgba(0,0,0,.2)\n    ,inset 0 -200px 40px -200px rgba(180,180,180,.2);\n  margin-top: 20px;\n}\n\ninput:checked + .back {\n  background-image: -webkit-linear-gradient(90deg, black 30%, transparent 65%)\n    ,-webkit-linear-gradient(180deg, rgba(250,250,250,0) 0%, rgba(250,250,250,.4) 50%, rgba(150,150,150,0) 100%);\n  box-shadow: 28px 28px 28px -28px rgba(0,0,0,.1)\n    ,-28px 28px 28px -22px rgba(0,0,0,.1)\n    ,0 30px 30px 0px rgba(0,0,0,.2)\n    ,inset 0 1px 2px 0 rgba(0,0,0,.6);\n  padding: 2px 4px;\n}\n\n.l,.r {\n  margin: 0 auto;\n  text-align: center;\n}\n\n.round,#onoff,.back,.but,.on,.off {\n  user-select: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

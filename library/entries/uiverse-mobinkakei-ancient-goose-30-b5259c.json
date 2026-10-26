@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mobinkakei-ancient-goose-30-b5259c",
+  "title": "Button by mobinkakei (ancient-goose-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/ancient-goose-30",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mobinkakei_ancient-goose-30.html",
+  "code": "<button class=\"btn\">\n    <span class=\"btn-text-one\">Hover me</span>\n    <span class=\"btn-text-two\">Great!</span>\n</button>\n<style>\n/* From Uiverse.io by mobinkakei - Tags: button */\n.btn {\n  width: 140px;\n  height: 50px;\n  background: linear-gradient(to top, #00154c, #12376e, #23487f);\n  color: #fff;\n  border-radius: 50px;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  position: relative;\n  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);\n  overflow: hidden;\n}\n\n.btn span {\n  font-size: 12px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  transition: top 0.5s;\n}\n\n.btn-text-one {\n  position: absolute;\n  width: 100%;\n  top: 50%;\n  left: 0;\n  transform: translateY(-50%);\n}\n\n.btn-text-two {\n  position: absolute;\n  width: 100%;\n  top: 150%;\n  left: 0;\n  transform: translateY(-50%);\n}\n\n.btn:hover .btn-text-one {\n  top: -100%;\n}\n\n.btn:hover .btn-text-two {\n  top: 50%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-r7chardgh-great-eel-58-e7a1a8",
+  "title": "Button by r7chardgh (great-eel-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/r7chardgh/great-eel-58",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "reload",
+    "f5"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By r7chardgh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/r7chardgh_great-eel-58.html",
+  "code": "<button class=\"button\">\n</button>\n<style>\n/* From Uiverse.io by r7chardgh - Tags: button, reload, f5 */\n.button {\n  position: relative;\n  width: 3em;\n  height: 3em;\n  transform: rotateX(30deg);\n  border-radius: .2em;\n  border: 1px solid #3f3f3f;\n  box-shadow: 0 .3em 0 .1em #3f3f3f;\n  ;\n  transition: all 150ms;\n}\n\n.button::after {\n  position: absolute;\n  content: \"f5\";\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  padding: .2em;\n  text-align: end;\n  color: #3f3f3f;\n}\n\n.button:active {\n  transform: rotateX(30deg) translateY(.3em);\n  box-shadow: 0 0 0 0 #3f3f3f;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

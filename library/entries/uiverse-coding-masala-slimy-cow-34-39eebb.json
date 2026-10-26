@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-coding-masala-slimy-cow-34-39eebb",
+  "title": "Toggle by coding-masala (slimy-cow-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/coding-masala/slimy-cow-34",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By coding-masala on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/coding-masala_slimy-cow-34.html",
+  "code": "<div class=\"toggle-switcher\">\n  <input type=\"checkbox\" id=\"toggle-switch\" class=\"toggle-input\">\n  <label for=\"toggle-switch\" class=\"toggle-label\"></label>\n</div>\n\n<style>\n/* From Uiverse.io by coding-masala - Tags: switch */\n.toggle-switcher {\n  width: 50px;\n  height: 25px;\n  position: relative;\n  margin: 20px auto;\n  background: #000;\n  border-radius: 50px;\n}\n\n.toggle-input {\n  display: none;\n}\n\n.toggle-label {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border-radius: 50px;\n  cursor: pointer;\n  box-shadow: 0 0 0 0 #ff0000;\n}\n\n.toggle-label::before {\n  content: \"\";\n  width: 25px;\n  height: 25px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: #ffffff;\n  border-radius: 50%;\n  transition: all 0.3s ease;\n}\n\n.toggle-input:checked + .toggle-label {\n  animation: shadow-animation_5020 10s linear infinite;\n}\n\n.toggle-input:checked + .toggle-label::before {\n  transform: translateX(25px);\n}\n\n@keyframes shadow-animation_5020 {\n  0% {\n    box-shadow: 0 0 0 0 #ff0000;\n  }\n\n  50% {\n    box-shadow: 0 0 25px 25px #ffa500;\n  }\n\n  100% {\n    box-shadow: 0 0 0 0 #ff0000;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

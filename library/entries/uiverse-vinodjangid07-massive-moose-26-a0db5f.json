@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-vinodjangid07-massive-moose-26-a0db5f",
+  "title": "Button by vinodjangid07 (massive-moose-26)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/massive-moose-26",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "icon",
+    "hover",
+    "download",
+    "click-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_massive-moose-26.html",
+  "code": "<button class=\"Download-button\">\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    height=\"16\"\n    width=\"20\"\n    viewBox=\"0 0 640 512\"\n  >\n    <path\n      d=\"M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z\"\n      fill=\"white\"\n    ></path>\n  </svg>\n  <span>Download</span>\n</button>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: simple, icon, button, hover, download, click effect */\n.Download-button {\n  display: flex;\n  align-items: center;\n  font-family: inherit;\n  font-weight: 500;\n  font-size: 17px;\n  padding: 12px 20px;\n  color: white;\n  background: rgb(103, 92, 156);\n  border: none;\n  box-shadow: 0 0.7em 1.5em -0.5em rgba(59, 48, 78, 0.527);\n  letter-spacing: 0.05em;\n  border-radius: 8px;\n  cursor: pointer;\n  position: relative;\n}\n\n.Download-button svg {\n  margin-right: 8px;\n  width: 25px;\n}\n\n.Download-button:hover {\n  box-shadow: 0 0.5em 1.5em -0.5em rgba(88, 71, 116, 0.627);\n}\n\n.Download-button:active {\n  box-shadow: 0 0.3em 1em -0.5em rgba(88, 71, 116, 0.627);\n}\n\n.Download-button::before {\n  content: \"\";\n  width: 4px;\n  height: 40%;\n  background-color: white;\n  position: absolute;\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n  left: 0;\n  transition: all 0.2s;\n}\n\n.Download-button::after {\n  content: \"\";\n  width: 4px;\n  height: 40%;\n  background-color: white;\n  position: absolute;\n  border-top-left-radius: 5px;\n  border-bottom-left-radius: 5px;\n  right: 0;\n  transition: all 0.2s;\n}\n\n.Download-button:hover::before,\n.Download-button:hover::after {\n  height: 60%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

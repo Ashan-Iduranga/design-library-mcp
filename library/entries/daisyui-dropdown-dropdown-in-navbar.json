@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-dropdown-dropdown-in-navbar",
+  "title": "Dropdown: Dropdown in navbar (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/dropdown/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "dropdown",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Dropdown can open a menu or any other element when the button is clicked.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/dropdown/+page.md",
+  "code": "<div class=\"navbar bg-base-200\">\n  <div class=\"ps-4\">\n    <a class=\"text-lg font-bold\">daisyUI</a>\n  </div>\n  <div class=\"flex grow justify-end px-2\">\n    <div class=\"flex items-stretch\">\n      <a class=\"btn btn-ghost rounded-field\">Button</a>\n      <div class=\"dropdown dropdown-end\">\n        <div tabindex=\"0\" role=\"button\" class=\"btn btn-ghost rounded-field\">Dropdown</div>\n        <ul\n          tabindex=\"-1\"\n          class=\"menu dropdown-content bg-base-200 rounded-box z-1 mt-4 w-52 p-2 shadow-sm\">\n          <li><a>Item 1</a></li>\n          <li><a>Item 2</a></li>\n        </ul>\n      </div>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

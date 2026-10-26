@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-dvhoang2106-orange-fox-63-4e0625",
+  "title": "Loader by dvhoang2106 (orange-fox-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/dvhoang2106/orange-fox-63",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By dvhoang2106 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/dvhoang2106_orange-fox-63.html",
+  "code": "<div class=\"spinner\">\n<div></div>\n</div>\n<style>\n/* From Uiverse.io by dvhoang2106 - Tags: loader */\n.spinner {\n display: inline-block;\n transform: translateZ(1px);\n}\n\n.spinner > div {\n display: inline-block;\n width: 64px;\n height: 64px;\n margin: 8px;\n border-radius: 50%;\n background: #fff;\n animation: spinner8344 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;\n}\n\n@keyframes spinner8344 {\n 0%,\n  100% {\n  animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);\n }\n\n 0% {\n  transform: rotateY(0deg);\n }\n\n 50% {\n  transform: rotateY(1800deg);\n  animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);\n }\n\n 100% {\n  transform: rotateY(3600deg);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

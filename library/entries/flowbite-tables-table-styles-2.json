@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-tables-table-styles-2",
+  "title": "Table: Table styles 2 (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/tables/#table-styles",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "table",
+    "tables",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Get started with the following table styles and choose the one that best fits your application.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/tables.md",
+  "code": "<div class=\"relative overflow-x-auto bg-neutral-primary-soft shadow-xs rounded-base border border-default\">\n    <table class=\"w-full text-sm text-left rtl:text-right text-body\">\n        <thead class=\"text-sm text-body bg-neutral-secondary-medium border-b border-default-medium\">\n            <tr>\n                <th scope=\"col\" class=\"px-6 py-3 font-medium\">\n                    Product name\n                </th>\n                <th scope=\"col\" class=\"px-6 py-3 font-medium\">\n                    Color\n                </th>\n                <th scope=\"col\" class=\"px-6 py-3 font-medium\">\n                    Category\n                </th>\n                <th scope=\"col\" class=\"px-6 py-3 font-medium\">\n                    Price\n                </th>\n                <th scope=\"col\" class=\"px-6 py-3 font-medium\">\n                    Action\n                </th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr class=\"bg-neutral-primary-soft border-b  border-default\">\n                <th scope=\"row\" class=\"px-6 py-4 font-medium text-heading whitespace-nowrap\">\n                    Apple MacBook Pro 17\"\n                </th>\n                <td class=\"px-6 py-4\">\n                    Silver\n                </td>\n                <td class=\"px-6 py-4\">\n                    Laptop\n                </td>\n                <td class=\"px-6 py-4\">\n                    $2999\n                </td>\n                <td class=\"px-6 py-4\">\n                    <a href=\"#\" class=\"font-medium text-fg-brand hover:underline\">Edit</a>\n                </td>\n            </tr>\n            <tr class=\"bg-neutral-primary-soft border-b  border-default\">\n                <th scope=\"row\" class=\"px-6 py-4 font-medium text-heading whitespace-nowrap\">\n                    Microsoft Surface Pro\n                </th>\n                <td class=\"px-6 py-4\">\n                    White\n                </td>\n                <td class=\"px-6 py-4\">\n                    Laptop PC\n                </td>\n                <td class=\"px-6 py-4\">\n                    $1999\n                </td>\n                <td class=\"px-6 py-4\">\n                    <a href=\"#\" class=\"font-medium text-fg-brand hover:underline\">Edit</a>\n                </td>\n            </tr>\n            <tr class=\"bg-neutral-primary-soft\">\n                <th scope=\"row\" class=\"px-6 py-4 font-medium text-heading whitespace-nowrap\">\n                    Magic Mouse 2\n                </th>\n                <td class=\"px-6 py-4\">\n                    Black\n                </td>\n                <td class=\"px-6 py-4\">\n                    Accessories\n                </td>\n                <td class=\"px-6 py-4\">\n                    $99\n                </td>\n                <td class=\"px-6 py-4\">\n                    <a href=\"#\" class=\"font-medium text-fg-brand hover:underline\">Edit</a>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

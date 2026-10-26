@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vinodjangid07-average-jellyfish-29-e1524b",
+  "title": "Toggle by vinodjangid07 (average-jellyfish-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/average-jellyfish-29",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "volume",
+    "click-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/vinodjangid07_average-jellyfish-29.html",
+  "code": "<input type=\"checkbox\" id=\"checkboxInput\">\n    <label for=\"checkboxInput\" class=\"toggleSwitch\">\n\n<div class=\"speaker\"><svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.0\" viewBox=\"0 0 75 75\">\n<path d=\"M39.389,13.769 L22.235,28.606 L6,28.606 L6,47.699 L21.989,47.699 L39.389,62.75 L39.389,13.769z\" style=\"stroke:#fff;stroke-width:5;stroke-linejoin:round;fill:#fff;\"></path>\n<path d=\"M48,27.6a19.5,19.5 0 0 1 0,21.4M55.1,20.5a30,30 0 0 1 0,35.6M61.6,14a38.8,38.8 0 0 1 0,48.6\" style=\"fill:none;stroke:#fff;stroke-width:5;stroke-linecap:round\"></path>\n</svg></div>\n\n<div class=\"mute-speaker\"><svg version=\"1.0\" viewBox=\"0 0 75 75\" stroke=\"#fff\" stroke-width=\"5\">\n<path d=\"m39,14-17,15H6V48H22l17,15z\" fill=\"#fff\" stroke-linejoin=\"round\"></path>\n<path d=\"m49,26 20,24m0-24-20,24\" fill=\"#fff\" stroke-linecap=\"round\"></path>\n</svg></div>\n\n    </label>\n\n\n\n\n\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: switch, toggle, volume, click effect */\n/* The switch - the box around the speaker*/\n.toggleSwitch {\n  width: 50px;\n  height: 50px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgb(39, 39, 39);\n  border-radius: 50%;\n  cursor: pointer;\n  transition-duration: .3s;\n  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);\n  overflow: hidden;\n}\n\n/* Hide default HTML checkbox */\n#checkboxInput {\n  display: none;\n}\n\n.bell {\n  width: 18px;\n}\n\n.bell path {\n  fill: white;\n}\n\n.speaker {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 2;\n  transition-duration: .3s;\n}\n\n.speaker svg {\n  width: 18px;\n}\n\n.mute-speaker {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  opacity: 0;\n  z-index: 3;\n  transition-duration: .3s;\n}\n\n.mute-speaker svg {\n  width: 18px;\n}\n\n#checkboxInput:checked +.toggleSwitch .speaker {\n  opacity: 0;\n  transition-duration: .3s;\n}\n\n#checkboxInput:checked +.toggleSwitch .mute-speaker {\n  opacity: 1;\n  transition-duration: .3s;\n}\n\n#checkboxInput:active + .toggleSwitch {\n  transform: scale(0.7);\n}\n\n#checkboxInput:hover + .toggleSwitch {\n  background-color: rgb(61, 61, 61);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

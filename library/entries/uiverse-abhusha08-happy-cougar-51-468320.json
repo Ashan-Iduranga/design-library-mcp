@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-abhusha08-happy-cougar-51-468320",
+  "title": "Card by abhusha08 (happy-cougar-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/abhusha08/happy-cougar-51",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "flashy",
+    "gradient",
+    "button",
+    "hover",
+    "hover-effect",
+    "buttons"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By abhusha08 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/abhusha08_happy-cougar-51.html",
+  "code": "<div class=\"card\">\n  <button class=\"red-btn\">OPS TEAM</button>\n\n  <button class=\"blue-btn\">START-UP</button>\n</div>\n\n<style>\n/* From Uiverse.io by abhusha08  - Tags: flashy, gradient, button, card, hover, hover effect, buttons */\n.card {\n  display: flex;\n  flex-direction: column;\n  background: lightgrey;\n}\n\n.red-btn {\n  width: 300px;\n  height: 150px;\n  margin: 15px;\n  background: rgb(255, 0, 0);\n  background: rgb(131, 58, 180);\n  background: linear-gradient(\n    90deg,\n    rgba(131, 58, 180, 1) 0%,\n    rgba(253, 29, 29, 1) 50%,\n    rgba(252, 176, 69, 1) 100%\n  );\n  color: white;\n  border: none;\n  border-radius: 0.625em;\n  font-size: 20px;\n  font-weight: bold;\n  cursor: pointer;\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n}\n.blue-btn {\n  width: 300px;\n  height: 150px;\n  margin: 15px;\n  background: rgb(0, 8, 144);\n  background: linear-gradient(\n    90deg,\n    rgba(0, 8, 144, 1) 0%,\n    rgba(16, 0, 255, 1) 22%,\n    rgba(86, 255, 247, 1) 100%\n  );\n  color: white;\n  border: none;\n  border-radius: 0.625em;\n  font-size: 20px;\n  font-weight: bold;\n  cursor: pointer;\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n}\n\nbutton:hover {\n  color: rgb(0, 0, 0);\n}\n\nbutton:after {\n  content: \"\";\n  background: white;\n  position: absolute;\n  z-index: -1;\n  left: -20%;\n  right: -20%;\n  top: 0;\n  bottom: 0;\n  transform: skewX(-45deg) scale(0, 1);\n  transition: all 0.5s;\n}\n\nbutton:hover:after {\n  transform: skewX(-45deg) scale(1, 1);\n  -webkit-transition: all 0.5s;\n  transition: all 0.5s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

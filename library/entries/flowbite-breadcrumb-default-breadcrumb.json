@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-breadcrumb-default-breadcrumb",
+  "title": "Breadcrumbs: Default breadcrumb (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/breadcrumb/#default-breadcrumb",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "breadcrumb",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the following breadcrumb example to show the hierarchical structure of pages.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/breadcrumb.md",
+  "code": "<nav class=\"flex\" aria-label=\"Breadcrumb\">\n  <ol class=\"inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse\">\n    <li class=\"inline-flex items-center\">\n      <a href=\"#\" class=\"inline-flex items-center text-sm font-medium text-body hover:text-fg-brand\">\n        <svg class=\"w-4 h-4 me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4 12 8-8 8 8M6 10.5V19a1 1 0 0 0 1 1h3v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h3a1 1 0 0 0 1-1v-8.5\"/></svg>\n        Home\n      </a>\n    </li>\n    <li>\n      <div class=\"flex items-center space-x-1.5\">\n        <svg class=\"w-3.5 h-3.5 rtl:rotate-180 text-body\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m9 5 7 7-7 7\"/></svg>\n        <a href=\"#\" class=\"inline-flex items-center text-sm font-medium text-body hover:text-fg-brand\">Projects</a>\n      </div>\n    </li>\n    <li aria-current=\"page\">\n      <div class=\"flex items-center space-x-1.5\">\n        <svg class=\"w-3.5 h-3.5 rtl:rotate-180 text-body\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m9 5 7 7-7 7\"/></svg>\n        <span class=\"inline-flex items-center text-sm font-medium text-body-subtle\">Flowbite</span>\n      </div>\n    </li>\n  </ol>\n</nav>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

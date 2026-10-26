@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vinodjangid07-stale-hound-2-8ed6ac",
+  "title": "Button by vinodjangid07 (stale-hound-2)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/stale-hound-2",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "neon",
+    "copy",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_stale-hound-2.html",
+  "code": "<button class=\"Btn\">\n  <svg viewBox=\"0 0 512 512\" class=\"svgIcon\" height=\"1em\"><path d=\"M288 448H64V224h64V160H64c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H288v64zm-64-96H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64z\"></path></svg>\n  <p class=\"text\">COPY</p>\n  <span class=\"effect\"></span>\n</button>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: button, neon, copy, hover effect */\n.Btn {\n  width: 120px;\n  height: 45px;\n  background-color: rgb(65, 64, 64);\n  border: none;\n  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.342);\n  border-radius: 5px;\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 7px;\n  position: relative;\n  overflow: hidden;\n  transition-duration: .5s;\n}\n\n.text {\n  color: rgb(184, 236, 104);\n  font-weight: 800;\n  letter-spacing: 1.1px;\n  z-index: 2;\n}\n\n.svgIcon {\n  z-index: 2;\n}\n\n.svgIcon path {\n  fill: rgb(184, 236, 104);\n}\n\n.Btn:hover {\n  color: rgb(230, 255, 193);\n}\n\n.effect {\n  position: absolute;\n  width: 10px;\n  height: 10px;\n  background-color: rgb(184, 236, 104);\n  border-radius: 50%;\n  z-index: 1;\n  opacity: 0;\n  transition-duration: .5s;\n}\n\n.Btn:hover .effect {\n  transform: scale(15);\n  transform-origin: center;\n  opacity: 1;\n  transition-duration: .5s;\n}\n\n.Btn:hover {\n  box-shadow: 0px 0px 5px rgb(184, 236, 104),\n  0px 0px 10px rgb(184, 236, 104),\n  0px 0px 30px rgb(184, 236, 104);\n  transition-duration: .7s;\n}\n\n.Btn:hover .text {\n  color: rgb(65, 64, 64);\n}\n\n.Btn:hover .svgIcon path {\n  fill: rgb(65, 64, 64);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

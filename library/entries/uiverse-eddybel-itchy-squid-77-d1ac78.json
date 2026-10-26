@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-eddybel-itchy-squid-77-d1ac78",
+  "title": "Input by EddyBel (itchy-squid-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/EddyBel/itchy-squid-77",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By EddyBel on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/EddyBel_itchy-squid-77.html",
+  "code": "<div class=\"input__container\">\n  <label class=\"input__label\">Username</label>\n  <input placeholder=\"Enter your username\" class=\"input\" name=\"text\" type=\"text\">\n  <p class=\"input__description\">What do you want to call yourself?</p>\n</div>\n<style>\n/* From Uiverse.io by EddyBel - Tags: input */\n.input__container {\n  max-width: 200px;\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  background: rgba(255, 255, 255, 0.3);\n  padding: 15px;\n  border-radius: 20px;\n  position: relative;\n}\n\n.input__container::before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  z-index: -1;\n  filter: blur(25px);\n  border-radius: 20px;\n  background-color: #e499ff;\n  background-image: radial-gradient(at 47% 69%, hsla(17,62%,65%,1) 0px, transparent 50%),\nradial-gradient(at 9% 32%, hsla(222,75%,60%,1) 0px, transparent 50%);\n}\n\n.input__label {\n  display: block;\n  margin-left: 0.4em;\n  color: #000;\n  text-transform: uppercase;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n\n.input__description {\n  font-size: 0.6em;\n  font-weight: bold;\n  text-align: center;\n  color: rgba(0, 0, 0, 0.5);\n}\n\n.input {\n  border: none;\n  outline: none;\n  width: 100%;\n  padding: 0.6em;\n  padding-left: 0.9em;\n  border-radius: 20px;\n  background: #fff;\n  transition: background 300ms, color 300ms;\n}\n\n.input:hover,.input:focus {\n  background: rgb(0, 0, 0);\n  color: #fff;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

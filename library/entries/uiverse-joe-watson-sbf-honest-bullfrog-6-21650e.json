@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-joe-watson-sbf-honest-bullfrog-6-21650e",
+  "title": "Card by joe-watson-sbf (honest-bullfrog-6)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/joe-watson-sbf/honest-bullfrog-6",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "glassmorphism",
+    "animation",
+    "hover",
+    "card-template",
+    "cardhover",
+    "card-animation",
+    "card-hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By joe-watson-sbf on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/joe-watson-sbf_honest-bullfrog-6.html",
+  "code": "<div class=\"container\">\n  <div class=\"box\">\n    <span class=\"title\">GLASS EFFECT</span>\n    <div>\n      <strong>JOE WATSON SBF</strong>\n      <p>0000 000 000 0000</p>\n      <span>VALID</span> <span>01/28</span>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by joe-watson-sbf  - Tags: glassmorphism, animation, card, hover, card template, cardhover , card animation, card hover */\n.container {\n  color: white;\n  position: relative;\n  font-family: sans-serif;\n}\n\n.container::before,\n.container::after {\n  content: \"\";\n  background-color: #fab5704c;\n  position: absolute;\n}\n\n.container::before {\n  border-radius: 50%;\n  width: 6rem;\n  height: 6rem;\n  top: 30%;\n  right: 7%;\n}\n\n.container::after {\n  content: \"\";\n  position: absolute;\n  height: 3rem;\n  top: 8%;\n  right: 5%;\n  border: 1px solid;\n}\n\n.container .box {\n  width: 11.875em;\n  height: 15.875em;\n  padding: 1rem;\n  background-color: rgba(255, 255, 255, 0.074);\n  border: 1px solid rgba(255, 255, 255, 0.222);\n  -webkit-backdrop-filter: blur(20px);\n  backdrop-filter: blur(20px);\n  border-radius: 0.7rem;\n  transition: all ease 0.3s;\n}\n\n.container .box {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\n.container .box .title {\n  font-size: 2rem;\n  font-weight: 500;\n  letter-spacing: 0.1em;\n}\n\n.container .box div strong {\n  display: block;\n  margin-bottom: 0.5rem;\n}\n\n.container .box div p {\n  margin: 0;\n  font-size: 0.9em;\n  font-weight: 300;\n  letter-spacing: 0.1em;\n}\n\n.container .box div span {\n  font-size: 0.7rem;\n  font-weight: 300;\n}\n\n.container .box div span:nth-child(3) {\n  font-weight: 500;\n  margin-right: 0.2rem;\n}\n\n.container .box:hover {\n  box-shadow: 0px 0px 20px 1px #ffbb763f;\n  border: 1px solid rgba(255, 255, 255, 0.454);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

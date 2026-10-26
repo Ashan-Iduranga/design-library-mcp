@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-rahilansari261-odd-badger-94-4d641f",
+  "title": "Form by rahilansari261 (odd-badger-94)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/rahilansari261/odd-badger-94",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "register",
+    "loginform"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By rahilansari261 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/rahilansari261_odd-badger-94.html",
+  "code": "<div class=\"form\">\n      <div class=\"title\">Welcome</div>\n      <div class=\"subtitle\">Let's create your account!</div>\n\n      <div class=\"input-container ic1\">\n        <input placeholder=\"\" type=\"text\" class=\"input\" id=\"firstname\">\n        <div class=\"cut\"></div>\n        <label class=\"iLabel\" for=\"firstname\">First name</label>\n      </div>\n\n      <div class=\"input-container ic2\">\n        <input placeholder=\"\" type=\"text\" class=\"input\" id=\"lastname\">\n        <div class=\"cut\"></div>\n        <label class=\"iLabel\" for=\"lastname\">Last name</label>\n      </div>\n      <div class=\"input-container ic2\">\n        <input placeholder=\"\" type=\"text\" class=\"input\" id=\"email\">\n        <div class=\"cut cut-short\"></div>\n        <label class=\"iLabel\" for=\"email\">Email</label>\n      </div>\n      <button class=\"submit\" type=\"text\">submit</button>\n    </div>\n<style>\n/* From Uiverse.io by rahilansari261 - Tags: form, register, loginform */\n.form {\n  background-color: #15172b;\n  border-radius: 20px;\n  box-sizing: border-box;\n  height: 500px;\n  padding: 20px;\n  width: 320px;\n}\n\n.title {\n  color: #eee;\n  font-family: sans-serif;\n  font-size: 36px;\n  font-weight: 600;\n  margin-top: 30px;\n}\n\n.subtitle {\n  color: #eee;\n  font-family: sans-serif;\n  font-size: 16px;\n  font-weight: 600;\n  margin-top: 10px;\n}\n\n.input-container {\n  height: 50px;\n  position: relative;\n  width: 100%;\n}\n\n.ic1 {\n  margin-top: 40px;\n}\n\n.ic2 {\n  margin-top: 30px;\n}\n\n.input {\n  background-color: #303245;\n  border-radius: 12px;\n  border: 0;\n  box-sizing: border-box;\n  color: #eee;\n  font-size: 18px;\n  height: 100%;\n  outline: 0;\n  padding: 4px 20px 0;\n  width: 100%;\n}\n\n.cut {\n  background-color: #15172b;\n  border-radius: 10px;\n  height: 20px;\n  left: 20px;\n  position: absolute;\n  top: -20px;\n  transform: translateY(0);\n  transition: transform 200ms;\n  width: 76px;\n}\n\n.cut-short {\n  width: 50px;\n}\n\n.iLabel {\n  color: #65657b;\n  font-family: sans-serif;\n  left: 20px;\n  line-height: 14px;\n  pointer-events: none;\n  position: absolute;\n  transform-origin: 0 50%;\n  transition: transform 200ms, color 200ms;\n  top: 20px;\n}\n\n.input:focus ~ .cut {\n  transform: translateY(8px);\n}\n\n.input:focus ~ .iLabel {\n  transform: translateY(-30px) translateX(10px) scale(0.75);\n}\n\n.input:not(:focus) ~ .iLabel {\n  color: #808097;\n}\n\n.input:focus ~ .iLabel {\n  color: #dc2f55;\n}\n\n.submit {\n  background-color: #08d;\n  border-radius: 12px;\n  border: 0;\n  box-sizing: border-box;\n  color: #eee;\n  cursor: pointer;\n  font-size: 18px;\n  height: 50px;\n  margin-top: 38px;\n  text-align: center;\n  width: 100%;\n}\n\n.submit:active {\n  background-color: #06b;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

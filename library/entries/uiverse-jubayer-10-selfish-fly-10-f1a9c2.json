@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jubayer-10-selfish-fly-10-f1a9c2",
+  "title": "Input by jubayer-10 (selfish-fly-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/jubayer-10/selfish-fly-10",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By jubayer-10 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/jubayer-10_selfish-fly-10.html",
+  "code": "<!-- From Uiverse.io by jubayer-10  - Tags: input -->\n<div class=\"p-4 flex flex-col w-72 bg-white\">\n  <label\n    class=\"block mb-0.5 font-medium relative text-slate-700 after:absolute after:content-['*'] after:text-red-500 after:pl-0.5\"\n    for=\"email\"\n    >Email</label\n  >\n  <input\n    required=\"\"\n    type=\"email\"\n    value=\"example$gmail.com\"\n    class=\"peer w-full h-10 px-3 border outline-none font-semibold shadow-[0px_0px_15px_rgba(0,0,0,0.05)]\"\n    id=\"email\"\n  />\n  <div class=\"hidden peer-invalid:block\">\n    <div class=\"mt-2 flex items-center gap-1\">\n      <div class=\"w-4 fill-rose-500\">\n        <svg\n          viewBox=\"0 0 24 24\"\n          data-name=\"Layer 1\"\n          id=\"Layer_1\"\n          xmlns=\"http://www.w3.org/2000/svg\"\n        >\n          <path\n            d=\"M24,12A12,12,0,1,1,12,0,12.013,12.013,0,0,1,24,12ZM13,5H11V15h2Zm0,12H11v2h2Z\"\n          ></path>\n        </svg>\n      </div>\n      <p class=\"Capitalize font-medium text-rose-500\">Invalid email address</p>\n    </div>\n  </div>\n  <div class=\"block peer-invalid:hidden\">\n    <div class=\"mt-2 flex items-center gap-1\">\n      <div class=\"w-4 fill-green-500\">\n        <svg\n          viewBox=\"0 0 24 24\"\n          data-name=\"Layer 1\"\n          id=\"Layer_1\"\n          xmlns=\"http://www.w3.org/2000/svg\"\n        >\n          <path\n            d=\"m12,0C5.383,0,0,5.383,0,12s5.383,12,12,12,12-5.383,12-12S18.617,0,12,0Zm-.091,15.419c-.387.387-.896.58-1.407.58s-1.025-.195-1.416-.585l-2.782-2.696,1.393-1.437,2.793,2.707,5.809-5.701,1.404,1.425-5.793,5.707Z\"\n          ></path>\n        </svg>\n      </div>\n      <p class=\"Capitalize font-medium text-green-500\">Valid Email Address</p>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

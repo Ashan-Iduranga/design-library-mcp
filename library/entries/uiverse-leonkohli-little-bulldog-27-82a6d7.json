@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-leonkohli-little-bulldog-27-82a6d7",
+  "title": "Input by LeonKohli (little-bulldog-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/LeonKohli/little-bulldog-27",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple",
+    "animation",
+    "form",
+    "active",
+    "search"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By LeonKohli on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/LeonKohli_little-bulldog-27.html",
+  "code": "<div class=\"ui-input-container\">\n  <input\n    required=\"\"\n    placeholder=\"Type something...\"\n    class=\"ui-input\"\n    type=\"text\"\n  />\n  <div class=\"ui-input-underline\"></div>\n  <div class=\"ui-input-highlight\"></div>\n  <div class=\"ui-input-icon\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\">\n      <path\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n        stroke-width=\"2\"\n        stroke=\"currentColor\"\n        d=\"M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z\"\n      ></path>\n    </svg>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by LeonKohli  - Tags: simple, animation, form, active, input, search */\n.ui-input-container {\n  position: relative;\n  width: 300px;\n}\n\n.ui-input {\n  width: 100%;\n  padding: 10px 10px 10px 40px;\n  font-size: 1em;\n  border: none;\n  border-bottom: 2px solid #ccc;\n  outline: none;\n  background-color: transparent;\n  transition: border-color 0.3s;\n}\n\n.ui-input:focus {\n  border-color: #6c63ff;\n}\n\n.ui-input-underline {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  height: 2px;\n  width: 100%;\n  background-color: #6c63ff;\n  transform: scaleX(0);\n  transition: transform 0.3s;\n}\n\n.ui-input:focus + .ui-input-underline {\n  transform: scaleX(1);\n}\n\n.ui-input-highlight {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  height: 100%;\n  width: 0;\n  background-color: rgba(108, 99, 255, 0.1);\n  transition: width 0.3s;\n}\n\n.ui-input:focus ~ .ui-input-highlight {\n  width: 100%;\n}\n\n.ui-input-icon {\n  position: absolute;\n  left: 10px;\n  top: 50%;\n  transform: translateY(-50%);\n  color: #999;\n  transition: color 0.3s;\n}\n\n.ui-input:focus ~ .ui-input-icon {\n  color: #6c63ff;\n}\n\n.ui-input-icon svg {\n  width: 20px;\n  height: 20px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

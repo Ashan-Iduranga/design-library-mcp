@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-gentle-goat-33-f79486",
+  "title": "Form by Shoh2008 (gentle-goat-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/gentle-goat-33",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Shoh2008_gentle-goat-33.html",
+  "code": "<div class=\"form\">\n      <div class=\"subtitle\">Let's create your account!</div>\n      <div class=\"input-container ic1\">\n        <input id=\"firstname\" class=\"input\" type=\"text\" placeholder=\"\">\n        <div class=\"cut\"></div>\n        <label for=\"firstname\" class=\"placeholder\">First name</label>\n      </div>\n      <div class=\"input-container ic2\">\n        <input id=\"lastname\" class=\"input\" type=\"text\" placeholder=\"\">\n        <div class=\"cut\"></div>\n        <label for=\"lastname\" class=\"placeholder\">Last name</label>\n      </div>\n      <div class=\"input-container ic2\">\n        <input id=\"email\" class=\"input\" type=\"text\" placeholder=\"\">\n        <div class=\"cut cut-short\"></div>\n        <label for=\"email\" class=\"placeholder\">Email\n      </label></div>\n      <button type=\"text\" class=\"submit\">submit</button>\n    </div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: form */\n.form {\n  background-color: #15172b;\n  border-radius: 20px;\n  box-sizing: border-box;\n  height: 350px;\n  padding: 20px;\n  width: 320px;\n}\n\n.title {\n  color: #eee;\n  font-family: sans-serif;\n  font-size: 36px;\n  font-weight: 600;\n}\n\n.subtitle {\n  color: #eee;\n  font-family: sans-serif;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.input-container {\n  height: 40px;\n  position: relative;\n  width: 100%;\n}\n\n.ic1 {\n  margin-top: 20px;\n}\n\n.ic2 {\n  margin-top: 30px;\n}\n\n.input {\n  background-color: #303245;\n  border-radius: 12px;\n  border: 0;\n  box-sizing: border-box;\n  color: #eee;\n  font-size: 18px;\n  height: 40px;\n  outline: 0;\n  padding: 4px 10px 0;\n  width: 100%;\n}\n\n.cut {\n  background-color: #15172b;\n  border-radius: 10px;\n  height: 10px;\n  left: 20px;\n  position: absolute;\n  top: -20px;\n  transform: translateY(0);\n  transition: transform 200ms;\n  width: 76px;\n}\n\n.cut-short {\n  width: 30px;\n}\n\n.input:focus ~ .cut,\n.input:not(:placeholder-shown) ~ .cut {\n  transform: translateY(8px);\n}\n\n.placeholder {\n  color: #65657b;\n  font-family: sans-serif;\n  left: 20px;\n  line-height: 14px;\n  pointer-events: none;\n  position: absolute;\n  transform-origin: 0 50%;\n  transition: transform 200ms, color 200ms;\n  top: 20px;\n}\n\n.input:focus ~ .placeholder,\n.input:not(:placeholder-shown) ~ .placeholder {\n  transform: translateY(-30px) translateX(10px) scale(0.75);\n}\n\n.input:not(:placeholder-shown) ~ .placeholder {\n  color: #808097;\n}\n\n.input:focus ~ .placeholder {\n  color: #dc2f55;\n}\n\n.submit {\n  background-color: #08d;\n  border-radius: 12px;\n  border: 0;\n  box-sizing: border-box;\n  color: #eee;\n  cursor: pointer;\n  font-size: 18px;\n  height: 50px;\n  margin-top: 38px;\n  text-align: center;\n  width: 100%;\n}\n\n.submit:active {\n  background-color: #06b;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

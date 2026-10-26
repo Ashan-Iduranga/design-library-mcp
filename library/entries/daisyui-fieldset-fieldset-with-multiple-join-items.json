@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-fieldset-fieldset-with-multiple-join-items",
+  "title": "Fieldset: Fieldset with multiple join items (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/fieldset/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "fieldset",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Fieldset is a container for grouping related form elements. It includes fieldset-legend as a title and label as a description.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/fieldset/+page.md",
+  "code": "<fieldset class=\"fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4\">\n  <legend class=\"fieldset-legend\">Settings</legend>\n  <div class=\"join\">\n    <input type=\"text\" class=\"input join-item\" placeholder=\"Product name\" />\n    <button class=\"btn join-item\">save</button>\n  </div>\n</fieldset>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

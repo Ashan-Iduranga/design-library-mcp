@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-alexruix-big-octopus-60-8aff1d",
+  "title": "Loader by alexruix (big-octopus-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/big-octopus-60",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/alexruix_big-octopus-60.html",
+  "code": "<div class=\"loader\">\n    <span class=\"loader-text\">loading</span>\n      <span class=\"load\"></span>\n  </div>\n\n<style>\n/* From Uiverse.io by alexruix - Tags: loader */\n.loader {\n  width: 80px;\n  height: 50px;\n  position: relative;\n}\n\n.loader-text {\n  position: absolute;\n  top: 0;\n  padding: 0;\n  margin: 0;\n  color: #C8B6FF;\n  animation: text_713 3.5s ease both infinite;\n  font-size: .8rem;\n  letter-spacing: 1px;\n}\n\n.load {\n  background-color: #9A79FF;\n  border-radius: 50px;\n  display: block;\n  height: 16px;\n  width: 16px;\n  bottom: 0;\n  position: absolute;\n  transform: translateX(64px);\n  animation: loading_713 3.5s ease both infinite;\n}\n\n.load::before {\n  position: absolute;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background-color: #D1C2FF;\n  border-radius: inherit;\n  animation: loading2_713 3.5s ease both infinite;\n}\n\n@keyframes text_713 {\n  0% {\n    letter-spacing: 1px;\n    transform: translateX(0px);\n  }\n\n  40% {\n    letter-spacing: 2px;\n    transform: translateX(26px);\n  }\n\n  80% {\n    letter-spacing: 1px;\n    transform: translateX(32px);\n  }\n\n  90% {\n    letter-spacing: 2px;\n    transform: translateX(0px);\n  }\n\n  100% {\n    letter-spacing: 1px;\n    transform: translateX(0px);\n  }\n}\n\n@keyframes loading_713 {\n  0% {\n    width: 16px;\n    transform: translateX(0px);\n  }\n\n  40% {\n    width: 100%;\n    transform: translateX(0px);\n  }\n\n  80% {\n    width: 16px;\n    transform: translateX(64px);\n  }\n\n  90% {\n    width: 100%;\n    transform: translateX(0px);\n  }\n\n  100% {\n    width: 16px;\n    transform: translateX(0px);\n  }\n}\n\n@keyframes loading2_713 {\n  0% {\n    transform: translateX(0px);\n    width: 16px;\n  }\n\n  40% {\n    transform: translateX(0%);\n    width: 80%;\n  }\n\n  80% {\n    width: 100%;\n    transform: translateX(0px);\n  }\n\n  90% {\n    width: 80%;\n    transform: translateX(15px);\n  }\n\n  100% {\n    transform: translateX(0px);\n    width: 16px;\n  }\n}\n \n \n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

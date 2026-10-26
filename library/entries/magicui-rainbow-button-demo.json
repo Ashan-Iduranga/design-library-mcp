@@ -1,0 +1,36 @@
+{
+  "id": "magicui-rainbow-button-demo",
+  "title": "Rainbow Button Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/rainbow-button",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "rainbow",
+    "button",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing an animated button with rainbow effect.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/rainbow-button-demo.tsx",
+  "code": "import { RainbowButton } from \"@/registry/magicui/rainbow-button\"\n\nexport default function RainbowButtonDemo() {\n  return <RainbowButton>Get Unlimited Access</RainbowButton>\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

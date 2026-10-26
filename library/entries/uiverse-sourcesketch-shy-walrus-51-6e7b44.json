@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-sourcesketch-shy-walrus-51-6e7b44",
+  "title": "Loader by Sourcesketch (shy-walrus-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Sourcesketch/shy-walrus-51",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "glassmorphism",
+    "green",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Sourcesketch on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Sourcesketch_shy-walrus-51.html",
+  "code": "<div class=\"cell\">\n  <div class=\"card\">\n    <span class=\"flower-loader\">Loading…</span>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Sourcesketch  - Tags: glassmorphism, green, loader, loading animation */\n.flower-loader {\n  overflow: hidden;\n  position: relative;\n  text-indent: -9999px;\n  display: inline-block;\n  width: 16px;\n  height: 16px;\n  background: #e96;\n  border-radius: 100%;\n  -moz-box-shadow: white 0 0 15px 0, #485 -12px -12px 0 4px,\n    #485 12px -12px 0 4px, #485 12px 12px 0 4px, #485 -12px 12px 0 4px;\n  -webkit-box-shadow: white 0 0 15px 0, #485 -12px -12px 0 4px,\n    #485 12px -12px 0 4px, #485 12px 12px 0 4px, #485 -12px 12px 0 4px;\n  box-shadow: white 0 0 15px 0, #485 -12px -12px 0 4px, #485 12px -12px 0 4px,\n    #485 12px 12px 0 4px, #485 -12px 12px 0 4px;\n  -moz-animation: flower-loader 5s infinite ease-in-out;\n  -webkit-animation: flower-loader 5s infinite ease-in-out;\n  animation: flower-loader 5s infinite ease-in-out;\n  -moz-transform-origin: 50% 50%;\n  -ms-transform-origin: 50% 50%;\n  -webkit-transform-origin: 50% 50%;\n  transform-origin: 50% 50%;\n}\n\n@-moz-keyframes flower-loader {\n  0% {\n    -moz-transform: rotate(0deg);\n    transform: rotate(0deg);\n    -moz-box-shadow: white 0 0 15px 0, #485 -12px -12px 0 4px,\n      #485 12px -12px 0 4px, #485 12px 12px 0 4px, #485 -12px 12px 0 4px;\n    box-shadow: white 0 0 15px 0, #485 -12px -12px 0 4px, #485 12px -12px 0 4px,\n      #485 12px 12px 0 4px, #485 -12px 12px 0 4px;\n  }\n  50% {\n    -moz-transform: rotate(1080deg);\n    transform: rotate(1080deg);\n    -moz-box-shadow: white 0 0 15px 0, #485 12px 12px 0 4px,\n      #485 -12px 12px 0 4px, #485 -12px -12px 0 4px, #485 12px -12px 0 4px;\n    box-shadow: white 0 0 15px 0, #485 12px 12px 0 4px, #485 -12px 12px 0 4px,\n      #485 -12px -12px 0 4px, #485 12px -12px 0 4px;\n  }\n}\n@-webkit-keyframes flower-loader {\n  0% {\n    -webkit-transform: rotate(0deg);\n    transform: rotate(0deg);\n    -webkit-box-shadow: white 0 0 15px 0, #485 -12px -12px 0 4px,\n      #485 12px -12px 0 4px, #485 12px 12px 0 4px, #485 -12px 12px 0 4px;\n    box-shadow: white 0 0 15px 0, #485 -12px -12px 0 4px, #485 12px -12px 0 4px,\n      #485 12px 12px 0 4px, #485 -12px 12px 0 4px;\n  }\n  50% {\n    -webkit-transform: rotate(1080deg);\n    transform: rotate(1080deg);\n    -webkit-box-shadow: white 0 0 15px 0, #485 12px 12px 0 4px,\n      #485 -12px 12px 0 4px, #485 -12px -12px 0 4px, #485 12px -12px 0 4px;\n    box-shadow: white 0 0 15px 0, #485 12px 12px 0 4px, #485 -12px 12px 0 4px,\n      #485 -12px -12px 0 4px, #485 12px -12px 0 4px;\n  }\n}\n@keyframes flower-loader {\n  0% {\n    -moz-transform: rotate(0deg);\n    -ms-transform: rotate(0deg);\n    -webkit-transform: rotate(0deg);\n    transform: rotate(0deg);\n    -moz-box-shadow: white 0 0 15px 0, #485 -12px -12px 0 4px,\n      #485 12px -12px 0 4px, #485 12px 12px 0 4px, #485 -12px 12px 0 4px;\n    -webkit-box-shadow: white 0 0 15px 0, #485 -12px -12px 0 4px,\n      #485 12px -12px 0 4px, #485 12px 12px 0 4px, #485 -12px 12px 0 4px;\n    box-shadow: white 0 0 15px 0, #485 -12px -12px 0 4px, #485 12px -12px 0 4px,\n      #485 12px 12px 0 4px, #485 -12px 12px 0 4px;\n  }\n  50% {\n    -moz-transform: rotate(1080deg);\n    -ms-transform: rotate(1080deg);\n    -webkit-transform: rotate(1080deg);\n    transform: rotate(1080deg);\n    -moz-box-shadow: white 0 0 15px 0, #485 12px 12px 0 4px,\n      #485 -12px 12px 0 4px, #485 -12px -12px 0 4px, #485 12px -12px 0 4px;\n    -webkit-box-shadow: white 0 0 15px 0, #485 12px 12px 0 4px,\n      #485 -12px 12px 0 4px, #485 -12px -12px 0 4px, #485 12px -12px 0 4px;\n    box-shadow: white 0 0 15px 0, #485 12px 12px 0 4px, #485 -12px 12px 0 4px,\n      #485 -12px -12px 0 4px, #485 12px -12px 0 4px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

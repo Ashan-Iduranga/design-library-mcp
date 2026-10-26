@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-zanina-yassine-curly-shrimp-52-6fc836",
+  "title": "Button by zanina-yassine (curly-shrimp-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/zanina-yassine/curly-shrimp-52",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "minimalist",
+    "ios",
+    "navigation",
+    "tabs"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By zanina-yassine on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/zanina-yassine_curly-shrimp-52.html",
+  "code": "<div class=\"tab-container\">\n  <input type=\"radio\" name=\"tab\" id=\"tab1\" class=\"tab tab--1\" />\n  <label class=\"tab_label\" for=\"tab1\">Profile</label>\n\n  <input type=\"radio\" name=\"tab\" id=\"tab2\" class=\"tab tab--2\" />\n  <label class=\"tab_label\" for=\"tab2\">Settings</label>\n\n  <input type=\"radio\" name=\"tab\" id=\"tab3\" class=\"tab tab--3\" />\n  <label class=\"tab_label\" for=\"tab3\">Notifications</label>\n\n  <div class=\"indicator\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by zanina-yassine  - Tags: minimalist, ios, navigation, tabs */\n/* Remove this container when use*/\n.component-title {\n  width: 100%;\n  position: absolute;\n  z-index: 999;\n  top: 30px;\n  left: 0;\n  padding: 0;\n  margin: 0;\n  font-size: 1rem;\n  font-weight: 700;\n  color: #888;\n  text-align: center;\n}\n\n.tab-container {\n  position: relative;\n\n  display: flex;\n  flex-direction: row;\n  align-items: flex-start;\n\n  padding: 2px;\n\n  background-color: #dadadb;\n  border-radius: 9px;\n}\n\n.indicator {\n  content: \"\";\n  width: 130px;\n  height: 28px;\n  background: #ffffff;\n  position: absolute;\n  top: 2px;\n  left: 2px;\n  z-index: 9;\n  border: 0.5px solid rgba(0, 0, 0, 0.04);\n  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);\n  border-radius: 7px;\n  transition: all 0.2s ease-out;\n}\n\n.tab {\n  width: 130px;\n  height: 28px;\n  position: absolute;\n  z-index: 99;\n  outline: none;\n  opacity: 0;\n}\n\n.tab_label {\n  width: 130px;\n  height: 28px;\n\n  position: relative;\n  z-index: 999;\n\n  display: flex;\n  align-items: center;\n  justify-content: center;\n\n  border: 0;\n\n  font-size: 0.75rem;\n  opacity: 0.6;\n\n  cursor: pointer;\n}\n\n.tab--1:checked ~ .indicator {\n  left: 2px;\n}\n\n.tab--2:checked ~ .indicator {\n  left: calc(130px + 2px);\n}\n\n.tab--3:checked ~ .indicator {\n  left: calc(130px * 2 + 2px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

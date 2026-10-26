@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-alexmaracinaru-purple-zebra-61-fda8b4",
+  "title": "Card by alexmaracinaru (purple-zebra-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexmaracinaru/purple-zebra-61",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexmaracinaru on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/alexmaracinaru_purple-zebra-61.html",
+  "code": "<div class=\"card\">\n    <div class=\"card-image\"></div>\n    <div class=\"category\"> Illustration </div>\n    <div class=\"heading\"> A heading that must span over two lines\n        <div class=\"author\"> By <span class=\"name\">Abi</span> 4 days ago</div>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by alexmaracinaru - Tags: card */\n.card {\n  width: 190px;\n  background: white;\n  padding: .4em;\n  border-radius: 6px;\n}\n\n.card-image {\n  background-color: rgb(236, 236, 236);\n  width: 100%;\n  height: 130px;\n  border-radius: 6px 6px 0 0;\n}\n\n.card-image:hover {\n  transform: scale(0.98);\n}\n\n.category {\n  text-transform: uppercase;\n  font-size: 0.7em;\n  font-weight: 600;\n  color: rgb(63, 121, 230);\n  padding: 10px 7px 0;\n}\n\n.category:hover {\n  cursor: pointer;\n}\n\n.heading {\n  font-weight: 600;\n  color: rgb(88, 87, 87);\n  padding: 7px;\n}\n\n.heading:hover {\n  cursor: pointer;\n}\n\n.author {\n  color: gray;\n  font-weight: 400;\n  font-size: 11px;\n  padding-top: 20px;\n}\n\n.name {\n  font-weight: 600;\n}\n\n.name:hover {\n  cursor: pointer;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

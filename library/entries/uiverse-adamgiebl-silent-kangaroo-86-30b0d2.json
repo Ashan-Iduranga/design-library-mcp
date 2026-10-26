@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-adamgiebl-silent-kangaroo-86-30b0d2",
+  "title": "Button by adamgiebl (silent-kangaroo-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/adamgiebl/silent-kangaroo-86",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By adamgiebl on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/adamgiebl_silent-kangaroo-86.html",
+  "code": "<button> Button\n</button>\n<style>\n/* From Uiverse.io by adamgiebl - Tags: button */\nbutton {\n  font-size: 18px;\n  display: inline-block;\n  outline: 0;\n  border: 0;\n  cursor: pointer;\n  will-change: box-shadow,transform;\n  background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );\n  box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);\n  padding: 0 2em;\n  border-radius: 0.3em;\n  color: #fff;\n  height: 2.6em;\n  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);\n  transition: box-shadow 0.15s ease, transform 0.15s ease;\n}\n\nbutton:hover {\n  box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;\n  transform: translateY(-0.1em);\n}\n\nbutton:active {\n  box-shadow: inset 0px 0.1em 0.6em #3c4fe0;\n  transform: translateY(0em);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-krlozcj-average-snake-9-b83a47",
+  "title": "Form by krlozCJ (average-snake-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/krlozCJ/average-snake-9",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "neumorphism",
+    "login"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By krlozCJ on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/krlozCJ_average-snake-9.html",
+  "code": "<div class=\"container\">\n  <input id=\"register_toggle\" type=\"checkbox\">\n  <div class=\"slider\">\n    <form class=\"form\">\n      <span class=\"title\">Login</span>\n      <div class=\"form_control\">\n        <input required=\"\" class=\"input\" type=\"text\">\n        <label class=\"label\">Username</label>\n      </div>\n      <div class=\"form_control\">\n        <input required=\"\" class=\"input\" type=\"password\">\n        <label class=\"label\">Password</label>\n      </div>\n      <button>Login</button>\n\n      <span class=\"bottom_text\">Don't have an account? <label class=\"swtich\" for=\"register_toggle\">Sign Up</label> </span>\n    </form>\n    <form class=\"form\">\n      <span class=\"title\">Sign Up</span>\n      <div class=\"form_control\">\n        <input required=\"\" class=\"input\" type=\"text\">\n        <label class=\"label\">Username</label>\n      </div>\n      <div class=\"form_control\">\n        <input required=\"\" class=\"input\" type=\"email\">\n        <label class=\"label\">Email</label>\n      </div>\n      <div class=\"form_control\">\n        <input required=\"\" class=\"input\" type=\"password\">\n        <label class=\"label\">Password</label>\n      </div>\n      <button>Sign Up</button>\n\n      <span class=\"bottom_text\">Already have an account? <label class=\"swtich\" for=\"register_toggle\">Sign In</label> </span>\n    </form>\n\n    \n    </div>\n</div>\n<style>\n/* From Uiverse.io by krlozCJ - Tags: neumorphism, login, form */\n.container {\n  width: 300px;\n  position: relative;\n  border-radius: 5px;\n  overflow: hidden;\n  box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%), inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e;\n}\n\n.container .slider {\n  width: 200%;\n  position: relative;\n  transition: transform ease-out 0.3s;\n  display: flex;\n}\n\n#register_toggle {\n  display: none;\n}\n\n.container #register_toggle:checked + .slider {\n  transform: translateX(-50%);\n}\n\n.form {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 30px;\n  padding: 1.5em 3em;\n  width: 50%;\n}\n\n.title {\n  text-align: center;\n  font-weight: 700;\n  font-size: 2em;\n}\n\nform .form_control {\n  width: 100%;\n  position: relative;\n  overflow: hidden;\n}\n\nform .form_control .label {\n  position: absolute;\n  top: 50%;\n  left: 10px;\n  transition: transform ease 0.2s;\n  transform: translate(0%, -50%);\n  font-size: 0.75em;\n  user-select: none;\n  pointer-events: none;\n  color: #b0b0b0;\n}\n\nform .form_control .input {\n  width: 100%;\n  background-color: transparent;\n  border: none;\n  outline: none;\n  color: #fff;\n  padding: 0.5rem;\n  font-size: 0.75rem;\n  border-radius: 5px;\n  transition: box-shadow ease 0.2s;\n  box-shadow: 0px 0px 0px #0e0e0e, 0px 0px 0px rgb(95 94 94 / 25%), inset 1.5px 1.5px 3px #0e0e0e, inset -1.5px -1.5px 3px #5f5e5e;\n}\n\nform .form_control .input:focus,\nform .form_control .input:valid {\n  box-shadow: 0px 0px 0px #0e0e0e, 0px 0px 0px rgb(95 94 94 / 25%), inset 3px 3px 4px #0e0e0e, inset -3px -3px 4px #5f5e5e;\n}\n\nform .form_control .input:focus + .label,\nform .form_control .input:valid + .label {\n  transform: translate(-150%, -50%);\n}\n\nform button {\n  width: 100%;\n  background-color: transparent;\n  border: none;\n  outline: none;\n  color: #fff;\n  padding: 0.5rem;\n  font-size: 0.75rem;\n  border-radius: 5px;\n  transition: box-shadow ease 0.1s;\n  box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%), inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e;\n}\n\nform button:active {\n  box-shadow: 0px 0px 0px #0e0e0e, 0px 0px 0px rgb(95 94 94 / 25%), inset 3px 3px 4px #0e0e0e, inset -3px -3px 4px #5f5e5e;\n}\n\n.bottom_text {\n  font-size: 0.65em;\n}\n\n.bottom_text .swtich {\n  font-weight: 700;\n  cursor: pointer;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

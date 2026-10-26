@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-avatar-placeholder-icon",
+  "title": "Avatar: Placeholder icon (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/avatar/#placeholder-icon",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "avatar",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example as a placeholder icon for the user profile when there is no custom image available.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/avatar.md",
+  "code": "<div class=\"relative w-10 h-10 overflow-hidden bg-neutral-secondary-medium rounded-full\">\n    <svg class=\"absolute w-12 h-12 text-body-subtle -left-1\" fill=\"currentColor\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" d=\"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z\" clip-rule=\"evenodd\"></path></svg>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

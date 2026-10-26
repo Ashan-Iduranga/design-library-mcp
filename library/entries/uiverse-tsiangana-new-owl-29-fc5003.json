@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-tsiangana-new-owl-29-fc5003",
+  "title": "Loader by Tsiangana (new-owl-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Tsiangana/new-owl-29",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "animation",
+    "loading",
+    "text-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Tsiangana on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Tsiangana_new-owl-29.html",
+  "code": "<div class=\"loader\"> \n      <span class=\"ani\">L</span> \n      <span class=\"ani\">o</span>\n      <span class=\"ani\">a</span>\n      <span class=\"ani\">d</span> \n      <span class=\"ani\">i</span> \n      <span class=\"ani\">n</span> \n      <span class=\"ani\">g</span>\n</div>\n<style>\n/* From Uiverse.io by Tsiangana - Tags: simple, animation, loading, loader, text animation */\n.loader {\n  font-family: Roboto, sans-serif;\n  font-size: 25px;\n  font-weight: 600;\n}\n\n.ani:nth-child(1) {\n  animation: ani1 2.1s ease-in-out 14s infinite;\n}\n\n@keyframes ani1 {\n  50% {\n    font-size: 40px;\n  }\n}\n\n.ani:nth-child(2) {\n  animation: ani2 2.1s ease-in-out 12s infinite;\n}\n\n@keyframes ani2 {\n  50% {\n    font-size: 40px;\n  }\n}\n\n.ani:nth-child(3) {\n  animation: ani3 2.1s ease-in-out 10s infinite;\n}\n\n@keyframes ani3 {\n  50% {\n    font-size: 40px;\n  }\n}\n\n.ani:nth-child(4) {\n  animation: ani4 2.1s ease-in-out 8s infinite;\n}\n\n@keyframes ani4 {\n  50% {\n    font-size: 40px;\n  }\n}\n\n.ani:nth-child(5) {\n  animation: ani5 2.1s ease-in-out 6s infinite;\n}\n\n@keyframes ani5 {\n  50% {\n    font-size: 40px;\n  }\n}\n\n.ani:nth-child(6) {\n  animation: ani6 2.1s ease-in-out 4s infinite;\n}\n\n@keyframes ani6 {\n  50% {\n    font-size: 40px;\n  }\n}\n\n.ani:nth-child(7) {\n  animation: ani7 2.1s ease-in-out 2s infinite;\n}\n\n@keyframes ani7 {\n  50% {\n    font-size: 40px;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

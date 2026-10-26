@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-cybercom682-witty-mouse-32-92f954",
+  "title": "Input by Cybercom682 (witty-mouse-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cybercom682/witty-mouse-32",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "number",
+    "quantity"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cybercom682 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Cybercom682_witty-mouse-32.html",
+  "code": "<div class=\"number-control\">\n  <div class=\"number-left\"></div>\n  <input type=\"number\" name=\"number\" class=\"number-quantity\">\n  <div class=\"number-right\"></div>\n</div>\n<style>\n/* From Uiverse.io by Cybercom682 - Tags: input, number, quantity */\n.number-control {\n  display: flex;\n  align-items: center;\n}\n\n.number-left::before,\n.number-right::after {\n  content: attr(data-content);\n  background-color: #333333;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid black;\n  width: 20px;\n  color: white;\n  transition: background-color 0.3s;\n  cursor: pointer;\n}\n\n.number-left::before {\n  content: \"-\";\n}\n\n.number-right::after {\n  content: \"+\";\n}\n\n.number-quantity {\n  padding: 0.25rem;\n  border: 0;\n  width: 50px;\n  -moz-appearance: textfield;\n  border-top: 1px solid black;\n  border-bottom: 1px solid black;\n}\n\n.number-left:hover::before,\n.number-right:hover::after {\n  background-color: #666666;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

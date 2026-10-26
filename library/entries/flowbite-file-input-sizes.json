@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-file-input-sizes",
+  "title": "File Input: Sizes (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/file-input/#sizes",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "file-input",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Choose from the small, default, and large file input sizing options.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/file-input.md",
+  "code": "<label class=\"block mb-2.5 text-sm font-medium text-heading\" for=\"small_size\">Base file input</label>\n<input class=\"cursor-pointer bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full shadow-xs placeholder:text-body\" id=\"small_size\" type=\"file\">\n\n\n<label class=\"block mb-2.5 text-sm font-medium text-heading\" for=\"large_size\">Large file input</label>\n<input class=\"cursor-pointer bg-neutral-secondary-medium border border-default-medium text-heading text-lg rounded-base focus:ring-brand focus:border-brand block w-full shadow-xs placeholder:text-body\" id=\"large_size\" type=\"file\">",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-smookydev-shaggy-donkey-90-035389",
+  "title": "Loader by SmookyDev (shaggy-donkey-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SmookyDev/shaggy-donkey-90",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "flashy",
+    "smooth",
+    "gradients",
+    "wave",
+    "css-effect",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SmookyDev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/SmookyDev_shaggy-donkey-90.html",
+  "code": "<div class=\"center_div\">\n  <div class=\"wave\"></div>\n  <div class=\"wave\"></div>\n  <div class=\"wave\"></div>\n  <div class=\"wave\"></div>\n  <div class=\"wave\"></div>\n  <div class=\"wave\"></div>\n  <div class=\"wave\"></div>\n  <div class=\"wave\"></div>\n  <div class=\"wave\"></div>\n  <div class=\"wave\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by SmookyDev  - Tags: flashy, loader, smooth, gradients, wave, css effect, loading animation */\n.center_div {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 5px;\n}\n\n.wave {\n  width: 1.8rem;\n  height: 150px;\n  background-color: #ff6b6b;\n  margin: 0 4px;\n  border-radius: 0.4rem;\n  animation: wave 1.5s linear infinite;\n  transform-origin: center;\n}\n\n@keyframes wave {\n  0% {\n    transform: scale(0);\n    filter: hue-rotate(90deg) blur(100px);\n  }\n  25% {\n    transform: scale(0);\n    filter: hue-rotate(120deg) blur(50px);\n  }\n  50% {\n    transform: scale(1);\n    filter: hue-rotate(180deg) blur(25px);\n  }\n  25% {\n    transform: scale(0);\n    filter: hue-rotate(360deg) blur(2px);\n  }\n  100% {\n    transform: scale(0);\n    filter: hue-rotate(0deg) blur(0);\n  }\n}\n\n.wave:nth-child(2) {\n  animation-delay: 0.1s;\n}\n\n.wave:nth-child(3) {\n  animation-delay: 0.2s;\n}\n\n.wave:nth-child(4) {\n  animation-delay: 0.3s;\n}\n\n.wave:nth-child(5) {\n  animation-delay: 0.4s;\n}\n\n.wave:nth-child(6) {\n  animation-delay: 0.5s;\n}\n\n.wave:nth-child(7) {\n  animation-delay: 0.6s;\n}\n\n.wave:nth-child(8) {\n  animation-delay: 0.7s;\n}\n\n.wave:nth-child(9) {\n  animation-delay: 0.8s;\n}\n\n.wave:nth-child(10) {\n  animation-delay: 0.9s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-toast-toast-danger-alert",
+  "title": "Toast: Toast danger alert (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/toast/#toast-danger-alert",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "toast",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show an alert to your users inside a toast component with a description.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/toast.md",
+  "code": "<div id=\"toast-danger\" class=\"w-full max-w-xs p-4 mb-4 text-sm text-fg-danger-strong rounded-base bg-danger-soft border border-danger-subtle\" role=\"alert\">\n    <h3 class=\"font-semibold\">Whoops! Something went wrong</h3>\n    <div class=\"mt-2 mb-4\">\n        The file format is not supported. Please upload a valid file type <span class=\"font-medium\">(PDF, JPG, PNG)</span>.\n    </div>\n    <div class=\"flex items-center space-x-3\">\n        <button type=\"button\" class=\"inline-flex items-center text-white bg-danger box-border border border-transparent hover:bg-danger-strong focus:ring-4 focus:ring-danger-medium shadow-xs font-medium leading-5 rounded-base text-xs px-3 py-1.5 focus:outline-none\">\n            <svg class=\"w-3.5 h-3.5 me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 5v9m-5 0H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-2M8 9l4-5 4 5m1 8h.01\"/></svg>\n            Try again\n        </button>\n        <button type=\"button\" data-dismiss-target=\"#toast-danger\" class=\"inline-flex items-center text-fg-danger bg-transparent box-border border border-danger hover:bg-danger-strong hover:border-danger-strong hover:text-white focus:ring-4 focus:ring-danger-medium shadow-xs font-medium leading-5 rounded-base text-xs px-3 py-1.5 focus:outline-none\">\n            Close\n        </button>\n    </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

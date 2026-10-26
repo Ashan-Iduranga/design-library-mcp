@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-mayurd8862-itchy-elephant-78-d50394",
+  "title": "Button by mayurd8862 (itchy-elephant-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mayurd8862/itchy-elephant-78",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "cool-btn"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mayurd8862 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mayurd8862_itchy-elephant-78.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by mayurd8862 - Tags: button, cool btn */\n.button {\n  padding: 0.6em 1.3em;\n  font-weight: 900;\n  font-size: 18px;\n  background: linear-gradient(to right, rgb(231, 71, 132), \n  rgb(0, 170, 255));\n  /* Gradient background */\n  border-radius: 10px;\n  border: none;\n  color: aliceblue;\n  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);\n  /* Text shadow effect */\n  box-shadow: 0 0 10px rgba(55, 0, 255, 0.5);\n  cursor: pointer;\n  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;\n}\n\n.button:hover {\n  transform: scale(1.1);\n  box-shadow: 0 0 15px rgb(231, 71, 132);\n  color: white;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

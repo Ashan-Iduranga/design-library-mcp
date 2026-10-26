@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-efrain2112-purple-mole-50-8c299d",
+  "title": "Pattern by Efrain2112 (purple-mole-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Efrain2112/purple-mole-50",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "circle",
+    "css",
+    "multicolor"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Efrain2112 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/Efrain2112_purple-mole-50.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by Efrain2112  - Tags: circle, css, multicolor, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --size: 80px; /* control the size */\n  --color1: #f29c9c;\n  --color2: #ffd700;\n  --color3: #7ec8e3;\n  --cone: #8b4513;\n\n  background: radial-gradient(\n      circle at 50% 30%,\n      transparent 30%,\n      var(--color1) 31%\n    ),\n    radial-gradient(circle at 30% 70%, transparent 30%, var(--color2) 31%),\n    radial-gradient(circle at 70% 70%, transparent 30%, var(--color3) 31%),\n    linear-gradient(to bottom, var(--cone) 50%, transparent 50%);\n  background-size: var(--size) var(--size);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

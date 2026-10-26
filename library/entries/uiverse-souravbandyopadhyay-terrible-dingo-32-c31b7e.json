@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-souravbandyopadhyay-terrible-dingo-32-c31b7e",
+  "title": "Loader by SouravBandyopadhyay (terrible-dingo-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SouravBandyopadhyay/terrible-dingo-32",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "spinner",
+    "colorful"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SouravBandyopadhyay on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/SouravBandyopadhyay_terrible-dingo-32.html",
+  "code": "<div class=\"loader\">\n  <div class=\"circle outer\"></div>\n  <div class=\"circle inner\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by SouravBandyopadhyay - Tags: loader, spinner, colorful */\n.loader {\n  width: 8em;\n  height: 4em;\n  position: relative;\n  margin: 0 auto;\n}\n\n.circle {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border-radius: 50%;\n  border: 0.4em solid transparent;\n  animation-duration: 2s;\n  animation-iteration-count: infinite;\n  animation-timing-function: linear;\n}\n\n.outer {\n  border-top-color: #ff0080;\n  border-right-color: #ffbf00;\n  border-bottom-color: #00bfff;\n  border-left-color: #80ff00;\n  animation-name: rotate-outer;\n}\n\n.inner {\n  border-top-color: #80ff00;\n  border-right-color: #00bfff;\n  border-bottom-color: #ffbf00;\n  border-left-color: #ff0080;\n  animation-name: rotate-inner;\n}\n\n@keyframes rotate-outer {\n  0% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes rotate-inner {\n  0% {\n    transform: rotate(360deg);\n  }\n\n  100% {\n    transform: rotate(0);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-jolly-robin-0-3f094a",
+  "title": "Button by Pradeepsaranbishnoi (jolly-robin-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/jolly-robin-0",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "neumorphism",
+    "skeuomorphism",
+    "3d"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Pradeepsaranbishnoi_jolly-robin-0.html",
+  "code": "<div class=\"container\">\n  <div class=\"toggle\">\n    <input type=\"checkbox\">\n    <span class=\"button\"></span>\n    <span class=\"label\">☼</span>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: simple, neumorphism, skeuomorphism, 3d, button */\n.toggle {\n  display: inline-block;\n}\n\n.toggle {\n  position: relative;\n  height: 100px;\n  width: 100px;\n}\n\n.toggle:before {\n  box-shadow: 0;\n  border-radius: 84.5px;\n  background: #fff;\n  position: absolute;\n  margin-left: -36px;\n  margin-top: -36px;\n  opacity: 0.2;\n  height: 72px;\n  width: 72px;\n  left: 50%;\n  top: 50%;\n}\n\n.toogle input:checked~.label {\n  color: rgba(255,0,0,0.8);\n}\n\n.toggle .button {\n  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);\n  box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.5), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -1px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.8), inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);\n  border-radius: 68.8px;\n  position: absolute;\n  background: #eaeaea;\n  margin-left: -34.4px;\n  margin-top: -34.4px;\n  display: block;\n  height: 68.8px;\n  width: 68.8px;\n  left: 50%;\n  top: 50%;\n}\n\n.toggle .label {\n  transition: color 300ms ease-out;\n  line-height: 101px;\n  text-align: center;\n  position: absolute;\n  font-weight: 700;\n  font-size: 28px;\n  display: block;\n  opacity: 0.9;\n  height: 100%;\n  width: 100%;\n  color: rgba(0, 0, 0, 0.9);\n}\n\n.toggle input {\n  opacity: 0;\n  position: absolute;\n  cursor: pointer;\n  z-index: 1;\n  height: 100%;\n  width: 100%;\n  left: 0;\n  top: 0;\n}\n\n.toggle input:active ~ .button {\n  filter: blur(0.5px);\n  box-shadow: 0 12px 25px -4px rgba(0, 0, 0, 0.4), inset 0 -8px 30px 1px rgba(255, 255, 255, 0.9), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 8px 25px 0 rgba(0, 0, 0, 0.4), inset 0 0 10px 1px rgba(255, 255, 255, 0.6);\n}\n\n.toggle input:active ~ .label {\n  font-size: 26px;\n  color: rgba(0, 0, 0, 0.45);\n}\n\n.toggle input:checked ~ .button {\n  filter: blur(0.5px);\n  box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.4), inset 0 -8px 25px -1px rgba(255, 255, 255, 0.9), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 8px 20px 0 rgba(0, 0, 0, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.6);\n}\n\n.toggle input:checked ~ .label {\n  color: rgba(0, 0, 0, 0.8);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-juanes200122-funny-frog-63-d35aa8",
+  "title": "Loader by Juanes200122 (funny-frog-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Juanes200122/funny-frog-63",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Juanes200122 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Juanes200122_funny-frog-63.html",
+  "code": "<span class=\"loader\"></span>\n\n<style>\n/* From Uiverse.io by Juanes200122  - Website: https://cssloaders.github.io/ - Name: css-loader - Tags: simple, animation, red, loading, loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  border: 3px dotted #fff;\n  border-style: solid solid dotted dotted;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  box-sizing: border-box;\n  animation: rotation 2s linear infinite;\n}\n.loader::after {\n  content: \"\";\n  box-sizing: border-box;\n  position: absolute;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  margin: auto;\n  border: 3px dotted #ff3d00;\n  border-style: solid solid dotted;\n  width: 24px;\n  height: 24px;\n  border-radius: 50%;\n  animation: rotationBack 1s linear infinite;\n  transform-origin: center center;\n}\n\n@keyframes rotation {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n@keyframes rotationBack {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

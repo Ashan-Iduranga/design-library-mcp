@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-akshdeep74644-dry-mouse-37-fe4af3",
+  "title": "Input by Akshdeep74644 (dry-mouse-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Akshdeep74644/dry-mouse-37",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Akshdeep74644 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Akshdeep74644_dry-mouse-37.html",
+  "code": "<section>\n    <div class=\"input-group\">\n        <input class=\"input\" autocomplete=\"off\" name=\"text\" type=\"text\" required=\"\">\n        <label class=\"user-label\">Full Name</label>\n    </div>\n</section>\n<style>\n/* From Uiverse.io by Akshdeep74644 - Tags: input */\n.input-group {\n  position: relative;\n}\n\n.input {\n  border: 3px solid #000;\n  background: none;\n  padding: 1rem;\n  font-size: 1rem;\n  color: black;\n}\n\n.user-label {\n  position: absolute;\n  left: 15px;\n  color: #000;\n  pointer-events: none;\n  transform: translateY(1rem);\n  transition: 350ms;\n}\n\n.input:focus,\ninput:valid {\n  outline: none;\n  --angle: 0deg;\n  border-bottom: 3px solid;\n  border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;\n  animation: 3s rotate9234 linear infinite;\n}\n\n@keyframes rotate9234 {\n  to {\n    --angle: 360deg;\n  }\n}\n\n@property --angle {\n  syntax: '<angle>';\n  initial-value: 0deg;\n  inherits: false;\n}\n\n.input:focus~label,\ninput:valid~label {\n  transform: translateY(235%) scale(1);\n  background-color: #e8e8e8;\n  padding: 0 .2em;\n  color: #2196f3;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

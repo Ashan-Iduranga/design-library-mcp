@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-rodrypaladin-short-wasp-25-ebea1f",
+  "title": "Button by Rodrypaladin (short-wasp-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Rodrypaladin/short-wasp-25",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "animation",
+    "purple",
+    "pink",
+    "click",
+    "css",
+    "click-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Rodrypaladin on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Rodrypaladin_short-wasp-25.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n\n<style>\n/* From Uiverse.io by Rodrypaladin - Tags: simple, animation, purple, pink, button, click, css, click animation */\n.button {\n  margin: 0 10px;\n  padding: 10px 30px;\n  border: 5px solid #DF34DB;\n  border-radius: 22px;\n  font-size: 20px;\n  color: #DF34DB;\n  transition: transform 0.1s ease-in, all 0.08s ease-in;\n  box-shadow: 0 5px 0 #dd04d9;\n}\n\n.button:hover {\n  border-color: #ff00c8;\n  box-shadow: 0 5px 0 #ff00c8;\n}\n\n.button:active {\n  transform: translateY(5px);\n  box-shadow: 0 0 0 #DF34DB;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

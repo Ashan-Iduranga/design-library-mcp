@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-baimyrzaev-foolish-mouse-95-a371b3",
+  "title": "Button by Baimyrzaev (foolish-mouse-95)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Baimyrzaev/foolish-mouse-95",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Baimyrzaev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Baimyrzaev_foolish-mouse-95.html",
+  "code": "<button>\n    <span>Button</span>\n    <div class=\"top\"></div>\n    <div class=\"left\"></div>\n    <div class=\"bottom\"></div>\n    <div class=\"right\"></div>\n</button>\n<style>\n/* From Uiverse.io by Baimyrzaev - Tags: button */\nbutton {\n  padding: 20px 60px;\n  background-color: #000;\n  border: none;\n  font-size: 18px;\n  position: relative;\n  /* overflow: hidden; */\n  transition: 500ms;\n}\n\nbutton span {\n  color: gray;\n  position: relative;\n  transition: 500ms;\n  transition-delay: 500ms;\n  font-size: 16px;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  font-weight: 600;\n}\n\nbutton:before {\n  content: '';\n  position: absolute;\n  width: 0%;\n  height: 0%;\n  left: 50%;\n  right: 50%;\n  top: 50%;\n  bottom: 50%;\n  transition: 500ms;\n  transition-delay: 500ms;\n  background-color: red;\n  box-shadow: 0 0 10px red,\n   0 0 30px red, \n   0 0 50px red;\n}\n\nbutton div {\n  transition: 500ms;\n  position: absolute;\n  background-color: red;\n  box-shadow: 0 0 15px red, 0 0 30px red, 0 0 50px red;\n}\n\nbutton .top {\n  width: 15px;\n  height: 2px;\n  top: 0;\n  left: 0;\n}\n\nbutton .bottom {\n  width: 15px;\n  height: 2px;\n  bottom: 0;\n  right: 0;\n}\n\nbutton .left {\n  width: 2px;\n  height: 15px;\n  top: 0;\n  left: 0;\n}\n\nbutton .right {\n  width: 2px;\n  height: 15px;\n  bottom: 0;\n  right: 0;\n}\n\nbutton:hover {\n  color: #000;\n}\n\nbutton:hover span {\n  color: #000;\n}\n\nbutton:hover:before {\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n}\n\nbutton:hover .top, \nbutton:hover .bottom {\n  width: 100%;\n}\n\nbutton:hover .left,\nbutton:hover .right {\n  height: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

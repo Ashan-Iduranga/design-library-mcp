@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-li-deheng-tiny-chicken-50-0852eb",
+  "title": "Input by Li-Deheng (tiny-chicken-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Li-Deheng/tiny-chicken-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "button",
+    "copy",
+    "color",
+    "line",
+    "hover-effect",
+    "input-effect",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Li-Deheng on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Li-Deheng_tiny-chicken-50.html",
+  "code": "<div class=\"info-panels\">\n  <div class=\"input-color-group-one\">\n    <input class=\"input-color\" autocomplete=\"on\" name=\"text\" type=\"text\" required=\"\" placeholder=\"255, 255, 255, 0.5\">\n\t\t<label class=\"color-label\">RGBA</label>\n\t\t<button class=\"btn-copy\">\n\t  \t<svg class=\"svgs\" id=\"icon-btn-copy\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M15.98,13.96h-4.74c-.13,0-.24-.11-.24-.24V7.07c0-.13,.11-.24,.24-.24h4.74c.13,0,.24,.11,.24,.24v6.64c0,.13-.11,.24-.24,.24Zm-6.77-7.72V14.55c0,.66,.53,1.19,1.19,1.19h6.41c.66,0,1.19-.53,1.19-1.19V6.24c0-.66-.53-1.19-1.19-1.19h-6.41c-.66,0-1.19,.53-1.19,1.19Z\"></path><path d=\"M15.68,18.95H7.19c-.66,0-1.19-.53-1.19-1.19V7.37c0-.49,.4-.89,.89-.89s.89,.4,.89,.89v9.57c0,.13,.1,.23,.23,.23h7.67c.49,0,.89,.4,.89,.89s-.4,.89-.89,.89Z\"></path></svg>\t\t\n\t\t</button>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Li-Deheng - Tags: button, input, copy, color, line, hover effect, input effect , hover button */\n.info-panels {\n  --color-icon: #fff;\n  --color-input: #ccc;\n  --color-border: #9e9e9e;\n  --color-border-hover: #1a73e8;\n  --all-transition: all .2s ease-out;\n  --input-focus-opacity: .3;\n}\n\n.input-color-group-one {\n  position: relative;\n}\n\n.input-color {\n  max-width: 230px;\n  min-width: 150px;\n  border: 1.5px solid var(--color-border);\n  border-radius: 80px;\n  background: none;\n  padding: 16px;\n  font-size: 16px;\n  transition: var(--all-transition);\n}\n\n.input-color:focus {\n  color: var(--color-input);\n  outline: none;\n  border: 1.5px solid var(--color-border-hover);\n}\n\n.input-color:valid {\n  color: var(--color-input);\n  outline: none;\n}\n\n.input-color::-webkit-input-placeholder {\n  color: var(--color-input);\n}\n\n.input-color::-moz-input-placeholder {\n  color: var(--color-input);\n}\n\n.input-color::-ms-input-placeholder {\n  color: var(--color-input);\n}\n\n.input-color:focus::-webkit-input-placeholder, input-color:valid::-webkit-input-placeholder {\n  opacity: var(--input-focus-opacity);\n}\n\n.input-color:focus::-moz-input-placeholder, input-color:valid::-moz-input-placeholder {\n  opacity: var(--input-focus-opacity);\n}\n\n.input-color:focus::-ms-input-placeholder, input-color:valid::-ms-input-placeholder {\n  opacity: var(--input-focus-opacity);\n}\n\n.color-label {\n  position: absolute;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: var(--color-border);\n  font-weight: 600;\n  padding: 0 5px;\n  border: 1.5px solid var(--color-border);\n  border-radius: 20px;\n  top: -11.5px;\n  left: 25px;\n  background-color: transparent;\n  cursor: default;\n  backdrop-filter: blur(10px);\n  transition: var(--all-transition);\n}\n\n.input-color:focus ~ .color-label, input-color:valid ~ .color-label {\n  color: var(--color-border-hover);\n  border: 1.5px solid var(--color-border-hover);\n}\n\n.btn-copy {\n  position: absolute;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 24px;\n  height: 24px;\n  border: 1.5px solid var(--color-border);\n  border-radius: 50%;\n  top: -11.5px;\n  right: 25px;\n  background-color: transparent;\n  cursor: pointer;\n  backdrop-filter: blur(10px);\n  transition: var(--all-transition);\n}\n\n.btn-copy:hover {\n  background-color: var(--color-border);\n  transform: scale(1.2);\n}\n\n.btn-copy:active {\n  transform: scale(1.1);\n}\n\n.input-color:focus ~ .btn-copy {\n  border: 1.5px solid var(--color-border-hover);\n}\n\n.input-color:valid .input-color:focus ~ .btn-copy {\n  border: 1.5px solid var(--color-border);\n}\n\n.input-color:focus ~ .btn-copy:hover {\n  background-color: var(--color-border-hover);\n}\n\n#icon-btn-copy {\n  fill: var(--color-border);\n}\n\n.btn-copy:hover #icon-btn-copy {\n  fill: var(--color-icon);\n}\n\n.input-color:focus ~ .btn-copy #icon-btn-copy {\n  fill: var(--color-border-hover);\n}\n\n.input-color:focus ~ .btn-copy:hover #icon-btn-copy, .input-color:valid ~ .btn-copy:hover #icon-btn-copy {\n  fill: var(--color-icon);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

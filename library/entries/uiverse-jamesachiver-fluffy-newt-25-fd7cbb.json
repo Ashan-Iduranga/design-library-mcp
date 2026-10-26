@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jamesachiver-fluffy-newt-25-fd7cbb",
+  "title": "Button by JamesAchiver (fluffy-newt-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JamesAchiver/fluffy-newt-25",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JamesAchiver on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JamesAchiver_fluffy-newt-25.html",
+  "code": "<button class=\"button\">\n  <b>\n  Button\n  </b>\n</button>\n<style>\n/* From Uiverse.io by JamesAchiver - Tags: button */\n.button {\n  position: relative;\n  padding: 0.5em 1.2em;\n  font-size: 1.8em;\n  font-family: Calibri;\n  background-color: #5b04bf;\n  border: none;\n  color: #FFF;\n  cursor: pointer;\n  align-items: center;\n  box-shadow: inset 0px 38px 25px 0 #5b04bf, inset 0 0px 0px 0px #084748a8, inset 0 69px 0px 0px #d74589af;\n  border-radius: 0.6em;\n}\n\n.button:hover {\n  padding: 0.7em 1.4em;\n  transition: 0.4s ease-in-out;\n  box-shadow: inset 0px 38px 25px 5px #5b04bf, inset 10px 40px 10px 0px #084748a8, inset 0 69px 0px 0px #31b0d7de;\n}\n\n.button:active {\n  box-shadow: 0.2em 0.2em 0.3em rgba(0,0,0,0.3);\n  transform: translate(0.1em , 0.1em);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

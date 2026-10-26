@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-tsiangana-rude-wolverine-12-edcddd",
+  "title": "Button by Tsiangana (rude-wolverine-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Tsiangana/rude-wolverine-12",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "gradient",
+    "download",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Tsiangana on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Tsiangana_rude-wolverine-12.html",
+  "code": "<button class=\"button\">\n  <span class=\"one\">Download 0%</span>\n  <span class=\"two\">100%</span>\n</button>\n\n<style>\n/* From Uiverse.io by Tsiangana  - Tags: simple, gradient, button, download, hover effect */\n.button {\n  width: 140px;\n  height: 45px;\n  border-radius: 30em;\n  position: relative;\n  overflow: hidden;\n  color: #fff;\n  font-family: Roboto, sans-serif;\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 1;\n  cursor: pointer;\n  z-index: 1;\n  background: #ff135a;\n  border: 3px solid #fff;\n  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;\n  transition: 0.6s ease-in;\n}\n\n.button:hover {\n  background: #fff;\n}\n\n.button .two {\n  display: none;\n}\n\n.button::before {\n  content: \"\";\n  width: 0;\n  height: 50px;\n  border-radius: 30em;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);\n  transition: 0.5s ease;\n  display: block;\n  z-index: -1;\n}\n\n.button:hover::before {\n  width: 140px;\n  transition: 3s linear;\n}\n\n.button:hover .one {\n  display: none;\n}\n\n.button:hover .two {\n  display: inline;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

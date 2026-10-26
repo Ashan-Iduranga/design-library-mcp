@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-breadcrumb-header-breadcrumb",
+  "title": "Breadcrumbs: Header breadcrumb (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/breadcrumb/#header-breadcrumb",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "breadcrumb",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a list of items such as the branches from GitHub and a dropdown component.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/breadcrumb.md",
+  "code": "<!-- Breadcrumb -->\n<nav class=\"flex-warp md:flex justify-between\" aria-label=\"Breadcrumb\">\n  <ol class=\"inline-flex items-center mb-3 space-x-2.5 md:space-x-2 rtl:space-x-reverse sm:mb-0\">\n    <li>\n      <div class=\"flex items-center\">\n        <a href=\"#\" class=\"text-sm font-medium text-body hover:text-fg-brand\">flowbite.com</a>\n      </div>\n    </li>\n    <li aria-current=\"page\">\n      <div class=\"flex items-center space-x-2.5\">\n        <svg class=\"w-3.5 h-3.5 rtl:rotate-180 text-body\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m9 5 7 7-7 7\"/></svg>\n        <a href=\"#\" class=\"text-sm font-medium text-body hover:text-fg-brand\">develop</a>\n      </div>\n    </li>\n    <li aria-current=\"page\">\n      <div class=\"flex items-center space-x-2.5\">\n        <svg class=\"w-3.5 h-3.5 rtl:rotate-180 text-body\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m9 5 7 7-7 7\"/></svg>\n        <span class=\"text-sm font-medium text-body-subtle\">Issue #312</span><span class=\"bg-brand-softer border border-brand-subtle text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm me-2.5\">docs</span>\n      </div>\n    </li>\n  </ol>\n  <div>\n  <button id=\"dropdownDefault\" data-dropdown-toggle=\"dropdown\" type=\"button\" class=\"inline-flex items-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none\">\n    <svg class=\"w-3.5 h-3.5 me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8v8m0-8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 8a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8-8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 0a4 4 0 0 1-4 4h-1a3 3 0 0 0-3 3\"/></svg>\n    Fix #6597\n    <svg class=\"w-3.5 h-3.5 ms-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m19 9-7 7-7-7\"/></svg>\n  </button>\n    <div id=\"dropdown\" class=\"z-10 bg-neutral-primary-medium border border-default-medium rounded-base shadow-lg w-32 block hidden\">\n      <ul class=\"p-2 text-sm text-body font-medium\" aria-labelledby=\"dropdownDefault\">\n        <li>\n          <a href=\"#\" class=\"inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded-md\">New branch</a>\n        </li>\n        <li>\n          <a href=\"#\" class=\"inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded-md\">Rename</a>\n        </li>\n        <li>\n          <a href=\"#\" class=\"inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded-md\">Delete</a>\n        </li>\n      </ul>\n    </div>  \n  </div>\n</nav>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

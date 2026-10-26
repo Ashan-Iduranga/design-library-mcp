@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-tisepse-smart-newt-43-b77b13",
+  "title": "Button by TISEPSE (smart-newt-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TISEPSE/smart-newt-43",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "material-design",
+    "black"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TISEPSE on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/TISEPSE_smart-newt-43.html",
+  "code": "<button class=\"vlrt\"><span class=\"green\"></span>Hover effect</button>\n\n<style>\n/* From Uiverse.io by TISEPSE  - Tags: material design, black, button */\n.vlrt {\n  height: 75px;\n  width: 170px;\n  border-radius: 4px;\n  font-size: 18px;\n  border: 3px solid;\n  color: #f5f5f5;\n  border-color: #b6b6b6;\n  background-color: rgba(0, 0, 0, 0.15);\n  backdrop-filter: blur(50px);\n  transition: 0.2s;\n  position: relative;\n  overflow: hidden;\n  cursor: pointer;\n}\n\n.vlrt:hover {\n  border-color: #16ff00;\n  letter-spacing: 2px;\n  font-size: 19px;\n  color: #fefefe;\n  text-shadow: 0 0.3rem rgb(51, 51, 51);\n  box-shadow: #16ff00 0px -30px 40px -30px inset;\n}\n\n.vlrt .green {\n  content: \"\";\n  width: 25px;\n  height: 25px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-color: #16ff00;\n}\n\n.vlrt .green {\n  content: \"\";\n  width: 45px;\n  height: 45px;\n  position: absolute;\n  top: 0px;\n  left: 0px;\n  background-color: rgb(182, 182, 182);\n  transform: rotate(49deg) translateX(-32px) translateY(0px);\n}\n\n.vlrt:hover .green {\n  background-color: #16ff00;\n  transition: 0.5s;\n}\n\n.vlrt:active {\n  letter-spacing: 0px;\n  text-shadow: 0 0rem #333;\n  transition: 0.1s;\n  background-color: #1abc9c;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

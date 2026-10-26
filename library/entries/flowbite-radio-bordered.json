@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-radio-bordered",
+  "title": "Radio: Bordered (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/radio/#bordered",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a radio input elements inside a card with border.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/radio.md",
+  "code": "<div class=\"flex items-center ps-4 border border-default bg-neutral-primary-soft rounded-base\">\n    <input id=\"bordered-radio-1\" type=\"radio\" value=\"\" name=\"bordered-radio\" class=\"w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none\">\n    <label for=\"bordered-radio-1\" class=\"w-full py-4 select-none ms-2 text-sm font-medium text-heading\">Default radio</label>\n</div>\n<div class=\"flex items-center ps-4 border border-default bg-neutral-primary-soft rounded-base\">\n    <input checked id=\"bordered-radio-2\" type=\"radio\" value=\"\" name=\"bordered-radio\" class=\"w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none\">\n    <label for=\"bordered-radio-2\" class=\"w-full py-4 select-none ms-2 text-sm font-medium text-heading\">Checked state</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

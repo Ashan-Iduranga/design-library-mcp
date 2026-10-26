@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-breadcrumbs-breadcrumbs",
+  "title": "Breadcrumbs: Breadcrumbs (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/breadcrumbs/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "breadcrumbs",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Breadcrumbs helps users to navigate through the website.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/breadcrumbs/+page.md",
+  "code": "<div class=\"breadcrumbs text-sm\">\n  <ul>\n    <li><a>Home</a></li>\n    <li><a>Documents</a></li>\n    <li>Add Document</li>\n  </ul>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

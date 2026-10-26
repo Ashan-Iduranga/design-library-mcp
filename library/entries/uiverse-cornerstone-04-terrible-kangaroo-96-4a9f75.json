@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-cornerstone-04-terrible-kangaroo-96-4a9f75",
+  "title": "Checkbox by Cornerstone-04 (terrible-kangaroo-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cornerstone-04/terrible-kangaroo-96",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "circle"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cornerstone-04 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Cornerstone-04_terrible-kangaroo-96.html",
+  "code": "<div class=\"check_container\">\n  <input id=\"checkbox\" class=\"hidden\" type=\"checkbox\">\n  <label class=\"checkbox\" for=\"checkbox\"></label>\n</div>\n<style>\n/* From Uiverse.io by Cornerstone-04 - Tags: checkbox, circle */\n.check_container {\n  position: relative;\n}\n\n.checkbox {\n  position: relative;\n  top: 1px;\n  width: 30px;\n  height: 30px;\n  border: 2px solid #212fab;\n  border-radius: 50px;\n  cursor: pointer;\n  display: block;\n  transition: all 0.3s linear;\n}\n\n.checkbox::after {\n  content: \"\";\n  position: absolute;\n  top: 25%;\n  left: 20%;\n  width: 6px;\n  height: 12px;\n  opacity: 0;\n  transform: rotate(45deg) scale(0) translate(-50%, -50%);\n  border-right: 4px solid #ffffff;\n  border-bottom: 4px solid #ffffff;\n  transition: all 0.3s linear;\n}\n\n#checkbox:checked ~ .checkbox::after {\n  opacity: 1 !important;\n  transform: rotate(50deg) scale(1) translate(20%, -25%) !important;\n}\n\n#checkbox:checked ~ .checkbox {\n  background: #212fab;\n  border: none;\n}\n\n.hidden {\n  display: none !important;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

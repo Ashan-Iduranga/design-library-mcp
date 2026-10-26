@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ahmed150up-tiny-yak-9-6b60dc",
+  "title": "Form by ahmed150up (tiny-yak-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ahmed150up/tiny-yak-9",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ahmed150up on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/ahmed150up_tiny-yak-9.html",
+  "code": "<div class=\"card\">\n  <div class=\"card-header\">\n    <div class=\"text-header\">Register</div>\n  </div>\n  <div class=\"card-body\">\n    <form action=\"#\">\n      <div class=\"form-group\">\n        <label for=\"username\">Username:</label>\n        <input required=\"\" class=\"form-control\" name=\"username\" id=\"username\" type=\"text\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"email\">Email:</label>\n        <input required=\"\" class=\"form-control\" name=\"email\" id=\"email\" type=\"email\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"password\">Password:</label>\n        <input required=\"\" class=\"form-control\" name=\"password\" id=\"password\" type=\"password\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"confirm-password\">Confirm Password:</label>\n        <input required=\"\" class=\"form-control\" name=\"confirm-password\" id=\"confirm-password\" type=\"password\">\n      </div>\n     <input type=\"submit\" class=\"btn\" value=\"submit\">    </form>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by ahmed150up - Tags: form */\n.card {\n  width: 350px;\n  border: 1px solid #ccc;\n  border-radius: 4px;\n  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);\n  overflow: hidden;\n  margin: 10px;\n}\n\n.card-header {\n  background-color: #333;\n  padding: 16px;\n  text-align: center;\n}\n\n.card-header .text-header {\n  margin: 0;\n  font-size: 18px;\n  color: rgb(255, 255, 255);\n}\n\n.card-body {\n  padding: 16px;\n}\n\n.form-group {\n  margin-bottom: 10px;\n}\n\n.form-group label {\n  display: block;\n  font-size: 14px;\n  color: #333;\n  font-weight: bold;\n  margin-bottom: 1px;\n}\n\n.form-group input[type=\"text\"],\n.form-group input[type=\"email\"],\n.form-group input[type=\"password\"] {\n  width: 100%;\n  padding: 8px;\n  font-size: 14px;\n  border: 1px solid #ccc;\n  border-radius: 4px;\n}\n\n.btn {\n  padding: 12px 24px;\n  margin-left: 13px;\n  font-size: 16px;\n  border: none;\n  border-radius: 4px;\n  background-color: #333;\n  color: #fff;\n  text-transform: uppercase;\n  transition: background-color 0.2s ease-in-out;\n  cursor: pointer\n}\n\n.btn:hover {\n  background-color: #ccc;\n  color: #333;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

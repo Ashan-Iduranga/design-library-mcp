@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-vikramsinghnegi-dangerous-fireant-25-eb2aaa",
+  "title": "Loader by vikramsinghnegi (dangerous-fireant-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikramsinghnegi/dangerous-fireant-25",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikramsinghnegi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vikramsinghnegi_dangerous-fireant-25.html",
+  "code": "<div class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by vikramsinghnegi  - Tags: loader, LOADING, LOADER */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: fit-content;\n  font-size: 17px;\n  font-family: monospace;\n  line-height: 1.4;\n  font-weight: bold;\n  padding: 30px 2px 50px;\n  background: linear-gradient(#000 0 0) 0 0/100% 100% content-box padding-box\n    no-repeat;\n  position: relative;\n  overflow: hidden;\n  animation: l10-0 2s infinite cubic-bezier(1, 175, 0.5, 175);\n}\n.loader::before {\n  content: \"Loading\";\n  display: inline-block;\n  animation: l10-2 2s infinite;\n}\n.loader::after {\n  content: \"\";\n  position: absolute;\n  width: 34px;\n  height: 28px;\n  top: 110%;\n  left: calc(50% - 16px);\n  background: linear-gradient(\n        90deg,\n        #0000 12px,\n        #f92033 0 22px,\n        #0000 0 26px,\n        #fdc98d 0 32px,\n        #0000\n      )\n      bottom 26px left 50%,\n    linear-gradient(90deg, #0000 10px, #f92033 0 28px, #fdc98d 0 32px, #0000 0)\n      bottom 24px left 50%,\n    linear-gradient(\n        90deg,\n        #0000 10px,\n        #643700 0 16px,\n        #fdc98d 0 20px,\n        #000 0 22px,\n        #fdc98d 0 24px,\n        #000 0 26px,\n        #f92033 0 32px,\n        #0000 0\n      )\n      bottom 22px left 50%,\n    linear-gradient(\n        90deg,\n        #0000 8px,\n        #643700 0 10px,\n        #fdc98d 0 12px,\n        #643700 0 14px,\n        #fdc98d 0 20px,\n        #000 0 22px,\n        #fdc98d 0 28px,\n        #f92033 0 32px,\n        #0000 0\n      )\n      bottom 20px left 50%,\n    linear-gradient(\n        90deg,\n        #0000 8px,\n        #643700 0 10px,\n        #fdc98d 0 12px,\n        #643700 0 16px,\n        #fdc98d 0 22px,\n        #000 0 24px,\n        #fdc98d 0 30px,\n        #f92033 0 32px,\n        #0000 0\n      )\n      bottom 18px left 50%,\n    linear-gradient(\n        90deg,\n        #0000 8px,\n        #643700 0 12px,\n        #fdc98d 0 20px,\n        #000 0 28px,\n        #f92033 0 30px,\n        #0000 0\n      )\n      bottom 16px left 50%,\n    linear-gradient(90deg, #0000 12px, #fdc98d 0 26px, #f92033 0 30px, #0000 0)\n      bottom 14px left 50%,\n    linear-gradient(\n        90deg,\n        #fdc98d 6px,\n        #f92033 0 14px,\n        #222a87 0 16px,\n        #f92033 0 22px,\n        #222a87 0 24px,\n        #f92033 0 28px,\n        #0000 0 32px,\n        #643700 0\n      )\n      bottom 12px left 50%,\n    linear-gradient(\n        90deg,\n        #fdc98d 6px,\n        #f92033 0 16px,\n        #222a87 0 18px,\n        #f92033 0 24px,\n        #f92033 0 26px,\n        #0000 0 30px,\n        #643700 0\n      )\n      bottom 10px left 50%,\n    linear-gradient(\n        90deg,\n        #0000 10px,\n        #f92033 0 16px,\n        #222a87 0 24px,\n        #feee49 0 26px,\n        #222a87 0 30px,\n        #643700 0\n      )\n      bottom 8px left 50%,\n    linear-gradient(\n        90deg,\n        #0000 12px,\n        #222a87 0 18px,\n        #feee49 0 20px,\n        #222a87 0 30px,\n        #643700 0\n      )\n      bottom 6px left 50%,\n    linear-gradient(90deg, #0000 8px, #643700 0 12px, #222a87 0 30px, #643700 0)\n      bottom 4px left 50%,\n    linear-gradient(90deg, #0000 6px, #643700 0 14px, #222a87 0 26px, #0000 0)\n      bottom 2px left 50%,\n    linear-gradient(90deg, #0000 6px, #643700 0 10px, #0000 0) bottom 0px left\n      50%;\n  background-size: 34px 2px;\n  background-repeat: no-repeat;\n  animation: inherit;\n  animation-name: l10-1;\n}\n@keyframes l10-0 {\n  0%,\n  30% {\n    background-position: 0 0px;\n  }\n  50%,\n  100% {\n    background-position: 0 -0.1px;\n  }\n}\n@keyframes l10-1 {\n  50%,\n  100% {\n    top: 109.5%;\n  }\n}\n@keyframes l10-2 {\n  0%,\n  30% {\n    transform: translateY(0);\n  }\n  80%,\n  100% {\n    transform: translateY(-260%);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

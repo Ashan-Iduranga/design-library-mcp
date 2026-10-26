@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-gianluks90-smart-otter-24-56e2c7",
+  "title": "Loader by Gianluks90 (smart-otter-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Gianluks90/smart-otter-24",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "rainbow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Gianluks90 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Gianluks90_smart-otter-24.html",
+  "code": "<div class=\"loader\">\n  <div class=\"red bar\"></div>\n  <div class=\"orange bar\"></div>\n  <div class=\"yellow bar\"></div>\n  <div class=\"green bar\"></div>\n  <div class=\"blue bar\"></div>\n  <div class=\"violet bar\"></div>\n</div>\n<style>\n/* From Uiverse.io by Gianluks90 - Tags: loader, rainbow */\n.loader {\n  height: 50px;\n  display: flex;\n  align-items: flex-end;\n  gap: 3px;\n}\n\n.bar {\n  height: 5px;\n  width: 12px;\n  animation-duration: 0.45s;\n  animation-name: changeHeight;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n}\n\n.red {\n  background-color: #E50000;\n  box-shadow: 1px 1px 10px #E50000;\n  animation-delay: 0.10s;\n}\n\n.orange {\n  background-color: #FF8D00;\n  box-shadow: 1px 1px 10px #FF8D00;\n  animation-delay: 0.20s;\n}\n\n.yellow {\n  background-color: #FFEE00;\n  box-shadow: 1px 1px 10px #FFEE00;\n  animation-delay: 0.25s;\n}\n\n.green {\n  background-color: #008121;\n  box-shadow: 1px 1px 10px #008121;\n  animation-delay: 0.30s;\n}\n\n.blue {\n  background-color: #004CFF;\n  box-shadow: 1px 1px 10px #004CFF;\n  animation-delay: 0.35s;\n}\n\n.violet {\n  background-color: #760188;\n  box-shadow: 1px 1px 10px #760188;\n  animation-delay: 0.40s;\n}\n\n@keyframes changeHeight {\n  from {\n    height: 5px;\n  }\n\n  to {\n    height: 40px;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

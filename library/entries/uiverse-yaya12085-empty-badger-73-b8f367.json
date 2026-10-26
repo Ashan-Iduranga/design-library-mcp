@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-yaya12085-empty-badger-73-b8f367",
+  "title": "Radio by Yaya12085 (empty-badger-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/empty-badger-73",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "progress",
+    "card",
+    "shadow",
+    "quizz",
+    "select"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Yaya12085_empty-badger-73.html",
+  "code": "<div class=\"radio-input\">\n  <div class=\"info\">\n  <span class=\"question\">What does CSS stand for?</span>\n  <span class=\"steps\">3/10</span>\n   </div>\n  <input type=\"radio\" id=\"value-1\" name=\"value-radio\" value=\"value-1\">\n  <label for=\"value-1\">Computer Style Sheets</label>\n  <input type=\"radio\" id=\"value-2\" name=\"value-radio\" value=\"value-2\">\n  <label for=\"value-2\">Cascading Style Sheets</label>\n  <input type=\"radio\" id=\"value-3\" name=\"value-radio\" value=\"value-3\">\n  <label for=\"value-3\">Creative Style Sheets</label>\n   <span class=\"result success\">Congratulations!</span>\n   <span class=\"result error\">Bad answer</span>\n</div>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: progress, card, shadow, radio, quizz, select */\n.radio-input input {\n  display: none;\n}\n\n.radio-input {\n  display: flex;\n  flex-direction: column;\n  padding: 12px;\n  background: #fff;\n  color: #000;\n  border-radius: 10px;\n  box-shadow: 0px 87px 78px -39px rgba(0,0,0,0.4);\n  width: 320px;\n}\n\n.info {\n  margin-bottom: 10px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\n.question {\n  color: rgb(49, 49, 49);\n  font-size: 1rem;\n  line-height: 1rem;\n  font-weight: 800;\n}\n\n.steps {\n  background-color: rgb(0, 0, 0);\n  padding: 4px;\n  color: #fff;\n  border-radius: 4px;\n  font-size: 12px;\n  line-height: 12px;\n  font-weight: 600;\n}\n\n.radio-input  label {\n  display: flex;\n  background-color: #fff;\n  padding: 14px;\n  margin: 8px 0 0 0;\n  font-size: 13px;\n  font-weight: 600;\n  border-radius: 10px;\n  cursor: pointer;\n  border: 1px solid rgba(187, 187, 187, 0.164);\n  color: #000;\n  transition: .3s ease;\n}\n\n.radio-input  label:hover {\n  background-color: rgba(24, 24, 24, 0.13);\n  border: 1px solid #bbb;\n}\n\n.result {\n  margin-top: 10px;\n  font-weight: 600;\n  font-size: 12px;\n  display: none;\n  transition: display .4s ease;\n}\n\n.result.success {\n  color: green;\n}\n\n.result.error {\n  color: red;\n}\n\n.radio-input input:checked + label {\n  border-color: red;\n  color: red;\n}\n\n.radio-input input[value=\"value-2\"]:checked + label {\n  border-color: rgb(22, 245, 22);\n  color: rgb(16, 184, 16);\n}\n\n.radio-input:has(input[value=\"value-2\"]:checked) .result.success {\n  display: flex;\n}\n\n.radio-input:has(input:not([value=\"value-2\"]):checked ) .result.error {\n  display: flex;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

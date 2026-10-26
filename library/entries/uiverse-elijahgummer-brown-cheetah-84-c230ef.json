@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-elijahgummer-brown-cheetah-84-c230ef",
+  "title": "Pattern by elijahgummer (brown-cheetah-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/brown-cheetah-84",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "blue",
+    "modern"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/elijahgummer_brown-cheetah-84.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, blue, modern, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  background: #f0f0f0;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n      45deg,\n      #3498db 25%,\n      transparent 25%,\n      transparent 50%,\n      #3498db 50%,\n      #3498db 75%,\n      transparent 75%,\n      transparent\n    ),\n    linear-gradient(\n      -45deg,\n      #3498db 25%,\n      transparent 25%,\n      transparent 50%,\n      #3498db 50%,\n      #3498db 75%,\n      transparent 75%,\n      transparent\n    );\n  background-size: 20px 20px;\n  opacity: 0.8;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

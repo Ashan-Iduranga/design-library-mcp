@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jaydipprajapati1910-unlucky-wolverine-27-fa1193",
+  "title": "Loader by JaydipPrajapati1910 (unlucky-wolverine-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/unlucky-wolverine-27",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "green",
+    "circle-loader",
+    "loader-circle"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JaydipPrajapati1910_unlucky-wolverine-27.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: green, loader, circle loader, loader circle */\n.loader {\n  background: linear-gradient(to right, #2cc16f 50%, #fafafa 50%);\n  border-radius: 100%;\n  height: 70px;\n  width: 70px;\n  animation: loader-circle-time 8s steps(800, start) infinite;\n}\n\n.loader:after {\n  content: \"\";\n  border-radius: 100% 0 0 100% / 50% 0 0 50%;\n  height: 100%;\n  left: 0;\n  position: absolute;\n  top: 0;\n  width: 50%;\n  animation: loader-circle-mask 8s steps(250, start) infinite;\n  transform-origin: 100% 50%;\n}\n\n@keyframes loader-circle-time {\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes loader-circle-mask {\n  0% {\n    background: #fafafa;\n    transform: rotate(0deg);\n  }\n\n  50% {\n    background: #fafafa;\n    transform: rotate(-180deg);\n  }\n\n  50.01% {\n    background: #2cc16f;\n    transform: rotate(0deg);\n  }\n\n  100% {\n    background: #2cc16f;\n    transform: rotate(-180deg);\n  }\n}\n\n \n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

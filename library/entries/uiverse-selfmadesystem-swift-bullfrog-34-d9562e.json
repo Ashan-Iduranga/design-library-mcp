@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-selfmadesystem-swift-bullfrog-34-d9562e",
+  "title": "Card by SelfMadeSystem (swift-bullfrog-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/swift-bullfrog-34",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "animation",
+    "glow",
+    "rainbow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/SelfMadeSystem_swift-bullfrog-34.html",
+  "code": "<div class=\"card\">\n      <div class=\"bg uwu\"></div>\n      <div class=\"bg\"></div>\n      <div class=\"content\">\n            <div class=\"img\">\n                  <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z\"></path></svg>\n            </div>\n            <div class=\"h1\">\n                  Johnathon<br>F. Stag\n            </div>\n            <div class=\"p\">\n                  Professional human\n                  <p>\n                        I do human things such as exist, eat foot, and work.\n                  </p>\n            </div>\n      </div>\n</div>\n<style>\n/* From Uiverse.io by SelfMadeSystem - Tags: animation, card, glow, rainbow */\n.card {\n  position: relative;\n  width: 190px;\n  color: white;\n  height: 260px;\n  background: #444;\n  border-radius: 14px;\n}\n\n.bg {\n  position: absolute;\n  z-index: -1;\n  inset: -4px;\n  border-radius: 16px;\n  overflow: hidden;\n}\n\n.uwu {\n  filter: blur(8px);\n  transition: filter 0.3s;\n}\n\n.bg::before {\n  content: '';\n  position: absolute;\n  aspect-ratio: 1/1;\n  top: 50%;\n  left: 50%;\n  min-width: 150%;\n  min-height: 150%;\n  background-image: conic-gradient(\n    hsl(0, 100%, 50%),\n    hsl(30, 100%, 50%),\n    hsl(60, 100%, 50%),\n    hsl(90, 100%, 50%),\n    hsl(120, 100%, 50%),\n    hsl(150, 100%, 50%),\n    hsl(180, 100%, 50%),\n    hsl(210, 100%, 50%),\n    hsl(240, 100%, 60%),\n    hsl(270, 100%, 50%),\n    hsl(300, 100%, 50%),\n    hsl(330, 100%, 50%),\n    hsl(360, 100%, 50%)\n  );\n  animation: speeen 4s linear infinite;\n  transform-origin: 0% 0%;\n  transform: rotate(0deg) translate(-50%, -50%);\n}\n\n@keyframes speeen {\n  from {\n    transform: rotate(0deg) translate(-50%, -50%);\n  }\n\n  to {\n    transform: rotate(360deg) translate(-50%, -50%);\n  }\n}\n\n.content {\n  position: relative;\n  padding: 14px 16px;\n}\n\n.img {\n  height: 5em;\n  width: 5em;\n  margin: auto;\n  background-color: #fff3;\n  border-radius: 1em;\n}\n\n.img svg {\n  height: 100%;\n  fill: white;\n}\n\n.content div {\n  text-align: center;\n}\n\n.h1 {\n  margin-top: 1em;\n  margin-bottom: 0.5em;\n  font-size: 1em;\n  font-weight: 600;\n}\n\n.p {\n  font-size: 0.75em;\n}\n\n.p p {\n  margin-top: 0.5em;\n  padding: 0.5em;\n  background-color: #0003;\n  border-radius: 1em;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

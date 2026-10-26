@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-themrsami-fast-termite-60-f2ef22",
+  "title": "Form by themrsami (fast-termite-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/themrsami/fast-termite-60",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "sign-up",
+    "light&dark",
+    "creative",
+    "password",
+    "advanced"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By themrsami on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/themrsami_fast-termite-60.html",
+  "code": "<!-- From Uiverse.io by themrsami - Tags: form, sign-up, light&dark, creative, password, advanced, tailwind -->\n<div class=\"flex flex-col justify-center py-12 sm:px-6 lg:px-8\">\n\n  <div class=\"mt-8 sm:mx-auto sm:w-full sm:max-w-md\">\n    <div class=\"bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10\">\n      <form method=\"POST\" action=\"#\">\n        <div>\n          <label class=\"block text-sm font-medium text-gray-700\" for=\"username\">\n            Username\n          </label>\n          <div class=\"mt-1\">\n            <input class=\"appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm\" required=\"\" autocomplete=\"username\" type=\"text\" name=\"username\" id=\"username\">\n          </div>\n        </div>\n\n        <div class=\"mt-6\">\n          <label class=\"block text-sm font-medium text-gray-700\" for=\"email\">\n            Email address\n          </label>\n          <div class=\"mt-1\">\n            <input class=\"appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm\" required=\"\" autocomplete=\"email\" type=\"email\" name=\"email\" id=\"email\">\n          </div>\n        </div>\n\n        <div class=\"mt-6\">\n          <label class=\"block text-sm font-medium text-gray-700\" for=\"confirm-email\">\n            Confirm Email address\n          </label>\n          <div class=\"mt-1\">\n            <input class=\"appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm\" required=\"\" autocomplete=\"email\" type=\"email\" name=\"confirm-email\" id=\"confirm-email\">\n          </div>\n        </div>\n\n        <div class=\"mt-6\">\n          <label class=\"block text-sm font-medium text-gray-700\" for=\"password\">\n            Password\n          </label>\n          <div class=\"mt-1\">\n            <input class=\"appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm\" required=\"\" autocomplete=\"current-password\" type=\"password\" name=\"password\" id=\"password\">\n          </div>\n        </div>\n\n        <div class=\"mt-6\">\n          <label class=\"block text-sm font-medium text-gray-700\" for=\"confirm-password\">\n            Confirm Password\n          </label>\n          <div class=\"mt-1\">\n            <input class=\"appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm\" required=\"\" autocomplete=\"current-password\" type=\"password\" name=\"confirm-password\" id=\"confirm-password\">\n          </div>\n        </div>\n\n        <div class=\"mt-6\">\n          <label class=\"block text-sm font-medium text-gray-700\" for=\"dob\">\n            Date of Birth\n          </label>\n          <div class=\"mt-1\">\n            <input class=\"appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm\" required=\"\" type=\"date\" name=\"dob\" id=\"dob\">\n          </div>\n        </div>\n        \n        <div class=\"flex items-center justify-center mt-6\">\n  <span class=\"mr-3 text-gray-700 font-medium\">Gender:</span>\n  <label class=\"inline-flex items-center\">\n    <input type=\"radio\" class=\"form-radio h-5 w-5 text-pink-600\" name=\"gender\" value=\"Male\">\n    <span class=\"ml-2 text-gray-700\">Male</span>\n  </label>\n  <label class=\"inline-flex items-center ml-6\">\n    <input type=\"radio\" class=\"form-radio h-5 w-5 text-purple-600\" name=\"gender\" value=\"Female\">\n    <span class=\"ml-2 text-gray-700\">Female</span>\n  </label>\n</div>\n\n\n\n        <div class=\"mt-6 flex items-center justify-between\">\n          <div class=\"flex items-center\">\n            <input class=\"h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded\" type=\"checkbox\" name=\"terms-and-condition\" id=\"terms-and-condition\">\n            <label class=\"ml-2 block text-sm text-gray-900\" for=\"terms-and-condition\">\n              I agree to the terms and conditions\n            </label>\n          </div>\n        </div>\n\n        <div class=\"mt-6\">\n          <button class=\"group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500\" type=\"submit\">\n            Sign up\n          </button>\n        </div>\n      </form>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

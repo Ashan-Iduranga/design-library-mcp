@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-spicy-warthog-11-13f42a",
+  "title": "Loader by satyamchaudharydev (spicy-warthog-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/spicy-warthog-11",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/satyamchaudharydev_spicy-warthog-11.html",
+  "code": "<div class=\"spinner\"></div>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.spinner {\n display: flex;\n align-items: center;\n justify-content: center;\n position: relative;\n width: 100px;\n height: 100px;\n}\n\n.spinner::after {\n content: \"\";\n position: absolute;\n width: 50px;\n height: 50px;\n background-color: var(--blue);\n animation: flip 1s infinite;\n}\n\n@keyframes flip {\n 0% {\n  transform: rotate(0);\n }\n\n 50% {\n  transform: rotateY(180deg);\n }\n\n 100% {\n  transform: rotateY(180deg)  rotateX(180deg);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

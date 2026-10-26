@@ -1,0 +1,35 @@
+{
+  "id": "hyperui-marketing-testimonials-2",
+  "title": "Testimonials: Grid of quotes, 3-up",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/testimonials",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "marketing",
+    "testimonials",
+    "hyperui",
+    "quote",
+    "review",
+    "rating",
+    "social-proof"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/testimonials/2.html",
+  "code": "<div class=\"p-6\">\n<ul class=\"mx-auto grid max-w-6xl grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3\">\n<li class=\"flex flex-col rounded-lg border border-gray-200 p-6\">\n<blockquote class=\"flex-1 text-sm text-gray-700\">\n          “Setup took less time than the coffee I made while doing it. The defaults are\n          genuinely good, which is rare.”\n        </blockquote>\n<div class=\"mt-6 flex items-center gap-3\">\n<img alt=\"\" class=\"size-9 rounded-full object-cover\" src=\"https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&amp;fit=crop&amp;q=80&amp;w=200\"/>\n<div>\n<p class=\"text-sm font-medium text-gray-900\">Marcus Boyle</p>\n<p class=\"text-xs text-gray-500\">Founder, Northwind Studio</p>\n</div>\n</div>\n</li>\n<li class=\"flex flex-col rounded-lg border border-gray-200 p-6\">\n<blockquote class=\"flex-1 text-sm text-gray-700\">\n          “We tried three other tools before this one. It's the only one the whole team still\n          opens without being reminded to.”\n        </blockquote>\n<div class=\"mt-6 flex items-center gap-3\">\n<img alt=\"\" class=\"size-9 rounded-full object-cover\" src=\"https://images.unsplash.com/photo-1601412436009-d964bd02edbc?auto=format&amp;fit=crop&amp;q=80&amp;w=200\"/>\n<div>\n<p class=\"text-sm font-medium text-gray-900\">Priya Natarajan</p>\n<p class=\"text-xs text-gray-500\">Ops Lead, Orbitly</p>\n</div>\n</div>\n</li>\n<li class=\"flex flex-col rounded-lg border border-gray-200 p-6\">\n<blockquote class=\"flex-1 text-sm text-gray-700\">\n          “Migrating five years of data usually breaks something. Nothing broke. That's the\n          whole review.”\n        </blockquote>\n<div class=\"mt-6 flex items-center gap-3\">\n<img alt=\"\" class=\"size-9 rounded-full object-cover\" src=\"https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&amp;fit=crop&amp;q=80&amp;w=200\"/>\n<div>\n<p class=\"text-sm font-medium text-gray-900\">Kwame Asante</p>\n<p class=\"text-xs text-gray-500\">CTO, Fieldnote</p>\n</div>\n</div>\n</li>\n</ul>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

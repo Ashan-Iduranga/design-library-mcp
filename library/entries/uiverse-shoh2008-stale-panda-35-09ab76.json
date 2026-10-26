@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-stale-panda-35-09ab76",
+  "title": "Loader by Shoh2008 (stale-panda-35)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/stale-panda-35",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_stale-panda-35.html",
+  "code": "<span class=\"loader\"></span>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 106px;\n  height: 56px;\n  display: block;\n  margin: 30px auto;\n  background-image: linear-gradient(#e1e1e1 50px, transparent 0), linear-gradient(#e1e1e1 50px, transparent 0), linear-gradient(#e1e1e1 50px, transparent 0), linear-gradient(#e1e1e1 50px, transparent 0), radial-gradient(circle 14px, #e1e1e1 100%, transparent 0);\n  background-size: 48px 15px , 15px 35px, 15px 35px, 25px 15px, 28px 28px;\n  background-position: 25px 5px, 58px 20px, 25px 17px, 2px 37px, 76px 0px;\n  background-repeat: no-repeat;\n  position: relative;\n  transform: rotate(-45deg);\n  box-sizing: border-box;\n}\n\n.loader::after,\n.loader::before {\n  content: '';\n  position: absolute;\n  width: 56px;\n  height: 56px;\n  border: 6px solid #e1e1e1;\n  border-radius: 50%;\n  left: -45px;\n  top: -10px;\n  background-repeat: no-repeat;\n  background-image: linear-gradient(#e1e1e1 64px, transparent 0), linear-gradient(#e1e1e1 66px, transparent 0), radial-gradient(circle 4px, #e1e1e1 100%, transparent 0);\n  background-size: 40px 1px , 1px 40px, 8px 8px;\n  background-position: center center;\n  box-sizing: border-box;\n  animation: bike 0.3s linear infinite;\n}\n\n.loader::before {\n  left: 25px;\n  top: 60px;\n}\n\n@keyframes bike {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n} \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

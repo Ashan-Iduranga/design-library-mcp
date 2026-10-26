@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-serious-badger-45-e28b89",
+  "title": "Card by Shoh2008 (serious-badger-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/serious-badger-45",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Shoh2008_serious-badger-45.html",
+  "code": "<div class=\"container\">\n  <div class=\"card\">\n     <div class=\"card__image-container\">\n    </div>\n      \n      <svg class=\"card__svg\" viewBox=\"0 0 800 500\">\n\n        <path d=\"M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500\" stroke=\"transparent\" fill=\"#333\"></path>\n        <path class=\"card__line\" d=\"M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400\" stroke=\"pink\" stroke-width=\"3\" fill=\"transparent\"></path>\n      </svg>\n    \n     <div class=\"card__content\">\n       <p class=\"card__title\">Lorem ipsum</p>\n     <p>Soluta dolor praesentium at quod autem omnis, amet earum nesciunt porro.</p>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: card */\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 350px;\n  background: #444;\n  border-radius: 10px;\n}\n\n.card {\n  position: relative;\n  background: #333;\n  width: 250px;\n  height: 350px;\n  border-radius: 10px;\n  padding: 2rem;\n  color: #aaa;\n  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),\n    0 0 1rem rgba(0,0,0,0.2);\n  overflow: hidden;\n}\n\n.card__image-container {\n  margin: -2rem -2rem 1rem -2rem;\n}\n\n.card__line {\n  opacity: 0;\n  animation: LineFadeIn .8s .8s forwards ease-in;\n}\n\n.card__image {\n  opacity: 0;\n  animation: ImageFadeIn .8s 1.4s forwards;\n}\n\n.card__title {\n  color: white;\n  margin-top: 35px;\n  margin-bottom: 10px;\n  font-weight: 800;\n  letter-spacing: 0.01em;\n}\n\n.card__content {\n  margin-top: -1rem;\n  opacity: 0;\n  animation: ContentFadeIn .8s 1.6s forwards;\n}\n\n.card__svg {\n  position: absolute;\n  left: 0;\n  top: 115px;\n}\n\n@keyframes LineFadeIn {\n  0% {\n    opacity: 0;\n    d: path(\"M 0 300 Q 0 300 0 300 Q 0 300 0 300 C 0 300 0 300 0 300 Q 0 300 0 300 \");\n    stroke: #fff;\n  }\n\n  50% {\n    opacity: 1;\n    d: path(\"M 0 300 Q 50 300 100 300 Q 250 300 350 300 C 350 300 500 300 650 300 Q 750 300 800 300\");\n    stroke: #888BFF;\n  }\n\n  100% {\n    opacity: 1;\n    d: path(\"M -2 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 802 400\");\n    stroke: #545581;\n  }\n}\n\n@keyframes ContentFadeIn {\n  0% {\n    transform: translateY(-1rem);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}\n\n@keyframes ImageFadeIn {\n  0% {\n    transform: translate(-.5rem, -.5rem) scale(1.05);\n    opacity: 0;\n    filter: blur(2px);\n  }\n\n  50% {\n    opacity: 1;\n    filter: blur(2px);\n  }\n\n  100% {\n    transform: translateY(0) scale(1.0);\n    opacity: 1;\n    filter: blur(0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

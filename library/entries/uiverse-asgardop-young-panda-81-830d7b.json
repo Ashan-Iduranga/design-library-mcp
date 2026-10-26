@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-asgardop-young-panda-81-830d7b",
+  "title": "Button by asgardOP (young-panda-81)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/asgardOP/young-panda-81",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "action",
+    "modern",
+    "menu",
+    "btn",
+    "hover-effect",
+    "html",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By asgardOP on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/asgardOP_young-panda-81.html",
+  "code": "<ul class=\"ul\">\n  <li class=\"li\">\n    <button class=\"button\"><p class=\"p\">Home</p></button>\n  </li>\n  <li class=\"li\">\n    <button class=\"button\"><p class=\"p\">Store</p></button>\n  </li>\n  <li class=\"li\">\n    <button class=\"button\"><p class=\"p\">Settings</p></button>\n  </li>\n</ul>\n\n<style>\n/* From Uiverse.io by asgardOP  - Tags: action, button, modern, menu, btn, hover effect, html, css */\n.ul {\n  width: fit-content;\n  height: fit-content;\n  background-color: transparent;\n  list-style: none;\n}\n.li {\n  margin-bottom: 0px;\n}\n.button {\n  background-color: transparent;\n  font-family: sans-serif;\n  color: rgb(255, 255, 255);\n  border: none;\n  font-size: 22px;\n  font-weight: 700;\n  padding: 10px 30px;\n  cursor: pointer;\n  position: relative;\n  padding-left: 11px;\n  text-align: center;\n  transition: 0.1s;\n  z-index: 1;\n}\n\n.p {\n  z-index: 2;\n  position: relative;\n}\n\n.button:hover {\n  color: rgb(172, 40, 0);\n  text-align: center;\n}\n.button:hover::before {\n  transform: rotate(0deg);\n  width: 100%;\n  height: 40px;\n  top: 2px;\n  border-radius: 3px;\n  background-color: rgb(255, 83, 53);\n}\n.button::before {\n  content: \"\";\n  border-radius: 1px;\n  position: absolute;\n  width: 6px;\n  height: 6px;\n  background-color: tomato;\n  left: -10px;\n  top: 19px;\n  cursor: pointer;\n  transform: rotate(225deg);\n  transition: 0.3s;\n  z-index: -1;\n}\n\n.button:active::before {\n  background-color: rgb(255, 38, 0);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

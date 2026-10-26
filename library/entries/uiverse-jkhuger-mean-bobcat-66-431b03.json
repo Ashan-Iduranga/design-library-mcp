@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jkhuger-mean-bobcat-66-431b03",
+  "title": "Loader by JkHuger (mean-bobcat-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/mean-bobcat-66",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "text",
+    "writing"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JkHuger_mean-bobcat-66.html",
+  "code": "<div class=\"animation\">Text writing!</div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: animation, text, writing */\n@keyframes typing {\n  from {\n    width: 0;\n  }\n}\n\n@keyframes blink-caret {\n  50% {\n    border-color: transparent;\n  }\n}\n/* When you change the amount of characters in the h1, you have to change \nthe with: 14ch and  steps(14, end), if there is 14 characters, put 14, \nif there is 20 put 20 */\n.animation {\n  font: bold 200% Consolas, Monaco, monospace;\n  border-right: .1em solid black;\n  width: 13.20ch;\n  margin: 2em 2em;\n  white-space: nowrap;\n  overflow: hidden;\n  -webkit-animation: typing 5s steps(13, end),\n\t           blink-caret .5s step-end infinite alternate;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-boryanakrasteva-wonderful-deer-76-3021c2",
+  "title": "Checkbox by boryanakrasteva (wonderful-deer-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/boryanakrasteva/wonderful-deer-76",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By boryanakrasteva on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/boryanakrasteva_wonderful-deer-76.html",
+  "code": "<label class=\"checkbox-btn\">\n    <label for=\"checkbox\"></label>\n    <input id=\"checkbox\" type=\"checkbox\">\n    <span class=\"checkmark\"></span>\n</label>\n<style>\n/* From Uiverse.io by boryanakrasteva - Tags: checkbox */\n/* Customize the label (the checkbox-btn) */\n.checkbox-btn {\n  display: block;\n  position: relative;\n  padding-left: 30px;\n  margin-bottom: 10px;\n  cursor: pointer;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n/* Hide the browser's default checkbox */\n.checkbox-btn input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.checkbox-btn label {\n  cursor: pointer;\n  font-size: 14px;\n}\n/* Create a custom checkbox */\n.checkmark {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 18px;\n  width: 18px;\n  border-radius: 5px;\n  border: 3px solid #1663a7;\n}\n.checkbox-btn input:checked ~ .checkmark {\n  background-color: transparent;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  visibility: hidden;\n  opacity: 0;\n  left: 3.5px;\n  top: 0.5px;\n  width: 3.5px;\n  height: 6px;\n  border: 2.5px solid #1663a7;\n  border-width: 0 2.5px 2.5px 0;\n  transition: .3s ease-in-out;\n  -webkit-transform: rotate(45deg);\n  -ms-transform: rotate(45deg);\n  transform: rotate(45deg);\n}\n\n/* Show the checkmark when checked */\n.checkbox-btn input:checked ~ .checkmark:after {\n  visibility: visible;\n  opacity: 1;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

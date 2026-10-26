@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vikas7754-calm-wombat-35-05218c",
+  "title": "Button by vikas7754 (calm-wombat-35)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikas7754/calm-wombat-35",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikas7754 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vikas7754_calm-wombat-35.html",
+  "code": "<button class=\"box\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by vikas7754 - Tags: 3d, button, 3d button */\n.box {\n  background: linear-gradient(to right, gold, darkorange);\n  color: white;\n  --width: 200px;\n  --height: calc(var(--width) / 3);\n  width: var(--width);\n  height: var(--height);\n  text-align: center;\n  line-height: var(--height);\n  font-size: calc(var(--height) / 2.5);\n  font-family: sans-serif;\n  letter-spacing: 0.2em;\n  border: 1px solid darkgoldenrod;\n  border-radius: 2em;\n  transform: perspective(500px) rotateY(-15deg);\n  text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);\n  box-shadow: 2px 0 0 5px rgba(76, 255, 97, 0.8);\n  transition: 0.5s;\n  position: relative;\n  overflow: hidden;\n  cursor: pointer;\n}\n\n.box:hover {\n  transform: perspective(500px) rotateY(15deg);\n  text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);\n  box-shadow: -2px 0 0 5px rgba(35, 255, 218, 0.8);\n}\n\n.box::before {\n  content: '';\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(to right, transparent, white, transparent);\n  left: -100%;\n  transition: 0.5s;\n}\n\n.box:hover::before {\n  left: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-avatar-avatar",
+  "title": "Avatar: Avatar (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/avatar/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "avatar",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Avatars are used to show a thumbnail representation of an individual or business in the interface.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/avatar/+page.md",
+  "code": "<div class=\"avatar\">\n  <div class=\"w-24 rounded\">\n    <img alt=\"Tailwind-CSS-Avatar-component\" src=\"https://img.daisyui.com/images/profile/demo/batperson@192.webp\" />\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

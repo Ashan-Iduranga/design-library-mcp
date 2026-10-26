@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-oncloud125252-chatty-cat-54-9d089b",
+  "title": "Input by OnCloud125252 (chatty-cat-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/OnCloud125252/chatty-cat-54",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "dark",
+    "search"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By OnCloud125252 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/OnCloud125252_chatty-cat-54.html",
+  "code": "<div class=\"inputBox_container\">\n  <svg class=\"search_icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" alt=\"search icon\">\n    <path d=\"M46.599 46.599a4.498 4.498 0 0 1-6.363 0l-7.941-7.941C29.028 40.749 25.167 42 21 42 9.402 42 0 32.598 0 21S9.402 0 21 0s21 9.402 21 21c0 4.167-1.251 8.028-3.342 11.295l7.941 7.941a4.498 4.498 0 0 1 0 6.363zM21 6C12.717 6 6 12.714 6 21s6.717 15 15 15c8.286 0 15-6.714 15-15S29.286 6 21 6z\">\n    </path>\n  </svg>\n  <input class=\"inputBox\" id=\"inputBox\" type=\"text\" placeholder=\"Search For Products\">\n</div>\n<style>\n/* From Uiverse.io by OnCloud125252 - Tags: input, dark, search */\n.inputBox_container {\n  display: flex;\n  align-items: center;\n  flex-direction: row;\n  max-width: 14em;\n  width: fit-content;\n  height: fit-content;\n  background-color: #5c6370;\n  border-radius: 0.8em;\n  overflow: hidden;\n}\n\n.search_icon {\n  height: 1em;\n  padding: 0 0.5em 0 0.8em;\n  fill: #abb2bf;\n}\n\n.inputBox {\n  background-color: transparent;\n  color: #ffffff;\n  outline: none;\n  width: 100%;\n  border: 0;\n  padding: 0.5em 1.5em 0.5em 0;\n  font-size: 1em;\n}\n\n::placeholder {\n  color: #abb2bf;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

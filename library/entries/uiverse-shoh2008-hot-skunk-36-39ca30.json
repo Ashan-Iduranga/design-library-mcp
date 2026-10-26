@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-hot-skunk-36-39ca30",
+  "title": "Loader by Shoh2008 (hot-skunk-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/hot-skunk-36",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_hot-skunk-36.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  border: 10px solid;\n  box-sizing: border-box;\n  animation: animloader 1s linear infinite alternate;\n}\n\n@keyframes animloader {\n  0% {\n    border-color: white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);\n  }\n\n  33% {\n    border-color: white white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);\n  }\n\n  66% {\n    border-color: white white white rgba(255, 255, 255, 0);\n  }\n\n  100% {\n    border-color: white white white white;\n  }\n} \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

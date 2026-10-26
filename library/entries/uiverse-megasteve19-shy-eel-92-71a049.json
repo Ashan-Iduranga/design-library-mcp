@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-megasteve19-shy-eel-92-71a049",
+  "title": "Button by megasteve19 (shy-eel-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/megasteve19/shy-eel-92",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By megasteve19 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/megasteve19_shy-eel-92.html",
+  "code": "<button>\n  Button\n</button>\n<style>\n/* From Uiverse.io by megasteve19 - Tags: button */\nbutton {\n  border: none;\n  background-color: seagreen;\n  color: white;\n  font-size: 1.15rem;\n  font-weight: 500;\n  padding: 0.8rem 2rem;\n  border-radius: 0.5rem;\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);\n  cursor: pointer;\n  transform: translate(1) translate(0, 0);\n  transition: transform 225ms, box-shadow 225ms;\n}\n\nbutton:hover {\n  transform: scale(1.05) translate(0, -0.15rem);\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);\n}\n\nbutton:active {\n  transform: scale(1) translate(0, 0.15rem);\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

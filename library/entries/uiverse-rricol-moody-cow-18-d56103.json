@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-rricol-moody-cow-18-d56103",
+  "title": "Input by rricol (moody-cow-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/rricol/moody-cow-18",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "email"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By rricol on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/rricol_moody-cow-18.html",
+  "code": "<div class=\"input-box\">\n  <label class=\"input-label\">Email</label>\n  <input placeholder=\"user@mail.com\" class=\"input\" name=\"email\" type=\"email\">\n  <span class=\"input-helper\">enter a valid email</span>\n</div>\n<style>\n/* From Uiverse.io by rricol - Tags: email, input */\n.input {\n  position: relative;\n  max-width: 190px;\n  border: none;\n  box-shadow: 0px 1.5px 0px 0px #858585;\n  padding: .5rem;\n  transition: all 200ms ease-in-out;\n  opacity: .8;\n}\n\n.input-box {\n  display: flex;\n  flex-direction: column;\n}\n\n.input-label {\n  font-size: .625rem;\n  font-weight: bold;\n  color: #858585;\n  margin-bottom: 4px;\n  margin-left: 1px;\n}\n\n.input-helper {\n  color: #858585;\n  font-size: .5rem;\n  margin-top: 6px;\n  margin-left: 1px;\n  visibility: hidden;\n  transform: translateY(-.5rem);\n  transition: all 100ms linear;\n  z-index: -1;\n}\n\n.input::placeholder {\n  color: rgb(145, 145, 145);\n  font-size: .75rem;\n}\n\n.input::after {\n  content: attr(placeholder);\n  position: absolute;\n  color: #161616;\n  top: 0;\n  left: 0;\n}\n\n.input:focus {\n  border: none;\n  box-shadow: 0px 1.5px 0px 0px #72E985;\n  outline: none;\n}\n\n.input:focus + .input-helper {\n  visibility: visible;\n  transform: translateY(0rem);\n}\n\n.input:focus::placeholder {\n  visibility: hidden;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

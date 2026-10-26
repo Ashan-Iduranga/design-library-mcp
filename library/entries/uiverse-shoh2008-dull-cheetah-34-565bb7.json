@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-dull-cheetah-34-565bb7",
+  "title": "Loader by Shoh2008 (dull-cheetah-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/dull-cheetah-34",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_dull-cheetah-34.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  display: flex;\n  transform-origin: 50% 125%;\n  animation: mov-y 1s infinite linear;\n}\n\n.loader:before,\n      .loader:after {\n  content: \"\";\n  flex: 1;\n  background: #fff;\n  transform-origin: 0% 100%;\n  animation: rtr-x 1s infinite linear;\n}\n\n.loader:before {\n  transform-origin: 100% 100%;\n  animation-name: rtr-rx;\n}\n\n@keyframes mov-y {\n  0%,25% {\n    transform: translateY(0)     scaleY(1)\n  }\n\n  49% {\n    transform: translateY(-75%)  scaleY(1)\n  }\n\n  50% {\n    transform: translateY(-75%)  scaleY(-1)\n  }\n\n  75%,100% {\n    transform: translateY(-150%) scaleY(-1)\n  }\n}\n\n@keyframes rtr-x {\n  25%,75% {\n    transform: rotate(0deg)\n  }\n\n  50% {\n    transform: rotate(90deg)\n  }\n}\n\n@keyframes rtr-rx {\n  25%,75% {\n    transform: rotate(0deg)\n  }\n\n  50% {\n    transform: rotate(-90deg)\n  }\n}\n    \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

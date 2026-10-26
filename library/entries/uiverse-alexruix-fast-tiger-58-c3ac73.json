@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-alexruix-fast-tiger-58-c3ac73",
+  "title": "Loader by alexruix (fast-tiger-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/fast-tiger-58",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/alexruix_fast-tiger-58.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by alexruix - Tags: loader */\n.loader {\n  --ballcolor: #f2f2f2;\n  --shadow: 0px 0 #ffffff00;\n  --shadowcolor: #ffffff00;\n  width: 10px;\n  height: 10px;\n  left: -120px;\n  border-radius: 50%;\n  position: relative;\n  color: var(--ballcolor);\n  animation: shadowRolling 2s linear infinite;\n}\n\n@keyframes shadowRolling {\n  \n  0% {\n    box-shadow: var(--shadow),\n        var(--shadow),\n        var(--shadow),\n        var(--shadow);\n  }\n\n  12% {\n    box-shadow: 100px 0 var(--ballcolor),\n        var(--shadow),\n        var(--shadow), \n        var(--shadow);\n  }\n\n  25% {\n    box-shadow: 110px 0 var(--ballcolor),\n        100px 0 var(--ballcolor),\n        var(--shadow), \n        var(--shadow);\n  }\n\n  36% {\n    box-shadow: 120px 0 var(--ballcolor), \n        110px 0 var(--ballcolor), \n        100px 0 var(--ballcolor), \n         var(--shadow);\n  }\n\n  50% {\n    box-shadow: 130px 0 var(--ballcolor),\n        120px 0 var(--ballcolor),\n        110px 0 var(--ballcolor),\n        100px 0 var(--ballcolor);\n  }\n\n  62% {\n    box-shadow: 200px 0 var(--shadowcolor),\n         130px 0 var(--ballcolor), \n         120px 0 var(--ballcolor), \n         110px 0 var(--ballcolor);\n  }\n\n  75% {\n    box-shadow: 200px 0 var(--shadowcolor),\n        200px 0 var(--shadowcolor),\n        130px 0 var(--ballcolor), \n        120px 0 var(--ballcolor);\n  }\n\n  87% {\n    box-shadow: 200px 0 var(--shadowcolor), \n        200px 0 var(--shadowcolor), \n        200px 0 var(--shadowcolor), \n        130px 0 var(--ballcolor);\n  }\n\n  100% {\n    box-shadow: 200px 0 var(--shadowcolor), \n        200px 0 var(--shadowcolor),\n        200px 0 var(--shadowcolor),\n        200px 0 var(--shadowcolor);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

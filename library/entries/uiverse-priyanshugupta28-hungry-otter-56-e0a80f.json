@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-priyanshugupta28-hungry-otter-56-e0a80f",
+  "title": "Input by PriyanshuGupta28 (hungry-otter-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/hungry-otter-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "rating",
+    "rating-button",
+    "start-rating"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/PriyanshuGupta28_hungry-otter-56.html",
+  "code": "<div class=\"rating\">\n  <input value=\"5\" name=\"rating\" id=\"star5\" type=\"radio\">\n  <label for=\"star5\"></label>\n  <input value=\"4\" name=\"rating\" id=\"star4\" type=\"radio\">\n  <label for=\"star4\"></label>\n  <input value=\"3\" name=\"rating\" id=\"star3\" type=\"radio\">\n  <label for=\"star3\"></label>\n  <input value=\"2\" name=\"rating\" id=\"star2\" type=\"radio\">\n  <label for=\"star2\"></label>\n  <input value=\"1\" name=\"rating\" id=\"star1\" type=\"radio\">\n  <label for=\"star1\"></label>\n</div>\n\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: input, rating, Rating Button, start rating */\n.rating {\n  display: flex;\n  flex-direction: row-reverse;\n /* Reverse the order of the stars */\n  font-size: 0;\n /* Remove the space between the elements */\n}\n\n.rating input[type=\"radio\"] {\n  display: none;\n /* Hide the radio buttons */\n}\n\n.rating label {\n  font-size: 30px;\n  color: rgba(187, 183, 183, 0.726);\n /* Empty star color */\n  margin: 0 2px;\n  cursor: pointer;\n}\n\n.rating label:before {\n  content: \"\\2605\";\n /* Unicode character for filled star */\n}\n\n.rating input[type=\"radio\"]:checked ~ label:before {\n  content: \"\\2606\";\n /* Unicode character for empty star */\n  color: #016bf5;\n /* Filled star color */\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

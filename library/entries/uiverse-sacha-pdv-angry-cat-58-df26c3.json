@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-sacha-pdv-angry-cat-58-df26c3",
+  "title": "Tooltip by Sacha-PDV (angry-cat-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Sacha-PDV/angry-cat-58",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "simple",
+    "circle"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Sacha-PDV on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/Sacha-PDV_angry-cat-58.html",
+  "code": "<div class=\"tooltip\">\n  <span>Hover me</span>\n  <div class=\"tooltip-text\">\n    Ceci est un tooltip moderne et animé avec des bulles autour.\n  </div>\n  <div class=\"tooltip-bubble\"></div>\n  <div class=\"tooltip-bubble\"></div>\n  <div class=\"tooltip-bubble\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by Sacha-PDV  - Tags: simple, tooltip, circle */\n.tooltip {\n  position: relative;\n  display: inline-block;\n  cursor: pointer;\n}\n.tooltip-text {\n  visibility: hidden;\n  width: 200px;\n  background-color: #3498db;\n  color: #fff;\n  text-align: center;\n  border-radius: 4px;\n  padding: 10px;\n  position: absolute;\n  z-index: 1;\n  top: -65px;\n  left: 50%;\n  transform: translateX(-50%);\n  opacity: 0;\n  transition: opacity 0.3s, transform 0.3s;\n}\n.tooltip:hover .tooltip-text {\n  visibility: visible;\n  opacity: 1;\n  transform: translate(-50%, -60px);\n}\n.tooltip-text::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  margin-left: -5px;\n  border-width: 5px;\n  border-style: solid;\n  border-color: #3498db transparent transparent transparent;\n}\n.tooltip:hover .tooltip-bubble {\n  display: block;\n}\n.tooltip-bubble {\n  position: absolute;\n  width: 20px;\n  height: 20px;\n  background: #3498db;\n  border-radius: 50%;\n  display: none;\n}\n.tooltip-bubble:nth-child(3) {\n  bottom: 170px;\n  left: 43%;\n}\n.tooltip-bubble:nth-child(4) {\n  bottom: 170px;\n  left: 90%;\n}\n.tooltip-bubble:nth-child(5) {\n  bottom: 170px;\n  left: -10%;\n}\n.tooltip span {\n  display: inline-block;\n  padding: 5px 10px;\n  background: #3498db;\n  color: #fff;\n  border-radius: 4px;\n  transition: background 0.3s;\n}\n.tooltip:hover span {\n  background: #ff6b6b;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

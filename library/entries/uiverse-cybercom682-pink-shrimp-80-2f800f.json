@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-cybercom682-pink-shrimp-80-2f800f",
+  "title": "Loader by Cybercom682 (pink-shrimp-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cybercom682/pink-shrimp-80",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "rotate",
+    "scale",
+    "eye"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cybercom682 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Cybercom682_pink-shrimp-80.html",
+  "code": "<div class=\"loader\">\n  <div class=\"eye\"></div>\n</div>\n<style>\n/* From Uiverse.io by Cybercom682 - Tags: loader, rotate, scale, eye */\n.loader {\n  height: 150px;\n  width: 150px;\n  border-radius: 50%;\n  position: relative;\n}\n\n.loader::before {\n  content: \"\";\n  height: 100%;\n  width: 100%;\n  border: 1px solid black;\n  border-radius: 50%;\n  position: absolute;\n  animation: doitreverse 4s infinite;\n}\n\n.loader::after {\n  content: \"\";\n  height: 100%;\n  width: 100%;\n  border: 1px solid black;\n  border-radius: 50%;\n  position: absolute;\n  animation: doit 4s infinite;\n}\n\n@keyframes doit {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    border-radius: 20% 50%;\n    transform: scale(1.25);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n@keyframes doitreverse {\n  0% {\n    transform: rotate(360deg);\n  }\n\n  50% {\n    border-radius: 50% 20%;\n    transform: rotate(180deg);\n  }\n\n  100% {\n    transform: rotate(0deg);\n  }\n}\n\n.eye {\n  height: 50%;\n  width: 50%;\n  border-radius: 50%;\n  border: 1px solid black;\n  background-color: rgb(85, 0, 128);\n  position: absolute;\n  left: 25%;\n  top: 25%;\n  animation: showme 4s infinite;\n}\n\n.eye::before {\n  content: \"\";\n  height: 20%;\n  width: 20%;\n  border-radius: 50%;\n  background-color: white;\n  position: absolute;\n  top: 25%;\n  left: 50%;\n  animation: showme 4s infinite;\n}\n\n.eye::after {\n  content: \"\";\n  height: 10%;\n  width: 10%;\n  border-radius: 50%;\n  background-color: white;\n  position: absolute;\n  top: 60%;\n  left: 50%;\n  animation: showme 4s infinite;\n}\n\n@keyframes showme {\n  0% {\n    transform: scale(0.3);\n  }\n\n  50% {\n    transform: scale(1);\n  }\n\n  100% {\n    transform: scale(0.3);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

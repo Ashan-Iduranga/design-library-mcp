@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-kingfress-purple-kangaroo-17-d9857f",
+  "title": "Button by KINGFRESS (purple-kangaroo-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KINGFRESS/purple-kangaroo-17",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KINGFRESS on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/KINGFRESS_purple-kangaroo-17.html",
+  "code": "<button>\n    <span class=\"circle1\"></span>\n    <span class=\"circle2\"></span>\n    <span class=\"circle3\"></span>\n    <span class=\"circle4\"></span>\n    <span class=\"circle5\"></span>\n    <span class=\"text\">Submit</span>\n</button>\n<style>\n/* From Uiverse.io by KINGFRESS - Tags: button */\nbutton {\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  color: white;\n  background-color: #171717;\n  padding: 1em 2em;\n  border: none;\n  border-radius: .6rem;\n  position: relative;\n  cursor: pointer;\n  overflow: hidden;\n}\n\nbutton span:not(:nth-child(6)) {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  height: 30px;\n  width: 30px;\n  background-color: #0c66ed;\n  border-radius: 50%;\n  transition: .6s ease;\n}\n\nbutton span:nth-child(6) {\n  position: relative;\n}\n\nbutton span:nth-child(1) {\n  transform: translate(-3.3em, -4em);\n}\n\nbutton span:nth-child(2) {\n  transform: translate(-6em, 1.3em);\n}\n\nbutton span:nth-child(3) {\n  transform: translate(-.2em, 1.8em);\n}\n\nbutton span:nth-child(4) {\n  transform: translate(3.5em, 1.4em);\n}\n\nbutton span:nth-child(5) {\n  transform: translate(3.5em, -3.8em);\n}\n\nbutton:hover span:not(:nth-child(6)) {\n  transform: translate(-50%, -50%) scale(4);\n  transition: 1.5s ease;\n}\n  \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shah1345-spicy-liger-32-0fafd7",
+  "title": "Button by shah1345 (spicy-liger-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/shah1345/spicy-liger-32",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By shah1345 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/shah1345_spicy-liger-32.html",
+  "code": "<button class=\"button2\">\n    Hover me\n</button>\n<style>\n/* From Uiverse.io by shah1345 - Tags: button */\n.button2 {\n  display: inline-block;\n  transition: all 0.2s ease-in;\n  position: relative;\n  overflow: hidden;\n  z-index: 1;\n  color: #090909;\n  padding: 0.7em 1.7em;\n  font-size: 18px;\n  border-radius: 0.5em;\n  background: #e8e8e8;\n  border: 1px solid #e8e8e8;\n  box-shadow: 6px 6px 12px #c5c5c5,\n             -6px -6px 12px #ffffff;\n}\n\n.button2:active {\n  color: #666;\n  box-shadow: inset 4px 4px 12px #c5c5c5,\n             inset -4px -4px 12px #ffffff;\n}\n\n.button2:before {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  transform: translateX(-50%) scaleY(1) scaleX(1.25);\n  top: 100%;\n  width: 140%;\n  height: 180%;\n  background-color: rgba(0, 0, 0, 0.05);\n  border-radius: 50%;\n  display: block;\n  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);\n  z-index: -1;\n}\n\n.button2:after {\n  content: \"\";\n  position: absolute;\n  left: 55%;\n  transform: translateX(-50%) scaleY(1) scaleX(1.45);\n  top: 180%;\n  width: 160%;\n  height: 190%;\n  background-color: #009087;\n  border-radius: 50%;\n  display: block;\n  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);\n  z-index: -1;\n}\n\n.button2:hover {\n  color: #ffffff;\n  border: 1px solid #009087;\n}\n\n.button2:hover:before {\n  top: -35%;\n  background-color: #009087;\n  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);\n}\n\n.button2:hover:after {\n  top: -45%;\n  background-color: #009087;\n  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

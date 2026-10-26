@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-fieldset-fieldset-fieldset-legend-and-label",
+  "title": "Fieldset: Fieldset fieldset-legend and label (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/fieldset/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "fieldset",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Fieldset is a container for grouping related form elements. It includes fieldset-legend as a title and label as a description.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/fieldset/+page.md",
+  "code": "<fieldset class=\"fieldset\">\n  <legend class=\"fieldset-legend\">Page title</legend>\n  <input type=\"text\" class=\"input\" placeholder=\"My awesome page\" />\n  <p class=\"label\">You can edit page title later on from settings</p>\n</fieldset>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

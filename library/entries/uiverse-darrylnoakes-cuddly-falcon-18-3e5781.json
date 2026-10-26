@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-darrylnoakes-cuddly-falcon-18-3e5781",
+  "title": "Loader by DarrylNoakes (cuddly-falcon-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/DarrylNoakes/cuddly-falcon-18",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By DarrylNoakes on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/DarrylNoakes_cuddly-falcon-18.html",
+  "code": "<div class=\"loader\">\n    <span class=\"icon\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" x=\"0\" y=\"0\" viewBox=\"0 0 100 100\">\n            <ellipse transform=\"rotate(-21.283 49.994 75.642)\" cx=\"50\" cy=\"75.651\" rx=\"19.347\" ry=\"16.432\" fill=\"currentColor\"></ellipse>\n            <path fill=\"currentColor\" d=\"M58.474 7.5h10.258v63.568H58.474z\"></path>\n        </svg>\n    </span>\n    <span class=\"icon\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" x=\"0\" y=\"0\" viewBox=\"0 0 100 100\">\n            <ellipse transform=\"rotate(-21.283 49.994 75.642)\" cx=\"50\" cy=\"75.651\" rx=\"19.347\" ry=\"16.432\" fill=\"currentColor\"></ellipse>\n            <path fill=\"currentColor\" d=\"M58.474 7.5h10.258v63.568H58.474z\"></path>\n        </svg>\n    </span>\n    <span class=\"icon\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" x=\"0\" y=\"0\" viewBox=\"0 0 100 100\">\n            <ellipse transform=\"rotate(-21.283 49.994 75.642)\" cx=\"50\" cy=\"75.651\" rx=\"19.347\" ry=\"16.432\" fill=\"currentColor\"></ellipse>\n            <path fill=\"currentColor\" d=\"M58.474 7.5h10.258v63.568H58.474z\"></path>\n        </svg>\n    </span>\n</div>\n<style>\n/* From Uiverse.io by DarrylNoakes - Tags: loader */\n.loader {\n  --icon-count: 3;\n  --inner-height: 4em;\n  --ratio: 2/3;\n /* Customizable */\n  --period: 1s;\n /* Customizable */\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: var(--inner-height);\n  width: calc(var(--inner-height) * var(--ratio) * var(--icon-count));\n}\n\n.loader .icon {\n  width: calc(100% / var(--icon-count));\n  height: calc(100% * var(--ratio));\n  animation: loader-bounce02 var(--period) infinite linear;\n}\n\n/*\n * animation delay = (n - 1) / steps * period\n */\n\n.loader .icon:nth-of-type(2) {\n  animation-delay: calc(1 / 5 * var(--period));\n}\n\n.loader .icon:nth-of-type(3) {\n  animation-delay: calc(2 / 5 * var(--period));\n}\n\n@keyframes loader-bounce02 {\n  20% {\n    /* Raise */\n    transform: translateY(calc(-50% * (1 - var(--ratio))));\n  }\n\n  40% {\n    /* Lower */\n    transform: translateY(calc(50% * (1 - var(--ratio))));\n  }\n\n  60% {\n    /* Keep centered */\n    transform: translateY(0);\n  }\n\n  80% {\n    /* Keep centered */\n    transform: translateY(0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

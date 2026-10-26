@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-namecho-quiet-panther-93-841fac",
+  "title": "Toggle by namecho (quiet-panther-93)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/namecho/quiet-panther-93",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "active",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By namecho on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/namecho_quiet-panther-93.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by namecho - Tags: active, switch */\n.switch {\n --button-width: 3.5em;\n --button-height: 2em;\n --toggle-diameter: 1.5em;\n --button-toggle-offset: calc((var(--button-height) - var(--toggle-diameter)) / 2);\n --toggle-shadow-offset: 10px;\n --toggle-wider: 3em;\n --color-grey: #cccccc;\n --color-green: #4296f4;\n}\n\n.slider {\n display: inline-block;\n width: var(--button-width);\n height: var(--button-height);\n background-color: var(--color-grey);\n border-radius: calc(var(--button-height) / 2);\n position: relative;\n transition: 0.3s all ease-in-out;\n}\n\n.slider::after {\n content: \"\";\n display: inline-block;\n width: var(--toggle-diameter);\n height: var(--toggle-diameter);\n background-color: #fff;\n border-radius: calc(var(--toggle-diameter) / 2);\n position: absolute;\n top: var(--button-toggle-offset);\n transform: translateX(var(--button-toggle-offset));\n box-shadow: var(--toggle-shadow-offset) 0 calc(var(--toggle-shadow-offset) * 4) rgba(0, 0, 0, 0.1);\n transition: 0.3s all ease-in-out;\n}\n\n.switch input[type=\"checkbox\"]:checked + .slider {\n background-color: var(--color-green);\n}\n\n.switch input[type=\"checkbox\"]:checked + .slider::after {\n transform: translateX(calc(var(--button-width) - var(--toggle-diameter) - var(--button-toggle-offset)));\n box-shadow: calc(var(--toggle-shadow-offset) * -1) 0 calc(var(--toggle-shadow-offset) * 4) rgba(0, 0, 0, 0.1);\n}\n\n.switch input[type=\"checkbox\"] {\n display: none;\n}\n\n.switch input[type=\"checkbox\"]:active + .slider::after {\n width: var(--toggle-wider);\n}\n\n.switch input[type=\"checkbox\"]:checked:active + .slider::after {\n transform: translateX(calc(var(--button-width) - var(--toggle-wider) - var(--button-toggle-offset)));\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

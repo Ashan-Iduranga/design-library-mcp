@@ -1,0 +1,37 @@
+{
+  "id": "magicui-glare-hover-demo-cta",
+  "title": "Glare Hover Demo — CTA (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/glare-hover",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "glare",
+    "hover",
+    "demo",
+    "cta",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "CTA card with hover glare (700ms).\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/glare-hover-demo-cta.tsx",
+  "code": "import { Button } from \"@/components/ui/button\"\nimport {\n  Card,\n  CardDescription,\n  CardFooter,\n  CardHeader,\n  CardTitle,\n} from \"@/components/ui/card\"\nimport { GlareHover } from \"@/registry/magicui/glare-hover\"\n\nexport default function Cta() {\n  return (\n    <GlareHover className=\"rounded-xl\" color=\"#505050\" duration={700}>\n      <Card className=\"w-full text-center\">\n        <CardHeader>\n          <p className=\"text-muted-foreground text-xs font-medium tracking-widest uppercase\">\n            14-day free trial · No card required\n          </p>\n          <CardTitle className=\"text-2xl tracking-tight\">\n            Ready to get started?\n          </CardTitle>\n          <CardDescription className=\"mx-auto max-w-sm\">\n            Join 4,000+ teams already using our platform to ship faster.\n          </CardDescription>\n        </CardHeader>\n        <CardFooter className=\"justify-center gap-2\">\n          <Button>Start free trial</Button>\n          <Button variant=\"outline\">View demo</Button>\n        </CardFooter>\n      </Card>\n    </GlareHover>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-htwarriors108-tasty-stingray-56-b06313",
+  "title": "Card by htwarriors108 (tasty-stingray-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/htwarriors108/tasty-stingray-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "3d",
+    "purple",
+    "white",
+    "gradient",
+    "hover",
+    "flip",
+    "neon"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By htwarriors108 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/htwarriors108_tasty-stingray-56.html",
+  "code": "<div class=\"myCard\">\n        <div class=\"innerCard\">\n            <div class=\"frontSide\">\n                <p class=\"title\">FRONT SIDE</p>\n                <p>Hover Me</p>\n            </div>\n            <div class=\"backSide\">\n                <p class=\"title\">BACK SIDE</p>\n                <p>Leave Me</p>\n            </div>\n        </div>\n    </div>\n<style>\n/* From Uiverse.io by htwarriors108 - Tags: 3d, purple, white, gradient, card, hover, flip, neon, blur filter, light&dark */\n.myCard {\n  background-color: transparent;\n  width: 190px;\n  height: 254px;\n  perspective: 1000px;\n}\n\n.title {\n  font-size: 1.5em;\n  font-weight: 900;\n  text-align: center;\n  margin: 0;\n}\n\n.innerCard {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  transition: transform 0.8s;\n  transform-style: preserve-3d;\n  cursor: pointer;\n}\n\n.myCard:hover .innerCard {\n  transform: rotateY(180deg);\n}\n\n.frontSide,\n.backSide {\n  position: absolute;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: space-evenly;\n  width: 100%;\n  height: 100%;\n  -webkit-backface-visibility: hidden;\n  backface-visibility: hidden;\n  border: 1px solid rgba(255, 255, 255, 0.8);\n  border-radius: 1rem;\n  color: white;\n  box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);\n  font-weight: 700;\n}\n\n.frontSide,\n.frontSide::before {\n  background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);\n}\n\n.backSide,\n.backSide::before {\n  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);\n}\n\n.backSide {\n  transform: rotateY(180deg);\n}\n\n.frontSide::before,\n.backSide::before {\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  content: '';\n  width: 110%;\n  height: 110%;\n  position: absolute;\n  z-index: -1;\n  border-radius: 1em;\n  filter: blur(20px);\n  animation: animate 5s linear infinite;\n}\n\n@keyframes animate {\n  0% {\n    opacity: 0.3;\n  }\n\n  80% {\n    opacity: 1;\n  }\n\n  100% {\n    opacity: 0.3;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

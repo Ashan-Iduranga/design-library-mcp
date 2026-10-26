@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-perfect-monkey-20-848c02",
+  "title": "Loader by Shoh2008 (perfect-monkey-20)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/perfect-monkey-20",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_perfect-monkey-20.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  position: relative;\n  border-style: solid;\n  box-sizing: border-box;\n  border-width: 40px 60px 30px 60px;\n  border-color: #3760C9 #96DDFC #96DDFC #36BBF7;\n  animation: envFloating 1s ease-in infinite alternate;\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  right: 62px;\n  top: -40px;\n  height: 70px;\n  width: 50px;\n  background-image: linear-gradient(#fff 45px, transparent 0),\n            linear-gradient(#fff 45px, transparent 0),\n            linear-gradient(#fff 45px, transparent 0);\n  background-repeat: no-repeat;\n  background-size: 30px 4px;\n  background-position: 0px 11px , 8px 35px, 0px 60px;\n  animation: envDropping 0.75s linear infinite;\n}\n\n@keyframes envFloating {\n  0% {\n    transform: translate(-2px, -5px)\n  }\n\n  100% {\n    transform: translate(0, 5px)\n  }\n}\n\n@keyframes envDropping {\n  0% {\n    background-position: 100px 11px , 115px 35px, 105px 60px;\n    opacity: 1;\n  }\n\n  50% {\n    background-position: 0px 11px , 20px 35px, 5px 60px;\n  }\n\n  60% {\n    background-position: -30px 11px , 0px 35px, -10px 60px;\n  }\n\n  75%, 100% {\n    background-position: -30px 11px , -30px 35px, -30px 60px;\n    opacity: 0;\n  }\n}\n      \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

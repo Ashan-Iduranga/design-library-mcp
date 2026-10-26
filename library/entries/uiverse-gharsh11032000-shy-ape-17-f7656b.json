@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-gharsh11032000-shy-ape-17-f7656b",
+  "title": "Card by gharsh11032000 (shy-ape-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/shy-ape-17",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "hover-effect",
+    "hoverme"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/gharsh11032000_shy-ape-17.html",
+  "code": "<div class=\"card-container\">\n  <div class=\"card\">\n  <div class=\"front-content\">\n    <p>Hover me</p>\n  </div>\n  <div class=\"content\">\n    <p class=\"heading\">Card Hover</p>\n    <p>\n      Lorem ipsum dolor sit amet, consectetur adipii\n      voluptas ten mollitia pariatur odit, ab\n      minus ratione adipisci accusamus vel est excepturi laboriosam magnam\n      necessitatibus dignissimos molestias.\n    </p>\n  </div>\n</div>\n</div>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: card, hover effect, hoverme */\n.card-container {\n  width: 300px;\n  height: 300px;\n  position: relative;\n  border-radius: 10px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);\n  overflow: hidden;\n}\n\n.card {\n  width: 100%;\n  height: 100%;\n  border-radius: inherit;\n}\n\n.card .front-content {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)\n}\n\n.card .front-content p {\n  font-size: 32px;\n  font-weight: 700;\n  opacity: 1;\n  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );\n  background-clip: text;\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)\n}\n\n.card .content {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  text-align: center;\n  gap: 10px;\n  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );\n  color: #e8e8e8;\n  padding: 20px;\n  line-height: 1.5;\n  border-radius: 5px;\n  pointer-events: none;\n  transform: translateY(96%);\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.card .content .heading {\n  font-size: 32px;\n  font-weight: 700;\n}\n\n.card:hover .content {\n  transform: translateY(0);\n}\n\n.card:hover .front-content {\n  transform: translateY(-30%);\n}\n\n.card:hover .front-content p {\n  opacity: 0;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

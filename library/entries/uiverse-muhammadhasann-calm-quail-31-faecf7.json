@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-muhammadhasann-calm-quail-31-faecf7",
+  "title": "Button by MuhammadHasann (calm-quail-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MuhammadHasann/calm-quail-31",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MuhammadHasann on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/MuhammadHasann_calm-quail-31.html",
+  "code": "<button>\n  Button\n</button>\n<style>\n/* From Uiverse.io by MuhammadHasann - Tags: button */\nbutton {\n  position: relative;\n  padding: 13px 35px;\n  background: #6d7973;\n  font-size: 17px;\n  font-weight: 900;\n  color: #ffffff;\n  border: 2px solid #6d7973;\n  border-radius: 25px;\n  transition: all .3s ease-in-out;\n}\n\nbutton::after {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 124px;\n  height: 45px;\n  border: 3px solid #6d7973;\n  border-radius: 25px;\n  transition: all .3s ease-in-out;\n  z-index: 2;\n}\n\nbutton:hover::after {\n  animation: radar_45011 1s ease infinite .3s;\n}\n\n@keyframes radar_45011 {\n  from {\n    opacity: 1;\n    width: 124px;\n    height: 45px;\n    border-radius: 25px;\n  }\n\n  to {\n    opacity: 0;\n    width: 470px;\n    height: 220px;\n    border-radius: 150px;\n  }\n}\n\nbutton:active {\n  transform: scale(.9);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

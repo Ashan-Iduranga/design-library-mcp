@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-admin12121-plastic-goose-38-3c45f9",
+  "title": "Card by Admin12121 (plastic-goose-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Admin12121/plastic-goose-38",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "payment-card",
+    "animated",
+    "hover-effect",
+    "card-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Admin12121 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Admin12121_plastic-goose-38.html",
+  "code": "<div class=\"container\">\n <div class=\"left-side\">\n  <div class=\"card\">\n   <div class=\"card-line\"></div>\n   <div class=\"buttons\"></div>\n  </div>\n  <div class=\"post\">\n   <div class=\"post-line\"></div>\n   <div class=\"screen\">\n    <div class=\"dollar\">$</div>\n   </div>\n   <div class=\"numbers\"></div>\n   <div class=\"numbers-line2\"></div>\n  </div>\n </div>\n <div class=\"right-side\">\n  <div class=\"new\">New Transaction</div>\n  \n   <svg viewBox=\"0 0 451.846 451.847\" height=\"512\" width=\"512\" xmlns=\"http://www.w3.org/2000/svg\" class=\"arrow\"><path fill=\"#cfcfcf\" data-old_color=\"#000000\" class=\"active-path\" data-original=\"#000000\" d=\"M345.441 248.292L151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z\"></path></svg>\n \n </div>\n</div>\n<style>\n/* From Uiverse.io by Admin12121 - Tags: payment card, animated, hover effect, card animation */\n.container {\n  background-color: #ffffff;\n  display: flex;\n  width: 460px;\n  height: 120px;\n  position: relative;\n  border-radius: 6px;\n  transition: 0.3s ease-in-out;\n}\n\n.container:hover {\n  transform: scale(1.03);\n  width: 220px;\n}\n\n.container:hover .left-side {\n  width: 100%;\n}\n\n.left-side {\n  background-color: #5de2a3;\n  width: 130px;\n  height: 120px;\n  border-radius: 4px;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  cursor: pointer;\n  transition: 0.3s;\n  flex-shrink: 0;\n  overflow: hidden;\n}\n\n.right-side {\n  width: calc(100% - 130px);\n  display: flex;\n  align-items: center;\n  overflow: hidden;\n  cursor: pointer;\n  justify-content: space-between;\n  white-space: nowrap;\n  transition: 0.3s;\n}\n\n.right-side:hover {\n  background-color: #f9f7f9;\n}\n\n.arrow {\n  width: 20px;\n  height: 20px;\n  margin-right: 20px;\n}\n\n.new {\n  font-size: 23px;\n  font-family: \"Lexend Deca\", sans-serif;\n  margin-left: 20px;\n}\n\n.card {\n  width: 70px;\n  height: 46px;\n  background-color: #c7ffbc;\n  border-radius: 6px;\n  position: absolute;\n  display: flex;\n  z-index: 10;\n  flex-direction: column;\n  align-items: center;\n  -webkit-box-shadow: 9px 9px 9px -2px rgba(77, 200, 143, 0.72);\n  -moz-box-shadow: 9px 9px 9px -2px rgba(77, 200, 143, 0.72);\n  -webkit-box-shadow: 9px 9px 9px -2px rgba(77, 200, 143, 0.72);\n}\n\n.card-line {\n  width: 65px;\n  height: 13px;\n  background-color: #80ea69;\n  border-radius: 2px;\n  margin-top: 7px;\n}\n\n@media only screen and (max-width: 480px) {\n  .container {\n    transform: scale(0.7);\n  }\n\n  .container:hover {\n    transform: scale(0.74);\n  }\n\n  .new {\n    font-size: 18px;\n  }\n}\n\n.buttons {\n  width: 8px;\n  height: 8px;\n  background-color: #379e1f;\n  box-shadow: 0 -10px 0 0 #26850e, 0 10px 0 0 #56be3e;\n  border-radius: 50%;\n  margin-top: 5px;\n  transform: rotate(90deg);\n  margin: 10px 0 0 -30px;\n}\n\n.container:hover .card {\n  animation: slide-top 1.2s cubic-bezier(0.645, 0.045, 0.355, 1) both;\n}\n\n.container:hover .post {\n  animation: slide-post 1s cubic-bezier(0.165, 0.84, 0.44, 1) both;\n}\n\n@keyframes slide-top {\n  0% {\n    -webkit-transform: translateY(0);\n    transform: translateY(0);\n  }\n\n  50% {\n    -webkit-transform: translateY(-70px) rotate(90deg);\n    transform: translateY(-70px) rotate(90deg);\n  }\n\n  60% {\n    -webkit-transform: translateY(-70px) rotate(90deg);\n    transform: translateY(-70px) rotate(90deg);\n  }\n\n  100% {\n    -webkit-transform: translateY(-8px) rotate(90deg);\n    transform: translateY(-8px) rotate(90deg);\n  }\n}\n\n.post {\n  width: 63px;\n  height: 75px;\n  background-color: #dddde0;\n  position: absolute;\n  z-index: 11;\n  bottom: 10px;\n  top: 120px;\n  border-radius: 6px;\n  overflow: hidden;\n}\n\n.post-line {\n  width: 47px;\n  height: 9px;\n  background-color: #545354;\n  position: absolute;\n  border-radius: 0px 0px 3px 3px;\n  right: 8px;\n  top: 8px;\n}\n\n.post-line:before {\n  content: \"\";\n  position: absolute;\n  width: 47px;\n  height: 9px;\n  background-color: #757375;\n  top: -8px;\n}\n\n.screen {\n  width: 47px;\n  height: 23px;\n  background-color: #ffffff;\n  position: absolute;\n  top: 22px;\n  right: 8px;\n  border-radius: 3px;\n}\n\n.numbers {\n  width: 12px;\n  height: 12px;\n  background-color: #838183;\n  box-shadow: 0 -18px 0 0 #838183, 0 18px 0 0 #838183;\n  border-radius: 2px;\n  position: absolute;\n  transform: rotate(90deg);\n  left: 25px;\n  top: 52px;\n}\n\n.numbers-line2 {\n  width: 12px;\n  height: 12px;\n  background-color: #aaa9ab;\n  box-shadow: 0 -18px 0 0 #aaa9ab, 0 18px 0 0 #aaa9ab;\n  border-radius: 2px;\n  position: absolute;\n  transform: rotate(90deg);\n  left: 25px;\n  top: 68px;\n}\n\n@keyframes slide-post {\n  50% {\n    -webkit-transform: translateY(0);\n    transform: translateY(0);\n  }\n\n  100% {\n    -webkit-transform: translateY(-70px);\n    transform: translateY(-70px);\n  }\n}\n\n.dollar {\n  position: absolute;\n  font-size: 16px;\n  font-family: \"Lexend Deca\", sans-serif;\n  width: 100%;\n  left: 0;\n  top: 0;\n  color: #4b953b;\n  text-align: center;\n}\n\n.container:hover .dollar {\n  animation: fade-in-fwd 0.3s 1s backwards;\n}\n\n@keyframes fade-in-fwd {\n  0% {\n    opacity: 0;\n    transform: translateY(-5px);\n  }\n\n  100% {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

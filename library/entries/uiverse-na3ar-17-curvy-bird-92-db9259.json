@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-na3ar-17-curvy-bird-92-db9259",
+  "title": "Card by Na3ar-17 (curvy-bird-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Na3ar-17/curvy-bird-92",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Na3ar-17 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Na3ar-17_curvy-bird-92.html",
+  "code": "<div class=\"container\">\n  <div class=\"card\">\n    <div class=\"header\">\n      <p class=\"title\">Terminal</p>\n      <span class=\"copy\">\n        <svg\n          viewBox=\"0 0 24 24\"\n          fill=\"currentColor\"\n          height=\"24\"\n          width=\"24\"\n          xmlns=\"http://www.w3.org/2000/svg\"\n          aria-hidden=\"true\"\n          class=\"w-[19px] h-[19px] text-gray-800 dark:text-white\"\n        >\n          <path\n            clip-rule=\"evenodd\"\n            d=\"M18 3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1V9a4 4 0 0 0-4-4h-3a1.99 1.99 0 0 0-1 .267V5a2 2 0 0 1 2-2h7Z\"\n            fill-rule=\"evenodd\"\n          ></path>\n          <path\n            clip-rule=\"evenodd\"\n            d=\"M8 7.054V11H4.2a2 2 0 0 1 .281-.432l2.46-2.87A2 2 0 0 1 8 7.054ZM10 7v4a2 2 0 0 1-2 2H4v6a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3Z\"\n            fill-rule=\"evenodd\"\n          ></path>\n        </svg>\n      </span>\n    </div>\n\n    <div class=\"footer\">\n      <div class=\"code\">\n        <span class=\"icon\">\n          <svg\n            viewBox=\"0 0 24 24\"\n            fill=\"none\"\n            height=\"13\"\n            width=\"13\"\n            xmlns=\"http://www.w3.org/2000/svg\"\n            aria-hidden=\"true\"\n            class=\"w-[19px] h-[19px] text-gray-800 dark:text-white\"\n          >\n            <path\n              d=\"m9 5 7 7-7 7\"\n              stroke-width=\"3\"\n              stroke-linejoin=\"round\"\n              stroke-linecap=\"round\"\n              stroke=\"currentColor\"\n            ></path>\n          </svg>\n        </span>\n        <p class=\"text\">npm install -D tailwindcss</p>\n      </div>\n      <div class=\"code\">\n        <span class=\"icon\">\n          <svg\n            viewBox=\"0 0 24 24\"\n            fill=\"none\"\n            height=\"13\"\n            width=\"13\"\n            xmlns=\"http://www.w3.org/2000/svg\"\n            aria-hidden=\"true\"\n            class=\"w-[19px] h-[19px] text-gray-800 dark:text-white\"\n          >\n            <path\n              d=\"m9 5 7 7-7 7\"\n              stroke-width=\"3\"\n              stroke-linejoin=\"round\"\n              stroke-linecap=\"round\"\n              stroke=\"currentColor\"\n            ></path>\n          </svg>\n        </span>\n        <p class=\"text\">npx tailwindcss init</p>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Na3ar-17  - Tags: simple, tailwind, tailwindcss */\n.container * {\n  padding: 0;\n  margin: 0;\n}\n\n.card {\n  width: 363px;\n  height: 130px;\n  background-color: #1e293b;\n  border-radius: 10px;\n  display: grid;\n  grid-template-rows: 40px 1fr;\n}\n\n.card .header {\n  display: flex;\n  align-items: center;\n  position: relative;\n}\n\n.card .header .title {\n  color: #7dd3fc;\n  font-size: 13px;\n  padding: 2px 12px;\n}\n\n.card .header .copy {\n  position: absolute;\n  top: 61%;\n  right: 1px;\n  transform: translate(-50%, -50%);\n  color: rgb(100, 116, 139);\n  cursor: pointer;\n  transition: all 0.3s ease;\n  z-index: 100;\n}\n\n.card .header .copy:hover {\n  color: rgb(148, 163, 184);\n}\n\n.card .header::before {\n  content: \"\";\n  position: absolute;\n  border-top-left-radius: 5px;\n  border-top-right-radius: 5px;\n  border: 1px solid #64748b4d;\n  right: 1px;\n  bottom: 0;\n  background-color: #33415580;\n  width: 282px;\n  height: 33px;\n  z-index: 100;\n}\n\n.card .header::after {\n  content: \"\";\n  position: absolute;\n  width: 22%;\n  height: 1px;\n  background-color: #7dd3fc;\n  bottom: 0;\n}\n\n.card .footer {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 5px;\n  padding-left: 10px;\n}\n\n.card .footer .code {\n  display: flex;\n  align-items: center;\n}\n\n.card .footer .code .icon {\n  color: rgb(244, 114, 182);\n  padding-top: 3px;\n}\n\n.card .footer .code .text {\n  padding-left: 3px;\n  color: #f8fafc;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

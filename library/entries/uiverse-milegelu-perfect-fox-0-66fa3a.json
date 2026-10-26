@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-milegelu-perfect-fox-0-66fa3a",
+  "title": "Pattern by milegelu (perfect-fox-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/milegelu/perfect-fox-0",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "black",
+    "clean"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By milegelu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/milegelu_perfect-fox-0.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by milegelu  - Tags: simple, black, clean */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background: #000000;\n  --gap: 5em;\n  --line: 1px;\n  --color: rgba(255, 255, 255, 0.2);\n\n  background-image: linear-gradient(\n      -90deg,\n      transparent calc(var(--gap) - var(--line)),\n      var(--color) calc(var(--gap) - var(--line) + 1px),\n      var(--color) var(--gap)\n    ),\n    linear-gradient(\n      0deg,\n      transparent calc(var(--gap) - var(--line)),\n      var(--color) calc(var(--gap) - var(--line) + 1px),\n      var(--color) var(--gap)\n    );\n  background-size: var(--gap) var(--gap);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-kyle1dev-chilly-goose-0-7965f3",
+  "title": "Button by kyle1dev (chilly-goose-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kyle1dev/chilly-goose-0",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kyle1dev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/kyle1dev_chilly-goose-0.html",
+  "code": "<button class=\"elegant-button\">Click Me</button>\n\n<style>\n/* From Uiverse.io by kyle1dev  - Tags: button */\n.elegant-button {\n  background: linear-gradient(45deg, #00bfff, #1e90ff);\n  border: none;\n  border-radius: 8px;\n  color: white;\n  font-size: 16px;\n  font-weight: bold;\n  padding: 12px 24px;\n  cursor: pointer;\n  outline: none;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n  transition: all 0.3s ease;\n}\n.elegant-button:hover {\n  background: linear-gradient(45deg, #1e90ff, #00bfff);\n  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);\n  transform: translateY(-4px);\n}\n.elegant-button:active {\n  background: linear-gradient(45deg, #00bfff, #1e90ff);\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n  transform: translateY(0);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

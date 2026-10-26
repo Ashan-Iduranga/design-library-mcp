@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vassod-hard-panther-41-69e452",
+  "title": "Button by VassoD (hard-panther-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/VassoD/hard-panther-41",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "minimalist",
+    "dark",
+    "simple-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By VassoD on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/VassoD_hard-panther-41.html",
+  "code": "<button class=\"button\">Simple button</button>\n\n<style>\n/* From Uiverse.io by VassoD  - Tags: minimalist, button, dark, simple button */\n.button {\n  cursor: pointer;\n  background: rgba(255, 255, 255, 0.15);\n  backdrop-filter: blur(10px);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  color: #fff;\n  padding: 10px 20px;\n  border-radius: 0.5rem;\n  transition: background 0.3s ease-in-out;\n}\n\n.button:hover {\n  background: rgba(255, 255, 255, 0.25);\n  text-decoration: underline;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

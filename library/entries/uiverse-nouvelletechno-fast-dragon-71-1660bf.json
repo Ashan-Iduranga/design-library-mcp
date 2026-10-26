@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nouvelletechno-fast-dragon-71-1660bf",
+  "title": "Card by NouvelleTechno (fast-dragon-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/NouvelleTechno/fast-dragon-71",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By NouvelleTechno on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/NouvelleTechno_fast-dragon-71.html",
+  "code": "<div class=\"card\">\n    <span class=\"title\">🍪 Cookie Notice</span>\n    <p class=\"description\">We use cookies to ensure that we give you the best experience on our website. <a href=\"#\">Read cookies policies</a>. </p>\n    <div class=\"actions\">\n        <a class=\"prefs\">\n            Manage preferences\n        </a>\n        <button class=\"decline\">\n            Decline\n        </button>\n        <button class=\"valid\">\n            Accept\n        </button>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by NouvelleTechno - Tags: card */\n.card {\n  width: 350px;\n  background: white;\n  padding: 20px;\n  position: relative;\n}\n\n.card .title {\n  color: black;\n  font-size: 2rem;\n  font-weight: 600;\n}\n\n.card .description {\n  color: black;\n  margin-top: 10px;\n  margin-bottom: 20px;\n}\n\n.card .prefs {\n  color: blue;\n}\n\n.card .actions {\n  margin-top: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  font-size: .8em;\n}\n\n.card button {\n  border: 1px solid;\n  border-radius: 4px;\n  padding: 5px;\n  background: none;\n  font-size: 1.2em;\n  font-weight: bold;\n}\n\n.card .decline {\n  border-color: red;\n  color: red;\n}\n\n.card .decline:hover {\n  background-color: red;\n  color: white;\n}\n\n.card .valid {\n  border-color: green;\n  color: green;\n}\n\n.card .valid:hover {\n  background-color: green;\n  color: white;\n}\n\n.card div::before, div::after {\n  content: \"\";\n  z-index: -1;\n  position: absolute;\n  bottom: 15px;\n  left: 10px;\n  width: 50%;\n  top: 80%;\n  max-width: 300px;\n  background: rgba(0,0,0,0.7);\n  -webkit-box-shadow: 0 15px 10px rgba(0,0,0,0.7);\n  box-shadow: 0 15px 10px rgba(0,0,0,0.7);\n  -webkit-transform: rotate(-3deg);\n  transform: rotate(-3deg);\n}\n\n.card div::after {\n  right: 10px;\n  left: unset;\n  transform: rotate(3deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

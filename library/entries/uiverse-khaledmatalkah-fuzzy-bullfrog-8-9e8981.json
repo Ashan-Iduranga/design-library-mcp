@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-khaledmatalkah-fuzzy-bullfrog-8-9e8981",
+  "title": "Card by KhaledMatalkah (fuzzy-bullfrog-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KhaledMatalkah/fuzzy-bullfrog-8",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "animation",
+    "hover",
+    "cube"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KhaledMatalkah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/KhaledMatalkah_fuzzy-bullfrog-8.html",
+  "code": "<div class=\"cube-container\">\n  <div class=\"cube\">\n    <div class=\"face front\">Front</div>\n    <div class=\"face back\">Back</div>\n    <div class=\"face right\">Right</div>\n    <div class=\"face left\">Left</div>\n    <div class=\"face top\">Top</div>\n    <div class=\"face bottom\">Bottom</div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by KhaledMatalkah - Tags: animation, card, hover, cube */\n.cube-container {\n  width: 200px;\n  height: 200px;\n  perspective: 800px;\n  margin: 50px auto;\n}\n\n.cube {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n  animation: rotate 8s infinite linear;\n}\n\n.face {\n  position: absolute;\n  width: 200px;\n  height: 200px;\n  color: rgb(214, 21, 21);\n  font-size: 18px;\n  text-align: center;\n  line-height: 200px;\n  background: transparent;\n  opacity: 0.9;\n  border: 2px solid;\n  border-image: linear-gradient(to right, #ff6b6b, #355c7d, #557d35, #cfcf16, #a51f1f) 1;\n  box-shadow: 0 0 100px rgba(245, 8, 8, 0.8);\n}\n\n.front {\n  transform: translateZ(100px);\n}\n\n.back {\n  transform: rotateY(180deg) translateZ(100px);\n}\n\n.right {\n  transform: rotateY(90deg) translateZ(100px);\n}\n\n.left {\n  transform: rotateY(-90deg) translateZ(100px);\n}\n\n.top {\n  transform: rotateX(90deg) translateZ(100px);\n}\n\n.bottom {\n  transform: rotateX(-90deg) translateZ(100px);\n}\n\n.cube-container:hover .cube {\n  animation-play-state: paused;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotateX(0) rotateY(0) rotateZ(0);\n  }\n\n  100% {\n    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

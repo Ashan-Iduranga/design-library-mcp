@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-gharsh11032000-massive-yak-100-d0dfba",
+  "title": "Button by gharsh11032000 (massive-yak-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/massive-yak-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/gharsh11032000_massive-yak-100.html",
+  "code": "<button class=\"button\">\n  <span class=\"span\">About us</span>\n  <span class=\"span\">Hello!</span>\n</button>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: gradient, button, hover effect */\n.button {\n  position: relative;\n  border: none;\n  color: #e8e8e8;\n  background: #333333;\n  font-weight: 600;\n  font-size: 20px;\n  text-transform: uppercase;\n  height: 60px;\n  padding: 10px;\n  border-radius: 10px;\n  cursor: pointer;\n  box-shadow: 0 10px 20px rgba(0, 0, 0,0.2);\n  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);\n  overflow: hidden;\n}\n\n.button .span {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  padding: 10px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n  transition-delay: 0.6s;\n}\n\n.button:hover .span:nth-child(1) {\n  transform: translateY(-100%);\n  transition-delay: 0s;\n}\n\n.button:hover .span:nth-child(2) {\n  transform: translateY(-100%);\n  transition-delay: 0s;\n}\n\n.button:before {\n  position: absolute;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );\n  transform: scaleX(0);\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n  transition-delay: 0;\n  transform-origin: left;\n}\n\n.button:hover::before {\n  transform: scaleX(1);\n  transition-delay: 0.6s;\n}\n\n.button:active {\n  box-shadow: none;\n}\n\n\n\n        \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

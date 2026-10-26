@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-boryanakrasteva-splendid-goose-38-195566",
+  "title": "Button by boryanakrasteva (splendid-goose-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/boryanakrasteva/splendid-goose-38",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By boryanakrasteva on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/boryanakrasteva_splendid-goose-38.html",
+  "code": "<button class=\"btn\">\n  See more \n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" height=\"15px\" width=\"15px\" class=\"icon\">\n<path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" stroke-width=\"1.5\" stroke=\"#292D32\" d=\"M8.91016 19.9201L15.4302 13.4001C16.2002 12.6301 16.2002 11.3701 15.4302 10.6001L8.91016 4.08008\"></path>\n</svg>\n</button>\n<style>\n/* From Uiverse.io by boryanakrasteva - Tags: button */\n.btn {\n  width: 140px;\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: space-evenly;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  border: none;\n  position: relative;\n  background-color: transparent;\n  transition: .2s cubic-bezier(0.19, 1, 0.22, 1);\n  opacity: 0.6;\n}\n\n.btn::after {\n  content: '';\n  border-bottom: 3px double rgb(214, 207, 113);\n  width: 0;\n  height: 100%;\n  position: absolute;\n  margin-top: -5px;\n  top: 0;\n  left: 5px;\n  visibility: hidden;\n  opacity: 1;\n  transition: .2s linear;\n}\n\n.btn .icon {\n  transform: translateX(0%);\n  transition: .2s linear;\n  animation: attention 1.2s linear infinite;\n}\n\n.btn:hover::after {\n  visibility: visible;\n  opacity: 0.7;\n  width: 90%;\n}\n\n.btn:hover {\n  letter-spacing: 2px;\n  opacity: 1;\n}\n\n.btn:hover > .icon {\n  transform: translateX(30%);\n  animation: none;\n}\n\n@keyframes attention {\n  0% {\n    transform: translateX(0%);\n  }\n\n  50% {\n    transform: translateX(30%);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

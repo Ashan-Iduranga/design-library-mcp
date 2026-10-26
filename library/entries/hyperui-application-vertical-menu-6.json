@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-vertical-menu-6",
+  "title": "Vertical Menu: Accordion menu",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/vertical-menu",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "vertical-menu",
+    "hyperui",
+    "navigation",
+    "sidebar"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/vertical-menu/6.html",
+  "code": "<div class=\"mx-auto max-w-sm p-6\">\n<ul class=\"space-y-1\">\n<li>\n<a class=\"block rounded-lg bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700\" href=\"#\">\n          General\n        </a>\n</li>\n<li>\n<details class=\"group [&amp;_summary::-webkit-details-marker]:hidden\">\n<summary class=\"flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700\">\n<span class=\"text-sm font-medium\"> Teams </span>\n<span class=\"shrink-0 transition duration-300 group-open:-rotate-180\">\n<svg aria-hidden=\"true\" class=\"size-5\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path clip-rule=\"evenodd\" d=\"M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z\" fill-rule=\"evenodd\"></path>\n</svg>\n</span>\n</summary>\n<ul class=\"mt-2 space-y-1 px-4\">\n<li>\n<a class=\"block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700\" href=\"#\">\n                Banned Users\n              </a>\n</li>\n<li>\n<a class=\"block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700\" href=\"#\">\n                Calendar\n              </a>\n</li>\n</ul>\n</details>\n</li>\n<li>\n<a class=\"block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700\" href=\"#\">\n          Billing\n        </a>\n</li>\n<li>\n<a class=\"block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700\" href=\"#\">\n          Invoices\n        </a>\n</li>\n<li>\n<details class=\"group [&amp;_summary::-webkit-details-marker]:hidden\">\n<summary class=\"flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700\">\n<span class=\"text-sm font-medium\"> Account </span>\n<span class=\"shrink-0 transition duration-300 group-open:-rotate-180\">\n<svg aria-hidden=\"true\" class=\"size-5\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path clip-rule=\"evenodd\" d=\"M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z\" fill-rule=\"evenodd\"></path>\n</svg>\n</span>\n</summary>\n<ul class=\"mt-2 space-y-1 px-4\">\n<li>\n<a class=\"block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700\" href=\"#\">\n                Details\n              </a>\n</li>\n<li>\n<a class=\"block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700\" href=\"#\">\n                Security\n              </a>\n</li>\n<li>\n<form action=\"#\">\n<button class=\"w-full rounded-lg px-4 py-2 [text-align:_inherit] text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700\" type=\"submit\">\n                  Logout\n                </button>\n</form>\n</li>\n</ul>\n</details>\n</li>\n</ul>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

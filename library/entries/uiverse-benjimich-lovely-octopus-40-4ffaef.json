@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-benjimich-lovely-octopus-40-4ffaef",
+  "title": "Button by benjimich (lovely-octopus-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/benjimich/lovely-octopus-40",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "arrow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By benjimich on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/benjimich_lovely-octopus-40.html",
+  "code": "<div class=\"container\">\n  <button class=\"button\">Button</button>\n  <span class=\"arrow first\">\n    <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z\"></path>\n    </svg>\n  </span>\n  <span class=\"arrow second\">\n    <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z\"></path>\n    </svg>\n  </span>\n  <span class=\"arrow third\">\n    <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z\"></path>\n    </svg>\n  </span>\n</div>\n<style>\n/* From Uiverse.io by benjimich - Tags: icon, button, arrow */\n.container {\n  display: flex;\n  position: relative;\n}\n\n.button {\n  cursor: pointer;\n  background: none;\n  border: none;\n  border-radius: 8px;\n  padding: .5em 1.5em;\n  font-size: 20px;\n  font-weight: 600;\n  color: #7f5af0;\n  transition: all .3s ease;\n}\n\n.arrow {\n  fill: #94a1b2;\n  position: absolute;\n  pointer-events: none;\n  width: 24px;\n  right: 0;\n  top: 25%;\n  transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1);\n}\n\n.button:hover {\n  letter-spacing: 2px;\n}\n\n.button:hover ~.second {\n  opacity: .66;\n  right: -20px;\n  transition-delay: 50ms;\n}\n\n.button:hover ~.third {\n  opacity: .33;\n  right: -40px;\n  transition-delay: 100ms;\n}\n\n.second, \n.third {\n  opacity: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

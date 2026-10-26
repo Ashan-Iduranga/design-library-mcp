@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-priyanshugupta28-bitter-bulldog-63-f4e205",
+  "title": "Input by PriyanshuGupta28 (bitter-bulldog-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/bitter-bulldog-63",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "input-effect",
+    "css-input",
+    "html-input",
+    "cool-input"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/PriyanshuGupta28_bitter-bulldog-63.html",
+  "code": "<div class=\"input-container\">\n    <label for=\"name\" class=\"name\">Name:</label>\n    <input placeholder=\"Enter your name\" type=\"text\" class=\"input\">\n    <div class=\"underline\"></div>\n  </div>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: input, input effect , css input, html input, cool input */\n.input-container {\n  position: relative;\n  margin: 20px;\n}\n\nlabel {\n  display: block;\n  margin-bottom: 5px;\n  color: #333;\n}\n\n.input[type=\"text\"] {\n  padding: 10px;\n  font-size: 16px;\n  border: none;\n  border-radius: 4px;\n  background-color: #f1f1f1;\n  color: #333;\n  width: 200px;\n  outline: none;\n}\n\n.underline {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 0;\n  height: 2px;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  transition: width 0.3s;\n}\n\n.input[type=\"text\"]:focus + .underline {\n  width: 100%;\n}\n\n@keyframes floating-label {\n  0% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n\n  100% {\n    transform: translateY(-25px);\n    opacity: 0;\n  }\n}\n\n.input[type=\"text\"]:placeholder-shown + label {\n  position: absolute;\n  top: 50%;\n  left: 10px;\n  transform: translateY(-50%);\n  font-size: 14px;\n  color: #777;\n  pointer-events: none;\n  transition: transform 0.3s, font-size 0.3s, color 0.3s;\n}\n\n.input[type=\"text\"]:focus:not(:placeholder-shown) + label {\n  transform: translateY(-25px);\n  font-size: 12px;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  animation: floating-label 0.3s forwards;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

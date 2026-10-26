@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-alexruix-blue-kangaroo-55-fc6115",
+  "title": "Pattern by alexruix (blue-kangaroo-55)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/blue-kangaroo-55",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "green",
+    "arrow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/alexruix_blue-kangaroo-55.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by alexruix  - Tags: simple, green, arrow, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  --size: 80px; /* control the size */\n  --color: #fefae0;\n\n  --l: var(--color) 20%, #0000 0;\n  --bg: 35%, #606c38 0 45%, var(--color) 0;\n  background: linear-gradient(45deg, var(--l) 45%, var(--color) 0 70%, #0000 0),\n    linear-gradient(-45deg, var(--l) var(--bg) 70%, #0000 0),\n    linear-gradient(45deg, var(--color) var(--bg));\n  background-size: var(--size) var(--size);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

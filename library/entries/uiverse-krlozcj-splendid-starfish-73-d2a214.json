@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-krlozcj-splendid-starfish-73-d2a214",
+  "title": "Input by krlozCJ (splendid-starfish-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/krlozCJ/splendid-starfish-73",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "search"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By krlozCJ on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/krlozCJ_splendid-starfish-73.html",
+  "code": "<div class=\"container\">\n    <input type=\"text\" name=\"text\" class=\"input\" required=\"\" placeholder=\"Type to search...\">\n    <div class=\"icon\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"ionicon\" viewBox=\"0 0 512 512\">\n            <title>Search</title>\n            <path d=\"M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z\" fill=\"none\" stroke=\"currentColor\" stroke-miterlimit=\"10\" stroke-width=\"32\"></path>\n            <path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" stroke-width=\"32\" d=\"M338.29 338.29L448 448\"></path>\n        </svg>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by krlozCJ - Tags: input, search */\n.container {\n  position: relative;\n  --size-button: 40px;\n  color: white;\n}\n\n.input {\n  padding-left: var(--size-button);\n  height: var(--size-button);\n  font-size: 15px;\n  border: none;\n  color: #fff;\n  outline: none;\n  width: var(--size-button);\n  transition: all ease 0.3s;\n  background-color: #191A1E;\n  box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%), inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e;\n  border-radius: 50px;\n  cursor: pointer;\n}\n\n.input:focus,\n.input:not(:invalid) {\n  width: 200px;\n  cursor: text;\n  box-shadow: 0px 0px 0px #0e0e0e, 0px 0px 0px rgb(95 94 94 / 25%), inset 1.5px 1.5px 3px #0e0e0e, inset -1.5px -1.5px 3px #5f5e5e;\n}\n\n.input:focus + .icon,\n.input:not(:invalid) + .icon {\n  pointer-events: all;\n  cursor: pointer;\n}\n\n.container .icon {\n  position: absolute;\n  width: var(--size-button);\n  height: var(--size-button);\n  top: 0;\n  left: 0;\n  padding: 8px;\n  pointer-events: none;\n}\n\n.container .icon svg {\n  width: 100%;\n  height: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

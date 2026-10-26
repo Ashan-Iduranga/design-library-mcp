@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-selfmadesystem-calm-cat-84-d91a90",
+  "title": "Checkbox by SelfMadeSystem (calm-cat-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/calm-cat-84",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/SelfMadeSystem_calm-cat-84.html",
+  "code": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n<style>\n/* From Uiverse.io by SelfMadeSystem - Tags: checkbox */\n/* Hide the default checkbox */\n.container input {\n  display: none;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n  -webkit-tap-highlight-color: transparent;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  background-color: #2196F300;\n  border-radius: 0.25em;\n  transition: all 0.25s;\n}\n\n/* When the checkbox is checked, add a blue background */\n.container input:checked ~ .checkmark {\n  background-color: #2196F3;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  transform: rotate(0deg);\n  border: 0.1em solid black;\n  left: 0;\n  top: 0;\n  width: 1.05em;\n  height: 1.05em;\n  border-radius: 0.25em;\n  transition: all 0.25s, border-width 0.1s;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n  left: 0.45em;\n  top: 0.25em;\n  width: 0.25em;\n  height: 0.5em;\n  border-color: #fff0 white white #fff0;\n  border-width: 0 0.15em 0.15em 0;\n  border-radius: 0em;\n  transform: rotate(45deg);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

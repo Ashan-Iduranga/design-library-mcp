@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-seyed-mohsen-mousavi-heavy-cobra-18-d6deef",
+  "title": "Card by seyed-mohsen-mousavi (heavy-cobra-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/seyed-mohsen-mousavi/heavy-cobra-18",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "alert",
+    "notification",
+    "message"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By seyed-mohsen-mousavi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/seyed-mohsen-mousavi_heavy-cobra-18.html",
+  "code": "<!-- From Uiverse.io by seyed-mohsen-mousavi  - Tags: alert, notification, card, message -->\n<div class=\"flex flex-col gap-2 w-60 sm:w-72 text-[10px] sm:text-xs z-50\">\n  <div\n    class=\"error-alert cursor-default flex items-center justify-between w-full h-12 sm:h-14 rounded-lg bg-[#232531] px-[10px]\"\n  >\n    <div class=\"flex gap-2\">\n      <div class=\"text-[#d65563] bg-white/5 backdrop-blur-xl p-1 rounded-lg\">\n        <svg\n          xmlns=\"http://www.w3.org/2000/svg\"\n          fill=\"none\"\n          viewBox=\"0 0 24 24\"\n          stroke-width=\"1.5\"\n          stroke=\"currentColor\"\n          class=\"w-6 h-6\"\n        >\n          <path\n            stroke-linecap=\"round\"\n            stroke-linejoin=\"round\"\n            d=\"M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z\"\n          ></path>\n        </svg>\n      </div>\n      <div>\n        <p class=\"text-white\">Please try again</p>\n        <p class=\"text-gray-500\">This is the description part</p>\n      </div>\n    </div>\n    <button\n      class=\"text-gray-600 hover:bg-white/10 p-1 rounded-md transition-colors ease-linear\"\n    >\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        stroke-width=\"1.5\"\n        stroke=\"currentColor\"\n        class=\"w-6 h-6\"\n      >\n        <path\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n          d=\"M6 18 18 6M6 6l12 12\"\n        ></path>\n      </svg>\n    </button>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

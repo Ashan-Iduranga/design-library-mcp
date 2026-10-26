@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-mrhyddenn-short-treefrog-23-7f4fd2",
+  "title": "Toggle by mrhyddenn (short-treefrog-23)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/short-treefrog-23",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/mrhyddenn_short-treefrog-23.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: switch */\n/* The switch - the box around the slider */\n.switch {\n font-size: 17px;\n position: relative;\n display: inline-block;\n width: 3.5em;\n height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n opacity: 0;\n width: 0;\n height: 0;\n}\n\n/* The slider */\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n background-color: #fff;\n border: 1px solid #99999;\n transition: .4s;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 1.5em;\n width: 1.5em;\n left: 0.20em;\n bottom: 0.25em;\n background-color: white;\n transition: .4s;\n box-shadow: 0 0 2px 0px #999999;\n}\n\ninput:checked + .slider {\n background-color: #2da54f;\n}\n\ninput:focus + .slider {\n box-shadow: 0 0 1px #2196F3;\n}\n\ninput:checked + .slider:before {\n transform: translateX(1.5em);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

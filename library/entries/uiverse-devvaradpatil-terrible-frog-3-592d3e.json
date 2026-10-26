@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-devvaradpatil-terrible-frog-3-592d3e",
+  "title": "Button by DevVaradPatil (terrible-frog-3)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/DevVaradPatil/terrible-frog-3",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By DevVaradPatil on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/DevVaradPatil_terrible-frog-3.html",
+  "code": "<button>\n  Button\n</button>\n<style>\n/* From Uiverse.io by DevVaradPatil - Tags: button */\nbutton {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  width: 130px;\n  height: 45px;\n  text-align: center;\n  line-height: 45px;\n  color: #fff;\n  font-size: 15px;\n  text-transform: uppercase;\n  text-decoration: none;\n  font-family: sans-serif;\n  box-sizing: border-box;\n  background: linear-gradient(90deg,#03a9f4,#ffeb3b,#f441af,#03a9f4);\n  background-size: 400%;\n  border-radius: 30px;\n  z-index: 1;\n  border: none;\n  outline: none;\n}\n\nbutton:hover {\n  animation: animate 6s linear infinite;\n}\n\n@keyframes animate {\n  0% {\n    background-position: 0%;\n  }\n\n  100% {\n    background-position: 400%;\n  }\n}\n\nbutton::before {\n  content: '';\n  position: absolute;\n  top: -5px;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  z-index: -1;\n  background: linear-gradient(90deg,#03a9f4,#ffeb3b,#f441af,#03a9f4);\n  border-radius: 40px;\n  filter: blur(20px);\n  opacity: 0;\n  transition: 0.5s;\n}\n\nbutton:hover::before {\n  filter: blur(20px);\n  opacity: 1;\n  animation: animate 6s linear infinite;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

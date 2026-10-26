@@ -1,0 +1,34 @@
+{
+  "id": "radix-colors-green",
+  "title": "Radix Colors: Green scale",
+  "source": "Radix Colors",
+  "url": "https://www.radix-ui.com/colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "green",
+    "radix",
+    "color-scale",
+    "color",
+    "accessible",
+    "dark-mode"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "12-step green scale with a matching dark-mode scale. Steps 1-2: app and subtle backgrounds. 3-5: component backgrounds (normal, hover, pressed). 6-8: borders and focus rings. 9-10: solid backgrounds (e.g. buttons). 11-12: low and high contrast text.\n\nAlso available: greenA (alpha) and P3 wide-gamut versions.\n\nUse: npm i @radix-ui/colors, then import \"@radix-ui/colors/green.css\" and \"@radix-ui/colors/green-dark.css\".\n\nOriginal file: https://github.com/radix-ui/colors/blob/main/src/light.ts",
+  "code": "<style>\n:root {\n  --green-1: #fbfefc;\n  --green-2: #f4fbf6;\n  --green-3: #e6f6eb;\n  --green-4: #d6f1df;\n  --green-5: #c4e8d1;\n  --green-6: #adddc0;\n  --green-7: #8eceaa;\n  --green-8: #5bb98b;\n  --green-9: #30a46c;\n  --green-10: #2b9a66;\n  --green-11: #218358;\n  --green-12: #193b2d;\n}\n.dark {\n  --green-1: #0e1512;\n  --green-2: #121b17;\n  --green-3: #132d21;\n  --green-4: #113b29;\n  --green-5: #174933;\n  --green-6: #20573e;\n  --green-7: #28684a;\n  --green-8: #2f7c57;\n  --green-9: #30a46c;\n  --green-10: #33b074;\n  --green-11: #3dd68c;\n  --green-12: #b1f1cb;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Radix green</strong>\n<p>light</p><div class=\"row\"><div style=\"background:#fbfefc\" title=\"--green-1: #fbfefc\"><span>1</span></div><div style=\"background:#f4fbf6\" title=\"--green-2: #f4fbf6\"><span>2</span></div><div style=\"background:#e6f6eb\" title=\"--green-3: #e6f6eb\"><span>3</span></div><div style=\"background:#d6f1df\" title=\"--green-4: #d6f1df\"><span>4</span></div><div style=\"background:#c4e8d1\" title=\"--green-5: #c4e8d1\"><span>5</span></div><div style=\"background:#adddc0\" title=\"--green-6: #adddc0\"><span>6</span></div><div style=\"background:#8eceaa\" title=\"--green-7: #8eceaa\"><span>7</span></div><div style=\"background:#5bb98b\" title=\"--green-8: #5bb98b\"><span>8</span></div><div style=\"background:#30a46c\" title=\"--green-9: #30a46c\"><span>9</span></div><div style=\"background:#2b9a66\" title=\"--green-10: #2b9a66\"><span>10</span></div><div style=\"background:#218358\" title=\"--green-11: #218358\"><span>11</span></div><div style=\"background:#193b2d\" title=\"--green-12: #193b2d\"><span>12</span></div></div>\n<p>dark</p><div class=\"row\"><div style=\"background:#0e1512\" title=\"--green-1: #0e1512\"><span>1</span></div><div style=\"background:#121b17\" title=\"--green-2: #121b17\"><span>2</span></div><div style=\"background:#132d21\" title=\"--green-3: #132d21\"><span>3</span></div><div style=\"background:#113b29\" title=\"--green-4: #113b29\"><span>4</span></div><div style=\"background:#174933\" title=\"--green-5: #174933\"><span>5</span></div><div style=\"background:#20573e\" title=\"--green-6: #20573e\"><span>6</span></div><div style=\"background:#28684a\" title=\"--green-7: #28684a\"><span>7</span></div><div style=\"background:#2f7c57\" title=\"--green-8: #2f7c57\"><span>8</span></div><div style=\"background:#30a46c\" title=\"--green-9: #30a46c\"><span>9</span></div><div style=\"background:#33b074\" title=\"--green-10: #33b074\"><span>10</span></div><div style=\"background:#3dd68c\" title=\"--green-11: #3dd68c\"><span>11</span></div><div style=\"background:#b1f1cb\" title=\"--green-12: #b1f1cb\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "Building a UI color system with predictable steps for backgrounds, borders and text, including dark mode.",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

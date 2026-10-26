@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-nanda248-neat-tiger-26-c352c1",
+  "title": "Card by nanda248 (neat-tiger-26)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/nanda248/neat-tiger-26",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "playing-card",
+    "stack-of-cards",
+    "gold-card"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By nanda248 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/nanda248_neat-tiger-26.html",
+  "code": "<div class=\"main\">\n  <div class=\"card\">\n    <div class=\"i1\">\n      <span class=\"corner-text\">A</span>\n      <svg viewBox=\"0 0 122.88 107.39\">\n        <defs></defs>\n        <title>red-heart</title>\n        <path\n          d=\"M60.83,17.18c8-8.35,13.62-15.57,26-17C110-2.46,131.27,21.26,119.57,44.61c-3.33,6.65-10.11,14.56-17.61,22.32-8.23,8.52-17.34,16.87-23.72,23.2l-17.4,17.26L46.46,93.55C29.16,76.89,1,55.92,0,29.94-.63,11.74,13.73.08,30.25.29c14.76.2,21,7.54,30.58,16.89Z\"\n          class=\"heart-icon\"\n        ></path>\n      </svg>\n    </div>\n\n    <div class=\"center-shape\">\n      <svg viewBox=\"0 0 122.88 107.39\">\n        <defs></defs>\n        <title>red-heart</title>\n        <path\n          d=\"M60.83,17.18c8-8.35,13.62-15.57,26-17C110-2.46,131.27,21.26,119.57,44.61c-3.33,6.65-10.11,14.56-17.61,22.32-8.23,8.52-17.34,16.87-23.72,23.2l-17.4,17.26L46.46,93.55C29.16,76.89,1,55.92,0,29.94-.63,11.74,13.73.08,30.25.29c14.76.2,21,7.54,30.58,16.89Z\"\n          class=\"heart-icon\"\n        ></path>\n      </svg>\n    </div>\n\n    <div class=\"i2\">\n      <span class=\"corner-text\">A</span>\n      <svg viewBox=\"0 0 122.88 107.39\">\n        <defs></defs>\n        <title>red-heart</title>\n        <path\n          d=\"M60.83,17.18c8-8.35,13.62-15.57,26-17C110-2.46,131.27,21.26,119.57,44.61c-3.33,6.65-10.11,14.56-17.61,22.32-8.23,8.52-17.34,16.87-23.72,23.2l-17.4,17.26L46.46,93.55C29.16,76.89,1,55.92,0,29.94-.63,11.74,13.73.08,30.25.29c14.76.2,21,7.54,30.58,16.89Z\"\n          class=\"heart-icon\"\n        ></path>\n      </svg>\n    </div>\n  </div>\n\n  <div class=\"bg-card-1\"></div>\n\n  <div class=\"bg-card-2\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by nanda248  - Tags: card, playing card, stack of cards, gold card */\n.main {\n  position: relative;\n}\n\n/* card styles */\n.card {\n  position: relative;\n  overflow: hidden;\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr;\n  grid-template-rows: 1fr 1fr 1fr;\n  grid-auto-flow: row;\n  grid-template-areas:\n    \"i1 . .\"\n    \". center .\"\n    \". . i2\";\n  width: 12em;\n  height: 18em;\n  border-radius: 4px;\n  background: #ffd700;\n  transition: 0.5s;\n  z-index: 20;\n}\n\n.bg-card-1 {\n  background-color: #daa520;\n  position: absolute;\n  top: 0;\n  width: 12em;\n  height: 18em;\n  border-radius: 4px;\n  transition: 0.5s;\n  z-index: 8;\n}\n\n.bg-card-2 {\n  background-color: #b8860b;\n  position: absolute;\n  top: 0;\n  width: 12em;\n  height: 18em;\n  border-radius: 4px;\n  transition: 0.5s;\n  z-index: 4;\n}\n\n/* glider animation */\n.card:before {\n  content: \"\";\n  position: absolute;\n  height: 130%;\n  width: 0.6em;\n  background-color: aliceblue;\n  opacity: 0.3;\n  animation: glider 1.8s infinite linear;\n  animation-delay: 0.05s;\n}\n\n.card:after {\n  content: \"\";\n  position: absolute;\n  height: 130%;\n  width: 0.4em;\n  background-color: aliceblue;\n  opacity: 0.2;\n  animation: glider 1.8s infinite linear;\n}\n\n@keyframes glider {\n  0% {\n    transform: rotate(45deg) translate(-140px, -140px);\n  }\n\n  100% {\n    transform: rotate(45deg) translate(220px, -40px);\n  }\n}\n\n/* icon styles */\n.i1,\n.i2 svg {\n  width: 1.5em;\n  fill: #ff3131;\n}\n\n.i1 {\n  grid-area: i1;\n  justify-self: flex-start;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: center;\n  margin: 0.2em 0.4em;\n}\n\n.i2 {\n  grid-area: i2;\n  justify-self: flex-end;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: center;\n  margin: 0.2em 0.4em;\n  transform: rotate(180deg);\n}\n\n.corner-text {\n  color: #ff3131;\n  font-weight: bold;\n  font-size: 1.2em;\n}\n\n.center-shape {\n  grid-area: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.center-shape svg {\n  width: 4em;\n  fill: #ff3131;\n}\n\n/* hover effects */\n.card:hover {\n  box-shadow: #ffd700 0px 7px 29px 0px;\n  cursor: pointer;\n}\n\n.card:hover:after,\n.card:hover:before {\n  visibility: hidden;\n}\n\n.card:hover svg,\n.card:hover span {\n  animation: color-change 1s ease-in-out;\n  animation-fill-mode: forwards;\n}\n\n@keyframes color-change {\n  from {\n    fill: #ff3131;\n    color: #ff3131;\n  }\n\n  to {\n    fill: #e34234;\n    color: #e34234;\n  }\n}\n\n/* hover fan out effects */\n.card:active {\n  transform: rotate(10deg);\n  transform-origin: bottom left;\n  box-shadow: none;\n}\n\n.card:active + .bg-card-1 {\n  transform: rotate(5deg);\n  transform-origin: bottom left;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

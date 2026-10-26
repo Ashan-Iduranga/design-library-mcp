@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-clawhack1-fuzzy-lionfish-82-ff2263",
+  "title": "Form by ClawHack1 (fuzzy-lionfish-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ClawHack1/fuzzy-lionfish-82",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ClawHack1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/ClawHack1_fuzzy-lionfish-82.html",
+  "code": "<div class=\"contact-form\">\n  <span class=\"heading\">Contact Us</span>\n  <form>\n    <label for=\"name\">Name:</label>\n    <input type=\"text\" required=\"\">\n    <label for=\"email\">Email:</label>\n    <input type=\"email\" id=\"email\" name=\"email\" required=\"\">\n    <label for=\"message\">Message:</label>\n    <textarea id=\"message\" name=\"message\" required=\"\"></textarea>\n    <button type=\"submit\">Submit</button>\n  </form>\n</div>\n\n<style>\n/* From Uiverse.io by ClawHack1 - Tags: form */\n.contact-form {\n  background-color: #f2f2f2;\n  padding: 20px;\n  border-radius: 10px;\n}\n\n.contact-form label {\n  color: black;\n}\n\n.contact-form .heading {\n  font-size: 24px;\n  color: black;\n  ;\n  margin-bottom: 12px;\n  font-weight: bold;\n  display: block;\n}\n\n.contact-form form {\n  display: flex;\n  flex-direction: column;\n}\n\n.contact-form label {\n  margin-bottom: 10px;\n}\n\ntextarea {\n  resize: none;\n  height: 80px;\n  width: 200px;\n}\n\n.contact-form input, .contact-form textarea {\n  padding: 10px;\n  border: none;\n  border-radius: 5px;\n  margin-bottom: 20px;\n}\n\n.contact-form input:focus, .contact-form textarea:focus {\n  outline: none;\n  box-shadow: 0 0 5px #ff6384;\n  transform: scale(1.05);\n  transition: transform 0.3s ease-in-out;\n}\n\n.contact-form button[type=\"submit\"] {\n  background-color: #ff6384;\n  color: #fff;\n  border: none;\n  border-radius: 5px;\n  padding: 10px 20px;\n  font-size: 16px;\n  cursor: pointer;\n}\n\n.contact-form button[type=\"submit\"]:hover {\n  transform: scale(1.1);\n  transition: transform 0.3s ease-in-out;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

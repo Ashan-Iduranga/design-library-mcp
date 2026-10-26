@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-arturcodecraft-fresh-hound-11-c72df6",
+  "title": "Button by ArturCodeCraft (fresh-hound-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ArturCodeCraft/fresh-hound-11",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "links",
+    "btn"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ArturCodeCraft on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ArturCodeCraft_fresh-hound-11.html",
+  "code": "<a href=\"#\" class=\"menu__link\">\n  Hover me!\n</a>\n<style>\n/* From Uiverse.io by ArturCodeCraft - Tags: button, links, btn */\n/* <reset-style> ============================ */\na {\n  text-decoration: none;\n}\n/* <main-style> ============================ */\n.menu__link {\n  color: #fff;\n  line-height: 2;\n  position: relative;\n  padding-right: 4px;\n}\n\n.menu__link:hover {\n  text-decoration: underline;\n}\n\n.menu__link::before {\n  content: '';\n  width: 6px;\n  height: 6px;\n  border-top: solid 2px #fff;\n  border-right: solid 2px #fff;\n  border-radius: 2px;\n  position: absolute;\n  top: 50%;\n  left: 100%;\n  transform: translateY(-50%) rotate(45deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

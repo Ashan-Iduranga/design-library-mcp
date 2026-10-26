@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-optx71285225-little-lionfish-48-024f84",
+  "title": "Checkbox by OptX71285225 (little-lionfish-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/OptX71285225/little-lionfish-48",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "simple",
+    "green"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By OptX71285225 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/OptX71285225_little-lionfish-48.html",
+  "code": "<label class=\"checkbox-container\">\n  <input type=\"checkbox\" />\n  <span class=\"checkmark\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by OptX71285225  - Tags: simple, green, checkbox */\n/* Hide the default checkbox */\n.checkbox-container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n}\n\n/* Create a custom checkbox container */\n.checkbox-container {\n  position: relative;\n  display: inline-block;\n  font-size: 18px; /* Make the checkbox slightly bigger */\n  margin-bottom: 12px;\n  cursor: pointer;\n}\n\n/* Style the checkmark */\n.checkmark {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 30px; /* Make the checkbox slightly bigger */\n  width: 30px; /* Make the checkbox slightly bigger */\n  border: 2px solid #ccc; /* Add border for 3D effect */\n  border-radius: 6px; /* Round the corners */\n  background-color: #fff; /* Default color */\n  transition: all 0.3s ease; /* Add smooth transition */\n}\n\n/* Show the checkmark when checkbox is checked */\n.checkbox-container input:checked ~ .checkmark:after {\n  display: block;\n  animation: checkboxExpand 0.3s ease forwards;\n}\n\n/* Style the checkmark/indicator */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n  top: 50%; /* Center vertically */\n  left: 50%; /* Center horizontally */\n  transform: translate(-50%, -50%) rotate(45deg) scale(0); /* Center and hide initially, then scale to appear */\n  width: 8px; /* Adjust size */\n  height: 15px; /* Adjust size */\n  border: solid #fff; /* Change color of the tick to white */\n  border-width: 0 4px 4px 0; /* Adjust thickness and direction */\n}\n\n/* On hover, add a grey background color */\n.checkbox-container:hover .checkmark {\n  background-color: #ccc;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add subtle shadow */\n  transform: scale(1.05); /* Scale up slightly */\n}\n\n/* When the checkbox is checked, add a green background */\n.checkbox-container input:checked ~ .checkmark {\n  background-color: #4caf50;\n  border-color: #4caf50; /* Change border color */\n  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Add shadow for 3D effect */\n}\n\n/* Keyframes for expanding animation */\n@keyframes checkboxExpand {\n  0% {\n    transform: translate(-50%, -50%) rotate(45deg) scale(0);\n  }\n  100% {\n    transform: translate(-50%, -50%) rotate(45deg) scale(1);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

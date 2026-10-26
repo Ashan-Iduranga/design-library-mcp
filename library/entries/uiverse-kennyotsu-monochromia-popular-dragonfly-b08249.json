@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-kennyotsu-monochromia-popular-dragonfly-b08249",
+  "title": "Card by kennyotsu-monochromia (popular-dragonfly-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kennyotsu-monochromia/popular-dragonfly-22",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "theme",
+    "monochromia",
+    "palette"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kennyotsu-monochromia on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/kennyotsu-monochromia_popular-dragonfly-22.html",
+  "code": "<div class=\"card\">\n  <div class=\"title\">\n    <p class=\"heading\">MONOCHROMIA</p>\n    <p class=\"desc\">palette reference</p>\n  </div>\n  <div class=\"wrapper\">\n    <div class=\"color black\">\n      black\n      <span class=\"hex\">#000000</span>\n    </div>\n    <div class=\"color eerie-black\">\n      eerie-black\n      <span class=\"hex\">#1b1b1b</span>\n    </div>\n    <div class=\"color chinese-black\">\n      chinese-black\n      <span class=\"hex\">#141414</span>\n    </div>\n     <div class=\"color night-rider\">\n      night rider\n      <span class=\"hex\">#2e2e2e</span>\n    </div>\n    <div class=\"color chinese-white\">\n      chinese-white\n      <span class=\"hex\">#e1e1e1</span>\n    </div>\n    <div class=\"color anti-flash-white\">\n      anti-flash-white\n      <span class=\"hex\">#f3f3f3</span>\n    </div>\n    <div class=\"color white\">\n      white\n      <span class=\"hex\">#ffffff</span>\n    </div>\n  <div class=\"border\">common border radius <span>5px | 8px</span></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by kennyotsu-monochromia - Tags: card, theme, monochromia, palette */\n.card {\n  width: 400px;\n  height: 350px;\n  --black: #000000;\n  --ch-black: #141414;\n  --eer-black: #1b1b1b;\n  --night-rider: #2e2e2e;\n  --white: #ffffff;\n  --af-white: #f3f3f3;\n  --ch-white: #e1e1e1;\n  font-family: Helvetica, sans-serif;\n}\n\n.wrapper {\n  margin: 2rem auto;\n  width: 250px;\n  font-size: small;\n}\n\n.title {\n  text-align: center;\n  color: #1b1b1b;\n}\n\n.heading {\n  font-weight: bold;\n  letter-spacing: 7px;\n  font-size: 1.5rem;\n  position: relative;\n  margin-bottom: 6px;\n}\n\n.heading::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: #e8e8e8;\n  z-index: -1;\n  filter: blur(50px);\n  height: 50px;\n}\n\n.color {\n  padding: 10px 20px;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n}\n\n.hex {\n  text-align: end;\n  font-family: monospace;\n  text-transform: uppercase;\n}\n\n.black {\n  background: var(--black);\n  color: var(--ch-white);\n  border-top-left-radius: 5px;\n  border-top-right-radius: 5px;\n}\n\n.eerie-black {\n  background: var(--ch-black);\n  color: var(--ch-white);\n}\n\n.chinese-black {\n  background: var(--eer-black);\n  color: var(--ch-white);\n}\n\n.night-rider {\n  background: var(--night-rider);\n  color: var(--ch-white);\n}\n\n.chinese-white {\n  background: var(--ch-white);\n  color: var(--night-rider);\n}\n\n.anti-flash-white {\n  background: var(--af-white);\n  color: var(--night-rider);\n}\n\n.white {\n  background: var(--white);\n  color: var(--night-rider);\n  border-bottom-left-radius: 5px;\n  border-bottom-right-radius: 5px;\n}\n\n.border {\n  color: var(--night-rider);\n  padding: 10px 10px;\n  text-align: center;\n}\n\n.border span {\n  border-radius: 5px;\n  color: var(--ch-white);\n  padding: 2px 4px;\n  background-color: var(--night-rider);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

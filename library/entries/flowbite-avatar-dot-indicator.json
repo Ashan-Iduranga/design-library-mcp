@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-avatar-dot-indicator",
+  "title": "Avatar: Dot indicator (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/avatar/#dot-indicator",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "avatar",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use a dot element relative to the avatar component as an indicator for the user (eg. online or offline status).\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/avatar.md",
+  "code": "<div class=\"relative\">\n    <img class=\"w-10 h-10 rounded-full\" src=\"/docs/images/people/profile-picture-5.jpg\" alt=\"\">\n    <span class=\"top-0 left-7 absolute  w-3.5 h-3.5 bg-success border-2 border-buffer rounded-full\"></span>\n</div>\n<div class=\"relative\">\n    <img class=\"w-10 h-10 rounded-base\" src=\"/docs/images/people/profile-picture-5.jpg\" alt=\"\">\n    <span class=\"absolute top-0 left-8 transform -translate-y-1/2 w-3.5 h-3.5 bg-danger border-2 border-buffer rounded-full\"></span>\n</div>\n<div class=\"relative\">\n    <img class=\"w-10 h-10 rounded-full\" src=\"/docs/images/people/profile-picture-5.jpg\" alt=\"\">\n    <span class=\"bottom-0 left-7 absolute  w-3.5 h-3.5 bg-success border-2 border-buffer rounded-full\"></span>\n</div>\n<div class=\"relative\">\n    <img class=\"w-10 h-10 rounded-base\" src=\"/docs/images/people/profile-picture-5.jpg\" alt=\"\">\n    <span class=\"absolute bottom-0 left-8 transform translate-y-1/4 w-3.5 h-3.5 bg-success border-2 border-buffer rounded-full\"></span>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

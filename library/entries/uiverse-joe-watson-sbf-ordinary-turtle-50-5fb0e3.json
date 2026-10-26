@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-joe-watson-sbf-ordinary-turtle-50-5fb0e3",
+  "title": "Button by joe-watson-sbf (ordinary-turtle-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/joe-watson-sbf/ordinary-turtle-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "hover",
+    "shop"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By joe-watson-sbf on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/joe-watson-sbf_ordinary-turtle-50.html",
+  "code": "<button class=\"btn\">\n    <span class=\"btn__visible\">Buy Now</span>\n    <span class=\"btn__invisible\">Only 2 Left</span>\n</button>\n<style>\n/* From Uiverse.io by joe-watson-sbf - Tags: gradient, button, hover, shop */\n.btn {\n  font-size: 14px;\n  font-weight: 300;\n  text-transform: uppercase;\n  line-height: 8px;\n  border-radius: 30px;\n  border: none;\n  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);\n  color: #fff;\n  position: relative;\n  overflow: hidden;\n  cursor: pointer;\n}\n\n.btn > * {\n  display: inline-block;\n  transition: all ease-in-out .5s;\n}\n\n.btn__visible {\n  padding: 1.2rem 3rem;\n  text-align: center;\n}\n\n.btn__invisible {\n  width: 100%;\n  position: absolute;\n  padding: 1.2rem 0;\n  left: 0;\n  top: -100%;\n}\n\n.btn:hover {\n  background-image: linear-gradient(160deg, #f093fb 0%, #f5576c 100%);\n}\n\n.btn:hover .btn__visible {\n  transform: translateY(100%);\n}\n\n.btn:hover .btn__invisible {\n  top: 0;\n}\n\n.btn:focus {\n  outline: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

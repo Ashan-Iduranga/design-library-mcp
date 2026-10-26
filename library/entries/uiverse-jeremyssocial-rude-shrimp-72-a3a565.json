@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jeremyssocial-rude-shrimp-72-a3a565",
+  "title": "Loader by jeremyssocial (rude-shrimp-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/jeremyssocial/rude-shrimp-72",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "white",
+    "effect-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By jeremyssocial on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/jeremyssocial_rude-shrimp-72.html",
+  "code": "<div class=\"milk-loader\">\n  <div class=\"glass\">\n    <div class=\"milk\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by jeremyssocial  - Tags: animation, white, loader, effect loader */\n.milk-loader {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n}\n\n.glass {\n  position: relative;\n  width: 100px;\n  height: 150px;\n  background-color: transparent;\n  border: 3px solid #666;\n  border-radius: 10px 10px 35px 35px;\n  overflow: hidden;\n}\n\n.milk {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  height: 0;\n  background-color: #fff;\n  border-radius: 5px 5px 30px 30px;\n  animation: fillMilk 2s ease-in-out infinite;\n}\n\n/* Keyframes to animate the milk in a non-uniform way, simulating a filling glass */\n@keyframes fillMilk {\n  0%,\n  100% {\n    height: 10%;\n    border-radius: 5px 5px 30px 30px;\n  }\n  50% {\n    height: 80%;\n    border-radius: 25px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-forms-input-sizes",
+  "title": "Forms: Input Sizes (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/forms/#input-sizes",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "forms",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the following utility classes to create three different sizing options (large, base, and small) for your form input elements.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/forms.md",
+  "code": "<form class=\"max-w-sm mx-auto space-y-4\">\n    <div>\n        <label for=\"visitors\" class=\"block mb-2.5 text-sm font-medium text-heading\">Small Input</label>\n        <input type=\"text\" id=\"visitors\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-2.5 py-2 shadow-xs placeholder:text-body\" placeholder=\"\" required />\n    </div>\n    <div>\n        <label for=\"visitors\" class=\"block mb-2.5 text-sm font-medium text-heading\">Base Input</label>\n        <input type=\"text\" id=\"visitors\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" placeholder=\"\" required />\n    </div>\n    <div>\n        <label for=\"visitors\" class=\"block mb-2.5 text-sm font-medium text-heading\">Large Input</label>\n        <input type=\"text\" id=\"visitors\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-base rounded-base focus:ring-brand focus:border-brand block w-full px-3.5 py-3 shadow-xs placeholder:text-body\" placeholder=\"\" required />\n    </div>\n    <div>\n        <label for=\"visitors\" class=\"block mb-2.5 text-sm font-medium text-heading\">Extra Large Input</label>\n        <input type=\"text\" id=\"visitors\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-base rounded-base focus:ring-brand focus:border-brand block w-full px-4 py-3.5 shadow-xs placeholder:text-body\" placeholder=\"\" required />\n    </div>\n</form>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

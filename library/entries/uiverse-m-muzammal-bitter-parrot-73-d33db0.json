@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-m-muzammal-bitter-parrot-73-d33db0",
+  "title": "Checkbox by m-muzammal (bitter-parrot-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/m-muzammal/bitter-parrot-73",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "material-design",
+    "icon",
+    "animation",
+    "minimalist",
+    "button",
+    "radio",
+    "click-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By m-muzammal on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/m-muzammal_bitter-parrot-73.html",
+  "code": "<div class=\"col-md-6 reject-checkbox\">\n  <div class=\"mb-2 text-center\">\n    <div class=\"checkbox-wrapper\">\n      <input\n        name=\"ehs_approval\"\n        class=\"form-check-label custom-radio-label\"\n        id=\"Rejected\"\n        type=\"checkbox\"\n      />\n      <label for=\"Rejected\">\n        <div class=\"tick_mark\">\n          <div class=\"cross\"></div>\n        </div>\n      </label>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by m-muzammal  - Tags: material design, icon, animation, minimalist, button, checkbox, radio, click animation */\n.reject-checkbox .checkbox-wrapper * {\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n}\n.reject-checkbox .checkbox-wrapper input[type=\"checkbox\"] {\n  display: none;\n}\n.reject-checkbox .checkbox-wrapper label {\n  --size: 50px;\n  --shadow: calc(var(--size) * 0.07) calc(var(--size) * 0.1);\n  position: relative;\n  display: block;\n  width: var(--size);\n  height: var(--size);\n  margin: 0 auto;\n  background-color: #4158d0;\n  background-image: linear-gradient(\n    43deg,\n    #4158d0 0%,\n    #c850c0 46%,\n    #ffcc70 100%\n  );\n  border-radius: 50%;\n  box-shadow: 0 var(--shadow) #ffbeb8;\n  cursor: pointer;\n  transition: 0.2s ease transform, 0.2s ease background-color,\n    0.2s ease box-shadow;\n  overflow: hidden;\n  z-index: 1;\n}\n.reject-checkbox .checkbox-wrapper label:before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  right: 0;\n  left: 0;\n  width: calc(var(--size) * 0.7);\n  height: calc(var(--size) * 0.7);\n  margin: 0 auto;\n  background-color: #fff;\n  transform: translateY(-50%);\n  border-radius: 50%;\n  box-shadow: inset 0 var(--shadow) #ffbeb8;\n  transition: 0.2s ease width, 0.2s ease height;\n}\n.reject-checkbox .checkbox-wrapper label:hover:before {\n  width: calc(var(--size) * 0.55);\n  height: calc(var(--size) * 0.55);\n  box-shadow: inset 0 var(--shadow) #ff9d96;\n}\n.reject-checkbox .checkbox-wrapper label:active {\n  transform: scale(0.9);\n}\n.reject-checkbox .checkbox-wrapper .tick_mark {\n  position: absolute;\n  top: 9px;\n  left: 2px;\n  right: 0;\n  width: calc(var(--size) * 0.6);\n  height: calc(var(--size) * 0.6);\n  margin: 0 auto;\n  margin-left: calc(var(--size) * 0.14);\n  transform: rotateZ(-92deg);\n}\n.reject-checkbox .checkbox-wrapper .tick_mark:before,\n.reject-checkbox .checkbox-wrapper .tick_mark:after {\n  content: \"\";\n  position: absolute;\n  background-color: #fff;\n  border-radius: 2px;\n  opacity: 0;\n  transition: 0.2s ease transform, 0.2s ease opacity;\n}\n.reject-checkbox .checkbox-wrapper .tick_mark:before {\n  left: 0;\n  bottom: 0;\n  width: calc(var(--size) * 0.1);\n  height: calc(var(--size) * 0.3);\n  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.23);\n  transform: translateY(calc(var(--size) * -0.68));\n}\n.reject-checkbox .checkbox-wrapper .tick_mark:after {\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  height: calc(var(--size) * 0.1);\n  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.23);\n  transform: translateX(calc(var(--size) * 0.78));\n}\n.reject-checkbox .checkbox-wrapper input[type=\"checkbox\"]:checked + label {\n  background-color: #4158d0;\n  background-image: linear-gradient(\n    43deg,\n    #f7805c 0%,\n    #fb4545 46%,\n    #e1236a 100%\n  );\n  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,\n    rgba(0, 0, 0, 0.22) 0px 15px 12px;\n}\n.reject-checkbox\n  .checkbox-wrapper\n  input[type=\"checkbox\"]:checked\n  + label:before {\n  width: 0;\n  height: 0;\n}\n\n.reject-checkbox\n  .checkbox-wrapper\n  input[type=\"checkbox\"]:checked\n  + label\n  .tick_mark:before,\n.reject-checkbox\n  .checkbox-wrapper\n  input[type=\"checkbox\"]:checked\n  + label\n  .tick_mark:after {\n  background-color: #fff;\n  width: calc(var(--size) * 0.4);\n  height: calc(var(--size) * 0.1);\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  opacity: 1;\n}\n.reject-checkbox\n  .checkbox-wrapper\n  input[type=\"checkbox\"]:checked\n  + label\n  .tick_mark:before {\n  transform: translate(-50%, -50%) rotate(45deg);\n}\n.reject-checkbox\n  .checkbox-wrapper\n  input[type=\"checkbox\"]:checked\n  + label\n  .tick_mark:after {\n  transform: translate(-50%, -50%) rotate(-45deg);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

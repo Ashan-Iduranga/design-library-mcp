@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-tables-table-layout-2",
+  "title": "Table: Table layout 2 (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/tables/#table-layout",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "table",
+    "tables",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the following examples of table layouts to show the head, foot or caption of the table.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/tables.md",
+  "code": "<div class=\"relative overflow-x-auto\">\n    <table class=\"w-full text-sm text-left rtl:text-right text-body\">\n        <thead class=\"text-sm text-body bg-neutral-secondary-medium\">\n            <tr>\n                <th scope=\"col\" class=\"px-6 py-3 rounded-s-base font-medium\">\n                    Product name\n                </th>\n                <th scope=\"col\" class=\"px-6 py-3 font-medium\">\n                    Qty\n                </th>\n                <th scope=\"col\" class=\"px-6 py-3 rounded-e-base font-medium\">\n                    Price\n                </th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr class=\"bg-neutral-primary\">\n                <th scope=\"row\" class=\"px-6 py-4 font-medium text-heading whitespace-nowrap\">\n                    Apple MacBook Pro 17\"\n                </th>\n                <td class=\"px-6 py-4\">\n                    1\n                </td>\n                <td class=\"px-6 py-4\">\n                    $2999\n                </td>\n            </tr>\n            <tr class=\"bg-neutral-primary\">\n                <th scope=\"row\" class=\"px-6 py-4 font-medium text-heading whitespace-nowrap\">\n                    Microsoft Surface Pro\n                </th>\n                <td class=\"px-6 py-4\">\n                    1\n                </td>\n                <td class=\"px-6 py-4\">\n                    $1999\n                </td>\n            </tr>\n            <tr class=\"bg-neutral-primary\">\n                <th scope=\"row\" class=\"px-6 py-4 font-medium text-heading whitespace-nowrap\">\n                    Magic Mouse 2\n                </th>\n                <td class=\"px-6 py-4\">\n                   1\n                </td>\n                <td class=\"px-6 py-4\">\n                    $99\n                </td>\n            </tr>\n        </tbody>\n        <tfoot>\n            <tr class=\"font-semibold text-heading\">\n                <th scope=\"row\" class=\"px-6 py-3 text-base\">Total</th>\n                <td class=\"px-6 py-3\">3</td>\n                <td class=\"px-6 py-3\">21,000</td>\n            </tr>\n        </tfoot>\n    </table>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

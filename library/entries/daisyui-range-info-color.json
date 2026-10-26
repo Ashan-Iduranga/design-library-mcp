@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-range-info-color",
+  "title": "Range slider: Info color (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/range/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "range",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Range slider is used to select a value by sliding a handle.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/range/+page.md",
+  "code": "<input type=\"range\" min=\"0\" max=\"100\" value=\"40\" class=\"range range-info\" />",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

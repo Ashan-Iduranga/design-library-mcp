@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-web-potato-silent-ape-24-f8cdbc",
+  "title": "Button by Web-Potato (silent-ape-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Web-Potato/silent-ape-24",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Web-Potato on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Web-Potato_silent-ape-24.html",
+  "code": "<button>\n    <span>\n        Hover Me\n    </span>\n</button>\n<style>\n/* From Uiverse.io by Web-Potato - Tags: button */\nbutton {\n  padding: 0.1em 0.25em;\n  width: 13em;\n  height: 4.2em;\n  background-color: #212121;\n  border: 0.08em solid #fff;\n  border-radius: 0.3em;\n  font-size: 12px;\n}\n\nbutton span {\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  bottom: 0.4em;\n  width: 8.25em;\n  height: 2.5em;\n  background-color: #212121;\n  border-radius: 0.2em;\n  font-size: 1.5em;\n  color: #fff;\n  border: 0.08em solid #fff;\n  box-shadow: 0 0.4em 0.1em 0.019em #fff;\n}\n\nbutton span:hover {\n  transition: all 0.5s;\n  transform: translate(0, 0.4em);\n  box-shadow: 0 0 0 0 #fff;\n}\n\nbutton span:not(hover) {\n  transition: all 1s;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

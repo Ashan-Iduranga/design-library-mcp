@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-mi-series-blue-mule-76-ebacbe",
+  "title": "Form by mi-series (blue-mule-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mi-series/blue-mule-76",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "payment-card",
+    "discount-form",
+    "payement-form",
+    "checkout"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mi-series on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/mi-series_blue-mule-76.html",
+  "code": "<div class=\"container\">\n  <div class=\"card cart\">\n    <label class=\"title\">CHECKOUT</label>\n    <div class=\"steps\">\n      <div class=\"step\">\n        <div>\n          <span>SHIPPING</span>\n          <p>221B Baker Street, W1U 8ED</p>\n          <p>London, United Kingdom</p>\n        </div>\n        <hr>\n        <div>\n          <span>PAYMENT METHOD</span>\n          <p>Visa</p>\n          <p>**** **** **** 4243</p>\n        </div>\n        <hr>\n        <div class=\"promo\">\n          <span>HAVE A PROMO CODE?</span>\n          <form class=\"form\">\n            <input class=\"input_field\" placeholder=\"Enter a Promo Code\" type=\"text\">\n            <button>Apply</button>\n          </form>\n        </div>\n        <hr>\n        <div class=\"payments\">\n          <span>PAYMENT</span>\n          <div class=\"details\">\n            <span>Subtotal:</span>\n            <span>$240.00</span>\n            <span>Shipping:</span>\n            <span>$10.00</span>\n            <span>Tax:</span>\n            <span>$30.40</span>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"card checkout\">\n    <div class=\"footer\">\n      <label class=\"price\">$280.40</label>\n      <button class=\"checkout-btn\">Checkout</button>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by mi-series - Tags: form, payment card, discount form, payement form, checkout */\n/* Body */\n.container {\n  display: grid;\n  grid-template-columns: auto;\n  gap: 0px;\n}\n\nhr {\n  height: 1px;\n  background-color: #E5C7C5;\n  border: none;\n}\n\n.card {\n  width: 400px;\n  background: #F4E2DE;\n  box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);\n}\n\n.title {\n  width: 100%;\n  height: 40px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  padding-left: 20px;\n  border-bottom: 1px solid #E5C7C5;\n  font-weight: 700;\n  font-size: 11px;\n  color: #000000;\n}\n\n/* Cart */\n.cart {\n  border-radius: 19px 19px 0px 0px;\n}\n\n.cart .steps {\n  display: flex;\n  flex-direction: column;\n  padding: 20px;\n}\n\n.cart .steps .step {\n  display: grid;\n  gap: 10px;\n}\n\n.cart .steps .step span {\n  font-size: 13px;\n  font-weight: 600;\n  color: #000000;\n  margin-bottom: 8px;\n  display: block;\n}\n\n.cart .steps .step p {\n  font-size: 11px;\n  font-weight: 600;\n  color: #000000;\n}\n\n/* Promo */\n.promo form {\n  display: grid;\n  grid-template-columns: 1fr 80px;\n  gap: 10px;\n  padding: 0px;\n}\n\n.input_field {\n  width: auto;\n  height: 36px;\n  padding: 0 0 0 12px;\n  border-radius: 5px;\n  outline: none;\n  border: 1px solid #E5C7C5;\n  background-color: #F4E2DE;\n  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);\n}\n\n.input_field:focus {\n  border: 1px solid transparent;\n  box-shadow: 0px 0px 0px 2px #F3D2C9;\n  background-color: #F4E2DE;\n}\n\n.promo form button {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  padding: 10px 18px;\n  gap: 10px;\n  width: 100%;\n  height: 36px;\n  background: #F3D2C9;\n  box-shadow: 0px 0.5px 0.5px #F3D2C9, 0px 1px 0.5px rgba(239, 239, 239, 0.5);\n  border-radius: 5px;\n  border: 0;\n  font-style: normal;\n  font-weight: 600;\n  font-size: 12px;\n  line-height: 15px;\n  color: #000000;\n}\n\n/* Checkout */\n.payments .details {\n  display: grid;\n  grid-template-columns: 10fr 1fr;\n  padding: 0px;\n  gap: 5px;\n}\n\n.payments .details span:nth-child(odd) {\n  font-size: 12px;\n  font-weight: 600;\n  color: #000000;\n  margin: auto auto auto 0;\n}\n\n.payments .details span:nth-child(even) {\n  font-size: 13px;\n  font-weight: 600;\n  color: #000000;\n  margin: auto 0 auto auto;\n}\n\n.checkout .footer {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 10px 10px 10px 20px;\n  background-color: #ECC2C0;\n}\n\n.price {\n  position: relative;\n  font-size: 22px;\n  color: #2B2B2F;\n  font-weight: 900;\n}\n\n.checkout .checkout-btn {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  width: 150px;\n  height: 36px;\n  background: #F3D2C9;\n  box-shadow: 0px 0.5px 0.5px #E5C7C5, 0px 1px 0.5px rgba(239, 239, 239, 0.5);\n  border-radius: 7px;\n  border: 1px solid #ECC2C0;\n  color: #000000;\n  font-size: 13px;\n  font-weight: 600;\n  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

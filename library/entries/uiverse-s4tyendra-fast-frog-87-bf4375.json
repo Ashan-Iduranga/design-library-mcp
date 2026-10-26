@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-s4tyendra-fast-frog-87-bf4375",
+  "title": "Loader by S4tyendra (fast-frog-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/S4tyendra/fast-frog-87",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "fly",
+    "ball",
+    "animated",
+    "love"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By S4tyendra on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/S4tyendra_fast-frog-87.html",
+  "code": "<div class=\"container\">\n  <div class=\"preloader\">\n    <span></span>\n    <span></span>\n    <span></span>\n  </div>\n  <div class=\"shadow\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by S4tyendra - Tags: loader, fly, ball, animated, love */\n.container {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n\n.container .preloader {\n  animation: rotate 2.3s cubic-bezier(0.75, 0, 0.5, 1) infinite;\n}\n\n@keyframes rotate {\n  50% {\n    transform: rotate(360deg);\n  }\n\n  100% {\n    transform: rotate(720deg);\n  }\n}\n\n.preloader span {\n  --c: #f23f3f;\n  position: absolute;\n  display: block;\n  height: 64px;\n  width: 64px;\n  background: var(--c);\n  border: 1px solid var(--c);\n  border-radius: 100%;\n}\n\n.preloader span:nth-child(1) {\n  transform: translate(-28px, -28px);\n  animation: shape_1 2.3s cubic-bezier(0.75, 0, 0.5, 1) infinite;\n}\n\n@keyframes shape_1 {\n  60% {\n    transform: scale(0.4);\n  }\n}\n\n.preloader span:nth-child(2) {\n  transform: translate(28px, -28px);\n  animation: shape_2 2.3s cubic-bezier(0.75, 0, 0.5, 1) infinite;\n}\n\n@keyframes shape_2 {\n  40% {\n    transform: scale(0.4);\n  }\n}\n\n.preloader span:nth-child(3) {\n  position: relative;\n  border-radius: 0px;\n  transform: scale(0.98) rotate(-45deg);\n  animation: shape_3 2.3s cubic-bezier(0.75, 0, 0.5, 1) infinite;\n}\n\n@keyframes shape_3 {\n  50% {\n    border-radius: 100%;\n    transform: scale(0.5) rotate(-45deg);\n  }\n\n  100% {\n    transform: scale(0.98) rotate(-45deg);\n  }\n}\n\n.shadow {\n  position: relative;\n  top: 30px;\n  left: 50%;\n  transform: translateX(-50%);\n  display: block;\n  height: 16px;\n  width: 64px;\n  border-radius: 50%;\n  background-color: #d9d9d9;\n  border: 1px solid #d9d9d9;\n  animation: shadow 2.3s cubic-bezier(0.75, 0, 0.5, 1) infinite;\n}\n\n@keyframes shadow {\n  50% {\n    transform: translateX(-50%) scale(0.5);\n    border-color: #f2f2f2;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

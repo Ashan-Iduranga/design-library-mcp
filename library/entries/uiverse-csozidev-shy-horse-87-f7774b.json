@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csozidev-shy-horse-87-f7774b",
+  "title": "Checkbox by csozidev (shy-horse-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csozidev/shy-horse-87",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csozidev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/csozidev_shy-horse-87.html",
+  "code": "<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>\n<style>\n/* From Uiverse.io by csozidev - Tags: checkbox */\n/* Green glow checkbox made by: csozi | Website: www.csozi.hu*/\n\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n  background-color: #676767;\n  padding: 4px;\n  border-radius: 25px;\n}\n\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  border-radius: 1rem;\n  background-color: #004000;\n  transition: 0.1s;\n}\n\n.container input:checked ~ .checkmark {\n  background-color: #00de00;\n  box-shadow: 0 0 10px #00ff00;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

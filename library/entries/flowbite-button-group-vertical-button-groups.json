@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-button-group-vertical-button-groups",
+  "title": "Button Group: Vertical button groups (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/button-group/#vertical-button-groups",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button-group",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use these examples to stack button groups vertically.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/button-group.md",
+  "code": "<div class=\"rounded-base shadow-xs w-56 -space-y-px\" role=\"group\">\n  <button type=\"button\" class=\"block w-full text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary-soft rounded-t-base font-medium leading-5 text-sm px-3 py-2 focus:outline-none\">\n    Profile\n  </button>\n  <button type=\"button\" class=\"block w-full text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary-soft font-medium leading-5 text-sm px-3 py-2 focus:outline-none\">\n    Settings\n  </button>\n  <button type=\"button\" class=\"block w-full text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary-soft rounded-b-base font-medium leading-5 text-sm px-3 py-2 focus:outline-none\">\n    Messages\n  </button>\n</div>\n\n\n<div class=\"rounded-base shadow-xs -space-y-px\" role=\"group\">\n    <button data-tooltip-target=\"tooltip-option-5\" type=\"button\" class=\"grid place-items-center text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary-soft font-medium leading-5 rounded-t-base text-sm w-9 h-9 focus:outline-none\">\n      <svg class=\"w-4 h-4\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 6h8m-8 4h12M6 14h8m-8 4h12\"/></svg>\n    </button>\n    <div id=\"tooltip-option-5\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm leading-4 font-medium text-white transition-opacity duration-300 bg-dark rounded-base shadow-xs opacity-0 tooltip\">\n      Align left\n      <div class=\"tooltip-arrow\" data-popper-arrow></div>\n    </div>\n    <button data-tooltip-target=\"tooltip-option-6\" type=\"button\" class=\"grid place-items-center text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary-soft font-medium leading-5 text-sm w-9 h-9 focus:outline-none\">\n      <svg class=\"w-4 h-4\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 6h8M6 10h12M8 14h8M6 18h12\"/></svg>\n    </button>\n    <div id=\"tooltip-option-6\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm leading-4 font-medium text-white transition-opacity duration-300 bg-dark rounded-base shadow-xs opacity-0 tooltip\">\n      Align center\n      <div class=\"tooltip-arrow\" data-popper-arrow></div>\n    </div>\n    <button data-tooltip-target=\"tooltip-option-7\" type=\"button\" class=\"grid place-items-center text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary-soft font-medium leading-5 text-sm w-9 h-9 focus:outline-none\">\n      <svg class=\"w-4 h-4\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6H6m12 4H6m12 4H6m12 4H6\"/></svg>\n    </button>\n    <div id=\"tooltip-option-7\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm leading-4 font-medium text-white transition-opacity duration-300 bg-dark rounded-base shadow-xs opacity-0 tooltip\">\n      Align justify\n      <div class=\"tooltip-arrow\" data-popper-arrow></div>\n    </div>\n    <button data-tooltip-target=\"tooltip-option-8\" type=\"button\" class=\"grid place-items-center text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary-soft font-medium leading-5 rounded-b-base text-sm w-9 h-9 focus:outline-none\">\n      <svg class=\"w-4 h-4\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6h-8m8 4H6m12 4h-8m8 4H6\"/></svg>\n    </button>\n    <div id=\"tooltip-option-8\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm leading-4 font-medium text-white transition-opacity duration-300 bg-dark rounded-base shadow-xs opacity-0 tooltip\">\n      Align right\n      <div class=\"tooltip-arrow\" data-popper-arrow></div>\n    </div>\n  </div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

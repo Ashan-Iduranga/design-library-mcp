@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cbolson-ugly-yak-75-f8616b",
+  "title": "Radio by cbolson (ugly-yak-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cbolson/ugly-yak-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cbolson on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/cbolson_ugly-yak-75.html",
+  "code": "<form class=\"my-form\">\n  <div>\n    <input id=\"radio-1\" type=\"radio\" name=\"option\" />\n    <label for=\"radio-1\">Radio 1</label>\n  </div>\n  <div>\n    <input checked=\"\" id=\"radio-2\" type=\"radio\" name=\"option\" />\n    <label for=\"radio-2\">Radio 2</label>\n  </div>\n  <div>\n    <input id=\"radio-3\" type=\"radio\" name=\"option\" />\n    <label for=\"radio-3\">Radio 3</label>\n  </div>\n  <div>\n    <input id=\"radio-4\" type=\"radio\" name=\"option\" />\n    <label for=\"radio-4\">Radio 4</label>\n  </div>\n</form>\n\n<style>\n/* From Uiverse.io by cbolson  - Tags: radio */\n/* From Uiverse.io by cbolson */\n.my-form {\n  --_clr-primary: #666;\n  --_clr-hover: #f33195;\n  --_clr-checked: #127acf;\n}\n.my-form > div {\n  --_clr-current: var(--_clr-primary);\n\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n}\n.my-form > div + div {\n  margin-block-start: 0.5rem;\n}\n.my-form label {\n  cursor: pointer;\n  color: var(--_clr-current);\n  transition: color 150ms ease-in-out;\n}\n/* styled radio */\n.my-form input[type=\"radio\"] {\n  appearance: none;\n  outline: none;\n  width: 1.5rem;\n  height: 1.5rem;\n  aspect-ratio: 1;\n  padding: 0.25rem;\n  background: transparent;\n  border: 1px solid var(--_clr-current);\n  border-radius: 50%;\n  display: grid;\n  place-content: center;\n  cursor: pointer;\n  position: relative;\n}\n.my-form input[type=\"radio\"]::after {\n  content: \"\";\n  position: absolute;\n  inset: 0.25rem;\n  opacity: 0;\n  scale: 0;\n  transition:\n    opacity 150ms ease-in-out,\n    scale 150ms ease-in-out;\n  background-color: var(--_clr-checked);\n  border-radius: inherit;\n}\n\n.my-form label:hover,\n.my-form input[type=\"radio\"]:focus-visible,\n.my-form input[type=\"radio\"]:focus-visible + label,\n.my-form input[type=\"radio\"]:hover,\n.my-form input[type=\"radio\"]:hover + label {\n  --_clr-current: var(--_clr-hover);\n}\n.my-form input[type=\"radio\"]:focus-visible::after,\n.my-form input[type=\"radio\"]:hover::after {\n  opacity: 0.5;\n  scale: 1;\n  background-color: var(--_clr-hover);\n}\n\n.my-form input[type=\"radio\"]:checked + label:not(:hover),\n.my-form input[type=\"radio\"]:checked:not(:hover) {\n  --_clr-current: var(--_clr-checked);\n}\n.my-form input[type=\"radio\"]:checked::after {\n  opacity: 1;\n  scale: 1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

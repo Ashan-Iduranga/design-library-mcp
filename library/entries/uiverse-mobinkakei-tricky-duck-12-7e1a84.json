@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-mobinkakei-tricky-duck-12-7e1a84",
+  "title": "Loader by mobinkakei (tricky-duck-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/tricky-duck-12",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "creative",
+    "eye",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mobinkakei_tricky-duck-12.html",
+  "code": "<span class=\"loader\"></span>\n\n<style>\n/* From Uiverse.io by mobinkakei  - Tags: loader, creative, eye, loading animation */\n.loader {\n  position: relative;\n  width: 108px;\n  display: flex;\n  justify-content: space-between;\n}\n.loader::after,\n.loader::before {\n  content: \"\";\n  display: inline-block;\n  width: 48px;\n  height: 48px;\n  background-color: #fff;\n  background-image: radial-gradient(circle 14px, #0d161b 100%, transparent 0);\n  background-repeat: no-repeat;\n  border-radius: 50%;\n  animation: eyeMove 10s infinite, blink 10s infinite;\n}\n@keyframes eyeMove {\n  0%,\n  10% {\n    background-position: 0px 0px;\n  }\n  13%,\n  40% {\n    background-position: -15px 0px;\n  }\n  43%,\n  70% {\n    background-position: 15px 0px;\n  }\n  73%,\n  90% {\n    background-position: 0px 15px;\n  }\n  93%,\n  100% {\n    background-position: 0px 0px;\n  }\n}\n@keyframes blink {\n  0%,\n  10%,\n  12%,\n  20%,\n  22%,\n  40%,\n  42%,\n  60%,\n  62%,\n  70%,\n  72%,\n  90%,\n  92%,\n  98%,\n  100% {\n    height: 48px;\n  }\n  11%,\n  21%,\n  41%,\n  61%,\n  71%,\n  91%,\n  99% {\n    height: 18px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

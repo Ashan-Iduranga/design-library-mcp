@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-rating-half-stars",
+  "title": "Rating: half stars (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/rating/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "rating",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Rating is a set of radio buttons that allow the user to rate something.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/rating/+page.md",
+  "code": "<div class=\"rating rating-lg rating-half\">\n  <input type=\"radio\" name=\"rating-11\" class=\"rating-hidden\" aria-label=\"clear\" />\n  <input type=\"radio\" name=\"rating-11\" class=\"mask mask-star-2 mask-half-1 bg-green-500\" aria-label=\"0.5 star\" />\n  <input type=\"radio\" name=\"rating-11\" class=\"mask mask-star-2 mask-half-2 bg-green-500\" aria-label=\"1 star\" />\n  <input type=\"radio\" name=\"rating-11\" class=\"mask mask-star-2 mask-half-1 bg-green-500\" aria-label=\"1.5 star\" checked=\"checked\" />\n  <input type=\"radio\" name=\"rating-11\" class=\"mask mask-star-2 mask-half-2 bg-green-500\" aria-label=\"2 star\" />\n  <input type=\"radio\" name=\"rating-11\" class=\"mask mask-star-2 mask-half-1 bg-green-500\" aria-label=\"2.5 star\" />\n  <input type=\"radio\" name=\"rating-11\" class=\"mask mask-star-2 mask-half-2 bg-green-500\" aria-label=\"3 star\" />\n  <input type=\"radio\" name=\"rating-11\" class=\"mask mask-star-2 mask-half-1 bg-green-500\" aria-label=\"3.5 star\" />\n  <input type=\"radio\" name=\"rating-11\" class=\"mask mask-star-2 mask-half-2 bg-green-500\" aria-label=\"4 star\" />\n  <input type=\"radio\" name=\"rating-11\" class=\"mask mask-star-2 mask-half-1 bg-green-500\" aria-label=\"4.5 star\" />\n  <input type=\"radio\" name=\"rating-11\" class=\"mask mask-star-2 mask-half-2 bg-green-500\" aria-label=\"5 star\" />\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

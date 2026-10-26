@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-khaledmatalkah-modern-rattlesnake-33-bc0578",
+  "title": "Loader by KhaledMatalkah (modern-rattlesnake-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KhaledMatalkah/modern-rattlesnake-33",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "circle-loader",
+    "line-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KhaledMatalkah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/KhaledMatalkah_modern-rattlesnake-33.html",
+  "code": "<div class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by KhaledMatalkah - Tags: animation, loader, circle loader, line loader */\n.loader {\n  width: 100px;\n  height: 100px;\n  border: 8px solid #ffcc00;\n  border-radius: 50%;\n  border-top-color: transparent;\n  position: relative;\n  animation: loaderAnimation 1.5s linear infinite;\n}\n\n.loader::before,\n.loader::after {\n  content: '';\n  position: absolute;\n  height: 20px;\n  width: 20px;\n  left: 50%;\n  top: 50%;\n  background-color: #ffcc00;\n  border-radius: 50%;\n  transform: translate(-50%, -50%);\n}\n\n.loader::before {\n  animation: loaderAnimationBefore 1s linear infinite;\n}\n\n.loader::after {\n  animation: loaderAnimationAfter 1s linear infinite;\n}\n\n@keyframes loaderAnimation {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes loaderAnimationBefore {\n  0% {\n    opacity: 1;\n    transform: translate(-50%, -50%) scale(1);\n  }\n\n  50% {\n    opacity: 0;\n    transform: translate(-50%, -50%) scale(0);\n  }\n\n  100% {\n    opacity: 1;\n    transform: translate(-50%, -50%) scale(1);\n  }\n}\n\n@keyframes loaderAnimationAfter {\n  0% {\n    opacity: 0;\n    transform: translate(-50%, -50%) scale(0);\n  }\n\n  50% {\n    opacity: 1;\n    transform: translate(-50%, -50%) scale(1);\n  }\n\n  100% {\n    opacity: 0;\n    transform: translate(-50%, -50%) scale(0);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-andibumann-wet-robin-100-3897ff",
+  "title": "Button by AndiBumann (wet-robin-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AndiBumann/wet-robin-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AndiBumann on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/AndiBumann_wet-robin-100.html",
+  "code": "<div class=\"container\">\n  <button class=\"join-now-button\">Join now</button>\n</div>\n\n<style>\n/* From Uiverse.io by AndiBumann  - Tags: animation, gradient, button */\n.join-now-button {\n  background-color: #ff69b4; /* Grundfarbe (Pink) */\n  background-image: linear-gradient(\n    to right,\n    #ff69b4 0%,\n    #ffffff 25%,\n    #f00 50%,\n    #ffa500 75%,\n    #ff69b4 100%\n  ); /* Farbverlauf */\n  background-size: 200% 100%; /* Größe des Farbverlaufs */\n  background-position: left; /* Position des Farbverlaufs */\n  transition: background-position 0.3s; /* Animation des Farbverlaufs */\n  padding: 10px 20px;\n  border: none;\n  border-radius: 5px;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Schatteneffekt */\n  cursor: pointer;\n  font-size: 18px;\n  font-weight: bold;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n}\n\n.join-now-button:hover {\n  background-position: right; /* Animation des Farbverlaufs */\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

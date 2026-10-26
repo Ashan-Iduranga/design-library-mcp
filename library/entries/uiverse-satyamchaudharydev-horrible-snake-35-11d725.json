@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-horrible-snake-35-11d725",
+  "title": "Loader by satyamchaudharydev (horrible-snake-35)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/horrible-snake-35",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/satyamchaudharydev_horrible-snake-35.html",
+  "code": "<div class=\"loader\">\n  <span></span>\n  <span></span>\n  <span></span>\n  <span></span>\n</div>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.loader {\n --loader: rgb(49, 180, 255);\n --loader-size: 30px;\n position: relative;\n width: 100px;\n height: 40px;\n overflow: hidden;\n transition: .5s;\n letter-spacing: 2px\n}\n\n.loader span {\n position: absolute;\n}\n\n.loader span:nth-child(1) {\n top: 0;\n left: -100%;\n width: 100%;\n height: var(--loader-size);\n background: linear-gradient(90deg, transparent, var(--loader));\n animation: loader-anim1 1s linear infinite;\n}\n\n@keyframes loader-anim1 {\n 0% {\n  left: -100%;\n }\n\n 50%,100% {\n  left: 100%;\n }\n}\n\n.loader  span:nth-child(2) {\n top: -100%;\n right: 0;\n width: var(--loader-size);\n height: 100%;\n background: linear-gradient(180deg, transparent, var(--loader));\n animation: loader-anim2 1s linear infinite;\n animation-delay: .25s\n}\n\n@keyframes loader-anim2 {\n 0% {\n  top: -100%;\n }\n\n 50%,100% {\n  top: 100%;\n }\n}\n\n.loader span:nth-child(3) {\n bottom: 0;\n right: -100%;\n width: 100%;\n height: var(--loader-size);\n background: linear-gradient(270deg, transparent, var(--loader));\n animation: loader-anim3 1s linear infinite;\n animation-delay: .5s\n}\n\n@keyframes loader-anim3 {\n 0% {\n  right: -100%;\n }\n\n 50%,100% {\n  right: 100%;\n }\n}\n\n.loader span:nth-child(4) {\n bottom: -100%;\n left: 0;\n width: var(--loader-size);\n height: 100%;\n background: linear-gradient(360deg, transparent, var(--loader));\n animation: loader-anim4 1s linear infinite;\n animation-delay: .75s\n}\n\n@keyframes loader-anim4 {\n 0% {\n  bottom: -100%;\n }\n\n 50%,100% {\n  bottom: 100%;\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

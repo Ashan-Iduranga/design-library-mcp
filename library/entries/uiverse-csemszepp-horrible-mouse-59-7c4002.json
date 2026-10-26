@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-horrible-mouse-59-7c4002",
+  "title": "Toggle by csemszepp (horrible-mouse-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/horrible-mouse-59",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/csemszepp_horrible-mouse-59.html",
+  "code": "<input class=\"togglesw\" type=\"checkbox\">\n<style>\n/* From Uiverse.io by csemszepp - Source: https://codepen.io/t_afif/pen/PoEebrz - Tags: switch, toggle, toggle switch */\n.togglesw {\n  --s: 50px;\n /* adjust this to control the size*/\n  height: calc(var(--s) + var(--s)/5);\n  width: auto;\n /* some browsers need this */\n  aspect-ratio: 2.25;\n  border-radius: var(--s);\n  margin: calc(var(--s)/2);\n  display: grid;\n  cursor: pointer;\n  background-color: #ff7a7a;\n  box-sizing: content-box;\n  overflow: hidden;\n  transition: .3s .1s;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n}\n\n.togglesw:before {\n  content: \"\";\n  padding: calc(var(--s)/10);\n  --_g: radial-gradient(circle closest-side at calc(100% - var(--s)/2) 50%,#000 96%,#0000);\n  background: var(--_g) 0 /var(--_p,var(--s)) 100% no-repeat content-box,\n    var(--_g) var(--_p,0)/var(--s)  100% no-repeat content-box,\n    #fff;\n  mix-blend-mode: darken;\n  filter: blur(calc(var(--s)/12)) contrast(11);\n  transition: .4s, background-position .4s .1s,\n    padding cubic-bezier(0,calc(var(--_i,-1)*200),1,calc(var(--_i,-1)*200)) .25s .1s;\n}\n\n.togglesw:checked {\n  background-color: #85ff7a;\n}\n\n.togglesw:checked:before {\n  padding: calc(var(--s)/10 + .05px) calc(var(--s)/10);\n  --_p: 100%;\n  --_i: 1;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-fujitawa-neat-dodo-98-60299c",
+  "title": "Loader by Fujitawa (neat-dodo-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Fujitawa/neat-dodo-98",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Fujitawa on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Fujitawa_neat-dodo-98.html",
+  "code": "<div class=\"loader\">\n  <div class=\"blue\">\n</div></div>\n<style>\n/* From Uiverse.io by Fujitawa - Tags: loader */\n.loader {\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 300px;\n  width: 300px;\n  border-radius: 50%;\n  box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 1),\n    inset 10px 10px 10px rgba(0, 0, 0, 0.1);\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  height: 200px;\n  width: 200px;\n  border-radius: 50%;\n  box-shadow: -10px -10px 15px rgba(255, 255, 255, 1),\n    10px 10px 10px rgba(0, 0, 0, 0.1);\n}\n\n.blue {\n  height: 186px;\n  width: 220px;\n  position: absolute;\n  animation: rotate 5s linear infinite;\n}\n\n@keyframes rotate {\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.blue::before {\n  content: \"\";\n  position: absolute;\n  height: 30px;\n  border-radius: 50%;\n  width: 30px;\n  background: linear-gradient(45deg, #336dff, #5c89ff);\n  box-shadow: 0 5px 10px rgb(0 0 0 / 30%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

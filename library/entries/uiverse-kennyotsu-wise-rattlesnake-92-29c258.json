@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-kennyotsu-wise-rattlesnake-92-29c258",
+  "title": "Card by kennyotsu (wise-rattlesnake-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kennyotsu/wise-rattlesnake-92",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "material-design",
+    "alert",
+    "notification"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kennyotsu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/kennyotsu_wise-rattlesnake-92.html",
+  "code": "<div class=\"notifications-container\">\n  <div class=\"error-alert\">\n    <div class=\"flex\">\n      <div class=\"flex-shrink-0\">\n        \n        <svg aria-hidden=\"true\" fill=\"currentColor\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\" class=\"error-svg\">\n          <path clip-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z\" fill-rule=\"evenodd\"></path>\n        </svg>\n      </div>\n      <div class=\"error-prompt-container\">\n        <p class=\"error-prompt-heading\">Your password isn't strong enough\n        </p><div class=\"error-prompt-wrap\">\n          <ul class=\"error-prompt-list\" role=\"list\">\n            <li>Password must be at least !8 characters</li>\n            <li>Password must include Elon's baby name</li>\n          </ul>\n      </div>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by kennyotsu - Tags: simple, material design, alert, notification, card */\n.notifications-container {\n  width: 320px;\n  height: auto;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n}\n\n.flex {\n  display: flex;\n}\n\n.flex-shrink-0 {\n  flex-shrink: 0;\n}\n\n.error-alert {\n  border-radius: 0.375rem;\n  padding: 1rem;\n  background-color: rgb(254 242 242);\n}\n\n.error-svg {\n  color: #F87171;\n  width: 1.25rem;\n  height: 1.25rem;\n}\n\n.error-prompt-heading {\n  color: #991B1B;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  font-weight: bold;\n}\n\n.error-prompt-container {\n  display: flex;\n  flex-direction: column;\n  margin-left: 1.25rem;\n}\n\n.error-prompt-wrap {\n  margin-top: 0.5rem;\n  color: #B91C1C;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n\n.error-prompt-list {\n  padding-left: 1.25rem;\n  margin-top: 0.25rem;\n  list-style-type: disc;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

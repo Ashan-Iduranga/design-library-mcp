@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-gharsh11032000-tall-impala-21-42990e",
+  "title": "Loader by gharsh11032000 (tall-impala-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/tall-impala-21",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "rolling"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/gharsh11032000_tall-impala-21.html",
+  "code": "<label class=\"loader\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: animation, loader, rolling */\n.loader {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 8em;\n  height: 2em;\n}\n\n.slider {\n  position: absolute;\n  inset: 0;\n  background: #0974f1;\n  box-shadow: 0 0px 20px rgba(9, 117, 241, 0.4);\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  animation: move 1.5s cubic-bezier(0.23, 1, 0.320, 1) infinite alternate;\n}\n\n@keyframes move {\n  0% {\n    transform: translateX(0em) rotate(0deg);\n  }\n\n  100% {\n    transform: translateX(6em) rotate(270deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

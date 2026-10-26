@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-loaders-2-dark",
+  "title": "Loaders: Spinner with text (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/loaders",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "loaders",
+    "hyperui",
+    "progress",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Centered spinner with loading message displayed below\n\nOriginal file: https://github.com/markmead/hyperui/blob/main/public/examples/application/loaders/2-dark.html",
+  "code": "<div class=\"flex min-h-screen items-center justify-center p-6\">\n<div class=\"text-center\" role=\"status\">\n<svg aria-hidden=\"true\" class=\"mx-auto size-8 animate-spin text-indigo-600 dark:text-indigo-300\" fill=\"none\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle class=\"opacity-25\" cx=\"12\" cy=\"12\" r=\"10\" stroke=\"currentColor\" stroke-width=\"4\"></circle>\n<path class=\"opacity-75\" d=\"M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z\" fill=\"currentColor\"></path>\n</svg>\n<p class=\"mt-4 font-medium text-gray-700 dark:text-gray-200\">Loading...</p>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

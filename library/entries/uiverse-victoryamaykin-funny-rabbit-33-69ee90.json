@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-victoryamaykin-funny-rabbit-33-69ee90",
+  "title": "Toggle by victoryamaykin (funny-rabbit-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/victoryamaykin/funny-rabbit-33",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By victoryamaykin on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/victoryamaykin_funny-rabbit-33.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by victoryamaykin - Tags: switch */\n.switch {\n position: relative;\n display: inline-block;\n width: 120px;\n height: 34px;\n}\n\n.switch input {\n display: none;\n}\n\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n background-color: #3C3C3C;\n -webkit-transition: .4s;\n transition: .4s;\n border-radius: 34px;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 26px;\n width: 26px;\n left: 4px;\n bottom: 4px;\n background-color: white;\n -webkit-transition: .4s;\n transition: .4s;\n border-radius: 50%;\n}\n\ninput:checked + .slider {\n background-color: #0E6EB8;\n}\n\ninput:focus + .slider {\n box-shadow: 0 0 1px #2196F3;\n}\n\ninput:checked + .slider:before {\n -webkit-transform: translateX(26px);\n -ms-transform: translateX(26px);\n transform: translateX(85px);\n}\n\n/*------ ADDED CSS ---------*/\n.slider:after {\n content: 'DISABLED';\n color: white;\n display: block;\n position: absolute;\n transform: translate(-50%,-50%);\n top: 50%;\n left: 50%;\n font-size: 10px;\n font-family: Verdana, sans-serif;\n}\n\ninput:checked + .slider:after {\n content: 'ENABLED';\n}\n\n/*--------- END --------*/\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

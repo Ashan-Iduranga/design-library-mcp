@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-horrible-grasshopper-43-84d41f",
+  "title": "Form by Yaya12085 (horrible-grasshopper-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/horrible-grasshopper-43",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Yaya12085_horrible-grasshopper-43.html",
+  "code": "<form class=\"form\">\n    <span class=\"title\">Register</span>\n    <label for=\"username\" class=\"label\">Username</label>\n    <input type=\"text\" id=\"username\" name=\"username\" required=\"\" class=\"input\">\n    <label for=\"email\" class=\"label\">Email</label>\n    <input type=\"email\" id=\"email\" name=\"email\" required=\"\" class=\"input\">\n    <label for=\"password\" class=\"label\">Password</label>\n    <input type=\"password\" id=\"password\" name=\"password\" required=\"\" class=\"input\">\n    <button type=\"submit\" class=\"submit\">Register</button>\n  </form>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: form */\n.form {\n  max-width: 320px;\n  width: 100%;\n  background-color: #fff;\n  padding: 20px;\n  box-shadow: 0px 0px 0px 4px rgba(52, 52, 53, 0.185);\n  display: flex;\n  flex-direction: column;\n  border-radius: 10px;\n}\n\n.title {\n  text-align: center;\n  font-size: 2rem;\n  margin-bottom: 20px;\n  color: #1a202c;\n}\n\n.label {\n  color: rgb(0, 0, 0);\n  margin-bottom: 4px;\n}\n\n.input {\n  padding: 10px;\n  margin-bottom: 20px;\n  width: 100%;\n  font-size: 1rem;\n  color: #4a5568;\n  outline: none;\n  border: 1px solid transparent;\n  border-radius: 4px;\n  transition: all 0.2s ease-in-out;\n}\n\n.input:focus {\n  background-color: #fff;\n  box-shadow: 0 0 0 2px #cbd5e0;\n}\n\n.input:valid {\n  border: 1px solid green;\n}\n\n.input:invalid {\n  border: 1px solid rgba(14, 14, 14, 0.205);\n}\n\n.submit {\n  background-color: #1a202c;\n  color: #fff;\n  border: none;\n  border-radius: 4px;\n  padding: 10px 20px;\n  font-size: 1.2rem;\n  cursor: pointer;\n  transition: all 0.2s ease-in-out;\n}\n    \n    \n    \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

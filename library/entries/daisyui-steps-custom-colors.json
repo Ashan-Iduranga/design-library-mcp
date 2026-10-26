@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-steps-custom-colors",
+  "title": "Steps: Custom colors (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/steps/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "steps",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Steps can be used to show a list of steps in a process.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/steps/+page.md",
+  "code": "<ul class=\"steps\">\n  <li class=\"step step-info\">Fly to moon</li>\n  <li class=\"step step-info\">Shrink the moon</li>\n  <li class=\"step step-info\">Grab the moon</li>\n  <li class=\"step step-error\" data-content=\"?\">Sit on toilet</li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

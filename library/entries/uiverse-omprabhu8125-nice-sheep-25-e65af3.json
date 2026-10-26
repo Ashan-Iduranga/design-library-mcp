@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-omprabhu8125-nice-sheep-25-e65af3",
+  "title": "Loader by OMPRABHU8125 (nice-sheep-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/OMPRABHU8125/nice-sheep-25",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By OMPRABHU8125 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/OMPRABHU8125_nice-sheep-25.html",
+  "code": "<div class=\"loader\">\n  <div class=\"react-star\">\n    <div class=\"nucleus\"></div>\n    <div class=\"electron electron1\"></div>\n    <div class=\"electron electron2\"></div>\n    <div class=\"electron electron3\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by OMPRABHU8125  - Website: https://codepen.io/rahul-sahni/pen/YzOWmYy - Name: Rahul Sahni - Tags: animation, loader, cool, atom, sc-fi */\n.loader {\n  height: 20rem;\n  width: 20rem;\n  background-color: #212121;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.react-star {\n  position: relative;\n  width: 15rem;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 15rem;\n  animation: rotate 3s infinite;\n}\n\n.nucleus {\n  position: absolute;\n\n  transform: translate(-50%, -50%);\n  border-radius: 50%;\n  background: linear-gradient(#0738e8, cyan);\n  height: 2rem;\n  width: 2rem;\n  animation: rotate 1s linear infinite;\n}\n\n.electron {\n  position: absolute;\n  width: 15rem;\n  height: 6rem;\n  border-radius: 50%;\n  border: 0.3rem solid #00ffff;\n  animation: revolve 1s linear infinite;\n}\n\n.electron1::before,\n.electron2::before,\n.electron3::before {\n  content: \"\";\n  position: absolute;\n  top: 60%;\n  left: 100%;\n  transform: translate(-50%, -50%);\n  width: 1rem;\n  height: 1rem;\n  background-color: cyan;\n  border-radius: 50%;\n  animation: moveElectron 1s infinite;\n}\n.electron2 {\n  transform: rotate(60deg);\n  animation-delay: -0.66s;\n}\n.electron2::before {\n  animation-delay: -0.66s;\n}\n\n.electron3 {\n  transform: rotate(-60deg);\n}\n\n@keyframes rotate {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg) scale3d(1.1, 1.1, 0);\n  }\n}\n\n@keyframes revolve {\n  0% {\n    border-color: #00ffff9c;\n    border-right: transparent;\n  }\n  25% {\n    border-color: #00ffff9c;\n    border-bottom-color: transparent;\n  }\n  50% {\n    border-color: #00ffff9c;\n    border-left-color: transparent;\n  }\n  75% {\n    border-color: #00ffff9c;\n    border-top-color: transparent;\n  }\n  100% {\n    border-color: #00ffff9c;\n    border-right-color: transparent;\n  }\n}\n\n@keyframes moveElectron {\n  0% {\n    top: 60%;\n    left: 100%;\n  }\n  25% {\n    top: 100%;\n    left: 60%;\n  }\n  50% {\n    top: 60%;\n    left: 0%;\n  }\n  75% {\n    top: 0%;\n    left: 60%;\n  }\n  100% {\n    top: 60%;\n    left: 100%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

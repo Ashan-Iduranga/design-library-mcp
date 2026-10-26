@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-barisdogansutcu-smart-panda-14-436285",
+  "title": "Toggle by barisdogansutcu (smart-panda-14)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/barisdogansutcu/smart-panda-14",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By barisdogansutcu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/barisdogansutcu_smart-panda-14.html",
+  "code": "<input type=\"checkbox\" checked=\"checked\" id=\"favorite\" name=\"favorite-checkbox\" value=\"favorite-button\">\n<label for=\"favorite\" class=\"container\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-heart\"><path d=\"M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z\"></path></svg>\n  <div class=\"action\">\n    <span class=\"option-1\">Add to Favorites</span>\n    <span class=\"option-2\">Added to Favorites</span>\n  </div>\n</label>\n<style>\n/* From Uiverse.io by barisdogansutcu - Tags: switch */\nlabel {\n background-color: white;\n display: flex;\n align-items: center;\n gap: 14px;\n padding: 10px 15px 10px 10px;\n cursor: pointer;\n user-select: none;\n border-radius: 10px;\n box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;\n color: black;\n}\n\ninput {\n display: none;\n}\n\ninput:checked + label svg {\n fill: hsl(0deg 100% 50%);\n stroke: hsl(0deg 100% 50%);\n animation: heartButton 1s;\n}\n\n@keyframes heartButton {\n 0% {\n  transform: scale(1);\n }\n\n 25% {\n  transform: scale(1.3);\n }\n\n 50% {\n  transform: scale(1);\n }\n\n 75% {\n  transform: scale(1.3);\n }\n\n 100% {\n  transform: scale(1);\n }\n}\n\ninput + label .action {\n position: relative;\n overflow: hidden;\n display: grid;\n}\n\ninput + label .action span {\n grid-column-start: 1;\n grid-column-end: 1;\n grid-row-start: 1;\n grid-row-end: 1;\n transition: all .5s;\n}\n\ninput + label .action span.option-1 {\n transform: translate(0px,0%);\n opacity: 1;\n}\n\ninput:checked + label .action span.option-1 {\n transform: translate(0px,-100%);\n opacity: 0;\n}\n\ninput + label .action span.option-2 {\n transform: translate(0px,100%);\n opacity: 0;\n}\n\ninput:checked + label .action span.option-2 {\n transform: translate(0px,0%);\n opacity: 1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

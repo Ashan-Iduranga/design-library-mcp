@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jsgrisales-wise-ladybug-7-08e794",
+  "title": "Button by JsGrisales (wise-ladybug-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JsGrisales/wise-ladybug-7",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JsGrisales on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JsGrisales_wise-ladybug-7.html",
+  "code": "<button>\n  Suscribe\n</button>\n<style>\n/* From Uiverse.io by JsGrisales - Tags: button */\nbutton {\n  min-height: 53px;\n  min-width: 166px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -ms-flex-pack: distribute;\n  justify-content: space-around;\n  position: relative;\n  cursor: pointer;\n  background: -webkit-gradient(linear, left top, right top, color-stop(-12.74%, rgba(110, 239, 255, .5)), color-stop(56.76%, rgba(106, 224, 255, .271)));\n  background: linear-gradient(90deg, rgba(110, 239, 255, .5) -12.74%, rgba(106, 224, 255, .271) 56.76%);\n  border: 2px solid #acf7ff;\n  color: #FFFFFF;\n  font-size: 18px;\n  font-weight: 600;\n}\n\nbutton:before {\n  content: \"\";\n  width: 4px;\n  height: 28px;\n  background: #19173b;\n  border: 2px solid #acf7ff;\n  -webkit-transform: rotate(-45deg);\n  -ms-transform: rotate(-45deg);\n  transform: rotate(-45deg);\n  position: absolute;\n  border-top: 0;\n  border-left: 0;\n  border-bottom: 0;\n  bottom: -7px;\n  left: 4px;\n  border-bottom-left-radius: 10px;\n  border-top-left-radius: 10px;\n}\n\nbutton:after {\n  content: \"\";\n  position: absolute;\n  left: -2px;\n  bottom: -2px;\n  border-top: 15px solid transparent;\n  border-left: 15px solid #fffcf7;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

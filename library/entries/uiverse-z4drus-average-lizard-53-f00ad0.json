@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-z4drus-average-lizard-53-f00ad0",
+  "title": "Loader by Z4drus (average-lizard-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Z4drus/average-lizard-53",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "animation",
+    "blue",
+    "loading",
+    "dark",
+    "animated",
+    "gradients"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Z4drus on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Z4drus_average-lizard-53.html",
+  "code": "<div class=\"container\">\n  <div class=\"loader\">\n    <div class=\"crystal\"></div>\n    <div class=\"crystal\"></div>\n    <div class=\"crystal\"></div>\n    <div class=\"crystal\"></div>\n    <div class=\"crystal\"></div>\n    <div class=\"crystal\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Z4drus  - Tags: simple, animation, blue, loading, loader, dark, animated, gradients */\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.loader {\n  position: relative;\n  width: 200px;\n  height: 200px;\n  perspective: 800px;\n}\n\n.crystal {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 60px;\n  height: 60px;\n  opacity: 0;\n  transform-origin: bottom center;\n  transform: translate(-50%, -50%) rotateX(45deg) rotateZ(0deg);\n  animation: spin 4s linear infinite, emerge 2s ease-in-out infinite alternate,\n    fadeIn 0.3s ease-out forwards;\n  border-radius: 10px;\n  visibility: hidden;\n}\n\n@keyframes spin {\n  from {\n    transform: translate(-50%, -50%) rotateX(45deg) rotateZ(0deg);\n  }\n  to {\n    transform: translate(-50%, -50%) rotateX(45deg) rotateZ(360deg);\n  }\n}\n\n@keyframes emerge {\n  0%,\n  100% {\n    transform: translate(-50%, -50%) scale(0.5);\n    opacity: 0;\n  }\n  50% {\n    transform: translate(-50%, -50%) scale(1);\n    opacity: 1;\n  }\n}\n\n@keyframes fadeIn {\n  to {\n    visibility: visible;\n    opacity: 0.8;\n  }\n}\n\n.crystal:nth-child(1) {\n  background: linear-gradient(45deg, #003366, #336699);\n  animation-delay: 0s;\n}\n\n.crystal:nth-child(2) {\n  background: linear-gradient(45deg, #003399, #3366cc);\n  animation-delay: 0.3s;\n}\n\n.crystal:nth-child(3) {\n  background: linear-gradient(45deg, #0066cc, #3399ff);\n  animation-delay: 0.6s;\n}\n\n.crystal:nth-child(4) {\n  background: linear-gradient(45deg, #0099ff, #66ccff);\n  animation-delay: 0.9s;\n}\n\n.crystal:nth-child(5) {\n  background: linear-gradient(45deg, #33ccff, #99ccff);\n  animation-delay: 1.2s;\n}\n\n.crystal:nth-child(6) {\n  background: linear-gradient(45deg, #66ffff, #ccffff);\n  animation-delay: 1.5s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

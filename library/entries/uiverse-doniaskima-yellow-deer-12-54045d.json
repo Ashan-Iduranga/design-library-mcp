@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-doniaskima-yellow-deer-12-54045d",
+  "title": "Loader by doniaskima (yellow-deer-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/yellow-deer-12",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "material-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_yellow-deer-12.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: simple, material design, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 120px;\n  height: 20px;\n  background: linear-gradient(#000 50%,#0000 0),\n    linear-gradient(#0000 50%,#000 0),\n    linear-gradient(#000 50%,#0000 0),\n    linear-gradient(#0000 50%,#000 0),\n    linear-gradient(#000 50%,#0000 0),\n    linear-gradient(#0000 50%,#000 0)\n    #ddd;\n  background-size: calc(100%/6 + 1px) 200%;\n  background-repeat: no-repeat;\n  animation: l12 2s infinite;\n}\n\n@keyframes l12 {\n  0% {\n    background-position: calc(0*100%/5) 100%,calc(1*100%/5)   0%,calc(2*100%/5) 100%,calc(3*100%/5)   0%,calc(4*100%/5) 100%,calc(5*100%/5)   0%\n  }\n\n  16.67% {\n    background-position: calc(0*100%/5)   0%,calc(1*100%/5)   0%,calc(2*100%/5) 100%,calc(3*100%/5)   0%,calc(4*100%/5) 100%,calc(5*100%/5)   0%\n  }\n\n  33.33% {\n    background-position: calc(0*100%/5)   0%,calc(1*100%/5) 100%,calc(2*100%/5) 100%,calc(3*100%/5)   0%,calc(4*100%/5) 100%,calc(5*100%/5)   0%\n  }\n\n  50% {\n    background-position: calc(0*100%/5)   0%,calc(1*100%/5) 100%,calc(2*100%/5)   0%,calc(3*100%/5)   0%,calc(4*100%/5) 100%,calc(5*100%/5)   0%\n  }\n\n  66.67% {\n    background-position: calc(0*100%/5)   0%,calc(1*100%/5) 100%,calc(2*100%/5)   0%,calc(3*100%/5) 100%,calc(4*100%/5) 100%,calc(5*100%/5)   0%\n  }\n\n  83.33% {\n    background-position: calc(0*100%/5)   0%,calc(1*100%/5) 100%,calc(2*100%/5)   0%,calc(3*100%/5) 100%,calc(4*100%/5)   0%,calc(5*100%/5)   0%\n  }\n\n  100% {\n    background-position: calc(0*100%/5)   0%,calc(1*100%/5) 100%,calc(2*100%/5)   0%,calc(3*100%/5) 100%,calc(4*100%/5)   0%,calc(5*100%/5) 100%\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

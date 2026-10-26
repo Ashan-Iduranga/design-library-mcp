@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-lucaasbre-clever-lizard-75-9352c3",
+  "title": "Card by Lucaasbre (clever-lizard-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Lucaasbre/clever-lizard-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "minimalist",
+    "warning",
+    "modern",
+    "clean",
+    "confirm",
+    "modal",
+    "security"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Lucaasbre on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Lucaasbre_clever-lizard-75.html",
+  "code": "<div class=\"warning-general\">\n  <div class=\"confirm-div\">\n    <p>\n      <strong>The “Horror Games” category will be eliminated.</strong>\n      <span>Are you sure you want to continue?</span>\n    </p>\n    <div class=\"modals-container\">\n      <button class=\"red-btn\">Cancel</button>\n      <button class=\"green-btn\">Accept</button>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Lucaasbre  - Tags: minimalist, warning, card, modern, clean, confirm, modal, security */\n.confirm-div {\n  background-color: #ccc;\n}\n\n.green-btn {\n  background-color: #47a04b;\n}\n\n.green-btn:hover {\n  background-color: #368339;\n}\n\n.green-btn:active {\n  background-color: #2d6830;\n}\n\n.green-btn:disabled {\n  background-color: #c8eac9;\n  color: #1b7a43;\n}\n\n.red-btn {\n  background-color: #f93a3a;\n}\n\n.red-btn:hover {\n  background-color: #e71f1f;\n}\n\n.red-btn:active {\n  background-color: #c21313;\n}\n\n.red-btn:disabled {\n  background-color: #ffc7c7;\n  color: #c21313;\n}\n\n.confirm-div {\n  font-size: 14px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 300px;\n  padding: 20px;\n  text-align: center;\n  border-radius: 6px;\n  box-shadow: 4px 4px 15px #3e3e3e;\n  font-family: \"Segoe UI\", Tahoma, sans-serif;\n  cursor: default;\n}\n\n.confirm-div button {\n  cursor: pointer;\n  width: 100%;\n  padding: 4px 6px;\n  border-radius: 4px;\n  color: #fff;\n  border: none;\n  height: 30px;\n  width: 100%;\n}\n\n.confirm-div p {\n  display: flex;\n  flex-direction: column;\n}\n\n.confirm-div p strong {\n  margin-bottom: 15px;\n}\n\n.warning-general {\n  position: absolute; /* switch to fixed */\n  top: 0;\n  left: 0;\n  z-index: 999;\n  width: 100%;\n  height: 100%;\n  backdrop-filter: blur(2px);\n}\n\n.modals-container {\n  display: flex;\n  flex-direction: row;\n  height: 32px;\n  margin-top: 20px;\n  gap: 7px;\n  width: 100%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

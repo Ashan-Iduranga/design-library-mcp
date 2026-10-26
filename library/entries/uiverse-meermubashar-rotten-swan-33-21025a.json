@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-meermubashar-rotten-swan-33-21025a",
+  "title": "Button by meermubashar (rotten-swan-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/meermubashar/rotten-swan-33",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By meermubashar on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/meermubashar_rotten-swan-33.html",
+  "code": "<button> Button\n</button>\n<style>\n/* From Uiverse.io by meermubashar - Tags: button */\nbutton {\n width: 140px;\n height: 45px;\n font-size: 23px;\n cursor: pointer;\n border: none;\n outline: none;\n background: transparent;\n color: white;\n font-family: 'Times New Roman', Times, serif;\n font-weight: 700;\n position: relative;\n transition: all 0.5s;\n z-index: 1;\n}\n\nbutton::before {\n content: \"\";\n position: absolute;\n top: 0;\n left: 0;\n width: 5px;\n height: 100%;\n background-color: white;\n z-index: -1;\n transition: all 0.5s;\n}\n\nbutton:hover::before {\n width: 100%;\n}\n\nbutton:hover {\n color: black;\n}\n\nbutton:active:before {\n background: #b9b9b9;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bocikond-breezy-sloth-97-798337",
+  "title": "Loader by bociKond (breezy-sloth-97)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/bociKond/breezy-sloth-97",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By bociKond on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/bociKond_breezy-sloth-97.html",
+  "code": "<div class=\"phone\">\n  <span class=\"loader\"></span>\n  <span class=\"text\">Loading...</span>\n</div>\n<style>\n/* From Uiverse.io by bociKond - Source: https://uiverse.io/Nawsome/ugly-skunk-66 - Tags: loading, phone, loader, circle loader, shake, camera, iphone */\n/* phone */\n.phone {\n  --screen-clr: #0d85aa;\n  --border-clr: #29536d;\n  --loader-clr: #CCE3DE;\n  background-color: var(--screen-clr);\n  height: 13rem;\n  aspect-ratio: 10/16;\n  border-radius: .5rem;\n  border: 5px solid var(--border-clr);\n  border-top: 10px solid var(--border-clr);\n  border-bottom: 10px solid var(--border-clr);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 1rem;\n  animation: shake .5s infinite linear;\n  position: relative;\n}\n\n/* camera */\n.phone::after {\n  content: '';\n  position: absolute;\n  top: -7px;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 1rem;\n  height: 5px;\n  background-color: var(--loader-clr);\n  border-radius: .5rem;\n}\n\n/* loader */\n.loader {\n  border: 10px dashed var(--loader-clr);\n  width: 2rem;\n  height: 2rem;\n  padding: 1.7rem;\n  border-radius: 50%;\n  animation: loading 2s infinite ease-in-out;\n}\n\n/* loading text */\n.text {\n  color: var(--loader-clr);\n}\n\n/* loader spinning */\n@keyframes loading {\n  0% {\n    rotate: 0deg;\n  }\n\n  100% {\n    rotate: 360deg;\n  }\n}\n\n/* phone shaking */\n@keyframes shake {\n  0% {\n    rotate: 0deg;\n  }\n\n  10% {\n    rotate: .5deg;\n  }\n\n  20% {\n    rotate: 0deg;\n  }\n\n  30% {\n    rotate: -.5deg;\n  }\n\n  50% {\n    rotate: 0deg;\n  }\n\n  100% {\n    rotate: 0deg;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

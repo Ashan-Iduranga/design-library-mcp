@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-sonex-icb-hungry-cougar-91-3c07a7",
+  "title": "Loader by sonex-ICB (hungry-cougar-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/sonex-ICB/hungry-cougar-91",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "animation",
+    "rotate",
+    "animated",
+    "creative",
+    "spin",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By sonex-ICB on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/sonex-ICB_hungry-cougar-91.html",
+  "code": "<div class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by sonex-ICB  - Tags: simple, animation, loader, rotate, animated, creative, spin, loading animation */\n.loader {\n  border: 10px inset tomato;\n  padding: 12px;\n  transform: rotate(45deg);\n  animation: loader1 1s ease-in-out infinite;\n}\n@keyframes loader1 {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n    transform: scale(1.5);\n  }\n  100% {\n    opacity: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

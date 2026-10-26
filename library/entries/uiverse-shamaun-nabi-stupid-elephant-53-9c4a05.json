@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-shamaun-nabi-stupid-elephant-53-9c4a05",
+  "title": "Form by Shamaun-Nabi (stupid-elephant-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shamaun-Nabi/stupid-elephant-53",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "simple",
+    "login",
+    "sign-up",
+    "login-form"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shamaun-Nabi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Shamaun-Nabi_stupid-elephant-53.html",
+  "code": "<!-- From Uiverse.io by Shamaun-Nabi  - Tags: simple, login, form, sign-up, login , login form -->\n<section>\n  <div\n    class=\"flex bg-white items-center justify-center px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-8\"\n  >\n    <div class=\"xl:mx-auto xl:w-full shadow-md p-4 xl:max-w-sm 2xl:max-w-md\">\n      <div class=\"mb-2 flex justify-center\"></div>\n      <h2 class=\"text-center text-2xl font-bold leading-tight text-black\">\n        Sign in to your account\n      </h2>\n      <p class=\"mt-2 text-center text-sm text-gray-600\">\n        Don't have an account? Create a free account\n      </p>\n      <form class=\"mt-8\" method=\"POST\" action=\"#\">\n        <div class=\"space-y-5\">\n          <div>\n            <label class=\"text-base font-medium text-gray-900\">\n              Email address\n            </label>\n            <div class=\"mt-2\">\n              <input\n                placeholder=\"Email\"\n                type=\"email\"\n                class=\"flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50\"\n              />\n            </div>\n          </div>\n          <div>\n            <div class=\"flex items-center justify-between\">\n              <label class=\"text-base font-medium text-gray-900\">\n                Password\n              </label>\n              <a\n                class=\"text-sm font-semibold text-black hover:underline\"\n                title=\"\"\n                href=\"#\"\n              >\n                Forgot password?\n              </a>\n            </div>\n            <div class=\"mt-2\">\n              <input\n                placeholder=\"Password\"\n                type=\"password\"\n                class=\"flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50\"\n              />\n            </div>\n          </div>\n          <div>\n            <button\n              class=\"inline-flex w-full items-center justify-center rounded-md bg-black px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-black/80\"\n              type=\"button\"\n            >\n              Get started\n            </button>\n          </div>\n        </div>\n      </form>\n      <div class=\"mt-3 space-y-3\">\n        <button\n          class=\"relative inline-flex w-full items-center justify-center rounded-md border border-gray-400 bg-white px-3.5 py-2.5 font-semibold text-gray-700 transition-all duration-200 hover:bg-gray-100 hover:text-black focus:bg-gray-100 focus:text-black focus:outline-none\"\n          type=\"button\"\n        >\n          <span class=\"mr-2 inline-block\">\n            <svg\n              fill=\"currentColor\"\n              viewBox=\"0 0 24 24\"\n              xmlns=\"http://www.w3.org/2000/svg\"\n              class=\"h-6 w-6 text-rose-500\"\n            >\n              <path\n                d=\"M20.283 10.356h-8.327v3.451h4.792c-.446 2.193-2.313 3.453-4.792 3.453a5.27 5.27 0 0 1-5.279-5.28 5.27 5.27 0 0 1 5.279-5.279c1.259 0 2.397.447 3.29 1.178l2.6-2.599c-1.584-1.381-3.615-2.233-5.89-2.233a8.908 8.908 0 0 0-8.934 8.934 8.907 8.907 0 0 0 8.934 8.934c4.467 0 8.529-3.249 8.529-8.934 0-.528-.081-1.097-.202-1.625z\"\n              ></path>\n            </svg>\n          </span>\n          Sign in with Google\n        </button>\n      </div>\n    </div>\n  </div>\n</section>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

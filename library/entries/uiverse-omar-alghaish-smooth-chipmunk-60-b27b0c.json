@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-omar-alghaish-smooth-chipmunk-60-b27b0c",
+  "title": "Toggle by omar-alghaish (smooth-chipmunk-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/omar-alghaish/smooth-chipmunk-60",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By omar-alghaish on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/omar-alghaish_smooth-chipmunk-60.html",
+  "code": "<div class=\"switch\">\n    <input type=\"checkbox\">\n    <div>\n        <span class=\"line-1\"></span>\n        <span class=\"line-2\"></span>\n        <span class=\"line-3\"></span>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by omar-alghaish - Tags: switch */\n.switch {\n  position: relative;\n  cursor: pointer;\n  width: 40px;\n  height: 40px;\n  background: linear-gradient(45deg,\n            rgb(183, 0, 255) 20%,\n            rgb(255, 0, 170) 100%);\n  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.363);\n  border-radius: 5px;\n}\n\n.switch input {\n  opacity: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 1;\n  cursor: pointer;\n  position: absolute;\n}\n\n.switch div {\n  width: 80%;\n  height: 80%;\n  margin: 10%;\n  position: absolute;\n}\n\n.switch span {\n  background: #fff;\n  width: 100%;\n  height: 2px;\n  border-radius: 5px;\n  display: block;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  transition: transform 0.5s, width 0.5s;\n}\n\n.switch .line-1 {\n  width: 50%;\n  transform: translate(-100%, -10px);\n  transform-origin: 0 0;\n}\n\n.switch .line-3 {\n  width: 50%;\n  left: auto;\n  right: 0;\n  transform: translate(0, 10px);\n  transform-origin: 100% 0;\n}\n\ninput:checked + div span.line-1 {\n  transform: translate(0, 0) rotate(-45deg);\n}\n\ninput:checked +  div span.line-3 {\n  transform: translate(-100%, 0) rotate(-45deg);\n}\n\ninput:checked + div span.line-2 {\n  transform: translate(-50%, -50%) rotate(45deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-wztd-tall-rattlesnake-53-417b25",
+  "title": "Card by wztd (tall-rattlesnake-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/wztd/tall-rattlesnake-53",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By wztd on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/wztd_tall-rattlesnake-53.html",
+  "code": "<div class=\"card\" style=\"--rating:90\">\n  <div class=\"icon\">🫠</div>\n  <div class=\"title\">Easy Cheesy</div>\n  <p class=\"description\">This cheesy, juicy ultimate comforting lunch or quick and easy dinner recipe.</p>\n  <div class=\"rating\"></div>\n  <a href=\"#\" class=\"link\">See the recipe</a>\n</div>\n<style>\n/* From Uiverse.io by wztd - Tags: card */\n.card {\n  --background: #fff;\n  --cardShadow: rgba(32,33,37,.1);\n  --cardShadowHover: rgba(32,33,37,.06);\n  --cardShadowActive: rgba(32,33,37,.55);\n  --cardBorder: #dbdce0;\n  --cardBorderActive: #1a73e8;\n  --textColor: #202125;\n  --linkColor: #1967d2;\n  --ratingColor: #faab00;\n}\n\n@media (prefers-color-scheme: dark) {\n  .card {\n    --background: #3c4043;\n    --cardShadow: rgba(0,0,0,.28);\n    --cardShadowHover: rgba(0,0,0,.16);\n    --cardShadowActive: rgba(0,0,0,.55);\n    --cardBorder: #202125;\n    --cardBorderActive: #8ab4f8;\n    --textColor: #e9eaee;\n    --linkColor: #8ab4f8;\n  }\n}\n\n.card {\n  width: 250px;\n  height: 350px;\n  aspect-ratio: 2/3;\n  background: var(--background);\n  color: var(--textColor);\n  border: 1px solid var(--cardBorder);\n  padding: 25px;\n  box-shadow: 8px 8px 0 var(--cardShadow);\n  transition: box-shadow .5s, transform .5s;\n  border-radius: 8px;\n  display: inline-block;\n}\n\n.card:hover {\n  transform: translate(-2px, -4px);\n  box-shadow: 16px 16px 0 var(--cardShadowHover);\n}\n\n.card:active {\n  transform: translate(-2px, -4px);\n  border: 2px solid var(--cardBorderActive);\n  box-shadow: 4px 4px 0 var(--cardShadowActive);\n}\n\n.card > .icon,\n.card > .title,\n.card > .description {\n  margin-bottom: 0.7em;\n  cursor: default;\n  user-select: none;\n}\n\n.card > .title {\n  margin-top: 1.5em;\n  font-weight: bold;\n}\n\n.card > .description {\n  line-height: 1.5em;\n  min-height: 6em;\n}\n\n.card > .icon {\n  font-size: 3em;\n  margin-bottom: .2em;\n}\n\n.card > .rating {\n  font-size: 1.5em;\n  margin-bottom: 0.8em;\n  color: var(--ratingColor);\n  font-weight: bold;\n  position: relative;\n  width: max-content;\n}\n\n.card > .rating:before {\n  content: \"☆☆☆☆☆\";\n}\n\n.card > .rating:after {\n  content: \"★★★★★\";\n  position: absolute;\n  left: 0;\n  z-index: 0;\n  width: calc(var(--rating) * 1%);\n  overflow: hidden;\n}\n\n.card > .link {\n  margin-bottom: 1rem;\n  color: var(--linkColor);\n  font-size: .8em;\n  font-weight: 600;\n}\n\n/* Optional ~ Link the whole card */\n.card > .link::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.card > .link:after {\n  content: \"↗\";\n  display: inline-block;\n  margin-left: .3em;\n  transition: transform .3s ease-in-out;\n}\n\n.card:hover > .link:after {\n  transform: translate(.2em, -.2em);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

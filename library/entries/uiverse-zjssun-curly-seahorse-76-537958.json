@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-zjssun-curly-seahorse-76-537958",
+  "title": "Button by zjssun (curly-seahorse-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/zjssun/curly-seahorse-76",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By zjssun on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/zjssun_curly-seahorse-76.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by zjssun - Tags: button */\n.button {\n  position: relative;\n  padding: 10px 22px;\n  border-radius: 6px;\n  border: none;\n  color: #fff;\n  cursor: pointer;\n  background-color: #7d2ae8;\n  transition: all 0.2s ease;\n}\n\n.button:active {\n  transform: scale(0.96);\n}\n\n.button:before,\n.button:after {\n  position: absolute;\n  content: \"\";\n  width: 150%;\n  left: 50%;\n  height: 100%;\n  transform: translateX(-50%);\n  z-index: -1000;\n  background-repeat: no-repeat;\n}\n\n.button:hover:before {\n  top: -70%;\n  background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%);\n  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,\n    10% 10%, 18% 18%;\n  background-position: 50% 120%;\n  animation: greentopBubbles 0.6s ease;\n}\n\n@keyframes greentopBubbles {\n  0% {\n    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,\n      40% 90%, 55% 90%, 70% 90%;\n  }\n\n  50% {\n    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,\n      50% 50%, 65% 20%, 90% 30%;\n  }\n\n  100% {\n    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,\n      50% 40%, 65% 10%, 90% 20%;\n    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;\n  }\n}\n\n.button:hover::after {\n  bottom: -70%;\n  background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%);\n  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;\n  background-position: 50% 0%;\n  animation: greenbottomBubbles 0.6s ease;\n}\n\n@keyframes greenbottomBubbles {\n  0% {\n    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,\n      70% -10%, 70% 0%;\n  }\n\n  50% {\n    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,\n      105% 0%;\n  }\n\n  100% {\n    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,\n      110% 10%;\n    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

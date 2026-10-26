@@ -1,0 +1,35 @@
+{
+  "id": "magicui-ripple-demo",
+  "title": "Ripple Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/ripple",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "ripple",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing an animated ripple effect.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/ripple-demo.tsx",
+  "code": "import { Ripple } from \"@/registry/magicui/ripple\"\n\nexport default function RippleDemo() {\n  return (\n    <div className=\"bg-background relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border\">\n      <p className=\"z-10 text-center text-5xl font-medium tracking-tighter whitespace-pre-wrap text-white\">\n        Ripple\n      </p>\n      <Ripple />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

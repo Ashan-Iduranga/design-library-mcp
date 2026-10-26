@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-menu-menu-with-title-as-a-parent",
+  "title": "Menu: Menu with title as a parent (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/menu/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "menu",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Menu is used to display a list of links vertically or horizontally.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/menu/+page.md",
+  "code": "<ul class=\"menu bg-base-200 rounded-box w-56\">\n  <li>\n    <h2 class=\"menu-title\">Title</h2>\n    <ul>\n      <li><a>Item 1</a></li>\n      <li><a>Item 2</a></li>\n      <li><a>Item 3</a></li>\n    </ul>\n  </li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

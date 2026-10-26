@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-jaydipprajapati1910-tender-dolphin-96-e8f272",
+  "title": "Button by JaydipPrajapati1910 (tender-dolphin-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/tender-dolphin-96",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "water",
+    "transparent"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JaydipPrajapati1910_tender-dolphin-96.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: button, water, transparent */\nbutton {\n  appearance: button;\n  outline: none;\n  border: none;\n  border-radius: 16px;\n  box-sizing: border-box;\n  color: #222;\n  cursor: pointer;\n  display: inline-block;\n  font-size: 15px;\n  font-weight: 700;\n  letter-spacing: .8px;\n  line-height: 20px;\n  margin: 0;\n  outline: none;\n  overflow: visible;\n  padding: 13px 19px;\n  text-align: center;\n  text-transform: uppercase;\n  touch-action: manipulation;\n  transform: translateZ(0);\n  transition: filter .2s;\n  user-select: none;\n  -webkit-user-select: none;\n  vertical-align: middle;\n  white-space: nowrap;\n}\n\nbutton:after {\n  background-clip: padding-box;\n  box-shadow: inset 4px 4px 4px rgba(15, 15, 15, 0.315),\n    4px 4px 4px rgba(28, 28, 28, 0.13);\n  border: none;\n  border-radius: 16px;\n  outline: none;\n  bottom: -4px;\n  content: \"\";\n  left: 0;\n  position: absolute;\n  right: 0;\n  top: 0;\n  z-index: -1;\n}\n\nbutton:main, button:focus {\n  user-select: auto;\n}\n\nbutton:hover:not(:disabled) {\n  filter: brightness(1.1);\n}\n\nbutton:disabled {\n  cursor: auto;\n}\n\nbutton:active:after {\n  border-width: 0 0 0px;\n}\n\nbutton:active {\n  padding-bottom: 10px;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

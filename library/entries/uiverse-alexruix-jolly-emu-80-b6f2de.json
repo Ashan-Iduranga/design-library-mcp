@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-alexruix-jolly-emu-80-b6f2de",
+  "title": "Input by alexruix (jolly-emu-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/jolly-emu-80",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "email"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/alexruix_jolly-emu-80.html",
+  "code": "<div class=\"input-group\">\n    <label class=\"label\">Email address</label>\n    <input autocomplete=\"off\" name=\"Email\" id=\"Email\" class=\"input\" type=\"email\">\n    <div></div></div>\n<style>\n/* From Uiverse.io by alexruix - Tags: email, input */\n.input {\n  max-width: 190px;\n  height: 44px;\n  background-color: #05060f0a;\n  border-radius: .5rem;\n  padding: 0 1rem;\n  border: 2px solid transparent;\n  font-size: 1rem;\n  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;\n}\n\n.label {\n  display: block;\n  margin-bottom: .3rem;\n  font-size: .9rem;\n  font-weight: bold;\n  color: #05060f99;\n  transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;\n}\n\n.input:hover, .input:focus, .input-group:hover .input {\n  outline: none;\n  border-color: #05060f;\n}\n\n.input-group:hover .label, .input:focus {\n  color: #05060fc2;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

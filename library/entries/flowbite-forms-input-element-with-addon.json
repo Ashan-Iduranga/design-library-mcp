@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-forms-input-element-with-addon",
+  "title": "Forms: Input element with addon (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/forms/#input-element-with-addon",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "forms",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to add a SVG icon or special character with an addon style to the input element.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/forms.md",
+  "code": "<form class=\"max-w-sm mx-auto\">\n  <label for=\"website-admin\" class=\"block mb-2.5 text-sm font-medium text-heading\">Username</label>\n  <div class=\"flex shadow-xs rounded-base\">\n    <span class=\"inline-flex items-center px-3 text-sm text-body bg-neutral-tertiary border rounded-e-0 border-default-medium border-e-0 rounded-s-base\">\n      <svg class=\"w-4 h-4 text-body\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0a8.949 8.949 0 0 0 4.951-1.488A3.987 3.987 0 0 0 13 16h-2a3.987 3.987 0 0 0-3.951 3.512A8.948 8.948 0 0 0 12 21Zm3-11a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z\"/></svg>\n    </span>\n    <input type=\"text\" id=\"website-admin\" class=\"rounded-none rounded-e-base block w-full px-3 py-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand placeholder:text-body\" placeholder=\"elonmusk\">\n  </div>\n</form>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

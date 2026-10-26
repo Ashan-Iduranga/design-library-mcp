@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-priyanshugupta28-plastic-panther-7-f0636f",
+  "title": "Checkbox by PriyanshuGupta28 (plastic-panther-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/plastic-panther-7",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "cool-checkbox",
+    "checkmark",
+    "tick-switchbox"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/PriyanshuGupta28_plastic-panther-7.html",
+  "code": "<div class=\"checkbox-wrapper\">\n  <input id=\"cbtest-19\" type=\"checkbox\">\n  <label class=\"check-box\" for=\"cbtest-19\">\n</label></div>\n\n\n  \n\n\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: checkbox, cool checkbox, checkmark, tick switchbox */\n.checkbox-wrapper {\n  box-sizing: border-box;\n  --background-color: #fff;\n  --checkbox-height: 25px;\n}\n\n.checkbox-wrapper input[type=checkbox] {\n  display: none;\n}\n\n.checkbox-wrapper .check-box {\n  height: var(--checkbox-height);\n  width: var(--checkbox-height);\n  background-color: transparent;\n  border: calc(var(--checkbox-height) * .1) solid #000;\n  border-radius: 5px;\n  position: relative;\n  display: inline-block;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n  -moz-transition: border-color ease 0.2s;\n  -o-transition: border-color ease 0.2s;\n  -webkit-transition: border-color ease 0.2s;\n  transition: border-color ease 0.2s;\n  cursor: pointer;\n}\n\n.checkbox-wrapper .check-box::before,\n  .checkbox-wrapper .check-box::after {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n  position: absolute;\n  height: 0;\n  width: calc(var(--checkbox-height) * .2);\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  display: inline-block;\n  -moz-transform-origin: left top;\n  -ms-transform-origin: left top;\n  -o-transform-origin: left top;\n  -webkit-transform-origin: left top;\n  transform-origin: left top;\n  border-radius: 5px;\n  content: \" \";\n  -webkit-transition: opacity ease 0.5;\n  -moz-transition: opacity ease 0.5;\n  transition: opacity ease 0.5;\n}\n\n.checkbox-wrapper .check-box::before {\n  top: calc(var(--checkbox-height) * .72);\n  left: calc(var(--checkbox-height) * .41);\n  box-shadow: 0 0 0 calc(var(--checkbox-height) * .05) var(--background-color);\n  -moz-transform: rotate(-135deg);\n  -ms-transform: rotate(-135deg);\n  -o-transform: rotate(-135deg);\n  -webkit-transform: rotate(-135deg);\n  transform: rotate(-135deg);\n}\n\n.checkbox-wrapper .check-box::after {\n  top: calc(var(--checkbox-height) * .37);\n  left: calc(var(--checkbox-height) * .05);\n  -moz-transform: rotate(-45deg);\n  -ms-transform: rotate(-45deg);\n  -o-transform: rotate(-45deg);\n  -webkit-transform: rotate(-45deg);\n  transform: rotate(-45deg);\n}\n\n.checkbox-wrapper input[type=checkbox]:checked + .check-box,\n  .checkbox-wrapper .check-box.checked {\n  border-color: #5900ff;\n}\n\n.checkbox-wrapper input[type=checkbox]:checked + .check-box::after,\n  .checkbox-wrapper .check-box.checked::after {\n  height: calc(var(--checkbox-height) / 2);\n  -moz-animation: dothabottomcheck-19 0.2s ease 0s forwards;\n  -o-animation: dothabottomcheck-19 0.2s ease 0s forwards;\n  -webkit-animation: dothabottomcheck-19 0.2s ease 0s forwards;\n  animation: dothabottomcheck-19 0.2s ease 0s forwards;\n}\n\n.checkbox-wrapper input[type=checkbox]:checked + .check-box::before,\n  .checkbox-wrapper .check-box.checked::before {\n  height: calc(var(--checkbox-height) * 1.2);\n  -moz-animation: dothatopcheck-19 0.4s ease 0s forwards;\n  -o-animation: dothatopcheck-19 0.4s ease 0s forwards;\n  -webkit-animation: dothatopcheck-19 0.4s ease 0s forwards;\n  animation: dothatopcheck-19 0.4s ease 0s forwards;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

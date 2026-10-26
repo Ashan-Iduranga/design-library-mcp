@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-naelawadallah-angry-dolphin-56-47885f",
+  "title": "Input by naelawadallah (angry-dolphin-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/naelawadallah/angry-dolphin-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "dark",
+    "search"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By naelawadallah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/naelawadallah_angry-dolphin-56.html",
+  "code": "<div class=\"search-header\">\n  <input placeholder=\"Search\" class=\"search-header__input\" type=\"text\" />\n  <button class=\"search-header__button\">\n    <svg\n      fill=\"none\"\n      viewBox=\"0 0 18 18\"\n      height=\"18\"\n      width=\"18\"\n      class=\"search-header__icon\"\n    >\n      <path\n        fill=\"#3A3A3A\"\n        d=\"M7.132 0C3.197 0 0 3.124 0 6.97c0 3.844 3.197 6.969 7.132 6.969 1.557 0 2.995-.49 4.169-1.32L16.82 18 18 16.847l-5.454-5.342a6.846 6.846 0 0 0 1.718-4.536C14.264 3.124 11.067 0 7.132 0zm0 .82c3.48 0 6.293 2.748 6.293 6.15 0 3.4-2.813 6.149-6.293 6.149S.839 10.37.839 6.969C.839 3.568 3.651.82 7.132.82z\"\n      ></path>\n    </svg>\n  </button>\n</div>\n\n<style>\n/* From Uiverse.io by naelawadallah  - Tags: input, dark, search */\n.search-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  text-align: center;\n}\n\n.search-header__input {\n  font-family: inherit;\n  font-size: 16px;\n  background-color: #0a0a0a;\n  border: solid 0.5px #525252;\n  color: #646464;\n  padding: 0.7rem 1rem;\n  border-radius: 25px;\n  width: 240px;\n  height: 48px;\n  transition: all ease-in-out 0.5s;\n  margin-right: -2rem;\n  opacity: 1;\n  text-align: center;\n}\n\n.search-header__input:hover,\n.search-header__input:focus {\n  box-shadow: 0 0 1em #00000013;\n}\n\n.search-header__input:focus {\n  outline: none;\n  background-color: #0a0a0aad;\n}\n\n.search-header__input::-webkit-input-placeholder {\n  font-weight: 100;\n  color: #3a3a3a;\n}\n\n.search-header__input:focus + .search-header__button {\n  background-color: transparent;\n}\n\n.search-header__button {\n  border: none;\n  background-color: transparent;\n  margin-top: 0.1em;\n}\n\n.search-header__button:hover {\n  cursor: pointer;\n}\n\n.search-header__icon {\n  height: 1.3em;\n  width: 1.3em;\n  fill: #3a3a3a;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

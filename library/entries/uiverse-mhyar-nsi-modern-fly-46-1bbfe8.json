@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-mhyar-nsi-modern-fly-46-1bbfe8",
+  "title": "Card by Mhyar-nsi (modern-fly-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Mhyar-nsi/modern-fly-46",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "code",
+    "syntax",
+    "code-block"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Mhyar-nsi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Mhyar-nsi_modern-fly-46.html",
+  "code": "<div class=\"card\">\n        <div class=\"top\">\n            <div class=\"dots\">\n                <div class=\"dot dot-1\"></div>\n                <div class=\"dot dot-2\"></div>\n                <div class=\"dot dot-3\"></div>\n              </div>\n            <p class=\"g-color\">_&gt;</p>\n        </div>\n        <div class=\"bottom\">\n            <p class=\"code\">\n                <span class=\"red\">function</span> <span class=\"violet\">helloWorld</span><span class=\"blue\">(</span><span class=\"orange\">text</span><span class=\"blue\">)</span><span class=\"blue\">{</span><br>\n                    <span class=\"red space-4\">for</span><span class=\"orange\">(</span><span class=\"red\">let</span> <span class=\"white\">i</span> <span class=\"red\">=</span> <span class=\"blue\">0</span> <span class=\"white\">; i</span> <span class=\"red\">&lt;</span> <span class=\"blue\">10</span> <span class=\"white\">; i</span><span class=\"red\">++</span><span class=\"orange\">){</span><br>\n                        <span class=\"blue space-4x2\">console</span><span class=\"white\">.</span><span class=\"violet\">log(</span><span class=\"blue\">`${</span><span class=\"orange\">text</span><span class=\"blue\">}`</span><span class=\"violet\">)</span><span class=\"white\">;</span><br>\n                    <span class=\"orange space-4\">}</span><br>\n                <span class=\"blue\">}</span><br>\n                <br>\n                <span class=\"violet\">helloWorld</span><span class=\"blue\">('Hello World')</span><span class=\"white\">;</span>\n            </p>            \n        </div>\n      </div>\n<style>\n/* From Uiverse.io by Mhyar-nsi - Tags: card, code, syntax, code block */\n.card {\n  font-family: monospace;\n  margin-top: 40px;\n  width: 350px;\n  height: 260px;\n  background: #292828da;\n  border: 2px solid #000;\n  border-radius: 15px;\n}\n\n.top {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin: 10px;\n}\n\n.dots {\n  display: flex;\n  justify-content: last baseline;\n}\n\n.dot {\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n}\n\n.dot-1 {\n  background-color: rgb(0, 132, 255);\n}\n\n.dot-2 {\n  background-color: rgb(230, 0, 255);\n}\n\n.dot-3 {\n  background-color: rgb(0, 255, 89);\n}\n\n.top p {\n  font-size: 20px;\n  font-weight: bold;\n}\n\n.dot , .top p {\n  margin: 5px;\n}\n\n.g-color {\n  color: darkgreen;\n}\n\n.bottom {\n  margin-top: 30px;\n  padding: 0 25px;\n}\n\n.code {\n  font-size: 15px;\n}\n\n.red {\n  color: rgb(210, 63, 52);\n}\n\n.violet {\n  color: rgb(181, 40, 203);\n}\n\n.blue {\n  color: rgb(91, 131, 223);\n}\n\n.orange {\n  color: rgb(195, 128, 3);\n}\n\n.white {\n  color: rgb(163, 163, 163);\n}\n\n.space-4 {\n  margin-left: 35px;\n}\n\n.space-4x2 {\n  margin-left: 70px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

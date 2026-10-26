@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-nawsome-cold-liger-90-450148",
+  "title": "Loader by Nawsome (cold-liger-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/cold-liger-90",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "3d"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Nawsome_cold-liger-90.html",
+  "code": "<div class=\"boxes\">\n    <div class=\"box\">\n        <div></div>\n        <div></div>\n        <div></div>\n        <div></div>\n    </div>\n    <div class=\"box\">\n        <div></div>\n        <div></div>\n        <div></div>\n        <div></div>\n    </div>\n    <div class=\"box\">\n        <div></div>\n        <div></div>\n        <div></div>\n        <div></div>\n    </div>\n    <div class=\"box\">\n        <div></div>\n        <div></div>\n        <div></div>\n        <div></div>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by Nawsome - Tags: 3d, loader */\n.boxes {\n  --size: 32px;\n  --duration: 800ms;\n  height: calc(var(--size) * 2);\n  width: calc(var(--size) * 3);\n  position: relative;\n  transform-style: preserve-3d;\n  transform-origin: 50% 50%;\n  margin-top: calc(var(--size) * 1.5 * -1);\n  transform: rotateX(60deg) rotateZ(45deg) rotateY(0deg) translateZ(0px);\n}\n\n.boxes .box {\n  width: var(--size);\n  height: var(--size);\n  top: 0;\n  left: 0;\n  position: absolute;\n  transform-style: preserve-3d;\n}\n\n.boxes .box:nth-child(1) {\n  transform: translate(100%, 0);\n  -webkit-animation: box1 var(--duration) linear infinite;\n  animation: box1 var(--duration) linear infinite;\n}\n\n.boxes .box:nth-child(2) {\n  transform: translate(0, 100%);\n  -webkit-animation: box2 var(--duration) linear infinite;\n  animation: box2 var(--duration) linear infinite;\n}\n\n.boxes .box:nth-child(3) {\n  transform: translate(100%, 100%);\n  -webkit-animation: box3 var(--duration) linear infinite;\n  animation: box3 var(--duration) linear infinite;\n}\n\n.boxes .box:nth-child(4) {\n  transform: translate(200%, 0);\n  -webkit-animation: box4 var(--duration) linear infinite;\n  animation: box4 var(--duration) linear infinite;\n}\n\n.boxes .box > div {\n  --background: #5C8DF6;\n  --top: auto;\n  --right: auto;\n  --bottom: auto;\n  --left: auto;\n  --translateZ: calc(var(--size) / 2);\n  --rotateY: 0deg;\n  --rotateX: 0deg;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: var(--background);\n  top: var(--top);\n  right: var(--right);\n  bottom: var(--bottom);\n  left: var(--left);\n  transform: rotateY(var(--rotateY)) rotateX(var(--rotateX)) translateZ(var(--translateZ));\n}\n\n.boxes .box > div:nth-child(1) {\n  --top: 0;\n  --left: 0;\n}\n\n.boxes .box > div:nth-child(2) {\n  --background: #145af2;\n  --right: 0;\n  --rotateY: 90deg;\n}\n\n.boxes .box > div:nth-child(3) {\n  --background: #447cf5;\n  --rotateX: -90deg;\n}\n\n.boxes .box > div:nth-child(4) {\n  --background: #DBE3F4;\n  --top: 0;\n  --left: 0;\n  --translateZ: calc(var(--size) * 3 * -1);\n}\n\n@-webkit-keyframes box1 {\n  0%, 50% {\n    transform: translate(100%, 0);\n  }\n\n  100% {\n    transform: translate(200%, 0);\n  }\n}\n\n@keyframes box1 {\n  0%, 50% {\n    transform: translate(100%, 0);\n  }\n\n  100% {\n    transform: translate(200%, 0);\n  }\n}\n\n@-webkit-keyframes box2 {\n  0% {\n    transform: translate(0, 100%);\n  }\n\n  50% {\n    transform: translate(0, 0);\n  }\n\n  100% {\n    transform: translate(100%, 0);\n  }\n}\n\n@keyframes box2 {\n  0% {\n    transform: translate(0, 100%);\n  }\n\n  50% {\n    transform: translate(0, 0);\n  }\n\n  100% {\n    transform: translate(100%, 0);\n  }\n}\n\n@-webkit-keyframes box3 {\n  0%, 50% {\n    transform: translate(100%, 100%);\n  }\n\n  100% {\n    transform: translate(0, 100%);\n  }\n}\n\n@keyframes box3 {\n  0%, 50% {\n    transform: translate(100%, 100%);\n  }\n\n  100% {\n    transform: translate(0, 100%);\n  }\n}\n\n@-webkit-keyframes box4 {\n  0% {\n    transform: translate(200%, 0);\n  }\n\n  50% {\n    transform: translate(200%, 100%);\n  }\n\n  100% {\n    transform: translate(100%, 100%);\n  }\n}\n\n@keyframes box4 {\n  0% {\n    transform: translate(200%, 0);\n  }\n\n  50% {\n    transform: translate(200%, 100%);\n  }\n\n  100% {\n    transform: translate(100%, 100%);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

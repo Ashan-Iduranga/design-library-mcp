@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bernethe-breezy-bullfrog-65-ac0d5d",
+  "title": "Loader by bernethe (breezy-bullfrog-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/bernethe/breezy-bullfrog-65",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By bernethe on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/bernethe_breezy-bullfrog-65.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by bernethe - Tags: loader */\n.loader {\n  border-radius: 50%;\n  border-top: 16px rgba(0,0,0,0.75) solid;\n  border-left: 16px rgba(0,0,0,0.25) solid;\n  border-bottom: 16px rgba(0,0,0,0.25) solid;\n  border-right: 16px rgba(0,0,0,0.25) solid;\n  animation: spSlices 1s infinite linear;\n}\n\n@keyframes spSlices {\n  0% {\n    border-top: 16px rgba(0,0,0,0.75) solid;\n    border-right: 16px rgba(0,0,0,0.25) solid;\n    border-bottom: 16px rgba(0,0,0,0.25) solid;\n    border-left: 16px rgba(0,0,0,0.25) solid;\n  }\n\n  25% {\n    border-top: 16px rgba(0,0,0,0.25) solid;\n    border-right: 16px rgba(0,0,0,0.75) solid;\n    border-bottom: 16px rgba(0,0,0,0.25) solid;\n    border-left: 16px rgba(0,0,0,0.25) solid;\n  }\n\n  50% {\n    border-top: 16px rgba(0,0,0,0.25) solid;\n    border-right: 16px rgba(0,0,0,0.25) solid;\n    border-bottom: 16px rgba(0,0,0,0.75) solid;\n    border-left: 16px rgba(0,0,0,0.25) solid;\n  }\n\n  75% {\n    border-top: 16px rgba(0,0,0,0.25) solid;\n    border-right: 16px rgba(0,0,0,0.25) solid;\n    border-bottom: 16px rgba(0,0,0,0.25) solid;\n    border-left: 16px rgba(0,0,0,0.75) solid;\n  }\n\n  100% {\n    border-top: 16px rgba(0,0,0,0.75) solid;\n    border-right: 16px rgba(0,0,0,0.25) solid;\n    border-bottom: 16px rgba(0,0,0,0.25) solid;\n    border-left: 16px rgba(0,0,0,0.25) solid;\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

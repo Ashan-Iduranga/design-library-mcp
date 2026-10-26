@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-bedirhan-arslan-stale-fly-98-cdaa70",
+  "title": "Input by bedirhan-arslan (stale-fly-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/bedirhan-arslan/stale-fly-98",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple",
+    "form",
+    "hover",
+    "active",
+    "rounded",
+    "smooth"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By bedirhan-arslan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/bedirhan-arslan_stale-fly-98.html",
+  "code": "<form class=\"formField\">\n  <input required=\"\" type=\"text\" />\n  <span>Placeholder</span>\n</form>\n\n<style>\n/* From Uiverse.io by bedirhan-arslan  - Tags: simple, form, hover, active, input, rounded, smooth */\n.formField {\n  margin: 10px;\n  position: relative;\n}\n\n.formField input {\n  padding: 10px 15px;\n  outline: none;\n  border: none;\n  border-radius: 5px;\n  background-color: #f1f1f1;\n  color: #333;\n  font-size: 16px;\n  font-weight: 550;\n  transition: 0.3s ease-in-out;\n  box-shadow: 0 0 0 5px transparent;\n}\n\n.formField input:hover,\n.formField input:focus {\n  box-shadow: 0 0 0 2px #333;\n}\n\n.formField span {\n  position: absolute;\n  left: 0;\n  top: 0;\n  padding: 8px 15px;\n  color: #333;\n  font-size: 16px;\n  font-weight: 600;\n  transition: 0.3s ease-in-out;\n  pointer-events: none;\n}\n\n.formField input:focus + span,\n.formField input:valid + span {\n  transform: translateY(-32px) translateX(-5px) scale(0.95);\n  transition: 0.3s ease-in-out;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

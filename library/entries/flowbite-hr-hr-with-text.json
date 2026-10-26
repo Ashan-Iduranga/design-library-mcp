@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-hr-hr-with-text",
+  "title": "Horizontal Line (HR): HR with text (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/typography/hr/#hr-with-text",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "hr",
+    "typography",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to add a text in the middle of the HR component.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/typography/hr.md",
+  "code": "<p class=\"text-body\">Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.</p>\n<div class=\"inline-flex items-center justify-center w-full\">\n    <hr class=\"w-64 h-px my-8 bg-neutral-quaternary border-0\">\n    <span class=\"absolute px-3 font-medium text-heading -translate-x-1/2 bg-neutral-primary left-1/2\">or</span>\n</div>\n<p class=\"text-body\">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.Accelerate critical development work, eliminate toil.</p>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-fanishah-terrible-goose-14-0a4ba8",
+  "title": "Loader by fanishah (terrible-goose-14)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/fanishah/terrible-goose-14",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By fanishah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/fanishah_terrible-goose-14.html",
+  "code": "<div class=\"planet\">\n</div>\n<style>\n/* From Uiverse.io by fanishah - Tags: loader */\n.planet {\n  display: block;\n  width: 125px;\n  height: 125px;\n  position: relative;\n  transform-style: preserve-3d;\n  border-radius: 50%;\n  background: #fcc96b;\n  background: #fcc96b;\n  background: linear-gradient(\n    180deg,\n    #fcc96b 0%,\n    #fcc96b 15%,\n    #f7ae01 15%,\n    #f7ae01 19%,\n    #fcc96b 19%,\n    #fcc96b 22%,\n    #f7ae01 22%,\n    #f7ae01 28%,\n    #fcc96b 28%,\n    #fcc96b 31%,\n    #fcc96b 33%,\n    #fcc96b 36%,\n    #f7ae01 36%,\n    #f7ae01 48%,\n    #fcc96b 48%,\n    #fcc96b 55%,\n    #f7ae01 55%,\n    #f7ae01 66%,\n    #fcc96b 66%,\n    #fcc96b 70%,\n    #f7ae01 70%,\n    #f7ae01 73%,\n    #fcc96b 73%,\n    #fcc96b 82%,\n    #f7ae01 82%,\n    #c7ba9d 86%,\n    #fcc96b 86%\n  );\n  box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.25),\n    inset 8px -4px 6px rgba(199, 128, 0, 0.5),\n    inset -8px 4px 8px rgba(255, 235, 199, 0.5), inset 20px -5px 12px #f7ae01,\n    0 0 100px #ffffff59;\n  transform: rotateZ(-15deg);\n}\n\n.planet::before {\n  position: absolute;\n  content: \"\";\n  display: block;\n  width: 100%;\n  height: 100%;\n  box-sizing: border-box;\n  border: 16px solid #e1a519;\n  border-top-width: 0;\n  border-radius: 50%;\n  box-shadow: 0 -2px 0 #c18620;\n  animation: rings1 0.8s infinite linear;\n}\n\n.planet::after {\n  position: absolute;\n  content: \"\";\n  display: block;\n  width: 100%;\n  height: 100%;\n  box-sizing: border-box;\n  border: 8px solid #d48b0c;\n  border-top-width: 0;\n  border-radius: 50%;\n  box-shadow: 0 -2px 0 #b99309;\n  animation: rings2 0.8s infinite linear;\n}\n\n@keyframes rings1 {\n  0% {\n    transform: rotateX(65deg) rotateZ(0deg) scale(1.75);\n  }\n\n  100% {\n    transform: rotateX(65deg) rotateZ(360deg) scale(1.75);\n  }\n}\n\n@keyframes rings2 {\n  0% {\n    transform: rotateX(65deg) rotateZ(0deg) scale(1.7);\n  }\n\n  100% {\n    transform: rotateX(65deg) rotateZ(360deg) scale(1.7);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

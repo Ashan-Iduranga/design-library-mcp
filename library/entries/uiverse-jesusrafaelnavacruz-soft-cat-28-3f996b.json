@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jesusrafaelnavacruz-soft-cat-28-3f996b",
+  "title": "Card by JesusRafaelNavaCruz (soft-cat-28)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JesusRafaelNavaCruz/soft-cat-28",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "slider",
+    "sliding",
+    "slide"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JesusRafaelNavaCruz on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/JesusRafaelNavaCruz_soft-cat-28.html",
+  "code": "<div class=\"container\">\n  <div class=\"card\">\n    <p class=\"title\">\n      Rick Sanchez\n    </p>\n  </div>\n  <div class=\"card\">\n    <p class=\"title\">\n      Morty Smith\n    </p>\n  </div>\n  <div class=\"card\">\n    <p class=\"title\">\n      Summer Smith\n    </p>\n  </div>\n\n  <div class=\"card\">\n    <p class=\"title\">\n      Beth Smith\n    </p>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by JesusRafaelNavaCruz - Tags: slider, sliding, slide */\n.container {\n  overflow: auto;\n  display: flex;\n  scroll-snap-type: x mandatory;\n  width: 90%;\n  margin: 0 auto;\n  padding: 0 15px;\n}\n\n.card {\n  background: rgba(255, 255, 255, 0.25);\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);\n  backdrop-filter: blur(7px);\n  -webkit-backdrop-filter: blur(7px);\n  border-radius: 10px;\n  padding: 2rem;\n  margin: 1rem;\n  width: 100%;\n}\n\n.title {\n  width: 100%;\n  display: inline-block;\n  word-break: break-all;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  text-align: center;\n  margin: 1rem auto;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

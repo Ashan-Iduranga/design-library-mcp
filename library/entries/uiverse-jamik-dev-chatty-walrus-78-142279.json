@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-jamik-dev-chatty-walrus-78-142279",
+  "title": "Card by jamik-dev (chatty-walrus-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/jamik-dev/chatty-walrus-78",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "weather",
+    "theme-switch",
+    "transition",
+    "card-template",
+    "weather-icon"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By jamik-dev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/jamik-dev_chatty-walrus-78.html",
+  "code": "<!-- From Uiverse.io by jamik-dev  - Tags: card, weather, theme-switch, transition, card template, tailwindcss, weather-icon -->\n<div\n  class=\"duration-300 font-mono text-white group cursor-pointer relative overflow-hidden bg-[#DCDFE4] w-28 h-48 dark:bg-[#22272B] rounded-3xl p-4 hover:w-56 hover:bg-blue-200 hover:dark:bg-[#0C66E4]\"\n>\n  <h3 class=\"text-xl text-center\">Today</h3>\n  <div class=\"gap-4 relative\">\n    <svg\n      viewBox=\"0 0 64 64\"\n      xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      class=\"w-20 scale-[110%]\"\n    >\n      <defs>\n        <linearGradient\n          gradientUnits=\"userSpaceOnUse\"\n          y2=\"28.33\"\n          y1=\"19.67\"\n          x2=\"21.5\"\n          x1=\"16.5\"\n          id=\"b\"\n        >\n          <stop stop-color=\"#fbbf24\" offset=\"0\"></stop>\n          <stop stop-color=\"#fbbf24\" offset=\".45\"></stop>\n          <stop stop-color=\"#f59e0b\" offset=\"1\"></stop>\n        </linearGradient>\n        <linearGradient\n          gradientUnits=\"userSpaceOnUse\"\n          y2=\"50.8\"\n          y1=\"21.96\"\n          x2=\"39.2\"\n          x1=\"22.56\"\n          id=\"c\"\n        >\n          <stop stop-color=\"#f3f7fe\" offset=\"0\"></stop>\n          <stop stop-color=\"#f3f7fe\" offset=\".45\"></stop>\n          <stop stop-color=\"#deeafb\" offset=\"1\"></stop>\n        </linearGradient>\n        <linearGradient\n          gradientUnits=\"userSpaceOnUse\"\n          y2=\"48.05\"\n          y1=\"42.95\"\n          x2=\"25.47\"\n          x1=\"22.53\"\n          id=\"a\"\n        >\n          <stop stop-color=\"#4286ee\" offset=\"0\"></stop>\n          <stop stop-color=\"#4286ee\" offset=\".45\"></stop>\n          <stop stop-color=\"#0950bc\" offset=\"1\"></stop>\n        </linearGradient>\n        <linearGradient\n          xlink:href=\"#a\"\n          y2=\"48.05\"\n          y1=\"42.95\"\n          x2=\"32.47\"\n          x1=\"29.53\"\n          id=\"d\"\n        ></linearGradient>\n        <linearGradient\n          xlink:href=\"#a\"\n          y2=\"48.05\"\n          y1=\"42.95\"\n          x2=\"39.47\"\n          x1=\"36.53\"\n          id=\"e\"\n        ></linearGradient>\n      </defs>\n      <circle\n        stroke-width=\".5\"\n        stroke-miterlimit=\"10\"\n        stroke=\"#f8af18\"\n        fill=\"url(#b)\"\n        r=\"5\"\n        cy=\"24\"\n        cx=\"19\"\n      ></circle>\n      <path\n        d=\"M19 15.67V12.5m0 23v-3.17m5.89-14.22l2.24-2.24M10.87 32.13l2.24-2.24m0-11.78l-2.24-2.24m16.26 16.26l-2.24-2.24M7.5 24h3.17m19.83 0h-3.17\"\n        stroke-width=\"2\"\n        stroke-miterlimit=\"10\"\n        stroke-linecap=\"round\"\n        stroke=\"#fbbf24\"\n        fill=\"none\"\n      >\n        <animateTransform\n          values=\"0 19 24; 360 19 24\"\n          type=\"rotate\"\n          repeatCount=\"indefinite\"\n          dur=\"45s\"\n          attributeName=\"transform\"\n        ></animateTransform>\n      </path>\n      <path\n        d=\"M46.5 31.5h-.32a10.49 10.49 0 00-19.11-8 7 7 0 00-10.57 6 7.21 7.21 0 00.1 1.14A7.5 7.5 0 0018 45.5a4.19 4.19 0 00.5 0v0h28a7 7 0 000-14z\"\n        stroke-width=\".5\"\n        stroke-miterlimit=\"10\"\n        stroke=\"#e6effc\"\n        fill=\"url(#c)\"\n      ></path>\n      <path\n        d=\"M24.39 43.03l-.78 4.94\"\n        stroke-width=\"2\"\n        stroke-miterlimit=\"10\"\n        stroke-linecap=\"round\"\n        stroke=\"url(#a)\"\n        fill=\"none\"\n      >\n        <animateTransform\n          values=\"1 -5; -2 10\"\n          type=\"translate\"\n          repeatCount=\"indefinite\"\n          dur=\"0.7s\"\n          attributeName=\"transform\"\n        ></animateTransform>\n      </path>\n      <path\n        d=\"M31.39 43.03l-.78 4.94\"\n        stroke-width=\"2\"\n        stroke-miterlimit=\"10\"\n        stroke-linecap=\"round\"\n        stroke=\"url(#d)\"\n        fill=\"none\"\n      >\n        <animateTransform\n          values=\"1 -5; -2 10\"\n          type=\"translate\"\n          repeatCount=\"indefinite\"\n          dur=\"0.7s\"\n          begin=\"-0.4s\"\n          attributeName=\"transform\"\n        ></animateTransform>\n      </path>\n      <path\n        d=\"M38.39 43.03l-.78 4.94\"\n        stroke-width=\"2\"\n        stroke-miterlimit=\"10\"\n        stroke-linecap=\"round\"\n        stroke=\"url(#e)\"\n        fill=\"none\"\n      >\n        <animateTransform\n          values=\"1 -5; -2 10\"\n          type=\"translate\"\n          repeatCount=\"indefinite\"\n          dur=\"0.7s\"\n          begin=\"-0.2s\"\n          attributeName=\"transform\"\n        ></animateTransform>\n      </path>\n    </svg>\n    <h4\n      class=\"font-sans duration-300 absolute left-1/2 -translate-x-1/2 text-5xl text-center group-hover:translate-x-8 group-hover:-translate-y-16 group-hover:scale-150\"\n    >\n      6°\n    </h4>\n  </div>\n  <div class=\"absolute duration-300 -left-32 mt-2 group-hover:left-10\">\n    <p class=\"text-sm\">light rain</p>\n    <p class=\"text-sm\">50% humidity</p>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-khaledmatalkah-purple-mule-91-9a5bf9",
+  "title": "Loader by KhaledMatalkah (purple-mule-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KhaledMatalkah/purple-mule-91",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "3d",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KhaledMatalkah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/KhaledMatalkah_purple-mule-91.html",
+  "code": "<div class=\"loader\">\n  <div class=\"loader-inner\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by KhaledMatalkah - Tags: animation, 3d, loader, animated */\n.loader {\n  height: 60px;\n  width: 60px;\n  position: relative;\n  animation: loaderAnimation 1.5s infinite linear;\n}\n\n.loader-inner {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  left: 0;\n  top: 0;\n  background-color: #3053c7;\n  border-radius: 50%;\n  animation: innerAnimation 1s infinite ease-in-out;\n}\n\n@keyframes loaderAnimation {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes innerAnimation {\n  0% {\n    width: 0;\n    opacity: 0;\n  }\n\n  50% {\n    width: 100%;\n    opacity: 1;\n  }\n\n  100% {\n    width: 0;\n    opacity: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

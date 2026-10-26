@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-sanketsuryawanshi-smooth-mouse-22-b2f35d",
+  "title": "Button by SanketSuryawanshi (smooth-mouse-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SanketSuryawanshi/smooth-mouse-22",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SanketSuryawanshi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SanketSuryawanshi_smooth-mouse-22.html",
+  "code": "<div class=\"main_div\">\n  <button>Sign up</button>\n</div>\n<style>\n/* From Uiverse.io by SanketSuryawanshi - Tags: button */\n.main_div {\n --color: #3992e6;\n position: relative;\n z-index: 1;\n}\n\n.main_div::before {\n content: '';\n position: absolute;\n width: 30px;\n height: 30px;\n background: transparent;\n top: -7px;\n left: -7px;\n z-index: -5;\n border-top: 3px solid var(--color);\n border-left: 3px solid var(--color);\n transition: 0.5s;\n}\n\n.main_div::after {\n content: '';\n position: absolute;\n width: 30px;\n height: 30px;\n background: transparent;\n bottom: -7px;\n right: -7px;\n z-index: -5;\n border-right: 3px solid var(--color);\n border-bottom: 3px solid var(--color);\n transition: 0.5s;\n}\n\n.main_div:hover::before {\n width: 100%;\n height: 100%;\n}\n\n.main_div:hover::after {\n width: 100%;\n height: 100%;\n}\n\n.main_div button {\n padding: 0.7em 2em;\n font-size: 16px;\n background: #222222;\n color: #fff;\n border: none;\n cursor: pointer;\n font-family: inherit;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

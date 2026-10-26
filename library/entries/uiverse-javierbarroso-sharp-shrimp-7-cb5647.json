@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-javierbarroso-sharp-shrimp-7-cb5647",
+  "title": "Toggle by javierBarroso (sharp-shrimp-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/javierBarroso/sharp-shrimp-7",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "animation",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By javierBarroso on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/javierBarroso_sharp-shrimp-7.html",
+  "code": "<div class=\"container\">\n  <label class=\"switch\">\n    <input type=\"checkbox\">\n    <span class=\"slider\"></span>\n  </label>\n</div>\n<style>\n/* From Uiverse.io by javierBarroso - Tags: animation, switch, toggle */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 80px;\n  height: 80px;\n  border-radius: 80px;\n  box-shadow: 0px 5px 20px #11111166;\n  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: .4s;\n  border-radius: 30px;\n  transform: rotate(-90deg);\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: .4s cubic-bezier(0.19, 1, 0.22, 1);\n  transition-delay: .2s;\n}\n\n.switch input:checked + .slider {\n  background-color: #2196F3;\n  transform: rotate(90deg);\n}\n\n.switch input:focus + .slider {\n  box-shadow: 0 0 1px #2196F3;\n}\n\n.switch input:checked + .slider:before {\n  transition-delay: .2s;\n  transform: translateX(1.5em);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

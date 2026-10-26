@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shoh2008-cowardly-catfish-27-b76453",
+  "title": "Toggle by Shoh2008 (cowardly-catfish-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/cowardly-catfish-27",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Shoh2008_cowardly-catfish-27.html",
+  "code": "<div class=\"checkbox-wrapper-25\">\n  <input type=\"checkbox\">\n</div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: switch */\n.checkbox-wrapper-25 input[type=\"checkbox\"] {\n  background-image: -webkit-linear-gradient(hsla(0,0%,0%,.1), hsla(0,0%,100%,.1)),\n                      -webkit-linear-gradient(left, #f66 50%, #6cf 50%);\n  background-size: 100% 100%, 200% 100%;\n  background-position: 0 0, 15px 0;\n  border-radius: 25px;\n  box-shadow: inset 0 1px 4px hsla(0,0%,0%,.5),\n                inset 0 0 10px hsla(0,0%,0%,.5),\n                0 0 0 1px hsla(0,0%,0%,.1),\n                0 -1px 2px 2px hsla(0,0%,0%,.25),\n                0 2px 2px 2px hsla(0,0%,100%,.75);\n  cursor: pointer;\n  height: 25px;\n  padding-right: 25px;\n  width: 75px;\n  -webkit-appearance: none;\n  -webkit-transition: .25s;\n}\n\n.checkbox-wrapper-25 input[type=\"checkbox\"]:after {\n  background-color: #eee;\n  background-image: -webkit-linear-gradient(hsla(0,0%,100%,.1), hsla(0,0%,0%,.1));\n  border-radius: 25px;\n  box-shadow: inset 0 1px 1px 1px hsla(0,0%,100%,1),\n                inset 0 -1px 1px 1px hsla(0,0%,0%,.25),\n                0 1px 3px 1px hsla(0,0%,0%,.5),\n                0 0 2px hsla(0,0%,0%,.25);\n  content: '';\n  display: block;\n  height: 25px;\n  width: 50px;\n}\n\n.checkbox-wrapper-25 input[type=\"checkbox\"]:checked {\n  background-position: 0 0, 35px 0;\n  padding-left: 25px;\n  padding-right: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

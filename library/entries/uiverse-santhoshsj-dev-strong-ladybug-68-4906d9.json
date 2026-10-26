@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-santhoshsj-dev-strong-ladybug-68-4906d9",
+  "title": "Card by SanthoshSJ-Dev (strong-ladybug-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SanthoshSJ-Dev/strong-ladybug-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "challenge",
+    "sea",
+    "bottle"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SanthoshSJ-Dev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/SanthoshSJ-Dev_strong-ladybug-68.html",
+  "code": "<div class=\"one-div\"></div>\n<style>\n/* From Uiverse.io by SanthoshSJ-Dev - Tags: card, challenge, sea, bottle */\n.one-div {\n  width: 300px;\n  height: 200px;\n  display: grid;\n  position: relative;\n  margin: auto 0 0;\n  background: radial-gradient(circle 44px at top,#0000 94%,#5dc1e4) 0 40px, radial-gradient(circle 44px at top,#0000 94%,#008cd9) 0 0;\n  background-size: 80px 100%;\n  background-repeat: repeat-x;\n  animation: a 1s infinite linear;\n  border-radius: 20px;\n  transition: height 1s;\n  cursor: pointer;\n}\n\n.one-div:hover {\n  height: 350px;\n}\n\n.one-div:before {\n  content: \"\";\n  width: 100%;\n  z-index: 1;\n  background: radial-gradient(circle 44px at top,#0000 94%,#b0e5f3) 0 70px;\n  background-size: 80px 100%;\n  background-repeat: repeat-x;\n  animation: b 1s infinite linear;\n  border-radius: 20px;\n}\n\n.one-div:after {\n  content: \"\";\n  position: absolute;\n  width: 70px;\n  height: 150px;\n  background: linear-gradient(#f0caa3 0 0) bottom/16% 67%, linear-gradient(#33b54d 0 0) 50% 50%/54% 12%, radial-gradient(farthest-side at bottom left,#33b54d 98%,#0000) 100% 48%/25% 12%, radial-gradient(farthest-side at bottom right,#33b54d 98%,#0000) 0 48%/25% 12%, radial-gradient(farthest-side at top left,#0000 98%,#33b54d) 16% 30%/31% 20%, radial-gradient(farthest-side at top right,#0000 98%,#33b54d) 87% 30%/31% 20%, linear-gradient(#a87d53 0 0) top/20% 8%,linear-gradient(#33b54d 0 0)50% 7%/37% 8%, linear-gradient(#33b54d 0 0) bottom/100% 50%, linear-gradient(#33b54d 0 0) center/20% 100%;\n  background-repeat: no-repeat;\n  border-radius: 0 0 20px 20px;\n  left: calc(50% - 35px);\n  top: 0px;\n  transform: rotate(45deg);\n  animation: c 1s infinite linear;\n}\n\n@keyframes a {\n  50% {\n    background-position: -40px 15px,45px 10px\n  }\n\n  100% {\n    background-position: -80px 40px,80px 0px\n  }\n}\n\n@keyframes b {\n  50% {\n    background-position: 40px 45px\n  }\n\n  100% {\n    background-position: 80px 70px\n  }\n}\n\n@keyframes c {\n  0%,100% {\n    transform: translate(0,0) rotate(40deg)\n  }\n\n  33% {\n    transform: translate(10px,-20px) rotate(50deg)\n  }\n\n  66% {\n    transform: translate(5px,-10px) rotate(30deg)\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

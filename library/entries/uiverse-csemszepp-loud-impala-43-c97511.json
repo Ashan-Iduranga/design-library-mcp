@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-loud-impala-43-c97511",
+  "title": "Button by csemszepp (loud-impala-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/loud-impala-43",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/csemszepp_loud-impala-43.html",
+  "code": "<div class=\"gas ne\">\n  <span class=\"number\">10</span>\n  <div class=\"symbol\">Ne</div>\n  <p class=\"name\">Neon</p>\n</div>\n\n<style>\n/* From Uiverse.io by csemszepp  - Website: https://codepen.io/CITguy/pen/yLaZZbO - Name: Ryan Johnson - Tags: button, neon, lights */\n#gasses {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n}\n\n.gas {\n  --blur: 1.75rem;\n  --box-blur: calc(0.5 * var(--blur));\n  --glow: var(--color);\n  --size: 12rem;\n\n  align-items: center;\n  border-radius: 12px;\n  border: 4px solid currentColor;\n  box-shadow: \n    /* --- \"glass\" tube --- */\n    /* inside */ inset 0 0 0 2px\n      rgba(0, 0, 0, 0.15),\n    /* outside */ 0 0 0 2px rgba(0, 0, 0, 0.15),\n    /* --- glow --- */ /* inside */ inset 0 0 var(--box-blur) var(--glow),\n    /* outside */ 0 0 var(--box-blur) var(--glow);\n  color: var(--color, white);\n  display: inline-flex;\n  flex-direction: column;\n  font-family: system-ui, sans-serif;\n  height: var(--size);\n  justify-content: space-around;\n  padding: 1rem;\n  width: var(--size);\n}\n.gas.number {\n  font-weight: 700;\n}\n\n.symbol {\n  font-size: 4rem;\n  font-family: \"Neon Glow\";\n  text-shadow: 0 0 var(--blur) var(--glow);\n}\n\n.gas.ne {\n  --color: #fda802;\n  filter: brightness(110%);\n  cursor: pointer;\n}\n.gas.ne:hover {\n  filter: brightness(120%) drop-shadow(0 0 10px var(--glow));\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

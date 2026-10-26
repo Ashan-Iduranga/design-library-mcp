@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-abrahamcalsin-sour-donkey-65-8eb90b",
+  "title": "Button by abrahamcalsin (sour-donkey-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/abrahamcalsin/sour-donkey-65",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By abrahamcalsin on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/abrahamcalsin_sour-donkey-65.html",
+  "code": "<button>\n  <span>BUTTON</span>\n</button>\n<style>\n/* From Uiverse.io by abrahamcalsin - Tags: button */\nbutton {\n position: relative;\n display: flex;\n justify-content: center;\n align-items: center;\n border-radius: 5px;\n background: #183153;\n font-family: \"Montserrat\", sans-serif;\n box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);\n overflow: hidden;\n border: none;\n}\n\nbutton:after {\n content: \" \";\n width: 0%;\n height: 100%;\n background: #FFD401;\n position: absolute;\n transition: all 0.4s ease-in-out;\n right: 0;\n}\n\nbutton:hover::after {\n right: auto;\n left: 0;\n width: 100%;\n}\n\nbutton span {\n text-align: center;\n text-decoration: none;\n width: 100%;\n padding: 18px 25px;\n color: #fff;\n font-size: 1.125em;\n font-weight: 700;\n letter-spacing: 0.3em;\n z-index: 20;\n transition: all 0.3s ease-in-out;\n}\n\nbutton:hover span {\n color: #183153;\n animation: scaleUp 0.3s ease-in-out;\n}\n\n@keyframes scaleUp {\n 0% {\n  transform: scale(1);\n }\n\n 50% {\n  transform: scale(0.95);\n }\n\n 100% {\n  transform: scale(1);\n }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

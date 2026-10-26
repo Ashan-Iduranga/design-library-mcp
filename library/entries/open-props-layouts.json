@@ -1,0 +1,32 @@
+{
+  "id": "open-props-layouts",
+  "title": "Open Props: Layouts tokens",
+  "source": "Open Props",
+  "url": "https://open-props.style/#layouts",
+  "license": "MIT",
+  "type": "token",
+  "tags": [
+    "layouts",
+    "open-props",
+    "css-variables",
+    "tokens"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "12 CSS custom properties, e.g. --grid-cell, --grid-cell-name, --grid-ram, --grid-holy-grail.\n\nUse: npm i open-props, then @import \"open-props/layouts\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.layouts.css",
+  "code": ":where(html) {\n  --grid-cell: [stack] 1fr / [stack] 1fr;\n  --grid-cell-name: stack;\n  \n  --grid-ram: repeat(auto-fit, minmax(min(0, 100%), 1fr));\n  --grid-holy-grail: auto 1fr auto / auto 1fr auto;\n}\n\n* {\n  --grid_adapt_mixin-viewport_context: 100vw;\n  --grid_adapt_mixin-container_context: 100%;\n  --grid_adapt_mixin-context: var(--grid_adapt_mixin-viewport_context);\n\n  --grid_adapt_mixin-break_1: 1024px;\n  --above-break_1-columns: 5;\n  --grid_adapt_mixin-break_2: 480px;\n  --above-break_2-columns: 2;\n\n  --grid_adapt_mixin: repeat(auto-fill,\n      minmax(\n        clamp(\n          clamp(\n            calc(100% / calc(var(--above-break_1-columns) + 1) + 0.1%), \n            calc(calc(var(--grid_adapt_mixin-break_1) - var(--grid_adapt_mixin-context)) * 1e5),\n            calc(100% / calc(var(--above-break_2-columns) + 1) + 0.1%)\n          ), \n          calc(calc(var(--grid_adapt_mixin-break_2) - var(--grid_adapt_mixin-context)) * 1e5),\n          100%\n        ), \n      1fr)\n  );\n}",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

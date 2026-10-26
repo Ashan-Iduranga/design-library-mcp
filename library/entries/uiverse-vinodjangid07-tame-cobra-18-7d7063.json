@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-vinodjangid07-tame-cobra-18-7d7063",
+  "title": "Button by vinodjangid07 (tame-cobra-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/tame-cobra-18",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "hover",
+    "trash",
+    "delete",
+    "transition",
+    "hover-effect",
+    "bin"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_tame-cobra-18.html",
+  "code": "<button class=\"bin-button\">\n  <svg\n    class=\"bin-top\"\n    viewBox=\"0 0 39 7\"\n    fill=\"none\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <line y1=\"5\" x2=\"39\" y2=\"5\" stroke=\"white\" stroke-width=\"4\"></line>\n    <line\n      x1=\"12\"\n      y1=\"1.5\"\n      x2=\"26.0357\"\n      y2=\"1.5\"\n      stroke=\"white\"\n      stroke-width=\"3\"\n    ></line>\n  </svg>\n  <svg\n    class=\"bin-bottom\"\n    viewBox=\"0 0 33 39\"\n    fill=\"none\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <mask id=\"path-1-inside-1_8_19\" fill=\"white\">\n      <path\n        d=\"M0 0H33V35C33 37.2091 31.2091 39 29 39H4C1.79086 39 0 37.2091 0 35V0Z\"\n      ></path>\n    </mask>\n    <path\n      d=\"M0 0H33H0ZM37 35C37 39.4183 33.4183 43 29 43H4C-0.418278 43 -4 39.4183 -4 35H4H29H37ZM4 43C-0.418278 43 -4 39.4183 -4 35V0H4V35V43ZM37 0V35C37 39.4183 33.4183 43 29 43V35V0H37Z\"\n      fill=\"white\"\n      mask=\"url(#path-1-inside-1_8_19)\"\n    ></path>\n    <path d=\"M12 6L12 29\" stroke=\"white\" stroke-width=\"4\"></path>\n    <path d=\"M21 6V29\" stroke=\"white\" stroke-width=\"4\"></path>\n  </svg>\n</button>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: animation, button, hover, trash, delete, transition, hover effect, bin */\n.bin-button {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  width: 55px;\n  height: 55px;\n  border-radius: 15px;\n  background-color: rgb(255, 95, 95);\n  cursor: pointer;\n  border: 3px solid rgb(255, 201, 201);\n  transition-duration: 0.3s;\n}\n.bin-bottom {\n  width: 15px;\n}\n.bin-top {\n  width: 17px;\n  transform-origin: right;\n  transition-duration: 0.3s;\n}\n.bin-button:hover .bin-top {\n  transform: rotate(45deg);\n}\n.bin-button:hover {\n  background-color: rgb(255, 0, 0);\n}\n.bin-button:active {\n  transform: scale(0.9);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

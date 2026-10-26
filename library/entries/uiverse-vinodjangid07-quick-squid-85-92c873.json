@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-vinodjangid07-quick-squid-85-92c873",
+  "title": "Toggle by vinodjangid07 (quick-squid-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/quick-squid-85",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "slider",
+    "animation",
+    "switch",
+    "click-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/vinodjangid07_quick-squid-85.html",
+  "code": "<input id=\"checkboxInput\" type=\"checkbox\" />\n<label class=\"toggleSwitch\" for=\"checkboxInput\">\n  <svg\n    class=\"slider\"\n    viewBox=\"0 0 512 512\"\n    height=\"1em\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V256c0 17.7 14.3 32 32 32s32-14.3 32-32V32zM143.5 120.6c13.6-11.3 15.4-31.5 4.1-45.1s-31.5-15.4-45.1-4.1C49.7 115.4 16 181.8 16 256c0 132.5 107.5 240 240 240s240-107.5 240-240c0-74.2-33.8-140.6-86.6-184.6c-13.6-11.3-33.8-9.4-45.1 4.1s-9.4 33.8 4.1 45.1c38.9 32.3 63.5 81 63.5 135.4c0 97.2-78.8 176-176 176s-176-78.8-176-176c0-54.4 24.7-103.1 63.5-135.4z\"\n    ></path>\n  </svg>\n</label>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: slider, animation, switch, toggle, click effect */\n/* To hide the checkbox */\n#checkboxInput {\n  display: none;\n}\n\n.toggleSwitch {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  width: 50px;\n  height: 30px;\n  background-color: rgb(112, 112, 112);\n  border-radius: 20px;\n  cursor: pointer;\n  transition-duration: 0.2s;\n}\n\n.slider {\n  height: 20px;\n  position: absolute;\n  left: 5px;\n  border-radius: 50%;\n  transition-duration: 0.2s;\n  border: 3px solid rgb(71, 71, 71);\n  background-color: rgb(71, 71, 71);\n  fill: rgb(255, 129, 129);\n}\n\n#checkboxInput:checked + .toggleSwitch .slider {\n  transform: translateX(100%);\n  transition-duration: 0.2s;\n  fill: rgb(94, 255, 1);\n}\n/* Switch background change */\n#checkboxInput:checked + .toggleSwitch {\n  /* background-color: rgb(148, 118, 255); */\n  transition-duration: 0.2s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-gianluks90-ordinary-goat-76-a180ed",
+  "title": "Toggle by Gianluks90 (ordinary-goat-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Gianluks90/ordinary-goat-76",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Gianluks90 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Gianluks90_ordinary-goat-76.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\" class=\"slider-input\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by Gianluks90 - Tags: switch */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n  margin-right: 12px;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  -webkit-transition: .4s;\n  transition: .4s;\n  box-shadow: inset 2px 2px 12px -5px gray;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 2em;\n  width: 1.75em;\n  left: 0;\n  bottom: 0;\n  background-color: white;\n  -webkit-transition: .4s;\n  transition: .4s;\n}\n\n.slider-input:checked + .slider {\n  background-color: #90EE90;\n  box-shadow: inset 2px 2px 9px -5px gray;\n}\n\n.slider-input:focus + .slider {\n  box-shadow: 0 0 1px #90EE90;\n}\n\n.slider-input:checked + .slider:before {\n  -webkit-transform: translateX(1.75em);\n  -ms-transform: translateX(1.75em);\n  transform: translateX(1.75em);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

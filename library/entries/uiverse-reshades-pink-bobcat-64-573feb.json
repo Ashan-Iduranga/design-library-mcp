@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-reshades-pink-bobcat-64-573feb",
+  "title": "Form by reshades (pink-bobcat-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/reshades/pink-bobcat-64",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "otp",
+    "animated",
+    "clean",
+    "verify",
+    "verification"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By reshades on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/reshades_pink-bobcat-64.html",
+  "code": "<form class=\"form\">\n  <div class=\"content\">\n    <p align=\"center\">OTP Verification</p>\n    <div class=\"inp\">\n    <input placeholder=\"\" type=\"text\" class=\"input\" maxlength=\"1\">\n    <input placeholder=\"\" type=\"text\" class=\"input\" maxlength=\"1\"> \n    <input placeholder=\"\" type=\"text\" class=\"input\" maxlength=\"1\"> \n    <input placeholder=\"\" type=\"text\" class=\"input\" maxlength=\"1\"> \n    </div>\n    <button>Verify</button>\n    <svg class=\"svg\" viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path fill=\"#4073ff\" d=\"M56.8,-23.9C61.7,-3.2,45.7,18.8,26.5,31.7C7.2,44.6,-15.2,48.2,-35.5,36.5C-55.8,24.7,-73.9,-2.6,-67.6,-25.2C-61.3,-47.7,-30.6,-65.6,-2.4,-64.8C25.9,-64.1,51.8,-44.7,56.8,-23.9Z\" transform=\"translate(100 100)\" class=\"path\"></path>\n  </svg>\n  </div>\n  \n</form>\n<style>\n/* From Uiverse.io by reshades - Tags: OTP, form, animated, clean, verify, Verification */\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  background: #00000000;\n  border-radius: 16px;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  backdrop-filter: blur(8.2px);\n  -webkit-backdrop-filter: blur(8.2px);\n  border: 1px solid #369eff66;\n  width: 14em;\n  height: 14em;\n}\n\n.content {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.form p {\n  color: #fff;\n  font-weight: bolder;\n}\n\n.path {\n  fill: #369eff\n}\n\n.svg {\n  filter: blur(20px);\n  z-index: -1;\n  position: absolute;\n  opacity: 50%;\n  animation: anim 3s infinite;\n}\n\n.inp {\n  margin-left: auto;\n  margin-right: auto;\n  white-space: 4px;\n}\n\n.input + .input {\n  margin-left: 0.3em\n}\n\n.input {\n  color: #fff;\n  height: 2em;\n  width: 2em;\n  float: left;\n  text-align: center;\n  background: #00000000;\n  outline: none;\n  border: 1px #369eff solid;\n  border-radius: 10px;\n  transition: all 0.6s ease;\n}\n\n.input:focus {\n  outline: none;\n  border: 1px #fff solid;\n}\n\n.input:not(:placeholder-shown) {\n  opacity: 40%\n}\n\n.form button {\n  margin-left: auto;\n  margin-right: auto;\n  background-color: #00000000;\n  color: #fff;\n  width: 8.5em;\n  height: 2.3em;\n  border: #369eff 0.2em solid;\n  border-radius: 11px;\n  transition: all 0.5s ease;\n}\n\n.form button:hover {\n  background-color: #369eff;\n}\n\n@keyframes anim {\n  0% {\n    transform: translateY(-70px);\n  }\n\n  50% {\n    transform: translateY(-19px);\n  }\n\n  100% {\n    transform: translateY(-70px);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

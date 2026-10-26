@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-juliocodessm-pretty-dingo-70-764d16",
+  "title": "Toggle by JulioCodesSM (pretty-dingo-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JulioCodesSM/pretty-dingo-70",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JulioCodesSM on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/JulioCodesSM_pretty-dingo-70.html",
+  "code": "<label for=\"toggle\" class=\"button\">\n  <input type=\"checkbox\" id=\"toggle\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by JulioCodesSM - Tags: switch */\n.button {\n  display: inline-block;\n  width: 50px;\n  height: 20px;\n  background-color: #fff;\n  border-radius: 30px;\n  cursor: pointer;\n  padding: 0;\n  color: white;\n}\n\n#toggle {\n  display: none;\n}\n\n.slider {\n  display: block;\n  font-size: 10px;\n  position: relative;\n}\n\n.slider::after {\n  content: 'OFF';\n  width: 25px;\n  height: 25px;\n  background-color: #e03c3c;\n  border: 2px solid #fff;\n  border-radius: 50%;\n  box-shadow: 0 0 5px rgba(0, 0, 0, .25);\n  position: absolute;\n  top: -5px;\n  left: 0;\n  display: grid;\n  place-content: center;\n  line-height: 0;\n  transition: background-color .25s, transform .25s ease-in;\n}\n\n#toggle:checked + .slider::after {\n  content: 'ON';\n  background-color: #05ae3e;\n  transform: translateX(25px) rotate(360deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

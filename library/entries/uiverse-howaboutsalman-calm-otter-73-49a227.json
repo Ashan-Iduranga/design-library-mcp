@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-howaboutsalman-calm-otter-73-49a227",
+  "title": "Card by howaboutsalman (calm-otter-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/howaboutsalman/calm-otter-73",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By howaboutsalman on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/howaboutsalman_calm-otter-73.html",
+  "code": "<!-- From Uiverse.io by howaboutsalman  - Tags:  -->\n<div class=\"max-w-[360px] w-full mx-auto bg-[#0d1b2a] rounded-lg shadow-md p-4\">\n  <form>\n    <div class=\"mb-4\">\n      <label class=\"block mb-2 text-gray-50\" for=\"name\"> Name </label>\n      <input\n        placeholder=\"Your Name\"\n        class=\"w-full p-2 border-b-2 border-yellow-400 bg-transparent outline-none focus:border-b-2 focus:border-yellow-600\"\n        type=\"text\"\n      />\n    </div>\n    <div class=\"mb-4\">\n      <label class=\"block mb-2 text-gray-50\" for=\"email\"> Email </label>\n      <input\n        placeholder=\"Your Email\"\n        class=\"w-full p-2 border-b-2 border-yellow-400 bg-transparent outline-none focus:border-b-2 focus:border-yellow-600\"\n        name=\"email\"\n        id=\"email\"\n        type=\"email\"\n      />\n    </div>\n    <div class=\"mb-4\">\n      <label class=\"block mb-2 text-gray-50\" for=\"message\"> Message </label>\n      <textarea\n        placeholder=\"Your Message\"\n        class=\"w-full p-2 border-b-2 border-yellow-400 bg-transparent outline-none focus:border-b-2 focus:border-yellow-600\"\n        rows=\"4\"\n        name=\"message\"\n        id=\"message\"\n      ></textarea>\n    </div>\n    <div class=\"mb-4\">\n      <button\n        class=\"w-full bg-[#F7AB0A] text-gray-700 font-semibold p-2 rounded transition-all hover:bg-[#FFC857]\"\n        type=\"submit\"\n      >\n        Submit\n      </button>\n    </div>\n  </form>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

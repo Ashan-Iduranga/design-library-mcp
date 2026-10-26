@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-mobinkakei-pink-deer-76-130336",
+  "title": "Loader by mobinkakei (pink-deer-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/pink-deer-76",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "wifi"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mobinkakei_pink-deer-76.html",
+  "code": "<div id=\"wifi-loader\">\n    <svg class=\"circle-outer\" viewBox=\"0 0 86 86\">\n        <circle class=\"back\" cx=\"43\" cy=\"43\" r=\"40\"></circle>\n        <circle class=\"front\" cx=\"43\" cy=\"43\" r=\"40\"></circle>\n        <circle class=\"new\" cx=\"43\" cy=\"43\" r=\"40\"></circle>\n    </svg>\n    <svg class=\"circle-middle\" viewBox=\"0 0 60 60\">\n        <circle class=\"back\" cx=\"30\" cy=\"30\" r=\"27\"></circle>\n        <circle class=\"front\" cx=\"30\" cy=\"30\" r=\"27\"></circle>\n    </svg>\n    <svg class=\"circle-inner\" viewBox=\"0 0 34 34\">\n        <circle class=\"back\" cx=\"17\" cy=\"17\" r=\"14\"></circle>\n        <circle class=\"front\" cx=\"17\" cy=\"17\" r=\"14\"></circle>\n    </svg>\n    <div class=\"text\" data-text=\"Searching\"></div>\n</div>\n<style>\n/* From Uiverse.io by mobinkakei - Tags: loader, wifi */\n#wifi-loader {\n  --background: #62abff;\n  --front-color: #4f29f0;\n  --back-color: #c3c8de;\n  --text-color: #414856;\n  width: 64px;\n  height: 64px;\n  border-radius: 50px;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n#wifi-loader svg {\n  position: absolute;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n#wifi-loader svg circle {\n  position: absolute;\n  fill: none;\n  stroke-width: 6px;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  transform: rotate(-100deg);\n  transform-origin: center;\n}\n\n#wifi-loader svg circle.back {\n  stroke: var(--back-color);\n}\n\n#wifi-loader svg circle.front {\n  stroke: var(--front-color);\n}\n\n#wifi-loader svg.circle-outer {\n  height: 86px;\n  width: 86px;\n}\n\n#wifi-loader svg.circle-outer circle {\n  stroke-dasharray: 62.75 188.25;\n}\n\n#wifi-loader svg.circle-outer circle.back {\n  animation: circle-outer135 1.8s ease infinite 0.3s;\n}\n\n#wifi-loader svg.circle-outer circle.front {\n  animation: circle-outer135 1.8s ease infinite 0.15s;\n}\n\n#wifi-loader svg.circle-middle {\n  height: 60px;\n  width: 60px;\n}\n\n#wifi-loader svg.circle-middle circle {\n  stroke-dasharray: 42.5 127.5;\n}\n\n#wifi-loader svg.circle-middle circle.back {\n  animation: circle-middle6123 1.8s ease infinite 0.25s;\n}\n\n#wifi-loader svg.circle-middle circle.front {\n  animation: circle-middle6123 1.8s ease infinite 0.1s;\n}\n\n#wifi-loader svg.circle-inner {\n  height: 34px;\n  width: 34px;\n}\n\n#wifi-loader svg.circle-inner circle {\n  stroke-dasharray: 22 66;\n}\n\n#wifi-loader svg.circle-inner circle.back {\n  animation: circle-inner162 1.8s ease infinite 0.2s;\n}\n\n#wifi-loader svg.circle-inner circle.front {\n  animation: circle-inner162 1.8s ease infinite 0.05s;\n}\n\n#wifi-loader .text {\n  position: absolute;\n  bottom: -40px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-transform: lowercase;\n  font-weight: 500;\n  font-size: 14px;\n  letter-spacing: 0.2px;\n}\n\n#wifi-loader .text::before, #wifi-loader .text::after {\n  content: attr(data-text);\n}\n\n#wifi-loader .text::before {\n  color: var(--text-color);\n}\n\n#wifi-loader .text::after {\n  color: var(--front-color);\n  animation: text-animation76 3.6s ease infinite;\n  position: absolute;\n  left: 0;\n}\n\n@keyframes circle-outer135 {\n  0% {\n    stroke-dashoffset: 25;\n  }\n\n  25% {\n    stroke-dashoffset: 0;\n  }\n\n  65% {\n    stroke-dashoffset: 301;\n  }\n\n  80% {\n    stroke-dashoffset: 276;\n  }\n\n  100% {\n    stroke-dashoffset: 276;\n  }\n}\n\n@keyframes circle-middle6123 {\n  0% {\n    stroke-dashoffset: 17;\n  }\n\n  25% {\n    stroke-dashoffset: 0;\n  }\n\n  65% {\n    stroke-dashoffset: 204;\n  }\n\n  80% {\n    stroke-dashoffset: 187;\n  }\n\n  100% {\n    stroke-dashoffset: 187;\n  }\n}\n\n@keyframes circle-inner162 {\n  0% {\n    stroke-dashoffset: 9;\n  }\n\n  25% {\n    stroke-dashoffset: 0;\n  }\n\n  65% {\n    stroke-dashoffset: 106;\n  }\n\n  80% {\n    stroke-dashoffset: 97;\n  }\n\n  100% {\n    stroke-dashoffset: 97;\n  }\n}\n\n@keyframes text-animation76 {\n  0% {\n    clip-path: inset(0 100% 0 0);\n  }\n\n  50% {\n    clip-path: inset(0);\n  }\n\n  100% {\n    clip-path: inset(0 0 0 100%);\n  }\n}\n \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

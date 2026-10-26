@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-tough-rat-92-a2e2d0",
+  "title": "Radio by Yaya12085 (tough-rat-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/tough-rat-92",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Yaya12085_tough-rat-92.html",
+  "code": "<div class=\"radio-input\">\n    <input checked=\"\" value=\"color-1\" name=\"color\" id=\"color-1\" type=\"radio\">\n    <label for=\"color-1\">\n      <span>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\"><g stroke-width=\"0\" id=\"SVGRepo_bgCarrier\"></g><g stroke-linejoin=\"round\" stroke-linecap=\"round\" id=\"SVGRepo_tracerCarrier\"></g><g id=\"SVGRepo_iconCarrier\"> <g id=\"Interface / Check\"> <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"2\" stroke=\"#ffffff\" d=\"M6 12L10.2426 16.2426L18.727 7.75732\" id=\"Vector\"></path> </g> </g></svg>\n      </span>\n    </label>\n  \n    <input value=\"color-2\" name=\"color\" id=\"color-2\" type=\"radio\">\n    <label for=\"color-2\">\n      <span>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\"><g stroke-width=\"0\" id=\"SVGRepo_bgCarrier\"></g><g stroke-linejoin=\"round\" stroke-linecap=\"round\" id=\"SVGRepo_tracerCarrier\"></g><g id=\"SVGRepo_iconCarrier\"> <g id=\"Interface / Check\"> <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"2\" stroke=\"#ffffff\" d=\"M6 12L10.2426 16.2426L18.727 7.75732\" id=\"Vector\"></path> </g> </g></svg>\n      </span>\n    </label>\n  \n    <input value=\"color-3\" name=\"color\" id=\"color-3\" type=\"radio\">\n    <label for=\"color-3\">\n      <span>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\"><g stroke-width=\"0\" id=\"SVGRepo_bgCarrier\"></g><g stroke-linejoin=\"round\" stroke-linecap=\"round\" id=\"SVGRepo_tracerCarrier\"></g><g id=\"SVGRepo_iconCarrier\"> <g id=\"Interface / Check\"> <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"2\" stroke=\"#ffffff\" d=\"M6 12L10.2426 16.2426L18.727 7.75732\" id=\"Vector\"></path> </g> </g></svg>\n      </span>\n    </label>\n\n</div>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: radio */\n.radio-input {\n  background-color: #fff;\n  padding: 20px;\n  border-radius: 20px;\n  display: flex;\n}\n\n.radio-input input[type=radio] {\n  display: none;\n}\n\n.radio-input input[type=radio] + label {\n  color: #333;\n  font-family: Arial, sans-serif;\n  font-size: 14px;\n}\n\n.radio-input input[type=radio] + label span {\n  display: inline-block;\n  width: 40px;\n  height: 40px;\n  margin: -1px 4px 0 0;\n  vertical-align: middle;\n  cursor: pointer;\n  border-radius: 50%;\n  border: 2px solid #FFFFFF;\n  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);\n  background-repeat: no-repeat;\n  background-position: center;\n  text-align: center;\n  line-height: 44px;\n}\n\n.radio-input input[type=radio] + label span svg {\n  opacity: 0;\n  transition: all 0.3s ease;\n}\n\n.radio-input input[type=radio]#color-1 + label span {\n  background-color: #2ecc71;\n}\n\n.radio-input input[type=radio]#color-2 + label span {\n  background-color: #3498db;\n}\n\n.radio-input input[type=radio]#color-3 + label span {\n  background-color: #f1c40f;\n}\n\n.radio-input input[type=radio]:checked + label span svg {\n  opacity: 1;\n}\n\n.radio-input:has(input[type=radio]#color-1:checked) {\n  background-color: #2ecc71;\n}\n\n.radio-input:has(input[type=radio]#color-2:checked) {\n  background-color: #3498db;\n}\n\n.radio-input:has(input[type=radio]#color-3:checked) {\n  background-color: #f1c40f;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

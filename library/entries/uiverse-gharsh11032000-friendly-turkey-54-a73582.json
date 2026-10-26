@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-gharsh11032000-friendly-turkey-54-a73582",
+  "title": "Button by gharsh11032000 (friendly-turkey-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/friendly-turkey-54",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/gharsh11032000_friendly-turkey-54.html",
+  "code": "<button class=\"button\"></button>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: gradient, button */\n.button {\n  position: relative;\n  background-color: transparent;\n  color: #e8e8e8;\n  font-size: 17px;\n  font-weight: 600;\n  border-radius: 10px;\n  width: 150px;\n  height: 60px;\n  border: none;\n  text-transform: uppercase;\n  cursor: pointer;\n  overflow: hidden;\n  box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);\n  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.button::before {\n  content: \"Hello!\";\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n  height: 100%;\n  pointer-events: none;\n  background: linear-gradient(135deg,#7b4397,#dc2430 );\n  transform: translate(0%,90%);\n  z-index: 99;\n  position: relative;\n  transform-origin: bottom;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.button::after {\n  content: \"Hover me\";\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: #333;\n  width: 100%;\n  height: 100%;\n  pointer-events: none;\n  transform-origin: top;\n  transform: translate(0%,-100%);\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.button:hover::before {\n  transform: translate(0%,0%);\n}\n\n.button:hover::after {\n  transform: translate(0%,-200%);\n}\n\n.button:focus {\n  outline: none;\n}\n\n.button:active {\n  scale: 0.95;\n}\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

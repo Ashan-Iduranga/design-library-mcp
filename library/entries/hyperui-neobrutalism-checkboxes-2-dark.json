@@ -1,0 +1,35 @@
+{
+  "id": "hyperui-neobrutalism-checkboxes-2-dark",
+  "title": "Checkboxes: Base with description (neobrutalism) (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/neobrutalism/checkboxes",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "neobrutalism",
+    "checkboxes",
+    "hyperui",
+    "filter",
+    "form",
+    "input",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/neobrutalism/checkboxes/2-dark.html",
+  "code": "<div class=\"mx-auto max-w-lg p-6\">\n<fieldset>\n<legend class=\"sr-only\">Checkboxes</legend>\n<div class=\"flex flex-col items-start gap-3\">\n<label class=\"inline-flex items-start gap-3 text-black dark:text-white\" for=\"Option1\">\n<input class=\"size-6 border-2 border-black bg-white shadow-[2px_2px_0_0] shadow-black checked:bg-black focus:ring-2 focus:ring-black dark:border-white dark:bg-gray-900 dark:shadow-white dark:focus:ring-white\" id=\"Option1\" type=\"checkbox\"/>\n<div>\n<strong class=\"font-semibold\"> Option 1 </strong>\n<p class=\"mt-0.5 text-sm text-pretty\">\n              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio.\n            </p>\n</div>\n</label>\n<label class=\"inline-flex items-start gap-3 text-black dark:text-white\" for=\"Option2\">\n<input class=\"size-6 border-2 border-black bg-white shadow-[2px_2px_0_0] shadow-black checked:bg-black focus:ring-2 focus:ring-black dark:border-white dark:bg-gray-900 dark:shadow-white dark:focus:ring-white\" id=\"Option2\" type=\"checkbox\"/>\n<div>\n<strong class=\"font-semibold\"> Option 2 </strong>\n<p class=\"mt-0.5 text-sm text-pretty\">\n              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio.\n            </p>\n</div>\n</label>\n<label class=\"inline-flex items-start gap-3 text-black dark:text-white\" for=\"Option3\">\n<input class=\"size-6 border-2 border-black bg-white shadow-[2px_2px_0_0] shadow-black checked:bg-black focus:ring-2 focus:ring-black dark:border-white dark:bg-gray-900 dark:shadow-white dark:focus:ring-white\" id=\"Option3\" type=\"checkbox\"/>\n<div>\n<strong class=\"font-semibold\"> Option 3 </strong>\n<p class=\"mt-0.5 text-sm text-pretty\">\n              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio.\n            </p>\n</div>\n</label>\n</div>\n</fieldset>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

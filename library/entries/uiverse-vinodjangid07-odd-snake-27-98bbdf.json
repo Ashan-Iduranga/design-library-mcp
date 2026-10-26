@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vinodjangid07-odd-snake-27-98bbdf",
+  "title": "Button by vinodjangid07 (odd-snake-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/odd-snake-27",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "instagram",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_odd-snake-27.html",
+  "code": "<button class=\"Btn\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"1.5em\" viewBox=\"0 0 448 512\" class=\"svgIcon\"><path d=\"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z\"></path></svg>\n      <span class=\"text\">Instagram</span>\n    </button>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: instagram, button, hover effect */\n.Btn {\n  border: none;\n  border-radius: 50%;\n  width: 45px;\n  height: 45px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition-duration: .4s;\n  cursor: pointer;\n  position: relative;\n  background: #f09433;\n  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);\n  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);\n  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );\n  overflow: hidden;\n}\n\n.svgIcon {\n  transition-duration: .3s;\n}\n\n.svgIcon path {\n  fill: white;\n}\n\n.text {\n  position: absolute;\n  color: rgb(255, 255, 255);\n  width: 120px;\n  font-weight: 600;\n  opacity: 0;\n  transition-duration: .4s;\n}\n\n.Btn:hover {\n  width: 110px;\n  transition-duration: .4s;\n  border-radius: 30px;\n}\n\n.Btn:hover .text {\n  opacity: 1;\n  transition-duration: .4s;\n}\n\n.Btn:hover .svgIcon {\n  opacity: 0;\n  transition-duration: .3s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

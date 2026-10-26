@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-omar-alghaish-spicy-mule-84-86d1a0",
+  "title": "Button by omar-alghaish (spicy-mule-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/omar-alghaish/spicy-mule-84",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By omar-alghaish on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/omar-alghaish_spicy-mule-84.html",
+  "code": "<button>\n     <span>HoverMe</span>\n     <span>HoverMe</span>\n </button>\n<style>\n/* From Uiverse.io by omar-alghaish - Tags: button */\nbutton {\n  position: relative;\n  width: 150px;\n  height: 50px;\n  box-shadow: 0 5px 25px rgba(0, 0,0, .25);\n  border: none;\n}\n\nbutton span {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  color: #fff;\n  background: #002faf;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  font-size: 17px;\n}\n\nbutton span:nth-child(2) {\n  background: #fff;\n  color: #002ba0;\n  overflow: hidden;\n  z-index: 2;\n  transition: .5s;\n  clip-path: polygon(50% 0%, 100% 0%,100% 100%,50% 100%,50% 53%);\n}\n\nbutton span:nth-child(2):hover {\n  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%, 0 50%);\n}\n\nbutton span:nth-child(1):hover ~ span:nth-child(2) {\n  clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 100%50%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

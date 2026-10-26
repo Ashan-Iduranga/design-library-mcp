@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-metablue2000-hard-fly-61-53eeb9",
+  "title": "Button by MetaBlue2000 (hard-fly-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MetaBlue2000/hard-fly-61",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MetaBlue2000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/MetaBlue2000_hard-fly-61.html",
+  "code": "<button class=\"button\">\n  <div class=\"msg\">\n    <p>\n      <span style=\"--i:0\">J</span>\n      <span style=\"--i:1\">o</span>\n      <span style=\"--i:2\">i</span>\n      <span style=\"--i:3\">n</span>\n      <span>&nbsp;</span>\n      <span style=\"--i:4\">T</span>\n      <span style=\"--i:5\">o</span>\n      <span style=\"--i:6\">d</span>\n      <span style=\"--i:7\">a</span>\n      <span style=\"--i:8\">y</span>\n    </p>\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      fill=\"none\"\n      viewBox=\"0 0 25 25\"\n      class=\"arrow\"\n    >\n      <g stroke-width=\"0\" id=\"SVGRepo_bgCarrier\"></g>\n      <g\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n        id=\"SVGRepo_tracerCarrier\"\n      ></g>\n      <g id=\"SVGRepo_iconCarrier\">\n        <path\n          stroke-width=\"1.2\"\n          stroke=\"#ffffff\"\n          d=\"M13 7L18.5 12.5L13 18M18.5 12.5H6\"\n        ></path>\n      </g>\n    </svg>\n  </div>\n</button>\n\n<style>\n/* From Uiverse.io by MetaBlue2000  - Tags: button */\n.button {\n  cursor: pointer;\n  border-radius: 15px;\n  border: solid 3px #a86bdd;\n  width: 210px;\n  height: 75px;\n  transform: rotate3d(1, 1, 1, 335deg);\n  padding-left: 20px;\n  font-size: 16px;\n  font-weight: 600;\n  color: #ffffff;\n  background: linear-gradient(#bf76f9, #9a48dd);\n  backdrop-filter: blur(2px, black);\n  box-shadow: -8px 7px 1px #865ba9;\n  transition: all 0.4s ease-in-out;\n}\n\n.arrow {\n  padding: 5px;\n  width: 55px;\n  transition: all 0.4s ease-in-out;\n}\n\n.msg {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.button:hover .arrow {\n  transform: translateX(5px);\n}\n\n.button:hover {\n  transform: translateX(10px);\n}\n\n.button p span {\n  display: inline-block;\n  opacity: 1;\n  animation: slideDown 0.8s ease forwards calc(var(--i) * 0.03s);\n}\n.button:hover p span {\n  opacity: 1;\n  animation: wave 0.5s ease forwards calc(var(--i) * 0.02s);\n}\n@keyframes wave {\n  30% {\n    opacity: 1;\n    transform: translateY(12px) translateX(0) rotate(0);\n  }\n  50% {\n    opacity: 1;\n    transform: translateY(-3px) translateX(0) rotate(0);\n    color: var(--primary);\n  }\n  100% {\n    opacity: 1;\n    transform: translateY(0) translateX(0) rotate(0);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

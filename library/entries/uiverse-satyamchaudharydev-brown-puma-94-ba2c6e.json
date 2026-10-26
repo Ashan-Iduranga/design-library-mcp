@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-brown-puma-94-ba2c6e",
+  "title": "Card by satyamchaudharydev (brown-puma-94)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/brown-puma-94",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/satyamchaudharydev_brown-puma-94.html",
+  "code": "<div class=\"card work\">\n  <div class=\"img-section\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"77\" width=\"76\"><path fill-rule=\"nonzero\" fill=\"#3F9CBB\" d=\"m60.91 71.846 12.314-19.892c3.317-5.36 3.78-13.818-2.31-19.908l-26.36-26.36c-4.457-4.457-12.586-6.843-19.908-2.31L4.753 15.69c-5.4 3.343-6.275 10.854-1.779 15.35a7.773 7.773 0 0 0 7.346 2.035l7.783-1.945a3.947 3.947 0 0 1 3.731 1.033l22.602 22.602c.97.97 1.367 2.4 1.033 3.732l-1.945 7.782a7.775 7.775 0 0 0 2.037 7.349c4.49 4.49 12.003 3.624 15.349-1.782Zm-24.227-46.12-1.891-1.892-1.892 1.892a2.342 2.342 0 0 1-3.312-3.312l1.892-1.892-1.892-1.891a2.342 2.342 0 0 1 3.312-3.312l1.892 1.891 1.891-1.891a2.342 2.342 0 0 1 3.312 3.312l-1.891 1.891 1.891 1.892a2.342 2.342 0 0 1-3.312 3.312Zm14.19 14.19a2.343 2.343 0 1 1 3.315-3.312 2.343 2.343 0 0 1-3.314 3.312Zm0 7.096a2.343 2.343 0 0 1 3.313-3.312 2.343 2.343 0 0 1-3.312 3.312Zm7.096-7.095a2.343 2.343 0 1 1 3.312 0 2.343 2.343 0 0 1-3.312 0Zm0 7.095a2.343 2.343 0 0 1 3.312-3.312 2.343 2.343 0 0 1-3.312 3.312Z\"></path></svg>                </div>\n  <div class=\"card-desc\">\n  <div class=\"card-header\">\n  <div class=\"card-title\">Play</div>\n  <div class=\"card-menu\">\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n    <div class=\"dot\"></div>\n    </div>\n  </div>\n  <div class=\"card-time\">32hrs</div>\n  <p class=\"recent\">Last Week-36hrs</p>\n</div></div>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: card */\n.card {\n --primary-clr: #1C204B;\n --dot-clr: #BBC0FF;\n --play: hsl(195, 74%, 62%);\n width: 200px;\n height: 170px;\n border-radius: 10px;\n}\n\n.card {\n font-family: \"Arial\";\n color: #fff;\n display: grid;\n cursor: pointer;\n grid-template-rows: 50px 1fr;\n}\n\n.card:hover .img-section {\n transform: translateY(1em);\n}\n\n.card-desc {\n border-radius: 10px;\n padding: 15px;\n position: relative;\n top: -10px;\n display: grid;\n gap: 10px;\n background: var(--primary-clr);\n}\n\n.card-time {\n font-size: 1.7em;\n font-weight: 500;\n}\n\n.img-section {\n transition: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);\n border-top-left-radius: 10px;\n border-top-right-radius: 10px;\n background: hsl(195, 74%, 62%);\n}\n\n.card-header {\n display: flex;\n align-items: center;\n width: 100%;\n}\n\n.card-title {\n flex: 1;\n font-size: 0.9em;\n font-weight: 500;\n}\n\n.card-menu {\n display: flex;\n gap: 4px;\n margin-inline: auto;\n}\n\n.card svg {\n float: right;\n max-width: 100%;\n max-height: 100%;\n}\n\n.card .dot {\n width: 5px;\n height: 5px;\n border-radius: 50%;\n background: var(--dot-clr);\n}\n\n.card .recent {\n line-height: 0;\n font-size: 0.8em;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

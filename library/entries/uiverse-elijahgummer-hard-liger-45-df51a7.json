@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-elijahgummer-hard-liger-45-df51a7",
+  "title": "Checkbox by elijahgummer (hard-liger-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/hard-liger-45",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "simple",
+    "animation",
+    "hover",
+    "modern",
+    "click",
+    "bookmark",
+    "shimmer"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/elijahgummer_hard-liger-45.html",
+  "code": "<input id=\"bookmark\" type=\"checkbox\" />\n<label class=\"bookmark\" for=\"bookmark\">\n  <svg\n    id=\"Bookmark\"\n    viewBox=\"0 0 10 22\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    height=\"24px\"\n    width=\"24px\"\n    class=\"bookmark-icon\"\n  >\n    <g fill-rule=\"evenodd\" fill=\"none\">\n      <g\n        class=\"color000000 svgShape\"\n        transform=\"translate(-265 -2679)\"\n        fill=\"#242424\"\n      >\n        <g\n          class=\"color000000 svgShape\"\n          fill=\"#242424\"\n          transform=\"translate(56 160)\"\n        >\n          <path\n            class=\"color000000 svgShape\"\n            fill=\"#242424\"\n            d=\"M219 2521v16.998c0 .891-1.077 1.337-1.707.707l-2.586-2.586a1 1 0 0 0-1.414 0l-2.586 2.586c-.63.63-1.707.184-1.707-.707V2521a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2\"\n          ></path>\n        </g>\n      </g>\n    </g>\n  </svg>\n  <div class=\"shimmer\"></div>\n</label>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, animation, hover, checkbox, modern, click, bookmark, shimmer */\n#bookmark[type=\"checkbox\"] {\n  position: absolute;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.bookmark {\n  overflow: hidden;\n  position: absolute;\n  left: calc(50% - 24px);\n  top: calc(50% - 24px);\n  width: 48px;\n  height: 48px;\n  display: block;\n  border-radius: 50%;\n  cursor: pointer;\n  -webkit-tap-highlight-color: transparent;\n}\n.bookmark:before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: rgba(0, 0, 0, 0.06);\n  border-radius: 50%;\n  transform: scale(0.5);\n  opacity: 0;\n  transition: all 0.2s ease;\n}\n.bookmark:hover:before {\n  transform: scale(1);\n  opacity: 1;\n}\n.bookmark:active:before {\n  transform: scale(0.8);\n  transition: all 0.3s ease;\n}\n.bookmark .bookmark-icon {\n  margin: 12px;\n}\n.bookmark .bookmark-icon path {\n  stroke: black;\n  fill: rgba(0, 0, 0, 0);\n}\n\n#bookmark:checked + .bookmark .bookmark-icon {\n  animation: booking 0.3s linear forwards;\n}\n#bookmark:checked + .bookmark .bookmark-icon path {\n  fill: black;\n  transition: all 0.3s ease;\n  transition-delay: 0.1s;\n}\n\n.bookmark .shimmer {\n  position: absolute;\n  inset: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transform: skew(-13deg) translateX(-110%);\n  background: rgba(255, 255, 255, 0.3);\n  z-index: 0;\n  transition: transform 1s ease;\n}\n.bookmark:hover .shimmer {\n  transform: skew(-13deg) translateX(110%);\n}\n\n@keyframes booking {\n  0% {\n    transform: rotateY(0) translateY(0) scale(1);\n  }\n  50% {\n    transform: rotateY(90deg) translateY(-16px) scale(1.1);\n  }\n  100% {\n    transform: rotateY(180deg) translateY(0) scale(1.2);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

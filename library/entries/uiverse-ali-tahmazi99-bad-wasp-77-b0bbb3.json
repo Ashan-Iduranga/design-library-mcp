@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ali-tahmazi99-bad-wasp-77-b0bbb3",
+  "title": "Loader by Ali-Tahmazi99 (bad-wasp-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Ali-Tahmazi99/bad-wasp-77",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Ali-Tahmazi99 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Ali-Tahmazi99_bad-wasp-77.html",
+  "code": "<div class=\"loading\">\n    <div class=\"d1\"></div>\n    <div class=\"d2\"></div>\n</div>\n<style>\n/* From Uiverse.io by Ali-Tahmazi99 - Tags: loader */\n.loading {\n  width: 60px;\n  height: 60px;\n  position: relative;\n}\n\n.d1 , .d2 {\n  border: 5px solid #6c757d;\n  border-radius: 50px;\n}\n\n.loading .d1 {\n  width: 55px;\n  height: 55px;\n  position: absolute;\n  border-left-color: transparent;\n  animation: load161 1s linear infinite;\n}\n\n.loading .d2 {\n  width: 40px;\n  height: 40px;\n  border-top-color: transparent;\n  border-right-color: transparent;\n  margin: 7.5px;\n  animation: load2812 1.5s linear infinite;\n}\n\n@keyframes load161 {\n  0% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes load2812 {\n  0% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

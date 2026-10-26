@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shreyanjalipb-helpless-cow-14-ca20fc",
+  "title": "Button by Shreyanjalipb (helpless-cow-14)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shreyanjalipb/helpless-cow-14",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shreyanjalipb on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Shreyanjalipb_helpless-cow-14.html",
+  "code": "<div class=\"emoji-button-container\">\n  <button class=\"emoji-button\">Hover Me</button>\n  <div class=\"emoji-animations\">\n    <span class=\"emoji\">😊</span>\n    <span class=\"emoji\">🎸</span>\n    <span class=\"emoji\">🚀</span>\n    <span class=\"emoji\">❤️</span>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Shreyanjalipb  - Tags: button */\n.emoji-button-container {\n  position: relative;\n  display: inline-block;\n}\n\n.emoji-button {\n  background-color: yellow;\n  border: none;\n  padding: 15px 30px;\n  font-size: 30px;\n  font-weight: bold;\n  cursor: pointer;\n  position: relative;\n  z-index: 10;\n}\n\n.emoji-animations {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  display: flex;\n  gap: 20px;\n  opacity: 0;\n  pointer-events: none;\n  transition: opacity 0.3s ease;\n}\n\n.emoji {\n  font-size: 35px;\n  opacity: 0;\n  transform: translateY(0);\n  transition:\n    transform 0.5s ease,\n    opacity 0.5s ease;\n}\n\n.emoji-button:hover + .emoji-animations {\n  opacity: 1;\n}\n\n.emoji-button:hover + .emoji-animations .emoji:nth-child(1) {\n  opacity: 1;\n  transform: translate(-50px, -50px);\n}\n\n.emoji-button:hover + .emoji-animations .emoji:nth-child(2) {\n  opacity: 1;\n  transform: translate(50px, -50px);\n}\n\n.emoji-button:hover + .emoji-animations .emoji:nth-child(3) {\n  opacity: 1;\n  transform: translate(-50px, 50px);\n}\n\n.emoji-button:hover + .emoji-animations .emoji:nth-child(4) {\n  opacity: 1;\n  transform: translate(50px, 50px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

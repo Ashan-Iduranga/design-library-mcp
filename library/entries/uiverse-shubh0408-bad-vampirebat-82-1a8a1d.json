@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-shubh0408-bad-vampirebat-82-1a8a1d",
+  "title": "Checkbox by Shubh0408 (bad-vampirebat-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shubh0408/bad-vampirebat-82",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "toggle",
+    "play"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shubh0408 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Shubh0408_bad-vampirebat-82.html",
+  "code": "<!-- From Uiverse.io by Shubh0408  - Tags: checkbox, toggle, play, tailwind, tailwindcss -->\n<label\n  class=\"w-9 h-10 cursor-pointer flex flex-col items-center justify-center\"\n>\n  <input class=\"hidden peer\" type=\"checkbox\" />\n  <div\n    class=\"w-[50%] h-[2px] bg-white rounded-sm transition-all duration-300 origin-center rotate-90 -translate-x-[0.3rem] translate-y-[0.1rem] peer-checked:translate-y-[0.1rem]\"\n  ></div>\n  <div\n    class=\"w-[50%] h-[2px] bg-white rounded-md transition-all duration-300 origin-center rotate-90 translate-x-[0.3rem] -translate-y-[0.05rem] peer-checked:rotate-[-30deg] peer-checked:translate-y-[0.22rem] peer-checked:translate-x-[0.15rem]\"\n  ></div>\n  <div\n    class=\"w-[50%] h-[2px] bg-white rounded-md transition-all duration-300 origin-center rotate-90 translate-x-[0.3rem] -translate-y-[0.16rem] peer-checked:rotate-[30deg] peer-checked:translate-y-[-0.4rem] peer-checked:translate-x-[0.15rem]\"\n  ></div>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

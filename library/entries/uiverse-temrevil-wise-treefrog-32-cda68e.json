@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-temrevil-wise-treefrog-32-cda68e",
+  "title": "Input by TemRevil (wise-treefrog-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TemRevil/wise-treefrog-32",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TemRevil on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/TemRevil_wise-treefrog-32.html",
+  "code": "<div class=\"input-wrapper\">\n  <input placeholder=\"Search...\" type=\"text\" class=\"input\" />\n  <svg\n    stroke-width=\"2\"\n    stroke=\"currentColor\"\n    fill=\"none\"\n    viewBox=\"0 0 24 24\"\n    height=\"24\"\n    width=\"24\"\n    class=\"search-icon\"\n  >\n    <circle r=\"8\" cy=\"11\" cx=\"11\"></circle>\n    <line y2=\"16.65\" x2=\"16.65\" y1=\"21\" x1=\"21\"></line>\n  </svg>\n  <svg\n    stroke-width=\"2\"\n    stroke=\"currentColor\"\n    fill=\"none\"\n    viewBox=\"0 0 1792 1792\"\n    height=\"24\"\n    width=\"24\"\n    class=\"filter-icon\"\n  >\n    <path\n      d=\"M1595 295q17 41-14 70l-493 493v742q0 42-39 59-13 5-25 5-27 0-45-19l-256-256q-19-19-19-45v-486l-493-493q-31-29-14-70 17-39 59-39h1280q42 0 59 39z\"\n    ></path>\n  </svg>\n</div>\n\n<style>\n/* From Uiverse.io by TemRevil  - Tags:  */\n.input-wrapper {\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n\n.input {\n  min-width: 300px;\n  padding: 20px 40px 20px 60px;\n  background: #14213d;\n  color: #fff;\n  font-size: 24px;\n  font-weight: 400;\n  outline: none;\n  border: none;\n  border-radius: 8px;\n  box-shadow: 60px 40px 80px 0px #2d00f75b, -100px -40px 100px #db00b65b,\n    inset -40px -20px 1000px -150px #db00b65b,\n    inset 40px 20px 1000px -160px #2d00f7;\n  transition: 0.2s 0s ease-in-out;\n}\n\n.input::placeholder {\n  color: #f0f8ff9c;\n  font-size: 20px;\n}\n\n.input:hover,\n.input:focus {\n  background: #dfe7fd;\n  box-shadow: -100px -40px 100px 30px #2d00f75b, 60px 40px 100px 5px #db00b65b,\n    inset 40px 20px 1000px -150px #f20089,\n    inset -40px -20px 1000px -160px #2d00f7;\n}\n\n.search-icon {\n  width: 30px;\n  height: 30px;\n  position: absolute;\n  left: 20px;\n  top: 50%;\n  transform: translateY(-50%) scale(0.8);\n  fill: #fff;\n  stroke: #fff;\n}\n\n.filter-icon {\n  width: 30px;\n  height: 30px;\n  position: absolute;\n  right: 20px;\n  top: 50%;\n  transform: translateY(-50%) scale(0.8);\n  fill: #fff;\n  stroke: #fff;\n  cursor: pointer;\n  transition: 0.15s 0s ease-in-out;\n}\n.filter-icon:active {\n  scale: 0.9;\n}\n\n.input:hover.search-icon,\n.input:focus.search-icon,\n.input:hover.filter-icon,\n.input:focus.filter-icon {\n  fill: #14213d;\n  stroke: #14213d;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

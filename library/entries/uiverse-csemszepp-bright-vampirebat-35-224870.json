@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-bright-vampirebat-35-224870",
+  "title": "Loader by csemszepp (bright-vampirebat-35)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/bright-vampirebat-35",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/csemszepp_bright-vampirebat-35.html",
+  "code": "<svg viewBox=\"0 0 100 100\" class=\"loader\">\n<g class=\"points\"> \n  <circle fill=\"#fff\" r=\"50\" cy=\"50\" cx=\"50\" class=\"ciw\"></circle>\n<circle r=\"4\" cy=\"50\" cx=\"5\" class=\"ci2\"></circle>\n<circle r=\"4\" cy=\"50\" cx=\"95\" class=\"ci1\"></circle>\n</g>\n</svg>\n<style>\n/* From Uiverse.io by csemszepp - Source: https://codepen.io/uchardon/pen/VEBbdw - Tags: loader, animated */\n.loader {\n  width: 200px;\n  max-height: 900px;\n  transform-origin: 50% 50%;\n  overflow: visible;\n}\n\n.ci1 {\n  fill: var(--higru);\n  animation: toBig 3s infinite -1.5s;\n  transform-box: fill-box;\n  transform-origin: 50% 50%;\n}\n\n.ciw {\n  transform-box: fill-box;\n  transform-origin: 50% 50%;\n  animation: breath 3s infinite;\n}\n\n.ci2 {\n  fill: var(--higru);\n  animation: toBig2 3s infinite;\n  transform-box: fill-box;\n  transform-origin: 50% 50%;\n}\n\n.points {\n  animation: rot 3s infinite;\n  transform-box: fill-box;\n  transform-origin: 50% 50%;\n}\n\n@keyframes rot {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  30% {\n    transform: rotate(360deg);\n  }\n\n  50% {\n    transform: rotate(360deg);\n  }\n\n  80% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(0deg);\n  }\n}\n\n@keyframes toBig {\n  0% {\n    transform: scale(1) translateX(0px);\n  }\n\n  30% {\n    transform: scale(1) translateX(0px);\n  }\n\n  50% {\n    transform: scale(10) translateX(-4.5px);\n  }\n\n  80% {\n    transform: scale(10) translateX(-4.5px);\n  }\n\n  100% {\n    transform: scale(1) translateX(0px);\n  }\n}\n\n@keyframes toBig2 {\n  0% {\n    transform: scale(1) translateX(0px);\n  }\n\n  30% {\n    transform: scale(1) translateX(0px);\n  }\n\n  50% {\n    transform: scale(10) translateX(4.5px);\n  }\n\n  80% {\n    transform: scale(10) translateX(4.5px);\n  }\n\n  100% {\n    transform: scale(1) translateX(0px);\n  }\n}\n\n@keyframes breath {\n  15% {\n    transform: scale(1);\n  }\n\n  40% {\n    transform: scale(1.1);\n  }\n\n  65% {\n    transform: scale(1);\n  }\n\n  90% {\n    transform: scale(1.1);\n  }\n}\n\n.dwf, .share {\n  position: fixed;\n  bottom: 4px;\n  right: 10px;\n  background-color: #0003;\n  padding: 3px;\n  border-radius: 3px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

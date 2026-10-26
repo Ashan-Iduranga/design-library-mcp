@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-spacious74-tame-catfish-19-8434e0",
+  "title": "Card by Spacious74 (tame-catfish-19)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Spacious74/tame-catfish-19",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "neumorphism",
+    "skeuomorphism",
+    "3d",
+    "social-media",
+    "3d-card"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Spacious74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Spacious74_tame-catfish-19.html",
+  "code": "<div class=\"card\">\n  <div class=\"stripe\">\n    <div class=\"text\">Uiverse Homepod</div>\n  </div>\n  <div class=\"frame\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by Spacious74  - Tags: neumorphism, skeuomorphism, 3d, card, social media, 3d card */\n.card {\n  position: relative;\n}\n.card .text {\n  text-align: center;\n  background-color: #bebebe;\n  width: 190px;\n  padding: 3px 0;\n  margin: auto;\n  margin-top: 150px;\n  border: solid 2px;\n  border-radius: 10px;\n  font-weight: bold;\n  color: #3d3d3d;\n  box-shadow: 0px 1px, inset 0 0 4px #000, 3px 3px 3px #000000a6;\n}\n.stripe {\n  background: repeating-linear-gradient(\n      45deg,\n      rgba(141, 143, 149, 0.35) 0,\n      rgba(141, 143, 149, 0.35) 2px,\n      transparent 2px,\n      transparent 6px\n    ),\n    repeating-linear-gradient(\n      135deg,\n      rgba(141, 143, 149, 0.35) 0,\n      rgba(141, 143, 149, 0.35) 2px,\n      transparent 2px,\n      transparent 6px\n    ),\n    repeating-linear-gradient(\n      45deg,\n      transparent 0,\n      transparent 2px,\n      rgba(29, 30, 32, 0.35) 2px,\n      rgba(29, 30, 32, 0.35) 4px,\n      transparent 4px,\n      transparent 6px\n    ),\n    repeating-linear-gradient(\n      135deg,\n      transparent 0,\n      transparent 2px,\n      rgba(29, 30, 32, 0.35) 2px,\n      rgba(29, 30, 32, 0.35) 4px,\n      transparent 4px,\n      transparent 6px\n    );\n  border-radius: 80px;\n  box-shadow: inset 0 0 0 2px #36373a, inset 0 0 40px 1px #1d1e20,\n    inset 0 12px 24px 1px #9b9ca1, inset 0 -12px 24px 1px #050505;\n  height: 385px;\n  left: 0;\n  overflow: hidden;\n  position: absolute;\n  top: 5px;\n  width: 320px;\n  z-index: 9;\n  color: #404040;\n}\n\n.frame {\n  background: linear-gradient(\n    to right,\n    #36373a 0,\n    #8d8f95 25%,\n    #1d1e20 60%,\n    #111112 90%,\n    #1d1e20 100%\n  );\n  border-radius: 80px;\n  box-shadow: inset 0 0 0 2px #36373a, inset 0 0 40px 1px #1d1e20,\n    inset 0 12px 40px 1px #fff, inset 0 -24px 40px 1px #000;\n  height: 385px;\n  margin: 5px auto;\n  position: relative;\n  width: 320px;\n}\n.frame::after,\n.frame::before {\n  content: \"\";\n  position: absolute;\n  border-radius: 50% 50% 8px 8px;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  height: 10px;\n  width: 170px;\n  background-color: #404040;\n}\n.frame::after {\n  bottom: 0;\n  border-radius: 0 0 10% 10% / 0 0 8px 8px;\n  transform: translate(-50%, 50%);\n  background-color: #131313;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

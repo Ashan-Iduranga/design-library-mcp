@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-ahmedgamal-hub-yellow-cheetah-82-bd24da",
+  "title": "Button by ahmedgamal-hub (yellow-cheetah-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ahmedgamal-hub/yellow-cheetah-82",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animated",
+    "click-animation",
+    "2fa"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ahmedgamal-hub on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ahmedgamal-hub_yellow-cheetah-82.html",
+  "code": "<button class=\"glow-on-hover\" type=\"button\">HOVER ME, THEN CLICK ME!</button>\n<style>\n/* From Uiverse.io by ahmedgamal-hub - Tags: button, animated, click animation, 2FA */\n.glow-on-hover {\n  width: 220px;\n  height: 50px;\n  border: none;\n  outline: none;\n  color: #fff;\n  background: #111;\n  cursor: pointer;\n  position: relative;\n  z-index: 0;\n  border-radius: 10px;\n}\n\n.glow-on-hover:before {\n  content: '';\n  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  background-size: 400%;\n  z-index: -1;\n  filter: blur(5px);\n  width: calc(100% + 4px);\n  height: calc(100% + 4px);\n  animation: glowing 20s linear infinite;\n  opacity: 0;\n  transition: opacity .3s ease-in-out;\n  border-radius: 10px;\n}\n\n.glow-on-hover:active {\n  color: #000\n}\n\n.glow-on-hover:active:after {\n  background: transparent;\n}\n\n.glow-on-hover:hover:before {\n  opacity: 1;\n}\n\n.glow-on-hover:after {\n  z-index: -1;\n  content: '';\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: #111;\n  left: 0;\n  top: 0;\n  border-radius: 10px;\n}\n\n@keyframes glowing {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

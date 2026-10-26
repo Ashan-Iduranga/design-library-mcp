@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-marketing-product-cards-7",
+  "title": "Product Cards: Product with image, title, description, offer and call to action",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/product-cards",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "marketing",
+    "product-cards",
+    "hyperui",
+    "card",
+    "ecommerce"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/product-cards/7.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<a class=\"relative block rounded-se-3xl border border-gray-100\" href=\"#\">\n<span class=\"absolute -top-px -right-px rounded-se-3xl rounded-es-3xl bg-rose-600 px-6 py-4 font-medium tracking-widest text-white uppercase\">\n        Save 10%\n      </span>\n<img alt=\"\" class=\"h-80 w-full rounded-se-3xl object-cover\" src=\"https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&amp;fit=crop&amp;q=80&amp;w=1160\"/>\n<div class=\"p-4 text-center\">\n<strong class=\"text-xl font-medium text-gray-900\"> Aloe Vera </strong>\n<p class=\"mt-2 text-pretty text-gray-700\">\n          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet officia rem vel voluptatum\n          in eum vitae aliquid at sed dignissimos.\n        </p>\n<span class=\"mt-4 block rounded-md border border-indigo-900 bg-indigo-900 px-5 py-3 text-sm font-medium tracking-widest text-white uppercase transition-colors hover:bg-white hover:text-indigo-900\">\n          Buy now\n        </span>\n</div>\n</a>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-mrhyddenn-brown-penguin-10-2e0499",
+  "title": "Button by mrhyddenn (brown-penguin-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/brown-penguin-10",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "tooltip"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mrhyddenn_brown-penguin-10.html",
+  "code": "<div class=\"uiverse\">\n    <span class=\"tooltip\">uiverse.io</span>\n    <span>\n        Tooltip\n    </span>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: tooltip, button */\n.uiverse {\n  position: relative;\n  background: #ffffff;\n  color: #000;\n  padding: 15px;\n  margin: 10px;\n  border-radius: 10px;\n  width: 150px;\n  height: 50px;\n  font-size: 17px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);\n  cursor: pointer;\n  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);\n}\n\n.tooltip {\n  position: absolute;\n  top: 0;\n  font-size: 14px;\n  background: #ffffff;\n  color: #ffffff;\n  padding: 5px 8px;\n  border-radius: 5px;\n  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);\n}\n\n.tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 8px;\n  width: 8px;\n  background: #ffffff;\n  bottom: -3px;\n  left: 50%;\n  transform: translate(-50%) rotate(45deg);\n  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);\n}\n\n.uiverse:hover .tooltip {\n  top: -45px;\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n}\n\nsvg:hover span,\nsvg:hover .tooltip {\n  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);\n}\n\n.uiverse:hover,\n.uiverse:hover .tooltip,\n.uiverse:hover .tooltip::before {\n  background: linear-gradient(320deg, rgb(3, 77, 146), rgb(0, 60, 255));\n  color: #ffffff;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

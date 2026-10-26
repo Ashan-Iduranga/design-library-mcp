@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-saad3092003-itchy-starfish-99-20bdf9",
+  "title": "Card by Saad3092003 (itchy-starfish-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Saad3092003/itchy-starfish-99",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "animation",
+    "hover",
+    "shadow",
+    "animated",
+    "hover-effect",
+    "css-effect",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Saad3092003 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Saad3092003_itchy-starfish-99.html",
+  "code": "<div class=\"one-div\"></div>\n<style>\n/* From Uiverse.io by Saad3092003 - Tags: animation, card, hover, shadow, animated, hover effect, css effect, box-shadow, one-div */\n.one-div {\n  position: relative;\n  height: 250px;\n  width: 200px;\n  background-color: rgb(15, 15, 15);\n  transform-style: preserve-3d;\n  animation: rot 2s infinite ease;\n  border-radius: 20px;\n  box-shadow: 0 0 50px 0px white ,inset 0 0 50px 0px white;\n  transition: 1s;\n}\n\n.one-div::after {\n  content: 'D I V';\n  font-size: 30px;\n  text-shadow: 5px 5px 1px black;\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: all 0.5s;\n  color: white;\n}\n\n.one-div:hover.one-div::after {\n  font-size: 40px;\n}\n\n.one-div::before {\n  content: 'UIVERSE';\n  color: white;\n  font-size: 25px;\n  letter-spacing: 7px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: absolute;\n  top: -20px;\n  left: 40px;\n  background-color: rgb(25, 25, 25);\n  width: 220px;\n  height: 270px;\n  transform: translateY(50px) translateZ(50px);\n  border-radius: 20px;\n  filter: blur(0px);\n  transition: 0.5s;\n  box-shadow: 0 0 5px 0px black, -3px -3px 10px 3px rgb(25,25,25),inset 0px 0px 40px -20px black;\n}\n\n.one-div:active.one-div::after {\n  text-shadow: 0 0 0 black;\n  transition: 0.5s;\n  transform: translateY(5px) translateZ(5px);\n}\n\n.one-div:hover.one-div::before {\n  font-size: 10px;\n  width: 250px;\n  height: 300px;\n  transform: translateZ(-50px) translateY(50px);\n  box-shadow: 0 0 5px 0px black, -3px -3px 10px 3px rgb(25,25,25),inset 0px 0px 40px -20px;\n}\n\n.one-div:hover {\n  height: 300px;\n  width: 250px;\n  box-shadow: 0 0 5px 0px black,inset -3px -3px 10px 3px rgb(25,25,25),inset 3px 3px 20px 3px black;\n  cursor: pointer;\n}\n\n@keyframes rot {\n  0% {\n    transform: rotateX(-15deg) translateY(0px);\n  }\n\n  50% {\n    transform: rotateX(-15deg) translateY(-10px);\n  }\n\n  100% {\n    transform: rotateX(-15deg) translateY(0px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

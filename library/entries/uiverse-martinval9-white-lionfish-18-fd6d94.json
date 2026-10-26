@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-martinval9-white-lionfish-18-fd6d94",
+  "title": "Toggle by martinval9 (white-lionfish-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/martinval9/white-lionfish-18",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By martinval9 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/martinval9_white-lionfish-18.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by martinval9 - Tags: switch */\n/* The switch - the box around the slider */\n.switch {\n font-size: 11px;\n position: relative;\n display: inline-block;\n width: 3.5em;\n height: 1em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n opacity: 0;\n width: 0;\n height: 0;\n}\n\n/* The slider */\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n background-color: #ccc;\n border: 2px solid #000;\n transition: .4s;\n border-radius: 1px;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 1.3em;\n width: 1.2em;\n border-radius: 2px;\n left: 0.2em;\n bottom: 0.3em;\n background-color: #fff;\n border: 2px solid #000;\n transition: 0.1s;\n}\n\ninput:checked + .slider {\n background-color: #000;\n}\n\ninput:focus + .slider {\n box-shadow: 0 0 1px #2196F3;\n}\n\ninput:checked + .slider:before {\n transform: translateX(1.3em);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

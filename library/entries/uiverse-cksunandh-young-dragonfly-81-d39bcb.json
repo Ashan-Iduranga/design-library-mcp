@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-cksunandh-young-dragonfly-81-d39bcb",
+  "title": "Loader by Cksunandh (young-dragonfly-81)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cksunandh/young-dragonfly-81",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "html",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cksunandh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Cksunandh_young-dragonfly-81.html",
+  "code": "<div class=\"loader\"><i></i></div>\n\n<style>\n/* From Uiverse.io by Cksunandh  - Tags: simple, loader, html, css */\n.loader i {\n  display: block;\n  width: 2px;\n  height: 85px;\n  margin-top: 18px;\n  background-color: rgba(61, 61, 61, 0.5);\n  overflow: hidden;\n  position: relative;\n}\n.loader i:before {\n  display: block;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background-color: #fafafa;\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: loader-animation 2s infinite normal;\n}\n@keyframes loader-animation {\n  0% {\n    transform: translate3d(0, -100%, 0);\n  }\n  15% {\n    transform: translate3d(0, -98%, 0);\n  }\n  85% {\n    transform: translate3d(0, 98%, 0);\n  }\n  100% {\n    transform: translate3d(0, 100%, 0);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

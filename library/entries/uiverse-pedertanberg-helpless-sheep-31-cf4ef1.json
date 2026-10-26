@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pedertanberg-helpless-sheep-31-cf4ef1",
+  "title": "Loader by pedertanberg (helpless-sheep-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/pedertanberg/helpless-sheep-31",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By pedertanberg on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/pedertanberg_helpless-sheep-31.html",
+  "code": "<div class=\"loader\"><div></div></div>\n<style>\n/* From Uiverse.io by pedertanberg - Tags: loader */\n.loader {\n display: inline-block;\n position: relative;\n width: 80px;\n height: 80px;\n transform: rotate(45deg);\n transform-origin: 40px 40px;\n}\n\n.loader div {\n top: 32px;\n left: 32px;\n position: absolute;\n width: 32px;\n height: 32px;\n background: red;\n animation: loader45 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);\n}\n\n.loader div:after,\n.loader div:before {\n content: \" \";\n position: absolute;\n display: block;\n width: 32px;\n height: 32px;\n background: red;\n}\n\n.loader div:before {\n left: -24px;\n border-radius: 50% 0 0 50%;\n}\n\n.loader div:after {\n top: -24px;\n border-radius: 50% 50% 0 0;\n}\n\n@keyframes loader45 {\n 0% {\n  transform: scale(0.95);\n }\n\n 5% {\n  transform: scale(1.1);\n }\n\n 39% {\n  transform: scale(0.85);\n }\n\n 45% {\n  transform: scale(1);\n }\n\n 60% {\n  transform: scale(0.95);\n }\n\n 100% {\n  transform: scale(0.9);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

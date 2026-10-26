@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-doniaskima-sharp-sheep-24-73517e",
+  "title": "Loader by doniaskima (sharp-sheep-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/sharp-sheep-24",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "material-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_sharp-sheep-24.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: simple, material design, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 60px;\n  height: 30px;\n  display: grid;\n  --c: #0000 calc(100% - 5px),#000 calc(100% - 4px) 96%,#0000;\n  background: radial-gradient(farthest-side at bottom,var(--c)) 0 0,\n    radial-gradient(farthest-side at top   ,var(--c)) 100% 100%;\n  background-size: calc(50% + 2px) 50%;\n  background-repeat: no-repeat;\n  animation: l14 1.5s infinite linear;\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  grid-area: 1/1;\n  background: inherit;\n  animation: inherit;\n  animation-duration: 2s;\n}\n\n.loader:after {\n  --s: -1;\n}\n\n@keyframes l14 {\n  100% {\n    transform: rotate(calc(var(--s,1)*1turn))\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

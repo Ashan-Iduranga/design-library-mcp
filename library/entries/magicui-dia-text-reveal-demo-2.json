@@ -1,0 +1,38 @@
+{
+  "id": "magicui-dia-text-reveal-demo-2",
+  "title": "Dia Text Reveal Demo 2 (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/dia-text-reveal",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "dia",
+    "text",
+    "reveal",
+    "demo",
+    "2",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Custom gradient colors and settled text color on a light background.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/dia-text-reveal-demo-2.tsx",
+  "code": "import { DiaTextReveal } from \"@/registry/magicui/dia-text-reveal\"\n\nexport default function DiaTextRevealDemo2() {\n  return (\n    <div className=\"flex min-h-56 items-center justify-center p-8\">\n      <DiaTextReveal\n        className=\"text-4xl font-bold tracking-tight\"\n        colors={[\"#22d3ee\", \"#818cf8\", \"#f472b6\", \"#34d399\"]}\n        text=\"Design systems\"\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

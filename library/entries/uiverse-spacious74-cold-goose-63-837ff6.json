@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-spacious74-cold-goose-63-837ff6",
+  "title": "Input by Spacious74 (cold-goose-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Spacious74/cold-goose-63",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "animation",
+    "gradient",
+    "search",
+    "neon",
+    "filter"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Spacious74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Spacious74_cold-goose-63.html",
+  "code": "<div class=\"container\">\n  <div class=\"radial-cont\">\n    <div class=\"outer\">\n      <div class=\"inner-cont\">\n        <div class=\"main-block\">\n          <div class=\"elements-cont\">\n            <svg\n              class=\"svg\"\n              xmlns=\"http://www.w3.org/2000/svg\"\n              width=\"1em\"\n              height=\"1em\"\n              viewBox=\"0 0 48 48\"\n            >\n              <path\n                fill=\"currentColor\"\n                d=\"M20.5 6C12.492 6 6 12.492 6 20.5S12.492 35 20.5 35a14.44 14.44 0 0 0 9.138-3.241l9.801 9.801a1.5 1.5 0 1 0 2.121-2.121l-9.8-9.801A14.44 14.44 0 0 0 35 20.5C35 12.492 28.508 6 20.5 6M9 20.5C9 14.149 14.149 9 20.5 9S32 14.149 32 20.5S26.851 32 20.5 32S9 26.851 9 20.5\"\n              ></path>\n            </svg>\n            <input\n              class=\"input\"\n              type=\"text\"\n              name=\"search\"\n              placeholder=\"Search...\"\n            />\n            <div class=\"filter\">\n              <svg\n                class=\"funnel\"\n                xmlns=\"http://www.w3.org/2000/svg\"\n                viewBox=\"0 0 24 24\"\n                width=\"1em\"\n                height=\"1em\"\n                color=\"#000000\"\n                fill=\"none\"\n              >\n                <path\n                  d=\"M8.85746 12.5061C6.36901 10.6456 4.59564 8.59915 3.62734 7.44867C3.3276 7.09253 3.22938 6.8319 3.17033 6.3728C2.96811 4.8008 2.86701 4.0148 3.32795 3.5074C3.7889 3 4.60404 3 6.23433 3H17.7657C19.396 3 20.2111 3 20.672 3.5074C21.133 4.0148 21.0319 4.8008 20.8297 6.37281C20.7706 6.83191 20.6724 7.09254 20.3726 7.44867C19.403 8.60062 17.6261 10.6507 15.1326 12.5135C14.907 12.6821 14.7583 12.9567 14.7307 13.2614C14.4837 15.992 14.2559 17.4876 14.1141 18.2442C13.8853 19.4657 12.1532 20.2006 11.226 20.8563C10.6741 21.2466 10.0043 20.782 9.93278 20.1778C9.79643 19.0261 9.53961 16.6864 9.25927 13.2614C9.23409 12.9539 9.08486 12.6761 8.85746 12.5061Z\"\n                  stroke=\"currentColor\"\n                  stroke-width=\"1.5\"\n                  stroke-linecap=\"round\"\n                  stroke-linejoin=\"round\"\n                ></path>\n              </svg>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"pink blob\"></div>\n      <div class=\"blue blob\"></div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Spacious74  - Tags: animation, gradient, input, search, neon, filter */\n.container {\n  width: 100%;\n  height: 100%;\n  background-size: 16px 16px;\n  background-image: linear-gradient(to right, #0d0d0c 2px, transparent 1px),\n    linear-gradient(to bottom, #0d0d0c 2px, transparent 1px);\n  background-color: #000000;\n}\n.radial-cont {\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient(ellipse, transparent, #000);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.input {\n  background-color: transparent;\n  border: none;\n  font-size: 1.4rem;\n  width: 265px;\n  outline: none;\n  color: #d6d6d6;\n  letter-spacing: 1px;\n  z-index: 10;\n}\n.outer {\n  position: relative;\n}\n.blob {\n  position: absolute;\n  width: 130px;\n  height: 70px;\n  animation: blob 5s ease-in-out infinite alternate;\n}\n@keyframes blob {\n  0% {\n    width: 130px;\n  }\n  100% {\n    width: 100.2%;\n  }\n}\n.pink {\n  background-color: #ff98e4;\n  left: -1px;\n  top: 0px;\n  border-radius: 16px;\n  transform: rotate(1deg);\n  box-shadow: -2px -2px 3px #ff9affc9, -5px -5px 10px #6d0a6dc7,\n    -10px -10px 70px #e240e29c;\n  filter: blur(1px);\n}\n.blue {\n  background-color: #ffbfee;\n  right: -1px;\n  bottom: -1px;\n  border-radius: 16px;\n  transform: rotate(0deg);\n  box-shadow: 2px 2px 3px #6c19d8a6, 5px 5px 10px #350a6dc7,\n    20px 10px 90px 10px #220af7b0;\n  filter: blur(3px);\n}\n\n.inner-cont {\n  width: 430px;\n  height: 75px;\n  background-color: #202121;\n  position: relative;\n  padding: 2px;\n  border-radius: 18px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 1;\n}\n.inner-cont::before,\n.inner-cont::after {\n  content: \"\";\n  position: absolute;\n  width: 150px;\n  height: 75px;\n  border-radius: 16px;\n}\n.inner-cont::before {\n  left: 0;\n  background-image: radial-gradient(\n    circle 150px at 10% -60%,\n    #e240b6,\n    transparent\n  );\n}\n.inner-cont::after {\n  right: 0;\n  background-image: radial-gradient(\n    circle 150px at 100% 160%,\n    #533cde,\n    transparent\n  );\n}\n\n.main-block {\n  background-color: #000000;\n  border-radius: 16px;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding-left: 20px;\n  padding-right: 10px;\n  position: relative;\n  z-index: 2;\n}\n.elements-cont {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 20px;\n}\n\n.main-block::before,\n.main-block::after {\n  content: \"\";\n  position: absolute;\n  width: 150px;\n  height: 71px;\n  border-radius: 18px;\n}\n.main-block::before {\n  left: 0px;\n  background-image: radial-gradient(\n    circle 150px at 0 -10%,\n    #f701f33d,\n    transparent\n  );\n}\n.main-block::after {\n  right: 0px;\n  background-image: radial-gradient(\n    circle 150px at 100% 150%,\n    #1100ac7e,\n    transparent\n  );\n}\n\n.svg {\n  color: #fff;\n  font-size: 2.3rem;\n}\n.funnel {\n  font-size: 2.3rem;\n  color: #fff;\n  width: 55px;\n  height: 55px;\n  padding: 8px;\n  border-radius: 10px;\n  margin-top: 7px;\n  border: solid 2px #494949;\n  position: relative;\n  background: radial-gradient(circle 50px at 50% -60%, #6b698f, transparent);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

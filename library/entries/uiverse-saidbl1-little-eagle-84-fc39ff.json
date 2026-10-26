@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-saidbl1-little-eagle-84-fc39ff",
+  "title": "Input by saidbl1 (little-eagle-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/saidbl1/little-eagle-84",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "modern",
+    "animated",
+    "clean"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By saidbl1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/saidbl1_little-eagle-84.html",
+  "code": "<input class=\"input\" name=\"text\" type=\"text\" placeholder=\"Full Name\">\n<style>\n/* From Uiverse.io by saidbl1 - Tags: input, modern, animated, clean */\n.input {\n  height: 40px;\n  border-radius: 8px;\n  border: 2px solid hsl(236, 92%, 66%);\n  outline: none;\n  transition: 200ms ease-in;\n  padding-left: 1rem;\n}\n\n.input:focus {\n  border-bottom: 4px solid hsl(236, 92%, 66%);\n  padding-top: 2px;\n}\n\n.input::placeholder {\n  color: hsl(236, 92%, 66%);\n  opacity: 0.5;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

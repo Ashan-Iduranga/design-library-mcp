@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-mi-series-splendid-eagle-61-5e4277",
+  "title": "Card by mi-series (splendid-eagle-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mi-series/splendid-eagle-61",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "material-design",
+    "pricing",
+    "green",
+    "minimalist",
+    "chatgpt"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mi-series on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/mi-series_splendid-eagle-61.html",
+  "code": "<div class=\"container\">\n  <p class=\"title\">GPT Plus</p>\n  <p class=\"price\">$20<span>/month</span></p>\n  <p class=\"description\">Access to GPT-4, our most capable model. Faster response speed.</p>\n  <b class=\"offer\">Act fast! Offer ends on October 25, 2023.</b>\n  <a class=\"subscribe-button\" href=\"#\">Upgrade</a>\n  <div class=\"ribbon-wrap\">\n    <div class=\"ribbon\">Special Offer!</div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by mi-series - Tags: simple, material design, pricing, green, minimalist, card, chatgpt */\n.container {\n  width: 300px;\n  padding: 15px;\n  background: #ffffff;\n  text-align: center;\n  border: 1px solid #000;\n  border-radius: 12px;\n  overflow: hidden;\n  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);\n  position: relative;\n}\n\n.container .title {\n  font-size: 2rem;\n  font-weight: 500;\n  color: #333;\n}\n\n.container .price {\n  color: #40B3A2;\n  font-weight: 700;\n  font-size: 2.2rem;\n  margin: 10px 0;\n}\n\n.container span {\n  font-size: 1.2rem;\n}\n\n.container .description {\n  color: #3b3b3b;\n  font-size: 1.1rem;\n  margin: 10px 0 10px;\n}\n\n.container .offer {\n  display: block;\n  color: #555;\n  font-size: 1rem;\n  margin-top: 10px;\n}\n\n.subscribe-button {\n  display: inline-block;\n  padding: 5px 0;\n  background-color: #40B3A2;\n  color: #fff;\n  text-decoration: none;\n  border: 1px solid #000;\n  border-radius: 30px;\n  font-size: 1.2rem;\n  margin-top: 20px;\n  width: 50%;\n  font-weight: 500;\n  transition: 0.2s ease;\n}\n\n.subscribe-button:hover {\n  opacity: .85;\n}\n\n.ribbon-wrap {\n  width: 80px;\n  height: 80px;\n  position: absolute;\n  top: -20px;\n  left: 50px;\n  pointer-events: none;\n}\n\n.ribbon {\n  width: 200px;\n  font-size: 0.8rem;\n  text-align: center;\n  padding: 4px 0;\n  border: 1px solid #000;\n  background: #40B3A2;\n  color: #fff;\n  position: absolute;\n  transform: rotate(-45deg);\n  right: -10px;\n  top: 55%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

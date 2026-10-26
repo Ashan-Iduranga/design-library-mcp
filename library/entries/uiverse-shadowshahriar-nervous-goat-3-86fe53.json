@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shadowshahriar-nervous-goat-3-86fe53",
+  "title": "Button by ShadowShahriar (nervous-goat-3)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ShadowShahriar/nervous-goat-3",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ShadowShahriar on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ShadowShahriar_nervous-goat-3.html",
+  "code": "<button>Hover me!</button>\n<style>\n/* From Uiverse.io by ShadowShahriar - Tags: gradient, button */\nbutton {\n --border-radius: 15px;\n --border-width: 4px;\n appearance: none;\n position: relative;\n padding: 1em 2em;\n border: 0;\n background-color: #212121;\n font-family: \"Roboto\", Arial, \"Segoe UI\", sans-serif;\n font-size: 18px;\n font-weight: 500;\n color: #fff;\n z-index: 2;\n}\n\nbutton::after {\n --m-i: linear-gradient(#000, #000);\n --m-o: content-box, padding-box;\n content: \"\";\n position: absolute;\n left: 0;\n top: 0;\n width: 100%;\n height: 100%;\n padding: var(--border-width);\n border-radius: var(--border-radius);\n background-image: conic-gradient(\n\t\t#488cfb,\n\t\t#29dbbc,\n\t\t#ddf505,\n\t\t#ff9f0e,\n\t\t#e440bb,\n\t\t#655adc,\n\t\t#488cfb\n\t);\n -webkit-mask-image: var(--m-i), var(--m-i);\n mask-image: var(--m-i), var(--m-i);\n -webkit-mask-origin: var(--m-o);\n mask-origin: var(--m-o);\n -webkit-mask-clip: var(--m-o);\n mask-composite: exclude;\n -webkit-mask-composite: destination-out;\n filter: hue-rotate(0);\n animation: rotate-hue linear 500ms infinite;\n animation-play-state: paused;\n}\n\nbutton:hover::after {\n animation-play-state: running;\n}\n\n@keyframes rotate-hue {\n to {\n  filter: hue-rotate(1turn);\n }\n}\n\nbutton,\nbutton::after {\n box-sizing: border-box;\n}\n\nbutton:active {\n --border-width: 5px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

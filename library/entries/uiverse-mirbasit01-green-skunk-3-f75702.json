@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-mirbasit01-green-skunk-3-f75702",
+  "title": "Card by mirbasit01 (green-skunk-3)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mirbasit01/green-skunk-3",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "3d",
+    "hover",
+    "dark",
+    "code",
+    "html",
+    "css",
+    "css-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mirbasit01 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/mirbasit01_green-skunk-3.html",
+  "code": "<div class=\"card\">\n  <div class=\"main-content\">\n    <div class=\"header\">\n      <span></span>\n      <span>03/01/2024</span>\n    </div>\n    <p class=\"heading\">\n      Different ways to use HTML, CSS, JAVA SCRIPT, IN REACT\n    </p>\n    <div class=\"categories\">\n      <span>HTML</span>\n      <span>CSS</span>\n      <span>JAVA SCRIPT</span>\n      <span>REACT </span>\n    </div>\n  </div>\n  <div class=\"footer\">By @iamabdulbasit___</div>\n</div>\n\n<style>\n/* From Uiverse.io by mirbasit01  - Tags: 3d, card, hover, dark, code, html, css, css effect */\n.card {\n  width: 330px;\n  height: 370px;\n  padding: 20px;\n  color: white;\n  background: linear-gradient(#212121, #212121) padding-box,\n    linear-gradient(145deg, transparent 35%, #0a89a8, #252e31) border-box;\n  border: 2px solid transparent;\n  border-radius: 8px;\n  display: flex;\n  flex-direction: column;\n  cursor: pointer;\n  transform-origin: top bottom;\n  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);\n}\n\n.card .main-content {\n  flex: 1;\n}\n\n.card .header span:first-child {\n  font-weight: 600;\n  color: #717171;\n  margin-right: 4px;\n}\n\n.card .heading {\n  font-size: 24px;\n  margin: 24px 0 16px;\n  font-weight: 600;\n}\n\n.card .categories {\n  display: flex;\n  gap: 10px;\n}\n\n.card .categories span {\n  background-color: #0a89a8;\n  padding: 4px 8px;\n  font-weight: 600;\n  text-transform: uppercase;\n  font-size: 12px;\n  border-radius: 50em;\n}\n\n.card .footer {\n  font-weight: 600;\n  color: #717171;\n  margin-right: 4px;\n}\n\n.card:hover {\n  rotate: -6deg;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

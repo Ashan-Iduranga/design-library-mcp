@@ -1,0 +1,33 @@
+{
+  "id": "shadcn-ui-direction",
+  "title": "Direction (shadcn/ui)",
+  "source": "shadcn/ui",
+  "url": "https://ui.shadcn.com/docs/components/direction",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "ui",
+    "direction",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A provider component that sets the text direction for your application.\n\nInstall into a project: npx shadcn@latest add direction\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/ui/direction.tsx",
+  "code": "\"use client\"\n\nimport * as React from \"react\"\nimport { Direction } from \"radix-ui\"\n\nfunction DirectionProvider({\n  dir,\n  direction,\n  children,\n}: React.ComponentProps<typeof Direction.DirectionProvider> & {\n  direction?: React.ComponentProps<typeof Direction.DirectionProvider>[\"dir\"]\n}) {\n  return (\n    <Direction.DirectionProvider dir={direction ?? dir}>\n      {children}\n    </Direction.DirectionProvider>\n  )\n}\n\nconst useDirection = Direction.useDirection\n\nexport { DirectionProvider, useDirection }\n",
+  "prompt": "npx shadcn@latest add direction",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

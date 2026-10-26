@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-vk-uiux-grumpy-dolphin-30-5f779e",
+  "title": "Loader by vk-uiux (grumpy-dolphin-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vk-uiux/grumpy-dolphin-30",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vk-uiux on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vk-uiux_grumpy-dolphin-30.html",
+  "code": "<div class=\"loader\">\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n</div>\n<style>\n/* From Uiverse.io by vk-uiux - Source: vk-uiux - Tags: animation, loader, spinner, book, animated, css, css effect */\n.loader {\n  position: relative;\n  width: 33px;\n  height: 33px;\n  perspective: 67px;\n}\n\n.loader div {\n  width: 100%;\n  height: 100%;\n  background: #fff;\n  position: absolute;\n  left: 50%;\n  transform-origin: left;\n  animation: loader 2s infinite;\n}\n\n.loader div:nth-child(1) {\n  animation-delay: 0.15s;\n}\n\n.loader div:nth-child(2) {\n  animation-delay: 0.3s;\n}\n\n.loader div:nth-child(3) {\n  animation-delay: 0.45s;\n}\n\n.loader div:nth-child(4) {\n  animation-delay: 0.6s;\n}\n\n.loader div:nth-child(5) {\n  animation-delay: 0.75s;\n}\n\n@keyframes loader {\n  0% {\n    transform: rotateY(0deg);\n  }\n\n  50%, 80% {\n    transform: rotateY(-180deg);\n  }\n\n  90%, 100% {\n    opacity: 0;\n    transform: rotateY(-180deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

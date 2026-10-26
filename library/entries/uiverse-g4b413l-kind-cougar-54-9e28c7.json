@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-g4b413l-kind-cougar-54-9e28c7",
+  "title": "Loader by G4b413l (kind-cougar-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/kind-cougar-54",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/G4b413l_kind-cougar-54.html",
+  "code": "<div class=\"jelly\"></div>\n<svg width=\"0\" height=\"0\" class=\"jelly-maker\">\n  <defs>\n    <filter id=\"uib-jelly-ooze\">\n      <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"6.25\" result=\"blur\"></feGaussianBlur>\n      <feColorMatrix in=\"blur\" mode=\"matrix\" values=\"1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7\" result=\"ooze\"></feColorMatrix>\n      <feBlend in=\"SourceGraphic\" in2=\"ooze\"></feBlend>\n    </filter>\n  </defs>\n</svg>\n<style>\n/* From Uiverse.io by G4b413l - Tags: loader */\n.jelly {\n --uib-size: 40px;\n --uib-speed: .8s;\n --uib-color: #2c2b2b;\n position: relative;\n height: calc(var(--uib-size) / 2);\n width: var(--uib-size);\n filter: url('#uib-jelly-ooze');\n animation: rotate72317 calc(var(--uib-speed) * 2) linear infinite;\n}\n\n.jelly::before,\n.jelly::after {\n content: '';\n position: absolute;\n top: 0%;\n left: 25%;\n width: 50%;\n height: 100%;\n background: var(--uib-color);\n border-radius: 100%;\n}\n\n.jelly::before {\n animation: shift-left var(--uib-speed) ease infinite;\n}\n\n.jelly::after {\n animation: shift-right var(--uib-speed) ease infinite;\n}\n\n.jelly-maker {\n width: 0;\n height: 0;\n position: absolute;\n}\n\n@keyframes rotate72317 {\n 0%,\n  49.999%,\n  100% {\n  transform: none;\n }\n\n 50%,\n  99.999% {\n  transform: rotate(90deg);\n }\n}\n\n@keyframes shift-left {\n 0%,\n  100% {\n  transform: translateX(0%);\n }\n\n 50% {\n  transform: scale(0.65) translateX(-75%);\n }\n}\n\n@keyframes shift-right {\n 0%,\n  100% {\n  transform: translateX(0%);\n }\n\n 50% {\n  transform: scale(0.65) translateX(75%);\n }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

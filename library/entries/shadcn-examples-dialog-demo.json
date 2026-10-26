@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-dialog-demo",
+  "title": "Dialog Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/dialog-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "dialog",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A window overlaid on either the primary window or another dialog window, rendering the content underneath inert.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/dialog-demo.tsx",
+  "code": "import { Button } from \"@/registry/new-york-v4/ui/button\"\nimport {\n  Dialog,\n  DialogClose,\n  DialogContent,\n  DialogDescription,\n  DialogFooter,\n  DialogHeader,\n  DialogTitle,\n  DialogTrigger,\n} from \"@/registry/new-york-v4/ui/dialog\"\nimport { Input } from \"@/registry/new-york-v4/ui/input\"\nimport { Label } from \"@/registry/new-york-v4/ui/label\"\n\nexport default function DialogDemo() {\n  return (\n    <Dialog>\n      <form>\n        <DialogTrigger asChild>\n          <Button variant=\"outline\">Open Dialog</Button>\n        </DialogTrigger>\n        <DialogContent className=\"sm:max-w-[425px]\">\n          <DialogHeader>\n            <DialogTitle>Edit profile</DialogTitle>\n            <DialogDescription>\n              Make changes to your profile here. Click save when you&apos;re\n              done.\n            </DialogDescription>\n          </DialogHeader>\n          <div className=\"grid gap-4\">\n            <div className=\"grid gap-3\">\n              <Label htmlFor=\"name-1\">Name</Label>\n              <Input id=\"name-1\" name=\"name\" defaultValue=\"Pedro Duarte\" />\n            </div>\n            <div className=\"grid gap-3\">\n              <Label htmlFor=\"username-1\">Username</Label>\n              <Input id=\"username-1\" name=\"username\" defaultValue=\"@peduarte\" />\n            </div>\n          </div>\n          <DialogFooter>\n            <DialogClose asChild>\n              <Button variant=\"outline\">Cancel</Button>\n            </DialogClose>\n            <Button type=\"submit\">Save changes</Button>\n          </DialogFooter>\n        </DialogContent>\n      </form>\n    </Dialog>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

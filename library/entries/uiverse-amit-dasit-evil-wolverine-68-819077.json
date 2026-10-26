@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-amit-dasit-evil-wolverine-68-819077",
+  "title": "Button by AmIt-DasIT (evil-wolverine-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AmIt-DasIT/evil-wolverine-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "add",
+    "btn"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AmIt-DasIT on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/AmIt-DasIT_evil-wolverine-68.html",
+  "code": "<div class=\"svg-wrapper\">\n  <svg height=\"60\" width=\"190\" xmlns=\"http://www.w3.org/2000/svg\">\n    <rect class=\"shape\" height=\"60\" width=\"190\"></rect>\n    </svg>\n    <div class=\"text\">Subscribe</div>\n</div>\n<style>\n/* From Uiverse.io by AmIt-DasIT - Tags: button, add, btn */\n.svg-wrapper {\n  position: relative;\n  width: 190px;\n  height: 60px;\n  text-align: center;\n  cursor: pointer;\n}\n\n.shape {\n  stroke-dasharray: 100 300;\n  stroke-dashoffset: -297;\n  fill: transparent;\n  stroke: rgb(220, 20, 60);\n  stroke-width: 5px;\n  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;\n}\n\n.text {\n  font-size: 22px;\n  top: -52px;\n  position: relative;\n  font-weight: 600;\n  color: white;\n}\n\n.svg-wrapper:hover .shape {\n  stroke-width: 2px;\n  stroke-dashoffset: 0;\n  stroke-dasharray: 760;\n}\n\n.svg-wrapper:hover {\n  background-color: rgba(220, 20, 60, 0.2);\n  transition: 1s;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

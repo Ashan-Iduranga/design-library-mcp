@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-lucaasbre-strong-stingray-2-bc15a4",
+  "title": "Checkbox by Lucaasbre (strong-stingray-2)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Lucaasbre/strong-stingray-2",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "simple",
+    "button",
+    "menu",
+    "light&dark"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Lucaasbre on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Lucaasbre_strong-stingray-2.html",
+  "code": "<input type=\"checkbox\" class=\"checkbox\" />\n<span class=\"button-menu\"></span>\n<button class=\"option-a option\">A</button>\n<button class=\"option-b option\">B</button>\n<button class=\"option-c option\">C</button>\n\n<style>\n/* From Uiverse.io by Lucaasbre  - Tags: simple, button, checkbox, menu, light&dark */\n.button-menu {\n  cursor: pointer;\n  position: absolute;\n  z-index: 1;\n  background-color: #ffdd00;\n  border: 2px solid #1e1e1e;\n  color: #1e1e1e;\n  font-size: 30px;\n  font-weight: 700;\n  width: 60px;\n  height: 60px;\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  -webkit-box-shadow: 0px 3px 10px 0px rgba(16, 16, 16, 0.5);\n  -moz-box-shadow: 0px 3px 10px 0px rgba(16, 16, 16, 0.5);\n  box-shadow: 0px 3px 10px 0px rgba(16, 16, 16, 0.5);\n}\n\n.checkbox {\n  width: 60px;\n  height: 60px;\n  opacity: 0;\n  z-index: 10;\n  cursor: pointer;\n}\n\n.option {\n  position: absolute;\n  background-color: #1e1e1e;\n  border: 2px solid #ffdd00;\n  color: #ffdd00;\n  z-index: -1;\n  width: 55px;\n  height: 55px;\n  border-radius: 50%;\n  cursor: pointer;\n  font-weight: 700;\n  transition: all 0.3s;\n  -webkit-box-shadow: 3px 3px 10px 0px rgba(16, 16, 16, 0.5);\n  -moz-box-shadow: 3px 3px 10px 0px rgba(16, 16, 16, 0.5);\n  box-shadow: 3px 3px 10px 0px rgba(16, 16, 16, 0.5);\n}\n\n.checkbox:hover ~ .button-menu,\n.checkbox:checked ~ .button-menu {\n  background-color: #eccd00;\n  scale: 0.98;\n  box-shadow: none;\n}\n\n.checkbox:not(:checked) ~ .button-menu::before {\n  content: \"+\";\n}\n\n.checkbox:checked ~ .button-menu::after {\n  content: \"-\";\n  scale: 0.98;\n  box-shadow: none;\n}\n\n.checkbox:not(:checked) ~ .option {\n  box-shadow: none;\n}\n\n.option:hover,\n.option:active,\n.option:focus {\n  box-shadow: none;\n  scale: 0.98;\n}\n\n.checkbox:checked ~ .option-a {\n  transition-delay: 0.1s;\n  transform: translateY(-70px);\n}\n\n.checkbox:checked ~ .option-b {\n  transition-delay: 0.2s;\n  transform: translateY(-140px);\n}\n\n.checkbox:checked ~ .option-c {\n  transition-delay: 0.3s;\n  transform: translateY(-210px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-javierrocadev-fluffy-stingray-76-259f9b",
+  "title": "Card by Javierrocadev (fluffy-stingray-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/fluffy-stingray-76",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Javierrocadev_fluffy-stingray-76.html",
+  "code": "<div class=\"card\">\n  <span class=\"text\">Go!</span>\n</div>\n<style>\n/* From Uiverse.io by Javierrocadev - Tags: card, box-shadow */\n.card {\n  width: 150px;\n  height: 150px;\n  background: #a53c3c;\n  border-radius: 5px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  font-size: 3em;\n  font-weight: 900;\n  color: aliceblue;\n  transition: all .5s ease-in-out;\n}\n\n.text {\n  transition: all 0.3s ease-in-out;\n}\n\n.card:hover {\n  box-shadow: 75px 75px 5px -20px #bf5e37, -75px 75px 5px -20px #d08432, -75px -75px 5px -20px #bf5e37 , 75px -75px 5px -20px #d08432;\n  transform: rotate(-45deg);\n}\n\n.card:hover .text {\n  transform: rotate(45deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

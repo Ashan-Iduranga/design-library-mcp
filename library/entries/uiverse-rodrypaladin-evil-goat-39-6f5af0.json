@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-rodrypaladin-evil-goat-39-6f5af0",
+  "title": "Loader by Rodrypaladin (evil-goat-39)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Rodrypaladin/evil-goat-39",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "red",
+    "loading",
+    "modern",
+    "creative",
+    "multicolor",
+    "bounce-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Rodrypaladin on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Rodrypaladin_evil-goat-39.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Rodrypaladin - Tags: animation, red, loading, loader, modern, creative, multicolor, bounce animation */\n.loader {\n  width: 100px;\n  height: 100px;\n  background-color: orange;\n  border-radius: 50%;\n  box-shadow: -15px -15px 15px #ff6600, 15px -15px 15px #ff9100, 15px 15px 15px #ff5500, -15px 15px 15px #ffa600, -15px 0 15px #ff6600, 15px 0 15px #ffcc00;\n  animation: rotate 1s infinite;\n  transform: rotate(0) scale(0.8);\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(360deg) scale(0.8);\n  }\n\n  50% {\n    transform: rotate(0) scale(1.2);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

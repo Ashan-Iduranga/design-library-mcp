@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-weak-swan-50-fcf0f5",
+  "title": "Button by mrhyddenn (weak-swan-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/weak-swan-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mrhyddenn_weak-swan-50.html",
+  "code": "<button>\n    <span>Button</span><i></i>\n</button>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: button */\nbutton {\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n  padding: 10px 30px;\n  transition: 0.5s;\n  position: relative;\n  font-size: 17px;\n  background: #333;\n  border: none;\n  color: #fff;\n}\n\nbutton:hover {\n  letter-spacing: 0.25em;\n  background: #ff1867;\n  color: #ff1867;\n  box-shadow: 0 0 45px #ff1867;\n}\n\nbutton::before {\n  content: '';\n  position: absolute;\n  inset: 2px;\n  background: #222222;\n}\n\nbutton span {\n  position: relative;\n  z-index: 1;\n}\n\nbutton i {\n  position: absolute;\n  inset: 0;\n  display: block;\n}\n\nbutton i::before {\n  content: '';\n  position: absolute;\n  border: 2px solid #ff1867;\n  width: 7px;\n  height: 4px;\n  top: -3.5px;\n  left: 80%;\n  background: #222222;\n  transform: translateX(-50%);\n  transition: 0.5s;\n}\n\nbutton:hover i::before {\n  width: 20px;\n  left: 20%;\n}\n\nbutton i::after {\n  content: '';\n  position: absolute;\n  border: 2px solid #ff1867;\n  width: 7px;\n  height: 4px;\n  bottom: -3.5px;\n  left: 20%;\n  background: #222222;\n  transform: translateX(-50%);\n  transition: 0.5s;\n}\n\nbutton:hover i::after {\n  width: 20px;\n  left: 80%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

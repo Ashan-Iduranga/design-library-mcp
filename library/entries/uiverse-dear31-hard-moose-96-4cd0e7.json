@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-dear31-hard-moose-96-4cd0e7",
+  "title": "Button by Dear31 (hard-moose-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Dear31/hard-moose-96",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Dear31 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Dear31_hard-moose-96.html",
+  "code": "<button>\n  Hover me\n</button>\n<style>\n/* From Uiverse.io by Dear31 - Tags: button */\nbutton {\n  background-color: rgb(255, 255, 255);\n  border: 3px solid black;\n  padding: 12px 32px;\n  border-radius: 22px;\n  box-shadow: 2px 2px 1px  black;\n  transition: all .2s ease;\n  font-size: 1em;\n  font-weight: 800;\n}\n\nbutton:hover {\n  transform: translate(-2px, -1px);\n  box-shadow: 7px 7px 1px  rgb(0, 0, 0);\n  transition: all .2s ease-in;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-catraco-green-crab-61-b8c0a4",
+  "title": "Loader by catraco (green-crab-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/catraco/green-crab-61",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "icon",
+    "animated",
+    "light&dark"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By catraco on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/catraco_green-crab-61.html",
+  "code": "<div class=\"loader\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path d=\"M64 32C28.7 32 0 60.7 0 96v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm48 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM64 288c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V352c0-35.3-28.7-64-64-64H64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z\"></path></svg>\n  <span></span>\n</div>\n<style>\n/* From Uiverse.io by catraco - Tags: icon, loader, animated, light&dark */\n.loader {\n  --color: #a5a5b0;\n  --size: 40px;\n  position: relative;\n  width: var(--size);\n  height: var(--size);\n}\n\n.loader span {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border: 1px solid var(--color);\n  border-bottom: 1px solid transparent;\n  border-radius: 100%;\n  animation: keyframes-rotate .8s infinite linear;\n}\n\n.loader svg {\n  width: 100%;\n  height: 100%;\n  padding: 25%;\n  fill: var(--color);\n  animation: keyframes-blink .8s infinite ease-in-out;\n}\n\n@keyframes keyframes-rotate {\n  0% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes keyframes-blink {\n  50% {\n    opacity: 0.8;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

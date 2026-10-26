@@ -1,0 +1,36 @@
+{
+  "id": "magicui-safari-demo-3",
+  "title": "Safari Demo 3 (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/safari",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "safari",
+    "demo",
+    "3",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Third example showing a Safari browser mockup.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/safari-demo-3.tsx",
+  "code": "import { Safari } from \"@/registry/magicui/safari\"\n\nexport default function SafariDemo() {\n  return (\n    <div className=\"w-[1203px]\">\n      <Safari\n        url=\"magicui.design\"\n        videoSrc=\"https://videos.pexels.com/video-files/27180348/12091515_2560_1440_50fps.mp4\"\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

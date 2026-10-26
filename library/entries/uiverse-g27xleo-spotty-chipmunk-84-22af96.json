@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-g27xleo-spotty-chipmunk-84-22af96",
+  "title": "Loader by G27XLEO (spotty-chipmunk-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G27XLEO/spotty-chipmunk-84",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G27XLEO on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/G27XLEO_spotty-chipmunk-84.html",
+  "code": "<svg\n  class=\"heart\"\n  viewBox=\"-5 -5 278 56\"\n  version=\"1.1\"\n  id=\"svg5\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n>\n  <filter>\n    <feGaussianBlur stdDeviation=\"1.6\"></feGaussianBlur>\n  </filter>\n  <g transform=\"translate(29.1 -127.42)\" id=\"layer1\">\n    <path\n      pathLength=\"1\"\n      d=\"M-28.73 167.2c26.43 9.21 68.46-9.46 85.45-12.03 18.45-2.78 32.82 4.86 28.75 9.83-3.82 4.66-25.77-21.18-14.81-31.5 9.54-8.98 17.64 10.64 16.42 17.06-1.51-6.2 2.95-26.6 14.74-22.11 11.7 4.46-4.33 49.03-15.44 44.08-6.97-3.1 15.44-16.26 26.1-16 23.03.56 55.6 27.51 126.63 3.36\"\n      id=\"line\"\n    ></path>\n  </g>\n  <g transform=\"translate(29.1 -127.42)\" id=\"layer2\">\n    <path\n      pathLength=\"1\"\n      d=\"M-28.73 167.2c26.43 9.21 68.46-9.46 85.45-12.03 18.45-2.78 32.82 4.86 28.75 9.83-3.82 4.66-25.77-21.18-14.81-31.5 9.54-8.98 17.64 10.64 16.42 17.06-1.51-6.2 2.95-26.6 14.74-22.11 11.7 4.46-4.33 49.03-15.44 44.08-6.97-3.1 15.44-16.26 26.1-16 23.03.56 55.6 27.51 126.63 3.36\"\n      id=\"point\"\n      filter=\"url(#blur)\"\n    ></path>\n  </g>\n</svg>\n\n<style>\n/* From Uiverse.io by G27XLEO  - Tags: loader */\n.heart #line {\n  fill: none;\n  stroke: #e00000;\n  stroke-width: 1.5;\n  stroke-linecap: butt;\n  stroke-linejoin: round;\n  stroke-miterlimit: 4;\n  stroke-opacity: 1;\n  stroke-dasharray: 1;\n  stroke-dashoffset: 1;\n  animation: dash 3s linear infinite;\n}\n.heart #point {\n  fill: none;\n  stroke: #f00000;\n  stroke-width: 5;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-miterlimit: 0.1;\n  stroke-opacity: 1;\n  stroke-dasharray: 0.0001, 0.9999;\n  stroke-dashoffset: 1;\n  animation: dash 3s linear infinite;\n}\n@keyframes dash {\n  0% {\n    stroke-dashoffset: 1;\n  }\n  80% {\n    stroke-dashoffset: 0;\n  }\n  100% {\n    stroke-dashoffset: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

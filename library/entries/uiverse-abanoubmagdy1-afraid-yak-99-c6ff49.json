@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-abanoubmagdy1-afraid-yak-99-c6ff49",
+  "title": "Input by AbanoubMagdy1 (afraid-yak-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AbanoubMagdy1/afraid-yak-99",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AbanoubMagdy1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/AbanoubMagdy1_afraid-yak-99.html",
+  "code": "<div class=\"wave-group\">\n  <input required=\"\" type=\"text\" class=\"input\">\n  <span class=\"bar\"></span>\n  <label class=\"label\">\n    <span class=\"label-char\" style=\"--index: 0\">N</span>\n    <span class=\"label-char\" style=\"--index: 1\">a</span>\n    <span class=\"label-char\" style=\"--index: 2\">m</span>\n    <span class=\"label-char\" style=\"--index: 3\">e</span>\n  </label>\n</div>\n<style>\n/* From Uiverse.io by AbanoubMagdy1 - Tags: input */\n.wave-group {\n  position: relative;\n}\n\n.wave-group .input {\n  font-size: 16px;\n  padding: 10px 10px 10px 5px;\n  display: block;\n  width: 200px;\n  border: none;\n  border-bottom: 1px solid #515151;\n  background: transparent;\n}\n\n.wave-group .input:focus {\n  outline: none;\n}\n\n.wave-group .label {\n  color: #999;\n  font-size: 18px;\n  font-weight: normal;\n  position: absolute;\n  pointer-events: none;\n  left: 5px;\n  top: 10px;\n  display: flex;\n}\n\n.wave-group .label-char {\n  transition: 0.2s ease all;\n  transition-delay: calc(var(--index) * .05s);\n}\n\n.wave-group .input:focus ~ label .label-char,\n.wave-group .input:valid ~ label .label-char {\n  transform: translateY(-20px);\n  font-size: 14px;\n  color: #5264AE;\n}\n\n.wave-group .bar {\n  position: relative;\n  display: block;\n  width: 200px;\n}\n\n.wave-group .bar:before,.wave-group .bar:after {\n  content: '';\n  height: 2px;\n  width: 0;\n  bottom: 1px;\n  position: absolute;\n  background: #5264AE;\n  transition: 0.2s ease all;\n  -moz-transition: 0.2s ease all;\n  -webkit-transition: 0.2s ease all;\n}\n\n.wave-group .bar:before {\n  left: 50%;\n}\n\n.wave-group .bar:after {\n  right: 50%;\n}\n\n.wave-group .input:focus ~ .bar:before,\n.wave-group .input:focus ~ .bar:after {\n  width: 50%;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

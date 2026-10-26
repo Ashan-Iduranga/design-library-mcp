@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vinodjangid07-itchy-mule-52-2a0db8",
+  "title": "Toggle by vinodjangid07 (itchy-mule-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/itchy-mule-52",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "neon",
+    "toggle-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/vinodjangid07_itchy-mule-52.html",
+  "code": "<input id=\"checkboxInput\" type=\"checkbox\">\n    <label class=\"toggleSwitch\" for=\"checkboxInput\">\n    </label>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: switch, neon, toggle switch */\n/* To hide the checkbox */\n#checkboxInput {\n  display: none;\n}\n\n.toggleSwitch {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  width: 50px;\n  height: 17px;\n  background-color: rgb(82, 82, 82);\n  border-radius: 20px;\n  cursor: pointer;\n  transition-duration: .2s;\n}\n\n.toggleSwitch::after {\n  content: \"\";\n  position: absolute;\n  height: 22px;\n  width: 22px;\n  left: 0px;\n  background-color: rgb(41, 41, 41);\n  border-radius: 50%;\n  transition-duration: .2s;\n  border: 2px solid rgb(82, 82, 82);\n}\n\n#checkboxInput:checked+.toggleSwitch::after {\n  transform: translateX(100%);\n  transition-duration: .2s;\n  border: 2px solid rgb(165, 255, 105);\n}\n/* Switch background change */\n#checkboxInput:checked+.toggleSwitch {\n  background-color: rgb(165, 255, 105);\n  transition-duration: .2s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

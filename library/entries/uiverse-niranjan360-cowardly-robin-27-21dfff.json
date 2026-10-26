@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-niranjan360-cowardly-robin-27-21dfff",
+  "title": "Button by Niranjan360 (cowardly-robin-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Niranjan360/cowardly-robin-27",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "dark",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Niranjan360 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Niranjan360_cowardly-robin-27.html",
+  "code": "<button class=\"button\">\n  <span>Button</span>\n</button>\n\n<style>\n/* From Uiverse.io by Niranjan360  - Tags: simple, button, dark, hover effect */\n.button {\n  cursor: pointer;\n  background-color: black;\n  padding: 8px 25px;\n  border: solid 2px gold;\n  border-radius: 20px;\n  position: relative;\n  overflow: hidden;\n  transition: 0.1s linear 0.1s;\n}\n.button span {\n  color: gold;\n  font-weight: 500;\n  letter-spacing: 2px;\n  position: relative;\n  z-index: 2;\n  transition: 0.2s linear 0.1s;\n}\n.button::after {\n  display: block;\n  content: \"\";\n  background-color: gold;\n  width: 300px;\n  height: 300px;\n  border-radius: 50%;\n  position: absolute;\n  top: 100%;\n  transform: translateX(-40%);\n  transition: 0.2s linear 0.1s;\n  z-index: 1;\n}\n.button:hover {\n  box-shadow: 0px 0px 20px gold;\n}\n.button:hover::after {\n  top: -50%;\n}\n.button:hover span {\n  color: black;\n  letter-spacing: 4px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

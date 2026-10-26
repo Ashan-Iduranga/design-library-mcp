@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-menubar-demo",
+  "title": "Menubar Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/menubar-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "menubar",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A visually persistent menu common in desktop applications that provides quick access to a consistent set of commands.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/menubar-demo.tsx",
+  "code": "import {\n  Menubar,\n  MenubarCheckboxItem,\n  MenubarContent,\n  MenubarItem,\n  MenubarMenu,\n  MenubarRadioGroup,\n  MenubarRadioItem,\n  MenubarSeparator,\n  MenubarShortcut,\n  MenubarSub,\n  MenubarSubContent,\n  MenubarSubTrigger,\n  MenubarTrigger,\n} from \"@/registry/new-york-v4/ui/menubar\"\n\nexport default function MenubarDemo() {\n  return (\n    <Menubar>\n      <MenubarMenu>\n        <MenubarTrigger>File</MenubarTrigger>\n        <MenubarContent>\n          <MenubarItem>\n            New Tab <MenubarShortcut>⌘T</MenubarShortcut>\n          </MenubarItem>\n          <MenubarItem>\n            New Window <MenubarShortcut>⌘N</MenubarShortcut>\n          </MenubarItem>\n          <MenubarItem disabled>New Incognito Window</MenubarItem>\n          <MenubarSeparator />\n          <MenubarSub>\n            <MenubarSubTrigger>Share</MenubarSubTrigger>\n            <MenubarSubContent>\n              <MenubarItem>Email link</MenubarItem>\n              <MenubarItem>Messages</MenubarItem>\n              <MenubarItem>Notes</MenubarItem>\n            </MenubarSubContent>\n          </MenubarSub>\n          <MenubarSeparator />\n          <MenubarItem>\n            Print... <MenubarShortcut>⌘P</MenubarShortcut>\n          </MenubarItem>\n        </MenubarContent>\n      </MenubarMenu>\n      <MenubarMenu>\n        <MenubarTrigger>Edit</MenubarTrigger>\n        <MenubarContent>\n          <MenubarItem>\n            Undo <MenubarShortcut>⌘Z</MenubarShortcut>\n          </MenubarItem>\n          <MenubarItem>\n            Redo <MenubarShortcut>⇧⌘Z</MenubarShortcut>\n          </MenubarItem>\n          <MenubarSeparator />\n          <MenubarSub>\n            <MenubarSubTrigger>Find</MenubarSubTrigger>\n            <MenubarSubContent>\n              <MenubarItem>Search the web</MenubarItem>\n              <MenubarSeparator />\n              <MenubarItem>Find...</MenubarItem>\n              <MenubarItem>Find Next</MenubarItem>\n              <MenubarItem>Find Previous</MenubarItem>\n            </MenubarSubContent>\n          </MenubarSub>\n          <MenubarSeparator />\n          <MenubarItem>Cut</MenubarItem>\n          <MenubarItem>Copy</MenubarItem>\n          <MenubarItem>Paste</MenubarItem>\n        </MenubarContent>\n      </MenubarMenu>\n      <MenubarMenu>\n        <MenubarTrigger>View</MenubarTrigger>\n        <MenubarContent>\n          <MenubarCheckboxItem>Always Show Bookmarks Bar</MenubarCheckboxItem>\n          <MenubarCheckboxItem checked>\n            Always Show Full URLs\n          </MenubarCheckboxItem>\n          <MenubarSeparator />\n          <MenubarItem inset>\n            Reload <MenubarShortcut>⌘R</MenubarShortcut>\n          </MenubarItem>\n          <MenubarItem disabled inset>\n            Force Reload <MenubarShortcut>⇧⌘R</MenubarShortcut>\n          </MenubarItem>\n          <MenubarSeparator />\n          <MenubarItem inset>Toggle Fullscreen</MenubarItem>\n          <MenubarSeparator />\n          <MenubarItem inset>Hide Sidebar</MenubarItem>\n        </MenubarContent>\n      </MenubarMenu>\n      <MenubarMenu>\n        <MenubarTrigger>Profiles</MenubarTrigger>\n        <MenubarContent>\n          <MenubarRadioGroup value=\"benoit\">\n            <MenubarRadioItem value=\"andy\">Andy</MenubarRadioItem>\n            <MenubarRadioItem value=\"benoit\">Benoit</MenubarRadioItem>\n            <MenubarRadioItem value=\"Luis\">Luis</MenubarRadioItem>\n          </MenubarRadioGroup>\n          <MenubarSeparator />\n          <MenubarItem inset>Edit...</MenubarItem>\n          <MenubarSeparator />\n          <MenubarItem inset>Add Profile...</MenubarItem>\n        </MenubarContent>\n      </MenubarMenu>\n    </Menubar>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-g4b413l-cuddly-turkey-4-93b673",
+  "title": "Loader by G4b413l (cuddly-turkey-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/cuddly-turkey-4",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "after"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/G4b413l_cuddly-turkey-4.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by G4b413l - Tags: loader, after */\n.loader {\n  position: relative;\n  width: 300px;\n  height: 3px;\n  background: linear-gradient(to right, transparent, #28AE60, transparent);\n  overflow: hidden;\n}\n\n.loader::after {\n  content: '';\n  position: absolute;\n  translate: -200px 0;\n  width: 150px;\n  height: 100%;\n  background: linear-gradient(to right, transparent, #212121, transparent);\n  animation: slide 1s infinite;\n}\n\n@keyframes slide {\n  100% {\n    translate: 300px 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

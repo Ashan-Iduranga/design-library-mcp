@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-fateself-tricky-crab-38-c32f11",
+  "title": "Loader by fateself (tricky-crab-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/fateself/tricky-crab-38",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By fateself on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/fateself_tricky-crab-38.html",
+  "code": "<div class=\"loader\">\n    <span style=\"--i:1\"></span>\n    <span style=\"--i:2\"></span>\n    <span style=\"--i:3\"></span>\n    <span style=\"--i:4\"></span>\n    <span style=\"--i:5\"></span>\n    <span style=\"--i:6\"></span>\n    <span style=\"--i:7\"></span>\n    <span style=\"--i:8\"></span>\n    <span style=\"--i:9\"></span>\n    <span style=\"--i:10\"></span>\n    <span style=\"--i:11\"></span>\n    <span style=\"--i:12\"></span>\n    <span style=\"--i:13\"></span>\n    <span style=\"--i:14\"></span>\n    <span style=\"--i:15\"></span>\n    <span style=\"--i:16\"></span>\n    <span style=\"--i:17\"></span>\n    <span style=\"--i:18\"></span>\n    <span style=\"--i:19\"></span>\n    <span style=\"--i:20\"></span>\n</div>\n<style>\n/* From Uiverse.io by fateself - Tags: loader */\n.loader {\n  position: relative;\n  width: 120px;\n  height: 120px;\n}\n\n.loader span {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  transform: rotate(calc(18deg * var(--i)));\n}\n\n.loader span::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background: #00ff0a;\n  box-shadow: 0 0 10px #00ff0a, 0 0 20px #00ff0a, 0 0 40px #00ff0a,\n    0 0 60px #00ff0a, 0 0 80px #00ff0a, 0 0 100px #00ff0a;\n  animation: animate34 2s linear infinite;\n  animation-delay: calc(0.1s * var(--i));\n}\n\n@keyframes animate34 {\n  0% {\n    transform: scale(1);\n  }\n\n  80%,\n  100% {\n    transform: scale(0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

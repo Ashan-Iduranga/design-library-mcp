@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-unlucky-wolverine-36-39cc0f",
+  "title": "Button by mrhyddenn (unlucky-wolverine-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/unlucky-wolverine-36",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mrhyddenn_unlucky-wolverine-36.html",
+  "code": "<div class=\"container_mouse\">\n    <span class=\"mouse-btn\">\n        <span class=\"mouse-scroll\"></span>\n    </span>\n    <span>Scroll Down</span>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: button */\n.mouse-btn {\n  margin: 10px auto;\n  width: 40px;\n  height: 80px;\n  border: 3px solid rgba(122, 122, 124, 0.918);\n  border-radius: 20px;\n  display: flex;\n}\n\n.mouse-scroll {\n  display: block;\n  width: 20px;\n  height: 20px;\n  background: linear-gradient(170deg, rgba(122, 122, 124, 0.918), rgb(123, 124, 124));\n  border-radius: 50%;\n  margin: auto;\n  animation: scrolling13 1s linear infinite;\n}\n\n@keyframes scrolling13 {\n  0% {\n    opacity: 0;\n    transform: translateY(-20px);\n  }\n\n  100% {\n    opacity: 1;\n    transform: translateY(20px);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

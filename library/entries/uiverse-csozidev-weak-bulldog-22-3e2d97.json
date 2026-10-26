@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-csozidev-weak-bulldog-22-3e2d97",
+  "title": "Loader by csozidev (weak-bulldog-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csozidev/weak-bulldog-22",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "3d"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csozidev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/csozidev_weak-bulldog-22.html",
+  "code": "<div class=\"loader\">\n  <div class=\"box box-1\">\n    <div class=\"side-left\"></div>\n    <div class=\"side-right\"></div>\n    <div class=\"side-top\"></div>\n  </div>\n  <div class=\"box box-2\">\n    <div class=\"side-left\"></div>\n    <div class=\"side-right\"></div>\n    <div class=\"side-top\"></div>\n  </div>\n  <div class=\"box box-3\">\n    <div class=\"side-left\"></div>\n    <div class=\"side-right\"></div>\n    <div class=\"side-top\"></div>\n  </div>\n  <div class=\"box box-4\">\n    <div class=\"side-left\"></div>\n    <div class=\"side-right\"></div>\n    <div class=\"side-top\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by csozidev - Tags: simple, 3d, loader */\n/* 3D tower loader made by: csozi | Website: www.csozi.hu*/\n\n.loader {\n  scale: 3;\n  height: 50px;\n  width: 40px;\n}\n\n.box {\n  position: relative;\n  opacity: 0;\n  left: 10px;\n}\n\n.side-left {\n  position: absolute;\n  background-color: #286cb5;\n  width: 19px;\n  height: 5px;\n  transform: skew(0deg, -25deg);\n  top: 14px;\n  left: 10px;\n}\n\n.side-right {\n  position: absolute;\n  background-color: #2f85e0;\n  width: 19px;\n  height: 5px;\n  transform: skew(0deg, 25deg);\n  top: 14px;\n  left: -9px;\n}\n\n.side-top {\n  position: absolute;\n  background-color: #5fa8f5;\n  width: 20px;\n  height: 20px;\n  rotate: 45deg;\n  transform: skew(-20deg, -20deg);\n}\n\n.box-1 {\n  animation: from-left 4s infinite;\n}\n\n.box-2 {\n  animation: from-right 4s infinite;\n  animation-delay: 1s;\n}\n\n.box-3 {\n  animation: from-left 4s infinite;\n  animation-delay: 2s;\n}\n\n.box-4 {\n  animation: from-right 4s infinite;\n  animation-delay: 3s;\n}\n\n@keyframes from-left {\n  0% {\n    z-index: 20;\n    opacity: 0;\n    translate: -20px -6px;\n  }\n\n  20% {\n    z-index: 10;\n    opacity: 1;\n    translate: 0px 0px;\n  }\n\n  40% {\n    z-index: 9;\n    translate: 0px 4px;\n  }\n\n  60% {\n    z-index: 8;\n    translate: 0px 8px;\n  }\n\n  80% {\n    z-index: 7;\n    opacity: 1;\n    translate: 0px 12px;\n  }\n\n  100% {\n    z-index: 5;\n    translate: 0px 30px;\n    opacity: 0;\n  }\n}\n\n@keyframes from-right {\n  0% {\n    z-index: 20;\n    opacity: 0;\n    translate: 20px -6px;\n  }\n\n  20% {\n    z-index: 10;\n    opacity: 1;\n    translate: 0px 0px;\n  }\n\n  40% {\n    z-index: 9;\n    translate: 0px 4px;\n  }\n\n  60% {\n    z-index: 8;\n    translate: 0px 8px;\n  }\n\n  80% {\n    z-index: 7;\n    opacity: 1;\n    translate: 0px 12px;\n  }\n\n  100% {\n    z-index: 5;\n    translate: 0px 30px;\n    opacity: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

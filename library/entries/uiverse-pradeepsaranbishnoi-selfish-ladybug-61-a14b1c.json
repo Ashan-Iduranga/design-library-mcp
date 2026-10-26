@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-selfish-ladybug-61-a14b1c",
+  "title": "Radio by Pradeepsaranbishnoi (selfish-ladybug-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/selfish-ladybug-61",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Pradeepsaranbishnoi_selfish-ladybug-61.html",
+  "code": "<div class=\"container\">\n\t<form>\n\t\t<label>\n\t\t\t<input type=\"radio\" name=\"radio\" checked=\"\">\n\t\t\t<span>HTML</span>\n\t\t</label>\n\t\t<label>\n\t\t\t<input type=\"radio\" name=\"radio\">\n\t\t\t<span>CSS</span>\n\t\t</label>\n\t\t<label>\n\t\t\t<input type=\"radio\" name=\"radio\">\n\t\t\t<span>Javascript</span>\n\t\t</label>\n\t</form>\n</div>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: radio */\n.container form {\n  display: flex;\n  flex-wrap: wrap;\n  flex-direction: column;\n}\n\n.container label {\n  display: flex;\n  cursor: pointer;\n  font-weight: 500;\n  position: relative;\n  overflow: hidden;\n  margin-bottom: 0.375em;\n}\n\n.container  label input {\n  position: absolute;\n  left: -9999px;\n}\n\n.container label input:checked + span {\n  background-color: #414181;\n  color: white;\n}\n\n.container label input:checked + span:before {\n  box-shadow: inset 0 0 0 0.4375em #00005c;\n}\n\n.container label span {\n  display: flex;\n  align-items: center;\n  padding: 0.375em 0.75em 0.375em 0.375em;\n  border-radius: 99em;\n  transition: 0.25s ease;\n  color: #414181;\n}\n\n.container label span:hover {\n  background-color: #d6d6e5;\n}\n\n.container label span:before {\n  display: flex;\n  flex-shrink: 0;\n  content: \"\";\n  background-color: #fff;\n  width: 1.5em;\n  height: 1.5em;\n  border-radius: 50%;\n  margin-right: 0.375em;\n  transition: 0.25s ease;\n  box-shadow: inset 0 0 0 0.125em #00005c;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-ahmed-mit-serious-mule-65-fb7565",
+  "title": "Loader by AHMED-MIT (serious-mule-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AHMED-MIT/serious-mule-65",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "about-me",
+    "accept-call"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AHMED-MIT on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/AHMED-MIT_serious-mule-65.html",
+  "code": "<div class=\"spinner\"></div>\n<style>\n/* From Uiverse.io by AHMED-MIT - Tags: loader, about me, accept call */\n.spinner {\n  --d: 24.6px;\n  width: 4.5px;\n  height: 4.5px;\n  border-radius: 50%;\n  color: #474bff;\n  box-shadow: calc(1*var(--d))      calc(0*var(--d))     0 0,\n          calc(0.707*var(--d))  calc(0.707*var(--d)) 0 1.1px,\n          calc(0*var(--d))      calc(1*var(--d))     0 2.2px,\n          calc(-0.707*var(--d)) calc(0.707*var(--d)) 0 3.4px,\n          calc(-1*var(--d))     calc(0*var(--d))     0 4.5px,\n          calc(-0.707*var(--d)) calc(-0.707*var(--d))0 5.6px,\n          calc(0*var(--d))      calc(-1*var(--d))    0 6.7px;\n  animation: spinner-a90wxe 1s infinite steps(8);\n}\n\n@keyframes spinner-a90wxe {\n  100% {\n    transform: rotate(1turn);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

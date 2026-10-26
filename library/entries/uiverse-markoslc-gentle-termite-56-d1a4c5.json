@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-markoslc-gentle-termite-56-d1a4c5",
+  "title": "Loader by Markoslc (gentle-termite-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Markoslc/gentle-termite-56",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Markoslc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Markoslc_gentle-termite-56.html",
+  "code": "<div class=\"loader\">\n  <div class=\"item1\"></div>\n  <div class=\"item2\"></div>\n  <div class=\"item3\"></div>\n</div>\n<style>\n/* From Uiverse.io by Markoslc - Tags: loader */\n.item1, .item2, .item3 {\n  position: absolute;\n  background-color: transparent;\n  left: calc(50% - (var(--size) / 2));\n  top: calc(50% - (var(--size) / 2));\n  height: var(--size);\n  width: var(--size);\n  border-radius: 50%;\n}\n\n.loader .item1 {\n  --size: 90px;\n  animation: size1_1 2.5s infinite alternate;\n  z-index: 1;\n}\n\n.loader .item2 {\n  --size: 60px;\n  animation: size1_2 2.5s infinite alternate;\n  z-index: 2;\n}\n\n.loader .item3 {\n  --size: 30px;\n  animation: size1_3 2.5s infinite alternate;\n  z-index: 3;\n}\n\n@keyframes size1_1 {\n  0%,\n  10% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n\n@keyframes size1_2 {\n  0%,\n  40% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n\n@keyframes size1_3 {\n  0%,\n  70% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

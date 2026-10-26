@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-tisepse-smooth-quail-14-7a7e24",
+  "title": "Checkbox by TISEPSE (smooth-quail-14)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TISEPSE/smooth-quail-14",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "animation",
+    "action"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TISEPSE on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/TISEPSE_smooth-quail-14.html",
+  "code": "<div>\n  <label class=\"checkbox-label\">\n    <input type=\"checkbox\" class=\"checkbox\" />\n    <div class=\"svg-icon\">\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        height=\"1em\"\n        viewBox=\"0 0 448 512\"\n      >\n        <path\n          d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"\n        ></path>\n      </svg>\n    </div>\n    <span class=\"container\"></span>\n    One</label\n  >\n\n  <label class=\"checkbox-label\">\n    <input type=\"checkbox\" class=\"checkbox\" />\n    <div class=\"svg-icon\">\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        height=\"1em\"\n        viewBox=\"0 0 448 512\"\n      >\n        <path\n          d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"\n        ></path>\n      </svg>\n    </div>\n    <span class=\"container\"></span>\n    Two</label\n  >\n\n  <label class=\"checkbox-label\">\n    <input type=\"checkbox\" class=\"checkbox\" />\n    <div class=\"svg-icon\">\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        height=\"1em\"\n        viewBox=\"0 0 448 512\"\n      >\n        <path\n          d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"\n        ></path>\n      </svg>\n    </div>\n    <span class=\"container\"></span>\n    Three</label\n  >\n\n  <label class=\"checkbox-label\">\n    <input type=\"checkbox\" class=\"checkbox\" />\n    <div class=\"svg-icon\">\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        height=\"1em\"\n        viewBox=\"0 0 448 512\"\n      >\n        <path\n          d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"\n        ></path>\n      </svg>\n    </div>\n    <span class=\"container\"></span>\n    Four</label\n  >\n</div>\n\n<style>\n/* From Uiverse.io by TISEPSE  - Tags: animation, action, checkbox */\n.checkbox-label {\n  font-size: 22px;\n  color: #fefefe;\n  padding: 10px 50px 10px 5px;\n  font-family: Arial, Helvetica, sans-serif;\n  user-select: none;\n  display: flex;\n  position: relative;\n  align-items: center;\n  transition: all 0.3s;\n}\n\n.checkbox {\n  width: 35px;\n  height: 35px;\n  cursor: pointer;\n  margin-right: -22px;\n  appearance: none;\n  border-radius: 5px;\n  background-color: #64ccc5;\n  z-index: 2;\n  transition: all 0.3s;\n}\n\n.container {\n  width: 35px;\n  height: 35px;\n  position: relative;\n  top: 4px;\n  left: -8%;\n  border-radius: 5px;\n  background-color: #dafffb;\n  transition: all 0.3s;\n}\n\n.checkbox::before {\n  content: \"\";\n  background-color: #ffc8c8;\n  position: relative;\n  display: flex;\n  top: 45%;\n  left: 50%;\n  width: 55px;\n  height: 3px;\n  border-radius: 25px;\n  transform: translate(100px, 0px) scale(0);\n  transition: ease-out 0.15s;\n}\n\n.checkbox:checked::before {\n  transform: translateX(2em);\n  top: 12px;\n  transition: ease-out 0.15s;\n}\n\n.checkbox:hover {\n  transform: translate(4px, 4px);\n  transition: ease-out 0.15s;\n  background-color: #ffc8c8;\n}\n\n.checkbox:checked {\n  transform: translate(4px, 4px);\n  transition: ease-out 0.15s;\n  background-color: #ffc8c8;\n}\n\n.svg-icon {\n  position: absolute;\n  width: 25px;\n  height: 25px;\n  display: flex;\n  z-index: 3;\n  top: 35%;\n  left: 11%;\n  color: #fefefe;\n  font-family: \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif;\n  transform: rotate(0deg) scale(0);\n  transition: ease-in 0.2s;\n}\n\n.checkbox:checked ~ .svg-icon {\n  transform: rotate(360deg) scale(1);\n  transition: ease-in 0.2s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-umangladha-neat-duck-51-f5fa3e",
+  "title": "Button by UmangLadha (neat-duck-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/UmangLadha/neat-duck-51",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "html",
+    "css",
+    "buttons",
+    "hover-button",
+    "#button",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By UmangLadha on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/UmangLadha_neat-duck-51.html",
+  "code": "<button role=\"button\" class=\"button\">\n  <span class=\"text\">Button</span>\n</button>\n\n<style>\n/* From Uiverse.io by UmangLadha  - Tags: simple, button, html, css, buttons, hover button, #button, 3d button */\n.button {\n  background: #38579b;\n  border-top: 1px solid #38538c;\n  border-right: 1px solid #1f2d4d;\n  border-bottom: 1px solid #151e33;\n  border-left: 1px solid #1f2d4d;\n  -webkit-border-radius: 4px;\n  -moz-border-radius: 4px;\n  border-radius: 4px;\n  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d,\n    0 6px 0px #1f3053, 0 8px 4px 1px #111111;\n  -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d,\n    0 6px 0px #1f3053, 0 8px 4px 1px #111111;\n  box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053,\n    0 8px 4px 1px #111111;\n  color: #fff;\n  font: bold 20px \"helvetica neue\", helvetica, arial, sans-serif;\n  line-height: 1;\n  padding: 10px 0 12px 0;\n  text-align: center;\n  text-shadow: 0px -1px 1px #1e2d4d;\n  width: 150px;\n  -webkit-background-clip: padding-box;\n}\n\n.button:hover {\n  -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d,\n    0 6px 0px #1f3053, 0 8px 4px 1px #111111;\n  -moz-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d,\n    0 6px 0px #1f3053, 0 8px 4px 1px #111111;\n  box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053,\n    0 8px 4px 1px #111111;\n  cursor: pointer;\n}\n\n.button:active {\n  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d,\n    0 2px 0 #1f3053, 0 4px 3px 0 #111111;\n  -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d,\n    0 2px 0 #1f3053, 0 4px 3px 0 #111111;\n  box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053,\n    0 4px 3px 0 #111111;\n  transform: translateY(4px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

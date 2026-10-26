@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-newrocker2468-tiny-frog-22-f1d586",
+  "title": "Button by newrocker2468 (tiny-frog-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/newrocker2468/tiny-frog-22",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "green",
+    "hover",
+    "simple-button",
+    "#button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By newrocker2468 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/newrocker2468_tiny-frog-22.html",
+  "code": "<button class=\"button1\">\n Click me!\n</button>\n<style>\n/* From Uiverse.io by newrocker2468 - Tags: simple, green, button, hover, simple button, #button */\n.button1 {\n  background-color: white;\n  font-weight: bold;\n  font-size: 1em;\n  border: none;\n  border-radius: 5px;\n  padding: 1.2em;\n  color: rgb(0, 0, 0);\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: all 500ms;\n  z-index: 99;\n}\n\n.button1::after {\n  content: \"\";\n  position: absolute;\n  width: 25px;\n  height: 25px;\n  border-radius: 20px;\n  bottom: -30px;\n  left: 45px;\n  background-color: #5affc0;\n  z-index: -99;\n  transition: all 500ms;\n}\n\n.button1:hover::after {\n  width: 120px;\n  height: 60px;\n  border-radius: 10px;\n  transition: all 500ms;\n  bottom: -1px;\n  left: -1px;\n}\n\n.button1:hover {\n  border-radius: 20px;\n  box-shadow: 0 0 100px 20px #5affc0;\n}\n\n.button1:active {\n  transform: translateY(10px);\n}\n\n.button1:focus {\n  border: 5px solid #a0fad8;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

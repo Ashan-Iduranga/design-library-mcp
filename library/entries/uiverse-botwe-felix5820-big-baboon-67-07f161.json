@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-botwe-felix5820-big-baboon-67-07f161",
+  "title": "Button by Botwe-Felix5820 (big-baboon-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Botwe-Felix5820/big-baboon-67",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "squishy"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Botwe-Felix5820 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Botwe-Felix5820_big-baboon-67.html",
+  "code": "<button> Squeeze me\n</button>\n<style>\n/* From Uiverse.io by Botwe-Felix5820 - Tags: button, squishy */\nbutton {\n height: 2.8em;\n width: 9em;\n background: transparent;\n -webkit-animation: jello-horizontal 0.9s both;\n animation: jello-horizontal 0.9s both;\n border: 2px solid #016DD9;\n outline: none;\n color: #016DD9;\n font-size: 17px;\n}\n\nbutton:hover {\n background: #016DD9;\n color: #ffffff;\n animation: squeeze3124 0.9s both;\n}\n\n@keyframes squeeze3124 {\n 0% {\n  -webkit-transform: scale3d(1, 1, 1);\n  transform: scale3d(1, 1, 1);\n }\n\n 30% {\n  -webkit-transform: scale3d(1.25, 0.75, 1);\n  transform: scale3d(1.25, 0.75, 1);\n }\n\n 40% {\n  -webkit-transform: scale3d(0.75, 1.25, 1);\n  transform: scale3d(0.75, 1.25, 1);\n }\n\n 50% {\n  -webkit-transform: scale3d(1.15, 0.85, 1);\n  transform: scale3d(1.15, 0.85, 1);\n }\n\n 65% {\n  -webkit-transform: scale3d(0.95, 1.05, 1);\n  transform: scale3d(0.95, 1.05, 1);\n }\n\n 75% {\n  -webkit-transform: scale3d(1.05, 0.95, 1);\n  transform: scale3d(1.05, 0.95, 1);\n }\n\n 100% {\n  -webkit-transform: scale3d(1, 1, 1);\n  transform: scale3d(1, 1, 1);\n }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

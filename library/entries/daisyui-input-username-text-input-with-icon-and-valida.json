@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-input-username-text-input-with-icon-and-valida",
+  "title": "Text Input: Username text input with icon and validator (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/input/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Text Input is a simple input field.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/input/+page.md",
+  "code": "<label class=\"input validator\">\n  <svg class=\"h-[1em] opacity-50\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n    <g\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      stroke-width=\"2.5\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n    >\n      <path d=\"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\"></path>\n      <circle cx=\"12\" cy=\"7\" r=\"4\"></circle>\n    </g>\n  </svg>\n  <input\n    type=\"text\"\n    required\n    placeholder=\"Username\"\n    pattern=\"[A-Za-z][A-Za-z0-9\\\\-]*\"\n    minlength=\"3\"\n    maxlength=\"30\"\n    title=\"Only letters, numbers or dash\"\n  />\n</label>\n<p class=\"validator-hint\">\n  Must be 3 to 30 characters\n  <br />containing only letters, numbers or dash\n</p>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

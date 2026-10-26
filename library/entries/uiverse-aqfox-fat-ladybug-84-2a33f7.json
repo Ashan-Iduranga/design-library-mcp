@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-aqfox-fat-ladybug-84-2a33f7",
+  "title": "Button by AqFox (fat-ladybug-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AqFox/fat-ladybug-84",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d",
+    "blue",
+    "glossy"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AqFox on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/AqFox_fat-ladybug-84.html",
+  "code": "<button>BUTTON</button>\n<style>\n/* From Uiverse.io by AqFox - Tags: 3d, blue, button, glossy */\nbutton {\n  --c: #fff;\n /* text color */\n  background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,\n    #004dff;\n /* background color */\n  color: #0000;\n  border: none;\n  transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));\n  text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0   var(--c),\n    calc(var(--_i,-1)*-0.08em)  .01em 2px #0004;\n  outline-offset: .1em;\n  transition: 0.3s;\n}\n\nbutton:hover,\nbutton:focus-visible {\n  --_p: 0%;\n  --_i: 1;\n}\n\nbutton:active {\n  text-shadow: none;\n  color: var(--c);\n  box-shadow: inset 0 0 9e9q #0005;\n  transition: 0s;\n}\n\nbutton {\n  font-family: system-ui, sans-serif;\n  font-weight: bold;\n  font-size: 2rem;\n  margin: 0;\n  cursor: pointer;\n  padding: .1em .3em;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

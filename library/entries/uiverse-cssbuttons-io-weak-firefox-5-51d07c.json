@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-cssbuttons-io-weak-firefox-5-51d07c",
+  "title": "Button by cssbuttons-io (weak-firefox-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cssbuttons-io/weak-firefox-5",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "ripple"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cssbuttons-io on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/cssbuttons-io_weak-firefox-5.html",
+  "code": "<button>\n  <span class=\"transition\"></span>\n  <span class=\"gradient\"></span>\n  <span class=\"label\">Button</span>\n</button>\n<style>\n/* From Uiverse.io by cssbuttons-io - Tags: button, ripple */\nbutton {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n  font-size: 17px;\n  padding: 1em 2.7em;\n  font-weight: 500;\n  background: #1F2937;\n  color: white;\n  border: none;\n  position: relative;\n  overflow: hidden;\n  border-radius: 0.6em;\n}\n\n.gradient {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  left: 0;\n  top: 0;\n  border-radius: 0.6em;\n  margin-top: -0.25em;\n  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));\n}\n\n.label {\n  position: relative;\n  top: -1px;\n}\n\n.transition {\n  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);\n  transition-duration: 500ms;\n  background-color: rgba(16, 185, 129, 0.6);\n  border-radius: 9999px;\n  width: 0;\n  height: 0;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n\nbutton:hover .transition {\n  width: 14em;\n  height: 14em;\n}\n\nbutton:active {\n  transform: scale(0.97);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

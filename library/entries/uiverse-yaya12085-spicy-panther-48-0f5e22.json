@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-yaya12085-spicy-panther-48-0f5e22",
+  "title": "Form by Yaya12085 (spicy-panther-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/spicy-panther-48",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "subscription"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Yaya12085_spicy-panther-48.html",
+  "code": "<form class=\"form\">\n  <span class=\"title\">Subscribe to our newsletter.</span>\n  <p class=\"description\">Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt dolore.</p>\n  <div>\n    <input placeholder=\"Enter your email\" type=\"email\" name=\"email\" id=\"email-address\">\n    <button type=\"submit\">Subscribe</button>\n  </div>\n</form>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: subscription, form */\n.form {\n  display: flex;\n  flex-direction: column;\n  background: #606c88;\n  background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);\n  background: linear-gradient(to right, #3f4c6b, #606c88);\n  padding: 20px;\n  border-radius: 10px;\n  max-width: 350px;\n}\n\n.title {\n  font-size: 2rem;\n  line-height: 2rem;\n  font-weight: 700;\n  letter-spacing: -0.025em;\n  color: #fff;\n}\n\n.description {\n  line-height: 1.5rem;\n  font-size: 1rem;\n  margin-top: 1rem;\n  color: rgb(209 213 219);\n}\n\n.form div {\n  display: flex;\n  max-width: 28rem;\n  margin-top: 1rem;\n  column-gap: 0.5rem;\n}\n\n.form div input {\n  outline: none;\n  line-height: 1.5rem;\n  font-size: 0.875rem;\n  color: rgb(255 255 255 );\n  padding: 0.5rem 0.875rem;\n  background-color: rgb(255 255 255 / 0.05);\n  border: 1px solid rgba(253, 253, 253, 0.363);\n  border-radius: 0.375rem;\n  flex: 1 1 auto;\n}\n\n.form div input::placeholder {\n  color: rgb(216, 212, 212);\n}\n\n.form div input:focus {\n  border: 1px solid rgb(99 102 241);\n}\n\n.form div button {\n  color: #fff;\n  font-weight: 600;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  padding: 0.625rem 0.875rem;\n  background-color: rgb(99 102 241);\n  border-radius: 0.375rem;\n  border: none;\n  outline: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

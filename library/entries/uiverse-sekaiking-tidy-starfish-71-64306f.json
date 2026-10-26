@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-sekaiking-tidy-starfish-71-64306f",
+  "title": "Button by sekaiking (tidy-starfish-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/sekaiking/tidy-starfish-71",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By sekaiking on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/sekaiking_tidy-starfish-71.html",
+  "code": "<button>\n    Hover Me\n</button>\n<style>\n/* From Uiverse.io by sekaiking - Tags: button */\nbutton {\n  background-color: white;\n  color: black;\n  border-radius: 10em;\n  font-size: 17px;\n  font-weight: 600;\n  padding: 1em 2em;\n  cursor: pointer;\n  transition: all 0.3s ease-in-out;\n  border: 1px solid black;\n  box-shadow: 0 0 0 0 black;\n}\n\nbutton:hover {\n  transform: translateY(-4px) translateX(-2px);\n  box-shadow: 2px 5px 0 0 black;\n};\n\nbutton:active {\n  transform: translateY(2px) translateX(1px);\n  box-shadow: 0 0 0 0 black;\n};\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

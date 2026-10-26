@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-peary74-ugly-ape-46-62204e",
+  "title": "Button by Peary74 (ugly-ape-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Peary74/ugly-ape-46",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "active"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Peary74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Peary74_ugly-ape-46.html",
+  "code": "<button class=\"btn\">\n <svg class=\"icon\" width=\"30\" height=\"30\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z\"></path></svg>\n</button>\n<style>\n/* From Uiverse.io by Peary74 - Tags: button, hover, active */\n.btn {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 10px;\n  border: none;\n  background-color: transparent;\n  position: relative;\n}\n\n.btn:hover > .icon {\n  transform: scale(1.2);\n  cursor: pointer;\n  transition: .2s linear;\n}\n\n.btn:focus > .icon {\n  fill: #fd1853;\n  animation: grosseur .2s linear;\n}\n\n@keyframes grosseur {\n  0% {\n    width: 50px;\n    height: 50px;\n    fill: #fd1853;\n  }\n\n  100% {\n    width: 30px;\n    height: 30px;\n    fill: #fd1853;\n  }\n}\n\n\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-fwdjc-strong-mayfly-8-0b8c88",
+  "title": "Loader by FWDJc (strong-mayfly-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/FWDJc/strong-mayfly-8",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "minimalist",
+    "css",
+    "eye",
+    "loading-animation",
+    "aesthetic",
+    "css-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By FWDJc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/FWDJc_strong-mayfly-8.html",
+  "code": "<div class=\"eye-lid\">\n    <div class=\"eye\">\n      <div class=\"cornea\">\n        <div class=\"white-pupil\"></div>\n      </div>\n    </div>\n  </div>\n<style>\n/* From Uiverse.io by FWDJc - Tags: minimalist, loader, css, eye, loading animation, aesthetic, css animation */\n.eye-lid {\n  background-color: rgb(0, 0, 0);\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  box-shadow: 0 9px 0 2px rgba(0, 0, 0, 0.2);\n  width: 150px;\n  height: 150px;\n}\n\n.eye {\n  background-color: #fffcf4;\n  border-radius: 50%;\n  transform: translate3d(0, 0, 0) rotate(90deg);\n  width: 120px;\n  height: 120px;\n  animation: eye 5s infinite;\n}\n\n@keyframes eye {\n  12%,\n  25% {\n    width: 100px;\n    height: 110px;\n  }\n\n  37%, \n  50% {\n    width: 60px;\n    height: 130px;\n  }\n\n  63%, \n  75% {\n    width: 100px;\n    height: 103px;\n  }\n\n  87% {\n    width: 100px;\n    height: 100px;\n  }\n}\n\n.cornea {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: rgb(0, 0, 0);\n  border-radius: 50%;\n  width: 50px;\n  height: 50px;\n  animation: eye-color 5s infinite;\n}\n\n@keyframes eye-color {\n  63%, 75% {\n    background-color: rgb(137, 1, 1);\n  }\n}\n\n.white-pupil {\n  position: absolute;\n  top: 70%;\n  left: 10%;\n  border-radius: 50%;\n  background-color: #fffcf4;\n  width: 20px;\n  height: 20px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-3bdel3ziz-t-dangerous-newt-76-1c615c",
+  "title": "Button by 3bdel3ziz-T (dangerous-newt-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/3bdel3ziz-T/dangerous-newt-76",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "animation",
+    "notification",
+    "rotate",
+    "light&dark",
+    "hover-effect",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 3bdel3ziz-T on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/3bdel3ziz-T_dangerous-newt-76.html",
+  "code": "<div class=\"notification\">\n  <div class=\"bell-container\">\n    <div class=\"bell\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by 3bdel3ziz-T  - Tags: icon, animation, notification, button, rotate, light&dark, hover effect, hover button */\n/*making bell shape with one div */\n.bell {\n  border: 2.17px solid white;\n  border-radius: 10px 10px 0 0;\n  width: 15px;\n  height: 17px;\n  background: transparent;\n  display: block;\n  position: relative;\n  top: -3px;\n}\n.bell::before,\n.bell::after {\n  content: \"\";\n  background: white;\n  display: block;\n  position: absolute;\n  left: 50%;\n  transform: translateX(-50%);\n  height: 2.17px;\n}\n.bell::before {\n  top: 100%;\n  width: 20px;\n}\n.bell::after {\n  top: calc(100% + 4px);\n  width: 7px;\n}\n/*container main styling*/\n.notification {\n  background: transparent;\n  border: none;\n  padding: 15px 15px;\n  border-radius: 50px;\n  cursor: pointer;\n  transition: 300ms;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n/*notifications number with before*/\n.notification::before {\n  content: \"1\";\n  color: white;\n  font-size: 10px;\n  width: 12px;\n  height: 12px;\n  border-radius: 50%;\n  background-color: red;\n  position: absolute;\n  right: 8px;\n  top: 8px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  z-index: 1000;\n}\n/*container background hover effect*/\n.notification:hover {\n  background: rgba(170, 170, 170, 0.062);\n}\n/*container animations*/\n.notification:hover > .bell-container {\n  animation: bell-animation 650ms ease-out 0s 1 normal both;\n}\n/*bell ring and scale animation*/\n@keyframes bell-animation {\n  20% {\n    transform: rotate(15deg);\n  }\n\n  40% {\n    transform: rotate(-15deg);\n    scale: 1.1;\n  }\n  60% {\n    transform: rotate(10deg);\n    scale: 1.1;\n  }\n  80% {\n    transform: rotate(-10deg);\n  }\n  0%,\n  100% {\n    transform: rotate(0deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

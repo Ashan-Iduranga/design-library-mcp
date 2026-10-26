@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-codecite-angry-bullfrog-58-7fd454",
+  "title": "Button by Codecite (angry-bullfrog-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Codecite/angry-bullfrog-58",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "round"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Codecite on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Codecite_angry-bullfrog-58.html",
+  "code": "<button class=\"btn\">\n  <span>Get started</span>\n</button>\n<style>\n/* From Uiverse.io by Codecite - Tags: gradient, button, round */\n.btn {\n  --fancy-button-gradient-0: #8d49fd;\n  --fancy-button-gradient-50: #7f56f3;\n  --fancy-button-gradient-100: #5691f3;\n  --fancy-button-inner-shadow-top: rgba(233, 209, 255, 0.2);\n  --fancy-button-inner-shadow-top-lg: rgba(9, 12, 60, 0.1);\n  --fancy-button-inner-shadow-bottom: rgba(137, 222, 246, 0.3);\n  --fancy-button-shine-top: #e9d1ff;\n  --fancy-button-shine-bottom: #adfff9;\n  font-family: 'Poppins';\n  font-weight: 500;\n  font-size: 15px;\n  line-height: 21px;\n  text-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.2);\n  padding: 0;\n  margin: 0;\n  appearance: none;\n  border: none;\n  outline: none;\n  overflow: hidden;\n  position: relative;\n  cursor: pointer;\n  z-index: 1;\n  border-radius: 25px;\n  color: #fff;\n  background-image: linear-gradient(to bottom, var(--fancy-button-gradient-0) 0%, var(--fancy-button-gradient-50) 50%, var(--fancy-button-gradient-100) 100%);\n  box-shadow: 0px 4px 12px rgba(9, 12, 60, 0.15), 0px 2px 8px rgba(9, 12, 60, 0.15), 0px 1px 3px var(--fancy-button-inner-shadow-top-lg), inset 0px 1px 1px var(--fancy-button-inner-shadow-top), inset 0px -1px 3px var(--fancy-button-inner-shadow-bottom);\n}\n\n.btn:before, .btn:after {\n  content: '';\n  position: absolute;\n  border-radius: inherit;\n  will-change: transform;\n}\n\n.btn:before {\n  left: 50%;\n  transform: translateX(-50%);\n  background-color: var(--fancy-button-shine-top);\n  width: 96px;\n  height: 6px;\n  top: -3px;\n  opacity: 0.6;\n  filter: blur(6px);\n  transition: opacity 0.25s;\n}\n\n.btn:after {\n  inset: 0;\n  background-size: cover;\n  z-index: 2;\n  opacity: 0.3;\n  mix-blend-mode: overlay;\n  pointer-events: none;\n}\n\n.btn span {\n  display: block;\n  padding: 12px 24px;\n  border-radius: inherit;\n  overflow: hidden;\n  position: relative;\n  background-image: linear-gradient(to bottom, var(--fancy-button-shine-top), transparent 8px);\n  background-position: 0 -6px;\n  background-repeat: no-repeat;\n  z-index: 1;\n}\n\n.btn span:before, .btn span:after {\n  content: '';\n  position: absolute;\n  left: 50%;\n  transform: translateX(-50%);\n  border-radius: 50%;\n  background-color: var(--fancy-button-shine-bottom);\n  transition: opacity 0.25s, transform 0.25s;\n  will-change: transform;\n}\n\n.btn span:before {\n  width: 92px;\n  height: 8px;\n  bottom: -4px;\n  opacity: 0.75;\n  filter: blur(6px);\n}\n\n.btn span:after {\n  width: 112px;\n  height: 1px;\n  bottom: 0;\n  opacity: 0.9;\n  filter: blur(1px);\n}\n\n.btn:hover span:before {\n  opacity: 0.8;\n}\n\n.btn:hover span:before {\n  transform: translateX(-50%) scale(1.25);\n}\n\n.btn:hover span:after {\n  opacity: 1;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

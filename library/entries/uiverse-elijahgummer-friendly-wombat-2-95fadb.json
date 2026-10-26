@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-elijahgummer-friendly-wombat-2-95fadb",
+  "title": "Checkbox by elijahgummer (friendly-wombat-2)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/friendly-wombat-2",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/elijahgummer_friendly-wombat-2.html",
+  "code": "<label class=\"container\">\n  <input type=\"checkbox\" />\n  <div class=\"checkmark\"></div>\n</label>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Website: https://x.com/farrelput/status/1788771619344920729 - Name: Farrel Putra - Tags: simple, animation, green, checkbox */\n/* Hide the default checkbox */\n.container input {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n  border: 3px solid #beddd0;\n  border-radius: 10px;\n  overflow: hidden;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  background-color: #2dc38c;\n  border-bottom: 1.5px solid #2dc38c; /* Bottom stroke */\n  box-shadow: 0 0 1px #cef1e4, inset 0 -2.5px 3px #62eab8,\n    inset 0 3px 3px rgba(0, 0, 0, 0.34); /* Inner shadow */\n  border-radius: 8px;\n  transition: transform 0.3s ease-in-out; /* Transition for smooth animation */\n}\n\n/* When the checkbox is checked, modify the checkmark appearance */\n.container input:checked ~ .checkmark {\n  transform: translateY(40px); /* Move down */\n  animation: wipeDown 0.6s ease-in-out forwards; /* Apply wipe animation */\n}\n\n/* When the checkbox is not checked, modify the checkmark appearance */\n.container input:not(:checked) ~ .checkmark {\n  transform: translateY(-40px); /* Move up */\n  animation: wipeUp 0.6s ease-in-out forwards; /* Apply wipe animation */\n}\n\n/* Keyframes for wipe animations */\n@keyframes wipeDown {\n  0% {\n    transform: translateY(0); /* Starting position */\n  }\n  100% {\n    transform: translateY(40px); /* End position */\n  }\n}\n\n@keyframes wipeUp {\n  0% {\n    transform: translateY(40); /* Starting position */\n  }\n  100% {\n    transform: translateY(0px); /* End position */\n  }\n}\n\n/* Create the checkmark/indicator */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:before {\n  content: \"\";\n  position: absolute;\n  left: 10px;\n  top: 4px;\n  width: 5px;\n  height: 10px;\n  border: solid white;\n  border-width: 0 2px 2px 0;\n  transform: rotate(45deg);\n  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.34); /* Icon drop shadow */\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

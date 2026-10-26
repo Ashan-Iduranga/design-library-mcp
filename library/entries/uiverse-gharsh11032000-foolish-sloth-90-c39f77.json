@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-gharsh11032000-foolish-sloth-90-c39f77",
+  "title": "Button by gharsh11032000 (foolish-sloth-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/foolish-sloth-90",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover-effect",
+    "cool-btn"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/gharsh11032000_foolish-sloth-90.html",
+  "code": "<button class=\"button\">\n  Subscribe\n</button>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: button, hover effect, cool btn */\n.button {\n  cursor: pointer;\n  position: relative;\n  padding: 10px 24px;\n  font-size: 18px;\n  color: rgb(193, 163, 98);\n  border: 2px solid rgb(193, 163, 98);\n  border-radius: 34px;\n  background-color: transparent;\n  font-weight: 600;\n  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);\n  overflow: hidden;\n}\n\n.button::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  margin: auto;\n  width: 50px;\n  height: 50px;\n  border-radius: inherit;\n  scale: 0;\n  z-index: -1;\n  background-color: rgb(193, 163, 98);\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.button:hover::before {\n  scale: 3;\n}\n\n.button:hover {\n  color: #212121;\n  scale: 1.1;\n  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);\n}\n\n.button:active {\n  scale: 1;\n}\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

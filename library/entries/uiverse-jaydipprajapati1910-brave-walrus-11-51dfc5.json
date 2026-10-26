@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-jaydipprajapati1910-brave-walrus-11-51dfc5",
+  "title": "Button by JaydipPrajapati1910 (brave-walrus-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/brave-walrus-11",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JaydipPrajapati1910_brave-walrus-11.html",
+  "code": "<div class=\"container\">\n    <div class=\"center\">\n      <button class=\"btn\">\n        <svg class=\"border\" viewBox=\"0 0 180 60\" height=\"60px\" width=\"180px\">\n          <polyline class=\"bg-line\" points=\"179,1 179,59 1,59 1,1 179,1\"></polyline>\n          <polyline class=\"hl-line\" points=\"179,1 179,59 1,59 1,1 179,1\"></polyline>\n        </svg>\n        <span>HOVER ME</span>\n      </button>\n    </div>\n  </div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: button, hover, hover effect */\n.container {\n  width: 400px;\n  height: 400px;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.center {\n  width: 180px;\n  height: 60px;\n  position: absolute;\n}\n\n.btn {\n  width: 180px;\n  height: 60px;\n  cursor: pointer;\n  background: transparent;\n  border: 2px solid #222;\n  outline: none;\n  transition: 1s ease-in-out;\n}\n\n.btn svg {\n  position: absolute;\n  left: 0;\n  top: 0;\n  fill: none;\n  stroke: #91C9FF;\n  stroke-dasharray: 150 480;\n  stroke-dashoffset: 150;\n  transition: 1s ease-in-out;\n}\n\n.btn:hover {\n  transition: 1s ease-in-out;\n  background: #4F95DA;\n}\n\n.btn:hover span {\n  transition: 1s ease-in-out;\n  color: #fff;\n}\n\n.btn:hover svg {\n  stroke-dashoffset: -480;\n}\n\n.btn span {\n  color: black;\n  font-size: 18px;\n  font-weight: 600;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

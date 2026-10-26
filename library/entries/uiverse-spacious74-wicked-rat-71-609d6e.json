@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-spacious74-wicked-rat-71-609d6e",
+  "title": "Card by Spacious74 (wicked-rat-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Spacious74/wicked-rat-71",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "3d",
+    "social",
+    "social-media",
+    "3d-card",
+    "airpods",
+    "case"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Spacious74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Spacious74_wicked-rat-71.html",
+  "code": "<div class=\"card\">\n  <div class=\"lc cavity\"></div>\n  <div class=\"lc line\"></div>\n  <div class=\"led\"></div>\n  <div class=\"text\">UIVERSE</div>\n</div>\n\n<style>\n/* From Uiverse.io by Spacious74  - Tags: 3d, social, card, social media, 3d card, airpods, case */\n.card {\n  width: 270px;\n  height: 220px;\n  background-color: #e8e9eb;\n  border-radius: 70px;\n  box-shadow: inset 0px 35px 25px #ffffffe0, inset 10px 0px 25px #0000004b,\n    inset 40px 0px 20px #ffffff, inset -10px 0px 25px #0000004b,\n    inset -40px 0px 20px #fff, inset 0px 10px 10px #000000e0,\n    inset 0px -15px 25px #00000036, 10px 25px 40px -10px #00000060;\n  position: relative;\n}\n\n.card .line {\n  width: 100%;\n  height: 2px;\n  background-color: #b4b2b2;\n  margin-top: 30%;\n  position: relative;\n}\n.line::after,\n.line::before {\n  content: \"\";\n  position: absolute;\n  width: 5%;\n  height: 2px;\n  background-color: #fff;\n}\n.line::before {\n  right: 0;\n}\n.card .cavity {\n  width: 150px;\n  height: 20px;\n  background: linear-gradient(180deg, #d6d6d6, #fff);\n  border-radius: 200px;\n  margin: auto;\n  position: absolute;\n  top: 30%;\n  left: 50%;\n  transform: translate(-50%, 30%);\n}\n.card .led {\n  width: 7px;\n  aspect-ratio: 1;\n  background-color: #66f66f;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, 30%);\n  border-radius: 100px;\n  box-shadow: 0 0 6px #3eff4b;\n}\n.card .text {\n  text-align: center;\n  margin-top: 70px;\n  color: #00000036;\n  font-weight: bolder;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

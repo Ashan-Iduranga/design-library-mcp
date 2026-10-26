@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vinodjangid07-tall-termite-79-332ddd",
+  "title": "Button by vinodjangid07 (tall-termite-79)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/tall-termite-79",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "pay"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_tall-termite-79.html",
+  "code": "<button class=\"Btn\">\n  Pay\n  <svg class=\"svgIcon\" viewBox=\"0 0 576 512\"><path d=\"M512 80c8.8 0 16 7.2 16 16v32H48V96c0-8.8 7.2-16 16-16H512zm16 144V416c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V224H528zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm56 304c-13.3 0-24 10.7-24 24s10.7 24 24 24h48c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm128 0c-13.3 0-24 10.7-24 24s10.7 24 24 24H360c13.3 0 24-10.7 24-24s-10.7-24-24-24H248z\"></path></svg>\n</button>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: icon, button, pay */\n.Btn {\n  width: 130px;\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgb(15, 15, 15);\n  border: none;\n  color: white;\n  font-weight: 600;\n  gap: 8px;\n  cursor: pointer;\n  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);\n  position: relative;\n  overflow: hidden;\n  transition-duration: .3s;\n}\n\n.svgIcon {\n  width: 16px;\n}\n\n.svgIcon path {\n  fill: white;\n}\n\n.Btn::before {\n  width: 130px;\n  height: 130px;\n  position: absolute;\n  content: \"\";\n  background-color: white;\n  border-radius: 50%;\n  left: -100%;\n  top: 0;\n  transition-duration: .3s;\n  mix-blend-mode: difference;\n}\n\n.Btn:hover::before {\n  transition-duration: .3s;\n  transform: translate(100%,-50%);\n  border-radius: 0;\n}\n\n.Btn:active {\n  transform: translate(5px,5px);\n  transition-duration: .3s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

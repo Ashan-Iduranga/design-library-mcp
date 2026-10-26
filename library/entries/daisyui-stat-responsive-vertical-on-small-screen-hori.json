@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-stat-responsive-vertical-on-small-screen-hori",
+  "title": "Stat: Responsive (vertical on small screen, horizontal on large screen) (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/stat/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "stat",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Stat is used to show numbers and data in a block.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/stat/+page.md",
+  "code": "<div class=\"stats stats-vertical lg:stats-horizontal shadow\">\n  <div class=\"stat\">\n    <div class=\"stat-title\">Downloads</div>\n    <div class=\"stat-value\">31K</div>\n    <div class=\"stat-desc\">Jan 1st - Feb 1st</div>\n  </div>\n\n  <div class=\"stat\">\n    <div class=\"stat-title\">New Users</div>\n    <div class=\"stat-value\">4,200</div>\n    <div class=\"stat-desc\">↗︎ 400 (22%)</div>\n  </div>\n\n  <div class=\"stat\">\n    <div class=\"stat-title\">New Registers</div>\n    <div class=\"stat-value\">1,200</div>\n    <div class=\"stat-desc\">↘︎ 90 (14%)</div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

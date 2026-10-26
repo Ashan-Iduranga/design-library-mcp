@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-guilhermeyohan-great-snake-42-08fc74",
+  "title": "Toggle by guilhermeyohan (great-snake-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/guilhermeyohan/great-snake-42",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "checkbox"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By guilhermeyohan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/guilhermeyohan_great-snake-42.html",
+  "code": "<div class=\"checkbox-apple\">\n  <input class=\"yep\" id=\"check-apple\" type=\"checkbox\">\n  <label for=\"check-apple\"></label>\n</div>\n<style>\n/* From Uiverse.io by guilhermeyohan - Tags: checkbox */\n.checkbox-apple {\n  position: relative;\n  width: 50px;\n  height: 25px;\n  margin: 20px;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n.checkbox-apple label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50px;\n  height: 25px;\n  border-radius: 50px;\n  background: linear-gradient(to bottom, #b3b3b3, #e6e6e6);\n  cursor: pointer;\n  transition: all 0.3s ease;\n}\n\n.checkbox-apple label:after {\n  content: '';\n  position: absolute;\n  top: 1px;\n  left: 1px;\n  width: 23px;\n  height: 23px;\n  border-radius: 50%;\n  background-color: #fff;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);\n  transition: all 0.3s ease;\n}\n\n.checkbox-apple input[type=\"checkbox\"]:checked + label {\n  background: linear-gradient(to bottom, #4cd964, #5de24e);\n}\n\n.checkbox-apple input[type=\"checkbox\"]:checked + label:after {\n  transform: translateX(25px);\n}\n\n.checkbox-apple label:hover {\n  background: linear-gradient(to bottom, #b3b3b3, #e6e6e6);\n}\n\n.checkbox-apple label:hover:after {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);\n}\n\n.yep {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50px;\n  height: 25px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

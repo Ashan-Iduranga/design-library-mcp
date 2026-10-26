@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jaydipprajapati1910-strong-zebra-9-650745",
+  "title": "Loader by JaydipPrajapati1910 (strong-zebra-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/strong-zebra-9",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "loading",
+    "battery"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JaydipPrajapati1910_strong-zebra-9.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, loading, loader, battery */\n.loader {\n  width: 160px;\n  height: 80px;\n  border: 4px solid #00F45B;\n  border-right-color: transparent;\n  padding: 6px;\n  background: repeating-linear-gradient(90deg,#00F45B 0 20px,#0000 0 30px) \n    left/0% 100% no-repeat content-box content-box;\n  position: relative;\n  animation: p5 2s infinite steps(6);\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  top: -4px;\n  bottom: -4px;\n  left: 100%;\n  width: 20px;\n  background: linear-gradient(\n        #0000   calc(50% - 14px),#00F45B 0 calc(50% - 10px),\n        #0000 0 calc(50% + 10px),#00F45B 0 calc(50% + 14px),#0000 0) left /100% 100%,\n    linear-gradient(#00F45B calc(50% - 10px),#0000        0 calc(50% + 10px),#00F45B 0) left /4px 100%,\n    linear-gradient(#0000        calc(50% - 10px),#00F45B 0 calc(50% + 10px),#0000        0) right/4px 100%;\n  background-repeat: no-repeat;\n}\n\n@keyframes p5 {\n  100% {\n    background-size: 120% 100%\n  }\n}\n  \n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

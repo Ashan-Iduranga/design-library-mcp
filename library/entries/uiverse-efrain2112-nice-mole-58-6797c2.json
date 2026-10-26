@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-efrain2112-nice-mole-58-6797c2",
+  "title": "Pattern by Efrain2112 (nice-mole-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Efrain2112/nice-mole-58",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "blue",
+    "white"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Efrain2112 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/Efrain2112_nice-mole-58.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by Efrain2112  - Tags: simple, blue, white, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --size: 80px; /* control the size */\n  --color: #add8e6;\n\n  background: linear-gradient(\n      to bottom,\n      transparent 0%,\n      transparent 40%,\n      #add8e6 41%,\n      #add8e6 60%,\n      transparent 61%,\n      transparent 100%\n    ),\n    linear-gradient(\n      45deg,\n      #add8e6 25%,\n      transparent 25%,\n      transparent 50%,\n      #add8e6 50%,\n      #add8e6 75%,\n      transparent 75%,\n      transparent\n    );\n  background-size: var(--size) var(--size);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

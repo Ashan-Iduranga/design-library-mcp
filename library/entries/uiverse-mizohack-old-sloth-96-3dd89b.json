@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mizohack-old-sloth-96-3dd89b",
+  "title": "Card by Mizohack (old-sloth-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Mizohack/old-sloth-96",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Mizohack on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Mizohack_old-sloth-96.html",
+  "code": "<div class=\"wrapper\">\n  <div class=\"display\">\n    <div id=\"time\"></div>\n  </div>\n  <span></span>\n  <span></span>\n</div>\n\n<style>\n/* From Uiverse.io by Mizohack  - Tags: card */\n.wrapper {\n  height: 100px;\n  width: 240px;\n  position: relative;\n  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);\n  border-radius: 10px;\n  cursor: default;\n  animation: animate 1.5s linear infinite;\n}\n.wrapper .display,\n.wrapper span {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrapper .display {\n  z-index: 999;\n  height: 85px;\n  width: calc(100% - 16px);\n  background: #1b1b1b;\n  border-radius: 6px;\n  text-align: center;\n}\n.display #time {\n  line-height: 85px;\n  color: #fff;\n  font-size: 50px;\n  font-weight: 600;\n  letter-spacing: 1px;\n  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  animation: animate 1.5s linear infinite;\n}\n@keyframes animate {\n  100% {\n    filter: hue-rotate(360deg);\n  }\n}\n.wrapper span {\n  height: 100%;\n  width: 100%;\n  border-radius: 10px;\n  background: inherit;\n}\n.wrapper span:first-child {\n  filter: blur(7px);\n}\n.wrapper span:last-child {\n  filter: blur(20px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

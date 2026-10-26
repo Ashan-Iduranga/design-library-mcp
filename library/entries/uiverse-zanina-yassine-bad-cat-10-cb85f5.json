@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-zanina-yassine-bad-cat-10-cb85f5",
+  "title": "Form by zanina-yassine (bad-cat-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/zanina-yassine/bad-cat-10",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By zanina-yassine on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/zanina-yassine_bad-cat-10.html",
+  "code": "<div class=\"modal\">\n  <form class=\"form\">\n    <div class=\"banner\"></div>\n    <label class=\"title\">Get New customers faster</label>\n    <p class=\"description\">Grow your customer base with our tools, you can reach a much bigger and better fan community. Go PRO now! </p>\n    <div class=\"tab-container\">\n      <button class=\"tab tab--1\">Monthly</button>\n      <button class=\"tab tab--2\">Annual</button>\n      <div class=\"indicator\"></div>\n    </div>\n\n    <div class=\"benefits\">\n      <span>What we offer</span>\n      <ul>\n        <li>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\" height=\"16\" width=\"16\">\n            <rect fill=\"black\" rx=\"8\" height=\"16\" width=\"16\"></rect>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"1.5\" stroke=\"white\" d=\"M5 8.5L7.5 10.5L11 6\"></path>\n          </svg>\n          <span>Grow your customer with our social network tools</span>\n        </li>\n        <li>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\" height=\"16\" width=\"16\">\n            <rect fill=\"black\" rx=\"8\" height=\"16\" width=\"16\"></rect>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"1.5\" stroke=\"white\" d=\"M5 8.5L7.5 10.5L11 6\"></path>\n          </svg>\n          <span>Use E-mail automations to promote your products.</span>\n        </li>\n      </ul>\n    </div>\n\n    <div class=\"modal--footer\">\n      <label class=\"price\"><sup>$</sup>9<sub>/mo</sub></label>\n      <button class=\"upgrade-btn\">Upgrade to PRO</button>\n    </div>\n  </form>\n</div>\n<style>\n/* From Uiverse.io by zanina-yassine - Tags: form */\n.modal {\n  width: 450px;\n  background: linear-gradient(180deg, #DCF9E0 0%, #FFFFFF 30.21%);\n  box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);\n  border-radius: 16px;\n}\n\n.banner {\n  width: 100%;\n  height: 30px;\n  margin: 0;\n  background-size: 100%;\n  background-repeat: no-repeat;\n}\n\n.title {\n  font-weight: 700;\n  font-size: 17px;\n  line-height: 21px;\n  text-align: center;\n  color: #2B2B2F;\n  margin-bottom: 15px;\n}\n\n.description {\n  max-width: 80%;\n  margin: auto;\n  font-weight: 600;\n  font-size: 11px;\n  line-height: 16px;\n  text-align: center;\n  color: #5F5D6B;\n}\n\n.tab-container {\n  display: flex;\n  flex-direction: row;\n  align-items: flex-start;\n  position: relative;\n  padding: 2px;\n  background-color: #ebebec;\n  border-radius: 9px;\n  margin: 10px 20px 0px 20px;\n}\n\n.indicator {\n  content: \"\";\n  width: 50%;\n  height: 28px;\n  background: #FFFFFF;\n  position: absolute;\n  top: 2px;\n  left: 2px;\n  z-index: 9;\n  border: 0.5px solid rgba(0, 0, 0, 0.04);\n  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);\n  border-radius: 7px;\n  transition: all 0.2s ease-out;\n}\n\n.tab {\n  width: 50%;\n  height: 28px;\n  position: relative;\n  z-index: 99;\n  background-color: transparent;\n  border: 0;\n  outline: none;\n  flex: none;\n  align-self: stretch;\n  flex-grow: 1;\n  cursor: pointer;\n  font-weight: 500;\n}\n\n.tab--1:hover ~ .indicator {\n  left: 2px;\n}\n\n.tab--2:hover ~ .indicator {\n  left: calc(50% - 2px);\n}\n\n.benefits {\n  padding: 20px;\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n}\n\n.benefits > span {\n  font-size: 15px;\n  color: #2B2B2F;\n  font-weight: 700;\n}\n\n.benefits ul {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n\n.benefits ul li {\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  gap: 10px;\n}\n\n.benefits ul li span {\n  font-weight: 600;\n  font-size: 12px;\n  color: #5F5D6B;\n}\n\n.modal--footer {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 20px;\n  border-top: 1px solid #ebebec;\n}\n\n.price {\n  position: relative;\n  font-size: 32px;\n  color: #2B2B2F;\n  font-weight: 900;\n}\n\n.price sup {\n  font-size: 13px;\n}\n\n.price sub {\n  width: fit-content;\n  position: absolute;\n  font-size: 11px;\n  color: #5F5D6B;\n  bottom: 5px;\n  display: inline-block;\n}\n\n.upgrade-btn {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  width: 215px;\n  height: 40px;\n  background: #0bdd12;\n  box-shadow: 0px 0.5px 0.5px #EFEFEF, 0px 1px 0.5px rgba(239, 239, 239, 0.5);\n  border-radius: 7px;\n  border: 0;\n  outline: none;\n  color: #ffffff;\n  font-size: 13px;\n  font-weight: 600;\n  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);\n}\n\n.upgrade-btn:hover {\n  background-color: #07b90d;\n}\n\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

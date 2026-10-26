@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-lehuyhieu-little-skunk-12-ec96c2",
+  "title": "Button by LeHuyHieu (little-skunk-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/LeHuyHieu/little-skunk-12",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "box"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By LeHuyHieu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/LeHuyHieu_little-skunk-12.html",
+  "code": "<button class=\"btn\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by LeHuyHieu - Tags: button, box */\n.btn {\n  outline: none;\n  display: inline-block;\n  border: 1px solid #fff;\n  padding: .8rem 2rem;\n  border-radius: 5px;\n  background: transparent;\n  color: #fff;\n  font-size: 1rem;\n  transition: .3s;\n  cursor: pointer;\n  position: relative;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  left: 5px;\n  top: 5px;\n  border-top: 2px solid #fff;\n  border-left: 2px solid #fff;\n  width: 0px;\n  height: 0px;\n  opacity: 0;\n  transition: .3s;\n}\n\n.btn::after {\n  content: '';\n  position: absolute;\n  right: 5px;\n  bottom: 5px;\n  border-bottom: 2px solid #fff;\n  border-right: 2px solid #fff;\n  width: 0px;\n  height: 0px;\n  opacity: 0;\n  transition: .3s;\n}\n\n.btn:hover {\n  box-shadow: 4px 4px 10px rgb(184, 184, 184);\n  transform: translateY(-5px);\n}\n\n.btn:hover::after, .btn:hover::before {\n  height: 20px;\n  width: 20px;\n  opacity: 1;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

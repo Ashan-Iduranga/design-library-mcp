@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-santhoshsj-dev-big-parrot-60-e257b5",
+  "title": "Loader by SanthoshSJ-Dev (big-parrot-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SanthoshSJ-Dev/big-parrot-60",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "spinner",
+    "gears",
+    "small",
+    "two"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SanthoshSJ-Dev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/SanthoshSJ-Dev_big-parrot-60.html",
+  "code": "<div class=\"bg\">\n  <div class=\"loader\"></div>\n</div>\n<style>\n/* From Uiverse.io by SanthoshSJ-Dev - Tags: loader, spinner, gears, small, two */\n.bg {\n  padding: 20px;\n  border-radius: 10px;\n  background-color: var(--base-color);\n  --base-color: #212121;\n /*use your base color*/\n}\n\n.loader {\n  width: 60px;\n  height: 40px;\n  position: relative;\n  display: inline-block;\n  background-color: var(--base-color);\n}\n\n.loader::before {\n  content: '';\n  left: 0;\n  top: 0;\n  position: absolute;\n  width: 36px;\n  height: 36px;\n  border-radius: 50%;\n  background-color: #FFF;\n  background-image: radial-gradient(circle 8px at 18px 18px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 18px 0px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 0px 18px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 36px 18px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 18px 36px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 30px 5px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 30px 5px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 30px 30px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 5px 30px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 5px 5px, var(--base-color) 100%, transparent 0);\n  background-repeat: no-repeat;\n  box-sizing: border-box;\n  animation: rotationBack 3s linear infinite;\n}\n\n.loader::after {\n  content: '';\n  left: 35px;\n  top: 15px;\n  position: absolute;\n  width: 24px;\n  height: 24px;\n  border-radius: 50%;\n  background-color: #FFF;\n  background-image: radial-gradient(circle 5px at 12px 12px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 12px 0px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 0px 12px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 24px 12px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 12px 24px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 20px 3px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 20px 3px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 20px 20px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 3px 20px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 3px 3px, var(--base-color) 100%, transparent 0);\n  background-repeat: no-repeat;\n  box-sizing: border-box;\n  animation: rotationBack 4s linear infinite reverse;\n}\n\n@keyframes rotationBack {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(-360deg);\n  }\n}  \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-xueyuantan-rotten-pig-19-ef41ea",
+  "title": "Button by xueyuantan (rotten-pig-19)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/xueyuantan/rotten-pig-19",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By xueyuantan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/xueyuantan_rotten-pig-19.html",
+  "code": "<button> Pick up!\n</button>\n<style>\n/* From Uiverse.io by xueyuantan - Tags: button */\nbutton {\n width: 9em;\n height: 3em;\n border-radius: 30em;\n font-size: 15px;\n font-family: inherit;\n border: none;\n position: relative;\n overflow: hidden;\n z-index: 1;\n box-shadow: 6px 6px 12px #c5c5c5,\n             -6px -6px 12px #ffffff;\n}\n\nbutton::before {\n content: '';\n width: 0;\n height: 3em;\n border-radius: 30em;\n position: absolute;\n top: 0;\n left: 0;\n background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);\n transition: .5s ease;\n display: block;\n z-index: -1;\n}\n\nbutton:hover::before {\n width: 9em;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

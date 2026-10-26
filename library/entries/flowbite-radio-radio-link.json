@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-radio-radio-link",
+  "title": "Radio: Radio link (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/radio/#radio-link",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example if you want to include an anchor tag inside the label of the radio component.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/radio.md",
+  "code": "<div class=\"flex items-center\">\n    <input id=\"link-radio\" type=\"radio\" value=\"\" class=\"w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none\">\n    <label for=\"link-radio\" class=\"select-none ms-2 text-sm font-medium text-heading\">Radio button with a <a href=\"#\" class=\"text-fg-brand hover:underline font-medium\">link inside</a>.</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

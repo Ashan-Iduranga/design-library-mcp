@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nikk7007-kind-jellyfish-57-a3b40a",
+  "title": "Checkbox by nikk7007 (kind-jellyfish-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/nikk7007/kind-jellyfish-57",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By nikk7007 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/nikk7007_kind-jellyfish-57.html",
+  "code": "<label class=\"cont\">\n  <input type=\"checkbox\" checked=\"\">\n  <span></span>\n</label>\n<style>\n/* From Uiverse.io by nikk7007 - Tags: checkbox */\n.cont {\n display: flex;\n align-items: center;\n transform: scale(1);\n}\n\ninput[type=\"checkbox\"] {\n height: 1.7rem;\n width: 1.7rem;\n margin: 5px;\n display: inline-block;\n appearance: none;\n position: relative;\n background-color: #F2ECFF;\n border-radius: 15%;\n cursor: pointer;\n overflow: hidden;\n}\n\ninput[type=\"checkbox\"]::after {\n content: '';\n display: block;\n height: 0.9rem;\n width: .4rem;\n border-bottom: .31rem solid #a0ffe7;\n border-right: .31rem solid #a0ffe7;\n opacity: 0;\n transform: rotate(45deg) translate(-50%, -50%);\n position: absolute;\n top: 45%;\n left: 21%;\n transition: .25s ease;\n}\n\ninput[type=\"checkbox\"]::before {\n content: '';\n display: block;\n height: 0;\n width: 0;\n background-color: #00C896;\n border-radius: 50%;\n opacity: .5;\n transform: translate(-50%, -50%);\n position: absolute;\n top: 50%;\n left: 50%;\n transition: .3s ease;\n}\n\ninput[type=\"checkbox\"]:checked::before {\n height: 130%;\n width: 130%;\n opacity: 100%;\n}\n\ninput[type=\"checkbox\"]:checked::after {\n opacity: 100%;\n}\n\nspan {\n font-size: 2rem;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

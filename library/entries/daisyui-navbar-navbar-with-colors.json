@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-navbar-navbar-with-colors",
+  "title": "Navbar: Navbar with colors (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/navbar/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "navbar",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Navbar is used to show a navigation bar on the top of the page.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/navbar/+page.md",
+  "code": "<div class=\"navbar bg-neutral text-neutral-content\">\n  <button class=\"btn btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"navbar bg-base-300\">\n  <button class=\"btn btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"navbar bg-primary text-primary-content\">\n  <button class=\"btn btn-ghost text-xl\">daisyUI</button>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-adamgiebl-curly-wombat-58-bffb19",
+  "title": "Button by adamgiebl (curly-wombat-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/adamgiebl/curly-wombat-58",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By adamgiebl on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/adamgiebl_curly-wombat-58.html",
+  "code": "<button> Button\n  <span></span>\n</button>\n<style>\n/* From Uiverse.io by adamgiebl - Tags: button */\nbutton {\n  border: none;\n  display: block;\n  position: relative;\n  padding: 0.7em 2.4em;\n  font-size: 18px;\n  background: transparent;\n  cursor: pointer;\n  user-select: none;\n  overflow: hidden;\n  color: royalblue;\n  z-index: 1;\n  font-family: inherit;\n  font-weight: 500;\n}\n\nbutton span {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  background: transparent;\n  z-index: -1;\n  border: 4px solid royalblue;\n}\n\nbutton span::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  width: 8%;\n  height: 500%;\n  background: var(--lightgray);\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%) rotate(-60deg);\n  transition: all 0.3s;\n}\n\nbutton:hover span::before {\n  transform: translate(-50%, -50%) rotate(-90deg);\n  width: 100%;\n  background: royalblue;\n}\n\nbutton:hover {\n  color: white;\n}\n\nbutton:active span::before {\n  background: #2751cd;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

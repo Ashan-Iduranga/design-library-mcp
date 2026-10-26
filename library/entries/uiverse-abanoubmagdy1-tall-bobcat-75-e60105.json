@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-abanoubmagdy1-tall-bobcat-75-e60105",
+  "title": "Loader by AbanoubMagdy1 (tall-bobcat-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AbanoubMagdy1/tall-bobcat-75",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AbanoubMagdy1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/AbanoubMagdy1_tall-bobcat-75.html",
+  "code": "<div class=\"loader\">\n  <svg class=\"loader-svg\" version=\"1.1\" id=\"Capa_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 47.94 47.94\" style=\"enable-background:new 0 0 47.94 47.94;\" xml:space=\"preserve\">\n<path style=\"fill:#fff;\" d=\"M26.285,2.486l5.407,10.956c0.376,0.762,1.103,1.29,1.944,1.412l12.091,1.757\n\tc2.118,0.308,2.963,2.91,1.431,4.403l-8.749,8.528c-0.608,0.593-0.886,1.448-0.742,2.285l2.065,12.042\n\tc0.362,2.109-1.852,3.717-3.746,2.722l-10.814-5.685c-0.752-0.395-1.651-0.395-2.403,0l-10.814,5.685\n\tc-1.894,0.996-4.108-0.613-3.746-2.722l2.065-12.042c0.144-0.837-0.134-1.692-0.742-2.285l-8.749-8.528\n\tc-1.532-1.494-0.687-4.096,1.431-4.403l12.091-1.757c0.841-0.122,1.568-0.65,1.944-1.412l5.407-10.956\n\tC22.602,0.567,25.338,0.567,26.285,2.486z\"></path>\n</svg>\n</div>\n<style>\n/* From Uiverse.io by AbanoubMagdy1 - Tags: loader */\n.loader {\n  --dim: 6rem;\n  background-color: #ED8A19;\n  width: var(--dim);\n  height: var(--dim);\n  border-radius: 50%;\n  display: grid;\n  place-items: center;\n  animation: spin_412 5s infinite;\n}\n\n.loader .loader-svg {\n  transform: translateY(-2px) scale(.7);\n}\n\n@keyframes spin_412 {\n  0% {\n    transform: rotate(0) scale(1);\n  }\n\n  50% {\n    transform: rotate(720deg) scale(1.3);\n  }\n\n  100% {\n    transform: rotate(0) scale(1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

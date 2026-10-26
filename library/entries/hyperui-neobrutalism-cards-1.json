@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-neobrutalism-cards-1",
+  "title": "Cards: Base (neobrutalism)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/neobrutalism/cards",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "neobrutalism",
+    "cards",
+    "hyperui",
+    "card",
+    "container"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/neobrutalism/cards/1.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<a class=\"block border-2 border-black bg-white p-4 text-black shadow-[4px_4px_0_0] shadow-black hover:bg-yellow-200 focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6\" href=\"#\">\n<span class=\"inline-flex items-center gap-1.5\">\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"currentColor\" viewbox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\">\n<path clip-rule=\"evenodd\" d=\"M4 1.75a.75.75 0 0 1 1.5 0V3h5V1.75a.75.75 0 0 1 1.5 0V3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2V1.75ZM4.5 6a1 1 0 0 0-1 1v4.5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-7Z\" fill-rule=\"evenodd\"></path>\n</svg>\n<time class=\"text-xs/none font-semibold uppercase\" datetime=\"2025-04-01\">\n          April 1, 2025\n        </time>\n</span>\n<h3 class=\"mt-1 text-xl font-semibold\">\n        How I built my first website with Nuxt, Tailwind CSS and Vercel\n      </h3>\n<p class=\"mt-2 line-clamp-2 text-pretty\">\n        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum provident a, ipsa\n        maiores deleniti consectetur nobis et eaque.\n      </p>\n</a>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

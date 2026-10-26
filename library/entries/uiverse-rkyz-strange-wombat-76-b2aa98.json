@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-rkyz-strange-wombat-76-b2aa98",
+  "title": "Loader by Rkyz (strange-wombat-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Rkyz/strange-wombat-76",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "animal"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Rkyz on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Rkyz_strange-wombat-76.html",
+  "code": "<div class=\"loader\">\n <div class=\"dot-one\"></div> \n <div class=\"dot-two\">-  -</div> \n <div class=\"dot-three\"></div> \n</div>\n<style>\n/* From Uiverse.io by Rkyz - Tags: animation, loader, animal */\n.loader {\n  height: 50px;\n  width: 20rem;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 15px;\n}\n\n.dot-two {\n  background-color: black;\n  height: 30px;\n  width: 30px;\n  border-radius: 50%;\n  padding: 4px;\n  color: white;\n}\n\n.dot-one,\n.dot-three {\n  background-color: black;\n  height: 30px;\n  width: 20px;\n  border-radius: 50%;\n  text-align: center;\n  animation: flap-wings 1s infinite ease-in-out;\n}\n\n.dot-two {\n  position: relative;\n  height: 30px;\n  width: 30px;\n  border-radius: 50%;\n  background-color: black;\n  animation: flap-wings 1s infinite ease-in-out;\n  animation-delay: 0.1s;\n}\n\n.dot-two::before,\n.dot-two::after {\n  content: \"\";\n  position: absolute;\n  background-color: black;\n}\n\n.dot-two::before {\n  height: 20px;\n  width: 10px;\n  bottom: 20px;\n  left: 1px;\n  border-radius: 50% 50% 0 0;\n  transform: rotate(-20deg);\n}\n\n.dot-two::after {\n  height: 20px;\n  width: 10px;\n  bottom: 20px;\n  left: 19px;\n  transform: rotate(20deg);\n  border-radius: 50% 50% 0 0;\n}\n\n.dot-one::before,\n.dot-one::after,\n.dot-three::before,\n.dot-three::after {\n  content: \"\";\n  position: absolute;\n  background-color: white;\n}\n\n.dot-one::before,\n.dot-three::before {\n  height: 30px;\n  width: 20px;\n  top: 10px;\n  left: 0;\n  background-color: #e8e8e8;\n /*chnage this if u need dark mode to #212121 if need light mode #e8e8e8*/\n  border-radius: 50% 50% 0 0;\n}\n\n@keyframes flap-wings {\n  0%,\n  100% {\n    transform: translateY(0);\n  }\n\n  50% {\n    transform: translateY(-20px);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

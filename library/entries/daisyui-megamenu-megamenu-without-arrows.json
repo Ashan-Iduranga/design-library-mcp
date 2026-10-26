@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-megamenu-megamenu-without-arrows",
+  "title": "Megamenu: megamenu without arrows (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/megamenu/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "megamenu",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A megamenu is a large, horizontal menu where each item opens a popover to show a large block of navigation links. Megamenu must be used once, on top of the page. Inside each popover, you can use a daisyUI menu, or any custom content. Megamenu fits better on large screens only, and for small screens, you can hide the megamenu and show the content in a dropdown or a drawer.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/megamenu/+page.md",
+  "code": "<div class=\"megamenu p-2 border border-base-300\">\n  <span class=\"megamenu-active\"></span>\n\n  <button class=\"after:content-none\" popovertarget=\"e1\">One</button>\n  <div id=\"e1\" popover>\n    <div class=\"p-4\">Content for the first item</div>\n  </div>\n\n  <button class=\"after:content-none\" popovertarget=\"e2\">Two</button>\n  <div id=\"e2\" popover>\n    <div class=\"p-4\">Content for the second item</div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

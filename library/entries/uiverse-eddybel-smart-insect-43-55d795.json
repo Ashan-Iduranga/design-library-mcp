@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-eddybel-smart-insect-43-55d795",
+  "title": "Checkbox by EddyBel (smart-insect-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/EddyBel/smart-insect-43",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By EddyBel on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/EddyBel_smart-insect-43.html",
+  "code": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n<style>\n/* From Uiverse.io by EddyBel - Tags: gradient, checkbox */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n}\n\n.container::before {\n  position: absolute;\n  left: 0;\n  top: 0;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  filter: blur(5px);\n  background-color: #b899ff;\n  background-image: radial-gradient(at 6% 13%, hsla(322,81%,60%,1) 0px, transparent 50%),\nradial-gradient(at 9% 59%, hsla(209,65%,71%,1) 0px, transparent 50%),\nradial-gradient(at 39% 16%, hsla(325,93%,79%,1) 0px, transparent 50%);\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 2em;\n  width: 2em;\n  border-radius: 50%;\n  background-color: rgb(255, 255, 255);\n}\n\n/* When the checkbox is checked, add a blue background */\n.container input:checked ~ .checkmark {\n  height: 2em;\n  width: 2em;\n  border-radius: 50%;\n  position: relative;\n}\n\n.container input:checked ~ .checkmark::before {\n  position: absolute;\n  left: 0;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  width: 65%;\n  height: 65%;\n  content: \"\";\n  border-radius: 50%;\n  background-color: #ff99f0;\n  background-image: radial-gradient(at 86% 29%, hsla(277,65%,76%,1) 0px, transparent 50%),\n  radial-gradient(at 13% 20%, hsla(54,73%,71%,1) 0px, transparent 50%),\n  radial-gradient(at 76% 0%, hsla(145,64%,69%,1) 0px, transparent 50%);\n  animation: animation__checked 600ms normal;\n}\n\n@keyframes animation__checked {\n  0% {\n    opacity: 0;\n    transform: scale(0.8);\n  }\n\n  100% {\n    opacity: 100;\n    transform: scale(1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

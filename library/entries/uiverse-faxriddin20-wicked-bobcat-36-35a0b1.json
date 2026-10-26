@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-faxriddin20-wicked-bobcat-36-35a0b1",
+  "title": "Checkbox by faxriddin20 (wicked-bobcat-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/faxriddin20/wicked-bobcat-36",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "minimalist",
+    "dark",
+    "cool-checkbox",
+    "checkmark"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By faxriddin20 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/faxriddin20_wicked-bobcat-36.html",
+  "code": "<label>\n  <input class=\"input\" type=\"checkbox\" />\n  <span class=\"custom-checkbox\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by faxriddin20  - Tags: minimalist, checkbox, dark, cool checkbox, checkmark */\n.input[type=\"checkbox\"] {\n  display: none;\n}\n\n/* Style for the custom checkbox */\n.custom-checkbox {\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  border: 2px solid lime;\n  border-radius: 50%;\n  position: relative;\n  cursor: pointer;\n}\n\n/* Style for the custom checkmark */\n.custom-checkbox::after {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 10px;\n  height: 10px;\n  background-color: lime;\n  border-radius: 50%;\n  opacity: 0;\n}\n\n/* Show the checkmark when checkbox is checked */\n.input[type=\"checkbox\"]:checked + .custom-checkbox::after {\n  opacity: 1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

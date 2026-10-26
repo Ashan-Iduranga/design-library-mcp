@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-pablofernz-yellow-fox-100-e3444b",
+  "title": "Input by pablofernz (yellow-fox-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/pablofernz/yellow-fox-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "email",
+    "form",
+    "dark",
+    "darkmode",
+    "dark-mode",
+    "example"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By pablofernz on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/pablofernz_yellow-fox-100.html",
+  "code": "<div class=\"formContainer\">\n  <input placeholder=\"example@email.com\" type=\"text\" />\n  <label>Email</label>\n</div>\n\n<style>\n/* From Uiverse.io by pablofernz  - Tags: email, form, input, dark, darkmode, dark mode, example */\n.formContainer {\n  height: 100%;\n  /* change the width here if you want */\n  width: 300px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column-reverse;\n  /* explanation: Reverse make the label appear visually above the input, when in the HTML it is below so that the \"+\" selector can work  */\n  gap: 10px;\n  position: relative;\n}\n\n/* This selects the label inside \"formContainer*/\n.formContainer > label {\n  font-family: Basier Square;\n  font-weight: 900;\n  font-size: 15px;\n  color: rgb(99, 99, 99);\n  text-align: start;\n  align-self: flex-start;\n  transition: all 0.3s ease;\n}\n\n/* This selects the input inside \"formContainer*/\n.formContainer > input {\n  width: 100%;\n  height: 40px;\n  border-radius: 10px;\n  font-weight: 900px;\n  background-color: transparent;\n  color: rgb(99, 99, 99);\n  border: 2px solid rgb(85, 85, 85);\n  font-size: 15px;\n  font-family: Basier Square;\n  padding-left: 10px;\n  transition: all 0.3s ease;\n  z-index: 5;\n}\n\n/* If you give the input a class, this would be equal to: \n.input:focus */\n.formContainer > input:focus {\n  color: rgb(197, 197, 197);\n  outline: none;\n  border: 2px solid rgb(255, 255, 255);\n  box-shadow:\n    0px 0px 10px rgba(255, 255, 255, 0.145),\n    0px 0px 5px rgba(255, 255, 255, 0.145) inset;\n}\n\n/* This would be equal to: .input:focus+.label */\n.formContainer > input:focus + label {\n  color: rgb(197, 197, 197);\n  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.145);\n}\n\n/* This would be equal to: .input::placeholder */\n.formContainer > input::placeholder {\n  color: rgb(85, 85, 85);\n  transition: all 0.5s ease;\n}\n\n/* This would be equal to: .input:focus::placeholder */\n.formContainer > input:focus::placeholder {\n  color: rgb(150, 150, 150);\n}\n\n/* <thx/> */\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

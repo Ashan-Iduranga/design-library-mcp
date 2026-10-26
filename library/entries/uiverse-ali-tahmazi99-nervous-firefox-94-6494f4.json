@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ali-tahmazi99-nervous-firefox-94-6494f4",
+  "title": "Loader by Ali-Tahmazi99 (nervous-firefox-94)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Ali-Tahmazi99/nervous-firefox-94",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Ali-Tahmazi99 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Ali-Tahmazi99_nervous-firefox-94.html",
+  "code": "<div class=\"load-row\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n</div>\n<style>\n/* From Uiverse.io by Ali-Tahmazi99 - Tags: loader */\n.load-row {\n  width: 100px;\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.load-row span {\n  display: inline-block;\n  width: 10px;\n  height: 10px;\n  background: #f76002;\n  border-radius: 50px;\n  animation: up-down6 0.5s ease-in infinite alternate;\n}\n\n.load-row span:nth-child(2) {\n  background: #e85b04c4;\n  animation-delay: 0.16s;\n}\n\n.load-row span:nth-child(3) {\n  background: #e85b0491;\n  animation-delay: 0.32s;\n}\n\n.load-row span:nth-child(4) {\n  background: #e85b0456;\n  animation-delay: 0.48s;\n}\n\n@keyframes up-down6 {\n  0% {\n    transform: translateY(-10px);\n  }\n\n  100% {\n    transform: translateY(10px);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "magicui-interactive-hover-button",
+  "title": "Interactive Hover Button (Magic UI)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/interactive-hover-button",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "interactive",
+    "hover",
+    "button",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Magic UI component: Interactive Hover Button.\n\nInstall into a project: npx shadcn@latest add @magicui/interactive-hover-button\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/magicui/interactive-hover-button.tsx",
+  "code": "import { ArrowRight } from \"lucide-react\"\n\nimport { cn } from \"@/lib/utils\"\n\nexport function InteractiveHoverButton({\n  children,\n  className,\n  ...props\n}: React.ButtonHTMLAttributes<HTMLButtonElement>) {\n  return (\n    <button\n      className={cn(\n        \"group bg-background relative w-auto cursor-pointer overflow-hidden rounded-full border p-2 px-6 text-center font-semibold\",\n        className\n      )}\n      {...props}\n    >\n      <div className=\"flex items-center justify-center gap-2\">\n        <div className=\"bg-primary h-2 w-2 rounded-full transition-all duration-300 group-hover:scale-[100.8]\"></div>\n        <span className=\"inline-block transition-all duration-300 group-hover:translate-x-12 group-hover:opacity-0\">\n          {children}\n        </span>\n      </div>\n      <div className=\"text-primary-foreground absolute top-0 z-10 flex h-full w-full translate-x-12 items-center justify-center gap-2 opacity-0 transition-all duration-300 group-hover:-translate-x-5 group-hover:opacity-100\">\n        <span>{children}</span>\n        <ArrowRight />\n      </div>\n    </button>\n  )\n}\n",
+  "prompt": "npx shadcn@latest add @magicui/interactive-hover-button",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

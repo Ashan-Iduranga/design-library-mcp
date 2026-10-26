@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-elijahgummer-silly-starfish-49-c310a4",
+  "title": "Toggle by elijahgummer (silly-starfish-49)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/silly-starfish-49",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "simple",
+    "animation",
+    "green",
+    "switch",
+    "modern",
+    "transition"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/elijahgummer_silly-starfish-49.html",
+  "code": "<label>\n  <input type=\"checkbox\" class=\"inp\" />\n  <span class=\"check\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, animation, green, switch, modern, transition */\n.inp {\n  appearance: none;\n}\n\n.check {\n  position: relative;\n  display: inline-block;\n  width: 40px;\n  height: 20px;\n  background: #111;\n  border-radius: 40px;\n}\n\n.check:before {\n  content: \"\";\n  position: absolute;\n  top: 8px;\n  left: 4px;\n  width: 3px;\n  height: 3px;\n  border-radius: 90px;\n  transition: transform 0.5s;\n  box-shadow: 7.9px 0 0 5px #14f960; /* Change the color here */\n}\n\n.inp:checked ~ .check:before {\n  transform: translateX(13px);\n}\n\n.check:after {\n  content: \"N\";\n  position: absolute;\n  right: -16px;\n  top: -5px;\n  font-size: 20px;\n  color: #111;\n  opacity: 0;\n  transition: opacity 0.5s, transform 0.5s;\n  transform: translateX(20px);\n}\n\n.inp:checked ~ .check:after {\n  opacity: 1;\n  transform: translateX(0px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

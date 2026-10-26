@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-smookydev-wonderful-octopus-16-5d7fe1",
+  "title": "Card by SmookyDev (wonderful-octopus-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SmookyDev/wonderful-octopus-16",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SmookyDev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/SmookyDev_wonderful-octopus-16.html",
+  "code": "<!-- From Uiverse.io by SmookyDev  - Website: https://mambaui.com/components/weather - Name: https://mambaui.com - Tags: animation, card, tailwind, tailwindcss -->\n<div\n  class=\"w-[300px] aspect-video rounded-lg shadow flex flex-col items-center justify-center gap-2 bg-slate-50 group\"\n>\n  <div\n    class=\"flex flex-col items-center p-8 rounded-md w-full sm:px-12 bg-gray-900 text-gray-100\"\n  >\n    <div class=\"text-center\">\n      <h2 class=\"text-xl font-semibold\">Dubai</h2>\n      <p class=\"text-sm text-gray-400\">March 13</p>\n    </div>\n    <svg\n      class=\"w-32 h-32 p-6 text-yellow-400 fill-current animate-[spin_5s_linear_infinite;]\"\n      viewBox=\"0 0 512 512\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M256,104c-83.813,0-152,68.187-152,152s68.187,152,152,152,152-68.187,152-152S339.813,104,256,104Zm0,272A120,120,0,1,1,376,256,120.136,120.136,0,0,1,256,376Z\"\n      ></path>\n      <rect\n        class=\"animate-[pulse_1s_cubic-bezier(0.4,_0,_0.6,_1)_infinite;]\"\n        y=\"16\"\n        x=\"240\"\n        height=\"48\"\n        width=\"32\"\n      ></rect>\n      <rect\n        class=\"animate-[pulse_2s_cubic-bezier(0.4,_0,_0.6,_1)_infinite;]\"\n        y=\"448\"\n        x=\"240\"\n        height=\"48\"\n        width=\"32\"\n      ></rect>\n      <rect\n        class=\"animate-[pulse_1s_cubic-bezier(0.4,_0,_0.6,_1)_infinite;]\"\n        y=\"240\"\n        x=\"448\"\n        height=\"32\"\n        width=\"48\"\n      ></rect>\n      <rect\n        class=\"animate-[pulse_2s_cubic-bezier(0.4,_0,_0.6,_1)_infinite;]\"\n        y=\"240\"\n        x=\"16\"\n        height=\"32\"\n        width=\"48\"\n      ></rect>\n      <rect\n        class=\"animate-[pulse_1s_cubic-bezier(0.4,_0,_0.6,_1)_infinite;]\"\n        transform=\"rotate(-45 416 416)\"\n        y=\"393.373\"\n        x=\"400\"\n        height=\"45.255\"\n        width=\"32\"\n      ></rect>\n      <rect\n        class=\"animate-[pulse_2s_cubic-bezier(0.4,_0,_0.6,_1)_infinite;]\"\n        transform=\"rotate(-45 96 96)\"\n        y=\"73.373\"\n        x=\"80\"\n        height=\"45.255\"\n        width=\"32.001\"\n      ></rect>\n      <rect\n        class=\"animate-[pulse_1s_cubic-bezier(0.4,_0,_0.6,_1)_infinite;]\"\n        transform=\"rotate(-45.001 96.002 416.003)\"\n        y=\"400\"\n        x=\"73.373\"\n        height=\"32\"\n        width=\"45.255\"\n      ></rect>\n      <rect\n        class=\"animate-[pulse_2s_cubic-bezier(0.4,_0,_0.6,_1)_infinite;]\"\n        transform=\"rotate(-45 416 96)\"\n        y=\"80\"\n        x=\"393.373\"\n        height=\"32.001\"\n        width=\"45.255\"\n      ></rect>\n    </svg>\n    <div class=\"mb-2 text-3xl font-semibold\">\n      27° <span class=\"mx-1 font-normal\">/</span>19°\n    </div>\n    <p class=\"text-gray-400\">Sunny</p>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

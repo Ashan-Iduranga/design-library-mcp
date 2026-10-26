@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-sheptalo-chatty-mule-100-9a23bf",
+  "title": "Button by sheptalo (chatty-mule-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/sheptalo/chatty-mule-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By sheptalo on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/sheptalo_chatty-mule-100.html",
+  "code": "<button>\n  HOVER ME!\n</button>\n\n<style>\n/* From Uiverse.io by sheptalo - Tags: button */\nbutton {\n  border-style: outset;\n  font-weight: 1000;\n  height: 50px;\n  width: 150px;\n  background: inherit;\n  border: 7px solid orange;\n  transition: all 900ms;\n}\n\nbutton::before {\n  content: \"\";\n  z-index: -1;\n  position: absolute;\n  left: 50%;\n  top: 0;\n  bottom: 0%;\n  height: 100%;\n  width: 0;\n  background-color: yellow;\n  transition-timing-function: ease-in;\n  transition: all 1.3s;\n}\n\nbutton:hover {\n  color: rgb(78, 78, 78);\n  border: 2px solid yellow;\n  transform: scale(1.2);\n}\n\nbutton:hover::before {\n  left: 0%;\n  width: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-aqfox-nervous-crab-0-3fcd48",
+  "title": "Button by AqFox (nervous-crab-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AqFox/nervous-crab-0",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AqFox on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/AqFox_nervous-crab-0.html",
+  "code": "<button class=\"btn btn-1 hover-filled-slide-left\">\n    <span>hover me</span>\n</button>\n<style>\n/* From Uiverse.io by AqFox - Tags: button */\n.btn {\n  position: relative;\n  display: inline-block;\n  width: auto;\n  height: auto;\n  background-color: transparent;\n  border: none;\n  cursor: pointer;\n  margin: 0px 25px 15px;\n  min-width: 150px;\n}\n\n.btn span {\n  position: relative;\n  display: inline-block;\n  font-size: 14px;\n  font-weight: bold;\n  letter-spacing: 2px;\n  text-transform: uppercase;\n  top: 0;\n  left: 0;\n  width: 100%;\n  padding: 15px 20px;\n  transition: 0.3s;\n}\n\n.btn-1::before {\n  background-color: #004dff;\n  transition: 0.3s ease-out;\n}\n\n.btn-1 span {\n  color: rgb(255,255,255);\n  border: 1px solid #004dff;\n  transition: 0.2s 0.1s;\n}\n\n.btn-1 span:hover {\n  color: #004dff;\n  transition: 0.2s 0.1s;\n}\n\n:active, :hover, :focus {\n  outline: 0!important;\n  outline-offset: 0;\n}\n\n::before,\n::after {\n  position: absolute;\n  content: \"\";\n}\n\n.btn.hover-filled-slide-left::before {\n  top: 0;\n  bottom: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n}\n\n.btn.hover-filled-slide-left:hover::before {\n  width: 0%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

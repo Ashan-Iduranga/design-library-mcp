@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-purple-treefrog-92-d1374b",
+  "title": "Button by csemszepp (purple-treefrog-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/purple-treefrog-92",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/csemszepp_purple-treefrog-92.html",
+  "code": "<div class=\"container\">\n\t\t<div class=\"btn\"><a href=\"#\">Read more</a></div>\n\t</div>\t\n\n<style>\n/* From Uiverse.io by csemszepp - Source: https://codepen.io/katarzynamarta/pen/rNdbbVq - Tags: simple, button, #button */\n.container {\n  width: 1000px;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-around;\n}\n\n.container .btn {\n  position: relative;\n  top: 0;\n  left: 0;\n  width: 250px;\n  height: 50px;\n  margin: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.container .btn a {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: rgba(255, 255, 255, 0.05);\n  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 30px;\n  padding: 10px;\n  letter-spacing: 1px;\n  text-decoration: none;\n  overflow: hidden;\n  color: #fff;\n  font-weight: 400px;\n  z-index: 1;\n  transition: 0.5s;\n  backdrop-filter: blur(15px);\n}\n\n.container .btn:hover a {\n  letter-spacing: 3px;\n}\n\n.container .btn a::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50%;\n  height: 100%;\n  background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);\n  transform: skewX(45deg) translate(0);\n  transition: 0.5s;\n  filter: blur(0px);\n}\n\n.container .btn:hover a::before {\n  transform: skewX(45deg) translate(200px);\n}\n\n.container .btn::before {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  transform: translatex(-50%);\n  bottom: -5px;\n  width: 30px;\n  height: 10px;\n  background: #f00;\n  border-radius: 10px;\n  transition: 0.5s;\n  transition-delay: 0.5;\n}\n\n.container .btn:hover::before /*lightup button*/ {\n  bottom: 0;\n  height: 50%;\n  width: 80%;\n  border-radius: 30px;\n}\n\n.container .btn::after {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  transform: translatex(-50%);\n  top: -5px;\n  width: 30px;\n  height: 10px;\n  background: #f00;\n  border-radius: 10px;\n  transition: 0.5s;\n  transition-delay: 0.5;\n}\n\n.container .btn:hover::after /*lightup button*/ {\n  top: 0;\n  height: 50%;\n  width: 80%;\n  border-radius: 30px;\n}\n\n.container .btn:nth-child(1)::before,\n.container .btn:nth-child(1)::after {\n  background: #2db2ff;\n  box-shadow: 0 0 5px #2db2ff, 0 0 15px #2db2ff, 0 0 30px #2db2ff,\n\t\t0 0 60px #2db2ff;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

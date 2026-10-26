@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-angry-goat-2-b4e737",
+  "title": "Loader by mrhyddenn (angry-goat-2)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/angry-goat-2",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_angry-goat-2.html",
+  "code": "<div class=\"loader\">\n    <div class=\"waves\"></div>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  overflow: hidden;\n  height: 80px;\n  width: 80px;\n  border: 1px solid transparent;\n  box-shadow: 0 0 0 2px rgb(25, 116, 253);\n  border-radius: 50%;\n}\n\n.waves {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background: rgb(30, 146, 255);\n  box-shadow: inset 0 0 50px rgb(0,0,0,.3);\n}\n\n.waves::before,\n.waves::after {\n  content: '';\n  position: absolute;\n  width: 200%;\n  height: 200%;\n  top: 0;\n  left: 50%;\n  transform: translate(-50%, -75%);\n  background: #000;\n}\n\n.waves::before {\n  border-radius: 45%;\n  background: rgb(248, 248, 248);\n  animation: wave91234 5s linear infinite;\n}\n\n.waves::after {\n  border-radius: 40%;\n  background: rgb(255,255,255,.5);\n  animation: wave91234 10s linear infinite;\n}\n\n@keyframes wave91234 {\n  0% {\n    transform: translate(-50%, -75%) rotate(0deg);\n  }\n\n  100% {\n    transform: translate(-50%, -75%) rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jkhuger-brown-dragon-7-c63489",
+  "title": "Loader by JkHuger (brown-dragon-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/brown-dragon-7",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JkHuger_brown-dragon-7.html",
+  "code": "<div class=\"triangle\"></div>\n<div class=\"triangle-shadow\"></div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: loader */\n.triangle {\n  background-color: transparent;\n  height: 0px;\n  width: 0px;\n  border-style: solid;\n  border-width: 50px 50px 50px 50px;\n  border-radius: 2px;\n  border-color: #00ff83 #00e676 #00cc69 #00e676;\n  animation: animtrgl 3s infinite ease;\n}\n\n.text {\n  font-family: 'Staatliches', cursive;\n  color: white;\n  font-size: 25px;\n  width: 250px;\n  text-align: center;\n  display: block;\n  height: 50px;\n  position: absolute;\n  animation: textload 3s infinite ease;\n  text-shadow: 0 0 4px black;\n}\n\n@keyframes textload {\n  0% {\n    top: calc(50% + 100px);\n  }\n\n  25% {\n    top: calc(50% + 85px);\n  }\n\n  50% {\n    top: calc(50% + 100px);\n  }\n\n  75% {\n    top: calc(50% + 85px);\n  }\n\n  100% {\n    top: calc(50% + 100px);\n  }\n}\n\n@keyframes animtrgl {\n  0% {\n    border-width: 50px 75px 50px 25px;\n    transform: scale(2);\n  }\n\n  25% {\n    border-width: 25px 50px 75px 50px;\n    transform: scale(1.75);\n  }\n\n  50% {\n    border-width: 50px 25px 50px 75px;\n    transform: scale(2);\n  }\n\n  75% {\n    border-width: 75px 50px 25px 50px;\n    transform: scale(1.75);\n  }\n\n  100% {\n    border-width: 50px 75px 50px 25px;\n    transform: scale(2);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

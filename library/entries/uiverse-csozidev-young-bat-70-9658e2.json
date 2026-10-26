@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csozidev-young-bat-70-9658e2",
+  "title": "Loader by csozidev (young-bat-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csozidev/young-bat-70",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csozidev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/csozidev_young-bat-70.html",
+  "code": "<div class=\"loader\">\n  <div class=\"square-1 square\"></div>\n  <div class=\"square-2 square\"></div>\n</div>\n<style>\n/* From Uiverse.io by csozidev - Tags: loader */\n/* Discord loader made by: csozi | Website: www.csozi.hu*/\n\n.loader {\n  position: relative;\n  height: 60px;\n  width: 60px;\n  box-sizing: content-box;\n  padding: 10px;\n}\n\n.square {\n  background-color: #7289DA;\n  height: 20px;\n  width: 20px;\n  position: absolute;\n}\n\n.square-1 {\n  animation: load 2s infinite;\n}\n\n.square-2 {\n  animation: load 2s infinite;\n  animation-delay: 1s;\n}\n\n@keyframes load {\n  0% {\n    translate: 0px 0px;\n    scale: 1;\n    rotate: 0deg;\n  }\n\n  25% {\n    translate: 40px 0px;\n    scale: 0.5;\n    rotate: -90deg;\n  }\n\n  50% {\n    translate: 40px 40px;\n    scale: 1;\n    rotate: 180deg;\n  }\n\n  75% {\n    translate: 0px 40px;\n    scale: 0.5;\n    rotate: 90deg;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

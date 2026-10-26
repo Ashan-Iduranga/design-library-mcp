@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-doniaskima-bright-goat-87-dccf5c",
+  "title": "Input by doniaskima (bright-goat-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/bright-goat-87",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "css-input",
+    "cool-input"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/doniaskima_bright-goat-87.html",
+  "code": "<div class=\"inputContainer\">\n  <input required=\"\" class=\"customInput\" type=\"text\">\n  <label class=\"inputLabel\">Your Name</label>\n  <div class=\"inputUnderline\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by doniaskima - Tags: input, css input, cool input */\n.inputContainer {\n  position: relative;\n  margin-bottom: 20px;\n}\n\n.customInput {\n  width: 100%;\n  padding: 12px;\n  font-size: 16px;\n  background-color: transparent;\n  border: none;\n  border-bottom: 2px solid #007bff;\n  outline: none;\n  transition: border-color 0.3s ease;\n  color: #007bff;\n}\n\n.customInput:focus,\n.customInput:not(:placeholder-shown) {\n  border-color: #0056b3;\n}\n\n.inputLabel {\n  position: absolute;\n  top: 0;\n  left: 0;\n  pointer-events: none;\n  padding: 5px;\n  font-size: 16px;\n  color: #007bff;\n  transition: transform 0.3s ease, color 0.3s ease;\n}\n\n.customInput:focus + .inputLabel,\n.customInput:not(:placeholder-shown) + .inputLabel {\n  transform: translateY(-100%) translateX(-5px) scale(0.8);\n}\n\n.inputUnderline {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2px;\n  background-color: #007bff;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

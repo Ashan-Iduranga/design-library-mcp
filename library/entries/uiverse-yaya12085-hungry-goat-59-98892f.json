@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-yaya12085-hungry-goat-59-98892f",
+  "title": "Input by Yaya12085 (hungry-goat-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/hungry-goat-59",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "form",
+    "phone-number"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Yaya12085_hungry-goat-59.html",
+  "code": "<!-- From Uiverse.io by Yaya12085 - Tags: form, input, phone number -->\n<div class=\"bg-white p-4 rounded-lg max-w-[350px]\">\n            <label class=\"text-gray-600 text-sm\">\n                Phone number\n            </label>\n            <div class=\"relative mt-2 max-w-xs text-gray-500\">\n                <div class=\"absolute inset-y-0 left-3 my-auto h-6 flex items-center border-r pr-2\">\n                    <select class=\"text-sm outline-none rounded-lg h-full\">\n                        <option>US</option>\n                        <option>ES</option>\n                        <option>MR</option>\n                    </select>\n                </div>\n                <input type=\"number\" placeholder=\"+1 (555) 000-000\" class=\"w-full pl-[4.5rem] pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-slate-600 shadow-sm rounded-lg\">\n            </div>\n        </div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

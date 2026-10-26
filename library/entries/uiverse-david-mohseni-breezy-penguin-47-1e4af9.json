@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-david-mohseni-breezy-penguin-47-1e4af9",
+  "title": "Loader by david-mohseni (breezy-penguin-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/david-mohseni/breezy-penguin-47",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By david-mohseni on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/david-mohseni_breezy-penguin-47.html",
+  "code": "<div class=\"arrow\">\n    <span></span>\n    <span></span>\n    <span></span>\n</div>\n<style>\n/* From Uiverse.io by david-mohseni - Tags: loader */\n.arrow {\n  transform: rotate(90deg);\n  cursor: pointer;\n}\n\n.arrow span {\n  display: block;\n  width: 15px;\n  height: 15px;\n  border-bottom: 5px solid red;\n  border-right: 5px solid red;\n  transform: rotate(45deg);\n  margin: -15px;\n  animation: animate28797 2s infinite;\n}\n\n.arrow span:nth-child(2) {\n  animation-delay: -0.2s;\n}\n\n.arrow span:nth-child(3) {\n  animation-delay: -0.4s;\n}\n\n@keyframes animate28797 {\n  0% {\n    opacity: 0;\n    transform: rotate(45deg) translate(-20px, -20px);\n  }\n\n  50% {\n    opacity: 1;\n  }\n\n  100% {\n    opacity: 0;\n    transform: rotate(45deg) translate(20px, 20px);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

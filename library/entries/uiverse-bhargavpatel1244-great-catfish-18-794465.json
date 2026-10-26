@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bhargavpatel1244-great-catfish-18-794465",
+  "title": "Button by BHARGAVPATEL1244 (great-catfish-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/BHARGAVPATEL1244/great-catfish-18",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By BHARGAVPATEL1244 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/BHARGAVPATEL1244_great-catfish-18.html",
+  "code": "<button> <span>Button</span>\n</button>\n<style>\n/* From Uiverse.io by BHARGAVPATEL1244 - Tags: button */\nbutton {\n outline: none;\n cursor: pointer;\n border: none;\n padding: 0.9rem 2rem;\n margin: 0;\n font-family: inherit;\n font-size: inherit;\n position: relative;\n display: inline-block;\n letter-spacing: 0.05rem;\n font-weight: 700;\n font-size: 17px;\n border-radius: 500px;\n overflow: hidden;\n background: #66ff66;\n color: ghostwhite;\n}\n\nbutton span {\n position: relative;\n z-index: 10;\n transition: color 0.4s;\n}\n\nbutton:hover span {\n color: black;\n}\n\nbutton::before,\nbutton::after {\n position: absolute;\n top: 0;\n left: 0;\n width: 100%;\n height: 100%;\n z-index: 0;\n}\n\nbutton::before {\n content: \"\";\n background: #000;\n width: 120%;\n left: -10%;\n transform: skew(30deg);\n transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);\n}\n\nbutton:hover::before {\n transform: translate3d(100%, 0, 0);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

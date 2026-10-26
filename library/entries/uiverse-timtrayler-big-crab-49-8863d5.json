@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-timtrayler-big-crab-49-8863d5",
+  "title": "Button by TimTrayler (big-crab-49)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TimTrayler/big-crab-49",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TimTrayler on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/TimTrayler_big-crab-49.html",
+  "code": "<button> Click me\n</button>\n<style>\n/* From Uiverse.io by TimTrayler - Tags: button */\nbutton {\n --hover-shadows: 16px 16px 33px #121212,\n                   -16px -16px 33px #303030;\n --accent: fuchsia;\n font-weight: bold;\n letter-spacing: 0.1em;\n border: none;\n border-radius: 1.1em;\n background-color: #212121;\n color: white;\n padding: 1em 2em;\n transition: box-shadow ease-in-out 0.3s,\n             background-color ease-in-out 0.1s,\n             letter-spacing ease-in-out 0.1s,\n             transform ease-in-out 0.1s;\n box-shadow: 13px 13px 10px #1c1c1c,\n             -13px -13px 10px #262626;\n}\n\nbutton:hover {\n box-shadow: var(--hover-shadows);\n}\n\nbutton:active {\n box-shadow: var(--hover-shadows),\n              var(--accent) 0px 0px 30px 5px;\n background-color: var(--accent);\n transform: scale(0.95);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

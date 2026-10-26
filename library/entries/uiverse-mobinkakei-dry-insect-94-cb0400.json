@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mobinkakei-dry-insect-94-cb0400",
+  "title": "Loader by mobinkakei (dry-insect-94)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/dry-insect-94",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "space"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mobinkakei_dry-insect-94.html",
+  "code": "<span class=\"loader\"></span>\n\n<style>\n/* From Uiverse.io by mobinkakei  - Tags: loading, loader, space */\n.loader {\n  position: relative;\n  width: 60px;\n  height: 60px;\n  background: #a19dad;\n  transform: rotateX(65deg) rotate(45deg);\n  // remove bellows command for perspective change\n  //transform: perspective(200px) rotateX(65deg) rotate(45deg);\n  color: #fff;\n  animation: layers1 1s linear infinite alternate;\n}\n.loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background: rgba(255, 255, 255, 0.7);\n  animation: layerTr 1s linear infinite alternate;\n}\n\n@keyframes layers1 {\n  0% {\n    box-shadow: 0px 0px 0 0px;\n  }\n  90%,\n  100% {\n    box-shadow: 20px 20px 0 -4px;\n  }\n}\n@keyframes layerTr {\n  0% {\n    transform: translate(0, 0) scale(1);\n  }\n  100% {\n    transform: translate(-25px, -25px) scale(1);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

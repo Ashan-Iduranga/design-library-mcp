@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-buttons-outline-buttons",
+  "title": "Buttons: Outline buttons (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/buttons/#outline-buttons",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "buttons",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the following button styles to show the colors only for the border of the element.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/buttons.md",
+  "code": "<button type=\"button\" class=\"text-fg-brand bg-neutral-primary border border-brand hover:bg-brand hover:text-white focus:ring-4 focus:ring-brand-subtle font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Brand</button>\n<button type=\"button\" class=\"text-body bg-neutral-primary border border-default hover:bg-neutral-secondary-soft hover:text-heading focus:ring-4 focus:ring-neutral-tertiary font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Gray</button>\n<button type=\"button\" class=\"text-success bg-neutral-primary border border-success hover:bg-success hover:text-white focus:ring-4 focus:ring-neutral-tertiary font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Success</button>\n<button type=\"button\" class=\"text-danger bg-neutral-primary border border-danger hover:bg-danger hover:text-white focus:ring-4 focus:ring-neutral-tertiary font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Danger</button>\n<button type=\"button\" class=\"text-warning bg-neutral-primary border border-warning hover:bg-warning hover:text-white focus:ring-4 focus:ring-neutral-tertiary font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Warning</button>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-whitenervosa-wicked-deer-90-2680e2",
+  "title": "Radio by WhiteNervosa (wicked-deer-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/WhiteNervosa/wicked-deer-90",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By WhiteNervosa on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/WhiteNervosa_wicked-deer-90.html",
+  "code": "<div class=\"customCheckBoxHolder\">\n\n    <input class=\"customCheckBoxInput\" id=\"cCB1\" type=\"checkbox\">\n    <label class=\"customCheckBoxWrapper\" for=\"cCB1\">\n        <div class=\"customCheckBox\">\n            <div class=\"inner\">Option</div>\n        </div>\n    </label>\n\n    <input class=\"customCheckBoxInput\" id=\"cCB2\" type=\"checkbox\">\n    <label class=\"customCheckBoxWrapper\" for=\"cCB2\">\n        <div class=\"customCheckBox\">\n            <div class=\"inner\">Option</div>\n        </div>\n    </label>\n\n    <input class=\"customCheckBoxInput\" id=\"cCB3\" type=\"checkbox\">\n    <label class=\"customCheckBoxWrapper\" for=\"cCB3\">\n        <div class=\"customCheckBox\">\n            <div class=\"inner\">Option</div>\n        </div>\n    </label>\n\n</div>\n<style>\n/* From Uiverse.io by WhiteNervosa - Tags: radio */\n.customCheckBoxHolder {\n  margin: 5px;\n  display: flex;\n}\n\n.customCheckBox {\n  width: fit-content;\n  position: relative;\n  overflow: hidden;\n  cursor: pointer;\n  user-select: none;\n  padding: 2px 8px;\n  background-color: rgba(0, 0, 0, 0.16);\n  border-radius: 0px;\n  color: rgba(255, 255, 255, 0.7);\n  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-duration: 300ms;\n  transition-property: color, background-color, box-shadow;\n  display: flex;\n  height: 32px;\n  align-items: center;\n  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px 0px inset, rgba(255, 255, 255, 0.17) 0px 1px 1px 0px;\n  outline: none;\n  justify-content: center;\n  min-width: 55px;\n}\n\n.customCheckBox:hover {\n  background-color: #2c2c2c;\n  color: white;\n  box-shadow: rgba(0, 0, 0, 0.23) 0px -4px 1px 0px inset, rgba(255, 255, 255, 0.17) 0px -1px 1px 0px, rgba(0, 0, 0, 0.17) 0px 2px 4px 1px;\n}\n\n.customCheckBox .inner {\n  font-size: 18px;\n  font-weight: 900;\n  pointer-events: none;\n  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-duration: 300ms;\n  transition-property: transform;\n  transform: translateY(0px);\n}\n\n.customCheckBox:hover .inner {\n  transform: translateY(-2px);\n}\n\n.customCheckBoxWrapper:first-of-type .customCheckBox {\n  border-bottom-left-radius: 5px;\n  border-top-left-radius: 5px;\n  border-right: 0px;\n}\n\n.customCheckBoxWrapper:last-of-type .customCheckBox {\n  border-bottom-right-radius: 5px;\n  border-top-right-radius: 5px;\n  border-left: 0px;\n}\n\n.customCheckBoxInput {\n  display: none;\n}\n\n.customCheckBoxInput:checked + .customCheckBoxWrapper .customCheckBox {\n  background-color: #2d6737;\n  color: white;\n  box-shadow: rgba(0, 0, 0, 0.23) 0px -4px 1px 0px inset, rgba(255, 255, 255, 0.17) 0px -1px 1px 0px, rgba(0, 0, 0, 0.17) 0px 2px 4px 1px;\n}\n\n.customCheckBoxInput:checked + .customCheckBoxWrapper .customCheckBox .inner {\n  transform: translateY(-2px);\n}\n\n.customCheckBoxInput:checked + .customCheckBoxWrapper .customCheckBox:hover {\n  background-color: #34723f;\n  box-shadow: rgba(0, 0, 0, 0.26) 0px -4px 1px 0px inset, rgba(255, 255, 255, 0.17) 0px -1px 1px 0px, rgba(0, 0, 0, 0.15) 0px 3px 6px 2px;\n}\n\n.customCheckBoxWrapper .customCheckBox:hover .inner {\n  transform: translateY(-2px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bethel-nz-honest-elephant-63-5c7d70",
+  "title": "Loader by Bethel-nz (honest-elephant-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Bethel-nz/honest-elephant-63",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Bethel-nz on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Bethel-nz_honest-elephant-63.html",
+  "code": "<svg class=\"pl\" viewBox=\"0 0 128 128\" width=\"128px\" height=\"128px\" xmlns=\"http://www.w3.org/2000/svg\">\n    <defs>\n        <linearGradient id=\"pl-grad\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n            <stop offset=\"0%\" stop-color=\"hsl(193,90%,55%)\"></stop>\n            <stop offset=\"100%\" stop-color=\"hsl(223,90%,55%)\"></stop>\n        </linearGradient>\n    </defs>\n    <circle class=\"pl__ring\" r=\"56\" cx=\"64\" cy=\"64\" fill=\"none\" stroke=\"hsla(0,10%,10%,0.1)\" stroke-width=\"16\" stroke-linecap=\"round\"></circle>\n    <path class=\"pl__worm\" d=\"M92,15.492S78.194,4.967,66.743,16.887c-17.231,17.938-28.26,96.974-28.26,96.974L119.85,59.892l-99-31.588,57.528,89.832L97.8,19.349,13.636,88.51l89.012,16.015S81.908,38.332,66.1,22.337C50.114,6.156,36,15.492,36,15.492a56,56,0,1,0,56,0Z\" fill=\"none\" stroke=\"url(#pl-grad)\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"44 1111\" stroke-dashoffset=\"10\"></path>\n</svg>\n<style>\n/* From Uiverse.io by Bethel-nz - Tags: loader */\n.pl,\n.pl__worm {\n  animation-duration: 3s;\n  animation-iteration-count: infinite;\n}\n\n.pl {\n  animation-name: bump9;\n  animation-timing-function: linear;\n  width: 8em;\n  height: 8em;\n}\n\n.pl__ring {\n  stroke: hsla(var(--hue),10%,10%,0.1);\n  transition: stroke 0.3s;\n}\n\n.pl__worm {\n  animation-name: worm9;\n  animation-timing-function: cubic-bezier(0.42,0.17,0.75,0.83);\n}\n\n/* Animations */\n@keyframes bump9 {\n  from,\n  42%,\n  46%,\n  51%,\n  55%,\n  59%,\n  63%,\n  67%,\n  71%,\n  74%,\n  78%,\n  81%,\n  85%,\n  88%,\n  92%,\n  to {\n    transform: translate(0,0);\n  }\n\n  44% {\n    transform: translate(1.33%,6.75%);\n  }\n\n  53% {\n    transform: translate(-16.67%,-0.54%);\n  }\n\n  61% {\n    transform: translate(3.66%,-2.46%);\n  }\n\n  69% {\n    transform: translate(-0.59%,15.27%);\n  }\n\n  76% {\n    transform: translate(-1.92%,-4.68%);\n  }\n\n  83% {\n    transform: translate(9.38%,0.96%);\n  }\n\n  90% {\n    transform: translate(-4.55%,1.98%);\n  }\n}\n\n@keyframes worm9 {\n  from {\n    stroke-dashoffset: 10;\n  }\n\n  25% {\n    stroke-dashoffset: 295;\n  }\n\n  to {\n    stroke-dashoffset: 1165;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

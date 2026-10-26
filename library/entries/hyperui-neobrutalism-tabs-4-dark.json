@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-neobrutalism-tabs-4-dark",
+  "title": "Tabs: Vertical (neobrutalism) (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/neobrutalism/tabs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "neobrutalism",
+    "tabs",
+    "hyperui",
+    "navigation",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/neobrutalism/tabs/4-dark.html",
+  "code": "<div class=\"mx-auto max-w-3xl p-6\">\n<div class=\"flex gap-8\">\n<div class=\"border-r-2 border-black py-2 dark:border-white\">\n<div class=\"-mr-0.5 flex flex-col\" role=\"tablist\">\n<button aria-selected=\"true\" class=\"border-2 border-black bg-yellow-200 px-6 py-2 font-semibold text-black focus:ring-2 focus:ring-yellow-300 focus:outline-0 dark:border-white dark:bg-yellow-700 dark:text-white dark:focus:ring-yellow-600\" role=\"tab\">\n            General\n          </button>\n<button aria-selected=\"false\" class=\"border-2 border-transparent px-6 py-2 font-semibold text-black hover:bg-black hover:text-white focus:ring-2 focus:ring-yellow-300 focus:outline-0 dark:text-white dark:hover:bg-white dark:hover:text-gray-900 dark:focus:ring-yellow-600\" role=\"tab\">\n            Privacy\n          </button>\n<button aria-selected=\"false\" class=\"border-2 border-transparent px-6 py-2 font-semibold text-black hover:bg-black hover:text-white focus:ring-2 focus:ring-yellow-300 focus:outline-0 dark:text-white dark:hover:bg-white dark:hover:text-gray-900 dark:focus:ring-yellow-600\" role=\"tab\">\n            Security\n          </button>\n</div>\n</div>\n<div class=\"flex-1 py-2\" role=\"tabpanel\">\n<p class=\"text-black dark:text-white\">\n          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt similique, quae hic\n          dicta quo facere facilis praesentium a sunt, est quia pariatur nam, modi aut minus iste\n          odio consectetur molestias iusto cupiditate ullam laborum veniam quos officia. Quos,\n          temporibus perspiciatis!\n        </p>\n</div>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-priyanshugupta28-quick-wolverine-69-04e2df",
+  "title": "Checkbox by PriyanshuGupta28 (quick-wolverine-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/quick-wolverine-69",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "toggle-switch",
+    "cool-toggle"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/PriyanshuGupta28_quick-wolverine-69.html",
+  "code": "<div class=\"checkbox-wrapper\">\n  <label>\n    <input type=\"checkbox\">\n    <span class=\"checkbox\"></span>\n  </label>\n</div>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: checkbox, toggle switch, cool toggle */\n.checkbox-wrapper *,\n  .checkbox-wrapper *::before,\n  .checkbox-wrapper *::after {\n  box-sizing: border-box;\n}\n\n.checkbox-wrapper label {\n  display: block;\n  width: 35px;\n  height: 35px;\n  cursor: pointer;\n}\n\n.checkbox-wrapper input {\n  visibility: hidden;\n  display: none;\n}\n\n.checkbox-wrapper input:checked ~ .checkbox {\n  transform: rotate(45deg);\n  width: 14px;\n  margin-left: 12px;\n  border-color: #000000;\n  border-top-color: transparent;\n  border-left-color: transparent;\n  border-radius: 0;\n}\n\n.checkbox-wrapper .checkbox {\n  display: block;\n  width: inherit;\n  height: inherit;\n  border: 3px solid #434343;\n  border-radius: 6px;\n  transition: all 0.375s;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

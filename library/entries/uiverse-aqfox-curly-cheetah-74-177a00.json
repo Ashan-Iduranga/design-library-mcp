@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-aqfox-curly-cheetah-74-177a00",
+  "title": "Loader by AqFox (curly-cheetah-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AqFox/curly-cheetah-74",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AqFox on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/AqFox_curly-cheetah-74.html",
+  "code": "<div class=\"spinner\"></div>\n<style>\n/* From Uiverse.io by AqFox - Tags: loader */\n.spinner {\n width: 56px;\n height: 56px;\n border-radius: 50%;\n padding: 7px;\n background: conic-gradient(from 135deg at top,#004dff 90deg, #0000 0) 0 calc(50% - 4px)/19px 9.5px,\n          radial-gradient(farthest-side at bottom left,#0000 calc(100% - 7px),#004dff calc(100% - 6px) 99%,#0000) top right/50%  50% content-box content-box,\n          radial-gradient(farthest-side at top,#0000 calc(100% - 7px),#004dff calc(100% - 6px) 99%,#0000) bottom   /100% 50% content-box content-box;\n background-repeat: no-repeat;\n animation: spinner-v8og74 1s infinite linear;\n}\n\n@keyframes spinner-v8og74 {\n 100% {\n  transform: rotate(1turn);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

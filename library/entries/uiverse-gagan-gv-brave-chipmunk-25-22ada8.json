@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-gagan-gv-brave-chipmunk-25-22ada8",
+  "title": "Loader by gagan-gv (brave-chipmunk-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gagan-gv/brave-chipmunk-25",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gagan-gv on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/gagan-gv_brave-chipmunk-25.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by gagan-gv - Tags: loader */\n.loader {\n  width: 60px;\n  height: 60px;\n  background: #4285f4;\n  border-radius: 10%;\n  animation: dice3 7s ease-in-out infinite;\n  filter: drop-shadow(2px 3px 40px #444);\n}\n\n@keyframes dice3 {\n  from, to {\n    transform: translateX(-50px) rotateX(0deg);\n  }\n\n  25% {\n    background: #db4437;\n  }\n\n  50% {\n    background: #f4b400;\n    transform: translateX(50px) rotate(360deg);\n  }\n\n  75% {\n    background: #0f9d58;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-doniaskima-smart-bear-14-7d688a",
+  "title": "Button by doniaskima (smart-bear-14)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/smart-bear-14",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "design",
+    "button-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/doniaskima_smart-bear-14.html",
+  "code": "<button class=\"btn-11\"><span>Button</span></button>\n\n<style>\n/* From Uiverse.io by doniaskima - Tags: button, design, Button design */\n.btn-11,\n.btn-11 *,\n.btn-11 :after,\n.btn-11 :before,\n.btn-11:after,\n.btn-11:before {\n  border: 0 solid;\n  box-sizing: border-box;\n}\n\n.btn-11 {\n  -webkit-tap-highlight-color: transparent;\n  -webkit-appearance: button;\n  background-color: #000;\n  background-image: none;\n  color: #fff;\n  cursor: pointer;\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,\n    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,\n    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;\n  font-size: 100%;\n  font-weight: 900;\n  line-height: 1.5;\n  margin: 0;\n  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);\n  padding: 0;\n  text-transform: uppercase;\n}\n\n.btn-11:disabled {\n  cursor: default;\n}\n\n.btn-11:-moz-focusring {\n  outline: auto;\n}\n\n.btn-11 svg {\n  display: block;\n  vertical-align: middle;\n}\n\n.btn-11 [hidden] {\n  display: none;\n}\n\n.btn-11 {\n  border-radius: 99rem;\n  border-width: 2px;\n  overflow: hidden;\n  padding: 0.8rem 3rem;\n  position: relative;\n}\n\n.btn-11 span {\n  mix-blend-mode: difference;\n}\n\n.btn-11:before {\n  -webkit-animation: bg-scroll 3s linear infinite;\n  animation: bg-scroll 3s linear infinite;\n  -webkit-animation-play-state: paused;\n  animation-play-state: paused;\n  background: repeating-linear-gradient(\n    45deg,\n    hsla(0, 0%, 100%, 0.2),\n    hsla(0, 0%, 100%, 0.2) 0.7%,\n    transparent 0,\n    transparent 4%\n  );\n  content: \"\";\n  display: block;\n  height: 300%;\n  left: -100%;\n  opacity: 0;\n  position: absolute;\n  top: 0;\n  transition: opacity 0.3s, background-color 0.2s;\n  width: 300%;\n}\n\n.btn-11:hover:before {\n  -webkit-animation-play-state: running;\n  animation-play-state: running;\n  opacity: 1;\n}\n\n.btn-11:active:before {\n  background-color: #fff;\n}\n\n@-webkit-keyframes bg-scroll {\n  0% {\n    transform: translateX(0);\n  }\n\n  to {\n    transform: translateX(33%);\n  }\n}\n\n@keyframes bg-scroll {\n  0% {\n    transform: translateX(0);\n  }\n\n  to {\n    transform: translateX(33%);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

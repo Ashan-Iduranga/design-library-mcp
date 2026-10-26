@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-bad-lionfish-99-7206ac",
+  "title": "Loader by Shoh2008 (bad-lionfish-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/bad-lionfish-99",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_bad-lionfish-99.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 150px;\n  height: 150px;\n  border-radius: 50%;\n  position: relative;\n  box-shadow: 0 0 30px 4px rgba(0, 0, 0, 0.5) inset,\n      0 5px 12px rgba(0, 0, 0, 0.15);\n  overflow: hidden;\n}\n\n.loader:before,\n  .loader:after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 45%;\n  top: -40%;\n  background-color: #2e2e2e;\n  animation: wave 5s linear infinite;\n}\n\n.loader:before {\n  border-radius: 30%;\n  background: rgba(122, 122, 122, 0.4);\n  animation: wave 5s linear infinite;\n}\n\n@keyframes wave {\n  0% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-asgardop-quiet-panther-30-3cbdc9",
+  "title": "Button by asgardOP (quiet-panther-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/asgardOP/quiet-panther-30",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "hover",
+    "smooth",
+    "game",
+    "html",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By asgardOP on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/asgardOP_quiet-panther-30.html",
+  "code": "<button class=\"button\">Minecraft</button>\n\n<style>\n/* From Uiverse.io by asgardOP  - Tags: simple, button, hover, smooth, game, html, css */\n.button {\n  cursor: pointer;\n  width: fit-content;\n  height: fit-content;\n  padding: 15px;\n  background-color: rgb(223, 223, 223);\n  border-left: 3px solid white;\n  border-top: 3px solid white;\n  border-right: 3px solid gray;\n  border-bottom: 3px solid gray;\n  font-family: \"Courier New\", Courier, monospace;\n  font-size: 1.1rem;\n  font-weight: 900;\n  outline: 2px solid black;\n}\n\n.button:hover {\n  background-color: rgb(0, 197, 0);\n  color: white;\n  outline-color: white;\n  border-left: 3px solid rgb(0, 255, 0);\n  border-top: 3px solid rgb(0, 255, 0);\n  border-right: 3px solid green;\n  border-bottom: 3px solid green;\n}\n\n.button:active {\n  border-left: 3px solid green;\n  border-top: 3px solid green;\n  border-right: 3px solid rgb(0, 255, 0);\n  border-bottom: 3px solid rgb(0, 255, 0);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

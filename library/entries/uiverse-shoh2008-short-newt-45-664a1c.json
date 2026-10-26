@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shoh2008-short-newt-45-664a1c",
+  "title": "Button by Shoh2008 (short-newt-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/short-newt-45",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "skeuomorphism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Shoh2008_short-newt-45.html",
+  "code": "<button>\n  Button\n</button>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: skeuomorphism, button */\nbutton {\n  background-color: #0078d0;\n  border: 0;\n  border-radius: 56px;\n  color: #fff;\n  cursor: pointer;\n  display: inline-block;\n  font-family: system-ui,-apple-system,system-ui,\"Segoe UI\",Roboto,Ubuntu,\"Helvetica Neue\",sans-serif;\n  font-size: 18px;\n  font-weight: 600;\n  outline: 0;\n  padding: 16px 32px;\n  position: relative;\n  text-align: center;\n  text-decoration: none;\n  -webkit-transition: all .3s;\n  transition: all .3s;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-user-select: none;\n  -ms-touch-action: manipulation;\n  touch-action: manipulation;\n}\n\nbutton:before {\n  background-color: initial;\n  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), to(rgba(255, 255, 255, 0)));\n  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);\n  border-radius: 125px;\n  content: \"\";\n  height: 50%;\n  left: 4%;\n  opacity: .5;\n  position: absolute;\n  top: 0;\n  -webkit-transition: all .3s;\n  transition: all .3s;\n  width: 92%;\n}\n\nbutton:hover {\n  -webkit-box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;\n  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;\n  -webkit-transform: scale(1.05);\n  -ms-transform: scale(1.05);\n  transform: scale(1.05);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

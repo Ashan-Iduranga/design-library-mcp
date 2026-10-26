@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-gharsh11032000-bad-dragon-47-59e635",
+  "title": "Button by gharsh11032000 (bad-dragon-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/bad-dragon-47",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/gharsh11032000_bad-dragon-47.html",
+  "code": "<button class=\"button\">\n  <span>Hover me</span>\n</button>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: button, hover effect */\n.button {\n  position: relative;\n  padding: 15px 30px;\n  font-family: inherit;\n  background-color: var(--color-primary);\n  border: 2px solid;\n  font-size: 20px;\n  font-weight: 600;\n  color: white;\n  cursor: pointer;\n  text-transform: uppercase;\n  overflow: hidden;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);\n}\n\n.button:hover span {\n  background: linear-gradient(135deg, #aefb2a 0%, #57ebde 100% );\n  background-clip: text;\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n}\n\n.button::before {\n  position: absolute;\n  content: '';\n  width: 100%;\n  height: 100%;\n  left: -110%;\n  top: -0%;\n  background: #aefb2a;\n  pointer-events: none;\n  margin: auto;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.button:hover {\n  letter-spacing: 2px;\n  border-image: linear-gradient(135deg, #aefb2a 0%, #57ebde 100% );\n  border-image-slice: 1;\n}\n\n.button:hover::before {\n  left: 110%;\n}\n\n.button:active {\n  scale: 0.95;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

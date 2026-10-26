@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-floating-label-helper-text",
+  "title": "Floating Label: Helper text (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/floating-label/#helper-text",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "floating-label",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Add a helper text in addition to the label if you want to show more information below the input field.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/floating-label.md",
+  "code": "<div class=\"relative\">\n    <input type=\"text\" id=\"floating_helper\" aria-describedby=\"floating_helper_text\" class=\"block rounded-t-base px-2.5 pb-2.5 pt-5 w-full text-sm text-heading bg-neutral-secondary-medium border-0 border-b-2 border-default-medium appearance-none focus:outline-none focus:ring-0 focus:border-brand peer\" placeholder=\" \" />\n    <label for=\"floating_helper\" class=\"absolute text-sm text-body duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] start-2.5 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto\">Floating helper</label>\n</div>\n<p id=\"floating_helper_text\" class=\"mt-2.5 text-xs text-body\">Remember, contributions to this topic should follow our <a href=\"#\" class=\"text-fg-brand hover:underline\">Community Guidelines</a>.</p>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

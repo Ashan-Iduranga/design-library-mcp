@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shoh2008-selfish-crab-11-2ba168",
+  "title": "Loader by Shoh2008 (selfish-crab-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/selfish-crab-11",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "image"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_selfish-crab-11.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader, image */\n.loader {\n  width: 64px;\n  height: 64px;\n  position: relative;\n  background: #FFF;\n  border-radius: 4px;\n  overflow: hidden;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 40px;\n  height: 40px;\n  transform: rotate(45deg) translate(30%, 40%);\n  background: #ff9371;\n  box-shadow: 32px -34px 0 5px #ff3d00;\n  animation: slide 2s infinite ease-in-out alternate;\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  left: 10px;\n  top: 10px;\n  width: 16px;\n  height: 16px;\n  border-radius: 50%;\n  background: #ff3d00;\n  transform: rotate(0deg);\n  transform-origin: 35px 145px;\n  animation: rotate 2s infinite ease-in-out;\n}\n\n@keyframes slide {\n  0% , 100% {\n    bottom: -35px\n  }\n\n  25% , 75% {\n    bottom: -2px\n  }\n\n  20% , 80% {\n    bottom: 2px\n  }\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(-15deg)\n  }\n\n  25% , 75% {\n    transform: rotate(0deg)\n  }\n\n  100% {\n    transform: rotate(25deg)\n  }\n}\n  \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-kemboi-dun-big-dolphin-10-cdce46",
+  "title": "Loader by Kemboi-Dun (big-dolphin-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Kemboi-Dun/big-dolphin-10",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Kemboi-Dun on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Kemboi-Dun_big-dolphin-10.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Kemboi-Dun - Source: https://uiverse.io/Saiyed-Tanvir/old-mole-38 - Tags: simple, animation, blue, minimalist, loading, loader, cube, animated */\n.loader {\n  height: 5cm;\n  width: 5cm;\n  border-radius: 1rem;\n  /* border: 1px solid #0a7cbe; */\n  box-shadow: inset 0 0 0 #0a7cbe;\n  animation: load 4s ease infinite;\n}\n\n@keyframes load {\n  \n  0% {\n    box-shadow: inset -5cm -2.5cm 0 #0a7cbe;\n  }\n\n  25% {\n    box-shadow: inset 5cm -2.5cm 0 #0a7cbe;\n  }\n\n  25.01% {\n    box-shadow: inset 2.5cm -5cm 0 #0a7cbe;\n  }\n\n  50% {\n    box-shadow: inset 2.5cm 5cm 0 #0a7cbe;\n  }\n\n  50.01% {\n    box-shadow: inset 5cm 2.5cm 0 #0a7cbe;\n  }\n\n  75% {\n    box-shadow: inset -5cm 2.5cm 0 #0a7cbe;\n  }\n\n  75.01% {\n    box-shadow: inset -2.5cm 5cm 0 #0a7cbe;\n  }\n\n  100% {\n    box-shadow: inset -2.5cm -5cm 0 #0a7cbe;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

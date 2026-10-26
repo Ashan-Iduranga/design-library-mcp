@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nakamoz-cowardly-vampirebat-40-b0a83f",
+  "title": "Button by NAKAMOZ (cowardly-vampirebat-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/NAKAMOZ/cowardly-vampirebat-40",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By NAKAMOZ on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/NAKAMOZ_cowardly-vampirebat-40.html",
+  "code": "<button>\n  Hover Me\n</button>\n<style>\n/* From Uiverse.io by NAKAMOZ - Tags: button */\nbutton {\n  cursor: pointer;\n  background-color: transparent;\n  color: white;\n  border: none;\n  font-size: 17px;\n  position: relative;\n  z-index: 3;\n  transition: 0.5s;\n  -webkit-transition: 0.5s;\n  -moz-transition: 0.5s;\n  -ms-transition: 0.5s;\n  -o-transition: 0.5s;\n}\n\nbutton::before {\n  content: \"\";\n  border: 3px solid white;\n  position: absolute;\n  left: -25px;\n  bottom: 0;\n  display: block;\n  width: 10px;\n  height: 10px;\n  border-radius: 60px;\n  -webkit-border-radius: 60px;\n  -moz-border-radius: 60px;\n  -ms-border-radius: 60px;\n  -o-border-radius: 60px;\n  transition: 0.5s;\n  -webkit-transition: 0.5s;\n  -moz-transition: 0.5s;\n  -ms-transition: 0.5s;\n  -o-transition: 0.5s;\n}\n\nbutton:hover::before {\n  left: -25px;\n  bottom: -17.5px;\n  width: 100%;\n  padding: 20px;\n  background-color: white;\n  z-index: -1;\n}\n\nbutton:hover {\n  color: #282828;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

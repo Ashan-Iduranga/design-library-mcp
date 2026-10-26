@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-li-deheng-rotten-bullfrog-77-4c69f1",
+  "title": "Input by Li-Deheng (rotten-bullfrog-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Li-Deheng/rotten-bullfrog-77",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "search"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Li-Deheng on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Li-Deheng_rotten-bullfrog-77.html",
+  "code": "<div class=\"search\">\n  <div class=\"search-box\">\n    <div class=\"search-field\">\n      <input placeholder=\"Search...\" class=\"input\" type=\"text\">\n      <div class=\"search-box-icon\">\n        <button class=\"btn-icon-content\">\n          <i class=\"search-icon\">\n            <svg xmlns=\"://www.w3.org/2000/svg\" version=\"1.1\" viewBox=\"0 0 512 512\"><path d=\"M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z\" fill=\"#fff\"></path></svg>\n          </i>\n        </button>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Li-Deheng - Tags: input, search */\n.search {\n  --input-line: #cccccc;\n  --input-text-color: #808080;\n  --input-text-hover-color: transparent;\n  --input-border-color: #808080;\n  --input-border-hover-color: #999999;\n  --input-bg-color: #333333;\n  --search-max-width: 250px;\n  --search-min-width: 150px;\n  --border-radius: 5px;\n  --transition-cubic-bezier: 150ms cubic-bezier(0.4,0,0.2,1);\n}\n\n.search-box {\n  max-width: var(--search-max-width);\n  min-width: var(--search-min-width);\n  height: 35px;\n  border: 1px solid var(--input-border-color);\n  border-radius: var(--border-radius);\n  padding: 5px 15px;\n  background: var(--input-bg-color);\n  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);\n  transition: var(--transition-cubic-bezier);\n}\n\n.search-box:hover {\n  border-color: var(--input-border-hover-color);\n}\n\n/*Section input*/\n.search-field {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  left: -5px;\n  border: 0;\n}\n\n.input {\n  width: calc(100% - 29px);\n  height: 100%;\n  border: 0;\n  border-color: transparent;\n  font-size: 1rem;\n  padding-right: 0px;\n  color: var(--input-line);\n  background: var(--input-bg-color);\n  border-right: 2px solid var(--input-border-color);\n  outline: none;\n}\n\n.input::-webkit-input-placeholder {\n  color: var(--input-text-color);\n}\n\n.input::-moz-input-placeholder {\n  color: var(--input-text-color);\n}\n\n.input::-ms-input-placeholder {\n  color: var(--input-text-color);\n}\n\n.input:focus::-webkit-input-placeholder {\n  color: var(--input-text-hover-color);\n}\n\n.input:focus::-moz-input-placeholder {\n  color: var(--input-text-hover-color);\n}\n\n.input:focus::-ms-input-placeholder {\n  color: var(--input-text-hover-color);\n}\n\n/*Search button*/\n.search-box-icon {\n  width: 52px;\n  height: 35px;\n  position: absolute;\n  top: -6px;\n  right: -21px;\n  background: transparent;\n  border-bottom-right-radius: var(--border-radius);\n  border-top-right-radius: var(--border-radius);\n  transition: var(--transition-cubic-bezier);\n}\n\n.search-box-icon:hover {\n  background: var(--input-border-color);\n}\n\n.btn-icon-content {\n  width: 52px;\n  height: 35px;\n  top: -6px;\n  right: -21px;\n  background: transparent;\n  border: none;\n  cursor: pointer;\n  border-bottom-right-radius: var(--border-radius);\n  border-top-right-radius: var(--border-radius);\n  transition: var(--transition-cubic-bezier);\n  opacity: .4;\n}\n\n.btn-icon-content:hover {\n  opacity: .8;\n}\n\n.search-icon {\n  width: 21px;\n  height: 21px;\n  position: absolute;\n  top: 7px;\n  right: 15px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-button-group-input-group",
+  "title": "Button Group Input Group (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/button-group-input-group.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "button",
+    "group",
+    "input",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A container that groups related buttons together with consistent styling.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/button-group-input-group.tsx",
+  "code": "\"use client\"\n\nimport * as React from \"react\"\nimport { AudioLinesIcon, PlusIcon } from \"lucide-react\"\n\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\nimport { ButtonGroup } from \"@/registry/new-york-v4/ui/button-group\"\nimport {\n  InputGroup,\n  InputGroupAddon,\n  InputGroupButton,\n  InputGroupInput,\n} from \"@/registry/new-york-v4/ui/input-group\"\nimport {\n  Tooltip,\n  TooltipContent,\n  TooltipTrigger,\n} from \"@/registry/new-york-v4/ui/tooltip\"\n\nexport default function ButtonGroupInputGroup() {\n  const [voiceEnabled, setVoiceEnabled] = React.useState(false)\n\n  return (\n    <ButtonGroup className=\"[--radius:9999rem]\">\n      <ButtonGroup>\n        <Button variant=\"outline\" size=\"icon\">\n          <PlusIcon />\n        </Button>\n      </ButtonGroup>\n      <ButtonGroup>\n        <InputGroup>\n          <InputGroupInput\n            placeholder={\n              voiceEnabled ? \"Record and send audio...\" : \"Send a message...\"\n            }\n            disabled={voiceEnabled}\n          />\n          <InputGroupAddon align=\"inline-end\">\n            <Tooltip>\n              <TooltipTrigger asChild>\n                <InputGroupButton\n                  onClick={() => setVoiceEnabled(!voiceEnabled)}\n                  size=\"icon-xs\"\n                  data-active={voiceEnabled}\n                  className=\"data-[active=true]:bg-orange-100 data-[active=true]:text-orange-700 dark:data-[active=true]:bg-orange-800 dark:data-[active=true]:text-orange-100\"\n                  aria-pressed={voiceEnabled}\n                >\n                  <AudioLinesIcon />\n                </InputGroupButton>\n              </TooltipTrigger>\n              <TooltipContent>Voice Mode</TooltipContent>\n            </Tooltip>\n          </InputGroupAddon>\n        </InputGroup>\n      </ButtonGroup>\n    </ButtonGroup>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

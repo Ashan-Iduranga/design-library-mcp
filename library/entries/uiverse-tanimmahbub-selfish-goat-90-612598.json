@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-tanimmahbub-selfish-goat-90-612598",
+  "title": "Button by TanimMahbub (selfish-goat-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TanimMahbub/selfish-goat-90",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "shadow",
+    "retro",
+    "click",
+    "click-effect",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TanimMahbub on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/TanimMahbub_selfish-goat-90.html",
+  "code": "<button class=\"button\">Button</button>\n\n<style>\n/* From Uiverse.io by TanimMahbub  - Tags: simple, button, shadow, retro, click, click effect, box-shadow */\n.button {\n  /* typography */\n  font-size: 22px;\n  font-weight: 600;\n  font-family: monospace;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n\n  /* ui */\n  border: none;\n  cursor: pointer;\n  display: inline-block;\n  padding: 12px 35px;\n  border-radius: 8px;\n  background: #f6781e;\n  color: #fff;\n  box-shadow: 0 0 0 3px #2f2e41, 0 6px 0 #2f2e41;\n  transition: all 0.1s ease, background 0.3s ease;\n}\n\n/* ux */\n.button:hover,\n.button:focus {\n  background: #df6108;\n}\n\n.button:active {\n  box-shadow: 0 0 0 3px #2f2e41, 0 4px 0 #2f2e41;\n  transform: translateY(2px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

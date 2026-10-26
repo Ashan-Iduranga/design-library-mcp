@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-native-select-groups",
+  "title": "Native Select Groups (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/native-select-groups.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "native",
+    "select",
+    "groups",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A styled native HTML select element with consistent design system integration.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/native-select-groups.tsx",
+  "code": "import {\n  NativeSelect,\n  NativeSelectOptGroup,\n  NativeSelectOption,\n} from \"@/registry/new-york-v4/ui/native-select\"\n\nexport default function NativeSelectGroups() {\n  return (\n    <NativeSelect>\n      <NativeSelectOption value=\"\">Select department</NativeSelectOption>\n      <NativeSelectOptGroup label=\"Engineering\">\n        <NativeSelectOption value=\"frontend\">Frontend</NativeSelectOption>\n        <NativeSelectOption value=\"backend\">Backend</NativeSelectOption>\n        <NativeSelectOption value=\"devops\">DevOps</NativeSelectOption>\n      </NativeSelectOptGroup>\n      <NativeSelectOptGroup label=\"Sales\">\n        <NativeSelectOption value=\"sales-rep\">Sales Rep</NativeSelectOption>\n        <NativeSelectOption value=\"account-manager\">\n          Account Manager\n        </NativeSelectOption>\n        <NativeSelectOption value=\"sales-director\">\n          Sales Director\n        </NativeSelectOption>\n      </NativeSelectOptGroup>\n      <NativeSelectOptGroup label=\"Operations\">\n        <NativeSelectOption value=\"support\">\n          Customer Support\n        </NativeSelectOption>\n        <NativeSelectOption value=\"product-manager\">\n          Product Manager\n        </NativeSelectOption>\n        <NativeSelectOption value=\"ops-manager\">\n          Operations Manager\n        </NativeSelectOption>\n      </NativeSelectOptGroup>\n    </NativeSelect>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

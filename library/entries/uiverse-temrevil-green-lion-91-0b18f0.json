@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-temrevil-green-lion-91-0b18f0",
+  "title": "Loader by TemRevil (green-lion-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TemRevil/green-lion-91",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "blue",
+    "loading",
+    "game",
+    "circle-loader",
+    "effect-loader",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TemRevil on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/TemRevil_green-lion-91.html",
+  "code": "<div class=\"loading\">\n  <div class=\"loading-box\">\n    <div class=\"WH color l1\"></div>\n    <div class=\"ball color\"></div>\n    <div class=\"WH color l2\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by TemRevil  - Tags: simple, blue, loading, loader, game, circle loader, effect loader, loading animation */\nloading {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.loading-box {\n  width: 250px;\n  height: 100px;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  position: relative;\n}\n\n.color {\n  background-color: #3395ff;\n}\n.WH {\n  width: 10px;\n  height: 70px;\n  position: absolute;\n}\n\n.l1 {\n  left: 0;\n  animation: l1 4s infinite linear;\n}\n.l2 {\n  right: 0;\n  animation: l2 4s infinite linear;\n}\n.ball {\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  position: absolute;\n  animation: ball 4s infinite linear;\n}\n\n@keyframes l1 {\n  0% {\n    top: 0%;\n  }\n  10% {\n    top: -20%;\n  }\n  20% {\n    top: 0%;\n  }\n  30% {\n    top: 40%;\n  }\n  40% {\n    top: 0%;\n  }\n  50% {\n    top: 30%;\n  }\n  60% {\n    top: 40%;\n  }\n  70% {\n    top: 60%;\n  }\n  80% {\n    top: -10%;\n  }\n  90% {\n    top: 10%;\n  }\n  100% {\n    top: 0%;\n  }\n}\n@keyframes l2 {\n  0% {\n    bottom: 0%;\n  }\n  10% {\n    bottom: -20%;\n  }\n  20% {\n    bottom: 40%;\n  }\n  30% {\n    bottom: 60%;\n  }\n  40% {\n    bottom: 20%;\n  }\n  50% {\n    bottom: 30%;\n  }\n  60% {\n    bottom: 40%;\n  }\n  70% {\n    bottom: 60%;\n  }\n  80% {\n    bottom: -10%;\n  }\n  90% {\n    bottom: 10%;\n  }\n  100% {\n    bottom: 0%;\n  }\n}\n@keyframes ball {\n  0% {\n    top: 80%;\n    left: 96%;\n  }\n  10% {\n    top: 10%;\n    left: 3%;\n  }\n  20% {\n    top: 10%;\n    left: 90%;\n  }\n  30% {\n    top: 60%;\n    left: 3%;\n  }\n  40% {\n    top: 10%;\n    left: 90%;\n  }\n  50% {\n    top: 50%;\n    left: 3%;\n  }\n  60% {\n    top: 10%;\n    left: 90%;\n  }\n  70% {\n    top: 93%;\n    left: 3%;\n  }\n  80% {\n    top: 83%;\n    left: 90%;\n  }\n  90% {\n    top: 10%;\n    left: 3%;\n  }\n  100% {\n    top: 80%;\n    left: 90%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

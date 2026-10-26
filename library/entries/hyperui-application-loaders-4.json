@@ -1,0 +1,32 @@
+{
+  "id": "hyperui-application-loaders-4",
+  "title": "Loaders: Progress bar",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/loaders",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "loaders",
+    "hyperui",
+    "progress"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Horizontal bar indicator showing loading progress\n\nOriginal file: https://github.com/markmead/hyperui/blob/main/public/examples/application/loaders/4.html",
+  "code": "<div class=\"flex min-h-screen items-center justify-center p-6\">\n<div class=\"w-full max-w-sm\" role=\"status\">\n<div class=\"h-2 overflow-hidden rounded-full bg-gray-200\">\n<div class=\"h-full w-[80%] animate-pulse bg-indigo-600\"></div>\n</div>\n<p class=\"mt-4 text-center font-medium text-gray-700\">Loading...</p>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shubh0408-angry-owl-36-048ab3",
+  "title": "Checkbox by Shubh0408 (angry-owl-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shubh0408/angry-owl-36",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "menu"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shubh0408 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Shubh0408_angry-owl-36.html",
+  "code": "<!-- From Uiverse.io by Shubh0408  - Tags: checkbox, menu, tailwindcss -->\n<label class=\"flex flex-col gap-2 w-8\">\n  <input class=\"peer hidden\" type=\"checkbox\" />\n  <div\n    class=\"rounded-2xl h-[3px] w-1/2 bg-black duration-500 peer-checked:rotate-[225deg] origin-right peer-checked:-translate-x-[12px] peer-checked:-translate-y-[1px]\"\n  ></div>\n  <div\n    class=\"rounded-2xl h-[3px] w-full bg-black duration-500 peer-checked:-rotate-45\"\n  ></div>\n  <div\n    class=\"rounded-2xl h-[3px] w-1/2 bg-black duration-500 place-self-end peer-checked:rotate-[225deg] origin-left peer-checked:translate-x-[12px] peer-checked:translate-y-[1px]\"\n  ></div>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "radix-colors-crimson",
+  "title": "Radix Colors: Crimson scale",
+  "source": "Radix Colors",
+  "url": "https://www.radix-ui.com/colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "crimson",
+    "radix",
+    "color-scale",
+    "color",
+    "accessible",
+    "dark-mode"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "12-step crimson scale with a matching dark-mode scale. Steps 1-2: app and subtle backgrounds. 3-5: component backgrounds (normal, hover, pressed). 6-8: borders and focus rings. 9-10: solid backgrounds (e.g. buttons). 11-12: low and high contrast text.\n\nAlso available: crimsonA (alpha) and P3 wide-gamut versions.\n\nUse: npm i @radix-ui/colors, then import \"@radix-ui/colors/crimson.css\" and \"@radix-ui/colors/crimson-dark.css\".\n\nOriginal file: https://github.com/radix-ui/colors/blob/main/src/light.ts",
+  "code": "<style>\n:root {\n  --crimson-1: #fffcfd;\n  --crimson-2: #fef7f9;\n  --crimson-3: #ffe9f0;\n  --crimson-4: #fedce7;\n  --crimson-5: #facedd;\n  --crimson-6: #f3bed1;\n  --crimson-7: #eaacc3;\n  --crimson-8: #e093b2;\n  --crimson-9: #e93d82;\n  --crimson-10: #df3478;\n  --crimson-11: #cb1d63;\n  --crimson-12: #621639;\n}\n.dark {\n  --crimson-1: #191114;\n  --crimson-2: #201318;\n  --crimson-3: #381525;\n  --crimson-4: #4d122f;\n  --crimson-5: #5c1839;\n  --crimson-6: #6d2545;\n  --crimson-7: #873356;\n  --crimson-8: #b0436e;\n  --crimson-9: #e93d82;\n  --crimson-10: #ee518a;\n  --crimson-11: #ff92ad;\n  --crimson-12: #fdd3e8;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Radix crimson</strong>\n<p>light</p><div class=\"row\"><div style=\"background:#fffcfd\" title=\"--crimson-1: #fffcfd\"><span>1</span></div><div style=\"background:#fef7f9\" title=\"--crimson-2: #fef7f9\"><span>2</span></div><div style=\"background:#ffe9f0\" title=\"--crimson-3: #ffe9f0\"><span>3</span></div><div style=\"background:#fedce7\" title=\"--crimson-4: #fedce7\"><span>4</span></div><div style=\"background:#facedd\" title=\"--crimson-5: #facedd\"><span>5</span></div><div style=\"background:#f3bed1\" title=\"--crimson-6: #f3bed1\"><span>6</span></div><div style=\"background:#eaacc3\" title=\"--crimson-7: #eaacc3\"><span>7</span></div><div style=\"background:#e093b2\" title=\"--crimson-8: #e093b2\"><span>8</span></div><div style=\"background:#e93d82\" title=\"--crimson-9: #e93d82\"><span>9</span></div><div style=\"background:#df3478\" title=\"--crimson-10: #df3478\"><span>10</span></div><div style=\"background:#cb1d63\" title=\"--crimson-11: #cb1d63\"><span>11</span></div><div style=\"background:#621639\" title=\"--crimson-12: #621639\"><span>12</span></div></div>\n<p>dark</p><div class=\"row\"><div style=\"background:#191114\" title=\"--crimson-1: #191114\"><span>1</span></div><div style=\"background:#201318\" title=\"--crimson-2: #201318\"><span>2</span></div><div style=\"background:#381525\" title=\"--crimson-3: #381525\"><span>3</span></div><div style=\"background:#4d122f\" title=\"--crimson-4: #4d122f\"><span>4</span></div><div style=\"background:#5c1839\" title=\"--crimson-5: #5c1839\"><span>5</span></div><div style=\"background:#6d2545\" title=\"--crimson-6: #6d2545\"><span>6</span></div><div style=\"background:#873356\" title=\"--crimson-7: #873356\"><span>7</span></div><div style=\"background:#b0436e\" title=\"--crimson-8: #b0436e\"><span>8</span></div><div style=\"background:#e93d82\" title=\"--crimson-9: #e93d82\"><span>9</span></div><div style=\"background:#ee518a\" title=\"--crimson-10: #ee518a\"><span>10</span></div><div style=\"background:#ff92ad\" title=\"--crimson-11: #ff92ad\"><span>11</span></div><div style=\"background:#fdd3e8\" title=\"--crimson-12: #fdd3e8\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "Building a UI color system with predictable steps for backgrounds, borders and text, including dark mode.",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

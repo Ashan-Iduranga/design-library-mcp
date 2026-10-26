@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-voxybuns-lucky-fireant-71-0f0dcb",
+  "title": "Button by Voxybuns (lucky-fireant-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Voxybuns/lucky-fireant-71",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Voxybuns on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Voxybuns_lucky-fireant-71.html",
+  "code": "<button>\n  <span class=\"button_top\"> Button\n  </span>\n</button>\n<style>\n/* From Uiverse.io by Voxybuns - Tags: button */\nbutton {\n  /* Variables */\n  --button_radius: 0.75em;\n  --button_color: #e8e8e8;\n  --button_outline_color: #000000;\n  font-size: 17px;\n  font-weight: bold;\n  border: none;\n  border-radius: var(--button_radius);\n  background: var(--button_outline_color);\n}\n\n.button_top {\n  display: block;\n  box-sizing: border-box;\n  border: 2px solid var(--button_outline_color);\n  border-radius: var(--button_radius);\n  padding: 0.75em 1.5em;\n  background: var(--button_color);\n  color: var(--button_outline_color);\n  transform: translateY(-0.2em);\n  transition: transform 0.1s ease;\n}\n\nbutton:hover .button_top {\n  /* Pull the button upwards when hovered */\n  transform: translateY(-0.33em);\n}\n\nbutton:active .button_top {\n  /* Push the button downwards when pressed */\n  transform: translateY(0);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

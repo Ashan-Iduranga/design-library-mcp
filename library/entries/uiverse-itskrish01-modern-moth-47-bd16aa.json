@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-itskrish01-modern-moth-47-bd16aa",
+  "title": "Loader by Itskrish01 (modern-moth-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Itskrish01/modern-moth-47",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Itskrish01 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Itskrish01_modern-moth-47.html",
+  "code": "<div class=\"loader\">\n  <div class=\"pattern-1\">\n    <div class=\"pattern-1-shade\"></div>\n  </div>\n  <div class=\"pattern-2\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by Itskrish01  - Tags: loader */\n.loader {\n  position: relative;\n  width: 200px;\n  height: 200px;\n}\n\n.loader .pattern-1 {\n  position: absolute;\n  background-color: #ff4c5a;\n  width: 200px;\n  height: 200px;\n  clip-path: polygon(0 10%, 70% 90%, 40% 90%, 0 45%);\n}\n\n.loader .pattern-2 {\n  position: absolute;\n  background-color: #ff4c5a;\n  width: 220px;\n  height: 190px;\n  clip-path: polygon(100% 10%, 100% 45%, 83% 65%, 55% 65%);\n}\n\n.loader .pattern-1 .pattern-1-shade {\n  position: absolute;\n  transform: translateX(-20px);\n  opacity: 0.7;\n  z-index: 10;\n  background-color: white;\n  width: 20px;\n  height: 200px;\n  animation: shiny 1s infinite;\n}\n\n@keyframes shiny {\n  0% {\n    transform: translateX(-20px);\n  }\n  100% {\n    transform: translateX(140px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

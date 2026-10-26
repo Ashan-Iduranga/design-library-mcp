@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-menezes11-afraid-lizard-67-603f98",
+  "title": "Button by menezes11 (afraid-lizard-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/menezes11/afraid-lizard-67",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By menezes11 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/menezes11_afraid-lizard-67.html",
+  "code": "<button>\n  <span></span>\n  <span></span>\n  <span></span>\n  <span></span> Hover me\n</button>\n<style>\n/* From Uiverse.io by menezes11 - Tags: button */\nbutton {\n position: relative;\n padding: 1em 1.8em;\n outline: none;\n border: 1px solid #303030;\n background: #212121;\n color: #ae00ff;\n text-transform: uppercase;\n letter-spacing: 2px;\n font-size: 15px;\n overflow: hidden;\n transition: 0.2s;\n border-radius: 20px;\n cursor: pointer;\n font-weight: bold;\n}\n\nbutton:hover {\n box-shadow: 0 0 10px #ae00ff, 0 0 25px #001eff, 0 0 50px #ae00ff;\n transition-delay: 0.6s;\n}\n\nbutton span {\n position: absolute;\n}\n\nbutton span:nth-child(1) {\n top: 0;\n left: -100%;\n width: 100%;\n height: 2px;\n background: linear-gradient(90deg, transparent, #ae00ff);\n}\n\nbutton:hover span:nth-child(1) {\n left: 100%;\n transition: 0.7s;\n}\n\nbutton span:nth-child(3) {\n bottom: 0;\n right: -100%;\n width: 100%;\n height: 2px;\n background: linear-gradient(90deg, transparent, #001eff);\n}\n\nbutton:hover span:nth-child(3) {\n right: 100%;\n transition: 0.7s;\n transition-delay: 0.35s;\n}\n\nbutton span:nth-child(2) {\n top: -100%;\n right: 0;\n width: 2px;\n height: 100%;\n background: linear-gradient(180deg, transparent, #ae00ff);\n}\n\nbutton:hover span:nth-child(2) {\n top: 100%;\n transition: 0.7s;\n transition-delay: 0.17s;\n}\n\nbutton span:nth-child(4) {\n bottom: -100%;\n left: 0;\n width: 2px;\n height: 100%;\n background: linear-gradient(360deg, transparent, #001eff);\n}\n\nbutton:hover span:nth-child(4) {\n bottom: 100%;\n transition: 0.7s;\n transition-delay: 0.52s;\n}\n\nbutton:active {\n background: #ae00af;\n background: linear-gradient(to top right, #ae00af, #001eff);\n color: #bfbfbf;\n box-shadow: 0 0 8px #ae00ff, 0 0 8px #001eff, 0 0 8px #ae00ff;\n transition: 0.1s;\n}\n\nbutton:active span:nth-child(1) \nspan:nth-child(2) \nspan:nth-child(2) \nspan:nth-child(2) {\n transition: none;\n transition-delay: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

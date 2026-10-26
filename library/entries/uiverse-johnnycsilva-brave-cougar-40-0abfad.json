@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-johnnycsilva-brave-cougar-40-0abfad",
+  "title": "Button by JohnnyCSilva (brave-cougar-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JohnnyCSilva/brave-cougar-40",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JohnnyCSilva on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JohnnyCSilva_brave-cougar-40.html",
+  "code": "<button class=\"btn\">Button \n  <span class=\"icon-right\"></span>\n  <span class=\"icon-right after\"></span>\n</button>\n<style>\n/* From Uiverse.io by JohnnyCSilva - Tags: button */\nbutton {\n  font-family: 'Poppins', sans-serif;\n  letter-spacing: 2px;\n  background: none;\n  color: white;\n  position: relative;\n  outline: none;\n  border: none;\n  height: 50px;\n  width: 190px;\n  font-size: 14px;\n  z-index: 2;\n  transition: 0.01s 0.23s ease-out all;\n  overflow: hidden;\n}\n\nbutton:before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: 0;\n  height: 100%;\n  width: 55%;\n  background: #303030;\n  z-index: -1;\n  transition: 0.3s ease-in all;\n}\n\nbutton:after {\n  content: \"\";\n  position: absolute;\n  left: -5%;\n  top: 5%;\n  height: 90%;\n  width: 5%;\n  background: white;\n  transition: 0.4s 0.02s ease-in all;\n}\n\nbutton:hover {\n  cursor: pointer;\n  color: transparent;\n}\n\nbutton:hover:before {\n  left: 120%;\n  width: 25%;\n}\n\nbutton:hover:after {\n  left: 100%;\n  width: 70%;\n}\n\nbutton:hover > .icon-right.after:after {\n  left: -80px;\n  color: white;\n  transition: 0.2s 0.2s ease all;\n}\n\nbutton:hover > .icon-right.after:before {\n  left: -104px;\n  top: 14px;\n  opacity: 0.2;\n  color: white;\n}\n\n.icon-right {\n  position: absolute;\n  top: 0;\n  right: 0;\n}\n\n.icon-right:after {\n  font-family: \"FontAwesome\";\n  content: \"→\";\n  font-size: 24px;\n  display: inline-block;\n  position: relative;\n  top: 26px;\n  transform: translate3D(0, -55%, 0);\n}\n\n.icon-right.after:after {\n  left: -250px;\n  color: black;\n  transition: 0.15s 0.25s ease left, 0.5s 0.05s ease color;\n}\n\n.icon-right.after:before {\n  content: \"Click Me!\";\n  position: absolute;\n  left: -230px;\n  top: 14px;\n  opacity: 0;\n  transition: 0.2s ease-in all;\n}\n\n.signature {\n  position: fixed;\n  font-family: sans-serif;\n  font-weight: 100;\n  bottom: 10px;\n  left: 0;\n  letter-spacing: 4px;\n  font-size: 10px;\n  width: 100%;\n  text-align: center;\n  color: white;\n  text-transform: uppercase;\n  text-decoration: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

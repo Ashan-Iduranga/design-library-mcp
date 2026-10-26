@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-amit-dasit-weak-donkey-85-a4eddf",
+  "title": "Input by AmIt-DasIT (weak-donkey-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AmIt-DasIT/weak-donkey-85",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "neumorphism",
+    "skeuomorphism",
+    "3d"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AmIt-DasIT on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/AmIt-DasIT_weak-donkey-85.html",
+  "code": "<div class=\"container\">\n  <input required=\"\" type=\"text\" name=\"text\" class=\"input\">\n  <label class=\"label\">Username</label>\n</div>\n<style>\n/* From Uiverse.io by AmIt-DasIT - Tags: neumorphism, skeuomorphism, 3d, input */\n.container {\n  display: flex;\n  flex-direction: column;\n  gap: 7px;\n  position: relative;\n  color: white;\n}\n\n.container .label {\n  font-size: 15px;\n  padding-left: 10px;\n  position: absolute;\n  top: 13px;\n  transition: 0.3s;\n  pointer-events: none;\n}\n\n.input {\n  width: 200px;\n  height: 45px;\n  border: none;\n  outline: none;\n  padding: 0px 7px;\n  border-radius: 6px;\n  color: #fff;\n  font-size: 15px;\n  background-color: transparent;\n  box-shadow: 3px 3px 10px rgba(0,0,0,1),\n  -1px -1px 6px rgba(255, 255, 255, 0.4);\n}\n\n.input:focus {\n  border: 2px solid transparent;\n  color: #fff;\n  box-shadow: 3px 3px 10px rgba(0,0,0,1),\n  -1px -1px 6px rgba(255, 255, 255, 0.4),\n  inset 3px 3px 10px rgba(0,0,0,1),\n  inset -1px -1px 6px rgba(255, 255, 255, 0.4);\n}\n\n.container .input:valid ~ .label,\n.container .input:focus ~ .label {\n  transition: 0.3s;\n  padding-left: 2px;\n  transform: translateY(-35px);\n}\n\n.container .input:valid,\n.container .input:focus {\n  box-shadow: 3px 3px 10px rgba(0,0,0,1),\n  -1px -1px 6px rgba(255, 255, 255, 0.4),\n  inset 3px 3px 10px rgba(0,0,0,1),\n  inset -1px -1px 6px rgba(255, 255, 255, 0.4);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

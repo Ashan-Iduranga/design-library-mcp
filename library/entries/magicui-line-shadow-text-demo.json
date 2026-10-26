@@ -1,0 +1,37 @@
+{
+  "id": "magicui-line-shadow-text-demo",
+  "title": "Line Shadow Text Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/line-shadow-text",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "line",
+    "shadow",
+    "text",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a text component with a moving line shadow.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/line-shadow-text-demo.tsx",
+  "code": "\"use client\"\n\nimport { useTheme } from \"next-themes\"\n\nimport { LineShadowText } from \"@/registry/magicui/line-shadow-text\"\n\nexport default function LineShadowTextDemo() {\n  const theme = useTheme()\n  const shadowColor = theme.resolvedTheme === \"dark\" ? \"white\" : \"black\"\n  return (\n    <h1 className=\"text-5xl leading-none font-semibold tracking-tighter text-balance sm:text-6xl md:text-7xl lg:text-8xl\">\n      Ship\n      <LineShadowText className=\"italic\" shadowColor={shadowColor}>\n        Fast\n      </LineShadowText>\n    </h1>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

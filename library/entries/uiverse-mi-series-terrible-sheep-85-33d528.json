@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mi-series-terrible-sheep-85-33d528",
+  "title": "Button by mi-series (terrible-sheep-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mi-series/terrible-sheep-85",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "minimalist",
+    "minimal"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mi-series on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mi-series_terrible-sheep-85.html",
+  "code": "<button>\n  Hover Me\n</button>\n<style>\n/* From Uiverse.io by mi-series - Tags: minimalist, button, minimal */\nbutton {\n  width: 160px;\n  line-height: 40px;\n  font-weight: 500px;\n  font-size: 17px;\n  letter-spacing: 2px;\n  text-decoration: none;\n  text-transform: uppercase;\n  padding: 0;\n  background: #FBEAEB;\n  position: relative;\n  z-index: 2;\n  color: #FBEAEB;\n  perspective: 300px;\n  transform-style: preserve-3d;\n  border-radius: 6px;\n  border: none;\n}\n\nbutton:hover {\n  color: #2F3C7E;\n}\n\nbutton::after {\n  position: absolute;\n  content: \"\";\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  font-weight: 500px;\n  background: #2F3C7E;\n  border-radius: 6px;\n  z-index: -1;\n  transform-origin: center bottom;\n  transform: rotateX(0);\n  transition: all 0.3s ease;\n}\n\nbutton:hover::after {\n  transform: rotateX(-180deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

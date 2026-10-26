@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-terrible-frog-94-d0372e",
+  "title": "Toggle by csemszepp (terrible-frog-94)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/terrible-frog-94",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/csemszepp_terrible-frog-94.html",
+  "code": "<div class=\"form\">\n<input type=\"checkbox\" id=\"bubble\">\n<label class=\"bubble\" for=\"bubble\"></label>\n</div>\n<style>\n/* From Uiverse.io by csemszepp - Source: https://codepen.io/onediv/pen/pjgNqJ - Tags: switch, toggle switch */\n.form {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  height: 100px;\n  padding: 10px 0;\n  width: 260px;\n  transform: translate3d(-50%,-50%,0);\n}\n\n.form:before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: -5px;\n  height: 100%;\n  width: 120px;\n  background-color: #243548;\n  border-radius: 50%;\n  box-shadow: 75px 0 0 #243548, 150px 0 0 #243548;\n}\n\n.form:after {\n  content: '';\n  position: absolute;\n  top: -94px;\n  left: 70px;\n  height: 100%;\n  width: 120px;\n  border-radius: 50%;\n}\n\n.form input {\n  position: absolute;\n  left: -9999px;\n}\n\n.bubble {\n  position: absolute;\n  z-index: 2;\n  cursor: pointer;\n  top: 50%;\n  left: 50%;\n  height: 100px;\n  width: 100px;\n  transform: translate3d(-75%,-50%,0);\n  margin-left: -50px;\n  background: #BBBBBB;\n  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;\n  border-right: 0px solid #BBBBBB;\n  border-left: 0px solid #BBBBBB;\n  animation: toggle-reverse 2s 1;\n}\n\n#bubble:checked + .bubble {\n  animation: toggle 2s 1;\n  transform: translate3d(75%,-50%,0);\n  background: #3CCC97;\n}\n\n.bubble:after {\n  content: '';\n  position: absolute;\n  top: 50%;\n  margin-top: -15px;\n  margin-left: -2px;\n  height: 30px;\n  width: 4px;\n  background: #fff;\n  left: 50%;\n  transform: rotate(45deg);\n  border-radius: 2px;\n  transition: 500ms ease all 1.25s;\n}\n\n.bubble:before {\n  content: '';\n  position: absolute;\n  top: 50%;\n  margin-top: -15px;\n  margin-left: -2px;\n  height: 30px;\n  width: 4px;\n  background: #fff;\n  left: 50%;\n  transform: rotate(-45deg);\n  border-radius: 2px;\n  transition: 500ms ease all 1.25s;\n}\n\n#bubble:checked + .bubble:after {\n  content: '';\n  position: absolute;\n  top: 50%;\n  margin-top: -15px;\n  margin-left: 5px;\n  height: 30px;\n  width: 4px;\n  background: #fff;\n  left: 50%;\n  transform: rotate(225deg);\n  border-radius: 2px;\n}\n\n#bubble:checked + .bubble:before {\n  content: '';\n  position: absolute;\n  top: 50%;\n  margin-top: -7px;\n  margin-left: -10px;\n  height: 20px;\n  width: 4px;\n  background: #fff;\n  left: 50%;\n  transform: rotate(-215deg);\n  border-radius: 2px;\n}\n\n@keyframes toggle {\n  0% {\n    transform: translate3d(-75%,-50%,0);\n    border-right: 0 solid #BBBBBB;\n    border-left: 0 solid #BBBBBB;\n    background: #BBBBBB;\n    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;\n    height: 100px;\n  }\n\n  20% {\n    border-right: 0 solid #BBBBBB;\n    border-left: 0 solid #BBBBBB;\n    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;\n    transform: translate3d(-75%,-50%,0);\n    height: 100px;\n  }\n\n  40% {\n    border-left: 0 solid #BBBBBB;\n    border-radius: 35% 65% 65% 35% / 50% 50% 50% 50%;\n    height: 90px;\n  }\n\n  50% {\n    transform: translate3d(0%,-50%,0);\n    border-right: 25px solid #BBBBBB;\n    border-left: 0 solid #BBBBBB;\n    background: #BBBBBB;\n    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;\n    height: 90px;\n  }\n\n  75% {\n    border-left: 25px solid #3CCC97;\n    border-color: #3CCC97;\n    background: #3CCC97;\n    border-radius: 65% 35% 35% 65% / 50% 50% 50% 50%;\n    height: 90px;\n  }\n\n  100% {\n    border-right: 0 solid #3CCC97;\n    border-left: 0 solid #3CCC97;\n    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;\n    transform: translate3d(75%,-50%,0);\n    height: 100px;\n    width: 100px\n  }\n}\n\n@keyframes toggle-reverse {\n  0% {\n    transform: translate3d(75%,-50%,0);\n    background: #3CCC97;\n    border-right: 0 solid #3CCC97;\n    border-left: 0 solid #3CCC97;\n    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;\n    height: 100px;\n  }\n\n  20% {\n    border-right: 0 solid #3CCC97;\n    border-left: 0 solid #3CCC97;\n    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;\n    transform: translate3d(75%,-50%,0);\n    height: 100px;\n  }\n\n  40% {\n    border-right: 0 solid #3CCC97;\n    border-radius: 65% 35% 35% 65% / 50% 50% 50% 50%;\n    height: 90px;\n  }\n\n  50% {\n    transform: translate3d(0%,-50%,0);\n    border-left: 25px solid #3CCC97;\n    border-right: 0 solid #3CCC97;\n    background: #3CCC97;\n    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;\n    height: 90px;\n  }\n\n  75% {\n    border-right: 25px solid #BBBBBB;\n    border-color: #BBBBBB;\n    background: #BBBBBB;\n    border-radius: 35% 65% 65% 35% / 50% 50% 50% 50%;\n    height: 90px;\n  }\n\n  100% {\n    border-right: 0 solid #BBBBBB;\n    border-left: 0 solid #BBBBBB;\n    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;\n    transform: translate3d(-75%,-50%,0);\n    height: 100px;\n    width: 100px\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

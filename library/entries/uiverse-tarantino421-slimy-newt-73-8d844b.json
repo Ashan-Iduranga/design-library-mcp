@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-tarantino421-slimy-newt-73-8d844b",
+  "title": "Button by tarantino421 (slimy-newt-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/tarantino421/slimy-newt-73",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover-button",
+    "snow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By tarantino421 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/tarantino421_slimy-newt-73.html",
+  "code": "<div class=\"box\">\n  <button class=\"button\">SNOW</button>\n  <div class=\"snowfall\">\n    <span style=\"--i: 12\" class=\"snowflake\"></span>\n    <span style=\"--i: 31\" class=\"snowflake\"></span>\n    <span style=\"--i: 18\" class=\"snowflake\"></span>\n    <span style=\"--i: 9\" class=\"snowflake\"></span>\n    <span style=\"--i: 41\" class=\"snowflake\"></span>\n    <span style=\"--i: 22\" class=\"snowflake\"></span>\n    <span style=\"--i: 16\" class=\"snowflake\"></span>\n    <span style=\"--i: 35\" class=\"snowflake\"></span>\n    <span style=\"--i: 9\" class=\"snowflake\"></span>\n    <span style=\"--i: 14\" class=\"snowflake\"></span>\n    <span style=\"--i: 19\" class=\"snowflake\"></span>\n    <span style=\"--i: 6\" class=\"snowflake\"></span>\n    <span style=\"--i: 53\" class=\"snowflake\"></span>\n    <span style=\"--i: 26\" class=\"snowflake\"></span>\n    <span style=\"--i: 34\" class=\"snowflake\"></span>\n    <span style=\"--i: 18\" class=\"snowflake\"></span>\n    <span style=\"--i: 8\" class=\"snowflake\"></span>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by tarantino421 - Tags: button, hover button, snow */\n.box {\n  --clr-shadow__border: #0096fa;\n  --clr-text: #F6F4EB;\n  --clr-snowflake: #F6F4EB;\n  --clr-snowfall: #91C8E4;\n  --size: 3rem;\n  position: relative;\n  outline: 1px solid var(--clr-shadow__border);\n}\n\n.button {\n  font-weight: 600;\n  font-size: 1.5rem;\n  letter-spacing: 0.2rem;\n  padding: calc(var(--size) / 3) var(--size);\n  background: transparent;\n  border: none;\n  cursor: pointer;\n  color: var(--clr-text);\n  text-shadow: 2px 0px var(--clr-shadow__border), 0px 2px var(--clr-shadow__border),\n  -2px 0px var(--clr-shadow__border), 0px -2px var(--clr-shadow__border);\n}\n\n.snowfall {\n  width: 100%;\n  height: 100%;\n  bottom: 0%;\n  gap: 0.3rem;\n  transition: 0.5s ease-in-out;\n  z-index: -1;\n  opacity: 0;\n  position: absolute;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  overflow: hidden;\n  background: linear-gradient( to bottom, var(--clr-snowfall), #ffffff);\n}\n\n.box:hover .snowfall {\n  opacity: 1;\n}\n\n.snowflake {\n  height: 0.3rem;\n  width: 0.3rem;\n  box-shadow: -30px -50px var(--clr-snowflake);\n  background-color: var(--clr-snowflake);\n  animation: snowfall-animation calc(0.1s * var(--i)) linear infinite;\n  opacity: 1;\n}\n\n@keyframes snowfall-animation {\n  0% {\n    transform: translateY(calc(-103% * var(--i)));\n  }\n\n  100% {\n    transform: translateY(calc(100% * var(--i)));\n    opacity: 0;\n  }\n}\n\n\n\n\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

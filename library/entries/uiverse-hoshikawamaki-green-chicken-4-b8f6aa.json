@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-hoshikawamaki-green-chicken-4-b8f6aa",
+  "title": "Radio by hoshikawamaki (green-chicken-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/hoshikawamaki/green-chicken-4",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "simple",
+    "purple",
+    "button",
+    "colorful",
+    "border"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By hoshikawamaki on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/hoshikawamaki_green-chicken-4.html",
+  "code": "<!-- From Uiverse.io by hoshikawamaki  - Tags: simple, purple, button, radio, colorful, border, tailwindcss -->\n<div\n  class=\"flex space-x-2 border-[3px] border-purple-400 rounded-xl select-none\"\n>\n  <label\n    class=\"radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer\"\n  >\n    <input\n      type=\"radio\"\n      name=\"radio\"\n      value=\"html\"\n      class=\"peer hidden\"\n      checked=\"\"\n    />\n    <span\n      class=\"tracking-widest peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700 p-2 rounded-lg transition duration-150 ease-in-out\"\n      >HTML</span\n    >\n  </label>\n\n  <label\n    class=\"radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer\"\n  >\n    <input type=\"radio\" name=\"radio\" value=\"react\" class=\"peer hidden\" />\n    <span\n      class=\"tracking-widest peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700 p-2 rounded-lg transition duration-150 ease-in-out\"\n      >React</span\n    >\n  </label>\n\n  <label\n    class=\"radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer\"\n  >\n    <input type=\"radio\" name=\"radio\" value=\"vue\" class=\"peer hidden\" />\n    <span\n      class=\"tracking-widest peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700 p-2 rounded-lg transition duration-150 ease-in-out\"\n      >Vue</span\n    >\n  </label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

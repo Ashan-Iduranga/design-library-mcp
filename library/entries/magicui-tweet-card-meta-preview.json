@@ -1,0 +1,37 @@
+{
+  "id": "magicui-tweet-card-meta-preview",
+  "title": "Tweet Card Meta Preview (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/tweet-card-meta-preview",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tweet",
+    "card",
+    "meta",
+    "preview",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a tweet card with meta preview.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/tweet-card-meta-preview.tsx",
+  "code": "import { ClientTweetCard } from \"@/registry/magicui/client-tweet-card\"\n\nexport default function TweetMetaPreview() {\n  return <ClientTweetCard id=\"1675849118445436929\" className=\"shadow-2xl\" />\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

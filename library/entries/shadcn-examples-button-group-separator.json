@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-button-group-separator",
+  "title": "Button Group Separator (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/button-group-separator.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "button",
+    "group",
+    "separator",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A container that groups related buttons together with consistent styling.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/button-group-separator.tsx",
+  "code": "import { Button } from \"@/registry/new-york-v4/ui/button\"\nimport {\n  ButtonGroup,\n  ButtonGroupSeparator,\n} from \"@/registry/new-york-v4/ui/button-group\"\n\nexport default function ButtonGroupSeparatorDemo() {\n  return (\n    <ButtonGroup>\n      <Button variant=\"secondary\" size=\"sm\">\n        Copy\n      </Button>\n      <ButtonGroupSeparator />\n      <Button variant=\"secondary\" size=\"sm\">\n        Paste\n      </Button>\n    </ButtonGroup>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

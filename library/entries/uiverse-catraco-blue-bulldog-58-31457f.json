@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-catraco-blue-bulldog-58-31457f",
+  "title": "Button by catraco (blue-bulldog-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/catraco/blue-bulldog-58",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "click",
+    "light&dark",
+    "startbutton"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By catraco on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/catraco_blue-bulldog-58.html",
+  "code": "<button class=\"btn\">\n  <div>GET STARTED</div>\n  <svg fill=\"none\" viewBox=\"0 0 24 24\" height=\"25px\" width=\"25px\" xmlns=\"http://www.w3.org/2000/svg\">\n<path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" stroke-width=\"2\" stroke=\"white\" d=\"M11.6801 14.62L14.2401 12.06L11.6801 9.5\"></path>\n<path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" stroke-width=\"2\" stroke=\"white\" d=\"M4 12.0601H14.17\"></path>\n<path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" stroke-width=\"2\" stroke=\"white\" d=\"M12 4C16.42 4 20 7 20 12C20 17 16.42 20 12 20\"></path>\n</svg>\n</button>\n<style>\n/* From Uiverse.io by catraco - Tags: button, click, light&dark, startbutton  */\n.btn {\n  --color: #de5c9d;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: all .5s;\n  border: none;\n  background-color: transparent;\n}\n\n.btn div {\n  letter-spacing: 2px;\n  font-weight: bold;\n  background: var(--color);\n  border-radius: 2rem;\n  color: white;\n  padding: 1rem;\n}\n\n.btn::before {\n  content: '';\n  z-index: -1;\n  background-color: var(--color);\n  border: 2px solid white;\n  border-radius: 2rem;\n  width: 110%;\n  height: 100%;\n  position: absolute;\n  transform: rotate(10deg);\n  transition: .5s;\n  opacity: 0.2;\n}\n\n.btn:hover {\n  cursor: pointer;\n  filter: brightness(1.2);\n  transform: scale(1.1);\n}\n\n.btn:hover::before {\n  transform: rotate(0deg);\n  opacity: 1;\n}\n\n.btn svg {\n  transform: translateX(-200%);\n  transition: .5s;\n  width: 0;\n  opacity: 0;\n}\n\n.btn:hover svg {\n  width: 25px;\n  transform: translateX(0%);\n  opacity: 1;\n}\n\n.btn:active {\n  filter: brightness(1.4);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

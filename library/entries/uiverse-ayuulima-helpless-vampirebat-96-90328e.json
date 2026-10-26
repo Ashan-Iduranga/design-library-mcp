@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-ayuulima-helpless-vampirebat-96-90328e",
+  "title": "Checkbox by AyuuLima (helpless-vampirebat-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AyuuLima/helpless-vampirebat-96",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "click-effect",
+    "css-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AyuuLima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/AyuuLima_helpless-vampirebat-96.html",
+  "code": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\" />\n  <div class=\"checkmark\"></div>\n</label>\n\n<style>\n/* From Uiverse.io by AyuuLima  - Tags: checkbox, click effect, css effect */\n/* Hide the default checkbox */\n.container input {\n  display: none;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 30px;\n  user-select: none;\n  -webkit-tap-highlight-color: transparent;\n}\n\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  background-color: rgb(255, 255, 255);\n  border-radius: 0.3em;\n  transition: all 0.25s;\n  --spread: 50px;\n}\n\n.container input:checked ~ .checkmark {\n  background-color: #000000;\n  box-shadow: -10px -10px var(--spread) 0px rgb(17, 0, 248),\n    0 -10px var(--spread) 0px rgb(243, 11, 243),\n    10px -10px var(--spread) 0px rgb(253, 228, 0),\n    10px 0 var(--spread) 0px rgb(107, 255, 21),\n    10px 10px var(--spread) 0px rgb(76, 0, 255),\n    0 10px var(--spread) 0px rgb(255, 196, 0),\n    -10px 10px var(--spread) 0px rgb(90, 105, 240);\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  transform: rotate(0deg);\n  border: 0.1em solid rgba(0, 0, 0, 0.863);\n  left: 0;\n  top: 0;\n  width: 1.1em;\n  height: 1.1em;\n  border-radius: 0.25em;\n  transition: all 0.25s, border-width 0.1s;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n  left: 0.45em;\n  top: 0.25em;\n  width: 0.25em;\n  height: 0.5em;\n  border-color: rgba(238, 238, 238, 0) white white #fff0;\n  border-width: 0 0.15em 0.15em 0;\n  border-radius: 0em;\n  transform: rotate(45deg);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

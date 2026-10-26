@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-g4b413l-dry-turtle-84-3f54db",
+  "title": "Tooltip by G4b413l (dry-turtle-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/dry-turtle-84",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "button",
+    "button-hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/G4b413l_dry-turtle-84.html",
+  "code": "<div class=\"tooltip\">\n  Hover me\n  <div class=\"tooltiptext\">Hi there !</div>\n</div>\n\n<style>\n/* From Uiverse.io by G4b413l  - Tags: tooltip, button, button hover effect  */\n.tooltip {\n  position: relative;\n  display: inline-block;\n  cursor: pointer;\n  background-color: #282828;\n  color: #f1f1f1;\n  padding: 1em 3em;\n  border-radius: 1em;\n}\n\n.tooltip .tooltiptext {\n  visibility: hidden;\n  width: 200px;\n  background-color: #28282817;\n  color: #282828;\n  text-align: center;\n  border-radius: 5px;\n  padding: 10px;\n  position: absolute;\n  z-index: 1;\n  bottom: 125%;\n  left: 50%;\n  transform: translateX(-50%);\n  opacity: 0;\n  transition: opacity 0.3s;\n}\n\n.tooltip:hover .tooltiptext {\n  visibility: visible;\n  opacity: 1;\n}\n\n.tooltip .tooltiptext::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  border-width: 8px;\n  border-style: solid;\n  border-color: #28282817 transparent transparent transparent;\n  transform: translateX(-50%);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

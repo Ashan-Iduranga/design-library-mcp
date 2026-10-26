@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-validator-phone-number-requirement-validator",
+  "title": "Validator: Phone Number requirement validator (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/validator/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "validator",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Validator class changes the color of form elements to error or success based on input's validation rules.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/validator/+page.md",
+  "code": "<input type=\"tel\" class=\"input validator tabular-nums\" required placeholder=\"Phone\" \n  pattern=\"[0-9]*\" minlength=\"10\" maxlength=\"10\" title=\"Must be 10 digits\" />\n<p class=\"validator-hint\">Must be 10 digits</p>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

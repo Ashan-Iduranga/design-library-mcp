@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-devptg-funny-quail-20-807fb9",
+  "title": "Button by DevPTG (funny-quail-20)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/DevPTG/funny-quail-20",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By DevPTG on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/DevPTG_funny-quail-20.html",
+  "code": "<div class=\"chat\">\n      <div class=\"background\"></div>\n      <svg viewBox=\"0 0 100 100\" height=\"100\" width=\"100\" class=\"chat-bubble\">\n        <g class=\"bubble\">\n          <path d=\"M 30.7873,85.113394 30.7873,46.556405 C 30.7873,41.101961\n          36.826342,35.342 40.898074,35.342 H 59.113981 C 63.73287,35.342\n          69.29995,40.103201 69.29995,46.784744\" class=\"line line1\"></path>\n          <path d=\"M 13.461999,65.039335 H 58.028684 C\n            63.483128,65.039335\n            69.243089,59.000293 69.243089,54.928561 V 45.605853 C\n            69.243089,40.986964 65.02087,35.419884 58.339327,35.419884\" class=\"line line2\"></path>\n        </g>\n        <circle cx=\"42.5\" cy=\"50.7\" r=\"1.9\" class=\"circle circle1\"></circle>\n        <circle r=\"1.9\" cy=\"50.7\" cx=\"49.9\" class=\"circle circle2\"></circle>\n        <circle cx=\"57.3\" cy=\"50.7\" r=\"1.9\" class=\"circle circle3\"></circle>\n      </svg>\n    </div>\n<style>\n/* From Uiverse.io by DevPTG - Tags: button */\n.chat {\n  display: flex;\n  position: relative;\n}\n\n.background {\n  background-color: #1950ff;\n  border-radius: 50%;\n  box-shadow: 0 2.1px 1.3px rgba(0, 0, 0, 0.044),\n    0 5.9px 4.2px rgba(0, 0, 0, 0.054), 0 12.6px 9.5px rgba(0, 0, 0, 0.061),\n    0 25px 20px rgba(0, 0, 0, 0.1);\n  height: 80px;\n  left: 10px;\n  position: absolute;\n  top: 10px;\n  width: 80px;\n}\n\n.chat-bubble {\n  cursor: pointer;\n  position: relative;\n}\n\n.bubble {\n  transform-origin: 50%;\n  transition: transform 500ms cubic-bezier(0.17, 0.61, 0.54, 0.9);\n}\n\n.line {\n  fill: none;\n  stroke: #ffffff;\n  stroke-width: 2.75;\n  stroke-linecap: round;\n  transition: stroke-dashoffset 500ms cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.line1 {\n  stroke-dasharray: 60 90;\n  stroke-dashoffset: -20;\n}\n\n.line2 {\n  stroke-dasharray: 67 87;\n  stroke-dashoffset: -18;\n}\n\n.circle {\n  fill: #ffffff;\n  stroke: none;\n  transform-origin: 50%;\n  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.active .bubble {\n  transform: translateX(24px) translateY(4px) rotate(45deg);\n}\n\n.active .line1 {\n  stroke-dashoffset: 21;\n}\n\n.active .line2 {\n  stroke-dashoffset: 30;\n}\n\n.active .circle {\n  transform: scale(0);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

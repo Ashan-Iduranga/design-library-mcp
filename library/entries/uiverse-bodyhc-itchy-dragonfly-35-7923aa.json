@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-bodyhc-itchy-dragonfly-35-7923aa",
+  "title": "Button by Bodyhc (itchy-dragonfly-35)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Bodyhc/itchy-dragonfly-35",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "bootsrap-button",
+    "business",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Bodyhc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Bodyhc_itchy-dragonfly-35.html",
+  "code": "<button class=\"button\">\n  CLICK ME\n</button>\n<style>\n/* From Uiverse.io by Bodyhc - Tags: button, bootsrap button, business, 3d button */\nbutton {\n  --color: #560bad;\n  background-color: #fff;\n  font-family: inherit;\n  display: inline-block;\n  width: 8em;\n  height: 2.6em;\n  line-height: 2.5em;\n  margin: 20px;\n  position: relative;\n  overflow: hidden;\n  border: 2px solid var(--color);\n  transition: color .5s;\n  z-index: 1;\n  font-size: 17px;\n  border-radius: 6px;\n  font-weight: 500;\n  cursor: pointer;\n  color: var(--color);\n}\n\nbutton:before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  background: var(--color);\n  height: 150px;\n  width: 200px;\n  border-radius: 50px;\n  bottom: 100%;\n  right: 100%;\n  transition: .8s ease;\n}\n\nbutton:hover {\n  color: #fff;\n}\n\nbutton:hover:before {\n  bottom: -30px;\n  left: -30px;\n}\n\nbutton:active:before {\n  background: #3a0ca3;\n  transition: background 2s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

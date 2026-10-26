@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-yaya12085-wonderful-owl-52-fbd3fa",
+  "title": "Radio by Yaya12085 (wonderful-owl-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/wonderful-owl-52",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "button",
+    "input",
+    "select",
+    "animated",
+    "design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Yaya12085_wonderful-owl-52.html",
+  "code": "<div class=\"radio-input\">\n  <input value=\"value-1\" name=\"value-radio\" id=\"value-1\" type=\"radio\">\n  <label for=\"value-1\">Value 1</label>\n  <input value=\"value-2\" name=\"value-radio\" id=\"value-2\" type=\"radio\">\n  <label for=\"value-2\">Value 2</label>\n  <input value=\"value-3\" name=\"value-radio\" id=\"value-3\" type=\"radio\">\n  <label for=\"value-3\">Value 3</label>\n</div>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: button, input, radio, select, animated, design */\n.radio-input {\n  display: flex;\n  flex-direction: row;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n  font-size: 16px;\n  font-weight: 600;\n  color: white;\n}\n\n.radio-input input[type=\"radio\"] {\n  display: none;\n}\n\n.radio-input label {\n  display: flex;\n  align-items: center;\n  padding: 10px;\n  border: 1px solid #ccc;\n  background-color: #212121;\n  border-radius: 5px;\n  margin-right: 12px;\n  cursor: pointer;\n  position: relative;\n  transition: all 0.3s ease-in-out;\n}\n\n.radio-input label:before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 50%;\n  left: 0;\n  transform: translate(-50%, -50%);\n  width: 10px;\n  height: 10px;\n  border-radius: 50%;\n  background-color: #fff;\n  border: 2px solid #ccc;\n  transition: all 0.3s ease-in-out;\n}\n\n.radio-input input[type=\"radio\"]:checked + label:before {\n  background-color: green;\n  top: 0;\n}\n\n.radio-input input[type=\"radio\"]:checked + label {\n  background-color: royalblue;\n  color: #fff;\n  border-color: rgb(129, 235, 129);\n  animation: radio-translate 0.5s ease-in-out;\n}\n\n@keyframes radio-translate {\n  0% {\n    transform: translateX(0);\n  }\n\n  50% {\n    transform: translateY(-10px);\n  }\n\n  100% {\n    transform: translateX(0);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

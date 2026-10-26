@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ercnersoy-swift-bullfrog-99-e1db90",
+  "title": "Button by ercnersoy (swift-bullfrog-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ercnersoy/swift-bullfrog-99",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ercnersoy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ercnersoy_swift-bullfrog-99.html",
+  "code": "<button>\n  click me\n</button>\n<style>\n/* From Uiverse.io by ercnersoy - Tags: button */\nbutton {\n  padding: 0.5rem 2.5rem 0.5rem 2.5rem;\n  box-shadow: 0px 0px 0px 3px black;\n  border: 0;\n  border-radius: 0.5rem;\n  font-size: 1rem;\n  background-color: #ffc83d;\n  color: black;\n  font-weight: bolder;\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n  position: relative;\n  transition: all .9s ease-in-out;\n  letter-spacing: 0.1rem;\n  text-transform: uppercase;\n}\n\nbutton:hover {\n  background-color: #f03a17;\n  color: white;\n}\n\nbutton::before {\n  content: \"😍\";\n  position: absolute;\n  left: -0rem;\n  top: 0rem;\n  opacity: 1;\n  font-size: 1.55rem;\n  transition: all .9s ease-in-out;\n  transform: rotate(0deg);\n}\n\nbutton:hover::before {\n  content: \"😘\";\n  opacity: 1;\n  visibility: visible;\n  transform: rotate(40deg);\n  font-size: 2.5rem;\n  top: -0.75rem;\n  transition: all .9s ease-in-out;\n  animation: rightRun 2s forwards;\n}\n\nbutton:active::before {\n  content: \"🥰\";\n}\n\n@keyframes rightRun {\n  100% {\n    transform: translateX(140px);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

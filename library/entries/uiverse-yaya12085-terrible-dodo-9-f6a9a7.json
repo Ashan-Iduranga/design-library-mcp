@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-terrible-dodo-9-f6a9a7",
+  "title": "Card by Yaya12085 (terrible-dodo-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/terrible-dodo-9",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Yaya12085_terrible-dodo-9.html",
+  "code": "<div class=\"card\">\n  <div class=\"header\">\n    <div>\n      <a class=\"title\" href=\"#\">\n        Building a SaaS product as a software developer\n      </a>\n      <p class=\"name\">By John Doe</p>\n    </div>\n      <span class=\"image\"></span>\n  </div>\n    <p class=\"description\">\n      Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum\n      provident a, ipsa maiores deleniti consectetur nobis et eaque.\n    </p>\n  <dl class=\"post-info\">\n    <div class=\"cr\">\n      <dt class=\"dt\">Published</dt>\n      <dd class=\"dd\">31st June, 2021</dd>\n    </div>\n    <div class=\"cr\">\n      <dt class=\"dt\">Reading time</dt>\n      <dd class=\"dd\">3 minute</dd>\n    </div>\n  </dl>\n</div>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: card */\n.card {\n  max-width: 320px;\n  position: relative;\n  display: block;\n  overflow: hidden;\n  border: 1px solid rgba(243, 244, 246, );\n  border-radius: 0.5rem;\n  padding: 1rem;\n  background-color: #fff;\n}\n\n.header {\n  display: flex;\n  justify-content: space-between;\n  grid-gap: 1rem;\n  gap: 1rem;\n}\n\n.title {\n  font-size: 1.125rem;\n  line-height: 1.25rem;\n  font-weight: 700;\n  color: rgba(17, 24, 39, 1);\n  text-decoration: none;\n}\n\n.title:hover {\n  text-decoration: underline royalblue;\n}\n\n.name {\n  margin-top: 0.25rem;\n  font-size: 0.75rem;\n  line-height: 1rem;\n  font-weight: 500;\n  color: rgba(75, 85, 99, 1);\n}\n\n.image {\n  display: block;\n  flex-shrink: 0;\n  height: 3rem;\n  width: 3rem;\n  border-radius: 0.5rem;\n  object-fit: cover;\n  background-color: royalblue;\n}\n\n.description {\n  margin-top: 1rem;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  color: rgba(107, 114, 128, 1);\n}\n\n.post-info {\n  margin-top: 1.5rem;\n  display: flex;\n  grid-gap: 1rem;\n  gap: 1rem;\n}\n\n.cr {\n  display: flex;\n  flex-direction: column-reverse;\n}\n\n.dt {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  font-weight: 600;\n  color: rgba(75, 85, 99, 1);\n}\n\n.dd {\n  font-size: 0.75rem;\n  line-height: 1rem;\n  color: rgba(107, 114, 128,1);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

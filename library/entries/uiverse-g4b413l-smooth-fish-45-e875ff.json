@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-g4b413l-smooth-fish-45-e875ff",
+  "title": "Card by G4b413l (smooth-fish-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/smooth-fish-45",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/G4b413l_smooth-fish-45.html",
+  "code": "<div class=\"card\">\n<div class=\"image\"><span class=\"text\">This is a chair.</span></div>\n  <span class=\"title\">Cool Chair</span>\n  <span class=\"price\">$100</span>\n</div>\n<style>\n/* From Uiverse.io by G4b413l - Tags: card */\n.card {\n  position: relative;\n  width: 11.875em;\n  height: 16.5em;\n  box-shadow: 0px 1px 13px rgba(0,0,0,0.1);\n  cursor: pointer;\n  transition: all 120ms;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: #fff;\n  padding: 0.5em;\n  padding-bottom: 3.4em;\n}\n\n.card::after {\n  content: \"Add to Cart\";\n  padding-top: 1.25em;\n  padding-left: 1.25em;\n  position: absolute;\n  left: 0;\n  bottom: -60px;\n  background: #00AC7C;\n  color: #fff;\n  height: 2.5em;\n  width: 90%;\n  transition: all 80ms;\n  font-weight: 600;\n  text-transform: uppercase;\n  opacity: 0;\n}\n\n.card .title {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  position: absolute;\n  left: 0.625em;\n  bottom: 1.875em;\n  font-weight: 400;\n  color: #000;\n}\n\n.card .price {\n  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;\n  font-size: 0.9em;\n  position: absolute;\n  left: 0.625em;\n  bottom: 0.625em;\n  color: #000;\n}\n\n.card:hover::after {\n  bottom: 0;\n  opacity: 1;\n}\n\n.card:active {\n  transform: scale(0.98);\n}\n\n.card:active::after {\n  content: \"Added !\";\n  height: 3.125em;\n}\n\n.text {\n  max-width: 55px;\n}\n\n.image {\n  background: rgb(241, 241, 241);\n  width: 100%;\n  height: 100%;\n  display: grid;\n  place-items: center;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

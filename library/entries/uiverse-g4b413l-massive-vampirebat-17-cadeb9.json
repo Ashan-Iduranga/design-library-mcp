@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-g4b413l-massive-vampirebat-17-cadeb9",
+  "title": "Loader by G4b413l (massive-vampirebat-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/massive-vampirebat-17",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "ball"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/G4b413l_massive-vampirebat-17.html",
+  "code": "<div class=\"bar\">\n    <div class=\"ball\"></div>\n</div>\n<style>\n/* From Uiverse.io by G4b413l - Tags: loader, ball */\n.ball {\n  position: relative;\n  bottom: 50px;\n  left: calc(100% - 20px);\n  width: 50px;\n  height: 50px;\n  background: #fff;\n  border-radius: 50%;\n  animation: ball-move8234 3s ease-in-out 1s infinite alternate;\n}\n\n.ball::after {\n  position: absolute;\n  content: '';\n  top: 25px;\n  right: 5px;\n  width: 5px;\n  height: 5px;\n  background: #000;\n  border-radius: 50%;\n}\n\n.bar {\n  width: 200px;\n  height: 12.5px;\n  background: #FFDAAF;\n  border-radius: 30px;\n  transform: rotate(-15deg);\n  animation: up-down6123 3s ease-in-out 1s infinite alternate;\n}\n\n@keyframes up-down6123 {\n  from {\n    transform: rotate(-15deg);\n  }\n\n  to {\n    transform: rotate(15deg);\n  }\n}\n\n@keyframes ball-move8234 {\n  from {\n    left: calc(100% - 40px);\n    transform: rotate(360deg);\n  }\n\n  to {\n    left: calc(0% - 20px);\n    transform: rotate(0deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

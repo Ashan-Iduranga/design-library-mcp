@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pranav0s-modern-firefox-53-3fb1e3",
+  "title": "Button by pranav0s (modern-firefox-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/pranav0s/modern-firefox-53",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By pranav0s on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/pranav0s_modern-firefox-53.html",
+  "code": "<button class=\"button\">Button</button>\n\n<style>\n/* From Uiverse.io by pranav0s  - Tags: button */\n.button {\n  width: fit-content;\n  display: flex;\n  padding: 1.2em 1rem;\n  cursor: pointer;\n  gap: 0.4rem;\n  font-weight: bold;\n  border-radius: 30px;\n  text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);\n  background: linear-gradient(\n      15deg,\n      #880088,\n      #aa2068,\n      #cc3f47,\n      #de6f3d,\n      #f09f33,\n      #de6f3d,\n      #cc3f47,\n      #aa2068,\n      #880088\n    )\n    no-repeat;\n  background-size: 300%;\n  color: #fff;\n  border: none;\n  background-position: left center;\n  box-shadow: 0 30px 10px -20px rgba(0, 0, 0, 0.2);\n  transition: background 0.3s ease;\n}\n\n.button:hover {\n  background-size: 320%;\n  background-position: right center;\n}\n\n.button:hover svg {\n  fill: #fff;\n}\n\n.button svg {\n  width: 23px;\n  fill: #f09f33;\n  transition: 0.3s ease;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

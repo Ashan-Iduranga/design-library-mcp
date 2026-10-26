@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-praashoo7-bitter-pig-24-aafbd0",
+  "title": "Form by Praashoo7 (bitter-pig-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/bitter-pig-24",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "login",
+    "stitched"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Praashoo7_bitter-pig-24.html",
+  "code": "<form class=\"form\">\n    <p class=\"heading\">LOGIN</p>\n    <input placeholder=\"Username\" class=\"input\" type=\"text\">\n    <input placeholder=\"Password\" class=\"input\" type=\"password\">\n    <button class=\"btn\">Submit</button>\n</form>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: login, form, stitched */\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  padding-top: 3em;\n  padding-left: 2.8em;\n  padding-right: 2.8em;\n  padding-bottom: 2.1em;\n  border: 2px dashed #DAA06D;\n  border-radius: 15px;\n  background-color: #EADDCA;\n  box-shadow: 0 0 0 4px #EADDCA, 2px 2px 4px 2px rgba(0, 0, 0, 0.5);\n  transition: .4s ease-in-out;\n}\n\n::placeholder {\n  color: #DAA06D;\n  text-align: center;\n}\n\n.form .heading {\n  padding-left: 0.8em;\n  color: #DAA06D;\n  background-color: transparent;\n  letter-spacing: .5em;\n  text-align: center;\n  padding-top: 1em;\n  padding-bottom: 3em;\n  text-shadow: inset -1px -1px 1px #DAA06D;\n}\n\n.form .input {\n  outline: none;\n  padding: 0.5em;\n  border: 1px solid #DAA06D;\n  color: #DAA06D;\n  width: 14em;\n  height: 3em;\n  border-radius: 10px;\n  background-color: #EADDCA;\n  text-align: center;\n}\n\n.form .btn {\n  align-self: center;\n  margin-top: 2em;\n  border-radius: 10px;\n  outline: none;\n  border: none;\n  color: white;\n  background-color: #E5AA70;\n  font-weight: bold;\n  letter-spacing: 0.1em;\n  transition: .4s ease-in-out opacity,.1s ease-in-out active;\n  padding: 1em;\n  box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);\n}\n\n.form .btn:hover {\n  opacity: 0.8;\n}\n\n.form .btn:active {\n  transform: translateX(0.1em) translateY(0.1em);\n  box-shadow: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

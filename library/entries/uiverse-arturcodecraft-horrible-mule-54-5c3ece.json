@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-arturcodecraft-horrible-mule-54-5c3ece",
+  "title": "Button by ArturCodeCraft (horrible-mule-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ArturCodeCraft/horrible-mule-54",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "links",
+    "btn"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ArturCodeCraft on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ArturCodeCraft_horrible-mule-54.html",
+  "code": "<a href=\"#\" class=\"menu__link\">Hover me!</a>\n<style>\n/* From Uiverse.io by ArturCodeCraft - Tags: button, links, btn */\n/* <reset-style> ============================ */\na {\n  text-decoration: none;\n}\n/* <main-style> ============================ */\n.menu__link {\n  color: #fff;\n  line-height: 2;\n  position: relative;\n}\n\n.menu__link::before {\n  content: '';\n  width: 0;\n  height: 2px;\n  border-radius: 2px;\n  background-color: #fff;\n  position: absolute;\n  bottom: -.25rem;\n  left: 50%;\n  transition: width .4s, left .4s;\n}\n\n.menu__link:hover::before {\n  width: 100%;\n  left: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

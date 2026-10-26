@@ -1,0 +1,36 @@
+{
+  "id": "magicui-glyph-matrix-demo",
+  "title": "Glyph Matrix Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/glyph-matrix",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "glyph",
+    "matrix",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing an animated grid of subtly shifting glyphs.\n\nnpm dependencies: next-themes\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/glyph-matrix-demo.tsx",
+  "code": "\"use client\"\n\nimport { useEffect, useState } from \"react\"\nimport { useTheme } from \"next-themes\"\n\nimport { GlyphMatrix } from \"@/registry/magicui/glyph-matrix\"\n\nexport default function GlyphMatrixDemo() {\n  const { resolvedTheme } = useTheme()\n  // Start neutral so the first frame is visible in both themes, then adopt\n  // the resolved theme color once it's known.\n  const [color, setColor] = useState(\"#6B7280\")\n\n  useEffect(() => {\n    if (!resolvedTheme) return\n    setColor(resolvedTheme === \"dark\" ? \"#ffffff\" : \"#000000\")\n  }, [resolvedTheme])\n\n  return (\n    <div className=\"border-border bg-background relative h-[400px] w-full overflow-hidden rounded-lg border\">\n      <GlyphMatrix\n        glyphs=\"01·•+*/\\<>=\"\n        cellSize={14}\n        mutationRate={0.04}\n        interval={90}\n        fadeBottom={0.6}\n        color={color}\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

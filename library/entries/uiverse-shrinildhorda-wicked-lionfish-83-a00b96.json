@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shrinildhorda-wicked-lionfish-83-a00b96",
+  "title": "Button by ShrinilDhorda (wicked-lionfish-83)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ShrinilDhorda/wicked-lionfish-83",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "reflection"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ShrinilDhorda on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ShrinilDhorda_wicked-lionfish-83.html",
+  "code": "<button class=\"btn\">\n  Watch\n</button>\n\n\n<style>\n/* From Uiverse.io by ShrinilDhorda - Tags: button, reflection */\n.btn {\n  font-size: 1.2rem;\n  padding: 1rem 2.5rem;\n  border: none;\n  outline: none;\n  border-radius: 0.4rem;\n  cursor: pointer;\n  text-transform: uppercase;\n  background-color: rgb(14, 14, 26);\n  color: rgb(234, 234, 234);\n  font-weight: 700;\n  transition: 0.6s;\n  box-shadow: 0px 0px 60px #1f4c65;\n  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));\n}\n\n.btn:active {\n  scale: 0.92;\n}\n\n.btn:hover {\n  background: rgb(2,29,78);\n  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);\n  color: rgb(4, 4, 38);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-praashoo7-short-horse-99-e3b8e6",
+  "title": "Form by Praashoo7 (short-horse-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/short-horse-99",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "neumorphism",
+    "login"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Praashoo7_short-horse-99.html",
+  "code": "<form class=\"form\">\n    <p class=\"heading\">Login</p>\n    <input class=\"input\" placeholder=\"Username\" type=\"text\">\n    <input class=\"input\" placeholder=\"Password\" type=\"text\"> \n    <button class=\"btn\">Submit</button>\n</form>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: neumorphism, login, form */\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  background-color: white;\n  padding: 2.5em;\n  border-radius: 25px;\n  transition: .4s ease-in-out;\n  box-shadow: rgba(0, 0, 0, 0.4) 1px 2px 2px;\n}\n\n.form:hover {\n  transform: translateX(-0.5em) translateY(-0.5em);\n  border: 1px solid #171717;\n  box-shadow: 10px 10px 0px #666666;\n}\n\n.heading {\n  color: black;\n  padding-bottom: 2em;\n  text-align: center;\n  font-weight: bold;\n}\n\n.input {\n  border-radius: 5px;\n  border: 1px solid whitesmoke;\n  background-color: whitesmoke;\n  outline: none;\n  padding: 0.7em;\n  transition: .4s ease-in-out;\n}\n\n.input:hover {\n  box-shadow: 6px 6px 0px #969696,\n             -3px -3px 10px #ffffff;\n}\n\n.input:focus {\n  background: #ffffff;\n  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);\n}\n\n.form .btn {\n  margin-top: 2em;\n  align-self: center;\n  padding: 0.7em;\n  padding-left: 1em;\n  padding-right: 1em;\n  border-radius: 10px;\n  border: none;\n  color: black;\n  transition: .4s ease-in-out;\n  box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;\n}\n\n.form .btn:hover {\n  box-shadow: 6px 6px 0px #969696,\n             -3px -3px 10px #ffffff;\n  transform: translateX(-0.5em) translateY(-0.5em);\n}\n\n.form .btn:active {\n  transition: .2s;\n  transform: translateX(0em) translateY(0em);\n  box-shadow: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

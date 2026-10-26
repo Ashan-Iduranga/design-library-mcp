@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-cssbuttons-io-short-shrimp-54-a1adb6",
+  "title": "Checkbox by cssbuttons-io (short-shrimp-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cssbuttons-io/short-shrimp-54",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "squishy"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cssbuttons-io on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/cssbuttons-io_short-shrimp-54.html",
+  "code": "<div class=\"cntr\">\n  <input checked=\"\" type=\"checkbox\" id=\"cbx\" class=\"hidden-xs-up\">\n  <label for=\"cbx\" class=\"cbx\"></label>\n</div>\n<style>\n/* From Uiverse.io by cssbuttons-io - Tags: checkbox, squishy */\n.cbx {\n position: relative;\n top: 1px;\n width: 27px;\n height: 27px;\n border: 1px solid #c8ccd4;\n border-radius: 3px;\n vertical-align: middle;\n transition: background 0.1s ease;\n cursor: pointer;\n display: block;\n}\n\n.cbx:after {\n content: '';\n position: absolute;\n top: 2px;\n left: 8px;\n width: 7px;\n height: 14px;\n opacity: 0;\n transform: rotate(45deg) scale(0);\n border-right: 2px solid #fff;\n border-bottom: 2px solid #fff;\n transition: all 0.3s ease;\n transition-delay: 0.15s;\n}\n\n.lbl {\n margin-left: 5px;\n vertical-align: middle;\n cursor: pointer;\n}\n\n#cbx:checked ~ .cbx {\n border-color: transparent;\n background: #6871f1;\n animation: jelly 0.6s ease;\n}\n\n#cbx:checked ~ .cbx:after {\n opacity: 1;\n transform: rotate(45deg) scale(1);\n}\n\n.cntr {\n position: relative;\n}\n\n@keyframes jelly {\n from {\n  transform: scale(1, 1);\n }\n\n 30% {\n  transform: scale(1.25, 0.75);\n }\n\n 40% {\n  transform: scale(0.75, 1.25);\n }\n\n 50% {\n  transform: scale(1.15, 0.85);\n }\n\n 65% {\n  transform: scale(0.95, 1.05);\n }\n\n 75% {\n  transform: scale(1.05, 0.95);\n }\n\n to {\n  transform: scale(1, 1);\n }\n}\n\n.hidden-xs-up {\n display: none!important;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

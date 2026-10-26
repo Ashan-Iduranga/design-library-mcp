@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vikramsinghnegi-moody-mole-33-78dfe9",
+  "title": "Loader by vikramsinghnegi (moody-mole-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikramsinghnegi/moody-mole-33",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "heart",
+    "smooth"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikramsinghnegi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vikramsinghnegi_moody-mole-33.html",
+  "code": "<span class=\"loader\"></span>\n\n<style>\n/* From Uiverse.io by vikramsinghnegi  - Tags: loader, heart, smooth */\n.loader {\n  position: relative;\n  width: 40px;\n  height: 60px;\n  animation: heartBeat 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  background: red;\n  width: 40px;\n  height: 60px;\n  border-radius: 50px 50px 0 0;\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  transform: rotate(45deg);\n  transform-origin: 50% 68%;\n  box-shadow: 5px 4px 5px #0004 inset;\n}\n.loader:after {\n  transform: rotate(-45deg);\n}\n@keyframes heartBeat {\n  0% {\n    transform: scale(0.95);\n  }\n  5% {\n    transform: scale(1.1);\n  }\n  39% {\n    transform: scale(0.85);\n  }\n  45% {\n    transform: scale(1);\n  }\n  60% {\n    transform: scale(0.95);\n  }\n  100% {\n    transform: scale(0.9);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-kind-baboon-47-e48a70",
+  "title": "Loader by Shoh2008 (kind-baboon-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/kind-baboon-47",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_kind-baboon-47.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  position: relative;\n  border: 24px solid;\n  border-color: red  transparent red transparent;\n  animation: rotate_000 2s linear infinite;\n}\n\n.loader:before,\n      .loader:after {\n  content: \"\";\n  display: block;\n  border: 24px solid transparent;\n  border-left-color: red;\n  position: absolute;\n  left: -24px;\n  top: -24px;\n  animation: prix 1s infinite ease-in;\n  transform-origin: 0% 100%;\n}\n\n.loader:before {\n  border-color: transparent red transparent transparent;\n  transform-origin: 100% 0%;\n  animation-delay: 0.5s;\n}\n\n@keyframes rotate_000 {\n  100% {\n    transform: rotate(360deg)\n  }\n}\n\n@keyframes prix {\n  20% , 80% {\n    transform: rotate(0)\n  }\n\n  50% {\n    transform: rotate(-90deg)\n  }\n}\n    \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

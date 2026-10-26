@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-cevorob-serious-shrimp-82-e5b171",
+  "title": "Button by Cevorob (serious-shrimp-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cevorob/serious-shrimp-82",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "game",
+    "crosshair"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cevorob on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Cevorob_serious-shrimp-82.html",
+  "code": "<button>\n  <span> GAME ON\n  </span>\n</button>\n<style>\n/* From Uiverse.io by Cevorob - Tags: button, game, crosshair */\nbutton {\n position: relative;\n height: 50px;\n padding: 0 30px;\n border: 2px solid #000;\n background: #e8e8e8;\n user-select: none;\n white-space: nowrap;\n transition: all .05s linear;\n font-family: inherit;\n}\n\nbutton:before, button:after {\n content: \"\";\n position: absolute;\n background: #e8e8e8;\n transition: all .2s linear;\n}\n\nbutton:before {\n width: calc(100% + 6px);\n height: calc(100% - 16px);\n top: 8px;\n left: -3px;\n}\n\nbutton:after {\n width: calc(100% - 16px);\n height: calc(100% + 6px);\n top: -3px;\n left: 8px;\n}\n\nbutton:hover {\n cursor: crosshair;\n}\n\nbutton:active {\n transform: scale(0.95);\n}\n\nbutton:hover:before {\n height: calc(100% - 32px);\n top: 16px;\n}\n\nbutton:hover:after {\n width: calc(100% - 32px);\n left: 16px;\n}\n\nbutton span {\n font-size: 15px;\n z-index: 3;\n position: relative;\n font-weight: 600;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

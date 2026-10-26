@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-fresh-bobcat-35-2f51e1",
+  "title": "Pattern by csemszepp (fresh-bobcat-35)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/fresh-bobcat-35",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_fresh-bobcat-35.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13   - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 82px;\n  --c1: #b2b2b2;\n  --c2: #ffffff;\n  --c3: #d9d9d9;\n\n  --_g: var(--c3) 0 120deg, #0000 0;\n  background: conic-gradient(from -60deg at 50% calc(100% / 3), var(--_g)),\n    conic-gradient(from 120deg at 50% calc(200% / 3), var(--_g)),\n    conic-gradient(\n      from 60deg at calc(200% / 3),\n      var(--c3) 60deg,\n      var(--c2) 0 120deg,\n      #0000 0\n    ),\n    conic-gradient(from 180deg at calc(100% / 3), var(--c1) 60deg, var(--_g)),\n    linear-gradient(\n      90deg,\n      var(--c1) calc(100% / 6),\n      var(--c2) 0 50%,\n      var(--c1) 0 calc(500% / 6),\n      var(--c2) 0\n    );\n  background-size: calc(1.732 * var(--s)) var(--s);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

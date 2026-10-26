@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-themrsami-stupid-stingray-40-7059cc",
+  "title": "Form by themrsami (stupid-stingray-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/themrsami/stupid-stingray-40",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "themrsami",
+    "shipping-form",
+    "light-version"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By themrsami on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/themrsami_stupid-stingray-40.html",
+  "code": "<!-- From Uiverse.io by themrsami - Tags: form, tailwind, tailwindcss, themrsami, shipping form, light version -->\n<div class=\"mt-4 flex flex-col bg-gray-100 rounded-lg p-4 shadow-sm\">\n  <h2 class=\"text-black font-bold text-lg\">Shipping Label Address Form</h2>\n\n  <div class=\"mt-4\">\n    <label class=\"text-black\" for=\"name\">Name</label>\n    <input placeholder=\"Your name\" class=\"w-full bg-white rounded-md border-gray-300 text-black px-2 py-1\" type=\"text\">\n  </div>\n\n  <div class=\"mt-4\">\n    <label class=\"text-black\" for=\"address\">Address</label>\n    <textarea placeholder=\"Your address\" class=\"w-full bg-white rounded-md border-gray-300 text-black px-2 py-1\" id=\"address\"></textarea>\n  </div>\n\n  <div class=\"mt-4 flex flex-row space-x-2\">\n    <div class=\"flex-1\">\n      <label class=\"text-black\" for=\"city\">City</label>\n      <input placeholder=\"Your city\" class=\"w-full bg-white rounded-md border-gray-300 text-black px-2 py-1\" id=\"city\" type=\"text\">\n    </div>\n\n    <div class=\"flex-1\">\n      <label class=\"text-black\" for=\"state\">State</label>\n      <input placeholder=\"Your state\" class=\"w-full bg-white rounded-md border-gray-300 text-black px-2 py-1\" id=\"state\" type=\"text\">\n    </div>\n  </div>\n\n  <div class=\"mt-4 flex flex-row space-x-2\">\n    <div class=\"flex-1\">\n      <label class=\"text-black\" for=\"zip\">ZIP</label>\n      <input placeholder=\"Your ZIP code\" class=\"w-full bg-white rounded-md border-gray-300 text-black px-2 py-1\" id=\"zip\" type=\"text\">\n    </div>\n\n    <div class=\"flex-1\">\n      <label class=\"text-black\" for=\"country\">Country</label>\n      <select class=\"w-full bg-white rounded-md border-gray-300 text-black px-2 py-1\" id=\"country\">\n        <option value=\"\">Select a country</option>\n\n        <optgroup label=\"Africa\">\n          <option value=\"AF\">Afghanistan</option>\n          <option value=\"DZ\">Algeria</option>\n          <option value=\"AO\">Angola</option>\n          ...\n          <option value=\"ZW\">Zimbabwe</option>\n        </optgroup>\n\n        <optgroup label=\"Asia\">\n          <option value=\"AM\">Armenia</option>\n          <option value=\"AZ\">Azerbaijan</option>\n          <option value=\"BH\">Bahrain</option>\n          ...\n          <option value=\"YE\">Yemen</option>\n        </optgroup>\n\n        <optgroup label=\"South America\">\n          <option value=\"AR\">Argentina</option>\n          <option value=\"BO\">Bolivia</option>\n          <option value=\"BR\">Brazil</option>\n          ...\n          <option value=\"VE\">Venezuela</option>\n        </optgroup>\n\n        ...\n      </select>\n    </div>\n  </div>\n\n  <div class=\"mt-4 flex justify-end\">\n    <button class=\"bg-white text-black rounded-md px-4 py-1 hover:bg-gray-200 hover:text-gray-900\" type=\"submit\">Submit</button>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

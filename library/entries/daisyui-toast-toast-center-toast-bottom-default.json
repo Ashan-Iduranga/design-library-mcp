@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-toast-toast-center-toast-bottom-default",
+  "title": "Toast: toast-center toast-bottom (default) (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/toast/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "toast",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Toast is a wrapper to stack elements, positioned on the corner of page.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/toast/+page.md",
+  "code": "<div class=\"toast toast-center\">\n  <div class=\"alert alert-info\">\n    <span>New mail arrived.</span>\n  </div>\n  <div class=\"alert alert-success\">\n    <span>Message sent successfully.</span>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

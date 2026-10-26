@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-linkb15-funny-robin-11-172b61",
+  "title": "Button by linkb15 (funny-robin-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/linkb15/funny-robin-11",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By linkb15 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/linkb15_funny-robin-11.html",
+  "code": "<button>\n  Button\n</button>\n<style>\n/* From Uiverse.io by linkb15 - Tags: button */\nbutton {\n  --min-width: 180px;\n  --min-height: 42px;\n  --ring-min-size: 20px;\n  --ring-max-size: 150px;\n  --ring-width: 3px;\n  --main-bg-color: #814fd1;\n  --gradient-bg-color-1: rgb(222, 203, 226);\n  --gradient-bg-color-2: rgb(79, 131, 209);\n  --ring-color: #6f00ff;\n  --shadow-color: rgba(79, 99, 209, 0.64);\n  --hover-shadow-color: rgba(79, 99, 209, 0.64);\n  --main-fg-color: #313133;\n  --hover-fg-color: rgb(38, 11, 53);\n  min-width: var(--min-width);\n  min-height: var(--min-height);\n  font-size: 17px;\n  text-transform: uppercase;\n  font-weight: 600;\n  color: var(--main-fg-color);\n  background: var(--main-bg-color);\n  background: linear-gradient(66deg, var(--gradient-bg-color-1) 0%, var(--gradient-bg-color-2) 100%);\n  border: none;\n  border-radius: 999px;\n  box-shadow: 12px 2px 24px var(--shadow-color);\n  transition: all 0.3s ease-in-out 0s;\n  cursor: pointer;\n  outline: none;\n  position: relative;\n  padding: 10px;\n}\n\nbutton::before {\n  content: '';\n  border-radius: 999px;\n  min-width: calc(var(--min-width) + 12px);\n  min-height: calc(var(--min-height) + 12px);\n  border: var(--ring-width) solid var(--ring-color);\n  box-shadow: 0 0 60px var(--hover-shadow-color);\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  opacity: 0;\n  transition: all .3s ease-in-out 0s;\n}\n\nbutton:hover, .button:focus {\n  color: var(--hover-fg-color);\n  transform: translateY(-6px);\n}\n\nbutton:active {\n  color: var(--main-fg-color);\n  transform: scale(0.95);\n}\n\nbutton:active::before {\n  border: 0px solid var(--ring-color);\n}\n\nbutton:hover::before, button:focus::before {\n  opacity: 1;\n}\n\n/* ring */\nbutton::after {\n  content: '';\n  width: var(--ring-min-size);\n  height: var(--ring-min-size);\n  border-radius: 100%;\n  border: var(--ring-width) solid var(--ring-color);\n  position: absolute;\n  z-index: -1;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  animation: ring 1.5s infinite;\n}\n\nbutton:hover::after, button:focus::after {\n  animation: none;\n  display: none;\n}\n\n@keyframes ring {\n  0% {\n    width: var(--ring-min-size);\n    height: var(--ring-min-size);\n    opacity: 0.5;\n  }\n\n  100% {\n    width: var(--ring-max-size);\n    height: var(--ring-max-size);\n    opacity: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

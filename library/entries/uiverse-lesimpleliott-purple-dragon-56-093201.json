@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-lesimpleliott-purple-dragon-56-093201",
+  "title": "Loader by lesimpleliott (purple-dragon-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/lesimpleliott/purple-dragon-56",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "ball",
+    "funny",
+    "jump"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By lesimpleliott on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/lesimpleliott_purple-dragon-56.html",
+  "code": "<div class=\"loader\">\n  <div class=\"loader__balls\">\n    <div class=\"loader__balls__group\">\n      <div class=\"ball item1\"></div>\n      <div class=\"ball item1\"></div>\n      <div class=\"ball item1\"></div>\n    </div>\n    <div class=\"loader__balls__group\">\n      <div class=\"ball item2\"></div>\n      <div class=\"ball item2\"></div>\n      <div class=\"ball item2\"></div>\n    </div>\n    <div class=\"loader__balls__group\">\n      <div class=\"ball item3\"></div>\n      <div class=\"ball item3\"></div>\n      <div class=\"ball item3\"></div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by lesimpleliott  - Tags: loader, ball, funny, jump */\n.loader__balls {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  gap: 15px;\n}\n.loader__balls__group {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  align-items: center;\n  position: relative;\n  height: 100px;\n  width: 40px;\n}\n.ball {\n  height: 30px;\n  width: 30px;\n  border-radius: 15px;\n  position: absolute;\n  transform-origin: bottom;\n}\n\n/* ANIMATION BALL 1*/\n.loader__balls__group :nth-child(1) {\n  background-color: #99e2d0;\n  animation-name: jumpinBallAnimation1;\n  animation-duration: 1000ms;\n  animation-iteration-count: infinite;\n}\n@keyframes jumpinBallAnimation1 {\n  0% {\n    transform: translateY(0) scale(1, 1);\n  }\n  10% {\n    transform: translateY(0) scale(1.3, 0.8);\n  }\n  11% {\n    transform: translateY(0) scale(0.7, 1.2);\n    animation-timing-function: cubic-bezier(0, 0, 0.5, 1);\n  }\n  39% {\n    transform: translateY(-75px) scale(1);\n    animation-timing-function: cubic-bezier(0, 0, 0.5, 1);\n  }\n  40% {\n    transform: translateY(-75px) scale(1);\n  }\n  41% {\n    transform: translateY(-75px) scale(1);\n    animation-timing-function: cubic-bezier(1, 0, 1, 0);\n  }\n  69% {\n    transform: translateY(0px) scale(1, 1);\n    animation-timing-function: cubic-bezier(1, 0, 1, 0);\n  }\n  70% {\n    transform: translateY(0) scale(1.5, 0.4);\n  }\n  80% {\n    transform: translateY(0) scale(0.8, 1.2);\n  }\n  90% {\n    transform: translateY(0) scale(1.1, 0.8);\n  }\n  100% {\n    transform: translateY(0) scale(1, 1);\n  }\n}\n\n/* ANIMATION BALL 2*/\n.loader__balls__group :nth-child(2) {\n  background-color: #ff79da;\n  animation-name: jumpinBallAnimation2;\n  animation-duration: 1000ms;\n  animation-iteration-count: infinite;\n}\n@keyframes jumpinBallAnimation2 {\n  0% {\n    transform: translateY(0) scale(1, 1);\n  }\n  10% {\n    transform: translateY(0) scale(1.3, 0.8);\n  }\n  11% {\n    transform: translateY(0) scale(0.7, 1.2);\n    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);\n  }\n  39% {\n    transform: translateY(-75px) scale(1);\n    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);\n  }\n  40% {\n    transform: translateY(-75px) scale(1);\n  }\n  41% {\n    transform: translateY(-75px) scale(1);\n    animation-timing-function: cubic-bezier(1, 0, 1, 0.5);\n  }\n  69% {\n    transform: translateY(0px) scale(1, 1);\n    animation-timing-function: cubic-bezier(1, 0, 1, 0.5);\n  }\n  70% {\n    transform: translateY(0) scale(1.5, 0.4);\n  }\n  80% {\n    transform: translateY(0) scale(0.8, 1.2);\n  }\n  90% {\n    transform: translateY(0) scale(1.1, 0.8);\n  }\n  100% {\n    transform: translateY(0) scale(1, 1);\n  }\n}\n\n/* ANIMATION BALL 3*/\n.loader__balls__group :nth-child(3) {\n  background-color: #9356dc;\n  animation-name: jumpinBallAnimation3;\n  animation-duration: 1000ms;\n  animation-iteration-count: infinite;\n}\n@keyframes jumpinBallAnimation3 {\n  0% {\n    transform: translateY(0) scale(1, 1);\n  }\n  10% {\n    transform: translateY(0) scale(1.3, 0.8);\n  }\n  11% {\n    transform: translateY(0) scale(0.7, 1.2);\n    animation-timing-function: cubic-bezier(0, 1, 0.5, 1);\n  }\n  39% {\n    transform: translateY(-75px) scale(1);\n    animation-timing-function: cubic-bezier(0, 1, 0.5, 1);\n  }\n  40% {\n    transform: translateY(-75px) scale(1);\n  }\n  41% {\n    transform: translateY(-75px) scale(1);\n    animation-timing-function: cubic-bezier(1, 0, 1, 1);\n  }\n  69% {\n    transform: translateY(0px) scale(1, 1);\n    animation-timing-function: cubic-bezier(1, 0, 1, 1);\n  }\n  70% {\n    transform: translateY(0) scale(1.5, 0.4);\n  }\n  80% {\n    transform: translateY(0) scale(0.8, 1.2);\n  }\n  90% {\n    transform: translateY(0) scale(1.1, 0.8);\n  }\n  100% {\n    transform: translateY(0) scale(1, 1);\n  }\n}\n.loader__balls__group .item1 {\n  animation-delay: 0ms;\n}\n.loader__balls__group .item2 {\n  animation-delay: 100ms;\n}\n.loader__balls__group .item3 {\n  animation-delay: 200ms;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

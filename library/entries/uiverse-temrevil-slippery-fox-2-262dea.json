@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-temrevil-slippery-fox-2-262dea",
+  "title": "Button by TemRevil (slippery-fox-2)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TemRevil/slippery-fox-2",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "material-design",
+    "glassmorphism",
+    "animation",
+    "subscription",
+    "gradient",
+    "hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TemRevil on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/TemRevil_slippery-fox-2.html",
+  "code": "<button class=\"button\">\n  <div class=\"b-hover\">\n    <div class=\"cir-1 filter\"></div>\n    <div class=\"cir-2 filter\"></div>\n    <div class=\"cir-3 filter\"></div>\n    <div class=\"cir-4 filter\"></div>\n    <div class=\"cir-5 filter\"></div>\n    <div class=\"cir-6 filter\"></div>\n  </div>\n  Charge &amp; Go\n</button>\n\n<style>\n/* From Uiverse.io by TemRevil  - Tags: simple, material design, glassmorphism, animation, subscription, gradient, button, hover */\n.button {\n  position: relative;\n  z-index: 1;\n  padding: 10px 20px;\n  background-color: transparent;\n  color: #124;\n  font-size: 28px;\n  border: none;\n  border-radius: 5px;\n  transition: 0.15s 0s linear;\n  cursor: pointer;\n  overflow: hidden;\n}\n.button:hover {\n  color: #fff;\n}\n.button:active {\n  scale: 0.98;\n}\n.b-hover {\n  position: relative;\n  bottom: -45px;\n}\n.button:hover .b-hover {\n  animation: b-a 0.2s linear forwards;\n}\n\n.cir-1 {\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  z-index: -6;\n  left: -120px;\n  bottom: -20px;\n  background-color: #3395ffa1;\n  border-radius: 50%;\n}\n.button:hover .cir-1 {\n  animation: cir-1-border 0.5s 0.3s linear forwards;\n}\n.cir-2 {\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  z-index: -2;\n  left: -140px;\n  bottom: -20px;\n  background-color: #3358ffa1;\n  border-radius: 50%;\n}\n.cir-3 {\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  z-index: -3;\n  left: -160px;\n  bottom: -20px;\n  background-color: #6333ffa1;\n  border-radius: 50%;\n}\n.cir-4 {\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  z-index: -4;\n  left: -180px;\n  bottom: -20px;\n  background-color: #e433ffa1;\n  border-radius: 50%;\n}\n.cir-5 {\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  z-index: -5;\n  left: -200px;\n  bottom: -20px;\n  background-color: #ff33aab2;\n  border-radius: 50%;\n}\n.cir-6 {\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  z-index: -6;\n  left: -220px;\n  bottom: -20px;\n  background-color: #ff0084;\n  border-radius: 50%;\n}\n.button:hover .cir-6 {\n  animation: cir-6-border 0.5s 0.3s linear forwards;\n}\n.filter {\n  animation: blur 0.6s 1s infinite linear alternate;\n}\n@keyframes b-a {\n  0% {\n    left: 0;\n  }\n  100% {\n    left: 200px;\n  }\n}\n\n@keyframes cir-1-border {\n  0% {\n    border-top-right-radius: 50%;\n    border-bottom-right-radius: 50%;\n  }\n  100% {\n    border-top-right-radius: 0px;\n    border-bottom-right-radius: 0px;\n  }\n}\n@keyframes cir-6-border {\n  0% {\n    border-top-left-radius: 50%;\n    border-bottom-left-radius: 50%;\n  }\n  100% {\n    border-top-left-radius: 0px;\n    border-bottom-left-radius: 0px;\n  }\n}\n\n@keyframes blur {\n  0% {\n    filter: none;\n  }\n  100% {\n    filter: blur(3px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

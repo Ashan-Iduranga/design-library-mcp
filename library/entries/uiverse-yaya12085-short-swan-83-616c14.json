@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-yaya12085-short-swan-83-616c14",
+  "title": "Loader by Yaya12085 (short-swan-83)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/short-swan-83",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "progress-bar",
+    "colorful"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Yaya12085_short-swan-83.html",
+  "code": "<div class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: loading, progress bar, loader, colorful */\n.loader {\n  box-sizing: border-box;\n  position: relative;\n  display: block;\n  width: 60px;\n  height: 22px;\n  border: 2px solid;\n  border-radius: 3px;\n  margin-left: -3px\n}\n\n.loader::after,\n.loader::before {\n  content: \"\";\n  display: block;\n  box-sizing: border-box;\n  position: absolute;\n  height: 12px;\n  background: currentColor;\n  top: 3px\n}\n\n.loader::before {\n  right: -4px;\n  border-radius: 3px;\n  width: 4px\n}\n\n.loader::after {\n  width: 1px;\n  left: 3px;\n  animation: full 2s ease-in-out infinite;\n}\n\n@keyframes full {\n  20% {\n    background-color: red\n  }\n\n  45% {\n    background-color: yellow;\n  }\n\n  to {\n    width: 50px;\n    background-color: greenyellow;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-alanav29-tough-ape-65-dce183",
+  "title": "Input by Alanav29 (tough-ape-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Alanav29/tough-ape-65",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple",
+    "email",
+    "minimalist",
+    "light",
+    "toggle",
+    "text-animation",
+    "input-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Alanav29 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Alanav29_tough-ape-65.html",
+  "code": "<div class=\"input-container\">\n  <input type=\"text\" name=\"email\" class=\"text-input\" />\n  <label for=\"email\">Email</label>\n</div>\n\n<style>\n/* From Uiverse.io by Alanav29  - Tags: simple, email, minimalist, input, light, toggle, text animation, input effect  */\n.input-container {\n  width: auto;\n  position: static;\n  display: flex;\n  flex-direction: column-reverse;\n}\n\n.input-container label {\n  color: black;\n  position: relative;\n  top: 2px;\n  border: solid white;\n  border-top: none;\n  border-right: none;\n  border-left: none;\n  width: fit-content;\n  transition: transform 0.2s;\n  margin: 0px 0px 0px 12px;\n  padding: 0px 4px 0px 4px;\n  font-size: 20px;\n}\n\n.input-container input:focus + label {\n  color: rgb(161, 66, 249);\n  transform: scale(1.2);\n  transform: translateX(0.5rem);\n}\n\n.input-container input {\n  border: 2px rgb(161, 66, 249) solid;\n  padding: 8px;\n}\n\n.input-container input:focus {\n  outline: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

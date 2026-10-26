@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-charandeepsingh01-curly-husky-35-743f79",
+  "title": "Loader by CharandeepSingh01 (curly-husky-35)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/CharandeepSingh01/curly-husky-35",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "loading-animation",
+    "3d-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By CharandeepSingh01 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/CharandeepSingh01_curly-husky-35.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by CharandeepSingh01 - Tags: loading, loader, loading animation, 3d loader */\n/*View in dark mode for good effects*/\n.loader {\n  border: 4px solid red;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  border-right-color: transparent;\n  animation: rot 1s linear infinite;\n  box-shadow: 0px 0px 20px red inset;\n}\n\n@keyframes rot {\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

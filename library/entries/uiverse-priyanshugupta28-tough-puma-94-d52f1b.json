@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-priyanshugupta28-tough-puma-94-d52f1b",
+  "title": "Checkbox by PriyanshuGupta28 (tough-puma-94)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/tough-puma-94",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "docs-checkbox",
+    "checkmark"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/PriyanshuGupta28_tough-puma-94.html",
+  "code": "<div class=\"checkbox-wrapper\">\n  <input id=\"terms-checkbox-37\" name=\"checkbox\" type=\"checkbox\">\n  <label class=\"terms-label\" for=\"terms-checkbox-37\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 200 200\" class=\"checkbox-svg\">\n      <mask fill=\"white\" id=\"path-1-inside-1_476_5-37\">\n        <rect height=\"200\" width=\"200\"></rect>\n      </mask>\n      <rect mask=\"url(#path-1-inside-1_476_5-37)\" stroke-width=\"40\" class=\"checkbox-box\" height=\"200\" width=\"200\"></rect>\n      <path stroke-width=\"15\" d=\"M52 111.018L76.9867 136L149 64\" class=\"checkbox-tick\"></path>\n    </svg>\n    <span class=\"label-text\">Checkbox</span>\n  </label>\n</div>\n\n\n\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: checkbox, docs checkbox, checkmark */\n.checkbox-wrapper input[type=\"checkbox\"] {\n  display: none;\n}\n\n.checkbox-wrapper .terms-label {\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n}\n\n.checkbox-wrapper .terms-label .label-text {\n  margin-left: 10px;\n}\n\n.checkbox-wrapper .checkbox-svg {\n  width: 30px;\n  height: 30px;\n}\n\n.checkbox-wrapper .checkbox-box {\n  fill: rgba(207, 205, 205, 0.425);\n  stroke: #8c00ff;\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  transition: stroke-dashoffset 0.6s ease-in;\n}\n\n.checkbox-wrapper .checkbox-tick {\n  stroke: #8c00ff;\n  stroke-dasharray: 172;\n  stroke-dashoffset: 172;\n  transition: stroke-dashoffset 0.6s ease-in;\n}\n\n.checkbox-wrapper input[type=\"checkbox\"]:checked + .terms-label .checkbox-box,\n  .checkbox-wrapper input[type=\"checkbox\"]:checked + .terms-label .checkbox-tick {\n  stroke-dashoffset: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

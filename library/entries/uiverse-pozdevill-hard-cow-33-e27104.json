@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pozdevill-hard-cow-33-e27104",
+  "title": "Button by PozDevill (hard-cow-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PozDevill/hard-cow-33",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PozDevill on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/PozDevill_hard-cow-33.html",
+  "code": "<button>Button</button>\n<style>\n/* From Uiverse.io by PozDevill - Tags: button */\nbutton {\n  position: relative;\n  font-family: 'Heebo', sans-serif;\n  padding: 12px 40px;\n  border: 0;\n  background: rgb(148, 1, 1);\n  color: #ffffff;\n  font-weight: 500;\n  font-size: 1em;\n  border-radius: 8px;\n  overflow: hidden;\n  cursor: pointer;\n  transition: 0.3s ease-in-out;\n}\n\nbutton:hover {\n  text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.562);\n  transform: scale(1.01);\n  box-shadow: inset 0px 0px 10px rgba(255, 0, 0, 0.575);\n}\n\nbutton::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: -100px;\n  width: 50%;\n  height: 100%;\n  transform: rotate(80deg);\n  background: #ffffff77;\n  filter: blur(10px);\n  transition: 0.6s ease-in-out;\n}\n\nbutton:hover::after {\n  left: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

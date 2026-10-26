@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-tsiangana-mighty-grasshopper-37-4331da",
+  "title": "Loader by Tsiangana (mighty-grasshopper-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Tsiangana/mighty-grasshopper-37",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "loading-animation",
+    "anime"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Tsiangana on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Tsiangana_mighty-grasshopper-37.html",
+  "code": "<div class=\"loader\">\n  <svg width=\"200\" height=\"200\">\n    <circle\n      class=\"traco\"\n      cx=\"100\"\n      cy=\"100\"\n      r=\"70\"\n      fill=\"transparent\"\n      stroke=\"#ffe71c\"\n      stroke-width=\"9\"\n      stroke-dasharray=\"35 20\"\n      transform=\"rotate(31 100 100)\"\n    ></circle>\n  </svg>\n  <div class=\"p1\"></div>\n  <div class=\"p2\"></div>\n  <div class=\"p3\"></div>\n  <div class=\"p4\"></div>\n  <div class=\"p5\"></div>\n  <div class=\"p6\"></div>\n  <div class=\"p7\"></div>\n  <div class=\"p8\"></div>\n  <div class=\"circle\">\n    <div class=\"content\">\n      <div class=\"eyes\">\n        <div class=\"eye-left\"></div>\n        <div class=\"eye-right\"></div>\n      </div>\n      <div class=\"nouse\"></div>\n      <div class=\"mouth\"></div>\n      <div class=\"teeth\">\n        <div class=\"tooth\"></div>\n        <div class=\"tooth\"></div>\n        <div class=\"tooth\"></div>\n        <div class=\"tooth\"></div>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Tsiangana  - Tags: animation, loader, loading animation, anime */\n.loader {\n  width: 200px;\n  height: 200px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  animation: float 2s ease-in-out infinite;\n}\n\n@keyframes float {\n  0%,\n  100% {\n    transform: translateY(0);\n  }\n  50% {\n    transform: translateY(-12px);\n  }\n}\n\n.loader:before {\n  content: \"\";\n  width: 10px;\n  height: 7px;\n  border-radius: 50%;\n  background-color: rgba(0, 0, 0, 0.9);\n  position: absolute;\n  bottom: -9px;\n  animation: shadow046 2s alternate infinite ease;\n}\n@keyframes shadow046 {\n  0% {\n    transform: scaleX(1);\n  }\n  40% {\n    transform: scaleX(15);\n    opacity: 0.7;\n  }\n}\n\n.circle {\n  width: 140px;\n  height: 140px;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: absolute;\n}\n.loader .p1 {\n  height: 20px;\n  width: 7px;\n  background-color: #ffe71c;\n  position: absolute;\n  margin-top: -118px;\n  margin-left: 3px;\n}\n.loader .p2 {\n  height: 20px;\n  width: 7px;\n  background-color: #ffe71c;\n  position: absolute;\n  margin-top: 118px;\n  margin-left: 3px;\n}\n\n.loader .p3 {\n  height: 20px;\n  width: 7px;\n  background-color: #ffe71c;\n  position: absolute;\n  transform: rotate(90deg);\n  margin-right: -120px;\n}\n.loader .p4 {\n  height: 20px;\n  width: 7px;\n  background-color: #ffe71c;\n  position: absolute;\n  transform: rotate(90deg);\n  margin-right: 119px;\n}\n.loader .p5 {\n  height: 25px;\n  width: 7px;\n  background-color: #ffe71c;\n  position: absolute;\n  margin-top: -84px;\n  margin-right: -89px;\n  transform: rotate(45deg);\n}\n.loader .p6 {\n  height: 23px;\n  width: 7px;\n  background-color: #ffe71c;\n  position: absolute;\n  margin-top: 88px;\n  margin-right: 84px;\n  transform: rotate(45deg);\n}\n.loader .p7 {\n  height: 23px;\n  width: 7px;\n  background-color: #ffe71c;\n  position: absolute;\n  margin-top: -86px;\n  margin-right: 80px;\n  transform: rotate(-45deg);\n}\n.loader .p8 {\n  height: 23px;\n  width: 7px;\n  background-color: #ffe71c;\n  position: absolute;\n  margin-top: 80px;\n  margin-right: -83px;\n  transform: rotate(-45deg);\n}\n.circle .traco {\n  position: absolute;\n  z-index: -99;\n}\n.loader .content {\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  border: 4px solid #ffe71c;\n  overflow: hidden;\n}\n.content .eyes {\n  width: 80px;\n  height: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin: 18px auto 0px;\n  padding: 3.5px 10px;\n}\n.eyes .eye-left {\n  width: 22px;\n  height: 100%;\n  background-color: #ffe71c;\n  border-radius: 50%;\n}\n.eyes .eye-right {\n  width: 22px;\n  height: 100%;\n  background-color: #ffe71c;\n  border-radius: 50%;\n}\n\n.content .nouse {\n  margin: -4px auto;\n  height: 5px;\n  width: 5px;\n  border-radius: 50%;\n  background-color: #ffe71c;\n}\n.content .mouth {\n  margin: 9px auto 0;\n  height: 3px;\n  width: 100%;\n  background-color: #ffe71c;\n}\n.content .teeth {\n  margin: 0 auto;\n  height: 37px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 0 12px;\n}\n.teeth .tooth {\n  height: 100%;\n  width: 4px;\n  background-color: #ffe71c;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

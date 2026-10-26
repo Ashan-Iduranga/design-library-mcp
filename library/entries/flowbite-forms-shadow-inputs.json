@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-forms-shadow-inputs",
+  "title": "Forms: Shadow inputs (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/forms/#shadow-inputs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "forms",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Alternatively, you can decide to apply a shadow styling using the `shadow-xs` class to any of your form input elements.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/forms.md",
+  "code": "<form class=\"max-w-sm mx-auto\">\n  <div class=\"mb-5\">\n    <label for=\"email-alternative\" class=\"block mb-2.5 text-sm font-medium text-heading\">Your email</label>\n    <input type=\"email\" id=\"email-alternative\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow placeholder:text-body\" placeholder=\"name@flowbite.com\" required />\n  </div>\n  <div class=\"mb-5\">\n    <label for=\"password-alternative\" class=\"block mb-2.5 text-sm font-medium text-heading\">Your password</label>\n    <input type=\"password\" id=\"password-alternative\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow placeholder:text-body\" placeholder=\"••••••••\" required />\n  </div>\n  <div class=\"flex items-start mb-5\">\n    <label for=\"remember-alternative\" class=\"flex items-center h-5\">\n      <input id=\"remember-alternative\" type=\"checkbox\" value=\"\" class=\"w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\" required />\n      <p class=\"ms-2 text-sm font-medium text-heading select-none\">I agree with the <a href=\"#\" class=\"text-fg-brand hover:underline\">terms and conditions</a>.</p>\n    </label>\n  </div>\n  <button type=\"submit\" class=\"text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Submit</button>\n</form>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

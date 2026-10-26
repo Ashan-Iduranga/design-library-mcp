@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-doniaskima-weak-penguin-24-f1955d",
+  "title": "Button by doniaskima (weak-penguin-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/weak-penguin-24",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "bouncing-animation",
+    "doubletriangle"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/doniaskima_weak-penguin-24.html",
+  "code": "<button class=\"btn-5\"><span>Button</span></button>\n\n<style>\n/* From Uiverse.io by doniaskima - Tags: button, bouncing animation, DoubleTriangle  */\n.btn-5,\n.btn-5 *,\n.btn-5 :after,\n.btn-5 :before,\n.btn-5:after,\n.btn-5:before {\n  border: 0 solid;\n  box-sizing: border-box;\n}\n\n.btn-5 {\n  -webkit-tap-highlight-color: transparent;\n  -webkit-appearance: button;\n  background-color: #000;\n  background-image: none;\n  color: #fff;\n  cursor: pointer;\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,\n    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,\n    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;\n  font-size: 100%;\n  font-weight: 900;\n  line-height: 1.5;\n  margin: 0;\n  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);\n  padding: 0;\n  text-transform: uppercase;\n}\n\n.btn-5:disabled {\n  cursor: default;\n}\n\n.btn-5:-moz-focusring {\n  outline: auto;\n}\n\n.btn-5 svg {\n  display: block;\n  vertical-align: middle;\n}\n\n.btn-5 [hidden] {\n  display: none;\n}\n\n.btn-5 {\n  border-radius: 99rem;\n  border-width: 2px;\n  overflow: hidden;\n  padding: 0.8rem 3rem;\n  position: relative;\n}\n\n.btn-5 span {\n  mix-blend-mode: difference;\n}\n\n.btn-5:before {\n  --tilt: 1.2rem;\n  background: #fff;\n  -webkit-clip-path: polygon(\n    0 0,\n    calc(100% - var(--tilt)) 0,\n    100% 50%,\n    calc(100% - var(--tilt)) 100%,\n    0 100%\n  );\n  clip-path: polygon(\n    0 0,\n    calc(100% - var(--tilt)) 0,\n    100% 50%,\n    calc(100% - var(--tilt)) 100%,\n    0 100%\n  );\n  content: \"\";\n  display: block;\n  height: 100%;\n  left: calc(-100% - var(--tilt));\n  position: absolute;\n  top: 0;\n  transform: translateX(var(--progress, 0));\n  transition: transform 0.2s ease;\n  width: calc(100% + var(--tilt));\n}\n\n.btn-5:hover:before {\n  --progress: 100%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

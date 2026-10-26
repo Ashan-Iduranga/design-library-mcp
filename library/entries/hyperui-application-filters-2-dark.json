@@ -1,0 +1,36 @@
+{
+  "id": "hyperui-application-filters-2-dark",
+  "title": "Filters: Accordion (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/filters",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "filters",
+    "hyperui",
+    "form",
+    "input",
+    "search",
+    "sort",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/filters/2-dark.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<div class=\"space-y-4\">\n<details class=\"group relative overflow-hidden rounded border border-gray-300 shadow-sm dark:border-gray-600\">\n<summary class=\"flex items-center justify-between gap-2 p-3 text-gray-700 transition-colors hover:text-gray-900 dark:text-gray-200 dark:hover:text-white [&amp;::-webkit-details-marker]:hidden\">\n<span class=\"text-sm font-medium\"> Availability </span>\n<span class=\"transition-transform group-open:-rotate-180\">\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n</span>\n</summary>\n<div class=\"divide-y divide-gray-300 border-t border-gray-300 bg-white dark:divide-gray-600 dark:border-gray-600 dark:bg-gray-900\">\n<div class=\"flex items-center justify-between px-3 py-2\">\n<span class=\"text-sm text-gray-700 dark:text-gray-200\"> 0 Selected </span>\n<button class=\"text-sm text-gray-700 underline transition-colors hover:text-gray-900 dark:text-gray-200 dark:hover:text-white\" type=\"button\">\n              Reset\n            </button>\n</div>\n<fieldset class=\"p-3\">\n<legend class=\"sr-only\">Checkboxes</legend>\n<div class=\"flex flex-col items-start gap-3\">\n<label class=\"inline-flex items-center gap-3\" for=\"Option1\">\n<input class=\"size-5 rounded border-gray-300 shadow-sm dark:border-gray-600 dark:bg-gray-900 dark:ring-offset-gray-900 dark:checked:bg-blue-600\" id=\"Option1\" type=\"checkbox\"/>\n<span class=\"text-sm font-medium text-gray-700 dark:text-gray-200\"> Option 1 </span>\n</label>\n<label class=\"inline-flex items-center gap-3\" for=\"Option2\">\n<input class=\"size-5 rounded border-gray-300 shadow-sm dark:border-gray-600 dark:bg-gray-900 dark:ring-offset-gray-900 dark:checked:bg-blue-600\" id=\"Option2\" type=\"checkbox\"/>\n<span class=\"text-sm font-medium text-gray-700 dark:text-gray-200\"> Option 2 </span>\n</label>\n<label class=\"inline-flex items-center gap-3\" for=\"Option3\">\n<input class=\"size-5 rounded border-gray-300 shadow-sm dark:border-gray-600 dark:bg-gray-900 dark:ring-offset-gray-900 dark:checked:bg-blue-600\" id=\"Option3\" type=\"checkbox\"/>\n<span class=\"text-sm font-medium text-gray-700 dark:text-gray-200\"> Option 3 </span>\n</label>\n</div>\n</fieldset>\n</div>\n</details>\n<details class=\"group relative overflow-hidden rounded border border-gray-300 shadow-sm dark:border-gray-600\">\n<summary class=\"flex items-center justify-between gap-2 p-3 text-gray-700 transition-colors hover:text-gray-900 dark:text-gray-200 dark:hover:text-white [&amp;::-webkit-details-marker]:hidden\">\n<span class=\"text-sm font-medium\"> Price </span>\n<span class=\"transition-transform group-open:-rotate-180\">\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n</span>\n</summary>\n<div class=\"divide-y divide-gray-300 border-t border-gray-300 bg-white dark:divide-gray-600 dark:border-gray-600 dark:bg-gray-900\">\n<div class=\"flex items-center justify-between px-3 py-2\">\n<span class=\"text-sm text-gray-700 dark:text-gray-200\"> Max price is $600 </span>\n<button class=\"text-sm text-gray-700 underline transition-colors hover:text-gray-900 dark:text-gray-200\" type=\"button\">\n              Reset\n            </button>\n</div>\n<div class=\"flex items-center gap-3 p-3\">\n<label for=\"MinPrice\">\n<span class=\"text-sm text-gray-700 dark:text-gray-200\"> Min </span>\n<input class=\"mt-0.5 w-full rounded border-gray-300 shadow-sm sm:text-sm dark:border-gray-600 dark:bg-gray-900 dark:text-white\" id=\"MinPrice\" type=\"number\" value=\"0\"/>\n</label>\n<label for=\"MaxPrice\">\n<span class=\"text-sm text-gray-700 dark:text-gray-200\"> Max </span>\n<input class=\"mt-0.5 w-full rounded border-gray-300 shadow-sm sm:text-sm dark:border-gray-600 dark:bg-gray-900 dark:text-white\" id=\"MaxPrice\" type=\"number\" value=\"600\"/>\n</label>\n</div>\n</div>\n</details>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

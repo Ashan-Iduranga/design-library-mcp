@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-vinodjangid07-lucky-bulldog-57-060f52",
+  "title": "Button by vinodjangid07 (lucky-bulldog-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/lucky-bulldog-57",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "animation",
+    "svg",
+    "arrow",
+    "next",
+    "go"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_lucky-bulldog-57.html",
+  "code": "<button class=\"Btn-Container\">\n  <span class=\"text\">let's go!</span>\n  <span class=\"icon-Container\">\n    <svg\n      width=\"16\"\n      height=\"19\"\n      viewBox=\"0 0 16 19\"\n      fill=\"nones\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <circle cx=\"1.61321\" cy=\"1.61321\" r=\"1.5\" fill=\"black\"></circle>\n      <circle cx=\"5.73583\" cy=\"1.61321\" r=\"1.5\" fill=\"black\"></circle>\n      <circle cx=\"5.73583\" cy=\"5.5566\" r=\"1.5\" fill=\"black\"></circle>\n      <circle cx=\"9.85851\" cy=\"5.5566\" r=\"1.5\" fill=\"black\"></circle>\n      <circle cx=\"9.85851\" cy=\"9.5\" r=\"1.5\" fill=\"black\"></circle>\n      <circle cx=\"13.9811\" cy=\"9.5\" r=\"1.5\" fill=\"black\"></circle>\n      <circle cx=\"5.73583\" cy=\"13.4434\" r=\"1.5\" fill=\"black\"></circle>\n      <circle cx=\"9.85851\" cy=\"13.4434\" r=\"1.5\" fill=\"black\"></circle>\n      <circle cx=\"1.61321\" cy=\"17.3868\" r=\"1.5\" fill=\"black\"></circle>\n      <circle cx=\"5.73583\" cy=\"17.3868\" r=\"1.5\" fill=\"black\"></circle>\n    </svg>\n  </span>\n</button>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: icon, animation, button, svg, arrow, next, go */\n.Btn-Container {\n  display: flex;\n  width: 170px;\n  height: fit-content;\n  background-color: #1d2129;\n  border-radius: 40px;\n  box-shadow: 0px 5px 10px #bebebe;\n  justify-content: space-between;\n  align-items: center;\n  border: none;\n  cursor: pointer;\n}\n.icon-Container {\n  width: 45px;\n  height: 45px;\n  background-color: #f59aff;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 50%;\n  border: 3px solid #1d2129;\n}\n.text {\n  width: calc(170px - 45px);\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: white;\n  font-size: 1.1em;\n  letter-spacing: 1.2px;\n}\n.icon-Container svg {\n  transition-duration: 1.5s;\n}\n.Btn-Container:hover .icon-Container svg {\n  transition-duration: 1.5s;\n  animation: arrow 1s linear infinite;\n}\n@keyframes arrow {\n  0% {\n    opacity: 0;\n    margin-left: 0px;\n  }\n  100% {\n    opacity: 1;\n    margin-left: 10px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

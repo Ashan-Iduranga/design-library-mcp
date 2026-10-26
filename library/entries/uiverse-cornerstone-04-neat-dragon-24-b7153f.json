@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cornerstone-04-neat-dragon-24-b7153f",
+  "title": "Loader by Cornerstone-04 (neat-dragon-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cornerstone-04/neat-dragon-24",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cornerstone-04 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Cornerstone-04_neat-dragon-24.html",
+  "code": "<div class=\"loader\">\n    <div></div>\n</div>\n<style>\n/* From Uiverse.io by Cornerstone-04 - Tags: loader */\n.loader {\n  width: 50px;\n  height: 50px;\n  border: 7px double;\n  border-color: #43cec7 transparent;\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  animation: spin13213 2s linear infinite;\n}\n\n.loader div {\n  width: 50%;\n  height: 50%;\n  background-color: #43cec7;\n  border-radius: 50%;\n}\n\n@keyframes spin13213 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-nguyenhainam24082000-nervous-insect-23-c6ed3f",
+  "title": "Button by NguyenHaiNam24082000 (nervous-insect-23)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/NguyenHaiNam24082000/nervous-insect-23",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "skeuomorphism",
+    "emergency"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By NguyenHaiNam24082000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/NguyenHaiNam24082000_nervous-insect-23.html",
+  "code": "<div class=\"background-button\">\n  <button class=\"button\">\n    EMERGENCY\n  </button>\n</div>\n\n<style>\n/* From Uiverse.io by NguyenHaiNam24082000 - Tags: skeuomorphism, button, emergency */\n.background-button {\n  background: repeating-linear-gradient(\n    45deg,\n    #3c2209 0 20px,\n    #ff9c00 20px 40px\n  );\n  width: 10em;\n  height: 10em;\n  -webkit-box-shadow: 15px 15px 50px 5px #5f5f5f;\n  box-shadow: 15px 15px 50px 5px #5f5f5f;\n  position: relative;\n  display: inline-block;\n  outline: 2px solid black;\n}\n\n.background-button::before {\n  content: \"\";\n  display: inline-block;\n  position: absolute;\n  top: 15%;\n  left: 15%;\n  width: 70%;\n  height: 70%;\n  background: #a0b8c4;\n  border: 2px solid #3c2209;\n}\n\n.button {\n  background: #cc2a1f;\n  width: 65%;\n  height: 65%;\n  border-radius: 50%;\n  position: absolute;\n  top: 7.5%;\n  left: 18.25%;\n  color: white;\n  font-size: 1em;\n  font-weight: 900;\n  font-family: 'Courier New', Courier, monospace;\n  -webkit-box-shadow: 0 15px 0 0 #842a2a;\n  box-shadow: 0 15px 0 0 #842a2a;\n  -webkit-transition: all .5s ease;\n  transition: all .5s ease;\n  border: 2px solid black;\n}\n\n.button:active {\n  -webkit-box-shadow: 0 1px 1px 1px #8C0606;\n  box-shadow: 0 1px 1px 1px #8C0606;\n  top: 15%;\n}\n\n.background-button:has(.button:active) + .emergency {\n  display: block;\n  -webkit-transform: rotate(0deg) scaleY(1);\n  -ms-transform: rotate(0deg) scaleY(1);\n  transform: rotate(0deg) scaleY(1);\n  -webkit-animation: anims 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);\n  animation: anims 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);\n}\n\n@keyframes anims {\n  0% {\n    -webkit-transform: rotate(-30deg) scaleY(0.25);\n    transform: rotate(-30deg) scaleY(0.25);\n  }\n\n  100% {\n    -webkit-transform: rotate(0deg) scaleY(1);\n    transform: rotate(0deg) scaleY(1);\n  }\n}\n\n.emergency {\n  position: absolute;\n  display: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

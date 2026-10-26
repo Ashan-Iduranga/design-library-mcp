@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mijailvillegas-swift-fireant-79-64e81b",
+  "title": "Notification by MijailVillegas (swift-fireant-79)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MijailVillegas/swift-fireant-79",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MijailVillegas on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Notifications/MijailVillegas_swift-fireant-79.html",
+  "code": "<div class=\"level-up-content\">\n    <div class=\"level-up-content\">\n        <div class=\"level-up\">\n            <span class=\"leyend\">Level Up!</span>\n        </div>\n        <div class=\"progress-bar\">\n            <div class=\"progress\"></div>\n        </div>\n        <span class=\"world\">world 1-1</span>\n\n        \n        <div class=\"suggestion\">\n            <span>Reload or click ↓</span>\n        </div>\n        \n    </div>\n</div>\n\n<style>\n/* From Uiverse.io by MijailVillegas - Tags: notification */\n/*Mijail Villegas - Bear\nMe gusta  la estética retro de los level ups*/\n\n.level-up-content {\n  display: grid;\n  width: 200px;\n  height: 70px;\n  padding: 10px;\n  align-items: center;\n  justify-items: center;\n  align-content: center;\n  font-weight: bold;\n  font-family: \"Lucida Console\", \"Courier New\", monospace;\n  margin: auto;\n}\n\n.progress-bar {\n  background-color: #ddd;\n  height: 20px;\n  margin: 10px 0;\n  overflow: hidden;\n  width: 100%;\n  display: flex;\n  text-align: center;\n  font-size: 1em;\n}\n\n.progress {\n  animation: progress-animation 2s ease-out forwards;\n  background-color: #000000;\n  height: 100%;\n  width: 0%;\n  z-index: 1;\n}\n\n.progress::before {\n  content: \"\";\n  display: block;\n  color: #ddd;\n  padding-top: 3px;\n  height: 20px;\n  animation: progress-xp 2.1s ease-out forwards;\n}\n\n.progress::after {\n  content: \"+220xp\";\n  display: block;\n  color: rgb(0, 255, 0);\n  position: absolute;\n  padding-top: 3px;\n  z-index: 999;\n  opacity: 0;\n  animation: add-xp 2s cubic-bezier(0, 0.92, 0.05, 1.07) forwards;\n}\n\n.span-content::before {\n  display: block;\n  color: #ddd;\n  margin-left: auto;\n  height: 20px;\n}\n\n.level-up {\n  color: white;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n  height: 100%;\n}\n\n.level-up .leyend {\n  font-size: 1.2em;\n  animation: level-up-animation 1s cubic-bezier(0, 0.62, 0, 0.97) forwards 2s;\n  opacity: 0;\n  transform: translateY(100%);\n  filter: drop-shadow(4px 4px 0px black);\n}\n\n.level-up-content:hover {\n  cursor: pointer;\n}\n\n.level-up-content:hover .leyend {\n  opacity: 1;\n  transform: translateY(100%);\n  background: #a11a1a;\n  animation: grow-up 1s ease-in-out forwards infinite;\n}\n\n.leyend::before {\n  content: \"lvl 5\";\n  display: block;\n  color: #ddd;\n  padding-top: 3px;\n  font-size: 0.5em;\n  height: 10px;\n}\n\n.level-up-content .world {\n  font-weight: 900;\n  animation: blink 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;\n}\n\n@keyframes add-xp {\n  0% {\n    opacity: 0;\n    transform: translateY(-20%);\n  }\n\n  60% {\n    opacity: 1;\n  }\n\n  to {\n    transform: translateY(-230%);\n    opacity: 0;\n  }\n}\n\n@keyframes blink {\n  0% {\n    color: black;\n  }\n\n  to {\n    color: white;\n  }\n}\n\n@keyframes progress-animation {\n  0% {\n    width: 0%;\n  }\n\n  65% {\n    width: 100%;\n  }\n\n  100% {\n    width: 100%;\n  }\n}\n\n@keyframes progress-xp {\n  0% {\n    content: \"0xp\";\n  }\n\n  5% {\n    content: \"+5xp\";\n  }\n\n  10% {\n    content: \"+10xp\";\n  }\n\n  15% {\n    content: \"+35xp\";\n  }\n\n  22% {\n    content: \"+52xp\";\n  }\n\n  25% {\n    content: \"+75xp\";\n  }\n\n  30% {\n    content: \"+90xp\";\n  }\n\n  38% {\n    content: \"+118xp\";\n  }\n\n  40% {\n    content: \"+162xp\";\n  }\n\n  45% {\n    content: \"+195xp\";\n  }\n\n  50% {\n    content: \"+200xp\";\n  }\n\n  65% {\n    content: \"+220xp\";\n  }\n\n  80% {\n    content: \"+220xp\";\n  }\n\n  100% {\n    content: \"NEW LEVEL!\";\n  }\n}\n\n@keyframes level-up-animation {\n  0% {\n    opacity: 0;\n    transform: translateY(100%);\n  }\n\n  100% {\n    opacity: 1;\n    transform: translateY(0%);\n    background: #a11a1a;\n  }\n}\n\n@keyframes grow-up {\n  0% {\n    transform: scale(110%);\n  }\n\n  12% {\n    transform: scale(90%);\n  }\n\n  25% {\n    transform: scale(100%);\n  }\n\n  37% {\n    transform: scale(115%);\n  }\n\n  50% {\n    transform: scale(110%);\n  }\n\n  75% {\n    transform: scale(130%);\n  }\n\n  to {\n    transform: scale(115%);\n  }\n}\n\n/* you can delete this part */\n.suggestion {\n  font-size: 0.7em;\n  position: absolute;\n  color: #9b9b9b;\n  display: block;\n  top: 80%;\n  left: 60%;\n}\n/**/\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

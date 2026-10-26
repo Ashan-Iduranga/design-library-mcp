@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-kerolos23-smooth-wombat-54-344d5d",
+  "title": "Loader by kerolos23 (smooth-wombat-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kerolos23/smooth-wombat-54",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animated",
+    "circle-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kerolos23 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/kerolos23_smooth-wombat-54.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by kerolos23 - Tags: loader, animated, circle loader */\n.loader {\n  transform: rotateZ(45deg);\n  perspective: 1000px;\n  border-radius: 50%;\n  width: 48px;\n  height: 48px;\n  color: #91ff00;\n}\n\n.loader:before,\n.loader:after {\n  content: '';\n  display: block;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: inherit;\n  height: inherit;\n  border-radius: 50%;\n  transform: rotateX(70deg);\n  animation: 1s spin linear infinite;\n}\n\n.loader:after {\n  color: #FF3D00;\n  transform: rotateY(70deg);\n  animation-delay: .4s;\n}\n\n@keyframes rotate {\n  0% {\n    transform: translate(-50%, -50%) rotateZ(0deg);\n  }\n\n  100% {\n    transform: translate(-50%, -50%) rotateZ(360deg);\n  }\n}\n\n@keyframes rotateccw {\n  0% {\n    transform: translate(-50%, -50%) rotate(0deg);\n  }\n\n  100% {\n    transform: translate(-50%, -50%) rotate(-360deg);\n  }\n}\n\n@keyframes spin {\n  0%,\n  100% {\n    box-shadow: .2em 0px 0 0px currentcolor;\n  }\n\n  12% {\n    box-shadow: .2em .2em 0 0 currentcolor;\n  }\n\n  25% {\n    box-shadow: 0 .2em 0 0px currentcolor;\n  }\n\n  37% {\n    box-shadow: -.2em .2em 0 0 currentcolor;\n  }\n\n  50% {\n    box-shadow: -.2em 0 0 0 currentcolor;\n  }\n\n  62% {\n    box-shadow: -.2em -.2em 0 0 currentcolor;\n  }\n\n  75% {\n    box-shadow: 0px -.2em 0 0 currentcolor;\n  }\n\n  87% {\n    box-shadow: .2em -.2em 0 0 currentcolor;\n  }\n}\n   \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

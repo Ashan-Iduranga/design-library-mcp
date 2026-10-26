@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-modal-modal-using-checkbox",
+  "title": "Modal: Modal using checkbox (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/modal/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "modal",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Modal is used to show a dialog or a box when you click a button.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/modal/+page.md",
+  "code": "<!-- The button to open modal -->\n<label for=\"my_modal_6\" class=\"btn\">open modal</label>\n\n<!-- Put this part before </body> tag -->\n<input type=\"checkbox\" id=\"my_modal_6\" class=\"modal-toggle\" />\n<div class=\"modal\" role=\"dialog\">\n  <div class=\"modal-box\">\n    <h3 class=\"text-lg font-bold\">Hello!</h3>\n    <p class=\"py-4\">This modal works with a hidden checkbox!</p>\n    <div class=\"modal-action\">\n      <label for=\"my_modal_6\" class=\"btn\">Close!</label>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

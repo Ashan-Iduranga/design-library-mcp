@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-perfect-bird-26-2eb549",
+  "title": "Loader by Shoh2008 (perfect-bird-26)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/perfect-bird-26",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_perfect-bird-26.html",
+  "code": "<span class=\"loader\"></span>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  position: relative;\n  width: 120px;\n  height: 140px;\n  background-image: radial-gradient(circle 30px, #fff 100%, transparent 0),\n    radial-gradient(circle 5px, #fff 100%, transparent 0),\n    radial-gradient(circle 5px, #fff 100%, transparent 0),\n    linear-gradient(#FFF 20px, transparent 0);\n  background-position: center 127px , 94px 102px , 16px 18px, center 114px;\n  background-size: 60px 60px, 10px 10px , 10px 10px , 4px 14px;\n  background-repeat: no-repeat;\n  z-index: 10;\n  perspective: 500px;\n}\n\n.loader::before {\n  content: '';\n  position: absolute;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  border: 3px solid #fff;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -55%) rotate(-45deg);\n  border-right-color: transparent;\n  box-sizing: border-box;\n}\n\n.loader::after {\n  content: '';\n  position: absolute;\n  height: 80px;\n  width: 80px;\n  transform: translate(-50%, -55%) rotate(-45deg) rotateY(0deg);\n  left: 50%;\n  top: 50%;\n  box-sizing: border-box;\n  border: 7px solid #FF3D00;\n  border-radius: 50%;\n  animation: rotate_4191 0.5s linear infinite;\n}\n\n@keyframes rotate_4191 {\n  to {\n    transform: translate(-50%, -55%) rotate(-45deg) rotateY(360deg)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

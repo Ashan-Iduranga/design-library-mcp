@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-zstarpanda0210-wise-monkey-27-202735",
+  "title": "Card by ZstarPanda0210 (wise-monkey-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ZstarPanda0210/wise-monkey-27",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "order"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ZstarPanda0210 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/ZstarPanda0210_wise-monkey-27.html",
+  "code": "<div class=\"card\"> \n  <button type=\"button\" class=\"dismiss\">×</button> \n  <div class=\"header\"> \n    <div class=\"image\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\"><g stroke-width=\"0\" id=\"SVGRepo_bgCarrier\"></g><g stroke-linejoin=\"round\" stroke-linecap=\"round\" id=\"SVGRepo_tracerCarrier\"></g><g id=\"SVGRepo_iconCarrier\"> <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"1.5\" stroke=\"#000000\" d=\"M20 7L9.00004 18L3.99994 13\"></path> </g></svg>\n      </div> \n      <div class=\"content\">\n         <span class=\"title\">Order validated</span> \n         <p class=\"message\">Thank you for your purchase. you package will be delivered within 2 days of your purchase</p> \n         </div> \n         <div class=\"actions\">\n            <button type=\"button\" class=\"history\">History</button> \n            <button type=\"button\" class=\"track\">Track my package</button> \n            </div> \n            </div> \n            </div>\n\n\n\n\n<style>\n/* From Uiverse.io by ZstarPanda0210 - Tags: order, card */\n.card {\n  overflow: hidden;\n  position: relative;\n  text-align: left;\n  border-radius: 0.5rem;\n  max-width: 290px;\n  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);\n  background-color: #fff;\n}\n\n.dismiss {\n  position: absolute;\n  right: 10px;\n  top: 10px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 0.5rem 1rem;\n  background-color: #fff;\n  color: black;\n  border: 2px solid #D1D5DB;\n  font-size: 1rem;\n  font-weight: 300;\n  width: 30px;\n  height: 30px;\n  border-radius: 7px;\n  transition: .3s ease;\n}\n\n.dismiss:hover {\n  background-color: #ee0d0d;\n  border: 2px solid #ee0d0d;\n  color: #fff;\n}\n\n.header {\n  padding: 1.25rem 1rem 1rem 1rem;\n}\n\n.image {\n  display: flex;\n  margin-left: auto;\n  margin-right: auto;\n  background-color: #e2feee;\n  flex-shrink: 0;\n  justify-content: center;\n  align-items: center;\n  width: 3rem;\n  height: 3rem;\n  border-radius: 9999px;\n  animation: animate .6s linear alternate-reverse infinite;\n  transition: .6s ease;\n}\n\n.image svg {\n  color: #0afa2a;\n  width: 2rem;\n  height: 2rem;\n}\n\n.content {\n  margin-top: 0.75rem;\n  text-align: center;\n}\n\n.title {\n  color: #066e29;\n  font-size: 1rem;\n  font-weight: 600;\n  line-height: 1.5rem;\n}\n\n.message {\n  margin-top: 0.5rem;\n  color: #595b5f;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n\n.actions {\n  margin: 0.75rem 1rem;\n}\n\n.history {\n  display: inline-flex;\n  padding: 0.5rem 1rem;\n  background-color: #1aa06d;\n  color: #ffffff;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  font-weight: 500;\n  justify-content: center;\n  width: 100%;\n  border-radius: 0.375rem;\n  border: none;\n  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n}\n\n.track {\n  display: inline-flex;\n  margin-top: 0.75rem;\n  padding: 0.5rem 1rem;\n  color: #242525;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  font-weight: 500;\n  justify-content: center;\n  width: 100%;\n  border-radius: 0.375rem;\n  border: 1px solid #D1D5DB;\n  background-color: #fff;\n  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n}\n\n@keyframes animate {\n  from {\n    transform: scale(1);\n  }\n\n  to {\n    transform: scale(1.09);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

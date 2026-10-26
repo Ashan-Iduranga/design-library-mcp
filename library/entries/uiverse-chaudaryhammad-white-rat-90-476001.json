@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-chaudaryhammad-white-rat-90-476001",
+  "title": "Loader by ChaudaryHammad (white-rat-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ChaudaryHammad/white-rat-90",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "cool-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ChaudaryHammad on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/ChaudaryHammad_white-rat-90.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by ChaudaryHammad - Tags: loading, loader, cool loader */\n.loader {\n  width: 50px;\n  aspect-ratio: 1.154;\n  position: relative;\n  background: conic-gradient(from 120deg at 50% 64%,#0000, #ff1919 1deg 120deg,#0000 121deg);\n  animation: l27-0 1.5s infinite cubic-bezier(0.3,1,0,1);\n}\n\n.loader:before,\n.loader:after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: inherit;\n  transform-origin: 50% 66%;\n  animation: l27-1 1.5s infinite;\n}\n\n.loader:after {\n  --s: -1;\n}\n\n@keyframes l27-0 {\n  0%,30% {\n    transform: rotate(0)\n  }\n\n  70% {\n    transform: rotate(120deg)\n  }\n\n  70.01%,100% {\n    transform: rotate(360deg)\n  }\n}\n\n@keyframes l27-1 {\n  0% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(0)\n  }\n\n  30%,70% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(calc(var(--s,1)*-5px),10px)\n  }\n\n  100% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(0)\n  }\n}\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

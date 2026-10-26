@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-tabs-full-width-tabs",
+  "title": "Tabs: Full width tabs (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/tabs/#full-width-tabs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "tab",
+    "tabs",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "If you want to show the tabs on the full width relative to the parent element you can do so by using the full width tabs component example.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/tabs.md",
+  "code": "<div class=\"sm:hidden\">\n    <label for=\"tabs\" class=\"sr-only\">Select your country</label>\n    <select id=\"tabs\" class=\"block w-full px-3 py-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand px-3 py-2.5 shadow-xs placeholder:text-body\">\n        <option>Profile</option>\n        <option>Dashboard</option>\n        <option>setting</option>\n        <option>Invoice</option>\n    </select>\n</div>\n<ul class=\"hidden text-sm font-medium text-center text-body sm:flex -space-x-px\">\n    <li class=\"w-full focus-within:z-10\">\n        <a href=\"#\" class=\"inline-block w-full text-body bg-neutral-primary-soft border border-default rounded-s-base hover:bg-neutral-secondary-medium hover:text-heading focus:ring-4 focus:ring-neutral-secondary-strong font-medium leading-5 text-sm px-4 py-2.5 focus:outline-none\" aria-current=\"page\">Profile</a>\n    </li>\n    <li class=\"w-full focus-within:z-10\">\n        <a href=\"#\" class=\"inline-block w-full text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-4 focus:ring-neutral-secondary-strong font-medium leading-5 text-sm px-4 py-2.5 focus:outline-none\">Dashboard</a>\n    </li>\n    <li class=\"w-full focus-within:z-10\">\n        <a href=\"#\" class=\"inline-block w-full text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-4 focus:ring-neutral-secondary-strong font-medium leading-5 text-sm px-4 py-2.5 focus:outline-none\">Settings</a>\n    </li>\n    <li class=\"w-full focus-within:z-10\">\n        <a href=\"#\" class=\"inline-block w-full text-body bg-neutral-primary-soft border border-default rounded-e-base hover:bg-neutral-secondary-medium hover:text-heading focus:ring-4 focus:ring-neutral-secondary-strong font-medium leading-5 text-sm px-4 py-2.5 focus:outline-none\">Invoice</a>\n    </li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

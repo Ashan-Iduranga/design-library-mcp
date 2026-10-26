@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-212004alji-fat-eagle-24-5e0ad7",
+  "title": "Button by 212004ALJI (fat-eagle-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/212004ALJI/fat-eagle-24",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "glitch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 212004ALJI on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/212004ALJI_fat-eagle-24.html",
+  "code": "<button>\n  GLITCH\n</button>\n<style>\n/* From Uiverse.io by 212004ALJI - Tags: button, glitch */\nbutton,button::after {\n  padding: 10px 50px;\n  font-size: 20px;\n  border: none;\n  border-radius: 5px;\n  color: white;\n  background-color: transparent;\n  position: relative;\n}\n\nbutton::after {\n  --move1: inset(50% 50% 50% 50%);\n  --move2: inset(31% 0 40% 0);\n  --move3: inset(39% 0 15% 0);\n  --move4: inset(45% 0 40% 0);\n  --move5: inset(45% 0 6% 0);\n  --move6: inset(14% 0 61% 0);\n  clip-path: var(--move1);\n  content: 'GLITCH';\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  display: block;\n}\n\nbutton:hover::after {\n  animation: glitch_4011 1s;\n  text-shadow: 10 10px 10px black;\n  animation-timing-function: steps(2, end);\n  text-shadow: -3px -3px 0px #1df2f0, 3px 3px 0px #E94BE8;\n  background-color: transparent;\n  border: 3px solid rgb(0, 255, 213);\n}\n\nbutton:hover {\n  text-shadow: -1px -1px 0px #1df2f0, 1px 1px 0px #E94BE8;\n}\n\nbutton:hover {\n  background-color: transparent;\n  border: 1px solid rgb(0, 255, 213);\n  box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);\n}\n\n@keyframes glitch_4011 {\n  0% {\n    clip-path: var(--move1);\n    transform: translate(0px,-10px);\n  }\n\n  10% {\n    clip-path: var(--move2);\n    transform: translate(-10px,10px);\n  }\n\n  20% {\n    clip-path: var(--move3);\n    transform: translate(10px,0px);\n  }\n\n  30% {\n    clip-path: var(--move4);\n    transform: translate(-10px,10px);\n  }\n\n  40% {\n    clip-path: var(--move5);\n    transform: translate(10px,-10px);\n  }\n\n  50% {\n    clip-path: var(--move6);\n    transform: translate(-10px,10px);\n  }\n\n  60% {\n    clip-path: var(--move1);\n    transform: translate(10px,-10px);\n  }\n\n  70% {\n    clip-path: var(--move3);\n    transform: translate(-10px,10px);\n  }\n\n  80% {\n    clip-path: var(--move2);\n    transform: translate(10px,-10px);\n  }\n\n  90% {\n    clip-path: var(--move4);\n    transform: translate(-10px,10px);\n  }\n\n  100% {\n    clip-path: var(--move1);\n    transform: translate(0);\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

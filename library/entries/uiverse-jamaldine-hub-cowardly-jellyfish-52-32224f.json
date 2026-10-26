@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-jamaldine-hub-cowardly-jellyfish-52-32224f",
+  "title": "Input by jamaldine-hub (cowardly-jellyfish-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/jamaldine-hub/cowardly-jellyfish-52",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "animation",
+    "active",
+    "dark",
+    "light",
+    "modern"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By jamaldine-hub on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/jamaldine-hub_cowardly-jellyfish-52.html",
+  "code": "<div class=\"container\">\n  <input required=\"required\" class=\"inp\" />\n  <span class=\"content\">Content</span>\n</div>\n\n<style>\n/* From Uiverse.io by jamaldine-hub  - Tags: animation, active, input, dark, light, modern */\n.container {\n  position: relative;\n  width: 250px;\n}\n.container .inp {\n  width: 100%;\n  padding: 10px;\n  border: 1.5px solid rgba(0, 167, 161, 0.272);\n  outline: none;\n  margin-top: 20px;\n  border-radius: 5px;\n  color: rgba(0, 167, 181, 0.62);\n  background: rgba(41, 41, 41);\n  font-size: 1em;\n}\n.container .content {\n  position: absolute;\n  left: 0;\n  margin-top: 20px;\n  padding: 10px;\n  text-transform: uppercase;\n  font-size: 1em;\n  pointer-events: none;\n  color: rgba(0, 167, 161, 0.272);\n  transition: 0.5s;\n}\n.container input:valid ~ span,\n.container input:focus ~ span {\n  color: rgb(10, 164, 159);\n  transform: translateX(10px) translateY(-7px);\n  font-size: 0.9em;\n  padding: 0 10px;\n  background: rgb(41, 41, 41);\n  border-left: 2px solid rgba(0, 167, 161, 0.272);\n  border-right: 2px solid rgba(0, 167, 161, 0.272);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

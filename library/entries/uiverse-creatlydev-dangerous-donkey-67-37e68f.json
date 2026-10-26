@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-creatlydev-dangerous-donkey-67-37e68f",
+  "title": "Button by Creatlydev (dangerous-donkey-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Creatlydev/dangerous-donkey-67",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "neumorphism",
+    "simple-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Creatlydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Creatlydev_dangerous-donkey-67.html",
+  "code": "<button class=\"button\">\n            <span class=\"btn__icon\">\n                <svg stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" height=\"24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">\n                    <path fill=\"none\" d=\"M0 0h24v24H0z\" stroke=\"none\"></path>\n                    <path d=\"M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1\"></path>\n                    <path d=\"M9 15l3 -3l3 3\"></path>\n                    <path d=\"M12 12l0 9\"></path>\n                </svg>\n            </span>\n            <span class=\"btn__text\">Upload</span>\n        </button>\n<style>\n/* From Uiverse.io by Creatlydev - Tags: neumorphism, button, simple button */\n.button {\n  --bg: linear-gradient(180deg,\n            hsla(0, 0%, 100%, .1),\n            hsla(0, 0%, 100%, 0)),\n        hsl(128, 52%, 45%);\n  box-shadow: 0 1px 2px #25114f66, 0 0 0 1px hsla(128, 50%, 45%, 0.761);\n  background-color: transparent;\n  border: none;\n  line-height: 1;\n  display: flex;\n  align-items: center;\n  gap: .5rem;\n  padding: .25rem .5rem;\n  cursor: pointer;\n  padding-right: 1rem;\n  font-weight: 600;\n  color: #fff;\n  background: var(--bg);\n  white-space: nowrap;\n  border-radius: 6px;\n  border: 1px solid #fff3;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-avishek255874-weak-turtle-32-4e971d",
+  "title": "Loader by Avishek255874 (weak-turtle-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Avishek255874/weak-turtle-32",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Avishek255874 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Avishek255874_weak-turtle-32.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Avishek255874 - Tags: loader */\n.loader {\n}\n\n.loader {\n  width: 48px;\n  height: 48px;\n  position: relative;\n}\n\n.loader::before , .loader::after {\n  content: '';\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50% , -50%);\n  width: 48em;\n  height: 48em;\n  background-image: radial-gradient(circle 10px, #FFF 100%, transparent 0),\n    radial-gradient(circle 10px, #FFF 100%, transparent 0),\n    radial-gradient(circle 10px, #FFF 100%, transparent 0),\n    radial-gradient(circle 10px, #FFF 100%, transparent 0),\n    radial-gradient(circle 10px, #FFF 100%, transparent 0),\n    radial-gradient(circle 10px, #FFF 100%, transparent 0),\n    radial-gradient(circle 10px, #FFF 100%, transparent 0),\n    radial-gradient(circle 10px, #FFF 100%, transparent 0);\n  background-position: 0em -18em, 0em 18em, 18em 0em, -18em 0em,\n                       13em -13em, -13em -13em, 13em 13em, -13em 13em;\n  background-repeat: no-repeat;\n  font-size: 0.5px;\n  border-radius: 50%;\n  animation: blast 1s ease-in infinite;\n}\n\n.loader::after {\n  font-size: 1px;\n  background: #fff;\n  animation: bounce 1s ease-in infinite;\n}\n\n@keyframes bounce {\n  0% , 100% {\n    font-size: 0.75px\n  }\n\n  50% {\n    font-size: 1.5px\n  }\n}\n\n@keyframes blast {\n  0% , 40% {\n    font-size: 0.5px;\n  }\n\n  70% {\n    opacity: 1;\n    font-size: 4px;\n  }\n\n  100% {\n    font-size: 6px;\n    opacity: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

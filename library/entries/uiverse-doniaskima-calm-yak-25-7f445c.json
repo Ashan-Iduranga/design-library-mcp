@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-doniaskima-calm-yak-25-7f445c",
+  "title": "Loader by doniaskima (calm-yak-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/calm-yak-25",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "material-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_calm-yak-25.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: simple, material design, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 50px;\n  aspect-ratio: 1;\n  --g: #0000 calc(100% - 5px),#000 calc(100% - 3px) 93%,#0000;\n  background: radial-gradient(farthest-side at bottom,var(--g)) top                  /100% 50%,\n    radial-gradient(farthest-side at top   ,var(--g)) bottom 18% right  0  /80%  40%,\n    radial-gradient(farthest-side at bottom,var(--g)) left   50% top    30%/60%  30%,\n    radial-gradient(farthest-side at top   ,var(--g)) right  34% bottom 37%/40%  20%,\n    radial-gradient(farthest-side at bottom,var(--g)) left   52% top    43%/24%  12%;\n  background-repeat: no-repeat;\n  animation: l20 1s infinite linear;\n}\n\n@keyframes l20 {\n  100% {\n    transform: rotate(1turn)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

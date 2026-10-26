@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-soft-moose-34-bd350b",
+  "title": "Button by mrhyddenn (soft-moose-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/soft-moose-34",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mrhyddenn_soft-moose-34.html",
+  "code": "<div class=\"button\">\n    <a class=\"first\"> Keep hovering me </a>\n    <a class=\"slidein\"> Welcome to uiverse</a>\n    <a class=\"slidein two\"> Keep going </a>\n    <a class=\"slidein three\"> Create on uiverse </a>\n    <a class=\"slidein four\"> Save favorite </a>\n    <a class=\"slidein five\"> ...and enjoy! </a>\n    <a class=\"slidein six\"> Respect us.</a>\n    <a class=\"slidein seven\"> and we will you. </a>\n    <a class=\"slidein eight\"> Happy coding. </a>\n    <a class=\"slidein nine\"> ...and thanks. </a>\n    <a class=\"slidein ten\"> uiverse.io </a>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: button */\n.button {\n  cursor: pointer;\n  position: relative;\n  text-align: center;\n  display: block;\n  width: 200px;\n  border: none;\n  font-size: 12px;\n  height: 45px;\n  text-decoration: none;\n  font-weight: 600;\n  overflow: hidden;\n  box-shadow: 0 10px 50px #006eff;\n  border-radius: 10px;\n  padding: 10px 20px;\n}\n\n.button .ten {\n  line-height: 52px;\n}\n\n.button:hover .slidein {\n  left: 0%;\n}\n\n.button:hover .two {\n  left: 0%;\n  transition-delay: 1.5s;\n}\n\n.button:hover .three {\n  left: 0%;\n  transition-delay: 3s;\n}\n\n.button:hover .four {\n  left: 0%;\n  transition-delay: 4.5s;\n}\n\n.button:hover .five {\n  left: 0%;\n  transition-delay: 6s;\n}\n\n.button:hover .six {\n  left: 0%;\n  transition-delay: 7.5s;\n}\n\n.button:hover .seven {\n  left: 0%;\n  transition-delay: 9s;\n}\n\n.button:hover .eight {\n  left: 0%;\n  transition-delay: 10.5s;\n}\n\n.button:hover .nine {\n  left: 0%;\n  transition-delay: 12s;\n}\n\n.button:hover .ten {\n  left: 0%;\n  transition-delay: 14s;\n}\n\n.button .slidein {\n  background: #3398ff;\n  left: -100%;\n  z-index: 2;\n}\n\n.button a {\n  text-transform: uppercase;\n  transition: left 300ms;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  letter-spacing: 1px;\n  background: #006eff;\n  position: absolute;\n  font-weight: bold;\n  z-index: 1;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  color: #fff;\n}\n\n.slidein:nth-child( even) {\n  background: #348bfc !important;\n}\n\n.slidein:nth-child( odd) {\n  background: #0873ff !important;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

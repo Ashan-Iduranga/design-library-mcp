@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-navarog21-little-falcon-37-168e4b",
+  "title": "Loader by Navarog21 (little-falcon-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Navarog21/little-falcon-37",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Navarog21 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Navarog21_little-falcon-37.html",
+  "code": "<div class=\"loader\">\n    <div id=\"first\">\n        <div id=\"second\">\n            <div id=\"third\">\n            </div>\n        </div>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by Navarog21 - Tags: loader */\n.loader {\n  background-color: black;\n  position: relative;\n  width: 2.5em;\n  height: 2.5em;\n  transform-origin: center;\n  transition: 1s;\n  border-radius: 50px;\n  box-shadow: inset 0px 0px 10px purple,\n  inset 5px 5px 12px rgba(44, 0, 114, 0.8),\n  inset 8px 8px 1px rgba(160, 120, 255, 0.7),\n  0px 0px 1px rgba(160, 120, 255, 0.6);\n  animation: 1.2s linear infinite 0s running first682;\n}\n\n.loader div {\n  width: inherit;\n  height: inherit;\n  position: absolute;\n}\n\n#first {\n  transform: rotate(90deg)\n}\n\n#first::before {\n  --width: 1em;\n  --height: 1em;\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: calc(50% - var(--width)/2);\n  width: 1em;\n  height: 1em;\n  background-color: rgb(44, 0, 114);\n  box-shadow: inset 5px 5px 10px rgb(160, 120, 255),\n  0px 0px 2px white;\n  border-radius: 50px;\n  animation: 0.8s ease-in 0s infinite running jump2;\n}\n\n#second {\n  transform: rotate(90deg);\n}\n\n#second::before {\n  --width: 1em;\n  --height: 1em;\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: calc(50% - var(--width)/2);\n  width: 1em;\n  height: 1em;\n  background-color: rgb(44, 0, 114);\n  box-shadow: inset 5px 5px 10px rgb(160, 120, 255),\n  0px 0px 2px white;\n  border-radius: 50px;\n  animation: 1.5s ease-in 0s infinite running jump2;\n}\n\n#third {\n  transform: rotate(90deg)\n}\n\n#third::before {\n  --width: 1em;\n  --height: 1em;\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: calc(50% - var(--width)/2);\n  width: 1em;\n  height: 1em;\n  background-color: rgb(44, 0, 114);\n  box-shadow: inset 5px 5px 10px rgb(160, 120, 255),\n  0px 0px 2px white;\n  border-radius: 50px;\n  animation: 1.6s ease-in 0s infinite running jump2;\n}\n\n.loader::after {\n  --width: 1em;\n  --height: 1em;\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: calc(50% - var(--width)/2);\n  width: 1em;\n  height: 1em;\n  background-color: rgb(44, 0, 114);\n  box-shadow: inset 5px 5px 10px rgb(160, 120, 255),\n  0px 0px 2px white;\n  border-radius: 50px;\n  animation: 1.2s ease-in 1s alternate infinite running jump2;\n}\n\n@keyframes first682 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  25% {\n    transform: rotate(0deg);\n    transform: rotate(90deg)\n  }\n\n  50% {\n    transform: rotate(90deg);\n    transform: rotate(180deg);\n  }\n\n  75% {\n    transform: rotate(180deg);\n    transform: rotate(270deg)\n  }\n\n  100% {\n    transform: rotate(270deg);\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes jump2 {\n  0% {\n    top: 100%;\n  }\n\n  25% {\n    top: 230%\n  }\n\n  50% {\n    top: 100%;\n  }\n\n  75% {\n    height: 0.6em\n  }\n\n  100% {\n    height: 1em\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

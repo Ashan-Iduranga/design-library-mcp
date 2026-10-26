@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-juliocodessm-silly-grasshopper-43-64979e",
+  "title": "Loader by JulioCodesSM (silly-grasshopper-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JulioCodesSM/silly-grasshopper-43",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JulioCodesSM on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JulioCodesSM_silly-grasshopper-43.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by JulioCodesSM - Tags: loader */\n/* From uiverse.io by @JulioCodesSM */\n.loader {\n width: 50px;\n height: 50px;\n position: relative;\n transform: translateX(-25px);\n /* Compensating for the left of 50px in the keyframe. */\n}\n\n.loader::before,\n.loader::after {\n content: '';\n position: absolute;\n width: inherit;\n height: inherit;\n border-radius: 50%;\n mix-blend-mode: multiply;\n animation: rotate9 1s infinite cubic-bezier(0.77, 0, 0.175, 1);\n}\n\n.loader::before {\n background-color: #fc3f9e;\n}\n\n.loader::after {\n background-color: #50e8f3;\n animation-delay: .5s;\n}\n\n@keyframes rotate9 {\n 0%,100% {\n  left: 50px;\n }\n\n 25% {\n  transform: scale(.3);\n }\n\n 50% {\n  left: 0;\n }\n\n 75% {\n  transform: scale(1);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

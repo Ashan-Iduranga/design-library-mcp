@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-select-demo",
+  "title": "Select Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/select-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "select",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Displays a list of options for the user to pick from—triggered by a button.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/select-demo.tsx",
+  "code": "import * as React from \"react\"\n\nimport {\n  Select,\n  SelectContent,\n  SelectGroup,\n  SelectItem,\n  SelectLabel,\n  SelectTrigger,\n  SelectValue,\n} from \"@/registry/new-york-v4/ui/select\"\n\nexport default function SelectDemo() {\n  return (\n    <Select>\n      <SelectTrigger className=\"w-[180px]\">\n        <SelectValue placeholder=\"Select a fruit\" />\n      </SelectTrigger>\n      <SelectContent>\n        <SelectGroup>\n          <SelectLabel>Fruits</SelectLabel>\n          <SelectItem value=\"apple\">Apple</SelectItem>\n          <SelectItem value=\"banana\">Banana</SelectItem>\n          <SelectItem value=\"blueberry\">Blueberry</SelectItem>\n          <SelectItem value=\"grapes\">Grapes</SelectItem>\n          <SelectItem value=\"pineapple\">Pineapple</SelectItem>\n        </SelectGroup>\n      </SelectContent>\n    </Select>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

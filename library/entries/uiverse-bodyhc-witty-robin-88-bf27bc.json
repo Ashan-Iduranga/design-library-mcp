@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-bodyhc-witty-robin-88-bf27bc",
+  "title": "Loader by Bodyhc (witty-robin-88)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Bodyhc/witty-robin-88",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "car-loader",
+    "3d-loader",
+    "3d-cude-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Bodyhc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Bodyhc_witty-robin-88.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Bodyhc - Tags: loader, car loader, 3d loader, 3d cude loader */\n.loader {\n  width: calc(90px / 0.707);\n  height: 20px;\n  background: repeating-linear-gradient(135deg, #766DF4 0 15px,#0000 0 20px) left top,\n    repeating-linear-gradient( 45deg, #766DF4 0 15px,#0000 0 20px) left bottom;\n  background-size: 300% 50%;\n  background-repeat: no-repeat;\n  animation: i4 2s infinite linear;\n}\n\n@keyframes i4 {\n  100% {\n    background-position: top right,bottom right\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-boryanakrasteva-shy-treefrog-100-bbca11",
+  "title": "Button by boryanakrasteva (shy-treefrog-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/boryanakrasteva/shy-treefrog-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "like"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By boryanakrasteva on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/boryanakrasteva_shy-treefrog-100.html",
+  "code": "<button class=\"btn\">\n  <svg viewBox=\"0 0 17.503 15.625\" height=\"20.625\" width=\"20.503\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon\">\n    <path transform=\"translate(0 0)\" d=\"M8.752,15.625h0L1.383,8.162a4.824,4.824,0,0,1,0-6.762,4.679,4.679,0,0,1,6.674,0l.694.7.694-.7a4.678,4.678,0,0,1,6.675,0,4.825,4.825,0,0,1,0,6.762L8.752,15.624ZM4.72,1.25A3.442,3.442,0,0,0,2.277,2.275a3.562,3.562,0,0,0,0,5l6.475,6.556,6.475-6.556a3.563,3.563,0,0,0,0-5A3.443,3.443,0,0,0,12.786,1.25h-.01a3.415,3.415,0,0,0-2.443,1.038L8.752,3.9,7.164,2.275A3.442,3.442,0,0,0,4.72,1.25Z\" id=\"Fill\"></path>\n  </svg>\n</button>\n<style>\n/* From Uiverse.io by boryanakrasteva - Tags: button, like */\n.btn {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 50px;\n  height: 50px;\n  border-radius: 10px;\n  border: none;\n  background-color: transparent;\n  position: relative;\n}\n\n.btn::after {\n  content: 'like';\n  width: fit-content;\n  height: fit-content;\n  position: absolute;\n  font-size: 15px;\n  color: white;\n  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;\n  opacity: 0;\n  visibility: hidden;\n  transition: .2s linear;\n  top: 115%;\n}\n\n.icon {\n  width: 30px;\n  height: 30px;\n  transition: .2s linear;\n}\n\n.icon path {\n  fill: white;\n  transition: .2s linear;\n}\n\n.btn:hover > .icon {\n  transform: scale(1.2);\n}\n\n.btn:hover > .icon path {\n  fill: rgb(177, 139, 189);\n}\n\n.btn:hover::after {\n  visibility: visible;\n  opacity: 1;\n  top: 105%;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

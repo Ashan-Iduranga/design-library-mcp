@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ahmed150up-dry-monkey-74-bc991c",
+  "title": "Card by ahmed150up (dry-monkey-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ahmed150up/dry-monkey-74",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ahmed150up on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/ahmed150up_dry-monkey-74.html",
+  "code": "<div class=\"card-container\">\n    <div class=\"card-header\">Voice Chat</div>\n    <div class=\"card-body\">\n      <audio controls=\"\">\n        <source type=\"audio/mpeg\" src=\"\">\n        Your browser does not support the audio element.\n      </audio>\n    </div>\n    <div class=\"card-footer\">\n        <button class=\"mute-button\">Mute</button>\n        <button class=\"unmute-button\">Unmute</button>\n    </div>\n</div>\n\n<style>\n/* From Uiverse.io by ahmed150up - Tags: card */\n.card-container {\n  width: 330px;\n  background-color: #fff;\n  border: 1px solid #ccc;\n  border-radius: 5px;\n  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);\n}\n\n.card-header {\n  background-color: #333;\n  color: #fff;\n  padding: 10px;\n  font-size: 20px;\n  border-top-left-radius: 5px;\n  border-top-right-radius: 5px;\n}\n\n.card-body {\n  padding: 10px;\n}\n\n.card-footer {\n  display: flex;\n  justify-content: space-between;\n  padding: 10px;\n}\n\n.mute-button, .unmute-button {\n  background-color: #333;\n  color: white;\n  padding: 12px 20px;\n  border: none;\n  cursor: pointer;\n  width: 100%;\n}\n\n.mute-button:hover, .unmute-button:hover {\n  background-color: rgb(247, 247, 247);\n  color: rgb(0, 0, 0);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

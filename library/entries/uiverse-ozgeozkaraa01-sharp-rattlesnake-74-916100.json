@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-ozgeozkaraa01-sharp-rattlesnake-74-916100",
+  "title": "Input by ozgeozkaraa01 (sharp-rattlesnake-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ozgeozkaraa01/sharp-rattlesnake-74",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "input-effect",
+    "hover-input"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ozgeozkaraa01 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/ozgeozkaraa01_sharp-rattlesnake-74.html",
+  "code": "<div class=\"group\">\n  <svg stroke=\"currentColor\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon\">\n  <path d=\"M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n</svg>\n<input class=\"input\" type=\"password\" placeholder=\"password\">\n</div>\n<style>\n/* From Uiverse.io by ozgeozkaraa01 - Tags: input, input effect , hover input  */\n.group {\n  display: flex;\n  line-height: 30px;\n  align-items: center;\n  position: relative;\n  max-width: 200px;\n}\n\n.input {\n  width: 100%;\n  height: 45px;\n  line-height: 30px;\n  padding: 0 5rem;\n  padding-left: 3rem;\n  border: 2px solid transparent;\n  border-radius: 10px;\n  outline: none;\n  background-color: #f8fafc;\n  color: #0d0c22;\n  transition: .5s ease;\n}\n\n.input::placeholder {\n  color: #94a3b8;\n}\n\n.input:focus, input:hover {\n  outline: none;\n  border-color: rgba(129, 140, 248);\n  background-color: #fff;\n  box-shadow: 0 0 0 5px rgb(129 140 248 / 30%);\n}\n\n.icon {\n  position: absolute;\n  left: 1rem;\n  fill: none;\n  width: 1rem;\n  height: 1rem;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

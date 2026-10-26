@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-vinodjangid07-good-cow-5-ceec94",
+  "title": "Loader by vinodjangid07 (good-cow-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/good-cow-5",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "loading",
+    "book",
+    "flip",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vinodjangid07_good-cow-5.html",
+  "code": "<div class=\"loader\">\n  <div class=\"book\">\n    <div class=\"page\"></div>\n    <div class=\"page page2\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: animation, loading, loader, book, flip, loading animation */\n.loader {\n  width: fit-content;\n  height: fit-content;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  --book-color: #f1775b;\n  --book-cover-color: #506c86;\n}\n.book {\n  width: 150px;\n  height: 13px;\n  background-color: var(--book-color);\n  border-bottom: 2px solid var(--book-cover-color);\n  display: flex;\n  align-items: flex-start;\n  justify-content: flex-end;\n  position: relative;\n}\n.page {\n  width: 50%;\n  height: 2px;\n  background-color: var(--book-color);\n  animation: paging 0.7s ease-out infinite;\n  transform-origin: left;\n}\n.page2 {\n  width: 50%;\n  height: 2px;\n  background-color: var(--book-color);\n  animation: paging 0.8s ease-out infinite;\n  transform-origin: left;\n  position: absolute;\n}\n@keyframes paging {\n  10% {\n    transform: rotateZ(0deg);\n  }\n  100% {\n    transform: rotateZ(-180deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

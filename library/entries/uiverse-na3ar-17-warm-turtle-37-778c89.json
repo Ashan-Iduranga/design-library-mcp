@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-na3ar-17-warm-turtle-37-778c89",
+  "title": "Toggle by Na3ar-17 (warm-turtle-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Na3ar-17/warm-turtle-37",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "simple",
+    "material-design",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Na3ar-17 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Na3ar-17_warm-turtle-37.html",
+  "code": "<div class=\"container\">\n  <label class=\"switch\">\n    <input type=\"checkbox\" />\n    <span class=\"slider\">\n      <span class=\"title\">Play</span>\n      <span class=\"ball\">\n        <span class=\"icon\">\n          <svg\n            class=\"w-6 h-6 text-gray-800 dark:text-white\"\n            aria-hidden=\"true\"\n            xmlns=\"http://www.w3.org/2000/svg\"\n            width=\"25\"\n            height=\"25\"\n            fill=\"none\"\n            viewBox=\"0 0 24 24\"\n          >\n            <path\n              stroke=\"currentColor\"\n              stroke-linecap=\"round\"\n              stroke-linejoin=\"round\"\n              stroke-width=\"2\"\n              d=\"M8 18V6l8 6-8 6Z\"\n            ></path>\n          </svg>\n        </span>\n      </span>\n    </span>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by Na3ar-17  - Tags: simple, material design, switch */\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: Arial, Helvetica, sans-serif;\n  color: #fff;\n}\n\n.switch {\n  font-size: 0.875rem;\n  position: relative;\n  display: inline-block;\n  width: 9em;\n  height: 2.6em;\n}\n\n.switch input {\n  display: none;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.switch input:checked + .slider .ball {\n  box-shadow: 10px 10px 100px #7f8996;\n}\n\n.switch input:checked + .slider .title {\n  left: 40%;\n}\n\n.switch input:checked + .slider {\n  background-color: #8a5cd4;\n}\n\n.switch input:focus + .slider {\n  box-shadow: 10px 10px 100px #7f8996;\n}\n\n.switch input:checked + .slider .ball {\n  left: 72%;\n  transform: rotate(360deg);\n  box-shadow: none;\n  outline: 6px solid rgba(255, 255, 255, 0.278);\n}\n\n.switch .slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #313033;\n  transition: all 0.4s;\n  border-radius: 30px;\n}\n\n.switch .slider .title {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  font-weight: 600;\n  transition: all 0.4s;\n  -webkit-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n.switch .slider .ball {\n  background-color: #fff;\n  height: 36px;\n  width: 36px;\n  border-radius: 50%;\n  position: absolute;\n  left: -1px;\n  transition: 0.4s;\n}\n\n.switch .slider .ball .icon {\n  position: absolute;\n  top: 58%;\n  left: 53%;\n  transform: translate(-50%, -50%);\n  color: #313033;\n  font-size: 12px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

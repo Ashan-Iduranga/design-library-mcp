@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-elijahgummer-nice-otter-15-d38d4a",
+  "title": "Input by elijahgummer (nice-otter-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/nice-otter-15",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "animation",
+    "blue",
+    "glow",
+    "transition",
+    "hover-effect",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/elijahgummer_nice-otter-15.html",
+  "code": "<input placeholder=\"Type something...\" class=\"input\" name=\"text\" type=\"text\" />\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: animation, blue, input, glow, transition, hover effect, box-shadow */\n.input {\n  width: 200px;\n  padding: 12px;\n  border: 2px solid #3498db;\n  border-radius: 8px;\n  outline: none;\n  font-size: 18px;\n  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;\n  background-color: #fff;\n  color: #333;\n  box-sizing: border-box;\n}\n\n.input:focus {\n  border-color: #2980b9;\n  box-shadow: 0 0 15px rgba(52, 152, 219, 0.5);\n  transform: scale(1.02);\n}\n\n/* Placeholder Styling */\n.input::placeholder {\n  color: #aaa;\n  font-style: italic;\n}\n\n/* Hover Effect */\n.input:hover {\n  background-color: #f0f8ff;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "magicui-hexagon-pattern-linear-gradient",
+  "title": "Hexagon Pattern Linear Gradient (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/hexagon-pattern-linear-gradient",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "hexagon",
+    "pattern",
+    "linear",
+    "gradient",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a hexagon pattern with linear gradient effects.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/hexagon-pattern-linear-gradient.tsx",
+  "code": "\"use client\"\n\nimport { cn } from \"@/lib/utils\"\nimport { HexagonPattern } from \"@/registry/magicui/hexagon-pattern\"\n\nexport default function HexagonPatternLinearGradient() {\n  return (\n    <div className=\"bg-background relative flex h-[500px] w-full items-center justify-center overflow-hidden rounded-lg border p-20\">\n      <HexagonPattern\n        radius={40}\n        x={-1}\n        y={-1}\n        className={cn(\n          \"[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)]\"\n        )}\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

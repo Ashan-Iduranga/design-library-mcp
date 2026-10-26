@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-marketing-contact-forms-3",
+  "title": "Contact Forms: Base with checkboxes",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/contact-forms",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "marketing",
+    "contact-forms",
+    "hyperui",
+    "input",
+    "inquiry",
+    "newsletter"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/contact-forms/3.html",
+  "code": "<div class=\"p-6\">\n<form action=\"#\" class=\"mx-auto max-w-md space-y-4 rounded-lg border border-gray-300 bg-gray-100 p-6\">\n<div>\n<label class=\"block text-sm font-medium text-gray-900\" for=\"name\">Name</label>\n<input class=\"mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none\" id=\"name\" placeholder=\"Your name\" type=\"text\"/>\n</div>\n<div>\n<label class=\"block text-sm font-medium text-gray-900\" for=\"email\">Email</label>\n<input class=\"mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none\" id=\"email\" placeholder=\"Your email\" type=\"email\"/>\n</div>\n<fieldset>\n<legend class=\"block text-sm font-medium text-gray-900\">Inquiry</legend>\n<div class=\"mt-2 space-y-2\">\n<div class=\"flex items-center gap-2\">\n<input class=\"size-5 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500\" id=\"general-inquiry\" name=\"inquiry-type\" type=\"checkbox\" value=\"general-inquiry\"/>\n<label class=\"block text-sm text-gray-900\" for=\"general-inquiry\">General Inquiry</label>\n</div>\n<div class=\"flex items-center gap-2\">\n<input class=\"size-5 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500\" id=\"support\" name=\"inquiry-type\" type=\"checkbox\" value=\"support\"/>\n<label class=\"block text-sm text-gray-900\" for=\"support\">Support</label>\n</div>\n<div class=\"flex items-center gap-2\">\n<input class=\"size-5 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500\" id=\"feedback\" name=\"inquiry-type\" type=\"checkbox\" value=\"feedback\"/>\n<label class=\"block text-sm text-gray-900\" for=\"feedback\">Feedback</label>\n</div>\n<div class=\"flex items-center gap-2\">\n<input class=\"size-5 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500\" id=\"other\" name=\"inquiry-type\" type=\"checkbox\" value=\"other\"/>\n<label class=\"block text-sm text-gray-900\" for=\"other\">Other</label>\n</div>\n</div>\n</fieldset>\n<div>\n<label class=\"block text-sm font-medium text-gray-900\" for=\"message\">Message</label>\n<textarea class=\"mt-1 w-full resize-none rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none\" id=\"message\" placeholder=\"Your message\" rows=\"4\"></textarea>\n</div>\n<button class=\"block w-full rounded-lg border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-indigo-600\" type=\"submit\">\n        Send Message\n      </button>\n</form>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

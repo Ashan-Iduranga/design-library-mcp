@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vinodjangid07-terrible-starfish-29-0160dc",
+  "title": "Checkbox by vinodjangid07 (terrible-starfish-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/terrible-starfish-29",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "save",
+    "click-effect",
+    "bookmark"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/vinodjangid07_terrible-starfish-29.html",
+  "code": "<input type=\"checkbox\" id=\"checkboxInput\">\n    <label for=\"checkboxInput\" class=\"bookmark\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"1em\" viewBox=\"0 0 384 512\" class=\"svgIcon\"><path d=\"M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z\"></path></svg>\n    </label>\n\n\n\n\n\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: checkbox, save, click effect, bookmark */\n.bookmark {\n  position: relative;\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n#checkboxInput {\n  display: none;\n}\n\n.svgIcon {\n  height: 30px;\n}\n\n.svgIcon path {\n  fill: rgb(153, 153, 153);\n}\n\n.bookmark::before {\n  content: \"\\002B\";\n  position: absolute;\n  color: rgb(255, 255, 255);\n  font-size: 1.2em;\n  top: 1px;\n}\n\n#checkboxInput:checked + .bookmark::before {\n  content: \"\\2713\";\n  font-size: 0.70em;\n  top: 5px;\n}\n\n#checkboxInput:checked + .bookmark .svgIcon path {\n  fill: rgb(121, 199, 3);\n}\n\n#checkboxInput:active + .bookmark .svgIcon path {\n  fill: rgb(204, 204, 204);\n}\n\n.bookmark::after {\n  content: \"\";\n  background-color: rgba(56, 105, 0, 0.342);\n  position: absolute;\n  width: 8px;\n  height: 8px;\n  border-radius: 50%;\n  z-index: -1;\n}\n\n#checkboxInput:checked + .bookmark::after {\n  animation: puff-out-center .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;\n}\n\n@keyframes puff-out-center {\n  0% {\n    transform: scale(1);\n    filter: blur(0px);\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(9);\n    filter: blur(1px);\n    opacity: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

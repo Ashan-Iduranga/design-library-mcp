@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-hot-dragonfly-11-7c819b",
+  "title": "Loader by Shoh2008 (hot-dragonfly-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/hot-dragonfly-11",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_hot-dragonfly-11.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  position: relative;\n  width: 78px;\n  height: 78px;\n  border-radius: 50%;\n  background: #fff;\n  border: 8px solid #131a1d;\n  overflow: hidden;\n  box-sizing: border-box;\n}\n\n.loader::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: -50%;\n  width: 100%;\n  height: 100%;\n  background: #263238;\n  z-index: 5;\n  border-bottom: 8px solid #131a1d;\n  box-sizing: border-box;\n  animation: eyeShade 3s infinite;\n}\n\n.loader::before {\n  content: '';\n  position: absolute;\n  left: 20px;\n  bottom: 15px;\n  width: 32px;\n  z-index: 2;\n  height: 32px;\n  background: #111;\n  border-radius: 50%;\n  animation: eyeMove 3s infinite;\n}\n\n@keyframes eyeShade {\n  0% {\n    transform: translateY(0)\n  }\n\n  20% {\n    transform: translateY(5px)\n  }\n\n  40% , 50% {\n    transform: translateY(-5px)\n  }\n\n  60% {\n    transform: translateY( -8px)\n  }\n\n  75% {\n    transform: translateY( 5px)\n  }\n\n  100% {\n    transform: translateY(10px)\n  }\n}\n\n@keyframes eyeMove {\n  0% {\n    transform: translate(0 , 0)\n  }\n\n  20% {\n    transform: translate(0px , 5px)\n  }\n\n  40% , 50% {\n    transform: translate(0px , -5px)\n  }\n\n  60% {\n    transform: translate(-10px , -5px)\n  }\n\n  75% {\n    transform: translate(-20px , 5px)\n  }\n\n  100% {\n    transform: translate(0 , 10px)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

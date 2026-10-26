@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-uiverse-astronaut-tall-vampirebat-56-2eaaa8",
+  "title": "Pattern by uiverse-astronaut (tall-vampirebat-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/uiverse-astronaut/tall-vampirebat-56",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "colorful",
+    "grid",
+    "checkered",
+    "boxes"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By uiverse-astronaut on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/uiverse-astronaut_tall-vampirebat-56.html",
+  "code": "<div class=\"container\"></div>\n<style>\n/* From Uiverse.io by uiverse-astronaut - Tags: colorful, grid, pattern, checkered, boxes */\n.container {\n  width: 100%;\n  height: 100%;\n  --color1: rgb(108, 231, 221);\n  --color2: rgb(250, 255, 178);\n  background-color: var(--color1);\n  background-image: linear-gradient(45deg, var(--color2) 25%, transparent 25%, transparent 75%, var(--color2) 75%, var(--color2)), \n                    linear-gradient(45deg, var(--color2) 25%, var(--color1) 25%, var(--color1) 75%, var(--color2) 75%, var(--color2));\n  background-size: 60px 60px;\n  background-position: 0 0, 30px 30px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

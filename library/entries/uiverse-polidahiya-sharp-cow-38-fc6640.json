@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-polidahiya-sharp-cow-38-fc6640",
+  "title": "Loader by polidahiya (sharp-cow-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/polidahiya/sharp-cow-38",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "loading",
+    "download",
+    "downloading"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By polidahiya on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/polidahiya_sharp-cow-38.html",
+  "code": "<div class=\"loadingtext\">\n  <p>Loading</p>\n</div>\n\n<style>\n/* From Uiverse.io by polidahiya  - Tags: simple, loading, loader, download, downloading */\n.loadingtext p {\n  color: white;\n  position: relative;\n}\n\n.loadingtext p::after {\n  position: absolute;\n  animation: b 3s infinite linear;\n  color: white;\n  content: \"\";\n  left: 105%;\n}\n\n@keyframes b {\n  0% {\n    content: \"\";\n  }\n\n  10% {\n    content: \".\";\n  }\n\n  40% {\n    content: \"..\";\n  }\n\n  70% {\n    content: \"...\";\n  }\n\n  100% {\n    content: \"\";\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

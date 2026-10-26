@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-andrew-demchenk0-orange-monkey-2-44ef4b",
+  "title": "Loader by andrew-demchenk0 (orange-monkey-2)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/orange-monkey-2",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/andrew-demchenk0_orange-monkey-2.html",
+  "code": "<div class=\"pyramid-loader\">\n  <div class=\"wrapper\">\n    <span class=\"side side1\"></span>\n    <span class=\"side side2\"></span>\n    <span class=\"side side3\"></span>\n    <span class=\"side side4\"></span>\n    <span class=\"shadow\"></span>\n  </div>  \n</div>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: loader */\n.pyramid-loader {\n  position: relative;\n  width: 300px;\n  height: 300px;\n  display: block;\n  transform-style: preserve-3d;\n  transform: rotateX(-20deg);\n}\n\n.wrapper {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n  animation: spin 4s linear infinite;\n}\n\n@keyframes spin {\n  100% {\n    transform: rotateY(360deg);\n  }\n}\n\n.pyramid-loader .wrapper .side {\n  width: 70px;\n  height: 70px;\n/* you can choose any gradient or color you want */\n  /* background: radial-gradient( #2F2585 10%, #F028FD 70%, #2BDEAC 120%); */\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  transform-origin: center top;\n  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);\n}\n\n.pyramid-loader .wrapper .side1 {\n  transform: rotateZ(-30deg) rotateY(90deg);\n  background: conic-gradient( #2BDEAC, #F028FD, #D8CCE6, #2F2585);\n}\n\n.pyramid-loader .wrapper .side2 {\n  transform: rotateZ(30deg) rotateY(90deg);\n  background: conic-gradient( #2F2585, #D8CCE6, #F028FD, #2BDEAC);\n}\n\n.pyramid-loader .wrapper .side3 {\n  transform: rotateX(30deg);\n  background: conic-gradient( #2F2585, #D8CCE6, #F028FD, #2BDEAC);\n}\n\n.pyramid-loader .wrapper .side4 {\n  transform: rotateX(-30deg);\n  background: conic-gradient( #2BDEAC, #F028FD, #D8CCE6, #2F2585);\n}\n\n.pyramid-loader .wrapper .shadow {\n  width: 60px;\n  height: 60px;\n  background: #8B5AD5;\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  transform: rotateX(90deg) translateZ(-40px);\n  filter: blur(12px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

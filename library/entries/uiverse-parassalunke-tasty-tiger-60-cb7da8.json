@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-parassalunke-tasty-tiger-60-cb7da8",
+  "title": "Card by ParasSalunke (tasty-tiger-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ParasSalunke/tasty-tiger-60",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ParasSalunke on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/ParasSalunke_tasty-tiger-60.html",
+  "code": "<div class=\"music-card\">\n  <div class=\"card-header\">\n    <div class=\"track-info\">\n      <svg\n        class=\"track-icon\"\n        fill=\"none\"\n        height=\"24\"\n        stroke=\"currentColor\"\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n        stroke-width=\"2\"\n        viewBox=\"0 0 24 24\"\n        width=\"24\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n      >\n        <path d=\"M9 18V5l12-2v13\"></path>\n        <circle cx=\"6\" cy=\"18\" r=\"3\"></circle>\n        <circle cx=\"18\" cy=\"16\" r=\"3\"></circle>\n      </svg>\n      <div class=\"track-details\">\n        <span class=\"track-title\">Music Name</span>\n        <p class=\"track-artist\">Music Singer</p>\n      </div>\n    </div>\n    <div class=\"card-icons\">\n      <svg\n        class=\"icon-heart\"\n        fill=\"none\"\n        height=\"24\"\n        stroke=\"currentColor\"\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n        stroke-width=\"2\"\n        viewBox=\"0 0 24 24\"\n        width=\"24\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n      >\n        <path\n          d=\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"\n        ></path>\n      </svg>\n      <svg\n        class=\"icon-star\"\n        fill=\"none\"\n        height=\"24\"\n        stroke=\"currentColor\"\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n        stroke-width=\"2\"\n        viewBox=\"0 0 24 24\"\n        width=\"24\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n      >\n        <polygon\n          points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"\n        ></polygon>\n      </svg>\n    </div>\n  </div>\n  <div class=\"progress-container\">\n    <div class=\"progress-bar\"></div>\n  </div>\n  <div class=\"progress-time\"><span>00:03</span><span>3:35</span></div>\n</div>\n\n<style>\n/* From Uiverse.io by ParasSalunke  - Tags: card */\n.music-card {\n  cursor: pointer;\n  width: 100%;\n  max-width: 340px;\n  margin: 0 auto;\n  background-color: #f7f7f7;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n  border-radius: 10px;\n  overflow: hidden;\n  transition: transform 0.3s ease;\n}\n\n.music-card:hover {\n  transform: translateY(-5px);\n}\n\n.card-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 16px;\n  background-color: #fff;\n}\n\n.track-info {\n  display: flex;\n  align-items: center;\n}\n\n.track-icon {\n  height: 24px;\n  width: 24px;\n  color: #f59e0b;\n}\n\n.track-details {\n  margin-left: 12px;\n}\n\n.track-title {\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: #333;\n}\n\n.track-artist {\n  font-size: 0.9rem;\n  color: #666;\n}\n\n.card-icons {\n  display: flex;\n  align-items: center;\n}\n\n.icon-heart {\n  height: 24px;\n  width: 24px;\n  color: #ef4444;\n  cursor: pointer;\n}\n\n.icon-star {\n  height: 24px;\n  width: 24px;\n  color: #9ca3af;\n  margin-left: 16px;\n  cursor: pointer;\n}\n\n.icon-star:hover {\n  color: #fbbf24;\n}\n\n.progress-container {\n  position: relative;\n  margin: 16px 16px 8px 16px;\n  height: 6px;\n  background-color: #e5e7eb;\n  border-radius: 3px;\n  overflow: hidden;\n}\n\n.progress-bar {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 60%;\n  background-color: #f59e0b;\n  border-radius: 3px;\n}\n\n.progress-time {\n  display: flex;\n  justify-content: space-between;\n  padding: 0 16px 16px 16px;\n  font-size: 0.85rem;\n  color: #6b7280;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-shadowmurphy-little-hound-75-946a5f",
+  "title": "Button by shadowmurphy (little-hound-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/shadowmurphy/little-hound-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "active"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By shadowmurphy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/shadowmurphy_little-hound-75.html",
+  "code": "<button class=\"button\">Button</button>\n<style>\n/* From Uiverse.io by shadowmurphy - Tags: button, hover, active */\n.button {\n  overflow: hidden;\n  position: relative;\n  border: 1px solid #D1D1D1;\n  background-color: #F5F5F5;\n  width: 100px;\n  height: 30px;\n  user-select: none;\n  cursor: pointer;\n  border-radius: 5px;\n  transition: all 0.5s;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n  font-weight: bold;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-transform: uppercase;\n}\n\n.button:hover {\n  transform: scale(1.1);\n  background-color: #E8E8E8;\n  border-color: #BDBDBD;\n  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);\n}\n\n.button:active {\n  transform: scale(0.95);\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%,\n              transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%,\n              transparent 75%, transparent);\n  opacity: 0;\n  animation: buttonGlow 2s linear infinite;\n  z-index: -1;\n}\n\n@keyframes buttonGlow {\n  0% {\n    background-position: 0 0;\n  }\n\n  100% {\n    background-position: 400% 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

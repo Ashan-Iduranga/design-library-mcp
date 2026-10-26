@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-muhammadhasann-smart-turkey-26-6a2631",
+  "title": "Button by MuhammadHasann (smart-turkey-26)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MuhammadHasann/smart-turkey-26",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MuhammadHasann on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/MuhammadHasann_smart-turkey-26.html",
+  "code": "<button>Button\n  <p>Button</p>\n  <p>Button</p>\n  <p>Button</p>\n  <p>Button</p>\n</button>\n<style>\n/* From Uiverse.io by MuhammadHasann - Tags: button */\nbutton {\n  position: relative;\n  padding: 13px 35px;\n  background: #2e323c;\n  font-size: 17px;\n  font-weight: 900;\n  color: #FFF;\n  border: 3px solid #2e323c;\n  border-radius: 8px;\n  transition: all .3s ease-in-out;\n}\n\np:nth-child(1) {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  font-size: 17px;\n  font-weight: 900;\n  color: #FFF;\n  transition: all .3s ease-in-out;\n  z-index: -5;\n}\n\np:nth-child(2) {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  font-size: 17px;\n  font-weight: 900;\n  color: #FFF;\n  transition: all .3s ease-in-out;\n  z-index: -5;\n}\n\np:nth-child(3) {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  font-size: 17px;\n  font-weight: 900;\n  color: #FFF;\n  transition: all .3s ease-in-out;\n  z-index: -5;\n}\n\np:nth-child(4) {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  font-size: 17px;\n  font-weight: 900;\n  color: #FFF;\n  transition: all .3s ease-in-out;\n  z-index: -5;\n}\n\nbutton:hover {\n  background: transparent;\n  box-shadow: 0 0 15px #2e323c;\n}\n\nbutton:hover p:nth-child(1) {\n  top: 0%;\n  filter: drop-shadow(0 0 5px #FFFFFF);\n  z-index: 1;\n}\n\nbutton:hover p:nth-child(2) {\n  top: -50%;\n  filter: drop-shadow(0 0 5px #FFFFFF);\n  z-index: 1;\n}\n\nbutton:hover p:nth-child(3) {\n  top: 100%;\n  filter: drop-shadow(0 0 5px #FFFFFF);\n  z-index: 1;\n}\n\nbutton:hover p:nth-child(4) {\n  top: 150%;\n  filter: drop-shadow(0 0 5px #FFFFFF);\n  z-index: 1;\n}\n\nbutton:active p:nth-child(1) {\n  top: -20%;\n  filter: drop-shadow(0 0 5px #FFFFFF);\n  z-index: 1;\n}\n\nbutton:active p:nth-child(2) {\n  top: -90%;\n  filter: drop-shadow(0 0 5px #FFFFFF);\n  z-index: 1;\n}\n\nbutton:active p:nth-child(3) {\n  top: 120%;\n  filter: drop-shadow(0 0 5px #FFFFFF);\n  z-index: 1;\n}\n\nbutton:active p:nth-child(4) {\n  top: 190%;\n  filter: drop-shadow(0 0 5px #FFFFFF);\n  z-index: 1;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cssbuttons-io-calm-tiger-42-7243f5",
+  "title": "Button by cssbuttons-io (calm-tiger-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cssbuttons-io/calm-tiger-42",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cssbuttons-io on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/cssbuttons-io_calm-tiger-42.html",
+  "code": "<button class=\"button\"> Get in touch\n</button>\n<style>\n/* From Uiverse.io by cssbuttons-io - Tags: button */\n.button {\n display: inline-block;\n padding: 12px 24px;\n border: 1px solid #4f4f4f;\n border-radius: 4px;\n transition: all 0.2s ease-in;\n position: relative;\n overflow: hidden;\n font-size: 19px;\n color: black;\n z-index: 1;\n}\n\n.button:before {\n content: \"\";\n position: absolute;\n left: 50%;\n transform: translateX(-50%) scaleY(1) scaleX(1.25);\n top: 100%;\n width: 140%;\n height: 180%;\n background-color: rgba(0, 0, 0, 0.05);\n border-radius: 50%;\n display: block;\n transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);\n z-index: -1;\n}\n\n.button:after {\n content: \"\";\n position: absolute;\n left: 55%;\n transform: translateX(-50%) scaleY(1) scaleX(1.45);\n top: 180%;\n width: 160%;\n height: 190%;\n background-color: #39bda7;\n border-radius: 50%;\n display: block;\n transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);\n z-index: -1;\n}\n\n.button:hover {\n color: #ffffff;\n border: 1px solid #39bda7;\n}\n\n.button:hover:before {\n top: -35%;\n background-color: #39bda7;\n transform: translateX(-50%) scaleY(1.3) scaleX(0.8);\n}\n\n.button:hover:after {\n top: -45%;\n background-color: #39bda7;\n transform: translateX(-50%) scaleY(1.3) scaleX(0.8);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

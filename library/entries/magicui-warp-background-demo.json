@@ -1,0 +1,36 @@
+{
+  "id": "magicui-warp-background-demo",
+  "title": "Warp Background Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/warp-background",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "warp",
+    "background",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a card with a time warping background effect.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/warp-background-demo.tsx",
+  "code": "import {\n  Card,\n  CardContent,\n  CardDescription,\n  CardTitle,\n} from \"@/components/ui/card\"\nimport { WarpBackground } from \"@/registry/magicui/warp-background\"\n\nexport default function ExampleComponentDemo() {\n  return (\n    <WarpBackground>\n      <Card className=\"w-80\">\n        <CardContent className=\"flex flex-col gap-2 p-4\">\n          <CardTitle>Congratulations on Your Promotion!</CardTitle>\n          <CardDescription>\n            Your hard work and dedication have paid off. We&apos;re thrilled to\n            see you take this next step in your career. Keep up the fantastic\n            work!\n          </CardDescription>\n        </CardContent>\n      </Card>\n    </WarpBackground>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-card-pricing-card",
+  "title": "Card: Pricing Card (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/card/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Cards are used to group and display content in a way that is easily readable.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/card/+page.md",
+  "code": "<div class=\"card w-96 bg-base-100 shadow-sm\">\n  <div class=\"card-body\">\n    <span class=\"badge badge-xs badge-warning\">Most Popular</span>\n    <div class=\"flex justify-between\">\n      <h2 class=\"text-3xl font-bold\">Premium</h2>\n      <span class=\"text-xl\">$29/mo</span>\n    </div>\n    <ul class=\"mt-6 flex flex-col gap-2 text-xs\">\n      <li>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"size-4 me-2 inline-block text-success\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\" /></svg>\n        <span>High-resolution image generation</span>\n      </li>\n      <li>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"size-4 me-2 inline-block text-success\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\" /></svg>\n        <span>Customizable style templates</span>\n      </li>\n      <li>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"size-4 me-2 inline-block text-success\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\" /></svg>\n        <span>Batch processing capabilities</span>\n      </li>\n      <li>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"size-4 me-2 inline-block text-success\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\" /></svg>\n        <span>AI-driven image enhancements</span>\n      </li>\n      <li class=\"opacity-50\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"size-4 me-2 inline-block text-base-content/50\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\" /></svg>\n        <span class=\"line-through\">Seamless cloud integration</span>\n      </li>\n      <li class=\"opacity-50\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"size-4 me-2 inline-block text-base-content/50\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\" /></svg>\n        <span class=\"line-through\">Real-time collaboration tools</span>\n      </li>\n    </ul>\n    <div class=\"mt-6\">\n      <button class=\"btn btn-primary btn-block\">Subscribe</button>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bhaveshxrawat-spotty-snail-58-6ba05a",
+  "title": "Button by bhaveshxrawat (spotty-snail-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/bhaveshxrawat/spotty-snail-58",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By bhaveshxrawat on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/bhaveshxrawat_spotty-snail-58.html",
+  "code": "<button><span> Grab it!</span>\n</button>\n<style>\n/* From Uiverse.io by bhaveshxrawat - Tags: button */\nbutton {\n border: none;\n padding: 0.7em 2em;\n font-size: 18px;\n font-family: inherit;\n background-blend-mode: multiply;\n color: rgb(235, 234, 234);\n border-radius: 9px;\n background: linear-gradient(225deg, #181818, #2e2e2e);\n box-shadow: -5px 5px 10px #191919,\n             5px -5px 10px #292929;\n}\n\nbutton:hover {\n background: #212121;\n transition: background 1s ease;\n box-shadow: -5px 5px 10px #191919,\n             5px -5px 10px #292929;\n}\n\nbutton:active {\n transition: box-shadow .1s ease;\n border-radius: 9px;\n background: #212121;\n box-shadow: inset -5px 5px 10px #191919,\n              inset 5px -5px 10px #292929;\n}\n\nspan {\n opacity: 0.5;\n transition: opacity 0.2s ease;\n}\n\nbutton:hover span {\n opacity: 0.7;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

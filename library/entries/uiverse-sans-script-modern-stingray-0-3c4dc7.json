@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-sans-script-modern-stingray-0-3c4dc7",
+  "title": "Checkbox by sans-script (modern-stingray-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/sans-script/modern-stingray-0",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "square"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By sans-script on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/sans-script_modern-stingray-0.html",
+  "code": "<div class=\"center\">\n\t\t<input name=\"\" type=\"checkbox\">\n</div>\n<style>\n/* From Uiverse.io by sans-script - Tags: checkbox, square */\n.center {\n  width: 100%;\n  text-align: center;\n}\n\ninput[type=\"checkbox\"] {\n  position: relative;\n  top: 8px;\n  width: 40px;\n  height: 40px;\n  -webkit-appearance: none;\n  outline: none;\n  transition: 0.5s;\n}\n\ninput[type=\"checkbox\"]:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 4px solid #262626;\n  box-sizing: border-box;\n  transition: 0.5s;\n}\n\ninput:checked[type=\"checkbox\"]:before {\n  border-left: none;\n  border-top: none;\n  width: 20px;\n  border-color: rgb(24, 196, 24);\n  transform: rotate(45deg) translate(5px, -10px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

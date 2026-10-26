@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-stack-stacked-images",
+  "title": "Stack: stacked images (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/stack/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "stack",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Stack visually puts elements on top of each other.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/stack/+page.md",
+  "code": "<div class=\"stack w-48\">\n  <img alt=\"Tailwind CSS example 1\" src=\"https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp\" class=\"rounded-box\" />\n  <img alt=\"Tailwind CSS example 2\" src=\"https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp\" class=\"rounded-box\" />\n  <img alt=\"Tailwind CSS example 3\" src=\"https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp\" class=\"rounded-box\" />\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-gharsh11032000-ancient-starfish-68-638a03",
+  "title": "Card by gharsh11032000 (ancient-starfish-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/ancient-starfish-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "gradient",
+    "hover",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/gharsh11032000_ancient-starfish-68.html",
+  "code": "<div class=\"card\">\n  <div class=\"main-content\">\n    <div class=\"header\">\n  <span>Article on</span>\n  <span>29-June-2023</span>\n</div>\n<p class=\"heading\">Different ways to use CSS in React</p>\n<div class=\"categories\">\n  <span>React</span>\n  <span>Css</span>\n</div>\n  </div>\n<div class=\"footer\">\n  by Harsh Gupta\n</div>\n</div>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: gradient, card, hover, hover effect */\n.card {\n  width: 320px;\n  height: 350px;\n  padding: 20px;\n  color: white;\n  background: linear-gradient(#212121, #212121) padding-box,\n              linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;\n  border: 2px solid transparent;\n  border-radius: 8px;\n  display: flex;\n  flex-direction: column;\n  cursor: pointer;\n  transform-origin: right bottom;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.card .main-content {\n  flex: 1;\n}\n\n.card .header span:first-child {\n  font-weight: 600;\n  color: #717171;\n  margin-right: 4px;\n}\n\n.card .heading {\n  font-size: 24px;\n  margin: 24px 0 16px;\n  font-weight: 600;\n}\n\n.card .categories {\n  display: flex;\n  gap: 8px;\n}\n\n.card .categories span {\n  background-color: #e81cff;\n  padding: 4px 8px;\n  font-weight: 600;\n  text-transform: uppercase;\n  font-size: 12px;\n  border-radius: 50em;\n}\n\n.card .footer {\n  font-weight: 600;\n  color: #717171;\n  margin-right: 4px;\n}\n\n.card:hover {\n  rotate: 8deg;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

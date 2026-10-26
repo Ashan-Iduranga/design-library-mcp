@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-megamenu-megamenu-in-different-sizes",
+  "title": "Megamenu: Megamenu in different sizes (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/megamenu/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "megamenu",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A megamenu is a large, horizontal menu where each item opens a popover to show a large block of navigation links. Megamenu must be used once, on top of the page. Inside each popover, you can use a daisyUI menu, or any custom content. Megamenu fits better on large screens only, and for small screens, you can hide the megamenu and show the content in a dropdown or a drawer.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/megamenu/+page.md",
+  "code": "<div class=\"megamenu megamenu-xs p-2 border border-base-300\">\n  <span class=\"megamenu-active\"></span>\n\n  <button popovertarget=\"f1\">One</button>\n  <div id=\"f1\" popover>\n    <div class=\"p-4\">Content for the first item</div>\n  </div>\n\n  <button popovertarget=\"f2\">Two</button>\n  <div id=\"f2\" popover>\n    <div class=\"p-4\">Content for the second item</div>\n  </div>\n\n  <button popovertarget=\"f3\">Three</button>\n  <div id=\"f3\" popover>\n    <div class=\"p-4\">Content for the third item</div>\n  </div>\n</div>\n<div class=\"megamenu megamenu-sm p-2 border border-base-300\">\n  <span class=\"megamenu-active\"></span>\n\n  <button popovertarget=\"g1\">One</button>\n  <div id=\"g1\" popover>\n    <div class=\"p-4\">Content for the first item</div>\n  </div>\n\n  <button popovertarget=\"g2\">Two</button>\n  <div id=\"g2\" popover>\n    <div class=\"p-4\">Content for the second item</div>\n  </div>\n\n  <button popovertarget=\"g3\">Three</button>\n  <div id=\"g3\" popover>\n    <div class=\"p-4\">Content for the third item</div>\n  </div>\n</div>\n<div class=\"megamenu megamenu-md p-2 border border-base-300\">\n  <span class=\"megamenu-active\"></span>\n\n  <button popovertarget=\"h1\">One</button>\n  <div id=\"h1\" popover>\n    <div class=\"p-4\">Content for the first item</div>\n  </div>\n\n  <button popovertarget=\"h2\">Two</button>\n  <div id=\"h2\" popover>\n    <div class=\"p-4\">Content for the second item</div>\n  </div>\n\n  <button popovertarget=\"h3\">Three</button>\n  <div id=\"h3\" popover>\n    <div class=\"p-4\">Content for the third item</div>\n  </div>\n</div>\n<div class=\"megamenu megamenu-lg p-2 border border-base-300\">\n  <span class=\"megamenu-active\"></span>\n\n  <button popovertarget=\"i1\">One</button>\n  <div id=\"i1\" popover>\n    <div class=\"p-4\">Content for the first item</div>\n  </div>\n\n  <button popovertarget=\"i2\">Two</button>\n  <div id=\"i2\" popover>\n    <div class=\"p-4\">Content for the second item</div>\n  </div>\n\n  <button popovertarget=\"i3\">Three</button>\n  <div id=\"i3\" popover>\n    <div class=\"p-4\">Content for the third item</div>\n  </div>\n</div>\n<div class=\"megamenu megamenu-xl p-2 border border-base-300\">\n  <span class=\"megamenu-active\"></span>\n\n  <button popovertarget=\"j1\">One</button>\n  <div id=\"j1\" popover>\n    <div class=\"p-4\">Content for the first item</div>\n  </div>\n\n  <button popovertarget=\"j2\">Two</button>\n  <div id=\"j2\" popover>\n    <div class=\"p-4\">Content for the second item</div>\n  </div>\n\n  <button popovertarget=\"j3\">Three</button>\n  <div id=\"j3\" popover>\n    <div class=\"p-4\">Content for the third item</div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

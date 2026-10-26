@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-emmaxplay-polite-husky-37-9b7f65",
+  "title": "Loader by EmmaxPlay (polite-husky-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/EmmaxPlay/polite-husky-37",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By EmmaxPlay on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/EmmaxPlay_polite-husky-37.html",
+  "code": "<div class=\"spinner\"></div>\n<style>\n/* From Uiverse.io by EmmaxPlay - Tags: loader */\n.spinner {\n position: relative;\n width: 60px;\n height: 60px;\n border-radius: 50%;\n}\n\n.spinner::before,\n.spinner:after {\n content: \"\";\n position: absolute;\n border-radius: inherit;\n}\n\n.spinner:before {\n width: 100%;\n height: 100%;\n background-image: linear-gradient(0deg, #ff00cc 0%, #333399 100%);\n animation: spin8932 .5s infinite linear;\n}\n\n.spinner:after {\n width: 85%;\n height: 85%;\n background-color: #212121;\n top: 50%;\n left: 50%;\n transform: translate(-50%, -50%);\n}\n\n@keyframes spin8932 {\n to {\n  transform: rotate(360deg);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

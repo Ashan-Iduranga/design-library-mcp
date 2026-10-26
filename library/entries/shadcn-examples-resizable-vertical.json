@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-resizable-vertical",
+  "title": "Resizable Vertical (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/resizable-vertical.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "resizable",
+    "vertical",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Accessible resizable panel groups and layouts with keyboard support.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/resizable-vertical.tsx",
+  "code": "import {\n  ResizableHandle,\n  ResizablePanel,\n  ResizablePanelGroup,\n} from \"@/registry/new-york-v4/ui/resizable\"\n\nexport default function ResizableDemo() {\n  return (\n    <ResizablePanelGroup\n      orientation=\"vertical\"\n      className=\"min-h-[200px] max-w-md rounded-lg border md:min-w-[450px]\"\n    >\n      <ResizablePanel defaultSize=\"25%\">\n        <div className=\"flex h-full items-center justify-center p-6\">\n          <span className=\"font-semibold\">Header</span>\n        </div>\n      </ResizablePanel>\n      <ResizableHandle />\n      <ResizablePanel defaultSize=\"75%\">\n        <div className=\"flex h-full items-center justify-center p-6\">\n          <span className=\"font-semibold\">Content</span>\n        </div>\n      </ResizablePanel>\n    </ResizablePanelGroup>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

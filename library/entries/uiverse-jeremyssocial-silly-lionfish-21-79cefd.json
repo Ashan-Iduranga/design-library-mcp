@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-jeremyssocial-silly-lionfish-21-79cefd",
+  "title": "Button by jeremyssocial (silly-lionfish-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/jeremyssocial/silly-lionfish-21",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d",
+    "red",
+    "hover",
+    "hover-effect",
+    "hoverme",
+    "hover-button",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By jeremyssocial on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/jeremyssocial_silly-lionfish-21.html",
+  "code": "<button class=\"fancy-3d-button\">\n  <svg\n    role=\"img\"\n    aria-hidden=\"true\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    class=\"button-icon\"\n  >\n    <path\n      d=\"M12 .587l3.668 7.431L24 9.587l-6 5.845L19.335 24 12 20.01 4.665 24 6 15.432 0 9.587l8.332-1.569z\"\n    ></path>\n  </svg>\n  <span class=\"button-text\">3D Hover</span>\n</button>\n\n<style>\n/* From Uiverse.io by jeremyssocial  - Tags: 3d, red, button, hover, hover effect, hoverme, hover button, 3d button */\n.fancy-3d-button {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  padding: 15px 30px;\n  font-size: 1em;\n  font-weight: 700;\n  color: #fff;\n  background: linear-gradient(45deg, #ff416c, #ff4b2b);\n  border: none;\n  border-radius: 50px;\n  cursor: pointer;\n  transition: all 0.6s ease-in-out;\n  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);\n  perspective: 500px; /* Adding perspective for 3D effect */\n  transform-style: preserve-3d; /* Preserve 3D transformations */\n}\n\n.fancy-3d-button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 100%);\n  z-index: -1;\n  transition: all 0.6s ease-in-out;\n  transform: translateZ(-20px); /* 3D depth effect */\n  border-radius: 50px;\n}\n\n.fancy-3d-button:hover::before {\n  transform: translateZ(-40px); /* Enhance depth on hover */\n}\n\n.fancy-3d-button:hover {\n  transform: rotateX(15deg) rotateY(15deg); /* Rotate on hover for 3D effect */\n}\n\n.fancy-3d-button:focus {\n  outline: none;\n  box-shadow: 0 0 0 4px rgba(255, 75, 43, 0.5);\n}\n\n.button-icon {\n  width: 1.5em;\n  height: 1.5em;\n  margin-right: 0.5em;\n  fill: currentColor;\n  transition: transform 0.6s ease-in-out;\n  transform: translateZ(10px); /* Bring SVG out for 3D effect */\n}\n\n.fancy-3d-button:hover .button-icon {\n  transform: rotate(360deg) translateZ(10px); /* Rotate SVG on hover */\n}\n\n.button-text {\n  z-index: 2;\n  transform: translateZ(10px); /* Bring text out for 3D effect */\n  transition: transform 0.6s ease-in-out;\n}\n\n.fancy-3d-button:hover .button-text {\n  transform: translateZ(20px); /* Enhance depth on hover */\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

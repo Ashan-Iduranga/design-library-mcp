@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-modern-zebra-66-fab938",
+  "title": "Pattern by csemszepp (modern-zebra-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/modern-zebra-66",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_modern-zebra-66.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 200px; /* control the size */\n  --c1: #1d1d1d;\n  --c2: #4e4f51;\n  --c3: #3c3c3c;\n\n  background: repeating-conic-gradient(\n        from 30deg,\n        #0000 0 120deg,\n        var(--c3) 0 180deg\n      )\n      calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),\n    repeating-conic-gradient(\n      from 30deg,\n      var(--c1) 0 60deg,\n      var(--c2) 0 120deg,\n      var(--c3) 0 180deg\n    );\n  background-size: var(--s) calc(var(--s) * 0.577);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

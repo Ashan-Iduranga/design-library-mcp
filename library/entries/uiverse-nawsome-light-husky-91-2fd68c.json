@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-nawsome-light-husky-91-2fd68c",
+  "title": "Loader by Nawsome (light-husky-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/light-husky-91",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "placeholder"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Nawsome_light-husky-91.html",
+  "code": "<div class=\"loader\">\n  <div class=\"wrapper\">\n    <div class=\"circle\"></div>\n    <div class=\"line-1\"></div>\n    <div class=\"line-2\"></div>\n    <div class=\"line-3\"></div>\n    <div class=\"line-4\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Nawsome - Tags: loader, placeholder */\n.loader {\n  position: relative;\n  width: 240px;\n  height: 130px;\n  margin-bottom: 10px;\n  border: 1px solid #d3d3d3;\n  padding: 15px;\n  background-color: #e3e3e3;\n  overflow: hidden;\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  background: linear-gradient(110deg, rgba(227, 227, 227, 0) 0%, rgba(227, 227, 227, 0) 40%, rgba(227, 227, 227, 0.5) 50%, rgba(227, 227, 227, 0) 60%, rgba(227, 227, 227, 0) 100%);\n  animation: gradient-animation_2 1.2s linear infinite;\n}\n\n.loader .wrapper {\n  width: 100%;\n  height: 100%;\n  position: relative;\n}\n\n.loader .wrapper > div {\n  background-color: #cacaca;\n}\n\n.loader .circle {\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n}\n\n.loader .button {\n  display: inline-block;\n  height: 32px;\n  width: 75px;\n}\n\n.loader .line-1 {\n  position: absolute;\n  top: 11px;\n  left: 58px;\n  height: 10px;\n  width: 100px;\n}\n\n.loader .line-2 {\n  position: absolute;\n  top: 34px;\n  left: 58px;\n  height: 10px;\n  width: 150px;\n}\n\n.loader .line-3 {\n  position: absolute;\n  top: 57px;\n  left: 0px;\n  height: 10px;\n  width: 100%;\n}\n\n.loader .line-4 {\n  position: absolute;\n  top: 80px;\n  left: 0px;\n  height: 10px;\n  width: 92%;\n}\n\n@keyframes gradient-animation_2 {\n  0% {\n    transform: translateX(-100%);\n  }\n\n  100% {\n    transform: translateX(100%);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

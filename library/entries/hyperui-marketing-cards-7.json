@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-marketing-cards-7",
+  "title": "Cards: Shaped with Image and Content",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/cards",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "marketing",
+    "cards",
+    "hyperui",
+    "profile",
+    "post"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/cards/7.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<a class=\"block\" href=\"#\">\n<img alt=\"\" class=\"h-56 w-full rounded-se-3xl rounded-es-3xl object-cover sm:h-64 lg:h-72\" src=\"https://images.unsplash.com/photo-1588515724527-074a7a56616c?auto=format&amp;fit=crop&amp;q=80&amp;w=1160\"/>\n<div class=\"mt-4 sm:flex sm:items-center sm:justify-center sm:gap-4\">\n<strong class=\"font-medium\">Company Name</strong>\n<span class=\"hidden sm:block sm:h-px sm:w-8 sm:bg-yellow-500\"></span>\n<p class=\"mt-0.5 opacity-50 sm:mt-0\">Branding / Signage</p>\n</div>\n</a>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-toggle-group-spacing",
+  "title": "Toggle Group Spacing (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/toggle-group-spacing.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "toggle",
+    "group",
+    "spacing",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A set of two-state buttons that can be toggled on or off.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/toggle-group-spacing.tsx",
+  "code": "import { BookmarkIcon, HeartIcon, StarIcon } from \"lucide-react\"\n\nimport {\n  ToggleGroup,\n  ToggleGroupItem,\n} from \"@/registry/new-york-v4/ui/toggle-group\"\n\nexport default function ToggleGroupSpacing() {\n  return (\n    <ToggleGroup type=\"multiple\" variant=\"outline\" spacing={2} size=\"sm\">\n      <ToggleGroupItem\n        value=\"star\"\n        aria-label=\"Toggle star\"\n        className=\"data-[state=on]:bg-transparent data-[state=on]:*:[svg]:fill-yellow-500 data-[state=on]:*:[svg]:stroke-yellow-500\"\n      >\n        <StarIcon />\n        Star\n      </ToggleGroupItem>\n      <ToggleGroupItem\n        value=\"heart\"\n        aria-label=\"Toggle heart\"\n        className=\"data-[state=on]:bg-transparent data-[state=on]:*:[svg]:fill-red-500 data-[state=on]:*:[svg]:stroke-red-500\"\n      >\n        <HeartIcon />\n        Heart\n      </ToggleGroupItem>\n      <ToggleGroupItem\n        value=\"bookmark\"\n        aria-label=\"Toggle bookmark\"\n        className=\"data-[state=on]:bg-transparent data-[state=on]:*:[svg]:fill-blue-500 data-[state=on]:*:[svg]:stroke-blue-500\"\n      >\n        <BookmarkIcon />\n        Bookmark\n      </ToggleGroupItem>\n    </ToggleGroup>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

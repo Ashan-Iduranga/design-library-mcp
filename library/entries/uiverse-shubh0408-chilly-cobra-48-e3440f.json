@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-shubh0408-chilly-cobra-48-e3440f",
+  "title": "Toggle by Shubh0408 (chilly-cobra-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shubh0408/chilly-cobra-48",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "toggle-switch"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shubh0408 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Shubh0408_chilly-cobra-48.html",
+  "code": "<!-- From Uiverse.io by Shubh0408  - Tags: switch, toggle switch, tailwindcss -->\n<label\n  class=\"relative inline-block h-8 w-14 cursor-pointer rounded-full bg-gray-300 transition [-webkit-tap-highlight-color:_transparent] has-[:checked]:bg-gray-900\"\n>\n  <input class=\"peer sr-only\" id=\"AcceptConditions\" type=\"checkbox\" />\n  <span\n    class=\"absolute inset-y-0 start-0 m-1 size-6 rounded-full bg-gray-300 ring-[6px] ring-inset ring-white transition-all peer-checked:start-8 peer-checked:w-2 peer-checked:bg-white peer-checked:ring-transparent\"\n  ></span>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

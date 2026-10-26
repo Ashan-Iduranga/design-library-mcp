@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-anushkaps-nasty-mouse-56-9097f4",
+  "title": "Button by anushkaps (nasty-mouse-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/anushkaps/nasty-mouse-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "alert",
+    "gradient",
+    "code",
+    "svg",
+    "arrow",
+    "2d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By anushkaps on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/anushkaps_nasty-mouse-56.html",
+  "code": "<button class=\"button\">\n  <div class=\"in\">\n    <div class=\"image\">\n      <svg\n        fill=\"#000000\"\n        width=\"25px\"\n        height=\"25px\"\n        viewBox=\"0 0 24 24\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n        transform=\"rotate(-45)\"\n      >\n        <g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g>\n        <g\n          id=\"SVGRepo_tracerCarrier\"\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n        ></g>\n        <g id=\"SVGRepo_iconCarrier\">\n          <path\n            d=\"M20.34,9.32l-14-7a3,3,0,0,0-4.08,3.9l2.4,5.37h0a1.06,1.06,0,0,1,0,.82l-2.4,5.37A3,3,0,0,0,5,22a3.14,3.14,0,0,0,1.35-.32l14-7a3,3,0,0,0,0-5.36Zm-.89,3.57-14,7a1,1,0,0,1-1.35-1.3l2.39-5.37A2,2,0,0,0,6.57,13h6.89a1,1,0,0,0,0-2H6.57a2,2,0,0,0-.08-.22L4.1,5.41a1,1,0,0,1,1.35-1.3l14,7a1,1,0,0,1,0,1.78Z\"\n          ></path>\n        </g>\n      </svg>\n    </div>\n    <div class=\"text\">Send Message</div>\n  </div>\n</button>\n\n<style>\n/* From Uiverse.io by anushkaps  - Tags: animation, alert, gradient, button, code, svg, arrow, 2d button */\n.button {\n  cursor: pointer;\n  height: 6em;\n  width: 18em;\n  border-radius: 1em;\n  border-top: 0.2em solid #b0b1b0;\n  border-bottom: 0.2em solid #50504f;\n  border-left: 0.2em solid #848584;\n  border-right: 0.2em solid #848584;\n  box-shadow: 0.3em 0.3em 0.5em #a9aaa9;\n  background: linear-gradient(to bottom, #fbfcfb, #ecedec);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  overflow: hidden;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  border-radius: inherit;\n  padding: 0.2em;\n  background: linear-gradient(135deg, #b0b1b0, #848584, #50504f);\n  z-index: -1;\n}\n\n.in {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  height: 4.8em;\n  width: 16.9em;\n  border-radius: 2em;\n  background: linear-gradient(to bottom, #eceeec, #ffffff);\n  transition: background 2s, transform 2s ease;\n}\n\n.text {\n  font-size: 21px;\n  font-weight: bold;\n  width: 9em;\n  color: #252625;\n  transition: transform 0.6s ease-in-out;\n}\n\n.image {\n  padding-left: 1.2em;\n  transition: transform 0.3s ease-in-out;\n}\n\n.image svg {\n  transition: transform 0.6s ease-in-out; /* Smooth rotation */\n}\n\n.button:hover .in {\n  background: linear-gradient(to bottom, #ffffff, #eceeec);\n  transform: scale(1.05);\n}\n\n.button:hover .image {\n  animation: fly-1 0.6s ease-in-out infinite alternate;\n}\n\n.button:hover svg {\n  transform: translateX(6.5em) rotate(2deg);\n}\n\n.button:hover .text {\n  transform: translateX(9em);\n}\n\n.button:active {\n  transform: scale(0.95);\n}\n\n@keyframes fly-1 {\n  from {\n    transform: translateY(0.1em);\n  }\n  to {\n    transform: translateY(-0.1em);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

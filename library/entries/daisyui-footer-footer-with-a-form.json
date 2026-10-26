@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-footer-footer-with-a-form",
+  "title": "Footer: Footer with a form (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/footer/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "footer",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Footer can contain logo, copyright notice, and links to other pages.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/footer/+page.md",
+  "code": "<footer class=\"footer sm:footer-horizontal bg-base-200 text-base-content p-10\">\n  <nav>\n    <h6 class=\"footer-title\">Services</h6>\n    <a class=\"link link-hover\">Branding</a>\n    <a class=\"link link-hover\">Design</a>\n    <a class=\"link link-hover\">Marketing</a>\n    <a class=\"link link-hover\">Advertisement</a>\n  </nav>\n  <nav>\n    <h6 class=\"footer-title\">Company</h6>\n    <a class=\"link link-hover\">About us</a>\n    <a class=\"link link-hover\">Contact</a>\n    <a class=\"link link-hover\">Jobs</a>\n    <a class=\"link link-hover\">Press kit</a>\n  </nav>\n  <nav>\n    <h6 class=\"footer-title\">Legal</h6>\n    <a class=\"link link-hover\">Terms of use</a>\n    <a class=\"link link-hover\">Privacy policy</a>\n    <a class=\"link link-hover\">Cookie policy</a>\n  </nav>\n  <form>\n    <h6 class=\"footer-title\">Newsletter</h6>\n    <fieldset class=\"w-80\">\n      <label>Enter your email address</label>\n      <div class=\"join\">\n        <input\n          type=\"text\"\n          placeholder=\"username@site.com\"\n          class=\"input join-item\" />\n        <button class=\"btn btn-primary join-item\">Subscribe</button>\n      </div>\n    </fieldset>\n  </form>\n</footer>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

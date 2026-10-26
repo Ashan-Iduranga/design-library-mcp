@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-smit-prajapati-black-cheetah-92-0b75b6",
+  "title": "Form by Smit-Prajapati (black-cheetah-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Smit-Prajapati/black-cheetah-92",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "contacts-form",
+    "coolform"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Smit-Prajapati on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Smit-Prajapati_black-cheetah-92.html",
+  "code": "<div class=\"form-container\">\n    <div class=\"form\">\n        <span class=\"heading\">Get in touch</span>\n        <input placeholder=\"Name\" type=\"text\" class=\"input\">\n        <input placeholder=\"Email\" id=\"mail\" type=\"email\" class=\"input\">\n        <textarea placeholder=\"Say Hello\" rows=\"10\" cols=\"30\" id=\"message\" name=\"message\" class=\"textarea\"></textarea>\n        <div class=\"button-container\">\n        <div class=\"send-button\">Send</div>\n        <div class=\"reset-button-container\">\n            <div id=\"reset-btn\" class=\"reset-button\">Reset</div>\n        </div>\n    </div>\n</div>\n</div>\n<style>\n/* From Uiverse.io by Smit-Prajapati - Tags: form, contacts form, coolform */\n.orange {\n  color: #ff7a01;\n}\n\n.form-container {\n  max-width: 700px;\n  margin: 30px;\n  background-color: #001925;\n  padding: 30px;\n  border-left: 5px solid #ff7a01;\n  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);\n}\n\n.heading {\n  display: block;\n  color: white;\n  font-size: 1.5rem;\n  font-weight: 800;\n  margin-bottom: 20px;\n}\n\n.form-container .form .input {\n  color: #87a4b6;\n  width: 100%;\n  background-color: #002733;\n  border: none;\n  outline: none;\n  padding: 10px;\n  margin-bottom: 20px;\n  font-weight: bold;\n  transition: all 0.2s ease-in-out;\n  border-left: 1px solid transparent;\n}\n\n.form-container .form .input:focus {\n  border-left: 5px solid #ff7a01;\n}\n\n.form-container .form .textarea {\n  width: 100%;\n  padding: 10px;\n  border: none;\n  outline: none;\n  background-color: #013747;\n  color: #ff7a01;\n  font-weight: bold;\n  resize: none;\n  max-height: 150px;\n  margin-bottom: 20px;\n  border-left: 1px solid transparent;\n  transition: all 0.2s ease-in-out;\n}\n\n.form-container .form .textarea:focus {\n  border-left: 5px solid #ff7a01;\n}\n\n.form-container .form .button-container {\n  display: flex;\n  gap: 10px;\n}\n\n.form-container .form .button-container .send-button {\n  flex-basis: 70%;\n  background: #ff7a01;\n  padding: 10px;\n  color: #001925;\n  text-align: center;\n  font-weight: bold;\n  border: 1px solid transparent;\n  transition: all 0.2s ease-in-out;\n}\n\n.form-container .form .button-container .send-button:hover {\n  background: transparent;\n  border: 1px solid #ff7a01;\n  color: #ff7a01;\n}\n\n.form-container .form .button-container .reset-button-container {\n  filter: drop-shadow(1px 1px 0px #ff7a01);\n  flex-basis: 30%;\n}\n\n.form-container .form .button-container .reset-button-container .reset-button {\n  position: relative;\n  text-align: center;\n  padding: 10px;\n  color: #ff7a01;\n  font-weight: bold;\n  background: #001925;\n  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);\n  transition: all 0.2s ease-in-out;\n}\n\n.form-container .form .button-container .reset-button-container .reset-button:hover {\n  background: #ff7a01;\n  color: #001925;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-tilakjain123-shy-yak-36-a8e4dd",
+  "title": "Loader by tilakjain123 (shy-yak-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/tilakjain123/shy-yak-36",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By tilakjain123 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/tilakjain123_shy-yak-36.html",
+  "code": "<div class=\"loader\">\n    <div></div>\n\n    <div></div>\n</div>\n<style>\n/* From Uiverse.io by tilakjain123 - Tags: loader */\n.loader {\n  position: relative;\n  width: 64px;\n  height: 64px;\n}\n\n.loader div {\n  position: absolute;\n  border: 4px solid #454ade;\n  border-radius: 50%;\n  animation: loader8435 1s ease-out infinite;\n}\n\n.loader div:nth-child(2) {\n  animation-delay: -0.5s;\n}\n\n@keyframes loader8435 {\n  0% {\n    top: 32px;\n    left: 32px;\n    width: 0;\n    height: 0;\n    opacity: 1;\n  }\n\n  100% {\n    top: 0;\n    left: 0;\n    width: 64px;\n    height: 64px;\n    opacity: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

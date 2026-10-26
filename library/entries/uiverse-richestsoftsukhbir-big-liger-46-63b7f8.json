@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-richestsoftsukhbir-big-liger-46-63b7f8",
+  "title": "Button by RichestsoftSukhbir (big-liger-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/RichestsoftSukhbir/big-liger-46",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "minimalist",
+    "white",
+    "black",
+    "hover",
+    "hover-effect",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By RichestsoftSukhbir on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/RichestsoftSukhbir_big-liger-46.html",
+  "code": "<button class=\"button\">Hover Over Me</button>\n\n<style>\n/* From Uiverse.io by RichestsoftSukhbir  - Tags: simple, minimalist, white, black, button, hover, hover effect, hover button */\n.button {\n  padding: 12px 25px;\n  background: #fff;\n  border: 1px solid #121212;\n  color: #121212;\n  font-weight: 700;\n  cursor: pointer;\n  border-radius: 50px;\n  position: relative;\n  z-index: 2;\n  overflow: hidden;\n  transition: all 0.5s ease;\n}\n.button::after {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background: #121212;\n  position: absolute;\n  bottom: -100%;\n  left: 0;\n  border-radius: 50%;\n  z-index: -1;\n  transition: all 0.5s ease;\n}\n.button:hover {\n  color: #fff;\n}\n.button:hover::after {\n  bottom: 0;\n  border-radius: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

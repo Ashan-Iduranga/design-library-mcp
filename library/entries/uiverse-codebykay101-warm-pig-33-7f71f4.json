@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-codebykay101-warm-pig-33-7f71f4",
+  "title": "Form by codebykay101 (warm-pig-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/codebykay101/warm-pig-33",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "animation",
+    "contact",
+    "hover-effect",
+    "css-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By codebykay101 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/codebykay101_warm-pig-33.html",
+  "code": "<div class=\"container\">\n    <form class=\"form\">\n      <div class=\"descr\">Contact us</div>\n      <div class=\"input\">\n          <input required=\"\" autocomplete=\"off\" type=\"text\">\n          <label for=\"name\">Name</label>\n      </div>\n\n      <div class=\"input\">\n          <input required=\"\" autocomplete=\"off\" name=\"email\" type=\"text\">\n          <label for=\"email\">E-mail</label>\n      </div>\n\n      <div class=\"input\">\n          <textarea required=\"\" cols=\"30\" rows=\"1\" id=\"message\"></textarea>\n          <label for=\"message\">Message</label>\n      </div>\n      <button>Send message →</button>\n    </form>\n</div>\n\n<style>\n/* From Uiverse.io by codebykay101 - Tags: animation, form, contact, hover effect, css effect */\n.container {\n  width: 350px;\n  height: 400px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  border-radius: 3px;\n  border: 1px solid #396afc;\n  background: linear-gradient(to right, #005c97, #363795);\n  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;\n}\n\n.container form .descr {\n  font-size: 20px;\n  font-weight: 500;\n  color: #e8e8e8;\n  margin-bottom: 25px;\n  margin-top: 25px;\n  text-align: center;\n}\n\n.form {\n  display: flex;\n  flex-direction: column;\n}\n\n.input, textarea {\n  margin: 1em 0 1em 0;\n  width: 300px;\n  position: relative;\n}\n\n.input input, textarea {\n  font-size: 100%;\n  padding: 0.7em;\n  outline: none;\n  color: #e8e8e8;\n  border: none;\n  border-bottom: 2px solid #e8e8e8;\n  background: transparent;\n  border-radius: none;\n  width: 100%;\n  resize: none;\n}\n\n.input label {\n  font-size: 100%;\n  position: absolute;\n  left: 0;\n  color: #e8e8e8;\n  padding: 0.7em;\n  margin-left: 0.1em;\n  pointer-events: none;\n  transition: all 0.5s ease;\n  text-transform: uppercase;\n}\n\n.input :is(input:focus, input:valid)~label {\n  transform: translateY(-50%) scale(.9);\n  margin: 0em;\n  padding: 0.4em;\n  background: transparent;\n}\n\n.input textarea:focus ~ label,\n.input textarea:valid ~ label {\n  transform: translateY(-50%) scale(.9);\n  margin: 0em;\n  padding: 0.4em;\n  background: transparent;\n}\n\n.inputGroup :is(input:focus, input:valid) {\n  border-color: rgb(37, 37, 211);\n}\n\n.form button {\n  color: #e8e8e8;\n  font-size: 15px;\n  align-self: flex-start;\n  padding: 0.6em;\n  border: none;\n  cursor: pointer;\n  margin-bottom: 50px;\n  background: transparent;\n  transition: all 0.3s ease-in-out;\n  position: relative;\n  overflow: hidden;\n}\n\n.form button:before {\n  content: \"\";\n  position: absolute;\n  bottom: 100%;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: #e8e8e8;\n  opacity: 0;\n  transition: opacity 0.3s ease-in-out;\n}\n\n.form button:hover:before {\n  opacity: 0.2;\n}\n\n.form button:hover {\n  transform: translateY(-3px);\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

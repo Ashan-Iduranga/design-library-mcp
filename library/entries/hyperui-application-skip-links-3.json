@@ -1,0 +1,32 @@
+{
+  "id": "hyperui-application-skip-links-3",
+  "title": "Skip Links: Skip links with title and light background",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/skip-links",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "skip-links",
+    "hyperui",
+    "navigation"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/skip-links/3.html",
+  "code": "<nav aria-label=\"Skip to\" class=\"absolute inset-x-0 top-0 flex -translate-y-full items-center gap-3 rounded-sm bg-gray-100 p-4 transition-transform focus-within:translate-y-0\">\n<p class=\"text-xs font-semibold tracking-wide text-gray-700 uppercase\">Skip to:</p>\n<div class=\"flex flex-wrap gap-2\">\n<a class=\"text-sm font-medium text-blue-700 transition-colors hover:text-blue-600 active:text-blue-600\" href=\"#mainNavigation\">\n          Navigation\n        </a>\n<a class=\"text-sm font-medium text-blue-700 transition-colors hover:text-blue-600 active:text-blue-600\" href=\"#mainContent\">\n          Content\n        </a>\n<a class=\"text-sm font-medium text-blue-700 transition-colors hover:text-blue-600 active:text-blue-600\" href=\"#mainFooter\">\n          Footer\n        </a>\n</div>\n</nav>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

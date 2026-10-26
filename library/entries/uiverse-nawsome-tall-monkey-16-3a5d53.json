@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nawsome-tall-monkey-16-3a5d53",
+  "title": "Loader by Nawsome (tall-monkey-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/tall-monkey-16",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Nawsome_tall-monkey-16.html",
+  "code": "<div class=\"loading\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"124\" height=\"124\" viewBox=\"0 0 124 124\">\n    <circle class=\"circle-loading\" cx=\"62\" cy=\"62\" r=\"59\" fill=\"none\" stroke=\"hsl(271, 76%, 74%)\" stroke-width=\"6px\"></circle>\n    <circle class=\"circle\" cx=\"62\" cy=\"62\" r=\"59\" fill=\"none\" stroke=\"hsl(271, 76%, 53%)\" stroke-width=\"6px\" stroke-linecap=\"round\"></circle>\n    <polyline class=\"check\" points=\"73.56 48.63 57.88 72.69 49.38 62\" fill=\"none\" stroke=\"hsl(271, 76%, 53%)\" stroke-width=\"6px\" stroke-linecap=\"round\"></polyline>\n  </svg>\n</div>\n<style>\n/* From Uiverse.io by Nawsome - Tags: loader */\n.loading {\n  width: 124px;\n  height: 124px;\n}\n\n.loading svg {\n  display: block;\n  width: 100%;\n  height: 100%;\n}\n\n.circle {\n  transform: rotate(-90deg);\n  transform-origin: center;\n  stroke-dasharray: 380;\n  stroke-dashoffset: 380;\n  animation: circle_4 2s ease-in-out forwards;\n}\n\n.check {\n  stroke-dasharray: 45;\n  stroke-dashoffset: 45;\n  animation: check_4 0.2s 2s ease-in-out forwards;\n}\n\n@keyframes circle_4 {\n  0% {\n    stroke-dashoffset: 380;\n  }\n\n  100% {\n    stroke-dashoffset: 0;\n  }\n}\n\n@keyframes check_4 {\n  0% {\n    stroke-dashoffset: 45;\n  }\n\n  100% {\n    stroke-dashoffset: 90;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

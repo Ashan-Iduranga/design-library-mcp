@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-gautammsharma-massive-rabbit-40-d9f934",
+  "title": "Checkbox by Gautammsharma (massive-rabbit-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Gautammsharma/massive-rabbit-40",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "simple",
+    "material-design",
+    "minimalist",
+    "google",
+    "clean"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Gautammsharma on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Gautammsharma_massive-rabbit-40.html",
+  "code": "<label class=\"material-checkbox\">\n        <input type=\"checkbox\">\n        <span class=\"checkmark\"></span>\n        Checkbox Label\n      </label>\n<style>\n/* From Uiverse.io by Gautammsharma - Tags: simple, material design, minimalist, checkbox, google, clean */\n.material-checkbox {\n  display: flex;\n  align-items: center;\n  font-size: 16px;\n  color: #777777;\n  cursor: pointer;\n}\n\n.material-checkbox input[type=\"checkbox\"] {\n  position: absolute;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.checkmark {\n  position: relative;\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  margin-right: 12px;\n  border: 2px solid #454B00;\n  border-radius: 4px;\n  transition: all 0.3s;\n}\n\n.material-checkbox input[type=\"checkbox\"]:checked ~ .checkmark {\n  background-color: #2F3300;\n  border-color: #454B00;\n}\n\n.material-checkbox input[type=\"checkbox\"]:checked ~ .checkmark:after {\n  content: \"\";\n  position: absolute;\n  top: 2px;\n  left: 6px;\n  width: 4px;\n  height: 10px;\n  border: solid white;\n  border-width: 0 2px 2px 0;\n  transform: rotate(45deg);\n}\n\n.material-checkbox input[type=\"checkbox\"]:focus ~ .checkmark {\n  box-shadow: 0 0 0 2px #dfec5065;\n}\n\n.material-checkbox:hover input[type=\"checkbox\"] ~ .checkmark {\n  border-color: #C3CF34;\n}\n\n.material-checkbox input[type=\"checkbox\"]:disabled ~ .checkmark {\n  opacity: 0.5;\n  cursor: not-allowed;\n}\n\n.material-checkbox input[type=\"checkbox\"]:disabled ~ .checkmark:hover {\n  border-color: #4d4d4d;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

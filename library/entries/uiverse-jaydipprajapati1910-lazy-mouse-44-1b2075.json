@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jaydipprajapati1910-lazy-mouse-44-1b2075",
+  "title": "Button by JaydipPrajapati1910 (lazy-mouse-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/lazy-mouse-44",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "gradients",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JaydipPrajapati1910_lazy-mouse-44.html",
+  "code": "<button class=\"button\">\n  <div class=\"button-overlay\"></div>\n  <span>Gradient Button</span>  \n</button>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: gradient, button, gradients, css */\n.button {\n  font-size: 19px;\n  border-radius: 12px;\n  background: linear-gradient(180deg, rgb(56, 56, 56) 0%, rgb(36, 36, 36) 66%, rgb(41, 41, 41) 100%);\n  color: rgb(218, 218, 218);\n  border: none;\n  padding: 2px;\n  font-weight: 800;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n}\n\n.button span {\n  border-radius: 10px;\n  padding: 0.8em 1.3em;\n  padding-right: 1.2em;\n  text-shadow: 0px 0px 20px #4b4b4b;\n  width: 100%;\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  transition: all 0.3s;\n  background-image: linear-gradient(to right, #00F260, #f79dee, #0575E6, #64f38c,#e9e93e);\n  -webkit-background-clip: text;\n  color: transparent;\n  background-size: 300%;\n  background-position: -100%;\n  animation: animatedText 3s infinite alternate-reverse;\n}\n\n.button-overlay {\n  position: absolute;\n  inset: 0;\n  pointer-events: none;\n  background: repeating-conic-gradient(rgb(48, 47, 47) 0.0000001%, rgb(51, 51, 51) 0.000104%) 60% 60%/600% 600%;\n  filter: opacity(10%) contrast(105%);\n  -webkit-filter: opacity(10%) contrast(105%);\n}\n\n@keyframes animatedText {\n  to {\n    background-position: 100%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

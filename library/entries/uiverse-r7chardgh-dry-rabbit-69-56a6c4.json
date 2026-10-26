@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-r7chardgh-dry-rabbit-69-56a6c4",
+  "title": "Toggle by r7chardgh (dry-rabbit-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/r7chardgh/dry-rabbit-69",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "toggle-switch",
+    "on/off"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By r7chardgh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/r7chardgh_dry-rabbit-69.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\" class=\"cb\">\n  <span class=\"toggle\">\n    <span class=\"left\">off</span>  \n    <span class=\"right\">on</span>  \n  </span>\n</label>\n<style>\n/* From Uiverse.io by r7chardgh - Tags: switch, toggle switch, on/off */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 5em;\n  height: 2.5em;\n}\n\n/* Hide default HTML checkbox */\n.switch .cb {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.toggle {\n  position: absolute;\n  cursor: pointer;\n  width: 100%;\n  height: 100%;\n  background-color: #373737;\n  border-radius: .1em;\n  transition: .4s;\n  text-transform: uppercase;\n  font-weight: 700;\n  overflow: hidden;\n  box-shadow: -.3em 0 0 0 #373737,-.3em .3em 0 0 #373737,.3em 0 0 0 #373737,.3em .3em 0 0 #373737,0 .3em 0 0 #373737;\n}\n\n.toggle > .left {\n  position: absolute;\n  display: flex;\n  width: 50%;\n  height: 88%;\n  background-color: #f3f3f3;\n  color: #373737;\n  left: 0;\n  bottom: 0;\n  align-items: center;\n  justify-content: center;\n  transform-origin: right;\n  transform: rotateX(10deg);\n  transform-style: preserve-3d;\n  transition: all 150ms;\n}\n\n.left::before {\n  position: absolute;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background-color: rgb(206, 206, 206);\n  transform-origin: center left;\n  transform: rotateY(90deg);\n}\n\n.left::after {\n  position: absolute;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background-color: rgb(112, 112, 112);\n  transform-origin: center bottom;\n  transform: rotateX(90deg);\n}\n\n.toggle > .right {\n  position: absolute;\n  display: flex;\n  width: 50%;\n  height: 88%;\n  background-color: #f3f3f3;\n  color: rgb(206, 206, 206);\n  right: 1px;\n  bottom: 0;\n  align-items: center;\n  justify-content: center;\n  transform-origin: left;\n  transform: rotateX(10deg) rotateY(-45deg);\n  transform-style: preserve-3d;\n  transition: all 150ms;\n}\n\n.right::before {\n  position: absolute;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background-color: rgb(206, 206, 206);\n  transform-origin: center right;\n  transform: rotateY(-90deg);\n}\n\n.right::after {\n  position: absolute;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background-color: rgb(112, 112, 112);\n  transform-origin: center bottom;\n  transform: rotateX(90deg);\n}\n\n.switch input:checked + .toggle > .left {\n  transform: rotateX(10deg) rotateY(45deg);\n  color: rgb(206, 206, 206);\n}\n\n.switch input:checked + .toggle > .right {\n  transform: rotateX(10deg) rotateY(0deg);\n  color: #487bdb;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-field-responsive",
+  "title": "Field Responsive (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/field-responsive.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "field",
+    "responsive",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Combine labels, controls, and help text to compose accessible form fields and grouped inputs.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/field-responsive.tsx",
+  "code": "import { Button } from \"@/registry/new-york-v4/ui/button\"\nimport {\n  Field,\n  FieldContent,\n  FieldDescription,\n  FieldGroup,\n  FieldLabel,\n  FieldLegend,\n  FieldSeparator,\n  FieldSet,\n} from \"@/registry/new-york-v4/ui/field\"\nimport { Input } from \"@/registry/new-york-v4/ui/input\"\nimport { Textarea } from \"@/registry/new-york-v4/ui/textarea\"\n\nexport default function FieldResponsive() {\n  return (\n    <div className=\"w-full max-w-4xl\">\n      <form>\n        <FieldSet>\n          <FieldLegend>Profile</FieldLegend>\n          <FieldDescription>Fill in your profile information.</FieldDescription>\n          <FieldSeparator />\n          <FieldGroup>\n            <Field orientation=\"responsive\">\n              <FieldContent>\n                <FieldLabel htmlFor=\"name\">Name</FieldLabel>\n                <FieldDescription>\n                  Provide your full name for identification\n                </FieldDescription>\n              </FieldContent>\n              <Input id=\"name\" placeholder=\"Evil Rabbit\" required />\n            </Field>\n            <FieldSeparator />\n            <Field orientation=\"responsive\">\n              <FieldContent>\n                <FieldLabel htmlFor=\"lastName\">Message</FieldLabel>\n                <FieldDescription>\n                  You can write your message here. Keep it short, preferably\n                  under 100 characters.\n                </FieldDescription>\n              </FieldContent>\n              <Textarea\n                id=\"message\"\n                placeholder=\"Hello, world!\"\n                required\n                className=\"min-h-[100px] resize-none sm:min-w-[300px]\"\n              />\n            </Field>\n            <FieldSeparator />\n            <Field orientation=\"responsive\">\n              <Button type=\"submit\">Submit</Button>\n              <Button type=\"button\" variant=\"outline\">\n                Cancel\n              </Button>\n            </Field>\n          </FieldGroup>\n        </FieldSet>\n      </form>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

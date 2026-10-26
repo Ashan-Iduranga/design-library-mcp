@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-ali-tahmazi99-unlucky-termite-68-3a260a",
+  "title": "Checkbox by Ali-Tahmazi99 (unlucky-termite-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Ali-Tahmazi99/unlucky-termite-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "hamburger"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Ali-Tahmazi99 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Ali-Tahmazi99_unlucky-termite-68.html",
+  "code": "<label class=\"bar\" for=\"check\">\n    <input type=\"checkbox\" id=\"check\">\n\n    <span class=\"top\"></span>\n    <span class=\"middle\"></span>\n    <span class=\"bottom\"></span>\n</label>\n<style>\n/* From Uiverse.io by Ali-Tahmazi99 - Tags: hamburger */\ninput[type = \"checkbox\"] {\n  -webkit-appearance: none;\n  display: none;\n  visibility: hidden;\n}\n\n.bar {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  width: 50px;\n  height: 40px;\n}\n\n.bar span {\n  position: absolute;\n  width: 45px;\n  height: 7px;\n  background: #f1faee;\n  border-radius: 100px;\n  display: inline-block;\n  transition: 0.3s ease;\n  left: 0;\n}\n\n.bar span.top {\n  top: 0;\n}\n\n.bar span.middle {\n  top: 17px;\n}\n\n.bar span.bottom {\n  bottom: 0;\n}\n\ninput[type]:checked ~ span.top {\n  transform: rotate(45deg);\n  transform-origin: top left;\n  width: 48px;\n  left: 5px;\n}\n\ninput[type]:checked ~ span.bottom {\n  transform: rotate(-45deg);\n  transform-origin: top left;\n  width: 48px;\n  bottom: -1px;\n  box-shadow: 0 0 10px #495057;\n}\n\ninput[type]:checked ~ span.middle {\n  transform: translateX(-20px);\n  opacity: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

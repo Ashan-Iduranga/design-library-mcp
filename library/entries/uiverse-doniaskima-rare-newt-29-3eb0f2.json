@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-doniaskima-rare-newt-29-3eb0f2",
+  "title": "Loader by doniaskima (rare-newt-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/rare-newt-29",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "material-design",
+    "neumorphism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_rare-newt-29.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: simple, material design, neumorphism, loader */\n.loader {\n  width: fit-content;\n  font-size: 17px;\n  font-family: monospace;\n  line-height: 1.4;\n  font-weight: bold;\n  background: linear-gradient(#000 0 0) left ,\n    linear-gradient(#000 0 0) right;\n  background-repeat: no-repeat;\n  border-right: 5px solid #0000;\n  border-left: 5px solid #0000;\n  background-origin: border-box;\n  position: relative;\n  animation: l9-0 2s infinite;\n}\n\n.loader::before {\n  content: \"Loading\";\n}\n\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 0;\n  width: 22px;\n  height: 60px;\n  background: linear-gradient(90deg,#000 4px,#0000 0 calc(100% - 4px),#000 0) bottom            /22px 20px,\n   linear-gradient(90deg,red  4px,#0000 0 calc(100% - 4px),red  0) bottom 10px left 0/22px 6px,\n   linear-gradient(#000 0 0) bottom 3px left 0  /22px 8px,\n   linear-gradient(#000 0 0) bottom 0   left 50%/8px  16px;\n  background-repeat: no-repeat;\n  animation: l9-1 2s infinite;\n}\n\n@keyframes l9-0 {\n  0%,25% {\n    background-size: 50% 100%\n  }\n\n  25.1%,75% {\n    background-size: 0 0,50% 100%\n  }\n\n  75.1%,100% {\n    background-size: 0 0,0 0\n  }\n}\n\n@keyframes l9-1 {\n  25% {\n    background-position: bottom, bottom 54px left 0,bottom 3px left 0,bottom 0 left 50%;\n    left: 0\n  }\n\n  25.1% {\n    background-position: bottom, bottom 10px left 0,bottom 3px left 0,bottom 0 left 50%;\n    left: 0\n  }\n\n  50% {\n    background-position: bottom, bottom 10px left 0,bottom 3px left 0,bottom 0 left 50%;\n    left: calc(100% - 22px)\n  }\n\n  75% {\n    background-position: bottom, bottom 54px left 0,bottom 3px left 0,bottom 0 left 50%;\n    left: calc(100% - 22px)\n  }\n\n  75.1% {\n    background-position: bottom, bottom 10px left 0,bottom 3px left 0,bottom 0 left 50%;\n    left: calc(100% - 22px)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

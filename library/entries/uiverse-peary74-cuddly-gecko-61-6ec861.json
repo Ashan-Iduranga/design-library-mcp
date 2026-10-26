@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-peary74-cuddly-gecko-61-6ec861",
+  "title": "Button by Peary74 (cuddly-gecko-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Peary74/cuddly-gecko-61",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Peary74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Peary74_cuddly-gecko-61.html",
+  "code": "<div class=\"del\">\n    <div>\n      Hover\n    </div>     \n</div>\n\t\t\n<style>\n/* From Uiverse.io by Peary74 - Tags: button, hover, hover button */\n.del {\n  position: relative;\n  top: 0;\n  left: 0;\n  width: 160px;\n  height: 50px;\n  margin: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.del div {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: none;\n  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),\n              -4px -4px 6px 0 rgba(116, 125, 136, .5), \n    inset -4px -4px 6px 0 rgba(255,255,255,.2),\n    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 10px;\n  letter-spacing: 1px;\n  color: #000;\n  z-index: 1;\n  transition: .6s;\n}\n\n.del:hover div {\n  letter-spacing: 4px;\n  color: #fff;\n}\n\n.del::after,\n.del::before {\n  content: '';\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  z-index: -99999;\n  transition: all .4s;\n}\n\n.del::after {\n  transform: translate(15px, 15px);\n  width: 35px;\n  height: 35px;\n  background: #000;\n  backdrop-filter: blur(5px);\n  border-radius: 10px;\n}\n\n.del:hover::after {\n  border-radius: 10px;\n  transform: translate(0, 0);\n  width: 100%;\n  height: 100%;\n}\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

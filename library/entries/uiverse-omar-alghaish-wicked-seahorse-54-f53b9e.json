@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-omar-alghaish-wicked-seahorse-54-f53b9e",
+  "title": "Loader by omar-alghaish (wicked-seahorse-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/omar-alghaish/wicked-seahorse-54",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By omar-alghaish on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/omar-alghaish_wicked-seahorse-54.html",
+  "code": "<div class=\"loader\">loading...</div>\n<style>\n/* From Uiverse.io by omar-alghaish - Tags: loader */\n@keyframes animate8345 {\n  0%,100% {\n    filter: hue-rotate(0deg);\n  }\n\n  50% {\n    filter: hue-rotate(360deg);\n  }\n}\n\n.loader {\n  color: rgb(0, 0, 0);\n  background: linear-gradient(to right, #2d60ec, #3ccfda);\n  font-size: 30px;\n  -webkit-text-fill-color: transparent;\n  -webkit-background-clip: text;\n  animation: animate8345 9s linear infinite;\n  font-weight: bold;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-madflows-terrible-catfish-72-616d16",
+  "title": "Button by Madflows (terrible-catfish-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Madflows/terrible-catfish-72",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Madflows on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Madflows_terrible-catfish-72.html",
+  "code": "<button class=\"learn-more\"> Learn More\n</button>\n<style>\n/* From Uiverse.io by Madflows - Tags: button */\nbutton {\n position: relative;\n display: inline-block;\n cursor: pointer;\n outline: none;\n border: 0;\n vertical-align: middle;\n text-decoration: none;\n font-family: inherit;\n font-size: 15px;\n}\n\nbutton.learn-more {\n font-weight: 600;\n color: #382b22;\n text-transform: uppercase;\n padding: 1.25em 2em;\n background: #fff0f0;\n border: 2px solid #b18597;\n border-radius: 0.75em;\n -webkit-transform-style: preserve-3d;\n transform-style: preserve-3d;\n -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);\n transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);\n}\n\nbutton.learn-more::before {\n position: absolute;\n content: '';\n width: 100%;\n height: 100%;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n background: #f9c4d2;\n border-radius: inherit;\n -webkit-box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;\n box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;\n -webkit-transform: translate3d(0, 0.75em, -1em);\n transform: translate3d(0, 0.75em, -1em);\n transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);\n}\n\nbutton.learn-more:hover {\n background: #ffe9e9;\n -webkit-transform: translate(0, 0.25em);\n transform: translate(0, 0.25em);\n}\n\nbutton.learn-more:hover::before {\n -webkit-box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;\n box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;\n -webkit-transform: translate3d(0, 0.5em, -1em);\n transform: translate3d(0, 0.5em, -1em);\n}\n\nbutton.learn-more:active {\n background: #ffe9e9;\n -webkit-transform: translate(0em, 0.75em);\n transform: translate(0em, 0.75em);\n}\n\nbutton.learn-more:active::before {\n -webkit-box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;\n box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;\n -webkit-transform: translate3d(0, 0, -1em);\n transform: translate3d(0, 0, -1em);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

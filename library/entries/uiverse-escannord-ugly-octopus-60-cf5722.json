@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-escannord-ugly-octopus-60-cf5722",
+  "title": "Loader by escannord (ugly-octopus-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/escannord/ugly-octopus-60",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "spinner"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By escannord on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/escannord_ugly-octopus-60.html",
+  "code": "<div class=\"loader\">\n  <span style=\"--i:1px\" class=\"load\"></span>\n  <span style=\"--i:2px\" class=\"load\"></span>\n  <span style=\"--i:3px\" class=\"load\"></span>\n  <span style=\"--i:4px\" class=\"load\"></span>\n  <span style=\"--i:5px\" class=\"load\"></span>\n  <span style=\"--i:6px\" class=\"load\"></span>\n  <span style=\"--i:7px\" class=\"load\"></span>\n  <span style=\"--i:8px\" class=\"load\"></span>\n  <span style=\"--i:9px\" class=\"load\"></span>\n  <span style=\"--i:10px\" class=\"load\"></span>\n</div>\n\n<style>\n/* From Uiverse.io by escannord  - Tags: animation, loader, spinner */\n.loader {\n  position: relative;\n}\n.load {\n  display: inline-block;\n  height: calc(var(--i) * 15);\n  width: calc(var(--i) * 15);\n  background-color: transparent;\n  position: absolute;\n  border: 5px rgb(47, 0, 255) solid;\n  border-top: none;\n  border-radius: 50%;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  animation: turn 2s infinite linear;\n}\n\n.load:nth-child(odd) {\n  animation: turn 2s infinite linear reverse;\n}\n\n@keyframes turn {\n  100% {\n    transform: translate(-50%, -50%) rotateZ(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

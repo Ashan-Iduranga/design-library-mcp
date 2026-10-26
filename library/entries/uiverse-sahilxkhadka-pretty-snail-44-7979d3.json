@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-sahilxkhadka-pretty-snail-44-7979d3",
+  "title": "Button by sahilxkhadka (pretty-snail-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/sahilxkhadka/pretty-snail-44",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "shadow",
+    "keyboard"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By sahilxkhadka on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/sahilxkhadka_pretty-snail-44.html",
+  "code": "<button class=\"button\">\n  <div>\n    <span>\n      <i>W</i>\n    </span>\n  </div>\n  <div>\n    <span>\n      <i>A</i>\n    </span>\n  </div>\n  <div>\n    <span>\n      <i>S</i>\n    </span>\n  </div>\n  <div>\n    <span>\n      <i>D</i>\n    </span>\n  </div>\n</button>\n\n<style>\n/* From Uiverse.io by sahilxkhadka  - Tags: button, shadow, keyboard */\n.button {\n  outline: none;\n  border: none;\n  display: flex;\n  width: 400px;\n  justify-content: center;\n  flex-wrap: wrap;\n  background-color: transparent;\n}\n.button div:first-child {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n}\n.button span {\n  cursor: pointer;\n  position: relative;\n  height: 80px;\n  width: 80px;\n  padding: 8px 15px;\n  margin: 8px 4px;\n  display: inline-block;\n  border-radius: 10px;\n  background: linear-gradient(180deg, #282828, #202020);\n  box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),\n    inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75),\n    10px 20px 25px rgba(0, 0, 0, 0.4);\n  overflow: hidden;\n}\n.button span::before {\n  content: \"\";\n  position: absolute;\n  top: 3px;\n  left: 4px;\n  bottom: 14px;\n  right: 12px;\n  background: linear-gradient(90deg, #232323, #4a4a4a);\n  border-radius: 10px;\n  box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.25),\n    10px 5px 10px rgba(0, 0, 0, 0.15);\n  border-left: 1px solid #0004;\n  border-bottom: 1px solid #0004;\n  border-top: 1px solid #0009;\n}\n.button span i {\n  font-family: \"Montserrat\", sans-serif;\n  position: relative;\n  font-style: normal;\n  font-size: 1.5rem;\n  text-transform: uppercase;\n  color: white;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-neerajbaniwal-old-cobra-77-759cd5",
+  "title": "Button by neerajbaniwal (old-cobra-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/neerajbaniwal/old-cobra-77",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover-button",
+    "button-hover-effect",
+    "2d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By neerajbaniwal on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/neerajbaniwal_old-cobra-77.html",
+  "code": "<div class=\"container\">\n  <input name=\"power\" id=\"power\" type=\"checkbox\" />\n  <label class=\"power\" for=\"power\">\n    <span class=\"icon-off\"></span>\n    <span class=\"light\"></span>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by neerajbaniwal  - Tags: button, hover button, button hover effect , 2d button */\n.container {\n  width: 150px;\n  height: 130px;\n  padding-top: 20px;\n  margin: 50px auto;\n}\n\n#power {\n  position: absolute;\n  left: -9999px;\n}\n\nlabel {\n  display: block;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  position: relative;\n  margin: auto;\n  border: 4px solid #636679;\n  background: -webkit-radial-gradient(\n    center,\n    ellipse cover,\n    #efefef 0%,\n    #eee 80%,\n    #fff 100%\n  );\n  background: -moz-radial-gradient(\n    center,\n    ellipse cover,\n    #efefef 0%,\n    #eee 80%,\n    #fff 100%\n  );\n  background: radial-gradient(\n    center,\n    ellipse cover,\n    #fefefe 0%,\n    #eee 80%,\n    #fff 100%\n  );\n  box-shadow: inset 0 -5px 10px 0 #d0d5eb, inset 0 5px 10px 0 #fff,\n    0 0 0 1px #333;\n  cursor: pointer;\n  text-align: center;\n  font-size: 40px;\n  color: #0f0;\n  line-height: 100px;\n  text-shadow: -1px -1px 0px #fff, 1px 1px 0px #fff;\n  transition: all 0.1s ease-in-out;\n}\n\nlabel:after,\nlabel:before {\n  display: block;\n  content: \"\";\n  position: absolute;\n}\n\nlabel:before {\n  width: 150px;\n  height: 150px;\n  border-radius: 20px;\n  background: -webkit-linear-gradient(\n    top,\n    #fefefe 0%,\n    #eee 30%,\n    #ddd 82%,\n    #ddd 100%\n  );\n  background: -moz-linear-gradient(\n    top,\n    #fefefe 0%,\n    #eee 30%,\n    #ddd 82%,\n    #ddd 100%\n  );\n  background: linear-gradient(top, #fefefe 0%, #eee 30%, #ddd 82%, #ddd 100%);\n  box-shadow: 0 10px 30px 0 #000;\n  top: -25px;\n  left: -25px;\n  z-index: -2;\n}\n\nlabel:after {\n  width: 130px;\n  height: 130px;\n  border-radius: 50%;\n  background: #fff;\n  top: -15px;\n  left: -15px;\n  z-index: -1;\n  box-shadow: 0 -2px 5px 0px #fefefe, 0 2px 5px 0 #ccc;\n  background: rgb(210, 215, 237);\n  background: -webkit-linear-gradient(\n    top,\n    #ddd 0%,\n    #ddd 30%,\n    #eee 82%,\n    #efefef 100%\n  );\n  background: -moz-linear-gradient(\n    top,\n    #ddd 0%,\n    #ddd 30%,\n    #eee 82%,\n    #efefef 100%\n  );\n  background: linear-gradient(top, #ddd 0%, #ddd 30%, #eee 82%, #efefef 100%);\n}\n\n.light {\n  display: block;\n  width: 12px;\n  height: 12px;\n  position: absolute;\n  top: -12px;\n  right: -12px;\n  background: -webkit-radial-gradient(\n    center,\n    ellipse cover,\n    #fff 0%,\n    #d6f804 80%,\n    #bade32 100%\n  );\n  background: -moz-radial-gradient(\n    center,\n    ellipse cover,\n    #fff 0%,\n    #d6f804 80%,\n    #bade32 100%\n  );\n  background: radial-gradient(\n    center,\n    ellipse cover,\n    #fff 0%,\n    #d6f804 80%,\n    #bade32 100%\n  );\n  box-shadow: inset 0 1px 1px 0 #333, inset 0 -1px 1px 0 #333,\n    0 0 5px 1px #bade32;\n  border-radius: 50%;\n  transition: all 0.1s ease-in-out;\n}\n\n.icon-off {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  background: #d6f804;\n  box-shadow: inset 0 0 4px 0 #999;\n  transition: all 0.1s ease-in-out;\n}\n\n.icon-off:after {\n  display: block;\n  content: \"\";\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin: auto;\n  width: 26px;\n  height: 26px;\n  border-radius: 50%;\n  background: #eee;\n  box-shadow: 0 0 3px 0 #999;\n  z-index: 2;\n}\n\n.icon-off:before {\n  display: block;\n  content: \"\";\n  position: absolute;\n  top: -5px;\n  left: 0;\n  right: 0;\n  margin: auto;\n  width: 8px;\n  height: 25px;\n  background: #d6f804;\n  box-shadow: inherit;\n  border-radius: 10px;\n  border-style: solid;\n  border-width: 0 3px 0;\n  border-color: #eee;\n  z-index: 3;\n  transition: all 0.1s ease-in-out;\n}\n\n#power:checked + label {\n  background: -webkit-radial-gradient(\n    center,\n    ellipse cover,\n    #ddd 0%,\n    #eee 80%,\n    #efefef 100%\n  );\n  background: radial-gradient(\n    center,\n    ellipse cover,\n    #ddd 0%,\n    #eee 80%,\n    #efefef 100%\n  );\n  background: radial-gradient(\n    center,\n    ellipse cover,\n    #ddd 0%,\n    #eee 80%,\n    #efefef 100%\n  );\n  box-shadow: inset 0 -5px 10px 0 #aaa, inset 0 5px 10px 0 #aaa, 0 0 0 1px #333;\n  transition: all 0.1s linear;\n}\n\n#power:checked + label .light {\n  background: -webkit-radial-gradient(\n    center,\n    ellipse cover,\n    #fcc 0%,\n    #f88 60%,\n    #f00 100%\n  );\n  background: -moz-radial-gradient(\n    center,\n    ellipse cover,\n    #fcc 0%,\n    #f88 60%,\n    #f00 100%\n  );\n  background: radial-gradient(\n    center,\n    ellipse cover,\n    #fcc 0%,\n    #f88 60%,\n    #f00 100%\n  );\n  box-shadow: inset 0 1px 1px 0 #555, inset 0 -1px 1px 0 #555, 0 0 5px 0 #f55;\n  transition: all 0.1s linear;\n}\n\n#power:checked + label .icon-off {\n  background: transparent;\n  box-shadow: inset 0 0 5px 0 #777;\n  transition: all 0.1s linear;\n}\n\n#power:checked + label .icon-off:after {\n  background: inherit;\n  box-shadow: 0 0 5px 0 #777;\n}\n\n#power:checked + label .icon-off:before {\n  background: #ddd;\n  border-color: #dfdfdf;\n  box-shadow: inherit;\n  transition: all 0.1s linear;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

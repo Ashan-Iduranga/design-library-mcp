@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-portseif-popular-octopus-83-93a793",
+  "title": "Button by portseif (popular-octopus-83)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/portseif/popular-octopus-83",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By portseif on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/portseif_popular-octopus-83.html",
+  "code": "<button>\n  Button\n</button>\n<style>\n/* From Uiverse.io by portseif - Tags: button */\nbutton {\n  align-items: center;\n  background-color: transparent;\n  color: #fff;\n  cursor: pointer;\n  display: flex;\n  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";\n  font-size: 1rem;\n  font-weight: 700;\n  line-height: 1.5;\n  text-decoration: none;\n  text-transform: uppercase;\n  outline: 0;\n  border: 0;\n  padding: 1rem;\n}\n\nbutton:before {\n  background-color: #fff;\n  content: \"\";\n  display: inline-block;\n  height: 1px;\n  margin-right: 10px;\n  transition: all .42s cubic-bezier(.25,.8,.25,1);\n  width: 0;\n}\n\nbutton:hover:before {\n  background-color: #fff;\n  width: 3rem;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

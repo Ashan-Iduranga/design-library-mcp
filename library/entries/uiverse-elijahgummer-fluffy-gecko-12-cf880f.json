@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-elijahgummer-fluffy-gecko-12-cf880f",
+  "title": "Button by elijahgummer (fluffy-gecko-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/fluffy-gecko-12",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "animation",
+    "link",
+    "purple",
+    "hover",
+    "modern",
+    "copy"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/elijahgummer_fluffy-gecko-12.html",
+  "code": "<input class=\"toggle-checkbox\" id=\"toggle-checkbox\" type=\"checkbox\" />\n<label class=\"button\" for=\"toggle-checkbox\">\n  <div class=\"content\">\n    <span class=\"letters\">\n      <span style=\"--i: 1\" data-label=\"C\">C</span>\n      <span style=\"--i: 2\" data-label=\"o\">o</span>\n      <span style=\"--i: 3\" data-label=\"p\">p</span>\n      <span style=\"--i: 4\" data-label=\"y\">y</span>\n      <span style=\"--i: 5\" data-label=\"L\">L</span>\n      <span style=\"--i: 6\" data-label=\"i\">i</span>\n      <span style=\"--i: 7\" data-label=\"n\">n</span>\n      <span style=\"--i: 8\" data-label=\"k\">k</span>\n    </span>\n    <div class=\"icon-container\">\n      <svg\n        aria-hidden=\"true\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n        viewBox=\"0 0 24 24\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.6\"\n        fill=\"none\"\n        data-slot=\"icon\"\n        class=\"icon\"\n      >\n        <path\n          class=\"bm\"\n          d=\"M12.0017 6V4M8.14886 7.40371L6.86328 5.87162M15.864 7.40367L17.1496 5.87158\"\n        ></path>\n        <path\n          d=\"M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244\"\n          stroke-linejoin=\"round\"\n          stroke-linecap=\"round\"\n          class=\"link\"\n        ></path>\n      </svg>\n    </div>\n  </div>\n</label>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, animation, link, purple, button, hover, modern, copy */\n.toggle-checkbox {\n  display: none;\n}\n.button {\n  --white: #ffffff;\n  cursor: pointer;\n  background: linear-gradient(to bottom, #6e3bff, #7e51ff);\n  color: #ffffff;\n  border: 1px solid #af93ff;\n  border-radius: 8px;\n  position: relative;\n  font-family: Arial, Helvetica, sans-serif;\n  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);\n  box-shadow:\n    0 8px 10px -4px #503b89,\n    0 0 0 2px#562cce;\n  font-size: 25px;\n}\n\n.icon path.bm {\n  stroke-dasharray: 3;\n  stroke-dashoffset: 3;\n  stroke-width: 1px;\n  transform: translateX(-23px) translateY(16px) scale(2) rotate(-44deg);\n}\n\n.toggle-checkbox:checked + .button .icon path.bm {\n  animation: bump 1s ease forwards;\n}\n.toggle-checkbox:checked + .button .icon {\n  animation: beat 1s ease-in-out forwards;\n}\n\n.letters span:nth-child(5) {\n  margin-left: 5px;\n}\n.letters span:nth-child(6) {\n  margin-left: 1px;\n}\n\n.button:active .content {\n  box-shadow:\n    inset -1px 12px 8px -5px rgba(71, 0, 137, 0.4),\n    inset 0px -3px 8px 0px #d190ff;\n}\n\n@keyframes bump {\n  20% {\n    stroke-dasharray: 3;\n    stroke-dashoffset: 3;\n  }\n  30% {\n    stroke-dasharray: 5;\n    stroke-dashoffset: 3;\n  }\n  30.1% {\n    stroke-dasharray: 3;\n    stroke-dashoffset: 6;\n  }\n  75% {\n    stroke-dasharray: 3;\n    stroke-dashoffset: 3;\n  }\n  100% {\n    stroke-dasharray: 3;\n    stroke-dashoffset: 3;\n  }\n}\n\n@keyframes beat {\n  0% {\n    transform: scale(1);\n  }\n  50% {\n    transform: scale(1.1);\n  }\n  100% {\n    transform: scale(1);\n  }\n}\n\n.icon-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 8px 10px;\n  background-color: #ffffff;\n  border-radius: 50%;\n  box-shadow:\n    inset 0 -2px 4px 0 #c6c6c6,\n    0 3px 6px rgba(0, 0, 0, 0.25);\n  text-align: center;\n  z-index: 10;\n}\n\n.icon-container .icon {\n  width: 25px;\n  height: 30px;\n  stroke: #592cd6;\n  margin-top: -2px;\n  z-index: 4;\n  transform: rotate(180deg);\n}\n\n.content {\n  pointer-events: none;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 1;\n  position: relative;\n  height: 100%;\n  width: 100%;\n  padding: 4px;\n  gap: 16px;\n  border-radius: 7px;\n  font-weight: 600;\n  transition: all 0.3s ease;\n}\n\n.content::before {\n  content: \"\";\n  inset: 0;\n  position: absolute;\n  z-index: 10;\n  width: 80%;\n  top: 45%;\n  bottom: 35%;\n  opacity: 0.7;\n  margin: auto;\n  background: linear-gradient(to bottom, transparent, var(--purple-400));\n  filter: brightness(1.3) blur(5px);\n}\n\n.letters {\n  transition: all 0.3s ease;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 4px;\n}\n\n.letters span {\n  display: block;\n  color: transparent;\n  position: relative;\n  left: 6px;\n}\n\n.letters span {\n  animation: letterShow 1.2s ease backwards calc(var(--i) * 0.03s);\n}\n\n.letters span::before,\n.letters span::after {\n  content: attr(data-label);\n  position: absolute;\n  color: var(--white);\n  text-shadow: -1px 1px 2px var(--purple-500);\n  left: 0;\n}\n\n.letters span::before {\n  opacity: 0;\n  transform: translateY(-100%);\n}\n\n.button:hover .words {\n  opacity: 1;\n}\n\n.button:hover .letters span::before {\n  animation: letterShow 0.7s ease calc(var(--i) * 0.03s);\n}\n\n.button:hover .letters span::after {\n  opacity: 1;\n  animation: letterHide 0.7s ease calc(var(--i) * 0.03s);\n}\n\n@keyframes letterShow {\n  0% {\n    transform: translateY(50%);\n    opacity: 0;\n    filter: blur(20px);\n  }\n  20% {\n    transform: translateY(70%);\n    opacity: 1;\n  }\n  50% {\n    transform: translateY(-15%);\n    opacity: 1;\n    filter: blur(0);\n  }\n  100% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}\n\n@keyframes letterHide {\n  0% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(-70%);\n    opacity: 0;\n    filter: blur(3px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

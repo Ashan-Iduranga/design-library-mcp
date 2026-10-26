@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-jkhuger-itchy-turtle-45-1e5870",
+  "title": "Toggle by JkHuger (itchy-turtle-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/itchy-turtle-45",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "dark",
+    "theme",
+    "light",
+    "moon",
+    "sun",
+    "theme-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/JkHuger_itchy-turtle-45.html",
+  "code": "<div class=\"wrapper\">\n<input type=\"checkbox\" name=\"checkbox\" class=\"switch\">\n</div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: switch, dark, theme, light, moon, sun, theme-switch */\n.switch {\n  position: relative;\n  width: 130px;\n  height: 50px;\n  margin: 0px;\n  appearance: none;\n  -webkit-appearance: none;\n  background-color: rgb(4,52,73);\n  background-size: cover;\n  background-repeat: no-repeat;\n  border-radius: 25px;\n  transition: background-image .7s ease-in-out;\n  outline: none;\n  cursor: pointer;\n  overflow: hidden;\n}\n\n.switch:checked {\n  background-color: rgb(0, 195, 255);\n  background-size: cover;\n  transition: background-image 1s ease-in-out;\n}\n\n.switch:after {\n  content: '';\n  width: 46px;\n  height: 46px;\n  border-radius: 50%;\n  background-color: #fff;\n  position: absolute;\n  left: 2px;\n  top: 2px;\n  transform: translateX(0px);\n  animation: off .7s forwards cubic-bezier(.8, .5, .2, 1.4);\n  box-shadow: inset 5px -5px 4px rgba(53, 53, 53, 0.3);\n}\n\n@keyframes off {\n  0% {\n    transform: translateX(80px);\n    width: 46px;\n  }\n\n  50% {\n    width: 75px;\n    border-radius: 25px;\n  }\n\n  100% {\n    transform: translateX(0px);\n    width: 46px;\n  }\n}\n\n.switch:checked:after {\n  animation: on .7s forwards cubic-bezier(.8, .5, .2, 1.4);\n  box-shadow: inset -5px -5px 4px rgba(53, 53, 53, 0.3);\n}\n\n@keyframes on {\n  0% {\n    transform: translateX(0px);\n    width: 46px;\n  }\n\n  50% {\n    width: 75px;\n    border-radius: 25px;\n  }\n\n  100% {\n    transform: translateX(80px);\n    width: 46px;\n  }\n}\n\n.switch:checked:before {\n  content: '';\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  position: absolute;\n  left: 15px;\n  top: 5px;\n  transform-origin: 53px 10px;\n  background-color: transparent;\n  box-shadow: 5px -1px 0px #fff;\n  filter: blur(0px);\n  animation: sun .7s forwards ease;\n}\n\n@keyframes sun {\n  0% {\n    transform: rotate(170deg);\n    background-color: transparent;\n    box-shadow: 5px -1px 0px #fff;\n    filter: blur(0px);\n  }\n\n  50% {\n    background-color: transparent;\n    box-shadow: 5px -1px 0px #fff;\n    filter: blur(0px);\n  }\n\n  90% {\n    background-color: #f5daaa;\n    box-shadow: 0px 0px 10px #f5deb4,\n    0px 0px 20px #f5deb4,\n    0px 0px 30px #f5deb4,\n     inset 0px 0px 2px #efd3a3;\n    filter: blur(1px);\n  }\n\n  100% {\n    transform: rotate(0deg);\n    background-color: #f5daaa;\n    box-shadow: 0px 0px 10px #f5deb4,\n    0px 0px 20px #f5deb4,\n    0px 0px 30px #f5deb4,\n     inset 0px 0px 2px #efd3a3;\n    filter: blur(1px);\n  }\n}\n\n.switch:before {\n  content: '';\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  position: absolute;\n  left: 15px;\n  top: 5px;\n  filter: blur(1px);\n  background-color: #f5daaa;\n  box-shadow: 0px 0px 10px #f5deb4,\n0px 0px 20px #f5deb4,\n0px 0px 30px #f5deb4,\n inset 0px 0px 2px #efd3a3;\n  transform-origin: 53px 10px;\n  animation: moon .7s forwards ease;\n}\n\n@keyframes moon {\n  0% {\n    transform: rotate(0deg);\n    filter: blur(1px);\n  }\n\n  50% {\n    filter: blur(1px);\n  }\n\n  90% {\n    background-color: transparent;\n    box-shadow: 5px -1px 0px #fff;\n    filter: blur(0px);\n  }\n\n  100% {\n    transform: rotate(170deg);\n    background-color: transparent;\n    box-shadow: 5px -1px 0px #fff;\n    filter: blur(0px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

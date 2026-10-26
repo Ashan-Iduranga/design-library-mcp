@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-dennyhml-grumpy-squid-93-e0edc7",
+  "title": "Loader by Dennyhml (grumpy-squid-93)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Dennyhml/grumpy-squid-93",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Dennyhml on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Dennyhml_grumpy-squid-93.html",
+  "code": "<div class=\"container\">\n    <div class=\"bubble\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </div>\n    <div class=\"bubble\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </div>\n    <div class=\"bubble\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </div>\n    <div class=\"bubble\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </div>\n    <div class=\"bubble\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </div>\n </div>\n<style>\n/* From Uiverse.io by Dennyhml - Tags: loader */\n.bubble {\n  position: absolute;\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  box-shadow: inset 0 0 25px rgba (255, 255, 255, 0.25);\n  animation: animate_4010 8s ease-in-out infinite;\n}\n\n.bubble:nth-child(2) {\n  position: relative;\n  zoom: 0.45;\n  left: -10px;\n  top: -100px;\n  animation-delay: -4s;\n}\n\n.bubble:nth-child(3) {\n  position: relative;\n  zoom: 0.45;\n  right: -80px;\n  top: -300px;\n  animation-delay: -6s;\n}\n\n.bubble:nth-child(4) {\n  position: relative;\n  zoom: 0.35;\n  left: -120px;\n  bottom: -200px;\n  animation-delay: -3s;\n}\n\n.bubble:nth-child(5) {\n  position: relative;\n  zoom: 0.5;\n  left: 0px;\n  top: 200px;\n  animation-delay: -5s;\n}\n\n@keyframes animate_4010 {\n  0%,100% {\n    transform: translateY(-20px);\n  }\n\n  50% {\n    transform: translateY(20px);\n  }\n}\n\n.bubble::before {\n  content: '';\n  position: absolute;\n  top: 50px;\n  left: 45px;\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  background: #fff;\n  z-index: 10;\n  filter: blur(2px);\n}\n\n.bubble::after {\n  content: '';\n  position: absolute;\n  top: 80px;\n  left: 80px;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background: #fff;\n  z-index: 10;\n  filter: blur(2px);\n}\n\n.bubble span {\n  position: absolute;\n  border-radius: 50%;\n}\n\n.bubble span:nth-child(1) {\n  inset: 10px;\n  border-left: 15px solid #0fb4ff;\n  filter: blur(8px);\n}\n\n.bubble span:nth-child(2) {\n  inset: 10px;\n  border-right: 15px solid #ff4484;\n  filter: blur(8px);\n}\n\n.bubble span:nth-child(3) {\n  inset: 10px;\n  border-top: 15px solid #ffeb3b;\n  filter: blur(8px);\n}\n\n.bubble span:nth-child(4) {\n  inset: 30px;\n  border-left: 15px solid #ff4484;\n  filter: blur(12px);\n}\n\n.bubble span:nth-child(5) {\n  inset: 10px;\n  border-bottom: 10px solid #fff;\n  filter: blur(8px);\n  transform: rotate(330deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

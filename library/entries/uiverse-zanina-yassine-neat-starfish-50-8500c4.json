@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-zanina-yassine-neat-starfish-50-8500c4",
+  "title": "Card by zanina-yassine (neat-starfish-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/zanina-yassine/neat-starfish-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "weather"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By zanina-yassine on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/zanina-yassine_neat-starfish-50.html",
+  "code": "<div class=\"card\">\n  <div class=\"container\">\n    <div class=\"cloud front\">\n      <span class=\"left-front\"></span>\n      <span class=\"right-front\"></span>\n    </div>\n    <span class=\"sun sunshine\"></span>\n    <span class=\"sun\"></span>\n    <div class=\"cloud back\">\n      <span class=\"left-back\"></span>\n      <span class=\"right-back\"></span>\n    </div>\n  </div>\n\n  <div class=\"card-header\">\n    <span>Messadine, Susah<br>Tunisia</span>\n    <span>March 13</span>\n  </div>\n\n  <span class=\"temp\">23°</span>\n\n  <div class=\"temp-scale\">\n    <span>Celcius</span>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by zanina-yassine - Tags: card, weather */\n.card {\n  width: 350px;\n  height: 235px;\n  position: relative;\n  padding: 25px;\n  background: radial-gradient(178.94% 106.41% at 26.42% 106.41%, #FFF7B1 0%, rgba(255, 255, 255, 0) 71.88%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;\n  box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01), 0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);\n  border-radius: 23px;\n  transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);\n  cursor: pointer;\n}\n\n.card:hover {\n  transform: scale(1.05);\n}\n\n.container {\n  width: 250px;\n  height: 250px;\n  position: absolute;\n  right: -35px;\n  top: -50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transform: scale(0.7);\n}\n\n.cloud {\n  width: 250px;\n}\n\n.front {\n  padding-top: 45px;\n  margin-left: 25px;\n  display: inline;\n  position: absolute;\n  z-index: 11;\n  animation: clouds 8s infinite;\n  animation-timing-function: ease-in-out;\n}\n\n.back {\n  margin-top: -30px;\n  margin-left: 150px;\n  z-index: 12;\n  animation: clouds 12s infinite;\n  animation-timing-function: ease-in-out;\n}\n\n.right-front {\n  width: 45px;\n  height: 45px;\n  border-radius: 50% 50% 50% 0%;\n  background-color: #4c9beb;\n  display: inline-block;\n  margin-left: -25px;\n  z-index: 5;\n}\n\n.left-front {\n  width: 65px;\n  height: 65px;\n  border-radius: 50% 50% 0% 50%;\n  background-color: #4c9beb;\n  display: inline-block;\n  z-index: 5;\n}\n\n.right-back {\n  width: 50px;\n  height: 50px;\n  border-radius: 50% 50% 50% 0%;\n  background-color: #4c9beb;\n  display: inline-block;\n  margin-left: -20px;\n  z-index: 5;\n}\n\n.left-back {\n  width: 30px;\n  height: 30px;\n  border-radius: 50% 50% 0% 50%;\n  background-color: #4c9beb;\n  display: inline-block;\n  z-index: 5;\n}\n\n.sun {\n  width: 120px;\n  height: 120px;\n  background: -webkit-linear-gradient(to right, #fcbb04, #fffc00);\n  background: linear-gradient(to right, #fcbb04, #fffc00);\n  border-radius: 60px;\n  display: inline;\n  position: absolute;\n}\n\n.sunshine {\n  animation: sunshines 2s infinite;\n}\n\n@keyframes sunshines {\n  0% {\n    transform: scale(1);\n    opacity: 0.6;\n  }\n\n  100% {\n    transform: scale(1.4);\n    opacity: 0;\n  }\n}\n\n@keyframes clouds {\n  0% {\n    transform: translateX(15px);\n  }\n\n  50% {\n    transform: translateX(0px);\n  }\n\n  100% {\n    transform: translateX(15px);\n  }\n}\n\n.card-header {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n\n.card-header span:first-child {\n  word-break: break-all;\n  font-weight: 800;\n  font-size: 15px;\n  line-height: 135%;\n  color: rgba(87, 77, 51, 0.66);\n}\n\n.card-header span:last-child {\n  font-weight: 700;\n  font-size: 15px;\n  line-height: 135%;\n  color: rgba(87, 77, 51, 0.33);\n}\n\n.temp {\n  position: absolute;\n  left: 25px;\n  bottom: 12px;\n  font-weight: 700;\n  font-size: 64px;\n  line-height: 77px;\n  color: rgba(87, 77, 51, 1);\n}\n\n.temp-scale {\n  width: 80px;\n  height: 36px;\n  position: absolute;\n  right: 25px;\n  bottom: 25px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: rgba(0, 0, 0, 0.06);\n  border-radius: 9px;\n}\n\n.temp-scale span {\n  font-weight: 700;\n  font-size: 13px;\n  line-height: 134.49%;\n  color: rgba(87, 77, 51, 0.66);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-amit-dasit-neat-turkey-32-49f133",
+  "title": "Radio by AmIt-DasIT (neat-turkey-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AmIt-DasIT/neat-turkey-32",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "dark",
+    "shadow",
+    "neumorphism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AmIt-DasIT on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/AmIt-DasIT_neat-turkey-32.html",
+  "code": "<div class=\"radio-input\">\n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\" checked=\"\">\n    <span class=\"check\"></span>\n  </label>\n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\">\n    <span class=\"check\"></span>\n  </label>\n      \n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\">\n    <span class=\"check\"></span>\n  </label>\n</div>\n<style>\n/* From Uiverse.io by AmIt-DasIT - Tags: dark, shadow, radio, neumorphism */\n.radio-input .label input {\n  display: none;\n}\n\n.radio-input {\n  display: flex;\n  gap: 20px;\n}\n\n.radio-input .label {\n  display: flex;\n}\n\n.radio-input .label .check {\n  width: 30px;\n  height: 30px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: 50%;\n  cursor: pointer;\n  transition: 0.3s;\n  border: 3px solid transparent;\n  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5),\n   -1px -1px 4px rgba(255, 255, 255, 0.5);\n}\n\n.radio-input .label input:checked + .check {\n  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5),\n   -1px -1px 4px rgba(255, 255, 255, 0.5),\n   inset 3px 3px 6px rgba(0, 0, 0, 0.5),\n   inset -1px -1px 4px rgba(255, 255, 255, 0.5);\n  transform: scale(1.1);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

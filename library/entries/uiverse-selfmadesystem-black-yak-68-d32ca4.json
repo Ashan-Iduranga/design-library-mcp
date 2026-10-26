@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-selfmadesystem-black-yak-68-d32ca4",
+  "title": "Loader by SelfMadeSystem (black-yak-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/black-yak-68",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "windows"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/SelfMadeSystem_black-yak-68.html",
+  "code": "<div style=\"--size: 64px; --dot-size: 6px; --dot-count: 6; --color: #fff; --speed: 1s; --spread: 60deg;\" class=\"dots\">\n  <div style=\"--i: 0;\" class=\"dot\"></div>\n  <div style=\"--i: 1;\" class=\"dot\"></div>\n  <div style=\"--i: 2;\" class=\"dot\"></div>\n  <div style=\"--i: 3;\" class=\"dot\"></div>\n  <div style=\"--i: 4;\" class=\"dot\"></div>\n  <div style=\"--i: 5;\" class=\"dot\"></div>\n</div>\n<style>\n/* From Uiverse.io by SelfMadeSystem - Tags: loader, windows */\n.dots {\n  width: var(--size);\n  height: var(--size);\n  position: relative;\n}\n\n.dot {\n  width: var(--size);\n  height: var(--size);\n  animation: dwl-dot-spin calc(var(--speed) * 5) infinite linear both;\n  animation-delay: calc(var(--i) * var(--speed) / (var(--dot-count) + 2) * -1);\n  rotate: calc(var(--i) * var(--spread) / (var(--dot-count) - 1));\n  position: absolute;\n}\n\n.dot::before {\n  content: \"\";\n  display: block;\n  width: var(--dot-size);\n  height: var(--dot-size);\n  background-color: var(--color);\n  border-radius: 50%;\n  position: absolute;\n  transform: translate(-50%, -50%);\n  bottom: 0;\n  left: 50%;\n}\n\n@keyframes dwl-dot-spin {\n  0% {\n    transform: rotate(0deg);\n    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);\n    opacity: 1;\n  }\n\n  2% {\n    transform: rotate(20deg);\n    animation-timing-function: linear;\n    opacity: 1;\n  }\n\n  30% {\n    transform: rotate(180deg);\n    animation-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);\n    opacity: 1;\n  }\n\n  41% {\n    transform: rotate(380deg);\n    animation-timing-function: linear;\n    opacity: 1;\n  }\n\n  69% {\n    transform: rotate(520deg);\n    animation-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);\n    opacity: 1;\n  }\n\n  76% {\n    opacity: 1;\n  }\n\n  76.1% {\n    opacity: 0;\n  }\n\n  80% {\n    transform: rotate(720deg);\n  }\n\n  100% {\n    opacity: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

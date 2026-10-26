@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-devsleonardo-red-goat-27-a114aa",
+  "title": "Notification by devsleonardo (red-goat-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/devsleonardo/red-goat-27",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By devsleonardo on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Notifications/devsleonardo_red-goat-27.html",
+  "code": "<div class=\"notification\">\n  <svg viewBox=\"0 0 100 100\" class=\"trophy\">\n    <g>\n      <path d=\"M10,50 L40,50 L30,10 L20,10 Z\"></path>\n      <path d=\"M60,50 L90,50 L80,10 L70,10 Z\"></path>\n      <path d=\"M20,10 L80,10 L70,30 L30,30 Z\"></path>\n      <path d=\"M30,30 L70,30 L60,50 L40,50 Z\"></path>\n      <path d=\"M25,75 L75,75 L85,90 L15,90 Z\"></path>\n      <path d=\"M40,50 L60,50 L55,70 L45,70 Z\"></path>\n    </g>\n  </svg>\n  <p>Congratulations!\n  </p><p>You reached level 10!</p>\n</div>\n\n<style>\n/* From Uiverse.io by devsleonardo - Tags: notification */\n.notification {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  text-align: center;\n  margin: 50px;\n  color: white;\n}\n\n.trophy {\n  fill: gold;\n  width: 80px;\n  height: 80px;\n  animation: bounce 0.5s ease-in-out 1;\n}\n\n.trophy:hover {\n  animation: spin 1s ease-in-out 1;\n}\n\n@keyframes bounce {\n  0% {\n    transform: translateY(0);\n  }\n\n  25% {\n    transform: translateY(-20px);\n  }\n\n  50% {\n    transform: translateY(0);\n  }\n\n  75% {\n    transform: translateY(-10px);\n  }\n\n  100% {\n    transform: translateY(0);\n  }\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

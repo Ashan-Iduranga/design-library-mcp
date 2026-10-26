@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-badge-badge-sizes",
+  "title": "Badge: Badge sizes (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/badge/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "badge",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Badges are used to inform the user of the status of specific data.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/badge/+page.md",
+  "code": "<div class=\"badge badge-xs\">Xsmall</div>\n<div class=\"badge badge-sm\">Small</div>\n<div class=\"badge badge-md\">Medium</div>\n<div class=\"badge badge-lg\">Large</div>\n<div class=\"badge badge-xl\">Xlarge</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

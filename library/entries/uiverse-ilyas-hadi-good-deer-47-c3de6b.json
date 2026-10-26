@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-ilyas-hadi-good-deer-47-c3de6b",
+  "title": "Button by ilyas-hadi (good-deer-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ilyas-hadi/good-deer-47",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "accessibility",
+    "3d-button",
+    "3d-form",
+    "3d-hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ilyas-hadi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ilyas-hadi_good-deer-47.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by ilyas-hadi - Tags: button, accessibility, 3d button, 3d form , 3d hover */\n.button {\n  padding: 1.1rem 2.2rem;\n  font-size: 1rem;\n  color: #fff;\n  font-weight: 600;\n  transition: all .2s;\n  position: relative;\n  border: none;\n  background: #000;\n}\n\n.button:before,.button:after {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  background: #ff3d00;\n  height: 108%;\n  width: 0;\n  z-index: -1;\n  transition: all .7s;\n  transform: translateY(-50%);\n}\n\n.button:before {\n  left: 0%;\n}\n\n.button:after {\n  right: 0%;\n}\n\n.button:hover {\n  color: #fff;\n  box-shadow: #f51a1a7f 0 30px 60px -12px inset, #ff00007f 0 18px 36px -18px inset;\n  z-index: 2;\n}\n\n.button:hover::before {\n  width: 50%;\n  left: 50%;\n}\n\n.button:hover::after {\n  width: 50%;\n  right: 50%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-vinodjangid07-breezy-goose-71-0072e7",
+  "title": "Toggle by vinodjangid07 (breezy-goose-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/breezy-goose-71",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "animation",
+    "switch",
+    "click",
+    "save",
+    "pin",
+    "bookmark"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/vinodjangid07_breezy-goose-71.html",
+  "code": "<label for=\"checkboxInput\" class=\"bookmark\">\n  <input type=\"checkbox\" id=\"checkboxInput\" />\n  <svg\n    width=\"15\"\n    viewBox=\"0 0 50 70\"\n    fill=\"none\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    class=\"svgIcon\"\n  >\n    <path\n      d=\"M46 62.0085L46 3.88139L3.99609 3.88139L3.99609 62.0085L24.5 45.5L46 62.0085Z\"\n      stroke=\"black\"\n      stroke-width=\"7\"\n    ></path>\n  </svg>\n</label>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: animation, switch, toggle, click, save, pin, bookmark */\n#checkboxInput {\n  display: none;\n}\n.bookmark {\n  cursor: pointer;\n  background-color: teal;\n  width: 45px;\n  height: 45px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 10px;\n}\n.svgIcon path {\n  stroke-dasharray: 200 0;\n  stroke-dashoffset: 0;\n  stroke: white;\n  fill: #dddddd00;\n  transition-delay: 0s;\n  transition-duration: 0.5s;\n}\n\n#checkboxInput:checked ~ .svgIcon path {\n  fill: white;\n  animation: bookmark 0.5s linear;\n  transition-delay: 0.5s;\n}\n\n@keyframes bookmark {\n  0% {\n    stroke-dasharray: 0 200;\n    stroke-dashoffset: 80;\n  }\n  100% {\n    stroke-dasharray: 200 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

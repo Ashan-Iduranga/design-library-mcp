@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-mrtqzbek11-moody-bulldog-15-ec3a34",
+  "title": "Button by mrtqzbek11 (moody-bulldog-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrtqzbek11/moody-bulldog-15",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "active",
+    "neon"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrtqzbek11 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mrtqzbek11_moody-bulldog-15.html",
+  "code": "<button>\n  Hold that\n</button>\n<style>\n/* From Uiverse.io by mrtqzbek11 - Tags: gradient, button, active, neon */\nbutton {\n  width: 165px;\n  height: 62px;\n  cursor: pointer;\n  color: #fff;\n  font-size: 17px;\n  border-radius: 1rem;\n  border: none;\n  position: relative;\n  background: #100720;\n  transition: 0.1s;\n}\n\nbutton::after {\n  content: '';\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );\n  filter: blur(15px);\n  z-index: -1;\n  position: absolute;\n  left: 0;\n  top: 0;\n}\n\nbutton:active {\n  transform: scale(0.9) rotate(3deg);\n  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );\n  transition: 0.5s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

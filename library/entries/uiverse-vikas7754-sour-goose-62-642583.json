@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-vikas7754-sour-goose-62-642583",
+  "title": "Loader by vikas7754 (sour-goose-62)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikas7754/sour-goose-62",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikas7754 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vikas7754_sour-goose-62.html",
+  "code": "<div class=\"glowing-cube\">\n  <div class=\"top\">❤</div>\n  <div>\n    <span style=\"--i:0;\"></span>\n    <span style=\"--i:1;\"></span>\n    <span style=\"--i:2;\"></span>\n    <span style=\"--i:3;\"></span>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by vikas7754 - Source: https://freecodez.com/post/iiygefu - Tags: 3d, loader, 3d cube */\n.glowing-cube {\n  position: relative;\n  width: 150px;\n  height: 150px;\n  transform-style: preserve-3d;\n  animation: cube-rotate 4s linear infinite;\n}\n\n@keyframes cube-rotate {\n  0% {\n    transform: rotatex(-30deg) rotatey(0deg);\n  }\n\n  100% {\n    transform: rotatex(-30deg) rotatey(360deg);\n  }\n}\n\n.glowing-cube div {\n  position: absolute;\n  inset: 0;\n  transform-style: preserve-3d;\n}\n\n.glowing-cube div span {\n  position: absolute;\n  inset: 0;\n  background: linear-gradient(#151515, #3aff5e);\n  transform: rotatey(calc(90deg * var(--i))) translatez(calc(150px / 2));\n}\n\n.glowing-cube .top {\n  position: absolute;\n  inset: 0;\n  background: #222;\n  transform: rotatex(90deg) translatez(calc(150px / 2));\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: var(--top-font-color);\n  font-size: 7rem;\n}\n\n.glowing-cube .top::before {\n  content: '';\n  position: absolute;\n  background: #3aff5e;\n  inset: 0;\n  transform: translatez(calc(0px - calc(150px + 100px)));\n  filter: blur(30px);\n  box-shadow: 0 0 120px rgba(58, 134, 255, 0.2),\n    0 0 200px rgba(58, 134, 255, 0.4),\n    0 0 300px #00ff2f,\n    0 0 400px #51fd71,\n    0 0 500px #3aff5e;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

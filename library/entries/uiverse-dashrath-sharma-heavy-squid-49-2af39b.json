@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-dashrath-sharma-heavy-squid-49-2af39b",
+  "title": "Button by Dashrath-Sharma (heavy-squid-49)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Dashrath-Sharma/heavy-squid-49",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "slide"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Dashrath-Sharma on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Dashrath-Sharma_heavy-squid-49.html",
+  "code": "<button>\n  Button\n</button>\n<style>\n/* From Uiverse.io by Dashrath-Sharma - Tags: button, slide */\nbutton {\n  border: none;\n  outline: none;\n  font-size: 17px;\n  padding: 1em 2em;\n  position: relative;\n  color: #14213d;\n  background: #f1f1f1;\n  display: grid;\n  font-weight: 700;\n  place-items: center;\n  transition: color 350ms linear 650ms;\n  border-top-right-radius: 10px;\n  border-bottom-right-radius: 10px;\n  overflow: hidden;\n  z-index: 1;\n}\n\nbutton:hover {\n  color: #fca311;\n}\n\nbutton::before,\nbutton::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 0;\n  z-index: -1;\n  width: 0;\n  height: 6%;\n}\n\nbutton::before {\n  background: #fca311;\n  transition: width 350ms, height 350ms linear 650ms;\n}\n\nbutton:hover::before {\n  width: 100%;\n  height: 100%;\n}\n\nbutton:after {\n  background: #14213d;\n  transition: width 350ms linear 175ms, height 350ms linear 650ms;\n}\n\nbutton:hover::after {\n  width: 95%;\n  height: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

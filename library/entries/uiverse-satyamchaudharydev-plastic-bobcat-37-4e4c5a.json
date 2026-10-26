@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-plastic-bobcat-37-4e4c5a",
+  "title": "Input by satyamchaudharydev (plastic-bobcat-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/plastic-bobcat-37",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/satyamchaudharydev_plastic-bobcat-37.html",
+  "code": "<form class=\"form\">\n      <button>\n          <svg width=\"17\" height=\"16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-labelledby=\"search\">\n              <path d=\"M7.667 12.667A5.333 5.333 0 107.667 2a5.333 5.333 0 000 10.667zM14.334 14l-2.9-2.9\" stroke=\"currentColor\" stroke-width=\"1.333\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n          </svg>\n      </button>\n      <input class=\"input\" placeholder=\"Type your text\" required=\"\" type=\"text\">\n      <button class=\"reset\" type=\"reset\">\n          <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\"></path>\n          </svg>\n      </button>\n  </form>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: input */\n/* From uiverse.io by @satyamchaudharydev */\n/* removing default style of button */\n\n.form button {\n  border: none;\n  background: none;\n  color: #8b8ba7;\n}\n/* styling of whole input container */\n.form {\n  --timing: 0.3s;\n  --width-of-input: 200px;\n  --height-of-input: 40px;\n  --border-height: 2px;\n  --input-bg: #fff;\n  --border-color: #2f2ee9;\n  --border-radius: 30px;\n  --after-border-radius: 1px;\n  position: relative;\n  width: var(--width-of-input);\n  height: var(--height-of-input);\n  display: flex;\n  align-items: center;\n  padding-inline: 0.8em;\n  border-radius: var(--border-radius);\n  transition: border-radius 0.5s ease;\n  background: var(--input-bg,#fff);\n}\n/* styling of Input */\n.input {\n  font-size: 0.9rem;\n  background-color: transparent;\n  width: 100%;\n  height: 100%;\n  padding-inline: 0.5em;\n  padding-block: 0.7em;\n  border: none;\n}\n/* styling of animated border */\n.form:before {\n  content: \"\";\n  position: absolute;\n  background: var(--border-color);\n  transform: scaleX(0);\n  transform-origin: center;\n  width: 100%;\n  height: var(--border-height);\n  left: 0;\n  bottom: 0;\n  border-radius: 1px;\n  transition: transform var(--timing) ease;\n}\n/* Hover on Input */\n.form:focus-within {\n  border-radius: var(--after-border-radius);\n}\n\ninput:focus {\n  outline: none;\n}\n/* here is code of animated border */\n.form:focus-within:before {\n  transform: scale(1);\n}\n/* styling of close button */\n/* == you can click the close button to remove text == */\n.reset {\n  border: none;\n  background: none;\n  opacity: 0;\n  visibility: hidden;\n}\n/* close button shown when typing */\ninput:not(:placeholder-shown) ~ .reset {\n  opacity: 1;\n  visibility: visible;\n}\n/* sizing svg icons */\n.form svg {\n  width: 17px;\n  margin-top: 3px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

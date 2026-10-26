@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-terenceodonoghue-friendly-pug-5-330631",
+  "title": "Loader by terenceodonoghue (friendly-pug-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/terenceodonoghue/friendly-pug-5",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By terenceodonoghue on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/terenceodonoghue_friendly-pug-5.html",
+  "code": "<div class=\"container\">\n  <span></span>\n  <span></span>\n  <span></span>\n</div>\n<style>\n/* From Uiverse.io by terenceodonoghue - Tags: loader */\n.container {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  display: flex;\n  gap: 0.625em;\n  transform: translate(-50%, -50%);\n}\n\n.container span {\n  border-radius: 50%;\n  height: 1.5em;\n  width: 1.5em;\n}\n\n.container span::before {\n  content: \"\";\n  display: block;\n  border-radius: inherit;\n  height: inherit;\n  width: inherit;\n  background-color: inherit;\n  animation: ripple 1.8s ease-out infinite;\n  animation-delay: inherit;\n  z-index: -1;\n}\n\n.container span:nth-of-type(1) {\n  background-color: #84cdfa;\n}\n\n.container span:nth-of-type(2) {\n  background-color: #5ad1cd;\n  animation-delay: 0.2s;\n}\n\n.container span:nth-of-type(3) {\n  background-color: #9b59b6;\n  animation-delay: 0.4s;\n}\n\n@keyframes ripple {\n  from {\n    opacity: 1;\n    transform: scale(0);\n  }\n\n  to {\n    opacity: 0;\n    transform: scale(3);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

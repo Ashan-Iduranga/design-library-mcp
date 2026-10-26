@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-nlghtm4re-ordinary-mouse-17-b3ce4b",
+  "title": "Loader by NlghtM4re (ordinary-mouse-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/NlghtM4re/ordinary-mouse-17",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "blue",
+    "purple",
+    "smooth",
+    "glow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By NlghtM4re on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/NlghtM4re_ordinary-mouse-17.html",
+  "code": "<div class=\"container\">\n      <div class=\"item\" style=\"--i:0;\"></div>\n      <div class=\"item\" style=\"--i:1;\"></div>\n      <div class=\"item\" style=\"--i:2;\"></div>\n      <div class=\"item\" style=\"--i:3;\"></div>\n      <div class=\"item\" style=\"--i:4;\"></div>\n      <div class=\"item\" style=\"--i:5;\"></div>\n      <div class=\"item\" style=\"--i:6;\"></div>\n      <div class=\"item\" style=\"--i:7;\"></div>\n      <div class=\"item\" style=\"--i:8;\"></div>\n      <div class=\"item\" style=\"--i:9;\"></div>\n      <div class=\"item\" style=\"--i:10;\"></div>\n      <div class=\"item\" style=\"--i:11;\"></div>\n      <div class=\"item\" style=\"--i:12;\"></div>\n      <div class=\"item\" style=\"--i:13;\"></div>\n      <div class=\"item\" style=\"--i:14;\"></div>\n      <div class=\"item\" style=\"--i:15;\"></div>\n      <div class=\"item\" style=\"--i:16;\"></div>\n      <div class=\"item\" style=\"--i:17;\"></div>\n      <div class=\"item\" style=\"--i:18;\"></div>\n      <div class=\"item\" style=\"--i:19;\"></div>\n      <div class=\"item\" style=\"--i:20;\"></div>\n    </div>\n<style>\n/* From Uiverse.io by NlghtM4re - Tags: blue, purple, loader, smooth, glow */\n.container {\n  position: absolute;\n  top: 40%;\n  height: 90%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.item {\n  position: absolute;\n  background-color: transparent;\n  width: calc(var(--i) * 2.5vmin);\n  aspect-ratio: 1;\n  border-radius: 50%;\n  border: .9vmin solid rgb(0, 200, 255);\n  transform-style: preserve-3d;\n  transform: rotateX(70deg) translateZ(50px);\n  animation: my-move 3s ease-in-out calc(var(--i) * 0.08s) infinite;\n  box-shadow: 0px 0px 15px rgb(124, 124, 124),\n    inset 0px 0px 15px rgb(124, 124, 124);\n}\n\n@keyframes my-move {\n  0%,\n  100% {\n    transform: rotateX(70deg) translateZ(50px) translateY(0px);\n    filter: hue-rotate(0deg);\n  }\n\n  50% {\n    transform: rotateX(70deg) translateZ(50px) translateY(-50vmin);\n    filter: hue-rotate(180deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

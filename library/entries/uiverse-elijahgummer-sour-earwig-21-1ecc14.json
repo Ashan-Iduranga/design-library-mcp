@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-elijahgummer-sour-earwig-21-1ecc14",
+  "title": "Loader by elijahgummer (sour-earwig-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/sour-earwig-21",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "animation",
+    "green",
+    "smooth",
+    "modern",
+    "animated",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/elijahgummer_sour-earwig-21.html",
+  "code": "<svg class=\"container\"><rect class=\"boxes\"></rect></svg>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, animation, green, loader, smooth, modern, animated, css */\n.container {\n  width: 50px;\n  height: 50px;\n}\n\n.container .boxes {\n  width: 50px;\n  height: 50px;\n  fill: none;\n  stroke-width: 50px;\n  stroke: #43cb85;\n  stroke-dasharray: 50;\n  stroke-dashoffset: 50%;\n  animation: animate 2s linear infinite;\n}\n\n@keyframes animate {\n  to {\n    stroke-dashoffset: 250%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

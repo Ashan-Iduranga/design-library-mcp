@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-roroland-stale-bobcat-33-8250b0",
+  "title": "Input by roroland (stale-bobcat-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/roroland/stale-bobcat-33",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "form",
+    "rounded",
+    "fluid",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By roroland on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/roroland_stale-bobcat-33.html",
+  "code": "<label for=\"myInput\" class=\"label\">\n  <span class=\"label-title\">My nice input</span>\n  <input id=\"myInput\" class=\"input\" name=\"text\" placeholder=\"Type something...\" type=\"text\">\n</label>\n<style>\n/* From Uiverse.io by roroland - Tags: form, input, rounded, fluid, animated */\n.label {\n  --border: rgba(66, 66, 66, 0.733);\n  --bgLabel: rgba(120,120,120,1);\n  --bgInput: rgba(255,255,255,1);\n  --color-light: rgb(98, 0, 255);\n  --color-light-a: rgb(133, 123, 150);\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  grid-template-rows: min-content min-content;\n  background: var(--bgLabel);\n  position: relative;\n  font-size: .65rem;\n  transition: all .3s ease-out;\n}\n\n.label > .label-title {\n  border: 1px solid var(--color-light);\n  color: var(--color-light);\n  box-shadow: 0 2px 2px rgba(120,120,120,.25);\n  padding: .25em .5em;\n  background-color: var(--bgInput);\n  grid-column: 1/span 1;\n  grid-row: 1/span 1;\n  position: relative;\n  border-radius: 4px;\n  translate: 10px -10px;\n  transition: all .5s ease-out .5s;\n  z-index: 10;\n}\n\n.label:focus .input,\n.label:focus-within .input {\n  background-color: var(--bgInput);\n  padding: 1em;\n  color: var(--color-light);\n  border: 2px solid var(--color-light);\n  outline: 2px solid var(--color-light);\n  outline-offset: -2px;\n  border-radius: 12px;\n  box-shadow: 0 5px 10px rgba(98, 0, 255, .25), 0 -5px 20px rgba(98, 0, 255,.1);\n  scale: 1.15;\n  transition: all .5s cubic-bezier(0,1.46,1,1.62) .3s;\n}\n\n.label:focus,\n.label:focus-within .label-title {\n  translate: 10px -20px;\n  border-radius: 4px 4px 0 0;\n  z-index: 0;\n  transition: all .3s cubic-bezier(0,1.46,1,1.62);\n}\n\n.input {\n  appearance: none;\n  border-top: 2px solid transparent;\n  border-right: 2px solid transparent;\n  border-bottom: 2px solid var(--color-light);\n  border-left: 2px solid transparent;\n  background-color: var(--bgInput);\n  caret-color: var(--color-light);\n  min-width: 200px;\n  padding: 1.25em 1em .25em;\n  outline: 0px solid var(--color-light);\n  grid-column: 1/-1;\n  grid-row: 1 / -1;\n  position: relative;\n  transition: all .3s cubic-bezier(.5,.6,.5,.62);\n  z-index: 0;\n}\n\n.input, \n.input::placeholder {\n  color: var(--color-light-a);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

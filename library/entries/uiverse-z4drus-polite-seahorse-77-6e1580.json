@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-z4drus-polite-seahorse-77-6e1580",
+  "title": "Loader by Z4drus (polite-seahorse-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Z4drus/polite-seahorse-77",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Z4drus on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Z4drus_polite-seahorse-77.html",
+  "code": "<div class=\"container\">\n  <div class=\"slice\"></div>\n  <div class=\"slice\"></div>\n  <div class=\"slice\"></div>\n  <div class=\"slice\"></div>\n  <div class=\"slice\"></div>\n  <div class=\"slice\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by Z4drus  - Tags: loader */\n.container {\n  --uib-size: 150px;\n  --uib-speed: 2.5s;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: var(--uib-size);\n  width: var(--uib-size);\n}\n\n.slice {\n  position: relative;\n  height: calc(var(--uib-size) / 6);\n  width: 100%;\n}\n\n.slice::before,\n.slice::after {\n  --uib-a: calc(var(--uib-speed) / -2);\n  --uib-b: calc(var(--uib-speed) / -6);\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: calc(50% - var(--uib-size) / 12);\n  height: 100%;\n  width: calc(100% / 6);\n  border-radius: 50%;\n  background-color: var(--uib-color);\n  flex-shrink: 0;\n  animation: orbit var(--uib-speed) linear infinite;\n  transition: background-color 0.3s ease;\n}\n\n.slice:nth-child(1)::after {\n  animation-delay: var(--uib-a);\n}\n\n.slice:nth-child(2)::before {\n  animation-delay: var(--uib-b);\n}\n\n.slice:nth-child(2)::after {\n  animation-delay: calc(var(--uib-a) + var(--uib-b));\n}\n\n.slice:nth-child(3)::before {\n  animation-delay: calc(var(--uib-b) * 2);\n}\n\n.slice:nth-child(3)::after {\n  animation-delay: calc(var(--uib-a) + var(--uib-b) * 2);\n}\n\n.slice:nth-child(4)::before {\n  animation-delay: calc(var(--uib-b) * 3);\n}\n\n.slice:nth-child(4)::after {\n  animation-delay: calc(var(--uib-a) + var(--uib-b) * 3);\n}\n\n.slice:nth-child(5)::before {\n  animation-delay: calc(var(--uib-b) * 4);\n}\n\n.slice:nth-child(5)::after {\n  animation-delay: calc(var(--uib-a) + var(--uib-b) * 4);\n}\n\n.slice:nth-child(6)::before {\n  animation-delay: calc(var(--uib-b) * 5);\n}\n\n.slice:nth-child(6)::after {\n  animation-delay: calc(var(--uib-a) + var(--uib-b) * 5);\n}\n\n@keyframes orbit {\n  0% {\n    transform: translateX(calc(var(--uib-size) * 0.25)) scale(0.73684);\n    opacity: 0.65;\n  }\n\n  5% {\n    transform: translateX(calc(var(--uib-size) * 0.235)) scale(0.684208);\n    opacity: 0.58;\n  }\n\n  10% {\n    transform: translateX(calc(var(--uib-size) * 0.182)) scale(0.631576);\n    opacity: 0.51;\n  }\n\n  15% {\n    transform: translateX(calc(var(--uib-size) * 0.129)) scale(0.578944);\n    opacity: 0.44;\n  }\n\n  20% {\n    transform: translateX(calc(var(--uib-size) * 0.076)) scale(0.526312);\n    opacity: 0.37;\n  }\n\n  25% {\n    transform: translateX(0%) scale(0.47368);\n    opacity: 0.3;\n  }\n\n  30% {\n    transform: translateX(calc(var(--uib-size) * -0.076)) scale(0.526312);\n    opacity: 0.37;\n  }\n\n  35% {\n    transform: translateX(calc(var(--uib-size) * -0.129)) scale(0.578944);\n    opacity: 0.44;\n  }\n\n  40% {\n    transform: translateX(calc(var(--uib-size) * -0.182)) scale(0.631576);\n    opacity: 0.51;\n  }\n\n  45% {\n    transform: translateX(calc(var(--uib-size) * -0.235)) scale(0.684208);\n    opacity: 0.58;\n  }\n\n  50% {\n    transform: translateX(calc(var(--uib-size) * -0.25)) scale(0.73684);\n    opacity: 0.65;\n  }\n\n  55% {\n    transform: translateX(calc(var(--uib-size) * -0.235)) scale(0.789472);\n    opacity: 0.72;\n  }\n\n  60% {\n    transform: translateX(calc(var(--uib-size) * -0.182)) scale(0.842104);\n    opacity: 0.79;\n  }\n\n  65% {\n    transform: translateX(calc(var(--uib-size) * -0.129)) scale(0.894736);\n    opacity: 0.86;\n  }\n\n  70% {\n    transform: translateX(calc(var(--uib-size) * -0.076)) scale(0.947368);\n    opacity: 0.93;\n  }\n\n  75% {\n    transform: translateX(0%) scale(1);\n    opacity: 1;\n  }\n\n  80% {\n    transform: translateX(calc(var(--uib-size) * 0.076)) scale(0.947368);\n    opacity: 0.93;\n  }\n\n  85% {\n    transform: translateX(calc(var(--uib-size) * 0.129)) scale(0.894736);\n    opacity: 0.86;\n  }\n\n  90% {\n    transform: translateX(calc(var(--uib-size) * 0.182)) scale(0.842104);\n    opacity: 0.79;\n  }\n\n  95% {\n    transform: translateX(calc(var(--uib-size) * 0.235)) scale(0.789472);\n    opacity: 0.72;\n  }\n\n  100% {\n    transform: translateX(calc(var(--uib-size) * 0.25)) scale(0.73684);\n    opacity: 0.65;\n  }\n}\n\n.slice:nth-child(1)::before,\n.slice:nth-child(1)::after {\n  background-color: #334dff;\n}\n\n.slice:nth-child(2)::before,\n.slice:nth-child(2)::after {\n  background-color: #333eff;\n}\n\n.slice:nth-child(3)::before,\n.slice:nth-child(3)::after {\n  background-color: #3334ff;\n}\n\n.slice:nth-child(4)::before,\n.slice:nth-child(4)::after {\n  background-color: #4433ff;\n}\n\n.slice:nth-child(5)::before,\n.slice:nth-child(5)::after {\n  background-color: #6633ff;\n}\n\n.slice:nth-child(6)::before,\n.slice:nth-child(6)::after {\n  background-color: #9933ff;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

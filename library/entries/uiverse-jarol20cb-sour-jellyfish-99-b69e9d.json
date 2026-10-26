@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-jarol20cb-sour-jellyfish-99-b69e9d",
+  "title": "Card by Jarol20cb (sour-jellyfish-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Jarol20cb/sour-jellyfish-99",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "animated",
+    "console"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Jarol20cb on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Jarol20cb_sour-jellyfish-99.html",
+  "code": "<div id=\"card\" class=\"card\">\n  <div class=\"content\">\n    <div class=\"card-body\">\n      <div class=\"code-container float-animation\">\n        <span class=\"line\"><span class=\"code-comment\">// Código de ejemplo</span></span>\n        <span class=\"line\"><span class=\"code-keyword\">function</span> <span class=\"code-function\">example</span>()</span>\n        <span class=\"line\">{</span>\n        <span class=\"line indent\"><span class=\"code-keyword\">let</span> <span class=\"code-variable\">message</span> = <span class=\"code-string\">\"Hello, World!\"</span>;</span>\n        <span class=\"line indent\"><span class=\"code-built-in\">console</span>.<span class=\"code-method\">log</span>(<span class=\"code-variable\">message</span>);</span>\n        <span class=\"line\">}</span>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Jarol20cb - Tags: card, animated, console */\n.card {\n  width: 200px;\n  height: 200px;\n  background-color: #f9f9f9;\n  border-radius: 10px;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n  position: relative;\n}\n\n.code-container {\n  background-color: #222;\n  border-radius: 8px;\n  padding: 16px;\n}\n\n.line {\n  display: block;\n  color: #fff;\n  font-size: 14px;\n  line-height: 1.5;\n  margin: 4px 0;\n  position: relative;\n}\n\n.code-comment {\n  color: #5c6370;\n}\n\n.code-keyword {\n  color: #c678dd;\n}\n\n.code-function {\n  color: #61afef;\n}\n\n.code-variable {\n  color: #dcdcaa;\n}\n\n.code-string {\n  color: #98c379;\n}\n\n.indent {\n  padding-left: 20px;\n}\n\n/* Animación */\n@keyframes float {\n  0% {\n    transform: translateY(0);\n  }\n\n  50% {\n    transform: translateY(-10px);\n  }\n\n  100% {\n    transform: translateY(0);\n  }\n}\n\n.float-animation {\n  animation: float 2s ease-in-out infinite;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

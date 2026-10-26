@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-santiagobos-wet-fish-33-d580bc",
+  "title": "Card by SantiagoBoS (wet-fish-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SantiagoBoS/wet-fish-33",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SantiagoBoS on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/SantiagoBoS_wet-fish-33.html",
+  "code": "<div class=\"firstAnimation\">\n    <div class=\"secondAnimation\">\n        <div class=\"card\">\n        </div>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by SantiagoBoS - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: rgb(0, 0, 0);\n  border: 2px solid rgb(255, 255, 255);\n  border-radius: 20px;\n}\n\n.card:hover {\n  width: 190px;\n  height: 254px;\n  background: rgb(255, 255, 255);\n  border: 2px solid rgb(200, 200, 200);\n  border-radius: 20px;\n  background-color: #dfdfdf;\n  transition: all .5s;\n}\n\n.secondAnimation {\n  --hoverContorno: #959595;\n}\n\n.secondAnimation:hover,\n.secondAnimation:focus {\n  -webkit-animation: cardAnimacion 1.4s;\n  animation: cardAnimacion 1.4s;\n  box-shadow: 0 0 0 0.8em rgba(255, 255, 255, 0);\n  border-radius: 20px;\n}\n\n@-webkit-keyframes cardAnimacion {\n  0% {\n    box-shadow: 0 0 0 0 var(--hoverContorno);\n  }\n}\n\n@keyframes cardAnimacion {\n  0% {\n    box-shadow: 0 0 0 0 var(--hoverContorno);\n  }\n}\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

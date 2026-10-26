@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-creatlydev-white-vampirebat-27-6d9015",
+  "title": "Toggle by Creatlydev (white-vampirebat-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Creatlydev/white-vampirebat-27",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "creative",
+    "toggle-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Creatlydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Creatlydev_white-vampirebat-27.html",
+  "code": "<input type=\"checkbox\" name=\"check-toggle\" id=\"checkbox\" hidden=\"\">\n        <label for=\"checkbox\" class=\"toggle\">\n            <div class=\"toggle__circle\"></div>\n        </label>\n<style>\n/* From Uiverse.io by Creatlydev - Tags: switch, creative, toggle switch */\n.toggle {\n  --bg-toggle: hsl(0, 0%, 96%);\n  --bg-circle: hsl(96, 85%, 34%);\n  width: 120px;\n  height: 60px;\n  background-color: var(--bg-toggle);\n  box-shadow: 0 .3rem 5rem 0 rgba(125, 125, 125, 0.25);\n  border-radius: 4rem;\n  display: flex;\n  align-items: center;\n  padding: 0 .3rem;\n  transition: background-color 400ms;\n}\n\n.toggle__circle {\n  width: 50px;\n  height: 50px;\n  cursor: pointer;\n  background-color: var(--bg-circle);\n  border-radius: 50%;\n  position: relative;\n  transition: margin 400ms ease-in-out, background-color 1000ms;\n}\n\n.toggle__circle::after,\n.toggle__circle::before {\n  content: '';\n  position: absolute;\n  background-color: var(--bg-toggle);\n  bottom: 118%;\n  transform-origin: bottom left;\n}\n\n.toggle__circle::before {\n  width: 15px;\n  height: 25px;\n  left: 32%;\n  border-radius: 0% 100% 0% 100% / 0% 27% 73% 100%;\n  transform: translateX(-70%) rotate(-2deg);\n}\n\n.toggle__circle::after {\n  width: 25px;\n  height: 30px;\n  left: 48%;\n  border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;\n  transform: rotate(-20deg);\n}\n\n#checkbox:checked + .toggle > .toggle__circle {\n  margin-left: calc(120px - (.3rem * 2) - 50px);\n}\n\n#checkbox:checked + .toggle {\n  --bg-toggle: hsl(96, 85%, 34%);\n  --bg-circle: hsl(0, 0%, 96%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

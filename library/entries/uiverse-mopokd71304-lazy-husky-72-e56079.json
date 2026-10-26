@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-mopokd71304-lazy-husky-72-e56079",
+  "title": "Button by MopokD71304 (lazy-husky-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MopokD71304/lazy-husky-72",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "advanced",
+    "input-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MopokD71304 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/MopokD71304_lazy-husky-72.html",
+  "code": "<div class=\"nav_bar\">\n  <div class=\"bar1\"></div>\n  <div class=\"bar2\"></div>\n  <div class=\"bar3_h\"></div>\n  <div class=\"bar4\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by MopokD71304  - Tags: simple, button, advanced, input effect  */\n.nav_bar {\n  background-color: rgb(27, 27, 27);\n  position: relative;\n  display: flex;\n  transition: 0.4s;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  padding: 15px 15px;\n  border-radius: 15px;\n}\n\n.bar1 {\n  border-radius: 30px;\n  background-color: rgb(255, 255, 255);\n  width: 50px;\n  margin-bottom: 15px;\n  transition: 0.4s;\n  height: 5px;\n}\n\n.bar2 {\n  border-radius: 30px;\n  background-color: rgb(255, 255, 255);\n  width: 50px;\n  position: absolute;\n  transition: 0.4s;\n  height: 5px;\n}\n\n.bar3_h {\n  border-radius: 30px;\n  background-color: rgb(255, 255, 255);\n  width: 50px;\n  transition: 0.4s;\n  height: 5px;\n}\n\n.bar4 {\n  border-radius: 30px;\n  background-color: rgb(255, 255, 255);\n  width: 50px;\n  margin-top: 15px;\n  transition: 0.4s;\n  height: 5px;\n}\n\n.nav_bar:hover {\n  border-radius: 50px;\n}\n.nav_bar:hover .bar3_h {\n  transform: rotate(-45deg);\n}\n.nav_bar:hover .bar2 {\n  transform: rotate(45deg);\n}\n\n.nav_bar:hover .bar1 {\n  opacity: 0;\n  width: 30px;\n}\n.nav_bar:hover .bar4 {\n  opacity: 0;\n  width: 30px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

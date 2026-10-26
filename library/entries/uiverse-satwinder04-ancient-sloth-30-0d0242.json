@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satwinder04-ancient-sloth-30-0d0242",
+  "title": "Input by Satwinder04 (ancient-sloth-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Satwinder04/ancient-sloth-30",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Satwinder04 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Satwinder04_ancient-sloth-30.html",
+  "code": "<div class=\"input-container\">\n  <input placeholder=\"Enter text\" class=\"input-field\" type=\"text\">\n  <label for=\"input-field\" class=\"input-label\">Enter text</label>\n  <span class=\"input-highlight\"></span>\n</div>\n\n<style>\n/* From Uiverse.io by Satwinder04 - Tags: input */\n/* Input container */\n.input-container {\n  position: relative;\n  margin: 20px;\n}\n\n/* Input field */\n.input-field {\n  display: block;\n  width: 100%;\n  padding: 10px;\n  font-size: 16px;\n  border: none;\n  border-bottom: 2px solid #ccc;\n  outline: none;\n  background-color: transparent;\n}\n\n/* Input label */\n.input-label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  font-size: 16px;\n  color: rgba(204, 204, 204, 0);\n  pointer-events: none;\n  transition: all 0.3s ease;\n}\n\n/* Input highlight */\n.input-highlight {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  height: 2px;\n  width: 0;\n  background-color: #007bff;\n  transition: all 0.3s ease;\n}\n\n/* Input field:focus styles */\n.input-field:focus + .input-label {\n  top: -20px;\n  font-size: 12px;\n  color: #007bff;\n}\n\n.input-field:focus + .input-label + .input-highlight {\n  width: 100%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

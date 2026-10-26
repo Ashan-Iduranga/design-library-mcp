@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-marketing-buttons-5",
+  "title": "Buttons: Quiet text and underline buttons",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/buttons",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "marketing",
+    "buttons",
+    "hyperui",
+    "action",
+    "cta"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Lightweight text buttons for secondary actions, saving drafts, and subtle links.\n\nOriginal file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/buttons/5.html",
+  "code": "<div class=\"flex flex-wrap justify-center gap-4 p-6\">\n<a class=\"inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-semibold text-indigo-600 underline decoration-slate-300 decoration-2 underline-offset-4 transition-colors hover:text-indigo-700 hover:decoration-indigo-500 focus-visible:ring-4 focus-visible:ring-indigo-200 focus-visible:outline-none\" href=\"#\">\n      View details\n    </a>\n<a class=\"inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-semibold text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 focus-visible:ring-4 focus-visible:ring-slate-200 focus-visible:outline-none\" href=\"#\">\n      Save draft\n    </a>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

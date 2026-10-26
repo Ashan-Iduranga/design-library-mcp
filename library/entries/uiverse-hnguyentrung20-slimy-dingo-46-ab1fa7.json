@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-hnguyentrung20-slimy-dingo-46-ab1fa7",
+  "title": "Button by hnguyentrung20 (slimy-dingo-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/hnguyentrung20/slimy-dingo-46",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By hnguyentrung20 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/hnguyentrung20_slimy-dingo-46.html",
+  "code": "<button>\n  <div class=\"progress\">\n     <div class=\"progress-bar\"> </div>\n  </div>\n  \n  <p class=\"before-scan\">Find aliens</p>\n  <p class=\"scaning\">Scanning</p>\n  <p class=\"complete\">No aliens found</p>\n</button>\n<style>\n/* From Uiverse.io by hnguyentrung20 - Tags: button */\n@keyframes MoveBackground {\n  0% {\n    background-position-x: 0;\n  }\n\n  100% {\n    background-position-x: -165px;\n  }\n}\n\n@keyframes Scaning {\n  0% {\n    width: 0%;\n  }\n\n  30% {\n    width: 10%;\n  }\n\n  70% {\n    width: 40%;\n  }\n\n  100% {\n    width: 100%;\n  }\n}\n\nbutton {\n  background: none;\n  font-size: 20px;\n  font-weight: 700;\n  color: black;\n  text-transform: uppercase;\n  padding: 10px 30px;\n  position: relative;\n  background-color: white;\n  border-radius: 10px;\n  overflow: hidden;\n  transition-duration: 300ms;\n  border: none;\n  max-width: 1370px;\n  width: fit-content;\n}\n\nbutton:hover {\n  color: white;\n  border: 4px black solid;\n  max-width: 170px;\n  padding: 5px 30px;\n}\n\nbutton:active {\n  background: none;\n  color: white;\n  border: 4px #1F8A70 solid;\n  background-color: #1F8A70;\n  max-width: 170px;\n}\n\nbutton .progress {\n  display: none;\n}\n\nbutton:active .progress .progress-bar {\n  display: none;\n}\n\nbutton:hover .progress {\n /* background-image: repeating-linear-gradient(-28deg, transparent, transparent 31px, #DC0000 19px, #DC000010 70px); */\n  display: block;\n  user-select: none;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  pointer-events: none;\n  transition-duration: 600ms;\n  overflow: hidden;\n  animation: Scaning 3s linear;\n}\n\n.progress .progress-bar {\n  width: 165px;\n  height: 100%;\n  background-image: repeating-linear-gradient(-25deg, transparent, transparent 31px, #000000 19px, #000000ee 70px);\n  animation: MoveBackground 2s linear infinite reverse;\n}\n\nbutton::before {\n  /* content: \"<d\"; */\n  background-color: white;\n  height: 100%;\n  width: 100%;\n}\n\nbutton:hover .before-scan,\n .complete, .scaning {\n  display: none;\n}\n\nbutton:hover .scaning {\n  display: block;\n  mix-blend-mode: difference;\n  padding: 0px 0px;\n}\n\nbutton:active .scaning {\n  display: none;\n}\n\nbutton:active .complete {\n  display: block;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

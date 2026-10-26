@@ -1,0 +1,36 @@
+{
+  "id": "magicui-noise-texture-demo",
+  "title": "Noise Texture Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/noise-texture",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "noise",
+    "texture",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing the SVG noise texture in a framed panel with a radial mask.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/noise-texture-demo.tsx",
+  "code": "\"use client\"\n\nimport { cn } from \"@/lib/utils\"\nimport { NoiseTexture } from \"@/registry/magicui/noise-texture\"\n\nexport default function NoiseTextureDemo() {\n  return (\n    <div className=\"relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-neutral-100/80 dark:bg-neutral-950\">\n      <NoiseTexture\n        className={cn(\n          \"absolute inset-0\",\n          \"mask-[radial-gradient(420px_circle_at_center,white,transparent)]\"\n        )}\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

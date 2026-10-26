@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-akaspidey01-ugly-horse-68-f0cebe",
+  "title": "Button by AKAspidey01 (ugly-horse-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AKAspidey01/ugly-horse-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "arrow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AKAspidey01 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/AKAspidey01_ugly-horse-68.html",
+  "code": "<button class=\"button\">\n  <p class=\"button-text\">Read More</p> <p class=\"iconer\"><svg height=\"24\" width=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z\" fill=\"currentColor\"></path></svg></p>  \n</button>\n<style>\n/* From Uiverse.io by AKAspidey01 - Tags: button, arrow */\n.button {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 12px 15px;\n  border-radius: 10px;\n  border: none;\n  overflow: hidden;\n  background: rgb(164, 46, 194);\n  color: #fff;\n}\n\n.button-text {\n  transform: translateX(15px);\n  font-size: 1.5em;\n  font-weight: 700;\n  transition-duration: 0.3s;\n}\n\n.iconer {\n  transform: translateY(35px);\n  transition-duration: 0.3s;\n}\n\n.button:hover .button-text {\n  transform: translateX(0px);\n}\n\n.button:hover .iconer {\n  transform: translateY(0px);\n}\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

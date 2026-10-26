@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-checkbox-disabled-state",
+  "title": "Checkbox: Disabled state (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/checkbox/#disabled-state",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This example can be used for the disabled state of the checkbox component by applying the `disabled` attribute to the input element.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/checkbox.md",
+  "code": "<div class=\"flex items-center mb-4\">\n    <input disabled id=\"disabled-checkbox\" type=\"checkbox\" value=\"\" class=\"w-4 h-4 border border-light rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n    <label for=\"disabled-checkbox\" class=\"select-none ms-2 text-sm font-medium text-fg-disabled\">Disabled checkbox</label>\n</div>\n<div class=\"flex items-center\">\n    <input disabled checked id=\"disabled-checked-checkbox\" type=\"checkbox\" value=\"\" class=\"w-4 h-4 border border-light rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n    <label for=\"disabled-checked-checkbox\" class=\"select-none ms-2 text-sm font-medium text-fg-disabled\">Disabled checked</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

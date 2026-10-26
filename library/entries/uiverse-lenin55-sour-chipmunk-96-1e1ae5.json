@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-lenin55-sour-chipmunk-96-1e1ae5",
+  "title": "Loader by lenin55 (sour-chipmunk-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/lenin55/sour-chipmunk-96",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "material-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By lenin55 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/lenin55_sour-chipmunk-96.html",
+  "code": "<div class=\"ui-loader loader-blk\">\n    <svg viewBox=\"22 22 44 44\" class=\"multiColor-loader\">\n        <circle cx=\"44\" cy=\"44\" r=\"20.2\" fill=\"none\" stroke-width=\"3.6\" class=\"loader-circle loader-circle-animation\"></circle>\n    </svg>\n</div>\n<style>\n/* From Uiverse.io by lenin55 - Tags: material design, loader */\n/* //codelessly loader style */\n.ui-loader {\n  display: inline-block;\n  width: 50px;\n  height: 50px;\n}\n\n.loader-blk {\n  color: #3f51b5;\n  animation: rotate-outer08 1.4s linear infinite;\n}\n\n.multiColor-loader {\n  display: block;\n  animation: color-anim08 1.4s infinite;\n}\n\n.loader-circle {\n  stroke: currentColor;\n}\n\n.MuiCircularProgress-circleStatic {\n  transition: stroke-dashoffset 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0s;\n}\n\n.loader-circle-animation {\n  animation: rotate-inner08 1.4s ease-in-out\n    infinite;\n  stroke-dasharray: 80px, 200px;\n  stroke-dashoffset: 0;\n}\n\n@keyframes rotate-outer08 {\n  0% {\n    transform-origin: 50% 50%;\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes rotate-inner08 {\n  0% {\n    stroke-dasharray: 1px, 200px;\n    stroke-dashoffset: 0;\n  }\n\n  50% {\n    stroke-dasharray: 100px, 200px;\n    stroke-dashoffset: -15px;\n  }\n\n  100% {\n    stroke-dasharray: 100px, 200px;\n    stroke-dashoffset: -125px;\n  }\n}\n\n@keyframes color-anim08 {\n  0% {\n    color: #4285f4;\n  }\n\n  25% {\n    color: #ea4335;\n  }\n\n  50% {\n    color: #f9bb2d;\n  }\n\n  75% {\n    color: #34a853;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

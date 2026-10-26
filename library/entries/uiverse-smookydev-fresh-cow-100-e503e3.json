@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-smookydev-fresh-cow-100-e503e3",
+  "title": "Pattern by SmookyDev (fresh-cow-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SmookyDev/fresh-cow-100",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "glassmorphism",
+    "animation",
+    "transition",
+    "css",
+    "css-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SmookyDev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/SmookyDev_fresh-cow-100.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by SmookyDev  - Tags: glassmorphism, animation, transition, css, css effect, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n      45deg,\n      white 12%,\n      transparent 0,\n      transparent 88%,\n      wheat 0\n    ),\n    linear-gradient(135deg, transparent 37%, #753 0, #753 63%, transparent 0),\n    linear-gradient(45deg, transparent 37%, white 0, white 63%, transparent 0)\n      wheat;\n  background-size: 80px 80px;\n  animation: ani 10s linear infinite;\n  position: relative;\n  z-index: 10;\n  overflow: hidden;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

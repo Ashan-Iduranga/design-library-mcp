@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-joe-watson-sbf-average-hound-77-e1ee07",
+  "title": "Checkbox by joe-watson-sbf (average-hound-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/joe-watson-sbf/average-hound-77",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By joe-watson-sbf on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/joe-watson-sbf_average-hound-77.html",
+  "code": "<label class=\"container\">\n    <input checked=\"checked\" type=\"checkbox\">\n    <div class=\"checkmark\"></div>\n</label>\n<style>\n/* From Uiverse.io by joe-watson-sbf - Tags: checkbox */\n.container {\n  display: block;\n  height: 1.5em;\n  width: 1.5em;\n  cursor: pointer;\n  position: relative;\n}\n\n.container input {\n  position: absolute;\n  transform: scale(0);\n}\n\n.container input:checked ~ .checkmark {\n  transform: rotate(45deg);\n  height: 2em;\n  width: .7em;\n  border-color: #32cd32;\n  border-top-color: transparent;\n  border-left-color: transparent;\n  border-radius: 0;\n}\n\n.container .checkmark {\n  display: block;\n  width: inherit;\n  height: inherit;\n  border: 2px solid #32cd32;\n  border-radius: 4px;\n  transition: all .3s;\n}\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

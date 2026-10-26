@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-escannord-smooth-bat-37-f5e490",
+  "title": "Button by escannord (smooth-bat-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/escannord/smooth-bat-37",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d",
+    "danger",
+    "self-destruct"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By escannord on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/escannord_smooth-bat-37.html",
+  "code": "<button class=\"button\">\n  <div class=\"lid\">\n    <span class=\"side top\"></span>\n    <span class=\"side front\"></span>\n    <span class=\"side back\"> </span>\n    <span class=\"side left\"></span>\n    <span class=\"side right\"></span>\n  </div>\n  <div class=\"panels\">\n    <div class=\"panel-1\">\n      <div class=\"panel-2\">\n        <div class=\"btn-trigger\">\n          <span class=\"btn-trigger-1\"></span>\n          <span class=\"btn-trigger-2\"></span>\n        </div>\n      </div>\n    </div>\n  </div>\n</button>\n\n<style>\n/* From Uiverse.io by escannord  - Tags: 3d, button, danger, self-destruct */\n.button {\n  cursor: pointer;\n  position: relative;\n  display: inline-block;\n  transform-style: preserve-3d;\n  transform: rotateX(-45deg) rotateY(25deg) rotateZ(0deg);\n  background-color: transparent;\n  border: none;\n}\n\n.lid {\n  position: absolute;\n  transform-style: preserve-3d;\n  transition: all 1s ease-in-out;\n  transform-origin: 0 80px -120px;\n  height: 80px;\n  width: 250px;\n  background-color: rgba(0, 0, 0, 0);\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n\n.lid:hover,\n.button:hover .lid {\n  transform: translate(-50%, -50%) rotateX(60deg);\n}\n\n.lid .side {\n  display: inline-block;\n  width: 250px;\n  height: 250px;\n  background-color: rgba(63, 112, 141, 0.308);\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  border: solid 1px rgba(0, 132, 255, 0.226);\n}\n.front {\n  transform: translate(-50%, -50%) translateZ(125px);\n  height: 80px !important;\n}\n.top {\n  transform: translate(-50%, -50%) rotateX(90deg) translateZ(40px);\n  background-color: rgba(167, 47, 10, 0.438);\n}\n.left {\n  transform: translate(-50%, -50%) rotateY(90deg) translateZ(125px);\n  height: 80px !important;\n}\n\n.right {\n  transform: translate(-50%, -50%) rotateY(-90deg) translateZ(125px);\n  height: 80px !important;\n}\n\n.back {\n  transform: translate(-50%, -50%) rotateY(180deg) translateZ(125px);\n  background-color: rgba(250, 234, 18, 0.418);\n  height: 80px !important;\n}\n\n.back::before {\n  content: \"\";\n  display: inline-block;\n  position: absolute;\n  width: 20px;\n  height: 10px;\n  background-color: black;\n  bottom: 0;\n  left: 10px;\n}\n\n.back::after {\n  content: \"\";\n  display: inline-block;\n  position: absolute;\n  width: 20px;\n  height: 10px;\n  background-color: black;\n  bottom: 0;\n  right: 10px;\n}\n\n.panels {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%) rotateX(90deg) translateZ(-40px);\n}\n\n.panel-1 {\n  display: inline-block;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  height: 250px;\n  width: 250px;\n  background-color: rgb(166, 255, 0);\n  background: repeating-linear-gradient(\n    45deg,\n    rgb(247, 243, 33) 0% 2%,\n    black 2% 4%\n  );\n  box-shadow: 0px 0px 0px 20px red;\n}\n\n.panel-2 {\n  display: inline-block;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  height: 200px;\n  width: 200px;\n  background-color: rgb(0, 0, 0);\n  background: linear-gradient(-135deg, rgb(43, 42, 42), black);\n  border: solid 5px rgb(247, 243, 33);\n}\n\n.panel-1::after {\n  content: \"SELF-DESTRUCT\";\n  display: inline-block;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 290px;\n  height: 25px;\n  color: white;\n  font-weight: bold;\n  transform: translate(-50%, -50%) translateY(170px);\n  font-size: larger;\n  background-color: red;\n}\n\n.panel-1::before {\n  content: \"WARNING: DANGER\";\n  display: inline-block;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 290px;\n  height: 25px;\n  color: white;\n  font-weight: bold;\n  transform: translate(-50%, -50%) rotateZ(90deg) translateY(170px);\n  font-size: larger;\n  background-color: red;\n}\n\n.btn-trigger {\n  position: absolute;\n  top: 50%;\n  right: 50%;\n  transform: translate(-50%, -50%);\n}\n\n.btn-trigger-1 {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 100px;\n  height: 100px;\n  background-color: rgb(207, 195, 195);\n  box-shadow: -0px 1px 0 rgb(54, 54, 54), -0px 2px 0 rgb(54, 54, 54),\n    -1px 3px 0 rgb(54, 54, 54), -1px 4px 0 rgb(54, 54, 54),\n    -2px 5px 0 rgb(54, 54, 54), -2px 6px 0 rgb(54, 54, 54),\n    -3px 7px 0 rgb(54, 54, 54), -3px 8px 0 rgb(54, 54, 54),\n    -4px 9px 0 rgb(54, 54, 54), -4px 10px 0 rgb(54, 54, 54),\n    -5px 11px 0 rgb(54, 54, 54), -5px 12px 0 rgb(54, 54, 54),\n    -6px 13px 0 rgb(54, 54, 54), -6px 14px 0 rgb(54, 54, 54),\n    -7px 15px 0 rgb(54, 54, 54), -7px 16px 0 rgb(54, 54, 54),\n    -8px 17px 0 rgb(54, 54, 54), -8px 18px 0 rgb(54, 54, 54),\n    -9px 19px 0 rgb(54, 54, 54), -9px 20px 0 rgb(54, 54, 54),\n    -10px 21px 0 rgb(54, 54, 54), -10px 22px 0 rgb(54, 54, 54),\n    -11px 23px 0 rgb(54, 54, 54), -11px 24px 0 rgb(54, 54, 54),\n    -12px 25px 0 rgb(54, 54, 54), -12px 26px 0 rgb(54, 54, 54);\n  border-radius: 50%;\n  transform: translate(-50%, -50%) translateZ(50px);\n}\n\n.btn-trigger-2 {\n  position: absolute;\n  width: 80px;\n  height: 80px;\n  background-color: rgb(241, 17, 17);\n  box-shadow: -0px 1px 0 rgb(128, 5, 5), -0px 2px 0 rgb(128, 5, 5),\n    -1px 3px 0 rgb(128, 5, 5), -1px 4px 0 rgb(128, 5, 5),\n    -2px 5px 0 rgb(128, 5, 5), -2px 6px 0 rgb(128, 5, 5),\n    -3px 7px 0 rgb(128, 5, 5), -3px 8px 0 rgb(128, 5, 5),\n    -4px 9px 0 rgb(128, 5, 5), -4px 10px 0 rgb(128, 5, 5),\n    -5px 11px 0 rgb(128, 5, 5), -5px 12px 0 rgb(128, 5, 5),\n    -6px 13px 0 rgb(128, 5, 5), -6px 14px 0 rgb(128, 5, 5),\n    -7px 15px 0 rgb(128, 5, 5), -7px 16px 0 rgb(128, 5, 5);\n  border-radius: 50%;\n  transition: all 0.3s;\n  transform: translate(-40%, -70%) translateZ(100px);\n}\n\n.btn-trigger-2:active {\n  transform: translate(-50%, -50%) translateZ(100px);\n  box-shadow: none;\n}\n\n@keyframes rotate {\n  100% {\n    transform: rotateX(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

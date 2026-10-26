@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-tasty-chipmunk-31-d815e3",
+  "title": "Button by Yaya12085 (tasty-chipmunk-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/tasty-chipmunk-31",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Yaya12085_tasty-chipmunk-31.html",
+  "code": "<button>Button</button>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: button */\nbutton {\n  font-size: 28px;\n  color: rgb(35, 75, 83);\n  background-color: rgb(217, 238, 242);\n  background-image: linear-gradient(180deg, rgb(201, 194, 240) 30%, transparent 70%);\n  background-repeat: no-repeat;\n  background-position: center 45%;\n  background-size: 100% 200%;\n  padding: 10px 30px;\n  border-radius: 30px;\n  border: none;\n  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;\n  position: relative;\n  transition: all 0.5s ease;\n  outline: none;\n}\n\nbutton::before, button::after {\n  content: \"\";\n  inset: 0;\n  position: absolute;\n  border-radius: 5em;\n}\n\nbutton::before {\n  background-image: radial-gradient(ellipse, rgba(204, 246, 255, 0.8) 20%, transparent 50%, transparent 200%), linear-gradient(90deg, #404040 -10%, transparent 30%, transparent 70%, #404040 110%);\n  box-shadow: inset 0 0.25em 0.75em rgba(0, 0, 0, 0.8), inset 0 -0.05em 0.2em rgba(255, 255, 255, 0.4), inset 0 -1px 3px rgba(25, 196, 230, 0.75);\n  background-blend-mode: overlay;\n  background-repeat: no-repeat;\n  background-size: 200% 80%, cover;\n  background-position: center 220%;\n  mix-blend-mode: overlay;\n  filter: blur(0);\n}\n\nbutton::after {\n  background: linear-gradient(180deg, rgba(213, 204, 255, 0.726), rgba(92, 74, 181, 0.75) 40%, transparent 80%);\n  top: 0.075em;\n  left: 0.75em;\n  right: 0.75em;\n  bottom: 1.4em;\n  filter: blur(1px);\n  mix-blend-mode: screen;\n}\n\nbutton:hover, button:active, button:focus {\n  outline: none;\n  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;\n  background-position: center calc( 45% - 0.75em );\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

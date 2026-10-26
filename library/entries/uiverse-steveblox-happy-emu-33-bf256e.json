@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-steveblox-happy-emu-33-bf256e",
+  "title": "Loader by SteveBloX (happy-emu-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SteveBloX/happy-emu-33",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SteveBloX on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/SteveBloX_happy-emu-33.html",
+  "code": "<div class=\"wrapper\">\n  <div class=\"blue ball\"></div>\n  <div class=\"red ball\"></div>\n  <div class=\"yellow ball\"></div>\n  <div class=\"green ball\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by SteveBloX  - Website: https://codepen.io/travishorn/pen/YyGVRG - Name: Google / Travis Horn - Tags: loader, google, color */\n.wrapper {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 200px;\n}\n\n.ball {\n  --size: 16px;\n  width: var(--size);\n  height: var(--size);\n  border-radius: 11px;\n  margin: 0 10px;\n\n  animation: 2s bounce ease infinite;\n}\n\n.blue {\n  background-color: #4285f5;\n}\n\n.red {\n  background-color: #ea4436;\n  animation-delay: 0.25s;\n}\n\n.yellow {\n  background-color: #fbbd06;\n  animation-delay: 0.5s;\n}\n\n.green {\n  background-color: #34a952;\n  animation-delay: 0.75s;\n}\n\n@keyframes bounce {\n  50% {\n    transform: translateY(25px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

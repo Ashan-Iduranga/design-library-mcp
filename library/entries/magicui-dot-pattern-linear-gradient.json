@@ -1,0 +1,37 @@
+{
+  "id": "magicui-dot-pattern-linear-gradient",
+  "title": "Dot Pattern Linear Gradient (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/dot-pattern-linear-gradient",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "dot",
+    "pattern",
+    "linear",
+    "gradient",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a dot pattern with linear gradient effects.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/dot-pattern-linear-gradient.tsx",
+  "code": "\"use client\"\n\nimport { cn } from \"@/lib/utils\"\nimport { DotPattern } from \"@/registry/magicui/dot-pattern\"\n\nexport default function DotPatternLinearGradient() {\n  return (\n    <div className=\"bg-background relative flex size-full items-center justify-center overflow-hidden rounded-lg border p-20\">\n      <DotPattern\n        width={20}\n        height={20}\n        cx={1}\n        cy={1}\n        cr={1}\n        className={cn(\n          \"[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)]\"\n        )}\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

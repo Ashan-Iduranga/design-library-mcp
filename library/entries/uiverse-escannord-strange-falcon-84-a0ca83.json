@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-escannord-strange-falcon-84-a0ca83",
+  "title": "Loader by escannord (strange-falcon-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/escannord/strange-falcon-84",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "3d",
+    "light"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By escannord on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/escannord_strange-falcon-84.html",
+  "code": "<div class=\"loader\">\n  <span class=\"ball ball1\"></span>\n  <span class=\"ball\"></span>\n  <span class=\"ball\"></span>\n  <span class=\"ball\"></span>\n  <span class=\"ball\"></span>\n</div>\n\n<style>\n/* From Uiverse.io by escannord  - Tags: animation, 3d, loader, light */\n.loader {\n  text-align: center;\n  position: relative;\n  display: flex;\n}\n\n.loader .ball {\n  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);\n}\n\n.ball {\n  display: block;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background: radial-gradient(circle at 8px 5px, white 5%, black);\n  position: relative;\n  transform-origin: 50% -100px;\n}\n\n.ball:last-child {\n  animation: balance-right 1.2s infinite linear;\n}\n\n.ball:first-child {\n  animation: balance-left 1.2s infinite linear;\n}\n\n@keyframes balance-right {\n  0% {\n    transform: rotate(0deg);\n    animation-timing-function: linear;\n  }\n\n  50% {\n    transform: rotate(0deg);\n    animation-timing-function: ease-out;\n  }\n\n  75% {\n    transform: rotate(-30deg);\n    animation-timing-function: ease-in;\n  }\n}\n\n@keyframes balance-left {\n  0% {\n    transform: rotate(0deg);\n    animation-timing-function: ease-out;\n  }\n\n  25% {\n    transform: rotate(30deg);\n    animation-timing-function: ease-in;\n  }\n\n  50% {\n    transform: rotate(0deg);\n    animation-timing-function: linear;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-escannord-lovely-gecko-23-611004",
+  "title": "Button by escannord (lovely-gecko-23)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/escannord/lovely-gecko-23",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "hover",
+    "text-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By escannord on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/escannord_lovely-gecko-23.html",
+  "code": "<div class=\"button\">\n  <span class=\"text\">hover me</span>\n  <span class=\"arrow\"></span>\n</div>\n\n<style>\n/* From Uiverse.io by escannord  - Tags: icon, button, hover, text animation */\n.button {\n  --color: rgb(56, 55, 100);\n  padding: 1rem 2rem;\n  background-color: transparent;\n  color: var(--color);\n  font-weight: bolder;\n  text-transform: uppercase;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  cursor: pointer;\n  position: relative;\n  border-radius: 5px;\n}\n\n.arrow {\n  display: inline-flex;\n  position: relative;\n  width: 30px;\n  height: 15px;\n  margin-left: 0.5rem;\n}\n\n.arrow::after,\n.arrow::before {\n  content: \"\";\n  display: inline-block;\n  position: absolute;\n  border-color: var(--color);\n}\n\n.arrow::after {\n  width: 10px;\n  height: 0;\n  border: 2px solid var(--color);\n  top: 50%;\n  left: 0;\n  transform: translateY(-50%);\n}\n\n.arrow::before {\n  width: 10px;\n  height: 10px;\n  border-top: 4px solid var(--color);\n  border-right: 4px solid var(--color);\n  left: 3px;\n  top: 50%;\n  transform: translateY(-50%) rotate(45deg);\n}\n\n.button:hover {\n  background-color: var(--color);\n  color: white;\n}\n\n.button:hover .arrow {\n  transform: translateX(10px);\n}\n\n.button:hover .text {\n  transform: translateX(10px);\n}\n\n.button:hover .arrow::after {\n  width: 25px;\n  border-color: white;\n}\n\n.button:hover .arrow::before {\n  left: 15px;\n  border-color: white;\n}\n\n.button,\n.text,\n.arrow,\n.arrow::after,\n.arrow::before,\n.button::before,\n.button::after {\n  transition: all 0.3s, box-shadow 0.2s;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  height: 100%;\n  width: 10px;\n  border-radius: 5px;\n  border: solid 3px var(--color);\n  border-right-color: transparent;\n  background-color: transparent;\n  left: 0;\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.button::after {\n  content: \"\";\n  position: absolute;\n  height: 100%;\n  width: 10px;\n  border-radius: 5px;\n  border: solid 3px var(--color);\n  border-left-color: transparent;\n  background-color: transparent;\n  right: 0;\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.button:hover:before,\n.button:hover:after {\n  width: 50% !important;\n}\n\n.button:active {\n  box-shadow: 0px 0px 0px 7px rgba(79, 78, 105, 0.295);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

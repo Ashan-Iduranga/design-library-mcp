@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-codecite-mean-puma-17-34c594",
+  "title": "Loader by Codecite (mean-puma-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Codecite/mean-puma-17",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "loading",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Codecite on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Codecite_mean-puma-17.html",
+  "code": "<div class=\"spinner-container\">\n  <div class=\"spinner\">\n   <div class=\"spinner\">\n    <div class=\"spinner\">\n      <div class=\"spinner\">\n        <div class=\"spinner\">\n            <div class=\"spinner\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Codecite - Tags: animation, loading, loader, animated */\n.spinner-container {\n  width: 150px;\n  height: 150px;\n  position: relative;\n  margin: 30px auto;\n  overflow: hidden;\n}\n\n.spinner {\n  position: absolute;\n  width: calc(100% - 9.9px);\n  height: calc(100% - 9.9px);\n  border: 5px solid transparent;\n  border-radius: 50%;\n  border-top-color: #fff;\n  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.79) infinite;\n}\n\n@keyframes spin {\n  from {\n    transform: rotate(0deg);\n  }\n\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

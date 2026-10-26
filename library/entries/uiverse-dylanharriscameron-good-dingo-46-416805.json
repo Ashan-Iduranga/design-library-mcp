@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-dylanharriscameron-good-dingo-46-416805",
+  "title": "Button by dylanharriscameron (good-dingo-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/dylanharriscameron/good-dingo-46",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "delete",
+    "keyboard"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By dylanharriscameron on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/dylanharriscameron_good-dingo-46.html",
+  "code": "<button class=\"delete-button\">\n  ␡\n</button>\n<style>\n/* From Uiverse.io by dylanharriscameron - Tags: button, delete, keyboard */\n.delete-button {\n  background-color: #000;\n  color: #fff;\n  font-size: 44px;\n  border: 0.5px solid rgba(0, 0, 0, 0.1);\n  padding-bottom: 8px;\n  width: 60px;\n  height: 65px;\n  border-radius: 15px 15px 12px 12px;\n  cursor: pointer;\n  position: relative;\n  will-change: transform;\n  transition: all .1s ease-in-out 0s;\n  user-select: none;\n  /* Add gradient shading to each side */\n  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),\n    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));\n  background-position: bottom right, bottom right;\n  background-size: 100% 100%, 100% 100%;\n  background-repeat: no-repeat;\n  box-shadow: inset -4px -10px 0px rgba(255, 255, 255, 0.4),\n    inset -4px -8px 0px rgba(0, 0, 0, 0.3),\n    0px 2px 1px rgba(0, 0, 0, 0.3),\n    0px 2px 1px rgba(255, 255, 255, 0.1);\n  transform: perspective(70px) rotateX(5deg) rotateY(0deg);\n}\n\n.delete-button::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.5));\n  z-index: -1;\n  border-radius: 15px;\n  box-shadow: inset 4px 0px 0px rgba(255, 255, 255, 0.1),\n    inset 4px -8px 0px rgba(0, 0, 0, 0.3);\n  transition: all .1s ease-in-out 0s;\n}\n\n.delete-button::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),\n    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));\n  background-position: bottom right, bottom right;\n  background-size: 100% 100%, 100% 100%;\n  background-repeat: no-repeat;\n  z-index: -1;\n  border-radius: 15px;\n  transition: all .1s ease-in-out 0s;\n}\n\n.delete-button:active {\n  will-change: transform;\n  transform: perspective(80px) rotateX(5deg) rotateY(1deg) translateY(3px) scale(0.96);\n  height: 64px;\n  border: 0.25px solid rgba(0, 0, 0, 0.2);\n  box-shadow: inset -4px -8px 0px rgba(255, 255, 255, 0.2),\n    inset -4px -6px 0px rgba(0, 0, 0, 0.8),\n    0px 1px 0px rgba(0, 0, 0, 0.9),\n    0px 1px 0px rgba(255, 255, 255, 0.2);\n  transition: all .1s ease-in-out 0s;\n}\n\n.delete-button::after:active {\n  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.2));\n}\n\n.delete-button:active::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 5%;\n  left: 20%;\n  width: 50%;\n  height: 80%;\n  background-color: rgba(255, 255, 255, 0.1);\n  animation: overlay 0.1s ease-in-out 0s;\n  pointer-events: none;\n}\n\n@keyframes overlay {\n  from {\n    opacity: 0;\n  }\n\n  to {\n    opacity: 1;\n  }\n}\n\n.delete-button:focus {\n  outline: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

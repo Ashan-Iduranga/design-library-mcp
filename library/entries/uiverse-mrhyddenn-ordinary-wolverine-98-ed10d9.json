@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-ordinary-wolverine-98-ed10d9",
+  "title": "Loader by mrhyddenn (ordinary-wolverine-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/ordinary-wolverine-98",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_ordinary-wolverine-98.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  position: relative;\n  transform: scale(2);\n  border-radius: 50%;\n  border: 1px solid;\n  width: 30px;\n  height: 30px;\n  color: white;\n}\n\n.loader::after {\n  position: absolute;\n  width: 0px;\n  height: 10px;\n  display: block;\n  border-left: 1px solid #fff;\n  content: '';\n  left: 14px;\n  border-radius: 1px;\n  top: 4px;\n  animation-duration: 1s;\n}\n\n.loader::before {\n  position: absolute;\n  width: 0px;\n  height: 10px;\n  display: block;\n  border-left: 1px solid #fff;\n  content: '';\n  left: 14px;\n  border-radius: 1px;\n  top: 4px;\n  animation-duration: 40s;\n}\n\n.loader::before,.loader::after {\n  transform-origin: bottom;\n  animation-name: dial;\n  animation-iteration-count: infinite;\n  animation-timing-function: linear;\n}\n\n@keyframes dial {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

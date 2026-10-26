@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vinodjangid07-splendid-bat-9-bc66d1",
+  "title": "Form by vinodjangid07 (splendid-bat-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/splendid-bat-9",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "purple",
+    "login",
+    "login-form"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/vinodjangid07_splendid-bat-9.html",
+  "code": "<form class=\"form_main\" action=\"\">\n    <p class=\"heading\">Login</p>\n    <div class=\"inputContainer\">\n        <svg viewBox=\"0 0 16 16\" fill=\"#2e2e2e\" height=\"16\" width=\"16\" xmlns=\"http://www.w3.org/2000/svg\" class=\"inputIcon\">\n        <path d=\"M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z\"></path>\n        </svg>\n    <input placeholder=\"Username\" id=\"username\" class=\"inputField\" type=\"text\">\n    </div>\n    \n<div class=\"inputContainer\">\n    <svg viewBox=\"0 0 16 16\" fill=\"#2e2e2e\" height=\"16\" width=\"16\" xmlns=\"http://www.w3.org/2000/svg\" class=\"inputIcon\">\n    <path d=\"M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z\"></path>\n    </svg>\n    <input placeholder=\"Password\" id=\"password\" class=\"inputField\" type=\"password\">\n</div>\n              \n           \n<button id=\"button\">Submit</button>\n    <div class=\"signupContainer\">\n        <p>Don't have any account?</p>\n        <a href=\"#\">Sign up</a>\n    </div>\n</form>\n\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: purple, form, login , login form */\n.form_main {\n  width: 280px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  background-color: rgb(255, 255, 255);\n  padding: 30px 30px 30px 30px;\n  border-radius: 30px;\n  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.062);\n}\n\n.heading {\n  font-size: 2.5em;\n  color: #2e2e2e;\n  font-weight: 700;\n  margin: 15px 0 30px 0;\n}\n\n.inputContainer {\n  width: 100%;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.inputIcon {\n  position: absolute;\n  left: 10px;\n}\n\n.inputField {\n  width: 100%;\n  height: 40px;\n  background-color: transparent;\n  border: none;\n  border-bottom: 2px solid rgb(173, 173, 173);\n  border-radius: 30px;\n  margin: 10px 0;\n  color: black;\n  font-size: .8em;\n  font-weight: 500;\n  box-sizing: border-box;\n  padding-left: 30px;\n}\n\n.inputField:focus {\n  outline: none;\n  border-bottom: 2px solid rgb(199, 114, 255);\n}\n\n.inputField::placeholder {\n  color: rgb(80, 80, 80);\n  font-size: 1em;\n  font-weight: 500;\n}\n\n#button {\n  position: relative;\n  width: 100%;\n  border: 2px solid #8000ff;\n  background-color: #8000ff;\n  height: 40px;\n  color: white;\n  font-size: .8em;\n  font-weight: 500;\n  letter-spacing: 1px;\n  border-radius: 30px;\n  margin: 10px;\n  cursor: pointer;\n  overflow: hidden;\n}\n\n#button::after {\n  content: \"\";\n  position: absolute;\n  background-color: rgba(255, 255, 255, 0.253);\n  height: 100%;\n  width: 150px;\n  top: 0;\n  left: -200px;\n  border-bottom-right-radius: 100px;\n  border-top-left-radius: 100px;\n  filter: blur(10px);\n  transition-duration: .5s;\n}\n\n#button:hover::after {\n  transform: translateX(600px);\n  transition-duration: .5s;\n}\n\n.signupContainer {\n  margin: 0;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 20px;\n}\n\n.signupContainer p {\n  font-size: .9em;\n  font-weight: 500;\n  color: black;\n}\n\n.signupContainer a {\n  font-size: .7em;\n  font-weight: 500;\n  background-color: #2e2e2e;\n  color: white;\n  text-decoration: none;\n  padding: 8px 15px;\n  border-radius: 20px;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

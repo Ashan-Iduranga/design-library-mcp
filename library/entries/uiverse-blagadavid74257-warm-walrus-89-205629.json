@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-blagadavid74257-warm-walrus-89-205629",
+  "title": "Loader by BlagaDavid74257 (warm-walrus-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/BlagaDavid74257/warm-walrus-89",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "tooltip",
+    "icon",
+    "animation",
+    "dark",
+    "theme"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By BlagaDavid74257 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/BlagaDavid74257_warm-walrus-89.html",
+  "code": "<div class=\"loading-container\">\n  <div class=\"loader\">\n    <div class=\"spinner\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by BlagaDavid74257  - Tags: tooltip, icon, animation, loader, dark, theme */\n.loading-container {\n  position: relative;\n  width: 100px;\n  height: 100px;\n}\n\n.loader {\n  width: 100px;\n  height: 100px;\n  border: 10px solid transparent;\n  border-top-color: #fff;\n  border-radius: 50%;\n  animation: spin 1s linear infinite;\n}\n\n.spinner {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 50px;\n  height: 50px;\n  background-color: #fff;\n  border-radius: 50%;\n  animation: pulse 1.5s infinite alternate;\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes pulse {\n  from {\n    transform: scale(1);\n    opacity: 1;\n  }\n  to {\n    transform: scale(1.2);\n    opacity: 0.5;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

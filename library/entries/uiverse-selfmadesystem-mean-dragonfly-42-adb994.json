@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-selfmadesystem-mean-dragonfly-42-adb994",
+  "title": "Loader by SelfMadeSystem (mean-dragonfly-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/mean-dragonfly-42",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "animated",
+    "google"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/SelfMadeSystem_mean-dragonfly-42.html",
+  "code": "<svg xmlns=\"://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" height=\"24\" width=\"24\">\n  <g id=\"a\">\n    <g style=\"--c1: 120; --c2: 0; --delay: -0.5s\">\n      <path id=\"b\">\n      </path>\n      <path id=\"c\">\n      </path>\n    </g>\n    <g style=\"--c1: 210; --c2: 60\" transform=\"rotate(180 12 12)\">\n      <path id=\"b\">\n      </path>\n      <path id=\"c\">\n      </path>\n    </g>\n  </g>\n</svg>\n<style>\n/* From Uiverse.io by SelfMadeSystem - Tags: animation, loader, animated, google */\n/* Google flip animation thing */\n\n#a {\n  transform-origin: center;\n  animation: a 2s step-end infinite;\n}\n\n@keyframes a {\n  0% {\n    transform: rotate(90deg);\n  }\n\n  25% {\n    transform: rotate(180deg);\n  }\n\n  50% {\n    transform: rotate(270deg);\n  }\n\n  75% {\n    transform: rotate(360deg);\n  }\n}\n\n#b {\n  animation: b1 1s linear infinite, b2 2s step-end infinite;\n  animation-delay: var(--delay, 0s);\n}\n\n@keyframes b1 {\n  0%,\n    100% {\n    d: path(\"M 0 12 a 12 12 0 0 1 24 0 a 12 12 0 0 0 -24 0\");\n  }\n\n  25%,\n    75% {\n    d: path(\"M 0 12 a 12 12 0 0 1 24 0 a 12 0 0 0 0 -24 0\");\n  }\n}\n\n@keyframes b2 {\n  0% {\n    fill: hsl(var(--c1), 100%, 43%);\n  }\n\n  50% {\n    fill: hsl(var(--c2), 100%, 43%);\n  }\n}\n\n#c {\n  animation: c1 1s linear infinite, c2 2s linear infinite;\n  animation-delay: var(--delay, 0s);\n}\n\n@keyframes c1 {\n  0%,\n    25%,\n    75%,\n    100% {\n    d: path(\"M 0 12 h 24 a 12 0  0 0 1 -24 0\");\n  }\n\n  50% {\n    d: path(\"M 0 12 h 24 a 12 12 0 0 1 -24 0\");\n  }\n}\n\n@keyframes c2 {\n  0%,\n    25% {\n    fill: hsl(var(--c1), 100%, 43%);\n  }\n\n  12.5%,\n    37.5% {\n    fill: hsl(var(--c1), 100%, 25%);\n  }\n\n  50%,\n    75% {\n    fill: hsl(var(--c2), 100%, 43%);\n  }\n\n  62.5%,\n    87.5% {\n    fill: hsl(var(--c2), 100%, 25%);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

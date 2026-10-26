@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-manish-tamang-quick-bulldog-81-1cb03c",
+  "title": "Checkbox by Manish-Tamang (quick-bulldog-81)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Manish-Tamang/quick-bulldog-81",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Manish-Tamang on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Manish-Tamang_quick-bulldog-81.html",
+  "code": "<!-- From Uiverse.io by Manish-Tamang  - Tags: checkbox, tailwind, tailwindcss -->\n<fieldset>\n  <legend class=\"sr-only\">Checkboxes</legend>\n\n  <div class=\"space-y-2\">\n    <label\n      class=\"flex cursor-pointer items-start gap-4 rounded-lg border border-gray-200 p-4 transition hover:bg-gray-50 has-[:checked]:bg-blue-50\"\n      for=\"Option1\"\n    >\n      <div class=\"flex items-center\">\n        ​\n        <input\n          id=\"Option1\"\n          class=\"size-4 rounded border-gray-300\"\n          type=\"checkbox\"\n        />\n      </div>\n\n      <div>\n        <strong class=\"font-medium text-gray-900\"> Manish Tamang</strong>\n\n        <p class=\"mt-1 text-pretty text-sm text-gray-700\">\n          Lorem ipsum dolor sit amet consectetur adipisicing elit.\n        </p>\n      </div>\n    </label>\n\n    <label\n      class=\"flex cursor-pointer items-start gap-4 rounded-lg border border-gray-200 p-4 transition hover:bg-gray-50 has-[:checked]:bg-blue-50\"\n      for=\"Option2\"\n    >\n      <div class=\"flex items-center\">\n        ​\n        <input\n          id=\"Option2\"\n          class=\"size-4 rounded border-gray-300\"\n          type=\"checkbox\"\n        />\n      </div>\n\n      <div>\n        <strong class=\"font-medium text-gray-900\"> Sajak Dhital </strong>\n\n        <p class=\"mt-1 text-pretty text-sm text-gray-700\">\n          Lorem ipsum dolor sit amet consectetur.\n        </p>\n      </div>\n    </label>\n\n    <label\n      class=\"flex cursor-pointer items-start gap-4 rounded-lg border border-gray-200 p-4 transition hover:bg-gray-50 has-[:checked]:bg-blue-50\"\n      for=\"Option3\"\n    >\n      <div class=\"flex items-center\">\n        ​\n        <input\n          id=\"Option3\"\n          class=\"size-4 rounded border-gray-300\"\n          type=\"checkbox\"\n        />\n      </div>\n\n      <div>\n        <strong class=\"text-pretty font-medium text-gray-900\">\n          Nishan Basnet</strong\n        >\n\n        <p class=\"mt-1 text-pretty text-sm text-gray-700\">\n          Lorem ipsum dolor sit amet consectetur adipisicing elit.\n        </p>\n      </div>\n    </label>\n  </div>\n</fieldset>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

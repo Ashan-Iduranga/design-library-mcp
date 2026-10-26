@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-arturcodecraft-witty-deer-63-dd0c5b",
+  "title": "Button by ArturCodeCraft (witty-deer-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ArturCodeCraft/witty-deer-63",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "links",
+    "btn"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ArturCodeCraft on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ArturCodeCraft_witty-deer-63.html",
+  "code": "<button class=\"menu__button\">\n  <span>Hover me!</span>\n</button>\n<style>\n/* From Uiverse.io by ArturCodeCraft - Tags: button, links, btn */\n/* <reset-style> ============================ */\nbutton {\n  border: none;\n  background: none;\n  padding: 0;\n  margin: 0;\n  cursor: pointer;\n  font-family: inherit;\n}\n/* <main-style> ============================ */\n.menu__button {\n  min-width: 62px;\n  height: 36px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 8px 16px;\n  border: 1px solid #fff;\n  background-color: transparent;\n  transition: background-color .4s;\n}\n\n.menu__button:hover {\n  background-color: #fff;\n}\n\n.menu__button span {\n  color: #fff;\n  line-height: 1;\n  transition: color .4s;\n}\n\n.menu__button:hover span {\n  color: #000;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

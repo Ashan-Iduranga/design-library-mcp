@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-typography-muted",
+  "title": "Typography Muted (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/typography-muted.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "typography",
+    "muted",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Styles for headings, paragraphs, lists, etc.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/typography-muted.tsx",
+  "code": "export default function TypographyMuted() {\n  return (\n    <p className=\"text-sm text-muted-foreground\">Enter your email address.</p>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

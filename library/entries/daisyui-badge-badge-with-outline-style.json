@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-badge-badge-with-outline-style",
+  "title": "Badge: Badge with outline style (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/badge/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "badge",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Badges are used to inform the user of the status of specific data.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/badge/+page.md",
+  "code": "<div class=\"badge badge-outline badge-primary\">Primary</div>\n<div class=\"badge badge-outline badge-secondary\">Secondary</div>\n<div class=\"badge badge-outline badge-accent\">Accent</div>\n<div class=\"badge badge-outline badge-info\">Info</div>\n<div class=\"badge badge-outline badge-success\">Success</div>\n<div class=\"badge badge-outline badge-warning\">Warning</div>\n<div class=\"badge badge-outline badge-error\">Error</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

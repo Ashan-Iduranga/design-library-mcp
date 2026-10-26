@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-hyuoniichan-proud-rat-96-8fe33f",
+  "title": "Loader by HyuOniichan (proud-rat-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/HyuOniichan/proud-rat-96",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By HyuOniichan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/HyuOniichan_proud-rat-96.html",
+  "code": "<div class=\"eye\">\n    <div class=\"up\"></div>\n    <div class=\"mid\"></div> \n    <div class=\"down\"></div> \n</div>\n<style>\n/* From Uiverse.io by HyuOniichan - Tags: loader */\n.eye {\n  width: 100px;\n  height: 60px;\n  position: relative;\n  z-index: 1;\n}\n\n.up {\n  position: absolute;\n  top: 0px;\n  height: 100px;\n  width: 100px;\n  border-width: 2px;\n  border-style: solid;\n  border-color: black transparent transparent transparent;\n  border-radius: 50%;\n  z-index: 1;\n}\n\n.down {\n  position: absolute;\n  top: -70px;\n  height: 100px;\n  width: 100px;\n  border-width: 2px;\n  border-style: solid;\n  border-color: transparent transparent black transparent;\n  border-radius: 50%;\n  z-index: 1;\n}\n\n.mid {\n  position: absolute;\n  top: 1px;\n  left: 39px;\n  width: 27px;\n  height: 27px;\n  border: none;\n  border-radius: 50%;\n  background-color: black;\n  z-index: 0;\n  animation: eyemove 4s infinite;\n}\n\n@keyframes eyemove {\n  0% {\n    left: 30px;\n    background-color: rgb(164, 213, 230);\n  }\n\n  50% {\n    left: 43px;\n    background-color: rgb(45, 187, 235);\n  }\n\n  100% {\n    left: 30px;\n    background-color: rgb(164, 213, 230);\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

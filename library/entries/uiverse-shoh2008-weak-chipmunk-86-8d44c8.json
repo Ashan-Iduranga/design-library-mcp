@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-weak-chipmunk-86-8d44c8",
+  "title": "Loader by Shoh2008 (weak-chipmunk-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/weak-chipmunk-86",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_weak-chipmunk-86.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  height: 150px;\n  width: 100px;\n  border-radius: 55px 55px 10px 10px;\n  position: relative;\n  background: #FF3D00;\n  background-image: linear-gradient(0deg,\n    #f63a99 25%,\n    #30dcf6 25%,\n    #30dcf6 25%,\n    #30dcf6 50%,\n    #f2d200 50%,\n    #f2d200 50%,\n    #f2d200 75%,\n    #70ca5c 75%);\n  background-position: 0px 0px;\n  background-size: auto 175px;\n  background-repeat: repeat-y;\n  animation: colorShift 6s linear infinite;\n}\n\n.loader:before {\n  content: '';\n  position: absolute;\n  left: 10px;\n  bottom: 15px;\n  width: 15px;\n  height: 100px;\n  border-radius: 50px;\n  background: rgba(255, 255, 255, 0.5);\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  top: 100%;\n  transform: translate(-50% , 0);\n  box-shadow: 0 15px 2px rgba(0, 0, 0, 0.25) inset;\n  width: 32px;\n  height: 45px;\n  background: #E09C5F;\n  border-radius: 0 0 12px 12px;\n}\n\n@keyframes colorShift {\n  to {\n    background-position: 0 175px\n  }\n}\n\n  \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bocikond-itchy-grasshopper-27-eb9381",
+  "title": "Button by bociKond (itchy-grasshopper-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/bociKond/itchy-grasshopper-27",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By bociKond on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/bociKond_itchy-grasshopper-27.html",
+  "code": "<button class=\"button\">\n      <span class=\"top\">\n        <p>Explore More</p>\n        <p class=\"before\">&nbsp;</p>\n      </span>\n      <span class=\"bottom\"> &nbsp; </span>\n    </button>\n<style>\n/* From Uiverse.io by bociKond - Source: https://www.leagueoflegends.com/en-gb/ I designed the button from the client application which button is for the Soul Fighter event - Tags: button, transition, transform */\n.button {\n  --white: #e8e8e8;\n  --border-clr: #fff;\n  --button-bg-clr: #151515;\n  display: grid;\n  grid-template-rows: 80% 20%;\n  background-color: var(--button-bg-clr);\n  border-width: 10px 3px 3px 3px;\n  border-color: var(--border-clr);\n  border-style: solid;\n  font-family: sans-serif;\n  font-weight: bolder;\n  font-size: 1.5rem;\n  cursor: pointer;\n  transition: 350ms ease-in-out;\n}\n\nbutton:hover {\n  --border-clr: #f55c1b;\n  transform: translate(-7px, -7px);\n}\n\nbutton:hover .top::before {\n  filter: saturate(1);\n  opacity: 1;\n}\n\nbutton:hover .top::after {\n  opacity: 0;\n}\n\n.top {\n  color: var(--white);\n  /* background-color: white; */\n  margin: 0.75rem 0.5rem;\n  padding: 0.5rem 2rem;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  isolation: isolate;\n  z-index: 1;\n}\n\n.top::before {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background: #f55c1b;\n  background: linear-gradient(0deg, #f55c1b 0%, #ffffff 100%);\n  filter: saturate(0);\n  z-index: -2;\n  transition: 350ms ease-in-out;\n  opacity: 0;\n}\n\n.top .before {\n  position: absolute;\n  inset: 2px;\n  z-index: -1;\n  background-color: var(--button-bg-clr);\n}\n\n.top::after {\n  content: \"\";\n  position: absolute;\n  inset: 0px;\n  background: var(--button-bg-clr);\n  filter: saturate(0);\n  z-index: -1;\n  transition: 350ms ease-in-out;\n  border: 2px solid var(--white);\n  transition: 350ms ease-in-out;\n}\n\n.bottom {\n  background: repeating-conic-gradient(\n    from 45deg,\n    #616161 0% 25%,\n    #3f3f3f 0% 50%\n  );\n  background-size: 16px 16px;\n  background-color: #3f3f3f;\n  background-position: center;\n  width: 100%;\n  height: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

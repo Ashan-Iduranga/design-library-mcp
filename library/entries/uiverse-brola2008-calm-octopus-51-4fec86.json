@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-brola2008-calm-octopus-51-4fec86",
+  "title": "Card by Brola2008 (calm-octopus-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Brola2008/calm-octopus-51",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "gradient",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Brola2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Brola2008_calm-octopus-51.html",
+  "code": "<div class=\"one-div\"></div>\n<style>\n/* From Uiverse.io by Brola2008 - Tags: gradient, card, box-shadow */\n.one-div {\n  width: 190px;\n  height: 250px;\n  background: linear-gradient(-45deg, rgb(9, 16, 109) ,  rgba(0,255,239,1));\n  border-radius: 20px;\n  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);\n  transition: 0.5s ease;\n}\n\n.one-div::after {\n  content: \"HOVER ME\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  font-weight: bold;\n  text-shadow: 1px 1px 4px rgb(0,0,0);\n  transition: .3s;\n}\n\n.one-div:hover {\n  scale: 1.1;\n  border-radius: 20px 80px;\n  box-shadow: 11px 11px 25px rgba(0, 0, 0, 0.5);\n}\n\n.one-div:hover::after {\n  content: \"THANKS\";\n  color: aqua;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

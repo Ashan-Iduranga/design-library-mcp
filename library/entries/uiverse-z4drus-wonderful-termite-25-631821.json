@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-z4drus-wonderful-termite-25-631821",
+  "title": "Button by Z4drus (wonderful-termite-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Z4drus/wonderful-termite-25",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "3d",
+    "action",
+    "minimalist",
+    "white",
+    "black",
+    "smooth"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Z4drus on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Z4drus_wonderful-termite-25.html",
+  "code": "<div class=\"button-container\">\n  <button class=\"button-3d\">\n    <div class=\"button-top\">\n      <span class=\"material-icons\">\n        <svg\n          xmlns=\"http://www.w3.org/2000/svg\"\n          fill=\"none\"\n          viewBox=\"0 0 24 24\"\n          height=\"22\"\n          width=\"22\"\n        >\n          <path\n            stroke-linejoin=\"round\"\n            stroke-linecap=\"round\"\n            stroke-width=\"1.5\"\n            stroke=\"#292D32\"\n            d=\"M7.4 6.32l8.49-2.83c3.81-1.27 5.88.81 4.62 4.62l-2.83 8.49c-1.9 5.71-5.02 5.71-6.92 0l-.84-2.52-2.52-.84c-5.71-1.9-5.71-5.01 0-6.92zm2.71 7.33l3.58-3.59\"\n          ></path>\n        </svg>\n      </span>\n      <span class=\"button-text\">Send Message</span>\n    </div>\n    <div class=\"button-bottom\"></div>\n    <div class=\"button-base\"></div>\n  </button>\n</div>\n\n<style>\n/* From Uiverse.io by Z4drus  - Tags: simple, 3d, action, minimalist, white, black, button, smooth */\n.button-container {\n  display: flex;\n  justify-content: center;\n  margin: 20px;\n}\n\n.material-icons {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.button-text {\n  margin-left: 6px;\n  font-weight: 600;\n  color: black;\n}\n\n.button-3d {\n  -webkit-appearance: none;\n  appearance: none;\n  position: relative;\n  border-width: 0;\n  padding: 0 8px;\n  min-width: 4em;\n  min-height: 4em;\n  box-sizing: border-box;\n  background: transparent;\n  font: inherit;\n  cursor: pointer;\n  margin: 10px;\n  border-radius: 20px;\n}\n\n.button-top {\n  display: flex;\n\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  z-index: 2;\n  padding: 10px 10px;\n  transform: translateY(0);\n  background-image: linear-gradient(to bottom, #e7e7e775, #ffffff);\n  border-radius: 20px;\n  transition: transform 0.3s, border-radius 0.3s, background 10s;\n}\n\n.button-3d:active .button-top {\n  border-radius: 10px 10px 8px 8px / 8px;\n  transform: translateY(2px);\n  background-image: linear-gradient(to bottom, #ffffff, #e7e7e7);\n}\n\n.button-bottom {\n  position: absolute;\n  z-index: 1;\n  bottom: 4px;\n  left: 4px;\n  border-radius: 10px;\n  padding-top: 10px;\n  width: calc(100% - 8px);\n  height: calc(100% - 10px);\n  background-image: linear-gradient(to bottom, #ffffff, #e7e7e7);\n  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);\n  transition: border-radius 0.2s, padding-top 0.2s;\n}\n\n.button-3d:active .button-bottom {\n  border-radius: 10px 10px 8px 8px / 8px;\n  padding-top: 0;\n}\n\n.button-3d:active .button-base {\n  border-radius: 10px 10px 8px 8px / 8px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

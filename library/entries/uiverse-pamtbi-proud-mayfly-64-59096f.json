@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-pamtbi-proud-mayfly-64-59096f",
+  "title": "Button by pamtbi (proud-mayfly-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/pamtbi/proud-mayfly-64",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "minecraft"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By pamtbi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/pamtbi_proud-mayfly-64.html",
+  "code": "<button class=\"button\">\n <span class=\"span\">click on me</span>\n        <div class=\"button__bg button__bg-1\"></div>\n        <div class=\"button__bg button__bg-2\"></div>\n        <div class=\"button__bg button__bg-3\"></div>\n        <div class=\"button__bg button__bg-4\"></div>\n        <div class=\"button__bg button__bg-5\"></div>\n        <div class=\"button__bg button__bg-6\"></div>\n        <div class=\"button__bg button__bg-7\"></div>\n        <div class=\"button__bg button__bg-8\"></div>\n        <div class=\"button__bg button__bg-9\"></div>\n        <div class=\"button__bg button__bg-10\"></div>\n        <div class=\"button__bg button__bg-11\"></div>\n        <div class=\"button__bg button__bg-12\"></div>\n        <div class=\"button__bg button__bg-13\"></div>\n        <div class=\"button__bg button__bg-14\"></div>\n        <div class=\"button__bg button__bg-15\"></div>\n        <div class=\"button__bg button__bg-16\"></div>\n        <div class=\"button__bg button__bg-17\"></div>\n        <div class=\"button__bg button__bg-18\"></div>\n        <div class=\"button__bg button__bg-19\"></div>\n        <div class=\"button__bg button__bg-20\"></div>\n        <div class=\"button__bg button__bg-21\"></div>\n        <div class=\"button__bg button__bg-22\"></div>\n        <div class=\"button__bg button__bg-23\"></div>\n        <div class=\"button__bg button__bg-24\"></div>\n    </button>\n<style>\n/* From Uiverse.io by pamtbi - Tags: button, minecraft */\n.button {\n  display: grid;\n  grid-template-columns: repeat(6, 1fr);\n  grid-template-rows: repeat(4, 1fr);\n  width: 70px;\n  aspect-ratio: 3 / 2;\n  border: none;\n  border-radius: 0px;\n  margin: 0 auto;\n  padding: 0;\n  box-shadow: 0px 5px 0px 0px rgb(102,102,102);\n  transition: all .15s;\n  position: relative;\n  padding: 0\n}\n\n.button:hover {\n  transform: translateY(-1px);\n}\n\n.button:active {\n  box-shadow: none;\n  transform: translateY(5px);\n}\n\n.button__bg {\n  height: 100%;\n  aspect-ratio: 1 / 1;\n  align-self: stretch;\n}\n\n.button__bg-1, .button__bg-7, .button__bg-13, .button__bg-20, .button__bg-19, .button__bg-8, .button__bg-9, .button__bg-10, .button__bg-12 {\n  background: #494949;\n}\n\n.button__bg-6, .button__bg-4, .button__bg-5, .button__bg-14, .button__bg-15, .button__bg-16, .button__bg-21 {\n  background: #505050;\n}\n\n.button__bg-2, .button__bg-3, .button__bg-18, .button__bg-17 {\n  background: #5a5a5a;\n}\n\n.button__bg-11, .button__bg-22 {\n  background: #414141;\n}\n\n.button__bg-23, .button__bg-24 {\n  background: #535353;\n}\n\n.span {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  font-size: 9px;\n  width: 100%;\n  color: rgb(223, 217, 189);\n  display: block;\n  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

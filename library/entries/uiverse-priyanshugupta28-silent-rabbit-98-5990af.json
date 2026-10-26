@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-priyanshugupta28-silent-rabbit-98-5990af",
+  "title": "Checkbox by PriyanshuGupta28 (silent-rabbit-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/silent-rabbit-98",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "cool-checkbox",
+    "checkmark"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/PriyanshuGupta28_silent-rabbit-98.html",
+  "code": "<label>\n    <input type=\"checkbox\" class=\"input\">\n    <span class=\"custom-checkbox\"></span>\n  </label>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: checkbox, cool checkbox, checkmark */\n.input[type=\"checkbox\"] {\n  display: none;\n}\n\n\n  /* Style for the custom checkbox */\n.custom-checkbox {\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  border: 2px solid #333;\n  border-radius: 4px;\n  position: relative;\n  cursor: pointer;\n}\n\n  /* Style for the custom checkmark */\n.custom-checkbox::after {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 10px;\n  height: 10px;\n  background-color: #333;\n  border-radius: 2px;\n  opacity: 0;\n}\n\n  /* Show the checkmark when checkbox is checked */\n.input[type=\"checkbox\"]:checked + .custom-checkbox::after {\n  opacity: 1;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

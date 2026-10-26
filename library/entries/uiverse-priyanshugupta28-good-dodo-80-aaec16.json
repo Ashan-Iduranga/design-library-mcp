@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-priyanshugupta28-good-dodo-80-aaec16",
+  "title": "Form by PriyanshuGupta28 (good-dodo-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/good-dodo-80",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "subscriptions-card",
+    "email-card"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/PriyanshuGupta28_good-dodo-80.html",
+  "code": "<div class=\"newsletter-form\">\n    <p class=\"heading\"> Subscribe to Our Newsletter</p>\n    <form class=\"form\">\n      <label for=\"email\">Email:</label>\n      <input required=\"\" placeholder=\"Enter your email address\" name=\"email\" id=\"email\" type=\"email\">\n      <input value=\"Subscribe\" type=\"submit\">\n    </form>\n  </div>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: form, subscriptions card, email card */\n/* Unique styles for the newsletter form */\n.newsletter-form {\n  max-width: 400px;\n  margin: 0 auto;\n  padding: 20px;\n  border: 2px solid #333;\n  border-radius: 8px;\n  background-color: #f7f7f7;\n  font-family: Arial, sans-serif;\n  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;\n}\n\n.heading {\n  font-weight: bold;\n  font-size: 20px;\n}\n\n.newsletter-form h2 {\n  margin-top: 0;\n  color: #333;\n  font-size: 24px;\n}\n\n.newsletter-form label {\n  display: block;\n  font-weight: bold;\n  color: #666;\n  margin-bottom: 10px;\n}\n\n.newsletter-form input[type=\"email\"] {\n  width: 100%;\n  padding: 10px;\n  margin-bottom: 10px;\n  border: 1px solid #ccc;\n  border-radius: 4px;\n}\n\n.newsletter-form input[type=\"submit\"] {\n  width: 100%;\n  padding: 10px;\n  border: none;\n  border-radius: 4px;\n  background-color: #ff6600;\n  color: #fff;\n  font-weight: bold;\n  cursor: pointer;\n}\n\n.newsletter-form input[type=\"submit\"]:hover {\n  background-color: #ff8533;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

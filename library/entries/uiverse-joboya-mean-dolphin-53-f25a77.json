@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-joboya-mean-dolphin-53-f25a77",
+  "title": "Checkbox by JOBOYA (mean-dolphin-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JOBOYA/mean-dolphin-53",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JOBOYA on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/JOBOYA_mean-dolphin-53.html",
+  "code": "<label class=\"checkbox\">\n  <input type=\"checkbox\">\n  <span class=\"checkmark\"></span>\n  <span class=\"text\">Agree</span>\n</label>\n\n<style>\n/* From Uiverse.io by JOBOYA - Tags: checkbox */\n.checkbox {\n  position: relative;\n  display: inline-block;\n  cursor: pointer;\n  font-size: 16px;\n  color: #666;\n  line-height: 1.5;\n  margin-bottom: 20px;\n  font-family: Arial, sans-serif;\n  user-select: none;\n}\n\n.checkbox input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n}\n\n.checkmark {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 30px;\n  width: 30px;\n  border: 2px solid #666;\n  border-radius: 5px;\n  transition: all 0.2s ease-in-out;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n}\n\n.checkbox:hover .checkmark {\n  transform: translateX(-20px) translateY(-2px) rotate(10deg);\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);\n}\n\n.checkbox input:checked ~ .checkmark {\n  background-color: #666;\n  border-color: #666;\n}\n\n.checkbox input:checked ~ .checkmark:before {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 8px;\n  height: 14px;\n  border: solid #fff;\n  border-width: 0 2px 2px 0;\n  transform: translate(-50%, -50%) rotate(45deg);\n}\n\n.text {\n  margin-left: 40px;\n  display: inline-block;\n  transition: all 0.2s ease-in-out;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

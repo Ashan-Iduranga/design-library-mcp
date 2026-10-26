@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-alert-demo",
+  "title": "Alert Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/alert-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "alert",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Displays a callout for user attention.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/alert-demo.tsx",
+  "code": "import { AlertCircleIcon, CheckCircle2Icon, PopcornIcon } from \"lucide-react\"\n\nimport {\n  Alert,\n  AlertDescription,\n  AlertTitle,\n} from \"@/registry/new-york-v4/ui/alert\"\n\nexport default function AlertDemo() {\n  return (\n    <div className=\"grid w-full max-w-xl items-start gap-4\">\n      <Alert>\n        <CheckCircle2Icon />\n        <AlertTitle>Success! Your changes have been saved</AlertTitle>\n        <AlertDescription>\n          This is an alert with icon, title and description.\n        </AlertDescription>\n      </Alert>\n      <Alert>\n        <PopcornIcon />\n        <AlertTitle>\n          This Alert has a title and an icon. No description.\n        </AlertTitle>\n      </Alert>\n      <Alert variant=\"destructive\">\n        <AlertCircleIcon />\n        <AlertTitle>Unable to process your payment.</AlertTitle>\n        <AlertDescription>\n          <p>Please verify your billing information and try again.</p>\n          <ul className=\"list-inside list-disc text-sm\">\n            <li>Check your card details</li>\n            <li>Ensure sufficient funds</li>\n            <li>Verify billing address</li>\n          </ul>\n        </AlertDescription>\n      </Alert>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

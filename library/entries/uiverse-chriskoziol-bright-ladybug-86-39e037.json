@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-chriskoziol-bright-ladybug-86-39e037",
+  "title": "Loader by Chriskoziol (bright-ladybug-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Chriskoziol/bright-ladybug-86",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "loading",
+    "active",
+    "circle",
+    "animated",
+    "clean"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Chriskoziol on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Chriskoziol_bright-ladybug-86.html",
+  "code": "<div class=\"spinnerContainer\">\n  <div class=\"spinner\"></div>\n  <div class=\"loader\">\n    <p>loading</p>\n    <div class=\"words\">\n      <span class=\"word\">posts</span>\n      <span class=\"word\">images</span>\n      <span class=\"word\">followers</span>\n      <span class=\"word\">hashtags</span>\n      <span class=\"word\">posts</span>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Chriskoziol - Tags: animation, loading, active, loader, circle, animated, clean */\n.spinnerContainer {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.spinner {\n  width: 56px;\n  height: 56px;\n  display: grid;\n  border: 4px solid #0000;\n  border-radius: 50%;\n  border-right-color: #299fff;\n  animation: tri-spinner 1s infinite linear;\n}\n\n.spinner::before,\n.spinner::after {\n  content: \"\";\n  grid-area: 1/1;\n  margin: 2px;\n  border: inherit;\n  border-radius: 50%;\n  animation: tri-spinner 2s infinite;\n}\n\n.spinner::after {\n  margin: 8px;\n  animation-duration: 3s;\n}\n\n@keyframes tri-spinner {\n  100% {\n    transform: rotate(1turn);\n  }\n}\n\n.loader {\n  color: #4a4a4a;\n  font-family: \"Poppins\",sans-serif;\n  font-weight: 500;\n  font-size: 25px;\n  -webkit-box-sizing: content-box;\n  box-sizing: content-box;\n  height: 40px;\n  padding: 10px 10px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  border-radius: 8px;\n}\n\n.words {\n  overflow: hidden;\n}\n\n.word {\n  display: block;\n  height: 100%;\n  padding-left: 6px;\n  color: #299fff;\n  animation: cycle-words 5s infinite;\n}\n\n@keyframes cycle-words {\n  10% {\n    -webkit-transform: translateY(-105%);\n    transform: translateY(-105%);\n  }\n\n  25% {\n    -webkit-transform: translateY(-100%);\n    transform: translateY(-100%);\n  }\n\n  35% {\n    -webkit-transform: translateY(-205%);\n    transform: translateY(-205%);\n  }\n\n  50% {\n    -webkit-transform: translateY(-200%);\n    transform: translateY(-200%);\n  }\n\n  60% {\n    -webkit-transform: translateY(-305%);\n    transform: translateY(-305%);\n  }\n\n  75% {\n    -webkit-transform: translateY(-300%);\n    transform: translateY(-300%);\n  }\n\n  85% {\n    -webkit-transform: translateY(-405%);\n    transform: translateY(-405%);\n  }\n\n  100% {\n    -webkit-transform: translateY(-400%);\n    transform: translateY(-400%);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

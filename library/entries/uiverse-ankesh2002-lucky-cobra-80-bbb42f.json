@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ankesh2002-lucky-cobra-80-bbb42f",
+  "title": "Loader by Ankesh2002 (lucky-cobra-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Ankesh2002/lucky-cobra-80",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Ankesh2002 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Ankesh2002_lucky-cobra-80.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Ankesh2002 - Tags: loader */\n.loader {\n  position: relative;\n  width: 164px;\n  height: 164px;\n}\n\n.loader::before , .loader::after {\n  content: '';\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: #00bd26;\n  left: 50%;\n  top: 50%;\n  animation: rotate 1s ease-in infinite;\n}\n\n.loader::after {\n  width: 20px;\n  height: 20px;\n  background-color: #00bd26;\n  animation: rotate 1s ease-in infinite, moveY 1s ease-in infinite;\n}\n\n@keyframes moveY {\n  0% , 100% {\n    top: 10%\n  }\n\n  45% , 55% {\n    top: 59%\n  }\n\n  60% {\n    top: 40%\n  }\n}\n\n@keyframes rotate {\n  0% {\n    transform: translate(-50%, -100%) rotate(0deg) scale(1 , 1)\n  }\n\n  25% {\n    transform: translate(-50%, 0%) rotate(180deg) scale(1 , 1)\n  }\n\n  45% , 55% {\n    transform: translate(-50%, 100%) rotate(180deg) scale(3 , 0.5)\n  }\n\n  60% {\n    transform: translate(-50%, 100%) rotate(180deg) scale(1, 1)\n  }\n\n  75% {\n    transform: translate(-50%, 0%) rotate(270deg) scale(1 , 1)\n  }\n\n  100% {\n    transform: translate(-50%, -100%) rotate(360deg) scale(1 , 1)\n  }\n}\n    \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

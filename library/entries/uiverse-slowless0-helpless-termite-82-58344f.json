@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-slowless0-helpless-termite-82-58344f",
+  "title": "Radio by SlowLess0 (helpless-termite-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SlowLess0/helpless-termite-82",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SlowLess0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/SlowLess0_helpless-termite-82.html",
+  "code": "<div>\n\n  <label class=\"rad-label\">\n    <input type=\"radio\" class=\"rad-input\" name=\"rad\">\n    <div class=\"rad-design\"></div>\n    <div class=\"rad-text\">Air</div>\n  </label>\n\n  <label class=\"rad-label\">\n    <input type=\"radio\" class=\"rad-input\" name=\"rad\">\n    <div class=\"rad-design\"></div>\n    <div class=\"rad-text\">Earth</div>\n  </label>\n\n  <label class=\"rad-label\">\n    <input type=\"radio\" class=\"rad-input\" name=\"rad\">\n    <div class=\"rad-design\"></div>\n    <div class=\"rad-text\">Water</div>\n  </label>\n\n</div>\n<style>\n/* From Uiverse.io by SlowLess0 - Tags: radio */\n.rad-label {\n  display: flex;\n  padding: 14px 16px;\n  margin: 10px 0;\n  border-radius: 100px;\n  cursor: pointer;\n  transition: 0.3s;\n}\n\n.rad-label:hover, .rad-label:focus-within {\n  background: hsla(0, 0%, 40%, .14);\n}\n\n.rad-input {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 1px;\n  height: 1px;\n  opacity: 0;\n  z-index: -1;\n}\n\n.rad-design {\n  width: 22px;\n  height: 22px;\n  border-radius: 100px;\n  background: linear-gradient(to right bottom, hsl(172, 97%, 62%), hsl(251, 97%, 62%));\n  position: relative;\n}\n\n.rad-design::before {\n  content: '';\n  display: inline-block;\n  width: inherit;\n  height: inherit;\n  border-radius: inherit;\n  background: hsl(0, 0%, 80%);\n  transform: scale(1.1);\n  transition: .3s;\n}\n\n.rad-input:checked+.rad-design::before {\n  transform: scale(0);\n}\n\n.rad-text {\n  color: hsl(0, 0%, 60%);\n  margin-left: 14px;\n  letter-spacing: 3px;\n  text-transform: uppercase;\n  font-size: 18px;\n  font-weight: 900;\n  transition: .3s;\n}\n\n.rad-input:checked~.rad-text {\n  color: hsl(0, 0%, 40%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-doniaskima-fluffy-bulldog-70-15e7e4",
+  "title": "Button by doniaskima (fluffy-bulldog-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/fluffy-bulldog-70",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "offset"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/doniaskima_fluffy-bulldog-70.html",
+  "code": "<button class=\"btn-57\">Button</button>\n\n<style>\n/* From Uiverse.io by doniaskima - Tags: button, offset */\n.btn-57,\n.btn-57 *,\n.btn-57 :after,\n.btn-57 :before,\n.btn-57:after,\n.btn-57:before {\n  border: 0 solid;\n  box-sizing: border-box;\n}\n\n.btn-57 {\n  -webkit-tap-highlight-color: transparent;\n  -webkit-appearance: button;\n  background-color: #000;\n  background-image: none;\n  color: #fff;\n  cursor: pointer;\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,\n    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,\n    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;\n  font-size: 100%;\n  line-height: 1.5;\n  margin: 0;\n  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);\n  padding: 0;\n}\n\n.btn-57:disabled {\n  cursor: default;\n}\n\n.btn-57:-moz-focusring {\n  outline: auto;\n}\n\n.btn-57 svg {\n  display: block;\n  vertical-align: middle;\n}\n\n.btn-57 [hidden] {\n  display: none;\n}\n\n.btn-57 {\n  background: none;\n  border: 3px solid;\n  border-radius: 999px;\n  box-sizing: border-box;\n  color: #000;\n  display: block;\n  font-weight: 900;\n  -webkit-mask-image: none;\n  padding: 20px 60px;\n  position: relative;\n  text-transform: uppercase;\n}\n\n.btn-57:before {\n  background: #fff;\n  border-radius: 999px;\n  content: \"\";\n  inset: 0;\n  position: absolute;\n  transform: translate(10px, 10px);\n  transition: transform 0.2s;\n  z-index: -1;\n}\n\n.btn-57:hover:before {\n  transform: translate(0);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

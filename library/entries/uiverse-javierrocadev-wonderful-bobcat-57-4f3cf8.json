@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-javierrocadev-wonderful-bobcat-57-4f3cf8",
+  "title": "Card by Javierrocadev (wonderful-bobcat-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/wonderful-bobcat-57",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "star",
+    "rotate",
+    "hover-effect",
+    "trophy",
+    "winner"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Javierrocadev_wonderful-bobcat-57.html",
+  "code": "<div class=\"container\">\n   <svg class=\"svg-icon\" height=\"100\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 100 100\" width=\"100\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\">\n    <path d=\"M62.11,53.93c22.582-3.125,22.304-23.471,18.152-29.929-4.166-6.444-10.36-2.153-10.36-2.153v-4.166H30.099v4.166s-6.194-4.291-10.36,2.153c-4.152,6.458-4.43,26.804,18.152,29.929l5.236,7.777v8.249s-.944,4.597-4.833,4.986c-3.903,.389-7.791,4.028-7.791,7.374h38.997c0-3.347-3.889-6.986-7.791-7.374-3.889-.389-4.833-4.986-4.833-4.986v-8.249l5.236-7.777Zm7.388-24.818s2.833-3.097,5.111-1.347c2.292,1.75,2.292,15.86-8.999,18.138l3.889-16.791Zm-44.108-1.347c2.278-1.75,5.111,1.347,5.111,1.347l3.889,16.791c-11.291-2.278-11.291-16.388-8.999-18.138Z\">\n    </path>\n  </svg>  \n  <div class=\"container__star\">\n     \n    <div class=\"star-eight\"></div>\n  </div>\n  \n<div></div></div>\n<style>\n/* From Uiverse.io by Javierrocadev - Tags: card, star, rotate, hover effect, trophy, winner */\n.container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: 5em;\n  font-weight: 900;\n  color: #e10600;\n  position: relative;\n  transition: all 1s ease;\n  text-align: center;\n}\n\n.container__star {\n  transition: all .7s ease-in-out;\n}\n\n.first {\n  position: absolute;\n  top: 20px;\n  left: 50px;\n  transition: all .7s ease-in-out;\n}\n\n.svg-icon {\n  position: absolute;\n  fill: #e94822;\n  z-index: 1;\n}\n\n.star-eight {\n  background: #efd510;\n  width: 150px;\n  height: 150px;\n  position: relative;\n  text-align: center;\n  animation: rot 3s  infinite;\n}\n\n.star-eight::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 150px;\n  width: 150px;\n  background: #efd510;\n  transform: rotate(135deg);\n}\n\n.container:hover .container__star {\n  transform: rotateX(70deg) translateY(250px);\n  box-shadow: 0px 0px 120px -100px #e4e727;\n}\n\n.container:hover .svg-icon {\n  animation: grow 1s linear infinite;\n}\n\n@keyframes rot {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  50% {\n    transform: rotate(340deg);\n  }\n\n  100% {\n    transform: rotate(0deg);\n  }\n}\n\n@keyframes grow {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  25% {\n    transform: rotate(-5deg);\n  }\n\n  75% {\n    transform: rotate(5deg);\n  }\n\n  100% {\n    transform: scale(1) rotate(0deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

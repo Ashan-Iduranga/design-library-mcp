@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-cybercom682-jolly-liger-24-27995e",
+  "title": "Radio by Cybercom682 (jolly-liger-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cybercom682/jolly-liger-24",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "shadow",
+    "futuristic"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cybercom682 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Cybercom682_jolly-liger-24.html",
+  "code": "<!-- From Uiverse.io by Cybercom682  - Tags: shadow, radio, futuristic -->\n<div class=\"flex flex-col space-y-4 p-5\">\n  <label class=\"relative flex items-center cursor-pointer\">\n    <input\n      checked=\"\"\n      class=\"sr-only peer\"\n      name=\"futuristic-radio\"\n      type=\"radio\"\n    />\n    <div\n      class=\"w-6 h-6 bg-transparent border-2 border-red-500 rounded-full peer-checked:bg-red-500 peer-checked:border-red-500 peer-hover:shadow-lg peer-hover:shadow-red-500/50 peer-checked:shadow-lg peer-checked:shadow-red-500/50 transition duration-300 ease-in-out\"\n    ></div>\n    <span class=\"ml-2 text-white\">Hard</span>\n  </label>\n  <label class=\"relative flex items-center cursor-pointer\">\n    <input class=\"sr-only peer\" name=\"futuristic-radio\" type=\"radio\" />\n    <div\n      class=\"w-6 h-6 bg-transparent border-2 border-yellow-500 rounded-full peer-checked:bg-yellow-500 peer-checked:border-yellow-500 peer-hover:shadow-lg peer-hover:shadow-yellow-500/50 peer-checked:shadow-lg peer-checked:shadow-yellow-500/50 transition duration-300 ease-in-out\"\n    ></div>\n    <span class=\"ml-2 text-white\">Normal</span>\n  </label>\n  <label class=\"relative flex items-center cursor-pointer\">\n    <input class=\"sr-only peer\" name=\"futuristic-radio\" type=\"radio\" />\n    <div\n      class=\"w-6 h-6 bg-transparent border-2 border-green-500 rounded-full peer-checked:bg-green-500 peer-checked:border-green-500 peer-hover:shadow-lg peer-hover:shadow-green-500/50 peer-checked:shadow-lg peer-checked:shadow-green-500/50 transition duration-300 ease-in-out\"\n    ></div>\n    <span class=\"ml-2 text-white\">Easy</span>\n  </label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

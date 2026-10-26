@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-jamik-dev-shaggy-cheetah-22-663546",
+  "title": "Input by jamik-dev (shaggy-cheetah-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/jamik-dev/shaggy-cheetah-22",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "tooltip",
+    "animation",
+    "smooth",
+    "focus",
+    "recent-search"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By jamik-dev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/jamik-dev_shaggy-cheetah-22.html",
+  "code": "<!-- From Uiverse.io by jamik-dev  - Tags: tooltip, animation, input, smooth, focus, recent search, input, tooltip -->\n<div class=\"relative w-2/3 -mt-20\">\n  <input\n    class=\"w-full peer z-[21] px-6 py-4 rounded-xl outline-none duration-200 ring-2 ring-[transparent] focus:ring-[#11BE86]\"\n    color=\"white\"\n    size=\"xl\"\n    placeholder=\"Focus me\"\n  />\n  <div\n    class=\"opacity-0 -translate-y-2 peer-focus:translate-y-0 pointer-events-none peer-focus:pointer-events-auto duration-200 peer-focus:opacity-100 absolute top-16 w-full z-[500] left-0 rounded-xl border border-white-222 p-4 bg-white shadow-lg\"\n  >\n    <p class=\"font-semibold text-xs text-[#5D5D5F]\">LAST SEARCHES</p>\n    <ul class=\"flex gap-2 flex-col mt-2\">\n      <li\n        class=\"px-2 cursor-pointer text-sm hover:bg-green-100 py-2 rounded-lg\"\n      >\n        Something you've searched before\n      </li>\n      <li\n        class=\"px-2 cursor-pointer text-sm hover:bg-green-100 py-2 rounded-lg\"\n      >\n        Something you've searched before\n      </li>\n    </ul>\n\n    <p class=\"font-semibold text-xs text-[#5D5D5F] mt-4\">EXTENDED SEARCHES</p>\n    <ul class=\"flex gap-2 mt-4\">\n      <li\n        class=\"grid grid-cols-10 cursor-pointer border border-[#E7EDFB] rounded-xl overflow-hidden group\"\n      >\n        <div class=\"col-span-3 overflow-hidden\">\n          <p class=\"text-green-300 mt-10 ml-2\">YOUR IMAGE HERE</p>\n        </div>\n        <div class=\"col-span-7 p-3 flex flex-col justify-between\">\n          <h4\n            class=\"text-base duration-200 group-hover:text-[#11BE86] font-medium text-black line-clamp-2\"\n          >\n            Your text here\n          </h4>\n          <div class=\"flex justify-between items-center mt-4\">\n            <p class=\"flex text-sm gap-2 text-[#9A999B] items-center\">\n              <svg\n                xmlns=\"http://www.w3.org/2000/svg\"\n                fill=\"none\"\n                viewBox=\"0 0 24 24\"\n                stroke-width=\"1.5\"\n                stroke=\"currentColor\"\n                class=\"w-4 h-4\"\n              >\n                <path\n                  stroke-linecap=\"round\"\n                  stroke-linejoin=\"round\"\n                  d=\"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5\"\n                ></path>\n              </svg>\n              18.04.2024\n            </p>\n            <p class=\"flex text-sm gap-1 text-[#9A999B] items-center\">\n              <svg\n                xmlns=\"http://www.w3.org/2000/svg\"\n                fill=\"none\"\n                viewBox=\"0 0 24 24\"\n                stroke-width=\"1.5\"\n                stroke=\"currentColor\"\n                class=\"w-4 h-4\"\n              >\n                <path\n                  stroke-linecap=\"round\"\n                  stroke-linejoin=\"round\"\n                  d=\"M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z\"\n                ></path>\n                <path\n                  stroke-linecap=\"round\"\n                  stroke-linejoin=\"round\"\n                  d=\"M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z\"\n                ></path>\n              </svg>\n              806\n            </p>\n          </div>\n        </div>\n      </li>\n    </ul>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

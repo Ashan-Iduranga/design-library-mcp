@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-field-slider",
+  "title": "Field Slider (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/field-slider.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "field",
+    "slider",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Combine labels, controls, and help text to compose accessible form fields and grouped inputs.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/field-slider.tsx",
+  "code": "\"use client\"\n\nimport { useState } from \"react\"\n\nimport {\n  Field,\n  FieldDescription,\n  FieldTitle,\n} from \"@/registry/new-york-v4/ui/field\"\nimport { Slider } from \"@/registry/new-york-v4/ui/slider\"\n\nexport default function FieldSlider() {\n  const [value, setValue] = useState([200, 800])\n  return (\n    <div className=\"w-full max-w-md\">\n      <Field>\n        <FieldTitle>Price Range</FieldTitle>\n        <FieldDescription>\n          Set your budget range ($\n          <span className=\"font-medium tabular-nums\">{value[0]}</span> -{\" \"}\n          <span className=\"font-medium tabular-nums\">{value[1]}</span>).\n        </FieldDescription>\n        <Slider\n          value={value}\n          onValueChange={setValue}\n          max={1000}\n          min={0}\n          step={10}\n          className=\"mt-2 w-full\"\n          aria-label=\"Price Range\"\n        />\n      </Field>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

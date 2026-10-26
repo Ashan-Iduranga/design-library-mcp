@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-nasty-wolverine-41-236f65",
+  "title": "Form by Yaya12085 (nasty-wolverine-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/nasty-wolverine-41",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Yaya12085_nasty-wolverine-41.html",
+  "code": "<form class=\"form\">\n  <span class=\"form-title\">Upload your file</span>\n  <p class=\"form-paragraph\">\n      File should be an image\n    </p>\n   <label for=\"file-input\" class=\"drop-container\">\n  <span class=\"drop-title\">Drop files here</span>\n  or\n  <input type=\"file\" accept=\"image/*\" required=\"\" id=\"file-input\">\n</label>\n</form>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: form */\n.form {\n  background-color: #fff;\n  box-shadow: 0 10px 60px rgb(218, 229, 255);\n  border: 1px solid rgb(159, 159, 160);\n  border-radius: 20px;\n  padding: 2rem .7rem .7rem .7rem;\n  text-align: center;\n  font-size: 1.125rem;\n  max-width: 320px;\n}\n\n.form-title {\n  color: #000000;\n  font-size: 1.8rem;\n  font-weight: 500;\n}\n\n.form-paragraph {\n  margin-top: 10px;\n  font-size: 0.9375rem;\n  color: rgb(105, 105, 105);\n}\n\n.drop-container {\n  background-color: #fff;\n  position: relative;\n  display: flex;\n  gap: 10px;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding: 10px;\n  margin-top: 2.1875rem;\n  border-radius: 10px;\n  border: 2px dashed rgb(171, 202, 255);\n  color: #444;\n  cursor: pointer;\n  transition: background .2s ease-in-out, border .2s ease-in-out;\n}\n\n.drop-container:hover {\n  background: rgba(0, 140, 255, 0.164);\n  border-color: rgba(17, 17, 17, 0.616);\n}\n\n.drop-container:hover .drop-title {\n  color: #222;\n}\n\n.drop-title {\n  color: #444;\n  font-size: 20px;\n  font-weight: bold;\n  text-align: center;\n  transition: color .2s ease-in-out;\n}\n\n#file-input {\n  width: 350px;\n  max-width: 100%;\n  color: #444;\n  padding: 2px;\n  background: #fff;\n  border-radius: 10px;\n  border: 1px solid rgba(8, 8, 8, 0.288);\n}\n\n#file-input::file-selector-button {\n  margin-right: 20px;\n  border: none;\n  background: #084cdf;\n  padding: 10px 20px;\n  border-radius: 10px;\n  color: #fff;\n  cursor: pointer;\n  transition: background .2s ease-in-out;\n}\n\n#file-input::file-selector-button:hover {\n  background: #0d45a5;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

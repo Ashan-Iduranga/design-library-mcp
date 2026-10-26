@@ -1,0 +1,37 @@
+{
+  "id": "magicui-blur-fade-text-demo",
+  "title": "Blur Fade Text Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/blur-fade-text",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "blur",
+    "fade",
+    "text",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing blur fade animations with text.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/blur-fade-text-demo.tsx",
+  "code": "import { BlurFade } from \"@/registry/magicui/blur-fade\"\n\nexport default function BlurFadeTextDemo() {\n  return (\n    <section id=\"header\">\n      <BlurFade delay={0.25} inView>\n        <h2 className=\"text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none\">\n          Hello World 👋\n        </h2>\n      </BlurFade>\n      <BlurFade delay={0.25 * 2} inView>\n        <span className=\"text-xl tracking-tighter text-pretty sm:text-3xl xl:text-4xl/none\">\n          Nice to meet you\n        </span>\n      </BlurFade>\n    </section>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

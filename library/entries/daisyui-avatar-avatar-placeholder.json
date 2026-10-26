@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-avatar-avatar-placeholder",
+  "title": "Avatar: Avatar placeholder (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/avatar/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "avatar",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Avatars are used to show a thumbnail representation of an individual or business in the interface.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/avatar/+page.md",
+  "code": "<div class=\"avatar avatar-placeholder\">\n  <div class=\"bg-neutral text-neutral-content w-24 rounded-full\">\n    <span class=\"text-3xl\">D</span>\n  </div>\n</div>\n<div class=\"avatar avatar-online avatar-placeholder\">\n  <div class=\"bg-neutral text-neutral-content w-16 rounded-full\">\n    <span class=\"text-xl\">AI</span>\n  </div>\n</div>\n<div class=\"avatar avatar-placeholder\">\n  <div class=\"bg-neutral text-neutral-content w-12 rounded-full\">\n    <span>SY</span>\n  </div>\n</div>\n<div class=\"avatar avatar-placeholder\">\n  <div class=\"bg-neutral text-neutral-content w-8 rounded-full\">\n    <span class=\"text-xs\">UI</span>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

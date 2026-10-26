@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-dropdown-dropdown-bottom-default-aligns-to-end-of",
+  "title": "Dropdown: Dropdown bottom (default) / aligns to end of button horizontally (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/dropdown/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "dropdown",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Dropdown can open a menu or any other element when the button is clicked.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/dropdown/+page.md",
+  "code": "<div class=\"dropdown dropdown-bottom dropdown-end\">\n  <div tabindex=\"0\" role=\"button\" class=\"btn m-1\">Click ⬇️</div>\n  <ul tabindex=\"-1\" class=\"dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm\">\n    <li><a>Item 1</a></li>\n    <li><a>Item 2</a></li>\n  </ul>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

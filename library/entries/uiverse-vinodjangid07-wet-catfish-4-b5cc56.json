@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-vinodjangid07-wet-catfish-4-b5cc56",
+  "title": "Button by vinodjangid07 (wet-catfish-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/wet-catfish-4",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "tooltip",
+    "hover",
+    "hover-effect",
+    "bug",
+    "report"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_wet-catfish-4.html",
+  "code": "<button class=\"BugButton\">\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    fill=\"none\"\n    viewBox=\"0 0 43 42\"\n    class=\"bugsvg\"\n  >\n    <path\n      stroke-width=\"4\"\n      stroke=\"#cfcfcf\"\n      d=\"M20 7H23C26.866 7 30 10.134 30 14V28.5C30 33.1944 26.1944 37 21.5 37C16.8056 37 13 33.1944 13 28.5V14C13 10.134 16.134 7 20 7Z\"\n    ></path>\n    <path\n      stroke-linecap=\"round\"\n      stroke-width=\"4\"\n      stroke=\"#cfcfcf\"\n      d=\"M18 2V7\"\n    ></path>\n    <path\n      stroke-linecap=\"round\"\n      stroke-width=\"4\"\n      stroke=\"#cfcfcf\"\n      d=\"M25 2V7\"\n    ></path>\n    <path\n      stroke-linecap=\"round\"\n      stroke-width=\"4\"\n      stroke=\"#cfcfcf\"\n      d=\"M31 22H41\"\n    ></path>\n    <path\n      stroke-linecap=\"round\"\n      stroke-width=\"4\"\n      stroke=\"#cfcfcf\"\n      d=\"M2 22H12\"\n    ></path>\n    <path\n      stroke-linecap=\"round\"\n      stroke-width=\"4\"\n      stroke=\"#cfcfcf\"\n      d=\"M12.5785 15.2681C3.5016 15.2684 4.99951 12.0004 5 4\"\n    ></path>\n    <path\n      stroke-linecap=\"round\"\n      stroke-width=\"4\"\n      stroke=\"#cfcfcf\"\n      d=\"M12.3834 29.3877C3.20782 29.3874 4.72202 32.4736 4.72252 40.0291\"\n    ></path>\n    <path\n      stroke-linecap=\"round\"\n      stroke-width=\"4\"\n      stroke=\"#cfcfcf\"\n      d=\"M30.0003 14.8974C39.0545 15.553 37.7958 12.1852 38.3718 4.20521\"\n    ></path>\n    <path\n      stroke-linecap=\"round\"\n      stroke-width=\"4\"\n      stroke=\"#cfcfcf\"\n      d=\"M29.9944 29.7379C39.147 29.1188 37.8746 32.2993 38.4568 39.8355\"\n    ></path>\n  </svg>\n\n  <span class=\"tooltip\">Bug Report</span>\n</button>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: tooltip, button, hover, hover effect, bug, report */\n.BugButton {\n  width: 40px;\n  height: 40px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 3px;\n  background-color: transparent;\n  border: none;\n  border-radius: 8px;\n  cursor: pointer;\n  transition: all 0.2s;\n  position: relative;\n  overflow: hidden;\n}\n.BugButton svg {\n  width: 44%;\n}\n.BugButton:hover {\n  background-color: rgb(61, 41, 71);\n  overflow: visible;\n}\n.bugsvg path {\n  transition: all 0.2s;\n}\n.BugButton:hover .bugsvg path {\n  stroke: #fff;\n}\n.BugButton:active {\n  transform: scale(0.98);\n}\n.tooltip {\n  --tooltip-color: rgb(41, 41, 41);\n  position: absolute;\n  top: -40px;\n  background-color: var(--tooltip-color);\n  color: white;\n  border-radius: 5px;\n  font-size: 12px;\n  padding: 8px 12px;\n  font-weight: 600;\n  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.105);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  opacity: 0;\n  transition: all 0.5s;\n  min-width: 100px;\n}\n.tooltip::before {\n  position: absolute;\n  width: 10px;\n  height: 10px;\n  transform: rotate(45deg);\n  content: \"\";\n  background-color: var(--tooltip-color);\n  bottom: -10%;\n}\n.BugButton:hover .tooltip {\n  opacity: 1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

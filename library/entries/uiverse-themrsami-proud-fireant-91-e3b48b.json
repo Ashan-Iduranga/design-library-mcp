@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-themrsami-proud-fireant-91-e3b48b",
+  "title": "Form by themrsami (proud-fireant-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/themrsami/proud-fireant-91",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "simple",
+    "material-design",
+    "black",
+    "dark",
+    "tailwindbutton"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By themrsami on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/themrsami_proud-fireant-91.html",
+  "code": "<!-- From Uiverse.io by themrsami - Tags: simple, material design, black, form, dark, tailwind, tailwindbutton -->\n<div class=\"flex flex-col items-center justify-center h-screen dark\">\n  <div class=\"w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6\">\n    <h2 class=\"text-2xl font-bold text-gray-200 mb-4\">Contact Form</h2>\n\n    <form class=\"flex flex-wrap\">\n      <input\n        type=\"text\"\n        class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] mr-[2%]\"\n        placeholder=\"Full Name\"\n      />\n      <input\n        type=\"email\"\n        class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] ml-[2%]\"\n        placeholder=\"Email\"\n      />\n      <input\n        type=\"number\"\n        class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] mr-[2%]\"\n        placeholder=\"Phone Number\"\n      />\n      <input\n        type=\"text\"\n        class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] ml-[2%]\"\n        placeholder=\"Company Name\"\n      />\n      <input\n        type=\"text\"\n        class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] mr-[2%]\"\n        placeholder=\"Job Title\"\n      />\n      <input\n        type=\"date\"\n        class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] ml-[2%]\"\n        placeholder=\"Date of Birth\"\n      />\n      <textarea\n        name=\"message\"\n        class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-auto md:mb-auto md:w-full md:h-auto md:min-h-[100px] md:max-h-[100px] md:flex-grow md:flex-shrink md:flex-auto focus:bg-gray-md:focus:outline-none:focus:ring-blue-md:focus:border-transparent transition ease-in-out duration-fastest\"\n        placeholder=\"Message\"\n      ></textarea>\n\n      <button\n        type=\"submit\"\n        class=\"bg-gradient-to-r from-indigo-500 to-blue-500 text-white font-bold py-2 px-4 rounded-md mt-4 hover:bg-indigo-600 hover:to-blue-600 transition ease-in-out duration-150\"\n      >\n        Submit\n      </button>\n    </form>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

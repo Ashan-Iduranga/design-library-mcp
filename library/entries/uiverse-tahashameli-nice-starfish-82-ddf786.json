@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-tahashameli-nice-starfish-82-ddf786",
+  "title": "Toggle by TahaShameli (nice-starfish-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TahaShameli/nice-starfish-82",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TahaShameli on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/TahaShameli_nice-starfish-82.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\">\n    <span class=\"circle\">\n      <span class=\"shine shine-1\"></span>\n      <span class=\"shine shine-2\"></span>\n      <span class=\"shine shine-3\"></span>\n      <span class=\"shine shine-4\"></span>\n      <span class=\"shine shine-5\"></span>\n      <span class=\"shine shine-6\"></span>\n      <span class=\"shine shine-7\"></span>\n      <span class=\"shine shine-8\"></span>\n      <span class=\"moon\"></span>\n    </span>\n  </span>\n</label>\n\n<style>\n/* From Uiverse.io by TahaShameli  - Tags:  */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #333;\n  transition: 0.4s;\n  border-radius: 30px;\n  overflow: hidden;\n}\n\n.circle {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: #fff000;\n  transform: rotate(360deg) translateX(0);\n  transition: 0.4s;\n}\n\n.switch input:checked + .slider .circle {\n  transform: rotate(0deg) translateX(1.5em) !important;\n}\n\n.switch input:checked + .slider .circle .shine {\n  transform: translate(0%, 0%) !important;\n}\n\n.switch input:checked + .slider .circle .moon {\n  left: -10%;\n  opacity: 1;\n  transform: translateY(-60%);\n}\n\n.moon {\n  position: absolute;\n  left: -100%;\n  top: 50%;\n  opacity: 0;\n  background-color: #333;\n  width: 1.25rem;\n  height: 1.25rem;\n  border-radius: 99999px;\n  transform: translateY(-50%);\n  transition: all 0.4s;\n}\n\n.shine {\n  display: block;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 0.25rem;\n  height: 0.25rem;\n  background-color: #fff000;\n  border-radius: 1rem;\n  transition: all 0.4s;\n}\n\n.shine-1 {\n  transform: translate(-50%, -375%);\n}\n.shine-2 {\n  transform: translate(175%, -275%);\n}\n.shine-3 {\n  transform: translate(275%, -50%);\n}\n.shine-4 {\n  transform: translate(175%, 175%);\n}\n.shine-5 {\n  transform: translate(-50%, 275%);\n}\n.shine-6 {\n  transform: translate(-275%, 175%);\n}\n.shine-7 {\n  transform: translate(-375%, -50%);\n}\n.shine-8 {\n  transform: translate(-275%, -275%);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

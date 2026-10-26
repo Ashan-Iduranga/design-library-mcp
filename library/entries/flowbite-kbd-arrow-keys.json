@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-kbd-arrow-keys",
+  "title": "KBD (Keyboard): Arrow keys (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/kbd/#arrow-keys",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "kbd",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show arrow keys inside the KBD styled element.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/kbd.md",
+  "code": "<kbd class=\"inline-flex items-center px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">\n<svg class=\"w-2.5 h-2.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 16 10\">\n<path d=\"M9.207 1A2 2 0 0 0 6.38 1L.793 6.586A2 2 0 0 0 2.207 10H13.38a2 2 0 0 0 1.414-3.414L9.207 1Z\"/>\n</svg>\n<span class=\"sr-only\">Arrow key up</span>\n</kbd>\n<kbd class=\"inline-flex items-center px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">\n<svg class=\"w-2.5 h-2.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 16 10\">\n<path d=\"M15.434 1.235A2 2 0 0 0 13.586 0H2.414A2 2 0 0 0 1 3.414L6.586 9a2 2 0 0 0 2.828 0L15 3.414a2 2 0 0 0 .434-2.179Z\"/>\n</svg>\n<span class=\"sr-only\">Arrow key down</span>\n</kbd>\n<kbd class=\"rtl:rotate-180 inline-flex items-center px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">\n<svg class=\"w-2.5 h-2.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 10 16\">\n<path d=\"M8.766.566A2 2 0 0 0 6.586 1L1 6.586a2 2 0 0 0 0 2.828L6.586 15A2 2 0 0 0 10 13.586V2.414A2 2 0 0 0 8.766.566Z\"/>\n</svg>\n<span class=\"sr-only\">Arrow key left</span>\n</kbd>\n<kbd class=\"rtl:rotate-180 inline-flex items-center px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">\n<svg class=\"w-2.5 h-2.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 10 16\">\n<path d=\"M3.414 1A2 2 0 0 0 0 2.414v11.172A2 2 0 0 0 3.414 15L9 9.414a2 2 0 0 0 0-2.828L3.414 1Z\"/>\n</svg>\n<span class=\"sr-only\">Arrow key right</span>\n</kbd>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

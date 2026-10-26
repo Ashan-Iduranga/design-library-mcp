@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-lissy2019-fat-wasp-24-44f9bf",
+  "title": "Loader by Lissy2019 (fat-wasp-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Lissy2019/fat-wasp-24",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Lissy2019 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Lissy2019_fat-wasp-24.html",
+  "code": "<div class=\"loader\">\n  <svg height=\"0\" width=\"0\" viewBox=\"0 0 100 100\" class=\"absolute\">\n    <defs class=\"s-xJBuHA073rTt\" xmlns=\"http://www.w3.org/2000/svg\">\n      <linearGradient\n        class=\"s-xJBuHA073rTt\"\n        gradientUnits=\"userSpaceOnUse\"\n        y2=\"2\"\n        x2=\"0\"\n        y1=\"62\"\n        x1=\"0\"\n        id=\"b\"\n      >\n        <stop class=\"s-xJBuHA073rTt\" stop-color=\"#0369a1\"></stop>\n        <stop class=\"s-xJBuHA073rTt\" stop-color=\"#67e8f9\" offset=\"1.5\"></stop>\n      </linearGradient>\n      <linearGradient\n        class=\"s-xJBuHA073rTt\"\n        gradientUnits=\"userSpaceOnUse\"\n        y2=\"0\"\n        x2=\"0\"\n        y1=\"64\"\n        x1=\"0\"\n        id=\"c\"\n      >\n        <stop class=\"s-xJBuHA073rTt\" stop-color=\"#0369a1\"></stop>\n        <stop class=\"s-xJBuHA073rTt\" stop-color=\"#22d3ee\" offset=\"1\"></stop>\n        <animateTransform\n          repeatCount=\"indefinite\"\n          keySplines=\".42,0,.58,1;.42,0,.58,1;.42,0,.58,1;.42,0,.58,1;.42,0,.58,1;.42,0,.58,1;.42,0,.58,1;.42,0,.58,1\"\n          keyTimes=\"0; 0.125; 0.25; 0.375; 0.5; 0.625; 0.75; 0.875; 1\"\n          dur=\"8s\"\n          values=\"0 32 32;-270 32 32;-270 32 32;-540 32 32;-540 32 32;-810 32 32;-810 32 32;-1080 32 32;-1080 32 32\"\n          type=\"rotate\"\n          attributeName=\"gradientTransform\"\n        ></animateTransform>\n      </linearGradient>\n      <linearGradient\n        class=\"s-xJBuHA073rTt\"\n        gradientUnits=\"userSpaceOnUse\"\n        y2=\"2\"\n        x2=\"0\"\n        y1=\"62\"\n        x1=\"0\"\n        id=\"d\"\n      >\n        <stop class=\"s-xJBuHA073rTt\" stop-color=\"#38bdf8\"></stop>\n        <stop class=\"s-xJBuHA073rTt\" stop-color=\"#075985\" offset=\"1.5\"></stop>\n      </linearGradient>\n    </defs>\n  </svg>\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    fill=\"none\"\n    viewBox=\"0 0 100 100\"\n    width=\"100\"\n    height=\"100\"\n    class=\"inline-block\"\n  >\n    <path\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      stroke-width=\"8\"\n      stroke=\"url(#b)\"\n      d=\"M 20,20 L 80,20 \n      L 80,27 L 27,27 L 27,50\n      L 70,50 L 70,57 \n      L 25,57 L 25,80 \n      L 80,80 L 80,87 L 20,87 Z\"\n      class=\"dash\"\n      id=\"E\"\n      pathLength=\"360\"\n    ></path>\n  </svg>\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    fill=\"none\"\n    style=\"--rotation-duration:0ms; --rotation-direction:normal;\"\n    viewBox=\"0 0 100 100\"\n    width=\"100\"\n    height=\"100\"\n    class=\"inline-block\"\n  >\n    <path\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      stroke-width=\"12\"\n      stroke=\"url(#d)\"\n      d=\"M 20,20 L 50,80 L 80,20\"\n      class=\"dash\"\n      id=\"v\"\n      pathLength=\"360\"\n    ></path>\n  </svg>\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    fill=\"none\"\n    viewBox=\"0 0 100 100\"\n    width=\"100\"\n    height=\"100\"\n    class=\"inline-block\"\n  >\n    <path\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      stroke-width=\"11\"\n      stroke=\"url(#c)\"\n      d=\"M 50,15  \n      A 35,35 0 0 1 85,50  \n      A 35,35 0 0 1 50,85  \n      A 35,35 0 0 1 15,50  \n      A 35,35 0 0 1 50,15 Z\"\n      class=\"spin\"\n      id=\"o\"\n      pathLength=\"360\"\n    ></path>\n  </svg>\n</div>\n\n<style>\n/* From Uiverse.io by Lissy2019  - Website: https://uiverse.io/SelfMadeSystem/pretty-treefrog-77 - Name: SelfMadeSystem - Tags: animation, gradient, loader, spinner, text animation, animated, gradients, svg */\n.absolute {\n  position: absolute;\n}\n\n.inline-block {\n  display: inline-block;\n}\n\n.loader {\n  display: flex;\n  margin: 0.25em 0;\n}\n\n.w-2 {\n  width: 0.5em;\n}\n\n.dash {\n  animation: dashArray 2s ease-in-out infinite, dashOffset 2s linear infinite;\n}\n\n.spin {\n  animation: spinDashArray 2s ease-in-out infinite, spin 8s ease-in-out infinite,\n    dashOffset 2s linear infinite;\n  transform-origin: center;\n}\n\n@keyframes dashArray {\n  0% {\n    stroke-dasharray: 0 1 359 0;\n  }\n\n  50% {\n    stroke-dasharray: 0 359 1 0;\n  }\n\n  100% {\n    stroke-dasharray: 359 1 0 0;\n  }\n}\n\n@keyframes spinDashArray {\n  0% {\n    stroke-dasharray: 270 90;\n  }\n\n  50% {\n    stroke-dasharray: 0 360;\n  }\n\n  100% {\n    stroke-dasharray: 250 90;\n  }\n}\n\n@keyframes dashOffset {\n  0% {\n    stroke-dashoffset: 385;\n  }\n\n  100% {\n    stroke-dashoffset: 5;\n  }\n}\n\n@keyframes spin {\n  0% {\n    rotate: 0deg;\n  }\n\n  12.5%,\n  25% {\n    rotate: 270deg;\n  }\n\n  37.5%,\n  50% {\n    rotate: 540deg;\n  }\n\n  62.5%,\n  75% {\n    rotate: 810deg;\n  }\n\n  87.5%,\n  100% {\n    rotate: 1080deg;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

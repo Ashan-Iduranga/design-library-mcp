@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-alexruix-white-cat-50-065b49",
+  "title": "Loader by alexruix (white-cat-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/white-cat-50",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/alexruix_white-cat-50.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by alexruix - Tags: loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  margin: auto;\n  position: relative;\n}\n\n.loader:before {\n  content: '';\n  width: 48px;\n  height: 5px;\n  background: #f0808050;\n  position: absolute;\n  top: 60px;\n  left: 0;\n  border-radius: 50%;\n  animation: shadow324 0.5s linear infinite;\n}\n\n.loader:after {\n  content: '';\n  width: 100%;\n  height: 100%;\n  background: #f08080;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border-radius: 4px;\n  animation: jump7456 0.5s linear infinite;\n}\n\n@keyframes jump7456 {\n  15% {\n    border-bottom-right-radius: 3px;\n  }\n\n  25% {\n    transform: translateY(9px) rotate(22.5deg);\n  }\n\n  50% {\n    transform: translateY(18px) scale(1, .9) rotate(45deg);\n    border-bottom-right-radius: 40px;\n  }\n\n  75% {\n    transform: translateY(9px) rotate(67.5deg);\n  }\n\n  100% {\n    transform: translateY(0) rotate(90deg);\n  }\n}\n\n@keyframes shadow324 {\n\n  0%,\n    100% {\n    transform: scale(1, 1);\n  }\n\n  50% {\n    transform: scale(1.2, 1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

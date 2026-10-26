@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-leonkohli-wise-puma-87-7512f7",
+  "title": "Checkbox by LeonKohli (wise-puma-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/LeonKohli/wise-puma-87",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "icon",
+    "animation",
+    "minimalist",
+    "rounded",
+    "smooth",
+    "light",
+    "clean"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By LeonKohli on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/LeonKohli_wise-puma-87.html",
+  "code": "<div class=\"uv-checkbox-wrapper\">\n  <input type=\"checkbox\" id=\"uv-checkbox\" class=\"uv-checkbox\" />\n  <label for=\"uv-checkbox\" class=\"uv-checkbox-label\">\n    <div class=\"uv-checkbox-icon\">\n      <svg viewBox=\"0 0 24 24\" class=\"uv-checkmark\">\n        <path d=\"M4.1,12.7 9,17.6 20.3,6.3\" fill=\"none\"></path>\n      </svg>\n    </div>\n    <span class=\"uv-checkbox-text\">Check me!</span>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by LeonKohli  - Tags: icon, animation, minimalist, checkbox, rounded, smooth, light, clean */\n.uv-checkbox-wrapper {\n  display: inline-block;\n}\n\n.uv-checkbox {\n  display: none;\n}\n\n.uv-checkbox-label {\n  display: flex;\n  align-items: center;\n  cursor: pointer;\n}\n\n.uv-checkbox-icon {\n  position: relative;\n  width: 2em;\n  height: 2em;\n  border: 2px solid #ccc;\n  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;\n  transition: border-color 0.3s ease, border-radius 0.3s ease;\n}\n\n.uv-checkmark {\n  position: absolute;\n  top: 0.1em;\n  left: 0.1em;\n  width: 1.6em;\n  height: 1.6em;\n  fill: none;\n  stroke: #fff;\n  stroke-width: 2;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-dasharray: 24;\n  stroke-dashoffset: 24;\n  transition: stroke-dashoffset 0.5s cubic-bezier(0.45, 0.05, 0.55, 0.95);\n}\n\n.uv-checkbox-text {\n  margin-left: 0.5em;\n  transition: color 0.3s ease;\n}\n\n.uv-checkbox:checked + .uv-checkbox-label .uv-checkbox-icon {\n  border-color: #6c5ce7;\n  border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;\n  background-color: #6c5ce7;\n}\n\n.uv-checkbox:checked + .uv-checkbox-label .uv-checkmark {\n  stroke-dashoffset: 0;\n}\n\n.uv-checkbox:checked + .uv-checkbox-label .uv-checkbox-text {\n  color: #6c5ce7;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

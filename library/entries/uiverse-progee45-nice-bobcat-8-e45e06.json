@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-progee45-nice-bobcat-8-e45e06",
+  "title": "Button by Progee45 (nice-bobcat-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Progee45/nice-bobcat-8",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Progee45 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Progee45_nice-bobcat-8.html",
+  "code": "<button class=\"fancy-button\">Click Me!</button>\n\n<style>\n/* From Uiverse.io by Progee45 - Tags: button, animated */\n.fancy-button {\n  display: inline-block;\n  padding: 10px 20px;\n  border: none;\n  background-color: #ff4081;\n  color: #fff;\n  font-size: 18px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  border-radius: 5px;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n  position: relative;\n  overflow: hidden;\n  transition: transform 0.3s ease-in-out;\n  cursor: pointer;\n}\n\n.fancy-button:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: -100%;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.2);\n  transform: skewX(-30deg);\n  transition: left 0.3s ease-in-out;\n}\n\n.fancy-button:hover {\n  transform: scale(1.1);\n}\n\n.fancy-button:hover:before {\n  left: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

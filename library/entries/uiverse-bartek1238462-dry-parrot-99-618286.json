@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-bartek1238462-dry-parrot-99-618286",
+  "title": "Button by Bartek1238462 (dry-parrot-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Bartek1238462/dry-parrot-99",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "neon",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Bartek1238462 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Bartek1238462_dry-parrot-99.html",
+  "code": "<button class=\"button\">\n  <p class=\"text-inside\">HOVER ME</p>\n</button>\n<style>\n/* From Uiverse.io by Bartek1238462 - Tags: button, hover, neon, hover effect */\n.button {\n  width: 120px;\n  height: 40px;\n  background-color: rgb(0, 0, 0);\n  border: 3px solid rgb(0, 0, 0);\n  color: white;\n  border-radius: 25px;\n  transition: 1.5s;\n}\n\ntext-inside. {\n  font-weight: bold;\n}\n\n.button:hover {\n  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px\n,rgba(240, 46, 170, 0.4) 5px -5px, rgba(240, 46, 170, 0.3) 10px -10px, rgba(240, 46, 170, 0.2) 15px -15px, rgba(240, 46, 170, 0.1) 20px -20px, rgba(240, 46, 170, 0.05) 25px -25px\n,rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px\n,rgba(240, 46, 170, 0.4) -5px -5px, rgba(240, 46, 170, 0.3) -10px -10px, rgba(240, 46, 170, 0.2) -15px -15px, rgba(240, 46, 170, 0.1) -20px -20px, rgba(240, 46, 170, 0.05) -25px -25px;\n  background-color: rgba(240, 46, 170, 0.4);\n  color: rgb(56, 0, 36);\n  border: 2px solid white;\n  transform: scale(1.2,1.2);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

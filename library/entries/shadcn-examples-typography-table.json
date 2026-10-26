@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-typography-table",
+  "title": "Typography Table (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/typography-table.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "typography",
+    "table",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Styles for headings, paragraphs, lists, etc.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/typography-table.tsx",
+  "code": "export default function TypographyTable() {\n  return (\n    <div className=\"my-6 w-full overflow-y-auto\">\n      <table className=\"w-full\">\n        <thead>\n          <tr className=\"m-0 border-t p-0 even:bg-muted\">\n            <th className=\"border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right\">\n              King&apos;s Treasury\n            </th>\n            <th className=\"border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right\">\n              People&apos;s happiness\n            </th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr className=\"m-0 border-t p-0 even:bg-muted\">\n            <td className=\"border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right\">\n              Empty\n            </td>\n            <td className=\"border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right\">\n              Overflowing\n            </td>\n          </tr>\n          <tr className=\"m-0 border-t p-0 even:bg-muted\">\n            <td className=\"border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right\">\n              Modest\n            </td>\n            <td className=\"border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right\">\n              Satisfied\n            </td>\n          </tr>\n          <tr className=\"m-0 border-t p-0 even:bg-muted\">\n            <td className=\"border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right\">\n              Full\n            </td>\n            <td className=\"border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right\">\n              Ecstatic\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

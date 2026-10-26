@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-mohsinech-good-duck-38-c34ae2",
+  "title": "Toggle by Mohsinech (good-duck-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Mohsinech/good-duck-38",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "simple",
+    "blue",
+    "switch",
+    "menu",
+    "burger"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Mohsinech on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Mohsinech_good-duck-38.html",
+  "code": "<div class=\"container\">\n    <div class=\"toggle\">\n      <span></span>\n      <span></span>\n      <span></span>\n    </div>\n  </div>\n<style>\n/* From Uiverse.io by Mohsinech - Tags: simple, blue, switch, menu, burger */\n.toggle {\n  position: relative;\n  width: 70px;\n  height: 70px;\n  background-color: rgb(1, 103, 255);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  cursor: pointer;\n  overflow: hidden;\n}\n\n.toggle span {\n  position: absolute;\n  height: 2px;\n  width: 40px;\n  background-color: rgb(255, 255, 255);\n  border-radius: 4px;\n  cursor: pointer;\n  transition: 0.5s;\n}\n\n.toggle span:nth-child(1) {\n  transform: translateY(-15px);\n  width: 25px;\n  left: 15px;\n}\n\n.toggle.toggle:hover span:nth-child(1) {\n  width: 40px;\n  transform: translateY(0px) rotate(45deg);\n  transition-delay: 0.125s;\n}\n\n.toggle span:nth-child(2) {\n  transform: translateY(15px);\n  width: 15px;\n  left: 15px;\n}\n\n.toggle.toggle:hover span:nth-child(2) {\n  width: 40px;\n  transform: translateY(0px) rotate(315deg);\n  transition-delay: 0.125s;\n}\n\n.toggle:hover span:nth-child(3) {\n  transform: translateX(60px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

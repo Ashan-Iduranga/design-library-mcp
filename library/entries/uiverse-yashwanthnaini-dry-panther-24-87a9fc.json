@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yashwanthnaini-dry-panther-24-87a9fc",
+  "title": "Button by Yashwanthnaini (dry-panther-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yashwanthnaini/dry-panther-24",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yashwanthnaini on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Yashwanthnaini_dry-panther-24.html",
+  "code": "<button>\n  <span> HOVER\n  </span>\n</button>\n<style>\n/* From Uiverse.io by Yashwanthnaini - Tags: button */\nbutton {\n border: none;\n border-radius: 20px;\n background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);\n transition: all 1.5s ease;\n font-family: 'Ropa Sans', sans-serif;\n font-weight: bold;\n letter-spacing: 0.05rem;\n padding: 0;\n}\n\nbutton span {\n display: inline-block;\n padding: 15px 35px;\n font-size: 17px;\n border-radius: 20px;\n background: #ffffff10;\n backdrop-filter: blur(20px);\n transition: 0.4s ease-in-out;\n transition-property: color;\n height: 100%;\n width: 100%;\n}\n\nbutton span:hover {\n backdrop-filter: blur(0px);\n color: #ffffff;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

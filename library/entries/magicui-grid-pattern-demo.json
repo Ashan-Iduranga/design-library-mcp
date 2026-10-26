@@ -1,0 +1,36 @@
+{
+  "id": "magicui-grid-pattern-demo",
+  "title": "Grid Pattern Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/grid-pattern",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "grid",
+    "pattern",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a background grid pattern made with SVGs.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/grid-pattern-demo.tsx",
+  "code": "\"use client\"\n\nimport { cn } from \"@/lib/utils\"\nimport { GridPattern } from \"@/registry/magicui/grid-pattern\"\n\nexport default function GridPatternDemo() {\n  return (\n    <div className=\"bg-background relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border\">\n      <GridPattern\n        squares={[\n          [4, 4],\n          [5, 1],\n          [8, 2],\n          [5, 3],\n          [5, 5],\n          [10, 10],\n          [12, 15],\n          [15, 10],\n          [10, 15],\n          [15, 10],\n          [10, 15],\n          [15, 10],\n        ]}\n        className={cn(\n          \"[mask-image:radial-gradient(400px_circle_at_center,white,transparent)]\",\n          \"inset-x-0 inset-y-[-30%] h-[200%] skew-y-12\"\n        )}\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

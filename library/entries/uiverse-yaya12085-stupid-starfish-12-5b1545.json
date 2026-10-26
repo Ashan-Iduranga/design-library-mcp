@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-yaya12085-stupid-starfish-12-5b1545",
+  "title": "Form by Yaya12085 (stupid-starfish-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/stupid-starfish-12",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "sign-in"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Yaya12085_stupid-starfish-12.html",
+  "code": "<form class=\"form\">\n       <p class=\"form-title\">Sign in to your account</p>\n        <div class=\"input-container\">\n          <input placeholder=\"Enter email\" type=\"email\">\n          <span>\n            <svg stroke=\"currentColor\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path d=\"M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n            </svg>\n          </span>\n      </div>\n      <div class=\"input-container\">\n          <input placeholder=\"Enter password\" type=\"password\">\n\n          <span>\n            <svg stroke=\"currentColor\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n              <path d=\"M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n            </svg>\n          </span>\n        </div>\n         <button class=\"submit\" type=\"submit\">\n        Sign in\n      </button>\n\n      <p class=\"signup-link\">\n        No account?\n        <a href=\"\">Sign up</a>\n      </p>\n   </form>\n\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: sign-in, form */\n.form {\n  background-color: #fff;\n  display: block;\n  padding: 1rem;\n  max-width: 350px;\n  border-radius: 0.5rem;\n  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);\n}\n\n.form-title {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n  font-weight: 600;\n  text-align: center;\n  color: #000;\n}\n\n.input-container {\n  position: relative;\n}\n\n.input-container input, .form button {\n  outline: none;\n  border: 1px solid #e5e7eb;\n  margin: 8px 0;\n}\n\n.input-container input {\n  background-color: #fff;\n  padding: 1rem;\n  padding-right: 3rem;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  width: 300px;\n  border-radius: 0.5rem;\n  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n}\n\n.input-container span {\n  display: grid;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 0;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  place-content: center;\n}\n\n.input-container span svg {\n  color: #9CA3AF;\n  width: 1rem;\n  height: 1rem;\n}\n\n.submit {\n  display: block;\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n  padding-left: 1.25rem;\n  padding-right: 1.25rem;\n  background-color: #4F46E5;\n  color: #ffffff;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  font-weight: 500;\n  width: 100%;\n  border-radius: 0.5rem;\n  text-transform: uppercase;\n}\n\n.signup-link {\n  color: #6B7280;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  text-align: center;\n}\n\n.signup-link a {\n  text-decoration: underline;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

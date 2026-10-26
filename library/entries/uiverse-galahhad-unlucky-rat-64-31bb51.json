@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-galahhad-unlucky-rat-64-31bb51",
+  "title": "Form by Galahhad (unlucky-rat-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Galahhad/unlucky-rat-64",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Galahhad on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Galahhad_unlucky-rat-64.html",
+  "code": "<div class=\"container\">\n    <div class=\"content\">\n      <i style=\"background-image: url(&quot;https://static.cdninstagram.com/rsrc.php/v3/yS/r/ajlEU-wEDyo.png&quot;); background-position: 0px -52px; background-size: auto; width: 175px; height: 51px; background-repeat: no-repeat; display: inline-block;\" role=\"img\" class=\"\" aria-label=\"Instagram\" data-visualcompletion=\"css-img\"></i>\n      <form class=\"content__form\">\n        <div class=\"content__inputs\">\n          <label>\n            <input required=\"\" type=\"text\">\n            <span>Phone number, username, or email</span>\n          </label>\n          <label>\n            <input required=\"\" type=\"password\">\n            <span>Password</span>\n          </label>\n        </div>\n        <button>Log In</button>\n      </form>\n      <div class=\"content__or-text\">\n        <span></span>\n        <span>OR</span>\n        <span></span>\n      </div>\n      <div class=\"content__forgot-buttons\">\n        <button>\n          <span>\n            <svg class=\"\" xml:space=\"preserve\" style=\"enable-background:new 0 0 512 512\" viewBox=\"0 0 408.788 408.788\" y=\"0\" x=\"0\" height=\"512\" width=\"512\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n              <g>\n                <path class=\"\" data-original=\"#475993\" fill=\"#475993\" d=\"M353.701 0H55.087C24.665 0 .002 24.662.002 55.085v298.616c0 30.423 24.662 55.085 55.085 55.085h147.275l.251-146.078h-37.951a8.954 8.954 0 0 1-8.954-8.92l-.182-47.087a8.955 8.955 0 0 1 8.955-8.989h37.882v-45.498c0-52.8 32.247-81.55 79.348-81.55h38.65a8.955 8.955 0 0 1 8.955 8.955v39.704a8.955 8.955 0 0 1-8.95 8.955l-23.719.011c-25.615 0-30.575 12.172-30.575 30.035v39.389h56.285c5.363 0 9.524 4.683 8.892 10.009l-5.581 47.087a8.955 8.955 0 0 1-8.892 7.901h-50.453l-.251 146.078h87.631c30.422 0 55.084-24.662 55.084-55.084V55.085C408.786 24.662 384.124 0 353.701 0z\"></path>\n              </g>\n            </svg>\n          </span>\n          <span>Log in with Facebook</span>\n        </button>\n        <button>Forgot password?</button>\n      </div>\n    </div>\n  </div>\n<style>\n/* From Uiverse.io by Galahhad - Tags: form */\n.content i {\n  margin-bottom: 41px;\n}\n\n.container {\n  border-radius: 1px;\n  padding: 50px 40px 20px 40px;\n  box-sizing: border-box;\n  font-family: sans-serif;\n  color: #737373;\n  border: 1px solid rgb(219, 219, 219);\n  text-align: center;\n  background: white;\n}\n\n.container svg {\n  width: 16px;\n  height: auto;\n}\n\n.content__form {\n  display: flex;\n  flex-direction: column;\n  row-gap: 14px;\n}\n\n.content__inputs {\n  display: flex;\n  flex-direction: column;\n  row-gap: 8px;\n}\n\n.content__form label {\n  border: 1px solid rgb(219, 219, 219);\n  display: flex;\n  align-items: center;\n  position: relative;\n  min-width: 268px;\n  height: 38px;\n  background: rgb(250, 250, 250);\n  border-radius: 3px;\n}\n\n.content__form span {\n  position: absolute;\n  text-overflow: ellipsis;\n  transform-origin: left;\n  font-size: 12px;\n  left: 8px;\n  pointer-events: none;\n  transition: transform ease-out .1s\n}\n\n.content__form input {\n  width: 100%;\n  background: inherit;\n  border: 0;\n  outline: none;\n  padding: 9px 8px 7px 8px;\n  text-overflow: ellipsis;\n  font-size: 16px;\n  vertical-align: middle;\n}\n\n.content__form input:valid+span {\n  transform: scale(calc(10 / 12)) translateY(-10px);\n}\n\n.content__form input:valid {\n  padding: 14px 0 2px 8px;\n  font-size: 12px;\n}\n\n.content__or-text {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  text-transform: uppercase;\n  font-size: 13px;\n  column-gap: 18px;\n  margin-top: 18px;\n}\n\n.content__or-text span:nth-child(3),\n.content__or-text span:nth-child(1) {\n  display: block;\n  width: 100%;\n  height: 1px;\n  background-color: rgb(219, 219, 219);\n}\n\n.content__forgot-buttons {\n  display: flex;\n  flex-direction: column;\n  margin-top: 28px;\n  row-gap: 21px;\n}\n\n.content__forgot-buttons button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  column-gap: 8px;\n  background: none;\n  border: none;\n  cursor: pointer;\n  font-size: 12px;\n  color: #00376b;\n}\n\n.content__forgot-buttons button:first-child {\n  color: #385185;\n  font-size: 14px;\n  font-weight: 600;\n}\n\n.content__form button {\n  background: rgb(0, 149, 246);\n  color: white;\n  border: none;\n  border-radius: 8px;\n  font-weight: 700;\n  font-size: 14px;\n  padding: 7px 16px;\n  cursor: pointer;\n}\n\n.content__form button:hover {\n  background: rgb(24, 119, 242);\n}\n\n.content__form button:active:not(:hover) {\n  background: rgb(0, 149, 246);\n  opacity: .7;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

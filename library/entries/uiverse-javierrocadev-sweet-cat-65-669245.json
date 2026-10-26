@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-javierrocadev-sweet-cat-65-669245",
+  "title": "Card by Javierrocadev (sweet-cat-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/sweet-cat-65",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "hover",
+    "blur-filter",
+    "hover-effect",
+    "hover-button",
+    "cardhover",
+    "card-animation",
+    "card-hover"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Javierrocadev_sweet-cat-65.html",
+  "code": "<!-- From Uiverse.io by Javierrocadev  - Tags: card, hover, blur filter, hover effect, hover button, cardhover , card animation, card hover -->\n<div class=\"group relative overflow-hidden h-72 w-64 bg-sky-300 rounded-xl\">\n  <div\n    class=\"absolute w-56 h-64 bg-gray-50 z-10 top-4 left-4 opacity-50 rounded-2xl blur duration-300 group-hover:blur-none [transform:rotate3d(1_,-1,_1,_30deg)] duration-500 group-hover:[transform:rotate3d(1_,-1,_1,_0deg)]\"\n  ></div>\n  <div\n    class=\"absolute w-56 h-64 z-10 top-4 left-4 p-3 rounded-2xl flex flex-col justify-end items-start gap-4 [transform:rotate3d(1_,-1,_1,_30deg)] duration-500 group-hover:[transform:rotate3d(1_,-1,_1,_0deg)]\"\n  >\n    <span class=\"text-red-800 text-2xl font-extrabold\">Card title</span>\n    <p class=\"text-gray-800 font-bold\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod\n      tempor.\n    </p>\n    <button\n      class=\"bg-gray-50 px-3 py-2 rounded-xl hover:bg-sky-600 duration-300\"\n    >\n      See more\n    </button>\n  </div>\n\n  <svg\n    y=\"0\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    x=\"0\"\n    width=\"100\"\n    viewBox=\"0 0 10 10\"\n    preserveAspectRatio=\"xMidYMid meet\"\n    height=\"100\"\n    class=\"fill-sky-400 w-64 h-64 absolute -bottom-20 -left-32\"\n  >\n    <path\n      d=\"M0,5A5,5,0,1,0,5,0,5,5,0,0,0,0,5ZM8.12,5A3.12,3.12,0,1,1,5,1.88,3.12,3.12,0,0,1,8.12,5Z\"\n    ></path>\n  </svg>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

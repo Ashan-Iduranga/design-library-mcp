@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-shadowmurphy-selfish-bulldog-79-f82f14",
+  "title": "Input by shadowmurphy (selfish-bulldog-79)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/shadowmurphy/selfish-bulldog-79",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple",
+    "material-design",
+    "neumorphism",
+    "skeuomorphism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By shadowmurphy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/shadowmurphy_selfish-bulldog-79.html",
+  "code": "<input\n  type=\"text\"\n  name=\"text\"\n  class=\"search-bar\"\n  placeholder=\"Type something\"\n/>\n\n<style>\n/* From Uiverse.io by shadowmurphy  - Tags: simple, material design, neumorphism, skeuomorphism, input */\n.search-bar {\n  width: 200px;\n  height: 35px;\n  border-radius: 5px;\n  outline: none;\n  border: 1px solid #303030;\n  border-bottom: 2px solid #9a9a9a;\n  padding-left: 10px;\n  padding-right: 10px;\n  background-color: #2d2d2d;\n  color: white;\n  transition: all 0.3s ease;\n}\n\n.search-bar::placeholder {\n  color: #9a9a9a;\n}\n\n.search-bar:hover {\n  background-color: #313131;\n}\n\n.search-bar:active,\n.search-bar:focus {\n  background-color: #1e1f20;\n  border: 1px solid #2d2d2d;\n  border-bottom: 2px solid #4cc2ff;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

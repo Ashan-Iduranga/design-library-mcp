@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-rodrypaladin-plastic-otter-67-736d9e",
+  "title": "Card by Rodrypaladin (plastic-otter-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Rodrypaladin/plastic-otter-67",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "animation",
+    "purple",
+    "pink",
+    "text-animation",
+    "click-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Rodrypaladin on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Rodrypaladin_plastic-otter-67.html",
+  "code": "<div class=\"card\">\n  \n  <div class=\"btn1\"></div>\n  <div class=\"btn2\"></div>\n  <div class=\"btn3\"></div>\n  <div class=\"btn4\"></div>\n  <div class=\"card-int\">\n    <div class=\"hello\">Hello\n      <span class=\"hidden\">uiverse</span>\n    </div>\n  </div>\n  <div class=\"top\">\n    <div class=\"camera\">\n      <div class=\"int\"></div>\n    </div>\n    <div class=\"speaker\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Rodrypaladin - Tags: animation, purple, pink, card, text animation, click animation */\n.card {\n  width: 210px;\n  height: 400px;\n  background: black;\n  border-radius: 35px;\n  border: 2px solid rgb(40, 40, 40);\n  padding: 7px;\n  position: relative;\n  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.486);\n}\n\n.card-int {\n  background-image: linear-gradient(to right bottom, #ff0000, #ff0045, #ff0078, #ea00aa, #b81cd7, #8a3ad6, #5746cf, #004ac2, #003d94, #002e66, #001d3a, #020812);\n  background-size: 200% 200%;\n  background-position: 0% 0%;\n  height: 100%;\n  border-radius: 25px;\n  transition: all 0.6s ease-out;\n  overflow: hidden;\n}\n\n.card:hover .card-int {\n  background-position: 100% 100%;\n}\n\n.top {\n  position: absolute;\n  top: 0px;\n  right: 50%;\n  transform: translate(50%, 0%);\n  width: 35%;\n  height: 18px;\n  background-color: black;\n  border-bottom-left-radius: 10px;\n  border-bottom-right-radius: 10px;\n}\n\n.speaker {\n  position: absolute;\n  top: 2px;\n  right: 50%;\n  transform: translate(50%, 0%);\n  width: 40%;\n  height: 2px;\n  border-radius: 2px;\n  background-color: rgb(20, 20, 20);\n}\n\n.camera {\n  position: absolute;\n  top: 6px;\n  right: 84%;\n  transform: translate(50%, 0%);\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n  background-color: rgba(255, 255, 255, 0.048);\n}\n\n.int {\n  position: absolute;\n  width: 3px;\n  height: 3px;\n  border-radius: 50%;\n  top: 50%;\n  right: 50%;\n  transform: translate(50%, -50%);\n  background-color: rgba(0, 0, 255, 0.212);\n}\n\n.btn1, .btn2, .btn3, .btn4 {\n  position: absolute;\n  width: 2px;\n}\n\n.btn1, .btn2, .btn3 {\n  height: 45px;\n  top: 30%;\n  right: -4px;\n  background-image: linear-gradient(to right, #111111, #222222, #333333, #464646, #595959);\n}\n\n.btn2, .btn3 {\n  transform: scale(-1);\n  left: -4px;\n}\n\n.btn2, .btn3 {\n  transform: scale(-1);\n  height: 30px;\n}\n\n.btn2 {\n  top: 26%\n}\n\n.btn3 {\n  top: 36%\n}\n\n.hello {\n  display: flex;\n  flex-flow: column;\n  align-items: center;\n  justify-content: center;\n  color: white;\n  font-size: 2rem;\n  font-weight: bold;\n  text-align: center;\n  line-height: 35px;\n  height: 100%;\n  transition: 0.5s ease-in-out;\n}\n\n.hidden {\n  display: block;\n  opacity: 0;\n  transition: all 0.3s ease-in;\n}\n\n.card:hover .hidden {\n  opacity: 1;\n}\n\n.card:hover .hello {\n  transform: translateY(-20px);\n}\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

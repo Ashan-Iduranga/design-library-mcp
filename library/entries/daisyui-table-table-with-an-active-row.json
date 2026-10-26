@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-table-table-with-an-active-row",
+  "title": "Table: Table with an active row (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/table/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "table",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Table can be used to show a list of data in a table format.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/table/+page.md",
+  "code": "<div class=\"overflow-x-auto\">\n  <table class=\"table\">\n    <!-- head -->\n    <thead>\n      <tr>\n        <th></th>\n        <th>Name</th>\n        <th>Job</th>\n        <th>Favorite Color</th>\n      </tr>\n    </thead>\n    <tbody>\n      <!-- row 1 -->\n      <tr class=\"bg-base-200\">\n        <th>1</th>\n        <td>Cy Ganderton</td>\n        <td>Quality Control Specialist</td>\n        <td>Blue</td>\n      </tr>\n      <!-- row 2 -->\n      <tr>\n        <th>2</th>\n        <td>Hart Hagerty</td>\n        <td>Desktop Support Technician</td>\n        <td>Purple</td>\n      </tr>\n      <!-- row 3 -->\n      <tr>\n        <th>3</th>\n        <td>Brice Swyre</td>\n        <td>Tax Accountant</td>\n        <td>Red</td>\n      </tr>\n    </tbody>\n  </table>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

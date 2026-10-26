@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-marketing-newsletter-signup-1-dark",
+  "title": "Newsletter Signup: Simple signup (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/newsletter-signup",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "marketing",
+    "newsletter-signup",
+    "hyperui",
+    "email",
+    "form",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/newsletter-signup/1-dark.html",
+  "code": "<div class=\"bg-gray-100 dark:bg-gray-800\">\n<div class=\"mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8\">\n<div class=\"max-w-prose\">\n<h2 class=\"text-2xl font-semibold text-gray-900 sm:text-3xl dark:text-white\">\n            Sign up for our newsletter\n          </h2>\n<p class=\"mt-4 text-pretty text-gray-700 dark:text-gray-200\">\n            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur doloremque saepe\n            architecto maiores repudiandae amet perferendis repellendus, reprehenderit voluptas\n            sequi.\n          </p>\n</div>\n<form action=\"#\" class=\"mt-6 flex max-w-xl flex-col gap-4 sm:flex-row sm:items-center\">\n<label class=\"flex-1\" for=\"Email\">\n<span class=\"sr-only\"> Email </span>\n<input class=\"h-12 w-full rounded border-gray-300 shadow-sm dark:border-gray-600 dark:bg-gray-900 dark:text-white\" id=\"Email\" placeholder=\"Enter your email\" type=\"email\"/>\n</label>\n<button class=\"h-12 rounded-sm border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 dark:text-white dark:hover:bg-indigo-700 dark:hover:text-white\" type=\"submit\">\n            Sign Up\n          </button>\n</form>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

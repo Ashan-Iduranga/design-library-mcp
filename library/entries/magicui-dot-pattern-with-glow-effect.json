@@ -1,0 +1,38 @@
+{
+  "id": "magicui-dot-pattern-with-glow-effect",
+  "title": "Dot Pattern with glow effect (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/dot-pattern-with-glow-effect",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "dot",
+    "pattern",
+    "with",
+    "glow",
+    "effect",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a dot pattern with glow effect\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/dot-pattern-with-glow-effect.tsx",
+  "code": "\"use client\"\n\nimport { cn } from \"@/lib/utils\"\nimport { DotPattern } from \"@/registry/magicui/dot-pattern\"\n\nexport default function DotPatternWithGlowEffectDemo() {\n  return (\n    <div className=\"relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden\">\n      <DotPattern\n        glow={true}\n        className={cn(\n          \"[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]\"\n        )}\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

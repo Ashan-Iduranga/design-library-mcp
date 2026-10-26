@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jdm-encompass-clever-lizard-42-4a230c",
+  "title": "Button by jdm-encompass (clever-lizard-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/jdm-encompass/clever-lizard-42",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "social-media",
+    "animated",
+    "follow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By jdm-encompass on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/jdm-encompass_clever-lizard-42.html",
+  "code": "<button class=\"button\">\n  <a href=\"https://www.facebook.com/JDmOwO\" class=\"no-link-style\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.0\" x=\"0px\" y=\"0px\" width=\"50\" height=\"50\" viewBox=\"0 0 50 50\" style=\"null\" class=\"icon icons8-Facebook-Filled\">\n      <path d=\"M40,0H10C4.486,0,0,4.486,0,10v30c0,5.514,4.486,10,10,10h30c5.514,0,10-4.486,10-10V10C50,4.486,45.514,0,40,0z M39,17h-3 c-2.145,0-3,0.504-3,2v3h6l-1,6h-5v20h-7V28h-3v-6h3v-3c0-4.677,1.581-8,7-8c2.902,0,6,1,6,1V17z\" fill=\"#ffffff\"></path>\n    </svg>\n  </a>\n</button><br>\n<style>\n/* From Uiverse.io by jdm-encompass - Tags: button, social media, animated, follow */\n.button {\n  background-color: #1877F2;\n  border: none;\n  border-radius: 50%;\n  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);\n  animation: sway 2s infinite alternate;\n  width: 70px;\n  height: 70px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  perspective: 500px;\n  transition: transform 0.5s, box-shadow 0.5s;\n}\n\n.button:hover {\n  transform: rotate(-360deg);\n  box-shadow: 0 0 20px 0 rgba(0, 0, 255, 0.5);\n}\n\n@keyframes grow {\n  0% {\n    transform: scale(1);\n  }\n\n  100% {\n    transform: scale(10);\n  }\n}\n\n@keyframes glow {\n  0% {\n    text-shadow: gold 1px 1px 1px;\n  }\n\n  100% {\n    text-shadow: gold 0 0 10px gold;\n  }\n}\n\n.icon {\n  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6));\n  transition: transform 0.5s;\n}\n\n.icon:hover {\n  transform: scale(1.5);\n  filter: drop-shadow(1px 2px 4px rgba(0,0,0,0.9))\n}\n\n.follow-text {\n  color: white;\n  position: relative;\n  top: 3em;\n  left: -4em;\n  transition: transform 0.5s;\n}\n\n.follow-text:hover {\n  transform: scale(1.2);\n  color: rgba(31,81,255,100);\n  filter: drop-shadow(2px 2px 4px rgba(31,81,255,2.0))\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

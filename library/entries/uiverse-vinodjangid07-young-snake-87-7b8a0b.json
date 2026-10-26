@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vinodjangid07-young-snake-87-7b8a0b",
+  "title": "Button by vinodjangid07 (young-snake-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/young-snake-87",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "edit",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_young-snake-87.html",
+  "code": "<button class=\"editBtn\">\n  <svg height=\"1em\" viewBox=\"0 0 512 512\">\n    <path\n      d=\"M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z\"\n    ></path>\n  </svg>\n</button>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: animation, button, edit, hover effect */\n.editBtn {\n  width: 55px;\n  height: 55px;\n  border-radius: 20px;\n  border: none;\n  background-color: rgb(93, 93, 116);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.123);\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: all 0.3s;\n}\n.editBtn::before {\n  content: \"\";\n  width: 200%;\n  height: 200%;\n  background-color: rgb(102, 102, 141);\n  position: absolute;\n  z-index: 1;\n  transform: scale(0);\n  transition: all 0.3s;\n  border-radius: 50%;\n  filter: blur(10px);\n}\n.editBtn:hover::before {\n  transform: scale(1);\n}\n.editBtn:hover {\n  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.336);\n}\n\n.editBtn svg {\n  height: 17px;\n  fill: white;\n  z-index: 3;\n  transition: all 0.2s;\n  transform-origin: bottom;\n}\n.editBtn:hover svg {\n  transform: rotate(-15deg) translateX(5px);\n}\n.editBtn::after {\n  content: \"\";\n  width: 25px;\n  height: 1.5px;\n  position: absolute;\n  bottom: 19px;\n  left: -5px;\n  background-color: white;\n  border-radius: 2px;\n  z-index: 2;\n  transform: scaleX(0);\n  transform-origin: left;\n  transition: transform 0.5s ease-out;\n}\n.editBtn:hover::after {\n  transform: scaleX(1);\n  left: 0px;\n  transform-origin: right;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

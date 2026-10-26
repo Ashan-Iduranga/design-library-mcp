@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-button-destructive",
+  "title": "Button Destructive (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/button-destructive.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "button",
+    "destructive",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Displays a button or a component that looks like a button.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/button-destructive.tsx",
+  "code": "import { Button } from \"@/registry/new-york-v4/ui/button\"\n\nexport default function ButtonDestructive() {\n  return <Button variant=\"destructive\">Destructive</Button>\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

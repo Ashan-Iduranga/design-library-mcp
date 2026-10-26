@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-na3ar-17-evil-dragon-24-10c834",
+  "title": "Toggle by Na3ar-17 (evil-dragon-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Na3ar-17/evil-dragon-24",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "action",
+    "switch",
+    "download"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Na3ar-17 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Na3ar-17_evil-dragon-24.html",
+  "code": "<div class=\"container\">\n  <label class=\"label\">\n    <input class=\"input\" type=\"checkbox\" />\n    <span class=\"circle\"\n      ><svg\n        viewBox=\"0 0 24 24\"\n        fill=\"none\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n        aria-hidden=\"true\"\n        class=\"icon\"\n      >\n        <path\n          d=\"M12 19V5m0 14-4-4m4 4 4-4\"\n          stroke-width=\"1.5\"\n          stroke-linejoin=\"round\"\n          stroke-linecap=\"round\"\n          stroke=\"currentColor\"\n        ></path>\n      </svg>\n      <div class=\"square\"></div>\n    </span>\n    <p class=\"title\">Download</p>\n    <p class=\"title\">Open</p>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by Na3ar-17  - Tags: action, switch, download */\n.container {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n  font-family: Arial, Helvetica, sans-serif;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.label {\n  background-color: transparent;\n  border: 2px solid rgb(91, 91, 240);\n  display: flex;\n  align-items: center;\n  border-radius: 50px;\n  width: 150px;\n  cursor: pointer;\n  transition: all 0.4s ease;\n  padding: 5px;\n  position: relative;\n}\n\n.label::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  background-color: #fff;\n  width: 8px;\n  height: 8px;\n  transition: all 0.4s ease;\n  border-radius: 100%;\n  margin: auto;\n  opacity: 0;\n  visibility: hidden;\n}\n\n.label .input {\n  display: none;\n}\n\n.label .title {\n  font-size: 17px;\n  color: #fff;\n  transition: all 0.4s ease;\n  position: absolute;\n  right: 15px;\n  bottom: 14px;\n  text-align: center;\n}\n\n.label .title:last-child {\n  opacity: 0;\n  visibility: hidden;\n}\n\n.label .circle {\n  height: 45px;\n  width: 45px;\n  border-radius: 50%;\n  background-color: rgb(91, 91, 240);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: all 0.4s ease;\n  position: relative;\n  box-shadow: 0 0 0 0 rgb(255, 255, 255);\n  overflow: hidden;\n}\n\n.label .circle .icon {\n  color: #fff;\n  width: 30px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  transition: all 0.4s ease;\n}\n\n.label .circle .square {\n  aspect-ratio: 1;\n  width: 15px;\n  border-radius: 2px;\n  background-color: #fff;\n  opacity: 0;\n  visibility: hidden;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  transition: all 0.4s ease;\n}\n\n.label .circle::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: 0;\n  background-color: #3333a8;\n  width: 100%;\n  height: 0;\n  transition: all 0.4s ease;\n}\n\n.label:has(.input:checked) {\n  width: 57px;\n  animation: installed 0.4s ease 3.5s forwards;\n}\n\n.label:has(.input:checked)::before {\n  animation: rotate 3s ease-in-out 0.4s forwards;\n}\n\n.label .input:checked + .circle {\n  animation: pulse 1s forwards, circleDelete 0.2s ease 3.5s forwards;\n  rotate: 180deg;\n}\n\n.label .input:checked + .circle::before {\n  animation: installing 3s ease-in-out forwards;\n}\n\n.label .input:checked + .circle .icon {\n  opacity: 0;\n  visibility: hidden;\n}\n\n.label .input:checked ~ .circle .square {\n  opacity: 1;\n  visibility: visible;\n}\n\n.label .input:checked ~ .title {\n  opacity: 0;\n  visibility: hidden;\n}\n\n.label .input:checked ~ .title:last-child {\n  animation: showInstalledMessage 0.4s ease 3.5s forwards;\n}\n\n@keyframes pulse {\n  0% {\n    scale: 0.95;\n    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);\n  }\n  70% {\n    scale: 1;\n    box-shadow: 0 0 0 16px rgba(255, 255, 255, 0);\n  }\n  100% {\n    scale: 0.95;\n    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);\n  }\n}\n\n@keyframes installing {\n  from {\n    height: 0;\n  }\n  to {\n    height: 100%;\n  }\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(-90deg) translate(27px) rotate(0);\n    opacity: 1;\n    visibility: visible;\n  }\n  99% {\n    transform: rotate(270deg) translate(27px) rotate(270deg);\n    opacity: 1;\n    visibility: visible;\n  }\n  100% {\n    opacity: 0;\n    visibility: hidden;\n  }\n}\n\n@keyframes installed {\n  100% {\n    width: 150px;\n    border-color: rgb(35, 174, 35);\n  }\n}\n\n@keyframes circleDelete {\n  100% {\n    opacity: 0;\n    visibility: hidden;\n  }\n}\n\n@keyframes showInstalledMessage {\n  100% {\n    opacity: 1;\n    visibility: visible;\n    right: 56px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

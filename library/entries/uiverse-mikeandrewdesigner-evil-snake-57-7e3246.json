@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mikeandrewdesigner-evil-snake-57-7e3246",
+  "title": "Button by MikeAndrewDesigner (evil-snake-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MikeAndrewDesigner/evil-snake-57",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "creative",
+    "cool-btn"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MikeAndrewDesigner on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/MikeAndrewDesigner_evil-snake-57.html",
+  "code": "<button class=\"button\">\n<div id=\"ui\">UI</div>VERSE</button>\n<style>\n/* From Uiverse.io by MikeAndrewDesigner - Tags: button, creative, cool btn */\n#ui {\n  font-weight: bolder;\n  background: -webkit-linear-gradient(#B563FF, #535EFC, #0EC8EE);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  border-bottom: 4px solid transparent;\n  border-image: linear-gradient(0.25turn, #535EFC, #0EC8EE, #0EC8EE);\n  border-image-slice: 1;\n  display: inline;\n}\n\n.button {\n  position: relative;\n  padding: 20px 30px;\n  border-radius: 6px;\n  border: none;\n  color: #fff;\n  font-weight: 00;\n  cursor: pointer;\n  font-size: 1.5em;\n  font-weight: 600;\n  background-color: #2c2c2c;\n  transition: all 0.2s ease;\n}\n\n.button:hover {\n  background: linear-gradient(144deg, #1e1e1e , 20%,#1e1e1e 50%,#1e1e1e );\n  transition: all 0.2s ease;\n  color: #fff;\n}\n\n.button:active {\n  transform: scale(0.96);\n}\n\n.button:before,\n.button:after {\n  position: absolute;\n  content: \"\";\n  width: 150%;\n  left: 50%;\n  height: 100%;\n  transform: translateX(-50%);\n  z-index: -1000;\n  background-repeat: no-repeat;\n}\n\n.button:hover:before {\n  top: -70%;\n  background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%),\n    radial-gradient(circle, #535EFC 20%, transparent 20%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),\n    radial-gradient(circle, #0EC8EE 20%, transparent 20%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, #0EC8EE 20%, transparent 20%),\n    radial-gradient(circle, #0EC8EE 20%, transparent 20%);\n  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,\n    10% 10%, 18% 18%;\n  background-position: 50% 120%;\n  animation: greentopBubbles 0.6s ease;\n}\n\n@keyframes greentopBubbles {\n  0% {\n    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,\n      40% 90%, 55% 90%, 70% 90%;\n  }\n\n  50% {\n    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,\n      50% 50%, 65% 20%, 90% 30%;\n  }\n\n  100% {\n    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,\n      50% 40%, 65% 10%, 90% 20%;\n    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;\n  }\n}\n\n.button:hover::after {\n  bottom: -70%;\n  background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, #535EFC 20%, transparent 20%),\n    radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),\n    radial-gradient(circle, #535EFC 20%, transparent 20%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%),\n    radial-gradient(circle, #535EFC 20%, transparent 20%),\n    radial-gradient(circle, #7d2ae8 20%, transparent 20%);\n  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;\n  background-position: 50% 0%;\n  animation: greenbottomBubbles 0.6s ease;\n}\n\n@keyframes greenbottomBubbles {\n  0% {\n    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,\n      70% -10%, 70% 0%;\n  }\n\n  50% {\n    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,\n      105% 0%;\n  }\n\n  100% {\n    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,\n      110% 10%;\n    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "uiverse-the-best-codes-bright-rabbit-33-688f1a",
+  "title": "Toggle by The-Best-Codes (bright-rabbit-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/The-Best-Codes/bright-rabbit-33",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "material-design",
+    "animation",
+    "green",
+    "switch",
+    "checkbox",
+    "modern",
+    "css",
+    "css-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By The-Best-Codes on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/The-Best-Codes_bright-rabbit-33.html",
+  "code": "<div class=\"toggle-switch\">\n  <input class=\"toggle-input\" id=\"toggle\" type=\"checkbox\" />\n  <label class=\"toggle-label\" for=\"toggle\"></label>\n</div>\n\n<style>\n/* From Uiverse.io by The-Best-Codes  - Tags: material design, animation, green, switch, checkbox, modern, css, css effect */\n.toggle-switch {\n  display: inline-block;\n  position: relative;\n  width: 60px;\n  height: 34px;\n}\n\n.toggle-input {\n  display: none;\n}\n\n.toggle-label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 60px;\n  height: 34px;\n  background-color: #ccc;\n  border-radius: 34px;\n  cursor: pointer;\n  transition: background-color 0.3s;\n}\n\n.toggle-label:before {\n  content: \"\";\n  position: absolute;\n  top: 2px;\n  left: 2px;\n  width: 30px;\n  height: 30px;\n  background-color: #fff;\n  border-radius: 50%;\n  transition: transform 0.3s;\n}\n\n.toggle-input:checked + .toggle-label {\n  background-color: #4fbf26;\n}\n\n.toggle-input:checked + .toggle-label:before {\n  transform: translateX(26px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

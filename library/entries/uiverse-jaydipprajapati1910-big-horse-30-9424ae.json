@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-jaydipprajapati1910-big-horse-30-9424ae",
+  "title": "Button by JaydipPrajapati1910 (big-horse-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/big-horse-30",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "glassmorphism",
+    "animation",
+    "blue",
+    "circle"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JaydipPrajapati1910_big-horse-30.html",
+  "code": "<button class=\"button\">\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n    <div class=\"button-inner\">Button</div>\n</button>\n\n\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: glassmorphism, animation, blue, button, circle */\n.button {\n  width: 160px;\n  height: 55px;\n  transition: all 0.2s;\n  position: relative;\n  cursor: pointer;\n  background: none;\n  outline: none;\n  border: none;\n}\n\n.button-inner {\n  width: inherit;\n  height: inherit;\n  background: rgba(255,255,255,.05);\n  box-shadow: 0 0 10px rgba(0,0,0,0.25);\n  backdrop-filter: blur(10px);\n  border-radius: 8px;\n  display: flex;\n  text-align: center;\n  justify-content: center;\n  align-items: center;\n  font-size: 20px;\n  font-weight: 900;\n  letter-spacing: .1em;\n  color: blue;\n}\n\n.button:hover {\n  transform: scale(1.04) rotate(1deg);\n}\n\n.circle {\n  width: 20px;\n  height: 20px;\n  background: radial-gradient(blue,darkblue);\n  border-radius: 50%;\n  position: absolute;\n  animation: move-up6 2s ease-in infinite alternate-reverse;\n}\n\n.circle:nth-child(1) {\n  top: 0px;\n  left: 0px;\n}\n\n.circle:nth-child(2) {\n  bottom: 0px;\n  right: 0px;\n  animation-name: move-down1;\n}\n\n@keyframes move-up6 {\n  to {\n    transform: translateY(-5px);\n  }\n}\n\n@keyframes move-down1 {\n  to {\n    transform: translateY(5px);\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

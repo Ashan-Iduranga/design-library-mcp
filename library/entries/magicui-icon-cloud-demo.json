@@ -1,0 +1,36 @@
+{
+  "id": "magicui-icon-cloud-demo",
+  "title": "Icon Cloud Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/icon-cloud",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "icon",
+    "cloud",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing an interactive 3D icon cloud.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/icon-cloud-demo.tsx",
+  "code": "import { IconCloud } from \"@/registry/magicui/icon-cloud\"\n\nconst slugs = [\n  \"typescript\",\n  \"javascript\",\n  \"dart\",\n  \"java\",\n  \"react\",\n  \"flutter\",\n  \"android\",\n  \"html5\",\n  \"css3\",\n  \"nodedotjs\",\n  \"express\",\n  \"nextdotjs\",\n  \"prisma\",\n  \"amazonaws\",\n  \"postgresql\",\n  \"firebase\",\n  \"nginx\",\n  \"vercel\",\n  \"testinglibrary\",\n  \"jest\",\n  \"cypress\",\n  \"docker\",\n  \"git\",\n  \"jira\",\n  \"github\",\n  \"gitlab\",\n  \"visualstudiocode\",\n  \"androidstudio\",\n  \"sonarqube\",\n  \"figma\",\n]\n\nexport default function IconCloudDemo() {\n  const images = slugs.map(\n    (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`\n  )\n\n  return (\n    <div className=\"relative flex size-full items-center justify-center overflow-hidden\">\n      <IconCloud images={images} />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-tsiangana-purple-fly-11-27d744",
+  "title": "Loader by Tsiangana (purple-fly-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Tsiangana/purple-fly-11",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "animated",
+    "creative",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Tsiangana on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Tsiangana_purple-fly-11.html",
+  "code": "<div class=\"loader\">\n  <svg\n    viewBox=\"0 0 16 16\"\n    class=\"light bi bi-lightning-charge-fill\"\n    fill=\"currentColor\"\n    height=\"28\"\n    width=\"28\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z\"\n    ></path>\n  </svg>\n</div>\n\n<style>\n/* From Uiverse.io by Tsiangana  - Tags: animation, loader, animated, creative, loading animation */\n.light {\n  position: absolute;\n  left: 22px;\n  fill: rgba(37, 37, 37, 0.774);\n}\n\n.loader {\n  width: 80px;\n  height: 40px;\n  border: 2px solid #22f49e;\n  border-right-color: transparent;\n  padding: 3px;\n  background: repeating-linear-gradient(90deg, #22f49e 0 10px, #0000 0 15px)\n    left/0% 100% no-repeat content-box content-box;\n  position: relative;\n  animation: p5 2s infinite steps(6);\n}\n.loader::before {\n  content: \"\";\n  position: absolute;\n  top: -2px;\n  bottom: -2px;\n  left: 100%;\n  width: 10px;\n  background: linear-gradient(\n        #0000 calc(50% - 7px),\n        #22f49e 0 calc(50% - 5px),\n        #0000 0 calc(50% + 5px),\n        #22f49e 0 calc(50% + 7px),\n        #0000 0\n      )\n      left / 100% 100%,\n    linear-gradient(#22f49e calc(50% - 5px), #0000 0 calc(50% + 5px), #22f49e 0)\n      left / 2px 100%,\n    linear-gradient(#0000 calc(50% - 5px), #22f49e 0 calc(50% + 5px), #0000 0)\n      right/2px 100%;\n  background-repeat: no-repeat;\n}\n@keyframes p5 {\n  100% {\n    background-size: 120% 100%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

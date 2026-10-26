@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-radio-radio",
+  "title": "Radio: Radio (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/radio/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Radio buttons allow the user to select one option from a set.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/radio/+page.md",
+  "code": "<input type=\"radio\" name=\"radio-1\" class=\"radio\" checked=\"checked\" />\n<input type=\"radio\" name=\"radio-1\" class=\"radio\" />",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-pink-puma-38-1bba2c",
+  "title": "Pattern by csemszepp (pink-puma-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/pink-puma-38",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_pink-puma-38.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 105px; /* control the size */\n  --c1: #b9b9b9;\n  --c2: #dcdcdc;\n  --c3: #fafafa;\n\n  background: conic-gradient(\n        from 75deg,\n        var(--c1) 15deg,\n        var(--c2) 0 30deg,\n        #0000 0 180deg,\n        var(--c2) 0 195deg,\n        var(--c1) 0 210deg,\n        #0000 0\n      )\n      calc(0.5 * var(--s)) calc(0.5 * var(--s) / 0.577),\n    conic-gradient(\n      var(--c1) 30deg,\n      var(--c3) 0 75deg,\n      var(--c1) 0 90deg,\n      var(--c2) 0 105deg,\n      var(--c3) 0 150deg,\n      var(--c2) 0 180deg,\n      var(--c3) 0 210deg,\n      var(--c1) 0 256deg,\n      var(--c2) 0 270deg,\n      var(--c1) 0 286deg,\n      var(--c2) 0 331deg,\n      var(--c3) 0\n    );\n  background-size: var(--s) calc(var(--s) / 0.577);\n  /* 0.577=tan(30deg)*/\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

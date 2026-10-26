@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-roroland-loud-pig-27-910906",
+  "title": "Button by roroland (loud-pig-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/roroland/loud-pig-27",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By roroland on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/roroland_loud-pig-27.html",
+  "code": "<button>\n  <span>View more</span>\n</button>\n<style>\n/* From Uiverse.io by roroland - Tags: button */\nbutton {\n  --fs: 1.25em;\n  --col1: honeydew;\n  --col2: rgba(240, 128, 128, 0.603);\n  --col3: indianred;\n  --col4: maroon;\n  --pd: .5em .65em;\n  display: grid;\n  align-content: baseline;\n  appearance: none;\n  border: 0;\n  grid-template-columns: min-content 1fr;\n  padding: var(--pd);\n  font-size: var(--fs);\n  color: var(--col1);\n  background-color: var(--col3);\n  border-radius: 6px;\n  text-shadow: 1px 1px var(--col4);\n  box-shadow: inset -2px 1px 1px var(--col2),\n    inset 2px 1px 1px var(--col2);\n  position: relative;\n  transition: all .75s ease-out;\n  transform-origin: center;\n}\n\nbutton:hover {\n  color: var(--col4);\n  box-shadow: inset -2px 1px 1px var(--col2),\n    inset 2px 1px 1px var(--col2),\n    inset 0px -2px 20px var(--col4),\n    0px 20px 30px var(--col3),\n    0px -20px 30px var(--col2),\n    1px 2px 20px var(--col4);\n  text-shadow: 1px 1px var(--col2);\n}\n\nbutton:active {\n  animation: offset 1s ease-in-out infinite;\n  outline: 2px solid var(--col2);\n  outline-offset: 0;\n}\n\nbutton::after,\nbutton::before {\n  content: '';\n  align-self: center;\n  justify-self: center;\n  height: .5em;\n  margin: 0 .5em;\n  grid-column: 1;\n  grid-row: 1;\n  opacity: 1;\n}\n\nbutton::after {\n  position: relative;\n  border: 2px solid var(--col4);\n  border-radius: 50%;\n  transition: all .5s ease-out;\n  height: .1em;\n  width: .1em;\n}\n\nbutton:hover::after {\n  border: 2px solid var(--col3);\n  transform: rotate(-120deg) translate(10%, 140%);\n}\n\nbutton::before {\n  border-radius: 50% 0%;\n  border: 4px solid var(--col4);\n  box-shadow: inset 1px 1px var(--col2);\n  transition: all 1s ease-out;\n  transform: rotate(45deg);\n  height: .45em;\n  width: .45em;\n}\n\nbutton:hover::before {\n  border-radius: 50%;\n  border: 4px solid var(--col1);\n  transform: scale(1.25) rotate(0deg);\n  animation: blink 1.5s ease-out 1s infinite alternate;\n}\n\nbutton:hover > span {\n  filter: contrast(150%);\n}\n\n@keyframes blink {\n  0% {\n    transform: scale(1, 1) skewX(0deg);\n    opacity: 1;\n  }\n\n  5% {\n    transform: scale(1.5, .1) skewX(10deg);\n    opacity: .5;\n  }\n\n  10%,\n  35% {\n    transform: scale(1, 1) skewX(0deg);\n    opacity: 1;\n  }\n\n  40% {\n    transform: scale(1.5, .1) skewX(10deg);\n    opacity: .25;\n  }\n\n  45%,\n  100% {\n    transform: scale(1, 1) skewX(0deg);\n    opacity: 1;\n  }\n}\n\n@keyframes offset {\n  50% {\n    outline-offset: .15em;\n    outline-color: var(--col1);\n  }\n\n  55% {\n    outline-offset: .1em;\n    transform: translateY(1px);\n  }\n\n  80%,\n  100% {\n    outline-offset: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

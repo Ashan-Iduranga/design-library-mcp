@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-praashoo7-tough-firefox-72-02a5d4",
+  "title": "Toggle by Praashoo7 (tough-firefox-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/tough-firefox-72",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "on",
+    "off",
+    "light",
+    "realistic"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Praashoo7_tough-firefox-72.html",
+  "code": "<label class=\"container\">\n  <input type=\"checkbox\">\n  <div class=\"checkmark\">\n    <div class=\"switch\"></div>\n  </div>\n</label>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: switch, on, off, light, realistic */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 6em;\n  width: 3em;\n  background-color: #ccc;\n}\n\n.switch {\n  position: relative;\n  height: 5.4em;\n  width: 2.4em;\n  top: .3em;\n  left: .3em;\n  background-color: white;\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 2px, rgba(0, 0, 0, 0.3) 0px 0px 0px -3px, rgba(0, 0, 0, 0.2) 0px -8px 0px inset;\n}\n\n.container input:checked ~ .checkmark .switch {\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 0px 0px -3px, rgba(0, 0, 0, 0.2) 0px -6px 0px inset;\n  transform: rotateX(180deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

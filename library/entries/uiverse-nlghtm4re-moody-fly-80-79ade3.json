@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-nlghtm4re-moody-fly-80-79ade3",
+  "title": "Loader by NlghtM4re (moody-fly-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/NlghtM4re/moody-fly-80",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "blue",
+    "smooth",
+    "shadow",
+    "glow",
+    "neon"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By NlghtM4re on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/NlghtM4re_moody-fly-80.html",
+  "code": "<div class=\"container\">\n  <div class=\"top\">\n    <div class=\"square\">\n      <div class=\"square\">\n        <div class=\"square\">\n          <div class=\"square\">\n            <div class=\"square\"><div class=\"square\">\n            </div></div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"bottom\">\n    <div class=\"square\">\n      <div class=\"square\">\n        <div class=\"square\">\n          <div class=\"square\">\n            <div class=\"square\"><div class=\"square\">\n            </div></div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"left\">\n    <div class=\"square\">\n      <div class=\"square\">\n        <div class=\"square\">\n          <div class=\"square\">\n            <div class=\"square\"><div class=\"square\">\n            </div></div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"right\">\n    <div class=\"square\">\n      <div class=\"square\">\n        <div class=\"square\">\n          <div class=\"square\">\n            <div class=\"square\"><div class=\"square\">\n            </div></div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by NlghtM4re - Tags: blue, loader, smooth, shadow, glow, neon */\n.container {\n  position: absolute;\n  top: 45%;\n  left: 48%;\n}\n\n.square {\n  width: 8px;\n  height: 30px;\n  background: rgb(71, 195, 248);\n  border-radius: 10px;\n  display: block;\n  /*margin:10px;*/\n  -webkit-animation: turn 2.5s ease infinite;\n  animation: turn 2.5s ease infinite;\n  box-shadow: rgb(71, 195, 248) 0px 1px 15px 0px;\n}\n\n.top {\n  position: absolute;\n  left: 40%;\n  top: 50%;\n  -webkit-transform: rotate(90deg);\n  transform: rotate(90deg);\n}\n\n.bottom {\n  position: absolute;\n  left: 40%;\n  top: 50%;\n  -webkit-transform: rotate(-90deg);\n  transform: rotate(-90deg);\n}\n\n.left {\n  position: absolute;\n  left: 40%;\n  top: 50%;\n}\n\n.right {\n  position: absolute;\n  left: 40%;\n  top: 50%;\n  -webkit-transform: rotate(-180deg);\n  transform: rotate(-180deg);\n}\n\n@-webkit-keyframes turn {\n  0% {\n    transform: translateX(0) translateY(0) rotate(0);\n  }\n\n  50% {\n    transform: translateX(400%) translateY(100%) rotate(90deg);\n  }\n\n  100% {\n    transform: translateX(0) translateY(0) rotate(0);\n  }\n}\n\n@keyframes turn {\n  0% {\n    transform: translateX(0) translateY(0) rotate(0);\n  }\n\n  70% {\n    transform: translateX(400%) translateY(100%) rotate(90deg);\n  }\n\n  100% {\n    transform: translateX(0) translateY(0) rotate(0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

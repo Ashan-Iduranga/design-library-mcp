@@ -1,0 +1,36 @@
+{
+  "id": "hyperui-application-charts-11",
+  "title": "Charts: Bubble chart with sized data points",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/charts",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "charts",
+    "hyperui",
+    "chart",
+    "graph",
+    "analytics",
+    "dashboard",
+    "data-visualization"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/charts/11.html",
+  "code": "<div class=\"mx-auto max-w-lg p-6\">\n<div class=\"rounded-lg border border-gray-200 bg-white p-6\">\n<h2 class=\"text-sm font-medium text-gray-900\">Campaign performance</h2>\n<div class=\"mt-4 h-64\">\n<canvas aria-label=\"Campaign performance, bubble chart\" id=\"campaign-performance-bubble-chart\" role=\"img\"></canvas>\n</div>\n<table class=\"sr-only\">\n<caption>\n          Campaign spend, conversions, and reach\n        </caption>\n<thead>\n<tr>\n<th scope=\"col\">Campaign</th>\n<th scope=\"col\">Spend ($)</th>\n<th scope=\"col\">Conversions</th>\n<th scope=\"col\">Reach index</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<th scope=\"row\">Search</th>\n<td>3,200</td>\n<td>18,000</td>\n<td>22</td>\n</tr>\n<tr>\n<th scope=\"row\">Social</th>\n<td>2,400</td>\n<td>9,500</td>\n<td>16</td>\n</tr>\n<tr>\n<th scope=\"row\">Display</th>\n<td>1,800</td>\n<td>5,200</td>\n<td>12</td>\n</tr>\n<tr>\n<th scope=\"row\">Email</th>\n<td>900</td>\n<td>7,800</td>\n<td>14</td>\n</tr>\n<tr>\n<th scope=\"row\">Video</th>\n<td>2,600</td>\n<td>6,100</td>\n<td>18</td>\n</tr>\n</tbody>\n</table>\n</div>\n<script src=\"https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js\"></script>\n<script>\n      const campaignPerformanceBubbleChartCanvas = document.getElementById(\n        'campaign-performance-bubble-chart',\n      )\n\n      new Chart(campaignPerformanceBubbleChartCanvas, {\n        type: 'bubble',\n        data: {\n          datasets: [\n            {\n              label: 'Search',\n              data: [{ x: 3200, y: 18000, r: 22 }],\n              backgroundColor: 'rgba(79, 70, 229, 0.7)',\n              hoverBackgroundColor: '#4f46e5',\n            },\n            {\n              label: 'Social',\n              data: [{ x: 2400, y: 9500, r: 16 }],\n              backgroundColor: 'rgba(16, 185, 129, 0.7)',\n              hoverBackgroundColor: '#10b981',\n            },\n            {\n              label: 'Display',\n              data: [{ x: 1800, y: 5200, r: 12 }],\n              backgroundColor: 'rgba(245, 158, 11, 0.7)',\n              hoverBackgroundColor: '#f59e0b',\n            },\n            {\n              label: 'Email',\n              data: [{ x: 900, y: 7800, r: 14 }],\n              backgroundColor: 'rgba(244, 63, 94, 0.7)',\n              hoverBackgroundColor: '#f43f5e',\n            },\n            {\n              label: 'Video',\n              data: [{ x: 2600, y: 6100, r: 18 }],\n              backgroundColor: 'rgba(14, 165, 233, 0.7)',\n              hoverBackgroundColor: '#0ea5e9',\n            },\n          ],\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: false,\n          plugins: {\n            legend: {\n              position: 'bottom',\n              labels: { color: '#4b5563' },\n            },\n            tooltip: {\n              callbacks: {\n                label: (tooltipItem) =>\n                  `${tooltipItem.dataset.label}: $${tooltipItem.raw.x} spend, ${tooltipItem.raw.y} conversions`,\n              },\n            },\n          },\n          scales: {\n            x: {\n              title: { display: true, text: 'Spend ($)', color: '#4b5563' },\n              grid: { color: '#e5e7eb' },\n              ticks: { color: '#4b5563' },\n            },\n            y: {\n              title: { display: true, text: 'Conversions', color: '#4b5563' },\n              beginAtZero: true,\n              grid: { color: '#e5e7eb' },\n              ticks: { color: '#4b5563' },\n            },\n          },\n        },\n      })\n    </script>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

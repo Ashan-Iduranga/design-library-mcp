@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-andrew-demchenk0-yellow-otter-87-1d7af0",
+  "title": "Button by andrew-demchenk0 (yellow-otter-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/yellow-otter-87",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "black",
+    "microphone",
+    "record",
+    "opacity"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/andrew-demchenk0_yellow-otter-87.html",
+  "code": "<button class=\"button\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" viewBox=\"0 0 24 24\" height=\"24\" fill=\"none\" class=\"svg-icon\"><g stroke-width=\"2\" stroke-linecap=\"round\" stroke=\"#ff342b\"><rect y=\"3\" x=\"9\" width=\"6\" rx=\"3\" height=\"11\"></rect><path d=\"m12 18v3\"></path><path d=\"m8 21h8\"></path><path d=\"m19 11c0 3.866-3.134 7-7 7-3.86599 0-7-3.134-7-7\"></path></g></svg>\n  <span class=\"lable\">Record</span>\n</button>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: icon, black, button, Microphone, record, opacity */\n.button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 6px 12px;\n  gap: 8px;\n  height: 40px;\n  width: 114px;\n  border: none;\n  background: #1b1b1cde;\n  border-radius: 20px;\n  cursor: pointer;\n}\n\n.lable {\n  line-height: 20px;\n  font-size: 17px;\n  color: #FF342B;\n  font-family: sans-serif;\n  letter-spacing: 1px;\n}\n\n.button:hover {\n  background: #1b1b1c;\n}\n\n.button:hover .svg-icon {\n  animation: scale 1s linear infinite;\n}\n\n@keyframes scale {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.05) rotate(10deg);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

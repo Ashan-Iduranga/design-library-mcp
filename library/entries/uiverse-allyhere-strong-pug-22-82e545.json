@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-allyhere-strong-pug-22-82e545",
+  "title": "Button by Allyhere (strong-pug-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Allyhere/strong-pug-22",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "css-effect",
+    "hoverme"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Allyhere on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Allyhere_strong-pug-22.html",
+  "code": "<button class=\"btn-donate\">\n    Donate now\n</button>\n<style>\n/* From Uiverse.io by Allyhere - Tags: button, css effect, hoverme */\n.btn-donate {\n  --clr-font-main: hsla(0 0% 20% / 100);\n  --btn-bg-1: hsla(194 100% 69% / 1);\n  --btn-bg-2: hsla(217 100% 56% / 1);\n  --btn-bg-color: hsla(360 100% 100% / 1);\n  --radii: 0.5em;\n  cursor: pointer;\n  padding: 0.9em 1.4em;\n  min-width: 120px;\n  min-height: 44px;\n  font-size: var(--size, 1rem);\n  font-family: \"Segoe UI\", system-ui, sans-serif;\n  font-weight: 500;\n  transition: 0.8s;\n  background-size: 280% auto;\n  background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);\n  border: none;\n  border-radius: var(--radii);\n  color: var(--btn-bg-color);\n  box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px rgba(175, 230, 255, 0.5), inset -4px -4px 8px rgba(19, 95, 216, 0.35);\n}\n\n.btn-donate:hover {\n  background-position: right top;\n}\n\n.btn-donate:is(:focus, :focus-visible, :active) {\n  outline: none;\n  box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);\n}\n\n@media (prefers-reduced-motion: reduce) {\n  .btn-donate {\n    transition: linear;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

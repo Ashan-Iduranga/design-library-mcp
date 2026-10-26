@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-timtrayler-orange-bat-25-672552",
+  "title": "Input by TimTrayler (orange-bat-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TimTrayler/orange-bat-25",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "search"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TimTrayler on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/TimTrayler_orange-bat-25.html",
+  "code": "<div class=\"searchbar\">\n    <div class=\"searchbar-wrapper\">\n        <div class=\"searchbar-left\">\n            <div class=\"search-icon-wrapper\">\n                <span class=\"search-icon searchbar-icon\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n                        <path d=\"M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\">\n                        </path>\n                    </svg>\n                </span>\n            </div>\n        </div>\n\n        <div class=\"searchbar-center\">\n            <div class=\"searchbar-input-spacer\"></div>\n\n            <input type=\"text\" class=\"searchbar-input\" maxlength=\"2048\" name=\"q\" autocapitalize=\"off\" autocomplete=\"off\" title=\"Search\" role=\"combobox\" placeholder=\"Search Google\">\n        </div>\n\n        <div class=\"searchbar-right\">\n            <svg class=\"voice-search\" role=\"button\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n                <path fill=\"#4285f4\" d=\"m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z\">\n                </path>\n                <path fill=\"#34a853\" d=\"m11 18.08h2v3.92h-2z\"></path>\n                <path fill=\"#fbbc05\" d=\"m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z\">\n                </path>\n                <path fill=\"#ea4335\" d=\"m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z\">\n                </path>\n            </svg>\n        </div>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by TimTrayler - Tags: input, search */\n.searchbar {\n  font-size: 14px;\n  font-family: arial, sans-serif;\n  color: #202124;\n  display: flex;\n  z-index: 3;\n  height: 44px;\n  background: white;\n  border: 1px solid #dfe1e5;\n  box-shadow: none;\n  border-radius: 24px;\n  margin: 0 auto;\n  width: auto;\n  max-width: 224px;\n}\n\n.searchbar:hover {\n  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);\n  border-color: rgba(223,225,229,0);\n}\n\n.searchbar-wrapper {\n  flex: 1;\n  display: flex;\n  padding: 5px 8px 0 14px;\n}\n\n.searchbar-left {\n  font-size: 14px;\n  font-family: arial, sans-serif;\n  color: #202124;\n  display: flex;\n  align-items: center;\n  padding-right: 13px;\n  margin-top: -5px;\n}\n\n.search-icon-wrapper {\n  margin: auto;\n}\n\n.search-icon {\n  margin-top: 3px;\n  color: #9aa0a6;\n  height: 20px;\n  line-height: 20px;\n  width: 20px;\n}\n\n.searchbar-icon {\n  display: inline-block;\n  fill: currentColor;\n  height: 24px;\n  line-height: 24px;\n  position: relative;\n  width: 24px;\n}\n\n.searchbar-center {\n  display: flex;\n  flex: 1;\n  flex-wrap: wrap;\n}\n\n.searchbar-input-spacer {\n  color: transparent;\n  flex: 100%;\n  white-space: pre;\n  height: 34px;\n  font-size: 16px;\n}\n\n.searchbar-input {\n  background-color: transparent;\n  border: none;\n  margin: 0;\n  padding: 0;\n  color: rgba(0, 0, 0, .87);\n  word-wrap: break-word;\n  outline: none;\n  display: flex;\n  flex: 100%;\n  margin-top: -37px;\n  height: 34px;\n  font-size: 16px;\n  max-width: 100%;\n  width: 100%;\n}\n\n.searchbar-right {\n  display: flex;\n  flex: 0 0 auto;\n  margin-top: -5px;\n  align-items: stretch;\n  flex-direction: row\n}\n\n.searchbar-clear-icon {\n  margin-right: 12px\n}\n\n.voice-search {\n  flex: 1 0 auto;\n  display: flex;\n  cursor: pointer;\n  align-items: center;\n  border: 0;\n  background: transparent;\n  outline: none;\n  padding: 0 8px;\n  width: 2.8em;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

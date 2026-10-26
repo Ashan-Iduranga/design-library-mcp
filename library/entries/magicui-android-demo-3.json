@@ -1,0 +1,36 @@
+{
+  "id": "magicui-android-demo-3",
+  "title": "Android Demo 3 (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/android",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "android",
+    "demo",
+    "3",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Third example showing a mockup of an Android device.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/android-demo-3.tsx",
+  "code": "import { Android } from \"@/registry/magicui/android\"\n\nexport default function AndroidDemo() {\n  return (\n    <div className=\"relative\">\n      <Android\n        className=\"size-full\"\n        videoSrc=\"https://videos.pexels.com/video-files/14993748/14993748-uhd_1296_2304_30fps.mp4\"\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

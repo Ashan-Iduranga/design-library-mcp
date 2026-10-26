@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-select-with-fieldset-and-labels",
+  "title": "Select: With fieldset and labels (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/select/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "select",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Select is used to pick a value from a list of options.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/select/+page.md",
+  "code": "<fieldset class=\"fieldset\">\n  <legend class=\"fieldset-legend\">Browsers</legend>\n  <select class=\"select\">\n    <option disabled selected>Pick a browser</option>\n    <option>Chrome</option>\n    <option>FireFox</option>\n    <option>Safari</option>\n  </select>\n  <span class=\"label\">Optional</span>\n</fieldset>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

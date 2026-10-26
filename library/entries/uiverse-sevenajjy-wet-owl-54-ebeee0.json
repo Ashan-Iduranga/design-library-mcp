@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-sevenajjy-wet-owl-54-ebeee0",
+  "title": "Button by SevenAJJY (wet-owl-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SevenAJJY/wet-owl-54",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "code",
+    "click"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SevenAJJY on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SevenAJJY_wet-owl-54.html",
+  "code": "<button class=\"btn\">\n  Click Me\n</button>\n<style>\n/* From Uiverse.io by SevenAJJY - Tags: button, hover, code, click */\n.btn {\n  --main-color: #ffce06;\n  --main-alt-color: #fff696;\n  height: 44px;\n  font-size: 16px!important;\n  line-height: 44px;\n  font-weight: 700;\n  color: #3f5cc3;\n  text-shadow: 0 1px 1px #fff8c4;\n  text-transform: uppercase;\n  text-align: center;\n  -webkit-box-shadow: rgb(99 121 133 / 14%) 0 0 0 4px;\n  box-shadow: rgb(99 121 133 / 14%) 0 0 0 4px;\n  border-radius: 4px;\n  border: none;\n  border-top: 1px solid var(--main-alt-color);\n  border-bottom: 1px solid var(--main-color);\n  background-color: var(--main-color);\n  outline: 0;\n  cursor: pointer;\n  margin: 0 0 5px 4px;\n  padding: 0 20px;\n  transition: transform .3s ease;\n}\n\n.btn:hover {\n  border-top-color: var(--main-alt-color);\n  border-bottom-color: var(--main-color);\n  background: -webkit-gradient(linear, left top, left bottom, from(#fae811), to(#f5d604));\n}\n\n.btn:active {\n  transform: scale(0.7);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

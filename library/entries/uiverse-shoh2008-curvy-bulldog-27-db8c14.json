@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-curvy-bulldog-27-db8c14",
+  "title": "Loader by Shoh2008 (curvy-bulldog-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/curvy-bulldog-27",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_curvy-bulldog-27.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 120px;\n  height: 150px;\n  background-color: #fff;\n  background-repeat: no-repeat;\n  background-image: linear-gradient(#ddd 50%, #bbb 51%),\n    linear-gradient(#ddd, #ddd), linear-gradient(#ddd, #ddd),\n    radial-gradient(ellipse at center, #aaa 25%, #eee 26%, #eee 50%, #0000 55%),\n    radial-gradient(ellipse at center, #aaa 25%, #eee 26%, #eee 50%, #0000 55%),\n    radial-gradient(ellipse at center, #aaa 25%, #eee 26%, #eee 50%, #0000 55%);\n  background-position: 0 20px, 45px 0, 8px 6px, 55px 3px, 75px 3px, 95px 3px;\n  background-size: 100% 4px, 1px 23px, 30px 8px, 15px 15px, 15px 15px, 15px 15px;\n  position: relative;\n  border-radius: 6%;\n  animation: shake 3s ease-in-out infinite;\n  transform-origin: 60px 180px;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  left: 5px;\n  top: 100%;\n  width: 7px;\n  height: 5px;\n  background: #aaa;\n  border-radius: 0 0 4px 4px;\n  box-shadow: 102px 0 #aaa;\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  width: 95px;\n  height: 95px;\n  left: 0;\n  right: 0;\n  margin: auto;\n  bottom: 20px;\n  background-color: #bbdefb;\n  background-image: linear-gradient( to right, #0004 0%, #0004 49%, #0000 50%, #0000 100% ),\n    linear-gradient(135deg, #64b5f6 50%, #607d8b 51%);\n  background-size: 30px 100%, 90px 80px;\n  border-radius: 50%;\n  background-repeat: repeat, no-repeat;\n  background-position: 0 0;\n  box-sizing: border-box;\n  border: 10px solid #DDD;\n  box-shadow: 0 0 0 4px #999 inset, 0 0 6px 6px #0004 inset;\n  animation: spin 3s ease-in-out infinite;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg)\n  }\n\n  50% {\n    transform: rotate(360deg)\n  }\n\n  75% {\n    transform: rotate(750deg)\n  }\n\n  100% {\n    transform: rotate(1800deg)\n  }\n}\n\n@keyframes shake {\n  65%, 80%, 88%, 96% {\n    transform: rotate(0.5deg)\n  }\n\n  50%, 75%, 84%, 92% {\n    transform: rotate(-0.5deg)\n  }\n\n  0%, 50%, 100% {\n    transform: rotate(0)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

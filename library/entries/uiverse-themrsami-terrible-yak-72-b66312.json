@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-themrsami-terrible-yak-72-b66312",
+  "title": "Form by themrsami (terrible-yak-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/themrsami/terrible-yak-72",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "purple",
+    "white",
+    "light",
+    "feedback-form",
+    "product-feedback-form"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By themrsami on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/themrsami_terrible-yak-72.html",
+  "code": "<!-- From Uiverse.io by themrsami - Tags: purple, white, form, light, tailwind, tailwindcss, feedback form, product feedback form -->\n<div class=\"flex flex-col items-center justify-center h-screen light\">\n  <div class=\"w-full max-w-md bg-white rounded-lg shadow-md p-6\">\n    <h2 class=\"text-2xl font-bold text-gray-800 mb-4\">Product Feedback Form</h2>\n\n    <form class=\"flex flex-col\">\n      <input placeholder=\"Full Name\" class=\"bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"text\">\n      <input placeholder=\"Email\" class=\"bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"email\">\n      <select class=\"bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" id=\"product\">\n        <option value=\"product-1\">Product 1</option>\n        <option value=\"product-2\">Product 2</option>\n        <option value=\"product-3\">Product 3</option>\n      </select>\n      <input placeholder=\"Rating (1-5)\" class=\"bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"number\">\n      <textarea placeholder=\"Feedback\" class=\"bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" name=\"feedback\"></textarea>\n\n      <button class=\"bg-gradient-to-r from-indigo-500 to-blue-500 text-white font-bold py-2 px-4 rounded-md mt-4 hover:bg-indigo-600 hover:to-blue-600 transition ease-in-out duration-150\" type=\"submit\">Submit</button>\n    </form>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

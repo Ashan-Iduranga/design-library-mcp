@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-adilsarfraz02-tough-seahorse-89-0dea4c",
+  "title": "Loader by adilsarfraz02 (tough-seahorse-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/adilsarfraz02/tough-seahorse-89",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "spinner",
+    "smooth",
+    "custom",
+    "transition",
+    "effect-loader",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By adilsarfraz02 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/adilsarfraz02_tough-seahorse-89.html",
+  "code": "<div class=\"custom-loader\"></div>\n\n<style>\n/* From Uiverse.io by adilsarfraz02  - Tags: loader, spinner, smooth, custom, transition, effect loader, loading animation */\n.custom-loader {\n  width: 40px;\n  height: 10px;\n  color: #f000b4;\n  background: radial-gradient(farthest-side, currentColor 90%, #0000) left /\n      10px 10px,\n    radial-gradient(farthest-side, currentColor 90%, #0000) center/10px 10px,\n    radial-gradient(farthest-side, currentColor 90%, #0000) right / 10px 10px,\n    linear-gradient(currentColor 0 0) center/100% 4px;\n  background-repeat: no-repeat;\n  position: relative;\n  animation: s6 2s infinite linear;\n}\n.custom-loader:before,\n.custom-loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background: inherit;\n  animation: inherit;\n  --s: calc(50% - 5px);\n  animation-direction: reverse;\n}\n.custom-loader:after {\n  --s: calc(5px - 50%);\n}\n\n@keyframes s6 {\n  0% {\n    transform: translate(var(--s, 0)) rotate(0);\n  }\n  100% {\n    transform: translate(var(--s, 0)) rotate(1turn);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

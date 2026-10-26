@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-niat786-perfect-warthog-57-25bc8e",
+  "title": "Button by niat786 (perfect-warthog-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/niat786/perfect-warthog-57",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By niat786 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/niat786_perfect-warthog-57.html",
+  "code": "<button> Button\n</button>\n<style>\n/* From Uiverse.io by niat786 - Tags: button */\nbutton {\n border: none;\n color: #fff;\n background-image: linear-gradient(30deg, #0400ff, #4ce3f7);\n border-radius: 20px;\n background-size: 100% auto;\n font-family: inherit;\n font-size: 17px;\n padding: 0.6em 1.5em;\n}\n\nbutton:hover {\n background-position: right center;\n background-size: 200% auto;\n -webkit-animation: pulse 2s infinite;\n animation: pulse512 1.5s infinite;\n}\n\n@keyframes pulse512 {\n 0% {\n  box-shadow: 0 0 0 0 #05bada66;\n }\n\n 70% {\n  box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);\n }\n\n 100% {\n  box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

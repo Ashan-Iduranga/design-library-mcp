@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-dangerous-sheep-53-dc7ff8",
+  "title": "Loader by Shoh2008 (dangerous-sheep-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/dangerous-sheep-53",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_dangerous-sheep-53.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  display: block;\n  position: relative;\n  height: 32px;\n  width: 140px;\n  border: 3px solid #fff;\n  border-radius: 20px;\n  box-sizing: border-box;\n  animation: balancing 2s linear infinite alternate;\n  transform-origin: center center;\n}\n\n.loader:before {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 52px;\n  height: 26px;\n  border-radius: 20px;\n  background: gold;\n  animation: ballbns 2s linear infinite alternate;\n}\n\n@keyframes ballbns {\n  0% {\n    left: 0;\n    transform: translateX(0%);\n  }\n\n  100% {\n    left: 100%;\n    transform: translateX(-100%);\n  }\n}\n\n@keyframes balancing {\n  0% {\n    transform: rotate(-25deg);\n  }\n\n  50% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(25deg);\n  }\n}\n  \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

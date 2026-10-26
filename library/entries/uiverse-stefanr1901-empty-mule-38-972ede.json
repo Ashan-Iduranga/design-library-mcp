@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-stefanr1901-empty-mule-38-972ede",
+  "title": "Card by StefanR1901 (empty-mule-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/StefanR1901/empty-mule-38",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "heart",
+    "pump"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By StefanR1901 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/StefanR1901_empty-mule-38.html",
+  "code": "<div class=\"one-div\"></div>\n<style>\n/* From Uiverse.io by StefanR1901 - Tags: card, heart, pump */\n.one-div-container {\n  position: relative;\n  height: 500px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #000000;\n}\n\n.one-div {\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  background: radial-gradient(circle, rgba(255,136,0,1) 0%, rgba(255,77,210,1) 50%, rgba(0,212,255,1) 100%);\n  box-shadow: 0 0 50px rgba(255,255,255,0.5);\n  transition: all 0.5s ease-in-out;\n  animation: pulse 2s ease-in-out infinite;\n}\n\n.one-div:hover {\n  transform: scale(1.2);\n  background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(255,77,210,1) 50%, rgba(255,136,0,1) 100%);\n  box-shadow: 0 0 70px rgba(255,255,255,0.7), 0 0 20px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.7);\n}\n\n@keyframes pulse {\n  0%, 100% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bocikond-wise-bat-13-a27a56",
+  "title": "Loader by bociKond (wise-bat-13)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/bociKond/wise-bat-13",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By bociKond on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/bociKond_wise-bat-13.html",
+  "code": "<div class=\"spinner\">\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n</div>\n<style>\n/* From Uiverse.io by bociKond - Source: https://10015.io - Tags: animation, loader, spinner, rotate, custom, opacity, color, spin, click animation */\n.spinner {\n  width: 70.4px;\n  height: 70.4px;\n  --clr: rgb(247, 197, 159);\n  --clr-alpha: rgb(247, 197, 159,.1);\n  animation: spinner 1.6s infinite ease;\n  transform-style: preserve-3d;\n}\n\n.spinner > div {\n  background-color: var(--clr-alpha);\n  height: 100%;\n  position: absolute;\n  width: 100%;\n  border: 3.5px solid var(--clr);\n}\n\n.spinner div:nth-of-type(1) {\n  transform: translateZ(-35.2px) rotateY(180deg);\n}\n\n.spinner div:nth-of-type(2) {\n  transform: rotateY(-270deg) translateX(50%);\n  transform-origin: top right;\n}\n\n.spinner div:nth-of-type(3) {\n  transform: rotateY(270deg) translateX(-50%);\n  transform-origin: center left;\n}\n\n.spinner div:nth-of-type(4) {\n  transform: rotateX(90deg) translateY(-50%);\n  transform-origin: top center;\n}\n\n.spinner div:nth-of-type(5) {\n  transform: rotateX(-90deg) translateY(50%);\n  transform-origin: bottom center;\n}\n\n.spinner div:nth-of-type(6) {\n  transform: translateZ(35.2px);\n}\n\n@keyframes spinner {\n  0% {\n    transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);\n  }\n\n  50% {\n    transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);\n  }\n\n  100% {\n    transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

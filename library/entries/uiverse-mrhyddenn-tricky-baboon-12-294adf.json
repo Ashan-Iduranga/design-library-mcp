@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-mrhyddenn-tricky-baboon-12-294adf",
+  "title": "Button by mrhyddenn (tricky-baboon-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/tricky-baboon-12",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "download"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mrhyddenn_tricky-baboon-12.html",
+  "code": "<button class=\"button\">\n    <span class=\"button_lg\">\n        <span class=\"button_sl\"></span>\n        <span class=\"button_text\">Download Now</span>\n    </span>\n</button>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: button, download */\n.button {\n  -moz-appearance: none;\n  -webkit-appearance: none;\n  appearance: none;\n  border: none;\n  background: none;\n  color: #0f1923;\n  cursor: pointer;\n  position: relative;\n  padding: 8px;\n  margin-bottom: 20px;\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 14px;\n  transition: all .15s ease;\n}\n\n.button::before,\n.button::after {\n  content: '';\n  display: block;\n  position: absolute;\n  right: 0;\n  left: 0;\n  height: calc(50% - 5px);\n  border: 1px solid #7D8082;\n  transition: all .15s ease;\n}\n\n.button::before {\n  top: 0;\n  border-bottom-width: 0;\n}\n\n.button::after {\n  bottom: 0;\n  border-top-width: 0;\n}\n\n.button:active,\n.button:focus {\n  outline: none;\n}\n\n.button:active::before,\n.button:active::after {\n  right: 3px;\n  left: 3px;\n}\n\n.button:active::before {\n  top: 3px;\n}\n\n.button:active::after {\n  bottom: 3px;\n}\n\n.button_lg {\n  position: relative;\n  display: block;\n  padding: 10px 20px;\n  color: #fff;\n  background-color: #0f1923;\n  overflow: hidden;\n  box-shadow: inset 0px 0px 0px 1px transparent;\n}\n\n.button_lg::before {\n  content: '';\n  display: block;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 2px;\n  height: 2px;\n  background-color: #0f1923;\n}\n\n.button_lg::after {\n  content: '';\n  display: block;\n  position: absolute;\n  right: 0;\n  bottom: 0;\n  width: 4px;\n  height: 4px;\n  background-color: #0f1923;\n  transition: all .2s ease;\n}\n\n.button_sl {\n  display: block;\n  position: absolute;\n  top: 0;\n  bottom: -1px;\n  left: -8px;\n  width: 0;\n  background-color: #ff4655;\n  transform: skew(-15deg);\n  transition: all .2s ease;\n}\n\n.button_text {\n  position: relative;\n}\n\n.button:hover {\n  color: #0f1923;\n}\n\n.button:hover .button_sl {\n  width: calc(100% + 15px);\n}\n\n.button:hover .button_lg::after {\n  background-color: #fff;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

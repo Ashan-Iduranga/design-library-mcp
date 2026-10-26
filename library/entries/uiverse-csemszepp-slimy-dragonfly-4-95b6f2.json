@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-slimy-dragonfly-4-95b6f2",
+  "title": "Pattern by csemszepp (slimy-dragonfly-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/slimy-dragonfly-4",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_slimy-dragonfly-4.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 140px; /* control the size */\n\n  --_g: #0000 52%, #170409 /* first color */ 54% 57%, #0000 59%;\n  background: radial-gradient(farthest-side at -33.33% 50%, var(--_g)) 0\n      calc(var(--s) / 2),\n    radial-gradient(farthest-side at 50% 133.33%, var(--_g)) calc(var(--s) / 2)\n      0,\n    radial-gradient(farthest-side at 133.33% 50%, var(--_g)),\n    radial-gradient(farthest-side at 50% -33.33%, var(--_g)), #67917a; /* second color */\n  background-size: calc(var(--s) / 4.667) var(--s),\n    var(--s) calc(var(--s) / 4.667);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

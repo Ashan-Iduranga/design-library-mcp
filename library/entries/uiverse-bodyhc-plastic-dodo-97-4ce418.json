@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-bodyhc-plastic-dodo-97-4ce418",
+  "title": "Input by Bodyhc (plastic-dodo-97)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Bodyhc/plastic-dodo-97",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "hover",
+    "hover-effect",
+    "input-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Bodyhc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Bodyhc_plastic-dodo-97.html",
+  "code": "<input type=\"text\" name=\"search\" placeholder=\"Search For AnyThink..\" class=\"input\">\n\n<style>\n/* From Uiverse.io by Bodyhc - Tags: hover, hover effect, input effect  */\n.input[type=text] {\n  max-width: 180px;\n  height: 20px;\n  background-color: #fff;\n  color: #242424;\n  padding: .15rem .5rem;\n  min-height: 40px;\n  border-radius: 4px;\n  outline: none;\n  border: none;\n  box-shadow: 0px 10px 20px -18px blue;\n  border-bottom: 3px solid #0d14e9;\n  transition: .10s ease;\n}\n\n.input[type=text]:hover {\n  outline: 2px solid #0d14e9;\n  max-width: 200px;\n}\n\n.input[type=text]:focus {\n  border-bottom: 3px solid #0d14e9;\n  border-radius: 5px 5px 2px 2px;\n  transform: scale(1.1);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

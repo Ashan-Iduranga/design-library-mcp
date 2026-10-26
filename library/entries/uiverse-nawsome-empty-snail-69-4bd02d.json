@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-nawsome-empty-snail-69-4bd02d",
+  "title": "Toggle by Nawsome (empty-snail-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/empty-snail-69",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "skeuomorphism",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Nawsome_empty-snail-69.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"button\">\n    <div class=\"light\"></div>\n    <div class=\"dots\"></div>\n    <div class=\"characters\"></div>\n    <div class=\"shine\"></div>\n    <div class=\"shadow\"></div>\n  </div>\n</label>\n\n<style>\n/* From Uiverse.io by Nawsome - Tags: skeuomorphism, switch */\n.switch {\n  display: block;\n  background-color: black;\n  width: 150px;\n  height: 195px;\n  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2), 0 0 1px 2px black, inset 0 2px 2px -2px white, inset 0 0 2px 15px #47434c, inset 0 0 2px 22px black;\n  border-radius: 5px;\n  padding: 20px;\n  perspective: 700px;\n}\n\n.switch input {\n  display: none;\n}\n\n.switch input:checked + .button {\n  transform: translateZ(20px) rotateX(25deg);\n  box-shadow: 0 -10px 20px #ff1818;\n}\n\n.switch input:checked + .button .light {\n  animation: flicker 0.2s infinite 0.3s;\n}\n\n.switch input:checked + .button .shine {\n  opacity: 1;\n}\n\n.switch input:checked + .button .shadow {\n  opacity: 0;\n}\n\n.switch .button {\n  display: block;\n  transition: all 0.3s cubic-bezier(1, 0, 1, 1);\n  transform-origin: center center -20px;\n  transform: translateZ(20px) rotateX(-25deg);\n  transform-style: preserve-3d;\n  background-color: #9b0621;\n  height: 100%;\n  position: relative;\n  cursor: pointer;\n  background: linear-gradient(#980000 0%, #6f0000 30%, #6f0000 70%, #980000 100%);\n  background-repeat: no-repeat;\n}\n\n.switch .button::before {\n  content: \"\";\n  background: linear-gradient(rgba(255, 255, 255, 0.8) 10%, rgba(255, 255, 255, 0.3) 30%, #650000 75%, #320000) 50% 50%/97% 97%, #b10000;\n  background-repeat: no-repeat;\n  width: 100%;\n  height: 50px;\n  transform-origin: top;\n  transform: rotateX(-90deg);\n  position: absolute;\n  top: 0;\n}\n\n.switch .button::after {\n  content: \"\";\n  background-image: linear-gradient(#650000, #320000);\n  width: 100%;\n  height: 50px;\n  transform-origin: top;\n  transform: translateY(50px) rotateX(-90deg);\n  position: absolute;\n  bottom: 0;\n  box-shadow: 0 50px 8px 0px black, 0 80px 20px 0px rgba(0, 0, 0, 0.5);\n}\n\n.switch .light {\n  opacity: 0;\n  animation: light-off 1s;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient(#ffc97e, #ff1818 40%, transparent 70%);\n}\n\n.switch .dots {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient(transparent 30%, rgba(101, 0, 0, 0.7) 70%);\n  background-size: 10px 10px;\n}\n\n.switch .characters {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(white, white) 50% 20%/5% 20%, radial-gradient(circle, transparent 50%, white 52%, white 70%, transparent 72%) 50% 80%/33% 25%;\n  background-repeat: no-repeat;\n}\n\n.switch .shine {\n  transition: all 0.3s cubic-bezier(1, 0, 1, 1);\n  opacity: 0.3;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(white, transparent 3%) 50% 50%/97% 97%, linear-gradient(rgba(255, 255, 255, 0.5), transparent 50%, transparent 80%, rgba(255, 255, 255, 0.5)) 50% 50%/97% 97%;\n  background-repeat: no-repeat;\n}\n\n.switch .shadow {\n  transition: all 0.3s cubic-bezier(1, 0, 1, 1);\n  opacity: 1;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(transparent 70%, rgba(0, 0, 0, 0.8));\n  background-repeat: no-repeat;\n}\n\n@keyframes flicker {\n  0% {\n    opacity: 1;\n  }\n\n  80% {\n    opacity: 0.8;\n  }\n\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes light-off {\n  0% {\n    opacity: 1;\n  }\n\n  80% {\n    opacity: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

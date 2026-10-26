@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-aadium-mighty-dog-12-aa17bb",
+  "title": "Card by aadium (mighty-dog-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aadium/mighty-dog-12",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "code",
+    "syntax"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aadium on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/aadium_mighty-dog-12.html",
+  "code": "<div class=\"card\">\n  <div class=\"titlebar\">\n    <span class=\"buttons\">\n    <button class=\"minimize\">\n\t\t\t<svg x=\"0px\" y=\"0px\" viewBox=\"0 0 10.2 1\"><rect x=\"0\" y=\"50%\" width=\"10.2\" height=\"1\"></rect></svg>\n\t\t</button>\n    <button class=\"maximize\">\n\t\t\t<svg viewBox=\"0 0 10 10\"><path d=\"M0,0v10h10V0H0z M9,9H1V1h8V9z\"></path></svg>\n\t\t</button>\n    <button class=\"close\">\n\t\t\t<svg viewBox=\"0 0 10 10\"><polygon points=\"10.2,0.7 9.5,0 5.1,4.4 0.7,0 0,0.7 4.4,5.1 0,9.5 0.7,10.2 5.1,5.8 9.5,10.2 10.2,9.5 5.8,5.1\"></polygon></svg>\n\t\t</button>\n    </span>\n  </div>\n  <div class=\"cppcode\">\n    <pre id=\"pre\"><code><span class=\"s1\">#include</span> <span class=\"s2\">&lt;iostream&gt;</span>\nusing<span class=\"s3\"> namespace </span>std<span class=\"sc\">;</span>\n\n<span class=\"s3\">int</span> <span class=\"s2\">main()</span> <span class=\"curlies\">{</span>\n\n  <span class=\"s3\">int</span> <span class=\"s4\">a</span> <span class=\"operator\">=</span> 12<span class=\"sc\">;</span>\n  <span class=\"s3\">int</span> <span class=\"s4\">b</span> <span class=\"operator\">=</span> 5<span class=\"sc\">;</span>\n\n  <span class=\"s4\">cout</span> <span class=\"s5\">&lt;&lt;</span> <span class=\"s1\">\"Sum of the numbers\n    is: \"</span> <span class=\"s5\">&lt;&lt;</span> <span class=\"rounds\">(</span><span class=\"s4\">a </span><span class=\"operator\">+</span><span class=\"s4\"> b</span><span class=\"rounds\">)</span><span class=\"sc\">;</span>\n\n  <span class=\"s6\">return</span> 0<span class=\"sc\">;</span>\n\n<span class=\"curlies\">}</span>\n    </code></pre>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by aadium - Tags: card, code, syntax */\n.card {\n  width: 250px;\n  height: 300px;\n  background: #15001f;\n  border: 1px solid #c042ff;\n  font-size: 14px;\n  font-family: monospace;\n  overflow: auto;\n}\n\n.titlebar {\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n  font-size: 21px;\n  font-weight: 450;\n  background-color: #2e0043;\n  width: 100%;\n  text-align: right;\n}\n\n.card button {\n  width: 40px;\n  height: 35px;\n  margin-left: -5px;\n  border: 0;\n  outline: 0;\n  background: transparent;\n  transition: 0.2s;\n}\n\nbutton svg path, \nbutton svg rect, \nbutton svg polygon {\n  fill: #ffffff;\n}\n\nbutton svg {\n  width: 10px;\n  height: 10px;\n}\n\n.close:hover {\n  background-color: #e81123;\n}\n\n.maximize:hover {\n  background-color: #c042ff2e;\n}\n\n.minimize:hover {\n  background-color: #c042ff2e;\n}\n\n#pre {\n  overflow: auto;\n  width: 100%;\n  padding: 10px;\n  height: auto;\n  color: #bafff8;\n}\n\n.curlies {\n  color: #ff0000;\n}\n\n.sc {\n  color: #e600ff;\n}\n\n.rounds {\n  color: #ffffff;\n}\n\n.operator {\n  color: #ffff00;\n}\n\n.s1 {\n  color: #22ff00;\n}\n\n.s2 {\n  color: #4281ff;\n}\n\n.s3 {\n  color: #ff4284;\n}\n\n.s4 {\n  color: #ffae00;\n}\n\n.s5 {\n  color: #ffffff;\n}\n\n.s6 {\n  color: #ffff00;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

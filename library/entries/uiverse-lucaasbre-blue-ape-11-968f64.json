@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-lucaasbre-blue-ape-11-968f64",
+  "title": "Input by Lucaasbre (blue-ape-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Lucaasbre/blue-ape-11",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple",
+    "red",
+    "minimalist",
+    "black",
+    "dark",
+    "login",
+    "input-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Lucaasbre on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Lucaasbre_blue-ape-11.html",
+  "code": "<div class=\"input-group\">\n  <input\n    class=\"input-text\"\n    name=\"text\"\n    type=\"text\"\n    placeholder=\"Type here\"\n    autocomplete=\"off\"\n  />\n  <label class=\"input-text-label\" for=\"text\">Type here</label>\n</div>\n\n<style>\n/* From Uiverse.io by Lucaasbre  - Tags: simple, red, minimalist, black, input, dark, login , input effect  */\n.input-group {\n  display: flex;\n  gap: 10px;\n  position: relative;\n  padding: 7px 0 0;\n  width: 80%;\n  margin-bottom: 10px;\n  margin-top: 2px;\n}\n\n.input-text {\n  font-family: inherit;\n  width: 100%;\n  border: none;\n  border-bottom: 2px solid #7f7f7f;\n  border-radius: 0 !important;\n  outline: 0;\n  font-size: 17px;\n  color: #7f7f7f;\n  padding: 7px 0;\n  background: transparent;\n  transition: border-color 0.2s;\n}\n\n.input-text::placeholder {\n  color: transparent;\n}\n\n.input-text:placeholder-shown ~ .input-text-label {\n  font-size: 17px;\n  cursor: text;\n}\n\n.input-text-label {\n  position: absolute;\n  display: block;\n  transition: 0.2s;\n  font-size: 17px;\n  color: #7f7f7f;\n  pointer-events: none;\n}\n\n.input-text:focus {\n  padding-bottom: 6px;\n  border-width: 3px;\n  border-image: linear-gradient(to right, #dd0033, #9f1026);\n  border-image-slice: 1;\n}\n\n.input-text:focus ~ .input-text-label {\n  color: #dd0033;\n}\n\n.input-text:not(:placeholder-shown) ~ .input-text-label,\n.input-text:focus ~ .input-text-label {\n  position: absolute;\n  display: block;\n  transition: 0.2s;\n  font-size: 15px;\n  font-weight: 700;\n  top: -17px;\n}\n\n.input-text:required,\n.input-text:invalid {\n  box-shadow: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

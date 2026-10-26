@@ -1,0 +1,36 @@
+{
+  "id": "magicui-kinetic-text-demo",
+  "title": "Kinetic Text Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/kinetic-text",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "kinetic",
+    "text",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "An example of the kinetic text component.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/kinetic-text-demo.tsx",
+  "code": "import { KineticText } from \"@/registry/magicui/kinetic-text\"\n\nexport default function KineticTextDemo() {\n  return (\n    <div className=\"relative justify-center\">\n      <KineticText\n        text=\"Nostalgia\"\n        className=\"text-[6rem] tracking-[-5%] [font-optical-sizing:auto]\"\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

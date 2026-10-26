@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-radwakhalil22-spotty-pug-7-f4576a",
+  "title": "Loader by radwakhalil22 (spotty-pug-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/radwakhalil22/spotty-pug-7",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "box"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By radwakhalil22 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/radwakhalil22_spotty-pug-7.html",
+  "code": "<div class=\"cube div\">\n    <div class=\"top div\"></div>\n    <div class=\"div\">\n      <span class=\"span\" style=\"--i: 0\">\n        <p>loading..</p>\n        <p>loading..</p>\n      </span>\n      <span class=\"span\" style=\"--i: 1\">\n        <p>loading..</p>\n        <p>loading..</p>\n      </span>\n      <span class=\"span\" style=\"--i: 2\">\n        <p>loading..</p>\n        <p>loading..</p>\n      </span>\n      <span class=\"span\" style=\"--i: 3\">\n        <p>loading..</p>\n        <p>loading..</p>\n      </span>\n    </div>\n</div>\n        \n<style>\n/* From Uiverse.io by radwakhalil22 - Tags: loader, box */\n.cube {\n  position: relative;\n  height: 100px;\n  width: 100px;\n  transform-style: preserve-3d;\n  animation: animate 4s linear infinite;\n}\n\n@keyframes animate {\n  0% {\n    transform: rotateX(-30deg) rotateY(0deg);\n  }\n\n  100% {\n    transform: rotateX(-30deg) rotateY(360deg);\n  }\n}\n\n.cube .div {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n}\n\n.cube .div .span {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  transform: rotateY(calc(90deg * var(--i))) translateZ(50px);\n  background-image: linear-gradient(\n    -45deg,\n    #000000,\n    #13273f,\n    #0d1729,\n    #6a6a8d);\n  background-size: 1200% 1200%;\n  animation: AnimationName 30s ease infinite;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transform-style: preserve-3d;\n}\n\n.cube .div .span p {\n  position: absolute;\n  font-size: 1em;\n  color: white;\n  transform: translateZ(20px);\n}\n\n.cube .div .span p:nth-child(1) {\n  transform: translateZ(0) translateY(20px);\n  color: rgba(0,0,0,0.1);\n  filter: blur(2px);\n}\n\n@keyframes AnimationName {\n  0% {\n    background-position: 0% 50%;\n  }\n\n  50% {\n    background-position: 100% 50%;\n  }\n\n  100% {\n    background-position: 0% 50%;\n  }\n}\n\n.top {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 300px;\n  height: 300px;\n  background-image: linear-gradient(\n    -45deg,\n    #000000,\n    #13273f,\n    #0d1729,\n    #6a6a8d);\n  transform: rotateX(90deg) translateZ(50px);\n  background-size: 1200% 1200%;\n  animation: AnimationName 30s ease infinite;\n}\n\n.top::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100px;\n  height: 100px;\n  background-image: linear-gradient(\n    -45deg,\n    #000000,\n    #0d0d0e,\n    #030303,\n    #000000);\n  background-size: 1200% 1200%;\n  animation: AnimationName 30s ease infinite;\n  box-shadow: 0 0 120px #3d413e,0 0 120px #302f2f,0 0 120px #413f3f;\n  transition: box-shadow 3s;\n  transform: translateZ(-200px);\n  filter: blur(40px);\n}\n\n@keyframes AnimationName2 {\n  0% {\n    background-position: 0% 50%;\n  }\n\n  50% {\n    background-position: 100% 50%;\n  }\n\n  100% {\n    background-position: 0% 50%;\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

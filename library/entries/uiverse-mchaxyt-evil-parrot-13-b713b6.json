@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-mchaxyt-evil-parrot-13-b713b6",
+  "title": "Button by McHaXYT (evil-parrot-13)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/McHaXYT/evil-parrot-13",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "neumorphism",
+    "flashy",
+    "icon",
+    "purple",
+    "hover",
+    "futuristic",
+    "creative"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By McHaXYT on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/McHaXYT_evil-parrot-13.html",
+  "code": "<button class=\"button\">\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    width=\"1.25rem\"\n    height=\"1.25rem\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    stroke=\"currentColor\"\n    stroke-linecap=\"round\"\n    stroke-linejoin=\"round\"\n    stroke-width=\"2\"\n  >\n    <path d=\"M12 19v-7m0 0V5m0 7H5m7 0h7\"></path>\n  </svg>\n  Create\n</button>\n\n<style>\n/* From Uiverse.io by McHaXYT  - Tags: neumorphism, flashy, icon, purple, button, hover, futuristic, creative */\n.button {\n  cursor: pointer;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  padding: 0.625rem 1rem;\n  color: rgb(242 242 242);\n  background-color: rgb(79 70 229);\n  background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);\n  font-weight: 600;\n  border-radius: 0.5rem;\n  border-style: none;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 0.5rem;\n  transition: all 0.35s linear;\n}\n\n.button:hover {\n  box-shadow: inset 0 5px 25px 0 #af40ff, inset 0 10px 15px 0px #5b42f3,\n    inset 0 5px 25px 0px #00ddeb;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

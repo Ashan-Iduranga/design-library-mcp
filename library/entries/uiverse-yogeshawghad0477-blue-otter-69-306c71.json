@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-yogeshawghad0477-blue-otter-69-306c71",
+  "title": "Loader by Yogeshawghad0477 (blue-otter-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yogeshawghad0477/blue-otter-69",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "animation",
+    "html",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yogeshawghad0477 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Yogeshawghad0477_blue-otter-69.html",
+  "code": "<div id=\"div1\">\n  <div id=\"l\" style=\"margin: 33px\">\n    <div class=\"pupil\">\n      <div class=\"p5\">\n        <div class=\"pupl2\">\n          <div class=\"pupil3\"></div>\n          <div class=\"pupil4\"></div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div id=\"m\" style=\"margin: 33px\">\n    <div class=\"pupil\">\n      <div class=\"p5\">\n        <div class=\"pupl2\">\n          <div class=\"pupil3\"></div>\n          <div class=\"pupil4\"></div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Yogeshawghad0477  - Tags: simple, animation, loader, html, css */\n#div1 {\n  width: 100%;\n  background: transparent;\n\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n@keyframes animateHeight {\n  0% {\n    height: 0px;\n  }\n  50% {\n    height: 50px;\n  }\n}\n\n#l,\n#m {\n  width: 150px;\n  height: 70px;\n  position: relative;\n  overflow: hidden;\n  background-color: black;\n  border-radius: 0px 200px 0px 200px;\n  -moz-border-radius: 0px 200px 0px 200px;\n  -webkit-border-radius: 0px 200px 0px 200px;\n  border: 1px solid transparent;\n  animation: animateHeight 1s infinite alternate-reverse;\n}\n#m {\n  border-radius: 200px 0px 200px 0px;\n  -moz-border-radius: 200px 0px 200px 0px;\n  -webkit-border-radius: 200px 0px 200px 0px;\n}\n.pupil,\n.pupl2,\n.pupil3,\n.pupil4,\n.p5 {\n  overflow: hidden;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background: rgba(0, 0, 0, 0.158);\n}\n.pupil3,\n.pupil4 {\n  width: 18px;\n  height: 3.5px;\n  overflow: visible;\n}\n\n.pupil {\n  width: 60px;\n  height: 60px;\n  background: linear-gradient(\n    rgb(255, 105, 105),\n    rgb(129, 249, 129),\n    rgb(96, 96, 255),\n    rgb(71, 71, 71)\n  );\n}\n.pupl2 {\n  width: 25px;\n  height: 25px;\n  background: linear-gradient(\n    rgb(255, 2, 2),\n    rgb(0, 255, 0),\n    rgb(0, 0, 255),\n    rgb(0, 0, 0)\n  );\n}\n.p5 {\n  width: 42px;\n  height: 42px;\n  background: linear-gradient(\n    rgb(252, 71, 71),\n    rgb(70, 249, 70),\n    rgb(63, 63, 254),\n    rgb(48, 47, 47)\n  );\n}\n.pupil3 {\n  width: 5px;\n  height: 18px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

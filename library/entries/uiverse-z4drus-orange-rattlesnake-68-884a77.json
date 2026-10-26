@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-z4drus-orange-rattlesnake-68-884a77",
+  "title": "Loader by Z4drus (orange-rattlesnake-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Z4drus/orange-rattlesnake-68",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Z4drus on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Z4drus_orange-rattlesnake-68.html",
+  "code": "<div class=\"container\">\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by Z4drus  - Tags: loader */\n.container {\n  --uib-size: 150px;\n  --uib-speed: 1.2s;\n  --uib-dot-size: calc(var(--uib-size) * 0.1);\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  height: calc(var(--uib-size) * 0.64);\n  width: calc(var(--uib-size) * 0.64);\n}\n\n@keyframes jump {\n  0%,\n  100% {\n    transform: translateY(120%);\n  }\n\n  50% {\n    transform: translateY(-120%);\n  }\n}\n\n.dot {\n  --uib-d1: -0.48;\n  --uib-d2: -0.4;\n  --uib-d3: -0.32;\n  --uib-d4: -0.24;\n  --uib-d5: -0.16;\n  --uib-d6: -0.08;\n  --uib-d7: -0;\n  position: absolute;\n  bottom: calc(var(--uib-bottom) + var(--uib-dot-size) / 2);\n  right: calc(var(--uib-right) + var(--uib-dot-size) / 2);\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  height: var(--uib-dot-size);\n  width: var(--uib-dot-size);\n  animation: jump var(--uib-speed) ease-in-out infinite;\n  opacity: var(--uib-scale);\n  will-change: transform;\n  backface-visibility: hidden;\n}\n\n.dot::before {\n  content: \"\";\n  height: 100%;\n  width: 100%;\n  background-color: var(--uib-color);\n  border-radius: 50%;\n  transform: scale(var(--uib-scale));\n  transition: background-color 0.3s ease;\n}\n\n.dot:nth-child(1) {\n  --uib-bottom: 24%;\n  --uib-right: -35%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d1));\n}\n\n.dot:nth-child(2) {\n  --uib-bottom: 16%;\n  --uib-right: -6%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d2));\n}\n\n.dot:nth-child(3) {\n  --uib-bottom: 8%;\n  --uib-right: 23%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d3));\n}\n\n.dot:nth-child(4) {\n  --uib-bottom: -1%;\n  --uib-right: 51%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d4));\n}\n\n.dot:nth-child(5) {\n  --uib-bottom: 38%;\n  --uib-right: -17.5%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d2));\n}\n\n.dot:nth-child(6) {\n  --uib-bottom: 30%;\n  --uib-right: 10%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d3));\n}\n\n.dot:nth-child(7) {\n  --uib-bottom: 22%;\n  --uib-right: 39%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d4));\n}\n\n.dot:nth-child(8) {\n  --uib-bottom: 14%;\n  --uib-right: 67%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d5));\n}\n\n.dot:nth-child(9) {\n  --uib-bottom: 53%;\n  --uib-right: -0.8%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d3));\n}\n\n.dot:nth-child(10) {\n  --uib-bottom: 44.5%;\n  --uib-right: 27%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d4));\n}\n\n.dot:nth-child(11) {\n  --uib-bottom: 36%;\n  --uib-right: 55.7%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d5));\n}\n\n.dot:nth-child(12) {\n  --uib-bottom: 28.7%;\n  --uib-right: 84.3%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d6));\n}\n\n.dot:nth-child(13) {\n  --uib-bottom: 66.8%;\n  --uib-right: 15%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d4));\n}\n\n.dot:nth-child(14) {\n  --uib-bottom: 58.8%;\n  --uib-right: 43%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d5));\n}\n\n.dot:nth-child(15) {\n  --uib-bottom: 50%;\n  --uib-right: 72%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d6));\n}\n\n.dot:nth-child(16) {\n  --uib-bottom: 42%;\n  --uib-right: 100%;\n  animation-delay: calc(var(--uib-speed) * var(--uib-d7));\n}\n\n.dot:nth-child(3) {\n  --uib-scale: 0.98;\n}\n\n.dot:nth-child(2),\n.dot:nth-child(8) {\n  --uib-scale: 0.96;\n}\n\n.dot:nth-child(1),\n.dot:nth-child(7) {\n  --uib-scale: 0.94;\n}\n\n.dot:nth-child(6),\n.dot:nth-child(12) {\n  --uib-scale: 0.92;\n}\n\n.dot:nth-child(5),\n.dot:nth-child(11) {\n  --uib-scale: 0.9;\n}\n\n.dot:nth-child(10),\n.dot:nth-child(16) {\n  --uib-scale: 0.88;\n}\n\n.dot:nth-child(9),\n.dot:nth-child(15) {\n  --uib-scale: 0.86;\n}\n\n.dot:nth-child(14) {\n  --uib-scale: 0.84;\n}\n\n.dot:nth-child(13) {\n  --uib-scale: 0.82;\n}\n\n.dot:nth-child(1) {\n  --uib-color: #334dff;\n}\n\n.dot:nth-child(2) {\n  --uib-color: #3348ff;\n}\n\n.dot:nth-child(3) {\n  --uib-color: #3343ff;\n}\n\n.dot:nth-child(4) {\n  --uib-color: #333eff;\n}\n\n.dot:nth-child(5) {\n  --uib-color: #3339ff;\n}\n\n.dot:nth-child(6) {\n  --uib-color: #3334ff;\n}\n\n.dot:nth-child(7) {\n  --uib-color: #4433ff;\n}\n\n.dot:nth-child(8) {\n  --uib-color: #5533ff;\n}\n\n.dot:nth-child(9) {\n  --uib-color: #6633ff;\n}\n\n.dot:nth-child(10) {\n  --uib-color: #7733ff;\n}\n\n.dot:nth-child(11) {\n  --uib-color: #8833ff;\n}\n\n.dot:nth-child(12) {\n  --uib-color: #9933ff;\n}\n\n.dot:nth-child(13) {\n  --uib-color: #a433ff;\n}\n\n.dot:nth-child(14) {\n  --uib-color: #af33ff;\n}\n\n.dot:nth-child(15) {\n  --uib-color: #ba33ff;\n}\n\n.dot:nth-child(16) {\n  --uib-color: #c533ff;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

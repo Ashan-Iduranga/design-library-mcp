@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-avatar-stacked",
+  "title": "Avatar: Stacked (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/avatar/#stacked",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "avatar",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example if you want to stack a group of users by overlapping the avatar components.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/avatar.md",
+  "code": "<div class=\"flex -space-x-4 rtl:space-x-reverse\">\n    <img class=\"w-10 h-10 border-2 border-buffer rounded-full\" src=\"/docs/images/people/profile-picture-5.jpg\" alt=\"\">\n    <img class=\"w-10 h-10 border-2 border-buffer rounded-full\" src=\"/docs/images/people/profile-picture-2.jpg\" alt=\"\">\n    <img class=\"w-10 h-10 border-2 border-buffer rounded-full\" src=\"/docs/images/people/profile-picture-3.jpg\" alt=\"\">\n    <img class=\"w-10 h-10 border-2 border-buffer rounded-full\" src=\"/docs/images/people/profile-picture-4.jpg\" alt=\"\">\n</div>\n<div class=\"flex -space-x-4 rtl:space-x-reverse\">\n    <img class=\"w-10 h-10 border-2 border-buffer rounded-full\" src=\"/docs/images/people/profile-picture-5.jpg\" alt=\"\">\n    <img class=\"w-10 h-10 border-2 border-buffer rounded-full\" src=\"/docs/images/people/profile-picture-2.jpg\" alt=\"\">\n    <img class=\"w-10 h-10 border-2 border-buffer rounded-full\" src=\"/docs/images/people/profile-picture-3.jpg\" alt=\"\">\n    <a class=\"flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-dark-strong border-2 border-buffer rounded-full\" href=\"#\">+99</a>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

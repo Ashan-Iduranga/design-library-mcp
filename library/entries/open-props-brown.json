@@ -1,0 +1,33 @@
+{
+  "id": "open-props-brown",
+  "title": "Open Props: Brown color scale",
+  "source": "Open Props",
+  "url": "https://open-props.style/#colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "brown",
+    "open-props",
+    "css-variables",
+    "tokens",
+    "color"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "13 CSS custom properties, e.g. --brown-0, --brown-1, --brown-2, --brown-3.\n\nUse: npm i open-props, then @import \"open-props/brown\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.brown.css",
+  "code": "<style>\n:where(html) {\n  --brown-0: #faf4eb;\n  --brown-1: #ede0d1;\n  --brown-2: #e0cab7;\n  --brown-3: #d3b79e;\n  --brown-4: #c5a285;\n  --brown-5: #b78f6d;\n  --brown-6: #a87c56;\n  --brown-7: #956b47;\n  --brown-8: #825b3a;\n  --brown-9: #6f4b2d;\n  --brown-10: #5e3a21;\n  --brown-11: #4e2b15;\n  --brown-12: #422412;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Open Props brown</strong>\n<p>brown</p><div class=\"row\"><div style=\"background:#faf4eb\" title=\"--brown-0: #faf4eb\"><span>0</span></div><div style=\"background:#ede0d1\" title=\"--brown-1: #ede0d1\"><span>1</span></div><div style=\"background:#e0cab7\" title=\"--brown-2: #e0cab7\"><span>2</span></div><div style=\"background:#d3b79e\" title=\"--brown-3: #d3b79e\"><span>3</span></div><div style=\"background:#c5a285\" title=\"--brown-4: #c5a285\"><span>4</span></div><div style=\"background:#b78f6d\" title=\"--brown-5: #b78f6d\"><span>5</span></div><div style=\"background:#a87c56\" title=\"--brown-6: #a87c56\"><span>6</span></div><div style=\"background:#956b47\" title=\"--brown-7: #956b47\"><span>7</span></div><div style=\"background:#825b3a\" title=\"--brown-8: #825b3a\"><span>8</span></div><div style=\"background:#6f4b2d\" title=\"--brown-9: #6f4b2d\"><span>9</span></div><div style=\"background:#5e3a21\" title=\"--brown-10: #5e3a21\"><span>10</span></div><div style=\"background:#4e2b15\" title=\"--brown-11: #4e2b15\"><span>11</span></div><div style=\"background:#422412\" title=\"--brown-12: #422412\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-csozidev-fat-eagle-48-be7b9b",
+  "title": "Loader by csozidev (fat-eagle-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csozidev/fat-eagle-48",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "smooth",
+    "text-animation",
+    "animated",
+    "wave",
+    "text",
+    "infinite"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csozidev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/csozidev_fat-eagle-48.html",
+  "code": "<div class=\"loader\">\n  <p class=\"text\">\n  <span class=\"letter letter1\">L</span>\n  <span class=\"letter letter2\">o</span>\n  <span class=\"letter letter3\">a</span>\n  <span class=\"letter letter4\">d</span>\n  <span class=\"letter letter5\">i</span>\n  <span class=\"letter letter6\">n</span>\n  <span class=\"letter letter7\">g</span>\n  <span class=\"letter letter8\">.</span>\n  <span class=\"letter letter9\">.</span>\n  <span class=\"letter letter10\">.</span>\n  </p>\n</div>\n<style>\n/* From Uiverse.io by csozidev - Tags: loading, loader, smooth, text animation, animated, wave, text, infinite */\n/* Wave text loader made by: csozi | Website: english.csozi.hu*/\n\n.text {\n  color: black;\n  font-weight: bolder;\n}\n\n@keyframes letter {\n  0% {\n    font-size: 30px;\n  }\n\n  50% {\n    font-size: 40px;\n  }\n\n  100% {\n    font-size: 30px;\n  }\n}\n\n.letter {\n  animation: letter 1s infinite;\n}\n\n.letter1 {\n  animation-delay: 0s;\n}\n\n.letter2 {\n  animation-delay: -0.9s;\n}\n\n.letter3 {\n  animation-delay: -0.8s;\n}\n\n.letter4 {\n  animation-delay: -0.7s;\n}\n\n.letter5 {\n  animation-delay: -0.6s;\n}\n\n.letter6 {\n  animation-delay: -0.5s;\n}\n\n.letter7 {\n  animation-delay: -0.4s;\n}\n\n.letter8 {\n  animation-delay: -0.3s;\n}\n\n.letter9 {\n  animation-delay: -0.2s;\n}\n\n.letter10 {\n  animation-delay: -0.1s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

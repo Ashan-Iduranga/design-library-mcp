@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-xetrov47-quick-fireant-96-c10488",
+  "title": "Input by xetrov47 (quick-fireant-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/xetrov47/quick-fireant-96",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple",
+    "search"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By xetrov47 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/xetrov47_quick-fireant-96.html",
+  "code": "<div class=\"search\">\n  <input placeholder=\"Search\" class=\"search__input\" type=\"text\" />\n  <button class=\"search__button\">\n    <svg\n      viewBox=\"0 0 16 16\"\n      class=\"bi bi-search\"\n      fill=\"currentColor\"\n      height=\"16\"\n      width=\"16\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0\"\n      ></path>\n    </svg>\n  </button>\n</div>\n\n<style>\n/* From Uiverse.io by xetrov47  - Tags: simple, input, search */\n.search {\n  display: flex;\n  align-items: center;\n  text-align: center;\n}\n\n.search__input {\n  font-family: inherit;\n  font-size: inherit;\n  border: 1px solid #767676;\n  color: #767676;\n  padding: 5px 10px;\n  border-radius: 4px;\n  margin-right: -1.5rem;\n  height: 30px;\n  width: 15rem;\n}\n\n.search__input::-webkit-input-placeholder {\n  font-weight: 400;\n  color: #767676;\n  font-size: 14px;\n}\n\n.search__button {\n  border: none;\n  background-color: #fff;\n  margin-top: 0.1em;\n}\n\n.search__button:hover {\n  cursor: pointer;\n}\n\n.search input:focus {\n  outline: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

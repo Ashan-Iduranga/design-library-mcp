@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-gautammsharma-polite-bat-25-bc69de",
+  "title": "Loader by Gautammsharma (polite-bat-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Gautammsharma/polite-bat-25",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Gautammsharma on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Gautammsharma_polite-bat-25.html",
+  "code": "<div class=\"loader-container\">\n  <div class=\"loader\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by Gautammsharma - Tags: loader */\n.loader-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 20em;\n}\n\n.loader {\n  position: relative;\n  width: 3em;\n  height: 3em;\n  border-radius: 50%;\n  background-color: rgb(208, 208, 208);\n  box-shadow: 0 0em 4em rgba(23, 190, 250, 0.5);\n  animation: loader-rotate 1s linear infinite;\n}\n\n.loader::before,\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  border: 1em solid rgba(0, 0, 0, 0.1);\n  box-sizing: border-box;\n}\n\n.loader::before {\n  animation: loader-pulse 1s ease-out infinite;\n}\n\n.loader::after {\n  animation: loader-pulse 1s ease-out infinite 0.5s;\n}\n\n@keyframes loader-rotate {\n  0% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes loader-pulse {\n  0% {\n    transform: scale(1);\n    opacity: 1;\n  }\n\n  50% {\n    transform: scale(1.5);\n    opacity: 0.5;\n  }\n\n  100% {\n    transform: scale(1);\n    opacity: 1;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

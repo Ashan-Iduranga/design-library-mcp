@@ -1,0 +1,38 @@
+{
+  "id": "uiverse-na3ar-17-fast-fireant-25-06a619",
+  "title": "Toggle by Na3ar-17 (fast-fireant-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Na3ar-17/fast-fireant-25",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "simple",
+    "animation",
+    "action",
+    "switch",
+    "dark",
+    "modern",
+    "click",
+    "toggle-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Na3ar-17 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Na3ar-17_fast-fireant-25.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\">\n    <span class=\"yolk\"> </span>\n    <span class=\"back\"> </span>\n  </span>\n</label>\n\n<style>\n/* From Uiverse.io by Na3ar-17  - Tags: simple, animation, action, switch, dark, modern, click, toggle switch */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 95px;\n  height: 50px;\n  background-color: #2a2a2a;\n  border-radius: 30px;\n  cursor: pointer;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  top: 50%;\n  left: 26%;\n  transform: translate(-50%, -50%);\n  height: 40px;\n  width: 40px;\n  border-radius: 50%;\n  background-color: white;\n  transition: 0.3s cubic-bezier(0.68, -0.25, 0.265, 1.1);\n  overflow: hidden;\n}\n\n.slider .yolk {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 25px;\n  aspect-ratio: 1/1;\n  background-color: #f2a828;\n  border-radius: 50%;\n  -webkit-box-shadow: inset -2px -2px 43px -35px rgba(255, 255, 255, 1);\n  -moz-box-shadow: inset -2px -2px 43px -35px rgba(255, 255, 255, 1);\n  box-shadow: inset -2px -2px 43px -35px rgba(255, 255, 255, 1);\n}\n\n.slider .yolk::before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: -22px;\n  transform: translate(-50%, -50%);\n  width: 30px;\n  height: 30px;\n  background-color: #cabea8;\n  border-radius: 50%;\n}\n\n.slider .yolk::after {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%) rotate(45deg);\n  width: 16px;\n  height: 16px;\n  background-color: transparent;\n  border-left: 6px solid #fff;\n  clip-path: circle(50% at 50% 50%);\n}\n\n.slider .back {\n  position: absolute;\n  top: 50%;\n  left: -50%;\n  transform: translate(-50%, -50%);\n  height: 40px;\n  width: 40px;\n  border-radius: 50%;\n  background-color: #cabea8;\n  transition: 0.3s cubic-bezier(0, 0, 0.265, 1.1);\n  overflow: hidden;\n}\n\n.slider .back::before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 25px;\n  aspect-ratio: 1/1;\n  background-color: #eec076;\n  border-radius: 50%;\n}\n\n.switch input:checked + .slider {\n  left: 74%;\n}\n\n.switch input:checked + .slider .back {\n  left: 50%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

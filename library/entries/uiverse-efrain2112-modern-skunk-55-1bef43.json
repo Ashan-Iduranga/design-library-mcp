@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-efrain2112-modern-skunk-55-1bef43",
+  "title": "Pattern by Efrain2112 (modern-skunk-55)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Efrain2112/modern-skunk-55",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "white"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Efrain2112 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/Efrain2112_modern-skunk-55.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by Efrain2112  - Tags: simple, white, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --size: 150px; /* control the size */\n  --color: #d1bdbd;\n\n  background: radial-gradient(\n      circle at 15% 30%,\n      transparent 40%,\n      var(--color) 41%\n    ),\n    radial-gradient(circle at 85% 30%, transparent 40%, var(--color) 41%),\n    radial-gradient(circle at 50% 70%, transparent 40%, var(--color) 41%),\n    radial-gradient(circle at 15% 70%, transparent 40%, var(--color) 41%),\n    radial-gradient(circle at 85% 70%, transparent 40%, var(--color) 41%),\n    linear-gradient(\n      45deg,\n      var(--color) 25%,\n      rgba(0, 0, 0, 0.067) 0,\n      rgba(0, 0, 0, 0.067) 50%,\n      var(--color) 0,\n      var(--color) 75%,\n      #1111 0,\n      #1111 100%,\n      var(--color) 0\n    );\n  background-size: var(--size) var(--size);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

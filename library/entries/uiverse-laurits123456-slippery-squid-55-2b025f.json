@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-laurits123456-slippery-squid-55-2b025f",
+  "title": "Button by Laurits123456 (slippery-squid-55)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Laurits123456/slippery-squid-55",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hamburger",
+    "menu",
+    "menuicon",
+    "3d-button",
+    "cool-hamburger"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Laurits123456 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Laurits123456_slippery-squid-55.html",
+  "code": "<label class=\"menuButton\" for=\"check\">\n    <input type=\"checkbox\" id=\"check\">\n    <span class=\"top\"></span>\n    <span class=\"mid\"></span>\n    <span class=\"bot\"></span>\n</label>\n<style>\n/* From Uiverse.io by Laurits123456 - Tags: button, hamburger, menu, menuicon, 3d button, cool hamburger */\n/*pushing a hamburger menu into a pillow texture like background*/\n\n.menuButton {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  gap: 13%;\n  color: #090909;\n  width: 3.5em;\n  height: 3.5em;\n  border-radius: 0.5em;\n  background: #171717;\n  border: 1px solid #171717;\n  transition: all .3s;\n  box-shadow: inset 4px 4px 12px #3a3a3a,\n             inset -4px -4px 12px #000000;\n}\n\n.menuButton:hover {\n  border: 1px solid black;\n}\n\n.menuButton:active {\n  color: #666;\n  box-shadow: 6px 6px 12px #3a3a3a,\n             -6px -6px 12px #000000;\n}\n\ninput[type = \"checkbox\"] {\n  -webkit-appearance: none;\n  display: none;\n  visibility: hidden;\n}\n\n.menuButton span {\n  width: 30px;\n  height: 4px;\n  background: rgb(200,200,200);\n  border-radius: 100px;\n  transition: 0.3s ease;\n}\n\ninput[type]:checked ~ span.top {\n  transform: translateY(290%)rotate(45deg);\n  width: 40px;\n}\n\ninput[type]:checked ~ span.bot {\n  transform: translateY(-270%) rotate(-45deg);\n  width: 40px;\n  box-shadow: 0 0 10px #495057;\n}\n\ninput[type]:checked ~ span.mid {\n  transform: translateX(-20px);\n  opacity: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

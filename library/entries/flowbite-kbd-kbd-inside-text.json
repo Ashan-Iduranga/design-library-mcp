@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-kbd-kbd-inside-text",
+  "title": "KBD (Keyboard): KBD inside text (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/kbd/#kbd-inside-text",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "kbd",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example by nesting an inline KBD component inside a paragraph.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/kbd.md",
+  "code": "<p class=\"text-body\">\n    Please press <kbd class=\"px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">Ctrl</kbd> + <kbd class=\"px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">Shift</kbd> + <kbd class=\"px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">R</kbd> to re-render an MDN page.\n</p>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

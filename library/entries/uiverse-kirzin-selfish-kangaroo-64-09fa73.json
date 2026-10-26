@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-kirzin-selfish-kangaroo-64-09fa73",
+  "title": "Button by kirzin (selfish-kangaroo-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kirzin/selfish-kangaroo-64",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kirzin on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/kirzin_selfish-kangaroo-64.html",
+  "code": "<button> HOVER ME\n</button>\n<style>\n/* From Uiverse.io by kirzin - Tags: gradient, button */\nbutton {\n  text-decoration: none;\n  position: relative;\n  border: none;\n  font-size: 14px;\n  font-family: inherit;\n  color: #fff;\n  width: 9em;\n  height: 3em;\n  line-height: 2em;\n  text-align: center;\n  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);\n  background-size: 300%;\n  border-radius: 30px;\n  z-index: 1;\n}\n\nbutton:hover {\n  animation: ani 8s linear infinite;\n  border: none;\n}\n\n@keyframes ani {\n  0% {\n    background-position: 0%;\n  }\n\n  100% {\n    background-position: 400%;\n  }\n}\n\nbutton:before {\n  content: '';\n  position: absolute;\n  top: -5px;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  z-index: -1;\n  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);\n  background-size: 400%;\n  border-radius: 35px;\n  transition: 1s;\n}\n\nbutton:hover::before {\n  filter: blur(20px);\n}\n\nbutton:active {\n  background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

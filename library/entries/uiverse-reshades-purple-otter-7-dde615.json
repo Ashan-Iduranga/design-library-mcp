@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-reshades-purple-otter-7-dde615",
+  "title": "Button by reshades (purple-otter-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/reshades/purple-otter-7",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animated",
+    "glass-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By reshades on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/reshades_purple-otter-7.html",
+  "code": "<button class=\"button\">\n  <p class=\"text\">Button</p>\n  <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" class=\"svg\">\n    <path class=\"path\" transform=\"translate(100 100)\" d=\"M56.8,-23.9C61.7,-3.2,45.7,18.8,26.5,31.7C7.2,44.6,-15.2,48.2,-35.5,36.5C-55.8,24.7,-73.9,-2.6,-67.6,-25.2C-61.3,-47.7,-30.6,-65.6,-2.4,-64.8C25.9,-64.1,51.8,-44.7,56.8,-23.9Z\" fill=\"#4073ff\"></path>\n  </svg>\n</button>\n<style>\n/* From Uiverse.io by reshades - Tags: button, animated, glass button */\n.button {\n  width: 10em;\n  height: 3em;\n  background-color: #e8e8e810;\n  color: #e8e8e8;\n  border: 1.2px solid #e8e8e870;\n  border-radius: 15px;\n  transition: all 0.5s ease;\n}\n\n.button:hover {\n  border: 1.2px solid #4073ff;\n  background-color: #00000000;\n}\n\n.text {\n  margin-top: 10px\n}\n\n.svg {\n  filter: blur(20px);\n  z-index: -1;\n  opacity: 70%;\n  width: 6em;\n  animation: anim 3s infinite;\n}\n\n@keyframes anim {\n  0% {\n    transform: translateY(-60px);\n  }\n\n  50% {\n    transform: translateY(-35px);\n  }\n\n  100% {\n    transform: translateY(-60px);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

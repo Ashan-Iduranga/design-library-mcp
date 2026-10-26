@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-suda-code-loud-badger-55-4615d1",
+  "title": "Button by suda-code (loud-badger-55)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/suda-code/loud-badger-55",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "blue",
+    "hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By suda-code on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/suda-code_loud-badger-55.html",
+  "code": "<button>\n    Button\n</button>\n<style>\n/* From Uiverse.io by suda-code - Tags: blue, button, hover */\nbutton {\n  padding: 12.5px 30px;\n  border: 0;\n  border-radius: 100px;\n  background-color: #2ba8fb;\n  color: #ffffff;\n  font-weight: Bold;\n  transition: all 0.5s;\n  -webkit-transition: all 0.5s;\n}\n\nbutton:hover {\n  background-color: #6fc5ff;\n  box-shadow: 0 0 20px #6fc5ff50;\n  transform: scale(1.1);\n}\n\nbutton:active {\n  background-color: #3d94cf;\n  transition: all 0.25s;\n  -webkit-transition: all 0.25s;\n  box-shadow: none;\n  transform: scale(0.98);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

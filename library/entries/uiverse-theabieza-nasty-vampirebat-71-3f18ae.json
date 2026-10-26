@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-theabieza-nasty-vampirebat-71-3f18ae",
+  "title": "Loader by TheAbieza (nasty-vampirebat-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TheAbieza/nasty-vampirebat-71",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "flat-design",
+    "github",
+    "rotate",
+    "animated",
+    "vscode",
+    "music",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TheAbieza on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/TheAbieza_nasty-vampirebat-71.html",
+  "code": "<div class=\"container\">\n    <div class=\"plate\">\n        <div class=\"black\">\n            <div class=\"border\">\n                <div class=\"white\">\n                    <div class=\"center\"></div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"player\">\n        <div class=\"rect\"></div>\n        <div class=\"circ\"></div>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by TheAbieza - Tags: flat design, loader, github, rotate, animated, vscode, music, box-shadow */\n.container {\n  width: 175px;\n  height: 175px;\n  background-color: #ABC4AA;\n  border-radius: 10px;\n  position: relative;\n  box-shadow: 5px 5px 0 0 #675D50;\n}\n\n.plate {\n  width: fit-content;\n}\n\n.plate .black,\n.plate .white,\n.plate .center,\n.plate .border {\n  border-radius: 100%;\n}\n\n.container,\n.plate .black,\n.plate .white,\n.plate .border {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.plate .black {\n  width: 150px;\n  height: 150px;\n  background-color: #675D50;\n  animation: rotation 2s infinite linear;\n}\n\n@keyframes rotation {\n  from {\n    transform: rotate(0deg);\n  }\n\n  to {\n    transform: rotate(359deg);\n  }\n}\n\n.plate .white {\n  width: 70px;\n  height: 70px;\n  background-color: #F3DEBA;\n}\n\n.plate .center {\n  width: 20px;\n  height: 20px;\n  background-color: #675D50;\n}\n\n.plate .border {\n  width: 111px;\n  height: 111px;\n  border-top: 3px solid #F3DEBA;\n  border-bottom: 3px solid #F3DEBA;\n  border-left: 3px solid #675D50;\n  border-right: 3px solid #675D50;\n}\n\n.player {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  width: fit-content;\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  margin-bottom: 8px;\n  margin-right: 8px;\n  rotate: -45deg;\n}\n\n.player .circ {\n  width: 25px;\n  height: 25px;\n  background-color: #F3DEBA;\n  border-radius: 100%;\n  z-index: 1;\n}\n\n.player .rect {\n  width: 10px;\n  height: 55px;\n  background-color: #F3DEBA;\n  position: absolute;\n  bottom: 0;\n  margin-bottom: 5px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

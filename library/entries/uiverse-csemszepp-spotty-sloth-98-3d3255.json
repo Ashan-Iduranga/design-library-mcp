@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-spotty-sloth-98-3d3255",
+  "title": "Loader by csemszepp (spotty-sloth-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/spotty-sloth-98",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/csemszepp_spotty-sloth-98.html",
+  "code": "<div class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp - Source: https://codepen.io/Sanmi-Akinwunmi/pen/VwqjXKg - Tags: simple, animation, loader */\n.loader {\n  width: 50px;\n  aspect-ratio: 1;\n  display: flex;\n  color: orange;\n  background: linear-gradient(currentColor 0 0) right / 51% 100%,\n    linear-gradient(currentColor 0 0) bottom / 100% 51%;\n  background-repeat: no-repeat;\n  animation: l16-0 2s infinite linear 0.25s;\n}\n\n.loader::before {\n  content: \"\";\n  width: 50%;\n  height: 50%;\n  background: currentColor;\n  animation: l16-1 0.5s infinite linear;\n}\n\n@keyframes l16-0 {\n  0%,\n  12.49% {\n    transform: rotate(0deg);\n  }\n\n  12.5%,\n  37.49% {\n    transform: rotate(90deg);\n  }\n\n  37.5%,\n  62.49% {\n    transform: rotate(180deg);\n  }\n\n  62.5%,\n  87.49% {\n    transform: rotate(270deg);\n  }\n\n  87.5%,\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes l16-1 {\n  0% {\n    transform: perspective(80px) rotate3d(-1, -1, 0, 0);\n  }\n\n  80%,\n  100% {\n    transform: perspective(80px) rotate3d(-1, -1, 0, -180deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

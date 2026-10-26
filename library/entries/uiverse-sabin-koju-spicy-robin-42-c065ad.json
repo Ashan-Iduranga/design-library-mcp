@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-sabin-koju-spicy-robin-42-c065ad",
+  "title": "Toggle by sabin-koju (spicy-robin-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/sabin-koju/spicy-robin-42",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "toggle-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By sabin-koju on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/sabin-koju_spicy-robin-42.html",
+  "code": "<div class=\"switch\">\n  <input role=\"switch\" type=\"checkbox\" class=\"switch-input\" id=\"switchId\">\n  <label class=\"switch-input-label\"></label>\n</div>\n<style>\n/* From Uiverse.io by sabin-koju - Tags: switch, toggle, toggle switch */\n.switch {\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -ms-flex-align: center;\n  align-items: center;\n}\n\n.switch .switch-label {\n  cursor: pointer;\n}\n\n.switch .switch-input {\n  appearance: none;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -ms-flex-align: center;\n  align-items: center;\n  box-shadow: inset 0 0 0 1px #c9c9c9;\n  background-color: #dadada;\n  width: 3rem;\n  min-width: 3rem;\n  padding: 0.125rem;\n  border-radius: 3rem;\n  cursor: pointer;\n  transition: background-color 0.75s ease, box-shadow 0.35s ease-in;\n}\n\n.switch .switch-input:before {\n  position: relative;\n  content: \"\";\n  display: inline-block;\n  border-radius: 1rem;\n  height: 1.5rem;\n  width: 1.5rem;\n  box-shadow: 0 0 3px rgba(0, 0, 0, 0.32);\n  background-color: #ffffff;\n  border: 1px solid rgba(0, 0, 0, 0);\n  transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.175);\n}\n\n.switch .switch-input:active:not(:disabled):before {\n  width: 1.75rem;\n}\n\n.switch .switch-input:hover:not(:disabled) {\n  box-shadow: inset 0 0 0 1rem #c9c9c9;\n}\n\n.switch .switch-input:focus, .switch .switch-input:focus-within {\n  box-shadow: 0 0 0 0.125rem #4caf30;\n  outline: none;\n}\n\n.switch .switch-input:focus:before, .switch .switch-input:focus-within:before {\n  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.4);\n}\n\n.switch .switch-input:checked {\n  background-color: #5dca3e;\n  box-shadow: inset 0 0 0 1px #5dca3e;\n}\n\n.switch .switch-input:checked:before {\n  transform: translate3d(calc(100% - 0.5rem), 0, 0);\n}\n\n.switch .switch-input:checked:active:not(:disabled):before {\n  margin-left: -0.5rem;\n}\n\n.switch .switch-input:checked:hover:not(:disabled) {\n  box-shadow: inset 0 0 0 1rem #459f2c;\n}\n\n.switch .switch-input:checked:focus, .switch .switch-input:checked:focus-within {\n  box-shadow: 0 0 0 0.125rem #4caf30;\n}\n\n.switch .switch-input:disabled {\n  pointer-events: none;\n  cursor: not-allowed;\n  opacity: 0.5;\n  user-select: none;\n}\n\n.switch .switch-input:disabled:before {\n  background-color: #f8f8f8;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

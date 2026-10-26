@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-yassin6up-rare-goose-44-3fed7e",
+  "title": "Tooltip by Yassin6up (rare-goose-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yassin6up/rare-goose-44",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "simple",
+    "material-design",
+    "subscription",
+    "3d",
+    "action",
+    "black"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yassin6up on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/Yassin6up_rare-goose-44.html",
+  "code": "<div class=\"tooltip-container\">\n  <span class=\"tooltip\">Uiverse.io</span>\n  <span class=\"text\">Tooltip</span>\n</div>\n\n<style>\n/* From Uiverse.io by Yassin6up  - Tags: simple, material design, tooltip, subscription, 3d, action, black */\n/* This is an example, feel free to delete this code */\n.tooltip-container {\n  --background: #22d3ee;\n  position: relative;\n  background: var(--background);\n  cursor: pointer;\n  transition: all 0.2s;\n  font-size: 17px;\n  padding: 0.7em 1.8em;\n  border-radius: 10px;\n  color: white;\n  box-shadow: 0 0 10px var(--background);\n}\n\n.tooltip {\n  position: absolute;\n  top: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  padding: 0.3em 0.6em;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s;\n  background: var(--background);\n  border-radius: 10px;\n}\n\n.tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 0.6em;\n  width: 0.6em;\n  bottom: -0.2em;\n  left: 50%;\n  transform: translate(-50%) rotate(45deg);\n  background: var(--background);\n}\n\n.tooltip-container:hover .tooltip {\n  top: -100%;\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n  animation: 1s animated infinite alternate;\n}\n\n@keyframes animated {\n  from {\n    transform: translate(0) translateY(10px);\n  }\n  to {\n    transform: translate(-100%) translateY(0);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

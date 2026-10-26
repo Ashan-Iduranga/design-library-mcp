@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-validator-username-requirement-validator",
+  "title": "Validator: Username requirement validator (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/validator/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "validator",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Validator class changes the color of form elements to error or success based on input's validation rules.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/validator/+page.md",
+  "code": "<input type=\"text\" class=\"input validator\" required placeholder=\"Username\" \n  pattern=\"[A-Za-z][A-Za-z0-9\\\\-]*\" minlength=\"3\" maxlength=\"30\" title=\"Only letters, numbers or dash\" />\n<p class=\"validator-hint\">\n  Must be 3 to 30 characters\n  <br/>containing only letters, numbers or dash\n</p>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

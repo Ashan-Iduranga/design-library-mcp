@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-itchy-seahorse-91-90ca53",
+  "title": "Button by Pradeepsaranbishnoi (itchy-seahorse-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/itchy-seahorse-91",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "glassmorphism",
+    "glow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Pradeepsaranbishnoi_itchy-seahorse-91.html",
+  "code": "<div class=\"container\">\n\t\t<div class=\"btn\"><a href=\"#\">Read more</a></div>\n\t\n\t</div>\t\t\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: glassmorphism, button, glow */\n.container .btn {\n  position: relative;\n  top: 0;\n  left: 0;\n  width: 160px;\n  height: 50px;\n  margin: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.container .btn a {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: rgba(255, 255, 255, 0.05);\n  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 30px;\n  padding: 10px;\n  letter-spacing: 1px;\n  text-decoration: none;\n  overflow: hidden;\n  color: #000;\n  font-weight: 400px;\n  z-index: 1;\n  transition: 0.5s;\n  backdrop-filter: blur(15px);\n}\n\n.container .btn:hover a {\n  letter-spacing: 3px;\n}\n\n.container .btn a::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50%;\n  height: 100%;\n  background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);\n  transform: skewX(45deg) translate(0);\n  transition: 0.5s;\n  filter: blur(0px);\n}\n\n.container .btn:hover a::before {\n  transform: skewX(45deg) translate(200px);\n}\n\n.container .btn::before {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  transform: translatex(-50%);\n  bottom: -5px;\n  width: 30px;\n  height: 10px;\n  background: #f00;\n  border-radius: 10px;\n  transition: 0.5s;\n  transition-delay: 0.5;\n}\n\n.container .btn:hover::before /*lightup button*/ {\n  bottom: 0;\n  height: 50%;\n  width: 80%;\n  border-radius: 30px;\n}\n\n.container .btn::after {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  transform: translatex(-50%);\n  top: -5px;\n  width: 30px;\n  height: 10px;\n  background: #f00;\n  border-radius: 10px;\n  transition: 0.5s;\n  transition-delay: 0.5;\n}\n\n.container .btn:hover::after /*lightup button*/ {\n  top: 0;\n  height: 50%;\n  width: 80%;\n  border-radius: 30px;\n}\n\n.container .btn:nth-child(1)::before, /*chnage 1*/\n.container .btn:nth-child(1)::after {\n  background: #ff1f71;\n  box-shadow: 0 0 5px #ff1f71, 0 0 15px #ff1f71, 0 0 30px #ff1f71,\n\t\t0 0 60px #ff1f71;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

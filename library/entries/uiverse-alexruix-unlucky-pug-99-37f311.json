@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-alexruix-unlucky-pug-99-37f311",
+  "title": "Toggle by alexruix (unlucky-pug-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/unlucky-pug-99",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/alexruix_unlucky-pug-99.html",
+  "code": "<!-- From Uiverse.io by alexruix  - Website: https://www.hyperui.dev/components/application-ui/toggles - Name: GlintonLiao - Tags: simple, material design, switch, theme-switch, toggle, toggle switch, grey -->\n<label\n  class=\"relative h-8 w-12 cursor-pointer [-webkit-tap-highlight-color:_transparent]\"\n  for=\"switch\"\n>\n  <input class=\"peer sr-only\" id=\"switch\" type=\"checkbox\" />\n\n  <span class=\"absolute inset-0 m-auto h-2 rounded-full bg-stone-400\"></span>\n\n  <span\n    class=\"absolute inset-y-0 start-0 m-auto size-6 rounded-full bg-stone-600 transition-all peer-checked:start-6 peer-checked:[&amp;_>_*]:scale-0\"\n  >\n    <span\n      class=\"absolute inset-0 m-auto size-4 rounded-full bg-stone-300 transition\"\n    >\n    </span>\n  </span>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

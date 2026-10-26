@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-lmickk2-lovely-fireant-30-421bec",
+  "title": "Loader by Lmickk2 (lovely-fireant-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Lmickk2/lovely-fireant-30",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "light&dark"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Lmickk2 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Lmickk2_lovely-fireant-30.html",
+  "code": "<div class=\"loader\">\n  <div class=\"box-load1\"></div>\n  <div class=\"box-load2\"></div>\n  <div class=\"box-load3\"></div>\n</div>\n<style>\n/* From Uiverse.io by Lmickk2 - Tags: loading, loader, light&dark */\n.loader {\n  display: flex;\n  transition: all 0.4s;\n}\n\n.loader div {\n  margin-left: 0.8rem;\n  background-color: rgb(34, 34, 34);\n  box-shadow: inset 2px 2px 10px black;\n  border-radius: 100%;\n  height: 1rem;\n  width: 1rem;\n}\n\n.box-load1 {\n  animation: brighten 1.2s infinite;\n}\n\n.box-load2 {\n  animation: brighten 1.2s infinite;\n  animation-delay: .2s;\n}\n\n.box-load3 {\n  animation: brighten 1.2s infinite;\n  animation-delay: .4s;\n}\n\n@keyframes brighten {\n  100% {\n    background-color: rgb(165, 165, 165);\n    box-shadow: none;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-whitenervosa-popular-ladybug-27-b01ef1",
+  "title": "Button by WhiteNervosa (popular-ladybug-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/WhiteNervosa/popular-ladybug-27",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By WhiteNervosa on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/WhiteNervosa_popular-ladybug-27.html",
+  "code": "<button>\n    Hover Over\n</button>\n<style>\n/* From Uiverse.io by WhiteNervosa - Tags: button */\nbutton {\n  font-size: 18px;\n  color: #e1e1e1;\n  font-family: inherit;\n  font-weight: 800;\n  cursor: pointer;\n  position: relative;\n  border: none;\n  background: none;\n  text-transform: uppercase;\n  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-duration: 400ms;\n  transition-property: color;\n}\n\nbutton:focus,\nbutton:hover {\n  color: #fff;\n}\n\nbutton:focus:after,\nbutton:hover:after {\n  width: 100%;\n  left: 0%;\n}\n\nbutton:after {\n  content: \"\";\n  pointer-events: none;\n  bottom: -2px;\n  left: 50%;\n  position: absolute;\n  width: 0%;\n  height: 2px;\n  background-color: #fff;\n  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-duration: 400ms;\n  transition-property: width, left;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-abuayaan01-tall-mayfly-66-cfd289",
+  "title": "Button by abuayaan01 (tall-mayfly-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/abuayaan01/tall-mayfly-66",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "water",
+    "btn",
+    "waves",
+    "3d-button",
+    "button-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By abuayaan01 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/abuayaan01_tall-mayfly-66.html",
+  "code": "<button class=\"button\">\n  <span class=\"liquid\"></span>  \n  <span class=\"btn-txt\">Click Me</span>\n</button>\n<style>\n/* From Uiverse.io by abuayaan01 - Tags: button, water, btn, waves, 3d button, Button design */\n.button {\n  background-color: #000;\n  border: 0px;\n  outline: 0px;\n  color: #fff;\n  width: 200px;\n  padding: 20px;\n  border-radius: 50px;\n  position: relative;\n  overflow: hidden;\n  cursor: pointer;\n}\n\n.liquid {\n  background-color: #2893eb;\n  width: 200px;\n  height: 70px;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  box-shadow: inset 5px -5px 25px #104e81,\n  inset -5px 0px 25px #104e81;\n}\n\n.liquid::after {\n  content: '';\n  width: 450px;\n  height: 400px;\n  background: #000;\n  z-index: 1;\n  position: absolute;\n  left: -110px;\n  top: -380px;\n  border-radius: 45%;\n  animation: animate 5s linear 2s infinite;\n}\n\n.liquid::before {\n  content: '';\n  width: 450px;\n  height: 400px;\n  background-color: rgb(68, 160, 235);\n  z-index: 1;\n  position: absolute;\n  left: -110px;\n  top: -380px;\n  border-radius: 40%;\n  animation: animate 5s linear 1.8s infinite;\n}\n\n.btn-txt {\n  position: relative;\n  z-index: 1;\n  font-size: 22px;\n  font-family: sans-serif;\n  letter-spacing: 2px;\n}\n\n@keyframes animate {\n  from {\n    transform: rotate(0deg);\n  }\n\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

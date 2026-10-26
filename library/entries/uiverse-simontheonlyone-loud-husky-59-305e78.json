@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-simontheonlyone-loud-husky-59-305e78",
+  "title": "Button by simontheonlyone (loud-husky-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/simontheonlyone/loud-husky-59",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By simontheonlyone on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/simontheonlyone_loud-husky-59.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by simontheonlyone - Source: WhiteNervosa - https://uiverse.io/WhiteNervosa/popular-ladybug-27 - Tags: minimalist, button, hover, shadow, glow, light&dark, focus */\n.button {\n  position: relative;\n  width: 10em;\n  height: 2em;\n  text-align: center;\n  font-family: poppins;\n  font-size: 17px;\n  font-weight: 300;\n  letter-spacing: 5px;\n  text-transform: uppercase;\n  color: #fff;\n  cursor: pointer;\n  background-color: rgba(3, 3, 3, .5);\n  border: none;\n  transition: color .2s linear,\n        box-shadow .3s linear,\n        background-color .3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\n.button:focus,\n.button:hover {\n  box-shadow: 0 0 110px #fff;\n  background-color: rgba(255, 255, 255, 0.4);\n  color: #111;\n  font-weight: 500;\n}\n\n.button:focus:before,\n.button:hover:before,\n.button:focus:after,\n.button:hover:after {\n  width: 100%;\n  left: 0%;\n}\n\n.button:before,\n.button:after {\n  content: '';\n  position: absolute;\n  pointer-events: none;\n  left: 50%;\n  width: 0%;\n  height: 2px;\n  background-color: #fff;\n  transition: width, left, 250ms cubic-bezier(0.25, .8, .25, 1);\n}\n\n.button:before {\n  top: -2px;\n}\n\n.button:after {\n  bottom: -2px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

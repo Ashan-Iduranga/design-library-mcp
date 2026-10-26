@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-marketing-polls-1-dark",
+  "title": "Polls: Single question poll (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/polls",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "marketing",
+    "polls",
+    "hyperui",
+    "feedback",
+    "survey",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/polls/1-dark.html",
+  "code": "<div class=\"mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8\">\n<div class=\"max-w-prose\">\n<h2 class=\"text-2xl font-semibold text-gray-900 sm:text-3xl dark:text-white\">\n          Where should we go for lunch?\n        </h2>\n<p class=\"mt-4 text-pretty text-gray-700 dark:text-gray-200\">\n          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe maiores exercitationem id\n          soluta eaque harum eligendi distinctio sapiente esse ad! Sit expedita eos quam numquam ea,\n          assumenda officiis minus ut!\n        </p>\n</div>\n<form action=\"#\" class=\"mt-6 space-y-4\">\n<fieldset class=\"space-y-4\">\n<legend class=\"sr-only\">Select an option</legend>\n<div class=\"flex items-center gap-4\">\n<label class=\"relative block flex-1 overflow-hidden rounded border border-gray-300 px-4 py-2 shadow-sm dark:border-gray-600 dark:bg-gray-900 dark:text-white\" for=\"Option1\">\n<div class=\"absolute inset-y-0 left-0 rounded bg-gray-100 dark:bg-gray-800\" style=\"width: 45%\"></div>\n<div class=\"relative flex items-center gap-4\">\n<input class=\"size-5 border-gray-300 shadow-sm dark:border-gray-600\" id=\"Option1\" name=\"Poll1\" type=\"radio\"/>\n<span class=\"font-medium text-gray-900 dark:text-white\"> Option 1 </span>\n</div>\n</label>\n<span class=\"text-gray-700 dark:text-gray-200\">45%</span>\n</div>\n<div class=\"flex items-center gap-4\">\n<label class=\"relative block flex-1 overflow-hidden rounded border border-gray-300 px-4 py-2 shadow-sm dark:border-gray-600 dark:bg-gray-900 dark:text-white\" for=\"Option2\">\n<div class=\"absolute inset-y-0 left-0 rounded bg-gray-100 dark:bg-gray-800\" style=\"width: 25%\"></div>\n<div class=\"relative flex items-center gap-4\">\n<input class=\"size-5 border-gray-300 shadow-sm dark:border-gray-600\" id=\"Option2\" name=\"Poll1\" type=\"radio\"/>\n<span class=\"font-medium text-gray-900 dark:text-white\"> Option 2 </span>\n</div>\n</label>\n<span class=\"text-gray-700 dark:text-gray-200\">25%</span>\n</div>\n<div class=\"flex items-center gap-4\">\n<label class=\"relative block flex-1 overflow-hidden rounded border border-gray-300 px-4 py-2 shadow-sm dark:border-gray-600 dark:bg-gray-900 dark:text-white\" for=\"Option3\">\n<div class=\"absolute inset-y-0 left-0 rounded bg-gray-100 dark:bg-gray-800\" style=\"width: 30%\"></div>\n<div class=\"relative flex items-center gap-4\">\n<input class=\"size-5 border-gray-300 shadow-sm dark:border-gray-600\" id=\"Option3\" name=\"Poll1\" type=\"radio\"/>\n<span class=\"font-medium text-gray-900 dark:text-white\"> Option 3 </span>\n</div>\n</label>\n<span class=\"text-gray-700 dark:text-gray-200\">30%</span>\n</div>\n</fieldset>\n</form>\n<p class=\"mt-4 text-sm text-gray-700 dark:text-gray-200\">\n        Ends on <time datetime=\"2025-10-31\">October 31, 2025</time>\n</p>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

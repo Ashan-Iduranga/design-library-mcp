@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-yariklnv-dangerous-donkey-85-17d28f",
+  "title": "Card by yariklnv (dangerous-donkey-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/yariklnv/dangerous-donkey-85",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "box",
+    "div"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By yariklnv on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/yariklnv_dangerous-donkey-85.html",
+  "code": "<div class=\"border\"><div class=\"content\"></div></div>\n<style>\n/* From Uiverse.io by yariklnv - Tags: card, box, div */\n@keyframes rotate {\n  from {\n    transform: rotateZ(0deg);\n  }\n\n  to {\n    transform: rotateZ(360deg);\n  }\n}\n\n.border {\n  background-image: linear-gradient(to left, red, blue);\n  width: 100px;\n  height: 100px;\n  border-radius: 20px;\n}\n\n.border::before {\n  background-image: linear-gradient(to left, red, blue);\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  height: 100px;\n  width: 100px;\n  scale: 1.1;\n  filter: blur(25px);\n  animation: rotate 4s linear infinite;\n  border-radius: 100px;\n}\n\n.content {\n  background-color: #111;\n  width: 100px;\n  height: 100px;\n  border-radius: 19px;\n  scale: 0.9;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-ercnersoy-evil-eel-92-c26de7",
+  "title": "Toggle by ercnersoy (evil-eel-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ercnersoy/evil-eel-92",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "simple",
+    "switch",
+    "creative"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ercnersoy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/ercnersoy_evil-eel-92.html",
+  "code": "<label class=\"switch\">\n  <input class=\"ch\" type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by ercnersoy  - Tags: simple, switch, creative */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 1.5em;\n}\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  inset: 0;\n  background-color: #ccc;\n  transition: 0.4s;\n  border-radius: 1rem 0rem 1rem;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.5em;\n  width: 1.4em;\n  left: 0em;\n  bottom: 0em;\n  background-color: white;\n  transition: 0.4s;\n  border-radius: 1rem 0rem 1rem;\n  border: 3px solid white;\n}\n\n.ch:checked + .slider {\n  background-color: #72eb67;\n}\n\n.ch:focus + .slider {\n  box-shadow: 0 0 1px #2196f3;\n}\n\n.ch:checked + .slider:before {\n  transform: translateX(2.2em);\n  background-color: green;\n  box-shadow: 0px 0px 40px 5px #72eb67;\n  border: 3px solid white;\n}\n\n.ch:checked + .slider::after {\n  content: \"|\";\n  color: white;\n  position: absolute;\n  right: 0.3rem;\n  top: -3.3px;\n  transform: rotate(45deg);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-lukepadiachy-funny-moose-89-a3d871",
+  "title": "Loader by lukepadiachy (funny-moose-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/lukepadiachy/funny-moose-89",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "form",
+    "cube",
+    "animated",
+    "pattern"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By lukepadiachy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/lukepadiachy_funny-moose-89.html",
+  "code": "<div class=\"my-loader\">\n  <div class=\"rubiks-cube\">\n    <div class=\"face front\">\n      <div style=\"background: #ff3d00;\" class=\"cube\"></div>\n      <div style=\"background: #ffeb3b;\" class=\"cube\"></div>\n      <div style=\"background: #4caf50;\" class=\"cube\"></div>\n      <div style=\"background: #2196f3;\" class=\"cube\"></div>\n      <div style=\"background: #ffffff;\" class=\"cube\"></div>\n      <div style=\"background: #ffeb3b;\" class=\"cube\"></div>\n      <div style=\"background: #4caf50;\" class=\"cube\"></div>\n      <div style=\"background: #2196f3;\" class=\"cube\"></div>\n      <div style=\"background: #ff3d00;\" class=\"cube\"></div>\n    </div>\n\n    <div class=\"face back\">\n      <div style=\"background: #4caf50;\" class=\"cube\"></div>\n      <div style=\"background: #ff3d00;\" class=\"cube\"></div>\n      <div style=\"background: #ffeb3b;\" class=\"cube\"></div>\n      <div style=\"background: #2196f3;\" class=\"cube\"></div>\n      <div style=\"background: #ffffff;\" class=\"cube\"></div>\n      <div style=\"background: #ff3d00;\" class=\"cube\"></div>\n      <div style=\"background: #ffeb3b;\" class=\"cube\"></div>\n      <div style=\"background: #4caf50;\" class=\"cube\"></div>\n      <div style=\"background: #2196f3;\" class=\"cube\"></div>\n    </div>\n    <div class=\"face left\">\n      <div style=\"background: #ffeb3b;\" class=\"cube\"></div>\n      <div style=\"background: #4caf50;\" class=\"cube\"></div>\n      <div style=\"background: #2196f3;\" class=\"cube\"></div>\n      <div style=\"background: #ff3d00;\" class=\"cube\"></div>\n      <div style=\"background: #ffffff;\" class=\"cube\"></div>\n      <div style=\"background: #4caf50;\" class=\"cube\"></div>\n      <div style=\"background: #2196f3;\" class=\"cube\"></div>\n      <div style=\"background: #ffeb3b;\" class=\"cube\"></div>\n      <div style=\"background: #ff3d00;\" class=\"cube\"></div>\n    </div>\n    <div class=\"face right\">\n      <div style=\"background: #4caf50;\" class=\"cube\"></div>\n      <div style=\"background: #ff3d00;\" class=\"cube\"></div>\n      <div style=\"background: #ffeb3b;\" class=\"cube\"></div>\n      <div style=\"background: #2196f3;\" class=\"cube\"></div>\n      <div style=\"background: #ffffff;\" class=\"cube\"></div>\n      <div style=\"background: #ff3d00;\" class=\"cube\"></div>\n      <div style=\"background: #ffeb3b;\" class=\"cube\"></div>\n      <div style=\"background: #4caf50;\" class=\"cube\"></div>\n      <div style=\"background: #2196f3;\" class=\"cube\"></div>\n    </div>\n    <div class=\"face top\">\n      <div style=\"background: #2196f3;\" class=\"cube\"></div>\n      <div style=\"background: #ffeb3b;\" class=\"cube\"></div>\n      <div style=\"background: #ff3d00;\" class=\"cube\"></div>\n      <div style=\"background: #4caf50;\" class=\"cube\"></div>\n      <div style=\"background: #ffffff;\" class=\"cube\"></div>\n      <div style=\"background: #ffeb3b;\" class=\"cube\"></div>\n      <div style=\"background: #ff3d00;\" class=\"cube\"></div>\n      <div style=\"background: #4caf50;\" class=\"cube\"></div>\n      <div style=\"background: #2196f3;\" class=\"cube\"></div>\n    </div>\n    <div class=\"face bottom\">\n      <div style=\"background: #ffffff;\" class=\"cube\"></div>\n      <div style=\"background: #4caf50;\" class=\"cube\"></div>\n      <div style=\"background: #2196f3;\" class=\"cube\"></div>\n      <div style=\"background: #ff3d00;\" class=\"cube\"></div>\n      <div style=\"background: #ffeb3b;\" class=\"cube\"></div>\n      <div style=\"background: #4caf50;\" class=\"cube\"></div>\n      <div style=\"background: #2196f3;\" class=\"cube\"></div>\n      <div style=\"background: #ffffff;\" class=\"cube\"></div>\n      <div style=\"background: #ff3d00;\" class=\"cube\"></div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by lukepadiachy  - Tags: simple, form, loader, cube, animated, pattern */\n.my-loader {\n  width: 200px;\n  height: 200px;\n  perspective: 1000px;\n  margin: 100px auto;\n}\n\n.rubiks-cube {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  transform-style: preserve-3d;\n  animation: my-rotateCube 5s infinite linear;\n}\n\n.my-loader .face {\n  position: absolute;\n  display: flex;\n  flex-wrap: wrap;\n  width: 100%;\n  height: 100%;\n}\n\n.my-loader .face.front {\n  transform: translateZ(100px);\n}\n.my-loader .face.back {\n  transform: rotateY(180deg) translateZ(100px);\n}\n.my-loader .face.left {\n  transform: rotateY(-90deg) translateZ(100px);\n}\n.my-loader .face.right {\n  transform: rotateY(90deg) translateZ(100px);\n}\n.my-loader .face.top {\n  transform: rotateX(90deg) translateZ(100px);\n}\n.my-loader .face.bottom {\n  transform: rotateX(-90deg) translateZ(100px);\n}\n\n.my-loader .cube {\n  width: calc(100% / 3);\n  height: calc(100% / 3);\n  box-sizing: border-box;\n  border: 1px solid #000;\n}\n\n@keyframes my-rotateCube {\n  0% {\n    transform: rotateX(0deg) rotateY(0deg);\n  }\n  100% {\n    transform: rotateX(360deg) rotateY(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

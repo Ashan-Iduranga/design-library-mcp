@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-bad-earwig-19-31f5c7",
+  "title": "Loader by Shoh2008 (bad-earwig-19)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/bad-earwig-19",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_bad-earwig-19.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  display: inline-block;\n  position: relative;\n  background: #FFF;\n  box-sizing: border-box;\n  animation: zeroRotation 1s ease infinite alternate-reverse;\n}\n\n@keyframes zeroRotation {\n  0% {\n    transform: scale(1) rotate(0deg);\n  }\n\n  100% {\n    transform: scale(0.3) rotate(360deg);\n  }\n}\n    \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

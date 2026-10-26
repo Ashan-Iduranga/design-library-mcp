@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-chat-chat-with-header-and-footer",
+  "title": "Chat bubble: Chat with header and footer (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/chat/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "chat",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Chat bubbles are used to show one line of conversation and all its data, including the author image, author name, time, etc.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/chat/+page.md",
+  "code": "<div class=\"chat chat-start\">\n  <div class=\"chat-header\">\n    Obi-Wan Kenobi\n    <time class=\"text-xs opacity-50\">2 hours ago</time>\n  </div>\n  <div class=\"chat-bubble\">You were the Chosen One!</div>\n  <div class=\"chat-footer opacity-50\">Seen</div>\n</div>\n<div class=\"chat chat-start\">\n  <div class=\"chat-header\">\n    Obi-Wan Kenobi\n    <time class=\"text-xs opacity-50\">2 hour ago</time>\n  </div>\n  <div class=\"chat-bubble\">I loved you.</div>\n  <div class=\"chat-footer opacity-50\">Delivered</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

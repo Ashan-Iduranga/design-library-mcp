@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-catraco-brown-termite-67-3357c9",
+  "title": "Toggle by catraco (brown-termite-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/catraco/brown-termite-67",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "dark",
+    "light",
+    "animated",
+    "light&dark",
+    "slide"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By catraco on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/catraco_brown-termite-67.html",
+  "code": "<label class=\"switch-name\">\n  <input type=\"checkbox\" class=\"checkbox\">\n  <div class=\"back\"></div>\n  <svg class=\"moon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 384 512\">\n  <path d=\"M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z\"></path>\n  </svg>\n  <svg class=\"sun\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\">\n  <path d=\"M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z\"></path>\n  </svg>\n</label>\n<style>\n/* From Uiverse.io by catraco - Tags: switch, dark, light, toggle, animated, light&dark, slide */\n.switch-name {\n  --dark-sky: #5050e5;\n  --moon: #ffd365;\n  --light-sky: #35d5e5;\n  --sun: #ffed89;\n  display: inline-block;\n  position: relative;\n  border-radius: 5em;\n  cursor: pointer;\n  width: 80px;\n  height: 40px;\n  overflow: hidden;\n  transition: all .5s;\n}\n\n.switch-name .back {\n  background-color: var(--dark-sky);\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  left: 0;\n  top: 0;\n  transition: .5s ease-in-out;\n}\n\n.switch-name .checkbox {\n  opacity: 0;\n}\n\n.switch-name .checkbox:checked ~ .back {\n  background-color: var(--light-sky);\n}\n\n.switch-name .checkbox:checked ~ .moon {\n  transform: translate(100%) rotate(180deg);\n  opacity: 0;\n}\n\n.switch-name .checkbox:checked ~ .sun {\n  transform: translate(100%) rotate(180deg);\n  opacity: 1;\n}\n\n.switch-name .moon {\n  position: absolute;\n  left: 0;\n  top: 0;\n  height: 100%;\n  padding: .4em;\n  fill: var(--moon);\n  transition: .5s;\n}\n\n.switch-name .sun {\n  position: absolute;\n  left: 0;\n  top: 0;\n  height: 100%;\n  padding: .4em;\n  fill: var(--sun);\n  transition: .5s;\n  opacity: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

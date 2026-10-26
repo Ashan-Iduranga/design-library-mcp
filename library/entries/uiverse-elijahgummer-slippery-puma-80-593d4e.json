@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-elijahgummer-slippery-puma-80-593d4e",
+  "title": "Loader by elijahgummer (slippery-puma-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/slippery-puma-80",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "star",
+    "svg",
+    "magic",
+    "wand",
+    "analyser"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/elijahgummer_slippery-puma-80.html",
+  "code": "<div class=\"analyze\">\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    fill=\"none\"\n    viewBox=\"0 0 24 24\"\n    height=\"54\"\n    width=\"54\"\n  >\n    <rect height=\"24\" width=\"24\"></rect>\n    <path\n      stroke-linecap=\"round\"\n      stroke-width=\"1.5\"\n      stroke=\"white\"\n      d=\"M19.25 9.25V5.25C19.25 4.42157 18.5784 3.75 17.75 3.75H6.25C5.42157 3.75 4.75 4.42157 4.75 5.25V18.75C4.75 19.5784 5.42157 20.25 6.25 20.25H12.25\"\n      class=\"board\"\n    ></path>\n    <path\n      d=\"M9.18748 11.5066C9.12305 11.3324 8.87677 11.3324 8.81234 11.5066L8.49165 12.3732C8.47139 12.428 8.42823 12.4711 8.37348 12.4914L7.50681 12.8121C7.33269 12.8765 7.33269 13.1228 7.50681 13.1872L8.37348 13.5079C8.42823 13.5282 8.47139 13.5714 8.49165 13.6261L8.81234 14.4928C8.87677 14.6669 9.12305 14.6669 9.18748 14.4928L9.50818 13.6261C9.52844 13.5714 9.5716 13.5282 9.62634 13.5079L10.493 13.1872C10.6671 13.1228 10.6671 12.8765 10.493 12.8121L9.62634 12.4914C9.5716 12.4711 9.52844 12.428 9.50818 12.3732L9.18748 11.5066Z\"\n      class=\"star-2\"\n    ></path>\n    <path\n      d=\"M11.7345 6.63394C11.654 6.41629 11.3461 6.41629 11.2656 6.63394L10.8647 7.71728C10.8394 7.78571 10.7855 7.83966 10.717 7.86498L9.6337 8.26585C9.41605 8.34639 9.41605 8.65424 9.6337 8.73478L10.717 9.13565C10.7855 9.16097 10.8394 9.21493 10.8647 9.28335L11.2656 10.3667C11.3461 10.5843 11.654 10.5843 11.7345 10.3667L12.1354 9.28335C12.1607 9.21493 12.2147 9.16097 12.2831 9.13565L13.3664 8.73478C13.5841 8.65424 13.5841 8.34639 13.3664 8.26585L12.2831 7.86498C12.2147 7.83966 12.1607 7.78571 12.1354 7.71728L11.7345 6.63394Z\"\n      class=\"star-1\"\n    ></path>\n    <path\n      class=\"stick\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"1.5\"\n      stroke=\"white\"\n      d=\"M17 14L21.2929 18.2929C21.6834 18.6834 21.6834 19.3166 21.2929 19.7071L20.7071 20.2929C20.3166 20.6834 19.6834 20.6834 19.2929 20.2929L15 16M17 14L15.7071 12.7071C15.3166 12.3166 14.6834 12.3166 14.2929 12.7071L13.7071 13.2929C13.3166 13.6834 13.3166 14.3166 13.7071 14.7071L15 16M17 14L15 16\"\n    ></path>\n  </svg>\n</div>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: loading, loader, star, svg, magic, wand, analyser */\n.analyze svg path.stick {\n  transform: translate(0);\n  animation: stick 2s ease infinite;\n  /* Change wand color */\n}\n\n.analyze svg path.star-1 {\n  fill: #ff4500; /* OrangeRed color */\n  animation: sparkles 2s ease infinite, scaleStars 2s ease infinite,\n    colorChange 2s ease infinite;\n  animation-delay: 150ms;\n}\n\n.analyze svg path.star-2 {\n  fill: #00ff00; /* Lime color */\n  animation: sparkles 2s ease infinite, scaleStars 2s ease infinite,\n    colorChange 2s ease infinite;\n}\n\n.board {\n  animation: bounce 2s ease infinite;\n}\n\n@keyframes sparkles {\n  0% {\n    opacity: 1;\n  }\n  35% {\n    opacity: 1;\n  }\n  55% {\n    opacity: 0;\n  }\n  75% {\n    opacity: 1;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes stick {\n  0% {\n    transform: translate3d(0, 0, 0) rotate(0);\n  }\n  25% {\n    transform: translate3d(0, 0, 0) rotate(0);\n  }\n  50% {\n    transform: translate3d(3px, -2px, 0) rotate(8deg);\n  }\n  75% {\n    transform: translate3d(0, 0, 0) rotate(0);\n  }\n  100% {\n    transform: translate3d(0, 0, 0) rotate(0);\n  }\n}\n\n@keyframes scaleStars {\n  0% {\n    transform: scale(1);\n  }\n  50% {\n    transform: scale(0.9);\n  }\n  100% {\n    transform: scale(1);\n  }\n}\n\n@keyframes bounce {\n  0% {\n    transform: translateY(0);\n  }\n  25% {\n    transform: translateY(0);\n  }\n  50% {\n    transform: translateY(0);\n  }\n  75% {\n    transform: translateY(-1px);\n  }\n  100% {\n    transform: translateY(0);\n  }\n}\n\n@keyframes colorChange {\n  0% {\n    fill: #ff4500; /* OrangeRed */\n  }\n  25% {\n    fill: #ffd700; /* Gold */\n  }\n  50% {\n    fill: #00ff00; /* Lime */\n  }\n  75% {\n    fill: #1e90ff; /* DodgerBlue */\n  }\n  100% {\n    fill: #ff4500; /* OrangeRed */\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

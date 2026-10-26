@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-temrevil-little-duck-0-324757",
+  "title": "Loader by TemRevil (little-duck-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TemRevil/little-duck-0",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "animation",
+    "blue",
+    "loading",
+    "spinner",
+    "smooth",
+    "space"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TemRevil on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/TemRevil_little-duck-0.html",
+  "code": "<div class=\"loading\">\n  <div class=\"loading-wide\">\n    <div class=\"l1 color\"></div>\n    <div class=\"l2 color\"></div>\n    <div class=\"e1 color animation-effect-light\"></div>\n    <div class=\"e2 color animation-effect-light-d\"></div>\n    <div class=\"e3 animation-effect-rot\">X</div>\n    <div class=\"e4 color animation-effect-light\"></div>\n    <div class=\"e5 color animation-effect-light-d\"></div>\n    <div class=\"e6 animation-effect-scale\">*</div>\n    <div class=\"e7 color\"></div>\n    <div class=\"e8 color\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by TemRevil  - Tags: simple, animation, blue, loading, loader, spinner, smooth, space */\n.loading {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.loading-wide {\n  width: 150px;\n  height: 150px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n.color {\n  background-color: #3395ff;\n}\n\n.l1 {\n  width: 15px;\n  height: 65px;\n  position: absolute;\n  animation: move-h 1.2s infinite cubic-bezier(0.65, 0.05, 0.36, 1);\n}\n\n.l2 {\n  width: 15px;\n  height: 60px;\n  position: absolute;\n  transform: rotate(90deg);\n  animation: move-v 1.2s infinite cubic-bezier(0.65, 0.05, 0.36, 1);\n}\n\n@keyframes move-h {\n  0% {\n    top: 0;\n    opacity: 0;\n  }\n  25% {\n    opacity: 1;\n  }\n  50% {\n    top: 30%;\n    opacity: 1;\n  }\n  75% {\n    opacity: 1;\n  }\n  100% {\n    top: 100%;\n    opacity: 0;\n  }\n}\n@keyframes move-v {\n  0% {\n    left: 0;\n    opacity: 0;\n  }\n  25% {\n    opacity: 1;\n  }\n  50% {\n    left: 45%;\n    opacity: 1;\n  }\n  75% {\n    opacity: 1;\n  }\n  100% {\n    left: 100%;\n    opacity: 0;\n  }\n}\n\n.animation-effect-light {\n  animation: effect 0.2s 0.1s infinite linear;\n}\n.animation-effect-light-d {\n  animation: effect 0.3s 0.2s infinite linear;\n}\n.animation-effect-rot {\n  animation: rot 0.8s infinite cubic-bezier(0.65, 0.05, 0.36, 1);\n}\n.animation-effect-scale {\n  animation: scale 0.8s infinite cubic-bezier(0.65, 0.05, 0.36, 1);\n}\n\n@keyframes effect {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n  }\n  100% {\n    opacity: 0;\n  }\n}\n@keyframes rot {\n  0% {\n    transform: rotate(0deg);\n  }\n  50% {\n    transform: rotate(180deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n@keyframes scale {\n  0% {\n    scale: 1;\n  }\n  50% {\n    scale: 1.9;\n  }\n  100% {\n    scale: 1;\n  }\n}\n.e1 {\n  width: 1px;\n  height: 40px;\n  opacity: 0.3;\n  position: absolute;\n  top: 0;\n  left: 8%;\n}\n.e2 {\n  width: 60px;\n  height: 1px;\n  opacity: 0.8;\n  position: absolute;\n  top: 8%;\n  left: 0;\n}\n.e3 {\n  position: absolute;\n  top: 10%;\n  left: 12%;\n  font-family: \"Segoe UI\", Tahoma, Geneva, Verdana, sans-serif;\n  font-weight: 900;\n  font-size: 18px;\n  color: #3395ff;\n}\n.e4 {\n  width: 1px;\n  height: 40px;\n  opacity: 0.3;\n  position: absolute;\n  top: 90%;\n  right: 10%;\n}\n.e5 {\n  width: 40px;\n  height: 1px;\n  opacity: 0.3;\n  position: absolute;\n  top: 100%;\n  right: 0;\n}\n.e6 {\n  position: absolute;\n  top: 100%;\n  right: 0;\n  font-family: \"Segoe UI\", Tahoma, Geneva, Verdana, sans-serif;\n  font-size: 32px;\n  color: #3395ff;\n}\n.e7 {\n  width: 1px;\n  height: 20px;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  transform: rotate(45deg);\n  animation: height 1s infinite cubic-bezier(0.65, 0.05, 0.36, 1);\n}\n@keyframes height {\n  0% {\n    bottom: 0%;\n    left: 0%;\n    height: 0px;\n  }\n  25% {\n    height: 90px;\n  }\n  50% {\n    bottom: 100%;\n    left: 100%;\n    height: 90px;\n  }\n  75% {\n    height: 0px;\n  }\n  100% {\n    bottom: 0%;\n    left: 0%;\n    height: 0px;\n  }\n}\n.e8 {\n  width: 20px;\n  height: 1px;\n  position: absolute;\n  bottom: 50%;\n  left: 0;\n  animation: width 1.5s infinite cubic-bezier(0.65, 0.05, 0.36, 1);\n}\n@keyframes width {\n  0% {\n    left: 0%;\n    width: 0px;\n  }\n  50% {\n    left: 100%;\n    width: 90px;\n  }\n  100% {\n    left: 0%;\n    width: 0px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

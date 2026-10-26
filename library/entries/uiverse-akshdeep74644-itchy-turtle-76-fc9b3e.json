@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-akshdeep74644-itchy-turtle-76-fc9b3e",
+  "title": "Input by Akshdeep74644 (itchy-turtle-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Akshdeep74644/itchy-turtle-76",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Akshdeep74644 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Akshdeep74644_itchy-turtle-76.html",
+  "code": "<div class=\"container\">\n        <input type=\"text\" required=\"required\">\n        <label>You'r name</label>\n        <i></i>\n    </div>\n<style>\n/* From Uiverse.io by Akshdeep74644 - Tags: input */\n.container {\n  position: relative;\n  width: 200px;\n}\n\n.container input {\n  width: 100%;\n  background: transparent;\n  outline: none;\n  border: none;\n  color: #222;\n  padding: 8px;\n}\n\n.container label {\n  position: absolute;\n  left: 0;\n  top: 0;\n  color: rgba(105, 105, 105, 0.7);\n  text-transform: uppercase;\n  pointer-events: none;\n  transition: .5s;\n  font-weight: bold;\n}\n\n.container input:valid ~ label,\n.container input:focus ~ label {\n  color: rgb(10, 131, 212);\n  transform: translateY(-15px);\n  font-size: .6rem;\n}\n\n.container i {\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  height: 2px;\n  background: #222;\n}\n\n.container i:before {\n  content: '';\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(90deg, #ff1b69, #ff0, #2196f3, #9c27b0, #ff1b69);\n  animation: animate 3s linear infinite;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

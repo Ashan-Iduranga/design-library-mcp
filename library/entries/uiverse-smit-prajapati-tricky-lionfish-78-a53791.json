@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-smit-prajapati-tricky-lionfish-78-a53791",
+  "title": "Card by Smit-Prajapati (tricky-lionfish-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Smit-Prajapati/tricky-lionfish-78",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "card-hover",
+    "3d-card"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Smit-Prajapati on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Smit-Prajapati_tricky-lionfish-78.html",
+  "code": "<div class=\"parent\">\n  <div class=\"card\">\n      <div class=\"content-box\">\n          <span class=\"card-title\">3D Card</span>\n          <p class=\"card-content\">\n              Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n          </p>\n          <span class=\"see-more\">See More</span>\n      </div>\n      <div class=\"date-box\">\n          <span class=\"month\">JUNE</span>\n          <span class=\"date\">29</span>\n      </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Smit-Prajapati - Tags: card, card hover, 3d card */\n.parent {\n  width: 300px;\n  padding: 20px;\n  perspective: 1000px;\n}\n\n.card {\n  padding-top: 50px;\n  /* border-radius: 10px; */\n  border: 3px solid rgb(255, 255, 255);\n  transform-style: preserve-3d;\n  background: linear-gradient(135deg,#0000 18.75%,#f3f3f3 0 31.25%,#0000 0),\n      repeating-linear-gradient(45deg,#f3f3f3 -6.25% 6.25%,#ffffff 0 18.75%);\n  background-size: 60px 60px;\n  background-position: 0 0, 0 0;\n  background-color: #f0f0f0;\n  width: 100%;\n  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;\n  transition: all 0.5s ease-in-out;\n}\n\n.card:hover {\n  background-position: -100px 100px, -100px 100px;\n  transform: rotate3d(0.5, 1, 0, 30deg);\n}\n\n.content-box {\n  background: rgba(4, 193, 250, 0.732);\n  /* border-radius: 10px 100px 10px 10px; */\n  transition: all 0.5s ease-in-out;\n  padding: 60px 25px 25px 25px;\n  transform-style: preserve-3d;\n}\n\n.content-box .card-title {\n  display: inline-block;\n  color: white;\n  font-size: 25px;\n  font-weight: 900;\n  transition: all 0.5s ease-in-out;\n  transform: translate3d(0px, 0px, 50px);\n}\n\n.content-box .card-title:hover {\n  transform: translate3d(0px, 0px, 60px);\n}\n\n.content-box .card-content {\n  margin-top: 10px;\n  font-size: 12px;\n  font-weight: 700;\n  color: #f2f2f2;\n  transition: all 0.5s ease-in-out;\n  transform: translate3d(0px, 0px, 30px);\n}\n\n.content-box .card-content:hover {\n  transform: translate3d(0px, 0px, 60px);\n}\n\n.content-box .see-more {\n  cursor: pointer;\n  margin-top: 1rem;\n  display: inline-block;\n  font-weight: 900;\n  font-size: 9px;\n  text-transform: uppercase;\n  color: rgb(7, 185, 255);\n  /* border-radius: 5px; */\n  background: white;\n  padding: 0.5rem 0.7rem;\n  transition: all 0.5s ease-in-out;\n  transform: translate3d(0px, 0px, 20px);\n}\n\n.content-box .see-more:hover {\n  transform: translate3d(0px, 0px, 60px);\n}\n\n.date-box {\n  position: absolute;\n  top: 30px;\n  right: 30px;\n  height: 60px;\n  width: 60px;\n  background: white;\n  border: 1px solid rgb(7, 185, 255);\n  /* border-radius: 10px; */\n  padding: 10px;\n  transform: translate3d(0px, 0px, 80px);\n  box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;\n}\n\n.date-box span {\n  display: block;\n  text-align: center;\n}\n\n.date-box .month {\n  color: rgb(4, 193, 250);\n  font-size: 9px;\n  font-weight: 700;\n}\n\n.date-box .date {\n  font-size: 20px;\n  font-weight: 900;\n  color: rgb(4, 193, 250);\n}\n \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

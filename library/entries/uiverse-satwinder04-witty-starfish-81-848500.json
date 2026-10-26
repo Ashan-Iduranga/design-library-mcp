@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satwinder04-witty-starfish-81-848500",
+  "title": "Loader by Satwinder04 (witty-starfish-81)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Satwinder04/witty-starfish-81",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Satwinder04 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Satwinder04_witty-starfish-81.html",
+  "code": "<div class=\"loader\">\n                <div class=\"bar1\"></div>\n                <div class=\"bar2\"></div>\n                <div class=\"bar3\"></div>\n                <div class=\"bar4\"></div>\n                <div class=\"bar5\"></div>\n                <div class=\"bar6\"></div>\n                <div class=\"bar7\"></div>\n                <div class=\"bar8\"></div>\n                <div class=\"bar9\"></div>\n            </div>\n<style>\n/* From Uiverse.io by Satwinder04 - Tags: loader */\n.loader {\n  position: relative;\n  width: 164px;\n  height: 100px;\n  margin: 50px auto;\n}\n\n.loader div {\n  position: absolute;\n  width: 10px;\n  height: 30px;\n  background-color: #ff6a00;\n  border-radius: 5px;\n  animation: loader_51899 1.5s ease-in-out infinite;\n}\n\n.loader .bar1 {\n  left: 0px;\n  animation-delay: 0s;\n}\n\n.loader .bar2 {\n  left: 20px;\n  animation-delay: 0.15s;\n}\n\n.loader .bar3 {\n  left: 40px;\n  animation-delay: 0.3s;\n}\n\n.loader .bar4 {\n  left: 60px;\n  animation-delay: 0.45s;\n}\n\n.loader .bar5 {\n  left: 80px;\n  animation-delay: 0.6s;\n}\n\n.loader .bar6 {\n  left: 100px;\n  animation-delay: 0.75s;\n}\n\n.loader .bar7 {\n  left: 120px;\n  animation-delay: 0.9s;\n}\n\n.loader .bar8 {\n  left: 140px;\n  animation-delay: 1.05s;\n}\n\n.loader .bar9 {\n  left: 160px;\n  animation-delay: 1.2s;\n}\n\n@keyframes loader_51899 {\n  0% {\n    height: 30px;\n    transform: translate(0, 0);\n  }\n\n  50% {\n    height: 70px;\n    transform: translate(0, 35px);\n  }\n\n  100% {\n    height: 30px;\n    transform: translate(0, 0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

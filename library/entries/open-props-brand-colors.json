@@ -1,0 +1,32 @@
+{
+  "id": "open-props-brand-colors",
+  "title": "Open Props: Brand Colors tokens",
+  "source": "Open Props",
+  "url": "https://open-props.style/#brand-colors",
+  "license": "MIT",
+  "type": "token",
+  "tags": [
+    "brand-colors",
+    "open-props",
+    "css-variables",
+    "tokens"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "26 CSS custom properties, e.g. --brand-facebook, --brand-youtube, --brand-twitter, --brand-whatsapp.\n\nUse: npm i open-props, then @import \"open-props/brand-colors\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.brand-colors.css",
+  "code": ":where(html) {\n  --brand-facebook: #0866FF;\n  --brand-youtube: #FF0000;\n  --brand-twitter: #469CF0;\n  --brand-whatsapp: #25D366;\n  --brand-instagram-yellow: #F8D648;\n  --brand-instagram-red: #E93365;\n  --brand-instagram-magenta: #D32DBF;\n  --brand-instagram-blue: #611EF5;\n  --brand-snapchat: #FFFC00;\n  --brand-google-blue: #4285F4;\n  --brand-google-red: #DB4437;\n  --brand-google-yellow: #F4B400;\n  --brand-google-green: #0F9D58;\n  --brand-tiktok-razzmatazz: #FE2C55;\n  --brand-tiktok-splash: #25F4EE;\n  --brand-microsoft-red: #F25022;\n  --brand-microsoft-green: #7FBA00;\n  --brand-microsoft-blue: #00A4EF;\n  --brand-microsoft-yellow: #FFB900;\n  --brand-pinterest: #E60023;\n  --brand-spotify: #1ED760;\n  --brand-discord: #5865F2;\n  --brand-telegram: #2AABEE;\n  --brand-reddit: #FF4500;\n  --brand-amazon: #232F3E;\n  --brand-twitch: #9146FF;\n}",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

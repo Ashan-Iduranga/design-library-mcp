@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-vishal2231179-breezy-insect-31-e98e39",
+  "title": "Button by vishal2231179 (breezy-insect-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vishal2231179/breezy-insect-31",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "black",
+    "game",
+    "click-animation",
+    "hover-button",
+    "#button",
+    "3d-button",
+    "button-hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vishal2231179 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vishal2231179_breezy-insect-31.html",
+  "code": "<button class=\"button\">Play it</button>\n\n<style>\n/* From Uiverse.io by vishal2231179  - Tags: black, button, game, click animation, hover button, #button, 3d button, button hover effect  */\n.button {\n  cursor: pointer;\n  padding: 15px 40px 15px 40px;\n  border-radius: 10px;\n  border-style: double;\n  font-weight: 600;\n  background-image: linear-gradient(\n    rgb(54, 53, 53),\n    rgb(0, 0, 0),\n    rgb(54, 54, 54)\n  );\n  color: rgb(164, 164, 162);\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n  border-color: rgb(0, 0, 0);\n  transition: 400ms;\n}\n\n.button:hover {\n  transition: 400ms;\n  border-style: double;\n  border-color: rgb(208, 207, 207);\n  color: rgb(219, 216, 216);\n  font-size: 16px;\n  text-shadow: 1px 10px 5px rgb(61, 61, 61);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

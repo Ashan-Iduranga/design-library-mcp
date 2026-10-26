@@ -1,0 +1,34 @@
+{
+  "id": "radix-colors-slate",
+  "title": "Radix Colors: Slate scale",
+  "source": "Radix Colors",
+  "url": "https://www.radix-ui.com/colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "slate",
+    "radix",
+    "color-scale",
+    "color",
+    "accessible",
+    "dark-mode"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "12-step slate scale with a matching dark-mode scale. Steps 1-2: app and subtle backgrounds. 3-5: component backgrounds (normal, hover, pressed). 6-8: borders and focus rings. 9-10: solid backgrounds (e.g. buttons). 11-12: low and high contrast text.\n\nAlso available: slateA (alpha) and P3 wide-gamut versions.\n\nUse: npm i @radix-ui/colors, then import \"@radix-ui/colors/slate.css\" and \"@radix-ui/colors/slate-dark.css\".\n\nOriginal file: https://github.com/radix-ui/colors/blob/main/src/light.ts",
+  "code": "<style>\n:root {\n  --slate-1: #fcfcfd;\n  --slate-2: #f9f9fb;\n  --slate-3: #f0f0f3;\n  --slate-4: #e8e8ec;\n  --slate-5: #e0e1e6;\n  --slate-6: #d9d9e0;\n  --slate-7: #cdced6;\n  --slate-8: #b9bbc6;\n  --slate-9: #8b8d98;\n  --slate-10: #80838d;\n  --slate-11: #60646c;\n  --slate-12: #1c2024;\n}\n.dark {\n  --slate-1: #111113;\n  --slate-2: #18191b;\n  --slate-3: #212225;\n  --slate-4: #272a2d;\n  --slate-5: #2e3135;\n  --slate-6: #363a3f;\n  --slate-7: #43484e;\n  --slate-8: #5a6169;\n  --slate-9: #696e77;\n  --slate-10: #777b84;\n  --slate-11: #b0b4ba;\n  --slate-12: #edeef0;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Radix slate</strong>\n<p>light</p><div class=\"row\"><div style=\"background:#fcfcfd\" title=\"--slate-1: #fcfcfd\"><span>1</span></div><div style=\"background:#f9f9fb\" title=\"--slate-2: #f9f9fb\"><span>2</span></div><div style=\"background:#f0f0f3\" title=\"--slate-3: #f0f0f3\"><span>3</span></div><div style=\"background:#e8e8ec\" title=\"--slate-4: #e8e8ec\"><span>4</span></div><div style=\"background:#e0e1e6\" title=\"--slate-5: #e0e1e6\"><span>5</span></div><div style=\"background:#d9d9e0\" title=\"--slate-6: #d9d9e0\"><span>6</span></div><div style=\"background:#cdced6\" title=\"--slate-7: #cdced6\"><span>7</span></div><div style=\"background:#b9bbc6\" title=\"--slate-8: #b9bbc6\"><span>8</span></div><div style=\"background:#8b8d98\" title=\"--slate-9: #8b8d98\"><span>9</span></div><div style=\"background:#80838d\" title=\"--slate-10: #80838d\"><span>10</span></div><div style=\"background:#60646c\" title=\"--slate-11: #60646c\"><span>11</span></div><div style=\"background:#1c2024\" title=\"--slate-12: #1c2024\"><span>12</span></div></div>\n<p>dark</p><div class=\"row\"><div style=\"background:#111113\" title=\"--slate-1: #111113\"><span>1</span></div><div style=\"background:#18191b\" title=\"--slate-2: #18191b\"><span>2</span></div><div style=\"background:#212225\" title=\"--slate-3: #212225\"><span>3</span></div><div style=\"background:#272a2d\" title=\"--slate-4: #272a2d\"><span>4</span></div><div style=\"background:#2e3135\" title=\"--slate-5: #2e3135\"><span>5</span></div><div style=\"background:#363a3f\" title=\"--slate-6: #363a3f\"><span>6</span></div><div style=\"background:#43484e\" title=\"--slate-7: #43484e\"><span>7</span></div><div style=\"background:#5a6169\" title=\"--slate-8: #5a6169\"><span>8</span></div><div style=\"background:#696e77\" title=\"--slate-9: #696e77\"><span>9</span></div><div style=\"background:#777b84\" title=\"--slate-10: #777b84\"><span>10</span></div><div style=\"background:#b0b4ba\" title=\"--slate-11: #b0b4ba\"><span>11</span></div><div style=\"background:#edeef0\" title=\"--slate-12: #edeef0\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "Building a UI color system with predictable steps for backgrounds, borders and text, including dark mode.",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

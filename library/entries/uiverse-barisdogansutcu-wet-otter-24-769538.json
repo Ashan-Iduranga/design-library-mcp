@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-barisdogansutcu-wet-otter-24-769538",
+  "title": "Button by barisdogansutcu (wet-otter-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/barisdogansutcu/wet-otter-24",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "shop"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By barisdogansutcu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/barisdogansutcu_wet-otter-24.html",
+  "code": "<button>\n  <div class=\"default-btn\">\n    <svg class=\"css-i6dzq1\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\" stroke-width=\"2\" stroke=\"#FFF\" height=\"20\" width=\"20\" viewBox=\"0 0 24 24\"><path d=\"M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z\"></path><circle r=\"3\" cy=\"12\" cx=\"12\"></circle></svg>\n    <span>Quick View</span>\n  </div>\n  <div class=\"hover-btn\">\n    <svg class=\"css-i6dzq1\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\" stroke-width=\"2\" stroke=\"#ffd300\" height=\"20\" width=\"20\" viewBox=\"0 0 24 24\"><circle r=\"1\" cy=\"21\" cx=\"9\"></circle><circle r=\"1\" cy=\"21\" cx=\"20\"></circle><path d=\"M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6\"></path></svg>\n    <span>Shop Now</span>\n  </div>\n</button>\n<style>\n/* From Uiverse.io by barisdogansutcu - Tags: button, hover, shop */\nbutton {\n position: relative;\n overflow: hidden;\n outline: none;\n cursor: pointer;\n border-radius: 50px;\n background-color: hsl(255deg 50% 40%);\n border: solid 4px hsl(50deg 100% 50%);\n font-family: inherit;\n}\n\n.default-btn,.hover-btn {\n background-color: hsl(255deg 50% 40%);\n display: -webkit-box;\n display: -moz-box;\n display: -ms-flexbox;\n display: -webkit-flex;\n display: flex;\n align-items: center;\n gap: 15px;\n padding: 15px 20px;\n border-radius: 50px;\n font-size: 17px;\n font-weight: 500;\n text-transform: uppercase;\n transition: all .3s ease;\n}\n\n.hover-btn {\n position: absolute;\n inset: 0;\n background-color: hsl(255deg 50% 49%);\n transform: translate(0%,100%);\n}\n\n.default-btn span {\n color: hsl(0, 0%, 100%);\n}\n\n.hover-btn span {\n color: hsl(50deg 100% 50%);\n}\n\nbutton:hover .default-btn {\n transform: translate(0%,-100%);\n}\n\nbutton:hover .hover-btn {\n transform: translate(0%,0%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-orange-bird-11-2e8539",
+  "title": "Pattern by csemszepp (orange-bird-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/orange-bird-11",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_orange-bird-11.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp  - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 50px; /* control the size */\n  --t: 6px; /* control the thickness */\n  --c1: #084c7f;\n  --c2: #fef5e9;\n\n  --_c: #0000 calc(98% - var(--t)), var(--c1) calc(100% - var(--t)) 98%, #0000;\n  --_s: calc(2 * var(--s)) calc(5 * var(--s) / 2);\n  --_r0: /var(--_s) radial-gradient(calc(var(--s) / 2) at 0 20%, var(--_c));\n  --_r1: /var(--_s) radial-gradient(calc(var(--s) / 2) at 100% 20%, var(--_c));\n  background: 0 0 var(--_r0),\n    calc(-1 * var(--s)) calc(5 * var(--s) / 4) var(--_r0), var(--s) 0 var(--_r1),\n    0 calc(5 * var(--s) / 4) var(--_r1),\n    conic-gradient(at var(--t) calc(20% + 2 * var(--t)), #0000 75%, var(--c1) 0)\n      calc(var(--t) / -2) calc(var(--s) - var(--t)) / var(--s)\n      calc(5 * var(--s) / 4),\n    repeating-conic-gradient(var(--c2) 0 25%, #0000 0 50%) var(--s)\n      calc(var(--s) / -8) / var(--_s),\n    conic-gradient(from 90deg at var(--t) var(--t), var(--c2) 25%, var(--c1) 0)\n      calc((var(--s) - var(--t)) / 2) calc((var(--s) - var(--t)) / 2) / var(--s)\n      calc(5 * var(--s) / 4);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-dellbee-foolish-panda-69-1fc240",
+  "title": "Input by DellBee (foolish-panda-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/DellBee/foolish-panda-69",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By DellBee on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/DellBee_foolish-panda-69.html",
+  "code": "<div class=\"input-container\">\n        <input required=\"\" id=\"input\" type=\"text\">\n        <label class=\"label\" for=\"input\">Enter Text</label>\n        <div class=\"underline\"></div>\n        <div class=\"sideline\"></div>\n        <div class=\"upperline\"></div>\n        <div class=\"line\"></div>\n    </div>\n<style>\n/* From Uiverse.io by DellBee - Tags: input */\n/* use it in dark theme */\n.input-container {\n  position: relative;\n  margin: 50px auto;\n  width: 190px;\n}\n\n.input-container input[type=\"text\"] {\n  font-size: 20px;\n  color: rgb(255, 255, 255);\n  border: none;\n  border-bottom: 2px solid #a5a2a2;\n  outline: none;\n  width: 100%;\n  background-color: transparent;\n}\n\n.label {\n  transition: all 0.3s ease;\n  color: #d3d2d2;\n  position: absolute;\n  top: 0;\n  left: 0;\n  pointer-events: none;\n}\n\n.input-container input[type=\"text\"]:focus~.label,\n        .input-container input[type=\"text\"]:valid~.label {\n  top: -20px;\n  transition: 0.3s;\n  color: rgb(172, 46, 172);\n}\n\n.input-container .underline {\n  position: absolute;\n  bottom: 4px;\n  left: -7px;\n  height: 2px;\n  width: 110%;\n  background-color: rgb(172, 46, 172);\n  transform: scaleX(0);\n}\n\n.input-container .sideline {\n  position: relative;\n  bottom: 15px;\n  right: 18px;\n  height: 2px;\n  width: 18%;\n  background-color: rgb(172, 46, 172);\n  transform: scaleX(0);\n  rotate: 90deg;\n}\n\n.input-container .upperline {\n  position: absolute;\n  bottom: 30px;\n  left: -8px;\n  height: 2px;\n  width: 110%;\n  background-color: rgb(172, 46, 172);\n  transform: scaleX(0);\n}\n\n.input-container .line {\n  position: relative;\n  bottom: 17px;\n  left: 178px;\n  height: 2px;\n  width: 18%;\n  background-color: rgb(172, 46, 172);\n  transform: scaleX(0);\n  rotate: 90deg;\n}\n\n.input-container input[type=\"text\"]:focus~.underline,\n        .input-container input[type=\"text\"]:valid~.underline {\n  transform: scaleX(1);\n  transition: 1s;\n}\n\n.input-container input[type=\"text\"]:focus~.sideline,\n        .input-container input[type=\"text\"]:valid~.sideline {\n  transform: scaleX(1);\n  transition: 1s;\n}\n\n.input-container input[type=\"text\"]:focus~.upperline,\n        .input-container input[type=\"text\"]:valid~.upperline {\n  transform: scaleX(1);\n  transition: 1s;\n}\n\n.input-container input[type=\"text\"]:focus~.line,\n        .input-container input[type=\"text\"]:valid~.line {\n  transform: scaleX(1);\n  transition: 1s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

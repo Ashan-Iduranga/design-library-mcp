@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-gharsh11032000-loud-puma-8-3a0565",
+  "title": "Button by gharsh11032000 (loud-puma-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/loud-puma-8",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "hover",
+    "menu",
+    "hover-effect",
+    "css-effect",
+    "hover-button",
+    "button-hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/gharsh11032000_loud-puma-8.html",
+  "code": "<div class=\"menu\">\n  <div class=\"item\">\n    <a href=\"#\" class=\"link\">\n      <span> Our Services </span>\n      <svg viewBox=\"0 0 360 360\" xml:space=\"preserve\">\n        <g id=\"SVGRepo_iconCarrier\">\n          <path\n            id=\"XMLID_225_\"\n            d=\"M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z\"\n          ></path>\n        </g>\n      </svg>\n    </a>\n    <div class=\"submenu\">\n      <div class=\"submenu-item\">\n        <a href=\"#\" class=\"submenu-link\"> Development </a>\n      </div>\n      <div class=\"submenu-item\">\n        <a href=\"#\" class=\"submenu-link\"> Design </a>\n      </div>\n      <div class=\"submenu-item\">\n        <a href=\"#\" class=\"submenu-link\"> Marketing </a>\n      </div>\n      <div class=\"submenu-item\">\n        <a href=\"#\" class=\"submenu-link\"> SEO </a>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by gharsh11032000  - Tags: animation, button, hover, menu, hover effect, css effect, hover button, button hover effect  */\n.menu {\n  font-size: 16px;\n  line-height: 1.6;\n  color: #000000;\n  width: fit-content;\n  display: flex;\n  list-style: none;\n}\n\n.menu a {\n  text-decoration: none;\n  color: inherit;\n  font-family: inherit;\n  font-size: inherit;\n  line-height: inherit;\n}\n\n.menu .link {\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 12px;\n  padding: 12px 36px;\n  border-radius: 16px;\n  overflow: hidden;\n  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);\n}\n\n.menu .link::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: #0a3cff;\n  z-index: -1;\n  transform: scaleX(0);\n  transform-origin: left;\n  transition: transform 0.48s cubic-bezier(0.23, 1, 0.32, 1);\n}\n\n.menu .link svg {\n  width: 14px;\n  height: 14px;\n  fill: #000000;\n  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);\n}\n\n.menu .item {\n  position: relative;\n}\n\n.menu .item .submenu {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  position: absolute;\n  top: 100%;\n  border-radius: 0 0 16px 16px;\n  left: 0;\n  width: 100%;\n  overflow: hidden;\n  border: 1px solid #cccccc;\n  opacity: 0;\n  visibility: hidden;\n  transform: translateY(-12px);\n  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);\n  z-index: 1;\n  pointer-events: none;\n  list-style: none;\n}\n\n.menu .item:hover .submenu {\n  opacity: 1;\n  visibility: visible;\n  transform: translateY(0);\n  pointer-events: auto;\n  border-top: transparent;\n  border-color: #0a3cff;\n}\n\n.menu .item:hover .link {\n  color: #ffffff;\n  border-radius: 16px 16px 0 0;\n}\n\n.menu .item:hover .link::after {\n  transform: scaleX(1);\n  transform-origin: right;\n}\n\n.menu .item:hover .link svg {\n  fill: #ffffff;\n  transform: rotate(-180deg);\n}\n\n.submenu .submenu-item {\n  width: 100%;\n  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);\n}\n\n.submenu .submenu-link {\n  display: block;\n  padding: 12px 24px;\n  width: 100%;\n  position: relative;\n  text-align: center;\n  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);\n}\n\n.submenu .submenu-item:last-child .submenu-link {\n  border-bottom: none;\n}\n\n.submenu .submenu-link::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  transform: scaleX(0);\n  width: 100%;\n  height: 100%;\n  background-color: #0a3cff;\n  z-index: -1;\n  transform-origin: left;\n  transition: transform 0.48s cubic-bezier(0.23, 1, 0.32, 1);\n}\n\n.submenu .submenu-link:hover:before {\n  transform: scaleX(1);\n  transform-origin: right;\n}\n\n.submenu .submenu-link:hover {\n  color: #ffffff;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

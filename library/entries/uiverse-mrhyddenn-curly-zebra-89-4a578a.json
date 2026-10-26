@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-curly-zebra-89-4a578a",
+  "title": "Loader by mrhyddenn (curly-zebra-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/curly-zebra-89",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_curly-zebra-89.html",
+  "code": "<div class=\"loader loader_bubble\"></div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  position: relative;\n  display: block;\n  width: 44px;\n  height: 44px;\n  font-size: 15px;\n  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;\n}\n\n.loader::before,\n.loader::after {\n  content: '';\n  position: absolute;\n  display: block;\n}\n\n.loader_bubble::before {\n  top: 10px;\n  left: 10px;\n  width: 10px;\n  height: 10px;\n  background: #fff;\n  border-radius: 50%;\n}\n\n.loader_bubble {\n  background: linear-gradient(180deg, rgb(0, 91, 228) 10%, rgb(75, 127, 240) 100%);\n  border-radius: 50%;\n  transform-origin: 50% 50%;\n  animation: bubble7234 1200ms cubic-bezier(0.645, 0.045, 0.355, 1) infinite;\n}\n\n@keyframes bubble7234 {\n  0% {\n    transform: translate3d(0,0,0) rotate(0);\n  }\n\n  100% {\n    transform: translate3d(0,0,0) rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

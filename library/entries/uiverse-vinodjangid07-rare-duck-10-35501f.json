@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-vinodjangid07-rare-duck-10-35501f",
+  "title": "Toggle by vinodjangid07 (rare-duck-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/rare-duck-10",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "animation",
+    "active",
+    "switch",
+    "lock",
+    "toggle-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/vinodjangid07_rare-duck-10.html",
+  "code": "<input type=\"checkbox\" id=\"lock\" />\n<label for=\"lock\" class=\"lock-label\">\n  <span class=\"lock-wrapper\">\n    <span class=\"shackle\"></span>\n    <svg\n      class=\"lock-body\"\n      width=\"\"\n      height=\"\"\n      viewBox=\"0 0 28 28\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        fill-rule=\"evenodd\"\n        clip-rule=\"evenodd\"\n        d=\"M0 5C0 2.23858 2.23858 0 5 0H23C25.7614 0 28 2.23858 28 5V23C28 25.7614 25.7614 28 23 28H5C2.23858 28 0 25.7614 0 23V5ZM16 13.2361C16.6137 12.6868 17 11.8885 17 11C17 9.34315 15.6569 8 14 8C12.3431 8 11 9.34315 11 11C11 11.8885 11.3863 12.6868 12 13.2361V18C12 19.1046 12.8954 20 14 20C15.1046 20 16 19.1046 16 18V13.2361Z\"\n        fill=\"white\"\n      ></path>\n    </svg>\n  </span>\n</label>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: animation, active, switch, lock, toggle, toggle switch */\n#lock {\n  display: none;\n}\n.lock-label {\n  width: 45px;\n  height: 45px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgb(80, 80, 80);\n  border-radius: 15px;\n  cursor: pointer;\n  transition: all 0.3s;\n}\n.lock-wrapper {\n  width: fit-content;\n  height: fit-content;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  transform: rotate(-10deg);\n}\n.shackle {\n  background-color: transparent;\n  height: 9px;\n  width: 14px;\n  border-top-right-radius: 10px;\n  border-top-left-radius: 10px;\n  border-top: 3px solid white;\n  border-left: 3px solid white;\n  border-right: 3px solid white;\n  transition: all 0.3s;\n}\n.lock-body {\n  width: 15px;\n}\n#lock:checked + .lock-label .lock-wrapper .shackle {\n  transform: rotateY(150deg) translateX(3px);\n  transform-origin: right;\n}\n#lock:checked + .lock-label {\n  background-color: rgb(167, 71, 245);\n}\n.lock-label:active {\n  transform: scale(0.9);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

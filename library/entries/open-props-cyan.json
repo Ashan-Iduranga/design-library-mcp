@@ -1,0 +1,33 @@
+{
+  "id": "open-props-cyan",
+  "title": "Open Props: Cyan color scale",
+  "source": "Open Props",
+  "url": "https://open-props.style/#colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "cyan",
+    "open-props",
+    "css-variables",
+    "tokens",
+    "color"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "13 CSS custom properties, e.g. --cyan-0, --cyan-1, --cyan-2, --cyan-3.\n\nUse: npm i open-props, then @import \"open-props/cyan\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.cyan.css",
+  "code": "<style>\n:where(html) {\n  --cyan-0: #e3fafc;\n  --cyan-1: #c5f6fa;\n  --cyan-2: #99e9f2;\n  --cyan-3: #66d9e8;\n  --cyan-4: #3bc9db;\n  --cyan-5: #22b8cf;\n  --cyan-6: #15aabf;\n  --cyan-7: #1098ad;\n  --cyan-8: #0c8599;\n  --cyan-9: #0b7285;\n  --cyan-10: #095c6b;\n  --cyan-11: #074652;\n  --cyan-12: #053038;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Open Props cyan</strong>\n<p>cyan</p><div class=\"row\"><div style=\"background:#e3fafc\" title=\"--cyan-0: #e3fafc\"><span>0</span></div><div style=\"background:#c5f6fa\" title=\"--cyan-1: #c5f6fa\"><span>1</span></div><div style=\"background:#99e9f2\" title=\"--cyan-2: #99e9f2\"><span>2</span></div><div style=\"background:#66d9e8\" title=\"--cyan-3: #66d9e8\"><span>3</span></div><div style=\"background:#3bc9db\" title=\"--cyan-4: #3bc9db\"><span>4</span></div><div style=\"background:#22b8cf\" title=\"--cyan-5: #22b8cf\"><span>5</span></div><div style=\"background:#15aabf\" title=\"--cyan-6: #15aabf\"><span>6</span></div><div style=\"background:#1098ad\" title=\"--cyan-7: #1098ad\"><span>7</span></div><div style=\"background:#0c8599\" title=\"--cyan-8: #0c8599\"><span>8</span></div><div style=\"background:#0b7285\" title=\"--cyan-9: #0b7285\"><span>9</span></div><div style=\"background:#095c6b\" title=\"--cyan-10: #095c6b\"><span>10</span></div><div style=\"background:#074652\" title=\"--cyan-11: #074652\"><span>11</span></div><div style=\"background:#053038\" title=\"--cyan-12: #053038\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

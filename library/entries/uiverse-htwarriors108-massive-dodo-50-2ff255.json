@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-htwarriors108-massive-dodo-50-2ff255",
+  "title": "Loader by htwarriors108 (massive-dodo-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/htwarriors108/massive-dodo-50",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "3d",
+    "cube",
+    "rotate",
+    "animated",
+    "color",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By htwarriors108 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/htwarriors108_massive-dodo-50.html",
+  "code": "<div class=\"cube\">\n                <div class=\"cube__face\" id=\"cube__face--front\">\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                </div>\n\n                <div class=\"cube__face\" id=\"cube__face--back\">\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                </div>\n\n                <div class=\"cube__face\" id=\"cube__face--right\">\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                </div>\n\n                <div class=\"cube__face\" id=\"cube__face--left\">\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                </div>\n\n                <div class=\"cube__face\" id=\"cube__face--top\">\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                </div>\n\n                <div class=\"cube__face\" id=\"cube__face--bottom\">\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                    <span class=\"faceBox\"></span>\n                </div>\n            </div>\n<style>\n/* From Uiverse.io by htwarriors108 - Tags: animation, 3d, loader, cube, rotate, animated, color, hover effect, css effect, rubik's cube */\n.cube {\n  width: 100px;\n  height: 100px;\n  transform-style: preserve-3d;\n  animation: animate 4s linear infinite;\n  cursor: pointer;\n  transition: 0.5s;\n}\n\n.cube:hover {\n  scale: 1.2;\n  animation: animate 3s linear infinite;\n}\n\n.cube__face {\n  position: absolute;\n  width: 100px;\n  height: 100px;\n  display: flex;\n  align-items: center;\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.faceBox {\n  border: calc(100px / 1000) solid rgba(0, 0, 0, 0.8);\n  width: calc(100px / 3);\n  height: calc(100px / 3);\n  opacity: 1;\n}\n\n#cube__face--front span {\n  background-color: #FF4949;\n}\n\n#cube__face--right span {\n  background-color: #13CE66;\n}\n\n#cube__face--left span {\n  background-color: #2D8EFF;\n}\n\n#cube__face--top span {\n  background-color: #FFCC3D;\n}\n\n#cube__face--bottom span {\n  background-color: #fefefe;\n}\n\n#cube__face--back span {\n  background-color: #f1f03e;\n}\n\n#cube__face--front {\n  transform: rotateY(0deg) translateZ(calc(100px / 2));\n}\n\n#cube__face--right {\n  transform: rotateY(90deg) translateZ(calc(100px / 2));\n}\n\n#cube__face--back {\n  transform: rotateY(180deg) translateZ(calc(100px / 2));\n}\n\n#cube__face--left {\n  transform: rotateY(-90deg) translateZ(calc(100px / 2));\n}\n\n#cube__face--top {\n  transform: rotateX(90deg) translateZ(calc(100px / 2));\n}\n\n#cube__face--bottom {\n  transform: rotateX(-90deg) translateZ(calc(100px / 2));\n}\n\n@keyframes animate {\n  0% {\n    transform: rotateX(-30deg) rotateY(0deg) rotateZ(0deg);\n  }\n\n  100% {\n    transform: rotateX(-30deg) rotateY(360deg) rotateZ(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

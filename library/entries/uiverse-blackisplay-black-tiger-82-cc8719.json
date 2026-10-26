@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-blackisplay-black-tiger-82-cc8719",
+  "title": "Input by BlackisPlay (black-tiger-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/BlackisPlay/black-tiger-82",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple",
+    "animation",
+    "3d",
+    "minimalist",
+    "white",
+    "active",
+    "shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By BlackisPlay on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/BlackisPlay_black-tiger-82.html",
+  "code": "<div id=\"dateDiv\">\n  <input\n    type=\"text\"\n    id=\"dateInput\"\n    class=\"dateInput\"\n    placeholder=\"Date:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY\"\n  />\n</div>\n\n<style>\n/* From Uiverse.io by BlackisPlay  - Tags: simple, animation, 3d, minimalist, white, active, input, shadow */\n.dateInput {\n  margin-left: auto;\n  margin-right: auto;\n  height: 2.5em;\n  width: 12.5em;\n  border-radius: 2.5em;\n  border: none;\n  background-color: rgb(255, 255, 255);\n  -webkit-filter: drop-shadow(1px 1px 10px #000);\n  filter: drop-shadow(7px 7px 10px #00000059);\n  font-family: Arial, Helvetica, sans-serif;\n  color: rgb(77, 77, 77);\n  text-align: center;\n  font-size: 14px;\n  outline: 2px solid rgba(0, 0, 0, 0);\n  transition: outline-offset 0.5s ease, outline-color 0.5s ease,\n    height 0.5s ease, width 0.5s ease, filter 0.5s ease;\n}\n\n.dateInput:focus {\n  outline-offset: 0.5em;\n  outline-color: rgba(0, 0, 0, 0.228);\n  transition: 0.2s;\n  height: 3em;\n  width: 13em;\n  -webkit-filter: drop-shadow(1px 1px 10px #000);\n  filter: drop-shadow(-7px 7px 10px #00000059);\n}\n\n.dateInput::placeholder {\n  padding-left: 0.8em;\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: 500;\n  letter-spacing: 1px;\n  transform: translateX(-6px);\n  transition: transform 0.5s ease;\n}\n\n.dateInput:focus::placeholder {\n  transform: translateX(-85px);\n  transition: 0.5s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-praashoo7-gentle-grasshopper-65-7f70ca",
+  "title": "Loader by Praashoo7 (gentle-grasshopper-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/gentle-grasshopper-65",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "smooth"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Praashoo7_gentle-grasshopper-65.html",
+  "code": "<div class=\"loader\">\n  <p class=\"heading\">Loading</p>\n  <div class=\"loading\">\n    <div class=\"load\"></div>\n    <div class=\"load\"></div>\n    <div class=\"load\"></div>\n    <div class=\"load\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: loader, smooth */\n.loader {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n\n.heading {\n  color: black;\n  letter-spacing: 0.2em;\n  margin-bottom: 1em;\n}\n\n.loading {\n  display: flex;\n  width: 5em;\n  align-items: center;\n  justify-content: center;\n}\n\n.load {\n  width: 23px;\n  height: 3px;\n  background-color: limegreen;\n  animation: 1s move_5011 infinite;\n  border-radius: 5px;\n  margin: 0.1em;\n}\n\n.load:nth-child(1) {\n  animation-delay: 0.2s;\n}\n\n.load:nth-child(2) {\n  animation-delay: 0.4s;\n}\n\n.load:nth-child(3) {\n  animation-delay: 0.6s;\n}\n\n@keyframes move_5011 {\n  0% {\n    width: 0.2em;\n  }\n\n  25% {\n    width: 0.7em;\n  }\n\n  50% {\n    width: 1.5em;\n  }\n\n  100% {\n    width: 0.2em;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-nawsome-sour-fly-72-40ee9b",
+  "title": "Loader by Nawsome (sour-fly-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/sour-fly-72",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "3d",
+    "cube"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Nawsome_sour-fly-72.html",
+  "code": "<div class=\"cube\">\n  <div class=\"topD\"></div>\n  <div>\n    <span style=\"--i:0\"></span>\n    <span style=\"--i:1\"></span>\n    <span style=\"--i:2\"></span>\n    <span style=\"--i:3\"></span>\n  </div>\n\n  <div class=\"cube2\">\n    <div>\n      <span style=\"--i:0\"></span>\n      <span style=\"--i:1\"></span>\n      <span style=\"--i:2\"></span>\n      <span style=\"--i:3\"></span>\n    </div>\n\n    <div class=\"cube3\">\n      <div class=\"top3\"></div>\n      <div>\n        <span style=\"--i:0\"></span>\n        <span style=\"--i:1\"></span>\n        <span style=\"--i:2\"></span>\n        <span style=\"--i:3\"></span>\n      </div>\n\n    </div>\n\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Nawsome - Tags: 3d, loader, cube */\n.cube {\n  position: relative;\n  width: 300px;\n  height: 300px;\n  transform-style: preserve-3d;\n  transform: rotateX(-30deg);\n  animation: animateD 8s linear infinite;\n}\n\n@keyframes animateD {\n  0% {\n    transform: rotateX(-15deg) rotateY(0deg);\n  }\n\n  100% {\n    transform: rotateX(-15deg) rotateY(-360deg);\n  }\n}\n\n.cube div {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n}\n\n.cube2 {\n  position: relative;\n  width: 150px;\n  height: 150px;\n  transform-style: preserve-3d;\n  animation: animateD2 5s ease-out infinite alternate;\n}\n\n@keyframes animateD2 {\n  0% {\n    transform: rotateX(0deg) rotateY(0deg);\n  }\n\n  100% {\n    transform: rotateX(180deg) rotateY(-360deg);\n  }\n}\n\n.cube2 div {\n  position: absolute;\n  top: 35px;\n  left: 0;\n  width: 65%;\n  height: 65%;\n  transform-style: preserve-3d;\n}\n\n.cube2 div span {\n  position: absolute;\n  top: 20%;\n  left: 20%;\n  width: 65%;\n  height: 65%;\n  background: transparent;\n  border: 2px solid #7dff99;\n  transform: rotateY(calc(90deg * var(--i))) translateZ(62px);\n}\n\n.cube3 {\n  position: absolute;\n  width: 300px;\n  height: 300px;\n  transform-style: preserve-3d;\n  transform: rotateX(-30deg);\n  animation: animateD3 1s ease-in-out infinite alternate;\n}\n\n@keyframes animateD3 {\n  0% {\n    transform: rotateX(-90deg) rotateY(0deg);\n  }\n\n  100% {\n    transform: rotateX(90deg) rotateY(45deg);\n  }\n}\n\n.cube3 div {\n  position: absolute;\n  top: 70px;\n  left: 70px;\n  width: 15%;\n  height: 15%;\n  transform-style: preserve-3d;\n}\n\n.cube3 div span {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: #7dff99;\n  transform: rotateY(calc(90deg * var(--i))) translateZ(14px);\n  box-shadow: 0px 0px 7px #7dff99;\n}\n\n.top3 {\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: #7dff99;\n  transform: rotateX(90deg) translateZ(14px);\n  box-shadow: 0px 0px 10px #7dff99;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

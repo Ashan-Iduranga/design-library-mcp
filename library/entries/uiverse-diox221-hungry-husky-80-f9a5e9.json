@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-diox221-hungry-husky-80-f9a5e9",
+  "title": "Button by Diox221 (hungry-husky-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Diox221/hungry-husky-80",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Diox221 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Diox221_hungry-husky-80.html",
+  "code": "<button class=\"btn spacex-btn\">\n  <span>Launch Rocket</span>\n  <div class=\"btn-bg\"></div>\n</button>\n\n<style>\n/* From Uiverse.io by Diox221 - Tags: button, animated */\n.btn {\n  position: relative;\n  display: inline-block;\n  padding: 0.75rem 1.5rem;\n  border: none;\n  border-radius: 5rem;\n  font-size: 1rem;\n  font-weight: 600;\n  color: #fff;\n  background-color: #333;\n  cursor: pointer;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.spacex-btn {\n  background-color: #005288;\n}\n\n.btn-bg {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%) scale(0);\n  width: 100%;\n  height: 100%;\n  background-color: #ffffff;\n  opacity: 0.3;\n  z-index: -1;\n  transition: transform 0.3s ease-in-out;\n}\n\n.spacex-btn:hover .btn-bg {\n  transform: translate(-50%, -50%) scale(2);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

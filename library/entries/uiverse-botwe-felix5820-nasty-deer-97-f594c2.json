@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-botwe-felix5820-nasty-deer-97-f594c2",
+  "title": "Button by Botwe-Felix5820 (nasty-deer-97)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Botwe-Felix5820/nasty-deer-97",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "shake"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Botwe-Felix5820 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Botwe-Felix5820_nasty-deer-97.html",
+  "code": "<button> Shake\n</button>\n<style>\n/* From Uiverse.io by Botwe-Felix5820 - Tags: button, shake */\nbutton {\n height: 3em;\n width: 8em;\n border: none;\n border-radius: 10em;\n background: #016DD9;\n font-size: 17px;\n color: #ffffff;\n font-family: inherit;\n font-weight: 500;\n}\n\nbutton:hover {\n animation: shake3856 0.3s linear infinite both;\n}\n\n@keyframes shake3856 {\n 0% {\n  -webkit-transform: translate(0);\n  transform: translate(0);\n }\n\n 20% {\n  -webkit-transform: translate(-2px, 2px);\n  transform: translate(-2px, 2px);\n }\n\n 40% {\n  -webkit-transform: translate(-2px, -2px);\n  transform: translate(-2px, -2px);\n }\n\n 60% {\n  -webkit-transform: translate(2px, 2px);\n  transform: translate(2px, 2px);\n }\n\n 80% {\n  -webkit-transform: translate(2px, -2px);\n  transform: translate(2px, -2px);\n }\n\n 100% {\n  -webkit-transform: translate(0);\n  transform: translate(0);\n }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

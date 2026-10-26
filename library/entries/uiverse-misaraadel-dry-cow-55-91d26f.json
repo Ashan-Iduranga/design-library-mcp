@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-misaraadel-dry-cow-55-91d26f",
+  "title": "Button by misaraadel (dry-cow-55)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/misaraadel/dry-cow-55",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "creative",
+    "3d-button",
+    "css-animation",
+    "hover-idea"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By misaraadel on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/misaraadel_dry-cow-55.html",
+  "code": "<button class=\"btn-shape\">\n    <span class=\"title\">\n      hover me\n    </span>\n</button>\n<style>\n/* From Uiverse.io by misaraadel - Tags: button, creative, 3d button, css animation, hover idea */\n.btn-shape {\n  transition: all .3s linear;\n  width: 168px;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  align-content: center;\n  justify-content: center;\n  outline: none;\n  background-color: #020202;\n  border-radius: 50px;\n  border: 0px;\n  position: relative;\n  z-index: 99;\n  cursor: pointer;\n}\n\n.btn-shape::after,\n.btn-shape::before {\n  content: '';\n  position: absolute;\n  background-color: #020202;\n  width: 100%;\n  opacity: 0;\n  height: 100%;\n  left: 0;\n  border-radius: 100px;\n  bottom: 0;\n  z-index: -2;\n  transition: all .3s linear;\n}\n\n.btn-shape span {\n  font-size: 16px;\n  font-weight: 700;\n  transition: all .3s linear;\n  color: #fff;\n  text-transform: capitalize;\n}\n\n.btn-shape:hover {\n  transform: translate(-12px, -12px);\n}\n\n.btn-shape:hover:after {\n  transform: translate(6px, 6px);\n  opacity: .5;\n}\n\n.btn-shape:hover::before {\n  transform: translate(12px, 12px);\n  opacity: .3;\n}\n\n.btn-shape:hover span {\n  animation: storm .4s linear both;\n}\n\n@keyframes storm {\n  0% {\n    transform: translate3d(0, 0, 0) translateZ(0);\n  }\n\n  25% {\n    transform: translate3d(4px, 0, 0) translateZ(0);\n  }\n\n  50% {\n    transform: translate3d(-3px, 0, 0) translateZ(0);\n  }\n\n  75% {\n    transform: translate3d(2px, 0, 0) translateZ(0);\n  }\n\n  100% {\n    transform: translate3d(0, 0, 0) translateZ(0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

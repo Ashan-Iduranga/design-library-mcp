@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-elijahgummer-purple-sloth-17-f9f4bb",
+  "title": "Button by elijahgummer (purple-sloth-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/purple-sloth-17",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "yellow",
+    "gradient",
+    "glow",
+    "modern",
+    "upload",
+    "hover-effect",
+    "upload-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/elijahgummer_purple-sloth-17.html",
+  "code": "<button class=\"button\">\n  <svg\n    id=\"UploadToCloud\"\n    viewBox=\"0 0 24 24\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    height=\"16px\"\n    width=\"16px\"\n    class=\"icon\"\n  >\n    <path d=\"M0 0h24v24H0V0z\" fill=\"none\"></path>\n    <path\n      class=\"color000000 svgShape\"\n      fill=\"#000000\"\n      d=\"M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l4.65-4.65c.2-.2.51-.2.71 0L17 13h-3z\"\n    ></path>\n  </svg>\n  Upload CV\n</button>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: yellow, gradient, button, glow, modern, upload, hover effect, upload button */\n.button {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  background: linear-gradient(45deg, #ffc75d, #ffc708);\n  box-shadow: 0 0 24px #ffb20861;\n  border: 2px solid #ffe825;\n  border-radius: 100px;\n  transition: background-color 0.3s ease, box-shadow 0.3s ease,\n    text-shadow 0.3s ease;\n  padding: 10px 20px;\n  color: #09090b;\n  font-weight: bold;\n  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */\n}\n\n.button:hover {\n  background-color: #ffc75d !important;\n  box-shadow: 0 0 34px #ffb20861 !important;\n  text-shadow: 0 0 4px #ffe825; /* Hover text shadow */\n  border-color: #ffe825 !important;\n}\n\n.icon {\n  margin-right: 5px;\n  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.3)); /* Icon drop shadow */\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

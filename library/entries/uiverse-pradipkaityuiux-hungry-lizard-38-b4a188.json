@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-pradipkaityuiux-hungry-lizard-38-b4a188",
+  "title": "Button by pradipkaityuiux (hungry-lizard-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/pradipkaityuiux/hungry-lizard-38",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "oval-button",
+    "desined-button",
+    "bootsrap-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By pradipkaityuiux on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/pradipkaityuiux_hungry-lizard-38.html",
+  "code": "<button class=\"button\">\n  <span>Subscribe</span>\n</button>\n<style>\n/* From Uiverse.io by pradipkaityuiux - Tags: button, Oval button, desined Button, bootsrap button */\n.button {\n  background-color: #000fdb;\n  border: none;\n  padding: 20px 48px;\n  color: #fff;\n  cursor: pointer;\n  border-radius: 40px;\n  position: relative;\n  z-index: 10;\n  overflow: hidden;\n}\n\n.button span {\n  font-size: 24px;\n  font-weight: bold;\n}\n\n.button::before,\n.button::after {\n  content: \"\";\n  position: absolute;\n  width: 100px;\n  height: 100px;\n  border-radius: 50px;\n  z-index: -1;\n  background-color: #535fff;\n  transition: all 0.3s 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);\n}\n\n.button::after {\n  right: -30px;\n  transform: translateX(30px) translateY(-110px) rotate(30deg);\n}\n\n.button::before {\n  left: -20px;\n  transform: translateX(-10px) translateY(50px) rotate(30deg);\n}\n\n.button:hover::before {\n  transform: rotate(30deg) translateY(10px) translateX(-15px);\n}\n\n.button:hover::after {\n  transform: rotate(30deg) translateY(-70px) translateX(-30px);\n}\n\n.button:hover {\n  animation: wobel 0.3s ease-in-out;\n}\n\n@keyframes wobel {\n  0% {\n    transform: scale(1);\n  }\n\n  20% {\n    transform: scale(1.1);\n  }\n\n  60% {\n    transform: scale(1.05);\n  }\n\n  80% {\n    transform: scale(0.85);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-saiyed-tanvir-proud-donkey-5-ac394e",
+  "title": "Button by Saiyed-Tanvir (proud-donkey-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Saiyed-Tanvir/proud-donkey-5",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "box"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Saiyed-Tanvir on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Saiyed-Tanvir_proud-donkey-5.html",
+  "code": "<div class=\"container\">\n  <div class=\"btn\">\n    <div class=\"sides top\">\n      BUTTON\n    </div>\n    <div class=\"sides front\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Saiyed-Tanvir - Tags: button, box */\n.btn {\n  transform-style: preserve-3d;\n  perspective: 1000px;\n}\n\n.sides {\n  transition: all 0.07s;\n  cursor: pointer;\n}\n\n.top {\n  background: linear-gradient(259.35deg, #FF6B00 0%, #BD00FF 100%);\n  height: 2cm;\n  width: 4cm;\n  transform: rotateX(60deg);\n  font-weight: bolder;\n  padding: 0.5cm 1cm;\n  color: white;\n}\n\n.front {\n  background: linear-gradient(280.65deg, #BD5000 0%, #8C00BD 100%);\n  height: 2cm;\n  width: 4cm;\n  transform: translateY(-38px) rotateX(-60deg);\n}\n\n.btn:active .top {\n  transform: rotateX(60deg) translateZ(0px);\n}\n\n.btn:active .front {\n  height: 0.1cm;\n  transform: rotateX(-60deg) translateZ(-26px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

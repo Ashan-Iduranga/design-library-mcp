@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cornerstone-04-chatty-eel-89-258ecf",
+  "title": "Button by Cornerstone-04 (chatty-eel-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cornerstone-04/chatty-eel-89",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cornerstone-04 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Cornerstone-04_chatty-eel-89.html",
+  "code": "<button>\n    Button\n</button>\n<style>\n/* From Uiverse.io by Cornerstone-04 - Tags: button */\nbutton {\n  position: relative;\n  background: none;\n  border: solid 1px #121212;\n  transition: linear 250ms;\n  width: 100px;\n  height: 40px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 1rem;\n}\n\nbutton:is(:hover,:focus) {\n  color: #fff;\n}\n\nbutton::after {\n  position: absolute;\n  content: '';\n  inset: 0;\n  z-index: -1;\n  background-color: #121212;\n  transform-origin: left;\n  transform: scaleX(0);\n  transition: linear 250ms;\n}\n\nbutton:is(:hover, :focus)::after {\n  transform: scale(1);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

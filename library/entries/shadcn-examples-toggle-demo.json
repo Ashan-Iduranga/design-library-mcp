@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-toggle-demo",
+  "title": "Toggle Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/toggle-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "toggle",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A two-state button that can be either on or off.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/toggle-demo.tsx",
+  "code": "import { BookmarkIcon } from \"lucide-react\"\n\nimport { Toggle } from \"@/registry/new-york-v4/ui/toggle\"\n\nexport default function ToggleDemo() {\n  return (\n    <Toggle\n      aria-label=\"Toggle bookmark\"\n      size=\"sm\"\n      variant=\"outline\"\n      className=\"data-[state=on]:bg-transparent data-[state=on]:*:[svg]:fill-blue-500 data-[state=on]:*:[svg]:stroke-blue-500\"\n    >\n      <BookmarkIcon />\n      Bookmark\n    </Toggle>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

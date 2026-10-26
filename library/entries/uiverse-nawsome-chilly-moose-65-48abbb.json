@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nawsome-chilly-moose-65-48abbb",
+  "title": "Button by Nawsome (chilly-moose-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/chilly-moose-65",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Nawsome_chilly-moose-65.html",
+  "code": "<div class=\"arrow\">\n  <div class=\"arrow-top\"></div>\n  <div class=\"arrow-bottom\"></div>\n</div>\n<style>\n/* From Uiverse.io by Nawsome - Tags: button */\n.arrow {\n  cursor: pointer;\n  height: 60px;\n  left: 50%;\n  position: absolute;\n  top: 50%;\n  transform: translateX(-50%) translateY(-50%);\n  transition: transform 0.1s;\n  width: 50px;\n}\n\n.arrow-top, .arrow-bottom {\n  background-color: #666;\n  height: 4px;\n  left: -5px;\n  position: absolute;\n  top: 50%;\n  width: 100%;\n}\n\n.arrow-top:after, .arrow-bottom:after {\n  background-color: #fff;\n  content: \"\";\n  height: 100%;\n  position: absolute;\n  top: 0;\n  transition: all 0.15s;\n}\n\n.arrow-top {\n  transform: rotate(45deg);\n  transform-origin: bottom right;\n}\n\n.arrow-top:after {\n  left: 100%;\n  right: 0;\n  transition-delay: 0s;\n}\n\n.arrow-bottom {\n  transform: rotate(-45deg);\n  transform-origin: top right;\n}\n\n.arrow-bottom:after {\n  left: 0;\n  right: 100%;\n  transition-delay: 0.15s;\n}\n\n.arrow:hover .arrow-top:after {\n  left: 0;\n  transition-delay: 0.15s;\n}\n\n.arrow:hover .arrow-bottom:after {\n  right: 0;\n  transition-delay: 0s;\n}\n\n.arrow:active {\n  transform: translateX(-50%) translateY(-50%) scale(0.9);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

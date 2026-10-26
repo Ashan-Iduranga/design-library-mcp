@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-ayman-ashine-rare-otter-33-2a0ded",
+  "title": "Loader by ayman-ashine (rare-otter-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ayman-ashine/rare-otter-33",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animated",
+    "multicolor"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ayman-ashine on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/ayman-ashine_rare-otter-33.html",
+  "code": "<div class=\"loader\">\n  <div class=\"layer\">loading</div>\n  <div class=\"layer\">loading</div>\n</div>\n\n<style>\n/* From Uiverse.io by ayman-ashine  - Tags: loader, animated, multicolor */\n.loader {\n  --c-1: #a2ff37;\n  --c-2: #5bb2ff;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.layer {\n  font-size: 25px;\n  font-family: \"Segoe UI\", Tahoma;\n  font-weight: 800;\n  text-transform: uppercase;\n  position: absolute;\n}\n\n.layer:nth-child(1) {\n  color: var(--c-1);\n  animation: kfs-3412 0.5s infinite;\n}\n\n.layer:nth-child(2) {\n  color: var(--c-2);\n  animation: kfs-3412 0.5s 0.25s infinite;\n}\n\n@keyframes kfs-3412 {\n  0% {\n    text-shadow: 0 0 30px var(--c-1);\n    transform: scaleY(0);\n    z-index: 2;\n  }\n  50% {\n    transform: scaleY(1.5);\n    z-index: 2;\n  }\n  100% {\n    transform: scaleY(1.5);\n    z-index: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

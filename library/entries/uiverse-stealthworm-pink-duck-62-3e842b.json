@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-stealthworm-pink-duck-62-3e842b",
+  "title": "Loader by StealthWorm (pink-duck-62)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/StealthWorm/pink-duck-62",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "interstellar",
+    "black-hole"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By StealthWorm on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/StealthWorm_pink-duck-62.html",
+  "code": "<div class=\"loader\">\n  <div class=\"blackhole\">\n    <div class=\"blackhole-circle\"></div>\n    <div class=\"blackhole-disc\"></div>\n  </div>\n\n  <div class=\"curve\">\n    <svg viewBox=\"0 0 500 500\">\n      <path id=\"loading\" d=\"M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97\"></path>\n      <text width=\"500\">\n        <textPath xlink:href=\"#loading\">\n          loading...\n        </textPath>\n      </text>\n    </svg>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by StealthWorm - Tags: loading, interstellar, black hole */\n.loader {\n  display: flex;\n  width: 8rem;\n  height: 8rem;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  flex-direction: column;\n}\n\n.curve {\n  width: 180%;\n  height: 180%;\n  position: absolute;\n  animation: rotate 8s linear infinite;\n  fill: transparent;\n}\n\n.curve text {\n  letter-spacing: 20px;\n  text-transform: uppercase;\n  font: 1.5em \"Fira Sans\", sans-serif;\n  fill: white;\n  filter: drop-shadow(0 2px 8px black);\n}\n\n.blackhole {\n  z-index: -1;\n  display: flex;\n  position: absolute;\n  width: 8rem;\n  height: 8rem;\n  align-items: center;\n  justify-content: center;\n}\n\n.blackhole-circle {\n  z-index: 0;\n  display: flex;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background: radial-gradient(circle at center, black 25%, white 35%, white 100%);\n  box-shadow: 0px 0px 2rem #c2babb;\n  align-items: center;\n  justify-content: center;\n}\n\n.blackhole-circle::after {\n  z-index: 0;\n  position: absolute;\n  content: \"\";\n  display: flex;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  border: 4px solid white;\n  background: radial-gradient(circle at center, black 35%, white 60%, white 100%);\n  box-shadow: 0px 0px 5rem #c2babb;\n  align-items: center;\n  justify-content: center;\n  filter: blur(4px);\n  animation: pulseAnimation linear infinite 2s alternate-reverse;\n}\n\n.blackhole-circle::before {\n  z-index: 1;\n  content: \"\";\n  display: flex;\n  width: 4rem;\n  height: 4rem;\n  border: 2px solid #ffffff;\n  box-shadow: 3px 3px 10px #c2babb, inset 0 0 1rem #ffffff;\n  border-radius: 50%;\n  top: 5rem;\n  filter: blur(0.5px);\n  animation: rotate linear infinite 3s;\n}\n\n.blackhole-disc {\n  position: absolute;\n  z-index: 0;\n  display: flex;\n  width: 5rem;\n  height: 10rem;\n  border-radius: 50%;\n  background: radial-gradient(circle at center, #ffffff 80%, #353535 90%, white 100%);\n  filter: blur(1rem) brightness(130%);\n  border: 1rem solid white;\n  box-shadow: 0px 0px 3rem #d7c4be;\n  transform: rotate3d(1, 1, 1, 220deg);\n  animation: pulseAnimation2 linear infinite 2s alternate-reverse;\n  justify-content: center;\n  align-items: center;\n}\n\n.blackhole-disc::before {\n  content: \"\";\n  position: absolute;\n  z-index: 0;\n  display: flex;\n  width: 5rem;\n  height: 10rem;\n  border-radius: 50%;\n  background: radial-gradient(circle at center, #ffffff 80%, #353535 90%, white 100%);\n  filter: blur(3rem);\n  border: 1rem solid white;\n  box-shadow: 0px 0px 6rem #d7c4be;\n  animation: pulseAnimation linear infinite 2s alternate-reverse;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes pulseAnimation {\n  0% {\n    box-shadow: 0px 0px 3rem #c2babb;\n    transform: scale(1);\n  }\n\n  100% {\n    box-shadow: 0px 0px 5rem #c2babb;\n    transform: scale(1.09);\n  }\n}\n\n@keyframes pulseAnimation2 {\n  0% {\n    box-shadow: 0px 0px 3rem #c2babb;\n    transform: rotate3d(1, 1, 1, 220deg) scale(1);\n  }\n\n  100% {\n    box-shadow: 0px 0px 5rem #c2babb;\n    transform: rotate3d(1, 1, 1, 220deg)  scale(.95);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-nawsome-short-dolphin-98-da6143",
+  "title": "Toggle by Nawsome (short-dolphin-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/short-dolphin-98",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "skeuomorphism",
+    "checkbox",
+    "squishy",
+    "bubble"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Nawsome_short-dolphin-98.html",
+  "code": "<label><input value=\"on\" name=\"dummy\" type=\"checkbox\" class=\"bubble\"></label>\n<style>\n/* From Uiverse.io by Nawsome - Tags: skeuomorphism, checkbox, squishy, bubble */\nlabel, .bubble {\n  display: block;\n  -webkit-tap-highlight-color: transparent;\n}\n\nlabel {\n  animation: float74 4s ease-in-out infinite;\n}\n\n.bubble, .bubble:before, .bubble:after {\n  transition-duration: 0.2s;\n}\n\n.bubble, .bubble:after {\n  border-radius: 50%;\n}\n\n.bubble {\n  background-image: radial-gradient(8% 8% at 22% 28%,hsl(0,0%,100%) 45%,hsla(0,0%,100%,0) 50%),\n\t\tradial-gradient(8% 8% at 23% 27%,hsl(0,0%,100%) 45%,hsla(0,0%,100%,0) 50%),\n\t\tradial-gradient(8% 8% at 24% 26%,hsl(0,0%,100%) 45%,hsla(0,0%,100%,0) 50%),\n\t\tradial-gradient(8% 8% at 25% 25%,hsl(0,0%,100%) 45%,hsla(0,0%,100%,0) 50%),\n\t\tradial-gradient(8% 8% at 26% 24%,hsl(0,0%,100%) 45%,hsla(0,0%,100%,0) 50%),\n\t\tradial-gradient(8% 8% at 27% 23%,hsl(0,0%,100%) 45%,hsla(0,0%,100%,0) 50%),\n\t\tradial-gradient(8% 8% at 28% 22%,hsl(0,0%,100%) 45%,hsla(0,0%,100%,0) 50%);\n  box-shadow: 0 -0.06em 0.1em hsl(0,90%,100%) inset,\n\t\t0 -0.15em 0.4em hsl(0,90%,45%) inset,\n\t\t0 0.05em 0.05em hsl(0,90%,45%) inset,\n\t\t0.05em 0 0.1em hsl(0,90%,100%) inset,\n\t\t-0.05em 0 0.1em hsl(0,90%,100%) inset,\n\t\t0 0.1em 0.4em hsl(0,90%,60%) inset;\n  cursor: pointer;\n  position: relative;\n  width: 3em;\n  height: 3em;\n  transform-style: preserve-3d;\n  transition-property: box-shadow, transform, width, height;\n  transition-timing-function: ease-in-out, ease-in-out, var(--bubbleTiming), var(--bubbleTiming);\n  will-change: transform;\n  -webkit-appearance: none;\n  appearance: none;\n  z-index: 0;\n}\n\n.bubble:before, .bubble:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  transition-timing-function: var(--bubbleTiming);\n}\n\n.bubble:before {\n  border-radius: 0.75em;\n  box-shadow: 0 0 0 0.5em hsl(0,0%,100%) inset;\n  filter: drop-shadow(0.6em 0.6em 4px hsla(0,0%,0%,0.2));\n  top: 50%;\n  left: 50%;\n  width: 1.5em;\n  height: 1.5em;\n  transform: translate3d(-50%,-50%,-1px);\n  z-index: -1;\n}\n\n.bubble:after {\n  background: radial-gradient(100% 100% at center,hsla(0,0%,0%,0) 35%,hsla(0,0%,0%,0.2) 48%,hsla(0,0%,0%,0) 50%);\n  filter: blur(4px);\n  top: 0.6em;\n  left: 0.6em;\n  width: 100%;\n  height: 100%;\n  transform: translate3d(0,0,-1px);\n  z-index: -2;\n}\n\n.bubble:focus, .bubble:hover {\n  transform: scale(1.1);\n  outline: none;\n}\n\n.bubble:focus:active, .bubble:hover:active {\n  width: 3.6em;\n  height: 2.4em;\n}\n\n.bubble:focus:before, .bubble:hover:before {\n  filter: drop-shadow(0.75em 0.75em 4px hsla(0,0%,0%,0.2));\n}\n\n.bubble:focus:after, .bubble:hover:after {\n  transform: translate3d(0.15em,0.15em,-1px);\n}\n\n.bubble:checked {\n  box-shadow: 0 -0.06em 0.1em hsl(120,90%,100%) inset,\n\t\t0 -0.15em 0.4em hsl(120,90%,45%) inset,\n\t\t0 0.05em 0.05em hsl(120,90%,45%) inset,\n\t\t0.05em 0 0.1em hsl(120,90%,100%) inset,\n\t\t-0.05em 0 0.1em hsl(120,90%,100%) inset,\n\t\t0 0.1em 0.4em hsl(120,90%,60%) inset;\n}\n\n.bubble:checked:before {\n  border-radius: 0.25em;\n  width: 0.5em;\n}\n/* Reduced motion */\n@media (prefers-reduced-motion: reduce) {\n  label {\n    animation: none;\n  }\n\n  .bubble, .bubble:before, .bubble:after {\n    transition-duration: 0s;\n  }\n\n  .bubble:focus, .bubble:hover {\n    transform: scale(1);\n  }\n\n  .bubble:focus:active, .bubble:hover:active {\n    width: 3em;\n    height: 3em;\n  }\n\n  .bubble:focus:before, .bubble:hover:before {\n    filter: drop-shadow(0.6em 0.6em 4px hsla(0,0%,0%,0.2));\n  }\n\n  .bubble:focus:after, .bubble:hover:after {\n    transform: translate3d(0,0,-1px);\n  }\n}\n/* Animations */\n@keyframes float74 {\n  from, to {\n    transform: translate(0,3%);\n  }\n\n  25% {\n    transform: translate(-3%,0);\n  }\n\n  50% {\n    transform: translate(0,-3%);\n  }\n\n  75% {\n    transform: translate(3%,0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

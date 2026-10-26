@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-empty-states-2",
+  "title": "Empty States: Import or create",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/empty-states",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "empty-states",
+    "hyperui",
+    "placeholder",
+    "cta"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/empty-states/2.html",
+  "code": "<div class=\"flex min-h-screen items-center justify-center p-6\">\n<div class=\"max-w-md text-center\">\n<svg aria-hidden=\"true\" class=\"mx-auto size-20 text-gray-400\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n<h2 class=\"mt-6 text-2xl font-bold text-gray-900\">No data to display</h2>\n<p class=\"mt-4 text-pretty text-gray-700\">\n        Get started by creating your first item. It only takes a few seconds.\n      </p>\n<div class=\"mt-6 space-y-3\">\n<button class=\"block w-full rounded-lg bg-indigo-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-indigo-700\">\n          Import Data\n        </button>\n<button class=\"block w-full rounded-lg border border-gray-300 px-6 py-3 text-sm font-medium text-gray-900 transition-colors hover:bg-gray-50\">\n          Create New\n        </button>\n</div>\n<p class=\"mt-6 text-sm text-gray-700\">Supported formats: CSV, JSON</p>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

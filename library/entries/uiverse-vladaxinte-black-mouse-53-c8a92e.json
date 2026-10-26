@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-vladaxinte-black-mouse-53-c8a92e",
+  "title": "Card by vladaxinte (black-mouse-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vladaxinte/black-mouse-53",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "twitter",
+    "gradient",
+    "social-media",
+    "logo",
+    "bird",
+    "css-art"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vladaxinte on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/vladaxinte_black-mouse-53.html",
+  "code": "<div class=\"container\">\n  <div class=\"twitter\">\n    <div class=\"wing-bottom\"></div>\n    <div class=\"wing-top\"></div>\n    <div class=\"wing-middle\"></div>\n    <div class=\"beak beak-bottom\"></div>\n    <div class=\"beak beak-top\"></div>\n    <div class=\"torso\"></div>\n    <div class=\"tummy\"></div>\n    <div class=\"tail\"></div>\n    <div class=\"head\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by vladaxinte  - Tags: twitter, gradient, social media, logo, bird, css art */\n.container {\n  width: 300px;\n  height: 340px;\n}\n\n.twitter {\n  transform: translate(-15%, 20%);\n}\n\n.wing-bottom {\n  background: radial-gradient(circle at -100% 90%, transparent 75%, #fff 10%);\n  width: 120px;\n  height: 120px;\n  position: absolute;\n  border-radius: 100%;\n  left: 92px;\n  top: 94px;\n  transform: rotate(86deg);\n  z-index: 90;\n}\n\n.wing-top {\n  background: radial-gradient(circle at -100% 90%, transparent 70%, #fff 10%);\n  width: 125px;\n  height: 160px;\n  position: absolute;\n  z-index: 20;\n  border-radius: 100%;\n  left: 88px;\n  top: 8px;\n  transform: rotate(132deg);\n}\n\n.wing-middle {\n  background: radial-gradient(circle at 50% -80%, transparent 80%, #fff 10%);\n  width: 130px;\n  height: 130px;\n  position: absolute;\n  z-index: 20;\n  border-radius: 100%;\n  left: 73px;\n  top: 44px;\n  transform: rotate(7deg);\n}\n\n.beak {\n  background: radial-gradient(circle at 10% -30%, transparent 76%, #fff 30%);\n  width: 112px;\n  height: 112px;\n  position: absolute;\n  z-index: 20;\n  border-radius: 100%;\n}\n\n.beak-bottom {\n  left: 240px;\n  top: -36px;\n  width: 112px;\n  height: 140px;\n  transform: rotate(20deg);\n}\n\n.beak-top {\n  left: 225px;\n  top: -33px;\n  transform: rotate(15deg);\n}\n\n.tummy {\n  background: radial-gradient(circle at 0% -38%, transparent 80%, #fff 30%);\n  width: 320px;\n  height: 320px;\n  position: absolute;\n  z-index: 20;\n  border-radius: 100%;\n  left: -3px;\n  top: -55px;\n  z-index: -1;\n}\n\n.torso {\n  width: 200px;\n  height: 200px;\n  border-radius: 100%;\n  position: absolute;\n  left: 117px;\n  top: 8px;\n  transform: rotate(10deg);\n  background: radial-gradient(circle at 0% -40%, transparent 60%, #fff 30%);\n}\n\n.tail {\n  width: 228px;\n  height: 150px;\n  border-radius: 100%;\n  position: absolute;\n  left: 28px;\n  top: 116px;\n  background: radial-gradient(circle at 10% -42%, transparent 66%, #fff 30%);\n  transform: rotate(5deg);\n}\n\n.head {\n  background: #fff;\n  width: 116px;\n  height: 116px;\n  border-radius: 100%;\n  position: absolute;\n  left: 200px;\n  top: 34px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

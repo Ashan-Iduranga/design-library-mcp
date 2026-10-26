@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bernethe-fat-impala-67-eccd8e",
+  "title": "Loader by bernethe (fat-impala-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/bernethe/fat-impala-67",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By bernethe on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/bernethe_fat-impala-67.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by bernethe - Tags: loader */\n.loader {\n  clear: both;\n  width: 2rem;\n  height: 2rem;\n  margin: 1rem auto;\n  border: 0.0625rem #000 solid;\n  border-radius: 0.25rem;\n  position: relative;\n  background: linear-gradient(45deg, transparent 49%, #000 50%, #000 50%, transparent 51%, transparent),\n\t\t\t\tlinear-gradient(-45deg, transparent 49%, #000 50%, #000 50%, transparent 51%, transparent);\n  background-size: 1rem 1rem;\n  background-position: 0% 0%;\n  -webkit-animation: spTexture 1s infinite linear;\n  animation: spTexture 1s infinite linear;\n}\n\n@keyframes spTexture {\n  from {\n    background-position: 0 0;\n  }\n\n  to {\n    background-position: -1rem 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

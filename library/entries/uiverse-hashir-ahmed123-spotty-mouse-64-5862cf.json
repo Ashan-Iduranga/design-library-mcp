@@ -1,0 +1,38 @@
+{
+  "id": "uiverse-hashir-ahmed123-spotty-mouse-64-5862cf",
+  "title": "Loader by Hashir-Ahmed123 (spotty-mouse-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Hashir-Ahmed123/spotty-mouse-64",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "red",
+    "green",
+    "blue",
+    "purple",
+    "pink",
+    "gradient",
+    "smooth"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Hashir-Ahmed123 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Hashir-Ahmed123_spotty-mouse-64.html",
+  "code": "<div class=\"lava-lamp\">\n  <div class=\"bubble\"></div>\n  <div class=\"bubble1\"></div>\n  <div class=\"bubble2\"></div>\n  <div class=\"bubble3\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by Hashir-Ahmed123  - Tags: animation, red, green, blue, purple, pink, gradient, smooth */\n@keyframes drop {\n  0% {\n    transform: translateY(0px);\n  }\n  50% {\n    transform: translateY(80px);\n  }\n  100% {\n    transform: translateY(0px);\n  }\n}\n\n.lava-lamp {\n  position: relative;\n  width: 50px;\n  height: 100px;\n  background: #000;\n  border-radius: 25px;\n  overflow: hidden;\n}\n\n.bubble {\n  position: absolute;\n  top: 0;\n  width: 20px;\n  height: 20px;\n  background: linear-gradient(to bottom, #e64980, #ff8787);\n  border-radius: 50%;\n  left: 15px;\n  animation: drop 5s ease-in-out infinite;\n}\n.bubble1 {\n  position: absolute;\n  top: 0;\n  width: 20px;\n  height: 20px;\n  background: linear-gradient(to bottom, #82c91e, #3bc9db);\n  border-radius: 50%;\n  left: 1px;\n  animation: drop 3s ease-in-out infinite;\n}\n.bubble2 {\n  position: absolute;\n  top: 0;\n  width: 20px;\n  height: 20px;\n  background: linear-gradient(to bottom, #7950f2, #f783ac);\n  border-radius: 50%;\n  left: 30px;\n  animation: drop 4s ease-in-out infinite;\n}\n.bubble3 {\n  position: absolute;\n  top: 0;\n  width: 20px;\n  height: 20px;\n  background: linear-gradient(to bottom, #4481eb, #04befe);\n  border-radius: 50%;\n  left: 20px;\n  animation: drop 6s ease-in-out infinite;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

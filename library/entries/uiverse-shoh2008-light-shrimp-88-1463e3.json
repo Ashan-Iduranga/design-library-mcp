@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shoh2008-light-shrimp-88-1463e3",
+  "title": "Toggle by Shoh2008 (light-shrimp-88)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/light-shrimp-88",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Shoh2008_light-shrimp-88.html",
+  "code": "<div class=\"checkbox-wrapper-9\">\n  <input type=\"checkbox\" id=\"cb4-9\" class=\"tgl tgl-flat\">\n  <label for=\"cb4-9\" class=\"tgl-btn\"></label>\n</div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: switch */\n.checkbox-wrapper-9 .tgl {\n  display: none;\n}\n\n.checkbox-wrapper-9 .tgl,\n  .checkbox-wrapper-9 .tgl:after,\n  .checkbox-wrapper-9 .tgl:before,\n  .checkbox-wrapper-9 .tgl *,\n  .checkbox-wrapper-9 .tgl *:after,\n  .checkbox-wrapper-9 .tgl *:before,\n  .checkbox-wrapper-9 .tgl + .tgl-btn {\n  box-sizing: border-box;\n}\n\n.checkbox-wrapper-9 .tgl::-moz-selection,\n  .checkbox-wrapper-9 .tgl:after::-moz-selection,\n  .checkbox-wrapper-9 .tgl:before::-moz-selection,\n  .checkbox-wrapper-9 .tgl *::-moz-selection,\n  .checkbox-wrapper-9 .tgl *:after::-moz-selection,\n  .checkbox-wrapper-9 .tgl *:before::-moz-selection,\n  .checkbox-wrapper-9 .tgl + .tgl-btn::-moz-selection,\n  .checkbox-wrapper-9 .tgl::selection,\n  .checkbox-wrapper-9 .tgl:after::selection,\n  .checkbox-wrapper-9 .tgl:before::selection,\n  .checkbox-wrapper-9 .tgl *::selection,\n  .checkbox-wrapper-9 .tgl *:after::selection,\n  .checkbox-wrapper-9 .tgl *:before::selection,\n  .checkbox-wrapper-9 .tgl + .tgl-btn::selection {\n  background: none;\n}\n\n.checkbox-wrapper-9 .tgl + .tgl-btn {\n  outline: 0;\n  display: block;\n  width: 4em;\n  height: 2em;\n  position: relative;\n  cursor: pointer;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n.checkbox-wrapper-9 .tgl + .tgl-btn:after,\n  .checkbox-wrapper-9 .tgl + .tgl-btn:before {\n  position: relative;\n  display: block;\n  content: \"\";\n  width: 50%;\n  height: 100%;\n}\n\n.checkbox-wrapper-9 .tgl + .tgl-btn:after {\n  left: 0;\n}\n\n.checkbox-wrapper-9 .tgl + .tgl-btn:before {\n  display: none;\n}\n\n.checkbox-wrapper-9 .tgl:checked + .tgl-btn:after {\n  left: 50%;\n}\n\n.checkbox-wrapper-9 .tgl-flat + .tgl-btn {\n  padding: 2px;\n  transition: all 0.2s ease;\n  background: #fff;\n  border: 4px solid #f2f2f2;\n  border-radius: 2em;\n}\n\n.checkbox-wrapper-9 .tgl-flat + .tgl-btn:after {\n  transition: all 0.2s ease;\n  background: #f2f2f2;\n  content: \"\";\n  border-radius: 1em;\n}\n\n.checkbox-wrapper-9 .tgl-flat:checked + .tgl-btn {\n  border: 4px solid #7FC6A6;\n}\n\n.checkbox-wrapper-9 .tgl-flat:checked + .tgl-btn:after {\n  left: 50%;\n  background: #7FC6A6;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

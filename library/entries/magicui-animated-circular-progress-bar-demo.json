@@ -1,0 +1,38 @@
+{
+  "id": "magicui-animated-circular-progress-bar-demo",
+  "title": "Animated Circular Progress Bar Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/animated-circular-progress-bar",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "animated",
+    "circular",
+    "progress",
+    "bar",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing an animated circular progress gauge.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/animated-circular-progress-bar-demo.tsx",
+  "code": "\"use client\"\n\nimport { useEffect, useState } from \"react\"\n\nimport { AnimatedCircularProgressBar } from \"@/registry/magicui/animated-circular-progress-bar\"\n\nexport default function AnimatedCircularProgressBarDemo() {\n  const [value, setValue] = useState(0)\n\n  useEffect(() => {\n    const handleIncrement = (prev: number) => {\n      if (prev === 100) {\n        return 0\n      }\n      return prev + 10\n    }\n    setValue(handleIncrement)\n    const interval = setInterval(() => setValue(handleIncrement), 2000)\n    return () => clearInterval(interval)\n  }, [])\n\n  return (\n    <AnimatedCircularProgressBar\n      value={value}\n      gaugePrimaryColor=\"rgb(79 70 229)\"\n      gaugeSecondaryColor=\"rgba(0, 0, 0, 0.1)\"\n    />\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

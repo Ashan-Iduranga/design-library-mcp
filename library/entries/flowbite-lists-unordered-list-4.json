@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-lists-unordered-list-4",
+  "title": "Lists: Unordered list 4 (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/typography/lists/#unordered-list",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "list",
+    "lists",
+    "typography",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to create a default unordered list of items using the `list-disc` class.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/typography/lists.md",
+  "code": "<h2 class=\"mb-3 text-lg font-medium text-heading\">Password requirements:</h2>\n<ul class=\"max-w-md space-y-2 text-body list-none list-inside\">\n    <li>\n        At least 10 characters (and up to 100 characters)\n    </li>\n    <li>\n        At least one lowercase character\n    </li>\n    <li>\n        Inclusion of at least one special character, e.g., ! @ # ?\n    </li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

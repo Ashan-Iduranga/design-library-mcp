@@ -1,0 +1,36 @@
+{
+  "id": "magicui-light-rays-demo",
+  "title": "Light Rays Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/light-rays",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "light",
+    "rays",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Demo of the light-rays component showcasing animated light rays\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/light-rays-demo.tsx",
+  "code": "import { LightRays } from \"@/registry/magicui/light-rays\"\n\nexport default function Component() {\n  return (\n    <div className=\"relative h-[500px] w-full overflow-hidden rounded-lg border\">\n      <div className=\"relative z-10 flex h-full flex-col items-center justify-center gap-4 px-6 text-center\">\n        <span className=\"text-xs font-semibold tracking-[0.35em] text-slate-800/60 uppercase dark:text-slate-200/60\">\n          Ambient glow\n        </span>\n        <h1 className=\"text-foreground text-4xl font-bold md:text-5xl\">\n          Light Rays\n        </h1>\n        <p className=\"max-w-md text-sm text-slate-800/80 md:text-base dark:text-slate-200/80\">\n          Drop this component into any container and it will fill the space with\n          softly animated light rays shining from above.\n        </p>\n      </div>\n      <LightRays />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

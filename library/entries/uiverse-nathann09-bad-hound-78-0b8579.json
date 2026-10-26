@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nathann09-bad-hound-78-0b8579",
+  "title": "Form by nathann09 (bad-hound-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/nathann09/bad-hound-78",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By nathann09 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/nathann09_bad-hound-78.html",
+  "code": "<form class=\"form\">\n       <p class=\"form-title\">Sign in to your account</p>\n        <div class=\"input-container\">\n          <input type=\"email\" placeholder=\"Enter email\">\n          <span>\n          </span>\n      </div>\n      <div class=\"input-container\">\n          <input type=\"password\" placeholder=\"Enter password\">\n        </div>\n         <button type=\"submit\" class=\"submit\">\n        Sign in\n      </button>\n\n      <p class=\"signup-link\">\n        No account?\n        <a href=\"\">Sign up</a>\n      </p>\n   </form>\n\n<style>\n/* From Uiverse.io by nathann09 - Tags:  */\n.form {\n  background-color: #fff;\n  display: block;\n  padding: 1rem;\n  max-width: 350px;\n  border-radius: 0.5rem;\n  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);\n}\n\n.form-title {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n  font-weight: 600;\n  text-align: center;\n  color: #000;\n}\n\n.input-container {\n  position: relative;\n}\n\n.input-container input, .form button {\n  outline: none;\n  border: 1px solid #e5e7eb;\n  margin: 8px 0;\n}\n\n.input-container input {\n  background-color: #fff;\n  padding: 1rem;\n  padding-right: 3rem;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  width: 300px;\n  border-radius: 0.5rem;\n  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n}\n\n.submit {\n  display: block;\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n  padding-left: 1.25rem;\n  padding-right: 1.25rem;\n  background-color: #4F46E5;\n  color: #ffffff;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  font-weight: 500;\n  width: 100%;\n  border-radius: 0.5rem;\n  text-transform: uppercase;\n}\n\n.signup-link {\n  color: #6B7280;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  text-align: center;\n}\n\n.signup-link a {\n  text-decoration: underline;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-selfmadesystem-green-bobcat-29-4a9e7b",
+  "title": "Checkbox by SelfMadeSystem (green-bobcat-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/green-bobcat-29",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/SelfMadeSystem_green-bobcat-29.html",
+  "code": "<label class=\"container\">\n  <input type=\"checkbox\">\n  <svg viewBox=\"0 0 64 64\" height=\"2em\" width=\"2em\">\n    <path d=\"M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16\" pathLength=\"575.0541381835938\" class=\"path\"></path>\n  </svg>\n</label>\n<style>\n/* From Uiverse.io by SelfMadeSystem - Tags: checkbox */\n.container {\n  cursor: pointer;\n}\n\n.container input {\n  display: none;\n}\n\n.container svg {\n  overflow: visible;\n}\n\n.path {\n  fill: none;\n  stroke: white;\n  stroke-width: 6;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  transition: stroke-dasharray 0.5s ease, stroke-dashoffset 0.5s ease;\n  stroke-dasharray: 241 9999999;\n  stroke-dashoffset: 0;\n}\n\n.container input:checked ~ svg .path {\n  stroke-dasharray: 70.5096664428711 9999999;\n  stroke-dashoffset: -262.2723388671875;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

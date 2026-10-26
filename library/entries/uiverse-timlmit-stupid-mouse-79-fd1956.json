@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-timlmit-stupid-mouse-79-fd1956",
+  "title": "Loader by timlmit (stupid-mouse-79)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/timlmit/stupid-mouse-79",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By timlmit on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/timlmit_stupid-mouse-79.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by timlmit - Tags: loader */\n.loader {\n  display: block;\n  position: relative;\n  height: 32px;\n  width: 200px;\n  background: #fff;\n  border: 2px solid #fff;\n  color: rgb(223, 60, 60);\n  overflow: hidden;\n}\n\n.loader::before {\n  content: '';\n  background: rgb(223, 60, 60);\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 0;\n  height: 100%;\n  animation: loading_302 10s linear infinite;\n}\n\n.loader:after {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  font-size: 18px;\n  line-height: 32px;\n  color: rgb(0,255,255);\n  mix-blend-mode: difference;\n  animation: percentage_302 10s linear infinite;\n}\n\n@keyframes loading_302 {\n  0% {\n    width: 0\n  }\n\n  100% {\n    width: 100%\n  }\n}\n\n@keyframes percentage_302 {\n  0% {\n    content: \"0%\"\n  }\n\n  5% {\n    content: \"5%\"\n  }\n\n  10% {\n    content: \"10%\"\n  }\n\n  20% {\n    content: \"20%\"\n  }\n\n  30% {\n    content: \"30%\"\n  }\n\n  40% {\n    content: \"40%\"\n  }\n\n  50% {\n    content: \"50%\"\n  }\n\n  60% {\n    content: \"60%\"\n  }\n\n  70% {\n    content: \"70%\"\n  }\n\n  80% {\n    content: \"80%\"\n  }\n\n  90% {\n    content: \"90%\"\n  }\n\n  95% {\n    content: \"95%\"\n  }\n\n  96% {\n    content: \"96%\"\n  }\n\n  97% {\n    content: \"97%\"\n  }\n\n  98% {\n    content: \"98%\"\n  }\n\n  99% {\n    content: \"99%\"\n  }\n\n  100% {\n    content: \"100%\"\n  }\n}\n  \n  \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

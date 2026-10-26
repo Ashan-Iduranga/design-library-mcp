@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vinodjangid07-quick-moth-22-f6e94c",
+  "title": "Toggle by vinodjangid07 (quick-moth-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/quick-moth-22",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "neon",
+    "power-on"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/vinodjangid07_quick-moth-22.html",
+  "code": "<input id=\"checkbox\" type=\"checkbox\" />\n<label class=\"switch\" for=\"checkbox\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" class=\"slider\">\n    <path\n      d=\"M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V256c0 17.7 14.3 32 32 32s32-14.3 32-32V32zM143.5 120.6c13.6-11.3 15.4-31.5 4.1-45.1s-31.5-15.4-45.1-4.1C49.7 115.4 16 181.8 16 256c0 132.5 107.5 240 240 240s240-107.5 240-240c0-74.2-33.8-140.6-86.6-184.6c-13.6-11.3-33.8-9.4-45.1 4.1s-9.4 33.8 4.1 45.1c38.9 32.3 63.5 81 63.5 135.4c0 97.2-78.8 176-176 176s-176-78.8-176-176c0-54.4 24.7-103.1 63.5-135.4z\"\n    ></path>\n  </svg>\n</label>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: switch, neon, toggle, power on */\n#checkbox {\n  display: none;\n}\n\n.switch {\n  position: relative;\n  width: 70px;\n  height: 70px;\n  background-color: rgb(99, 99, 99);\n  border-radius: 50%;\n  z-index: 1;\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 2px solid rgb(126, 126, 126);\n  box-shadow: 0px 0px 3px rgb(2, 2, 2) inset;\n}\n.switch svg {\n  width: 1.2em;\n}\n.switch svg path {\n  fill: rgb(48, 48, 48);\n}\n#checkbox:checked + .switch {\n  box-shadow: 0px 0px 1px rgb(151, 243, 255) inset,\n    0px 0px 2px rgb(151, 243, 255) inset, 0px 0px 10px rgb(151, 243, 255) inset,\n    0px 0px 40px rgb(151, 243, 255), 0px 0px 100px rgb(151, 243, 255),\n    0px 0px 5px rgb(151, 243, 255);\n  border: 2px solid rgb(255, 255, 255);\n  background-color: rgb(146, 180, 184);\n}\n#checkbox:checked + .switch svg {\n  filter: drop-shadow(0px 0px 5px rgb(151, 243, 255));\n}\n#checkbox:checked + .switch svg path {\n  fill: rgb(255, 255, 255);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

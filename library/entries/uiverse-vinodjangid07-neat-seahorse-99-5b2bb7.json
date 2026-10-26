@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vinodjangid07-neat-seahorse-99-5b2bb7",
+  "title": "Button by vinodjangid07 (neat-seahorse-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/neat-seahorse-99",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "submit",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_neat-seahorse-99.html",
+  "code": "<button class=\"submitBtn\">\n  Submit\n  <svg fill=\"white\" viewBox=\"0 0 448 512\" height=\"1em\" class=\"arrow\"><path d=\"M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z\"></path></svg>\n</button>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: gradient, button, submit, hover effect */\n.submitBtn {\n  width: 120px;\n  height: 40px;\n  border-radius: 30px;\n  border: none;\n  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  font-weight: 600;\n  cursor: pointer;\n  color: white;\n  background: linear-gradient(to left,rgb(230, 35, 0),rgb(255, 174, 0));\n  letter-spacing: 0.7px;\n}\n\n.submitBtn:hover .arrow {\n  animation: slide-in-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;\n}\n\n@keyframes slide-in-left {\n  0% {\n    transform: translateX(-10px);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateX(0px);\n    opacity: 1;\n  }\n}\n\n.submitBtn:active {\n  transform: scale(0.97);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

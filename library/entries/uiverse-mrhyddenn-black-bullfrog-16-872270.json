@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-black-bullfrog-16-872270",
+  "title": "Loader by mrhyddenn (black-bullfrog-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/black-bullfrog-16",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_black-bullfrog-16.html",
+  "code": "<div class=\"spinner center\">\n    <div class=\"spinner-blade\"></div>\n    <div class=\"spinner-blade\"></div>\n    <div class=\"spinner-blade\"></div>\n    <div class=\"spinner-blade\"></div>\n    <div class=\"spinner-blade\"></div>\n    <div class=\"spinner-blade\"></div>\n    <div class=\"spinner-blade\"></div>\n    <div class=\"spinner-blade\"></div>\n    <div class=\"spinner-blade\"></div>\n    <div class=\"spinner-blade\"></div>\n    <div class=\"spinner-blade\"></div>\n    <div class=\"spinner-blade\"></div>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.spinner {\n  font-size: 28px;\n  position: relative;\n  display: inline-block;\n  width: 1em;\n  height: 1em;\n}\n\n.spinner.center {\n  position: absolute;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  margin: auto;\n}\n\n.spinner .spinner-blade {\n  position: absolute;\n  left: 0.4629em;\n  bottom: 0;\n  width: 0.074em;\n  height: 0.2777em;\n  border-radius: 0.0555em;\n  background-color: transparent;\n  -webkit-transform-origin: center -0.2222em;\n  -ms-transform-origin: center -0.2222em;\n  transform-origin: center -0.2222em;\n  animation: spinner-fade9234 1s infinite linear;\n}\n\n.spinner .spinner-blade:nth-child(1) {\n  -webkit-animation-delay: 0s;\n  animation-delay: 0s;\n  -webkit-transform: rotate(0deg);\n  -ms-transform: rotate(0deg);\n  transform: rotate(0deg);\n}\n\n.spinner .spinner-blade:nth-child(2) {\n  -webkit-animation-delay: 0.083s;\n  animation-delay: 0.083s;\n  -webkit-transform: rotate(30deg);\n  -ms-transform: rotate(30deg);\n  transform: rotate(30deg);\n}\n\n.spinner .spinner-blade:nth-child(3) {\n  -webkit-animation-delay: 0.166s;\n  animation-delay: 0.166s;\n  -webkit-transform: rotate(60deg);\n  -ms-transform: rotate(60deg);\n  transform: rotate(60deg);\n}\n\n.spinner .spinner-blade:nth-child(4) {\n  -webkit-animation-delay: 0.249s;\n  animation-delay: 0.249s;\n  -webkit-transform: rotate(90deg);\n  -ms-transform: rotate(90deg);\n  transform: rotate(90deg);\n}\n\n.spinner .spinner-blade:nth-child(5) {\n  -webkit-animation-delay: 0.332s;\n  animation-delay: 0.332s;\n  -webkit-transform: rotate(120deg);\n  -ms-transform: rotate(120deg);\n  transform: rotate(120deg);\n}\n\n.spinner .spinner-blade:nth-child(6) {\n  -webkit-animation-delay: 0.415s;\n  animation-delay: 0.415s;\n  -webkit-transform: rotate(150deg);\n  -ms-transform: rotate(150deg);\n  transform: rotate(150deg);\n}\n\n.spinner .spinner-blade:nth-child(7) {\n  -webkit-animation-delay: 0.498s;\n  animation-delay: 0.498s;\n  -webkit-transform: rotate(180deg);\n  -ms-transform: rotate(180deg);\n  transform: rotate(180deg);\n}\n\n.spinner .spinner-blade:nth-child(8) {\n  -webkit-animation-delay: 0.581s;\n  animation-delay: 0.581s;\n  -webkit-transform: rotate(210deg);\n  -ms-transform: rotate(210deg);\n  transform: rotate(210deg);\n}\n\n.spinner .spinner-blade:nth-child(9) {\n  -webkit-animation-delay: 0.664s;\n  animation-delay: 0.664s;\n  -webkit-transform: rotate(240deg);\n  -ms-transform: rotate(240deg);\n  transform: rotate(240deg);\n}\n\n.spinner .spinner-blade:nth-child(10) {\n  -webkit-animation-delay: 0.747s;\n  animation-delay: 0.747s;\n  -webkit-transform: rotate(270deg);\n  -ms-transform: rotate(270deg);\n  transform: rotate(270deg);\n}\n\n.spinner .spinner-blade:nth-child(11) {\n  -webkit-animation-delay: 0.83s;\n  animation-delay: 0.83s;\n  -webkit-transform: rotate(300deg);\n  -ms-transform: rotate(300deg);\n  transform: rotate(300deg);\n}\n\n.spinner .spinner-blade:nth-child(12) {\n  -webkit-animation-delay: 0.913s;\n  animation-delay: 0.913s;\n  -webkit-transform: rotate(330deg);\n  -ms-transform: rotate(330deg);\n  transform: rotate(330deg);\n}\n\n@keyframes spinner-fade9234 {\n  0% {\n    background-color: #69717d;\n  }\n\n  100% {\n    background-color: transparent;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

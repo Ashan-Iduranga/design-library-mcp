@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-selfmadesystem-strange-cobra-12-99b85a",
+  "title": "Button by SelfMadeSystem (strange-cobra-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/strange-cobra-12",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "animated",
+    "rainbow",
+    "codepen"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SelfMadeSystem_strange-cobra-12.html",
+  "code": "<a class=\"codepen-button\"><span>Start Coding</span></a>\n<style>\n/* From Uiverse.io by SelfMadeSystem - Tags: animation, button, animated, rainbow, codepen */\n/* Yoinked from CodePen, but improved the animation\nso that it is smooth among other more minor things */\n\n.codepen-button {\n  display: block;\n  cursor: pointer;\n  color: white;\n  margin: 0 auto;\n  position: relative;\n  text-decoration: none;\n  font-weight: 600;\n  border-radius: 6px;\n  overflow: hidden;\n  padding: 3px;\n  isolation: isolate;\n}\n\n.codepen-button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 400%;\n  height: 100%;\n  background: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);\n  background-size: 25% 100%;\n  animation: an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop .75s linear infinite;\n  animation-play-state: paused;\n  translate: -5% 0%;\n  transition: translate 0.25s ease-out;\n}\n\n.codepen-button:hover::before {\n  animation-play-state: running;\n  transition-duration: 0.75s;\n  translate: 0% 0%;\n}\n\n@keyframes an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop {\n  to {\n    transform: translateX(-25%);\n  }\n}\n\n.codepen-button span {\n  position: relative;\n  display: block;\n  padding: 1rem 1.5rem;\n  font-size: 1.1rem;\n  background: #000;\n  border-radius: 3px;\n  height: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

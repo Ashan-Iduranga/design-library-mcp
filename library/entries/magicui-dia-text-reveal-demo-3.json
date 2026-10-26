@@ -1,0 +1,38 @@
+{
+  "id": "magicui-dia-text-reveal-demo-3",
+  "title": "Dia Text Reveal Demo 3 (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/dia-text-reveal",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "dia",
+    "text",
+    "reveal",
+    "demo",
+    "3",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Rotating phrases with repeat and repeat delay.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/dia-text-reveal-demo-3.tsx",
+  "code": "import { DiaTextReveal } from \"@/registry/magicui/dia-text-reveal\"\n\nexport default function DiaTextRevealDemo3() {\n  return (\n    <div className=\"text-foreground flex min-h-64 items-center justify-center p-8\">\n      <h1 className=\"text-center text-3xl font-semibold tracking-tight md:text-4xl\">\n        Learn to{\" \"}\n        <DiaTextReveal\n          repeat\n          repeatDelay={1.2}\n          text={[\"build faster\", \"ship smarter\", \"scale easier\"]}\n        />\n      </h1>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-praashoo7-slippery-treefrog-69-1efa1f",
+  "title": "Form by Praashoo7 (slippery-treefrog-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/slippery-treefrog-69",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "neumorphism",
+    "otp"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Praashoo7_slippery-treefrog-69.html",
+  "code": "<form class=\"form\">\n  <p class=\"heading\">Verify</p>\n  <svg class=\"check\" version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"60px\" height=\"60px\" viewBox=\"0 0 60 60\" xml:space=\"preserve\">  <image id=\"image0\" width=\"60\" height=\"60\" x=\"0\" y=\"0\" href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAQAAACQ9RH5AAAABGdBTUEAALGPC/xhBQAAACBjSFJN\nAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZ\ncwAACxMAAAsTAQCanBgAAAAHdElNRQfnAg0NDzN/r+StAAACR0lEQVRYw+3Yy2sTURTH8W+bNgVf\naGhFaxNiAoJou3FVEUQE1yL031BEROjCnf4PLlxILZSGYncuiiC48AEKxghaNGiliAojiBWZNnNd\nxDza3pl77jyCyPzO8ubcT85wmUkG0qT539In+MwgoxQoUqDAKDn2kSNLlp3AGi4uDt9xWOUTK3xg\nhVU2wsIZSkxwnHHGKZOxHKfBe6rUqFGlTkPaVmKGn6iYao1ZyhK2zJfY0FZ9ldBzsbMKxZwZjn/e\n5szGw6UsD5I0W6T+hBhjUjiF7bNInjz37Ruj3igGABjbtpIo3GIh30u4ww5wr3fwfJvNcFeznhBs\nYgXw70TYX2bY/ulkZhWfzfBbTdtrzjPFsvFI+T/L35jhp5q2owDs51VIVvHYDM9sa/LY8XdtKy1l\nFXfM8FVN2/X2ajctZxVXzPA5TZvHpfb6CFXxkerUWTOcY11LX9w0tc20inX2mmF4qG3upnNWrOKB\nhIXLPu3dF1x+kRWq6ysHpkjDl+7eQjatYoOCDIZF3006U0unVSxIWTgTsI3HNP3soSJkFaflMDwL\n3OoHrph9YsPCJJ5466DyOGUHY3Epg2rWloUxnMjsNw7aw3AhMjwVhgW4HYm9FZaFQZ/bp6QeMRQe\nhhHehWKXGY7CAuSpW7MfKUZlAUqWdJ3DcbAAB3guZl9yKC4WYLfmT4muFtgVJwvQx7T2t0mnXK6J\nXlGGyAQvfNkaJ5JBmxnipubJ5HKDbJJsM0eY38QucSx5tJWTVHBwqDDZOzRNmn87fwDoyM4J2hRz\nNgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wMi0xM1QxMzoxNTo1MCswMDowMKC8JaoAAAAldEVY\ndGRhdGU6bW9kaWZ5ADIwMjMtMDItMTNUMTM6MTU6NTArMDA6MDDR4Z0WAAAAKHRFWHRkYXRlOnRp\nbWVzdGFtcAAyMDIzLTAyLTEzVDEzOjE1OjUxKzAwOjAwIIO3fQAAAABJRU5ErkJggg==\"></image>\n</svg>\n  <div class=\"box\">\n  <input class=\"input\" type=\"password\" maxlength=\"1\">\n  <input class=\"input\" type=\"password\" maxlength=\"1\"> \n  <input class=\"input\" type=\"password\" maxlength=\"1\">\n  <input class=\"input\" type=\"password\" maxlength=\"1\">\n  </div>\n  <button class=\"btn1\">Submit</button>\n  <button class=\"btn2\">Back</button>\n</form>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: neumorphism, OTP, form */\n.form {\n  width: 290px;\n  height: 380px;\n  display: flex;\n  flex-direction: column;\n  border-radius: 15px;\n  background-color: white;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  transition: .4s ease-in-out;\n}\n\n.form:hover {\n  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);\n  scale: 0.99;\n}\n\n.heading {\n  position: relative;\n  text-align: center;\n  color: black;\n  top: 3em;\n  font-weight: bold;\n}\n\n.check {\n  position: relative;\n  align-self: center;\n  top: 4em;\n}\n\n.input {\n  position: relative;\n  width: 2.5em;\n  height: 2.5em;\n  margin: 1em;\n  border-radius: 5px;\n  border: none;\n  outline: none;\n  background-color: rgb(235, 235, 235);\n  box-shadow: inset 3px 3px 6px #d1d1d1,\n            inset -3px -3px 6px #ffffff;\n  top: 6.5em;\n  left: 1.5em;\n  padding-left: 15px;\n  transition: .4s ease-in-out;\n}\n\n.input:hover {\n  box-shadow: inset 0px 0px 0px #d1d1d1,\n            inset 0px 0px 0px #ffffff;\n  background-color: lightgrey;\n}\n\n.input:focus {\n  box-shadow: inset 0px 0px 0px #d1d1d1,\n            inset 0px 0px 0px #ffffff;\n  background-color: lightgrey;\n}\n\n.btn1 {\n  position: relative;\n  top: 8.5em;\n  left: 2.4em;\n  width: 17em;\n  height: 3em;\n  border-radius: 5px;\n  border: none;\n  outline: none;\n  transition: .4s ease-in-out;\n  box-shadow: 1px 1px 3px #b5b5b5,\n             -1px -1px 3px #ffffff;\n}\n\n.btn1:active {\n  box-shadow: inset 3px 3px 6px #b5b5b5,\n            inset -3px -3px 6px #ffffff;\n}\n\n.btn2 {\n  position: relative;\n  top: 9.5em;\n  left: 2.4em;\n  width: 17em;\n  height: 3em;\n  border-radius: 5px;\n  border: none;\n  outline: none;\n  transition: .4s ease-in-out;\n  box-shadow: 1px 1px 3px #b5b5b5,\n             -1px -1px 3px #ffffff;\n}\n\n.btn2:active {\n  box-shadow: inset 3px 3px 6px #b5b5b5,\n            inset -3px -3px 6px #ffffff;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

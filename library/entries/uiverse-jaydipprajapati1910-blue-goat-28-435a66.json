@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-jaydipprajapati1910-blue-goat-28-435a66",
+  "title": "Toggle by JaydipPrajapati1910 (blue-goat-28)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/blue-goat-28",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "moon",
+    "sun",
+    "toggle-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/JaydipPrajapati1910_blue-goat-28.html",
+  "code": "<input type=\"checkbox\" id=\"toggle_checkbox\">\n<label for=\"toggle_checkbox\">\n  <div class=\"star\">\n 🔅\n  </div>\n  <div class=\"moon\">🌙</div>\n</label>\n\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: switch, moon, sun, toggle switch */\n#toggle_checkbox {\n  display: none;\n}\n\nlabel {\n  display: block;\n  position: absolute;\n  top: 50%;\n  right: 0;\n  left: 0;\n  width: 116px;\n  height: 56px;\n  margin: 0 auto;\n  background-color: rgb(7, 189, 128);\n  border: 4px solid rgb(75, 114, 94);\n  border-radius: 56px;\n  transform: translateY(-50%);\n  cursor: pointer;\n  transition: 0.3s ease background-color;\n  overflow: hidden;\n  user-select: none;\n}\n\n.star {\n  position: absolute;\n  top: 5px;\n  left: 13px;\n  width: 30px;\n  height: 30px;\n  font-size: 25px;\n  transform: scale(1);\n  border-radius: 50%;\n  transition: 0.3s ease top, 0.3s ease left, 0.3s ease transform, 0.3s ease background-color;\n  z-index: 1;\n  background-color: none;\n}\n\n.moon {\n  position: absolute;\n  bottom: -52px;\n  right: 15px;\n  width: 30px;\n  height: 30px;\n  font-size: 30px;\n  transition: 0.3s ease bottom;\n}\n\n.moon:before {\n  content: \"\";\n  position: absolute;\n  top: -12px;\n  left: -17px;\n  background-color: none;\n  width: 30px;\n  height: 30px;\n  font-size: 30px;\n  transition: 0.2s ease background-color;\n}\n\n#toggle_checkbox:checked + label {\n  background-color: rgb(75, 114, 94);\n  border: 4px solid  rgb(7, 189, 128);\n}\n\n#toggle_checkbox:checked + label .star {\n  top: 2px;\n  left: 64px;\n  transform: scale(0.6);\n}\n\n#toggle_checkbox:checked + label .moon {\n  bottom: 14px;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

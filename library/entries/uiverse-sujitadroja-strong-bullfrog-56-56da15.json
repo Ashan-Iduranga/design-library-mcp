@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-sujitadroja-strong-bullfrog-56-56da15",
+  "title": "Button by SujitAdroja (strong-bullfrog-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SujitAdroja/strong-bullfrog-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "material-design",
+    "hover-effect",
+    "hoverme",
+    "hover-button",
+    "button-hover-effect",
+    "button-hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SujitAdroja on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SujitAdroja_strong-bullfrog-56.html",
+  "code": "<button class=\"btn\">Hover Me</button>\n\n<style>\n/* From Uiverse.io by SujitAdroja  - Tags: simple, material design, button, hover effect, hoverme, hover button, button hover effect , button hover */\n.btn {\n  position: relative;\n  background: none;\n  border: 2px solid black;\n  font-size: 1.2rem;\n  padding: 1rem 2rem;\n  border-radius: 0.5rem;\n  transition: all 0.3s;\n}\n.btn::before {\n  content: \"\";\n  height: 0%;\n  width: 0%;\n  border-radius: 50%;\n  top: 50%;\n  left: 50%;\n  z-index: -1;\n  position: absolute;\n  background-color: #494958;\n  transition: all 0.3s;\n}\n.btn:hover {\n  border: 2px solid #32323c;\n  color: white;\n}\n.btn:hover::before {\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  border-radius: 0.3rem;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

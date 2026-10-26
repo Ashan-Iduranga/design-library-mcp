@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-manish-tamang-perfect-husky-48-e90f38",
+  "title": "Form by Manish-Tamang (perfect-husky-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Manish-Tamang/perfect-husky-48",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "login",
+    "hover",
+    "login-form"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Manish-Tamang on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Manish-Tamang_perfect-husky-48.html",
+  "code": "<!-- From Uiverse.io by Manish-Tamang  - Tags: login, form, hover, login form, tailwindcss -->\n<div class=\"flex justify-center items-center min-h-screen\">\n  <div\n    class=\"max-w-sm w-full rounded-lg shadow-lg bg-white p-6 space-y-6 border border-gray-200 dark:border-gray-700\"\n  >\n    <div class=\"space-y-2 text-center\">\n      <h1 class=\"text-3xl font-bold\">Login</h1>\n      <p class=\"text-zinc-500 dark:text-zinc-400\">\n        By logging in, you accept our\n        <a class=\"text-blue-500 hover:text-blue-700\" href=\"#\">terms</a>\n        and\n        <a class=\"text-blue-500 hover:text-blue-700\" href=\"#\">privacy policy</a\n        >.\n      </p>\n    </div>\n    <div class=\"space-y-4\">\n      <div class=\"space-y-2\">\n        <label\n          class=\"text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70\"\n          for=\"email\"\n          >Email</label\n        >\n        <input\n          class=\"flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50\"\n          type=\"email\"\n          id=\"email\"\n          placeholder=\"manish@example.com\"\n          required=\"\"\n        />\n      </div>\n      <div class=\"flex items-center space-x-2\">\n        <hr class=\"flex-grow border-zinc-200 dark:border-zinc-700\" />\n        <span class=\"text-zinc-400 dark:text-zinc-300 text-sm\">OR</span>\n        <hr class=\"flex-grow border-zinc-200 dark:border-zinc-700\" />\n      </div>\n      <button\n        class=\"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full bg-[#4285F4] text-white\"\n      >\n        <div class=\"flex items-center justify-center\">\n          <svg\n            xmlns=\"http://www.w3.org/2000/svg\"\n            width=\"24\"\n            height=\"24\"\n            viewBox=\"0 0 24 24\"\n            fill=\"none\"\n            stroke=\"currentColor\"\n            stroke-width=\"2\"\n            stroke-linecap=\"round\"\n            stroke-linejoin=\"round\"\n            class=\"w-5 h-5 mr-2\"\n          >\n            <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>\n            <circle cx=\"12\" cy=\"12\" r=\"4\"></circle>\n            <line x1=\"21.17\" x2=\"12\" y1=\"8\" y2=\"8\"></line>\n            <line x1=\"3.95\" x2=\"8.54\" y1=\"6.06\" y2=\"14\"></line>\n            <line x1=\"10.88\" x2=\"15.46\" y1=\"21.94\" y2=\"14\"></line>\n          </svg>\n          Login with Google\n        </div>\n      </button>\n      <button\n        class=\"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full bg-black text-white\"\n      >\n        <div class=\"flex items-center justify-center\">\n          <svg\n            xmlns=\"http://www.w3.org/2000/svg\"\n            width=\"24\"\n            height=\"24\"\n            viewBox=\"0 0 24 24\"\n            fill=\"none\"\n            stroke=\"currentColor\"\n            stroke-width=\"2\"\n            stroke-linecap=\"round\"\n            stroke-linejoin=\"round\"\n            class=\"w-5 h-5 mr-2\"\n          >\n            <path\n              d=\"M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z\"\n            ></path>\n            <path d=\"M10 2c1 .5 2 2 2 5\"></path>\n          </svg>\n          Login with Apple\n        </div>\n      </button>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

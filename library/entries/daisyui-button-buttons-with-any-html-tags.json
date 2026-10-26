@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-button-buttons-with-any-html-tags",
+  "title": "Button: Buttons with any HTML tags (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/button/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Buttons allow the user to take actions or make choices.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/button/+page.md",
+  "code": "<a role=\"button\" class=\"btn\">Link</a>\n<button type=\"submit\" class=\"btn\">Button</button>\n<input type=\"button\" value=\"Input\" class=\"btn\" />\n<input type=\"submit\" value=\"Submit\" class=\"btn\" />\n<input type=\"radio\" aria-label=\"Radio\" class=\"btn\" />\n<input type=\"checkbox\" aria-label=\"Checkbox\" class=\"btn\" />\n<input type=\"reset\" value=\"Reset\" class=\"btn\" />",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

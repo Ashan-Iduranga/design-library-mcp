@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-spotty-chipmunk-79-3f466a",
+  "title": "Button by Pradeepsaranbishnoi (spotty-chipmunk-79)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/spotty-chipmunk-79",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Pradeepsaranbishnoi_spotty-chipmunk-79.html",
+  "code": "<input id=\"c\" type=\"checkbox\">\n<label id=\"upload_app\" for=\"c\">\n  <div id=\"app\">\n    <div id=\"arrow\"></div>\n    <div id=\"success\">\n      <i class=\"fas fa-check-circle\"></i>\n    </div>\n  </div>\n</label>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: button */\n#c {\n  display: none;\n}\n\n#upload_app {\n  display: block;\n  position: absolute;\n  top: 50%;\n  right: 0;\n  left: 0;\n  margin: 0 auto;\n  width: 120px;\n  height: 42px;\n  transform: translateY(-50%);\n  transition: 0.3s ease width;\n  cursor: pointer;\n}\n\n#app {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  background-color: #fff;\n  border: 2px solid #143240;\n  overflow: hidden;\n  z-index: 2;\n}\n\n#app:before {\n  content: \"Upload\";\n  position: absolute;\n  top: 0;\n  right: 0;\n  padding: 12px;\n  left: 0;\n  color: #143240;\n  font-size: 14px;\n  line-height: 14px;\n  font-weight: bold;\n  z-index: 1;\n}\n\n#arrow {\n  position: absolute;\n  top: 0;\n  right: 0;\n  width: 38px;\n  height: 38px;\n  background-color: #fff;\n  z-index: 2;\n}\n\n#arrow:before,\n#arrow:after {\n  content: \"\";\n  position: absolute;\n  top: 18px;\n  width: 10px;\n  height: 2px;\n  background-color: #143240;\n}\n\n#arrow:before {\n  right: 17px;\n  transform: rotateZ(-45deg);\n}\n\n#arrow:after {\n  right: 11px;\n  transform: rotateZ(45deg);\n}\n\n#success {\n  position: absolute;\n  top: 0;\n  right: 0;\n  width: 54px;\n  height: 54px;\n  margin: -8px;\n  background-color: #143240;\n  transform: scale(0);\n  border-radius: 50%;\n  z-index: 3;\n}\n\n#success i {\n  font-size: 20px;\n  color: #fff;\n  display: block;\n  width: 20px;\n  height: 20px;\n  margin: 17px auto;\n  transform: scale(0);\n}\n\n#c:checked + #upload_app {\n  width: 42px;\n}\n\n#c:checked + #upload_app #arrow:before {\n  animation: _a 0.4s ease 0.4s forwards, _incHeight 4s ease 1s forwards;\n}\n\n#c:checked + #upload_app #arrow:after {\n  animation: _b 0.4s ease 0.4s forwards, _incHeight 4s ease 1s forwards;\n}\n\n#c:checked + #upload_app #success {\n  animation: _success 0.4s cubic-bezier(0, 0.74, 0.32, 1.21) 5s forwards;\n}\n\n#c:checked + #upload_app #success i {\n  animation: _success 0.3s cubic-bezier(0, 0.74, 0.32, 1.21) 5.2s forwards;\n}\n\n@keyframes _a {\n  0% {\n    top: 18px;\n    right: 17px;\n    width: 10px;\n    transform: rotateZ(-45deg);\n    background-color: #143240;\n  }\n\n  100% {\n    top: 36px;\n    right: 19px;\n    width: 19px;\n    transform: rotateZ(0deg);\n    background-color: #ffc107;\n  }\n}\n\n@keyframes _b {\n  0% {\n    top: 18px;\n    right: 11px;\n    width: 10px;\n    transform: rotateZ(45deg);\n    background-color: #143240;\n  }\n\n  100% {\n    top: 36px;\n    right: 0;\n    width: 19px;\n    transform: rotateZ(0deg);\n    background-color: #ffc107;\n  }\n}\n\n@keyframes _incHeight {\n  0% {\n    top: 36px;\n    height: 2px;\n  }\n\n  25% {\n    top: 31px;\n    height: 8px;\n  }\n\n  50% {\n    top: 21px;\n    height: 18px;\n  }\n\n  80% {\n    top: 11px;\n    height: 28px;\n  }\n\n  100% {\n    top: 0;\n    height: 39px;\n  }\n}\n\n@keyframes _success {\n  0% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-navarog21-orange-vampirebat-22-fd46bb",
+  "title": "Button by Navarog21 (orange-vampirebat-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Navarog21/orange-vampirebat-22",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Navarog21 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Navarog21_orange-vampirebat-22.html",
+  "code": "<button>\n\n<div class=\"state\" id=\"moon\">Send</div>\n<div class=\"state\" id=\"sun\">Send</div>\n<span class=\"lightRotation\"></span>\n<span class=\"lightRotation2\"></span>\n<span class=\"lightRotation3\"></span>\n<span class=\"lightRotation4\"></span>\n</button>\n<style>\n/* From Uiverse.io by Navarog21 - Tags: button */\nbutton {\n  --sunGradient: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);\n  --moonGradient: linear-gradient(to top, #cc208e 0%, #6713d2 100%);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  width: 140px;\n  height: 60px;\n  color: white;\n  font-size: 1em;\n  font-weight: bold;\n  text-transform: uppercase;\n  border-radius: 15px;\n  background-color: transparent;\n  transition: 0.5s;\n  overflow: hidden;\n  border: 4px solid black;\n}\n\nbutton:hover {\n  box-shadow: -15px -15px 500px white;\n  transition: 0.2s;\n}\n\nbutton:hover span {\n  background: var(--sunGradient);\n}\n\n.state {\n  position: absolute;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: inherit;\n  transition: 0.4s;\n  width: 85%;\n  height: 82%;\n  border: 4px solid black;\n}\n\n#sun {\n  display: none;\n  background-color: #212121;\n  opacity: 0.85;\n}\n\n#moon {\n  background-color: #212121;\n  opacity: 0.85;\n}\n\nbutton:hover #sun {\n  display: flex;\n}\n\nbutton:hover #moon {\n  display: none;\n}\n\nbutton:hover .lightRotation {\n  animation: 1s linear reverse infinite rotation413;\n}\n\nbutton:hover .lightRotation2 {\n  animation: 2s linear infinite rotation_413;\n}\n\nbutton:hover .lightRotation3 {\n  animation: 10s linear reverse infinite rotation_413;\n}\n\nbutton:hover .lightRotation4 {\n  animation: 3s linear infinite rotation_413;\n}\n\n.lightRotation {\n  position: absolute;\n  transition: 0.4s;\n  z-index: -1;\n  width: 60px;\n  height: 500px;\n  transform: rotate(50deg);\n  border-radius: inherit;\n  background: var(--moonGradient);\n}\n\n.lightRotation2 {\n  position: absolute;\n  transition: 0.4s;\n  z-index: -1;\n  width: 75px;\n  height: 500px;\n  transform: rotate(110deg);\n  border-radius: inherit;\n  background: var(--moonGradient);\n}\n\n.lightRotation3 {\n  position: absolute;\n  transition: 0.4s;\n  z-index: -1;\n  width: 40px;\n  height: 260px;\n  border-radius: inherit;\n  background: var(--moonGradient);\n}\n\n.lightRotation4 {\n  position: absolute;\n  transition: 0.4s;\n  z-index: -1;\n  width: 24px;\n  height: 220px;\n  transform: rotate(100deg);\n  border-radius: inherit;\n  background: var(--moonGradient);\n}\n\n@keyframes rotation_413 {\n  from {\n    transform: rotate(0deg)\n  }\n\n  to {\n    transform: rotate(360deg)\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

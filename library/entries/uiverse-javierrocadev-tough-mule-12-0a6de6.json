@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-javierrocadev-tough-mule-12-0a6de6",
+  "title": "Card by Javierrocadev (tough-mule-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/tough-mule-12",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "youtube",
+    "video",
+    "cardhover",
+    "card-hover",
+    "music-player"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Javierrocadev_tough-mule-12.html",
+  "code": "<div class=\"card\">\n  <div class=\"card__icons\">\n    <svg class=\"svg-icon\" height=\"100\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 100 100\" width=\"100\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\">\n    <path d=\"M50,35.7V50L60.7,60.7M82.1,50A32.1,32.1,0,1,1,50,17.9,32.1,32.1,0,0,1,82.1,50Z\" stroke-width=\"8\">\n    </path>\n    </svg>\n    <svg class=\"svg-icon\" height=\"100\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 100 100\" width=\"100\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\">\n      <path d=\"M17.7,28.5H82.3a5.4,5.4,0,0,0,5.4-5.4,5.4,5.4,0,0,0-5.4-5.4H17.7a5.4,5.4,0,0,0-5.4,5.4A5.4,5.4,0,0,0,17.7,28.5Z\" fill-rule=\"evenodd\">\n      </path>\n      <path d=\"M82.3,44.6H17.7a5.4,5.4,0,0,0,0,10.8H82.3a5.4,5.4,0,1,0,0-10.8Z\" fill-rule=\"evenodd\">\n      </path>\n      <path d=\"M50,71.5H17.7a5.4,5.4,0,0,0-5.4,5.4,5.4,5.4,0,0,0,5.4,5.4H50a5.4,5.4,0,0,0,5.4-5.4A5.4,5.4,0,0,0,50,71.5Z\" fill-rule=\"evenodd\">\n      </path>\n    </svg>\n  </div>\n  <div class=\"card__time\">\n  <p>10:12</p>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Javierrocadev - Tags: youtube, card, video, cardhover , card hover, music player */\n.card {\n  width: 260px;\n  height: 170px;\n  background-color: #ffb3b3;\n  border-radius: 15px;\n  border: 1px solid rgb(156, 151, 151);\n  position: relative;\n  transition: all .3s ease;\n}\n\n.card__icons {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-end;\n  padding-right: 10px;\n  padding-top: 10px;\n  gap: 10px;\n  opacity: 0;\n  transition: all .3s ease;\n  cursor: pointer;\n}\n\n.card__time {\n  position: absolute;\n  right: 10px;\n  bottom: 10px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 1em;\n  font-weight: lighter;\n  border-radius: 5px;\n  text-align: center;\n  padding: 2px 8px;\n  color: whitesmoke;\n  background-color: rgb(77, 67, 67);\n}\n\n.svg-icon {\n  background-color: rgb(77, 67, 67);\n  fill: #ece6e6;\n  width: 35px;\n  height: 35px;\n  border-radius: 5px;\n  padding: 2px;\n  transition: all .5s ease-in-out;\n}\n\n.card:hover {\n  opacity: 0.8;\n  animation: video 5s ease;\n}\n\n.card:hover .card__icons {\n  opacity: 1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-omar-alghaish-moody-wombat-53-07d836",
+  "title": "Loader by omar-alghaish (moody-wombat-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/omar-alghaish/moody-wombat-53",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By omar-alghaish on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/omar-alghaish_moody-wombat-53.html",
+  "code": "<div class=\"loading\">\n    <div class=\"i\"></div>\n    <div class=\"a\"></div>\n    <div class=\"u\"></div>\n</div>\n<style>\n/* From Uiverse.io by omar-alghaish - Tags: loader */\n.loading {\n  background-color: rgba(255, 0, 0, 0);\n  align-items: center;\n  justify-content: center;\n  display: flex;\n}\n\n.loading div {\n  background-color: rgb(255, 217, 0);\n  width: 20px;\n  height: 20px;\n  margin: 20px;\n  border-radius: 50px;\n  animation-name: load912355;\n  animation-duration: .9s;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n  text-align: center;\n  justify-content: center;\n}\n\n.loading .a {\n  animation-delay: .3s;\n}\n\n.loading .u {\n  animation-delay: .6s;\n}\n\n@keyframes load912355 {\n  0% {\n    transform: translateY(50px) scale(1);\n  }\n\n  100% {\n    transform: translateY(10px) scale(1.8) rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

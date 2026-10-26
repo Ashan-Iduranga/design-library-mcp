@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-catraco-short-starfish-66-1c9d12",
+  "title": "Button by catraco (short-starfish-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/catraco/short-starfish-66",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "active",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By catraco on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/catraco_short-starfish-66.html",
+  "code": "<button class=\"btn-class-name\">\n  <span class=\"back\"></span>\n  <span class=\"front\"></span>\n</button>\n<style>\n/* From Uiverse.io by catraco - Tags: button, active, 3d button */\n.btn-class-name {\n  --primary: 255, 90, 120;\n  --secondary: 150, 50, 60;\n  width: 60px;\n  height: 50px;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  user-select: none;\n  touch-action: manipulation;\n  outline: 10px solid rgb(var(--primary), .5);\n  border-radius: 100%;\n  position: relative;\n  transition: .3s;\n}\n\n.btn-class-name .back {\n  background: rgb(var(--secondary));\n  border-radius: 100%;\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.btn-class-name .front {\n  background: linear-gradient(0deg, rgba(var(--primary), .6) 20%, rgba(var(--primary)) 50%);\n  box-shadow: 0 .5em 1em -0.2em rgba(var(--secondary), .5);\n  border-radius: 100%;\n  position: absolute;\n  border: 1px solid rgb(var(--secondary));\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 1.2rem;\n  font-weight: 600;\n  font-family: inherit;\n  transform: translateY(-15%);\n  transition: .15s;\n  color: rgb(var(--secondary));\n}\n\n.btn-class-name:active .front {\n  transform: translateY(0%);\n  box-shadow: 0 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

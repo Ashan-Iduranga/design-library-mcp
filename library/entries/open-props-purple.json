@@ -1,0 +1,33 @@
+{
+  "id": "open-props-purple",
+  "title": "Open Props: Purple color scale",
+  "source": "Open Props",
+  "url": "https://open-props.style/#colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "purple",
+    "open-props",
+    "css-variables",
+    "tokens",
+    "color"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "13 CSS custom properties, e.g. --purple-0, --purple-1, --purple-2, --purple-3.\n\nUse: npm i open-props, then @import \"open-props/purple\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.purple.css",
+  "code": "<style>\n:where(html) {\n  --purple-0: #f8f0fc;\n  --purple-1: #f3d9fa;\n  --purple-2: #eebefa;\n  --purple-3: #e599f7;\n  --purple-4: #da77f2;\n  --purple-5: #cc5de8;\n  --purple-6: #be4bdb;\n  --purple-7: #ae3ec9;\n  --purple-8: #9c36b5;\n  --purple-9: #862e9c;\n  --purple-10: #702682;\n  --purple-11: #5a1e69;\n  --purple-12: #44174f;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Open Props purple</strong>\n<p>purple</p><div class=\"row\"><div style=\"background:#f8f0fc\" title=\"--purple-0: #f8f0fc\"><span>0</span></div><div style=\"background:#f3d9fa\" title=\"--purple-1: #f3d9fa\"><span>1</span></div><div style=\"background:#eebefa\" title=\"--purple-2: #eebefa\"><span>2</span></div><div style=\"background:#e599f7\" title=\"--purple-3: #e599f7\"><span>3</span></div><div style=\"background:#da77f2\" title=\"--purple-4: #da77f2\"><span>4</span></div><div style=\"background:#cc5de8\" title=\"--purple-5: #cc5de8\"><span>5</span></div><div style=\"background:#be4bdb\" title=\"--purple-6: #be4bdb\"><span>6</span></div><div style=\"background:#ae3ec9\" title=\"--purple-7: #ae3ec9\"><span>7</span></div><div style=\"background:#9c36b5\" title=\"--purple-8: #9c36b5\"><span>8</span></div><div style=\"background:#862e9c\" title=\"--purple-9: #862e9c\"><span>9</span></div><div style=\"background:#702682\" title=\"--purple-10: #702682\"><span>10</span></div><div style=\"background:#5a1e69\" title=\"--purple-11: #5a1e69\"><span>11</span></div><div style=\"background:#44174f\" title=\"--purple-12: #44174f\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

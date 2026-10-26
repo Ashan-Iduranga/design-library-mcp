@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-aasisodiya-sour-horse-29-71c5d4",
+  "title": "Toggle by aasisodiya (sour-horse-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aasisodiya/sour-horse-29",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "minimalist",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aasisodiya on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/aasisodiya_sour-horse-29.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by aasisodiya - Tags: minimalist, switch */\n/* The switch - the box around the slider */\n.switch {\n font-size: 1rem;\n position: relative;\n display: inline-block;\n width: 4em;\n height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n opacity: 0;\n width: 0;\n height: 0;\n}\n\n/* The slider */\n.slider {\n position: absolute;\n cursor: pointer;\n inset: 0;\n background-color: #eee;\n transition: 0.4s;\n border-radius: 0.5em;\n box-shadow: 0 0.2em #dfd9d9;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 1.5em;\n width: 1.4em;\n border-radius: 0.3em;\n left: 0.3em;\n bottom: 0.7em;\n background-color: lightsalmon;\n transition: 0.4s;\n box-shadow: 0 0.4em #bcb4b4;\n}\n\n.slider:hover::before {\n box-shadow: 0 0.2em #bcb4b4;\n bottom: 0.5em;\n}\n\ninput:checked+.slider:before {\n transform: translateX(2em);\n background: lightgreen;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

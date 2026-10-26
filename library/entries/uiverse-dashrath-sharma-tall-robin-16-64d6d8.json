@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-dashrath-sharma-tall-robin-16-64d6d8",
+  "title": "Button by Dashrath-Sharma (tall-robin-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Dashrath-Sharma/tall-robin-16",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "text-animation",
+    "animated",
+    "colorful",
+    "color",
+    "text",
+    "btn"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Dashrath-Sharma on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Dashrath-Sharma_tall-robin-16.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by Dashrath-Sharma - Tags: button, text animation, animated, colorful, color, text, btn */\n.button {\n  border: none;\n  font-size: 17px;\n  padding: 1em 2em;\n  position: relative;\n  display: grid;\n  place-items: center;\n  overflow: hidden;\n  z-index: 1;\n  background: #caf0f8;\n  border-radius: 8px;\n  box-shadow: 2px 2px 0 #333,\n             2px 2px 200px #ffba08 inset;\n  color: #fff;\n}\n\n.button:active {\n  transform: scale(.98);\n}\n\n.button:hover {\n  box-shadow: 2px 2px 0 #333,\n             2px 2px 200px #003566 inset;\n}\n\n.button::before {\n  content: '';\n  position: absolute;\n  left: -41%;\n  width: 150%;\n  height: 300%;\n  border-radius: 50%;\n  box-shadow: 2px 2px 0 #333,\n             0 0 0 8px #d00000 inset,\n             0 0 0 16px #dc2f02 inset,\n             0 0 0 24px #e85d04 inset,\n             0 0 0 32px #f48c06 inset,\n             0 0 0 40px #faa307 inset;\n  z-index: -1;\n  transition: .2s;\n}\n\n.button:active::before {\n  opacity: .001;\n  box-shadow: 2px 2px 200px #03045e inset;\n}\n\n.button:hover::before {\n  box-shadow: 2px 2px 0 #333,\n             0 0 0 8px #90e0ef inset,\n             0 0 0 16px #48cae4 inset,\n             0 0 0 24px #00b4d8 inset,\n             0 0 0 32px #0096c7 inset,\n             0 0 0 40px #0077b6 inset;\n  left: -9%;\n  width: 150%;\n  height: 300%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-cksunandh-massive-firefox-41-015590",
+  "title": "Toggle by Cksunandh (massive-firefox-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cksunandh/massive-firefox-41",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cksunandh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Cksunandh_massive-firefox-41.html",
+  "code": "<div>\n  <label class=\"switch\">\n    <input type=\"checkbox\" />\n    <span>\n      <em></em>\n      <strong></strong>\n    </span>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by Cksunandh  - Tags: switch */\n.switch {\n  height: 24px;\n  display: block;\n  position: relative;\n  cursor: pointer;\n}\n.switch input {\n  display: none;\n}\n.switch input + span {\n  padding-left: 50px;\n  min-height: 24px;\n  line-height: 24px;\n  display: block;\n  color: #99a3ba;\n  position: relative;\n  vertical-align: middle;\n  white-space: nowrap;\n  transition: color 0.3s ease;\n}\n.switch input + span:before,\n.switch input + span:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  border-radius: 12px;\n}\n.switch input + span:before {\n  top: 0;\n  left: 0;\n  width: 42px;\n  height: 24px;\n  background: #e4ecfa;\n  transition: all 0.3s ease;\n}\n.switch input + span:after {\n  width: 18px;\n  height: 18px;\n  background: #fff;\n  top: 3px;\n  left: 3px;\n  box-shadow: 0 1px 3px rgba(18, 22, 33, 0.1);\n  transition: all 0.45s ease;\n}\n.switch input + span em {\n  width: 8px;\n  height: 7px;\n  background: #99a3ba;\n  position: absolute;\n  left: 8px;\n  bottom: 7px;\n  border-radius: 2px;\n  display: block;\n  z-index: 1;\n  transition: all 0.45s ease;\n}\n.switch input + span em:before {\n  content: \"\";\n  width: 2px;\n  height: 2px;\n  border-radius: 1px;\n  background: #fff;\n  position: absolute;\n  display: block;\n  left: 50%;\n  top: 50%;\n  margin: -1px 0 0 -1px;\n}\n.switch input + span em:after {\n  content: \"\";\n  display: block;\n  border-top-left-radius: 4px;\n  border-top-right-radius: 4px;\n  border: 1px solid #99a3ba;\n  border-bottom: 0;\n  width: 6px;\n  height: 4px;\n  left: 1px;\n  bottom: 6px;\n  position: absolute;\n  z-index: 1;\n  transform-origin: 0 100%;\n  transition: all 0.45s ease;\n  transform: rotate(-35deg) translate(0, 1px);\n}\n.switch input + span strong {\n  font-weight: normal;\n  position: relative;\n  display: block;\n  top: 1px;\n}\n.switch input + span strong:before,\n.switch input + span strong:after {\n  font-size: 14px;\n  font-weight: 500;\n  display: block;\n  font-family: \"Mukta Malar\", Arial;\n  -webkit-backface-visibility: hidden;\n}\n.switch input + span strong:before {\n  content: \"Unlocked\";\n  transition: all 0.3s ease 0.2s;\n}\n.switch input + span strong:after {\n  content: \"Locked\";\n  opacity: 0;\n  visibility: hidden;\n  position: absolute;\n  left: 0;\n  top: 0;\n  color: #02923c;\n  transition: all 0.3s ease;\n  transform: translate(2px, 0);\n}\n.switch input:checked + span:before {\n  background: #eae7e7;\n}\n.switch input:checked + span:after {\n  background: #fff;\n  transform: translate(18px, 0);\n}\n.switch input:checked + span em {\n  transform: translate(18px, 0);\n  background: #02923c;\n}\n.switch input:checked + span em:after {\n  border-color: #02923c;\n  transform: rotate(0deg) translate(0, 0);\n}\n.switch input:checked + span strong:before {\n  opacity: 0;\n  visibility: hidden;\n  transition: all 0.3s ease;\n  transform: translate(-2px, 0);\n}\n.switch input:checked + span strong:after {\n  opacity: 1;\n  visibility: visible;\n  transform: translate(0, 0);\n  transition: all 0.3s ease 0.2s;\n}\n\n.switch :before,\n:after {\n  box-sizing: border-box;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

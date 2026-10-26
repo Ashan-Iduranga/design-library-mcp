@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-gharsh11032000-neat-bullfrog-61-20c858",
+  "title": "Button by gharsh11032000 (neat-bullfrog-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/neat-bullfrog-61",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/gharsh11032000_neat-bullfrog-61.html",
+  "code": "<button class=\"animated-button\">\n  <span>Hover me</span>\n  <span></span>\n</button>\n\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: button, hover effect */\n.animated-button {\n  position: relative;\n  display: inline-block;\n  padding: 12px 24px;\n  border: none;\n  font-size: 16px;\n  background-color: inherit;\n  border-radius: 100px;\n  font-weight: 600;\n  color: #ffffff40;\n  box-shadow: 0 0 0 2px #ffffff20;\n  cursor: pointer;\n  overflow: hidden;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.animated-button span:last-child {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 20px;\n  height: 20px;\n  background-color: #2196F3;\n  border-radius: 50%;\n  opacity: 0;\n  transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.animated-button span:first-child {\n  position: relative;\n  z-index: 1;\n}\n\n.animated-button:hover {\n  box-shadow: 0 0 0 5px #2195f360;\n  color: #ffffff;\n}\n\n.animated-button:active {\n  scale: 0.95;\n}\n\n.animated-button:hover span:last-child {\n  width: 150px;\n  height: 150px;\n  opacity: 1;\n}\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-gaurav-webdev-tame-hound-72-2aee77",
+  "title": "Button by Gaurav-WebDev (tame-hound-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Gaurav-WebDev/tame-hound-72",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover-effect",
+    "cool-btn"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Gaurav-WebDev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Gaurav-WebDev_tame-hound-72.html",
+  "code": "<button class=\"button type1\">\n</button>\n<style>\n/* From Uiverse.io by Gaurav-WebDev - Tags: button, hover effect, cool btn */\n.button {\n  height: 50px;\n  width: 150px;\n  border: none;\n  border-radius: 10px;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: all 0.5s ease-in-out;\n}\n\n.button:hover {\n  box-shadow: .5px .5px 150px #252525;\n}\n\n.type1::after {\n  content: \"Thanks\";\n  height: 50px;\n  width: 150px;\n  background-color: #008080;\n  color: #fff;\n  position: absolute;\n  top: 0%;\n  left: 0%;\n  transform: translateY(50px);\n  font-size: 1.2rem;\n  font-weight: 600;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition: all 0.5s ease-in-out;\n}\n\n.type1::before {\n  content: \"Hover Me\";\n  height: 50px;\n  width: 150px;\n  background-color: #fff;\n  color: #008080;\n  position: absolute;\n  top: 0%;\n  left: 0%;\n  transform: translateY(0px) scale(1.2);\n  font-size: 1.2rem;\n  font-weight: 600;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition: all 0.5s ease-in-out;\n}\n\n.type1:hover::after {\n  transform: translateY(0) scale(1.2);\n}\n\n.type1:hover::before {\n  transform: translateY(-50px) scale(0) rotate(120deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

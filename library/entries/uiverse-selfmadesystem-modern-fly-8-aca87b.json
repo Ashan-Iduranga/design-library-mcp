@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-selfmadesystem-modern-fly-8-aca87b",
+  "title": "Button by SelfMadeSystem (modern-fly-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/modern-fly-8",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "ripple",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SelfMadeSystem_modern-fly-8.html",
+  "code": "<button class=\"btn\">\n  <span>Border ripple</span>\n  <div class=\"ripple-container\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n  </div>\n</button>\n<style>\n/* From Uiverse.io by SelfMadeSystem - Tags: button, ripple, animated */\n.btn {\n  font-size: larger;\n  height: 3em;\n  width: 8em;\n  position: relative;\n  border: none;\n  isolation: isolate;\n}\n\n.btn > span {\n  position: absolute;\n  border-radius: 0.5em;\n  pointer-events: none;\n  inset: 0;\n  background-color: hsl(218, 68%, 52%);\n  color: white;\n  box-shadow: 1px 2px 4px #0007;\n  z-index: 10;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.ripple-container {\n  position: absolute;\n  inset: -0.3em;\n  display: grid;\n  grid-template-columns: repeat(16, 0.5em);\n  border-radius: 0.8em;\n  padding: 0.3em;\n  overflow: hidden;\n}\n\n.ripple-container > span {\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.ripple-container > span::after {\n  content: \"\";\n  pointer-events: none;\n  position: absolute;\n  background-color: hsl(218, 68%, 65%);\n  transition: width 0.5s ease-out, height 0.5s ease-out, opacity 1s;\n  width: 18em;\n  height: 18em;\n  opacity: 0;\n  border-radius: 999em;\n}\n\n.ripple-container > span:active::after {\n  transition: 0s;\n  width: 0em;\n  height: 0em;\n  opacity: 1;\n}\n\n.ripple-container::before {\n  content: \"\";\n  pointer-events: none;\n  position: absolute;\n  background-color: hsla(218, 68%, 65%, 0.5);\n  width: 13em;\n  height: 13em;\n  border-radius: 999em;\n  transition: transform 0.25s ease-out;\n  transform: translate(-25%, -25%) scale(0);\n}\n\n.ripple-container:hover::before {\n  transform: translate(-25%, -25%) scale(1);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

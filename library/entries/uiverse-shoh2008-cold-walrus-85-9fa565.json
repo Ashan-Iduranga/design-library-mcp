@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-cold-walrus-85-9fa565",
+  "title": "Loader by Shoh2008 (cold-walrus-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/cold-walrus-85",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_cold-walrus-85.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  position: relative;\n  font-size: 16px;\n  width: 5.5em;\n  height: 5.5em;\n}\n\n.loader:before {\n  content: '';\n  position: absolute;\n  transform: translate(-50%, -50%) rotate(45deg);\n  height: 100%;\n  width: 4px;\n  background: #fff;\n  left: 50%;\n  top: 50%;\n}\n\n.loader:after {\n  content: '';\n  position: absolute;\n  left: 0.2em;\n  bottom: 0.18em;\n  width: 1em;\n  height: 1em;\n  background-color: orange;\n  border-radius: 15%;\n  animation: rollingRock 2.5s cubic-bezier(.79, 0, .47, .97) infinite;\n}\n\n@keyframes rollingRock {\n  0% {\n    transform: translate(0, -1em) rotate(-45deg)\n  }\n\n  5% {\n    transform: translate(0, -1em) rotate(-50deg)\n  }\n\n  20% {\n    transform: translate(1em, -2em) rotate(47deg)\n  }\n\n  25% {\n    transform: translate(1em, -2em) rotate(45deg)\n  }\n\n  30% {\n    transform: translate(1em, -2em) rotate(40deg)\n  }\n\n  45% {\n    transform: translate(2em, -3em) rotate(137deg)\n  }\n\n  50% {\n    transform: translate(2em, -3em) rotate(135deg)\n  }\n\n  55% {\n    transform: translate(2em, -3em) rotate(130deg)\n  }\n\n  70% {\n    transform: translate(3em, -4em) rotate(217deg)\n  }\n\n  75% {\n    transform: translate(3em, -4em) rotate(220deg)\n  }\n\n  100% {\n    transform: translate(0, -1em) rotate(-225deg)\n  }\n}\n      \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

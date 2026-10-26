@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-deepak16375-ugly-crab-3-5a952c",
+  "title": "Button by deepak16375 (ugly-crab-3)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/deepak16375/ugly-crab-3",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "animated",
+    "gradients",
+    "hover-effect",
+    "hoverme",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By deepak16375 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/deepak16375_ugly-crab-3.html",
+  "code": "<button class=\"button\">\n  Hover me!\n</button>\n<style>\n/* From Uiverse.io by deepak16375 - Tags: gradient, button, animated, gradients, hover effect, hoverme, hover button */\n.button {\n  font-size: 17px;\n  font-weight: bold;\n  border: 0px;\n  color: white;\n  background-color: #1877f2;\n  padding: 1rem 2rem;\n  border-radius: 15px;\n  cursor: pointer;\n}\n\n.button:hover {\n  background-image: linear-gradient(90deg,\n\t\t#B799FF 0%,\n\t\t#ACBCFF 50%,\n\t\t#AEE2FF 75%,\n\t\t#E6FFFD 100%);\n  color: black;\n  animation: slide 10s linear infinite;\n}\n\n@keyframes slide {\n  100% {\n    background-position: 50rem;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-theme-controller-theme-controller-using-a-dropdown",
+  "title": "Theme Controller: Theme Controller using a dropdown (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/theme-controller/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "theme-controller",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "If a checked checkbox input or a checked radio input with theme-controller class exists in the page, The page will have the same theme as that input's value.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/theme-controller/+page.md",
+  "code": "<div class=\"dropdown mb-72\">\n  <div tabindex=\"0\" role=\"button\" class=\"btn m-1\">\n    Theme\n    <svg\n      width=\"12px\"\n      height=\"12px\"\n      class=\"inline-block h-2 w-2 fill-current opacity-60\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 2048 2048\">\n      <path d=\"M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z\"></path>\n    </svg>\n  </div>\n  <ul tabindex=\"-1\" class=\"dropdown-content bg-base-300 rounded-box z-1 w-52 p-2 shadow-2xl\">\n    <li>\n      <input\n        type=\"radio\"\n        name=\"theme-dropdown\"\n        class=\"theme-controller w-full btn btn-sm btn-block btn-ghost justify-start\"\n        aria-label=\"Default\"\n        value=\"default\" />\n    </li>\n    <li>\n      <input\n        type=\"radio\"\n        name=\"theme-dropdown\"\n        class=\"theme-controller w-full btn btn-sm btn-block btn-ghost justify-start\"\n        aria-label=\"Retro\"\n        value=\"retro\" />\n    </li>\n    <li>\n      <input\n        type=\"radio\"\n        name=\"theme-dropdown\"\n        class=\"theme-controller w-full btn btn-sm btn-block btn-ghost justify-start\"\n        aria-label=\"Cyberpunk\"\n        value=\"cyberpunk\" />\n    </li>\n    <li>\n      <input\n        type=\"radio\"\n        name=\"theme-dropdown\"\n        class=\"theme-controller w-full btn btn-sm btn-block btn-ghost justify-start\"\n        aria-label=\"Valentine\"\n        value=\"valentine\" />\n    </li>\n    <li>\n      <input\n        type=\"radio\"\n        name=\"theme-dropdown\"\n        class=\"theme-controller w-full btn btn-sm btn-block btn-ghost justify-start\"\n        aria-label=\"Aqua\"\n        value=\"aqua\" />\n    </li>\n  </ul>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

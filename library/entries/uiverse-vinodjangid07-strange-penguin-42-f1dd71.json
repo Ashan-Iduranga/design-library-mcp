@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-vinodjangid07-strange-penguin-42-f1dd71",
+  "title": "Button by vinodjangid07 (strange-penguin-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/strange-penguin-42",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_strange-penguin-42.html",
+  "code": "<button class=\"Btn-container\">\n  <span class=\"inner-wrapper\">\n    <span class=\"text\">\n      <p>Upgrade to</p>\n      <p class=\"pro\">PRO</p>\n    </span>\n    <span class=\"icon\">\n      <svg viewBox=\"0 0 384 512\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path\n          d=\"M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z\"\n        ></path>\n      </svg>\n    </span>\n  </span>\n</button>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Website: https://dribbble.com/shots/18149466-Upgrade-to-Pro-Button/attachments/13347110?mode=media - Name: Mobin Madadi - Tags: link, button, hover, active, hover effect, pro, upgrade, redirect */\n.Btn-container {\n  width: fit-content;\n  height: fit-content;\n  border: none;\n  background-color: #ebebeb;\n  padding: 10px;\n  border-radius: 10px;\n  box-shadow: 0px 2px 5px #e1e1e1;\n  transition: 0.2s;\n}\n.inner-wrapper {\n  width: fit-content;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: #f7f7f7;\n  border-radius: 5px;\n  padding: 8px 15px;\n  box-shadow: 0px 4px 10px #d3d3d3;\n  gap: 50px;\n  transition: 0.2s;\n}\n.text {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 6px;\n}\n.text p {\n  font-size: 1.2em;\n  font-weight: 600;\n  color: rgb(140, 140, 140);\n}\n.text .pro {\n  background-color: black;\n  color: white;\n  padding: 4px 8px;\n  border-radius: 5px;\n}\n.icon {\n  width: 40px;\n  height: 40px;\n  background-color: white;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transform: rotate(45deg);\n  transition: 0.2s;\n}\n.icon svg {\n  width: 15px;\n}\n.Btn-container:active {\n  transform: scale(1);\n}\n.Btn-container:active .inner-wrapper {\n  transform: scale(0.97);\n}\n.Btn-container:hover .icon {\n  transform: rotate(0deg);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

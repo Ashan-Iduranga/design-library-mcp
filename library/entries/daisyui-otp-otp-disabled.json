@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-otp-otp-disabled",
+  "title": "OTP: OTP disabled (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/otp/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "otp",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "OTP (One-Time Password) component for inputting verification codes. It's usually 4 to 6 digits long and is used for two-factor authentication (2FA) or passwordless login.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/otp/+page.md",
+  "code": "<label class=\"otp\">\n  <span></span>\n  <span></span>\n  <span></span>\n  <span></span>\n  <input type=\"text\" autocomplete=\"one-time-code\" inputmode=\"numeric\" maxlength=\"4\" pattern=\"[0-9]{4}\" required disabled />\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

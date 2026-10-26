@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vikramsinghnegi-serious-owl-38-f9cf4a",
+  "title": "Loader by vikramsinghnegi (serious-owl-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikramsinghnegi/serious-owl-38",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "bar"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikramsinghnegi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vikramsinghnegi_serious-owl-38.html",
+  "code": "<div class=\"bars\"></div>\n\n<style>\n/* From Uiverse.io by vikramsinghnegi  - Tags: loading, loader, bar */\n.bars {\n  width: 50.5px;\n  height: 60.599999999999994px;\n  --c: repeating-linear-gradient(90deg, #474bff 0 10.1px, #0000 0 20.2px);\n  background: var(--c), var(--c), var(--c), var(--c);\n  background-size: 100% 21%;\n  background-repeat: no-repeat;\n  animation: bars-yrfh98 0.75s infinite alternate;\n}\n\n@keyframes bars-yrfh98 {\n  0%,\n  10% {\n    background-position: 0 0, 0 25%, 0 50%, 0 75%;\n  }\n\n  25% {\n    background-position: 0 0, 0 25%, 0 50%, 0 100%;\n  }\n\n  50% {\n    background-position: 0 0, 0 25%, 0 75%, 0 100%;\n  }\n\n  75% {\n    background-position: 0 0, 0 50%, 0 75%, 0 100%;\n  }\n\n  90%,\n  100% {\n    background-position: 0 25%, 0 50%, 0 75%, 0 100%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

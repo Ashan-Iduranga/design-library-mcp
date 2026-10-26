@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-themrsami-ordinary-shrimp-82-a067c5",
+  "title": "Form by themrsami (ordinary-shrimp-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/themrsami/ordinary-shrimp-82",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "material-design",
+    "purple",
+    "futuristic",
+    "input-effect",
+    "job-application-form"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By themrsami on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/themrsami_ordinary-shrimp-82.html",
+  "code": "<!-- From Uiverse.io by themrsami - Tags: material design, purple, form, futuristic, input effect , tailwind, tailwindcss, job application form -->\n<div class=\"flex flex-col items-center justify-center h-screen dark\">\n  <div class=\"w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6\">\n    <h2 class=\"text-2xl font-bold text-gray-200 mb-4\">Job Application Form</h2>\n\n    <form class=\"flex flex-col\">\n      <input placeholder=\"Full Name\" class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"text\">\n      <input placeholder=\"Email\" class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"email\">\n      <input placeholder=\"Phone Number\" class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"text\">\n      <input placeholder=\"LinkedIn Profile URL\" class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"text\">\n      <textarea placeholder=\"Cover Letter\" class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" name=\"cover_letter\"></textarea>\n      <input placeholder=\"Resume\" class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"file\">\n\n      <button class=\"bg-gradient-to-r from-indigo-500 to-blue-500 text-white font-bold py-2 px-4 rounded-md mt-4 hover:bg-indigo-600 hover:to-blue-600 transition ease-in-out duration-150\" type=\"submit\">Apply</button>\n    </form>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

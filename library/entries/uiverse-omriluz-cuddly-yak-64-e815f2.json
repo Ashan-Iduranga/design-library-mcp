@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-omriluz-cuddly-yak-64-e815f2",
+  "title": "Toggle by omriluz (cuddly-yak-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/omriluz/cuddly-yak-64",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "animation",
+    "red",
+    "green",
+    "gradient",
+    "switch",
+    "gradients"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By omriluz on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/omriluz_cuddly-yak-64.html",
+  "code": "<!-- From Uiverse.io by omriluz - Tags: animation, red, green, gradient, switch, toggle, gradients, tailwind -->\n<label class=\"relative block aspect-[2/0.75] cursor-pointer w-20 rounded-full  bg-gradient-to-r from-red-600 to-green-600 bg-[length:100%_100%] shadow-2xl shadow-purple-300 transition-all duration-500 [&amp;:has(input:checked)]:rotate-180  hover:bg-[length:100%_500%] focus:bg-[length:100%_500%]\">\n  <input type=\"checkbox\" class=\"peer/input hidden\">\n  <div class=\"absolute left-[3%] top-1/2 aspect-square h-[90%] -translate-y-1/2 rotate-180 rounded-full bg-white transition-all duration-500 peer-checked/input:left-[63%] peer-checked/input:-rotate-6\"></div>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

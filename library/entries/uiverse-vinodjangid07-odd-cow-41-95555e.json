@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-vinodjangid07-odd-cow-41-95555e",
+  "title": "Loader by vinodjangid07 (odd-cow-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/odd-cow-41",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "loading",
+    "multicolor",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vinodjangid07_odd-cow-41.html",
+  "code": "<div class=\"loader\">\n  <div class=\"wrapper\">\n    <div class=\"text\">LOADING</div>\n    <div class=\"box\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: animation, loading, loader, multicolor, loading animation */\n.loader {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.wrapper {\n  width: 180px;\n  height: 50px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 2;\n}\n.text {\n  z-index: 3;\n  font-family: Whitney, -apple-system, Helvetica;\n  letter-spacing: 1px;\n  font-weight: 700;\n  font-size: 20px;\n  color: white;\n  filter: drop-shadow(2px 2px 0px #ff9e02);\n}\n.box {\n  width: 100%;\n  height: 100%;\n  background-color: #ef5d2e;\n  position: absolute;\n  z-index: 2;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  animation: loading ease-in-out 0.9s infinite alternate-reverse;\n}\n@keyframes loading {\n  0% {\n    transform: translateX(-20px);\n  }\n  100% {\n    transform: translateX(20px);\n  }\n}\n.box::before {\n  content: \"\";\n  width: 20px;\n  height: 170%;\n  background-color: #ff9d0089;\n  position: absolute;\n  z-index: 1;\n  animation: loading2 ease-in-out 0.9s infinite alternate-reverse;\n}\n@keyframes loading2 {\n  0% {\n    transform: translateX(-50px);\n  }\n  100% {\n    transform: translateX(50px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

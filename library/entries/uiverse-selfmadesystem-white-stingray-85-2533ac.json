@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-selfmadesystem-white-stingray-85-2533ac",
+  "title": "Button by SelfMadeSystem (white-stingray-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/white-stingray-85",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d",
+    "pink",
+    "gradient",
+    "hover",
+    "active",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SelfMadeSystem_white-stingray-85.html",
+  "code": "<svg width=\"0\">\n  <filter id=\"l-distort\">\n    <feTurbulence\n      numOctaves=\"20\"\n      baseFrequency=\".03\"\n      type=\"fractalNoise\"\n    ></feTurbulence>\n    <feDisplacementMap scale=\"60\" in=\"SourceGraphic\"></feDisplacementMap>\n  </filter>\n  <filter id=\"m-distort\">\n    <feTurbulence\n      numOctaves=\"20\"\n      baseFrequency=\".02\"\n      type=\"fractalNoise\"\n    ></feTurbulence>\n    <feDisplacementMap scale=\"30\" in=\"SourceGraphic\"></feDisplacementMap>\n  </filter>\n</svg>\n\n<button class=\"button\">\n  <div class=\"btn-bg\">\n    <div class=\"bg1\"></div>\n    <div class=\"bg2\"></div>\n    <div class=\"bd1\"></div>\n    <div class=\"bd1h\"></div>\n    <div\n      class=\"bg-cloud\"\n      style=\"inset: unset; left: -10px; bottom: -20px; height: 70px; scale: 0.5;\"\n    ></div>\n    <div class=\"bd6\"></div>\n    <div class=\"bd-sat\"></div>\n    <div class=\"bg-cloud\" style=\"top: 30px; left: 270px; height: 50px;\"></div>\n    <div class=\"bg-cloud\" style=\"top: 7px; left: 10px; height: 30px;\"></div>\n    <div\n      class=\"bg-cloud\"\n      style=\"top: 0px; left: 70px; height: 30px; aspect-ratio: 5;\"\n    ></div>\n    <div\n      class=\"bg-cloud\"\n      style=\"top: 0px; left: -39px; rotate: 215deg; height: 30px; aspect-ratio: 3;\"\n    ></div>\n    <div class=\"bd3\"></div>\n    <div class=\"bd3a\"></div>\n    <div class=\"bd4\"></div>\n    <div class=\"bd4h\"></div>\n    <div class=\"bd4d\"></div>\n    <div class=\"bd5\"></div>\n  </div>\n  <span class=\"btn-txt\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n      <path d=\"M11 15H6L13 1V9H18L11 23V15Z\"></path>\n    </svg>\n    Join now\n  </span>\n</button>\n\n<style>\n/* From Uiverse.io by SelfMadeSystem  - Tags: 3d, pink, gradient, button, hover, active, 3d button */\n.button {\n  --br: 27px;\n  --w: 360px;\n  --h: 113px;\n  --bg-grad: radial-gradient(#fffd 10px, #0000 calc(var(--w) - 60px)),\n    linear-gradient(\n      70deg in lch,\n      #8e0dff,\n      #e39cf6 15%,\n      #fd9b9a 45%,\n      #ff7139 65%,\n      #fdbff1 85%\n    );\n\n  position: relative;\n  cursor: pointer;\n  border-radius: var(--br);\n  isolation: isolate;\n  border: 0;\n  overflow: hidden;\n  width: var(--w);\n  height: var(--h);\n}\n\n.btn-bg {\n  position: absolute;\n  inset: 0;\n  z-index: -1;\n}\n\n:where(.btn-bg > div) {\n  position: absolute;\n  inset: 0;\n}\n\n.bg1 {\n  inset: -30px;\n  filter: url(\"#l-distort\");\n  background: var(--bg-grad);\n}\n\n.bg2 {\n  left: 0;\n  top: 0;\n  height: 100%;\n  aspect-ratio: 1.5;\n  background: radial-gradient(#fffd 10px, #0000 60px);\n  filter: url(\"#m-distort\");\n}\n\n.bg-cloud {\n  transform: translate(-50%);\n  aspect-ratio: 1.5;\n  background: radial-gradient(#fffd, #0000 70%);\n  filter: url(\"#m-distort\");\n}\n\n.bd-sat {\n  mask: linear-gradient(#fff, #fff0 40% 60%, #fff);\n}\n\n.bd-sat::after {\n  content: \"\";\n  position: absolute;\n  inset: -30px;\n  border-radius: calc(var(--br) + 30px);\n  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);\n  /* I forgor that I need the two mask composites because of firefoxxxxxx */\n  mask-composite: exclude;\n  mask-composite: xor;\n  background: var(--bg-grad);\n  filter: url(\"#l-distort\") saturate(3);\n  padding: calc(30px + 7px);\n}\n\n.bd1 {\n  transition: opacity 0.5s;\n  border-radius: calc(var(--br) - 18px);\n  inset: 6px;\n  box-shadow: inset -13px -13px 5px -10px #fffa;\n}\n\n.button:hover .bd1 {\n  opacity: 0;\n}\n\n.bd1h {\n  transition: opacity 0.5s;\n  border-radius: calc(var(--br) - 18px);\n  opacity: 0;\n  inset: 6px;\n  box-shadow: inset 13px 13px 5px -10px #fffa;\n}\n\n.button:hover:not(:active) .bd1h {\n  opacity: 1;\n}\n\n.bd3 {\n  inset: 20px;\n  border-radius: 17px;\n  border: 2px solid #fff8;\n  box-shadow: 0px 0px 6px 0px #fffa, inset -6px -6px 6px -6px #fffa,\n    inset 0px 6px 6px -6px #0004;\n  filter: blur(1px);\n}\n\n.bd3a {\n  inset: 42px;\n  right: 38px;\n  border-radius: 10px;\n  filter: blur(4px);\n  box-shadow: 0px 0px 20px 2px #0001, inset 0px 0px 3px 0px #fffa;\n}\n\n.bd4 {\n  transition: opacity 0.5s;\n  border-radius: calc(var(--br) - 5px);\n  box-shadow: inset 8px 8px 5px -5px #0005;\n}\n\n.button:hover .bd4 {\n  opacity: 0;\n}\n\n.bd4h {\n  transition: opacity 0.5s;\n  opacity: 0;\n  border-radius: calc(var(--br) - 5px);\n  box-shadow: inset -8px -8px 5px -5px #0005;\n}\n\n.button:hover:not(:active) .bd4h {\n  opacity: 1;\n}\n\n.bd4d {\n  transition: opacity 0.5s;\n  opacity: 0;\n  border-radius: var(--br);\n  box-shadow: inset 0px 0px 5px 3px #0005;\n}\n\n.button:active .bd4d {\n  opacity: 1;\n}\n\n.bd5 {\n  left: 26px;\n  top: 10px;\n  width: 60px;\n  height: 12px;\n  box-shadow: inset 5px -5px 5px -5px #fff;\n  background: linear-gradient(30deg, #fff, #fff0);\n  border-radius: 99px;\n  filter: blur(1.5px);\n}\n\n.bd6 {\n  left: 2px;\n  top: 26px;\n  width: 20px;\n  height: 60px;\n  rotate: 10deg;\n  box-shadow: inset 7px 7px 7px -7px #fff;\n  /* background: linear-gradient(150deg, #fff, #fff0); */\n  border-radius: 99px;\n  filter: blur(1.5px);\n}\n\n.btn-txt {\n  display: flex;\n  align-items: center;\n  font-size: 20px;\n  width: fit-content;\n  margin: auto;\n}\n\n.btn-txt svg {\n  height: 25px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

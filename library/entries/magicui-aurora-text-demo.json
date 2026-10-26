@@ -1,0 +1,36 @@
+{
+  "id": "magicui-aurora-text-demo",
+  "title": "Aurora Text Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/aurora-text",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "aurora",
+    "text",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a beautiful aurora text effect.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/aurora-text-demo.tsx",
+  "code": "import { AuroraText } from \"@/registry/magicui/aurora-text\"\n\nexport default function AuroraTextDemo() {\n  return (\n    <h1 className=\"text-4xl font-bold tracking-tighter md:text-5xl lg:text-7xl\">\n      Ship <AuroraText>beautiful</AuroraText>\n    </h1>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

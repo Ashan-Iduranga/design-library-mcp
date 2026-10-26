@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-sofiapetushok-wet-catfish-33-e66ef8",
+  "title": "Button by sofiapetushok (wet-catfish-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/sofiapetushok/wet-catfish-33",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By sofiapetushok on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/sofiapetushok_wet-catfish-33.html",
+  "code": "<button class=\"button\">Hover</button>\n\n<style>\n/* From Uiverse.io by sofiapetushok  - Tags: button */\n.button {\n  cursor: pointer;\n  position: relative;\n  background: #1b1b1b;\n  border: none;\n  padding: 10px 15px;\n  border-radius: 8px;\n  overflow: hidden;\n  z-index: 1;\n  color: #fff;\n}\n\n.button::after {\n  position: absolute;\n  content: \"\";\n  top: 97%;\n  left: 0;\n  height: 100%;\n  width: 0;\n  background: linear-gradient(90deg, #14efff, #34ffc5, transparent);\n  transition: width 0.3s ease-in-out;\n  box-shadow: 0 0 50px 0 #14a1ff64;\n  border-radius: 50%;\n}\n.button:hover::after {\n  width: 200%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

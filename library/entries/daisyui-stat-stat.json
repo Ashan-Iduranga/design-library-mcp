@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-stat-stat",
+  "title": "Stat: Stat (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/stat/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "stat",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Stat is used to show numbers and data in a block.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/stat/+page.md",
+  "code": "<div class=\"stats shadow\">\n  <div class=\"stat\">\n    <div class=\"stat-title\">Total Page Views</div>\n    <div class=\"stat-value\">89,400</div>\n    <div class=\"stat-desc\">21% more than last month</div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

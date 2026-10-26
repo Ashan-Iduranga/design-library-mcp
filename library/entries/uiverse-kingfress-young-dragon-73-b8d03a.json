@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-kingfress-young-dragon-73-b8d03a",
+  "title": "Button by KINGFRESS (young-dragon-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KINGFRESS/young-dragon-73",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "progress-bar"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KINGFRESS on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/KINGFRESS_young-dragon-73.html",
+  "code": "<button>\n  <span class=\"txt\">submit</span>\n  <span class=\"txt2\">sent!</span>\n  <span class=\"loader-container\">\n    <span class=\"loader\"></span>\n  </span>\n</button>\n<style>\n/* From Uiverse.io by KINGFRESS - Tags: button, progress bar */\nbutton {\n  background-color: transparent;\n  width: 13em;\n  height: 3.3em;\n  border: 2px solid #1abc9c;\n  border-radius: 25px;\n  font-weight: bold;\n  text-transform: uppercase;\n  color: #1abc9c;\n  padding: 2px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  overflow: hidden;\n  cursor: pointer;\n}\n\nbutton .txt {\n  transition: .4s ease-in-out;\n  position: absolute;\n}\n\nbutton .txt2 {\n  transform: translateY(1em) scale(0);\n  color: #212121;\n  position: absolute;\n}\n\nbutton .loader-container {\n  height: 100%;\n  width: 100%;\n  background-color: transparent;\n  border-radius: inherit;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  z-index: -1;\n  overflow: hidden;\n}\n\nbutton .loader-container .loader {\n  height: 100%;\n  width: 100%;\n  background-color: #1abc9c;\n  border-radius: inherit;\n  transform: translateX(-13em);\n}\n\nbutton:focus {\n  transition: .4s ease-in-out .4s;\n  animation: scaling 1.5s ease-in-out 0s 1 both;\n}\n\nbutton:focus .txt {\n  position: absolute;\n  transform: translateY(-5em);\n  transition: .4s ease-in-out;\n}\n\nbutton:focus .txt2 {\n  transform: translateY(0) scale(1);\n  transition: .3s ease-in-out 1.7s;\n}\n\nbutton:focus .loader {\n  display: block;\n  transform: translate(0);\n  transition: .8s cubic-bezier(0,.4,1,.28) .4s;\n  animation: loading;\n}\n\n@keyframes scaling {\n  20% {\n    height: 1.5em;\n  }\n\n  80% {\n    height: 1.5em;\n  }\n\n  100% {\n    height: 3.3em;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-zebra76966-quiet-rat-63-8a6ac2",
+  "title": "Loader by zebra76966 (quiet-rat-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/zebra76966/quiet-rat-63",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "multicolor"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By zebra76966 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/zebra76966_quiet-rat-63.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by zebra76966 - Tags: loader, multicolor */\n.loader {\n  border-top: 8px solid hotpink;\n  border-bottom: 8px solid #f55951;\n  border-left: 8px solid #3a9efd;\n  border-right: 8px solid #1fff7c;\n  border-radius: 100%;\n  height: 100px;\n  width: 100px;\n  animation: looper 5s infinite ease-in-out;\n}\n\n@keyframes looper {\n  0% {\n    border-radius: 100% 100% 100% 100%;\n    border-color: hotpink #3a9efd #1fff7c #f55951;\n  }\n\n  10% {\n    border-radius: 0% 100% 0% 0%;\n    border-color: #f55951;\n    transform: rotate(150deg);\n  }\n\n  20% {\n    border-radius: 0% 0% 0% 0%;\n    border-color: #3a9efd;\n  }\n\n  30% {\n    border-radius: 0% 0% 0% 0%;\n    border-color: #1fff7c;\n  }\n\n  40% {\n    border-radius: 0% 0% 0% 0%;\n    border-color: #3a9efd;\n  }\n\n  50% {\n    border-radius: 100%;\n    border-color: #f55951;\n  }\n\n  90% {\n    border-radius: 100%;\n    transform: rotate(360deg);\n    border-style: dashed;\n  }\n\n  100% {\n    transform: rotate(0deg);\n    border-radius: 100% 100% 100% 100%;\n    border-color: hotpink #3a9efd #1fff7c #f55951;\n  }\n}\n\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-catraco-soft-falcon-9-d8b22f",
+  "title": "Toggle by catraco (soft-falcon-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/catraco/soft-falcon-9",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "simple",
+    "small",
+    "switcher"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By catraco on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/catraco_soft-falcon-9.html",
+  "code": "<label class=\"switch\">\n  <input class=\"checkbox\" type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by catraco - Tags: simple, small, switcher */\n/* Switch - Container */\n.switch {\n  --primary: #50F080;\n  --secondary: #F05050;\n  --dark: #505050;\n  --light: #D0D0D0;\n  background-color: var(--dark);\n  position: relative;\n  display: inline-block;\n  border-radius: 1rem;\n  cursor: pointer;\n  width: 50px;\n  height: 25px;\n}\n\n/* Hide default HTML checkbox */\n.checkbox {\n  opacity: 0\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  left: 0;\n  top: 50%;\n  width: 50%;\n  height: 100%;\n  transition: .4s;\n  border-radius: 100%;\n  transform: translateY(-50%);\n  border: 4px solid var(--dark);\n  background-color: var(--secondary);\n}\n\n.checkbox:checked + .slider {\n  background-color: var(--primary);\n  transform: translate(100%, -50%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

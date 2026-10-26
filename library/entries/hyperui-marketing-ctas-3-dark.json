@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-marketing-ctas-3-dark",
+  "title": "CTAs: Base with content can call to action on the left, offset image on the right (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/ctas",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "marketing",
+    "ctas",
+    "hyperui",
+    "signup",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/ctas/3-dark.html",
+  "code": "<section class=\"overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center dark:bg-gray-900\">\n<div class=\"p-8 md:p-12 lg:px-16 lg:py-24\">\n<div class=\"mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right\">\n<h2 class=\"text-2xl font-bold text-gray-900 md:text-3xl dark:text-white\">\n            Lorem, ipsum dolor sit amet consectetur adipisicing elit\n          </h2>\n<p class=\"hidden text-gray-500 md:mt-4 md:block dark:text-gray-400\">\n            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam\n            sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet\n            volutpat quisque ut interdum tincidunt duis.\n          </p>\n<div class=\"mt-4 md:mt-8\">\n<a class=\"inline-block rounded-sm bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:ring-2 focus:ring-yellow-400 focus:outline-hidden\" href=\"#\">\n              Get Started Today\n            </a>\n</div>\n</div>\n</div>\n<img alt=\"\" class=\"h-full w-full object-cover sm:h-[calc(100%-2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%-4rem)] md:rounded-ss-[60px]\" src=\"https://images.unsplash.com/photo-1484959014842-cd1d967a39cf?auto=format&amp;fit=crop&amp;q=80&amp;w=1160\"/>\n</section>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

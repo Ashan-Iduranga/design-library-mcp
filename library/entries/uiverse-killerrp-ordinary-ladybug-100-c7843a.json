@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-killerrp-ordinary-ladybug-100-c7843a",
+  "title": "Card by KillerRP (ordinary-ladybug-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KillerRP/ordinary-ladybug-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "3d",
+    "clock",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KillerRP on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/KillerRP_ordinary-ladybug-100.html",
+  "code": "<div class=\"one-div\"></div>\n<style>\n/* From Uiverse.io by KillerRP - Tags: 3d, clock, animated */\n.one-div {\n  --box-width: 100px;\n  width: var(--box-width);\n  height: var(--box-width);\n  border: 2px solid red;\n  background-color: white;\n  border-radius: 100%;\n  position: relative;\n  transform: scale(1);\n  transition: 2s ease;\n  cursor: pointer;\n  box-shadow: 2px 2px 10px white;\n}\n\n.one-div:hover {\n  transform: scale(1.5);\n  box-shadow: 2px 2px 50px yellow;\n}\n\n.one-div::before, .one-div::after {\n  content: \"\";\n  width: 2px;\n  display: block;\n  height: 100%;\n  background: linear-gradient(black 50%, transparent 50%);\n  border-radius: 20px;\n  position: absolute;\n  left: 50%;\n  transform-origin: translate(-100%, -100%);\n}\n\n.one-div::after {\n  height: 100%;\n  animation: secondsMotion 120s  infinite linear;\n}\n\n.one-div::before {\n  animation: secondsMotion 6s infinite linear;\n}\n\n@keyframes secondsMotion {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

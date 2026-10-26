@@ -1,0 +1,35 @@
+{
+  "id": "magicui-typing-animation-demo",
+  "title": "Typing Animation Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/typing-animation",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "typing",
+    "animation",
+    "demo",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing typed character animations.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/typing-animation-demo.tsx",
+  "code": "import { TypingAnimation } from \"@/registry/magicui/typing-animation\"\n\nexport default function Component() {\n  return <TypingAnimation>Hello World! 👋</TypingAnimation>\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

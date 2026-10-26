@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-wise-fox-44-5a922f",
+  "title": "Loader by mrhyddenn (wise-fox-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/wise-fox-44",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_wise-fox-44.html",
+  "code": "<div class=\"loader\">\n    <div class=\"face\">\n        <div class=\"circle\"></div>\n    </div>\n    <div class=\"face\">\n        <div class=\"circle\"></div>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  width: 6em;\n  height: 6em;\n  font-size: 10px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.loader .face {\n  position: absolute;\n  border-radius: 50%;\n  border-style: solid;\n  animation: animate023845 3s linear infinite;\n}\n\n.loader .face:nth-child(1) {\n  width: 100%;\n  height: 100%;\n  color: gold;\n  border-color: currentColor transparent transparent currentColor;\n  border-width: 0.2em 0.2em 0em 0em;\n  --deg: -45deg;\n  animation-direction: normal;\n}\n\n.loader .face:nth-child(2) {\n  width: 70%;\n  height: 70%;\n  color: lime;\n  border-color: currentColor currentColor transparent transparent;\n  border-width: 0.2em 0em 0em 0.2em;\n  --deg: -135deg;\n  animation-direction: reverse;\n}\n\n.loader .face .circle {\n  position: absolute;\n  width: 50%;\n  height: 0.1em;\n  top: 50%;\n  left: 50%;\n  background-color: transparent;\n  transform: rotate(var(--deg));\n  transform-origin: left;\n}\n\n.loader .face .circle::before {\n  position: absolute;\n  top: -0.5em;\n  right: -0.5em;\n  content: '';\n  width: 1em;\n  height: 1em;\n  background-color: currentColor;\n  border-radius: 50%;\n  box-shadow: 0 0 2em,\n                0 0 4em,\n                0 0 6em,\n                0 0 8em,\n                0 0 10em,\n                0 0 0 0.5em rgba(255, 255, 0, 0.1);\n}\n\n@keyframes animate023845 {\n  to {\n    transform: rotate(1turn);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

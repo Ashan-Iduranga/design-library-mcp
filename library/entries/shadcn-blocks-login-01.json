@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-blocks-login-01",
+  "title": "Login 01 (shadcn/ui block)",
+  "source": "shadcn/ui",
+  "url": "https://ui.shadcn.com/blocks#login-01",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "block",
+    "login",
+    "authentication",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A simple login form.\n\nInstall into a project: npx shadcn@latest add login-01\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/blocks/login-01/page.tsx",
+  "code": "// File: blocks/login-01/page.tsx\nimport { LoginForm } from \"@/registry/new-york-v4/blocks/login-01/components/login-form\"\n\nexport default function Page() {\n  return (\n    <div className=\"flex min-h-svh w-full items-center justify-center p-6 md:p-10\">\n      <div className=\"w-full max-w-sm\">\n        <LoginForm />\n      </div>\n    </div>\n  )\n}\n\n\n// File: blocks/login-01/components/login-form.tsx\nimport { cn } from \"cn\"\n\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\nimport {\n  Card,\n  CardContent,\n  CardDescription,\n  CardHeader,\n  CardTitle,\n} from \"@/registry/new-york-v4/ui/card\"\nimport {\n  Field,\n  FieldDescription,\n  FieldGroup,\n  FieldLabel,\n} from \"@/registry/new-york-v4/ui/field\"\nimport { Input } from \"@/registry/new-york-v4/ui/input\"\n\nexport function LoginForm({\n  className,\n  ...props\n}: React.ComponentProps<\"div\">) {\n  return (\n    <div className={cn(\"flex flex-col gap-6\", className)} {...props}>\n      <Card>\n        <CardHeader>\n          <CardTitle>Login to your account</CardTitle>\n          <CardDescription>\n            Enter your email below to login to your account\n          </CardDescription>\n        </CardHeader>\n        <CardContent>\n          <form>\n            <FieldGroup>\n              <Field>\n                <FieldLabel htmlFor=\"email\">Email</FieldLabel>\n                <Input\n                  id=\"email\"\n                  type=\"email\"\n                  placeholder=\"m@example.com\"\n                  required\n                />\n              </Field>\n              <Field>\n                <div className=\"flex items-center\">\n                  <FieldLabel htmlFor=\"password\">Password</FieldLabel>\n                  <a\n                    href=\"#\"\n                    className=\"ml-auto inline-block text-sm underline-offset-4 hover:underline\"\n                  >\n                    Forgot your password?\n                  </a>\n                </div>\n                <Input id=\"password\" type=\"password\" required />\n              </Field>\n              <Field>\n                <Button type=\"submit\">Login</Button>\n                <Button variant=\"outline\" type=\"button\">\n                  Login with Google\n                </Button>\n                <FieldDescription className=\"text-center\">\n                  Don&apos;t have an account? <a href=\"#\">Sign up</a>\n                </FieldDescription>\n              </Field>\n            </FieldGroup>\n          </form>\n        </CardContent>\n      </Card>\n    </div>\n  )\n}\n",
+  "prompt": "npx shadcn@latest add login-01",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

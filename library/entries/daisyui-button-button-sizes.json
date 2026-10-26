@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-button-button-sizes",
+  "title": "Button: Button sizes (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/button/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Buttons allow the user to take actions or make choices.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/button/+page.md",
+  "code": "<button class=\"btn btn-xs\">Xsmall</button>\n<button class=\"btn btn-sm\">Small</button>\n<button class=\"btn\">Medium</button>\n<button class=\"btn btn-lg\">Large</button>\n<button class=\"btn btn-xl\">Xlarge</button>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

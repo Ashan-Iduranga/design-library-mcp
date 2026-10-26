@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-themrsami-calm-eel-15-3563a3",
+  "title": "Input by themrsami (calm-eel-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/themrsami/calm-eel-15",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By themrsami on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/themrsami_calm-eel-15.html",
+  "code": "<div class=\"search-container\">\n  <div class=\"search-bar\">\n    <input type=\"text\" class=\"search-input\" placeholder=\"Search...\" />\n    <div class=\"search-icon\">\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        height=\"24\"\n        viewBox=\"0 0 24 24\"\n        width=\"24\"\n      >\n        <path d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n        <path\n          d=\"M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zM9.5 14C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"\n        ></path>\n      </svg>\n    </div>\n  </div>\n  <div class=\"glow\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by themrsami  - Tags: input */\n.search-container {\n  position: relative;\n  width: 290px;\n}\n\n.search-bar {\n  position: relative;\n  display: flex;\n  align-items: center;\n  background-color: #1e1e1e;\n  border-radius: 8px;\n  padding: 10px;\n  overflow: hidden;\n  transition: all 0.3s ease;\n}\n\n.search-input {\n  width: 100%;\n  border: none;\n  background: none;\n  color: #fff;\n  font-size: 16px;\n  padding: 10px;\n  outline: none;\n}\n\n.search-input::placeholder {\n  color: #aaa;\n}\n\n.search-icon {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 10px;\n  background-color: #333;\n  border-radius: 50%;\n  margin-left: 10px;\n  cursor: pointer;\n  transition: background-color 0.3s ease;\n}\n\n.search-icon svg {\n  fill: #fff;\n}\n\n.search-icon:hover {\n  background-color: #555;\n}\n\n.search-bar:hover {\n  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);\n}\n\n.search-bar:focus-within {\n  box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);\n}\n\n.glow {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 100%;\n  height: 200%;\n  border-radius: 100px;\n  background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent);\n  transition: all 0.5s ease;\n  transform: translate(-50%, -50%) scale(0);\n  z-index: -1;\n}\n\n.search-bar:hover + .glow {\n  transform: translate(-50%, -50%) scale(1);\n}\n\n.search-bar:focus-within + .glow {\n  transform: translate(-50%, -50%) scale(1.2);\n  background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

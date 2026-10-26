@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-david-mohseni-terrible-mayfly-58-624ebd",
+  "title": "Checkbox by david-mohseni (terrible-mayfly-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/david-mohseni/terrible-mayfly-58",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "hamburger",
+    "menu"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By david-mohseni on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/david-mohseni_terrible-mayfly-58.html",
+  "code": "<label for=\"menu-icon\" class=\"menu-icon\">\n  <input id=\"menu-icon\" type=\"checkbox\" />\n  <span></span>\n  <span></span>\n  <span></span>\n</label>\n\n<style>\n/* From Uiverse.io by david-mohseni  - Tags: checkbox, hamburger, menu */\n.menu-icon {\n  position: relative;\n  width: 60px;\n  height: 50px;\n  background: rgb(0, 0, 0);\n  padding: 10px;\n  cursor: pointer;\n}\n.menu-icon input {\n  display: none;\n}\n.menu-icon span {\n  display: block;\n  position: relative;\n  height: 3px;\n  width: 100%;\n  background: rgb(255, 255, 255);\n  border-radius: 10px;\n  opacity: 1;\n  left: 0;\n  margin-bottom: 24%;\n  transition: 0.3s ease-in-out;\n}\n.menu-icon span {\n  transform-origin: left center;\n}\n.menu-icon input:checked ~ span {\n  background: red;\n  left: 5px;\n  margin-bottom: 28%;\n}\n.menu-icon input:checked ~ span:nth-of-type(1) {\n  transform: rotate(45deg);\n}\n.menu-icon input:checked ~ span:nth-of-type(2) {\n  opacity: 0;\n}\n.menu-icon input:checked ~ span:nth-of-type(3) {\n  transform: rotate(-45deg);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

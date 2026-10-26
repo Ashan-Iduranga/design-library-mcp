@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-nlghtm4re-popular-crab-99-48f4d0",
+  "title": "Loader by NlghtM4re (popular-crab-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/NlghtM4re/popular-crab-99",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "cube",
+    "shadow",
+    "glow",
+    "colorful"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By NlghtM4re on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/NlghtM4re_popular-crab-99.html",
+  "code": "<div class=\"loader\">\n  <div></div> \n  <div></div>\n  <div></div>\n  <div></div>\n</div>\n<style>\n/* From Uiverse.io by NlghtM4re - Tags: loader, cube, shadow, glow, colorful */\n.loader {\n  height: 120px;\n  width: 120px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n\n.loader div {\n  height: 30px;\n  width: 30px;\n  position: absolute;\n  animation: move 4s infinite;\n}\n\n.loader div:nth-child(1) {\n  background-color: rgb(158, 136, 246);\n  box-shadow: rgb(158, 136, 246) 0px 7px 29px 0px;\n  transform: translate(-30px,-30px);\n  animation-delay: -1s;\n}\n\n.loader div:nth-child(2) {\n  background-color: rgb(97, 183, 253);\n  box-shadow: rgb(97, 183, 253) 0px 7px 29px 0px;\n  transform: translate(30px,-30px);\n  animation-delay: -2s;\n}\n\n.loader div:nth-child(3) {\n  background-color: rgb(95, 249, 175);\n  box-shadow: rgb(95, 249, 175) 0px 7px 29px 0px;\n  transform: translate(30px,30px);\n  animation-delay: -3s;\n}\n\n.loader div:nth-child(4) {\n  background-color: rgb(243, 171, 89);\n  box-shadow: rgb(243, 171, 89) 0px 7px 29px 0px;\n  transform: translate(-30px,30px);\n  animation-delay: -4s;\n}\n\n@keyframes move {\n  0% {\n    transform: translate(-30px, -30px);\n  }\n\n  25% {\n    transform: translate(30px, -30px);\n  }\n\n  50% {\n    transform: translate(30px, 30px);\n  }\n\n  75% {\n    transform: translate(-30px, 30px);\n  }\n\n  100% {\n    transform: translate(-30px, -30px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

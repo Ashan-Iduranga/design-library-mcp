@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-ksaplay-smart-bobcat-50-ae492a",
+  "title": "Checkbox by KSAplay (smart-bobcat-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KSAplay/smart-bobcat-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "like",
+    "heart"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KSAplay on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/KSAplay_smart-bobcat-50.html",
+  "code": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\">\n    <svg viewBox=\"0 0 256 256\">\n    <rect fill=\"none\" height=\"256\" width=\"256\"></rect>\n    <path d=\"M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z\" stroke-width=\"20px\" stroke=\"#FFF\" fill=\"none\"></path></svg>\n  </div>\n</label>\n<style>\n/* From Uiverse.io by KSAplay - Tags: checkbox, like, heart */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n  transition: 100ms;\n}\n\n.checkmark {\n  top: 0;\n  left: 0;\n  height: 2em;\n  width: 2em;\n  transition: 100ms;\n  animation: dislike_effect 400ms ease;\n}\n\n.container input:checked ~ .checkmark path {\n  fill: #FF5353;\n  stroke-width: 0;\n}\n\n.container input:checked ~ .checkmark {\n  animation: like_effect 400ms ease;\n}\n\n.container:hover {\n  transform: scale(1.1);\n}\n\n@keyframes like_effect {\n  0% {\n    transform: scale(0);\n  }\n\n  50% {\n    transform: scale(1.2);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n@keyframes dislike_effect {\n  0% {\n    transform: scale(0);\n  }\n\n  50% {\n    transform: scale(1.2);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

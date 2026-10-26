@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-ugly-elephant-80-a78c4b",
+  "title": "Loader by Shoh2008 (ugly-elephant-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/ugly-elephant-80",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_ugly-elephant-80.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 45px;\n  height: 40px;\n  background: linear-gradient(#0000 calc(1*100%/6),#fff 0 calc(3*100%/6),#0000 0),\n            linear-gradient(#0000 calc(2*100%/6),#fff 0 calc(4*100%/6),#0000 0),\n            linear-gradient(#0000 calc(3*100%/6),#fff 0 calc(5*100%/6),#0000 0);\n  background-size: 10px 400%;\n  background-repeat: no-repeat;\n  animation: matrix 1s infinite linear;\n}\n\n@keyframes matrix {\n  0% {\n    background-position: 0% 100%, 50% 100%, 100% 100%\n  }\n\n  100% {\n    background-position: 0% 0%, 50% 0%, 100% 0%\n  }\n}\n    \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

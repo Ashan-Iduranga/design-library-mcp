@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-df12345677-black-rat-82-69ab9e",
+  "title": "Button by Df12345677 (black-rat-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Df12345677/black-rat-82",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animated",
+    "add"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Df12345677 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Df12345677_black-rat-82.html",
+  "code": "<button class=\"button\">\n  <span>Add to cart</span>\n  <svg fill=\"#fff\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><g stroke-width=\"0\" id=\"SVGRepo_bgCarrier\"></g><g stroke-linejoin=\"round\" stroke-linecap=\"round\" id=\"SVGRepo_tracerCarrier\"></g><g id=\"SVGRepo_iconCarrier\"> <defs>  </defs> <g id=\"cart\"> <circle r=\"1.91\" cy=\"20.59\" cx=\"10.07\" class=\"cls-1\"></circle> <circle r=\"1.91\" cy=\"20.59\" cx=\"18.66\" class=\"cls-1\"></circle> <path d=\"M.52,1.5H3.18a2.87,2.87,0,0,1,2.74,2L9.11,13.91H8.64A2.39,2.39,0,0,0,6.25,16.3h0a2.39,2.39,0,0,0,2.39,2.38h10\" class=\"cls-1\"></path> <polyline points=\"7.21 5.32 22.48 5.32 22.48 7.23 20.57 13.91 9.11 13.91\" class=\"cls-1\"></polyline> </g> </g></svg>\n</button>\n<style>\n/* From Uiverse.io by Df12345677 - Tags: button, animated, add */\n.button {\n  height: 60px;\n  width: 200px;\n  background-color: #132233;\n  border: 2px solid rgb(182, 128, 128);\n  color: #eee;\n  transition: .6s;\n  font-size: 15px;\n  border-radius: 50px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  /* padding: 20px; */\n  overflow: hidden;\n}\n\n.button span {\n  transform: translateX(10px);\n  transition: .5s;\n}\n\n.button svg {\n  transform: translateX(-300px);\n  transition: .6s;\n  z-index: 3;\n  height: 20px;\n}\n\n.button:hover {\n  width: 60px;\n  background-color: rgba(51, 34, 51, 0.815);\n  box-shadow: 20px 20px 96px #bebebe,-20px -20px 96px #ffffff;\n}\n\n.button:hover svg {\n  transform: translateX(-5px);\n}\n\n.button:hover span {\n  transform: translateY(70px);\n  font-size: .1rem;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-spacious74-lovely-goose-53-86a106",
+  "title": "Radio by Spacious74 (lovely-goose-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Spacious74/lovely-goose-53",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "active",
+    "menu"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Spacious74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Spacious74_lovely-goose-53.html",
+  "code": "<div class=\"radio-inputs\">\n  <label class=\"radio\">\n    <input type=\"radio\" name=\"radio\" checked=\"\" />\n    <span class=\"name\">HTML</span>\n  </label>\n  <label class=\"radio\">\n    <input type=\"radio\" name=\"radio\" />\n    <span class=\"name\">React</span>\n  </label>\n\n  <label class=\"radio\">\n    <input type=\"radio\" name=\"radio\" />\n    <span class=\"name\">Vue</span>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by Spacious74  - Tags: active, radio, menu */\n.radio-inputs {\n  position: relative;\n  display: flex;\n  border-radius: 0.5rem;\n  background-color: #70c489;\n  box-sizing: border-box;\n  font-size: 14px;\n  width: 90%;\n  padding: 1rem 1rem 0 1rem;\n}\n\n.radio-inputs .radio input {\n  display: none;\n}\n\n.radio-inputs .radio .name {\n  display: flex;\n  cursor: pointer;\n  align-items: center;\n  justify-content: center;\n  border-top-left-radius: 0.5rem;\n  border-top-right-radius: 0.5rem;\n  border: none;\n  padding: 0.5rem 0.8rem;\n  color: ;\n  transition: all 0.15s ease-in-out;\n  position: relative;\n}\n\n.radio-inputs .radio input:checked + .name {\n  background-color: #e8e8e8;\n  font-weight: 600;\n}\n.radio-inputs .radio input + .name:hover {\n  color: #fff;\n}\n.radio-inputs .radio input:checked + .name:hover {\n  color: #1d1d29;\n}\n\n.radio-inputs .radio input:checked + .name::after,\n.radio-inputs .radio input:checked + .name::before {\n  content: \"\";\n  position: absolute;\n  width: 10px;\n  height: 10px;\n  background-color: #70c489;\n  bottom: 0;\n}\n\n.radio-inputs .radio input:checked + .name::after {\n  right: -10px;\n  border-bottom-left-radius: 300px;\n  box-shadow: -3px 3px 0px 3px #e8e8e8;\n}\n.radio-inputs .radio input:checked + .name::before {\n  left: -10px;\n  border-bottom-right-radius: 300px;\n  box-shadow: 3px 3px 0px 3px #e8e8e8;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

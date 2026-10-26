@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-stealthworm-polite-mole-15-f37c74",
+  "title": "Button by StealthWorm (polite-mole-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/StealthWorm/polite-mole-15",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "synthwave",
+    "retrowave",
+    "vaporwave"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By StealthWorm on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/StealthWorm_polite-mole-15.html",
+  "code": "<button class=\"container\">\n  <strong>SYNTHWAVE</strong>\n  <div id=\"glow\">\n    <div class=\"circle\"></div>\n  </div>\n  <div class=\"inner-container\">\n    <div class=\"fade\"></div>\n\n    <div class=\"up-text\">\n      <div class=\"crawl\">\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n        <div class=\"grid-item\"></div>\n      </div>\n    </div>\n  </div>\n</button>\n\n<style>\n/* From Uiverse.io by StealthWorm  - Tags: button, synthwave, retrowave, vaporwave */\n:root {\n  --main-color: #212121;\n  --gradient-color-1: #ffdb3b;\n  --gradient-color-2: #fe53bb;\n  --gradient-color-3: #8f51ea;\n  --text-glow-color: #ff1372;\n}\n\n.container {\n  all: unset;\n  height: 4rem;\n  width: 16rem;\n  position: relative;\n  border-radius: 20px;\n  border: double 3px transparent;\n  transition: 50ms;\n  background-image: linear-gradient(#212121, #212121),\n    linear-gradient(0, #ffdb3b 0%, #fe53bb 25%, #8f51ea 87%);\n  background-origin: border-box;\n  background-clip: content-box, border-box;\n  cursor: pointer;\n}\n\n.container:hover > strong {\n  transition: 300ms;\n  background-clip: text;\n  -webkit-background-clip: text;\n  color: transparent;\n  filter: brightness(1.75);\n  text-shadow: 2px 0 14px #fff;\n}\n\n.inner-container {\n  height: 100%;\n  width: 100%;\n  overflow: hidden;\n  position: relative;\n  border-radius: 18px;\n}\n\nstrong,\nstrong::before {\n  transition: 300ms;\n  display: flex;\n  height: 100%;\n  width: 100%;\n  align-items: center;\n  justify-content: center;\n  position: absolute;\n  font-size: 1.6rem;\n  letter-spacing: 5px;\n  z-index: 2;\n  background-clip: text;\n  -webkit-background-clip: text;\n  color: transparent;\n  text-shadow: 2px 2px 8px rgba(56, 127, 224, 0.4),\n    -2px -2px 8px rgba(254, 125, 255, 0.4);\n  background-image: linear-gradient(\n    0deg,\n    rgba(255, 142, 224, 1) 0%,\n    rgba(255, 29, 193, 1) 5%,\n    rgba(198, 72, 255, 1) 30%,\n    rgba(0, 0, 0, 1) 49%,\n    rgba(255, 255, 255, 1) 52%,\n    rgba(70, 148, 255, 1) 60%,\n    rgba(21, 59, 112, 1) 69%\n  );\n}\n\nstrong::before {\n  text-shadow: -6px -6px 6px var(--text-glow-color);\n}\n\n#glow {\n  position: absolute;\n  inset: 0;\n  display: flex;\n  width: 100%;\n  height: 10rem;\n  max-height: 4rem;\n}\n\n.circle {\n  width: 100%;\n  height: 100%;\n  filter: blur(1.2rem);\n  animation: pulse 2s infinite alternate;\n  z-index: -1;\n}\n\n.circle:nth-of-type(1) {\n  background: linear-gradient(0, #ffdb3b 0%, #fe53bb 30%, #8f51ea 80%);\n}\n\n.fade {\n  position: absolute;\n  width: 100%;\n  min-height: 10rem;\n  top: -3rem;\n  height: 10rem;\n  background-image: linear-gradient(\n    to top,\n    rgba(236, 195, 11, 0.84) 15%,\n    rgba(255, 31, 184, 0.36) 40%,\n    rgb(43, 1, 54) 65%\n  );\n  z-index: 1;\n}\n\n.up-text {\n  display: flex;\n  justify-content: center;\n  position: relative;\n  height: 800px;\n  font-weight: 600;\n  letter-spacing: 6px;\n  perspective: 400px;\n  text-align: justify;\n}\n\n.crawl {\n  display: grid;\n  grid-template-columns: repeat(6, auto);\n  position: relative;\n  animation: crawl 20s linear infinite alternate;\n}\n\n.grid-item {\n  width: 60px;\n  height: 100%;\n  border: 1px solid #f96bcc;\n  box-shadow: 0 0 10px 4px #ff1fb8;\n}\n\n@keyframes crawl {\n  0% {\n    top: -200px;\n    transform: rotateX(30deg) translateZ(40px);\n  }\n  100% {\n    top: -510px;\n    transform: rotateX(25deg) translateZ(0px);\n  }\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(0.9);\n    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);\n  }\n  100% {\n    transform: scale(1);\n    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-quick-sloth-23-355a7c",
+  "title": "Loader by csemszepp (quick-sloth-23)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/quick-sloth-23",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/csemszepp_quick-sloth-23.html",
+  "code": "<div class=\"wrapper\">\n\t\t<div class=\"hoop\"></div>\n\t\t<div class=\"sphere1\"></div>\n\t\t<div class=\"sphere2\"></div>\t\n\t</div>\n<style>\n/* From Uiverse.io by csemszepp - Source: https://codepen.io/pcameron/pen/jENMKG - Tags: loader, animated */\n@-webkit-keyframes sphere1Move {\n  0% {\n    width: 50px;\n    height: 50px;\n    left: 116px;\n    top: 116px;\n    z-index: 0;\n  }\n\n  10% {\n    width: 40px;\n    height: 40px;\n  }\n\n  20% {\n    width: 30px;\n    height: 30px;\n  }\n\n  30% {\n    width: 40px;\n    height: 40px;\n  }\n\n  45% {\n    left: 15px;\n  }\n\n  49% {\n    z-index: 0;\n  }\n\n  50% {\n    width: 50px;\n    height: 50px;\n    left: 20px;\n    top: 116px;\n    z-index: 10;\n  }\n\t/*55%{left:15px;}*/\n  60% {\n    width: 60px;\n    height: 60px;\n  }\n\n  80% {\n    width: 70px;\n    height: 70px;\n  }\n\n  90% {\n    width: 60px;\n    height: 60px;\n  }\n\n  99% {\n    z-index: 10;\n  }\n\n  100% {\n    width: 50px;\n    height: 50px;\n    left: 116px;\n    top: 116px;\n    z-index: 0;\n  }\n}\n\n@keyframes sphere1Move {\n  0% {\n    width: 50px;\n    height: 50px;\n    left: 116px;\n    top: 116px;\n    z-index: 0;\n  }\n\n  10% {\n    width: 40px;\n    height: 40px;\n  }\n\n  20% {\n    width: 30px;\n    height: 30px;\n  }\n\n  30% {\n    width: 40px;\n    height: 40px;\n  }\n\n  45% {\n    left: 15px;\n  }\n\n  49% {\n    z-index: 0;\n  }\n\n  50% {\n    width: 50px;\n    height: 50px;\n    left: 20px;\n    top: 116px;\n    z-index: 10;\n  }\n/*\t55%{left:15px;}*/\n  60% {\n    width: 60px;\n    height: 60px;\n  }\n\n  80% {\n    width: 70px;\n    height: 70px;\n  }\n\n  90% {\n    width: 60px;\n    height: 60px;\n  }\n\n  99% {\n    z-index: 10;\n  }\n\n  100% {\n    width: 50px;\n    height: 50px;\n    left: 116px;\n    top: 116px;\n    z-index: 0;\n  }\n}\n\n@-webkit-keyframes sphere2Move {\n  0% {\n    width: 50px;\n    height: 50px;\n    left: 116px;\n    top: 116px;\n    z-index: 0;\n  }\n\n  10% {\n    width: 40px;\n    height: 40px;\n  }\n\n  20% {\n    width: 30px;\n    height: 30px;\n  }\n\n  30% {\n    width: 40px;\n    height: 40px;\n  }\n\n  45% {\n    left: 217px;\n  }\n\n  49% {\n    z-index: 0;\n  }\n\n  50% {\n    width: 50px;\n    height: 50px;\n    left: 222px;\n    top: 116px;\n    z-index: 10;\n  }\n\t/*55%{left:15px;}*/\n  60% {\n    width: 60px;\n    height: 60px;\n  }\n\n  80% {\n    width: 70px;\n    height: 70px;\n  }\n\n  90% {\n    width: 60px;\n    height: 60px;\n  }\n\n  99% {\n    z-index: 10;\n  }\n\n  100% {\n    width: 50px;\n    height: 50px;\n    left: 116px;\n    top: 116px;\n    z-index: 0;\n  }\n}\n\n@keyframes sphere2Move {\n  0% {\n    width: 50px;\n    height: 50px;\n    left: 116px;\n    top: 116px;\n    z-index: 0;\n  }\n\n  10% {\n    width: 40px;\n    height: 40px;\n  }\n\n  20% {\n    width: 30px;\n    height: 30px;\n  }\n\n  30% {\n    width: 40px;\n    height: 40px;\n  }\n\n  45% {\n    left: 217px;\n  }\n\n  49% {\n    z-index: 0;\n  }\n\n  50% {\n    width: 50px;\n    height: 50px;\n    left: 222px;\n    top: 116px;\n    z-index: 10;\n  }\n\t/*55%{left:15px;}*/\n  60% {\n    width: 60px;\n    height: 60px;\n  }\n\n  80% {\n    width: 70px;\n    height: 70px;\n  }\n\n  90% {\n    width: 60px;\n    height: 60px;\n  }\n\n  99% {\n    z-index: 10;\n  }\n\n  100% {\n    width: 50px;\n    height: 50px;\n    left: 116px;\n    top: 116px;\n    z-index: 0;\n  }\n}\n\n.wrapper {\n  width: 300px;\n  height: 300px;\n\t/*border:1px solid red;*/\n  margin: 0 auto;\n  margin-top: 5%;\n  position: relative;\n}\n\n.hoop {\n  width: 80px;\n  height: 80px;\n  border-radius: 50%;\n  background: transparent;\n  box-shadow: 0 0 0 6px #96281B, 0 0 0 26px #D64541;\n  position: absolute;\n  left: 100px;\n  top: 100px;\n  z-index: 5;\n}\n\n.sphere1 {\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background: #22A7F0;\n  position: absolute;\n  left: 116px;\n  top: 116px;\n  box-shadow: -7px -7px 0 #1E8BC3 inset;\n  -webkit-animation: sphere1Move 1.2s linear infinite;\n  animation: sphere1Move 1.2s linear infinite;\n}\n\n.sphere2 {\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background: #22A7F0;\n  position: absolute;\n  left: 116px;\n  top: 116px;\n  box-shadow: -7px -7px 0 #1E8BC3 inset;\n  -webkit-animation: sphere2Move 1.2s linear 0.6s infinite;\n  animation: sphere2Move 1.2s linear 0.6s infinite;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mbaziiraronald-green-insect-40-ef311b",
+  "title": "Loader by MbaziiraRonald (green-insect-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MbaziiraRonald/green-insect-40",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MbaziiraRonald on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/MbaziiraRonald_green-insect-40.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by MbaziiraRonald - Tags: loader */\n.loader {\n  height: 50px;\n  width: 50px;\n  background: transparent;\n  border: red 3px solid;\n  border-top: transparent;\n  border-radius: 50%;\n  animation: animate81323 0.8s linear infinite;\n}\n\n@keyframes animate81323 {\n  0% {\n    border: 3px solid rgb(255, 75, 75);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(0deg);\n  }\n\n  50% {\n    border: 3px dashed rgb(240, 41, 240);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(270deg);\n  }\n\n  100% {\n    border: 3px dotted rgb(28, 228, 28);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

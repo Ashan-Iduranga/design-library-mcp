@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-doniaskima-pretty-mouse-82-4ae328",
+  "title": "Loader by doniaskima (pretty-mouse-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/pretty-mouse-82",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "material-design",
+    "skeuomorphism",
+    "glassmorphism",
+    "animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_pretty-mouse-82.html",
+  "code": "<div class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by doniaskima - Tags: simple, material design, skeuomorphism, glassmorphism, animation, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 35px;\n  height: 80px;\n  position: relative;\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  padding: 3px 5px;\n  border-top: 1px solid #bbb6aa;\n  border-bottom: 4px solid #bbb6aa;\n  background: linear-gradient(#612329 0 0) bottom no-repeat content-box, \n    #e4e0d7;\n  mix-blend-mode: darken;\n  animation: l1 1.5s infinite linear;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  inset: -18px calc(50% - 2px) 8px;\n  background: #eb6b3e;\n  transform-origin: bottom;\n  transform: rotate(8deg);\n}\n\n@keyframes l1 {\n  0% {\n    background-size: 100% 100%\n  }\n\n  100% {\n    background-size: 100% 5%\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-alert-alert-with-buttons-responsive",
+  "title": "Alert: Alert with buttons + responsive (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/alert/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "alert",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Alert informs users about important events.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/alert/+page.md",
+  "code": "<div role=\"alert\" class=\"alert alert-vertical sm:alert-horizontal\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-current text-info h-6 w-6 shrink-0\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n  </svg>\n  <span>we use cookies for no reason.</span>\n  <div>\n    <button class=\"btn btn-sm\">Deny</button>\n    <button class=\"btn btn-sm btn-primary\">Accept</button>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

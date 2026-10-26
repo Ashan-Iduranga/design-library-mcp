@@ -1,0 +1,32 @@
+{
+  "id": "open-props-fonts",
+  "title": "Open Props: Fonts tokens",
+  "source": "Open Props",
+  "url": "https://open-props.style/#fonts",
+  "license": "MIT",
+  "type": "token",
+  "tags": [
+    "fonts",
+    "open-props",
+    "css-variables",
+    "tokens"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "56 CSS custom properties, e.g. --font-system-ui, --font-transitional, --font-old-style, --font-humanist.\n\nUse: npm i open-props, then @import \"open-props/fonts\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.fonts.css",
+  "code": ":where(html) {\n  --font-system-ui: system-ui, sans-serif;\n  --font-transitional: Charter, Bitstream Charter, Sitka Text, Cambria, serif;\n  --font-old-style: Iowan Old Style, Palatino Linotype, URW Palladio L, P052, serif;\n  --font-humanist: Seravek, Gill Sans Nova, Ubuntu, Calibri, DejaVu Sans, source-sans-pro, sans-serif;\n  --font-geometric-humanist: Avenir, Montserrat, Corbel, URW Gothic, source-sans-pro, sans-serif;\n  --font-classical-humanist: Optima, Candara, Noto Sans, source-sans-pro, sans-serif;\n  --font-neo-grotesque: Inter, Roboto, Helvetica Neue, Arial Nova, Nimbus Sans, Arial, sans-serif;\n  --font-monospace-slab-serif: Nimbus Mono PS, Courier New, monospace;\n  --font-monospace-code: Dank Mono,Operator Mono, Inconsolata, Fira Mono, ui-monospace, SF Mono, Monaco, Droid Sans Mono, Source Code Pro, Cascadia Code, Menlo, Consolas, DejaVu Sans Mono, monospace;\n  --font-industrial: Bahnschrift, DIN Alternate, Franklin Gothic Medium, Nimbus Sans Narrow, sans-serif-condensed, sans-serif;\n  --font-rounded-sans: ui-rounded, Hiragino Maru Gothic ProN, Quicksand, Comfortaa, Manjari, Arial Rounded MT, Arial Rounded MT Bold, Calibri, source-sans-pro, sans-serif;\n  --font-slab-serif: Rockwell, Rockwell Nova, Roboto Slab, DejaVu Serif, Sitka Small, serif;\n  --font-antique: Superclarendon, Bookman Old Style, URW Bookman, URW Bookman L, Georgia Pro, Georgia, serif;\n  --font-didone: Didot, Bodoni MT, Noto Serif Display, URW Palladio L, P052, Sylfaen, serif;\n  --font-handwritten: Segoe Print, Bradley Hand, Chilanka, TSCu_Comic, casual, cursive;\n  --font-sans: var(--font-system-ui);\n  --font-serif: ui-serif, serif;\n  --font-mono: var(--font-monospace-code);\n  --font-weight-1: 100;\n  --font-weight-2: 200;\n  --font-weight-3: 300;\n  --font-weight-4: 400;\n  --font-weight-5: 500;\n  --font-weight-6: 600;\n  --font-weight-7: 700;\n  --font-weight-8: 800;\n  --font-weight-9: 900;\n  --font-lineheight-00: .95;\n  --font-lineheight-0: 1.1;\n  --font-lineheight-1: 1.25;\n  --font-lineheight-2: 1.375;\n  --font-lineheight-3: 1.5;\n  --font-lineheight-4: 1.75;\n  --font-lineheight-5: 2;\n  --font-letterspacing-0: -.05em;\n  --font-letterspacing-1: .025em;\n  --font-letterspacing-2: .050em;\n  --font-letterspacing-3: .075em;\n  --font-letterspacing-4: .150em;\n  --font-letterspacing-5: .500em;\n  --font-letterspacing-6: .750em;\n  --font-letterspacing-7: 1em;\n  --font-size-00: .5rem;\n  --font-size-0: .75rem;\n  --font-size-1: 1rem;\n  --font-size-2: 1.1rem;\n  --font-size-3: 1.25rem;\n  --font-size-4: 1.5rem;\n  --font-size-5: 2rem;\n  --font-size-6: 2.5rem;\n  --font-size-7: 3rem;\n  --font-size-8: 3.5rem;\n  --font-size-fluid-0: clamp(.75rem, 2vw, 1rem);\n  --font-size-fluid-1: clamp(1rem, 4vw, 1.5rem);\n  --font-size-fluid-2: clamp(1.5rem, 6vw, 2.5rem);\n  --font-size-fluid-3: clamp(2rem, 9vw, 3.5rem);\n}",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

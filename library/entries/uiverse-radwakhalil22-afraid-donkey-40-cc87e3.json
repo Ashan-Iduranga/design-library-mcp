@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-radwakhalil22-afraid-donkey-40-cc87e3",
+  "title": "Toggle by radwakhalil22 (afraid-donkey-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/radwakhalil22/afraid-donkey-40",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "gradient",
+    "switch",
+    "checkbox",
+    "glow",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By radwakhalil22 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/radwakhalil22_afraid-donkey-40.html",
+  "code": "<label class=\"switch\">\n  <input class=\"checkbox\" type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by radwakhalil22 - Tags: gradient, switch, checkbox, glow, animated */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch .checkbox {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: .4s;\n  border-radius: 30px;\n  box-shadow: 2px 2px 2px 2px #222831, -2px -2px 2px 2px #393E46, -2px 2px 2px 2px #00ADB5, 2px -2px 2px 2px #EEEEEE;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: .4s;\n}\n\n.checkbox:checked + .slider:before {\n  box-shadow: 2px 2px 2px 2px #222831, -2px -2px 2px 2px #393E46, -2px 2px 2px 2px #00ADB5, 2px -2px 2px 2px #EEEEEE;\n}\n\n.checkbox:checked + .slider {\n  background-color: #afa2a2;\n  box-shadow: 2px 2px 2px 2px #222831, -2px -2px 2px 2px #393E46, -2px 2px 2px 2px #00ADB5, 2px -2px 2px 2px #EEEEEE;\n}\n\n.checkbox:checked + .slider:before {\n  transform: translateX(1.5em);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

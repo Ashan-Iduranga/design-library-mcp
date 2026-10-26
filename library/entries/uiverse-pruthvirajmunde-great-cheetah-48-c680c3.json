@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-pruthvirajmunde-great-cheetah-48-c680c3",
+  "title": "Button by Pruthvirajmunde (great-cheetah-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pruthvirajmunde/great-cheetah-48",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "smooth"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pruthvirajmunde on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Pruthvirajmunde_great-cheetah-48.html",
+  "code": "<button class=\"button\">Hire Me</button>\n\n<style>\n/* From Uiverse.io by Pruthvirajmunde  - Tags: simple, button, smooth */\n.button {\n  position: relative;\n  transition: all 0.3s ease-in-out;\n  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);\n  padding-block: 0.5rem;\n  padding-inline: 1.25rem;\n  background-color: rgb(153, 174, 187);\n  border-radius: 9999px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #ffff;\n  gap: 10px;\n  font-weight: bold;\n  border: 3px solid #ffffff4d;\n  outline: none;\n  overflow: hidden;\n  font-size: 15px;\n}\n\n.icon {\n  width: 24px;\n  height: 24px;\n  transition: all 0.3s ease-in-out;\n}\n\n.button:hover {\n  transform: scale(1.05);\n  border-color: #fff9;\n}\n\n.button:hover .icon {\n  transform: translate(4px);\n}\n\n.button:hover::before {\n  animation: shine 1.5s ease-out infinite;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  width: 100px;\n  height: 100%;\n  background-image: linear-gradient(\n    120deg,\n    rgba(255, 255, 255, 0) 30%,\n    rgba(255, 255, 255, 0.8),\n    rgba(255, 255, 255, 0) 70%\n  );\n  top: 0;\n  left: -100px;\n  opacity: 0.6;\n}\n\n@keyframes shine {\n  0% {\n    left: -100px;\n  }\n\n  60% {\n    left: 100%;\n  }\n\n  to {\n    left: 100%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

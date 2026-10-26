@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-gaurav-webdev-hard-cougar-70-a63303",
+  "title": "Button by Gaurav-WebDev (hard-cougar-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Gaurav-WebDev/hard-cougar-70",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "hover",
+    "smooth",
+    "btn",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Gaurav-WebDev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Gaurav-WebDev_hard-cougar-70.html",
+  "code": "<button class=\"button\">\n  <p class=\"btn-txt\">Hello !</p>\n</button>\n\n<style>\n/* From Uiverse.io by Gaurav-WebDev  - Tags: simple, button, hover, smooth, btn, hover effect */\n.button {\n  height: 50px;\n  width: 150px;\n  font-weight: 800;\n  border: none;\n  background-color: #3434;\n  color: #ffff;\n  border-radius: 20px;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: all 0.7s;\n}\n\n.button::after {\n  content: \"Me\";\n  height: 100%;\n  width: 50%;\n  background-color: coral;\n  position: absolute;\n  right: 0px;\n  bottom: 0px;\n  display: flex;\n  align-items: center;\n  justify-content: start;\n  padding-left: 10px;\n  box-sizing: border-box;\n  transition: all 0.7s;\n}\n\n.button::before {\n  content: \"Hover\";\n  height: 100%;\n  width: 50%;\n  background-color: teal;\n  position: absolute;\n  left: 0px;\n  top: 0px;\n  display: flex;\n  align-items: center;\n  justify-content: end;\n  padding-right: 10px;\n  box-sizing: border-box;\n  transition: all 0.7s;\n}\n\n.button:hover::after {\n  right: -100px;\n}\n\n.button:hover::before {\n  left: -100px;\n}\n\n.button:hover {\n  background-color: #000;\n  color: #fff;\n  transform: scale(1.2);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-wet-donkey-50-64cd7e",
+  "title": "Button by Pradeepsaranbishnoi (wet-donkey-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/wet-donkey-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "claymorphism",
+    "emoji"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Pradeepsaranbishnoi_wet-donkey-50.html",
+  "code": "<div class=\"mybutton\">\n<button class=\"button\" type=\"button\">\n   <span>Hello 😊</span>\n</button>\n</div>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: button, claymorphism, emoji */\n.mybutton {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.button {\n  all: unset;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  column-gap: .5em;\n  position: relative;\n  border-radius: 50px;\n  padding: 16px 24px;\n  background-color: #f0f7fa;\n  box-shadow: inset 0 -4px 8px #87bfd8, 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  color: #0470e3;\n  transition: transform 0.4s cubic-bezier(0.55, 1, 0.15, 1);\n  will-change: transform;\n}\n\n.button:active {\n  transform: scale(0.92);\n}\n\n.button:active::after {\n  opacity: 1;\n  outline: none;\n  border: 0;\n}\n\n.button::after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  border-image-slice: 50%;\n  border-image-width: 40px;\n  border-style: solid;\n  transform: scale(1.04, 1.08);\n  opacity: 0;\n  border: 0;\n  transition-property: opacity;\n  transition-duration: .4s;\n  transition-timing-function: cubic-bezier(0.55, 1, 0.15, 1);\n  will-change: transform;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

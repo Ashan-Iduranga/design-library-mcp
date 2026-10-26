@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-marcos700x-hot-dragonfly-100-8fd816",
+  "title": "Input by marcos700x (hot-dragonfly-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/marcos700x/hot-dragonfly-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By marcos700x on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/marcos700x_hot-dragonfly-100.html",
+  "code": "<div class=\"containerInput\">\n    <input placeholder=\"Type for validate\" type=\"text\">\n</div>\n<style>\n/* From Uiverse.io by marcos700x - Tags: input */\n.containerInput {\n  background-color: #000;\n  position: relative;\n  overflow: hidden;\n  margin: 0;\n  padding: 0 0 4px 0;\n  z-index: 1;\n  font-size: 15px;\n}\n\n.containerInput::before {\n  content: '';\n  width: 110%;\n  aspect-ratio: 1;\n  position: absolute;\n  inset: 0 0 0 0;\n  margin: auto;\n  animation: rotate6234 2.5s ease-in-out infinite;\n  z-index: -1;\n  background-image: conic-gradient(from 0deg at 50% 50%, #073AFF00 0%, #FF0000FF 25%, #073AFF00 25%);\n}\n\n.containerInput > input {\n  width: 210px;\n  height: 50px;\n  font-size: inherit;\n  color: #fff;\n  border: none;\n  padding: 12px;\n  background-color: #0a0a0a;\n  outline: 5px solid #0a0a0a;\n}\n\n.containerInput > input:focus {\n  outline: none;\n}\n\n.containerInput > input:not(:placeholder-shown) {\n  outline: none;\n}\n\n.containerInput > input:not(:placeholder-shown):valid {\n  outline: 4px solid rgb(0, 255, 183);\n  border-radius: 0;\n}\n\n@keyframes rotate6234 {\n  from {\n    transform: rotate(0deg);\n  }\n\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

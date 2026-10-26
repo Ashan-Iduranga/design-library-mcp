@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-tursynbek-gentle-kangaroo-69-6ada7f",
+  "title": "Notification by tursynbek (gentle-kangaroo-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/tursynbek/gentle-kangaroo-69",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By tursynbek on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Notifications/tursynbek_gentle-kangaroo-69.html",
+  "code": "<div class=\"level-up\">\n  <span class=\"text\">LEVEL UP!</span>\n</div>\n\n<style>\n/* From Uiverse.io by tursynbek - Tags: notification */\n.level-up {\n  font-family: 'Montserrat', sans-serif;\n  font-size: 25px;\n  font-weight: bold;\n  color: #ffffff;\n  background-color: #ff5733;\n  padding: 20px;\n  border-radius: 10px;\n  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);\n  text-align: center;\n  transition: all 0.3s ease;\n}\n\n.text {\n  position: relative;\n  display: inline-block;\n  animation: bounce 1s infinite;\n}\n\n.level-up:hover {\n  background-color: #ffffff;\n  color: #ff5733;\n  transform: scale(1.1);\n}\n\n.level-up:hover .text {\n  animation: none;\n}\n\n@keyframes bounce {\n  0% {\n    transform: translateY(0);\n  }\n\n  50% {\n    transform: translateY(-10px);\n  }\n\n  100% {\n    transform: translateY(0);\n  }\n}\n\n.level-up:hover::before {\n  content: \"\";\n  display: block;\n  width: 10px;\n  height: 10px;\n  background-color: #ff5733;\n  border-radius: 50%;\n  position: absolute;\n  top: -20px;\n  left: calc(50% - 5px);\n  animation: bounce 0.5s infinite;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

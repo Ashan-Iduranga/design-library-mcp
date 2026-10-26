@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bodyhc-sharp-seahorse-46-e19cc5",
+  "title": "Button by Bodyhc (sharp-seahorse-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Bodyhc/sharp-seahorse-46",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Bodyhc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Bodyhc_sharp-seahorse-46.html",
+  "code": "<button class=\"button\"> \n  <svg height=\"18\" width=\"18\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" viewBox=\"0 0 1024 1024\" class=\"icon\"> \n  <path fill=\"#fff\" d=\"M767.99994 585.142857q75.995429 0 129.462857 53.394286t53.394286 129.462857-53.394286 129.462857-129.462857 53.394286-129.462857-53.394286-53.394286-129.462857q0-6.875429 1.170286-19.456l-205.677714-102.838857q-52.589714 49.152-124.562286 49.152-75.995429 0-129.462857-53.394286t-53.394286-129.462857 53.394286-129.462857 129.462857-53.394286q71.972571 0 124.562286 49.152l205.677714-102.838857q-1.170286-12.580571-1.170286-19.456 0-75.995429 53.394286-129.462857t129.462857-53.394286 129.462857 53.394286 53.394286 129.462857-53.394286 129.462857-129.462857 53.394286q-71.972571 0-124.562286-49.152l-205.677714 102.838857q1.170286 12.580571 1.170286 19.456t-1.170286 19.456l205.677714 102.838857q52.589714-49.152 124.562286-49.152z\"></path> \n  </svg> \n  <span class=\"share\">SHARE </span> \n  </button>\n\n<style>\n/* From Uiverse.io by Bodyhc - Tags: button */\n.button {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgb(66, 13, 240);\n  width: 200px;\n  height: 50px;\n  border-radius: 10px;\n  font-size: 18px;\n  outline: 3px solid #270092;\n  cursor: pointer;\n  transition: ease-out .5s;\n}\n\n.button:hover {\n  width: 180px;\n  height: 60px;\n  outline-offset: 4px;\n  transform: scale(1.3) rotate(2deg);\n  background-color: blue;\n  box-shadow: 5px 20px #cdcbd4\n}\n\n.icon {\n  color: #270092;\n  margin-right: 5px;\n}\n\n.share {\n  margin-left: 5px;\n  color: #fff;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

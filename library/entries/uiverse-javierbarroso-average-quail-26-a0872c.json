@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-javierbarroso-average-quail-26-a0872c",
+  "title": "Radio by javierBarroso (average-quail-26)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/javierBarroso/average-quail-26",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "animation",
+    "3d",
+    "button",
+    "modern",
+    "toggle"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By javierBarroso on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/javierBarroso_average-quail-26.html",
+  "code": "<div class=\"container\">\n  <label>\n    <input name=\"list\" type=\"radio\" />\n    <span>\n      <p class=\"a\">Yes</p>\n      <p class=\"b\">No</p>\n    </span>\n    Easy\n  </label>\n  <label>\n    <input checked=\"\" name=\"list\" type=\"radio\" />\n    <span>\n      <p class=\"a\">Yes</p>\n      <p class=\"b\">No</p>\n    </span>\n    Normal\n  </label>\n  <label>\n    <input name=\"list\" type=\"radio\" />\n    <span>\n      <p class=\"a\">Yes</p>\n      <p class=\"b\">No</p>\n    </span>\n    Hard\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by javierBarroso  - Tags: animation, 3d, button, modern, radio, toggle */\n.container {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n\n.container label {\n  transform-style: preserve-3d;\n  perspective: 100px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  font-size: 18px;\n  cursor: pointer;\n}\n.container label span {\n  position: relative;\n  margin-right: 0px;\n  width: 60px;\n  height: 40px;\n  transform: rotateY(180deg);\n  transition-duration: 0.6s;\n  margin: 0 10px 0 10px;\n  transform-style: preserve-3d;\n  perspective: 100px;\n  padding: 0px;\n  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);\n  background: #111;\n  border-radius: 50px;\n  cursor: pointer;\n  box-shadow:\n    inset 2px 2px 2px #fff9,\n    5px 5px 5px #2225;\n}\n.container label span p {\n  position: absolute;\n  transform-origin: 50% 50%;\n  left: 0%;\n  right: 0%;\n  transform: translateX(50px) translateY(50px);\n  font-weight: 600;\n  text-align: center;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  z-index: 5;\n  font-size: 12px;\n  text-shadow: 0 0 2px;\n}\n.container label span .a {\n  backface-visibility: visible;\n  color: green;\n  transform: translateX(0%) translateY(0%) translateZ(10px) rotateY(0deg);\n}\n.container label span .b {\n  backface-visibility: visible;\n  color: red;\n  transform: translateX(0%) translateY(0%) translateZ(-10px) rotateY(180deg);\n}\n\n.container label input[type=\"radio\"] {\n  appearance: none;\n}\n\n.container label input[type=\"radio\"]:checked ~ span {\n  box-shadow:\n    inset -2px 2px 2px #fff9,\n    -5px 5px 5px #2225;\n  transform: rotateY(0deg);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

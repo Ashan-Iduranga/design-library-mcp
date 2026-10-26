@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-isfandiyor132-witty-falcon-39-159fa8",
+  "title": "Button by isfandiyor132 (witty-falcon-39)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/isfandiyor132/witty-falcon-39",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "square",
+    "neon",
+    "futuristic"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By isfandiyor132 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/isfandiyor132_witty-falcon-39.html",
+  "code": "<button class=\"btn\"><span>Hover Me</span></button>\n<style>\n/* From Uiverse.io by isfandiyor132 - Tags: button, hover, square, neon, futuristic */\n.btn {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: #ffffff;\n  outline: none;\n  height: 50px;\n  width: 150px;\n  border: none;\n  text-decoration: none;\n  background-image: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);\n}\n\n.btn:hover {\n  animation: rotate 0.4s linear infinite;\n}\n\n@keyframes rotate {\n  100% {\n    filter: hue-rotate(-360deg)\n  }\n}\n\n.btn span {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 42px;\n  width: 142px;\n  background: #222222;\n  font-size: 18px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

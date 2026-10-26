@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-file-input-file-upload-example",
+  "title": "File Input: File upload example (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/file-input/#file-upload-example",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "file-input",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Get started with a simple file input component to let users upload one single file.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/file-input.md",
+  "code": "<label class=\"block mb-2.5 text-sm font-medium text-heading\" for=\"file_input\">Upload file</label>\n<input class=\"cursor-pointer bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full shadow-xs placeholder:text-body\" id=\"file_input\" type=\"file\">",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

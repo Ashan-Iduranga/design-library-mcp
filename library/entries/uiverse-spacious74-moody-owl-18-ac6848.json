@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-spacious74-moody-owl-18-ac6848",
+  "title": "Card by Spacious74 (moody-owl-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Spacious74/moody-owl-18",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "neumorphism",
+    "animation",
+    "3d",
+    "realistic",
+    "social-media"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Spacious74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Spacious74_moody-owl-18.html",
+  "code": "<div class=\"outer\">\n  <div class=\"dot\"></div>\n  <div class=\"card\">\n    <div class=\"ray\"></div>\n    <div class=\"text\">750k</div>\n    <div>Views</div>\n    <div class=\"line topl\"></div>\n    <div class=\"line leftl\"></div>\n    <div class=\"line bottoml\"></div>\n    <div class=\"line rightl\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Spacious74  - Tags: neumorphism, animation, 3d, card, realistic, social media */\n.outer {\n  width: 300px;\n  height: 250px;\n  border-radius: 10px;\n  padding: 1px;\n  background: radial-gradient(circle 230px at 0% 0%, #ffffff, #0c0d0d);\n  position: relative;\n}\n\n.dot {\n  width: 5px;\n  aspect-ratio: 1;\n  position: absolute;\n  background-color: #fff;\n  box-shadow: 0 0 10px #ffffff;\n  border-radius: 100px;\n  z-index: 2;\n  right: 10%;\n  top: 10%;\n  animation: moveDot 6s linear infinite;\n}\n\n@keyframes moveDot {\n  0%,\n  100% {\n    top: 10%;\n    right: 10%;\n  }\n  25% {\n    top: 10%;\n    right: calc(100% - 35px);\n  }\n  50% {\n    top: calc(100% - 30px);\n    right: calc(100% - 35px);\n  }\n  75% {\n    top: calc(100% - 30px);\n    right: 10%;\n  }\n}\n\n.card {\n  z-index: 1;\n  width: 100%;\n  height: 100%;\n  border-radius: 9px;\n  border: solid 1px #202222;\n  background-size: 20px 20px;\n  background: radial-gradient(circle 280px at 0% 0%, #444444, #0c0d0d);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  flex-direction: column;\n  color: #fff;\n}\n.ray {\n  width: 220px;\n  height: 45px;\n  border-radius: 100px;\n  position: absolute;\n  background-color: #c7c7c7;\n  opacity: 0.4;\n  box-shadow: 0 0 50px #fff;\n  filter: blur(10px);\n  transform-origin: 10%;\n  top: 0%;\n  left: 0;\n  transform: rotate(40deg);\n}\n\n.card .text {\n  font-weight: bolder;\n  font-size: 4rem;\n  background: linear-gradient(45deg, #000000 4%, #fff, #000);\n  background-clip: text;\n  color: transparent;\n}\n\n.line {\n  width: 100%;\n  height: 1px;\n  position: absolute;\n  background-color: #2c2c2c;\n}\n.topl {\n  top: 10%;\n  background: linear-gradient(90deg, #888888 30%, #1d1f1f 70%);\n}\n.bottoml {\n  bottom: 10%;\n}\n.leftl {\n  left: 10%;\n  width: 1px;\n  height: 100%;\n  background: linear-gradient(180deg, #747474 30%, #222424 70%);\n}\n.rightl {\n  right: 10%;\n  width: 1px;\n  height: 100%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

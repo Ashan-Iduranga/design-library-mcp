@@ -1,0 +1,36 @@
+{
+  "id": "magicui-tweet-card-demo",
+  "title": "Tweet Card Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/tweet-card",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tweet",
+    "card",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a tweet card with author info.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/tweet-card-demo.tsx",
+  "code": "import { ClientTweetCard } from \"@/registry/magicui/client-tweet-card\"\n\n/**\n * <TweetCard /> (Server Side Only)\n * <ClientTweetCard /> (Client Side Only)\n */\nexport default function TweetDemo() {\n  return <ClientTweetCard id=\"1668408059125702661\" />\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

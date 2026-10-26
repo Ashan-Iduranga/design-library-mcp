@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mobinkakei-wise-walrus-71-3ed520",
+  "title": "Button by mobinkakei (wise-walrus-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/wise-walrus-71",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d",
+    "hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mobinkakei_wise-walrus-71.html",
+  "code": "<button class=\"btn\">3D button</button>\n<style>\n/* From Uiverse.io by mobinkakei - Tags: 3d, button, hover */\n.btn {\n  --color1: #1a8516;\n  --color2: #236b19;\n  perspective: 1000px;\n  padding: 1em 1em;\n  background: linear-gradient(var(--color1), var(--color2));\n  border: none;\n  outline: none;\n  font-size: 20px;\n  text-transform: uppercase;\n  letter-spacing: 4px;\n  color: #fff;\n  text-shadow: 0 10px 10px #000;\n  cursor: pointer;\n  transform: rotateX(70deg) rotateZ(30deg);\n  transform-style: preserve-3d;\n  transition: transform 0.5s;\n}\n\n.btn::before {\n  content: \"\";\n  width: 100%;\n  height: 15px;\n  background-color: var(--color2);\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  transform: rotateX(90deg);\n  transform-origin: bottom;\n}\n\n.btn::after {\n  content: \"\";\n  width: 15px;\n  height: 100%;\n  background-color: var(--color1);\n  position: absolute;\n  top: 0;\n  right: 0;\n  transform: rotateY(-90deg);\n  transform-origin: right;\n}\n\n.btn:hover {\n  transform: rotateX(30deg) rotateZ(0);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

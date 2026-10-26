@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-card-responsive-card-vertical-on-small-screen",
+  "title": "Card: Responsive card (vertical on small screen, horizontal on large screen) (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/card/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Cards are used to group and display content in a way that is easily readable.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/card/+page.md",
+  "code": "<div class=\"card lg:card-side bg-base-100 shadow-sm\">\n  <figure>\n    <img\n      src=\"https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp\"\n      alt=\"Album\" />\n  </figure>\n  <div class=\"card-body\">\n    <h2 class=\"card-title\">New album is released!</h2>\n    <p>Click the button to listen on Spotiwhy app.</p>\n    <div class=\"card-actions justify-end\">\n      <button class=\"btn btn-primary\">Listen</button>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

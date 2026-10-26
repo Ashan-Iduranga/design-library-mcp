@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-gagan-gv-stupid-parrot-100-903f68",
+  "title": "Button by gagan-gv (stupid-parrot-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gagan-gv/stupid-parrot-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gagan-gv on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/gagan-gv_stupid-parrot-100.html",
+  "code": "<button class=\"button\"> Hey, Hover Me\n</button>\n<style>\n/* From Uiverse.io by gagan-gv - Tags: button */\n.button {\n  padding: 15px 20px;\n  font-size: 16px;\n  background: transparent;\n  border: none;\n  position: relative;\n  color: #f0f0f0;\n  z-index: 1;\n}\n\n.button::after,\n.button::before {\n  content: '';\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  z-index: -99999;\n  transition: all .4s;\n}\n\n.button::before {\n  transform: translate(0%, 0%);\n  width: 100%;\n  height: 100%;\n  background: #28282d;\n  border-radius: 10px;\n}\n\n.button::after {\n  transform: translate(10px, 10px);\n  width: 35px;\n  height: 35px;\n  background: #ffffff15;\n  backdrop-filter: blur(5px);\n  border-radius: 50px;\n}\n\n.button:hover::before {\n  transform: translate(5%, 20%);\n  width: 110%;\n  height: 110%;\n}\n\n.button:hover::after {\n  border-radius: 10px;\n  transform: translate(0, 0);\n  width: 100%;\n  height: 100%;\n}\n\n.button:active::after {\n  transition: 0s;\n  transform: translate(0, 5%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

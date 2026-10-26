@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jaydipprajapati1910-slimy-starfish-15-ac03a5",
+  "title": "Card by JaydipPrajapati1910 (slimy-starfish-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/slimy-starfish-15",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "white-and-red",
+    "card-template",
+    "ribbon"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/JaydipPrajapati1910_slimy-starfish-15.html",
+  "code": "<div class=\"card shadow\">\n\n<div class=\"ribbon\">\n    <div class=\"ribbon-stitches-top\"></div>\n    <div class=\"ribbon-content\">\n        <span>Text Here</span>\n    </div>\n    <div class=\"ribbon-stitches-bottom\"></div>\n</div>\n</div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: card, white and red, card template, ribbon  */\n.card {\n  width: 200px;\n  height: 290px;\n  background: white;\n  border-radius: 10px;\n  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  display: flex;\n  flex-direction: column;\n}\n\n.shadow {\n  box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),\n             0 0  0 2px rgb(190, 190, 190),\n             0.3em 0.3em 1em rgba(0,0,0,0.3);\n}\n\n.ribbon {\n  width: 230px;\n  position: absolute;\n  margin-top: 229px;\n  margin-left: -20px;\n  text-align: center;\n  font-size: 20px !important;\n  background: #D64B4B;\n  background: -webkit-gradient(linear, left top, left bottom, from(#D64B4B), to(#AB2C2C));\n  background: -webkit-linear-gradient(top, #D64B4B, #AB2C2C);\n  background: -moz-linear-gradient(top, #D64B4B, #AB2C2C);\n  background: -ms-linear-gradient(top, #D64B4B, #AB2C2C);\n  background: -o-linear-gradient(top, #D64B4B, #AB2C2C);\n  background-image: -ms-linear-gradient(top, #D64B4B 0%, #AB2C2C 100%);\n  -webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 1px;\n  -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 1px;\n  box-shadow: rgba(0,0,0,0.3) 0 1px 1px;\n  font-family: 'Helvetica Neue',Helvetica, sans-serif;\n}\n\n.ribbon span {\n  font-size: 35px !important;\n  color: #801111;\n  text-shadow: #D65C5C 0 1px 0;\n  margin: 0px;\n  padding: 19px 10px;\n}\n\n.ribbon:before, .ribbon:after {\n  content: '';\n  position: absolute;\n  display: block;\n  bottom: -1em;\n  border: 1.5em solid #C23A3A;\n  z-index: -1;\n}\n\n.ribbon:before {\n  left: -2em;\n  border-right-width: 1.5em;\n  border-left-color: transparent;\n  -webkit-box-shadow: rgba(0,0,0,0.4) 1px 1px 1px;\n  -moz-box-shadow: rgba(0,0,0,0.4) 1px 1px 1px;\n  box-shadow: rgba(0,0,0,0.4) 1px 1px 1px;\n}\n\n.ribbon:after {\n  right: -2em;\n  border-left-width: 1.5em;\n  border-right-color: transparent;\n  -webkit-box-shadow: rgba(0,0,0,0.4) -1px 1px 1px;\n  -moz-box-shadow: rgba(0,0,0,0.4) -1px 1px 1px;\n  box-shadow: rgba(0,0,0,0.4) -1px 1px 1px;\n}\n\n.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {\n  border-color: #871616 transparent transparent transparent;\n  position: absolute;\n  display: block;\n  border-style: solid;\n  bottom: -1em;\n  content: '';\n}\n\n.ribbon .ribbon-content:before {\n  left: 0;\n  border-width: 1em 0 0 1em;\n}\n\n.ribbon .ribbon-content:after {\n  right: 0;\n  border-width: 1em 1em 0 0;\n}\n\n.ribbon-stitches-top {\n  margin-top: 2px;\n  border-top: 1px dashed rgba(0, 0, 0, 0.2);\n  -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);\n  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);\n  box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5);\n}\n\n.ribbon-stitches-bottom {\n  margin-bottom: 2px;\n  border-top: 1px dashed rgba(0, 0, 0, 0.2);\n  -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);\n  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);\n  box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

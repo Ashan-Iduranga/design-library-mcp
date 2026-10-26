@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-aadium-hard-swan-77-881b2b",
+  "title": "Pattern by aadium (hard-swan-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aadium/hard-swan-77",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "blue",
+    "duotone"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aadium on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/aadium_hard-swan-77.html",
+  "code": "<div class=\"container\"></div>\n<style>\n/* From Uiverse.io by aadium - Tags: blue, pattern, duotone */\n.container {\n  --color1: rgb(179, 255, 226);\n  --color2: rgb(39, 0, 148);\n  width: 100%;\n  height: 100%;\n  background-image: linear-gradient(45deg, var(--color1) 25%, transparent 25%, transparent 75%, var(--color1) 75%, var(--color1)),\n                    linear-gradient(45deg, var(--color2) 25%, var(--color1) 25%, var(--color1) 75%, var(--color2) 75%, var(--color2));\n  background-size: 95px 15px;\n  background-position: 0 0, 135px 135px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

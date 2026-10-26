@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-yellow-dolphin-16-782efc",
+  "title": "Loader by Shoh2008 (yellow-dolphin-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/yellow-dolphin-16",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_yellow-dolphin-16.html",
+  "code": "<span class=\"loader\"></span>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  display: block;\n  width: 84px;\n  height: 84px;\n  position: relative;\n}\n\n.loader:before , .loader:after {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  bottom: 0;\n  width: 64px;\n  height: 64px;\n  border-radius: 50%;\n  background: #FFF;\n  transform: translate(-50% , -100%)  scale(0);\n  animation: push_401 2s infinite linear;\n}\n\n.loader:after {\n  animation-delay: 1s;\n}\n\n@keyframes push_401 {\n  0% , 50% {\n    transform: translate(-50% , 0%)  scale(1)\n  }\n\n  100% {\n    transform: translate(-50%, -100%) scale(0)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

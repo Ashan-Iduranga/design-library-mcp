@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-yaya12085-perfect-newt-3-454220",
+  "title": "Button by Yaya12085 (perfect-newt-3)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/perfect-newt-3",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "challenge",
+    "hover-effect",
+    "ui"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Yaya12085_perfect-newt-3.html",
+  "code": "<button class=\"button\">\n  <span class=\"icon\">\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      id=\"paper-plane\"\n    >\n      <path\n        d=\"M20.34,9.32l-14-7a3,3,0,0,0-4.08,3.9l2.4,5.37h0a1.06,1.06,0,0,1,0,.82l-2.4,5.37A3,3,0,0,0,5,22a3.14,3.14,0,0,0,1.35-.32l14-7a3,3,0,0,0,0-5.36Zm-.89,3.57-14,7a1,1,0,0,1-1.35-1.3l2.39-5.37A2,2,0,0,0,6.57,13h6.89a1,1,0,0,0,0-2H6.57a2,2,0,0,0-.08-.22L4.1,5.41a1,1,0,0,1,1.35-1.3l14,7a1,1,0,0,1,0,1.78Z\"\n      ></path>\n    </svg>\n  </span>\n  <span class=\"title\">Send Message</span>\n</button>\n\n<style>\n/* From Uiverse.io by Yaya12085  - Tags: button, challenge, hover effect, ui */\n.button {\n  --radius: 20px;\n  --white: #ffffff;\n  --white50: #ffffff80;\n  --white35: #ffffff59;\n  --second_white: #f8f8f8;\n  --second_white75: #f8f8f8bf;\n  --third_white: #fafbfb;\n  --gray: #cacaca;\n  --gray50: #cacaca80;\n  --black: #1c1c1c;\n  --black15: #1c1c1c26;\n  --black13: #1c1c1c21;\n  --black10: #1c1c1c1a;\n  --black5: #1c1c1c0d;\n  --black35: #1c1c1c59;\n  --black75: #1c1c1cbf;\n  --black50: #1c1c1c80;\n  position: relative;\n  width: 250px;\n  height: 80px;\n  border-radius: var(--radius);\n  background-color: var(--white);\n  background: linear-gradient(var(--white) 100%, var(--gray) 50%);\n  cursor: pointer;\n  outline: none;\n  border: none;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 6px;\n  transition: all 0.3s;\n}\n.icon {\n  position: relative;\n  left: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transform: rotate(-45deg);\n  transition: all 0.3s;\n}\n.icon #paper-plane {\n  height: 24px;\n  width: 24px;\n  fill: var(--black);\n  filter: drop-shadow(0 1px 1px var(--black35));\n}\n\n.title {\n  filter: drop-shadow(0 1px 1px var(--black35));\n  font-size: 20px;\n  color: var(--black);\n  font-weight: 600;\n  transition: all 0.3s;\n}\n\n.button::after,\n.button::before {\n  position: absolute;\n  content: \"\";\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  transition: all 0.3s;\n}\n.button::before {\n  background-color: var(--white);\n  box-shadow: inset 10px 10px 15px var(--gray50),\n    inset -10px -10px 15px var(--white), 0 0 0 2px var(--white);\n  width: 90%;\n  height: 80%;\n  border-radius: calc(var(--radius) * 10);\n}\n.button::after {\n  filter: drop-shadow(0 2px 4px var(--black15)),\n    drop-shadow(0 30px 100px var(--black13)),\n    drop-shadow(0 15px 30px var(--black10)),\n    drop-shadow(0 16px 12px var(--black5));\n  box-shadow: 0 0 0 1px var(--white);\n  background-color: var(--black);\n  background: linear-gradient(0deg, var(--black50), var(--gray));\n  width: 102%;\n  height: 108%;\n  border-radius: calc(var(--radius) + 2px);\n  z-index: -1;\n  transition: all 0.1s;\n}\n\n.button:hover::after {\n  width: 101%;\n  height: 104%;\n  filter: none;\n}\n.button:active::after {\n  width: 100%;\n  height: 100%;\n  filter: none;\n}\n.button:hover .icon {\n  transform: rotate(0) translateX(50%);\n  left: calc(50% + 24px);\n}\n.button:hover .title {\n  transform: translateX(-24px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

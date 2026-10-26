@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-omar-alghaish-grumpy-bobcat-32-cbfc53",
+  "title": "Loader by omar-alghaish (grumpy-bobcat-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/omar-alghaish/grumpy-bobcat-32",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By omar-alghaish on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/omar-alghaish_grumpy-bobcat-32.html",
+  "code": "<div class=\"loader-1\">\n  <div class=\"loader-2\"></div>\n  <div class=\"loader-3\"></div>\n  <div class=\"loader-4\"></div>\n</div>\n<style>\n/* From Uiverse.io by omar-alghaish - Tags: loader */\n.loader-1 {\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  border: 5px solid rgb(218, 203, 4);\n  border-left-color: transparent;\n  animation: animate_681 3s linear infinite;\n  position: relative;\n}\n\n.loader-2 {\n  width: 80px;\n  height: 80px;\n  border-radius: 50%;\n  border: 5px solid rgb(0, 119, 255);\n  border-top-color: transparent;\n  animation: animate_6810 .9s linear infinite;\n  position: absolute;\n  margin: 5px;\n}\n\n.loader-3 {\n  width: 60px;\n  height: 60px;\n  border-radius: 50%;\n  border: 5px solid rgb(30, 255, 0);\n  border-right-color: transparent;\n  animation: animate_681 2s linear  infinite;\n  position: absolute;\n  margin: 15px;\n}\n\n.loader-4 {\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  border: 5px solid rgb(194, 3, 92);\n  border-bottom-color: transparent;\n  animation: animate_6810 .7s linear  infinite;\n  position: absolute;\n  margin: 25px;\n}\n\n@keyframes animate_6810 {\n  0% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes animate_681 {\n  0% {\n    transform: rotate(-360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

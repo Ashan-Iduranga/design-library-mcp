@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-khelvers-spicy-impala-38-b73fb7",
+  "title": "Form by KhelVers (spicy-impala-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KhelVers/spicy-impala-38",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "animated",
+    "submit",
+    "log-in",
+    "3d-form",
+    "3d-cool-effect",
+    "3d-login-form"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KhelVers on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/KhelVers_spicy-impala-38.html",
+  "code": "<form class=\"form\"> \n    <span id=\"login-lable\">Login</span> \n    <input class=\"input\" type=\"text\" placeholder=\"UserName\"> \n    <input class=\"input\" type=\"text\" placeholder=\"PassWord\" minlength=\"8\" maxlength=\"15\">\n    <button id=\"btn\">Submit</button> \n</form>\n<style>\n/* From Uiverse.io by KhelVers - Tags: form, animated, submit, log in, 3d form , 3d cool effect, 3d login form */\n.form {\n  height: 18em;\n  width: 16em;\n  padding: 4%;\n  border-radius: 16px;\n  background: #e8e8e8;\n  box-shadow: 12px 12px 18px #bababa,\n              -12px -12px 18px #ffffff;\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  justify-content: space-evenly;\n}\n\n#login-lable {\n  height: 15%;\n  text-align: center;\n  font-size: 34px;\n  letter-spacing: 3px;\n  font-weight: 600;\n  text-shadow: -2px -2px 3px #ffffff ,\n              2px 2px 3px #bababa;\n  position: relative;\n  top: -14px;\n}\n\n.input {\n  height: 16%;\n  padding: 1px 8px;\n  border: none;\n  font-size: 1em;\n  letter-spacing: 2px;\n  border-radius: 8px;\n  background: #f3f3f3;\n  box-shadow: inset -2px -2px 4px #ffffff,\n              inset 2px 2px 4px rgba(0, 0, 0, 0.356);\n  text-decoration: none;\n  background: linear-gradient(to right,white, #80808010, white);\n  background-size: 200% 200%;\n  animation: input 4s infinite;\n}\n\n.input:focus-visible {\n  outline: none;\n  background: rgb(241, 241, 241);\n}\n\n#btn {\n  font-size: x-large;\n  letter-spacing: 3px;\n  color: white;\n  font-weight: 700;\n  height: 18%;\n  background: linear-gradient(144deg,#af40ff,\n              #5b42f3 50%,#00ddeb);\n  border-radius: 8px;\n  border: none;\n  box-shadow: inset 1px 3px 3px #ffffffbd,\n               inset -4px -4px 3px #00000046;\n  background-size: 150% 150%;\n  animation: input 5s infinite;\n  transition: all 900ms ease-in;\n}\n\n#btn:hover {\n  position: relative;\n  bottom: 3px;\n  background: linear-gradient(144deg,#9706ff,\n              #2f0fff 50%,#18f0ff);\n}\n\n@keyframes input {\n  0% {\n    background-position: 0% 50%;\n  }\n\n  50% {\n    background-position: 100% 50%;\n  }\n\n  100% {\n    background-position: 0% 50%;\n  }\n}\n    \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

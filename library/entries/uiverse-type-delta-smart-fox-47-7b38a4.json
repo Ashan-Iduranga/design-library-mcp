@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-type-delta-smart-fox-47-7b38a4",
+  "title": "Toggle by Type-Delta (smart-fox-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Type-Delta/smart-fox-47",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "animation",
+    "minimalist",
+    "switch",
+    "toggle-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Type-Delta on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Type-Delta_smart-fox-47.html",
+  "code": "<label\n  type=\"checkbox\"\n  class=\"reduceMotionToggle st-reduceMotionToggleBtn\"\n  for=\"reduceMotionToggle\"\n>\n  <input\n    class=\"reduceMotionToggleInput\"\n    id=\"reduceMotionToggle\"\n    type=\"checkbox\"\n  />\n  <svg\n    stroke-width=\"0\"\n    stroke=\"currentColor\"\n    fill=\"currentColor\"\n    viewBox=\"0 0 18 18\"\n    height=\"18\"\n    width=\"18\"\n  >\n    <mask id=\"lineMask\">\n      <rect fill=\"white\" height=\"18\" width=\"18\"></rect>\n      <rect\n        fill=\"black\"\n        style=\"rotate: 30deg;\"\n        height=\"16\"\n        width=\"4.1\"\n        y=\"-5\"\n        x=\"9.807\"\n        class=\"line\"\n      ></rect>\n    </mask>\n    <rect\n      style=\"rotate: 30deg;\"\n      height=\"13\"\n      width=\"1.3\"\n      y=\"-3.3\"\n      x=\"11.3\"\n      class=\"line\"\n    ></rect>\n    <g mask=\"url(#lineMask)\">\n      <circle\n        style=\"--_toCenterXOffset: 5.76px;--_appearOffset: -.1s;\"\n        fill=\"none\"\n        stroke-width=\".1\"\n        r=\"2.95\"\n        cy=\"9\"\n        cx=\"3.24\"\n        class=\"ballTrace\"\n      ></circle>\n      <circle\n        style=\"--_toCenterXOffset: 3px;--_appearOffset: .02s;\"\n        fill=\"none\"\n        stroke-width=\".2\"\n        r=\"2.9\"\n        cy=\"9\"\n        cx=\"6\"\n        class=\"ballTrace\"\n      ></circle>\n      <circle\n        style=\"--_toCenterXOffset: 0px;--_appearOffset: .07s;\"\n        fill=\"none\"\n        stroke-width=\".3\"\n        r=\"2.8\"\n        cy=\"9\"\n        cx=\"9\"\n        class=\"ballTrace\"\n      ></circle>\n      <circle\n        style=\"--_toCenterXOffset: -2.75px;--_appearOffset: .13s;\"\n        fill=\"none\"\n        stroke-width=\".4\"\n        r=\"2.75\"\n        cy=\"9\"\n        cx=\"11.75\"\n        class=\"ballTrace\"\n      ></circle>\n      <circle\n        style=\"--_toCenterXOffset: -5.7px;\"\n        r=\"3\"\n        cy=\"9\"\n        cx=\"14.7\"\n        class=\"ball\"\n      ></circle>\n    </g>\n  </svg>\n</label>\n\n<style>\n/* From Uiverse.io by Type-Delta  - Tags: animation, minimalist, switch, toggle switch */\n/* design inspired by icon from thenounproject.com */\n\n.reduceMotionToggle {\n  width: 4em;\n  height: auto;\n  color: #bbb;\n}\n\n.st-reduceMotionToggleBtn {\n  position: relative;\n  cursor: pointer;\n}\n\n.st-reduceMotionToggleBtn .reduceMotionToggleInput {\n  opacity: 0;\n  width: inherit;\n  aspect-ratio: 1;\n}\n\n.st-reduceMotionToggleBtn svg {\n  position: absolute;\n  left: 0;\n  width: inherit;\n  height: inherit;\n}\n.st-reduceMotionToggleBtn svg .line {\n  transform: scaleX(0);\n}\n\n.st-reduceMotionToggleBtn\n  .reduceMotionToggleInput:not(:checked)\n  + svg\n  .ballTrace {\n  animation: ballTrace_toggleMotionOff9371A 0.3s ease 0s 1 forwards,\n    ballTrace_toggleMotionOff9371B 0.1s steps(2, end)\n      calc(0.32s + var(--_appearOffset)) 1 forwards;\n}\n.st-reduceMotionToggleBtn .reduceMotionToggleInput:not(:checked) + svg .ball {\n  animation: ball_toggleMotionOn9371A 0.3s ease 0s 1 forwards,\n    ball_toggleMotionOn9371B 0.4s cubic-bezier(0.165, 0.84, 0.45, 1.11) 0.3s 1\n      forwards;\n}\n\n.st-reduceMotionToggleBtn .reduceMotionToggleInput:checked + svg circle {\n  animation: ball_toggleMotionOff9371 0.9s linear 0s 1 forwards;\n}\n\n.st-reduceMotionToggleBtn .reduceMotionToggleInput:checked + svg .line {\n  animation: line_toggleMotionOff9371 0.32s cubic-bezier(0.075, 0.82, 0.165, 1)\n    0.47s 1 forwards;\n}\n\n@keyframes ball_toggleMotionOff9371 {\n  0% {\n    transform: translateX(0px);\n  }\n  6.66% {\n    transform: translateX(calc(var(--_toCenterXOffset) * 0.45));\n  }\n  13.33% {\n    transform: translateX(calc(var(--_toCenterXOffset) * 0.77));\n  }\n  20% {\n    transform: translateX(calc(var(--_toCenterXOffset) * 0.9));\n  }\n  26.66% {\n    transform: translateX(calc(var(--_toCenterXOffset) * 0.94));\n  }\n  33.33% {\n    transform: translate(calc(var(--_toCenterXOffset) * 0.965 + 1px), 2px);\n  }\n  35% {\n    transform: translate(calc(var(--_toCenterXOffset) * 0.988), 1px);\n  }\n  37% {\n    transform: translate(calc(var(--_toCenterXOffset) * 0.991 + 1px), -1px);\n  }\n  39% {\n    transform: translate(calc(var(--_toCenterXOffset) * 0.995 - 1px), -2px);\n  }\n  41% {\n    transform: translate(calc(var(--_toCenterXOffset) * 0.999 + 1px), -1px);\n  }\n  43% {\n    transform: translate(calc(var(--_toCenterXOffset) * 0.75), 1px);\n  }\n  45% {\n    transform: translate(calc(var(--_toCenterXOffset) * 0.5), 0px);\n  }\n  100% {\n    transform: translate(calc(var(--_toCenterXOffset) * 0.5), 0px);\n  }\n}\n\n@keyframes line_toggleMotionOff9371 {\n  0% {\n    transform: scaleY(0);\n  }\n  100% {\n    transform: scaleY(1);\n  }\n}\n\n@keyframes ball_toggleMotionOn9371A {\n  0% {\n    transform: translate(calc(var(--_toCenterXOffset) * 0.5), 0px);\n  }\n  100% {\n    transform: translate(calc(var(--_toCenterXOffset) - 5.67px), 0px);\n  }\n}\n\n@keyframes ball_toggleMotionOn9371B {\n  0% {\n    transform: translate(calc(var(--_toCenterXOffset) - 5.67px), 0px);\n  }\n  100% {\n    transform: translate(0px, 0px);\n  }\n}\n\n@keyframes ballTrace_toggleMotionOff9371A {\n  0% {\n    opacity: 1;\n    transform: translate(calc(var(--_toCenterXOffset) * 0.5), 0px);\n  }\n  99.9% {\n    opacity: 1;\n    transform: translate(calc(var(--_toCenterXOffset) - 5.67px), 0px);\n  }\n  100% {\n    opacity: 0;\n    transform: translate(calc(var(--_toCenterXOffset) - 5.67px), 0px);\n  }\n}\n@keyframes ballTrace_toggleMotionOff9371B {\n  0% {\n    opacity: 0;\n    transform: translate(0px, 0px);\n  }\n  100% {\n    opacity: 1;\n    transform: translate(0px, 0px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jkhuger-strong-rat-28-3481f3",
+  "title": "Loader by JkHuger (strong-rat-28)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/strong-rat-28",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JkHuger_strong-rat-28.html",
+  "code": "<div class=\"spinner\"></div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: loader */\n.spinner {\n  box-shadow: 0 0 0 7px #42a5f5, inset 0 0 0 1px #42a5f5;\n  position: relative;\n  height: 50px;\n  width: 230px;\n  border-radius: 8px;\n  overflow: hidden;\n  animation: rotate_5132 6s linear infinite;\n}\n\n.spinner:before {\n  display: block;\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: 0;\n  height: 100%;\n  background-color: #42a5f5;\n  animation: load_5123 6s linear infinite;\n}\n\n@keyframes rotate_5132 {\n  0%,\n  42% {\n    transform: rotate(0deg);\n  }\n\n  48%,\n  92% {\n    transform: rotate(180deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes load_5123 {\n  0% {\n    width: 0;\n  }\n\n  40%,\n  50% {\n    width: 100%;\n  }\n\n  90%,\n  100% {\n    width: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

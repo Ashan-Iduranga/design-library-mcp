@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-ashish-yadv-hungry-otter-20-d2e566",
+  "title": "Loader by ashish-yadv (hungry-otter-20)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ashish-yadv/hungry-otter-20",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple-loader",
+    "dot-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ashish-yadv on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/ashish-yadv_hungry-otter-20.html",
+  "code": "<div class=\"loader\">\n        <li class=\"dots\" id=\"dot-1\"></li>\n        <li class=\"dots\" id=\"dot-2\"></li>\n        <li class=\"dots\" id=\"dot-3\"></li>\n    </div>\n<style>\n/* From Uiverse.io by ashish-yadv - Tags: loader, simple loader, dot loader */\n.loader {\n  display: flex;\n  gap: 0.6em;\n  list-style: none;\n}\n\n.dots {\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background: #ffffff;\n}\n\n#dot-1 {\n  animation: loader-1 0.6s infinite ease-in-out;\n}\n\n@keyframes loader-1 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n\n#dot-2 {\n  animation: loader-2 0.6s 0.3s infinite ease-in-out;\n}\n\n@keyframes loader-2 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n\n#dot-3 {\n  animation: loader-3 0.6s 0.6s infinite ease-in-out;\n}\n\n@keyframes loader-3 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

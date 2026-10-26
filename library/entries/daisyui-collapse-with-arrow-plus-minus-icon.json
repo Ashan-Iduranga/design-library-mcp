@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-collapse-with-arrow-plus-minus-icon",
+  "title": "Collapse: With arrow plus/minus icon (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/collapse/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "collapse",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Collapse is used for showing and hiding content.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/collapse/+page.md",
+  "code": "<div tabindex=\"0\" class=\"collapse collapse-plus bg-base-100 border-base-300 border\">\n  <div class=\"collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

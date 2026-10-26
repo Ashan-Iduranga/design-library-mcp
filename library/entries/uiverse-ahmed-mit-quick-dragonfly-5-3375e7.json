@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-ahmed-mit-quick-dragonfly-5-3375e7",
+  "title": "Loader by AHMED-MIT (quick-dragonfly-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AHMED-MIT/quick-dragonfly-5",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "about-me",
+    "css",
+    "2fa"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AHMED-MIT on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/AHMED-MIT_quick-dragonfly-5.html",
+  "code": "<div class=\"spinner\">\n  <div></div>   \n  <div></div>    \n  <div></div>    \n  <div></div>    \n  <div></div>    \n  <div></div>    \n  <div></div>    \n  <div></div>    \n  <div></div>    \n  <div></div>    \n</div>\n\n\n<style>\n/* From Uiverse.io by AHMED-MIT - Tags: about me, css, 2FA */\n.spinner {\n  position: absolute;\n  width: 9px;\n  height: 9px;\n}\n\n.spinner div {\n  position: absolute;\n  width: 50%;\n  height: 150%;\n  background: #474bff;\n  transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));\n  animation: spinner-fzua35 1s calc(var(--delay) * 1s) infinite ease;\n}\n\n.spinner div:nth-child(1) {\n  --delay: 0.1;\n  --rotation: 36;\n  --translation: 150;\n}\n\n.spinner div:nth-child(2) {\n  --delay: 0.2;\n  --rotation: 72;\n  --translation: 150;\n}\n\n.spinner div:nth-child(3) {\n  --delay: 0.3;\n  --rotation: 108;\n  --translation: 150;\n}\n\n.spinner div:nth-child(4) {\n  --delay: 0.4;\n  --rotation: 144;\n  --translation: 150;\n}\n\n.spinner div:nth-child(5) {\n  --delay: 0.5;\n  --rotation: 180;\n  --translation: 150;\n}\n\n.spinner div:nth-child(6) {\n  --delay: 0.6;\n  --rotation: 216;\n  --translation: 150;\n}\n\n.spinner div:nth-child(7) {\n  --delay: 0.7;\n  --rotation: 252;\n  --translation: 150;\n}\n\n.spinner div:nth-child(8) {\n  --delay: 0.8;\n  --rotation: 288;\n  --translation: 150;\n}\n\n.spinner div:nth-child(9) {\n  --delay: 0.9;\n  --rotation: 324;\n  --translation: 150;\n}\n\n.spinner div:nth-child(10) {\n  --delay: 1;\n  --rotation: 360;\n  --translation: 150;\n}\n\n@keyframes spinner-fzua35 {\n  0%, 10%, 20%, 30%, 50%, 60%, 70%, 80%, 90%, 100% {\n    transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));\n  }\n\n  50% {\n    transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1.5%));\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

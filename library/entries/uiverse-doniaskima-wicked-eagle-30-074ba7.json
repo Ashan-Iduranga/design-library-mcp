@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-doniaskima-wicked-eagle-30-074ba7",
+  "title": "Button by doniaskima (wicked-eagle-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/wicked-eagle-30",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/doniaskima_wicked-eagle-30.html",
+  "code": "<button class=\"btn-17\">\n  <span class=\"text-container\">\n    <span class=\"text\">Button</span>\n  </span>\n</button>\n\n<style>\n/* From Uiverse.io by doniaskima - Tags: button */\n.btn-17,\n.btn-17 *,\n.btn-17 :after,\n.btn-17 :before,\n.btn-17:after,\n.btn-17:before {\n  border: 0 solid;\n  box-sizing: border-box;\n}\n\n.btn-17 {\n  -webkit-tap-highlight-color: transparent;\n  -webkit-appearance: button;\n  background-color: #000;\n  background-image: none;\n  color: #fff;\n  cursor: pointer;\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,\n    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,\n    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;\n  font-size: 100%;\n  font-weight: 900;\n  line-height: 1.5;\n  margin: 0;\n  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);\n  padding: 0;\n  text-transform: uppercase;\n}\n\n.btn-17:disabled {\n  cursor: default;\n}\n\n.btn-17:-moz-focusring {\n  outline: auto;\n}\n\n.btn-17 svg {\n  display: block;\n  vertical-align: middle;\n}\n\n.btn-17 [hidden] {\n  display: none;\n}\n\n.btn-17 {\n  border-radius: 99rem;\n  border-width: 2px;\n  padding: 0.8rem 3rem;\n  z-index: 0;\n}\n\n.btn-17,\n.btn-17 .text-container {\n  overflow: hidden;\n  position: relative;\n}\n\n.btn-17 .text-container {\n  display: block;\n  mix-blend-mode: difference;\n}\n\n.btn-17 .text {\n  display: block;\n  position: relative;\n}\n\n.btn-17:hover .text {\n  -webkit-animation: move-up-alternate 0.3s forwards;\n  animation: move-up-alternate 0.3s forwards;\n}\n\n@-webkit-keyframes move-up-alternate {\n  0% {\n    transform: translateY(0);\n  }\n\n  50% {\n    transform: translateY(80%);\n  }\n\n  51% {\n    transform: translateY(-80%);\n  }\n\n  to {\n    transform: translateY(0);\n  }\n}\n\n@keyframes move-up-alternate {\n  0% {\n    transform: translateY(0);\n  }\n\n  50% {\n    transform: translateY(80%);\n  }\n\n  51% {\n    transform: translateY(-80%);\n  }\n\n  to {\n    transform: translateY(0);\n  }\n}\n\n.btn-17:after,\n.btn-17:before {\n  --skew: 0.2;\n  background: #fff;\n  content: \"\";\n  display: block;\n  height: 102%;\n  left: calc(-50% - 50% * var(--skew));\n  pointer-events: none;\n  position: absolute;\n  top: -104%;\n  transform: skew(calc(150deg * var(--skew))) translateY(var(--progress, 0));\n  transition: transform 0.2s ease;\n  width: 100%;\n}\n\n.btn-17:after {\n  --progress: 0%;\n  left: calc(50% + 50% * var(--skew));\n  top: 102%;\n  z-index: -1;\n}\n\n.btn-17:hover:before {\n  --progress: 100%;\n}\n\n.btn-17:hover:after {\n  --progress: -102%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-vk-uiux-neat-goat-26-0cab0e",
+  "title": "Loader by vk-uiux (neat-goat-26)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vk-uiux/neat-goat-26",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "loading",
+    "card",
+    "placeholder",
+    "animated",
+    "css",
+    "css-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vk-uiux on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vk-uiux_neat-goat-26.html",
+  "code": "<div class=\"card\">\n  <div class=\"card__skeleton card__title\"></div>\n  <div class=\"card__skeleton card__description\">         </div>\n</div>\n<style>\n/* From Uiverse.io by vk-uiux - Tags: animation, loading, card, loader, placeholder, animated, css, css effect, skeleton loading  */\n.card {\n  width: 18rem;\n  padding: 1rem;\n  text-align: center;\n  border-radius: .8rem;\n  background-color: white;\n}\n\n.card__skeleton {\n  background-image: linear-gradient(\n\t\t90deg,\n\t\t#ccc 0px,\n\t\trgb(229 229 229 / 90%) 40px,\n\t\t#ccc 80px\n\t);\n  background-size: 300%;\n  background-position: 100% 0;\n  border-radius: inherit;\n  animation: shimmer 1.5s infinite;\n}\n\n.card__title {\n  height: 15px;\n  margin-bottom: 15px;\n}\n\n.card__description {\n  height: 100px;\n}\n\n@keyframes shimmer {\n  to {\n    background-position: -100% 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

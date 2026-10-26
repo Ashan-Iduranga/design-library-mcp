@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-emmaxplay-rude-yak-98-a462d5",
+  "title": "Button by EmmaxPlay (rude-yak-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/EmmaxPlay/rude-yak-98",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By EmmaxPlay on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/EmmaxPlay_rude-yak-98.html",
+  "code": "<button class=\"btn\">Hover Me!</button>\n<style>\n/* From Uiverse.io by EmmaxPlay - Tags: button */\n.btn {\n padding: 0.9em 1.6em;\n border: none;\n outline: none;\n color: #FFF;\n font-family: inherit;\n font-weight: 500;\n font-size: 17px;\n cursor: pointer;\n position: relative;\n z-index: 0;\n border-radius: 12px;\n}\n\n.btn::after {\n content: \"\";\n z-index: -1;\n position: absolute;\n width: 100%;\n height: 100%;\n background-color: rgb(46, 46, 46);\n left: 0;\n top: 0;\n border-radius: 10px;\n}\n/* glow */\n.btn::before {\n content: \"\";\n background: linear-gradient(\n    45deg,\n    #FF0000, #002BFF, #FF00C8, #002BFF,\n      #FF0000, #002BFF, #FF00C8, #002BFF\n);\n position: absolute;\n top: -2px;\n left: -2px;\n background-size: 600%;\n z-index: -1;\n width: calc(100% + 4px);\n height: calc(100% + 4px);\n filter: blur(8px);\n animation: glowing 20s linear infinite;\n transition: opacity .3s ease-in-out;\n border-radius: 10px;\n opacity: 0;\n}\n\n@keyframes glowing {\n 0% {\n  background-position: 0 0;\n }\n\n 50% {\n  background-position: 400% 0;\n }\n\n 100% {\n  background-position: 0 0;\n }\n}\n\n/* hover */\n.btn:hover::before {\n opacity: 1;\n}\n\n.btn:active:after {\n background: transparent;\n}\n\n.btn:active {\n color: #000;\n font-weight: bold;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

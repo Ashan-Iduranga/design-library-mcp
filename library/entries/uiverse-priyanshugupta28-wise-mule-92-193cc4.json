@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-priyanshugupta28-wise-mule-92-193cc4",
+  "title": "Button by PriyanshuGupta28 (wise-mule-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/wise-mule-92",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/PriyanshuGupta28_wise-mule-92.html",
+  "code": "<button class=\"btn\"><span>鬼滅の刃</span></button>\n\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: button */\n.btn {\n  display: inline-block;\n  padding: 10px 20px;\n  border: none;\n  background-color: #f44336;\n  color: #fff;\n  font-size: 20px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: all 0.3s ease-in-out;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  opacity: 0.2;\n  z-index: -1;\n}\n\n.btn:hover {\n  background-color: #fff;\n  color: #f44336;\n  text-shadow: 0 0 5px #f44336;\n  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;\n}\n\n.btn span {\n  display: inline-block;\n  position: relative;\n  transition: all 0.3s ease-in-out;\n}\n\n.btn:hover span {\n  transform: rotate(-10deg) scale(1.1);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

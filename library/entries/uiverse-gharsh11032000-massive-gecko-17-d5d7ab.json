@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-gharsh11032000-massive-gecko-17-d5d7ab",
+  "title": "Button by gharsh11032000 (massive-gecko-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/massive-gecko-17",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/gharsh11032000_massive-gecko-17.html",
+  "code": "<button class=\"animated-button\">\n  <span>Hover me</span>\n</button>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: button, hover effect */\n.animated-button {\n  position: relative;\n  display: inline-block;\n  padding: 16px 32px;\n  border: none;\n  background-color: #2196F3;\n  color: #fff;\n  font-size: 16px;\n  text-transform: uppercase;\n  font-weight: 600;\n  cursor: pointer;\n  border-radius: 8px;\n  overflow: hidden;\n  transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.animated-button:before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 120%;\n  height: 120%;\n  background-color: #fff;\n  opacity: 0;\n  transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.animated-button span {\n  position: relative;\n  z-index: 1;\n}\n\n.animated-button:hover {\n  color: #2196F3;\n  background-color: #fff;\n  box-shadow: 0 0 20px hsla(263, 77%, 31%, 0);\n}\n\n.animated-button:active {\n  scale: 0.9;\n}\n\n.animated-button:hover:before {\n  transform: translate(-50%, -50%) rotate(45deg);\n  opacity: 1;\n}\n\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

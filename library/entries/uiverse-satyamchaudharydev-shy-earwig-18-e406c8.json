@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-satyamchaudharydev-shy-earwig-18-e406c8",
+  "title": "Toggle by satyamchaudharydev (shy-earwig-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/shy-earwig-18",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "dark",
+    "theme",
+    "light",
+    "theme-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/satyamchaudharydev_shy-earwig-18.html",
+  "code": "<label class=\"switch\">\n    <input type=\"checkbox\">\n    <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: switch, dark, theme, light, theme-switch */\n/* The switch - the box around the slider */\n.switch {\n  display: block;\n  --width-of-switch: 3.5em;\n  --height-of-switch: 2em;\n  /* size of sliding icon -- sun and moon */\n  --size-of-icon: 1.4em;\n  /* it is like a inline-padding of switch */\n  --slider-offset: 0.3em;\n  position: relative;\n  width: var(--width-of-switch);\n  height: var(--height-of-switch);\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #f4f4f5;\n  transition: .4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: var(--size-of-icon,1.4em);\n  width: var(--size-of-icon,1.4em);\n  border-radius: 20px;\n  left: var(--slider-offset,0.3em);\n  top: 50%;\n  transform: translateY(-50%);\n  background: linear-gradient(40deg,#ff0080,#ff8c00 70%);\n  ;\n transition: .4s;\n}\n\ninput:checked + .slider {\n  background-color: #303136;\n}\n\ninput:checked + .slider:before {\n  left: calc(100% - (var(--size-of-icon,1.4em) + var(--slider-offset,0.3em)));\n  background: #303136;\n  /* change the value of second inset in box-shadow to change the angle and direction of the moon  */\n  box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-flxderdev-fast-treefrog-50-0e2d3f",
+  "title": "Button by flxderdev (fast-treefrog-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/flxderdev/fast-treefrog-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "modern",
+    "futuristic"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By flxderdev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/flxderdev_fast-treefrog-50.html",
+  "code": "<button class=\"button\">HOVER ME</button>\n\n<style>\n/* From Uiverse.io by flxderdev  - Tags: gradient, button, modern, futuristic */\n.button {\n  height: 55px;\n  width: 175px;\n  margin: auto;\n  align-items: center;\n  border-radius: 50px;\n  border: none;\n  text-align: center;\n  color: transparent;\n  text-shadow: 0 0 0 rgb(255, 255, 255);\n  font-size: 17px;\n  font-weight: 500;\n  text-transform: uppercase;\n  text-decoration: none;\n  box-sizing: border-box;\n  cursor: pointer;\n  transition: transform 50ms ease;\n  background: linear-gradient(90deg, #5f03f4, #f441a5, #b81fff, #5f03f4);\n  background-size: 400%;\n  display: block;\n  margin-right: auto;\n  margin-left: auto;\n  font-family: \"Montserrat\", sans-serif;\n}\n\n.button:hover {\n  -webkit-box-shadow: 0px 0px 15px 0px rgba(155, 0, 194, 0.9);\n  -moz-box-shadow: 0px 0px 15px 0px rgba(155, 0, 194, 0.9);\n  box-shadow: 0px 0px 15px 0px rgba(155, 0, 194, 0.9);\n  animation: animate 8s ease infinite;\n  transition: box-shadow, 0.4s;\n  border: none;\n  font-size: 19px;\n  transform: scale(1.05, 1.05);\n  background: linear-gradient(90deg, #5f03f4, #f441a5, #b81fff, #5f03f4);\n  background-size: 400%;\n}\n\n.button:hover:before {\n  filter: blur(20px);\n  opacity: 1;\n  animation: animate 8s linear infinite;\n}\n\n@keyframes animate {\n  0% {\n    background-position: 0%;\n  }\n\n  100% {\n    background-position: 400%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-tab-tabs-box-using-radio-inputs",
+  "title": "Tabs: tabs-box using radio inputs (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/tab/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "tab",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Tabs can be used to show a list of links in a tabbed format.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/tab/+page.md",
+  "code": "<!-- name of each tab group should be unique -->\n<div class=\"tabs tabs-box\">\n  <input type=\"radio\" name=\"my_tabs_1\" class=\"tab\" aria-label=\"Tab 1\" />\n  <input type=\"radio\" name=\"my_tabs_1\" class=\"tab\" aria-label=\"Tab 2\" checked=\"checked\" />\n  <input type=\"radio\" name=\"my_tabs_1\" class=\"tab\" aria-label=\"Tab 3\" />\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

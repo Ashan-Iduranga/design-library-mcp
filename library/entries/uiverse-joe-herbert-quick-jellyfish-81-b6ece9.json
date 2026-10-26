@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-joe-herbert-quick-jellyfish-81-b6ece9",
+  "title": "Button by joe-herbert (quick-jellyfish-81)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/joe-herbert/quick-jellyfish-81",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "hover",
+    "challenge"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By joe-herbert on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/joe-herbert_quick-jellyfish-81.html",
+  "code": "<button class=\"button\">\n  <div class=\"button-inner-wrap\">\n    <div class=\"button-content\">\n      <svg\n        id=\"svg1\"\n        version=\"1.1\"\n        fill=\"none\"\n        viewBox=\"0 0 17.191999 17.915001\"\n        height=\"17.915001\"\n        width=\"17.191999\"\n      >\n        <path\n          id=\"path1\"\n          stroke-linejoin=\"round\"\n          stroke-linecap=\"round\"\n          stroke-width=\"1.5\"\n          stroke=\"#000000\"\n          d=\"M 9.3223611,8.9119975 H 3.5673455 m -0.17238,0.7972 -1.3313244,3.0014005 c -0.8349111,2.493962 0.031033,4.403741 3.26073,2.9505 l 8.8532949,-4.5605 c 1.64001,-0.785228 1.659708,-3.5011752 0,-4.3772505 l -8.8707749,-4.56832 c -2.6423685,-1.18905255 -4.1290723,0.3343707 -3.26268,2.94464 l 1.3527044,3.09163 c 0.0935,0.2817 0.14026,0.4226 0.15871,0.5666 0.01638,0.1279 0.01621,0.2573 -4.9e-4,0.3851 -0.01883,0.144 -0.06594,0.2847 -0.16017,0.5662 z\"\n        ></path>\n      </svg>\n\n      <span>Send Message</span>\n    </div>\n  </div>\n</button>\n\n<style>\n/* From Uiverse.io by joe-herbert  - Tags: animation, button, hover, challenge */\n.button {\n  cursor: pointer;\n  padding: 20px 15px;\n  font-weight: 600;\n  font-size: 17px;\n  font-family: sans-serif;\n  border-radius: 15px;\n  position: relative;\n  background-clip: padding-box;\n  border: solid 3px transparent;\n  width: 185px;\n  height: 65px;\n  box-shadow: 5px 5px 20px -5px #aaa;\n  transition: transform 0.3s;\n}\n.button span {\n  transition: opacity 0.3s 0.3s;\n  margin-left: 5px;\n}\n.button:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: -1;\n  margin: -3px;\n  border-radius: inherit;\n  background: linear-gradient(to bottom, #ccc, #666);\n}\n.button:after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  background: linear-gradient(to bottom, #eee, #ddd);\n  border-radius: 15px;\n}\n.button-content {\n  position: absolute;\n  top: 50%;\n  left: 0;\n  right: 0;\n  z-index: 1;\n  transform: translateY(-50%);\n}\n.button-content:before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  top: calc(-50% - 2.5px);\n  right: 5px;\n  bottom: 5px;\n  left: 5px;\n  background: linear-gradient(to bottom, #dfdfdf, #efefef);\n  border-radius: 500px;\n  height: 50px;\n  transition: opacity 0.3s 0.3s;\n  filter: blur(1px);\n}\n.button svg {\n  position: relative;\n  left: 0;\n  width: 20px;\n  transform: rotate(-45deg);\n  transition: left 0.3s 0s, transform 0.3s 0s;\n}\n\n.button:hover .button-content:before,\n.button:hover span {\n  opacity: 0;\n  transition: opacity 0.3s;\n}\n.button:hover svg {\n  transition: left 0.6s 0.3s, transform 0.6s 0.3s;\n  left: calc(50% - 17.5px);\n  transform: translate(-50%, 2px) rotate(270deg) scale(1.5);\n}\n.button:active {\n  transform: scale(0.9);\n}\n.button:active svg {\n  animation: spin 0.4s ease-in-out 0.3s 1;\n}\n\n@keyframes spin {\n  from {\n    transform: translate(-50%, 2px) rotate(270deg) scale(1.5);\n  }\n  to {\n    transform: translate(-50%, 2px) rotate(630deg) scale(1.5);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

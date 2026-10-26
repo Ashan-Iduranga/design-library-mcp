@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cristianmontoya98-nasty-fish-9-829c9c",
+  "title": "Button by CristianMontoya98 (nasty-fish-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/CristianMontoya98/nasty-fish-9",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By CristianMontoya98 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/CristianMontoya98_nasty-fish-9.html",
+  "code": "<button class=\"btn\"> Button\n</button>\n<style>\n/* From Uiverse.io by CristianMontoya98 - Tags: button */\n.btn {\n width: 6.5em;\n height: 2.3em;\n margin: 0.5em;\n background: black;\n color: white;\n border: none;\n border-radius: 0.625em;\n font-size: 20px;\n font-weight: bold;\n cursor: pointer;\n position: relative;\n z-index: 1;\n overflow: hidden;\n}\n\nbutton:hover {\n color: black;\n}\n\nbutton:after {\n content: \"\";\n background: white;\n position: absolute;\n z-index: -1;\n left: -20%;\n right: -20%;\n top: 0;\n bottom: 0;\n transform: skewX(-45deg) scale(0, 1);\n transition: all 0.5s;\n}\n\nbutton:hover:after {\n transform: skewX(-45deg) scale(1, 1);\n -webkit-transition: all 0.5s;\n transition: all 0.5s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-jamik-dev-giant-duck-87-de26ed",
+  "title": "Loader by jamik-dev (giant-duck-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/jamik-dev/giant-duck-87",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "smooth",
+    "cube",
+    "modern",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By jamik-dev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/jamik-dev_giant-duck-87.html",
+  "code": "<div class=\"cube\">\n  <div class=\"cube_item cube_x\"></div>\n  <div class=\"cube_item cube_y\"></div>\n  <div class=\"cube_item cube_y\"></div>\n  <div class=\"cube_item cube_x\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by jamik-dev  - Tags: loader, smooth, cube, modern, animated */\n.cube {\n  height: 80px;\n  width: 80px;\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 6px;\n}\n\n.cube_item {\n  height: 40px;\n  width: 40px;\n  border-radius: 10px;\n  transition: all 0.2s ease-in;\n}\n\n.cube_x {\n  background-color: blueviolet;\n  animation: animateLoaders 1s infinite;\n}\n\n.cube_y {\n  background-color: aqua;\n  animation: animateLoaders 1s 0.5s infinite;\n}\n\n@keyframes animateLoaders {\n  0% {\n    transform: scale(0.8);\n  }\n\n  50% {\n    transform: scale(1.2);\n  }\n\n  100% {\n    transform: scale(0.8);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

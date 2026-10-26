@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-number-input-default-number-input",
+  "title": "Number Input: Default number input (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/number-input/#default-number-input",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "number-input",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this component to set a number value inside a form field by applying the `type=\"number\"` attribute.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/number-input.md",
+  "code": "<form class=\"max-w-sm mx-auto\">\n    <label for=\"number-input\" class=\"block mb-2.5 text-sm font-medium text-heading\">Select a number:</label>\n    <input type=\"number\" id=\"number-input\" aria-describedby=\"helper-text-explanation\" class=\"block w-full px-3 py-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body\" placeholder=\"90210\" required />\n</form>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

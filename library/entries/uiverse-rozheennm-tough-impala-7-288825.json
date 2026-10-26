@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-rozheennm-tough-impala-7-288825",
+  "title": "Card by RozheenNM (tough-impala-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/RozheenNM/tough-impala-7",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "button",
+    "day"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By RozheenNM on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/RozheenNM_tough-impala-7.html",
+  "code": "<div class=\"one-div\"></div>\n<style>\n/* From Uiverse.io by RozheenNM - Tags: button, card, day */\n.one-div {\n  width: 200px;\n  height: 200px;\n  position: relative;\n  overflow: hidden;\n  border-radius: 10mm;\n  animation: flip-and-rotate 8s ease-in-out infinite;\n  transform-origin: center;\n  background: linear-gradient(135deg, #f7af6c, #fa8b8b, #f75bea);\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);\n}\n\n.one-div::before,\n.one-div::after {\n  content: \"\";\n  position: absolute;\n  width: 100px;\n  height: 100px;\n  opacity: 80%;\n  background-color: rgb(255, 193, 122);\n  box-shadow: #33577e;\n  border-radius: 100%;\n  transform: translate(-50%, -80%) rotate(90deg);\n}\n\n.one-div::before {\n  top: 50%;\n  left: 50%;\n}\n\n.one-div::after {\n  bottom: 50%;\n  right: 50%;\n}\n\n.one-div::before,\n.one-div::after {\n  animation: move 1.2s infinite cubic-bezier(0.68, -0.55, 0.265, 1.88);\n}\n\n@keyframes move {\n  0% {\n    transform: translate(50%, 50%) rotate(45deg) scale(0.8);\n  }\n\n  50% {\n    transform: translate(50%, 50%) rotate(45deg) scale(1.2);\n  }\n\n  100% {\n    transform: translate(50%, 50%) rotate(45deg) scale(0.8);\n  }\n}\n\n@keyframes flip-and-rotate {\n  0% {\n    transform: scale(1) rotate(0deg);\n    background: linear-gradient(135deg, #f7af6c, #fa8b8b, #f75bea);\n  }\n\n  10% {\n    transform: scale(1) rotate(10deg);\n    background: linear-gradient(135deg, #7bbbd4, #33577e, #00061b);\n  }\n\n  20% {\n    transform: scale(1) rotate(20deg);\n    background: linear-gradient(135deg, #f7af6c, #fa8b8b, #f75bea);\n  }\n\n  30% {\n    transform: scale(1) rotate(-30deg);\n    background: linear-gradient(135deg, #6cb2ce, #3d93a8, #00061b);\n  }\n\n  40% {\n    transform: scale(1) rotate(40deg);\n    background: linear-gradient(135deg, #f7af6c, #fa8b8b, #f75bea);\n  }\n\n  50% {\n    transform: scale(1) rotate(-5deg);\n    background: linear-gradient(135deg, #64b5d4, #184d85, #00061b);\n  }\n\n  60% {\n    transform: scale(1) rotate(60deg);\n    background: linear-gradient(135deg, #f7af6c, #fa8b8b, #f75bea);\n  }\n\n  70% {\n    transform: scale(1) rotate(70deg);\n    background: linear-gradient(135deg, #081c24, #041527, #00061b);\n  }\n\n  100% {\n    transform: scale(1) rotate(-360deg);\n    background: linear-gradient(135deg, #f7af6c, #fa8b8b, #f75bea);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-simontheonlyone-cuddly-cat-36-8b8c76",
+  "title": "Button by simontheonlyone (cuddly-cat-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/simontheonlyone/cuddly-cat-36",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "green",
+    "active"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By simontheonlyone on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/simontheonlyone_cuddly-cat-36.html",
+  "code": "<button>\n</button>\n<style>\n/* From Uiverse.io by simontheonlyone - Tags: green, button, active */\nbutton {\n  position: relative;\n  width: 10em;\n  height: 4em;\n  border: none;\n  border-radius: 2.1em;\n  background-color: whitesmoke;\n  box-shadow: 0 0 30px rgba(0, 0, 0, .22);\n  cursor: pointer;\n  transition: all 100ms;\n}\n\nbutton:active {\n  transform: translate(5px, 5px);\n  box-shadow: none;\n}\n\nbutton::before {\n  content: '';\n  position: absolute;\n  inset: 43% 13%;\n  width: 5.5em;\n  height: .6em;\n  border: none;\n  border-radius: 3em;\n  background-color: rgb(0, 209, 0);\n  transition: all 300ms ease;\n}\n\nbutton::after {\n  content: '';\n  position: absolute;\n  inset: 43% 77%;\n  width: 1.1em;\n  height: .6em;\n  border: none;\n  border-radius: 1em;\n  background-color: rgb(0, 209, 0);\n  transition: all 300ms ease;\n}\n\nbutton:active::before,\nbutton:focus::before {\n  width: 1.1em;\n  background-color: red;\n}\n\nbutton:active::after,\nbutton:focus::after {\n  width: 5.5em;\n  inset: 43% 33%;\n  background-color: red;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

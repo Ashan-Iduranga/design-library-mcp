@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-input-group-text",
+  "title": "Input Group Text (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/input-group-text.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "input",
+    "group",
+    "text",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Add addons, buttons, and helper content to inputs.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/input-group-text.tsx",
+  "code": "import {\n  InputGroup,\n  InputGroupAddon,\n  InputGroupInput,\n  InputGroupText,\n  InputGroupTextarea,\n} from \"@/registry/new-york-v4/ui/input-group\"\n\nexport default function InputGroupTextExample() {\n  return (\n    <div className=\"grid w-full max-w-sm gap-6\">\n      <InputGroup>\n        <InputGroupAddon>\n          <InputGroupText>$</InputGroupText>\n        </InputGroupAddon>\n        <InputGroupInput placeholder=\"0.00\" />\n        <InputGroupAddon align=\"inline-end\">\n          <InputGroupText>USD</InputGroupText>\n        </InputGroupAddon>\n      </InputGroup>\n      <InputGroup>\n        <InputGroupAddon>\n          <InputGroupText>https://</InputGroupText>\n        </InputGroupAddon>\n        <InputGroupInput placeholder=\"example.com\" className=\"pl-0.5!\" />\n        <InputGroupAddon align=\"inline-end\">\n          <InputGroupText>.com</InputGroupText>\n        </InputGroupAddon>\n      </InputGroup>\n      <InputGroup>\n        <InputGroupInput placeholder=\"Enter your username\" />\n        <InputGroupAddon align=\"inline-end\">\n          <InputGroupText>@company.com</InputGroupText>\n        </InputGroupAddon>\n      </InputGroup>\n      <InputGroup>\n        <InputGroupTextarea placeholder=\"Enter your message\" />\n        <InputGroupAddon align=\"block-end\">\n          <InputGroupText className=\"text-xs text-muted-foreground\">\n            120 characters left\n          </InputGroupText>\n        </InputGroupAddon>\n      </InputGroup>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

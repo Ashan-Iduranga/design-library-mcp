@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-yellow-hound-47-068b20",
+  "title": "Loader by Shoh2008 (yellow-hound-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/yellow-hound-47",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_yellow-hound-47.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 0;\n  height: 4.8px;\n  display: inline-block;\n  position: relative;\n  background: #FFF;\n  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);\n  box-sizing: border-box;\n  animation: animFw 8s linear infinite;\n}\n\n.loader::after,\n  .loader::before {\n  content: '';\n  width: 10px;\n  height: 1px;\n  background: #FFF;\n  position: absolute;\n  top: 9px;\n  right: -2px;\n  opacity: 0;\n  transform: rotate(-45deg) translateX(0px);\n  box-sizing: border-box;\n  animation: coli1 0.3s linear infinite;\n}\n\n.loader::before {\n  top: -4px;\n  transform: rotate(45deg);\n  animation: coli2 0.3s linear infinite;\n}\n\n@keyframes animFw {\n  0% {\n    width: 0;\n  }\n\n  100% {\n    width: 100%;\n  }\n}\n\n@keyframes coli1 {\n  0% {\n    transform: rotate(-45deg) translateX(0px);\n    opacity: 0.7;\n  }\n\n  100% {\n    transform: rotate(-45deg) translateX(-45px);\n    opacity: 0;\n  }\n}\n\n@keyframes coli2 {\n  0% {\n    transform: rotate(45deg) translateX(0px);\n    opacity: 1;\n  }\n\n  100% {\n    transform: rotate(45deg) translateX(-45px);\n    opacity: 0.7;\n  }\n}\n  \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

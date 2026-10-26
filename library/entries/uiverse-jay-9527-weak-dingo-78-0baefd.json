@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-jay-9527-weak-dingo-78-0baefd",
+  "title": "Toggle by Jay-9527 (weak-dingo-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Jay-9527/weak-dingo-78",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Jay-9527 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Jay-9527_weak-dingo-78.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by Jay-9527 - Tags: switch */\n/* The switch - the box around the slider */\n.switch {\n font-size: 17px;\n position: relative;\n display: inline-block;\n width: 3.5em;\n height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n opacity: 0;\n width: 0;\n height: 0;\n}\n\n/* The slider */\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n background-color: #ccc;\n transition: .4s;\n border-radius: 30px;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 1.4em;\n width: 1.4em;\n border-radius: 20px;\n left: 0.3em;\n bottom: 0.3em;\n background-color: white;\n transition: .4s;\n}\n\ninput:checked + .slider {\n background-color: rgb(0,221,80);\n}\n\ninput:focus + .slider {\n box-shadow: 0 0 1px rgb(0,221,80);\n}\n\ninput:checked + .slider:before {\n transform: translateX(1.5em);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

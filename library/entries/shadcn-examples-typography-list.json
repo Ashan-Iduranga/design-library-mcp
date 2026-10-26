@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-typography-list",
+  "title": "Typography List (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/typography-list.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "typography",
+    "list",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Styles for headings, paragraphs, lists, etc.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/typography-list.tsx",
+  "code": "export default function TypographyList() {\n  return (\n    <ul className=\"my-6 ml-6 list-disc [&>li]:mt-2\">\n      <li>1st level of puns: 5 gold coins</li>\n      <li>2nd level of jokes: 10 gold coins</li>\n      <li>3rd level of one-liners : 20 gold coins</li>\n    </ul>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-khaledmatalkah-chatty-sheep-5-c690b8",
+  "title": "Button by KhaledMatalkah (chatty-sheep-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KhaledMatalkah/chatty-sheep-5",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "ease"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KhaledMatalkah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/KhaledMatalkah_chatty-sheep-5.html",
+  "code": "<button class=\"button\">\n  Hover Me!\n</button>\n\n<style>\n/* From Uiverse.io by KhaledMatalkah - Tags: button, hover, ease */\n.button {\n  background-color: transparent;\n  color: #ffffff;\n  padding: 15px 30px;\n  border-radius: 5px;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: background-color 0.3s ease-in, transform 0.3s ease;\n  font-size: 18px;\n  font-weight: bold;\n  border: none;\n  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);\n}\n\n.button:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 0;\n  height: 100%;\n  background-color: #76a6ca;\n  opacity: 0;\n  transition: width 0.7s ease-in-out, opacity 0.9s ease;\n}\n\n.button:hover {\n  transform: scale(1.05);\n}\n\n.button:hover:before {\n  width: 100%;\n  opacity: 0.6;\n}\n\n.button:active {\n  background-color: #76a6ca;\n  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);\n  transform: scale(0.98);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

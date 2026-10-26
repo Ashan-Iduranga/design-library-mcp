@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-input-group-dropdown",
+  "title": "Input Group Dropdown (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/input-group-dropdown.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "input",
+    "group",
+    "dropdown",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Add addons, buttons, and helper content to inputs.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/input-group-dropdown.tsx",
+  "code": "import { ChevronDownIcon, MoreHorizontal } from \"lucide-react\"\n\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuItem,\n  DropdownMenuTrigger,\n} from \"@/registry/new-york-v4/ui/dropdown-menu\"\nimport {\n  InputGroup,\n  InputGroupAddon,\n  InputGroupButton,\n  InputGroupInput,\n} from \"@/registry/new-york-v4/ui/input-group\"\n\nexport default function InputGroupDropdown() {\n  return (\n    <div className=\"grid w-full max-w-sm gap-4\">\n      <InputGroup>\n        <InputGroupInput placeholder=\"Enter file name\" />\n        <InputGroupAddon align=\"inline-end\">\n          <DropdownMenu>\n            <DropdownMenuTrigger asChild>\n              <InputGroupButton\n                variant=\"ghost\"\n                aria-label=\"More\"\n                size=\"icon-xs\"\n              >\n                <MoreHorizontal />\n              </InputGroupButton>\n            </DropdownMenuTrigger>\n            <DropdownMenuContent align=\"end\">\n              <DropdownMenuItem>Settings</DropdownMenuItem>\n              <DropdownMenuItem>Copy path</DropdownMenuItem>\n              <DropdownMenuItem>Open location</DropdownMenuItem>\n            </DropdownMenuContent>\n          </DropdownMenu>\n        </InputGroupAddon>\n      </InputGroup>\n      <InputGroup className=\"[--radius:1rem]\">\n        <InputGroupInput placeholder=\"Enter search query\" />\n        <InputGroupAddon align=\"inline-end\">\n          <DropdownMenu>\n            <DropdownMenuTrigger asChild>\n              <InputGroupButton variant=\"ghost\" className=\"pr-1.5! text-xs\">\n                Search In... <ChevronDownIcon className=\"size-3\" />\n              </InputGroupButton>\n            </DropdownMenuTrigger>\n            <DropdownMenuContent align=\"end\" className=\"[--radius:0.95rem]\">\n              <DropdownMenuItem>Documentation</DropdownMenuItem>\n              <DropdownMenuItem>Blog Posts</DropdownMenuItem>\n              <DropdownMenuItem>Changelog</DropdownMenuItem>\n            </DropdownMenuContent>\n          </DropdownMenu>\n        </InputGroupAddon>\n      </InputGroup>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

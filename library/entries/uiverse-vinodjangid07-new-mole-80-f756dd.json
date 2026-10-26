@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vinodjangid07-new-mole-80-f756dd",
+  "title": "Button by vinodjangid07 (new-mole-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/new-mole-80",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "message",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_new-mole-80.html",
+  "code": "<button class=\"Btn\">\n  <svg class=\"svgIcon\" viewBox=\"0 0 512 512\" height=\"1.2em\"><path d=\"M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z\"></path></svg>\n  Messages\n</button>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: gradient, button, message, hover effect */\n.Btn {\n  width: 180px;\n  height: 45px;\n  border-radius: 40px;\n  border: none;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  color: white;\n  background-color: transparent;\n  cursor: pointer;\n  position: relative;\n  background: linear-gradient( to right,#44ea76, #39fad7);\n  transition-duration: .3s;\n  letter-spacing: 1.4px;\n}\n\n.svgIcon path {\n  fill: white;\n}\n\n.Btn:hover {\n  transform: scale(0.95);\n  transition-duration: .3s;\n}\n\n.Btn::before {\n  content: \"\";\n  position: absolute;\n  width: 80%;\n  height: 30%;\n  background: linear-gradient( to right,#44ea76, #39fad7);\n  filter: blur(10px);\n  bottom: -3px;\n  z-index: -1;\n  transition-duration: .3s;\n}\n\n.Btn:hover::before {\n  bottom: -1px;\n  filter: blur(5px);\n  transition-duration: .3s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

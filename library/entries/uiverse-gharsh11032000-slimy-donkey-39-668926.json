@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-gharsh11032000-slimy-donkey-39-668926",
+  "title": "Loader by gharsh11032000 (slimy-donkey-39)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/slimy-donkey-39",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "gradient",
+    "circle-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/gharsh11032000_slimy-donkey-39.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: gradient, loader, circle loader */\n.loader {\n  width: 5em;\n  height: 5em;\n  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );\n  animation: spin 3s infinite;\n}\n\n.loader::before {\n  content: \"\";\n  z-index: -1;\n  position: absolute;\n  inset: 0;\n  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );\n  transform: translate3d(0, 0, 0) scale(0.95);\n  filter: blur(20px);\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(-45deg);\n  }\n\n  50% {\n    transform: rotate(-360deg);\n    border-radius: 50%;\n  }\n\n  100% {\n    transform: rotate(-45deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

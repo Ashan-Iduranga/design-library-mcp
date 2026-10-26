@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-marketing-blog-cards-4-dark",
+  "title": "Blog Cards: Gradient border with date, title and tags, animated gradient on hover (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/blog-cards",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "marketing",
+    "blog-cards",
+    "hyperui",
+    "blog",
+    "post",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/blog-cards/4-dark.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<article class=\"rounded-[10px] border border-gray-200 bg-white px-4 pt-12 pb-4 dark:border-gray-700 dark:bg-gray-900\">\n<time class=\"block text-xs text-gray-500 dark:text-gray-400\" datetime=\"2022-10-10\">\n        10th Oct 2022\n      </time>\n<a href=\"#\">\n<h3 class=\"mt-0.5 text-lg font-medium text-gray-900 dark:text-white\">\n          How to center an element using JavaScript and jQuery\n        </h3>\n</a>\n<div class=\"mt-4 flex flex-wrap gap-1\">\n<span class=\"rounded-full bg-purple-100 px-2.5 py-0.5 text-xs whitespace-nowrap text-purple-600 dark:bg-purple-600 dark:text-purple-100\">\n          Snippet\n        </span>\n<span class=\"rounded-full bg-purple-100 px-2.5 py-0.5 text-xs whitespace-nowrap text-purple-600 dark:bg-purple-600 dark:text-purple-100\">\n          JavaScript\n        </span>\n</div>\n</article>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

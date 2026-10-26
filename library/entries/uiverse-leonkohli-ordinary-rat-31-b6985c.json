@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-leonkohli-ordinary-rat-31-b6985c",
+  "title": "Loader by LeonKohli (ordinary-rat-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/LeonKohli/ordinary-rat-31",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "gradient",
+    "rounded",
+    "gradients"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By LeonKohli on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/LeonKohli_ordinary-rat-31.html",
+  "code": "<div class=\"loader\">\n  <div class=\"bubble\"></div>\n  <div class=\"bubble\"></div>\n  <div class=\"bubble\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by LeonKohli  - Tags: gradient, loader, rounded, gradients */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.bubble {\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-image: linear-gradient(to right, #ff6b81, #ff9a44);\n  margin: 0 5px;\n  animation: bubbleAnimation 1.5s ease-in-out infinite;\n}\n\n@keyframes bubbleAnimation {\n  0%,\n  100% {\n    transform: scale(1);\n    opacity: 1;\n  }\n  50% {\n    transform: scale(2);\n    opacity: 0.5;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

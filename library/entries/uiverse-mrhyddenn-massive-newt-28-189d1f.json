@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-mrhyddenn-massive-newt-28-189d1f",
+  "title": "Loader by mrhyddenn (massive-newt-28)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/massive-newt-28",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "spinner"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_massive-newt-28.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader, spinner */\n.loader {\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  border: 3px solid rgb(255,255,255,.2);\n  border-top-color: transparent;\n  animation: rot1 1.2s linear infinite;\n}\n\n@keyframes rot1 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

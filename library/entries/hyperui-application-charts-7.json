@@ -1,0 +1,36 @@
+{
+  "id": "hyperui-application-charts-7",
+  "title": "Charts: Line chart comparing two periods",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/charts",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "charts",
+    "hyperui",
+    "chart",
+    "graph",
+    "analytics",
+    "dashboard",
+    "data-visualization"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/charts/7.html",
+  "code": "<div class=\"mx-auto max-w-lg p-6\">\n<div class=\"rounded-lg border border-gray-200 bg-white p-6\">\n<h2 class=\"text-sm font-medium text-gray-900\">Revenue: this year vs last year</h2>\n<div class=\"mt-4 h-64\">\n<canvas aria-label=\"Revenue this year vs last year, line chart\" id=\"yearly-revenue-comparison-line-chart\" role=\"img\"></canvas>\n</div>\n<table class=\"sr-only\">\n<caption>\n          Monthly revenue, this year vs last year\n        </caption>\n<thead>\n<tr>\n<th scope=\"col\">Month</th>\n<th scope=\"col\">This year</th>\n<th scope=\"col\">Last year</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<th scope=\"row\">Jan</th>\n<td>$28,000</td>\n<td>$22,000</td>\n</tr>\n<tr>\n<th scope=\"row\">Feb</th>\n<td>$34,000</td>\n<td>$25,000</td>\n</tr>\n<tr>\n<th scope=\"row\">Mar</th>\n<td>$31,000</td>\n<td>$24,000</td>\n</tr>\n<tr>\n<th scope=\"row\">Apr</th>\n<td>$39,000</td>\n<td>$29,000</td>\n</tr>\n<tr>\n<th scope=\"row\">May</th>\n<td>$42,000</td>\n<td>$31,000</td>\n</tr>\n<tr>\n<th scope=\"row\">Jun</th>\n<td>$48,000</td>\n<td>$35,000</td>\n</tr>\n</tbody>\n</table>\n</div>\n<script src=\"https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js\"></script>\n<script>\n      const yearlyRevenueComparisonLineChartCanvas = document.getElementById(\n        'yearly-revenue-comparison-line-chart',\n      )\n\n      new Chart(yearlyRevenueComparisonLineChartCanvas, {\n        type: 'line',\n        data: {\n          labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],\n          datasets: [\n            {\n              label: 'This year',\n              data: [28000, 34000, 31000, 39000, 42000, 48000],\n              borderColor: '#4f46e5',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              pointRadius: 0,\n              pointHoverRadius: 5,\n              pointHoverBackgroundColor: '#4f46e5',\n              pointHoverBorderColor: '#ffffff',\n              pointHoverBorderWidth: 2,\n              tension: 0.35,\n              fill: false,\n            },\n            {\n              label: 'Last year',\n              data: [22000, 25000, 24000, 29000, 31000, 35000],\n              borderColor: '#9ca3af',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              borderDash: [6, 4],\n              pointRadius: 0,\n              pointHoverRadius: 5,\n              pointHoverBackgroundColor: '#9ca3af',\n              pointHoverBorderColor: '#ffffff',\n              pointHoverBorderWidth: 2,\n              tension: 0.35,\n              fill: false,\n            },\n          ],\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: false,\n          interaction: {\n            mode: 'index',\n            intersect: false,\n          },\n          plugins: {\n            legend: {\n              position: 'bottom',\n              labels: { color: '#4b5563' },\n            },\n            tooltip: {\n              callbacks: {\n                label: (tooltipItem) =>\n                  `${tooltipItem.dataset.label}: $${tooltipItem.formattedValue}`,\n              },\n            },\n          },\n          scales: {\n            x: {\n              grid: { display: false },\n              ticks: { color: '#4b5563' },\n            },\n            y: {\n              beginAtZero: true,\n              grid: { color: '#e5e7eb' },\n              ticks: {\n                color: '#4b5563',\n                callback: (tickValue) => `$${Number(tickValue) / 1000}k`,\n              },\n            },\n          },\n        },\n      })\n    </script>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

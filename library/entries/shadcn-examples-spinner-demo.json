@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-spinner-demo",
+  "title": "Spinner Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/spinner-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "spinner",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "An indicator that can be used to show a loading state.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/spinner-demo.tsx",
+  "code": "import {\n  Item,\n  ItemContent,\n  ItemMedia,\n  ItemTitle,\n} from \"@/registry/new-york-v4/ui/item\"\nimport { Spinner } from \"@/registry/new-york-v4/ui/spinner\"\n\nexport default function SpinnerDemo() {\n  return (\n    <div className=\"flex w-full max-w-xs flex-col gap-4 [--radius:1rem]\">\n      <Item variant=\"muted\">\n        <ItemMedia>\n          <Spinner />\n        </ItemMedia>\n        <ItemContent>\n          <ItemTitle className=\"line-clamp-1\">Processing payment...</ItemTitle>\n        </ItemContent>\n        <ItemContent className=\"flex-none justify-end\">\n          <span className=\"text-sm tabular-nums\">$100.00</span>\n        </ItemContent>\n      </Item>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

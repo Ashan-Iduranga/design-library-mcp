@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-empty-demo",
+  "title": "Empty Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/empty-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "empty",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the Empty component to display an empty state.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/empty-demo.tsx",
+  "code": "import { IconFolderCode } from \"@tabler/icons-react\"\nimport { ArrowUpRightIcon } from \"lucide-react\"\n\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\nimport {\n  Empty,\n  EmptyContent,\n  EmptyDescription,\n  EmptyHeader,\n  EmptyMedia,\n  EmptyTitle,\n} from \"@/registry/new-york-v4/ui/empty\"\n\nexport default function EmptyDemo() {\n  return (\n    <Empty>\n      <EmptyHeader>\n        <EmptyMedia variant=\"icon\">\n          <IconFolderCode />\n        </EmptyMedia>\n        <EmptyTitle>No Projects Yet</EmptyTitle>\n        <EmptyDescription>\n          You haven&apos;t created any projects yet. Get started by creating\n          your first project.\n        </EmptyDescription>\n      </EmptyHeader>\n      <EmptyContent>\n        <div className=\"flex gap-2\">\n          <Button>Create Project</Button>\n          <Button variant=\"outline\">Import Project</Button>\n        </div>\n      </EmptyContent>\n      <Button\n        variant=\"link\"\n        asChild\n        className=\"text-muted-foreground\"\n        size=\"sm\"\n      >\n        <a href=\"#\">\n          Learn More <ArrowUpRightIcon />\n        </a>\n      </Button>\n    </Empty>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

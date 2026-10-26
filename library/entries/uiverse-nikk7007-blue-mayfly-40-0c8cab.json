@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nikk7007-blue-mayfly-40-0c8cab",
+  "title": "Button by nikk7007 (blue-mayfly-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/nikk7007/blue-mayfly-40",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By nikk7007 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/nikk7007_blue-mayfly-40.html",
+  "code": "<button class=\"button\"> Button\n</button>\n<style>\n/* From Uiverse.io by nikk7007 - Tags: button */\n.button {\n --color: #00A97F;\n padding: 0.8em 1.7em;\n background-color: transparent;\n border-radius: .3em;\n position: relative;\n overflow: hidden;\n cursor: pointer;\n transition: .5s;\n font-weight: 400;\n font-size: 17px;\n border: 1px solid;\n font-family: inherit;\n text-transform: uppercase;\n color: var(--color);\n z-index: 1;\n}\n\n.button::before, .button::after {\n content: '';\n display: block;\n width: 50px;\n height: 50px;\n transform: translate(-50%, -50%);\n position: absolute;\n border-radius: 50%;\n z-index: -1;\n background-color: var(--color);\n transition: 1s ease;\n}\n\n.button::before {\n top: -1em;\n left: -1em;\n}\n\n.button::after {\n left: calc(100% + 1em);\n top: calc(100% + 1em);\n}\n\n.button:hover::before, .button:hover::after {\n height: 410px;\n width: 410px;\n}\n\n.button:hover {\n color: rgb(10, 25, 30);\n}\n\n.button:active {\n filter: brightness(.8);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

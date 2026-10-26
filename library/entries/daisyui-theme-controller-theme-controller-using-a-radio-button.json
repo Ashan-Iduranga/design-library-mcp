@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-theme-controller-theme-controller-using-a-radio-button",
+  "title": "Theme Controller: Theme Controller using a radio button (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/theme-controller/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "theme-controller",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "If a checked checkbox input or a checked radio input with theme-controller class exists in the page, The page will have the same theme as that input's value.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/theme-controller/+page.md",
+  "code": "<div class=\"join join-vertical\">\n  <input\n    type=\"radio\"\n    name=\"theme-buttons\"\n    class=\"btn theme-controller join-item\"\n    aria-label=\"Default\"\n    value=\"default\" />\n  <input\n    type=\"radio\"\n    name=\"theme-buttons\"\n    class=\"btn theme-controller join-item\"\n    aria-label=\"Retro\"\n    value=\"retro\" />\n  <input\n    type=\"radio\"\n    name=\"theme-buttons\"\n    class=\"btn theme-controller join-item\"\n    aria-label=\"Cyberpunk\"\n    value=\"cyberpunk\" />\n  <input\n    type=\"radio\"\n    name=\"theme-buttons\"\n    class=\"btn theme-controller join-item\"\n    aria-label=\"Valentine\"\n    value=\"valentine\" />\n  <input\n    type=\"radio\"\n    name=\"theme-buttons\"\n    class=\"btn theme-controller join-item\"\n    aria-label=\"Aqua\"\n    value=\"aqua\" />\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

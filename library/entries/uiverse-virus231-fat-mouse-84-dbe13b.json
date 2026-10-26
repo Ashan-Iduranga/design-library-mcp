@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-virus231-fat-mouse-84-dbe13b",
+  "title": "Button by virus231 (fat-mouse-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/virus231/fat-mouse-84",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradients",
+    "hover-effect",
+    "advanced"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By virus231 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/virus231_fat-mouse-84.html",
+  "code": "<button class=\"button\">Button</button>\n\n<style>\n/* From Uiverse.io by virus231  - Tags: button, gradients, hover effect, advanced */\n.button {\n  background: linear-gradient(140.14deg, #ec540e 15.05%, #d6361f 114.99%)\n      padding-box,\n    linear-gradient(142.51deg, #ff9465 8.65%, #af1905 88.82%) border-box;\n  border-radius: 7px;\n  border: 2px solid transparent;\n\n  text-shadow: 1px 1px 1px #00000040;\n  box-shadow: 8px 8px 20px 0px #45090059;\n\n  padding: 10px 40px;\n  line-height: 20px;\n  cursor: pointer;\n  transition: all 0.3s;\n  color: white;\n  font-size: 18px;\n  font-weight: 500;\n}\n\n.button:hover {\n  box-shadow: none;\n  opacity: 80%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

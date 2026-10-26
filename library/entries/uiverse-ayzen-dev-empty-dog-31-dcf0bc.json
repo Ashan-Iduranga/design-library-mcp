@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-ayzen-dev-empty-dog-31-dcf0bc",
+  "title": "Button by Ayzen-Dev (empty-dog-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Ayzen-Dev/empty-dog-31",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "blue",
+    "active",
+    "download"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Ayzen-Dev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Ayzen-Dev_empty-dog-31.html",
+  "code": "<div class=\"button\">\n  <a href=\"#\">Download</a>\n  <b class=\"top\">click to download</b>\n  <b class=\"bottom\">1.2MB .zip</b>\n</div>\n<style>\n/* From Uiverse.io by Ayzen-Dev - Tags: blue, button, active, download */\n.button {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%)\n}\n\n.button a {\n  display: block;\n  height: 50px;\n  width: 200px;\n  background: #00b7ea;\n  color: white;\n  font: 17px/50px Helvetica, Verdana, sans-serif;\n  text-decoration: none;\n  text-align: center;\n  text-transform: uppercase;\n  -webkit-border-radius: 10px;\n  -moz-border-radius: 10px;\n  border-radius: 10px;\n  -webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);\n  -moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);\n  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);\n  background: -moz-linear-gradient(top, #00b7ea 0%, #009ec3 100%);\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00b7ea), color-stop(100%,#009ec3));\n  background: -webkit-linear-gradient(top, #00b7ea 0%,#009ec3 100%);\n  background: -o-linear-gradient(top, #00b7ea 0%,#009ec3 100%);\n  background: -ms-linear-gradient(top, #00b7ea 0%,#009ec3 100%);\n  background: linear-gradient(top, #00b7ea 0%,#009ec3 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 );\n}\n\nb {\n  background: #222;\n  display: block;\n  height: 40px;\n  width: 180px;\n  margin: -50px 0 0 10px;\n  text-align: center;\n  font: 12px/45px Helvetica, Verdana, sans-serif;\n  color: #fff;\n  position: absolute;\n  z-index: -1;\n  -webkit-border-radius: 5px;\n  -moz-border-radius: 5px;\n  border-radius: 5px;\n  -webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);\n  -moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);\n  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);\n  -webkit-transition: all 0.5s ease;\n  -moz-transition: all 0.5s ease;\n  -o-transition: all 0.5s ease;\n  -ms-transition: all 0.5s ease;\n  transition: all 0.5s ease;\n}\n\n.button a, b {\n  -webkit-border-radius: 10px;\n  -moz-border-radius: 10px;\n  border-radius: 10px;\n  -webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);\n  -moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);\n  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);\n}\n\n.button:hover .top {\n  margin: -80px 0 0 10px;\n  line-height: 35px;\n}\n\n.button:hover .bottom {\n  margin: -10px 0 0 10px;\n}\n\n.button a:active {\n  background: #00b7ea;\n  background: -moz-linear-gradient(top,  #00b7ea 36%, #009ec3 100%);\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(36%,#00b7ea), color-stop(100%,#009ec3));\n  background: -webkit-linear-gradient(top,  #00b7ea 36%,#009ec3 100%);\n  background: -o-linear-gradient(top,  #00b7ea 36%,#009ec3 100%);\n  background: -ms-linear-gradient(top,  #00b7ea 36%,#009ec3 100%);\n  background: linear-gradient(top,  #00b7ea 36%,#009ec3 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 );\n}\n\n.button:active .bottom {\n  margin: -20px 0 0 10px;\n}\n\n.button:active .top {\n  margin: -70px 0 0 10px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

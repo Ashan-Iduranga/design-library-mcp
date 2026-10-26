@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-philibertgentien-smart-pug-99-974331",
+  "title": "Loader by PhilibertGentien (smart-pug-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PhilibertGentien/smart-pug-99",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PhilibertGentien on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/PhilibertGentien_smart-pug-99.html",
+  "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"128px\" width=\"128px\" viewBox=\"0 0 128 128\" class=\"pl\">\n  <defs>\n    <linearGradient y2=\"1\" x2=\"0\" y1=\"0\" x1=\"0\" id=\"pl-grad\">\n      <stop stop-color=\"hsl(193,90%,55%)\" offset=\"0%\"></stop>\n      <stop stop-color=\"hsl(223,90%,55%)\" offset=\"100%\"></stop>\n    </linearGradient>\n  </defs>\n  <circle stroke-linecap=\"round\" stroke-width=\"16\" stroke=\"hsla(0,10%,10%,0.1)\" fill=\"none\" cy=\"64\" cx=\"64\" r=\"56\" class=\"pl__ring\"></circle>\n  <path stroke-dashoffset=\"10\" stroke-dasharray=\"44 1111\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"16\" stroke=\"url(#pl-grad)\" fill=\"none\" d=\"M92,15.492S78.194,4.967,66.743,16.887c-17.231,17.938-28.26,96.974-28.26,96.974L119.85,59.892l-99-31.588,57.528,89.832L97.8,19.349,13.636,88.51l89.012,16.015S81.908,38.332,66.1,22.337C50.114,6.156,36,15.492,36,15.492a56,56,0,1,0,56,0Z\" class=\"pl__worm\"></path>\n</svg>\n<style>\n/* From Uiverse.io by PhilibertGentien - Tags: loader */\n.pl,\n.pl__worm {\n animation-duration: 4s;\n animation-iteration-count: infinite;\n}\n\n.pl {\n animation-name: bump5;\n animation-timing-function: linear;\n width: 5em;\n height: 5em;\n}\n\n.pl__ring {\n stroke: hsla(var(--hue),10%,10%,0.1);\n transition: stroke 0.3s;\n}\n\n.pl__worm {\n animation-name: worm5;\n animation-timing-function: cubic-bezier(0.42,0.17,0.75,0.83);\n}\n\n/* Animations */\n@keyframes bump5 {\n from,\n  42%,\n  46%,\n  51%,\n  55%,\n  59%,\n  63%,\n  67%,\n  71%,\n  74%,\n  78%,\n  81%,\n  85%,\n  88%,\n  92%,\n  to {\n  transform: translate(0,0);\n }\n\n 44% {\n  transform: translate(1.33%,6.75%);\n }\n\n 53% {\n  transform: translate(-16.67%,-0.54%);\n }\n\n 61% {\n  transform: translate(3.66%,-2.46%);\n }\n\n 69% {\n  transform: translate(-0.59%,15.27%);\n }\n\n 76% {\n  transform: translate(-1.92%,-4.68%);\n }\n\n 83% {\n  transform: translate(9.38%,0.96%);\n }\n\n 90% {\n  transform: translate(-4.55%,1.98%);\n }\n}\n\n@keyframes worm5 {\n from {\n  stroke-dashoffset: 10;\n }\n\n 25% {\n  stroke-dashoffset: 295;\n }\n\n to {\n  stroke-dashoffset: 1165;\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

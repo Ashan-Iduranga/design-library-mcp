@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-cold-gecko-57-5e0efe",
+  "title": "Toggle by Pradeepsaranbishnoi (cold-gecko-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/cold-gecko-57",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Pradeepsaranbishnoi_cold-gecko-57.html",
+  "code": "<div class=\"bauble_box\">\n\t<input class=\"bauble_input\" id=\"bauble_check\" name=\"bauble\" type=\"checkbox\">\n\t<label class=\"bauble_label\" for=\"bauble_check\">Toggle</label>\n</div>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: switch */\n.bauble_box .bauble_label {\n  background: #2c2;\n  background-position: 62px 5px;\n  background-repeat: no-repeat;\n  background-size: auto 5px;\n  border: 0;\n  border-radius: 50px;\n  box-shadow: inset 0 10px 20px rgba(0,0,0,.4), 0 -1px 0px rgba(0,0,0,.2), inset 0 -1px 0px #fff;\n  cursor: pointer;\n  display: inline-block;\n  font-size: 0;\n  height: 40px;\n  position: relative;\n  -webkit-transition: all 500ms ease;\n  transition: all 500ms ease;\n  width: 90px;\n}\n\n.bauble_box .bauble_label:before {\n  background-color: rgba(255,255,255,.2);\n  background-position: 0 0;\n  background-repeat: repeat;\n  background-size: 30% auto;\n  border-radius: 50%;\n  box-shadow: inset 0 -5px 25px #050, 0 10px 20px rgba(0,0,0,.4);\n  content: '';\n  display: block;\n  height: 30px;\n  left: 5px;\n  position: absolute;\n  top: 6px;\n  -webkit-transition: all 500ms ease;\n  transition: all 500ms ease;\n  width: 30px;\n  z-index: 2;\n}\n\n.bauble_box input.bauble_input {\n  opacity: 0;\n  z-index: 0;\n}\n\n/* Checked */\n.bauble_box input.bauble_input:checked + .bauble_label {\n  background-color: #c22;\n}\n\n.bauble_box input.bauble_input:checked + .bauble_label:before {\n  background-position: 150% 0;\n  box-shadow: inset 0 -5px 25px #500, 0 10px 20px rgba(0,0,0,.4);\n  left: calc( 100% - 35px );\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

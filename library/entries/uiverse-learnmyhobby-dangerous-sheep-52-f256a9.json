@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-learnmyhobby-dangerous-sheep-52-f256a9",
+  "title": "Button by learnMyHobby (dangerous-sheep-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/learnMyHobby/dangerous-sheep-52",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By learnMyHobby on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/learnMyHobby_dangerous-sheep-52.html",
+  "code": "<button>\n  <span>Hover</span>\n</button>\n<style>\n/* From Uiverse.io by learnMyHobby - Tags: button */\nbutton {\n position: relative;\n text-decoration: none;\n font-size: 15px;\n text-transform: uppercase;\n letter-spacing: 5px;\n line-height: 48px;\n width: 160px;\n font-weight: bold;\n height: 55px;\n -webkit-box-reflect: bottom 1px linear-gradient(transparent, #0004);\n}\n\nbutton span {\n position: absolute;\n display: flex;\n justify-content: center;\n top: 4px;\n right: 4px;\n bottom: 4px;\n left: 4px;\n text-align: center;\n background: #2E2E2E;\n color: rgba(255, 255, 255, 0.781);\n transition: 0.5s;\n z-index: 1;\n}\n\nbutton:hover span {\n color: rgba(255,255,255,1);\n}\n\nbutton::before {\n content: '';\n position: absolute;\n width: 100%;\n height: 100%;\n top: 0;\n left: 0;\n background-size: 400%;\n opacity: 0;\n transition: 0.5s;\n background: linear-gradient(45deg,#91155d,#525296,#0f0,#ff0,#fb0094,#00f,#0f0,#ff0);\n animation: animate123 20% linear infinte;\n}\n\nbutton::after {\n content: '';\n position: absolute;\n width: 100%;\n height: 100%;\n top: 0;\n left: 0;\n background-size: 400%;\n filter: blur(20px);\n transition: 0.5s;\n background: linear-gradient(45deg,#91155d,#525296,#0f0,#ff0,#fb0094,#00f,#0f0,#ff0);\n animation: animate123 20% linear infinte;\n}\n\nbutton:hover::before,\nbutton:hover::after {\n opacity: 1;\n}\n\n@keyframes animate123 {\n 0% {\n  background-position: 0 0;\n }\n\n 50% {\n  background-position: 300% 0;\n }\n\n 100% {\n  background-position: 0 0;\n }\n}\n\nbutton span::before {\n content: '';\n position: absolute;\n top: 0;\n left: 0;\n width: 100%;\n height: 50%;\n background: rgba(255,255,255,0.1);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

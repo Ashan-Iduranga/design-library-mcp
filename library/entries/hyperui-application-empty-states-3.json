@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-empty-states-3",
+  "title": "Empty States: Upload data",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/empty-states",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "empty-states",
+    "hyperui",
+    "placeholder",
+    "cta"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/empty-states/3.html",
+  "code": "<div class=\"flex min-h-screen items-center justify-center p-6\">\n<div class=\"max-w-md text-center\">\n<svg aria-hidden=\"true\" class=\"mx-auto size-20 text-gray-400\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9 8.25H7.5a2.25 2.25 0 0 0-2.25 2.25v9a2.25 2.25 0 0 0 2.25 2.25h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25H15m0-3-3-3m0 0-3 3m3-3V15\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n<h2 class=\"mt-6 text-2xl font-bold text-gray-900\">Upload your files</h2>\n<p class=\"mt-4 text-pretty text-gray-700\">\n        Drag and drop files here or click to browse your computer.\n      </p>\n<label class=\"mt-6 block rounded-lg border-2 border-dashed border-gray-300 p-6 transition-colors hover:bg-gray-50\" for=\"files\">\n<span class=\"text-sm font-semibold text-indigo-600\"> Choose files </span>\n<input class=\"sr-only\" id=\"files\" type=\"file\"/>\n</label>\n<p class=\"mt-6 text-sm text-gray-700\">\n        Maximum file size: 10MB. Supported formats: PDF, DOCX, XLSX\n      </p>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

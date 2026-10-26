@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cksunandh-nice-panda-34-88412b",
+  "title": "Loader by Cksunandh (nice-panda-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cksunandh/nice-panda-34",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cksunandh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Cksunandh_nice-panda-34.html",
+  "code": "<div class=\"cssloader\">\n  <div class=\"triangle1\"></div>\n  <div class=\"triangle2\"></div>\n  <p class=\"text\">Please Wait</p>\n</div>\n\n<style>\n/* From Uiverse.io by Cksunandh  - Tags: loader */\n.triangle1 {\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 50px 50px 0 0;\n  border-color: #8086e0 transparent transparent transparent;\n  margin: 0 auto;\n  animation: shk1 1s ease-in-out infinite normal;\n}\n\n.triangle2 {\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 0 0 50px 50px;\n  border-color: transparent transparent #6554b388 transparent;\n  margin: -50px auto 0;\n  animation: shk2 1s ease-in-out infinite alternate;\n}\n@keyframes shk1 {\n  0% {\n    transform: rotate(-360deg);\n  }\n\n  100% {\n  }\n}\n\n@keyframes shk2 {\n  0% {\n    transform: rotate(360deg);\n  }\n  100% {\n  }\n}\n\n.text {\n  color: #949494;\n  margin: 30px auto;\n  text-align: center;\n  font-weight: 500;\n  letter-spacing: 4px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

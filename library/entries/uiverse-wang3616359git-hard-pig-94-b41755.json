@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-wang3616359git-hard-pig-94-b41755",
+  "title": "Button by wang3616359git (hard-pig-94)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/wang3616359git/hard-pig-94",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By wang3616359git on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/wang3616359git_hard-pig-94.html",
+  "code": "<button class=\"bt\">\n  Button\n\n</button>\n<style>\n/* From Uiverse.io by wang3616359git - Tags: button */\n.bt {\n  border: none;\n  color: white;\n  font-weight: 600;\n  font-size: 18px;\n  line-height: 40px;\n  text-align: center;\n        /*background-color: #0985e8;*/\n  background-color: rgba(92, 215, 152,0.8);\n  height: 40px;\n  width: 100px;\n  clip-path: polygon(\n                0 0,5% 0,5% 15%,10% 15%,10% 0,100% 0,\n                100% 75%,95% 75%,95% 85%,100% 85%,100% 100%,\n                50% 100%,50% 85%,45% 85%,45% 100%,0 100%,\n                0 65%,5% 65%,5% 50%,0 50%,0 0\n        );\n  border-top-right-radius: 5px;\n  border-right: #aebdb7 2px solid;\n  border-bottom: #b0bab1 2px solid;\n  transition: all 0.6s ease;\n}\n\n.bt:active {\n  transition: all 0.01s ease;\n  border-right: #aebdb7 0 solid;\n  border-bottom: #b0bab1 0 solid;\n  user-select: none;\n  transform: translateX(1px) translateY(1px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

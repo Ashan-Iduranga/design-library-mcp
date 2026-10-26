@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nawsome-young-goat-78-c38f10",
+  "title": "Loader by Nawsome (young-goat-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/young-goat-78",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Nawsome_young-goat-78.html",
+  "code": "<svg class=\"pl\" width=\"240\" height=\"240\" viewBox=\"0 0 240 240\">\n\t<circle class=\"pl__ring pl__ring--a\" cx=\"120\" cy=\"120\" r=\"105\" fill=\"none\" stroke=\"#000\" stroke-width=\"20\" stroke-dasharray=\"0 660\" stroke-dashoffset=\"-330\" stroke-linecap=\"round\"></circle>\n\t<circle class=\"pl__ring pl__ring--b\" cx=\"120\" cy=\"120\" r=\"35\" fill=\"none\" stroke=\"#000\" stroke-width=\"20\" stroke-dasharray=\"0 220\" stroke-dashoffset=\"-110\" stroke-linecap=\"round\"></circle>\n\t<circle class=\"pl__ring pl__ring--c\" cx=\"85\" cy=\"120\" r=\"70\" fill=\"none\" stroke=\"#000\" stroke-width=\"20\" stroke-dasharray=\"0 440\" stroke-linecap=\"round\"></circle>\n\t<circle class=\"pl__ring pl__ring--d\" cx=\"155\" cy=\"120\" r=\"70\" fill=\"none\" stroke=\"#000\" stroke-width=\"20\" stroke-dasharray=\"0 440\" stroke-linecap=\"round\"></circle>\n</svg>\n<style>\n/* From Uiverse.io by Nawsome - Tags: loader */\n.pl {\n  width: 6em;\n  height: 6em;\n}\n\n.pl__ring {\n  animation: ringA 2s linear infinite;\n}\n\n.pl__ring--a {\n  stroke: #f42f25;\n}\n\n.pl__ring--b {\n  animation-name: ringB;\n  stroke: #f49725;\n}\n\n.pl__ring--c {\n  animation-name: ringC;\n  stroke: #255ff4;\n}\n\n.pl__ring--d {\n  animation-name: ringD;\n  stroke: #f42582;\n}\n\n/* Animations */\n@keyframes ringA {\n  from, 4% {\n    stroke-dasharray: 0 660;\n    stroke-width: 20;\n    stroke-dashoffset: -330;\n  }\n\n  12% {\n    stroke-dasharray: 60 600;\n    stroke-width: 30;\n    stroke-dashoffset: -335;\n  }\n\n  32% {\n    stroke-dasharray: 60 600;\n    stroke-width: 30;\n    stroke-dashoffset: -595;\n  }\n\n  40%, 54% {\n    stroke-dasharray: 0 660;\n    stroke-width: 20;\n    stroke-dashoffset: -660;\n  }\n\n  62% {\n    stroke-dasharray: 60 600;\n    stroke-width: 30;\n    stroke-dashoffset: -665;\n  }\n\n  82% {\n    stroke-dasharray: 60 600;\n    stroke-width: 30;\n    stroke-dashoffset: -925;\n  }\n\n  90%, to {\n    stroke-dasharray: 0 660;\n    stroke-width: 20;\n    stroke-dashoffset: -990;\n  }\n}\n\n@keyframes ringB {\n  from, 12% {\n    stroke-dasharray: 0 220;\n    stroke-width: 20;\n    stroke-dashoffset: -110;\n  }\n\n  20% {\n    stroke-dasharray: 20 200;\n    stroke-width: 30;\n    stroke-dashoffset: -115;\n  }\n\n  40% {\n    stroke-dasharray: 20 200;\n    stroke-width: 30;\n    stroke-dashoffset: -195;\n  }\n\n  48%, 62% {\n    stroke-dasharray: 0 220;\n    stroke-width: 20;\n    stroke-dashoffset: -220;\n  }\n\n  70% {\n    stroke-dasharray: 20 200;\n    stroke-width: 30;\n    stroke-dashoffset: -225;\n  }\n\n  90% {\n    stroke-dasharray: 20 200;\n    stroke-width: 30;\n    stroke-dashoffset: -305;\n  }\n\n  98%, to {\n    stroke-dasharray: 0 220;\n    stroke-width: 20;\n    stroke-dashoffset: -330;\n  }\n}\n\n@keyframes ringC {\n  from {\n    stroke-dasharray: 0 440;\n    stroke-width: 20;\n    stroke-dashoffset: 0;\n  }\n\n  8% {\n    stroke-dasharray: 40 400;\n    stroke-width: 30;\n    stroke-dashoffset: -5;\n  }\n\n  28% {\n    stroke-dasharray: 40 400;\n    stroke-width: 30;\n    stroke-dashoffset: -175;\n  }\n\n  36%, 58% {\n    stroke-dasharray: 0 440;\n    stroke-width: 20;\n    stroke-dashoffset: -220;\n  }\n\n  66% {\n    stroke-dasharray: 40 400;\n    stroke-width: 30;\n    stroke-dashoffset: -225;\n  }\n\n  86% {\n    stroke-dasharray: 40 400;\n    stroke-width: 30;\n    stroke-dashoffset: -395;\n  }\n\n  94%, to {\n    stroke-dasharray: 0 440;\n    stroke-width: 20;\n    stroke-dashoffset: -440;\n  }\n}\n\n@keyframes ringD {\n  from, 8% {\n    stroke-dasharray: 0 440;\n    stroke-width: 20;\n    stroke-dashoffset: 0;\n  }\n\n  16% {\n    stroke-dasharray: 40 400;\n    stroke-width: 30;\n    stroke-dashoffset: -5;\n  }\n\n  36% {\n    stroke-dasharray: 40 400;\n    stroke-width: 30;\n    stroke-dashoffset: -175;\n  }\n\n  44%, 50% {\n    stroke-dasharray: 0 440;\n    stroke-width: 20;\n    stroke-dashoffset: -220;\n  }\n\n  58% {\n    stroke-dasharray: 40 400;\n    stroke-width: 30;\n    stroke-dashoffset: -225;\n  }\n\n  78% {\n    stroke-dasharray: 40 400;\n    stroke-width: 30;\n    stroke-dashoffset: -395;\n  }\n\n  86%, to {\n    stroke-dasharray: 0 440;\n    stroke-width: 20;\n    stroke-dashoffset: -440;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

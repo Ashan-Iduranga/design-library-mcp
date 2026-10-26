@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-misaraadel-tame-elephant-97-530e05",
+  "title": "Button by misaraadel (tame-elephant-97)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/misaraadel/tame-elephant-97",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "clip-path",
+    "hover-effect",
+    "clip",
+    "button-hover-effect",
+    "hover-idea",
+    "hover-me",
+    "clip-path-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By misaraadel on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/misaraadel_tame-elephant-97.html",
+  "code": "<a class=\"custom-btn secondary-color\" href=\"#\">\n  <span>\n    hover me\n  </span>\n</a>\n<style>\n/* From Uiverse.io by misaraadel - Tags: button, clip-path, hover effect, clip, button hover effect , hover idea, hover me, clip path animation */\n.custom-btn {\n  width: 220px;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  align-content: center;\n  justify-content: center;\n  position: relative;\n  z-index: 9;\n  border: 1px solid #5BA50E;\n  gap: 10px;\n  text-decoration: none;\n  background-color: #5BA50E;\n}\n\n.custom-btn::after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  -webkit-clip-path: polygon(0 0, 100% 0, 0 0, 0 100%);\n  clip-path: polygon(0 0, 100% 0, 0 0, 0 100%);\n  z-index: -1;\n  background-color: #fff;\n  top: 0;\n  left: 0;\n  opacity: 0;\n}\n\n.custom-btn span {\n  font-size: 16px;\n  font-weight: 700;\n  color: #fff;\n}\n\n.custom-btn:hover::after {\n  animation: sideClip 0.5s linear;\n  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);\n  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);\n  opacity: 1;\n}\n\n.custom-btn:hover span {\n  animation: storm 0.4s linear both;\n  color: #5BA50E;\n}\n\n@keyframes sideClip {\n  0% {\n    clip-path: polygon(0 0, 100% 0, 0 0, 0 100%);\n  }\n\n  50% {\n    clip-path: polygon(0 0, 100% 0, 0 100%, 0 100%);\n  }\n\n  100% {\n    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);\n  }\n}\n\n@keyframes storm {\n  0% {\n    transform: translate3d(0, 0, 0) translateZ(0);\n  }\n\n  25% {\n    transform: translate3d(4px, 0, 0) translateZ(0);\n  }\n\n  50% {\n    transform: translate3d(-3px, 0, 0) translateZ(0);\n  }\n\n  75% {\n    transform: translate3d(2px, 0, 0) translateZ(0);\n  }\n\n  100% {\n    transform: translate3d(0, 0, 0) translateZ(0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

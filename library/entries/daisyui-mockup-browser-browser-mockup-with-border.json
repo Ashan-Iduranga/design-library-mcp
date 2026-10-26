@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-mockup-browser-browser-mockup-with-border",
+  "title": "Browser mockup: browser mockup with border (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/mockup-browser/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "mockup-browser",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Browser mockup shows a box that looks like a browser window.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/mockup-browser/+page.md",
+  "code": "<div class=\"mockup-browser border border-base-300 w-full\">\n  <div class=\"mockup-browser-toolbar\">\n    <div class=\"input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center border-t border-base-300 h-80\">Hello!</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

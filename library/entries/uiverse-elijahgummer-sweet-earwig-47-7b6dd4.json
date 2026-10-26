@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-elijahgummer-sweet-earwig-47-7b6dd4",
+  "title": "Loader by elijahgummer (sweet-earwig-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/sweet-earwig-47",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "animation",
+    "red",
+    "minimalist",
+    "gradient",
+    "loading",
+    "shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/elijahgummer_sweet-earwig-47.html",
+  "code": "<div class=\"middle\">\n  <div class=\"bar bar1\"></div>\n  <div class=\"bar bar2\"></div>\n  <div class=\"bar bar3\"></div>\n  <div class=\"bar bar4\"></div>\n  <div class=\"bar bar5\"></div>\n  <div class=\"bar bar6\"></div>\n  <div class=\"bar bar7\"></div>\n  <div class=\"bar bar8\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, animation, red, minimalist, gradient, loading, loader, shadow */\n.middle {\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  position: absolute;\n}\n\n.bar {\n  width: 10px;\n  height: 70px;\n  display: inline-block;\n  transform-origin: bottom center;\n  border-top-right-radius: 20px;\n  border-top-left-radius: 20px;\n  box-shadow: 5px 10px 20px inset rgba(255, 23, 25.2);\n  animation: loader 1.2s linear infinite;\n}\n\n.bar1 {\n  animation-delay: 0.1s;\n}\n.bar2 {\n  animation-delay: 0.2s;\n}\n.bar3 {\n  animation-delay: 0.3s;\n}\n.bar4 {\n  animation-delay: 0.4s;\n}\n.bar5 {\n  animation-delay: 0.5s;\n}\n.bar6 {\n  animation-delay: 0.6s;\n}\n.bar7 {\n  animation-delay: 0.7s;\n}\n.bar8 {\n  animation-delay: 0.8s;\n}\n\n@keyframes loader {\n  0% {\n    transform: scaleY(0.1);\n    background: transparent; /* Change background to transparent */\n  }\n  50% {\n    transform: scaleY(1);\n    background: #e74c3c; /* Change background to a shade of red */\n  }\n  100% {\n    transform: scaleY(0.1);\n    background: transparent; /* Change background to transparent */\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

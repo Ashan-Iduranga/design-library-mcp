@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-manish-tamang-swift-warthog-30-77e6b4",
+  "title": "Button by Manish-Tamang (swift-warthog-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Manish-Tamang/swift-warthog-30",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover-effect",
+    "html",
+    "css",
+    "3d-button",
+    "button-hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Manish-Tamang on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Manish-Tamang_swift-warthog-30.html",
+  "code": "<span><a href=\"#\"></a></span>\n\n<style>\n/* From Uiverse.io by Manish-Tamang  - Tags: button, hover effect, html, css, 3d button, button hover effect  */\na {\n  position: relative;\n  display: inline-flex;\n  width: 180px;\n  height: 55px;\n  margin: 0 15px;\n  perspective: 1000px;\n  text-decoration: none;\n}\n\na:before,\na:after {\n  position: absolute;\n  content: \"3D HOVER\";\n  height: 55px;\n  width: 180px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 5px solid black;\n  box-sizing: border-box;\n  font-size: 19px;\n  letter-spacing: 1px;\n  font-family: \"Montserrat\", sans-serif;\n  text-align: center;\n  transition: transform 0.25s;\n}\n\na:before {\n  color: #fff;\n  background: #000;\n  transform: rotateY(0deg) translateZ(25px);\n}\n\na:after {\n  color: #000;\n  transform: rotateX(90deg) translateZ(25px);\n}\n\na:hover:before {\n  transform: translateZ(-25px) rotateX(-90deg);\n}\n\na:hover:after {\n  transform: rotateY(0deg) translateZ(25px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

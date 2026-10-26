@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-angelo2004-mateus-neat-owl-38-024ce8",
+  "title": "Loader by angelo2004-mateus (neat-owl-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/angelo2004-mateus/neat-owl-38",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "material-design",
+    "neumorphism",
+    "animation",
+    "animated",
+    "gradients"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By angelo2004-mateus on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/angelo2004-mateus_neat-owl-38.html",
+  "code": "<div class=\"loader\">\n  <span></span>\n</div>\n<style>\n/* From Uiverse.io by angelo2004-mateus - Tags: material design, neumorphism, animation, loader, animated, gradients */\n.loader {\n  width: 10rem;\n  height: 10rem;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  border-radius: 50%;\n  box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94, 104, 121, 0.137);\n}\n\n.loader:before {\n  height: 4rem;\n  width: 4rem;\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  z-index: 10;\n  background: #ececec;\n  border-radius: 50%;\n  border: 2px solid #e2e1e1;\n  box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);\n}\n\n.loader span {\n  width: 80%;\n  height: 80%;\n  border-radius: 50%;\n  background: linear-gradient(to bottom, rgb(89, 92, 252), rgb(226, 57, 241));\n  animation: rotate 1s infinite linear;\n}\n\n@keyframes rotate {\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

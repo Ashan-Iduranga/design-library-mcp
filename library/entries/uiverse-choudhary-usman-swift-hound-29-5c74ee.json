@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-choudhary-usman-swift-hound-29-5c74ee",
+  "title": "Loader by choudhary-usman (swift-hound-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/choudhary-usman/swift-hound-29",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "material-design",
+    "icon",
+    "animation",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By choudhary-usman on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/choudhary-usman_swift-hound-29.html",
+  "code": "<div class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by choudhary-usman  - Tags: simple, material design, icon, animation, loader, animated */\n.loader {\n  --s: 15px;\n  width: calc(var(--s) * 2.33);\n  aspect-ratio: 1;\n  display: flex;\n  justify-content: space-between;\n}\n.loader::before,\n.loader::after {\n  content: \"\";\n  width: var(--s);\n  --_g: no-repeat radial-gradient(farthest-side, #000 94%, #0000);\n  background: var(--_g) top, var(--_g) bottom;\n  background-size: 100% var(--s);\n  transform-origin: 50% calc(100% - var(--s) / 2);\n  animation: l30 1s infinite;\n}\n.loader::after {\n  transform-origin: 50% calc(var(--s) / 2);\n}\n@keyframes l30 {\n  70%,\n  100% {\n    transform: rotate(-270deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

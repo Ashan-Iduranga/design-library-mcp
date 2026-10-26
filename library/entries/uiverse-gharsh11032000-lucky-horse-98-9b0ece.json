@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-gharsh11032000-lucky-horse-98-9b0ece",
+  "title": "Loader by gharsh11032000 (lucky-horse-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/lucky-horse-98",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/gharsh11032000_lucky-horse-98.html",
+  "code": "<div class=\"loader\">\n  <div class=\"loader-small\"></div>\n  <div class=\"loader-large\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags:  */\n.loader {\n  position: relative;\n  width: 70px;\n  height: 70px;\n}\n\n.loader-large {\n  position: absolute;\n  inset: 0;\n  margin: auto;\n  width: 100%;\n  height: 100%;\n  background-color: #D4ADFC;\n  border-radius: 10px;\n  animation: loading 2s infinite;\n}\n\n.loader-small {\n  position: absolute;\n  width: 50%;\n  height: 50%;\n  inset: 0;\n  margin: auto;\n  background-color: #5C469C;\n  z-index: 2;\n  border-radius: 6px;\n  animation: loading 2s infinite reverse;\n}\n\n@keyframes loading {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  50% {\n    transform: rotateY(180deg);\n  }\n\n  100% {\n    transform: rotateX(180deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

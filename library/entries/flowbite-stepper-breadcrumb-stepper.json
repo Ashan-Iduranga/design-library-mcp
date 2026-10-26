@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-stepper-breadcrumb-stepper",
+  "title": "Stepper: Breadcrumb stepper (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/stepper/#breadcrumb-stepper",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "stepper",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This example can be used to show the number of steps similar to how a breadcrumb component looks like by using double chevron icons between the items.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/stepper.md",
+  "code": "<ol class=\"flex items-center w-full p-3 space-x-2 text-sm font-medium text-center text-body bg-neutral-primary-soft border border-default rounded-base shadow-xs sm:p-4 sm:space-x-4 rtl:space-x-reverse\">\n    <li class=\"flex items-center text-fg-brand\">\n        <span class=\"flex items-center justify-center w-5 h-5 me-2 text-xs border border-brand rounded-full shrink-0\">\n            1\n        </span>\n        Personal <span class=\"hidden sm:inline-flex ms-2\">Info</span>\n        <svg class=\"w-5 h-5 ms-2 rtl:rotate-180\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m7 16 4-4-4-4m6 8 4-4-4-4\"/></svg>\n    </li>\n    <li class=\"flex items-center\">\n        <span class=\"flex items-center justify-center w-5 h-5 me-2 text-xs border border-body rounded-full shrink-0\">\n            2\n        </span>\n        Account <span class=\"hidden sm:inline-flex ms-2\">Info</span>\n        <svg class=\"w-5 h-5 ms-2 rtl:rotate-180\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m7 16 4-4-4-4m6 8 4-4-4-4\"/></svg>\n    </li>\n    <li class=\"flex items-center\">\n        <span class=\"flex items-center justify-center w-5 h-5 me-2 text-xs border border-body rounded-full shrink-0\">\n            3\n        </span>\n        Review\n    </li>\n</ol>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

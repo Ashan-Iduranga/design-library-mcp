@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-roroland-wonderful-owl-61-d62aad",
+  "title": "Button by roroland (wonderful-owl-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/roroland/wonderful-owl-61",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "glassmorphism",
+    "pink",
+    "gradient",
+    "rounded",
+    "smooth",
+    "colorful"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By roroland on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/roroland_wonderful-owl-61.html",
+  "code": "<button class=\"button\">Join now</button>\n\n<style>\n/* From Uiverse.io by roroland  - Tags: glassmorphism, pink, gradient, button, rounded, smooth, colorful */\n.button {\n  --radius: 20px;\n  --col0: 0, 0, 0;\n  --col1: 219, 161, 240;\n  --col2: 239, 214, 248;\n  --col3: 255, 255, 255;\n  --col4: 270, 153, 138;\n  --col5: 244, 164, 177;\n  --col6: 244, 136, 136;\n  --col7: 243, 136, 94;\n  --col8: 252, 187, 165;\n  --col9: 254, 230, 222;\n  --col10: 247, 197, 161;\n  --col11: 245, 205, 238;\n  --col12: 252, 67, 130;\n  position: relative;\n  background: linear-gradient(\n    65deg,\n    rgba(var(--col1), 0.81) 0%,\n    rgba(var(--col2), 0.81) 11%,\n    rgba(var(--col3), 0.81) 21%,\n    rgba(var(--col3), 0.81) 24%,\n    rgba(var(--col4), 0.5) 37%,\n    rgba(var(--col5), 0.81) 42%,\n    rgba(var(--col6), 0.81) 50%,\n    rgba(var(--col7), 0.9) 58%,\n    rgba(var(--col8), 0.81) 68%,\n    rgba(var(--col9), 0.81) 72%,\n    rgba(var(--col3), 0.81) 78%,\n    rgba(var(--col10), 0.81) 86%,\n    rgba(var(--col11), 0.81) 93%,\n    rgba(var(--col1), 0.81) 98%\n  );\n  background-size: 105%;\n  box-shadow: -10px 10px 0px rgba(var(--col0), 0.005),\n    0px 20px 30px rgba(var(--col0), 0.16),\n    inset 5px 0 20px rgba(var(--col1), 0.5),\n    inset -5px 20px 10px rgba(var(--col4), 0.5),\n    inset 1px 3px 3px rgba(var(--col0), 0.25),\n    inset 0px -5px 1px rgba(var(--col7), 0.5),\n    inset 0px -5px 1px rgba(var(--col2), 0.95),\n    inset 1px 2px 1px rgba(var(--col12), 0.15),\n    inset 5px 5px 1px rgba(var(--col12), 0.35),\n    inset -5px 5px 1px rgba(var(--col12), 0.15),\n    inset 0px -20px 10px rgba(var(--col12), 0.15);\n  cursor: pointer;\n  padding: 1rem 2rem;\n  min-height: 5rem;\n  min-width: 16rem;\n  font-size: 1rem;\n  padding-inline-start: 10%;\n  font-weight: 600;\n  filter: hue-rotate(0deg);\n  color: #505050;\n  border-radius: var(--radius);\n  appearance: none;\n  border: 0;\n  transition: all 3s ease-in-out;\n  z-index: 0;\n}\n.button:hover {\n  color: rgba(var(--col7), 1);\n  text-shadow: 2px 2px 5px rgba(var(--col1), 0.75);\n  background-size: 350%;\n  filter: hue-rotate(125deg);\n}\n.button:active {\n  transition: all 0.1s ease-out;\n  scale: 0.95;\n}\n\n.button:hover::after {\n  backdrop-filter: blur(1px);\n  opacity: 0.25;\n  box-shadow: 0;\n  translate: 10%;\n}\n.button::before {\n  --border: 4px;\n  box-shadow: inset 0px 0px 20px rgba(var(--col1), 0.5),\n    0px 0px 1px rgba(var(--col2), 0.95);\n  content: \"\";\n  border-radius: inherit;\n  position: absolute;\n  display: block;\n  width: calc(90% - var(--border));\n  height: calc(75% - var(--border));\n  inset: 0.5rem 0.5rem 0.5rem;\n  z-index: 0;\n  border: var(--border) solid transparent;\n  transition: all 3s ease-out;\n}\n.button::after {\n  content: \"\";\n  aspect-ratio: 1;\n  clip-path: polygon(88% 0, 70% 45%, 100% 45%, 61% 100%, 72% 57%, 43% 57%);\n  position: absolute;\n  background: #505050;\n  backdrop-filter: blur(5px);\n  width: 10%;\n  opacity: 1;\n  inset: 33% 0 0 25%;\n  z-index: -1;\n  transition: all 1s ease-out;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

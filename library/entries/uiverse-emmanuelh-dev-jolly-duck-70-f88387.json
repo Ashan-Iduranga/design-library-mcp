@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-emmanuelh-dev-jolly-duck-70-f88387",
+  "title": "Card by emmanuelh-dev (jolly-duck-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/emmanuelh-dev/jolly-duck-70",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "calculator"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By emmanuelh-dev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/emmanuelh-dev_jolly-duck-70.html",
+  "code": "<div class=\"calculator\">\n  <div class=\"output\">\n    <span class=\"result\"></span>\n  </div>\n  <div class=\"buttons\">\n    <button>1</button>\n    <button>2</button>\n    <button>3</button>\n    <button>+</button>\n    <button>4</button>\n    <button>5</button>\n    <button>6</button>\n    <button>-</button>\n    <button>7</button>\n    <button>8</button>\n    <button>9</button>\n    <button>*</button>\n    <button class=\"bg-red\">C</button>\n    <button>0</button>\n    <button class=\"bg-green\">=</button>\n    <button>/</button>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by emmanuelh-dev - Tags: card, calculator */\n.calculator {\n  border: 1px solid rgb(179, 179, 179);\n  border-radius: 0.375rem;\n  width: 190px;\n  height: 254px;\n  font-family: Arial, sans-serif;\n  margin: 0 auto;\n  padding: 10px;\n}\n\n.output {\n  border: 1px solid #ccc;\n  border-radius: 0.375rem;\n  height: 40px;\n  margin-bottom: 10px;\n  margin-top: 10px;\n  display: flex;\n  align-items: center;\n  justify-content: flex-end;\n  padding-right: 10px;\n}\n\n.result {\n  font-size: 20px;\n}\n\n.buttons {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  grid-gap: 5px;\n}\n\nbutton {\n  border: none;\n  border-radius: 0.375rem;\n  padding: 10px;\n  background-color: #eee;\n  cursor: pointer;\n  font-size: 16px;\n}\n\nbutton:hover {\n  background-color: #ddd;\n}\n\nbutton:active {\n  background-color: #ccc;\n}\n\n.bg-green {\n  background-color: rgba(0, 177, 29, 0.651);\n  color: white;\n}\n\n.bg-green:hover {\n  background-color: rgba(0, 231, 39, 0.651);\n  color: white;\n}\n\n.bg-red {\n  background-color: rgba(223, 4, 4, 0.651);\n  color: white;\n}\n\n.bg-red:hover {\n  background-color: rgba(255, 1, 1, 0.651);\n  color: white;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

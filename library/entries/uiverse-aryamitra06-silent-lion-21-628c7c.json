@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-aryamitra06-silent-lion-21-628c7c",
+  "title": "Loader by aryamitra06 (silent-lion-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aryamitra06/silent-lion-21",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aryamitra06 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/aryamitra06_silent-lion-21.html",
+  "code": "<div class=\"loader\">\n    <span class=\"bar\"></span>\n    <span class=\"bar\"></span>\n    <span class=\"bar\"></span>\n</div>\n<style>\n/* From Uiverse.io by aryamitra06 - Tags: loader */\n.loader {\n  display: flex;\n  align-items: center;\n}\n\n.bar {\n  display: inline-block;\n  width: 3px;\n  height: 20px;\n  background-color: rgba(255, 255, 255, .5);\n  border-radius: 10px;\n  animation: scale-up4 1s linear infinite;\n}\n\n.bar:nth-child(2) {\n  height: 35px;\n  margin: 0 5px;\n  animation-delay: .25s;\n}\n\n.bar:nth-child(3) {\n  animation-delay: .5s;\n}\n\n@keyframes scale-up4 {\n  20% {\n    background-color: #ffff;\n    transform: scaleY(1.5);\n  }\n\n  40% {\n    transform: scaleY(1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

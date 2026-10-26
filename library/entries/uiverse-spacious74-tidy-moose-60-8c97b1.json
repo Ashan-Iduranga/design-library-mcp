@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-spacious74-tidy-moose-60-8c97b1",
+  "title": "Button by Spacious74 (tidy-moose-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Spacious74/tidy-moose-60",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Spacious74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Spacious74_tidy-moose-60.html",
+  "code": "<div class=\"btn-container\">\n  <button class=\"button\">\n    <span>Join Today </span>\n    <svg\n      viewBox=\"0 0 48 48\"\n      height=\"1.2em\"\n      width=\"1.2em\"\n      class=\"svg\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M42 24H6m24-12l12 12l-12 12\"\n        stroke-width=\"4\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n        stroke=\"currentColor\"\n        fill=\"none\"\n      ></path>\n    </svg>\n  </button>\n</div>\n\n<style>\n/* From Uiverse.io by Spacious74  - Tags: button */\n.btn-container {\n  padding: 3px;\n  background: linear-gradient(180deg, #f3aefe, #8d35d3);\n  border-radius: 19px;\n  transform: perspective(850px) rotateX(14deg) rotateY(8deg) rotateZ(-11deg);\n  color: white;\n  box-shadow:\n    -4px 4px 0px #5d2b82,\n    -5px 7px 8px #4d1e7491,\n    -10px 13px 18px #4d1e7450,\n    -20px 20px 40px #4d1e74a8;\n  position: relative;\n  transition: all 0.4s ease;\n}\n\n.btn-container:hover {\n  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);\n  box-shadow:\n    0px 4px 5px #5d2b82,\n    0px 7px 8px #4d1e7491,\n    0px 13px 18px #4d1e7450,\n    0px 20px 40px #4d1e74a8;\n}\n.btn-container:active {\n  box-shadow:\n    0px 4px 5px #5c2b82c7,\n    0px 7px 8px #4d1e745b,\n    0px 5px 18px #4d1e7434,\n    0px 10px 40px #4d1e746e;\n}\n.btn-container:active > .button {\n  box-shadow: inset 0px 6px 10px #3114494b;\n}\n\n.button {\n  color: white;\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 5px;\n  padding: 22px 24px;\n  font-size: 1.6rem;\n  font-weight: 600;\n  border-radius: 16px;\n  border: none;\n  background: linear-gradient(180deg, #d28dff, #8533c6);\n  box-shadow: inset 0px -6px 10px #3114494b;\n  text-shadow: -1px 1px 3px #2a0f3fbb;\n  transition: all 0.3s ease;\n}\n.svg {\n  margin-top: 2px;\n  font-weight: bold;\n  filter: drop-shadow(-2px 2px 1px #2a0f3f6c);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

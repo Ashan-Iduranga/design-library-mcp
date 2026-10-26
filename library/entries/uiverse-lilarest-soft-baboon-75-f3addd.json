@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-lilarest-soft-baboon-75-f3addd",
+  "title": "Radio by LilaRest (soft-baboon-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/LilaRest/soft-baboon-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "neumorphism",
+    "skeuomorphism",
+    "glassmorphism",
+    "animation",
+    "minimalist",
+    "ball",
+    "futuristic"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By LilaRest on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/LilaRest_soft-baboon-75.html",
+  "code": "<div class=\"radio-input\">\n  <div class=\"glass\">\n    <div class=\"glass-inner\">\n    </div>\n  </div>\n  <div class=\"selector\">\n    <div class=\"choice\">\n      <div>\n        <input type=\"radio\" id=\"one\" name=\"number-selector\" value=\"one\" checked=\"true\" class=\"choice-circle\">\n        <div class=\"ball\"></div>\n      </div>\n      <label class=\"choice-name\" for=\"one\">1</label>\n    </div>\n    <div class=\"choice\">\n      <div>\n        <input type=\"radio\" id=\"two\" name=\"number-selector\" value=\"two\" class=\"choice-circle\">\n        <div class=\"ball\"></div>\n      </div>\n      <label class=\"choice-name\">2</label>\n    </div>\n    <div class=\"choice\">\n      <div>\n        <input type=\"radio\" id=\"three\" name=\"number-selector\" value=\"three\" class=\"choice-circle\">\n        <div class=\"ball\"></div>\n      </div>\n      <label class=\"choice-name\" for=\"three\">3</label>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by LilaRest - Tags: neumorphism, skeuomorphism, glassmorphism, animation, minimalist, ball, radio, futuristic */\n.radio-input {\n  display: flex;\n  height: 210px;\n  align-items: center;\n}\n\n.glass {\n  z-index: 2;\n  height: 110%;\n  width: 95px;\n  margin-right: 25px;\n  padding: 8px;\n  background-color: rgba(190, 189, 189, 0.5);\n  border-radius: 35px;\n  box-shadow: rgba(50, 50, 93, 0.2) 0px 25px 50px -10px,\n   rgba(0, 0, 0, 0.25) 0px 10px 30px -15px,\n    rgba(10, 37, 64, 0.26) 0px -2px 6px 0px inset;\n  backdrop-filter: blur(8px);\n}\n\n.glass-inner {\n  width: 100%;\n  height: 100%;\n  border-color: rgba(245, 245, 245, 0.45);\n  border-width: 9px;\n  border-style: solid;\n  border-radius: 30px\n}\n\n.selector {\n  display: flex;\n  flex-direction: column;\n}\n\n.choice {\n  margin: 10px 0 10px 0;\n  display: flex;\n  align-items: center;\n}\n\n.choice > div {\n  position: relative;\n  width: 41px;\n  height: 41px;\n  margin-right: 15px;\n  z-index: 0;\n}\n\n.choice-circle {\n  appearance: none;\n  height: 100%;\n  width: 100%;\n  border-radius: 100%;\n  border-width: 9px;\n  border-style: solid;\n  border-color: rgba(245, 245, 245, 0.45);\n  cursor: pointer;\n  box-shadow: 0px 0px 20px -13px gray,\n  0px 0px 20px -14px gray inset;\n}\n\n.ball {\n  z-index: 1;\n  position: absolute;\n  inset: 0px;\n  transform: translateX(-95px);\n  box-shadow: rgba(0, 0, 0, 0.17) 0px -10px 10px 0px inset,\n   rgba(0, 0, 0, 0.15) 0px -15px 15px 0px inset,\n    rgba(0, 0, 0, 0.1) 0px -40px 20px 0px inset,\n     rgba(0, 0, 0, 0.06) 0px 2px 1px, \n     rgba(0, 0, 0, 0.09) 0px 4px 2px, \n     rgba(0, 0, 0, 0.09) 0px 8px 4px, \n     rgba(0, 0, 0, 0.09) 0px 16px 8px,\n      rgba(0, 0, 0, 0.09) 0px 32px 16px,\n       0px -1px 15px -8px rgba(0, 0, 0, 0.09);\n  border-radius: 100%;\n  transition: transform 800ms cubic-bezier(1,-0.4,0,1.4);\n  background-color: rgb(232, 232, 232, 1);\n}\n\n.choice-circle:checked + .ball {\n  transform: translateX(0px);\n}\n\n.choice-name {\n  color: rgb(177, 176, 176);\n  font-size: 35px;\n  font-weight: 900;\n  font-family: monospace;\n  cursor: pointer;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

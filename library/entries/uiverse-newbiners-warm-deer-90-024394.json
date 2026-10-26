@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-newbiners-warm-deer-90-024394",
+  "title": "Notification by newbiners (warm-deer-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/newbiners/warm-deer-90",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By newbiners on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Notifications/newbiners_warm-deer-90.html",
+  "code": "<div class=\"notification\">\n  <span>L</span>\n  <span>E</span>\n  <span>V</span>\n  <span>E</span>\n  <span>L</span>\n  <span>U</span>\n  <span>P</span>\n  <span>!</span>\n</div>\n<style>\n/* From Uiverse.io by newbiners - Tags: notification */\n.notification {\n  width: 250px;\n  height: 60px;\n  background: rgb(146, 146, 146);\n  border-radius: 14px;\n  font-size: 2.3em;\n  font-weight: 700;\n  color: black;\n  text-shadow: 2px 2px yellow;\n  text-align: center;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  gap: 4px;\n}\n\n.notification span {\n  -webkit-animation: levelup 2s ease infinite;\n  animation: levelup 2s ease infinite;\n}\n\n.notification span:nth-child(2) {\n  -webkit-animation-delay: 0.25s;\n  animation-delay: 0.25s;\n}\n\n.notification span:nth-child(3) {\n  -webkit-animation-delay: 0.5s;\n  animation-delay: 0.5s;\n}\n\n.notification span:nth-child(4) {\n  -webkit-animation-delay: 0.75s;\n  animation-delay: 0.75s;\n}\n\n.notification span:nth-child(5) {\n  -webkit-animation-delay: 1s;\n  animation-delay: 1s;\n}\n\n.notification span:nth-child(6) {\n  -webkit-animation-delay: 1.25s;\n  animation-delay: 1.25s;\n}\n\n.notification span:nth-child(7) {\n  -webkit-animation-delay: 1.5s;\n  animation-delay: 1.5s;\n}\n\n.notification span:nth-child(8) {\n  -webkit-animation-delay: 1.75s;\n  animation-delay: 1.75s;\n}\n\n@-webkit-keyframes levelup {\n  0%, 100% {\n    -webkit-transform: translateY(10px);\n    transform: translateY(10px);\n  }\n\n  50% {\n    -webkit-transform: translateY(-10px);\n    transform: translateY(-10px);\n  }\n}\n\n@keyframes levelup {\n  0%, 100% {\n    -webkit-transform: translateY(10px);\n    transform: translateY(10px);\n  }\n\n  50% {\n    -webkit-transform: translateY(-10px);\n    transform: translateY(-10px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

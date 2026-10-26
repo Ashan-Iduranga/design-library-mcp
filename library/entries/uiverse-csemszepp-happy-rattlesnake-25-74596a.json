@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-happy-rattlesnake-25-74596a",
+  "title": "Pattern by csemszepp (happy-rattlesnake-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/happy-rattlesnake-25",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_happy-rattlesnake-25.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 65px; /* control the size */\n  --c1: #dadee1;\n  --c2: #4a99b4;\n  --c3: #9cceb5;\n\n  --_c: 75%, var(--c3) 52.72deg, #0000 0;\n  --_g1: conic-gradient(from -116.36deg at 25% var(--_c));\n  --_g2: conic-gradient(from 63.43deg at 75% var(--_c));\n  background: var(--_g1), var(--_g1) calc(3 * var(--s)) calc(var(--s) / 2),\n    var(--_g2), var(--_g2) calc(3 * var(--s)) calc(var(--s) / 2),\n    conic-gradient(\n      var(--c2) 63.43deg,\n      var(--c1) 0 116.36deg,\n      var(--c2) 0 180deg,\n      var(--c1) 0 243.43deg,\n      var(--c2) 0 296.15deg,\n      var(--c1) 0\n    );\n  background-size: calc(2 * var(--s)) var(--s);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

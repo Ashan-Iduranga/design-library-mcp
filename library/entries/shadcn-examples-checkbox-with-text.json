@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-checkbox-with-text",
+  "title": "Checkbox With Text (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/checkbox-with-text.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "checkbox",
+    "with",
+    "text",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A control that allows the user to toggle between checked and not checked.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/checkbox-with-text.tsx",
+  "code": "\"use client\"\n\nimport { Checkbox } from \"@/registry/new-york-v4/ui/checkbox\"\n\nexport default function CheckboxWithText() {\n  return (\n    <div className=\"items-top flex gap-2\">\n      <Checkbox id=\"terms1\" />\n      <div className=\"grid gap-1.5 leading-none\">\n        <label\n          htmlFor=\"terms1\"\n          className=\"text-sm leading-none font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70\"\n        >\n          Accept terms and conditions\n        </label>\n        <p className=\"text-sm text-muted-foreground\">\n          You agree to our Terms of Service and Privacy Policy.\n        </p>\n      </div>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

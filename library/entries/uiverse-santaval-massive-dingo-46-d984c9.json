@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-santaval-massive-dingo-46-d984c9",
+  "title": "Notification by Santaval (massive-dingo-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Santaval/massive-dingo-46",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Santaval on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Notifications/Santaval_massive-dingo-46.html",
+  "code": "<div class=\"bannerContainer\">\n      \n      <div class=\"banner\">\n        \n        <div class=\"loader loader1\"></div>\n        <div class=\"loader loader2\"></div>\n        <div class=\"loader loader3\"></div>\n        \n\n        \n        <div class=\"loader mainCard\">\n          <svg id=\"svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 512\">\n            <path fill=\"#393E41\" d=\"M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 248c-22.1 0-40-17.9-40-40s17.9-40 40-40s40 17.9 40 40s-17.9 40-40 40zm-24 56c0 22.1-17.9 40-40 40s-40-17.9-40-40s17.9-40 40-40s40 17.9 40 40zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z\"></path>\n          </svg>\n          <span>Well done</span>\n          <svg id=\"svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 512\">\n            <path fill=\"#393E41\" d=\"M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 248c-22.1 0-40-17.9-40-40s17.9-40 40-40s40 17.9 40 40s-17.9 40-40 40zm-24 56c0 22.1-17.9 40-40 40s-40-17.9-40-40s17.9-40 40-40s40 17.9 40 40zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z\"></path>\n          </svg>\n\n          \n          <div class=\"loader secondCard\">\n\n            <span>Next Level</span>\n\n          </div>\n          \n        </div>\n      </div>\n      \n    </div>\n    \n<style>\n/* From Uiverse.io by Santaval - Tags: notification */\n/*Container*/\n\n.bannerContainer {\n  position: relative;\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n  width: fit-content;\n  height: fit-content;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n/*Banner */\n\n.bannerContainer .banner {\n  background-color: #e7e5df;\n  height: 70px;\n  width: 250px;\n  border-radius: 10px;\n  position: relative;\n  overflow-y: hidden;\n}\n\n/*Loaders */\n\n.bannerContainer .banner .loader {\n  height: 100%;\n  width: 100%;\n  border-radius: 10px;\n  position: absolute;\n}\n\n.bannerContainer .banner .loader1 {\n  background-color: #393e41;\n  animation: loader 0.5s linear 0s;\n}\n\n.bannerContainer .banner .loader2 {\n  background-color: #44bba4;\n  animation: loader 0.5s linear 0.2s;\n}\n\n.bannerContainer .banner .loader3 {\n  background-color: #e7bb41;\n  animation: loader 0.5s linear 0.3s;\n}\n\n/*Main card*/\n\n.bannerContainer .banner .mainCard {\n  width: 100%;\n  background-color: #e7e5df;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  color: #393e41;\n  font-weight: bolder;\n  animation: loader 0.5s linear 0.4s;\n  border-radius: 10px;\n}\n\n.bannerContainer .banner span {\n  font-size: 29px;\n  font-weight: 900;\n  transform: translateY(-120px);\n  animation: appear 0.1s ease-in 0.9s forwards;\n}\n\n.bannerContainer .banner svg {\n  width: 30px;\n  transform: translateY(-100px);\n  animation: appear 0.1s ease-in 0.9s forwards;\n}\n\n.bannerContainer .banner .mainCard:hover > .secondCard {\n  height: 100%;\n  color: #e7e5df;\n}\n\n/* Second card */\n\n.bannerContainer .banner .secondCard {\n  background-color: #393e41;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  color: transparent;\n  height: 0px;\n  transition: all 0.3s ease-in-out;\n  cursor: pointer;\n}\n\n/* Animations */\n\n@keyframes loader {\n  from {\n    width: 0%;\n  }\n\n  to {\n    width: 100%;\n  }\n}\n\n@keyframes appear {\n  from {\n    transform: translateY(-100px);\n  }\n\n  to {\n    transform: translateY(0px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

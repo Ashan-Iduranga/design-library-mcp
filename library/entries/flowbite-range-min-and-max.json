@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-range-min-and-max",
+  "title": "Range Slider: Min and max (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/range/#min-and-max",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "range",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the min and max attributes on the range component to set the limits of the range values.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/range.md",
+  "code": "<label for=\"minmax-range\" class=\"block mb-2.5 text-sm font-medium text-heading\">Min-max range</label>\n<input id=\"minmax-range\" type=\"range\" min=\"0\" max=\"10\" value=\"5\" class=\"w-full h-2 bg-neutral-quaternary rounded-full appearance-none cursor-pointer\">",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

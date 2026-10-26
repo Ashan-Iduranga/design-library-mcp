@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-doniaskima-rare-falcon-68-0120e1",
+  "title": "Loader by doniaskima (rare-falcon-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/rare-falcon-68",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "material-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_rare-falcon-68.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: simple, material design, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  --c1: #673b14;\n  --c2: #f8b13b;\n  width: 40px;\n  height: 80px;\n  border-top: 4px solid var(--c1);\n  border-bottom: 4px solid var(--c1);\n  background: linear-gradient(90deg, var(--c1) 2px, var(--c2) 0 5px,var(--c1) 0) 50%/7px 8px no-repeat;\n  display: grid;\n  overflow: hidden;\n  animation: l5-0 2s infinite linear;\n}\n\n.loader::before,\n.loader::after {\n  content: \"\";\n  grid-area: 1/1;\n  width: 75%;\n  height: calc(50% - 4px);\n  margin: 0 auto;\n  border: 2px solid var(--c1);\n  border-top: 0;\n  box-sizing: content-box;\n  border-radius: 0 0 40% 40%;\n  -webkit-mask: linear-gradient(#000 0 0) bottom/4px 2px no-repeat,\n    linear-gradient(#000 0 0);\n  -webkit-mask-composite: destination-out;\n  mask-composite: exclude;\n  background: linear-gradient(var(--d,0deg),var(--c2) 50%,#0000 0) bottom /100% 205%,\n    linear-gradient(var(--c2) 0 0) center/0 100%;\n  background-repeat: no-repeat;\n  animation: inherit;\n  animation-name: l5-1;\n}\n\n.loader::after {\n  transform-origin: 50% calc(100% + 2px);\n  transform: scaleY(-1);\n  --s: 3px;\n  --d: 180deg;\n}\n\n@keyframes l5-0 {\n  80% {\n    transform: rotate(0)\n  }\n\n  100% {\n    transform: rotate(0.5turn)\n  }\n}\n\n@keyframes l5-1 {\n  10%,70% {\n    background-size: 100% 205%,var(--s,0) 100%\n  }\n\n  70%,100% {\n    background-position: top,center\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

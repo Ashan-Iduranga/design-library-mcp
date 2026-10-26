@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-praashoo7-mean-dodo-99-cd7e82",
+  "title": "Radio by Praashoo7 (mean-dodo-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/mean-dodo-99",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "realistic",
+    "traffic-lights"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Praashoo7_mean-dodo-99.html",
+  "code": "<div class=\"main\">\n<label class=\"switch\">\n  <input type=\"radio\" name=\"value-radio\">\n  <div class=\"button\">\n    <div class=\"light\"></div>\n    <div class=\"dots\"></div>\n  </div>\n</label>\n<label class=\"switch1\">\n  <input type=\"radio\" checked=\"\" name=\"value-radio\">\n  <div class=\"button\">\n    <div class=\"light\"></div>\n    <div class=\"dots\"></div>\n  </div>\n</label>\n<label class=\"switch2\">\n  <input type=\"radio\" name=\"value-radio\">\n  <div class=\"button\">\n    <div class=\"light\"></div>\n    <div class=\"dots\"></div>\n  </div>\n</label>\n<div class=\"back\"></div>\n</div>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: realistic, radio, traffic-lights */\n/*Design Inspired by @ykadosh on Codepen*/\n\n.back {\n  position: absolute;\n  width: 16.6em;\n  height: 6.5em;\n  margin-top: -0.8em;\n  margin-left: -0.77em;\n  border-radius: 70px;\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;\n  background-color: #171717;\n  z-index: -1;\n}\n\n.main {\n  display: flex;\n}\n\n.switch {\n  display: block;\n  position: relative;\n  background-color: black;\n  width: 70px;\n  height: 70px;\n  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2), 0 0 1px 2px black, inset 0 2px 2px -2px white, inset 0 0 2px 5px #47434c, inset 0 0 2px 22px black;\n  border-radius: 50%;\n  padding: 20px;\n  margin: 5px;\n}\n\n.switch input {\n  display: none;\n}\n\n.switch input:checked + .button .light {\n  animation: flicker 0.2s infinite 0.3s;\n}\n\n.switch input:checked + .button .shine {\n  opacity: 1;\n}\n\n.switch input:checked + .button .shadow {\n  opacity: 0;\n}\n\n.switch .button {\n  transition: all 0.3s cubic-bezier(1, 0, 1, 1);\n  background-color: #9b0621;\n  width: 55px;\n  height: 55px;\n  border-radius: 50%;\n  position: relative;\n  left: -0.75em;\n  top: -0.75em;\n  cursor: pointer;\n}\n\n.switch .light {\n  opacity: 0;\n  animation: light-off 1s;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient(#ffc97e, #ff1818 40%, transparent 70%);\n}\n\n.switch .dots {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient(transparent 30%, rgba(101, 0, 0, 0.7) 70%);\n  background-size: 10px 10px;\n  border-radius: 50%;\n}\n\n@keyframes flicker {\n  0% {\n    opacity: 1;\n  }\n\n  80% {\n    opacity: 0.8;\n  }\n\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes light-off {\n  0% {\n    opacity: 1;\n  }\n\n  80% {\n    opacity: 0;\n  }\n}\n\n.switch1 {\n  display: block;\n  position: relative;\n  background-color: black;\n  width: 70px;\n  height: 70px;\n  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2), 0 0 1px 2px black, inset 0 2px 2px -2px white, inset 0 0 2px 5px #47434c, inset 0 0 2px 22px black;\n  border-radius: 50%;\n  padding: 20px;\n  margin: 5px;\n}\n\n.switch1 input {\n  display: none;\n}\n\n.switch1 input:checked + .button .light {\n  animation: flicker 0.2s infinite 0.3s;\n}\n\n.switch1 input:checked + .button .shine {\n  opacity: 1;\n}\n\n.switch1 input:checked + .button .shadow {\n  opacity: 0;\n}\n\n.switch1 .button {\n  transition: all 0.3s cubic-bezier(1, 0, 1, 1);\n  background-color: #949207;\n  width: 55px;\n  height: 55px;\n  border-radius: 50%;\n  position: relative;\n  left: -0.75em;\n  top: -0.785em;\n  cursor: pointer;\n}\n\n.switch1 .light {\n  opacity: 0;\n  animation: light-off 1s;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient(#f6ff7e, #eeff00 40%, transparent 70%);\n}\n\n.switch1 .dots {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient(transparent 30%, rgba(91, 101, 0, 0.7) 70%);\n  background-size: 10px 10px;\n  border-radius: 50%;\n}\n\n.switch2 {\n  display: block;\n  position: relative;\n  background-color: black;\n  width: 70px;\n  height: 70px;\n  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2), 0 0 1px 2px black, inset 0 2px 2px -2px white, inset 0 0 2px 5px #47434c, inset 0 0 2px 22px black;\n  border-radius: 50%;\n  padding: 20px;\n  margin: 5px;\n}\n\n.switch2 input {\n  display: none;\n}\n\n.switch2 input:checked + .button .light {\n  animation: flicker 0.2s infinite 0.3s;\n}\n\n.switch2 input:checked + .button .shine {\n  opacity: 1;\n}\n\n.switch2 input:checked + .button .shadow {\n  opacity: 0;\n}\n\n.switch2 .button {\n  transition: all 0.3s cubic-bezier(1, 0, 1, 1);\n  background-color: #2f9407;\n  width: 55px;\n  height: 55px;\n  border-radius: 50%;\n  position: relative;\n  left: -0.75em;\n  top: -0.79em;\n  cursor: pointer;\n}\n\n.switch2 .light {\n  opacity: 0;\n  animation: light-off 1s;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient(#f6ff7e, #00ff00 40%, transparent 70%);\n}\n\n.switch2 .dots {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient(transparent 30%, rgba(0, 101, 13, 0.7) 70%);\n  background-size: 10px 10px;\n  border-radius: 50%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

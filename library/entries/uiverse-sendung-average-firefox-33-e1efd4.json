@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-sendung-average-firefox-33-e1efd4",
+  "title": "Loader by Sendung (average-firefox-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Sendung/average-firefox-33",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Sendung on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Sendung_average-firefox-33.html",
+  "code": "<div class=\"spinner\"></div>\n<style>\n/* From Uiverse.io by Sendung - Tags: loader */\n.spinner {\n  --s: 9px;\n  width: 56px;\n  height: 56px;\n  background: #e73535;\n  border-radius: 20%;\n  animation: spinner-ehcge9 1.5s infinite linear;\n  clip-path: polygon(0 0,calc(50% - var(--s)) 0,50% var(--s),calc(50% + var(--s)) 0,100% 0,100% calc(50% - var(--s)),calc(100% - var(--s)) 50%,100% calc(50% + var(--s)),100% 100%,calc(50% + var(--s)) 100%, 50% calc(100% - var(--s)),calc(50% - var(--s)) 100%,0 100%,0 calc(50% + var(--s)), var(--s) 50%, 0 calc(50% - var(--s)));\n}\n\n@keyframes spinner-ehcge9 {\n  100% {\n    transform: rotate(1turn);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

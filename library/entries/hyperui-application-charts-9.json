@@ -1,0 +1,36 @@
+{
+  "id": "hyperui-application-charts-9",
+  "title": "Charts: Polar area chart with legend",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/charts",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "charts",
+    "hyperui",
+    "chart",
+    "graph",
+    "analytics",
+    "dashboard",
+    "data-visualization"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/charts/9.html",
+  "code": "<div class=\"mx-auto max-w-sm p-6\">\n<div class=\"rounded-lg border border-gray-200 bg-white p-6\">\n<h2 class=\"text-sm font-medium text-gray-900\">Traffic sources</h2>\n<div class=\"mt-4 h-64\">\n<canvas aria-label=\"Traffic sources, polar area chart\" id=\"traffic-sources-polar-area-chart\" role=\"img\"></canvas>\n</div>\n<table class=\"sr-only\">\n<caption>\n          Traffic by source\n        </caption>\n<thead>\n<tr>\n<th scope=\"col\">Source</th>\n<th scope=\"col\">Percentage</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<th scope=\"row\">Organic</th>\n<td>45%</td>\n</tr>\n<tr>\n<th scope=\"row\">Paid</th>\n<td>25%</td>\n</tr>\n<tr>\n<th scope=\"row\">Referral</th>\n<td>18%</td>\n</tr>\n<tr>\n<th scope=\"row\">Direct</th>\n<td>12%</td>\n</tr>\n</tbody>\n</table>\n</div>\n<script src=\"https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js\"></script>\n<script>\n      const trafficSourcesPolarAreaChartCanvas = document.getElementById(\n        'traffic-sources-polar-area-chart',\n      )\n\n      new Chart(trafficSourcesPolarAreaChartCanvas, {\n        type: 'polarArea',\n        data: {\n          labels: ['Organic', 'Paid', 'Referral', 'Direct'],\n          datasets: [\n            {\n              data: [45, 25, 18, 12],\n              backgroundColor: [\n                'rgba(79, 70, 229, 0.7)',\n                'rgba(16, 185, 129, 0.7)',\n                'rgba(245, 158, 11, 0.7)',\n                'rgba(244, 63, 94, 0.7)',\n              ],\n              hoverBackgroundColor: ['#4f46e5', '#10b981', '#f59e0b', '#f43f5e'],\n              borderColor: '#ffffff',\n              borderWidth: 2,\n            },\n          ],\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: false,\n          plugins: {\n            legend: {\n              position: 'bottom',\n              labels: { color: '#4b5563' },\n            },\n            tooltip: {\n              callbacks: {\n                label: (tooltipItem) => `${tooltipItem.label}: ${tooltipItem.formattedValue}%`,\n              },\n            },\n          },\n          scales: {\n            r: {\n              beginAtZero: true,\n              angleLines: { color: '#e5e7eb' },\n              grid: { color: '#e5e7eb' },\n              ticks: { display: false },\n            },\n          },\n        },\n      })\n    </script>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

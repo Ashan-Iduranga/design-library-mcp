@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-adamgiebl-big-ape-36-aa4e78",
+  "title": "Button by adamgiebl (big-ape-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/adamgiebl/big-ape-36",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By adamgiebl on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/adamgiebl_big-ape-36.html",
+  "code": "<button>\n  <span></span>\n  <span></span>\n  <span></span>\n  <span></span>\n  <span>Button</span>\n</button>\n<style>\n/* From Uiverse.io by adamgiebl - Tags: button */\nbutton {\n  transform: rotate(-25deg) skew(25deg);\n  transform-style: preserve-3d;\n  position: relative;\n  list-style: none;\n  width: 100px;\n  height: 32px;\n  border: none;\n  background: transparent;\n  font-family: inherit;\n  cursor: pointer;\n}\n\nbutton:before {\n  content: '';\n  position: absolute;\n  bottom: -10px;\n  left: -5px;\n  width: 100%;\n  height: 10px;\n  background: #2a2a2a;\n  transform: skewX(-41deg);\n}\n\nbutton:after {\n  content: '';\n  position: absolute;\n  top: 5px;\n  left: -9px;\n  width: 9px;\n  height: 100%;\n  background: #2a2a2a;\n  transform: skewY(-49deg);\n}\n\nbutton span {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: #2a2a2a;\n  color: #fff;\n  font-size: 25px;\n  transition: 1.1s ease-out;\n}\n\nbutton:hover span {\n  z-index: 1000;\n  transition: .3s;\n  color: #fff;\n}\n\nbutton:hover span:nth-child(5) {\n  transform: translate(40px, -40px);\n  opacity: 1;\n}\n\nbutton:hover span:nth-child(4) {\n  transform: translate(30px, -30px);\n  opacity: .8;\n}\n\nbutton:hover span:nth-child(3) {\n  transform: translate(20px, -20px);\n  opacity: .6;\n}\n\nbutton:hover span:nth-child(2) {\n  transform: translate(10px, -10px);\n  opacity: .4;\n}\n\nbutton:hover span:nth-child(1) {\n  transform: translate(0px, 0px);\n  opacity: .2;\n}\n\nbutton:active span:nth-child(5) {\n  transform: translate(20px, -20px);\n  opacity: 1;\n}\n\nbutton:active span:nth-child(4) {\n  transform: translate(15px, -15px);\n}\n\nbutton:active span:nth-child(3) {\n  transform: translate(10px, -10px);\n}\n\nbutton:active span:nth-child(2) {\n  transform: translate(5px, -5px);\n}\n\nbutton:active span:nth-child(1) {\n  transform: translate(0px, 0px);\n}\n\nbutton:nth-child(1):hover span {\n  background: #52E19F;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

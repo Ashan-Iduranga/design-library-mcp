@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-akshdeep74644-friendly-turtle-73-cbc4dc",
+  "title": "Loader by Akshdeep74644 (friendly-turtle-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Akshdeep74644/friendly-turtle-73",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Akshdeep74644 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Akshdeep74644_friendly-turtle-73.html",
+  "code": "<div class=\"loader\">\n     <div class=\"box-1\">\n     </div>\n     <span>\n         Loading.....\n     </span>\n </div>\n<style>\n/* From Uiverse.io by Akshdeep74644 - Tags: loader */\n.loader {\n  position: relative;\n}\n\n.box-1 {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  height: 150px;\n  width: 150px;\n  background-color: #FFFFFF;\n  background-image: linear-gradient(135deg, #FFFFFF 0%, #6284FF 34%, #FF0000 100%);\n  border-radius: 50%;\n  animation: rotate 3s linear infinite;\n  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.box-1::before {\n  content: '';\n  position: absolute;\n  inset: 15px;\n  background: #f5f5f5;\n  border-radius: 50%;\n  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;\n}\n\n.loader span {\n  text-align: center;\n  position: absolute;\n  top: 65px;\n  left: 25px;\n  color: black;\n  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\n  letter-spacing: 2px;\n  font-weight: 800;\n  font-size: 1rem;\n  animation: text-animate412 3s linear infinite;\n}\n\n@keyframes text-animate412 {\n\n  10% {\n    opacity: 0;\n  }\n\n  100% {\n    opacity: 1;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

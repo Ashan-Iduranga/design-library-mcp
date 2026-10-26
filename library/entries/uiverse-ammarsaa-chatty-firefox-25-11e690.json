@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ammarsaa-chatty-firefox-25-11e690",
+  "title": "Form by ammarsaa (chatty-firefox-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ammarsaa/chatty-firefox-25",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ammarsaa on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/ammarsaa_chatty-firefox-25.html",
+  "code": "<form class=\"form\">\n    <p class=\"title\">Register </p>\n    <p class=\"message\">Signup now and get full access to our app. </p>\n        <div class=\"flex\">\n        <label>\n            <input class=\"input\" type=\"text\" placeholder=\"\" required=\"\">\n            <span>Firstname</span>\n        </label>\n\n        <label>\n            <input class=\"input\" type=\"text\" placeholder=\"\" required=\"\">\n            <span>Lastname</span>\n        </label>\n    </div>  \n            \n    <label>\n        <input class=\"input\" type=\"email\" placeholder=\"\" required=\"\">\n        <span>Email</span>\n    </label> \n        \n    <label>\n        <input class=\"input\" type=\"password\" placeholder=\"\" required=\"\">\n        <span>Password</span>\n    </label>\n    <label>\n        <input class=\"input\" type=\"password\" placeholder=\"\" required=\"\">\n        <span>Confirm password</span>\n    </label>\n    <button class=\"submit\">Submit</button>\n    <p class=\"signin\">Already have an acount ? <a href=\"#\">Signin</a> </p>\n</form>\n<style>\n/* From Uiverse.io by ammarsaa - Source: https://uiverse.io/Yaya12085/short-turtle-53 AND https://uiverse.io/micaelgomestavares/purple-cow-92 - Tags: simple, blue, black, form, dark, sign-up */\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  max-width: 350px;\n  padding: 20px;\n  border-radius: 20px;\n  position: relative;\n  background-color: #1a1a1a;\n  color: #fff;\n  border: 1px solid #333;\n}\n\n.title {\n  font-size: 28px;\n  font-weight: 600;\n  letter-spacing: -1px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  padding-left: 30px;\n  color: #00bfff;\n}\n\n.title::before {\n  width: 18px;\n  height: 18px;\n}\n\n.title::after {\n  width: 18px;\n  height: 18px;\n  animation: pulse 1s linear infinite;\n}\n\n.title::before,\n.title::after {\n  position: absolute;\n  content: \"\";\n  height: 16px;\n  width: 16px;\n  border-radius: 50%;\n  left: 0px;\n  background-color: #00bfff;\n}\n\n.message, \n.signin {\n  font-size: 14.5px;\n  color: rgba(255, 255, 255, 0.7);\n}\n\n.signin {\n  text-align: center;\n}\n\n.signin a:hover {\n  text-decoration: underline royalblue;\n}\n\n.signin a {\n  color: #00bfff;\n}\n\n.flex {\n  display: flex;\n  width: 100%;\n  gap: 6px;\n}\n\n.form label {\n  position: relative;\n}\n\n.form label .input {\n  background-color: #333;\n  color: #fff;\n  width: 100%;\n  padding: 20px 05px 05px 10px;\n  outline: 0;\n  border: 1px solid rgba(105, 105, 105, 0.397);\n  border-radius: 10px;\n}\n\n.form label .input + span {\n  color: rgba(255, 255, 255, 0.5);\n  position: absolute;\n  left: 10px;\n  top: 0px;\n  font-size: 0.9em;\n  cursor: text;\n  transition: 0.3s ease;\n}\n\n.form label .input:placeholder-shown + span {\n  top: 12.5px;\n  font-size: 0.9em;\n}\n\n.form label .input:focus + span,\n.form label .input:valid + span {\n  color: #00bfff;\n  top: 0px;\n  font-size: 0.7em;\n  font-weight: 600;\n}\n\n.input {\n  font-size: medium;\n}\n\n.submit {\n  border: none;\n  outline: none;\n  padding: 10px;\n  border-radius: 10px;\n  color: #fff;\n  font-size: 16px;\n  transform: .3s ease;\n  background-color: #00bfff;\n}\n\n.submit:hover {\n  background-color: #00bfff96;\n}\n\n@keyframes pulse {\n  from {\n    transform: scale(0.9);\n    opacity: 1;\n  }\n\n  to {\n    transform: scale(1.8);\n    opacity: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

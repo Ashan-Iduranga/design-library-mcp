@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-abdinejad-tall-stingray-83-42a2af",
+  "title": "Card by abdinejad (tall-stingray-83)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/abdinejad/tall-stingray-83",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "minimalist",
+    "box",
+    "hover-effect",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By abdinejad on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/abdinejad_tall-stingray-83.html",
+  "code": "<div class=\"card-container\">\n  <div class=\"card-box\">\n    <div class=\"card-head\">\n      <div class=\"card-chip\">\n        <svg viewBox=\"0 0 26 26\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path\n            d=\"M5.813 2C2.647 2 0 4.648 0 7.813v10.375C0 21.352 2.648 24 5.813 24h14.375C23.352 24 26 21.352 26 18.187V7.813C26 4.649 23.352 2 20.187 2H5.813zm0 2h14.375C22.223 4 24 5.777 24 7.813V9h-6c-.555 0-1-.445-1-1c0-.555.445-1 1-1a1 1 0 1 0 0-2c-1.645 0-3 1.355-3 3c0 1.292.844 2.394 2 2.813v4.968c-1.198.814-2 2.18-2 3.719c0 .923.293 1.781.781 2.5H10.22a4.439 4.439 0 0 0 .78-2.5c0-1.538-.802-2.905-2-3.719v-4.969c1.156-.418 2-1.52 2-2.812c0-1.645-1.355-3-3-3H6a1 1 0 0 0-.094 0a1.001 1.001 0 0 0-.093 0A1.004 1.004 0 0 0 6 7h2c.555 0 1 .445 1 1c0 .555-.445 1-1 1H2V7.812C2 5.777 3.777 4 5.813 4zM2 11h5v4H2v-4zm17 0h5v4h-5v-4zM2 17h4.5C7.839 17 9 18.161 9 19.5S7.839 22 6.5 22h-.688C3.777 22 2 20.223 2 18.187V17zm17.5 0H24v1.188C24 20.223 22.223 22 20.187 22H19.5c-1.339 0-2.5-1.161-2.5-2.5s1.161-2.5 2.5-2.5z\"\n            fill=\"currentcolor\"\n          ></path>\n        </svg>\n      </div>\n      <div class=\"card-logo\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n          <g fill-rule=\"evenodd\" fill=\"none\">\n            <circle r=\"7\" fill=\"#ea001b\" cy=\"12\" cx=\"7\"></circle>\n            <circle\n              r=\"7\"\n              fill-opacity=\".8\"\n              fill=\"#ffa200\"\n              cy=\"12\"\n              cx=\"17\"\n            ></circle>\n          </g>\n        </svg>\n      </div>\n    </div>\n    <div class=\"card-number-row\">\n      <span>6037 1234 4567 8910</span>\n    </div>\n    <div class=\"card-details\">\n      <div class=\"card-holder-col\">\n        <span class=\"card-holder-title\">CARD HOLDER</span>\n        <span class=\"card-holder-name\">ALI ABDI</span>\n      </div>\n      <div class=\"card-date-col\">\n        <span class=\"card-date-title\">VALID THRU</span>\n        <span class=\"card-date-sub\">06/26</span>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by abdinejad  - Tags: minimalist, card, box, hover effect, css */\n.card-container,\n.card-box,\n.card-head,\n.card-number-row,\n.card-details,\n.card-holder-col,\n.card-date-col {\n  display: flex;\n}\n.card-container {\n  align-items: center;\n  justify-content: center;\n}\n.card-box {\n  width: 340px;\n  min-height: 160px;\n  background: #fff;\n  box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.1);\n  border-radius: 18px;\n  margin: 16px;\n  padding: 1.5em;\n  flex-direction: column;\n  justify-content: space-around;\n  gap: 1.2em;\n}\n.card-head {\n  justify-content: space-between;\n  align-items: center;\n}\n.card-chip svg {\n  width: 32px;\n  height: 32px;\n}\n.card-chip svg path {\n  fill: #636363;\n}\n.card-logo svg {\n  width: 48px;\n  height: 48px;\n}\n.card-number-row {\n  justify-content: center;\n  word-spacing: 1em;\n  font-size: 1.3em;\n  font-weight: 600;\n}\n.card-box:hover .card-number-row {\n  font-size: 1.32em;\n}\n.card-details {\n  justify-content: space-between;\n  text-transform: uppercase;\n}\n.card-holder-col {\n  flex-direction: column;\n  gap: 2px;\n}\n.card-holder-title,\n.card-date-title {\n  color: #bdbdbd;\n  font-size: 0.7em;\n}\n.card-holder-name {\n  font-size: 1.1em;\n  font-weight: 600;\n}\n.card-date-col {\n  flex-direction: column;\n  align-items: flex-end;\n  gap: 2px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

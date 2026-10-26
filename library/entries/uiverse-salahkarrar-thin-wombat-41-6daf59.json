@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-salahkarrar-thin-wombat-41-6daf59",
+  "title": "Button by Salahkarrar (thin-wombat-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Salahkarrar/thin-wombat-41",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "light",
+    "click"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Salahkarrar on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Salahkarrar_thin-wombat-41.html",
+  "code": "<button class=\"wave-button\">Click me</button>\n\n<style>\n/* From Uiverse.io by Salahkarrar  - Tags: button, hover, light, click */\n.wave-button {\n  background-color: #eaf2f8;\n  border: 2px solid #ddd;\n  color: #000;\n  padding: 15px 30px;\n  cursor: pointer;\n  border-radius: 5px;\n  font-size: 16px;\n  position: relative;\n  overflow: hidden;\n  transition: all 0.3s ease;\n}\n\n.wave-button:before {\n  content: \"\";\n  position: absolute;\n  right: 0;\n  bottom: 0;\n  width: 0;\n  height: 0px;\n  background-color: rebeccapurple;\n  box-shadow: 0 0 40px rgba(255, 255, 255, 0.4);\n  transition: all 0.5s ease;\n}\n\n.wave-button:hover {\n  background-color: #ddd;\n  border-color: rebeccapurple;\n}\n\n.wave-button:hover:before {\n  height: 5%;\n  width: 100%;\n  animation: wave-animation 0.5s linear forwards;\n}\n\n@keyframes wave-animation {\n  to {\n    right: 100%;\n  }\n}\n\n.wave-button span {\n  position: relative;\n  z-index: 1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

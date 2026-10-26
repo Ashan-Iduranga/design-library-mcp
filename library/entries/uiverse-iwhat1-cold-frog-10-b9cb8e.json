@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-iwhat1-cold-frog-10-b9cb8e",
+  "title": "Card by IWhat1 (cold-frog-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/IWhat1/cold-frog-10",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "animation",
+    "3d",
+    "hover",
+    "flip",
+    "hover-effect",
+    "card-animation",
+    "card-hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By IWhat1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/IWhat1_cold-frog-10.html",
+  "code": "<div class=\"container\">\n  <div class=\"card\">\n    <div class=\"front\">\n      <p class=\"front-heading\">Front card</p>\n      <p>Follow Me For More</p>\n    </div>\n    <div class=\"back\">\n      <p class=\"back-heading\">Back card</p>\n      <p>Follow Me For More</p>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by IWhat1 - Tags: animation, 3d, card, hover, flip, hover effect, card animation, card hover */\n.container {\n  width: 240px;\n  height: 294px;\n  perspective: 900px;\n}\n\n.card {\n  height: 100%;\n  width: 100%;\n  background-color: aliceblue;\n  position: relative;\n  transition: transform 1500ms;\n  transform-style: preserve-3d;\n  border-radius: 2rem;\n}\n\n.container:hover > .card {\n  cursor: pointer;\n  transform: rotateY(180deg) rotateZ(180deg);\n}\n\n.front, .back {\n  height: 100%;\n  width: 100%;\n  border-radius: 2rem;\n  position: absolute;\n  box-shadow: 0 0 10px 2px rgba(50, 50, 50, 2.5);\n  backface-visibility: hidden;\n  color: aliceblue;\n  background: linear-gradient(-135deg, \n#F80A4A, #0AA4F8);\n}\n\n.front, .back {\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n  align-items: center;\n  gap: 20px;\n}\n\n.back {\n  transform: rotateY(180deg) rotateZ(180deg);\n}\n\n.back-heading, .front-heading {\n  font-size: 28px;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n  font-weight: bold;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

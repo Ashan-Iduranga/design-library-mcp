@@ -1,0 +1,32 @@
+{
+  "id": "open-props-shadows",
+  "title": "Open Props: Shadows tokens",
+  "source": "Open Props",
+  "url": "https://open-props.style/#shadows",
+  "license": "MIT",
+  "type": "token",
+  "tags": [
+    "shadows",
+    "open-props",
+    "css-variables",
+    "tokens"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "37 CSS custom properties, e.g. --shadow-color, --shadow-strength, --shadow-strength-3, --shadow-strength-4.\n\nUse: npm i open-props, then @import \"open-props/shadows\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.shadows.css",
+  "code": "@import 'props.media.css';\n\n:where(html) {\n  --shadow-color: 220 3% 15%;\n  --shadow-strength: 1%;\n  --shadow-strength-3: calc(var(--shadow-strength) + 2%);\n  --shadow-strength-4: calc(var(--shadow-strength) + 3%);\n  --shadow-strength-5: calc(var(--shadow-strength) + 4%);\n  --shadow-strength-6: calc(var(--shadow-strength) + 5%);\n  --shadow-strength-7: calc(var(--shadow-strength) + 6%);\n  --shadow-strength-8: calc(var(--shadow-strength) + 7%);\n  --shadow-strength-10: calc(var(--shadow-strength) + 9%);\n  --text-shadow-strength: 25%;\n  --text-shadow-strength-1: calc(var(--text-shadow-strength) + 5%);\n  --text-shadow-strength-2: calc(var(--text-shadow-strength) + 10%);\n  --text-shadow-strength-3: calc(var(--text-shadow-strength) + 15%);\n  --text-shadow-strength-4: calc(var(--text-shadow-strength) + 20%);\n  --text-shadow-strength-5: calc(var(--text-shadow-strength) + 25%);\n  --text-shadow-strength-6: calc(var(--text-shadow-strength) + 30%);\n  --inner-shadow-highlight: inset 0 -.5px 0 0 #fff, inset 0 .5px 0 0 #0001;\n  --shadow-1: 0 1px 2px -1px hsl(var(--shadow-color) / var(--shadow-strength-10));\n  --shadow-2: \n    0 3px 5px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)),\n    0 7px 14px -5px hsl(var(--shadow-color) / var(--shadow-strength-6));\n  --shadow-3: \n    0 -1px 3px 0 hsl(var(--shadow-color) / var(--shadow-strength-3)),\n    0 1px 2px -5px hsl(var(--shadow-color) / var(--shadow-strength-3)),\n    0 2px 5px -5px hsl(var(--shadow-color) / var(--shadow-strength-5)),\n    0 4px 12px -5px hsl(var(--shadow-color) / var(--shadow-strength-6)),\n    0 12px 15px -5px hsl(var(--shadow-color) / var(--shadow-strength-8));\n  --shadow-4: \n    0 -2px 5px 0 hsl(var(--shadow-color) / var(--shadow-strength-3)),\n    0 1px 1px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)),\n    0 2px 2px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)),\n    0 5px 5px -2px hsl(var(--shadow-color) / var(--shadow-strength-5)),\n    0 9px 9px -2px hsl(var(--shadow-color) / var(--shadow-strength-6)),\n    0 16px 16px -2px hsl(var(--shadow-color) / var(--shadow-strength-7));\n  --shadow-5: \n    0 -1px 2px 0 hsl(var(--shadow-color) / var(--shadow-strength-3)),\n    0 2px 1px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)),\n    0 5px 5px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)),\n    0 10px 10px -2px hsl(var(--shadow-color) / var(--shadow-strength-5)),\n    0 20px 20px -2px hsl(var(--shadow-color) / var(--shadow-strength-6)),\n    0 40px 40px -2px hsl(var(--shadow-color) / var(--shadow-strength-8));\n  --shadow-6: \n    0 -1px 2px 0 hsl(var(--shadow-color) / var(--shadow-strength-3)),\n    0 3px 2px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)),\n    0 7px 5px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)),\n    0 12px 10px -2px hsl(var(--shadow-color) / var(--shadow-strength-5)),\n    0 22px 18px -2px hsl(var(--shadow-color) / var(--shadow-strength-6)),\n    0 41px 33px -2px hsl(var(--shadow-color) / var(--shadow-strength-7)),\n    0 100px 80px -2px hsl(var(--shadow-color) / var(--shadow-strength-8));\n  --text-shadow-1: 0 0 1px hsl(var(--shadow-color) / var(--text-shadow-strength-1));\n  --text-shadow-2: 0 0 2px hsl(var(--shadow-color) / var(--text-shadow-strength-2));\n  --text-shadow-3: 0 0 3px hsl(var(--shadow-color) / var(--text-shadow-strength-3));\n  --text-shadow-4: 0 0 5px hsl(var(--shadow-color) / var(--text-shadow-strength-4));\n  --text-shadow-5: 0 0 7px hsl(var(--shadow-color) / var(--text-shadow-strength-5));\n  --text-shadow-6: 0 0 10px hsl(var(--shadow-color) / var(--text-shadow-strength-6));\n  --inner-shadow-0: inset 0 0 0 1px hsl(var(--shadow-color) / var(--shadow-strength-10));\n  --inner-shadow-1: inset 0 1px 2px 0 hsl(var(--shadow-color) / var(--shadow-strength-10)), var(--inner-shadow-highlight);\n  --inner-shadow-2: inset 0 1px 4px 0 hsl(var(--shadow-color) / var(--shadow-strength-10)), var(--inner-shadow-highlight);\n  --inner-shadow-3: inset 0 2px 8px 0 hsl(var(--shadow-color) / var(--shadow-strength-10)), var(--inner-shadow-highlight);\n  --inner-shadow-4: inset 0 2px 14px 0 hsl(var(--shadow-color) / var(--shadow-strength-10)), var(--inner-shadow-highlight);\n}\n\n@media (--OSdark) {\n  :where(html) {\n    --shadow-color: 220 40% 2%;\n    --shadow-strength: 25%;\n    --inner-shadow-highlight: inset 0 -.5px 0 0 #fff1, inset 0 .5px 0 0 #0007;\n  }\n}",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

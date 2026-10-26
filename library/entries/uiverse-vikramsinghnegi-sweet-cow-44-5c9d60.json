@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-vikramsinghnegi-sweet-cow-44-5c9d60",
+  "title": "Toggle by vikramsinghnegi (sweet-cow-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikramsinghnegi/sweet-cow-44",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "loading",
+    "active",
+    "switch",
+    "2d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikramsinghnegi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/vikramsinghnegi_sweet-cow-44.html",
+  "code": "<div class=\"checkbox-wrap\">\n  <input name=\"slide\" id=\"slide\" type=\"checkbox\" />\n  <label for=\"slide\">\n    <div id=\"pinkliquid\">\n      <div id=\"shine-one\" class=\"shine\"></div>\n      <div id=\"shine-two\" class=\"shine\"></div>\n      <div id=\"bubbles\"></div>\n    </div>\n    <div id=\"circle\">\n      <div id=\"inner-circle\"></div>\n      <div id=\"inner-circle-two\"></div>\n    </div>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by vikramsinghnegi  - Tags: loading, active, switch, 2d button */\n.checkbox-wrap {\n  display: block;\n  width: 106px;\n  height: 51px;\n  position: relative;\n  margin: 1px auto;\n}\n#slide {\n  display: block;\n  width: 106px;\n  height: 51px;\n  margin: 0px;\n  padding: 0px;\n  position: absolute;\n  z-index: 2;\n  opacity: 0;\n}\n#slide + label {\n  display: block;\n  width: 105px;\n  height: 50px;\n  margin: 0px;\n  padding: 0px;\n  z-index: 1;\n  border-top: 1px solid transparent;\n  border-left: 1px solid transparent;\n}\n#pinkliquid {\n  width: 88px;\n  height: 36px;\n  border-radius: 18px;\n  margin: 7px 0 0 9px;\n  overflow: hidden;\n  background: #b4264a;\n  background: linear-gradient(to bottom, #fe0744 0%, #ff0460 50%, #ff0082 100%);\n  box-shadow: 0px 0px 9px 0px #ff1e00;\n}\n.shine {\n  width: 100%;\n  background: rgba(255, 255, 255, 0.23);\n  margin: 6px 0 4px 0;\n  transition: all 300ms ease;\n}\n.shine#shine-one {\n  height: 12px;\n}\n.shine#shine-two {\n  height: 3px;\n}\n#bubbles {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0px;\n  left: 0px;\n}\n#bubbles i {\n  display: block;\n  border-radius: 20px;\n  background: #3a3236;\n  position: absolute;\n  transition: all 600ms ease;\n}\ni#a {\n  width: 4px;\n  height: 4px;\n  top: 35px;\n  left: 19px;\n}\ni#b {\n  width: 5px;\n  height: 5px;\n  top: 24px;\n  left: 30px;\n}\ni#c {\n  width: 3px;\n  height: 3px;\n  top: 15px;\n  left: 26px;\n}\ni#d {\n  width: 6px;\n  height: 6px;\n  top: 20px;\n  left: 40px;\n}\ni#e {\n  width: 5px;\n  height: 5px;\n  top: 30px;\n  left: 33px;\n}\ni#f {\n  width: 5px;\n  height: 5px;\n  top: 30px;\n  right: 33px;\n}\ni#g {\n  width: 6px;\n  height: 6px;\n  top: 20px;\n  right: 40px;\n}\ni#h {\n  width: 3px;\n  height: 3px;\n  top: 15px;\n  right: 26px;\n}\ni#i {\n  width: 4px;\n  height: 4px;\n  top: 35px;\n  right: 19px;\n}\ni#j {\n  width: 5px;\n  height: 5px;\n  top: 24px;\n  right: 30px;\n}\n#circle {\n  width: 37px;\n  height: 37px;\n  border-radius: 19px;\n  background: #191919;\n  position: absolute;\n  top: 7px;\n  left: 9px;\n  border-right: 1px solid #e3006f;\n  box-shadow: inset 0px 0px 10px 0px rgba(255, 255, 255, 0.24),\n    0px 3px 4px 0px #000000;\n  transition: all 300ms ease;\n}\n#inner-circle {\n  width: 31px;\n  height: 31px;\n  margin: 3px;\n  border-radius: 16px;\n  background: linear-gradient(\n    to right,\n    rgba(0, 0, 0, 0) 0%,\n    rgba(255, 1, 122, 0.2) 100%\n  );\n}\n#slide:checked + label #circle {\n  left: 60px;\n  border-right: 1px solid transparent;\n  border-left: 1px solid #e3006f;\n  background-color: #c27098;\n}\n#slide:checked + label #inner-circle {\n  background: linear-gradient(\n    to right,\n    rgba(255, 1, 122, 0.2) 0%,\n    rgba(0, 0, 0, 0) 100%\n  );\n}\n#slide:checked + label i#a {\n  width: 4px;\n  height: 4px;\n  top: 26px;\n  left: 19px;\n}\n#slide:checked + label i#b {\n  width: 5px;\n  height: 5px;\n  top: 24px;\n  left: 30px;\n}\n#slide:checked + label i#c {\n  width: 3px;\n  height: 3px;\n  top: 24px;\n  left: 26px;\n}\n#slide:checked + label i#d {\n  width: 6px;\n  height: 6px;\n  top: 29px;\n  left: 40px;\n}\n#slide:checked + label i#e {\n  width: 5px;\n  height: 5px;\n  top: 21px;\n  left: 33px;\n}\n#slide:checked + label i#f {\n  width: 5px;\n  height: 5px;\n  top: 26px;\n  right: 33px;\n}\n#slide:checked + label i#g {\n  width: 6px;\n  height: 6px;\n  top: 28px;\n  right: 40px;\n}\n#slide:checked + label i#h {\n  width: 3px;\n  height: 3px;\n  top: 23px;\n  right: 26px;\n}\n#slide:checked + label i#i {\n  width: 4px;\n  height: 4px;\n  top: 25px;\n  right: 19px;\n}\n#slide:checked + label i#j {\n  width: 5px;\n  height: 5px;\n  top: 30px;\n  right: 30px;\n}\n#slide:checked + label .shine#shine-one {\n  height: 12px;\n  margin-top: 12px;\n}\n#slide:checked + label .shine#shine-two {\n  height: 3px;\n  margin-top: -20px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-ercnersoy-good-fly-51-e56d7c",
+  "title": "Button by ercnersoy (good-fly-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ercnersoy/good-fly-51",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "purple",
+    "minimalist"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ercnersoy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ercnersoy_good-fly-51.html",
+  "code": "<button class=\"button\">hover me !</button>\n\n<style>\n/* From Uiverse.io by ercnersoy  - Tags: simple, purple, minimalist, button */\n.button {\n  cursor: pointer;\n  padding: 1rem 4rem;\n  border: 0;\n  background-color: rebeccapurple;\n  color: white;\n  box-shadow: 0px 10px 0px 0px rgb(68, 37, 99);\n  transition: all 0.9s ease-in-out;\n  font-weight: 600;\n  font-family: \"Lucida Sans\", \"Lucida Sans Regular\", \"Lucida Grande\",\n    \"Lucida Sans Unicode\", Geneva, Verdana, sans-serif;\n  font-size: 1rem;\n  position: relative;\n}\n.button:hover {\n  box-shadow: 0px 10px 0px 0px rgb(122, 71, 173);\n  background-color: rgb(80, 31, 129);\n}\n.button:active {\n  box-shadow: 0px 5px 0px 0px rgb(122, 71, 173);\n  text-shadow: 0 0px 0px #000;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0px;\n  box-shadow: 0px 10px 0px 0px rgb(229, 104, 9);\n  width: 0;\n  height: 10px;\n  transition: all 0.9s ease-in-out;\n}\n.button:hover::before {\n  width: 100%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

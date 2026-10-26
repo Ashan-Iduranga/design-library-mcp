@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-nice-liger-66-d49897",
+  "title": "Loader by csemszepp (nice-liger-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/nice-liger-66",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/csemszepp_nice-liger-66.html",
+  "code": "<div class=\"ball\"></div>\n<div class=\"shape\"></div>\n<style>\n/* From Uiverse.io by csemszepp - Source: https://codepen.io/cobra_winfrey/pen/xyRaeK - Tags: loader, cool loader */\n.ball {\n  position: absolute;\n  width: 20px;\n  height: 20px;\n  top: calc(50% - 25px);\n  animation: bounce 3s cubic-bezier(1, 0, 0, 1) infinite;\n}\n\n.ball:before {\n  content: '';\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: #fff;\n  border-radius: 100%;\n  animation: bounce2 3s ease-in-out infinite;\n  transform-origin: bottom;\n}\n\n@keyframes bounce2 {\n  0% {\n    transform: scaleY(0.75) scaleX(1.25);\n  }\n\n  14.25% {\n    transform: scaleY(1);\n  }\n\n  28.5% {\n    transform: scaleY(0.75) scaleX(1.25);\n  }\n\n  42.75% {\n    transform: scaleY(1);\n  }\n\n  57% {\n    transform: scaleY(0.75) scaleX(1.25);\n  }\n\n  71.25% {\n    transform: scaleY(1);\n  }\n\n  80% {\n    transform: scaleY(0.75) scaleX(1.25);\n  }\n\n  90% {\n    transform: scaleY(1);\n  }\n\n  100% {\n    transform: scaleY(0.75) scaleX(1.25);\n  }\n}\n\n@keyframes bounce {\n  0% {\n    transform: translateY(0px);\n  }\n\n  14.25% {\n    transform: translateY(-150px);\n  }\n\n  28.5% {\n    transform: translateY(-7.5px);\n  }\n\n  42.75% {\n    transform: translateY(-170px);\n  }\n\n  57% {\n    transform: translateY(-27.5px);\n  }\n\n  71.25% {\n    transform: translateY(-180px);\n  }\n\n  80% {\n    transform: translateY(-35px);\n  }\n\n  90% {\n    transform: translateY(-200px);\n  }\n\n  100% {\n    transform: translateY(0px);\n  }\n}\n\n.shape {\n  width: 300px;\n  height: 300px;\n  position: absolute;\n  left: calc(50% - 150px);\n  top: calc(50% - 75px);\n  animation: shapes2 3s ease-in-out infinite;\n}\n\n@keyframes shapes2 {\n  0% {\n    transform: rotate(90deg) translateX(-20px);\n  }\n\n  14.25% {\n    transform: rotate(90deg) translateX(-20px);\n  }\n\n  28.5% {\n    transform: rotate(135deg);\n  }\n\n  42.75% {\n    transform: rotate(162deg);\n  }\n\n  57% {\n    transform: rotate(180deg);\n  }\n\n  71.25% {\n    transform: rotate(245.5deg);\n  }\n\n  80% {\n    transform: rotate(336.5deg);\n  }\n\n  100% {\n    transform: rotate(90deg) translateX(-20px);\n  }\n}\n\n.shape:before, .shape:after {\n  content: '';\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  left: 0;\n  top: 0;\n  background: #fdb20f;\n  animation: shapes 3s ease-in-out infinite;\n  clip-path: polygon(20% 21%, 50% 8%, 80% 21%, 90% 50%, 80% 80%, 50% 91%, 21% 79%, 8% 51%);\n}\n\n.shape:after {\n  width: 90%;\n  height: 90%;\n  background: repeating-linear-gradient(to right, #fff, #fff 2px, #fdb20f 2px, #fdb20f 5px);\n  top: 5%;\n  left: 5%;\n  background-position: 20px 30px;\n}\n\n@keyframes shapes {\n  0% {\n    clip-path: polygon(91% 50%, 91% 50%, 29% 86%, 30% 86%, 30% 86%, 30% 86%, 30% 14%, 30% 14%);\n    background-position: 20px 30px;\n  }\n\n  14.25% {\n    clip-path: polygon(91% 50%, 91% 50%, 29% 86%, 30% 86%, 30% 86%, 30% 86%, 30% 14%, 30% 14%);\n    background-position: 120px 30px;\n  }\n\n  28.5% {\n    clip-path: polygon(91% 50%, 91% 50%, 50% 91%, 50% 91%, 50% 91%, 50% 91%, 9% 50%, 50% 9%);\n    background-position: 20px 30px;\n  }\n\n  42.75% {\n    clip-path: polygon(63% 11%, 91% 50%, 63% 89%, 63% 89%, 63% 89%, 63% 89%, 16% 74%, 16% 26%);\n    background-position: -120px 30px;\n  }\n\n  57% {\n    clip-path: polygon(29% 14%, 71% 14%, 91% 50%, 91% 50%, 71% 86%, 71% 86%, 30% 86%, 9% 50%);\n    background-position: 20px 30px;\n  }\n\n  71.25% {\n    clip-path: polygon(13% 32%, 41% 10%, 76% 18%, 91% 50%, 76% 83%, 76% 83%, 41% 90%, 13% 68%);\n    background-position: 120px 30px;\n  }\n\n  80% {\n    clip-path: polygon(20% 21%, 50% 8%, 80% 21%, 90% 50%, 80% 80%, 50% 91%, 21% 79%, 8% 51%);\n    background-position: 20px 30px;\n  }\n\n  83% {\n    clip-path: polygon(13% 32%, 41% 10%, 76% 18%, 91% 50%, 76% 83%, 76% 83%, 41% 90%, 13% 68%);\n    background-position: 20px 30px;\n  }\n\n  86% {\n    clip-path: polygon(29% 14%, 71% 14%, 91% 50%, 91% 50%, 71% 86%, 71% 86%, 30% 86%, 9% 50%);\n    background-position: 20px 30px;\n  }\n\n  89% {\n    clip-path: polygon(63% 11%, 91% 50%, 63% 89%, 63% 89%, 63% 89%, 63% 89%, 16% 74%, 16% 26%);\n    background-position: 20px 30px;\n  }\n\n  92% {\n    clip-path: polygon(91% 50%, 91% 50%, 50% 91%, 50% 91%, 50% 91%, 50% 91%, 9% 50%, 50% 9%);\n  }\n\n  95% {\n    clip-path: polygon(91% 50%, 91% 50%, 29% 86%, 30% 86%, 30% 86%, 30% 86%, 30% 14%, 30% 14%);\n  }\n\n  100% {\n    clip-path: polygon(91% 50%, 91% 50%, 29% 86%, 30% 86%, 30% 86%, 30% 86%, 30% 14%, 30% 14%);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

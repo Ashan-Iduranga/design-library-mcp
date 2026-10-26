@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-theabieza-short-swan-12-a7cb4f",
+  "title": "Loader by TheAbieza (short-swan-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TheAbieza/short-swan-12",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "flat-design",
+    "loading",
+    "vscode",
+    "floating",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TheAbieza on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/TheAbieza_short-swan-12.html",
+  "code": "<div class=\"container\">\n  <div class=\"folder\">\n    <div class=\"top\"></div>\n    <div class=\"bottom\"></div>\n  </div>\n  <div class=\"title\">getting files ready...</div>\n</div>\n<style>\n/* From Uiverse.io by TheAbieza - Tags: flat design, loading, loader, vscode, floating, box-shadow */\n.container {\n  width: fit-content;\n  gap: 10px\n}\n\n.folder {\n  width: min-content;\n  margin: auto;\n  animation: float 2s infinite linear;\n}\n\n.folder .top {\n  background-color: #FF8F56;\n  width: 60px;\n  height: 12px;\n  border-top-right-radius: 10px;\n}\n\n.folder .bottom {\n  background-color: #FFCE63;\n  width: 100px;\n  height: 70px;\n  box-shadow: 5px 5px 0 0 #283149;\n  border-top-right-radius: 8px;\n}\n\n.container .title {\n  font-size: .9em;\n  color: #283149;\n  text-align: center;\n  margin-top: 15px;\n}\n\n@keyframes float {\n  0% {\n    transform: translatey(0px);\n  }\n\n  50% {\n    transform: translatey(-25px);\n  }\n\n  100% {\n    transform: translatey(0px);\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vikramsinghnegi-smooth-lionfish-6-5c1ea4",
+  "title": "Loader by vikramsinghnegi (smooth-lionfish-6)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikramsinghnegi/smooth-lionfish-6",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "factory"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikramsinghnegi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vikramsinghnegi_smooth-lionfish-6.html",
+  "code": "<div class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by vikramsinghnegi  - Tags: animation, loader, factory */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 90px;\n  height: 14px;\n  box-shadow: 0 3px 0 #c74d4d;\n  position: relative;\n  clip-path: inset(-40px 0 -5px);\n}\n.loader:before {\n  content: \"\";\n  position: absolute;\n  inset: auto calc(50% - 17px) 0;\n  height: 50px;\n  --g: no-repeat linear-gradient(#d2d3e0 0 0);\n  background: var(--g), var(--g), var(--g), var(--g);\n  background-size: 16px 14px;\n  animation: l7-1 2s infinite linear, l7-2 2s infinite linear;\n}\n@keyframes l7-1 {\n  0%,\n  100% {\n    background-position: 0 -50px, 100% -50px;\n  }\n  17.5% {\n    background-position: 0 100%, 100% -50px, 0 -50px, 100% -50px;\n  }\n  35% {\n    background-position: 0 100%, 100% 100%, 0 -50px, 100% -50px;\n  }\n  52.5% {\n    background-position: 0 100%, 100% 100%, 0 calc(100% - 16px), 100% -50px;\n  }\n  70%,\n  98% {\n    background-position: 0 100%, 100% 100%, 0 calc(100% - 16px),\n      100% calc(100% - 16px);\n  }\n}\n@keyframes l7-2 {\n  0%,\n  70% {\n    transform: translate(0);\n  }\n  100% {\n    transform: translate(200%);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

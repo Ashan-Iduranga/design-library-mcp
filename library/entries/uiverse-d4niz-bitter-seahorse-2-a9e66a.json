@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-d4niz-bitter-seahorse-2-a9e66a",
+  "title": "Loader by d4niz (bitter-seahorse-2)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/d4niz/bitter-seahorse-2",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By d4niz on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/d4niz_bitter-seahorse-2.html",
+  "code": "<div class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by d4niz - Tags: loader */\n.loader {\n  width: 56px;\n  height: 56px;\n  display: grid;\n  border: 4.6px solid #0000;\n  border-radius: 100%;\n  border-color: #008cff #0000;\n  animation: spinner-e04l1k 1.5s infinite linear;\n}\n\n.loader::before, .loader::after {\n  content: \"\";\n  grid-area: 1/1;\n  margin: 8px;\n  border: inherit;\n  border-radius: 50%;\n}\n\n.loader::before {\n  border-color: #048be6 #0000;\n  animation: inherit;\n  animation-duration: 0.1s;\n}\n\n.loader::after {\n  margin: 2.9px;\n}\n\n@keyframes spinner-e04l1k {\n  100% {\n    transform: rotate(1turn);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

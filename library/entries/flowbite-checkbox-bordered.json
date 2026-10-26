@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-checkbox-bordered",
+  "title": "Checkbox: Bordered (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/checkbox/#bordered",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example of a checkbox inside a card element to enable a larger area of clicking activation.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/checkbox.md",
+  "code": "<div class=\"flex items-center ps-4 bg-neutral-primary-soft border border-default rounded-base shadow-xs\">\n    <input id=\"bordered-checkbox-1\" type=\"checkbox\" value=\"\" name=\"bordered-checkbox\" class=\"w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n    <label for=\"bordered-checkbox-1\" class=\"select-none w-full py-4 ms-2 text-sm font-medium text-heading\">Default checkbox</label>\n</div>\n<div class=\"flex items-center ps-4 bg-neutral-primary-soft border border-default rounded-base shadow-xs\">\n    <input checked id=\"bordered-checkbox-2\" type=\"checkbox\" value=\"\" name=\"bordered-checkbox\" class=\"w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n    <label for=\"bordered-checkbox-2\" class=\"select-none w-full py-4 ms-2 text-sm font-medium text-heading\">Checked state</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

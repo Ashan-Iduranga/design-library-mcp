@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-rating-score-rating",
+  "title": "Rating: Score rating (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/rating/#score-rating",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "rating",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This component can be used to break up a general rating score into multiple categories using progress bars.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/rating.md",
+  "code": "<div class=\"flex items-center mb-5\">\n    <p class=\"bg-brand-softer text-fg-brand-strong text-sm font-semibold inline-flex items-center p-1.5 rounded-base\">8.7</p>\n    <p class=\"ms-2 font-medium text-heading\">Excellent</p>\n    <span class=\"w-1 h-1 mx-2 rounded-full bg-neutral-quaternary\"></span>\n    <p class=\"text-sm font-medium text-body\">376 reviews</p>\n    <a href=\"#\" class=\"ms-auto text-sm font-medium text-fg-brand hover:underline\">Read all reviews</a>\n</div>\n<div class=\"gap-8 sm:grid sm:grid-cols-2\">\n    <div>\n        <dl>\n            <dt class=\"text-sm font-medium text-body\">Staff</dt>\n            <dd class=\"flex items-center mb-3\">\n                <div class=\"w-full bg-neutral-quaternary rounded-base h-2.5 me-2\">\n                    <div class=\"bg-brand h-2.5 rounded-base\" style=\"width: 88%\"></div>\n                </div>\n                <span class=\"text-sm font-medium text-body\">8.8</span>\n            </dd>\n        </dl>\n        <dl>\n            <dt class=\"text-sm font-medium text-body\">Comfort</dt>\n            <dd class=\"flex items-center mb-3\">\n                <div class=\"w-full bg-neutral-quaternary rounded-base h-2.5 me-2\">\n                    <div class=\"bg-brand h-2.5 rounded-base\" style=\"width: 89%\"></div>\n                </div>\n                <span class=\"text-sm font-medium text-body\">8.9</span>\n            </dd>\n        </dl>\n        <dl>\n            <dt class=\"text-sm font-medium text-body\">Free WiFi</dt>\n            <dd class=\"flex items-center mb-3\">\n                <div class=\"w-full bg-neutral-quaternary rounded-base h-2.5 me-2\">\n                    <div class=\"bg-brand h-2.5 rounded-base\" style=\"width: 88%\"></div>\n                </div>\n                <span class=\"text-sm font-medium text-body\">8.8</span>\n            </dd>\n        </dl>\n        <dl>\n            <dt class=\"text-sm font-medium text-body\">Facilities</dt>\n            <dd class=\"flex items-center\">\n                <div class=\"w-full bg-neutral-quaternary rounded-base h-2.5 me-2\">\n                    <div class=\"bg-brand h-2.5 rounded-base\" style=\"width: 54%\"></div>\n                </div>\n                <span class=\"text-sm font-medium text-body\">5.4</span>\n            </dd>\n        </dl>\n    </div>\n    <div>\n        <dl>\n            <dt class=\"text-sm font-medium text-body\">Value for money</dt>\n            <dd class=\"flex items-center mb-3\">\n                <div class=\"w-full bg-neutral-quaternary rounded-base h-2.5 me-2\">\n                    <div class=\"bg-brand h-2.5 rounded-base\" style=\"width: 89%\"></div>\n                </div>\n                <span class=\"text-sm font-medium text-body\">8.9</span>\n            </dd>\n        </dl>\n        <dl>\n            <dt class=\"text-sm font-medium text-body\">Cleanliness</dt>\n            <dd class=\"flex items-center mb-3\">\n                <div class=\"w-full bg-neutral-quaternary rounded-base h-2.5 me-2\">\n                    <div class=\"bg-brand h-2.5 rounded-base\" style=\"width: 70%\"></div>\n                </div>\n                <span class=\"text-sm font-medium text-body\">7.0</span>\n            </dd>\n        </dl>\n        <dl>\n            <dt class=\"text-sm font-medium text-body\">Location</dt>\n            <dd class=\"flex items-center\">\n                <div class=\"w-full bg-neutral-quaternary rounded-base h-2.5 me-2\">\n                    <div class=\"bg-brand h-2.5 rounded-base\" style=\"width: 89%\"></div>\n                </div>\n                <span class=\"text-sm font-medium text-body\">8.9</span>\n            </dd>\n        </dl>\n    </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

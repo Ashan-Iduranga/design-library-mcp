@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-hoshikawamaki-cowardly-cougar-86-150f5a",
+  "title": "Toggle by hoshikawamaki (cowardly-cougar-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/hoshikawamaki/cowardly-cougar-86",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "simple",
+    "icon",
+    "animation",
+    "switch",
+    "animated",
+    "toggle-switch",
+    "click-animation"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By hoshikawamaki on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/hoshikawamaki_cowardly-cougar-86.html",
+  "code": "<!-- From Uiverse.io by hoshikawamaki  - Tags: simple, icon, animation, switch, toggle, animated, toggle switch, click animation -->\n<label\n  for=\"nav_bar_icon\"\n  class=\"w-9 h-10 cursor-pointer flex flex-col items-center justify-center space-y-1.5\"\n>\n  <input id=\"nav_bar_icon\" type=\"checkbox\" class=\"hidden peer\" />\n  <div\n    class=\"w-2/3 h-1.5 bg-purple-400 rounded-lg transition-all duration-300 origin-right peer-checked:w-full peer-checked:rotate-[-30deg] peer-checked:translate-y-[-5px]\"\n  ></div>\n  <div\n    class=\"w-full h-1.5 bg-purple-400 rounded-lg transition-all duration-300 origin-center peer-checked:rotate-90 peer-checked:translate-x-4\"\n  ></div>\n  <div\n    class=\"w-2/3 h-1.5 bg-purple-400 rounded-lg transition-all duration-300 origin-right peer-checked:w-full peer-checked:rotate-[30deg] peer-checked:translate-y-[5px]\"\n  ></div>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

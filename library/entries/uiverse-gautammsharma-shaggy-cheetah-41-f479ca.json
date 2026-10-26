@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-gautammsharma-shaggy-cheetah-41-f479ca",
+  "title": "Input by Gautammsharma (shaggy-cheetah-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Gautammsharma/shaggy-cheetah-41",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "clean",
+    "material-design",
+    "minimalist",
+    "search",
+    "glow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Gautammsharma on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Gautammsharma_shaggy-cheetah-41.html",
+  "code": "<div class=\"input__container input__container--variant\">\n        <div class=\"shadow__input shadow__input--variant\"></div>\n        <input type=\"text\" name=\"text\" class=\"input__search input__search--variant\" placeholder=\"Search...\">\n        <button class=\"input__button__shadow input__button__shadow--variant\">\n          <svg fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" height=\"1.5em\" width=\"13em\">\n            <path d=\"M4 9a5 5 0 1110 0A5 5 0 014 9zm5-7a7 7 0 104.2 12.6.999.999 0 00.093.107l3 3a1 1 0 001.414-1.414l-3-3a.999.999 0 00-.107-.093A7 7 0 009 2z\" fill-rule=\"evenodd\" fill=\"#FFF\"></path>\n          </svg>\n        </button>\n      </div>\n<style>\n/* From Uiverse.io by Gautammsharma - Tags: clean, material design, minimalist, input, search, glow */\n.input__container--variant {\n  background: linear-gradient(to bottom, #F3FFF9, #F3FFF9);\n  border-radius: 30px;\n  max-width: 13em;\n  padding: 1em 1em;\n}\n\n.shadow__input--variant {\n  filter: blur(25px);\n  border-radius: 30px;\n  background-color: #F3FFF9;\n  opacity: 0.5;\n}\n\n.input__button__shadow--variant {\n  border-radius: 15px;\n  background-color: #07372C;\n  padding: 10px;\n  border: none;\n}\n\n.input__button__shadow--variant:hover {\n  background-color: #3C6659;\n}\n\n.input__search--variant {\n  width: 13em;\n  align-items: center;\n  border-radius: 13em;\n  outline: none;\n  border: none;\n  padding: 0.8em;\n  font-size: 1.2em;\n  color: #002019;\n  background-color: transparent;\n}\n\n.input__search--variant::placeholder {\n  color: #002019;\n  opacity: 0.7;\n}\n\n.input__container--variant {\n  background: linear-gradient(to bottom, #F3FFF9, #F3FFF9);\n  border-radius: 1.5em;\n  max-width: 14em;\n  padding: 1em;\n  box-shadow: 0em 1em 3em #beecdc64;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

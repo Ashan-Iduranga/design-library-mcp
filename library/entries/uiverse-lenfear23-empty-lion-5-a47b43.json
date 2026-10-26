@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-lenfear23-empty-lion-5-a47b43",
+  "title": "Button by lenfear23 (empty-lion-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/lenfear23/empty-lion-5",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By lenfear23 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/lenfear23_empty-lion-5.html",
+  "code": "<button>\n    Button\n</button>\n<style>\n/* From Uiverse.io by lenfear23 - Tags: button */\nbutton {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  outline: none;\n  cursor: pointer;\n  width: 150px;\n  height: 50px;\n  background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);\n  border-radius: 30px;\n  border: 1px solid #8F9092;\n  transition: all 0.2s ease;\n  font-family: \"Source Sans Pro\", sans-serif;\n  font-size: 14px;\n  font-weight: 600;\n  color: #606060;\n  text-shadow: 0 1px #fff;\n}\n\nbutton:hover {\n  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;\n}\n\nbutton:active {\n  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;\n}\n\nbutton:focus {\n  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;\n}\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

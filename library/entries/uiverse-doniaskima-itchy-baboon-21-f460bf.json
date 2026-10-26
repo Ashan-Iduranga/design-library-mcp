@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-doniaskima-itchy-baboon-21-f460bf",
+  "title": "Loader by doniaskima (itchy-baboon-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/itchy-baboon-21",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "material-design",
+    "neumorphism",
+    "flashy"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_itchy-baboon-21.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: material design, neumorphism, flashy, loader */\n.loader {\n  width: 80px;\n  height: 40px;\n  color: #000;\n  border: 2px solid currentColor;\n  border-right-color: transparent;\n  padding: 3px;\n  background: repeating-linear-gradient(90deg,currentColor 0 10px,#0000 0 15px) \n    0/0% no-repeat content-box content-box;\n  position: relative;\n  animation: l5 2s infinite steps(6);\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  top: -2px;\n  bottom: -2px;\n  left: 100%;\n  width: 10px;\n  background: linear-gradient(\n        #0000   calc(50% - 7px),currentColor 0 calc(50% - 5px),\n        #0000 0 calc(50% + 5px),currentColor 0 calc(50% + 7px),#0000 0) left /100% 100%,\n    linear-gradient(currentColor calc(50% - 5px),#0000        0 calc(50% + 5px),currentColor 0) left /2px 100%,\n    linear-gradient(#0000        calc(50% - 5px),currentColor 0 calc(50% + 5px),#0000        0) right/2px 100%;\n  background-repeat: no-repeat;\n}\n\n@keyframes l5 {\n  100% {\n    background-size: 120%\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-fanishah-funny-cow-54-490a7a",
+  "title": "Loader by fanishah (funny-cow-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/fanishah/funny-cow-54",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By fanishah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/fanishah_funny-cow-54.html",
+  "code": "<div class=\"container\">\n    <div class=\"item item-1\"></div>\n    <div class=\"item item-2\"></div>\n    <div class=\"item item-3\"></div>\n    <div class=\"item item-4\"></div>\n</div>\n<style>\n/* From Uiverse.io by fanishah - Tags: loader */\n.container {\n  position: absolute;\n  width: 100px;\n  height: 100px;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin: auto;\n}\n\n.item {\n  width: 50px;\n  height: 50px;\n  position: absolute;\n}\n\n.item-1 {\n  background-color: rgb(250, 87, 103);\n  top: 0;\n  left: 0;\n  z-index: 1;\n  animation: item-1_move 1.8s cubic-bezier(.6,.01,.4,1) infinite;\n}\n\n.item-2 {\n  background-color: rgb(121, 68, 228);\n  top: 0;\n  right: 0;\n  animation: item-2_move 1.8s cubic-bezier(.6,.01,.4,1) infinite;\n}\n\n.item-3 {\n  background-color: rgb(27, 145, 247);\n  bottom: 0;\n  right: 0;\n  z-index: 1;\n  animation: item-3_move 1.8s cubic-bezier(.6,.01,.4,1) infinite;\n}\n\n.item-4 {\n  background-color: rgb(250, 194, 76);\n  bottom: 0;\n  left: 0;\n  animation: item-4_move 1.8s cubic-bezier(.6,.01,.4,1) infinite;\n}\n\n@keyframes item-1_move {\n  0%, 100% {\n    transform: translate(0, 0)\n  }\n\n  25% {\n    transform: translate(0, 50px)\n  }\n\n  50% {\n    transform: translate(50px, 50px)\n  }\n\n  75% {\n    transform: translate(50px, 0)\n  }\n}\n\n@keyframes item-2_move {\n  0%, 100% {\n    transform: translate(0, 0)\n  }\n\n  25% {\n    transform: translate(-50px, 0)\n  }\n\n  50% {\n    transform: translate(-50px, 50px)\n  }\n\n  75% {\n    transform: translate(0, 50px)\n  }\n}\n\n@keyframes item-3_move {\n  0%, 100% {\n    transform: translate(0, 0)\n  }\n\n  25% {\n    transform: translate(0, -50px)\n  }\n\n  50% {\n    transform: translate(-50px, -50px)\n  }\n\n  75% {\n    transform: translate(-50px, 0)\n  }\n}\n\n@keyframes item-4_move {\n  0%, 100% {\n    transform: translate(0, 0)\n  }\n\n  25% {\n    transform: translate(50px, 0)\n  }\n\n  50% {\n    transform: translate(50px, -50px)\n  }\n\n  75% {\n    transform: translate(0, -50px)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

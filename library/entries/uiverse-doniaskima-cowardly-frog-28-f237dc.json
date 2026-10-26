@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-doniaskima-cowardly-frog-28-f237dc",
+  "title": "Loader by doniaskima (cowardly-frog-28)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/cowardly-frog-28",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "material-design",
+    "neumorphism",
+    "skeuomorphism",
+    "glassmorphism",
+    "flashy"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_cowardly-frog-28.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: simple, material design, neumorphism, skeuomorphism, glassmorphism, flashy, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 100px;\n  height: 60px;\n  display: flex;\n  animation: l12-0 2s infinite linear;\n}\n\n.loader::before,\n.loader::after {\n  content: \"\";\n  flex: 4;\n  background: radial-gradient(at 50% 20%,#0000,#000a) bottom left/20px 20px repeat-x,\n    linear-gradient(red 0 0) bottom/100% 20px no-repeat\n    #ddd;\n  -webkit-mask: repeating-linear-gradient(90deg,#000 0 4px,#0000 0 20px) 8px 0,\n    radial-gradient(farthest-side,#000 90%,#0000) left bottom/20px 20px repeat-x;\n}\n\n.loader::after {\n  flex: 1;\n  transform-origin: top;\n  animation: l12-1 1s cubic-bezier(0,20,1,20) infinite;\n}\n\n@keyframes l12-0 {\n \n  0%,49.9% {\n    transform: scaleX(1)\n  }\n\n  50%,100% {\n    transform: scaleX(-1)\n  }\n}\n\n@keyframes l12-1 {\n \n  100% {\n    transform: rotate(-2deg)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-nkhlrjrs-hungry-pig-21-b6e053",
+  "title": "Button by nkhlrjrs (hungry-pig-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/nkhlrjrs/hungry-pig-21",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "accept-call",
+    "call-us",
+    "schedule-a-call"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By nkhlrjrs on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/nkhlrjrs_hungry-pig-21.html",
+  "code": "<a class=\"schedule-button\" href=\"https://www.linkedin.com/in/nkhlrjrs/\">\n   Schedule a Call\n    <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" class=\"arrow\">\n      <path fill=\"none\" d=\"M0 0h24v24H0z\"></path>\n      <path d=\"M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z\"></path>\n    </svg>\n \n  </a>\n<style>\n/* From Uiverse.io by nkhlrjrs - Tags: button, accept call, Call Us, Schedule a call */\n/* CSS code */\n.schedule-button {\n  display: inline-flex;\n  align-items: center;\n  padding: 10px 20px;\n  background-color: #c49ff5;\n  color: #ffffff;\n  font-size: 16px;\n  text-decoration: none;\n  border-radius: 20px;\n /* Rounded corners */\n  transition: background-color 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);\n /* Smooth transitions */\n  font-family: 'Poppins', sans-serif;\n /* Change font to Poppins */\n}\n\n.schedule-button:hover {\n  background-color: #6d21f2;\n  transform: translateX(-5px);\n /* Move button to the left */\n}\n\n.schedule-button .arrow {\n  display: none;\n  width: 20px;\n  height: 20px;\n  fill: #ffffff;\n  opacity: 0;\n /* Initial opacity */\n  transform: translateX(-20px) rotate(-45deg);\n /* Initial position */\n  transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);\n /* Smooth transitions */\n}\n\n.schedule-button:hover .arrow {\n  display: inline-block;\n  opacity: 1;\n /* Fade in on hover */\n  animation: slide-in 0.4s forwards;\n}\n\n@keyframes slide-in {\n  from {\n    transform: translateX(-50px) rotate(-45deg);\n    opacity: 0.1;\n /* Slightly visible */\n  }\n\n  to {\n    transform: translateX(0) rotate(-45deg);\n    opacity: 1;\n /* Fully visible */\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

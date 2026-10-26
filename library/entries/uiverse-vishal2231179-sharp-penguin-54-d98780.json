@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-vishal2231179-sharp-penguin-54-d98780",
+  "title": "Form by vishal2231179 (sharp-penguin-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vishal2231179/sharp-penguin-54",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vishal2231179 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/vishal2231179_sharp-penguin-54.html",
+  "code": "<form class=\"form\">\n  <span class=\"heading\">Sign In</span>\n\n  <span class=\"Mail\">E-Mail</span>\n  <input placeholder=\"Enter E-Mail\" type=\"text\" class=\"input\" />\n  <span class=\"Password\">Password</span>\n  <input placeholder=\"Enter Password\" type=\"text\" class=\"input\" />\n  <span class=\"forgot\"><a href=\"\">forgot password?</a></span>\n  <button>Submit</button>\n</form>\n\n<style>\n/* From Uiverse.io by vishal2231179  - Tags:  */\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  background-color: rgb(241, 241, 130);\n  padding: 60px;\n  padding-inline: 28px;\n  border-radius: 20px;\n  box-shadow: 4px 4px rgb(0, 2, 65);\n  font-family: cursive;\n}\n\n.heading {\n  font-size: 25px;\n  text-align: center;\n  font-weight: 600;\n  font-family: cursive;\n}\n\n.form button {\n  /* align-self: flex-end; */\n  padding: 10px;\n  border-radius: 10px;\n  margin-top: 20px;\n  background-color: rgb(241, 241, 130);\n  box-shadow: 2px 3px rgb(0, 2, 65);\n\n  color: rgb(0, 0, 0);\n  font-size: medium;\n  font-weight: 600;\n  transition: 400ms;\n  font-family: cursive;\n}\n\n.form button:hover {\n  background-color: rgb(235, 255, 59);\n  transition: 400ms;\n  cursor: pointer;\n}\n\n.input {\n  padding: 10px;\n  width: 280px;\n  border-radius: 10px;\n  border-style: double;\n  border-color: black;\n  font-size: 15px;\n  box-shadow: 2px 3px rgb(0, 2, 65);\n\n  font-family: cursive;\n}\n\n.forgot,\na {\n  padding-top: 10px;\n  /* font-weight: 600; */\n  color: rgba(0, 0, 0, 0.994);\n  font-family: cursive;\n  text-decoration: none;\n  transition: 400ms;\n}\n.forgot,\na:hover {\n  color: rgba(0, 0, 0, 0.703);\n  transition: 400ms;\n}\n\n.Mail,\n.Password {\n  font-size: 16px;\n  /* font-weight: 600; */\n  font-family: cursive;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

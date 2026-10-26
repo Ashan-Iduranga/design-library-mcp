@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-afacanc38-polite-chipmunk-64-8b1bc3",
+  "title": "Button by Afacanc38 (polite-chipmunk-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Afacanc38/polite-chipmunk-64",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "skeuomorphism",
+    "minimalist",
+    "black",
+    "dark",
+    "cool-btn"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Afacanc38 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Afacanc38_polite-chipmunk-64.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by Afacanc38 - Tags: skeuomorphism, minimalist, black, button, dark, cool btn */\n.button {\n  padding: 12px 24px;\n  border: none;\n  border-radius: 2px;\n  background: #424242;\n  color: white;\n  box-shadow: 0 1px 0 0 rgba(255, 255, 255, .1) inset,\n    0 0 0 1px rgba(0, 0, 0, .7),\n    0 -1px 0 0 rgba(0, 0, 0, .7) inset,\n    0 1px 2px 1px rgba(0, 0, 0, .6);\n  cursor: pointer;\n  transition: 50ms ease-out;\n  font-weight: 600;\n}\n\n.button:hover, .button:focus, .button:focus-visible {\n  background: #353535;\n  box-shadow: 0 1px 0 0 rgba(255, 255, 255, .05) inset,\n    0 0 0 1px rgba(0, 0, 0, .7),\n    0 -1px 0 0 rgba(0, 0, 0, .7) inset,\n    0 1px 2px 1px rgba(0, 0, 0, .6);\n  border: none;\n  outline: none;\n}\n\n.button:active {\n  background: #181818;\n  box-shadow: 0 0 0 1px rgba(0, 0, 0, .7) inset,\n    0 1px 0 0 rgba(255, 255, 255, .05),\n    0 1px 2px 1px rgba(0, 0, 0, .6) inset;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

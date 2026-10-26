@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-g4b413l-mean-stingray-9-624db6",
+  "title": "Input by G4b413l (mean-stingray-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/mean-stingray-9",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/G4b413l_mean-stingray-9.html",
+  "code": "<div class=\"group\">\n  <input required=\"\" type=\"text\" class=\"input\">\n  <span class=\"highlight\"></span>\n  <span class=\"bar\"></span>\n  <label>Name</label>\n</div>\n<style>\n/* From Uiverse.io by G4b413l - Tags: input */\n.group {\n position: relative;\n}\n\n.input {\n font-size: 16px;\n padding: 10px 10px 10px 5px;\n display: block;\n width: 200px;\n border: none;\n border-bottom: 1px solid #515151;\n background: transparent;\n}\n\n.input:focus {\n outline: none;\n}\n\nlabel {\n color: #999;\n font-size: 18px;\n font-weight: normal;\n position: absolute;\n pointer-events: none;\n left: 5px;\n top: 10px;\n transition: 0.2s ease all;\n -moz-transition: 0.2s ease all;\n -webkit-transition: 0.2s ease all;\n}\n\n.input:focus ~ label, .input:valid ~ label {\n top: -20px;\n font-size: 14px;\n color: #5264AE;\n}\n\n.bar {\n position: relative;\n display: block;\n width: 200px;\n}\n\n.bar:before, .bar:after {\n content: '';\n height: 2px;\n width: 0;\n bottom: 1px;\n position: absolute;\n background: #5264AE;\n transition: 0.2s ease all;\n -moz-transition: 0.2s ease all;\n -webkit-transition: 0.2s ease all;\n}\n\n.bar:before {\n left: 50%;\n}\n\n.bar:after {\n right: 50%;\n}\n\n.input:focus ~ .bar:before, .input:focus ~ .bar:after {\n width: 50%;\n}\n\n.highlight {\n position: absolute;\n height: 60%;\n width: 100px;\n top: 25%;\n left: 0;\n pointer-events: none;\n opacity: 0.5;\n}\n\n.input:focus ~ .highlight {\n animation: inputHighlighter 0.3s ease;\n}\n\n@keyframes inputHighlighter {\n from {\n  background: #5264AE;\n }\n\n to {\n  width: 0;\n  background: transparent;\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

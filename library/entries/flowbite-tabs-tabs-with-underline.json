@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-tabs-tabs-with-underline",
+  "title": "Tabs: Tabs with underline (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/tabs/#tabs-with-underline",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "tab",
+    "tabs",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this alternative tabs component style with an underline instead of a background when hovering and being active on a certain page.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/tabs.md",
+  "code": "<div class=\"text-sm font-medium text-center text-body border-b border-default\">\n    <ul class=\"flex flex-wrap -mb-px\">\n        <li class=\"me-2\">\n            <a href=\"#\" class=\"inline-block p-4 border-b border-transparent rounded-t-base hover:text-fg-brand hover:border-brand\">Profile</a>\n        </li>\n        <li class=\"me-2\">\n            <a href=\"#\" class=\"inline-block p-4 text-fg-brand border-b border-brand rounded-t-base active\" aria-current=\"page\">Dashboard</a>\n        </li>\n        <li class=\"me-2\">\n            <a href=\"#\" class=\"inline-block p-4 border-b border-transparent rounded-t-base hover:text-fg-brand hover:border-brand\">Settings</a>\n        </li>\n        <li class=\"me-2\">\n            <a href=\"#\" class=\"inline-block p-4 border-b border-transparent rounded-t-base hover:text-fg-brand hover:border-brand\">Contacts</a>\n        </li>\n        <li>\n            <a class=\"inline-block p-4 text-fg-disabled rounded-t-base cursor-not-allowed dark:text-body\">Disabled</a>\n        </li>\n    </ul>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

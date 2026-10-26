@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-subaashbala-new-snail-95-ec5f3e",
+  "title": "Button by Subaashbala (new-snail-95)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Subaashbala/new-snail-95",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "animated",
+    "stripe"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Subaashbala on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Subaashbala_new-snail-95.html",
+  "code": "<button class=\"button\">\n  <div>Hover</div>\n</button>\n\n<style>\n/* From Uiverse.io by Subaashbala  - Tags: animation, button, animated, stripe */\n.button {\n  cursor: pointer;\n  font-size: 1.25em;\n  padding: 1em 2em;\n  border-radius: 5px;\n  border: none;\n  position: relative;\n  font-weight: 900;\n  background: repeating-linear-gradient(\n    45deg,\n    rgb(255, 209, 124),\n    rgb(255, 209, 124) 10px,\n    rgb(255, 139, 97) 10px,\n    rgb(255, 139, 97) 20px\n  );\n  animation: move 500ms infinite linear forwards;\n  animation-play-state: paused;\n  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.199);\n}\n.button:hover {\n  animation-play-state: running;\n}\n@keyframes move {\n  from {\n    background-position: 0;\n  }\n  to {\n    background-position: 30px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

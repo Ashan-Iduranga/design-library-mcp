@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-input-field-input-fields",
+  "title": "Input Field: Input fields (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/input-field/#input-fields",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input-field",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example as a generic form element which includes multiple input fields types such as text, email, password, number, URL, and phone number and use the grid layout to add multiple columns and rows.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/input-field.md",
+  "code": "<form>\n    <div class=\"grid gap-6 mb-6 md:grid-cols-2\">\n        <div>\n            <label for=\"first_name\" class=\"block mb-2.5 text-sm font-medium text-heading\">First name</label>\n            <input type=\"text\" id=\"first_name\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" placeholder=\"John\" required />\n        </div>\n        <div>\n            <label for=\"last_name\" class=\"block mb-2.5 text-sm font-medium text-heading\">Last name</label>\n            <input type=\"text\" id=\"last_name\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" placeholder=\"Doe\" required />\n        </div>\n        <div>\n            <label for=\"company\" class=\"block mb-2.5 text-sm font-medium text-heading\">Company</label>\n            <input type=\"text\" id=\"company\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" placeholder=\"Flowbite\" required />\n        </div>  \n        <div>\n            <label for=\"phone\" class=\"block mb-2.5 text-sm font-medium text-heading\">Phone number</label>\n            <input type=\"tel\" id=\"phone\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" placeholder=\"123-45-678\" pattern=\"[0-9]{3}-[0-9]{2}-[0-9]{3}\" required />\n        </div>\n        <div>\n            <label for=\"website\" class=\"block mb-2.5 text-sm font-medium text-heading\">Website URL</label>\n            <input type=\"url\" id=\"website\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" placeholder=\"flowbite.com\" required />\n        </div>\n        <div>\n            <label for=\"visitors\" class=\"block mb-2.5 text-sm font-medium text-heading\">Unique visitors (per month)</label>\n            <input type=\"number\" id=\"visitors\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" placeholder=\"\" required />\n        </div>\n    </div>\n    <div class=\"mb-6\">\n        <label for=\"email\" class=\"block mb-2.5 text-sm font-medium text-heading\">Email address</label>\n        <input type=\"email\" id=\"email\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" placeholder=\"john.doe@company.com\" required />\n    </div> \n    <div class=\"mb-6\">\n        <label for=\"password\" class=\"block mb-2.5 text-sm font-medium text-heading\">Password</label>\n        <input type=\"password\" id=\"password\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" placeholder=\"•••••••••\" required />\n    </div> \n    <div class=\"mb-6\">\n        <label for=\"confirm_password\" class=\"block mb-2.5 text-sm font-medium text-heading\">Confirm password</label>\n        <input type=\"password\" id=\"confirm_password\" class=\"bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body\" placeholder=\"•••••••••\" required />\n    </div> \n    <div class=\"flex items-start mb-6\">\n        <div class=\"flex items-center h-5\">\n        <input id=\"remember\" type=\"checkbox\" value=\"\" class=\"w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\" required />\n        </div>\n        <label for=\"remember\" class=\"ms-2 text-sm font-medium text-heading\">I agree with the <a href=\"#\" class=\"text-fg-brand hover:underline\">terms and conditions</a>.</label>\n    </div>\n    <button type=\"submit\" class=\"text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Submit</button>\n</form>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

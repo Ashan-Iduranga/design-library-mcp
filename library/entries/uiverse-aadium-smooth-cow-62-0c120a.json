@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-aadium-smooth-cow-62-0c120a",
+  "title": "Button by aadium (smooth-cow-62)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aadium/smooth-cow-62",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aadium on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/aadium_smooth-cow-62.html",
+  "code": "<button class=\"cti\">\n  <div class=\"CTI\">\n    Code to Infinity\n  </div>\n</button>\n<style>\n/* From Uiverse.io by aadium - Tags: button */\n.cti {\n  background-color: #6019bd;\n  padding: 17px 30px;\n  border: 3px solid transparent;\n  border-radius: 0.6em;\n  transition: 0.2s;\n}\n\n.cti:hover {\n  background-color: transparent;\n  border: 3px solid #6019bd;\n  box-shadow: 0px 0px 27px 5px #6019bd;\n}\n\n.CTI {\n  color: #fff;\n  font-family: 'Courier New', Courier, monospace;\n  font-size: 17px;\n  font-weight: bold;\n  overflow: hidden;\n  border-right: 4px solid transparent;\n  white-space: nowrap;\n  margin: 0 auto;\n}\n\n.cti:hover .CTI {\n  border-right: 4px solid #6019bd;\n  animation: letters 1.75s steps(22, end),\n    cursor .4s step-end infinite;\n}\n\n@keyframes letters {\n  from {\n    width: 0;\n  }\n\n  to {\n    width: 100%;\n  }\n}\n\n@keyframes cursor {\n  from {\n    border-color: transparent\n  }\n\n  50% {\n    border-color: #6019bd\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

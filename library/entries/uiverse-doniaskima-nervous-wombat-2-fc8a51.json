@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-doniaskima-nervous-wombat-2-fc8a51",
+  "title": "Button by doniaskima (nervous-wombat-2)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/nervous-wombat-2",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/doniaskima_nervous-wombat-2.html",
+  "code": "<button class=\"btn-12\"><span>Button</span></button>\n\n<style>\n/* From Uiverse.io by doniaskima - Tags: button */\n.btn-12,\n.btn-12 *,\n.btn-12 :after,\n.btn-12 :before,\n.btn-12:after,\n.btn-12:before {\n  border: 0 solid;\n  box-sizing: border-box;\n}\n\n.btn-12 {\n  -webkit-tap-highlight-color: transparent;\n  -webkit-appearance: button;\n  background-color: #000;\n  background-image: none;\n  color: #fff;\n  cursor: pointer;\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,\n    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,\n    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;\n  font-size: 100%;\n  font-weight: 900;\n  line-height: 1.5;\n  margin: 0;\n  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);\n  padding: 0;\n  text-transform: uppercase;\n}\n\n.btn-12:disabled {\n  cursor: default;\n}\n\n.btn-12:-moz-focusring {\n  outline: auto;\n}\n\n.btn-12 svg {\n  display: block;\n  vertical-align: middle;\n}\n\n.btn-12 [hidden] {\n  display: none;\n}\n\n.btn-12 {\n  border-radius: 99rem;\n  border-width: 2px;\n  overflow: hidden;\n  padding: 0.8rem 3rem;\n  position: relative;\n}\n\n.btn-12 span {\n  mix-blend-mode: difference;\n}\n\n.btn-12:after,\n.btn-12:before {\n  background: linear-gradient(\n    90deg,\n    #fff 25%,\n    transparent 0,\n    transparent 50%,\n    #fff 0,\n    #fff 75%,\n    transparent 0\n  );\n  content: \"\";\n  inset: 0;\n  position: absolute;\n  transform: translateY(var(--progress, 100%));\n  transition: transform 0.2s ease;\n}\n\n.btn-12:after {\n  --progress: -100%;\n  background: linear-gradient(\n    90deg,\n    transparent 0,\n    transparent 25%,\n    #fff 0,\n    #fff 50%,\n    transparent 0,\n    transparent 75%,\n    #fff 0\n  );\n  z-index: -1;\n}\n\n.btn-12:hover:after,\n.btn-12:hover:before {\n  --progress: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

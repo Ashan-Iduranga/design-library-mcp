@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-adamgiebl-hot-catfish-48-2963b7",
+  "title": "Button by adamgiebl (hot-catfish-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/adamgiebl/hot-catfish-48",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d",
+    "blue"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By adamgiebl on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/adamgiebl_hot-catfish-48.html",
+  "code": "<button> Click me\n</button>\n<style>\n/* From Uiverse.io by adamgiebl - Tags: 3d, blue, button */\nbutton {\n  font-size: 16px;\n  padding: 1em 3.3em;\n  transform: perspective(200px) rotateX(15deg);\n  color: white;\n  font-weight: 900;\n  border: none;\n  border-radius: 5px;\n  background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(70,135,252,1) 100%);\n  box-shadow: rgba(63,94,251,0.2) 0px 40px 29px 0px;\n  will-change: transform;\n  transition: all 0.3s;\n  border-bottom: 2px solid rgba(70,135,252,1);\n}\n\nbutton:hover {\n  transform: perspective(180px) rotateX(30deg) translateY(2px);\n}\n\nbutton:active {\n  transform: perspective(170px) rotateX(36deg) translateY(5px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

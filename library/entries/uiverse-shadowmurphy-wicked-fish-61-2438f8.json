@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-shadowmurphy-wicked-fish-61-2438f8",
+  "title": "Loader by shadowmurphy (wicked-fish-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/shadowmurphy/wicked-fish-61",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "gradient",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By shadowmurphy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/shadowmurphy_wicked-fish-61.html",
+  "code": "<div class=\"loader\">\n  <div class=\"shape\"></div>\n</div>\n<style>\n/* From Uiverse.io by shadowmurphy - Tags: gradient, loader, animated */\n.loader {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  width: 200px;\n  height: 15px;\n  background-color: rgb(2, 2, 17);\n  border-radius: 10px;\n  overflow: hidden;\n  position: relative;\n  margin-top: 15px;\n}\n\n.shape {\n  width: 50px;\n  height: 15px;\n  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);\n  border-radius: 25px;\n  position: absolute;\n  animation: slide 1.9s linear infinite;\n  background-size: 200%;\n}\n\n@keyframes slide {\n  0% {\n    left: 0;\n  }\n\n  50% {\n    left: calc(100% - 50px);\n  }\n\n  100% {\n    left: 0;\n  }\n}\n\n@keyframes gradientChange {\n  0%, 100% {\n    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);\n  }\n\n  50% {\n    background-image: linear-gradient(144deg, #00DDEB, #5B42F3 50%, #AF40FF);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

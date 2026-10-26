@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-curvy-rat-14-dc1745",
+  "title": "Button by satyamchaudharydev (curvy-rat-14)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/curvy-rat-14",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/satyamchaudharydev_curvy-rat-14.html",
+  "code": "<button>\n    Join now\n</button>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: button */\n/* this button is inspired from this -- https://www.newline.co/pricing */\nbutton {\n  --width: 150px;\n  --timing: 2s;\n  border: 0;\n  width: var(--width);\n  padding-block: 1em;\n  color: #fff;\n  font-weight: bold;\n  font-size: 1em;\n  background: rgb(64, 192, 87);\n  transition: all 0.2s;\n  border-radius: 3px;\n}\n\nbutton:hover {\n  background-image: linear-gradient(to right, rgb(250, 82, 82), rgb(250, 82, 82) 16.65%, rgb(190, 75, 219) 16.65%, rgb(190, 75, 219) 33.3%, rgb(76, 110, 245) 33.3%, rgb(76, 110, 245) 49.95%, rgb(64, 192, 87) 49.95%, rgb(64, 192, 87) 66.6%, rgb(250, 176, 5) 66.6%, rgb(250, 176, 5) 83.25%, rgb(253, 126, 20) 83.25%, rgb(253, 126, 20) 100%, rgb(250, 82, 82) 100%);\n  animation: var(--timing) linear dance6123 infinite;\n  transform: scale(1.1) translateY(-1px);\n}\n\n@keyframes dance6123 {\n  to {\n    background-position: var(--width);\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

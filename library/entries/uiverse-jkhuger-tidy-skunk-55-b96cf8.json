@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-jkhuger-tidy-skunk-55-b96cf8",
+  "title": "Loader by JkHuger (tidy-skunk-55)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/tidy-skunk-55",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "pacman"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JkHuger_tidy-skunk-55.html",
+  "code": "<main id=\"container\">\n        \n        <div class=\"dots\">\n            <div class=\"dot\"></div>\n            <div class=\"dot\"></div>\n            <div class=\"dot\"></div>\n            <div class=\"dot\"></div>\n            <div class=\"dot\"></div>\n            <div class=\"dot\"></div>\n            <div class=\"dot\"></div>\n            <div class=\"dot\"></div>\n            <div class=\"dot\"></div>\n            <div class=\"dot\"></div>\n        </div>\n        <div class=\"dots2\">\n            <div class=\"dot2\"></div>\n            <div class=\"dot2\"></div>\n            <div class=\"dot2\"></div>\n            <div class=\"dot2\"></div>\n            <div class=\"dot2\"></div>\n            <div class=\"dot2\"></div>\n            <div class=\"dot2\"></div>\n            <div class=\"dot2\"></div>\n            <div class=\"dot2\"></div>\n            <div class=\"dot2\"></div>\n        </div>\n        <div class=\"circle\"></div>\n    </main>\n\n<style>\n/* From Uiverse.io by JkHuger - Tags: loader, pacman */\n.circle {\n  position: relative;\n  left: -100px;\n  width: 0;\n  height: 0;\n  border: 50px solid #FDD835;\n  border-radius: 50%;\n  border-right-color: transparent;\n  animation: move 5s linear 0s infinite normal forwards;\n}\n\n.circle:before {\n  content: \"\";\n  position: absolute;\n  top: -50px;\n  left: -50px;\n  width: 0;\n  height: 0;\n  border: 50px solid #FDD835;\n  border-radius: 50%;\n  border-right-color: transparent;\n  animation: chomp1 .25s ease-in-out 0s infinite normal forwards;\n}\n\n.circle:after {\n  content: \"\";\n  position: absolute;\n  top: -50px;\n  left: -50px;\n  width: 0;\n  height: 0;\n  border: 50px solid #FDD835;\n  border-radius: 50%;\n  border-right-color: transparent;\n  animation: chomp2 .25s ease-in-out 0s infinite normal forwards;\n}\n\n.loader {\n  position: relative;\n  top: 50px;\n  width: 300px;\n  height: 0px;\n  border-top: 10px dotted black;\n  animation: loader_4013 5s ease-in-out 0s infinite normal forwards;\n}\n\n.dots {\n  position: relative;\n  top: 60px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.dot {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  margin: 0 10px;\n  border-radius: 50%;\n  background: #1E88E5;\n  animation: dot1 5s linear 0s infinite none normal;\n}\n\n.dot:nth-child(1) {\n  animation-delay: 0s\n}\n\n.dot:nth-child(2) {\n  animation-delay: 0.25s\n}\n\n.dot:nth-child(3) {\n  animation-delay: 0.5s\n}\n\n.dot:nth-child(4) {\n  animation-delay: 0.75s\n}\n\n.dot:nth-child(5) {\n  animation-delay: 1s\n}\n\n.dot:nth-child(6) {\n  animation-delay: 1.25s\n}\n\n.dot:nth-child(7) {\n  animation-delay: 1.5s\n}\n\n.dot:nth-child(8) {\n  animation-delay: 1.75s\n}\n\n.dot:nth-child(9) {\n  animation-delay: 1.9s\n}\n\n.dot:nth-child(10) {\n  animation-delay: 2.1s\n}\n\n.dots2 {\n  position: relative;\n  top: 50px;\n  left: 10px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.dot2 {\n  position: relative;\n  left: -10px;\n  width: 10px;\n  height: 10px;\n  margin: 0 10px;\n  border-radius: 50%;\n  background: #F44336;\n  opacity: 0;\n  animation: dot2 5s linear 0s infinite none normal;\n}\n\n.dot2:nth-child(10) {\n  animation-delay: 2.5s\n}\n\n.dot2:nth-child(9) {\n  animation-delay: 2.75s\n}\n\n.dot2:nth-child(8) {\n  animation-delay: 3.0s\n}\n\n.dot2:nth-child(7) {\n  animation-delay: 3.25s\n}\n\n.dot2:nth-child(6) {\n  animation-delay: 3.5s\n}\n\n.dot2:nth-child(5) {\n  animation-delay: 3.75s\n}\n\n.dot2:nth-child(4) {\n  animation-delay: 4.0s\n}\n\n.dot2:nth-child(3) {\n  animation-delay: 4.25s\n}\n\n.dot2:nth-child(2) {\n  animation-delay: 4.5s\n}\n\n.dot2:nth-child(1) {\n  animation-delay: 4.6s\n}\n/* #F44336;, #1E88E5, #FDD835; */\n@keyframes chomp1 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  50% {\n    transform: rotate(45deg);\n  }\n\n  100% {\n    transform: rotate(0deg);\n  }\n}\n\n@keyframes chomp2 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  50% {\n    transform: rotate(-45deg);\n  }\n\n  100% {\n    transform: rotate(0deg);\n  }\n}\n\n@keyframes move {\n  0%, 100% {\n    left: -100px;\n  }\n\n  0%, 48% {\n    transform: rotateY(0deg);\n  }\n\n  50%, 100% {\n    transform: rotateY(180deg);\n  }\n\n  50% {\n    left: 100%;\n  }\n}\n\n@keyframes loader_4013 {\n  0%, 100% {\n    border-top: 10px dotted #1E88E5;\n  }\n\n  0%, 48% {\n    border-top: 10px dotted #1E88E5;\n  }\n\n  50%, 100% {\n    border-top: 10px dotted #F44336;\n  }\n\n  50% {\n    border-top: 10px dotted #F44336;\n  }\n}\n\n@keyframes dot1 {\n  0%,4% {\n    background: #1E88E5;\n    opacity: 1;\n  }\n\n  5%,94% {\n    background: #F44336;\n    opacity: 0;\n  }\n\n  95%,100% {\n    background: #1E88E5;\n    opacity: 1;\n  }\n}\n\n@keyframes dot2 {\n  0%,4% {\n    background: #F44336;\n    opacity: 1;\n  }\n\n  5%,94% {\n    opacity: 0;\n  }\n\n  95%,100% {\n    background: #F44336;\n    opacity: 1;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

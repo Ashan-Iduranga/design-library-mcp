@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-alerts-alerts-with-list",
+  "title": "Alerts: Alerts with list (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/alerts/#alerts-with-list",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "alert",
+    "alerts",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a list and a description inside an alert component.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/alerts.md",
+  "code": "<div class=\"flex p-4 mb-4 text-sm text-fg-brand-strong rounded-base bg-brand-softer border border-brand-subtle\" role=\"alert\">\n  <svg class=\"w-4 h-4 me-2 shrink-0\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n  <span class=\"sr-only\">Info</span>\n  <div>\n    <span class=\"font-medium\">Ensure that these requirements are met:</span>\n      <ul class=\"mt-2 list-disc list-outside space-y-1 ps-2.5\">\n        <li>At least 10 characters (and up to 100 characters)</li>\n        <li>At least one lowercase character</li>\n        <li>Inclusion of at least one special character, e.g., ! @ # ?</li>\n    </ul>\n  </div>\n</div>\n<div class=\"flex p-4 mb-4 text-sm text-fg-danger-strong rounded-base bg-danger-soft border border-danger-subtle\" role=\"alert\">\n  <svg class=\"w-4 h-4 me-2 shrink-0\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n  <span class=\"sr-only\">Danger</span>\n  <div>\n    <span class=\"font-medium\">Ensure that these requirements are met:</span>\n      <ul class=\"mt-2 list-disc list-outside space-y-1 ps-2.5\">\n        <li>At least 10 characters (and up to 100 characters)</li>\n        <li>At least one lowercase character</li>\n        <li>Inclusion of at least one special character, e.g., ! @ # ?</li>\n    </ul>\n  </div>\n</div>\n<div class=\"flex p-4 mb-4 text-sm text-fg-success-strong rounded-base bg-success-soft border border-success-subtle\" role=\"alert\">\n  <svg class=\"w-4 h-4 me-2 shrink-0\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n  <span class=\"sr-only\">Success</span>\n  <div>\n    <span class=\"font-medium\">Ensure that these requirements are met:</span>\n      <ul class=\"mt-2 list-disc list-outside space-y-1 ps-2.5\">\n        <li>At least 10 characters (and up to 100 characters)</li>\n        <li>At least one lowercase character</li>\n        <li>Inclusion of at least one special character, e.g., ! @ # ?</li>\n    </ul>\n  </div>\n</div>\n<div class=\"flex p-4 mb-4 text-sm text-fg-warning rounded-base bg-warning-soft border border-warning-subtle\" role=\"alert\">\n  <svg class=\"w-4 h-4 me-2 shrink-0\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n  <span class=\"sr-only\">Success</span>\n  <div>\n    <span class=\"font-medium\">Ensure that these requirements are met:</span>\n      <ul class=\"mt-2 list-disc list-outside space-y-1 ps-2.5\">\n        <li>At least 10 characters (and up to 100 characters)</li>\n        <li>At least one lowercase character</li>\n        <li>Inclusion of at least one special character, e.g., ! @ # ?</li>\n    </ul>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

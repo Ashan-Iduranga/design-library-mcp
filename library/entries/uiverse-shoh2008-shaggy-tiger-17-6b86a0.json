@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-shaggy-tiger-17-6b86a0",
+  "title": "Loader by Shoh2008 (shaggy-tiger-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/shaggy-tiger-17",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_shaggy-tiger-17.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  margin: auto;\n  width: 100px;\n  height: 30px;\n  overflow: hidden;\n  position: relative;\n  background: rgba(0, 0, 0, 0.3);\n  border-radius: 5px;\n  box-shadow: 0px 35px 0 -5px #aaa, 0 -5px 0 0px #ddd, 0 -25px 0 -5px #fff,\n    -25px -30px 0 0px #ddd, -25px 30px 0 0px #ddd, 25px -30px 0 0px #ddd,\n    25px 30px 0 0px #ddd, 20px 10px 0 5px #ddd, 20px -10px 0 5px #ddd,\n    -20px -10px 0 5px #ddd, -20px 10px 0 5px #ddd;\n}\n\n.loader:after,\n.loader:before {\n  content: \"\";\n  border-radius: 100%;\n  width: 35px;\n  height: 35px;\n  display: block;\n  position: absolute;\n  border: 4px dashed #fff;\n  bottom: -4px;\n  transform: rotate(0deg);\n  box-sizing: border-box;\n  animation: tape 4s linear infinite;\n}\n\n.loader:before {\n  right: 0;\n  box-shadow: 0 0 0 4px #fff, 0 0 0 34px #000;\n}\n\n.loader:after {\n  left: 0;\n  box-shadow: 0 0 0 4px #fff, 0 0 0 65px #000;\n}\n\n@keyframes tape {\n  0% {\n    transform: rotate(0deg) scale(0.4);\n  }\n\n  100% {\n    transform: rotate(-360deg) scale(0.4);\n  }\n}\n      \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

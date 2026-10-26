@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-davidtm96-empty-skunk-88-a50d7d",
+  "title": "Form by DavidTM96 (empty-skunk-88)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/DavidTM96/empty-skunk-88",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By DavidTM96 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/DavidTM96_empty-skunk-88.html",
+  "code": "<div class=\"form-card1\">\n  <div class=\"form-card2\">\n    <form class=\"form\">\n      <p class=\"form-heading\">Get In Touch</p>\n\n      <div class=\"form-field\">\n        <input required=\"\" placeholder=\"Name\" class=\"input-field\" type=\"text\" />\n      </div>\n\n      <div class=\"form-field\">\n        <input\n          required=\"\"\n          placeholder=\"Email\"\n          class=\"input-field\"\n          type=\"email\"\n        />\n      </div>\n\n      <div class=\"form-field\">\n        <input\n          required=\"\"\n          placeholder=\"Subject\"\n          class=\"input-field\"\n          type=\"text\"\n        />\n      </div>\n\n      <div class=\"form-field\">\n        <textarea\n          required=\"\"\n          placeholder=\"Message\"\n          cols=\"30\"\n          rows=\"3\"\n          class=\"input-field\"\n        ></textarea>\n      </div>\n\n      <button class=\"sendMessage-btn\">Send Message</button>\n    </form>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by DavidTM96  - Website: https://uiverse.io/Phelix652/selfish-pug-28 - Name: Phelix652 - Tags: material design, form, contact-form, contactform */\n.form {\n  display: flex;\n  flex-direction: column;\n  align-self: center;\n  font-family: inherit;\n  gap: 10px;\n  padding-inline: 2em;\n  padding-bottom: 0.4em;\n  background-color: #171717;\n  //background-color: #0a192f;\n  border-radius: 20px;\n}\n\n.form-heading {\n  text-align: center;\n  margin: 2em;\n  color: #64ffda;\n  font-size: 1.2em;\n  background-color: transparent;\n  align-self: center;\n}\n\n.form-field {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 0.5em;\n  border-radius: 10px;\n  padding: 0.6em;\n  border: none;\n  outline: none;\n  color: white;\n  background-color: #171717;\n  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);\n}\n\n.input-field {\n  background: none;\n  border: none;\n  outline: none;\n  width: 100%;\n  color: #ccd6f6;\n  padding-inline: 1em;\n}\n\n.sendMessage-btn {\n  cursor: pointer;\n  margin-bottom: 3em;\n  padding: 1em;\n  border-radius: 10px;\n  border: none;\n  outline: none;\n  background-color: transparent;\n  color: #64ffda;\n  font-weight: bold;\n  outline: 1px solid #64ffda;\n  transition: all ease-in-out 0.3s;\n}\n\n.sendMessage-btn:hover {\n  transition: all ease-in-out 0.3s;\n  background-color: #64ffda;\n  color: #000;\n  cursor: pointer;\n  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);\n}\n\n.form-card1 {\n  background-image: linear-gradient(163deg, #64ffda 0%, #64ffda 100%);\n  border-radius: 22px;\n  transition: all 0.3s;\n}\n\n.form-card1:hover {\n  box-shadow: 0px 0px 30px 1px rgba(100, 255, 218, 0.3);\n}\n\n.form-card2 {\n  border-radius: 0;\n  transition: all 0.2s;\n}\n\n.form-card2:hover {\n  transform: scale(0.98);\n  border-radius: 20px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-elijahgummer-short-baboon-22-982624",
+  "title": "Input by elijahgummer (short-baboon-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/short-baboon-22",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "animation",
+    "white",
+    "black",
+    "dark",
+    "text-animation",
+    "transition",
+    "click-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/elijahgummer_short-baboon-22.html",
+  "code": "<div class=\"input-field\">\n  <input required=\"\" name=\"text\" type=\"text\" />\n  <label>Enter your email</label>\n</div>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: animation, white, black, input, dark, text animation, transition, click effect */\n.input-field {\n  position: relative;\n  border-bottom: 2px solid #f0f424;\n  margin: 15px 0;\n}\n\n.input-field label {\n  position: absolute;\n  top: 50%;\n  left: 0;\n  transform: translateY(-50%);\n  color: #fff;\n  font-size: 16px;\n  pointer-events: none;\n  transition: 0.15s ease;\n}\n\n.input-field input {\n  width: 100%;\n  height: 40px;\n  background: transparent;\n  border: none;\n  outline: none;\n  font-size: 16px;\n  color: #fff;\n}\n\n.input-field input:focus ~ label,\n.input-field input:valid ~ label {\n  font-size: 0.8rem;\n  top: 10px;\n  transform: translateY(-120%);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

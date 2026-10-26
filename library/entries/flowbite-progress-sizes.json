@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-progress-sizes",
+  "title": "Progress Bar: Sizes (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/progress/#sizes",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "progres",
+    "progress",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "You can also use different sizes by using various sizing utility classes from Flowbite and Tailwind CSS.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/progress.md",
+  "code": "<div class=\"mb-1 text-sm font-medium text-heading\">Small</div>\n<div class=\"w-full bg-neutral-quaternary rounded-full h-1.5\">\n  <div class=\"bg-brand h-1.5 rounded-full\" style=\"width: 45%\"></div>\n</div>\n<div class=\"mb-1 text-sm font-medium text-heading\">Default</div>\n<div class=\"w-full bg-neutral-quaternary rounded-full h-2\">\n  <div class=\"bg-brand h-2 rounded-full\" style=\"width: 45%\"></div>\n</div>\n<div class=\"mb-1 text-base font-medium text-heading\">Large</div>\n<div class=\"w-full bg-neutral-quaternary rounded-full h-2.5\">\n  <div class=\"bg-brand h-2.5 rounded-full\" style=\"width: 45%\"></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

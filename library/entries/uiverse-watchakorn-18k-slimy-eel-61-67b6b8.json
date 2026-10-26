@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-watchakorn-18k-slimy-eel-61-67b6b8",
+  "title": "Radio by watchakorn-18k (slimy-eel-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/watchakorn-18k/slimy-eel-61",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By watchakorn-18k on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/watchakorn-18k_slimy-eel-61.html",
+  "code": "<div class=\"radio-input\">\n  <input value=\"value-1\" name=\"value-radio\" id=\"value-1\" type=\"radio\">\n  <label for=\"value-1\"></label>\n  <input value=\"value-2\" name=\"value-radio\" id=\"value-2\" type=\"radio\">\n  <label for=\"value-2\"></label>\n  <input value=\"value-3\" name=\"value-radio\" id=\"value-3\" type=\"radio\">\n  <label for=\"value-3\"></label>\n</div>\n<style>\n/* From Uiverse.io by watchakorn-18k - Tags: radio */\n.radio-input {\n  scale: 2;\n}\n\n.radio-input input[type=\"radio\"] {\n  position: absolute;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.radio-input label {\n  position: relative;\n  display: inline-block;\n  margin: 5px;\n  cursor: pointer;\n}\n\n.radio-input label::before {\n  content: \"\";\n  display: inline-block;\n  box-sizing: border-box;\n  width: 20px;\n  height: 20px;\n  margin-right: 10px;\n  border-radius: 50%;\n  border: 1px solid #f35;\n  box-shadow: 0px 0px 5px -1px rgb(255, 51, 85) inset,0px 0px 5px -1px rgb(255, 51, 85);\n}\n\n.radio-input input[type=\"radio\"]:checked + label::before {\n  background-color: #f35;\n}\n\n.radio-input ::after {\n  content: \"\";\n  display: inline-block;\n  position: absolute;\n  top: 60%;\n  left: 60%;\n  transform: translate(-50%, -50%) scale(0);\n  width: 10px;\n  height: 10px;\n  border-radius: 50%;\n  background-image: radial-gradient(\n    farthest-corner at 40px 40px,\n    rgb(134, 14, 34) 80%,\n    rgb(20, 11, 116) 100%);\n  box-shadow: 0px 0px 5px -1px #f35 inset,0px 0px 5px -1px #f35;\n  scale: 1.2;\n  transition: transform 0.25s ease-in-out;\n}\n\n.radio-input label:hover::before {\n  background-image: radial-gradient(\n    farthest-corner at 40px 40px,\n    #f35 50%,\n    #43e 100%);\n  border: 0px;\n  box-shadow: 0px 0px 5px -1px #43e inset,0px 0px 5px -1px #43e;\n}\n\n.radio-input label:hover::after {\n  transform: translate(-50%, -50%) scale(1.5);\n}\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-roninljy-angry-jellyfish-76-2f7787",
+  "title": "Loader by RoninLJY (angry-jellyfish-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/RoninLJY/angry-jellyfish-76",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "css",
+    "easy-to-use"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By RoninLJY on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/RoninLJY_angry-jellyfish-76.html",
+  "code": "<div class=\"loader\">\n  <span class=\"item\"></span>\n  <span class=\"item\"></span>\n  <span class=\"item\"></span>\n  <span class=\"item\"></span>\n</div>\n<style>\n/* From Uiverse.io by RoninLJY - Tags: loader, css, easy to use */\n.loader {\n  width: 85px;\n  height: 85px;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  align-content: space-between;\n  animation: loading-rotate 3s linear infinite;\n}\n\n.item {\n  width: 40px;\n  height: 40px;\n  display: block;\n  box-sizing: border-box;\n}\n\n.item:nth-of-type(1) {\n  background-color: #50DE68;\n  border-radius: 20px 20px 0 20px;\n  border-left: #ffffff 4px solid;\n  border-top: #f7f7f7 4px solid;\n}\n\n.item:nth-of-type(2) {\n  background-color: rgb(32, 80, 46);\n  border-radius: 20px 20px 20px 0;\n  border-right: #ffffff 4px solid;\n  border-top: #f7f7f7 4px solid;\n}\n\n.item:nth-of-type(3) {\n  background-color: rgb(0, 255, 55);\n  border-radius: 20px 0 20px 20px;\n  border-left: #ffffff 4px solid;\n  border-bottom: #f7f7f7 4px solid;\n}\n\n.item:nth-of-type(4) {\n  background-color: rgb(32, 182, 32);\n  border-radius: 0 20px 20px 20px;\n  border-right: #ffffff 4px solid;\n  border-bottom: #f7f7f7 4px solid;\n}\n\n@keyframes loading-rotate {\n  0% {\n    transform: scale(1) rotate(0);\n  }\n\n  20% {\n    transform: scale(1) rotate(72deg);\n  }\n\n  40% {\n    transform: scale(0.5) rotate(144deg);\n  }\n\n  60% {\n    transform: scale(0.5) rotate(216deg);\n  }\n\n  80% {\n    transform: scale(1) rotate(288deg);\n  }\n\n  100% {\n    transform: scale(1) rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

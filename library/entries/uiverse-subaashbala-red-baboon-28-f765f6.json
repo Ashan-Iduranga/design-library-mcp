@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-subaashbala-red-baboon-28-f765f6",
+  "title": "Loader by Subaashbala (red-baboon-28)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Subaashbala/red-baboon-28",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "smooth",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Subaashbala on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Subaashbala_red-baboon-28.html",
+  "code": "<div class=\"loader\">\n  <span>&lt;</span>\n  <span>LOADING</span>\n  <span>/&gt;</span>\n</div>\n\n<style>\n/* From Uiverse.io by Subaashbala  - Tags: loader, smooth, loading animation */\n.loader {\n  font-size: 2em;\n  font-weight: 900;\n}\n.loader > * {\n  color: black;\n}\n.loader span {\n  display: inline-flex;\n}\n.loader span:nth-child(2) {\n  letter-spacing: -1em;\n  overflow: hidden;\n  animation: reveal 1500ms cubic-bezier(0.645, 0.045, 0.355, 1) infinite\n    alternate;\n}\n@keyframes reveal {\n  0%,\n  100% {\n    opacity: 0.5;\n    letter-spacing: -1em;\n  }\n  50% {\n    opacity: 1;\n    letter-spacing: 0em;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

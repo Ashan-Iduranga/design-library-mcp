@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jkhuger-loud-baboon-15-fe2f54",
+  "title": "Button by JkHuger (loud-baboon-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/loud-baboon-15",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JkHuger_loud-baboon-15.html",
+  "code": "<button data-label=\"Register\" class=\"rainbow-hover\">\n  <span class=\"sp\">Register</span>\n</button>\n\n<style>\n/* From Uiverse.io by JkHuger - Tags: button */\n.rainbow-hover {\n  font-size: 16px;\n  font-weight: 700;\n  color: #ff7576;\n  background-color: #2B3044;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  padding: 12px 24px;\n  position: relative;\n  line-height: 24px;\n  border-radius: 9px;\n  box-shadow: 0px 1px 2px #2B3044,\n    0px 4px 16px #2B3044;\n  transform-style: preserve-3d;\n  transform: scale(var(--s, 1)) perspective(600px)\n    rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));\n  perspective: 600px;\n  transition: transform 0.1s;\n}\n\n.sp {\n  background: linear-gradient(\n      90deg,\n      #866ee7,\n      #ea60da,\n      #ed8f57,\n      #fbd41d,\n      #2cca91\n    );\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  background-clip: text;\n  text-fill-color: transparent;\n  display: block;\n}\n\n.rainbow-hover:active {\n  transition: 0.3s;\n  transform: scale(0.93);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

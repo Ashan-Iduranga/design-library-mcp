@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-escannord-pretty-eagle-45-013d2e",
+  "title": "Pattern by escannord (pretty-eagle-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/escannord/pretty-eagle-45",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "3d",
+    "white",
+    "black",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By escannord on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/escannord_pretty-eagle-45.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by escannord  - Tags: 3d, white, black, gradient, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --bg: linear-gradient(\n      45deg,\n      rgb(0, 0, 0) 25%,\n      transparent 25%,\n      transparent 75%,\n      rgb(0, 0, 0) 75%,\n      rgb(0, 0, 0)\n    ),\n    linear-gradient(\n      45deg,\n      rgb(0, 0, 0) 25%,\n      white 25%,\n      white 75%,\n      rgb(0, 0, 0) 75%,\n      rgb(0, 0, 0)\n    );\n  --bgsize: 60px 60px;\n  --bgposition: 0 0, 30px 30px;\n  background-color: white;\n  background-image: var(--bg);\n  background-size: var(--bgsize);\n  background-position: var(--bgposition);\n  position: relative;\n  perspective: 1000px;\n  transform-style: preserve-3d;\n  overflow: hidden;\n  box-shadow: inset 0px 0px 500px rgb(15, 15, 15);\n}\n\n.container::before {\n  content: \"\";\n  width: 100%;\n  height: 150%;\n  box-shadow: 0px -100px 500px black, inset 0px 100px 500px rgb(15, 15, 15);\n  position: absolute;\n  top: 55%;\n  background-image: var(--bg);\n  background-size: var(--bgsize);\n  background-position: var(--bgposition);\n  transform-origin: top;\n  transform: rotateX(80deg);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

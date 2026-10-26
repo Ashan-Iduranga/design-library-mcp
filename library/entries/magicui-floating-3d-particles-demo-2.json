@@ -1,0 +1,38 @@
+{
+  "id": "magicui-floating-3d-particles-demo-2",
+  "title": "Floating 3D Particles Demo 2 (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/floating-3d-particles",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "floating",
+    "3d",
+    "particles",
+    "demo",
+    "2",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing the particle field as a standalone background.\n\nnpm dependencies: next-themes\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/floating-3d-particles-demo-2.tsx",
+  "code": "\"use client\"\n\nimport { useTheme } from \"next-themes\"\n\nimport { Floating3DParticles } from \"@/registry/magicui/floating-3d-particles\"\n\nexport default function Component() {\n  const { resolvedTheme } = useTheme()\n  const color = resolvedTheme === \"dark\" ? \"#c4b5fd\" : \"#6d28d9\"\n\n  return (\n    <div className=\"bg-background relative h-[500px] w-full overflow-hidden rounded-lg border\">\n      <Floating3DParticles\n        color={color}\n        depth={0.8}\n        opacity={0.55}\n        quantity={1000}\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

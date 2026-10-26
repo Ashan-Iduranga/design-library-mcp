@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-progress-primary-color",
+  "title": "Progress: Primary color (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/progress/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "progress",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Progress bar can be used to show the progress of a task or to show the passing of time.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/progress/+page.md",
+  "code": "<progress class=\"progress progress-primary w-56\" value=\"0\" max=\"100\"></progress>\n<progress class=\"progress progress-primary w-56\" value=\"10\" max=\"100\"></progress>\n<progress class=\"progress progress-primary w-56\" value=\"40\" max=\"100\"></progress>\n<progress class=\"progress progress-primary w-56\" value=\"70\" max=\"100\"></progress>\n<progress class=\"progress progress-primary w-56\" value=\"100\" max=\"100\"></progress>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

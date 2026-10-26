@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-vijinv-mean-goose-92-6568bb",
+  "title": "Input by VijinV (mean-goose-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/VijinV/mean-goose-92",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By VijinV on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/VijinV_mean-goose-92.html",
+  "code": "<div class=\"inputbox\">\n    <input required=\"required\" type=\"text\">\n    <span>Username</span>\n    <i></i>\n</div>\n<style>\n/* From Uiverse.io by VijinV - Tags: input, animated */\n.inputbox {\n  position: relative;\n  width: 196px;\n}\n\n.inputbox input {\n  position: relative;\n  width: 100%;\n  padding: 20px 10px 10px;\n  background: transparent;\n  outline: none;\n  box-shadow: none;\n  border: none;\n  color: #23242a;\n  font-size: 1em;\n  letter-spacing: 0.05em;\n  transition: 0.5s;\n  z-index: 10;\n}\n\n.inputbox span {\n  position: absolute;\n  left: 0;\n  padding: 20px 10px 10px;\n  font-size: 1em;\n  color: #8f8f8f;\n  letter-spacing: 00.05em;\n  transition: 0.5s;\n  pointer-events: none;\n}\n\n.inputbox input:valid ~span,\n.inputbox input:focus ~span {\n  color: #45f3ff;\n  transform: translateX(-10px) translateY(-34px);\n  font-size: 0,75em;\n}\n\n.inputbox i {\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  height: 2px;\n  background: #45f3ff;\n  border-radius: 4px;\n  transition: 0.5s;\n  pointer-events: none;\n  z-index: 9;\n}\n\n.inputbox input:valid ~i,\n.inputbox input:focus ~i {\n  height: 44px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-kbd-tooltip",
+  "title": "Kbd Tooltip (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/kbd-tooltip.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "kbd",
+    "tooltip",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Used to display textual user input from keyboard.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/kbd-tooltip.tsx",
+  "code": "import { Button } from \"@/registry/new-york-v4/ui/button\"\nimport { ButtonGroup } from \"@/registry/new-york-v4/ui/button-group\"\nimport { Kbd, KbdGroup } from \"@/registry/new-york-v4/ui/kbd\"\nimport {\n  Tooltip,\n  TooltipContent,\n  TooltipTrigger,\n} from \"@/registry/new-york-v4/ui/tooltip\"\n\nexport default function KbdTooltip() {\n  return (\n    <div className=\"flex flex-wrap gap-4\">\n      <ButtonGroup>\n        <Tooltip>\n          <TooltipTrigger asChild>\n            <Button size=\"sm\" variant=\"outline\">\n              Save\n            </Button>\n          </TooltipTrigger>\n          <TooltipContent>\n            Save Changes <Kbd>S</Kbd>\n          </TooltipContent>\n        </Tooltip>\n        <Tooltip>\n          <TooltipTrigger asChild>\n            <Button size=\"sm\" variant=\"outline\">\n              Print\n            </Button>\n          </TooltipTrigger>\n          <TooltipContent>\n            Print Document{\" \"}\n            <KbdGroup>\n              <Kbd>Ctrl</Kbd>\n              <Kbd>P</Kbd>\n            </KbdGroup>\n          </TooltipContent>\n        </Tooltip>\n      </ButtonGroup>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

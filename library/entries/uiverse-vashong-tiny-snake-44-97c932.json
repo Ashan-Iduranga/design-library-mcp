@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vashong-tiny-snake-44-97c932",
+  "title": "Button by VashonG (tiny-snake-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/VashonG/tiny-snake-44",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "flashy",
+    "animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By VashonG on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/VashonG_tiny-snake-44.html",
+  "code": "<a class=\"code-button code-button--html code-button--color\" href=\"#\">\n  <b class=\"code-button__bracket\">&lt;</b>\n  <span class=\"code-button__code\">/</span>\n  <span class=\"code-button__text\">html</span>\n  <b class=\"code-button__bracket\">&gt;</b>\n</a>\n<style>\n/* From Uiverse.io by VashonG - Tags: flashy, animation, button */\n.code-button {\n  display: inline-block;\n  font-family: \"Menlo\", \"Bitstream Vera Sans Mono\", \"DejaVu Sans Mono\", \"Monaco\", \"Consolas\", monospace;\n  margin: 1em;\n  border-radius: 3px;\n  background: #434d5a;\n  border: none;\n  padding: 1em 0;\n  color: white;\n  text-align: center;\n  text-decoration: none;\n  width: 9em;\n  transition: all 0.2s ease, background-color 0.2s ease-in 0.15s, box-shadow 0.2s ease-in 0.15s, color 0s ease;\n}\n\n.code-button__bracket, .code-button__text, .code-button__code {\n  display: inline-block;\n  margin-right: -3px;\n  text-align: center;\n  width: 0.5em;\n  transition: all 0.2s ease, color 0s ease;\n}\n\n.code-button__bracket {\n  font-weight: normal;\n}\n\n.code-button__text {\n  opacity: 0;\n  position: absolute;\n  transition: all 0s ease;\n}\n\n.code-button:hover {\n  padding: 1em 0;\n  transition: all 0.2s ease, background-color 0.2s ease-in 0.05s, box-shadow 0.2s ease-in 0.05s, color 0s ease;\n}\n\n.code-button:hover .code-button__code, .code-button:hover .code-button__text {\n  width: 2em;\n}\n\n.code-button:hover .code-button__code, .code-button:hover .code-button__text, .code-button:hover .code-button__bracket {\n  transition: all 0.2s ease, color 0s ease;\n}\n\n.code-button:hover .code-button__code {\n  opacity: 0;\n  position: absolute;\n}\n\n.code-button:hover .code-button__text {\n  opacity: 1;\n  position: static;\n}\n\n.code-button--color:hover {\n  color: #434d5a;\n}\n\n.code-button--color:hover.code-button--css {\n  background-color: #aaffa9;\n  box-shadow: inset 15px 5px 70px -10px #aaffa9, inset -15px -5px 70px -10px #11ffbd;\n}\n\n.code-button--color:hover.code-button--html {\n  background-color: #fc8f71;\n  box-shadow: inset 15px 15px 90px -20px #fc8f71, inset -15px -5px 80px -10px #fcdcab;\n}\n\n.code-button--color:hover.code-button--js {\n  background-color: #87e1ed;\n  box-shadow: inset 15px 15px 90px -20px #7996d1, inset -15px -5px 80px -10px #87e1ed;\n}\n \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

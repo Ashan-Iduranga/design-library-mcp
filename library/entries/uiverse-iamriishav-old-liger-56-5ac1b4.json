@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-iamriishav-old-liger-56-5ac1b4",
+  "title": "Button by iamriishav (old-liger-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/iamriishav/old-liger-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By iamriishav on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/iamriishav_old-liger-56.html",
+  "code": "<button>\n  <span>\n  Hover me\n  </span>\n</button>\n<style>\n/* From Uiverse.io by iamriishav - Tags: button */\nbutton {\n  padding: 15px 30px;\n  border: none;\n  outline: none;\n  border-radius: 30px;\n  font-size: 1.5rem;\n  z-index: 1;\n  position: relative;\n  -webkit-box-shadow: 0 5px 15px rgba(33, 33, 33, .2);\n  box-shadow: 0 5px 15px rgba(33, 33, 33, .2);\n  overflow: hidden;\n  cursor: pointer;\n}\n\nbutton > span {\n  z-index: 2;\n}\n\nbutton::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: 30px;\n  background-color: #212121;\n  z-index: -1;\n  overflow: hidden;\n  -webkit-transform: scaleX(0);\n  -ms-transform: scaleX(0);\n  transform: scaleX(0);\n  -webkit-transform-origin: left;\n  -ms-transform-origin: left;\n  transform-origin: left;\n  -webkit-transition: -webkit-transform 0.2s ease-in;\n  transition: -webkit-transform 0.2s ease-in;\n  transition: transform 0.2s ease-in;\n}\n\nbutton:hover {\n  color: #e8e8e8;\n}\n\nbutton:hover::before {\n  -webkit-transform: scaleX(1);\n  -ms-transform: scaleX(1);\n  transform: scaleX(1);\n  -webkit-transform-origin: left;\n  -ms-transform-origin: left;\n  transform-origin: left;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

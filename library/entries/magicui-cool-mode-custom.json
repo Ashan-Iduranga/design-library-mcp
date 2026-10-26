@@ -1,0 +1,36 @@
+{
+  "id": "magicui-cool-mode-custom",
+  "title": "Cool Mode Custom (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/cool-mode-custom",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "cool",
+    "mode",
+    "custom",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing customized cool mode effects.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/cool-mode-custom.tsx",
+  "code": "import { Button } from \"@/components/ui/button\"\nimport { CoolMode } from \"@/registry/magicui/cool-mode\"\n\nexport default function CoolModeCustom() {\n  return (\n    <div className=\"relative justify-center\">\n      <CoolMode\n        options={{\n          particle: \"https://avatars.githubusercontent.com/u/81306489\",\n        }}\n      >\n        <Button>Click Me!</Button>\n      </CoolMode>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

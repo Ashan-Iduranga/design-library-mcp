@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-escannord-hot-yak-44-88ec9c",
+  "title": "Input by escannord (hot-yak-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/escannord/hot-yak-44",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "light",
+    "search"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By escannord on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/escannord_hot-yak-44.html",
+  "code": "<div class=\"custom_input\">\n  <svg\n    viewBox=\"0 0 16 16\"\n    class=\"svg_icon bi-search\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z\"\n    ></path>\n  </svg>\n  <input placeholder=\"Placeholder Text\" type=\"text\" class=\"input\" />\n</div>\n\n<style>\n/* From Uiverse.io by escannord  - Tags: input, light, search */\n.input {\n  max-width: 190px;\n}\n\n.custom_input {\n  display: flex;\n  align-items: center;\n  position: relative;\n  max-width: 100%;\n}\n\n.input {\n  font-size: 18px;\n  padding: 5px 10px;\n  width: 100%;\n  padding-left: 35px;\n  outline: none;\n  background: #ffffff;\n  color: #000000;\n  border: 1px solid #c4d1eb;\n  border-radius: 5px;\n  box-shadow: 3px 3px 2px 0px #e2e2e2;\n  transition: 0.3s ease;\n}\n\n.input:focus {\n  background: #f2f2f2;\n  border: 1px solid #5a7ec7;\n  border-radius: 10px;\n}\n\n.input::placeholder {\n  color: #dddddd;\n}\n\n.svg_icon {\n  position: absolute;\n  left: 10px;\n  fill: #4660dc;\n  width: 18px;\n  height: 18px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

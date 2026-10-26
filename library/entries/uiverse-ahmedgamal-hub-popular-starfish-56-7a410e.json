@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-ahmedgamal-hub-popular-starfish-56-7a410e",
+  "title": "Card by ahmedgamal-hub (popular-starfish-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ahmedgamal-hub/popular-starfish-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "about-me",
+    "blur-filter",
+    "animated",
+    "circle-loader",
+    "border",
+    "advanced",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ahmedgamal-hub on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/ahmedgamal-hub_popular-starfish-56.html",
+  "code": "<div class=\"one-div\"></div>\n<style>\n/* From Uiverse.io by ahmedgamal-hub - Tags: card, about me, blur filter, animated, circle loader, border, advanced, box-shadow */\n@-webkit-keyframes spinner-border {\n  to {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes spinner-border {\n  to {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n\n.one-div {\n  position: relative;\n  font-size: 20px;\n  color: #fff;\n  text-align: center;\n  display: inline-block;\n  width: 15rem;\n  height: 15rem;\n  vertical-align: text-center;\n}\n\n.one-div::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: -10px;\n  width: 100%;\n  height: 100%;\n  border: 0.25em solid currentColor;\n  border-right-color: #2AE4FF;\n  border-top-color: #2AE4FF;\n  border-bottom-color: #2AE4FF;\n  border-radius: 50%;\n  box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ba9ca,\n  0 0 110px #ED306F, 0 0 80px #0ba9ca;\n  -webkit-animation: spinner-border 7s linear infinite;\n  animation: spinner-border 7s linear infinite;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

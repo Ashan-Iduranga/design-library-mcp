@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-card-testimonial-card",
+  "title": "Cards: Testimonial card (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/card/#testimonial-card",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to split cards into multiple sections such as for testimonials or reviews.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/card.md",
+  "code": "<div class=\"grid mb-8 bg-neutral-primary-soft border border-default rounded-base shadow-xs md:mb-12 md:grid-cols-2\">\n    <figure class=\"flex flex-col items-center justify-center p-8 text-center border-b border-default rounded-t-base md:rounded-t-none md:rounded-ss-base md:border-e\">\n        <blockquote class=\"max-w-2xl mx-auto mb-4 text-body lg:mb-8\">\n            <h3 class=\"text-lg font-semibold text-heading\">Very easy this was to integrate</h3>\n            <p class=\"my-4\">If you care for your time, I hands down would go with this.\"</p>\n        </blockquote>\n        <figcaption class=\"flex items-center justify-center\">\n            <img class=\"rounded-full w-9 h-9\" src=\"https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png\" alt=\"profile picture\">\n            <div class=\"space-y-0.5 text-left rtl:text-right ms-2\">\n                <div class=\"leading-tight text-base text-heading font-medium mb-0.5\">Bonnie Green</div>\n                <div class=\"text-sm text-body\">Developer at Open AI</div>\n            </div>\n        </figcaption>    \n    </figure>\n    <figure class=\"flex flex-col items-center justify-center p-8 text-center border-b border-default md:rounded-se-base\">\n        <blockquote class=\"max-w-2xl mx-auto mb-4 text-body lg:mb-8\">\n            <h3 class=\"text-lg font-semibold text-heading\">Solid foundation for any project</h3>\n            <p class=\"my-4\">Designing with Figma components that can be easily translated to the utility classes of Tailwind CSS is a huge timesaver!\"</p>\n        </blockquote>\n        <figcaption class=\"flex items-center justify-center \">\n            <img class=\"rounded-full w-9 h-9\" src=\"https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png\" alt=\"profile picture\">\n            <div class=\"space-y-0.5 text-left rtl:text-right ms-2\">\n                <div class=\"leading-tight text-base text-heading font-medium mb-0.5\">Roberta Casas</div>\n                <div class=\"text-sm text-body\">Lead designer at Dropbox</div>\n            </div>\n        </figcaption>    \n    </figure>\n    <figure class=\"flex flex-col items-center justify-center p-8 text-center border-b border-default md:rounded-es-base md:border-b-0 md:border-e\">\n        <blockquote class=\"max-w-2xl mx-auto mb-4 text-body lg:mb-8\">\n            <h3 class=\"text-lg font-semibold text-heading\">Mindblowing workflow</h3>\n            <p class=\"my-4\">Aesthetically, the well designed components are beautiful and will undoubtedly level up your app.\"</p>\n        </blockquote>\n        <figcaption class=\"flex items-center justify-center \">\n            <img class=\"rounded-full w-9 h-9\" src=\"https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png\" alt=\"profile picture\">\n            <div class=\"space-y-0.5 text-left rtl:text-right ms-2\">\n                <div class=\"leading-tight text-base text-heading font-medium mb-0.5\">Jese Leos</div>\n                <div class=\"text-sm text-body\">Software Engineer at Facebook</div>\n            </div>\n        </figcaption>    \n    </figure>\n    <figure class=\"flex flex-col items-center justify-center p-8 text-center border-default rounded-b-base md:rounded-se-base\">\n        <blockquote class=\"max-w-2xl mx-auto mb-4 text-body lg:mb-8\">\n            <h3 class=\"text-lg font-semibold text-heading\">Efficient Collaborating</h3>\n            <p class=\"my-4\">You have many examples that can be used to create a fast prototype for your team.\"</p>\n        </blockquote>\n        <figcaption class=\"flex items-center justify-center \">\n            <img class=\"rounded-full w-9 h-9\" src=\"https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png\" alt=\"profile picture\">\n            <div class=\"space-y-0.5 text-left rtl:text-right ms-2\">\n                <div class=\"leading-tight text-base text-heading font-medium mb-0.5\">Joseph McFall</div>\n                <div class=\"text-sm text-body\">CTO at Google<</div>\n            </div>\n        </figcaption>    \n    </figure>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

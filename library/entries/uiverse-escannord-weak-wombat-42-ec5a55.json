@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-escannord-weak-wombat-42-ec5a55",
+  "title": "Input by escannord (weak-wombat-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/escannord/weak-wombat-42",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple",
+    "3d"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By escannord on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/escannord_weak-wombat-42.html",
+  "code": "<input class=\"input\" placeholder=\"typed here...\" name=\"text\" type=\"text\" />\n\n<style>\n/* From Uiverse.io by escannord  - Tags: simple, 3d, input */\n.input {\n  max-width: 190px;\n  height: 2rem;\n  background-color: transparent;\n  border: 2px solid transparent;\n  color: white;\n  padding: 1rem;\n  box-shadow: 2px 2px 5px black, inset 2px 2px 5px rgb(53, 51, 51),\n    -1px -1px 20px rgba(59, 56, 56, 0.781);\n  outline: none;\n  border-radius: 10px;\n  font-size: medium;\n}\n\n.input:focus {\n  box-shadow: 2px 2px 5px black, inset 2px 2px 5px black,\n    -1px -1px 5px rgba(68, 67, 67, 0.781),\n    inset -1px -1px 5px rgba(66, 65, 65, 0.822);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

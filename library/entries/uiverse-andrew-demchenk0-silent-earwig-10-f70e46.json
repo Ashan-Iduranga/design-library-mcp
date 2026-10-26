@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-andrew-demchenk0-silent-earwig-10-f70e46",
+  "title": "Loader by andrew-demchenk0 (silent-earwig-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/silent-earwig-10",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "glitch",
+    "animated",
+    "colorful"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/andrew-demchenk0_silent-earwig-10.html",
+  "code": "<div class=\"loader\">\n   <div data-glitch=\"Loading...\" class=\"glitch\">Loading...</div>\n</div>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: loader, glitch, animated, colorful */\n.glitch {\n  position: relative;\n  font-size: 25px;\n  font-weight: 700;\n  line-height: 1.2;\n  color: #fff;\n  letter-spacing: 5px;\n  z-index: 1;\n  animation: shift 1s ease-in-out infinite alternate;\n}\n\n.glitch:before,\n.glitch:after {\n  display: block;\n  content: attr(data-glitch);\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 0.8;\n}\n\n.glitch:before {\n  animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;\n  color: #8b00ff;\n  z-index: -1;\n}\n\n.glitch:after {\n  animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;\n  color: #00e571;\n  z-index: -2;\n}\n\n@keyframes glitch {\n  0% {\n    transform: translate(0);\n  }\n\n  20% {\n    transform: translate(-3px, 3px);\n  }\n\n  40% {\n    transform: translate(-3px, -3px);\n  }\n\n  60% {\n    transform: translate(3px, 3px);\n  }\n\n  80% {\n    transform: translate(3px, -3px);\n  }\n\n  to {\n    transform: translate(0);\n  }\n}\n\n@keyframes shift {\n  0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {\n    transform: skewX(0deg);\n  }\n\n  41% {\n    transform: skewX(10deg);\n  }\n\n  42% {\n    transform: skewX(-10deg);\n  }\n\n  59% {\n    transform: skewX(40deg) skewY(10deg);\n  }\n\n  60% {\n    transform: skewX(-40deg) skewY(-10deg);\n  }\n\n  63% {\n    transform: skewX(10deg) skewY(-5deg);\n  }\n\n  70% {\n    transform: skewX(-50deg) skewY(-20deg);\n  }\n\n  71% {\n    transform: skewX(10deg) skewY(-10deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shamaun-nabi-sour-fireant-94-0c80f1",
+  "title": "Form by Shamaun-Nabi (sour-fireant-94)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shamaun-Nabi/sour-fireant-94",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shamaun-Nabi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Shamaun-Nabi_sour-fireant-94.html",
+  "code": "<!-- From Uiverse.io by Shamaun-Nabi  - Website: https://www.devui.io/components/signin - Name: Dev ui - Tags: simple, form, light -->\n<div class=\"\">\n  <section class=\"rounded-md p-2 bg-white\">\n    <div class=\"flex items-center justify-center my-3\">\n      <div class=\"xl:mx-auto shadow-md p-4 xl:w-full xl:max-w-sm 2xl:max-w-md\">\n        <div class=\"mb-2\"></div>\n        <h2 class=\"text-2xl font-bold leading-tight\">\n          Sign up to create account\n        </h2>\n        <p class=\"mt-2 text-base text-gray-600\">\n          Already have an account? Sign In\n        </p>\n        <form class=\"mt-5\">\n          <div class=\"space-y-4\">\n            <div>\n              <label class=\"text-base font-medium text-gray-900\">\n                User Name\n              </label>\n              <div class=\"mt-2\">\n                <input\n                  placeholder=\"Full Name\"\n                  type=\"text\"\n                  class=\"flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50\"\n                  name=\"user_name\"\n                />\n              </div>\n            </div>\n            <div>\n              <label class=\"text-base font-medium text-gray-900\">\n                Email address\n              </label>\n              <div class=\"mt-2\">\n                <input\n                  placeholder=\"Email\"\n                  type=\"email\"\n                  class=\"flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50\"\n                  name=\"email\"\n                />\n              </div>\n            </div>\n            <div>\n              <div class=\"flex items-center justify-between\">\n                <label class=\"text-base font-medium text-gray-900\">\n                  Password\n                </label>\n              </div>\n              <div class=\"mt-2\">\n                <input\n                  placeholder=\"Password\"\n                  type=\"password\"\n                  class=\"flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50\"\n                  name=\"password\"\n                />\n              </div>\n              <div class=\"flex items-center justify-between mt-3\">\n                <label class=\"text-base font-medium text-gray-900\">\n                  Profile Picture\n                </label>\n              </div>\n              <div class=\"mt-2\">\n                <input\n                  class=\"file-input w-full max-w-xs\"\n                  type=\"file\"\n                  name=\"avatar\"\n                />\n              </div>\n            </div>\n            <div>\n              <button\n                class=\"inline-flex w-full items-center justify-center rounded-md bg-black px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-black/80\"\n                type=\"button\"\n              >\n                Create Account\n              </button>\n            </div>\n          </div>\n        </form>\n      </div>\n    </div>\n  </section>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

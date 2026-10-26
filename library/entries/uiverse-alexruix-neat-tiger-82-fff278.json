@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-alexruix-neat-tiger-82-fff278",
+  "title": "Loader by alexruix (neat-tiger-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/neat-tiger-82",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/alexruix_neat-tiger-82.html",
+  "code": "<div class=\"loader\">\n  <div class=\"box1\"></div>\n  <div class=\"box2\"></div>\n  <div class=\"box3\"></div>\n</div>\n<style>\n/* From Uiverse.io by alexruix - Tags: loader */\n.loader {\n  width: 112px;\n  height: 112px;\n}\n\n.box1,\n.box2,\n.box3 {\n  border: 16px solid #f5f5f5;\n  box-sizing: border-box;\n  position: absolute;\n  display: block;\n}\n\n.box1 {\n  width: 112px;\n  height: 48px;\n  margin-top: 64px;\n  margin-left: 0px;\n  animation: abox1 4s 1s forwards ease-in-out infinite;\n}\n\n.box2 {\n  width: 48px;\n  height: 48px;\n  margin-top: 0px;\n  margin-left: 0px;\n  animation: abox2 4s 1s forwards ease-in-out infinite;\n}\n\n.box3 {\n  width: 48px;\n  height: 48px;\n  margin-top: 0px;\n  margin-left: 64px;\n  animation: abox3 4s 1s forwards ease-in-out infinite;\n}\n\n@keyframes abox1 {\n  0% {\n    width: 112px;\n    height: 48px;\n    margin-top: 64px;\n    margin-left: 0px;\n  }\n\n  12.5% {\n    width: 48px;\n    height: 48px;\n    margin-top: 64px;\n    margin-left: 0px;\n  }\n\n  25% {\n    width: 48px;\n    height: 48px;\n    margin-top: 64px;\n    margin-left: 0px;\n  }\n\n  37.5% {\n    width: 48px;\n    height: 48px;\n    margin-top: 64px;\n    margin-left: 0px;\n  }\n\n  50% {\n    width: 48px;\n    height: 48px;\n    margin-top: 64px;\n    margin-left: 0px;\n  }\n\n  62.5% {\n    width: 48px;\n    height: 48px;\n    margin-top: 64px;\n    margin-left: 0px;\n  }\n\n  75% {\n    width: 48px;\n    height: 112px;\n    margin-top: 0px;\n    margin-left: 0px;\n  }\n\n  87.5% {\n    width: 48px;\n    height: 48px;\n    margin-top: 0px;\n    margin-left: 0px;\n  }\n\n  100% {\n    width: 48px;\n    height: 48px;\n    margin-top: 0px;\n    margin-left: 0px;\n  }\n}\n\n@keyframes abox2 {\n  0% {\n    width: 48px;\n    height: 48px;\n    margin-top: 0px;\n    margin-left: 0px;\n  }\n\n  12.5% {\n    width: 48px;\n    height: 48px;\n    margin-top: 0px;\n    margin-left: 0px;\n  }\n\n  25% {\n    width: 48px;\n    height: 48px;\n    margin-top: 0px;\n    margin-left: 0px;\n  }\n\n  37.5% {\n    width: 48px;\n    height: 48px;\n    margin-top: 0px;\n    margin-left: 0px;\n  }\n\n  50% {\n    width: 112px;\n    height: 48px;\n    margin-top: 0px;\n    margin-left: 0px;\n  }\n\n  62.5% {\n    width: 48px;\n    height: 48px;\n    margin-top: 0px;\n    margin-left: 64px;\n  }\n\n  75% {\n    width: 48px;\n    height: 48px;\n    margin-top: 0px;\n    margin-left: 64px;\n  }\n\n  87.5% {\n    width: 48px;\n    height: 48px;\n    margin-top: 0px;\n    margin-left: 64px;\n  }\n\n  100% {\n    width: 48px;\n    height: 48px;\n    margin-top: 0px;\n    margin-left: 64px;\n  }\n}\n\n@keyframes abox3 {\n  0% {\n    width: 48px;\n    height: 48px;\n    margin-top: 0px;\n    margin-left: 64px;\n  }\n\n  12.5% {\n    width: 48px;\n    height: 48px;\n    margin-top: 0px;\n    margin-left: 64px;\n  }\n\n  25% {\n    width: 48px;\n    height: 112px;\n    margin-top: 0px;\n    margin-left: 64px;\n  }\n\n  37.5% {\n    width: 48px;\n    height: 48px;\n    margin-top: 64px;\n    margin-left: 64px;\n  }\n\n  50% {\n    width: 48px;\n    height: 48px;\n    margin-top: 64px;\n    margin-left: 64px;\n  }\n\n  62.5% {\n    width: 48px;\n    height: 48px;\n    margin-top: 64px;\n    margin-left: 64px;\n  }\n\n  75% {\n    width: 48px;\n    height: 48px;\n    margin-top: 64px;\n    margin-left: 64px;\n  }\n\n  87.5% {\n    width: 48px;\n    height: 48px;\n    margin-top: 64px;\n    margin-left: 64px;\n  }\n\n  100% {\n    width: 112px;\n    height: 48px;\n    margin-top: 64px;\n    margin-left: 0px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

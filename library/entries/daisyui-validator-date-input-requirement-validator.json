@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-validator-date-input-requirement-validator",
+  "title": "Validator: Date input requirement validator (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/validator/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "validator",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Validator class changes the color of form elements to error or success based on input's validation rules.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/validator/+page.md",
+  "code": "<input type=\"date\" class=\"input validator\" required placeholder=\"Pick a date in 2025\" \nmin=\"2025-01-01\" max=\"2025-12-31\"\n  title=\"Must be valid URL\" />\n<p class=\"validator-hint\">Must be 2025</p>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

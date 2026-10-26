@@ -1,0 +1,36 @@
+{
+  "id": "magicui-text-reveal-demo",
+  "title": "Text Reveal Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/text-reveal",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "text",
+    "reveal",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing text that fades in on scroll.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/text-reveal-demo.tsx",
+  "code": "import { TextReveal } from \"@/registry/magicui/text-reveal\"\n\nexport default function TextRevealDemo() {\n  return <TextReveal>Magic UI will change the way you design.</TextReveal>\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

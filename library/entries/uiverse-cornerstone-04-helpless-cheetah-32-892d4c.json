@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cornerstone-04-helpless-cheetah-32-892d4c",
+  "title": "Button by Cornerstone-04 (helpless-cheetah-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cornerstone-04/helpless-cheetah-32",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cornerstone-04 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Cornerstone-04_helpless-cheetah-32.html",
+  "code": "<button><span>Hover</span></button>\n<style>\n/* From Uiverse.io by Cornerstone-04 - Tags: button */\nbutton {\n  cursor: pointer;\n  background: transparent;\n  position: relative;\n  display: inline-block;\n  padding: 15px 30px;\n  outline: none;\n  border: 2px solid #0f0;\n  margin: 40px;\n  width: 150px;\n  height: 60px;\n  text-transform: uppercase;\n  font-weight: 900;\n  text-decoration: none;\n  letter-spacing: 2px;\n  color: #fff;\n  -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);\n  transition: 0.45s;\n  transition-delay: 0s;\n}\n\nbutton:hover {\n  transition-delay: 1.5s;\n  color: #000;\n  box-shadow: 0 0 10px #0f0,\n                0 0 20px #0f0,\n                0 0 40px #0f0, \n                0 0 80px #0f0, \n                0 0 100px #0f0;\n}\n\nbutton span {\n  position: relative;\n  z-index: 100;\n}\n\nbutton::before {\n  content: \"\";\n  position: absolute;\n  left: -20px;\n  top: 50%;\n  transform: translateY(-50%);\n  width: 20px;\n  height: 2px;\n  background: #0f0;\n  box-shadow: 5px -8px 0 #0f0, \n              5px 8px 0 #0f0;\n  transition: width 0.5s, \n              left 0.5s, \n              height 0.5s, \n              box-shadow 0.5s;\n  transition-delay: 1s, 0.5s, 0s, 0s;\n}\n\nbutton:hover::before {\n  width: 60%;\n  height: 100%;\n  /* right: -2px; */\n  left: -2px;\n  box-shadow: 5px 0 0 #0f0, \n              5px 0 0 #0f0;\n  transition-delay: 0s, 0.5s, 1s, 1s;\n}\n\nbutton::after {\n  content: \"\";\n  position: absolute;\n  right: -20px;\n  top: 50%;\n  transform: translateY(-50%);\n  width: 20px;\n  height: 2px;\n  background: #0f0;\n  box-shadow: -5px -8px 0 #0f0, \n              -5px 8px 0 #0f0;\n  transition: width 0.5s, right 0.5s, height 0.5s, box-shadow 0.5s;\n  transition-delay: 1s, 0.5s, 0s, 0s;\n}\n\nbutton:hover::after {\n  width: 60%;\n  height: 102%;\n  right: -2px;\n  box-shadow: -5px 0 0 #0f0, -5px 0 0 #0f0;\n  transition-delay: 0s, 0.5s, 1s, 1s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

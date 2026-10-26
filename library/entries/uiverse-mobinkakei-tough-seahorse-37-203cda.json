@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mobinkakei-tough-seahorse-37-203cda",
+  "title": "Card by mobinkakei (tough-seahorse-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/tough-seahorse-37",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "card-template",
+    "modal"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/mobinkakei_tough-seahorse-37.html",
+  "code": "<!-- From Uiverse.io by mobinkakei  - Tags: card, card template, modal -->\n<div\n  class=\"w-[250px] flex flex-col p-4 relative items-center justify-center bg-gray-800 border border-gray-800 shadow-lg rounded-2xl\"\n>\n  <div class=\"\">\n    <div class=\"text-center p-3 flex-auto justify-center\">\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        class=\"w-12 h-12 flex items-center text-gray-600 mx-auto\"\n        viewBox=\"0 0 20 20\"\n        fill=\"currentColor\"\n      >\n        <path\n          fill-rule=\"evenodd\"\n          d=\"M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z\"\n          clip-rule=\"evenodd\"\n        ></path>\n      </svg>\n      <h2 class=\"text-xl font-bold py-4 text-gray-200\">Are you sure?</h2>\n      <p class=\"text-sm text-gray-500 px-2\">\n        Do you really want to delete your account? This process cannot be undone\n      </p>\n    </div>\n    <div class=\"p-2 mt-2 text-center space-x-1 md:block\">\n      <button\n        class=\"mb-2 md:mb-0 bg-gray-700 px-5 py-2 text-sm shadow-sm font-medium tracking-wider border-2 border-gray-600 hover:border-gray-700 text-gray-300 rounded-full hover:shadow-lg hover:bg-gray-800 transition ease-in duration-300\"\n      >\n        Cancel\n      </button>\n      <button\n        class=\"bg-green-400 hover:bg-green-500 px-5 ml-4 py-2 text-sm shadow-sm hover:shadow-lg font-medium tracking-wider border-2 border-green-300 hover:border-green-500 text-white rounded-full transition ease-in duration-300\"\n      >\n        Confirm\n      </button>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

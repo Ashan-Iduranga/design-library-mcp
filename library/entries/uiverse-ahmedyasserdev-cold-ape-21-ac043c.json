@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ahmedyasserdev-cold-ape-21-ac043c",
+  "title": "Button by ahmedyasserdev (cold-ape-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ahmedyasserdev/cold-ape-21",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ahmedyasserdev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ahmedyasserdev_cold-ape-21.html",
+  "code": "<button class=\"button\">\n  Join Today\n  <p>→</p>\n</button>\n\n<style>\n/* From Uiverse.io by ahmedyasserdev  - Tags: button */\n.button {\n  font-family: Arial, sans-serif;\n  font-size: 18px;\n  font-weight: 500;\n  color: #ffffff;\n  background-color: #9b59b6;\n  border: none;\n  padding: 15px 40px;\n  border-radius: 12px;\n  box-shadow:\n    0px 5px #7d3c98,\n    10px 14px 8px rgba(125, 60, 152, 0.4);\n  cursor: pointer;\n  transform: rotate3d(1, 1, 1, -10deg);\n  display: flex;\n  gap: 8px;\n  transition:\n    transform 0.2s,\n    box-shadow 0.2s;\n}\n\n.button:hover {\n  transform: translateY(-2px);\n  box-shadow:\n    0 4px #7d3c98,\n    0 6px 12px rgba(0, 0, 0, 0.2);\n}\n\n.button:active {\n  transform: translateY(2px);\n  box-shadow:\n    0 2px #7d3c98,\n    0 4px 8px rgba(0, 0, 0, 0.2);\n}\n\n.button:focus {\n  outline: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

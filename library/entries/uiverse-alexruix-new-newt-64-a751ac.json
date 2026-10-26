@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-alexruix-new-newt-64-a751ac",
+  "title": "Card by alexruix (new-newt-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/new-newt-64",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "gradient",
+    "hover",
+    "smooth",
+    "dark",
+    "about-me"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/alexruix_new-newt-64.html",
+  "code": "<div class=\"card\">\n  <div class=\"card-front\">\n    <p class=\"title\">John Doe</p>\n    <p class=\"subtitle\">Web Dev</p>\n  </div>\n  <div class=\"card-back\">\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by alexruix - Tags: simple, gradient, card, hover, smooth, dark, about me */\n.card {\n  color: #1b1b1b;\n  width: 190px;\n  height: 254px;\n  position: relative;\n  outline: 6px solid #f5f5f5;\n  border-radius: 8px;\n  line-height: 150%;\n  padding: 16px;\n  background: #ff930f;\n  background-blend-mode: multiply;\n  background: linear-gradient(to top, #ff930f, #ffcc33);\n  transition: background-color 1s ease-in-out;\n  overflow: hidden;\n}\n\n.card-front {\n  bottom: 16px;\n  left: 0;\n  position: absolute;\n  width: 100%;\n  text-align: center;\n  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);\n}\n\n.card-back {\n  transform: translateX(120%);\n  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);\n}\n\n\n/*Text*/\n.title {\n  font-size: 1.3rem;\n  font-weight: bold;\n}\n/*Text divider*/\n.title::after {\n  content: \"\";\n  display: block;\n  width: 50%;\n  border-radius: 50%;\n  height: 2px;\n  margin: 2px auto;\n  background-color: #1b1b1b;\n}\n\n\n/*Hover*/\n.card:hover {\n  background-color: #1b1b1b25;\n}\n\n.card:hover .card-front {\n  transform: translateX(-100%);\n}\n\n.card:hover .card-back {\n  transform: translateX(0);\n}\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-tables-table-colors-4",
+  "title": "Table: Table colors 4 (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/tables/#table-colors",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "table",
+    "tables",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Apply any color to the table element by using the `bg-{color}` and `text-{color}` color class variants from Tailwind CSS.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/tables.md",
+  "code": "<div class=\"relative overflow-x-auto bg-neutral-primary-soft shadow-xs rounded-base border border-default\">\n    <table class=\"w-full text-sm text-left rtl:text-right text-fg-brand-subtle\">\n        <thead class=\"text-sm text-white bg-brand border-b border-brand-light\">\n            <tr>\n                <th scope=\"col\" class=\"px-6 py-3 font-medium\">\n                    Product name\n                </th>\n                <th scope=\"col\" class=\"px-6 py-3 font-medium\">\n                    Color\n                </th>\n                <th scope=\"col\" class=\"px-6 py-3 font-medium\">\n                    Category\n                </th>\n                <th scope=\"col\" class=\"px-6 py-3 font-medium\">\n                    Price\n                </th>\n                <th scope=\"col\" class=\"px-6 py-3 font-medium\">\n                    Action\n                </th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr class=\"bg-brand border-b border-brand-light hover:bg-brand-strong\">\n                <th scope=\"row\" class=\"px-6 py-4 font-medium text-fg-brand-subtle whitespace-nowrap\">\n                    Apple MacBook Pro 17\"\n                </th>\n                <td class=\"px-6 py-4\">\n                    Silver\n                </td>\n                <td class=\"px-6 py-4\">\n                    Laptop\n                </td>\n                <td class=\"px-6 py-4\">\n                    $2999\n                </td>\n                <td class=\"px-6 py-4\">\n                    <a href=\"#\" class=\"font-medium text-white hover:underline\">Edit</a>\n                </td>\n            </tr>\n            <tr class=\"bg-brand border-b border-brand-light hover:bg-brand-strong\">\n                <th scope=\"row\" class=\"px-6 py-4 font-medium text-fg-brand-subtle whitespace-nowrap\">\n                    Microsoft Surface Pro\n                </th>\n                <td class=\"px-6 py-4\">\n                    White\n                </td>\n                <td class=\"px-6 py-4\">\n                    Laptop PC\n                </td>\n                <td class=\"px-6 py-4\">\n                    $1999\n                </td>\n                <td class=\"px-6 py-4\">\n                    <a href=\"#\" class=\"font-medium text-white hover:underline\">Edit</a>\n                </td>\n            </tr>\n            <tr class=\"bg-brand border-b border-brand-light hover:bg-brand-strong\">\n                <th scope=\"row\" class=\"px-6 py-4 font-medium text-fg-brand-subtle whitespace-nowrap\">\n                    Magic Mouse 2\n                </th>\n                <td class=\"px-6 py-4\">\n                    Black\n                </td>\n                <td class=\"px-6 py-4\">\n                    Accessories\n                </td>\n                <td class=\"px-6 py-4\">\n                    $99\n                </td>\n                <td class=\"px-6 py-4\">\n                    <a href=\"#\" class=\"font-medium text-white hover:underline\">Edit</a>\n                </td>\n            </tr>\n            <tr class=\"bg-brand border-b border-brand-light hover:bg-brand-strong\">\n                <th scope=\"row\" class=\"px-6 py-4 font-medium text-fg-brand-subtle whitespace-nowrap\">\n                    Google Pixel Phone\n                </th>\n                <td class=\"px-6 py-4\">\n                    Gray\n                </td>\n                <td class=\"px-6 py-4\">\n                    Phone\n                </td>\n                <td class=\"px-6 py-4\">\n                    $799\n                </td>\n                <td class=\"px-6 py-4\">\n                    <a href=\"#\" class=\"font-medium text-white hover:underline\">Edit</a>\n                </td>\n            </tr>\n            <tr class=\"bg-brand hover:bg-brand-strong\">\n                <th scope=\"row\" class=\"px-6 py-4 font-medium text-fg-brand-subtle whitespace-nowrap\">\n                    Apple Watch 5\n                </th>\n                <td class=\"px-6 py-4\">\n                    Red\n                </td>\n                <td class=\"px-6 py-4\">\n                    Wearables\n                </td>\n                <td class=\"px-6 py-4\">\n                    $999\n                </td>\n                <td class=\"px-6 py-4\">\n                    <a href=\"#\" class=\"font-medium text-white hover:underline\">Edit</a>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

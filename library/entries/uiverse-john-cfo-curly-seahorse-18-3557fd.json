@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-john-cfo-curly-seahorse-18-3557fd",
+  "title": "Form by John-CFO (curly-seahorse-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/John-CFO/curly-seahorse-18",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By John-CFO on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/John-CFO_curly-seahorse-18.html",
+  "code": "<form class=\"form\">\n  <span class=\"close\">X</span>\n\n  <div class=\"info\">\n  <span class=\"title\">Two-Factor Verification</span>\n<p class=\"description\">Enter the two-factor authentication code provided by the authenticator app </p>\n   </div>\n    <div class=\"input-fields\">\n    <input placeholder=\"\" type=\"tel\" maxlength=\"1\">\n    <input placeholder=\"\" type=\"tel\" maxlength=\"1\">\n    <input placeholder=\"\" type=\"tel\" maxlength=\"1\">\n    <input placeholder=\"\" type=\"tel\" maxlength=\"1\">\n  </div>\n\n      <div class=\"action-btns\">\n        <a class=\"verify\" href=\"#\">Verify</a>\n        <a class=\"clear\" href=\"#\">Clear</a>\n      </div>\n\n</form>\n<style>\n/* From Uiverse.io by John-CFO - Source: Yaya12085 - Tags: form, verify, 2FA, Verification */\n.form {\n  --glow-color: rgb(176, 255, 251);\n  --glow-spread-color: rgba(123, 246, 255, 0.781);\n  --enhanced-glow-color: rgb(182, 71, 71);\n  --btn-color: rgba(65, 65, 65, 0.508);\n  border: 2px solid var(--glow-color);\n  padding: 25px;\n  display: flex;\n  max-width: 420px;\n  flex-direction: column;\n  align-items: center;\n  overflow: hidden;\n  color: var(--glow-color);\n  background-color: var(--btn-color);\n  border-radius: 20px;\n  position: relative;\n}\n\n/*----heading and description-----*/\n\n.info {\n  margin-bottom: 10px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  text-align: center;\n}\n\n.title {\n  color: #fff;\n  font-size: 1.6rem;\n  font-weight: 900;\n}\n\n.description {\n  color: #fff;\n  margin-top: 10px;\n  font-size: 1rem;\n}\n\n/*----input-fields------*/\n\n.form .input-fields {\n  display: flex;\n  justify-content: space-between;\n  gap: 10px;\n}\n\n.form .input-fields input {\n  height: 2.5em;\n  width: 2.5em;\n  outline: none;\n  text-align: center;\n  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\n  font-size: 1.5rem;\n  color: #fff;\n  border-radius: 12px;\n  border: 2.5px solid rgba(253, 253, 253, 0.363);\n  background-color: rgb(255 255 255 / 0.05);\n}\n\n.form .input-fields input:focus {\n  border: 1px solid rgb(99, 236, 241);\n  box-shadow: inset -1px -1px 5px rgba(255, 255, 255, .6),\n        inset 10px 10px 10px rgba(0, 0, 0, .25);\n  transform: scale(1.05);\n  transition: 0.5s;\n}\n\n/*-----verify and clear buttons-----*/\n\n.action-btns {\n  display: flex;\n  margin-top: 12px;\n  gap: 0.5rem;\n}\n\n.verify {\n  padding: 10px 20px;\n  text-transform: uppercase;\n  text-decoration: none;\n  border-radius: 8px;\n  font-size: 1rem;\n  font-weight: 500;\n  color: #00f7ff;\n  text-shadow: none;\n  background: transparent;\n  box-shadow: transparent;\n  border: 1px solid #ffffff80;\n  transition: 0.5s ease;\n  user-select: none;\n}\n\n.verify:hover,:focus {\n  color: #ffffff;\n  background: #00eeff;\n  border: 1px solid #00e1ff;\n  text-shadow: 0 0 5px #ffffff,\n              0 0 10px #ffffff,\n              0 0 20px #ffffff;\n  box-shadow: 0 0 5px #00e1ff,\n              0 0 20px #00e1ff,\n              0 0 50px #00e1ff,\n              0 0 100px #00e1ff;\n}\n\n.clear {\n  padding: 10px 20px;\n  text-transform: uppercase;\n  text-decoration: none;\n  border-radius: 8px;\n  font-size: 1rem;\n  font-weight: 500;\n  color: #ff0000;\n  text-shadow: none;\n  background: transparent;\n  box-shadow: transparent;\n  border: 1px solid #ffffff80;\n  transition: 0.5s ease;\n  user-select: none;\n}\n\n.clear:hover,:focus {\n  color: #ffffff;\n  background: #ff0000;\n  border: 1px solid #ff0000;\n  text-shadow: 0 0 5px #ffffff,\n              0 0 10px #ffffff,\n              0 0 20px #ffffff;\n  box-shadow: 0 0 5px #ff0000,\n              0 0 20px #ff0000,\n              0 0 50px #ff0000,\n              0 0 100px #ff0000;\n}\n\n/*-----close button------*/\n\n.close {\n  position: absolute;\n  right: 10px;\n  top: 10px;\n  background-color: #494949;\n  color: #ff0000;\n  height: 30px;\n  width: 30px;\n  display: grid;\n  place-items: center;\n  border-radius: 50%;\n  cursor: pointer;\n  font-weight: 600;\n  transition: .5s ease;\n}\n\n.close:hover {\n  background-color: rgba(255, 0, 0, 0.644);\n  color: #fff;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-tarantino421-swift-zebra-86-ac6f4c",
+  "title": "Button by tarantino421 (swift-zebra-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/tarantino421/swift-zebra-86",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover-button",
+    "fall"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By tarantino421 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/tarantino421_swift-zebra-86.html",
+  "code": "<div class=\"box\">\n  <button class=\"button\">FALL</button>\n  <div class=\"falling-leaves\">\n    <span class=\"leaf\" style=\"--i: 13; --hue:20\"></span>\n    <span class=\"leaf\" style=\"--i: 16; --hue:10\"></span>\n    <span class=\"leaf\" style=\"--i: 17; --hue:0\"></span>\n    <span class=\"leaf\" style=\"--i: 21; --hue:10\"></span>\n    <span class=\"leaf\" style=\"--i: 13; --hue:90\"></span>\n    <span class=\"leaf\" style=\"--i: 11; --hue:70\"></span>\n    <span class=\"leaf\" style=\"--i: 14; --hue:40\"></span>\n    <span class=\"leaf\" style=\"--i: 17; --hue:60\"></span>\n    <span class=\"leaf\" style=\"--i: 19; --hue:0\"></span>\n    <span class=\"leaf\" style=\"--i: 26; --hue:90\"></span>\n    <span class=\"leaf\" style=\"--i: 17; --hue:60\"></span>\n    <span class=\"leaf\" style=\"--i: 20; --hue:10\"></span>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by tarantino421 - Tags: button, hover button, fall */\n.box {\n  --clr-shadow__border: #ef7305;\n  --clr-text: #F6F4EB;\n  --clr-falling-leaves: #441a12;\n  --size: 3rem;\n  position: relative;\n  outline: 1px solid var(--clr-shadow__border);\n}\n\n.button {\n  background: transparent;\n  padding: calc(var(--size) / 3) var(--size);\n  font-weight: 600;\n  font-size: 1.5rem;\n  border: none;\n  cursor: pointer;\n  color: var(--clr-text);\n  letter-spacing: 0.2rem;\n  text-shadow: 2px 0px var(--clr-shadow__border), 0px 2px var(--clr-shadow__border),\n    -2px 0px var(--clr-shadow__border), 0px -2px var(--clr-shadow__border);\n}\n\n.falling-leaves {\n  width: 100%;\n  height: 100%;\n  bottom: 0%;\n  transition: 0.5s ease-in-out;\n  z-index: -1;\n  opacity: 0;\n  overflow: hidden;\n  position: absolute;\n  display: flex;\n  background: var(--clr-falling-leaves);\n}\n\n.box:hover .falling-leaves {\n  opacity: 1;\n}\n\n.leaf {\n  height: 1rem;\n  width: 1rem;\n  clip-path: polygon(\n    45% 0%,\n    45% 10%,\n    15% 30%,\n    35% 60%,\n    20% 80%,\n    45% 100%,\n    70% 80%,\n    55% 60%,\n    85% 30%,\n    55% 10%,\n    55% 0%\n  );\n  background-color: hsl(var(--hue), 70%, 50%);\n  animation: falling-leaves-animation linear infinite;\n  animation-duration: calc(0.5s * var(--i));\n}\n\n@keyframes falling-leaves-animation {\n  0% {\n    transform: rotate(-10deg) translateY(calc(-51% * var(--i)));\n  }\n\n  50% {\n    transform: rotate(-40deg) translateY(calc(0% * var(--i)));\n  }\n\n  100% {\n    transform: rotate(150deg) translateY(calc(100% * var(--i)));\n  }\n}\n\n\n\n\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

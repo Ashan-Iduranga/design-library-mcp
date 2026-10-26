@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-khaledmatalkah-tame-owl-66-e43ba3",
+  "title": "Checkbox by KhaledMatalkah (tame-owl-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KhaledMatalkah/tame-owl-66",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "flip",
+    "transition",
+    "cool-checkbox"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KhaledMatalkah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/KhaledMatalkah_tame-owl-66.html",
+  "code": "<label class=\"custom-checkbox\">\n  <input name=\"dummy\" type=\"checkbox\">\n  <span class=\"checkmark\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by KhaledMatalkah - Tags: checkbox, flip, transition, cool checkbox */\n.custom-checkbox {\n  display: inline-flex;\n  align-items: center;\n  cursor: pointer;\n  user-select: none;\n  font-size: 16px;\n  color: #333;\n  transition: color 0.3s;\n}\n\n.custom-checkbox input[type=\"checkbox\"] {\n  display: none;\n}\n\n.custom-checkbox .checkmark {\n  width: 24px;\n  height: 24px;\n  border: 2px solid #333;\n  border-radius: 4px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin-right: 10px;\n  transition: background-color 0.3s, border-color 0.3s, transform 0.3s;\n  transform-style: preserve-3d;\n}\n\n.custom-checkbox .checkmark::before {\n  content: \"\\2713\";\n  font-size: 16px;\n  color: transparent;\n  transition: color 0.3s, transform 0.3s;\n}\n\n.custom-checkbox input[type=\"checkbox\"]:checked + .checkmark {\n  background-color: #333;\n  border-color: #333;\n  transform: scale(1.1) rotateZ(360deg) rotateY(360deg);\n}\n\n.custom-checkbox input[type=\"checkbox\"]:checked + .checkmark::before {\n  color: #fff;\n}\n\n.custom-checkbox:hover {\n  color: #666;\n}\n\n.custom-checkbox:hover .checkmark {\n  border-color: #666;\n  background-color: #f0f0f0;\n  transform: scale(1.05);\n}\n\n.custom-checkbox input[type=\"checkbox\"]:focus + .checkmark {\n  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);\n  outline: none;\n}\n\n.custom-checkbox .checkmark,\n.custom-checkbox input[type=\"checkbox\"]:checked + .checkmark {\n  transition: background-color 1.3s, border-color 1.3s, color 1.3s, transform 0.3s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-range-labels",
+  "title": "Range Slider: Labels (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/range/#labels",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "range",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the following example to add labels to each value milestone of the range slider component.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/range.md",
+  "code": "<div class=\"relative mb-6\">\n    <label for=\"labels-range-input\" class=\"sr-only\">Labels range</label>\n    <input id=\"labels-range-input\" type=\"range\" value=\"1000\" min=\"100\" max=\"1500\" class=\"w-full h-2 bg-neutral-quaternary rounded-full appearance-none cursor-pointer\">\n    <span class=\"text-sm text-body absolute start-0 -bottom-6\">Min ($100)</span>\n    <span class=\"text-sm text-body absolute start-1/3 -translate-x-1/2 rtl:translate-x-1/2 -bottom-6\">$500</span>\n    <span class=\"text-sm text-body absolute start-2/3 -translate-x-1/2 rtl:translate-x-1/2 -bottom-6\">$1000</span>\n    <span class=\"text-sm text-body absolute end-0 -bottom-6\">Max ($1500)</span>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-csozidev-afraid-rattlesnake-67-f5ffca",
+  "title": "Loader by csozidev (afraid-rattlesnake-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csozidev/afraid-rattlesnake-67",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csozidev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/csozidev_afraid-rattlesnake-67.html",
+  "code": "<div class=\"loader\">\n  <div class=\"square\">\n    <div class=\"mini_square sq-1\"></div>\n    <div class=\"mini_square sq-2\"></div>\n    <div class=\"mini_square\"></div>\n    <div class=\"mini_square sq-4\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by csozidev - Tags: simple, animation, loader */\n/* Simple loader made by: csozi | Website: www.csozi.hu*/\n\n.square {\n  display: flex;\n  flex-wrap: wrap;\n  width: 100px;\n  height: 100px;\n  box-sizing: content-box;\n  animation: load-big 4s infinite;\n  transform-origin: 0px 100px;\n}\n\n.mini_square {\n  box-sizing: border-box;\n  height: 50px;\n  width: 50px;\n  background-color: darkcyan;\n}\n\n.sq-1 {\n  animation: load-left-top 4s infinite;\n}\n\n.sq-2 {\n  animation: load-right-top 4s infinite;\n}\n\n.sq-4 {\n  animation: load-right-bottom 4s infinite;\n}\n\n@keyframes load-right-bottom {\n  0% {\n    translate: -50px 0px;\n  }\n\n  25% {\n    translate: 0px 0px;\n  }\n\n  100% {\n    translate: 0px 0px;\n  }\n}\n\n@keyframes load-right-top {\n  0% {\n    translate: -50px 50px;\n  }\n\n  25% {\n    translate: 0px 50px;\n  }\n\n  50% {\n    translate: 0px 0px;\n  }\n\n  100% {\n    translate: 0px 0px;\n  }\n}\n\n@keyframes load-left-top {\n  0% {\n    translate: 0px 50px;\n  }\n\n  25% {\n    translate: 50px 50px;\n  }\n\n  50% {\n    translate: 50px 0px;\n  }\n\n  75% {\n    translate: 0px 0px;\n  }\n\n  100% {\n    translate: 0px 0px;\n  }\n}\n\n@keyframes load-big {\n  0% {\n    scale: 1;\n    background-color: rgba(0, 0, 0, 0);\n  }\n\n  74% {\n    scale: 1;\n    background-color: rgba(0, 0, 0, 0);\n  }\n\n  75% {\n    scale: 1;\n    background-color: darkcyan;\n  }\n\n  100% {\n    scale: 0.5;\n    background-color: darkcyan;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

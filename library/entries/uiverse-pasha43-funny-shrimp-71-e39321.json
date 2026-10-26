@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-pasha43-funny-shrimp-71-e39321",
+  "title": "Loader by pasha43 (funny-shrimp-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/pasha43/funny-shrimp-71",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "cube",
+    "effect-loader",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By pasha43 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/pasha43_funny-shrimp-71.html",
+  "code": "<div class=\"loader\">\n    <div class=\"loader-cube\">\n      <div class=\"face\"></div>\n      <div class=\"face\"></div>\n      <div class=\"face\"></div>\n      <div class=\"face\"></div>\n      <div class=\"face\"></div>\n      <div class=\"face\"></div>\n    </div>\n  </div>\n\n<style>\n/* From Uiverse.io by pasha43 - Tags: loader, cube, effect loader, loading animation */\n.loader {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  perspective: 800px;\n}\n\n.loader-cube {\n  width: 100px;\n  height: 100px;\n  position: relative;\n  transform-style: preserve-3d;\n  transform-origin: 50% 50%;\n  animation: rotate 4s infinite linear;\n}\n\n.loader-cube:before,\n.loader-cube:after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: transparent;\n}\n\n.loader-cube:before {\n  transform: rotateX(90deg) translateZ(50px);\n}\n\n.loader-cube:after {\n  transform: rotateY(90deg) translateZ(50px);\n}\n\n.loader-cube .face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: rgb(252, 248, 248);\n  opacity: 0.8;\n  border: 2px solid rgb(252, 250, 250);\n}\n\n.loader-cube .face:nth-child(1) {\n  transform: rotateY(0deg) translateZ(50px);\n  background-color: #e74c3c;\n}\n\n.loader-cube .face:nth-child(2) {\n  transform: rotateX(90deg) translateZ(50px);\n  background-color: #3498db;\n}\n\n.loader-cube .face:nth-child(3) {\n  transform: rotateY(180deg) translateZ(50px);\n  background-color: #2ecc71;\n}\n\n.loader-cube .face:nth-child(4) {\n  transform: rotateX(-90deg) translateZ(50px);\n  background-color: #f1c40f;\n}\n\n.loader-cube .face:nth-child(5) {\n  transform: rotateY(90deg) translateZ(50px);\n  background-color: #9b59b6;\n}\n\n.loader-cube .face:nth-child(6) {\n  transform: rotateY(0deg) translateZ(-50px);\n  background-color: #1abc9c;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotateY(0deg) rotateX(0deg);\n  }\n\n  100% {\n    transform: rotateY(1turn) rotateX(1turn);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

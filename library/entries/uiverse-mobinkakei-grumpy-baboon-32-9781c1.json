@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mobinkakei-grumpy-baboon-32-9781c1",
+  "title": "Pattern by mobinkakei (grumpy-baboon-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/grumpy-baboon-32",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "blue"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/mobinkakei_grumpy-baboon-32.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by mobinkakei  - Tags: simple, blue, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  --s: 25px; /* control the size */\n  --c1: #1eaaee;\n  --c2: #171717;\n\n  --c: #0000 71%, var(--c1) 0 79%, #0000 0;\n  --_s: calc(var(--s) / 2) / calc(2 * var(--s)) calc(2 * var(--s));\n  background: linear-gradient(45deg, var(--c)) calc(var(--s) / -2) var(--_s),\n    linear-gradient(135deg, var(--c)) calc(var(--s) / 2) var(--_s),\n    radial-gradient(var(--c1) 35%, var(--c2) 37%) 0 0 / var(--s) var(--s);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-benjimich-wonderful-penguin-4-f77f17",
+  "title": "Button by benjimich (wonderful-penguin-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/benjimich/wonderful-penguin-4",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By benjimich on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/benjimich_wonderful-penguin-4.html",
+  "code": "<button class=\"button\">\n  <div class=\"line one\">\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n\n  </div>\n  <div class=\"line two\">\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n\n  </div>\n  <div class=\"line three\">\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n\n  </div>\n    <div class=\"line four\">\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n\n  </div>\n    \n    <div class=\"line five\">\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n\n  </div>\n    \n    <div class=\"line six\">\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n\n  </div>\n    \n    <div class=\"line seven\">\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n    <div class=\"round\"></div>\n\n  </div>\n</button>\n<style>\n/* From Uiverse.io by benjimich - Tags: button, hover */\n.button {\n  cursor: pointer;\n  background: none;\n  border: none;\n  display: flex;\n  flex-direction: column;\n  width: 70px;\n  gap: 4px;\n}\n\n.button:hover {\n  animation: move 2s infinite ease;\n}\n\n@keyframes move {\n  0% {\n    transform: translateX(0);\n  }\n\n  50% {\n    transform: translateX(20px);\n  }\n\n  100% {\n    transform: translateX(0);\n  }\n}\n\n.round {\n  width: 6px;\n  height: 6px;\n  background: #3da9fc;\n  border-radius: 50%;\n}\n\n.line {\n  display: flex;\n  gap: 4px;\n}\n\n.two {\n  transform: translateX(10px);\n}\n\n.three {\n  transform: translateX(20px);\n}\n\n.four {\n  transform: translateX(30px);\n}\n\n.five {\n  transform: translateX(20px);\n}\n\n.six {\n  transform: translateX(10px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

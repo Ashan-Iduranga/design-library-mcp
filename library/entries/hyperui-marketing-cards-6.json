@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-marketing-cards-6",
+  "title": "Cards: Image, Name, with Social Links and Project Links",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/cards",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "marketing",
+    "cards",
+    "hyperui",
+    "profile",
+    "post"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/cards/6.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<article class=\"rounded-xl border border-gray-700 bg-gray-800 p-4\">\n<div class=\"flex items-center gap-4\">\n<img alt=\"\" class=\"size-16 rounded-full object-cover\" src=\"https://images.unsplash.com/photo-1614644147724-2d4785d69962?auto=format&amp;fit=crop&amp;q=80&amp;w=1160\"/>\n<div>\n<h3 class=\"text-lg font-medium text-white\">Claire Mac</h3>\n<div class=\"flow-root\">\n<ul class=\"-m-1 flex flex-wrap\">\n<li class=\"p-1 leading-none\">\n<a class=\"text-xs font-medium text-gray-300\" href=\"#\"> Twitter </a>\n</li>\n<li class=\"p-1 leading-none\">\n<a class=\"text-xs font-medium text-gray-300\" href=\"#\"> GitHub </a>\n</li>\n<li class=\"p-1 leading-none\">\n<a class=\"text-xs font-medium text-gray-300\" href=\"#\">Website</a>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<ul class=\"mt-4 space-y-2\">\n<li>\n<a class=\"block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600\" href=\"#\">\n<strong class=\"font-medium text-white\">Project A</strong>\n<p class=\"mt-1 text-xs font-medium text-gray-300\">\n              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequuntur deleniti,\n              unde ab ut in!\n            </p>\n</a>\n</li>\n<li>\n<a class=\"block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600\" href=\"#\">\n<strong class=\"font-medium text-white\">Project B</strong>\n<p class=\"mt-1 text-xs font-medium text-gray-300\">\n              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cumque saepe sit.\n            </p>\n</a>\n</li>\n</ul>\n</article>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

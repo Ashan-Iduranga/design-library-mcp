@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-doniaskima-hard-rattlesnake-83-d19d3c",
+  "title": "Loader by doniaskima (hard-rattlesnake-83)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/hard-rattlesnake-83",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "material-design",
+    "neumorphism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_hard-rattlesnake-83.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: material design, neumorphism, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  height: 80px;\n  width: 20px;\n  color: #514b82;\n  background: radial-gradient(farthest-side,currentColor 94%,#0000 ) top/8px 8px,\n    linear-gradient(currentColor 0 0) top/4px 70%,\n    conic-gradient(from -30deg at bottom,#0000,currentColor 2deg 58deg,#0000 60deg) bottom            /100% 20px,\n    conic-gradient(from 150deg at top   ,#0000,currentColor 2deg 58deg,#0000 60deg) bottom 20px left 0/100% 20px;\n  background-repeat: no-repeat;\n  transform-origin: 50% 4px;\n  animation: l15 2s infinite cubic-bezier(0.5,300,0.5,-300);\n}\n\n@keyframes l15 {\n \n  100% {\n    transform: rotate(0.5deg)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

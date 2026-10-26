@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-mi-series-wicked-sloth-7-edf330",
+  "title": "Button by mi-series (wicked-sloth-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mi-series/wicked-sloth-7",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "material-design",
+    "3d",
+    "green",
+    "minimalist",
+    "click",
+    "btn"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mi-series on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mi-series_wicked-sloth-7.html",
+  "code": "<button class=\"button\">\n  <span>Submit</span>\n</button>\n<style>\n/* From Uiverse.io by mi-series - Tags: simple, material design, 3d, green, minimalist, button, click, btn */\n.button {\n  width: 150px;\n  padding: 0;\n  border: none;\n  transform: rotate(5deg);\n  transform-origin: center;\n  font-family: \"Gochi Hand\", cursive;\n  text-decoration: none;\n  font-size: 15px;\n  padding-bottom: 3px;\n  border-radius: 5px;\n  box-shadow: 0 2px 0 #494a4b;\n  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  background-color: #5CDB95;\n}\n\n.button span {\n  background: #f1f5f8;\n  display: block;\n  padding: 0.5rem 1rem;\n  border-radius: 5px;\n  border: 2px solid #494a4b;\n}\n\n.button:active {\n  transform: translateY(5px);\n  padding-bottom: 0px;\n  outline: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

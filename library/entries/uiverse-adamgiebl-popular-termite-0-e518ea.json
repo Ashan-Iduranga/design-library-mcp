@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-adamgiebl-popular-termite-0-e518ea",
+  "title": "Button by adamgiebl (popular-termite-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/adamgiebl/popular-termite-0",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By adamgiebl on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/adamgiebl_popular-termite-0.html",
+  "code": "<button> Button\n</button>\n<style>\n/* From Uiverse.io by adamgiebl - Tags: button */\nbutton {\n  font-size: 18px;\n  letter-spacing: 2px;\n  text-transform: uppercase;\n  display: inline-block;\n  text-align: center;\n  font-weight: bold;\n  padding: 0.7em 2em;\n  border: 3px solid #FF0072;\n  border-radius: 2px;\n  position: relative;\n  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);\n  color: #FF0072;\n  text-decoration: none;\n  transition: 0.3s ease all;\n  z-index: 1;\n}\n\nbutton:before {\n  transition: 0.5s all ease;\n  position: absolute;\n  top: 0;\n  left: 50%;\n  right: 50%;\n  bottom: 0;\n  opacity: 0;\n  content: '';\n  background-color: #FF0072;\n  z-index: -1;\n}\n\nbutton:hover, button:focus {\n  color: white;\n}\n\nbutton:hover:before, button:focus:before {\n  transition: 0.5s all ease;\n  left: 0;\n  right: 0;\n  opacity: 1;\n}\n\nbutton:active {\n  transform: scale(0.9);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

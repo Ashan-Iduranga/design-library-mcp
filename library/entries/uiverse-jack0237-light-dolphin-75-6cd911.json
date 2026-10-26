@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jack0237-light-dolphin-75-6cd911",
+  "title": "Form by jack0237 (light-dolphin-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/jack0237/light-dolphin-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By jack0237 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/jack0237_light-dolphin-75.html",
+  "code": "<div class=\"form-container\">\n  <form class=\"form\">\n    <span class=\"heading\">Registration Form</span>\n\n    <div class=\"form-group\">\n      <input class=\"form-input\" required=\"\" type=\"email\" />\n      <label>Email</label>\n    </div>\n\n    <div class=\"form-group\">\n      <input class=\"form-input\" required=\"\" type=\"password\" />\n      <label>Password</label>\n    </div>\n\n    <button>SUBMIT</button>\n  </form>\n</div>\n\n<style>\n/* From Uiverse.io by jack0237  - Website: https://uiverse.io/omriluz/slimy-mole-59 - Name: omriluz - Tags: simple, email, form, dark */\n.form-container {\n  background: linear-gradient(#212121, #212121) padding-box,\n    linear-gradient(120deg, transparent 25%, #1cb0ff, #40ff99) border-box;\n  border: 2px solid transparent;\n  padding: 32px 24px;\n  font-size: 14px;\n  color: white;\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  box-sizing: border-box;\n  border-radius: 16px;\n}\n\n.form {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 20px;\n}\n\n.heading {\n  font-size: 20px;\n  font-weight: 600;\n}\n\n.form-input {\n  color: white;\n  background: transparent;\n  border: 1px solid #414141;\n  border-radius: 5px;\n  padding: 8px;\n  outline: none;\n}\n\nbutton {\n  border-radius: 5px;\n  padding: 6px;\n  background: #ffffff14;\n  color: #c7c5c5;\n  border: 1px solid #414141;\n}\n\nbutton:hover {\n  background: #212121;\n  cursor: pointer;\n}\n\n.form-group {\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  color: #414141;\n  position: relative;\n}\n\n.form-group label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  padding: 5px;\n  pointer-events: none;\n  transition: 0.5s;\n}\n\n.form-group input:focus ~ label,\n.form-group input:valid ~ label {\n  top: -16px;\n  left: 0;\n  background: #212121 padding-box;\n  padding: 10px 0 0 0;\n  color: #bdb8b8;\n\n  font-size: 12px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

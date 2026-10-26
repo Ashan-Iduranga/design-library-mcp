@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-hero-hero-with-form",
+  "title": "Hero: Hero with form (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/hero/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "hero",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Hero is a component for displaying a large box or image with a title and description.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/hero/+page.md",
+  "code": "<div class=\"hero bg-base-200 min-h-screen\">\n  <div class=\"hero-content flex-col lg:flex-row-reverse\">\n    <div class=\"text-center lg:text-left\">\n      <h1 class=\"text-5xl font-bold\">Login now!</h1>\n      <p class=\"py-6\">\n        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem\n        quasi. In deleniti eaque aut repudiandae et a id nisi.\n      </p>\n    </div>\n    <div class=\"card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl\">\n      <div class=\"card-body\">\n        <fieldset class=\"fieldset\">\n          <label class=\"label\">Email</label>\n          <input type=\"email\" class=\"input\" placeholder=\"Email\" />\n          <label class=\"label\">Password</label>\n          <input type=\"password\" class=\"input\" placeholder=\"Password\" />\n          <div><a class=\"link link-hover\">Forgot password?</a></div>\n          <button class=\"btn btn-neutral mt-4\">Login</button>\n        </fieldset>\n      </div>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

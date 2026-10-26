@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-kamehame-ha-silent-dodo-36-0a1e37",
+  "title": "Input by kamehame-ha (silent-dodo-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kamehame-ha/silent-dodo-36",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "clean",
+    "bash",
+    "cmd",
+    "linux"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kamehame-ha on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/kamehame-ha_silent-dodo-36.html",
+  "code": "<div class=\"input-container\">\n  <p class=\"bash-text\">\n    <span class=\"user\">user</span><span class=\"vm\">@ui-verse</span>:<span class=\"char\">~</span>$\n  </p>\n  <input class=\"input\" placeholder=\"sudo rm -rf css/\" type=\"text\">\n</div>\n<style>\n/* From Uiverse.io by kamehame-ha - Tags: input, clean, bash, cmd, linux */\n.input-container {\n  display: flex;\n  align-items: center;\n  background-color: #0F172A;\n  padding: 10px 15px;\n  gap: 5px;\n  border-radius: 20px;\n}\n\n.input-container .bash-text {\n  font-size: .8rem;\n  color: white;\n}\n\n.input-container .bash-text .user {\n  color: #E879F9;\n}\n\n.input-container .bash-text .vm {\n  color: #2DD4BF;\n}\n\n.input-container .bash-text .char {\n  color: #A78BFA;\n}\n\n.input-container input[type=text].input {\n  background-color: transparent;\n  border: none;\n  outline: none;\n  color: white;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

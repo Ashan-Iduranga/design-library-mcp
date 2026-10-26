@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-neobrutalism-inputs-3",
+  "title": "Inputs: Search (neobrutalism)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/neobrutalism/inputs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "neobrutalism",
+    "inputs",
+    "hyperui",
+    "filter",
+    "form"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/neobrutalism/inputs/3.html",
+  "code": "<div class=\"mx-auto max-w-sm p-6\">\n<label for=\"Search\">\n<span class=\"sr-only\"> Search </span>\n<div class=\"flex border-2 border-black shadow-[4px_4px_0_0] shadow-black focus-within:ring-2 focus-within:ring-yellow-300\">\n<input class=\"w-full border-none bg-white text-black focus:ring-0 sm:text-sm\" id=\"Search\" type=\"search\"/>\n<button class=\"bg-yellow-300 px-4 py-2 text-xs/none font-bold tracking-wide uppercase hover:bg-yellow-400 focus:bg-yellow-400 focus:outline-0\" type=\"submit\">\n          Search\n        </button>\n</div>\n</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

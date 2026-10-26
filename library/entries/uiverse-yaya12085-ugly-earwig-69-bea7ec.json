@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-yaya12085-ugly-earwig-69-bea7ec",
+  "title": "Card by Yaya12085 (ugly-earwig-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/ugly-earwig-69",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "paper",
+    "realistic"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Yaya12085_ugly-earwig-69.html",
+  "code": "<div class=\"papper\" draggable=\"true\"></div>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: card, paper, realistic */\n.papper {\n  position: relative;\n  box-sizing: border-box;\n  width: 200px;\n  height: 200px;\n  background: #ffffff;\n  background-image: linear-gradient(#ffffff 1.1rem, #ccc 1.2rem);\n  background-size: 100% 1.2rem;\n  border-radius: 10px;\n  cursor: move;\n}\n\n.papper::before,\n.papper::after {\n  position: absolute;\n  content: \"\";\n  bottom: 10px;\n  width: 40%;\n  height: 10px;\n  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.7);\n  z-index: -1;\n  transition: all 0.3s ease;\n}\n\n.papper::before {\n  left: 15px;\n  transform: skew(-5deg) rotate(-5deg);\n}\n\n.papper::after {\n  right: 15px;\n  transform: skew(5deg) rotate(5deg);\n}\n\n.papper:hover::before,\n.papper:hover::after {\n  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.4);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

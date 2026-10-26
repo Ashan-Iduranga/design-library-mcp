@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-range-sizes",
+  "title": "Range Slider: Sizes (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/range/#sizes",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "range",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Apply the small, default, and large sizes for the range component by applying the `range-sm` and `range-lg` utility classes from Flowbite and Tailwind CSS.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/range.md",
+  "code": "<label for=\"small-range\" class=\"block mb-2.5 text-sm font-medium text-heading\">Small range</label>\n<input id=\"small-range\" type=\"range\" value=\"50\" class=\"w-full h-1 mb-6 bg-neutral-quaternary rounded-full appearance-none cursor-pointer range-sm\">\n\n<label for=\"medium-range\" class=\"block mb-2.5 text-sm font-medium text-heading\">Default range</label>\n<input id=\"medium-range\" type=\"range\" value=\"50\" class=\"w-full h-2 mb-6 bg-neutral-quaternary rounded-full appearance-none cursor-pointer\">\n\n<label for=\"large-range\" class=\"block mb-2.5 text-sm font-medium text-heading\">Large range</label>\n<input id=\"large-range\" type=\"range\" value=\"50\" class=\"w-full h-3 bg-neutral-quaternary rounded-full appearance-none cursor-pointer range-lg\">",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

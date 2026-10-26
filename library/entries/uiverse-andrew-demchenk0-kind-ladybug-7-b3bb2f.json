@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-andrew-demchenk0-kind-ladybug-7-b3bb2f",
+  "title": "Loader by andrew-demchenk0 (kind-ladybug-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/kind-ladybug-7",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "pacman"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/andrew-demchenk0_kind-ladybug-7.html",
+  "code": "<div class=\"loader-wrapper\">\n  <div class=\"packman\"></div>\n  <div class=\"dots\">\n    <div class=\"dot\"></div>\n    <div class=\"dot\"></div>\n    <div class=\"dot\"></div>\n    <div class=\"dot\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: loader, pacman */\n.loader-wrapper {\n  position: relative;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  margin: auto;\n}\n\n.loader-wrapper .packman::before {\n  content: '';\n  position: absolute;\n  width: 50px;\n  height: 25px;\n  background-color: #EFF107;\n  border-radius: 100px 100px 0 0;\n  transform: translate(-50%, -50%);\n  animation: pac-top 0.5s linear infinite;\n  transform-origin: center bottom;\n}\n\n.loader-wrapper .packman::after {\n  content: '';\n  position: absolute;\n  width: 50px;\n  height: 25px;\n  background-color: #EFF107;\n  border-radius: 0 0 100px 100px;\n  transform: translate(-50%, 50%);\n  animation: pac-bot 0.5s linear infinite;\n  transform-origin: center top;\n}\n\n@keyframes pac-top {\n  0% {\n    transform: translate(-50%, -50%) rotate(0)\n  }\n\n  50% {\n    transform: translate(-50%, -50%) rotate(-30deg)\n  }\n\n  100% {\n    transform: translate(-50%, -50%) rotate(0)\n  }\n}\n\n@keyframes pac-bot {\n  0% {\n    transform: translate(-50%, 50%) rotate(0)\n  }\n\n  50% {\n    transform: translate(-50%, 50%) rotate(30deg)\n  }\n\n  100% {\n    transform: translate(-50%, 50%) rotate(0)\n  }\n}\n\n.dots .dot {\n  position: absolute;\n  z-index: -1;\n  top: 8px;\n  width: 10px;\n  height: 10px;\n  border-radius: 50%;\n  background: #fff;\n}\n\n.dots .dot:nth-child(1) {\n  left: 90px;\n  animation: dot-stage1 0.5s infinite;\n}\n\n.dots .dot:nth-child(2) {\n  left: 60px;\n  animation: dot-stage1 0.5s infinite;\n}\n\n.dots .dot:nth-child(3) {\n  left: 30px;\n  animation: dot-stage1 0.5s infinite;\n}\n\n.dots .dot:nth-child(4) {\n  left: 10px;\n  animation: dot-stage2 0.5s infinite;\n}\n\n@keyframes dot-stage1 {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  100% {\n    transform: translate(-24px, 0);\n  }\n}\n\n@keyframes dot-stage2 {\n  0% {\n    transform: scale(1);\n  }\n\n  5%, 100% {\n    transform: scale(0);\n  }\n}\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

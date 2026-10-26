@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-uncannypotato69-shaggy-emu-40-719362",
+  "title": "Loader by Uncannypotato69 (shaggy-emu-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Uncannypotato69/shaggy-emu-40",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "animation",
+    "loading",
+    "text",
+    "css",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Uncannypotato69 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Uncannypotato69_shaggy-emu-40.html",
+  "code": "<div class=\"wrapper\">\n  <span class=\"letter letter1\">L</span>\n  <span class=\"letter letter2\">o</span>\n  <span class=\"letter letter3\">a</span>\n  <span class=\"letter letter4\">d</span>\n  <span class=\"letter letter5\">i</span>\n  <span class=\"letter letter6\">n</span>\n  <span class=\"letter letter7\">g</span>\n  <span class=\"letter letter8\">.</span>\n  <span class=\"letter letter9\">.</span>\n  <span class=\"letter letter10\">.</span>\n</div>\n\n<style>\n/* From Uiverse.io by Uncannypotato69  - Tags: simple, animation, loading, loader, text, css, loading animation */\n.wrapper {\n  min-height: 3rem;\n  min-width: 14rem;\n  font-size: 2rem;\n  position: relative;\n  overflow: hidden;\n  mask-image: linear-gradient(\n    to right,\n    rgba(0, 0, 0, 0),\n    rgba(0, 0, 0, 1) 30%,\n    rgba(0, 0, 0, 1) 70%,\n    rgba(0, 0, 0, 0)\n  );\n  font-family: monospace;\n}\n\n.letter {\n  width: 1ch;\n  position: absolute;\n  top: 50%;\n  transform: translate(0px, -50%);\n  left: 100%;\n  animation: scroll 2.5s linear infinite;\n}\n\n@keyframes scroll {\n  to {\n    left: -1ch;\n  }\n}\n\n.letter1 {\n  animation-delay: calc(2.5s / 10 * (10 - 1) * -1);\n}\n.letter2 {\n  animation-delay: calc(2.5s / 10 * (10 - 2) * -1);\n}\n.letter3 {\n  animation-delay: calc(2.5s / 10 * (10 - 3) * -1);\n}\n.letter4 {\n  animation-delay: calc(2.5s / 10 * (10 - 4) * -1);\n}\n.letter5 {\n  animation-delay: calc(2.5s / 10 * (10 - 5) * -1);\n}\n.letter6 {\n  animation-delay: calc(2.5s / 10 * (10 - 6) * -1);\n}\n.letter7 {\n  animation-delay: calc(2.5s / 10 * (10 - 7) * -1);\n}\n.letter8 {\n  animation-delay: calc(2.5s / 10 * (10 - 8) * -1);\n}\n.letter9 {\n  animation-delay: calc(2.5s / 10 * (10 - 9) * -1);\n}\n.letter10 {\n  animation-delay: calc(2.5s / 10 * (10 - 10) * -1);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

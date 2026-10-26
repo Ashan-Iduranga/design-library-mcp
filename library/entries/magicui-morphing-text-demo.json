@@ -1,0 +1,36 @@
+{
+  "id": "magicui-morphing-text-demo",
+  "title": "Morphing Text Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/morphing-text",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "morphing",
+    "text",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a dynamic text morphing component.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/morphing-text-demo.tsx",
+  "code": "import { MorphingText } from \"@/registry/magicui/morphing-text\"\n\nconst texts = [\n  \"Hello\",\n  \"Morphing\",\n  \"Text\",\n  \"Animation\",\n  \"React\",\n  \"Component\",\n  \"Smooth\",\n  \"Transition\",\n  \"Engaging\",\n]\n\nexport default function MorphingTextDemo() {\n  return <MorphingText texts={texts} />\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

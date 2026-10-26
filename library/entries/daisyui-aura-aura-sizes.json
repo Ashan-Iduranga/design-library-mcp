@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-aura-aura-sizes",
+  "title": "Aura: Aura sizes (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/aura/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "aura",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Aura is a border light effect that can wrap around any component. It is a great way to add a cool, eye-catching visual effect to your components. Aura is useful for the most important button, card, or div that you want to highlight.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/aura/+page.md",
+  "code": "<div class=\"aura aura-xs\">\n  <button class=\"btn\">XS</button>\n</div>\n<div class=\"aura aura-sm\">\n  <button class=\"btn\">SM</button>\n</div>\n<div class=\"aura\">\n  <button class=\"btn\">MD</button>\n</div>\n<div class=\"aura aura-lg\">\n  <button class=\"btn\">LG</button>\n</div>\n<div class=\"aura aura-xl\">\n  <button class=\"btn\">XL</button>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

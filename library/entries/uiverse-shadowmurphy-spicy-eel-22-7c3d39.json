@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-shadowmurphy-spicy-eel-22-7c3d39",
+  "title": "Card by shadowmurphy (spicy-eel-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/shadowmurphy/spicy-eel-22",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "material-design",
+    "neumorphism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By shadowmurphy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/shadowmurphy_spicy-eel-22.html",
+  "code": "<section class=\"card\">\n  <header>\n    <p>Runtime</p>\n    <a href=\"#\">Details</a>\n  </header>\n  <main>\n    <p>42 <a href=\"#\">ms</a></p>\n  </main>\n  <footer>\n    <a href=\"#\">Beats 92.42%</a><p>of users with JavaScript</p>\n  </footer>\n</section>\n\n<style>\n/* From Uiverse.io by shadowmurphy - Tags: simple, material design, neumorphism, card */\n.card {\n  width: 350px;\n  height: 150px;\n  background: #262626;\n  border-radius: 10px;\n  border: 1px solid #3F3F40;\n}\n\na {\n  text-decoration: none;\n}\n\nheader, footer, main {\n  display: flex;\n  align-items: center;\n}\n\nheader {\n  justify-content: space-between;\n  margin: 20px;\n  color: #BDBFB7;\n}\n\nheader a {\n  font-size: 15px;\n  cursor: pointer;\n  color: #BDBFB7\n}\n\nmain {\n  justify-content: flex-start;\n  margin: 20px;\n}\n\nmain p {\n  color: white;\n  font-weight: 600;\n}\n\nmain a {\n  color: #BDBFB7;\n  font-weight: 100;\n}\n\nfooter {\n  margin: 20px;\n  font-size: 15px;\n  gap: 5px;\n}\n\nfooter a {\n  color: #2CAD3D;\n  font-weight: 600;\n}\n\nfooter p {\n  color: white;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-skeleton-text-placeholder",
+  "title": "Skeleton: Text placeholder (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/skeleton/#text-placeholder",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "skeleton",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a placeholder when loading longer pagraphs and headings.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/skeleton.md",
+  "code": "<div role=\"status\" class=\"space-y-2.5 animate-pulse max-w-lg\">\n    <div class=\"flex items-center w-full\">\n        <div class=\"h-2.5 bg-neutral-quaternary rounded-full w-32\"></div>\n        <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-24\"></div>\n        <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-full\"></div>\n    </div>\n    <div class=\"flex items-center w-full max-w-[480px]\">\n        <div class=\"h-2.5 bg-neutral-quaternary rounded-full w-full\"></div>\n                <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-full\"></div>\n        <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-24\"></div>\n    </div>\n    <div class=\"flex items-center w-full max-w-[400px]\">\n        <div class=\"h-2.5 bg-neutral-quaternary rounded-full w-full\"></div>\n        <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-80\"></div>\n        <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-full\"></div>\n    </div>\n    <div class=\"flex items-center w-full max-w-[480px]\">\n        <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-full\"></div>\n                <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-full\"></div>\n        <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-24\"></div>\n    </div>\n    <div class=\"flex items-center w-full max-w-[440px]\">\n        <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-32\"></div>\n        <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-24\"></div>\n        <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-full\"></div>\n    </div>\n    <div class=\"flex items-center w-full max-w-[360px]\">\n        <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-full\"></div>\n        <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-80\"></div>\n        <div class=\"h-2.5 ms-2 bg-neutral-quaternary rounded-full w-full\"></div>\n    </div>\n    <span class=\"sr-only\">Loading...</span>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

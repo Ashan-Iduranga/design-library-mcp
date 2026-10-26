@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-jeremyssocial-afraid-sheep-52-615c48",
+  "title": "Pattern by jeremyssocial (afraid-sheep-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/jeremyssocial/afraid-sheep-52",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "dark",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By jeremyssocial on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/jeremyssocial_afraid-sheep-52.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by jeremyssocial  - Tags: dark, animated, pattern */\n.container {\n  /* Basic dimensions and centering */\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n\n  /* Dark mode colors and gradient */\n  background: #121212; /* Fallback for browsers that don't support gradients */\n  background: linear-gradient(\n    135deg,\n    #121212 25%,\n    #1a1a1a 25%,\n    #1a1a1a 50%,\n    #121212 50%,\n    #121212 75%,\n    #1a1a1a 75%,\n    #1a1a1a\n  );\n  background-size: 40px 40px;\n\n  /* Animation */\n  animation: move 4s linear infinite;\n}\n\n@keyframes move {\n  0% {\n    background-position: 0 0;\n  }\n  100% {\n    background-position: 40px 40px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

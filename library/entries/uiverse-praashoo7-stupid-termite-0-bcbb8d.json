@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-praashoo7-stupid-termite-0-bcbb8d",
+  "title": "Toggle by Praashoo7 (stupid-termite-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/stupid-termite-0",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "on",
+    "off"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Praashoo7_stupid-termite-0.html",
+  "code": "<label class=\"switch\">\n  <input class=\"chk\" type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: switch, on, off */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 4em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch .chk {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: rgb(255, 255, 255);\n  transition: .4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"OFF\";\n  display: grid;\n  place-content: center;\n  height: 1.6em;\n  width: 3.6em;\n  border-radius: 20px;\n  left: 0.17em;\n  bottom: 0.22em;\n  background-color: rgb(255, 0, 0);\n  box-shadow: 0px 0px 3.7px black;\n  transition: .4s ease-in-out;\n}\n\n.chk:checked + .slider:before {\n  content: \"ON\";\n  background-color: limegreen;\n  box-shadow: inset 0px 0px 5px black;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

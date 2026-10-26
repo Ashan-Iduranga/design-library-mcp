@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-device-mockups-smartwatch-mockup",
+  "title": "Device Mockups: Smartwatch mockup (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/device-mockups/#smartwatch-mockup",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "device-mockup",
+    "device-mockups",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This component can be used to showcase applications built for smartwatches.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/device-mockups.md",
+  "code": "<div class=\"relative mx-auto bg-base rounded-t-[2.5rem] h-[63px] max-w-[133px]\"></div>\n<div class=\"relative mx-auto bg-base border-default border-[10px] rounded-[2.5rem] h-[213px] w-[208px]\">\n    <div class=\"h-[41px] w-[6px] bg-base absolute -end-[16px] top-[40px] rounded-e-lg\"></div>\n    <div class=\"h-[32px] w-[6px] bg-base absolute -end-[16px] top-[88px] rounded-e-lg\"></div>\n    <div class=\"rounded-[2rem] overflow-hidden h-[193px] w-[188px]\">\n        <img src=\"https://flowbite.s3.amazonaws.com/docs/device-mockups/watch-screen-image.png\" class=\"dark:hidden h-[193px] w-[188px]\" alt=\"\">\n        <img src=\"https://flowbite.s3.amazonaws.com/docs/device-mockups/watch-screen-image-dark.png\" class=\"hidden dark:block h-[193px] w-[188px]\" alt=\"\">\n    </div>\n</div>\n<div class=\"relative mx-auto bg-base rounded-b-[2.5rem] h-[63px] max-w-[133px]\"></div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

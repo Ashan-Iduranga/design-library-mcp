@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-samalander0-sweet-eel-98-b5f5b9",
+  "title": "Card by Samalander0 (sweet-eel-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Samalander0/sweet-eel-98",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "hover",
+    "rounded",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Samalander0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Samalander0_sweet-eel-98.html",
+  "code": "<div class=\"card\">\n  <div class=\"card-content\">\n    <div class=\"card-top\">\n      <span class=\"card-title\">01.</span>\n      <p>Lightning.</p>\n    </div>\n    <div class=\"card-bottom\">\n      <p>Hover Me?</p>\n      <svg width=\"32\" viewBox=\"0 -960 960 960\" height=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M226-160q-28 0-47-19t-19-47q0-28 19-47t47-19q28 0 47 19t19 47q0 28-19 47t-47 19Zm254 0q-28 0-47-19t-19-47q0-28 19-47t47-19q28 0 47 19t19 47q0 28-19 47t-47 19Zm254 0q-28 0-47-19t-19-47q0-28 19-47t47-19q28 0 47 19t19 47q0 28-19 47t-47 19ZM226-414q-28 0-47-19t-19-47q0-28 19-47t47-19q28 0 47 19t19 47q0 28-19 47t-47 19Zm254 0q-28 0-47-19t-19-47q0-28 19-47t47-19q28 0 47 19t19 47q0 28-19 47t-47 19Zm254 0q-28 0-47-19t-19-47q0-28 19-47t47-19q28 0 47 19t19 47q0 28-19 47t-47 19ZM226-668q-28 0-47-19t-19-47q0-28 19-47t47-19q28 0 47 19t19 47q0 28-19 47t-47 19Zm254 0q-28 0-47-19t-19-47q0-28 19-47t47-19q28 0 47 19t19 47q0 28-19 47t-47 19Zm254 0q-28 0-47-19t-19-47q0-28 19-47t47-19q28 0 47 19t19 47q0 28-19 47t-47 19Z\"></path></svg>\n    </div>\n  </div>\n  <div class=\"card-image\">\n    <svg width=\"48\" viewBox=\"0 -960 960 960\" height=\"48\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m393-165 279-335H492l36-286-253 366h154l-36 255Zm-73 85 40-280H160l360-520h80l-40 320h240L400-80h-80Zm153-395Z\"></path></svg>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Samalander0 - Tags: card, hover, rounded, hover effect */\n.card {\n  width: 320px;\n  background: #fff480;\n  color: black;\n  position: relative;\n  border-radius: 2.5em;\n  padding: 2em;\n  transition: transform 0.4s ease;\n}\n\n.card .card-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  gap: 5em;\n  height: 100%;\n  transition: transform 0.4s ease;\n}\n\n.card .card-top, .card .card-bottom {\n  display: flex;\n  justify-content: space-between;\n}\n\n.card .card-top p, .card .card-top .card-title, .card .card-bottom p, .card .card-bottom .card-title {\n  margin: 0;\n}\n\n.card .card-title {\n  font-weight: bold;\n}\n\n.card .card-top p, .card .card-bottom p {\n  font-weight: 600;\n}\n\n.card .card-bottom {\n  align-items: flex-end;\n}\n\n.card .card-image {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  display: grid;\n  place-items: center;\n  pointer-events: none;\n}\n\n.card .card-image svg {\n  width: 4em;\n  height: 4em;\n  transition: transform 0.4s ease;\n}\n\n.card:hover {\n  cursor: pointer;\n  transform: scale(0.97);\n}\n\n.card:hover .card-content {\n  transform: scale(0.96);\n}\n\n.card:hover .card-image svg {\n  transform: scale(1.05);\n}\n\n.card:active {\n  transform: scale(0.9);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

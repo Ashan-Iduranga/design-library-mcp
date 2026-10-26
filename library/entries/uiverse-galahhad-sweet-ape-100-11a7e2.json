@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-galahhad-sweet-ape-100-11a7e2",
+  "title": "Checkbox by Galahhad (sweet-ape-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Galahhad/sweet-ape-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Galahhad on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Galahhad_sweet-ape-100.html",
+  "code": "<input type=\"checkbox\" class=\"ui-checkbox\">\n<style>\n/* From Uiverse.io by Galahhad - Source: https://ant.design/components/checkbox - Tags: checkbox, click animation, antd */\n/* checkbox settings 👇 */\n\n.ui-checkbox {\n  --primary-color: #1677ff;\n  --secondary-color: #fff;\n  --primary-hover-color: #4096ff;\n  /* checkbox */\n  --checkbox-diameter: 20px;\n  --checkbox-border-radius: 5px;\n  --checkbox-border-color: #d9d9d9;\n  --checkbox-border-width: 1px;\n  --checkbox-border-style: solid;\n  /* checkmark */\n  --checkmark-size: 1.2;\n}\n\n.ui-checkbox, \n.ui-checkbox *, \n.ui-checkbox *::before, \n.ui-checkbox *::after {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\n.ui-checkbox {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  width: var(--checkbox-diameter);\n  height: var(--checkbox-diameter);\n  border-radius: var(--checkbox-border-radius);\n  background: var(--secondary-color);\n  border: var(--checkbox-border-width) var(--checkbox-border-style) var(--checkbox-border-color);\n  -webkit-transition: all 0.3s;\n  -o-transition: all 0.3s;\n  transition: all 0.3s;\n  cursor: pointer;\n  position: relative;\n}\n\n.ui-checkbox::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  -webkit-box-shadow: 0 0 0 calc(var(--checkbox-diameter) / 2.5) var(--primary-color);\n  box-shadow: 0 0 0 calc(var(--checkbox-diameter) / 2.5) var(--primary-color);\n  border-radius: inherit;\n  opacity: 0;\n  -webkit-transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);\n  -o-transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);\n  transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);\n}\n\n.ui-checkbox::before {\n  top: 40%;\n  left: 50%;\n  content: \"\";\n  position: absolute;\n  width: 4px;\n  height: 7px;\n  border-right: 2px solid var(--secondary-color);\n  border-bottom: 2px solid var(--secondary-color);\n  -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(0);\n  -ms-transform: translate(-50%, -50%) rotate(45deg) scale(0);\n  transform: translate(-50%, -50%) rotate(45deg) scale(0);\n  opacity: 0;\n  -webkit-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6),opacity 0.1s;\n  -o-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6),opacity 0.1s;\n  transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6),opacity 0.1s;\n}\n\n/* actions */\n\n.ui-checkbox:hover {\n  border-color: var(--primary-color);\n}\n\n.ui-checkbox:checked {\n  background: var(--primary-color);\n  border-color: transparent;\n}\n\n.ui-checkbox:checked::before {\n  opacity: 1;\n  -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));\n  -ms-transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));\n  transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));\n  -webkit-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;\n  -o-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;\n  transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;\n}\n\n.ui-checkbox:active:not(:checked)::after {\n  -webkit-transition: none;\n  -o-transition: none;\n  -webkit-box-shadow: none;\n  box-shadow: none;\n  transition: none;\n  opacity: 1;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

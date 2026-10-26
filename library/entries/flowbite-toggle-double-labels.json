@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-toggle-double-labels",
+  "title": "Toggle: Double labels (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/toggle/#double-labels",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "toggle",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show labels on the left and right of the toggle component.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/toggle.md",
+  "code": "<label class=\"inline-flex items-center cursor-pointer\">\n  <span class=\"select-none text-sm font-medium text-heading\">Monthly</span>\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\">\n  <div class=\"relative mx-3 w-9 h-5 bg-neutral-quaternary peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-brand-soft dark:peer-focus:ring-brand-soft rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-buffer after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-brand\"></div>\n  <span class=\"select-none text-sm font-medium text-heading\">Yearly</span>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-progee45-lucky-turkey-67-a6d2de",
+  "title": "Button by Progee45 (lucky-turkey-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Progee45/lucky-turkey-67",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "orange",
+    "animated",
+    "hover-effect",
+    "fancy"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Progee45 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Progee45_lucky-turkey-67.html",
+  "code": "<button class=\"custom-button\">Click me</button>\n\n<style>\n/* From Uiverse.io by Progee45 - Tags: orange, button, animated, hover effect, fancy */\n.custom-button {\n  position: relative;\n  display: inline-block;\n  padding: 12px 24px;\n  font-size: 18px;\n  color: #fff;\n  background-color: #ff8c00;\n  border: none;\n  border-radius: 50px;\n  cursor: pointer;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.custom-button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 120%;\n  height: 120%;\n  background-color: rgba(255, 255, 255, 0.3);\n  opacity: 0;\n  transition: all 0.5s ease-in-out;\n  transform: rotate(-45deg) translate(-50%, -50%);\n  z-index: -1;\n}\n\n.custom-button:hover::before {\n  opacity: 1;\n  transform: rotate(-45deg) translate(-50%, -50%) scale(1.2);\n}\n\n.custom-button span {\n  position: relative;\n  z-index: 2;\n}\n\n.custom-button:hover {\n  background-color: #ff5722;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

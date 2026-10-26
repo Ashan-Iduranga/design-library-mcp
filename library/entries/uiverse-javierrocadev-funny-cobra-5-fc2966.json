@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-javierrocadev-funny-cobra-5-fc2966",
+  "title": "Card by Javierrocadev (funny-cobra-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/funny-cobra-5",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "hover",
+    "flip",
+    "game",
+    "hover-effect",
+    "css-effect",
+    "uno"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Javierrocadev_funny-cobra-5.html",
+  "code": "<div class=\"uno-card\">\n  <div class=\"card-inner\">\n    <div class=\"front\">\n      <div class=\"front-bg\"></div>\n    </div>\n    <div class=\"back\">\n      <div class=\"back-bg\">\n        <p class=\"uno\">UNO</p>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Javierrocadev  - Tags: card, hover, flip, game, hover effect, css effect, uno */\n.uno-card {\n  background-color: transparent;\n  width: 190px;\n  height: 260px;\n  perspective: 1000px;\n  transform-origin: top left;\n  border-radius: 15px;\n}\n\n.card-inner {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  transition: transform 1.1s;\n  transform-style: preserve-3d;\n  border-radius: 15px;\n  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);\n}\n\n.uno-card:hover .card-inner {\n  transform: rotateY(180deg) rotate(25deg);\n}\n\n.front, .back {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  -webkit-backface-visibility: hidden;\n  backface-visibility: hidden;\n}\n\n.front {\n  background-color: #fff;\n  color: black;\n  border-radius: 15px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.front::after {\n  content: \"1\";\n  color: #C90522;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 4em;\n  font-weight: 900;\n  width: 170px;\n  height: 180px;\n  background-color: #ffffff;\n  border: 5px solid white;\n  border-radius: 850px 150px 850px 150px;\n  position: absolute;\n  text-shadow: -1px 1px 0 #191F1F,-2px 2px 0 #191F1F,-3px 3px 0 #191F1F,-4px 4px 0 #191F1F,-5px 5px 0 #191F1F,-6px 6px 0 #191F1F,-7px 7px 0 #191F1F,-8px 8px 0 #191F1F,-9px 9px 0 #191F1F;\n}\n\n.front-bg {\n  width: 90%;\n  height: 90%;\n  background: #C90522;\n  border-radius: 15px;\n}\n\n.front-bg::after {\n  content: \"1\";\n  position: absolute;\n  bottom: 10px;\n  right: 20px;\n  font-size: 2em;\n  color: white;\n  font-weight: 900;\n  text-shadow: -1px 1px 0 #191F1F,-2px 2px 0 #191F1F,-3px 3px 0 #191F1F,-4px 4px 0 #191F1F,-5px 5px 0 #191F1F;\n}\n\n.front-bg::before {\n  content: \"1\";\n  position: absolute;\n  top: 10px;\n  left: 20px;\n  font-size: 2em;\n  color: white;\n  font-weight: 900;\n  text-shadow: -1px 1px 0 #191F1F,-2px 2px 0 #191F1F,-3px 3px 0 #191F1F,-4px 4px 0 #191F1F,-5px 5px 0 #191F1F;\n}\n\n.back {\n  background-color: #fff;\n  color: white;\n  transform: rotateY(180deg);\n  border-radius: 15px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.back-bg::before {\n  content: \"\";\n  width: 170px;\n  height: 180px;\n  background-color: #C90522;\n  border-radius: 850px 150px 850px 150px;\n  position: absolute;\n}\n\n.back-bg {\n  width: 90%;\n  height: 90%;\n  background: #191F1F;\n  border-radius: 15px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.uno {\n  color: #E5CA22;\n  font-size: 5em;\n  font-weight: 900;\n  letter-spacing: -5px;\n  transform: rotate(-25deg);\n  text-shadow: -1px 1px 0 #191F1F,-2px 2px 0 #191F1F,-3px 3px 0 #191F1F,-4px 4px 0 #191F1F,-5px 5px 0 #191F1F,-6px 6px 0 #191F1F,-7px 7px 0 #191F1F,-8px 8px 0 #191F1F,-9px 9px 0 #191F1F,-10px 10px 0 #fff,-11px 11px 0 #fff;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

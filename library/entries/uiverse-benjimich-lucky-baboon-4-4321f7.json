@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-benjimich-lucky-baboon-4-4321f7",
+  "title": "Input by benjimich (lucky-baboon-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/benjimich/lucky-baboon-4",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By benjimich on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/benjimich_lucky-baboon-4.html",
+  "code": "<div class=\"container\">\n  <input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Dark Twitch Search\">\n  <button class=\"search__btn\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"22\" height=\"22\">\n      <path d=\"M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z\" fill=\"#efeff1\"></path>\n    </svg>\n  </button>\n</div>\n<style>\n/* From Uiverse.io by benjimich - Tags: input */\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 35px;\n}\n\n.input {\n  max-width: 190px;\n  height: 100%;\n  outline: none;\n  font-size: 14px;\n  font-weight: 500;\n  background-color: #53535f;\n  caret-color: #f7f7f8;\n  color: #fff;\n  padding: 7px 10px;\n  border: 2px solid transparent;\n  border-top-left-radius: 7px;\n  border-bottom-left-radius: 7px;\n  margin-right: 1px;\n  transition: all .2s ease;\n}\n\n.input:hover {\n  border: 2px solid rgba(255, 255, 255, 0.16);\n}\n\n.input:focus {\n  border: 2px solid #a970ff;\n  background-color: #0e0e10;\n}\n\n.search__btn {\n  border: none;\n  cursor: pointer;\n  background-color: rgba(42, 42, 45, 1);\n  border-top-right-radius: 7px;\n  border-bottom-right-radius: 7px;\n  height: 100%;\n  width: 30px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.search__btn:hover {\n  background-color: rgba(54, 54, 56, 1);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

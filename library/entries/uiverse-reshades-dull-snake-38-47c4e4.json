@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-reshades-dull-snake-38-47c4e4",
+  "title": "Button by reshades (dull-snake-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/reshades/dull-snake-38",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "clean",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By reshades on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/reshades_dull-snake-38.html",
+  "code": "<button class=\"button\">\n\n  \n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"w-6 h-6\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75\"></path>\n  </svg>\n\n  \n  <div class=\"text\">\n    Button\n  </div>\n\n</button>\n<style>\n/* From Uiverse.io by reshades - Tags: button, clean, hover button */\n.button {\n  background-color: #ffffff00;\n  color: #fff;\n  width: 8.5em;\n  height: 2.9em;\n  border: #3654ff 0.2em solid;\n  border-radius: 11px;\n  text-align: right;\n  transition: all 0.6s ease;\n}\n\n.button:hover {\n  background-color: #3654ff;\n  cursor: pointer;\n}\n\n.button svg {\n  width: 1.6em;\n  margin: -0.2em 0.8em 1em;\n  position: absolute;\n  display: flex;\n  transition: all 0.6s ease;\n}\n\n.button:hover svg {\n  transform: translateX(5px);\n}\n\n.text {\n  margin: 0 1.5em\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

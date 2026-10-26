@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-checkbox-inline-layout",
+  "title": "Checkbox: Inline layout (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/checkbox/#inline-layout",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "You can align the checkbox elements horizontally by using a wrapper tag and applying the `flex` class.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/checkbox.md",
+  "code": "<div class=\"flex\">\n    <div class=\"flex items-center me-4\">\n        <input id=\"inline-checkbox\" type=\"checkbox\" value=\"\" class=\"w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n        <label for=\"inline-checkbox\" class=\"select-none ms-2 text-sm font-medium text-heading\">Inline 1</label>\n    </div>\n    <div class=\"flex items-center me-4\">\n        <input id=\"inline-2-checkbox\" type=\"checkbox\" value=\"\" class=\"w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n        <label for=\"inline-2-checkbox\" class=\"select-none ms-2 text-sm font-medium text-heading\">Inline 2</label>\n    </div>\n    <div class=\"flex items-center me-4\">\n        <input checked id=\"inline-checked-checkbox\" type=\"checkbox\" value=\"\" class=\"w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n        <label for=\"inline-checked-checkbox\" class=\"select-none ms-2 text-sm font-medium text-heading\">Inline checked</label>\n    </div>\n    <div class=\"flex items-center\">\n        <input disabled id=\"inline-disabled-checkbox\" type=\"checkbox\" value=\"\" class=\"w-4 h-4 border border-light rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n        <label for=\"inline-disabled-checkbox\" class=\"select-none ms-2 text-sm font-medium text-fg-disabled\">Inline disabled</label>\n    </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

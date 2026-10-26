@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-spacious74-selfish-dragon-64-586ef3",
+  "title": "Form by Spacious74 (selfish-dragon-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Spacious74/selfish-dragon-64",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "simple",
+    "login",
+    "subscription",
+    "email",
+    "minimalist",
+    "register",
+    "signin"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Spacious74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Spacious74_selfish-dragon-64.html",
+  "code": "<div class=\"container\">\n  <div class=\"heading\">SignIn to your account</div>\n  <form class=\"form\" action=\"\">\n    <div class=\"input-field\">\n      <input\n        required=\"\"\n        autocomplete=\"off\"\n        type=\"text\"\n        name=\"text\"\n        id=\"username\"\n      />\n      <label for=\"username\">Full Name</label>\n    </div>\n    <div class=\"input-field\">\n      <input\n        required=\"\"\n        autocomplete=\"off\"\n        type=\"email\"\n        name=\"email\"\n        id=\"email\"\n      />\n      <label for=\"email\">Email</label>\n    </div>\n    <div class=\"input-field\">\n      <input\n        required=\"\"\n        autocomplete=\"off\"\n        type=\"password\"\n        name=\"text\"\n        id=\"password\"\n      />\n      <label for=\"username\">Password</label>\n    </div>\n\n    <div class=\"btn-container\">\n      <button class=\"btn\">Submit</button>\n      <div class=\"acc-text\">\n        New here ?\n        <span style=\"color : #0000ff; cursor : pointer;\">Create Account</span>\n      </div>\n    </div>\n  </form>\n</div>\n\n<style>\n/* From Uiverse.io by Spacious74  - Tags: simple, login, subscription, email, minimalist, form, register, signin */\n.container {\n  border: solid 1px #8d8d8d;\n  padding: 20px;\n  border-radius: 20px;\n  background-color: #fff;\n}\n\n.container .heading {\n  font-size: 1.3rem;\n  margin-bottom: 20px;\n  font-weight: bolder;\n}\n\n.form {\n  max-width: 300px;\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n}\n\n.form .btn-container {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  gap: 20px;\n}\n\n.form .btn {\n  padding: 10px 20px;\n  font-size: 1rem;\n  text-transform: uppercase;\n  letter-spacing: 3px;\n  border-radius: 10px;\n  border: solid 1px #1034aa;\n  border-bottom: solid 1px #90c2ff;\n  background: linear-gradient(135deg, #0034de, #006eff);\n  color: #fff;\n  font-weight: bolder;\n  transition: all 0.2s ease;\n  box-shadow: 0px 2px 3px #000d3848, inset 0px 4px 5px #0070f0,\n    inset 0px -4px 5px #002cbb;\n}\n\n.form .btn:active {\n  box-shadow: inset 0px 4px 5px #0070f0, inset 0px -4px 5px #002cbb;\n  transform: scale(0.995);\n}\n\n.input-field {\n  position: relative;\n}\n\n.input-field label {\n  position: absolute;\n  color: #8d8d8d;\n  pointer-events: none;\n  background-color: transparent;\n  left: 15px;\n  transform: translateY(0.6rem);\n  transition: all 0.3s ease;\n}\n\n.input-field input {\n  padding: 10px 15px;\n  font-size: 1rem;\n  border-radius: 8px;\n  border: solid 1px #8d8d8d;\n  letter-spacing: 1px;\n  width: 100%;\n}\n\n.input-field input:focus,\n.input-field input:valid {\n  outline: none;\n  border: solid 1px #0034de;\n}\n\n.input-field input:focus ~ label,\n.input-field input:valid ~ label {\n  transform: translateY(-51%) translateX(-10px) scale(0.8);\n  background-color: #fff;\n  padding: 0px 5px;\n  color: #0034de;\n  font-weight: bold;\n  letter-spacing: 1px;\n  border: none;\n  border-radius: 100px;\n}\n\n.form .passicon {\n  cursor: pointer;\n  font-size: 1.3rem;\n  position: absolute;\n  top: 6px;\n  right: 8px;\n}\n\n.form .close {\n  display: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

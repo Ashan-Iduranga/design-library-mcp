@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-g4b413l-pretty-crab-95-05b17b",
+  "title": "Loader by G4b413l (pretty-crab-95)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/pretty-crab-95",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/G4b413l_pretty-crab-95.html",
+  "code": "<div class=\"leap-frog\">\n<div class=\"leap-frog__dot\"></div>\n<div class=\"leap-frog__dot\"></div>\n<div class=\"leap-frog__dot\"></div>\n</div>\n<style>\n/* From Uiverse.io by G4b413l - Tags: loader */\n.leap-frog {\n --uib-size: 40px;\n --uib-speed: 2s;\n --uib-color: rgb(37, 37, 149);\n position: relative;\n display: flex;\n align-items: center;\n justify-content: space-between;\n width: var(--uib-size);\n height: var(--uib-size);\n}\n\n.leap-frog__dot {\n position: absolute;\n top: 0;\n left: 0;\n display: flex;\n align-items: center;\n justify-content: flex-start;\n width: 100%;\n height: 100%;\n}\n\n.leap-frog__dot::before {\n content: '';\n display: block;\n height: calc(var(--uib-size) * 0.22);\n width: calc(var(--uib-size) * 0.22);\n border-radius: 50%;\n background-color: var(--uib-color);\n will-change: transform;\n}\n\n.leap-frog__dot:nth-child(1) {\n animation: leapFrog var(--uib-speed) ease infinite;\n}\n\n.leap-frog__dot:nth-child(2) {\n transform: translateX(calc(var(--uib-size) * 0.4));\n animation: leapFrog var(--uib-speed) ease calc(var(--uib-speed) / -1.5)\n    infinite;\n}\n\n.leap-frog__dot:nth-child(3) {\n transform: translateX(calc(var(--uib-size) * 0.8)) rotate(0deg);\n animation: leapFrog var(--uib-speed) ease calc(var(--uib-speed) / -3)\n    infinite;\n}\n\n@keyframes leapFrog {\n 0% {\n  transform: translateX(0) rotate(0deg);\n }\n\n 33.333% {\n  transform: translateX(0) rotate(180deg);\n }\n\n 66.666% {\n  transform: translateX(calc(var(--uib-size) * -0.4)) rotate(180deg);\n }\n\n 99.999% {\n  transform: translateX(calc(var(--uib-size) * -0.8)) rotate(180deg);\n }\n\n 100% {\n  transform: translateX(0) rotate(0deg);\n }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

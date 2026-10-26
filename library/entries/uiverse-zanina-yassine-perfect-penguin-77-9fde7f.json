@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-zanina-yassine-perfect-penguin-77-9fde7f",
+  "title": "Button by zanina-yassine (perfect-penguin-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/zanina-yassine/perfect-penguin-77",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "blue",
+    "minimalist",
+    "gradient",
+    "hover",
+    "rounded",
+    "dark",
+    "glow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By zanina-yassine on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/zanina-yassine_perfect-penguin-77.html",
+  "code": "<button class=\"button\">Sign Up</button>\n\n<style>\n/* From Uiverse.io by zanina-yassine  - Tags: blue, minimalist, gradient, button, hover, rounded, dark, glow */\n.button {\n  min-width: 120px;\n\n  position: relative;\n  cursor: pointer;\n\n  padding: 12px 17px;\n  border: 0;\n  border-radius: 7px;\n\n  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);\n  background: radial-gradient(\n    ellipse at bottom,\n    rgba(71, 81, 92, 1) 0%,\n    rgba(11, 21, 30, 1) 45%\n  );\n\n  color: rgb(255, 255, 255, 0.66);\n\n  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);\n}\n\n.button::before {\n  content: \"\";\n  width: 70%;\n  height: 1px;\n\n  position: absolute;\n  bottom: 0;\n  left: 15%;\n\n  background: rgb(255, 255, 255);\n  background: linear-gradient(\n    90deg,\n    rgba(255, 255, 255, 0) 0%,\n    rgba(255, 255, 255, 1) 50%,\n    rgba(255, 255, 255, 0) 100%\n  );\n  opacity: 0.2;\n\n  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);\n}\n\n.button:hover {\n  color: rgb(255, 255, 255, 1);\n  transform: scale(1.1) translateY(-3px);\n}\n\n.button:hover::before {\n  opacity: 1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

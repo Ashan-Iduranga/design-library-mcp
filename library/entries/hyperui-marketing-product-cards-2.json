@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-marketing-product-cards-2",
+  "title": "Product Cards: Product with image, title, price and variant count",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/product-cards",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "marketing",
+    "product-cards",
+    "hyperui",
+    "card",
+    "ecommerce"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/product-cards/2.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<a class=\"group block overflow-hidden\" href=\"#\">\n<div class=\"relative h-87.5 sm:h-112.5\">\n<img alt=\"\" class=\"absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0\" src=\"https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&amp;fit=crop&amp;q=80&amp;w=1160\"/>\n<img alt=\"\" class=\"absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100\" src=\"https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?auto=format&amp;fit=crop&amp;q=80&amp;w=1160\"/>\n</div>\n<div class=\"relative bg-white pt-3\">\n<h3 class=\"text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4\">\n          Limited Edition Sports Trainer\n        </h3>\n<div class=\"mt-1.5 flex items-center justify-between text-gray-900\">\n<p class=\"tracking-wide\">$189.99</p>\n<p class=\"text-xs tracking-wide uppercase\">6 Colors</p>\n</div>\n</div>\n</a>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

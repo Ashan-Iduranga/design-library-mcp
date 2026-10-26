@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-kbd-button",
+  "title": "Kbd Button (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/kbd-button.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "kbd",
+    "button",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Used to display textual user input from keyboard.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/kbd-button.tsx",
+  "code": "import { Button } from \"@/registry/new-york-v4/ui/button\"\nimport { Kbd } from \"@/registry/new-york-v4/ui/kbd\"\n\nexport default function KbdButton() {\n  return (\n    <div className=\"flex flex-wrap items-center gap-4\">\n      <Button variant=\"outline\" size=\"sm\" className=\"pr-2\">\n        Accept <Kbd>⏎</Kbd>\n      </Button>\n      <Button variant=\"outline\" size=\"sm\" className=\"pr-2\">\n        Cancel <Kbd>Esc</Kbd>\n      </Button>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

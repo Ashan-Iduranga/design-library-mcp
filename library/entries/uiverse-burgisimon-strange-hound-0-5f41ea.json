@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-burgisimon-strange-hound-0-5f41ea",
+  "title": "Button by BurgiSimon (strange-hound-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/BurgiSimon/strange-hound-0",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "flashy",
+    "3d",
+    "white",
+    "gradient",
+    "hover",
+    "smooth",
+    "neon"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By BurgiSimon on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/BurgiSimon_strange-hound-0.html",
+  "code": "<div class=\"div\">\n  <button class=\"button\">\n    <span class=\"span\"> HOVER ME </span>\n  </button>\n</div>\n\n<style>\n/* From Uiverse.io by BurgiSimon  - Tags: flashy, 3d, white, gradient, button, hover, smooth, neon */\n.button {\n  cursor: pointer;\n  padding: 10px 20px;\n  border-radius: 20px;\n  background-color: #e8e8e8;\n  border: 1.6px solid #e2e2e2;\n  box-shadow: 6px 6px 10px #c5c5c5, -6px -6px 12px #ffffff;\n  transform: skewX(-5deg);\n  position: relative;\n  overflow: hidden;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: -4px;\n  left: -4px;\n  right: -4px;\n  bottom: -4px;\n  z-index: -1;\n  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);\n  background-size: 400%;\n  border-radius: 30px;\n  opacity: 0;\n  transition: opacity 0.5s, filter 0.5s;\n}\n\n.button:hover::before {\n  filter: blur(10px);\n  opacity: 1;\n  animation: animateBorder 8s linear infinite;\n  border: 4px solid rgb(255, 255, 255);\n}\n\n@keyframes animateBorder {\n  0% {\n    background-position: 0%;\n  }\n  100% {\n    background-position: 400%;\n  }\n}\n\n.span {\n  color: black;\n  letter-spacing: 3px;\n  font-size: 18px;\n}\n\n.button:active {\n  box-shadow: 5px 5px 12px #cfcece, -4px -4px 12px #fcfcfc;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

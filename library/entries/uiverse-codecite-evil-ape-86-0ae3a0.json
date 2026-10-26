@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-codecite-evil-ape-86-0ae3a0",
+  "title": "Button by Codecite (evil-ape-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Codecite/evil-ape-86",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "copy"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Codecite on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Codecite_evil-ape-86.html",
+  "code": "<div class=\"icon-conatiner\">\n    \n    <svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" viewBox=\"0 0 19 21\" height=\"21px\" width=\"19px\">\n      <title>Group</title>\n      <g fill-rule=\"evenodd\" fill=\"none\" stroke-width=\"1\" stroke=\"none\" id=\"Page-1\">\n        <g transform=\"translate(-142.000000, -122.000000)\" id=\"Artboard\">\n          <g transform=\"translate(142.000000, 122.000000)\" id=\"Group\">\n            <path fill=\"#C4FFE4\" id=\"Rectangle-Copy\" d=\"M3.4,4 L11.5,4 L11.5,4 L16,8.25 L16,17.6 C16,19.4777681 14.4777681,21 12.6,21 L3.4,21 C1.52223185,21 6.74049485e-16,19.4777681 0,17.6 L0,7.4 C2.14128934e-16,5.52223185 1.52223185,4 3.4,4 Z\"></path>\n            <path fill=\"#85EBBC\" id=\"Rectangle\" d=\"M6.4,0 L12,0 L12,0 L19,6.5 L19,14.6 C19,16.4777681 17.4777681,18 15.6,18 L6.4,18 C4.52223185,18 3,16.4777681 3,14.6 L3,3.4 C3,1.52223185 4.52223185,7.89029623e-16 6.4,0 Z\"></path>\n            <path fill=\"#64B18D\" id=\"Path-2\" d=\"M12,0 L12,5.5 C12,6.05228475 12.4477153,6.5 13,6.5 L19,6.5 L19,6.5 L12,0 Z\"></path>\n          </g>\n        </g>\n      </g>\n    </svg>\n    <svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" viewBox=\"0 0 19 21\" height=\"21px\" width=\"19px\">\n      <title>Group</title>\n      <g fill-rule=\"evenodd\" fill=\"none\" stroke-width=\"1\" stroke=\"none\" id=\"Page-1\">\n        <g transform=\"translate(-142.000000, -122.000000)\" id=\"Artboard\">\n          <g transform=\"translate(142.000000, 122.000000)\" id=\"Group\">\n            <path fill=\"#C4FFE4\" id=\"Rectangle-Copy\" d=\"M3.4,4 L11.5,4 L11.5,4 L16,8.25 L16,17.6 C16,19.4777681 14.4777681,21 12.6,21 L3.4,21 C1.52223185,21 6.74049485e-16,19.4777681 0,17.6 L0,7.4 C2.14128934e-16,5.52223185 1.52223185,4 3.4,4 Z\"></path>\n            <path fill=\"#85EBBC\" id=\"Rectangle\" d=\"M6.4,0 L12,0 L12,0 L19,6.5 L19,14.6 C19,16.4777681 17.4777681,18 15.6,18 L6.4,18 C4.52223185,18 3,16.4777681 3,14.6 L3,3.4 C3,1.52223185 4.52223185,7.89029623e-16 6.4,0 Z\"></path>\n            <path fill=\"#64B18D\" id=\"Path-2\" d=\"M12,0 L12,5.5 C12,6.05228475 12.4477153,6.5 13,6.5 L19,6.5 L19,6.5 L12,0 Z\"></path>\n          </g>\n        </g>\n      </g>\n    </svg>\n  </div>\n<div class=\"text\">long press me</div>\n<style>\n/* From Uiverse.io by Codecite - Tags: icon, button, copy */\n.icon-conatiner {\n  position: relative;\n  width: 150px;\n  height: 150px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: #fff;\n  border-radius: 15px;\n  box-shadow: 20px 20px 15px 0 #ababab4d;\n  cursor: pointer;\n}\n\n.icon-conatiner svg {\n  width: 50px;\n  height: auto;\n}\n\n.icon-conatiner svg:last-child {\n  position: absolute;\n}\n\n.icon-conatiner:active {\n  animation: press 0.2s 1 linear;\n}\n\n.icon-conatiner:active svg:last-child {\n  animation: bounce 0.2s 1 linear;\n}\n\n.text {\n  color: #666;\n  font-family: sans-serif;\n  font-size: 16px;\n  font-weight: bold;\n  margin-top: 20px;\n  user-select: none;\n}\n\n@keyframes press {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(0.92);\n  }\n\n  to {\n    transform: scale(1);\n  }\n}\n\n@keyframes bounce {\n  50% {\n    transform: rotate(5deg) translate(20px, -50px);\n  }\n\n  to {\n    transform: scale(0.9) rotate(10deg) translate(50px, -80px);\n    opacity: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-dividers-6",
+  "title": "Dividers: Right align gradient",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/dividers",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "dividers",
+    "hyperui",
+    "layout",
+    "separator"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/dividers/6.html",
+  "code": "<div class=\"mx-auto max-w-3xl p-6\">\n<span class=\"flex items-center\">\n<span class=\"h-px flex-1 bg-linear-to-r from-transparent to-gray-300\"></span>\n<span class=\"shrink-0 ps-4 text-gray-900\">Title goes here</span>\n</span>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

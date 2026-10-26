@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-input-with-text",
+  "title": "Input With Text (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/input-with-text.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "input",
+    "with",
+    "text",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A text input component for forms and user data entry with built-in styling and accessibility features.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/input-with-text.tsx",
+  "code": "import { Input } from \"@/registry/new-york-v4/ui/input\"\nimport { Label } from \"@/registry/new-york-v4/ui/label\"\n\nexport default function InputWithText() {\n  return (\n    <div className=\"grid w-full max-w-sm items-center gap-3\">\n      <Label htmlFor=\"email-2\">Email</Label>\n      <Input type=\"email\" id=\"email-2\" placeholder=\"Email\" />\n      <p className=\"text-sm text-muted-foreground\">Enter your email address.</p>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

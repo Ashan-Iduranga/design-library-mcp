@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-eddybel-jolly-monkey-87-6f55d0",
+  "title": "Loader by EddyBel (jolly-monkey-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/EddyBel/jolly-monkey-87",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By EddyBel on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/EddyBel_jolly-monkey-87.html",
+  "code": "<div class=\"loader\">\n  <div class=\"loader__circle\"></div>\n  <div class=\"loader__circle\"></div>\n  <div class=\"loader__circle\"></div>\n  <div class=\"loader__circle\"></div>\n  <div class=\"loader__circle\"></div>\n</div>\n<style>\n/* From Uiverse.io by EddyBel - Tags: loader */\n.loader {\n  position: relative;\n  display: flex;\n  gap: 0.3em;\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 2em;\n  filter: blur(45px);\n  background-color: #e299ff;\n  background-image: radial-gradient(at 52% 57%, hsla(11,83%,72%,1) 0px, transparent 50%),\n  radial-gradient(at 37% 57%, hsla(175,78%,66%,1) 0px, transparent 50%);\n}\n\n.loader__circle {\n  --size__loader: 0.6em;\n  width: var(--size__loader);\n  height: var(--size__loader);\n  border-radius: 50%;\n  animation: loader__circle__jumping 2s infinite;\n  background-color: #b499ff;\n}\n\n.loader__circle:nth-child(2n) {\n  animation-delay: 300ms;\n  background-color: #e499ff;\n}\n\n.loader__circle:nth-child(3n) {\n  animation-delay: 600ms;\n}\n\n@keyframes loader__circle__jumping {\n  0%, 100% {\n    transform: translateY(0px);\n  }\n\n  25% {\n    transform: translateY(-15px) scale(0.5);\n  }\n\n  50% {\n    transform: translateY(0px);\n  }\n\n  75% {\n    transform: translateY(5px) scale(0.9);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mike11jr-ancient-mule-46-0b2c60",
+  "title": "Loader by Mike11jr (ancient-mule-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Mike11jr/ancient-mule-46",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Mike11jr on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Mike11jr_ancient-mule-46.html",
+  "code": "<div class=\"spinner\">\n<div class=\"dot1\"></div>\n<div class=\"dot2\"></div>\n<div class=\"dot3\"></div>\n</div>\n<style>\n/* From Uiverse.io by Mike11jr - Tags: loader */\n.spinner {\n flex-direction: row;\n display: flex;\n align-items: center;\n justify-content: center;\n}\n\n.dot1, .dot2, .dot3 {\n width: 15px;\n height: 15px;\n border: double;\n border-color: white;\n border-radius: 50%;\n margin: 10px;\n}\n\n.dot1 {\n animation: jump765 1.6s -0.32s linear infinite;\n background: #2495ff;\n}\n\n.dot2 {\n animation: jump765 1.6s -0.16s linear infinite;\n background: #2495ff;\n}\n\n.dot3 {\n animation: jump765 1.6s linear infinite;\n background: #2495ff;\n}\n\n@keyframes jump765 {\n 0%, 80%, 100% {\n  -webkit-transform: scale(0);\n  transform: scale(0);\n }\n\n 40% {\n  -webkit-transform: scale(2.0);\n  transform: scale(2.0);\n }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

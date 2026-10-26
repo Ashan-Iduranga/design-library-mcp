@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-victan78-serious-gecko-84-d28517",
+  "title": "Loader by Victan78 (serious-gecko-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Victan78/serious-gecko-84",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Victan78 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Victan78_serious-gecko-84.html",
+  "code": "<div class=\"loader\"></div>\n<div class=\"loader2\"></div>\n<style>\n/* From Uiverse.io by Victan78 - Tags: loader */\n.loader {\n  width: 100px;\n  height: 100px;\n  border: solid 4px rgba(231, 231, 231, 0);\n  border-top: solid 5px rgb(241, 68, 68);\n  border-radius: 50%;\n  transition: all 0.5s;\n  animation: rotation_51512 1.2s infinite cubic-bezier(0.785, 0.135, 0.15, 0.86);\n}\n\n@keyframes rotation_51512 {\n  70% {\n    box-shadow: 0px 0px 10px 50px rgba(241, 57, 57, 0.526);\n  }\n\n  90% {\n    box-shadow: 0px 0px 10px 50px rgba(241, 57, 57, 0.04);\n  }\n\n  100% {\n    opacity: 0.5;\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

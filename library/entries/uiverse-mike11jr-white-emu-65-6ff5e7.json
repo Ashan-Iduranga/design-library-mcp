@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mike11jr-white-emu-65-6ff5e7",
+  "title": "Button by Mike11jr (white-emu-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Mike11jr/white-emu-65",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Mike11jr on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Mike11jr_white-emu-65.html",
+  "code": "<button class=\"btn\"> Hover Me!\n</button>\n<style>\n/* From Uiverse.io by Mike11jr - Tags: button */\n.btn {\n padding: 0.9em 1.9em;\n font-size: 16px;\n border: none;\n background: #6285f8;\n color: white;\n cursor: pointer;\n position: relative;\n z-index: 1;\n}\n\n.btn:hover {\n color: rgb(255, 255, 255);\n}\n\n.btn::before,.btn::after {\n content: \"\";\n position: absolute;\n top: 0%;\n left: 0%;\n width: 100%;\n height: 100%;\n background: rgba(128, 128, 128, 0.096);\n backdrop-filter: blur(10px);\n z-index: -1;\n transition: all 0.4s;\n}\n\n.btn::after {\n z-index: -2;\n transition: all 0.4s;\n}\n\n.btn:hover::before {\n background: rgb(0, 0, 0, 0.315);\n border-radius: 10px;\n}\n\n.btn:hover::after {\n background: linear-gradient(to right, #cb6ce6, #38b6ff);\n border-radius: 10px;\n transform: scale(1.07, 1.2) rotateX(180deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

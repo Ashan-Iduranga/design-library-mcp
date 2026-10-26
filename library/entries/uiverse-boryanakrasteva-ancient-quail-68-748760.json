@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-boryanakrasteva-ancient-quail-68-748760",
+  "title": "Loader by boryanakrasteva (ancient-quail-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/boryanakrasteva/ancient-quail-68",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By boryanakrasteva on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/boryanakrasteva_ancient-quail-68.html",
+  "code": "<div class=\"honeycomb\">\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n</div>\n<style>\n/* From Uiverse.io by boryanakrasteva - Tags: loader */\n@-webkit-keyframes honeycomb {\n  0%,\n  20%,\n  80%,\n  100% {\n    opacity: 0;\n    -webkit-transform: scale(0);\n    transform: scale(0);\n  }\n\n  30%,\n  70% {\n    opacity: 1;\n    -webkit-transform: scale(1);\n    transform: scale(1);\n  }\n}\n\n@keyframes honeycomb {\n  0%,\n  20%,\n  80%,\n  100% {\n    opacity: 0;\n    -webkit-transform: scale(0);\n    transform: scale(0);\n  }\n\n  30%,\n  70% {\n    opacity: 1;\n    -webkit-transform: scale(1);\n    transform: scale(1);\n  }\n}\n\n.honeycomb {\n  height: 24px;\n  position: relative;\n  width: 24px;\n}\n\n.honeycomb div {\n  -webkit-animation: honeycomb 2.1s infinite backwards;\n  animation: honeycomb 2.1s infinite backwards;\n  background: #f3f3f3;\n  height: 12px;\n  margin-top: 6px;\n  position: absolute;\n  width: 24px;\n}\n\n.honeycomb div:after, .honeycomb div:before {\n  content: '';\n  border-left: 12px solid transparent;\n  border-right: 12px solid transparent;\n  position: absolute;\n  left: 0;\n  right: 0;\n}\n\n.honeycomb div:after {\n  top: -6px;\n  border-bottom: 6px solid #f3f3f3;\n}\n\n.honeycomb div:before {\n  bottom: -6px;\n  border-top: 6px solid #f3f3f3;\n}\n\n.honeycomb div:nth-child(1) {\n  -webkit-animation-delay: 0s;\n  animation-delay: 0s;\n  left: -28px;\n  top: 0;\n}\n\n.honeycomb div:nth-child(2) {\n  -webkit-animation-delay: 0.1s;\n  animation-delay: 0.1s;\n  left: -14px;\n  top: 22px;\n}\n\n.honeycomb div:nth-child(3) {\n  -webkit-animation-delay: 0.2s;\n  animation-delay: 0.2s;\n  left: 14px;\n  top: 22px;\n}\n\n.honeycomb div:nth-child(4) {\n  -webkit-animation-delay: 0.3s;\n  animation-delay: 0.3s;\n  left: 28px;\n  top: 0;\n}\n\n.honeycomb div:nth-child(5) {\n  -webkit-animation-delay: 0.4s;\n  animation-delay: 0.4s;\n  left: 14px;\n  top: -22px;\n}\n\n.honeycomb div:nth-child(6) {\n  -webkit-animation-delay: 0.5s;\n  animation-delay: 0.5s;\n  left: -14px;\n  top: -22px;\n}\n\n.honeycomb div:nth-child(7) {\n  -webkit-animation-delay: 0.6s;\n  animation-delay: 0.6s;\n  left: 0;\n  top: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

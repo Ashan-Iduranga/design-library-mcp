@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ercnersoy-spicy-turkey-3-fe4736",
+  "title": "Button by ercnersoy (spicy-turkey-3)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ercnersoy/spicy-turkey-3",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ercnersoy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ercnersoy_spicy-turkey-3.html",
+  "code": "<button> hover me!\n</button>\n<style>\n/* From Uiverse.io by ercnersoy - Tags: button */\nbutton {\n padding: 1rem 2rem;\n border: 0;\n box-shadow: 0px 0px 40px 0px red;\n font-weight: bolder;\n color: white;\n border-radius: 0.3rem;\n background-color: red;\n letter-spacing: .2rem;\n}\n\nbutton:hover {\n animation: changeBg 1s infinite;\n -webkit-animation-duration: 10s;\n}\n\n@keyframes changeBg {\n 0%,\n\t100% {\n  box-shadow: 0px 0px 40px 0px red;\n }\n\n 25% {\n  box-shadow: 0px 0px 40px 0px turquoise;\n  background-color: turquoise;\n }\n\n 50% {\n  box-shadow: 0px 0px 40px 0px purple;\n  background-color: purple;\n }\n\n 75% {\n  box-shadow: 0px 0px 40px 0px rgb(191, 204, 11);\n  background-color: rgb(191, 204, 11);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

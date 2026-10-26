@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mrcool7-rotten-yak-63-e0de95",
+  "title": "Button by mRcOol7 (rotten-yak-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mRcOol7/rotten-yak-63",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "#button",
+    "button-hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mRcOol7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mRcOol7_rotten-yak-63.html",
+  "code": "<button\n  aria-label=\"Send Message\"\n  class=\"button relative overflow-hidden flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 border border-transparent rounded-full shadow-lg text-white cursor-pointer transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-opacity-50 focus:scale-105 active:scale-95\"\n>\n  <div class=\"ripple\"></div>\n  <svg\n    class=\"relative w-12 h-12 mr-2 z-10 transition-transform duration-300 ease-in-out transform hover:rotate-12 shadow-sm transition-colors duration-300 ease-in-out\"\n    preserveAspectRatio=\"xMidYMid meet\"\n    viewBox=\"0 0 36.000000 75.000000\"\n    height=\"80pt\"\n    width=\"80pt\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    version=\"1.0\"\n  >\n    <g\n      stroke=\"none\"\n      fill=\"#ffffff\"\n      transform=\"translate(0.000000,75.000000) scale(0.100000,-0.100000)\"\n    >\n      <path\n        d=\"M188 481 c-42 -15 -84 -34 -93 -41 -27 -22 -14 -53 31 -74 30 -14 46  -30 60 -60 23 -50 55 -59 78 -24 24 36 56 137 56 174 0 23 -6 37 -19 44 -25 13 -23 13 -113 -19z m110 -20 c4 -28 -37 -158 -55 -173 -17 -14 -39 4 -48 39 -4 19 0 35 14 54 30 41 26 47 -9 14 -30 -29 -30 -29 -65 -12 -58 28 -47 42 65 81 41 14 80 24 85 22 6 -1 11 -13 13 -25z\"\n      ></path>\n    </g>\n  </svg>\n  <svg\n    class=\"relative w-8 h-8 mr-2 z-10 transition-transform duration-300 ease-in-out transform hover:rotate-12 shadow-sm transition-colors duration-300 ease-in-out\"\n    preserveAspectRatio=\"xMidYMid meet\"\n    viewBox=\"0 0 36.000000 75.000000\"\n    height=\"80pt\"\n    width=\"80pt\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    version=\"1.0\"\n  >\n    <g\n      stroke=\"none\"\n      fill=\"#ffffff\"\n      transform=\"translate(0.000000,75.000000) scale(0.100000,-0.100000)\"\n    >\n      <path\n        d=\"M100 300 l0 -300 30 0 30 0 0 300 0 300 -30 0 -30 0 0 -300z\"\n      ></path>\n    </g>\n  </svg>\n  <span\n    class=\"relative z-10 font-semibold text-lg transition-all duration-300 ease-in-out\"\n    >Send Message</span\n  >\n</button>\n\n<style>\n/* From Uiverse.io by mRcOol7  - Tags: button, #button, button hover effect  */\n.button {\n  position: relative;\n  display: flex;\n  align-items: center;\n  padding: 0.75rem 1.5rem;\n  background: linear-gradient(to right, #3b82f6, #9333ea);\n  border: none;\n  border-radius: 9999px;\n  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);\n  color: white;\n  cursor: pointer;\n  overflow: hidden;\n  transition: all 0.3s ease-in-out;\n}\n\n.button:hover {\n  transform: scale(1.05);\n  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);\n}\n\n.button:active {\n  transform: scale(0.95);\n}\n\n.button:focus {\n  outline: none;\n  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);\n}\n\n.button svg {\n  width: 3rem;\n  height: 3rem;\n  margin-right: 0.5rem;\n  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;\n}\n\n.button:hover svg {\n  transform: rotate(20deg) scale(1.1);\n  filter: drop-shadow(0 0 10px #ffd700);\n}\n\n.button span {\n  font-size: 1.125rem;\n  font-weight: 600;\n  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out,\n    text-shadow 0.3s ease-in-out;\n}\n\n.button:hover span {\n  color: #ffd700;\n  text-shadow: 0 0 10px #ffd700;\n}\n\n.button .text-md {\n  font-size: 1rem;\n  margin-left: 0.5rem;\n  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out,\n    text-shadow 0.3s ease-in-out;\n}\n\n.button:hover .text-md {\n  color: #ffd700;\n  text-shadow: 0 0 10px #ffd700;\n}\n\n.ripple {\n  position: absolute;\n  border-radius: 50%;\n  background: rgba(255, 255, 255, 0.6);\n  animation: ripple 1s linear infinite;\n  pointer-events: none;\n}\n\n.button:active .ripple {\n  animation: ripple-on-click 0.6s linear;\n}\n\n@keyframes ripple {\n  0% {\n    transform: scale(0);\n    opacity: 1;\n  }\n  100% {\n    transform: scale(4);\n    opacity: 0;\n  }\n}\n\n@keyframes ripple-on-click {\n  0% {\n    transform: scale(0);\n    opacity: 1;\n  }\n  100% {\n    transform: scale(4);\n    opacity: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-abassj1-popular-panda-42-512a10",
+  "title": "Button by abassj1 (popular-panda-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/abassj1/popular-panda-42",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By abassj1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/abassj1_popular-panda-42.html",
+  "code": "<button class=\"button\"> Button\n</button>\n<style>\n/* From Uiverse.io by abassj1 - Tags: button */\n/* Modified code from @gagan-gv */\n.button {\n padding: 1em 2em;\n font-size: 17px;\n background: transparent;\n border: none;\n position: relative;\n color: yellow;\n z-index: 1;\n}\n\n.button::after,\n .button::before {\n content: '';\n position: absolute;\n bottom: 0;\n right: 0;\n z-index: -99999;\n transition: all .4s;\n}\n\n.button::before {\n transform: translate(0%, 0%);\n width: 100%;\n height: 100%;\n background: darkslategray;\n border-radius: 50px;\n}\n\n.button::after {\n transform: translate(0px, 0px);\n width: 10px;\n height: 10px;\n background: #ffffff15;\n backdrop-filter: blur(5px);\n border-radius: 50px;\n}\n\n.button:hover::before {\n transform: translate(5%, 20%);\n width: 10px;\n height: 10px;\n}\n\n.button:hover::after {\n border-radius: 50px;\n transform: translate(0, 0);\n width: 100%;\n height: 100%;\n}\n\n.button:active::after {\n transition: 0s;\n transform: translate(0, 5%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

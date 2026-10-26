@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-quick-fox-3-feb78d",
+  "title": "Loader by Shoh2008 (quick-fox-3)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/quick-fox-3",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_quick-fox-3.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 8px;\n  height: 8px;\n  position: relative;\n  border-radius: 50%;\n  background: #fff;\n  animation: wave_14 1s ease-in infinite;\n}\n\n@keyframes wave_14 {\n  0% {\n    box-shadow: 0 0 0 0px rgba(255, 255,255, 1),\n  0 0 0 20px rgba(255, 255,255, 0.2),\n  0 0 0 40px rgba(255, 255,255, 0.6),\n  0 0 0 60px rgba(255, 255,255, 0.4),\n  0 0 0 80px rgba(255, 255,255, 0.2)\n  }\n\n  100% {\n    box-shadow: 0 0 0 80px rgba(255, 255,255, 0),\n    0 0 0 60px rgba(255, 255,255, 0.2),\n    0 0 0 40px rgba(255, 255,255, 0.4),\n    0 0 0 20px rgba(255, 255,255, 0.6),\n    0 0 0 0px rgba(255, 255,255, 1)\n  }\n}\n\n\n  \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

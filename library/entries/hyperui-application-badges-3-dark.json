@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-application-badges-3-dark",
+  "title": "Badges: Base with dismiss (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/badges",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "badges",
+    "hyperui",
+    "alert",
+    "status",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Removable badges with close button for tags and filters\n\nOriginal file: https://github.com/markmead/hyperui/blob/main/public/examples/application/badges/3-dark.html",
+  "code": "<div class=\"flex flex-wrap justify-center gap-4 p-6\">\n<span class=\"inline-flex items-center justify-center rounded-full bg-purple-100 px-2.5 py-0.5 text-purple-700 dark:bg-purple-700 dark:text-purple-100\">\n<p class=\"text-sm whitespace-nowrap\">Euro</p>\n<button class=\"ms-1.5 -me-1 inline-block rounded-full bg-purple-200 p-0.5 text-purple-700 transition hover:bg-purple-300 dark:bg-purple-800 dark:text-purple-100 dark:hover:bg-purple-900\">\n<span class=\"sr-only\">Remove badge</span>\n<svg aria-hidden=\"true\" class=\"size-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6 18L18 6M6 6l12 12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n</button>\n</span>\n<span class=\"inline-flex items-center justify-center rounded-full border border-purple-500 px-2.5 py-0.5 text-purple-700 dark:text-purple-100\">\n<p class=\"text-sm whitespace-nowrap\">Euro</p>\n<button class=\"ms-1.5 -me-1 inline-block rounded-full bg-purple-200 p-0.5 text-purple-700 transition hover:bg-purple-300 dark:bg-purple-800 dark:text-purple-100 dark:hover:bg-purple-900\">\n<span class=\"sr-only\">Remove badge</span>\n<svg aria-hidden=\"true\" class=\"size-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6 18L18 6M6 6l12 12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n</button>\n</span>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

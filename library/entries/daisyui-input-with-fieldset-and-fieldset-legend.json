@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-input-with-fieldset-and-fieldset-legend",
+  "title": "Text Input: With fieldset and fieldset-legend (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/input/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Text Input is a simple input field.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/input/+page.md",
+  "code": "<fieldset class=\"fieldset\">\n  <legend class=\"fieldset-legend\">What is your name?</legend>\n  <input type=\"text\" class=\"input\" placeholder=\"Type here\" />\n  <p class=\"label\">Optional</p>\n</fieldset>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

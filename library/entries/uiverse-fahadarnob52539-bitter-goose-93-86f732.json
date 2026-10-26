@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-fahadarnob52539-bitter-goose-93-86f732",
+  "title": "Form by FahadArnob52539 (bitter-goose-93)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/FahadArnob52539/bitter-goose-93",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "html",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By FahadArnob52539 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/FahadArnob52539_bitter-goose-93.html",
+  "code": "<div class=\"login\">\n  <div class=\"hader\">\n    <span>Join us today!</span>\n    <p>Sing up now to become a member.</p>\n  </div>\n  <form action=\"#\">\n    <input type=\"text\" placeholder=\"Enter Name\" required=\"\" />\n    <input type=\"email\" placeholder=\"Enter Emaill\" required=\"\" />\n    <input type=\"password\" placeholder=\"Choose A Password\" required=\"\" />\n    <input type=\"password\" placeholder=\"Re-Enter Password\" required=\"\" />\n    <input type=\"button\" value=\"Signup\" />\n    <span> Already a member? <a href=\"#\">Login Here</a></span>\n  </form>\n</div>\n\n<style>\n/* From Uiverse.io by FahadArnob52539  - Tags: form, html, css */\n.login {\n  max-width: 280px;\n  background-color: #ffffff;\n  border-radius: 5px;\n}\n.hader {\n  text-align: center;\n  font-size: 22px;\n  font-weight: 700;\n}\n.hader p {\n  text-align: center;\n  font-size: 18px;\n  font-weight: 400;\n  color: #706b6b;\n}\nform {\n  display: flex;\n  flex-direction: column;\n  gap: 15px;\n  margin-top: 20px;\n}\nform input {\n  height: 40px;\n  outline: none;\n  border: 1px solid #cccccc;\n  padding: 10px;\n  font-size: 15px;\n  border-radius: 8px;\n}\nform input[type=\"button\"] {\n  background-color: rgba(17, 17, 226, 0.562);\n  color: #ffffff;\n  font-size: 17px;\n}\nform span {\n  text-align: center;\n  font-size: 16px;\n  padding-top: 10px;\n  color: #706b6b;\n}\nform span a {\n  text-decoration: none;\n  color: rgba(36, 36, 207, 0.671);\n  font-weight: 500;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

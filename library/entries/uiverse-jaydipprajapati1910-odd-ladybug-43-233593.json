@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-jaydipprajapati1910-odd-ladybug-43-233593",
+  "title": "Loader by JaydipPrajapati1910 (odd-ladybug-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/odd-ladybug-43",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "loading",
+    "animated",
+    "circle-loader",
+    "loader-circle"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JaydipPrajapati1910_odd-ladybug-43.html",
+  "code": "<div class=\"spinner\">\n  <div class=\"outer\">\n    <div class=\"inner tl\"></div>\n    <div class=\"inner tr\"></div>\n    <div class=\"inner br\"></div>\n    <div class=\"inner bl\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, loading, loader, animated, circle loader, loader circle */\n.spinner {\n  position: absolute;\n  width: 128px;\n  height: 128px;\n  top: calc(50% - 64px);\n  left: calc(50% - 64px);\n  transform: perspective(206px) rotateX(45deg);\n}\n\n.outer {\n  box-sizing: border-box;\n  animation: spin 3s linear infinite;\n  height: 100%;\n}\n\n.inner {\n  position: absolute;\n  border-radius: 50%;\n  width: 64px;\n  height: 64px;\n}\n\n.tl {\n  top: 0;\n  left: 0;\n  border-top: 8px solid red;\n  border-left: 10px solid red;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.tr {\n  top: 0;\n  right: 0;\n  border-top: 8px solid #0575E6;\n  border-right: 10px solid #0575E6;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.br {\n  bottom: 0;\n  right: 0;\n  border-bottom: 8px solid  #00F260;\n  border-right: 10px solid  #00F260;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.bl {\n  bottom: 0;\n  left: 0;\n  border-bottom: 8px solid  #e9e93e;\n  border-left: 10x solid #e9e93e;\n  animation: spin 1s ease-in-out infinite;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

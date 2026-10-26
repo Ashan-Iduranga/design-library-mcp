@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-toggle-with-text",
+  "title": "Toggle With Text (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/toggle-with-text.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "toggle",
+    "with",
+    "text",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A two-state button that can be either on or off.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/toggle-with-text.tsx",
+  "code": "import { Italic } from \"lucide-react\"\n\nimport { Toggle } from \"@/registry/new-york-v4/ui/toggle\"\n\nexport default function ToggleWithText() {\n  return (\n    <Toggle aria-label=\"Toggle italic\">\n      <Italic />\n      Italic\n    </Toggle>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-cssbuttons-io-funny-dog-69-4b84f3",
+  "title": "Button by cssbuttons-io (funny-dog-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cssbuttons-io/funny-dog-69",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "glow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cssbuttons-io on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/cssbuttons-io_funny-dog-69.html",
+  "code": "<button> Button\n</button>\n<style>\n/* From Uiverse.io by cssbuttons-io - Tags: button, glow */\nbutton {\n --glow-color: rgb(217, 176, 255);\n --glow-spread-color: rgba(191, 123, 255, 0.781);\n --enhanced-glow-color: rgb(231, 206, 255);\n --btn-color: rgb(100, 61, 136);\n border: .25em solid var(--glow-color);\n padding: 1em 3em;\n color: var(--glow-color);\n font-size: 15px;\n font-weight: bold;\n background-color: var(--btn-color);\n border-radius: 1em;\n outline: none;\n box-shadow: 0 0 1em .25em var(--glow-color),\n        0 0 4em 1em var(--glow-spread-color),\n        inset 0 0 .75em .25em var(--glow-color);\n text-shadow: 0 0 .5em var(--glow-color);\n position: relative;\n transition: all 0.3s;\n}\n\nbutton::after {\n pointer-events: none;\n content: \"\";\n position: absolute;\n top: 120%;\n left: 0;\n height: 100%;\n width: 100%;\n background-color: var(--glow-spread-color);\n filter: blur(2em);\n opacity: .7;\n transform: perspective(1.5em) rotateX(35deg) scale(1, .6);\n}\n\nbutton:hover {\n color: var(--btn-color);\n background-color: var(--glow-color);\n box-shadow: 0 0 1em .25em var(--glow-color),\n        0 0 4em 2em var(--glow-spread-color),\n        inset 0 0 .75em .25em var(--glow-color);\n}\n\nbutton:active {\n box-shadow: 0 0 0.6em .25em var(--glow-color),\n        0 0 2.5em 2em var(--glow-spread-color),\n        inset 0 0 .5em .25em var(--glow-color);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

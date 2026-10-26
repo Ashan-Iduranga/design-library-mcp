@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-fast-dodo-69-53dbc9",
+  "title": "Input by satyamchaudharydev (fast-dodo-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/fast-dodo-69",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/satyamchaudharydev_fast-dodo-69.html",
+  "code": "<div class=\"form\">\n  <input class=\"input\" placeholder=\"Type your text\" required=\"\" type=\"text\">\n  <span class=\"input-border\"></span>\n</div>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: input */\n.form {\n --width-of-input: 200px;\n --border-height: 1px;\n --border-before-color: rgba(221, 221, 221, 0.39);\n --border-after-color: #5891ff;\n --input-hovered-color: #4985e01f;\n position: relative;\n width: var(--width-of-input);\n}\n/* styling of Input */\n.input {\n color: #fff;\n font-size: 0.9rem;\n background-color: transparent;\n width: 100%;\n box-sizing: border-box;\n padding-inline: 0.5em;\n padding-block: 0.7em;\n border: none;\n border-bottom: var(--border-height) solid var(--border-before-color);\n}\n/* styling of animated border */\n.input-border {\n position: absolute;\n background: var(--border-after-color);\n width: 0%;\n height: 2px;\n bottom: 0;\n left: 0;\n transition: 0.3s;\n}\n/* Hover on Input */\ninput:hover {\n background: var(--input-hovered-color);\n}\n\ninput:focus {\n outline: none;\n}\n/* here is code of animated border */\ninput:focus ~ .input-border {\n width: 100%;\n}\n/* === if you want to do animated border on typing === */\n/* remove input:focus code and uncomment below code */\n/* input:valid ~ .input-border{\n  width: 100%;\n} */\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-empty-outline",
+  "title": "Empty Outline (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/empty-outline.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "empty",
+    "outline",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the Empty component to display an empty state.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/empty-outline.tsx",
+  "code": "import { IconCloud } from \"@tabler/icons-react\"\n\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\nimport {\n  Empty,\n  EmptyContent,\n  EmptyDescription,\n  EmptyHeader,\n  EmptyMedia,\n  EmptyTitle,\n} from \"@/registry/new-york-v4/ui/empty\"\n\nexport default function EmptyOutline() {\n  return (\n    <Empty className=\"border border-dashed\">\n      <EmptyHeader>\n        <EmptyMedia variant=\"icon\">\n          <IconCloud />\n        </EmptyMedia>\n        <EmptyTitle>Cloud Storage Empty</EmptyTitle>\n        <EmptyDescription>\n          Upload files to your cloud storage to access them anywhere.\n        </EmptyDescription>\n      </EmptyHeader>\n      <EmptyContent>\n        <Button variant=\"outline\" size=\"sm\">\n          Upload Files\n        </Button>\n      </EmptyContent>\n    </Empty>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

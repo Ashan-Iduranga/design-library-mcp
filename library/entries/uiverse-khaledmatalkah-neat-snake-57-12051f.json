@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-khaledmatalkah-neat-snake-57-12051f",
+  "title": "Button by KhaledMatalkah (neat-snake-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KhaledMatalkah/neat-snake-57",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "transition"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KhaledMatalkah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/KhaledMatalkah_neat-snake-57.html",
+  "code": "<button class=\"button\">Hover Me!</button>\n<style>\n/* From Uiverse.io by KhaledMatalkah - Tags: button, hover, transition */\n.button {\n  display: inline-block;\n  position: relative;\n  padding: 13px 20px;\n  border: none;\n  background: rgba(51, 50, 50, 0.287);\n  color: #ffffff;\n  font-family: Arial, sans-serif;\n  font-size: 16px;\n  text-transform: uppercase;\n  cursor: crosshair;\n  overflow: hidden;\n}\n\n.button:before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: -100%;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(to right, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.14) 50%, transparent 100%);\n  transition: left 0.3s ease;\n}\n\n.button:hover:before {\n  left: 100%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

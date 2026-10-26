@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-mockup-code-multi-line",
+  "title": "Code mockup: Multi line (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/mockup-code/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "mockup-code",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Code mockup is used to show a block of code in a box that looks like a code editor.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/mockup-code/+page.md",
+  "code": "<div class=\"mockup-code w-full\">\n  <pre data-prefix=\"$\"><code>npm i daisyui</code></pre>\n  <pre data-prefix=\">\" class=\"text-warning\"><code>installing...</code></pre>\n  <pre data-prefix=\">\" class=\"text-success\"><code>Done!</code></pre>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

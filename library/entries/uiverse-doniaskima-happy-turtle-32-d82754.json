@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-doniaskima-happy-turtle-32-d82754",
+  "title": "Button by doniaskima (happy-turtle-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/happy-turtle-32",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/doniaskima_happy-turtle-32.html",
+  "code": "<button class=\"btn-53\">\n  <div class=\"original\">Button</div>\n  <div class=\"letters\">\n    \n    <span>B</span>\n    <span>U</span>\n    <span>T</span>\n    <span>T</span>\n    <span>O</span>\n    <span>N</span>\n  </div>\n</button>\n\n<style>\n/* From Uiverse.io by doniaskima - Tags: button, animated */\n.btn-53,\n.btn-53 *,\n.btn-53 :after,\n.btn-53 :before,\n.btn-53:after,\n.btn-53:before {\n  border: 0 solid;\n  box-sizing: border-box;\n}\n\n.btn-53 {\n  -webkit-tap-highlight-color: transparent;\n  -webkit-appearance: button;\n  background-color: #000;\n  background-image: none;\n  color: #fff;\n  cursor: pointer;\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,\n    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,\n    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;\n  font-size: 100%;\n  line-height: 1.5;\n  margin: 0;\n  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);\n  padding: 0;\n}\n\n.btn-53:disabled {\n  cursor: default;\n}\n\n.btn-53:-moz-focusring {\n  outline: auto;\n}\n\n.btn-53 svg {\n  display: block;\n  vertical-align: middle;\n}\n\n.btn-53 [hidden] {\n  display: none;\n}\n\n.btn-53 {\n  border: 1px solid;\n  border-radius: 999px;\n  box-sizing: border-box;\n  display: block;\n  font-weight: 900;\n  overflow: hidden;\n  padding: 1.2rem 3rem;\n  position: relative;\n  text-transform: uppercase;\n}\n\n.btn-53 .original {\n  background: #fff;\n  color: #000;\n  display: grid;\n  inset: 0;\n  place-content: center;\n  position: absolute;\n  transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1);\n}\n\n.btn-53:hover .original {\n  transform: translateY(100%);\n}\n\n.btn-53 .letters {\n  display: inline-flex;\n}\n\n.btn-53 span {\n  opacity: 0;\n  transform: translateY(-15px);\n  transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1), opacity 0.2s;\n}\n\n.btn-53 span:nth-child(2n) {\n  transform: translateY(15px);\n}\n\n.btn-53:hover span {\n  opacity: 1;\n  transform: translateY(0);\n}\n\n.btn-53:hover span:nth-child(2) {\n  transition-delay: 0.1s;\n}\n\n.btn-53:hover span:nth-child(3) {\n  transition-delay: 0.2s;\n}\n\n.btn-53:hover span:nth-child(4) {\n  transition-delay: 0.3s;\n}\n\n.btn-53:hover span:nth-child(5) {\n  transition-delay: 0.4s;\n}\n\n.btn-53:hover span:nth-child(6) {\n  transition-delay: 0.5s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

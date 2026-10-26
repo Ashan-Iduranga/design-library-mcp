@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-adamgiebl-fluffy-liger-17-115f23",
+  "title": "Button by adamgiebl (fluffy-liger-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/adamgiebl/fluffy-liger-17",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By adamgiebl on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/adamgiebl_fluffy-liger-17.html",
+  "code": "<button> Button\n</button>\n<style>\n/* From Uiverse.io by adamgiebl - Tags: button */\nbutton {\n  background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);\n  background-size: 800% 400%;\n  padding: 1em 2em;\n  display: inline-block;\n  border: none;\n  border-radius: 10px;\n  font-size: 17px;\n  font-weight: 700;\n  color: white;\n  transition: all .5s ease-in-out;\n  animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;\n}\n\nbutton:hover {\n  animation: gradient 3s infinite;\n  transform: scale(1.05);\n}\n\nbutton:active {\n  animation: gradient 3s infinite;\n  transform: scale(0.8);\n}\n\n@keyframes gradient {\n  0% {\n    background-position: 0% 50%;\n  }\n\n  50% {\n    background-position: 100% 50%;\n  }\n\n  100% {\n    background-position: 0% 50%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

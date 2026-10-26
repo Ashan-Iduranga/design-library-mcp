@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-kiru2741-silly-yak-73-51bde7",
+  "title": "Button by kiru2741 (silly-yak-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kiru2741/silly-yak-73",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kiru2741 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/kiru2741_silly-yak-73.html",
+  "code": "<button> Button\n</button>\n<style>\n/* From Uiverse.io by kiru2741 - Tags: button */\nbutton {\n padding: 10px;\n font-size: 15px;\n outline: none;\n border: 2px solid black;\n background-color: white;\n color: white;\n position: relative;\n letter-spacing: 1px;\n}\n\nbutton::before {\n content: 'Button';\n /*Button's value/text-content */\n position: absolute;\n top: -14%;\n left: 7%;\n background-color: black;\n width: 100%;\n height: 100%;\n color: white;\n display: flex;\n align-items: center;\n justify-content: center;\n transition: 0.15s ease-in-out;\n font-weight: bold;\n}\n\nbutton:hover::before {\n top: 0;\n left: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

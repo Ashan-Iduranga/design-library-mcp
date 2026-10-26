@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-yaya12085-silly-skunk-16-1016ee",
+  "title": "Card by Yaya12085 (silly-skunk-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/silly-skunk-16",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "cookies"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Yaya12085_silly-skunk-16.html",
+  "code": "<div class=\"cookie-card\">\n    <span class=\"title\">🍪 Cookie Notice</span>\n    <p class=\"description\">We use cookies to ensure that we give you the best experience on our website. <a href=\"#\">Read cookies policies</a>. </p>\n    <div class=\"actions\">\n        <button class=\"pref\">\n            Manage your preferences\n        </button>\n        <button class=\"accept\">\n            Accept\n        </button>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: card, cookies */\n.cookie-card {\n  max-width: 320px;\n  padding: 1rem;\n  background-color: #fff;\n  border-radius: 10px;\n  box-shadow: 20px 20px 30px rgba(0, 0, 0, .05);\n}\n\n.title {\n  font-weight: 600;\n  color: rgb(31 41 55);\n}\n\n.description {\n  margin-top: 1rem;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  color: rgb(75 85 99);\n}\n\n.description a {\n  --tw-text-opacity: 1;\n  color: rgb(59 130 246);\n}\n\n.description a:hover {\n  -webkit-text-decoration-line: underline;\n  text-decoration-line: underline;\n}\n\n.actions {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-top: 1rem;\n  -moz-column-gap: 1rem;\n  column-gap: 1rem;\n  flex-shrink: 0;\n}\n\n.pref {\n  font-size: 0.75rem;\n  line-height: 1rem;\n  color: rgb(31 41 55 );\n  -webkit-text-decoration-line: underline;\n  text-decoration-line: underline;\n  transition: all .3s cubic-bezier(0.4, 0, 0.2, 1);\n  border: none;\n  background-color: transparent;\n}\n\n.pref:hover {\n  color: rgb(156 163 175);\n}\n\n.pref:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n\n.accept {\n  font-size: 0.75rem;\n  line-height: 1rem;\n  background-color: rgb(17 24 39);\n  font-weight: 500;\n  border-radius: 0.5rem;\n  color: #fff;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  padding-top: 0.625rem;\n  padding-bottom: 0.625rem;\n  border: none;\n  transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.accept:hover {\n  background-color: rgb(55 65 81);\n}\n\n.accept:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

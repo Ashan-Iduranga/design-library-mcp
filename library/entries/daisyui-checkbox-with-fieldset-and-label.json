@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-checkbox-with-fieldset-and-label",
+  "title": "Checkbox: With fieldset and label (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/checkbox/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Checkboxes are used to select or deselect a value.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/checkbox/+page.md",
+  "code": "<fieldset class=\"fieldset bg-base-100 border-base-300 rounded-box w-64 border p-4\">\n  <legend class=\"fieldset-legend\">Login options</legend>\n  <label class=\"label\">\n    <input type=\"checkbox\" checked=\"checked\" class=\"checkbox\" />\n    Remember me\n  </label>\n</fieldset>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

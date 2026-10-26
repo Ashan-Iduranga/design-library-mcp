@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-jaydipprajapati1910-bright-fox-47-fd3d8e",
+  "title": "Loader by JaydipPrajapati1910 (bright-fox-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/bright-fox-47",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "red",
+    "location"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JaydipPrajapati1910_bright-fox-47.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: red, loader, location  */\n.loader {\n  width: 44.8px;\n  height: 44.8px;\n  position: relative;\n  transform: rotate(45deg);\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  border-radius: 50% 50% 0 50%;\n  background: #0000;\n  background-image: radial-gradient(circle 11.2px at 50% 50%,#0000 94%, #ff4747);\n}\n\n.loader:after {\n  animation: pulse-ytk0dhmd 1s infinite;\n  transform: perspective(336px) translateZ(0px);\n}\n\n@keyframes pulse-ytk0dhmd {\n  to {\n    transform: perspective(336px) translateZ(168px);\n    opacity: 0;\n  }\n}\n  \n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

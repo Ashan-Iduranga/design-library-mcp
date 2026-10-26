@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-alexruix-tender-badger-50-db6ebb",
+  "title": "Form by alexruix (tender-badger-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/tender-badger-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "sign-up"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/alexruix_tender-badger-50.html",
+  "code": "<div class=\"form-box\">\n<form class=\"form\">\n    <span class=\"title\">Sign up</span>\n    <span class=\"subtitle\">Create a free account with your email.</span>\n    <div class=\"form-container\">\n      <input type=\"text\" class=\"input\" placeholder=\"Full Name\">\n\t\t\t<input type=\"email\" class=\"input\" placeholder=\"Email\">\n\t\t\t<input type=\"password\" class=\"input\" placeholder=\"Password\">\n    </div>\n    <button>Sign up</button>\n</form>\n<div class=\"form-section\">\n  <p>Have an account? <a href=\"\">Log in</a> </p>\n</div>\n</div>\n<style>\n/* From Uiverse.io by alexruix - Tags: form, sign-up */\n.form-box {\n  max-width: 300px;\n  background: #f1f7fe;\n  overflow: hidden;\n  border-radius: 16px;\n  color: #010101;\n}\n\n.form {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  padding: 32px 24px 24px;\n  gap: 16px;\n  text-align: center;\n}\n\n/*Form text*/\n.title {\n  font-weight: bold;\n  font-size: 1.6rem;\n}\n\n.subtitle {\n  font-size: 1rem;\n  color: #666;\n}\n\n/*Inputs box*/\n.form-container {\n  overflow: hidden;\n  border-radius: 8px;\n  background-color: #fff;\n  margin: 1rem 0 .5rem;\n  width: 100%;\n}\n\n.input {\n  background: none;\n  border: 0;\n  outline: 0;\n  height: 40px;\n  width: 100%;\n  border-bottom: 1px solid #eee;\n  font-size: .9rem;\n  padding: 8px 15px;\n}\n\n.form-section {\n  padding: 16px;\n  font-size: .85rem;\n  background-color: #e0ecfb;\n  box-shadow: rgb(0 0 0 / 8%) 0 -1px;\n}\n\n.form-section a {\n  font-weight: bold;\n  color: #0066ff;\n  transition: color .3s ease;\n}\n\n.form-section a:hover {\n  color: #005ce6;\n  text-decoration: underline;\n}\n\n/*Button*/\n.form button {\n  background-color: #0066ff;\n  color: #fff;\n  border: 0;\n  border-radius: 24px;\n  padding: 10px 16px;\n  font-size: 1rem;\n  font-weight: 600;\n  cursor: pointer;\n  transition: background-color .3s ease;\n}\n\n.form button:hover {\n  background-color: #005ce6;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

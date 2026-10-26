@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-vinodjangid07-brave-elephant-94-9216e8",
+  "title": "Card by vinodjangid07 (brave-elephant-94)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/brave-elephant-94",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "delete",
+    "hover-effect",
+    "buttons"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/vinodjangid07_brave-elephant-94.html",
+  "code": "<div class=\"card\">\n  <div class=\"card-content\">\n    <p class=\"card-heading\">Delete file?</p>\n    <p class=\"card-description\">Lorem ipsum dolor sit amet, consectetur adi</p>\n  </div>\n  <div class=\"card-button-wrapper\">\n    <button class=\"card-button secondary\">Cancel</button>\n    <button class=\"card-button primary\">Delete</button>\n  </div>\n  <button class=\"exit-button\">\n    <svg height=\"20px\" viewBox=\"0 0 384 512\">\n      <path\n        d=\"M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z\"\n      ></path>\n    </svg>\n  </button>\n</div>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: simple, card, delete, hover effect, buttons */\n.card {\n  width: 300px;\n  height: fit-content;\n  background: rgb(255, 255, 255);\n  border-radius: 20px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 20px;\n  padding: 30px;\n  position: relative;\n  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.068);\n}\n.card-content {\n  width: 100%;\n  height: fit-content;\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n}\n.card-heading {\n  font-size: 20px;\n  font-weight: 700;\n  color: rgb(27, 27, 27);\n}\n.card-description {\n  font-weight: 100;\n  color: rgb(102, 102, 102);\n}\n.card-button-wrapper {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n}\n.card-button {\n  width: 50%;\n  height: 35px;\n  border-radius: 10px;\n  border: none;\n  cursor: pointer;\n  font-weight: 600;\n}\n.primary {\n  background-color: rgb(255, 114, 109);\n  color: white;\n}\n.primary:hover {\n  background-color: rgb(255, 73, 66);\n}\n.secondary {\n  background-color: #ddd;\n}\n.secondary:hover {\n  background-color: rgb(197, 197, 197);\n}\n.exit-button {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: none;\n  background-color: transparent;\n  position: absolute;\n  top: 20px;\n  right: 20px;\n  cursor: pointer;\n}\n.exit-button:hover svg {\n  fill: black;\n}\n.exit-button svg {\n  fill: rgb(175, 175, 175);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

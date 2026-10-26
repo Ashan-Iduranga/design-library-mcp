@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-flowelife-slippery-catfish-7-6bb041",
+  "title": "Loader by Flowelife (slippery-catfish-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Flowelife/slippery-catfish-7",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "connect",
+    "loop"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Flowelife on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Flowelife_slippery-catfish-7.html",
+  "code": "<div class=\"loader\">Loading...</div>\n<style>\n/* From Uiverse.io by Flowelife - Tags: loader, connect, loop */\n@keyframes load-loop {\n  0% {\n    background-position: 100%;\n  }\n\n  40% {\n    background-position: 50%;\n  }\n\n  50% {\n    background-position: 50%;\n  }\n\n  90% {\n    background-position: 0%;\n  }\n\n  100% {\n    background-position: 0%;\n  }\n}\n\n.loader {\n  position: relative;\n  font-family: sans-serif;\n  display: flex;\n  height: auto;\n  width: auto;\n  letter-spacing: 3px;\n  align-items: center;\n  justify-content: center;\n  padding: 10px 12px;\n  font-size: 1.45em;\n  color: transparent;\n  background: linear-gradient(to right,#fff 33.3%,#008cdd 33.3%, #008cdd 66.6%, #fff 66.6%) no-repeat;\n  background-size: 300%;\n  background-position: 100%;\n  background-clip: text;\n  -webkit-background-clip: text;\n  animation: infinite 1.4s load-loop ease;\n}\n\n.loader::after {\n  content: '';\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  display: block;\n  background: linear-gradient(to right,#008cdd 33.3%, transparent 33.3% , transparent 66.6%, #008cdd 66.6%) no-repeat;\n  background-size: 300%;\n  background-position: 100%;\n  top: 0;\n  left: 0;\n  z-index: -1;\n  animation: infinite 1.4s load-loop ease;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

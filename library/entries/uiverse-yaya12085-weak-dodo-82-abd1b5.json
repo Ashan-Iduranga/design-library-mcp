@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-yaya12085-weak-dodo-82-abd1b5",
+  "title": "Form by Yaya12085 (weak-dodo-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/weak-dodo-82",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "button",
+    "input",
+    "contact",
+    "text"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Yaya12085_weak-dodo-82.html",
+  "code": "<form class=\"form\">\n    <div class=\"title\">Contact us</div>\n    <input type=\"text\" placeholder=\"Your email\" class=\"input\">\n    <textarea placeholder=\"Your message\"></textarea>\n     \n    <button>Submit</button>\n</form>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: button, form, input, contact, text */\n.form {\n  position: relative;\n  display: flex;\n  align-items: flex-start;\n  flex-direction: column;\n  gap: 10px;\n  width: 300px;\n  background-color: white;\n  padding: 20px;\n  border-radius: 10px;\n  box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);\n}\n\n.form .title {\n  color: royalblue;\n  font-size: 30px;\n  font-weight: 600;\n  letter-spacing: -1px;\n  line-height: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.form input {\n  outline: 0;\n  border: 1px solid rgb(219, 213, 213);\n  padding: 8px 14px;\n  border-radius: 8px;\n  width: 100%;\n  height: 50px;\n}\n\n.form textarea {\n  border-radius: 8px;\n  height: 100px;\n  width: 100%;\n  resize: none;\n  outline: 0;\n  padding: 8px 14px;\n  border: 1px solid rgb(219, 213, 213);\n}\n\n.form button {\n  align-self: flex-end;\n  padding: 8px;\n  outline: 0;\n  border: 0;\n  border-radius: 8px;\n  font-size: 16px;\n  font-weight: 500;\n  background-color: royalblue;\n  color: #fff;\n  cursor: pointer;\n}\n    \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

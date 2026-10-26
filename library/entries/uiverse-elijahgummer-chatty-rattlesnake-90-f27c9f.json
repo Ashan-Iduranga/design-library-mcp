@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-elijahgummer-chatty-rattlesnake-90-f27c9f",
+  "title": "Loader by elijahgummer (chatty-rattlesnake-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/chatty-rattlesnake-90",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "white",
+    "dots",
+    "circle",
+    "svg",
+    "minimal",
+    "dashofset"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/elijahgummer_chatty-rattlesnake-90.html",
+  "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" class=\"loader\">\n  <g\n    stroke-linejoin=\"round\"\n    stroke-linecap=\"round\"\n    fill-rule=\"evenodd\"\n    fill=\"none\"\n    stroke-width=\"1\"\n    stroke=\"none\"\n  >\n    <line y2=\"6\" x2=\"24\" y1=\"2\" x1=\"24\"></line>\n    <line\n      transform=\"translate(34, 6.679) rotate(30) translate(-34, -6.679)\"\n      y2=\"8.679\"\n      x2=\"34\"\n      y1=\"4.679\"\n      x1=\"34\"\n    ></line>\n    <line\n      transform=\"translate(41.321, 14) rotate(60) translate(-41.321, -14)\"\n      y2=\"16\"\n      x2=\"41.321\"\n      y1=\"12\"\n      x1=\"41.321\"\n    ></line>\n    <line\n      transform=\"translate(44, 24) rotate(90) translate(-44, -24)\"\n      y2=\"26\"\n      x2=\"44\"\n      y1=\"22\"\n      x1=\"44\"\n    ></line>\n    <line\n      transform=\"translate(41.321, 34) rotate(120) translate(-41.321, -34)\"\n      y2=\"36\"\n      x2=\"41.321\"\n      y1=\"32\"\n      x1=\"41.321\"\n    ></line>\n    <line\n      transform=\"translate(34, 41.321) rotate(150) translate(-34, -41.321)\"\n      y2=\"43.321\"\n      x2=\"34\"\n      y1=\"39.321\"\n      x1=\"34\"\n    ></line>\n    <line\n      transform=\"translate(24, 44) rotate(180) translate(-24, -44)\"\n      y2=\"46\"\n      x2=\"24\"\n      y1=\"42\"\n      x1=\"24\"\n    ></line>\n    <line\n      transform=\"translate(14, 41.321) rotate(210) translate(-14, -41.321)\"\n      y2=\"43.321\"\n      x2=\"14\"\n      y1=\"39.321\"\n      x1=\"14\"\n    ></line>\n    <line\n      transform=\"translate(6.679, 34) rotate(240) translate(-6.679, -34)\"\n      y2=\"36\"\n      x2=\"6.679\"\n      y1=\"32\"\n      x1=\"6.679\"\n    ></line>\n    <line\n      transform=\"translate(4, 24) rotate(270) translate(-4, -24)\"\n      y2=\"26\"\n      x2=\"4\"\n      y1=\"22\"\n      x1=\"4\"\n    ></line>\n    <line\n      transform=\"translate(6.679, 14) rotate(300) translate(-6.679, -14)\"\n      y2=\"16\"\n      x2=\"6.679\"\n      y1=\"12\"\n      x1=\"6.679\"\n    ></line>\n    <line\n      transform=\"translate(14, 6.679) rotate(330) translate(-14, -6.679)\"\n      y2=\"8.679\"\n      x2=\"14\"\n      y1=\"4.679\"\n      x1=\"14\"\n    ></line>\n  </g>\n</svg>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, white, loader, dots, circle, svg, minimal, dashofset */\n.loader {\n  width: 48px;\n  height: 48px;\n  transform: rotate(0deg);\n  animation: spin 2.4s linear infinite;\n}\n\n.loader line {\n  stroke: #ffffff; /* White color for better visibility */\n  stroke-width: 4;\n  stroke-linecap: round;\n  opacity: 0.8;\n  stroke-dasharray: 10;\n  stroke-dashoffset: 10;\n  animation: dash 2.4s ease-in-out infinite;\n}\n\n@keyframes dash {\n  0% {\n    stroke-dashoffset: 10;\n    opacity: 0.8;\n  }\n  50% {\n    stroke-dashoffset: 0;\n    opacity: 0.4;\n  }\n  100% {\n    stroke-dashoffset: 10;\n    opacity: 0.8;\n  }\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

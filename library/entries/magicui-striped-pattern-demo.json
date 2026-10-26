@@ -1,0 +1,36 @@
+{
+  "id": "magicui-striped-pattern-demo",
+  "title": "Striped Pattern Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/striped-pattern",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "striped",
+    "pattern",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a background striped pattern made with SVGs.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/striped-pattern-demo.tsx",
+  "code": "import { StripedPattern } from \"@/registry/magicui/striped-pattern\"\n\nexport default function StripedPatternDemo() {\n  return (\n    <div className=\"relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border\">\n      <StripedPattern className=\"[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]\" />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

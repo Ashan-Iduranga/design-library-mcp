@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-arshshaikh06-purple-sheep-4-6ca8d0",
+  "title": "Loader by arshshaikh06 (purple-sheep-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/arshshaikh06/purple-sheep-4",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By arshshaikh06 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/arshshaikh06_purple-sheep-4.html",
+  "code": "<div id=\"container\">\n  <div id=\"square\" class=\"shimmer\"></div>\n  <div id=\"content\">\n    <div id=\"content-title\" class=\"shimmer\"></div>\n    <div id=\"content-desc\">\n      <div class=\"line shimmer\"></div>\n      <div class=\"line shimmer\"></div>\n      <div class=\"line shimmer\"></div>\n      <div class=\"line shimmer\"></div>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by arshshaikh06 - Source: https://codepen.io/arsh-shaikh/pen/JjEQYmW - Tags: loader, dark, shimmer */\n.shimmer {\n  position: relative;\n  background: #3a3a3a;\n  background-image: linear-gradient(to right, #3a3a3a 0%, #3f3f3f 10%, #4a4a4a 20%, #3f3f3f 30%, #3a3a3a 50%, #3a3a3a 100%);\n  background-repeat: no-repeat;\n  background-size: 800px 200px;\n  -webkit-animation-duration: 1s;\n  -webkit-animation-fill-mode: forwards;\n  -webkit-animation-iteration-count: infinite;\n  -webkit-animation-name: shimmer;\n  -webkit-animation-timing-function: ease-in-out;\n}\n\n@-webkit-keyframes shimmer {\n  0% {\n    background-position: -400px 0;\n  }\n\n  100% {\n    background-position: 400px 0;\n  }\n}\n\n#container {\n  width: 400px;\n  height: 200px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n#square {\n  width: 135px;\n  height: 135px;\n}\n\n#content {\n  flex: 1;\n  height: 150px;\n  width: 100%;\n  padding: 0.5rem 1rem 0 1rem;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n\n#content-title {\n  width: 100%;\n  height: 30px;\n  margin-bottom: 1rem;\n}\n\n#content-desc {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  align-items: flex-end;\n}\n\n.line {\n  width: 100%;\n  height: 10px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

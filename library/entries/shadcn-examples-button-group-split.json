@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-button-group-split",
+  "title": "Button Group Split (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/button-group-split.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "button",
+    "group",
+    "split",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A container that groups related buttons together with consistent styling.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/button-group-split.tsx",
+  "code": "import { IconPlus } from \"@tabler/icons-react\"\n\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\nimport {\n  ButtonGroup,\n  ButtonGroupSeparator,\n} from \"@/registry/new-york-v4/ui/button-group\"\n\nexport default function ButtonGroupSplit() {\n  return (\n    <ButtonGroup>\n      <Button variant=\"secondary\">Button</Button>\n      <ButtonGroupSeparator />\n      <Button size=\"icon\" variant=\"secondary\">\n        <IconPlus />\n      </Button>\n    </ButtonGroup>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

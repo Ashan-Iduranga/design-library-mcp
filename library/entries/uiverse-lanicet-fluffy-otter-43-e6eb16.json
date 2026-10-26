@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-lanicet-fluffy-otter-43-e6eb16",
+  "title": "Loader by Lanicet (fluffy-otter-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Lanicet/fluffy-otter-43",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Lanicet on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Lanicet_fluffy-otter-43.html",
+  "code": "<div id=\"myProgress\">\n  <div id=\"myBar\"></div>\n</div>\n<style>\n/* From Uiverse.io by Lanicet - Tags: loader */\n#myProgress {\n  width: 100px;\n  max-width: 200px;\n  background: #F4F4F4;\n  box-shadow: inset -1px 1px 2px rgba(200, 200, 200, 0.2), inset 1px -1px 2px rgba(200, 200, 200, 0.2), inset -1px -1px 2px rgba(255, 255, 255, 0.9), inset 1px 1px 3px rgba(200, 200, 200, 0.9);\n  border-radius: 28px;\n  overflow: hidden;\n}\n\n#myBar {\n  width: 10%;\n  height: 30px;\n  background: rgba(0, 209, 0, 0.35);\n  border-radius: 28px;\n  text-align: center;\n  line-height: 30px;\n  color: white;\n  transition: 0.5s;\n  animation: loading82341 10s ease infinite;\n}\n\n@keyframes loading82341 {\n  0% {\n    width: 0%;\n  }\n\n  10% {\n    width: 10%;\n  }\n\n  50% {\n    width: 40%;\n  }\n\n  60% {\n    width: 60%;\n  }\n\n  100% {\n    width: 100%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

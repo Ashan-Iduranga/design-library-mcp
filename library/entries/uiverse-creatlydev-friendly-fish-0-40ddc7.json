@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-creatlydev-friendly-fish-0-40ddc7",
+  "title": "Card by Creatlydev (friendly-fish-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Creatlydev/friendly-fish-0",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Creatlydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Creatlydev_friendly-fish-0.html",
+  "code": "<div class=\"card\">\n  <div class=\"card__body\">\n    <div class=\"card__icon\">\n      <svg\n        height=\"32\"\n        width=\"32\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.5\"\n        viewBox=\"0 0 24 24\"\n        fill=\"none\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n      >\n        <path\n          d=\"M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25\"\n          stroke-linejoin=\"round\"\n          stroke-linecap=\"round\"\n        ></path>\n      </svg>\n    </div>\n\n    <p class=\"card__title\">Abstract Design</p>\n    <p class=\"card__paragraph\">\n      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus\n      perferendis eaque dolore repellat numquam. Dolores.\n    </p>\n  </div>\n\n  <div class=\"card__ribbon\">\n    <label class=\"card__ribbon-label\">01</label>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Creatlydev  - Tags: card */\n.card {\n  width: min(300px, 100%);\n  margin: auto;\n  background-color: #f4f5f2;\n  text-align: center;\n  border-top-left-radius: 4rem;\n  border: 2px solid #fff;\n  position: relative;\n}\n\n.card::before {\n  content: \"\";\n  position: absolute;\n  height: 30px;\n  width: 120px;\n  background-color: #393e7f;\n  top: 32px;\n  right: -2.5px;\n  -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);\n  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);\n}\n\n.card__body {\n  padding: 2rem 1.5rem;\n  max-width: 25ch;\n  margin: auto;\n}\n\n.card__title {\n  font-weight: 800;\n  color: #121513;\n  font-size: 1.25rem;\n  margin-block: 1.5rem 0.75rem;\n}\n\n.card__paragraph {\n  color: #303830;\n  font-size: 0.875rem;\n}\n\n.card__ribbon {\n  margin-top: 1.5rem;\n  display: grid;\n  place-items: center;\n  height: 50px;\n  background-color: #393e7f;\n  position: relative;\n  width: 110%;\n  left: -5%;\n  top: 10px;\n  position: relative;\n  border-radius: 0 0 2rem 2rem;\n}\n\n.card__ribbon::after,\n.card__ribbon::before {\n  content: \"\";\n  position: absolute;\n  width: 20px;\n  aspect-ratio: 1/1;\n  bottom: 100%;\n  z-index: -2;\n  background-color: #191c39;\n}\n\n.card__ribbon::before {\n  left: 0;\n  transform-origin: left bottom;\n  transform: rotate(45deg);\n}\n\n.card__ribbon::after {\n  right: 0;\n  transform-origin: right bottom;\n  transform: rotate(-45deg);\n}\n\n.card__ribbon-label {\n  display: block;\n  width: 84px;\n  aspect-ratio: 1/1;\n  background-color: #fff;\n  position: relative;\n  transform: translateY(-50%);\n  border-radius: 50%;\n  border: 8px solid #393e7f;\n  display: grid;\n  place-items: center;\n  font-weight: 900;\n  line-height: 1;\n  font-size: 1.5rem;\n}\n\n.card__ribbon-label::before,\n.card__ribbon-label::after {\n  content: \"\";\n  position: absolute;\n  width: 25px;\n  height: 25px;\n  bottom: 50%;\n}\n\n.card__ribbon-label::before {\n  right: calc(100% + 4px);\n  border-bottom-right-radius: 20px;\n  box-shadow: 5px 5px 0 #393e7f;\n}\n\n.card__ribbon-label::after {\n  left: calc(100% + 4px);\n  border-bottom-left-radius: 20px;\n  box-shadow: -5px 5px 0 #393e7f;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

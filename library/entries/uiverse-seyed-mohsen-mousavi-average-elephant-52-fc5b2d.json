@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-seyed-mohsen-mousavi-average-elephant-52-fc5b2d",
+  "title": "Input by seyed-mohsen-mousavi (average-elephant-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/seyed-mohsen-mousavi/average-elephant-52",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "shadow",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By seyed-mohsen-mousavi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/seyed-mohsen-mousavi_average-elephant-52.html",
+  "code": "<div class=\"search-bar\">\n  <div class=\"blob\"></div>\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    fill=\"none\"\n    viewBox=\"0 0 24 24\"\n    stroke-width=\"1.5\"\n    stroke=\"currentColor\"\n    class=\"icon\"\n  >\n    <path\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      d=\"m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z\"\n    ></path>\n  </svg>\n  <input type=\"text\" id=\"ser\" class=\"inner\" placeholder=\"Search ...\" />\n</div>\n\n<style>\n/* From Uiverse.io by seyed-mohsen-mousavi  - Tags: input, shadow, gradient */\n/* Main style for the search bar */\n.search-bar {\n  cursor: text;\n  font-size: 1.6rem;\n  border-radius: 16px;\n  border: none;\n  padding: 2px;\n  background: -webkit-radial-gradient(circle 80px at 80% -10%, #fff, #181b1b);\n  background: -moz-radial-gradient(circle 80px at 80% -10%, #fff, #181b1b);\n  background: radial-gradient(circle 80px at 80% -10%, #fff, #181b1b);\n  position: relative;\n  -webkit-transition: all 0.3s linear;\n  -moz-transition: all 0.3s linear;\n  transition: all 0.3s linear;\n  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.66);\n  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.66);\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.66);\n  overflow: hidden;\n}\n\n/* Style for the ::after pseudo-element of the search bar */\n.search-bar::after {\n  cursor: text;\n  content: \"\";\n  position: absolute;\n  width: 65%;\n  height: 60%;\n  border-radius: 120px;\n  top: 0;\n  right: 0;\n  -webkit-box-shadow: 0 0 20px rgba(255, 255, 255, 0.22);\n  -moz-box-shadow: 0 0 20px rgba(255, 255, 255, 0.22);\n  box-shadow: 0 0 20px rgba(255, 255, 255, 0.22);\n  z-index: -1;\n}\n\n/* Style for the decorative blob */\n.blob {\n  position: absolute;\n  width: 70px;\n  height: 100%;\n  border-radius: 16px;\n  bottom: 0;\n  left: 0;\n  background: -webkit-radial-gradient(\n    circle 60px at 0% 100%,\n    #ff3fcb,\n    rgba(255, 0, 216, 0.5),\n    transparent\n  );\n  background: -moz-radial-gradient(\n    circle 60px at 0% 100%,\n    #ff3fcb,\n    rgba(255, 0, 216, 0.5),\n    transparent\n  );\n  background: radial-gradient(\n    circle 60px at 0% 100%,\n    #ff3fcb,\n    rgba(255, 0, 216, 0.5),\n    transparent\n  );\n  -webkit-box-shadow: -10px 10px 30px rgba(255, 0, 229, 0.18);\n  -moz-box-shadow: -10px 10px 30px rgba(255, 0, 229, 0.18);\n  box-shadow: -10px 10px 30px rgba(255, 0, 229, 0.18);\n}\n\n/* Style for the inner content */\n.inner {\n  padding: 14px 25px;\n  border-radius: 14px;\n  color: #fff;\n  z-index: 3;\n  position: relative;\n  background: -webkit-radial-gradient(circle 80px at 80% -50%, #777, #0f1111);\n  background: -moz-radial-gradient(circle 80px at 80% -50%, #777, #0f1111);\n  background: radial-gradient(circle 80px at 80% -50%, #777, #0f1111);\n  outline: none;\n  margin: 3px;\n  padding-left: 40px;\n  font-weight: 600;\n  caret-color: gray;\n  text-shadow: 0 0 0 gray;\n  -webkit-text-fill-color: transparent;\n  font-size: 17px;\n  font-family: system-ui, sans-serif;\n  width: 98%;\n}\n\n/* Style for placeholder text */\n.inner::placeholder {\n  font-weight: 100;\n  padding-left: 2px;\n}\n\n/* Style for the icon */\n.icon {\n  width: 1.5rem;\n  position: absolute;\n  color: gray;\n  z-index: 4;\n  top: 20.5px;\n  left: 15px;\n}\n\n/* Style when the search bar is focused */\n.search-bar:focus-within {\n  background-position: 290px;\n  -webkit-transform: skew(10deg, 0deg);\n  -moz-transform: skew(10deg, 0deg);\n  transform: skew(10deg, 0deg);\n  -webkit-box-shadow: -13px 20px 20px rgba(0, 0, 0, 0.66);\n  -moz-box-shadow: -13px 20px 20px rgba(0, 0, 0, 0.66);\n  box-shadow: -13px 20px 20px rgba(0, 0, 0, 0.66);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

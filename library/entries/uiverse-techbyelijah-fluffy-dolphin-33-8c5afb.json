@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-techbyelijah-fluffy-dolphin-33-8c5afb",
+  "title": "Input by TechByElijah (fluffy-dolphin-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TechByElijah/fluffy-dolphin-33",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TechByElijah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/TechByElijah_fluffy-dolphin-33.html",
+  "code": "<div class=\"input-container\">\n  <input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Enter text\">\n  <div class=\"highlight\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by TechByElijah - Tags: simple, input, animated */\n.input-container {\n  position: relative;\n}\n\n.input {\n  font-size: 1em;\n  padding: 0.6em 1em;\n  border: none;\n  border-radius: 6px;\n  background-color: #f8f8f8;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n  transition: background-color 0.3s ease, box-shadow 0.3s ease;\n  max-width: 200px;\n  color: #333;\n}\n\n.input:hover {\n  background-color: #f2f2f2;\n}\n\n.input:focus {\n  outline: none;\n  background-color: #fff;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n}\n\n.input::placeholder {\n  color: #999;\n}\n\n.highlight {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 0;\n  height: 2px;\n  background-color: #6c63ff;\n  transition: width 0.3s ease;\n}\n\n.input:focus + .highlight {\n  width: 100%;\n}\n\n/* Optional: Animation on focus */\n@keyframes input-focus {\n  from {\n    transform: scale(1);\n    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);\n  }\n\n  to {\n    transform: scale(1.02);\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n  }\n}\n\n.input:focus {\n  animation: input-focus 0.3s ease;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

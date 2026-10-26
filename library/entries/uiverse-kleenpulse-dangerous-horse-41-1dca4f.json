@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-kleenpulse-dangerous-horse-41-1dca4f",
+  "title": "Button by kleenpulse (dangerous-horse-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kleenpulse/dangerous-horse-41",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kleenpulse on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/kleenpulse_dangerous-horse-41.html",
+  "code": "<button class=\"btn\">\n    Button\n</button>\n<style>\n/* From Uiverse.io by kleenpulse - Tags: gradient, button */\n.btn {\n  --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);\n  --border-width: .125em;\n  --curve-size: .5em;\n  --blur: 30px;\n  --bg: #080312;\n  --color: #afffff;\n  color: var(--color);\n    /* use position: relative; so that BG is only for .btn */\n  position: relative;\n  isolation: isolate;\n  display: inline-grid;\n  place-content: center;\n  padding: .5em 1.5em;\n  font-size: 17px;\n  border: 0;\n  text-transform: uppercase;\n  box-shadow: 10px 10px 20px rgba(0, 0, 0, .6);\n  clip-path: polygon(\n            /* Top-left */\n            0% var(--curve-size),\n\n            var(--curve-size) 0,\n            /* top-right */\n            100% 0,\n            100% calc(100% - var(--curve-size)),\n\n            /* bottom-right 1 */\n            calc(100% - var(--curve-size)) 100%,\n            /* bottom-right 2 */\n            0 100%);\n  transition: color 250ms;\n}\n\n.btn::after,\n.btn::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n}\n\n.btn::before {\n  background: var(--border-color);\n  background-size: 300% 300%;\n  animation: move-bg7234 5s ease infinite;\n  z-index: -2;\n}\n\n@keyframes move-bg7234 {\n  0% {\n    background-position: 31% 0%\n  }\n\n  50% {\n    background-position: 70% 100%\n  }\n\n  100% {\n    background-position: 31% 0%\n  }\n}\n\n.btn::after {\n  background: var(--bg);\n  z-index: -1;\n  clip-path: polygon(\n            /* Top-left */\n            var(--border-width) \n            calc(var(--curve-size) + var(--border-width) * .5),\n\n            calc(var(--curve-size) + var(--border-width) * .5) var(--border-width),\n\n            /* top-right */\n            calc(100% - var(--border-width)) \n            var(--border-width),\n\n            calc(100% - var(--border-width)) \n            calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),\n\n            /* bottom-right 1 */\n            calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) calc(100% - var(--border-width)),\n            /* bottom-right 2 */\n            var(--border-width) calc(100% - var(--border-width)));\n  transition: clip-path 500ms;\n}\n\n.btn:where(:hover, :focus)::after {\n  clip-path: polygon(\n                /* Top-left */\n                calc(100% - var(--border-width)) \n\n                calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),\n    \n                calc(100% - var(--border-width))\n\n                var(--border-width),\n    \n                /* top-right */\n                calc(100% - var(--border-width))\n\n                 var(--border-width),\n    \n                calc(100% - var(--border-width)) \n\n                calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),\n    \n                /* bottom-right 1 */\n                calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) \n                calc(100% - var(--border-width)),\n\n                /* bottom-right 2 */\n                calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))\n                calc(100% - var(--border-width)));\n  transition: 200ms;\n}\n\n.btn:where(:hover, :focus) {\n  color: #fff;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

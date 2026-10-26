@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-orange-mouse-40-819859",
+  "title": "Loader by Shoh2008 (orange-mouse-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/orange-mouse-40",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_orange-mouse-40.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 96px;\n  height: 48px;\n  display: inline-block;\n  position: relative;\n  background: #5e5e5e;\n  border-radius: 48px 48px 0 0;\n  box-sizing: border-box;\n  overflow: hidden;\n}\n\n.loader::after {\n  content: '';\n  box-sizing: border-box;\n  position: absolute;\n  width: 24px;\n  height: 12px;\n  border-radius: 24px 24px 0 0;\n  background: yellow;\n  left: 50%;\n  transform: translateX(-50%);\n  bottom: 0;\n}\n\n.loader::before {\n  content: '';\n  position: absolute;\n  width: 4px;\n  height: 32px;\n  left: 0;\n  right: 0;\n  margin: auto;\n  bottom: 0;\n  background: yellow;\n  transform-origin: 50% 100%;\n  box-sizing: border-box;\n  animation: animloader 2s linear infinite alternate;\n}\n\n@keyframes animloader {\n  0% {\n    transform: rotate(-70deg);\n  }\n\n  10% {\n    transform: rotate(-40deg);\n  }\n\n  20%, 45%, 35% {\n    transform: rotate(-10deg);\n  }\n\n  40%, 30% {\n    transform: rotate(-30deg);\n  }\n\n  50%, 60% {\n    transform: rotate(20deg);\n  }\n\n  55%, 65%, 75% {\n    transform: rotate(40deg);\n  }\n\n  70% {\n    transform: rotate(45deg);\n  }\n\n  85%, 90% {\n    transform: rotate(50deg);\n  }\n\n  95% {\n    transform: rotate(75deg);\n  }\n\n  100%, 93% {\n    transform: rotate(70deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

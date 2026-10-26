@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-application-breadcrumbs-2-dark",
+  "title": "Breadcrumbs: Base with home icon (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/breadcrumbs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "breadcrumbs",
+    "hyperui",
+    "link",
+    "navigation",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/breadcrumbs/2-dark.html",
+  "code": "<div class=\"flex justify-center p-6\">\n<nav aria-label=\"Breadcrumb\">\n<ol class=\"flex items-center gap-1 text-sm text-gray-700 dark:text-gray-200\">\n<li>\n<a aria-label=\"Home\" class=\"block transition-colors hover:text-gray-900 dark:hover:text-white\" href=\"#\">\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n</svg>\n</a>\n</li>\n<li class=\"rtl:rotate-180\">\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path clip-rule=\"evenodd\" d=\"M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z\" fill-rule=\"evenodd\"></path>\n</svg>\n</li>\n<li>\n<a class=\"block transition-colors hover:text-gray-900 dark:hover:text-white\" href=\"#\">\n            Category\n          </a>\n</li>\n<li class=\"rtl:rotate-180\">\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path clip-rule=\"evenodd\" d=\"M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z\" fill-rule=\"evenodd\"></path>\n</svg>\n</li>\n<li>\n<a class=\"block transition-colors hover:text-gray-900 dark:hover:text-white\" href=\"#\">\n            Product\n          </a>\n</li>\n</ol>\n</nav>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

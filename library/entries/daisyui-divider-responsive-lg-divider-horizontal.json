@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-divider-responsive-lg-divider-horizontal",
+  "title": "Divider: responsive (lg:divider-horizontal) (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/divider/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "divider",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Divider will be used to separate content vertically or horizontally.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/divider/+page.md",
+  "code": "<div class=\"flex w-full flex-col lg:flex-row\">\n  <div class=\"card bg-base-300 rounded-box grid h-32 grow place-items-center\">content</div>\n  <div class=\"divider lg:divider-horizontal\">OR</div>\n  <div class=\"card bg-base-300 rounded-box grid h-32 grow place-items-center\">content</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

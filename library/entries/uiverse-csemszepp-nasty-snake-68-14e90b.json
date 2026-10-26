@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-csemszepp-nasty-snake-68-14e90b",
+  "title": "Pattern by csemszepp (nasty-snake-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/nasty-snake-68",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "christmas"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_nasty-snake-68.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp  - Tags: simple, pattern, Christmas */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 75px; /* control the size */\n\n  --_c: #0000, #fff 1deg 79deg, #0000 81deg;\n  --g0: conic-gradient(from 140deg at 50% 87.5%, var(--_c));\n  --g1: conic-gradient(from 140deg at 50% 81.25%, var(--_c));\n  --g2: conic-gradient(from 140deg at 50% 75%, var(--_c));\n  --g3: conic-gradient(at 10% 20%, #0000 75%, #fff 0);\n  background: var(--g0) 0 calc(var(--s) / -4),\n    var(--g0) var(--s) calc(3 * var(--s) / 4), var(--g1),\n    var(--g1) var(--s) var(--s), var(--g2) 0 calc(var(--s) / 4),\n    var(--g2) var(--s) calc(5 * var(--s) / 4),\n    var(--g3) calc(var(--s) / -10) var(--s),\n    var(--g3) calc(9 * var(--s) / 10) calc(2 * var(--s)),\n    repeating-conic-gradient(from 45deg, #a31e39 0 25%, #31570e 0 50%);\n  background-size: calc(2 * var(--s)) calc(2 * var(--s));\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

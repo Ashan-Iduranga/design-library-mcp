@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-ratinax-wonderful-dingo-30-ec9841",
+  "title": "Loader by Ratinax (wonderful-dingo-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Ratinax/wonderful-dingo-30",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "sun",
+    "rotate"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Ratinax on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Ratinax_wonderful-dingo-30.html",
+  "code": "<div class=\"sun\">\n  <div class=\"center\"></div>\n  <div class=\"ray r-1\"></div>\n  <div class=\"ray r-2\"></div>\n  <div class=\"ray r-3\"></div>\n  <div class=\"ray r-4\"></div>\n  <div class=\"ray r-5\"></div>\n  <div class=\"ray r-6\"></div>\n  <div class=\"ray r-7\"></div>\n  <div class=\"ray r-8\"></div>\n</div>\n<style>\n/* From Uiverse.io by Ratinax - Tags: loader, sun, rotate */\n.sun {\n  position: relative;\n  animation: rotate 4s linear infinite;\n  --color: yellow;\n  --scale: 0.4;\n}\n\n.center {\n  height: calc(var(--scale) * 10em);\n  width: calc(var(--scale) * 10em);\n  transition: background-color 2s linear, box-shadow 2s linear;\n  background-color: var(--color);\n  border-radius: 50%;\n  box-shadow: 0 0 calc(var(--scale) * 3em) var(--color);\n}\n\n.ray {\n  position: absolute;\n  height: calc(var(--scale) * 3em);\n  width: calc(var(--scale) * 0.5em);\n  transition: background-color 2s ease-in-out, box-shadow 2s ease-in-out;\n  box-shadow: 0 0 calc(var(--scale) * 1em) var(--color);\n  background-color: var(--color);\n}\n\n.r-1 {\n  margin-left: calc(var(--scale) * 4.75em);\n  margin-top: calc(var(--scale) * 1em);\n}\n\n.r-2 {\n  margin-left: calc(var(--scale) * 12.25em);\n  margin-top: calc(var(--scale) * -6.25em);\n  transform: rotate(90deg);\n}\n\n.r-3 {\n  margin-left: calc(var(--scale) * 4.75em);\n  margin-top: calc(var(--scale) * -14em);\n}\n\n.r-4 {\n  margin-left: calc(var(--scale) * -2.75em);\n  margin-top: calc(var(--scale) * -6.25em);\n  transform: rotate(90deg);\n}\n\n.r-5 {\n  margin-left: calc(var(--scale) * -0.5em);\n  margin-top: calc(var(--scale) * -1em);\n  transform: rotate(45deg);\n}\n\n.r-6 {\n  margin-left: calc(var(--scale) * 9.75em);\n  margin-top: calc(var(--scale) * -1em);\n  transform: rotate(-45deg);\n}\n\n.r-7 {\n  margin-left: calc(var(--scale) * 10.25em);\n  margin-top: calc(var(--scale) * -11.75em);\n  transform: rotate(45deg);\n}\n\n.r-8 {\n  margin-left: calc(var(--scale) * -0.5em);\n  margin-top: calc(var(--scale) * -11.75em);\n  transform: rotate(-45deg);\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(0deg);\n    --color: yellow;\n  }\n\n  100% {\n    transform: rotate(360deg);\n    --color: orange;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

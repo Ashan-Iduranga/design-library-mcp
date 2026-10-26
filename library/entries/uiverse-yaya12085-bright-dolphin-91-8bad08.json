@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-yaya12085-bright-dolphin-91-8bad08",
+  "title": "Toggle by Yaya12085 (bright-dolphin-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/bright-dolphin-91",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "3d",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Yaya12085_bright-dolphin-91.html",
+  "code": "<div class=\"container\">\n  <input id=\"checkbox\" name=\"checkbox\" type=\"checkbox\">\n  <label class=\"label\" for=\"checkbox\">\n            </label>\n\n</div>\n\n\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: 3d, switch */\n.container {\n}\n\n.label {\n  height: 60px;\n  width: 120px;\n  background-color: #ffffff;\n  border-radius: 30px;\n  -webkit-box-shadow: inset 0 0 5px 4px rgba(255, 255, 255, 1),\n    inset 0 0 20px 1px rgba(0, 0, 0, 0.488), 10px 20px 30px rgba(0, 0, 0, 0.096),\n    inset 0 0 0 3px rgba(0, 0, 0, 0.3);\n  box-shadow: inset 0 0 5px 4px rgba(255, 255, 255, 1),\n    inset 0 0 20px 1px rgba(0, 0, 0, 0.488), 10px 20px 30px rgba(0, 0, 0, 0.096),\n    inset 0 0 0 3px rgba(0, 0, 0, 0.3);\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  cursor: pointer;\n  position: relative;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n}\n\n.label:hover {\n  -webkit-transform: perspective(100px) rotateX(5deg) rotateY(-5deg);\n  transform: perspective(100px) rotateX(5deg) rotateY(-5deg);\n}\n\n#checkbox:checked ~ .label:hover {\n  -webkit-transform: perspective(100px) rotateX(-5deg) rotateY(5deg);\n  transform: perspective(100px) rotateX(-5deg) rotateY(5deg);\n}\n\n#checkbox {\n  display: none;\n}\n\n#checkbox:checked ~ .label::before {\n  left: 70px;\n  background-color: #000000;\n  background-image: linear-gradient(315deg, #000000 0%, #414141 70%);\n  -webkit-transition: 0.4s;\n  transition: 0.4s;\n}\n\n.label::before {\n  position: absolute;\n  content: \"\";\n  height: 40px;\n  width: 40px;\n  border-radius: 50%;\n  background-color: #000000;\n  background-image: linear-gradient(\n    130deg,\n    #757272 10%,\n    #ffffff 11%,\n    #726f6f 62%\n  );\n  left: 10px;\n  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3), 10px 10px 10px rgba(0, 0, 0, 0.3);\n  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3), 10px 10px 10px rgba(0, 0, 0, 0.3);\n  -webkit-transition: 0.4s;\n  transition: 0.4s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

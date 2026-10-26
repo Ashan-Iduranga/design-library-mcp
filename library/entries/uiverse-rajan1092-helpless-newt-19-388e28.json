@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-rajan1092-helpless-newt-19-388e28",
+  "title": "Loader by Rajan1092 (helpless-newt-19)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Rajan1092/helpless-newt-19",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "3d-loader",
+    "dotted-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Rajan1092 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Rajan1092_helpless-newt-19.html",
+  "code": "<div class=\"spinner\"></div>\n<style>\n/* From Uiverse.io by Rajan1092 - Tags: 3d loader, dotted loader */\n.spinner {\n  width: 56px;\n  height: 56px;\n  display: grid;\n}\n\n.spinner::before,\n.spinner::after {\n  content: \"\";\n  grid-area: 1/1;\n  background: var(--c) 50%  0, \n        var(--c) 50%  100%, \n        var(--c) 100% 50%, \n        var(--c) 0    50%;\n  background-size: 13.4px 13.4px;\n  background-repeat: no-repeat;\n  animation: spinner-3hs4a3 1s infinite;\n}\n\n.spinner::before {\n  --c: radial-gradient(farthest-side,#2b55a0 92%,#0000);\n  margin: 4.5px;\n  background-size: 9px 9px;\n  animation-timing-function: linear;\n}\n\n.spinner::after {\n  --c: radial-gradient(farthest-side,#2b55a0 92%,#0000);\n}\n\n@keyframes spinner-3hs4a3 {\n  100% {\n    transform: rotate(.5turn);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

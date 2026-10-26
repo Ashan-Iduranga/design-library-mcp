@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-kamehame-ha-lovely-fly-87-bff18e",
+  "title": "Input by kamehame-ha (lovely-fly-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kamehame-ha/lovely-fly-87",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "modern",
+    "clean"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kamehame-ha on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/kamehame-ha_lovely-fly-87.html",
+  "code": "<div class=\"coolinput\">\n    <label for=\"input\" class=\"text\">Name:</label>\n    <input type=\"text\" placeholder=\"Write here...\" name=\"input\" class=\"input\">\n</div>\n<style>\n/* From Uiverse.io by kamehame-ha - Tags: input, modern, clean */\n.coolinput {\n  display: flex;\n  flex-direction: column;\n  width: fit-content;\n  position: static;\n  max-width: 240px;\n}\n\n.coolinput label.text {\n  font-size: 0.75rem;\n  color: #818CF8;\n  font-weight: 700;\n  position: relative;\n  top: 0.5rem;\n  margin: 0 0 0 7px;\n  padding: 0 3px;\n  background: #e8e8e8;\n  width: fit-content;\n}\n\n.coolinput input[type=text].input {\n  padding: 11px 10px;\n  font-size: 0.75rem;\n  border: 2px #818CF8 solid;\n  border-radius: 5px;\n  background: #e8e8e8;\n}\n\n.coolinput input[type=text].input:focus {\n  outline: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

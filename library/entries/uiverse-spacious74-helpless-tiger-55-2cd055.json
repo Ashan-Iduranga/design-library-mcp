@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-spacious74-helpless-tiger-55-2cd055",
+  "title": "Button by Spacious74 (helpless-tiger-55)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Spacious74/helpless-tiger-55",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d",
+    "realistic",
+    "code",
+    "social-media",
+    "neo"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Spacious74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Spacious74_helpless-tiger-55.html",
+  "code": "<button class=\"button\">\n  <div class=\"blob1\"></div>\n  <div class=\"blob2\"></div>\n  <div class=\"inner\">Realism</div>\n</button>\n\n<style>\n/* From Uiverse.io by Spacious74  - Tags: 3d, button, realistic, code, social media, neo */\n.button {\n  cursor: pointer;\n  font-size: 1.6rem;\n  border-radius: 16px;\n  border: none;\n  padding: 2px;\n  background: radial-gradient(circle 80px at 80% -10%, #ffffff, #181b1b);\n  position: relative;\n}\n.button::after {\n  content: \"\";\n  position: absolute;\n  width: 65%;\n  height: 60%;\n  border-radius: 120px;\n  top: 0;\n  right: 0;\n  box-shadow: 0 0 20px #ffffff38;\n  z-index: -1;\n}\n\n.blob1 {\n  position: absolute;\n  width: 70px;\n  height: 100%;\n  border-radius: 16px;\n  bottom: 0;\n  left: 0;\n  background: radial-gradient(\n    circle 60px at 0% 100%,\n    #3fe9ff,\n    #0000ff80,\n    transparent\n  );\n  box-shadow: -10px 10px 30px #0051ff2d;\n}\n\n.inner {\n  padding: 14px 25px;\n  border-radius: 14px;\n  color: #fff;\n  z-index: 3;\n  position: relative;\n  background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);\n}\n.inner::before {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  left: 0;\n  top: 0;\n  border-radius: 14px;\n  background: radial-gradient(\n    circle 60px at 0% 100%,\n    #00e1ff1a,\n    #0000ff11,\n    transparent\n  );\n  position: absolute;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

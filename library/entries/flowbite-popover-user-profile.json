@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-popover-user-profile",
+  "title": "Popover: User profile (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/popover/#user-profile",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "popover",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show more information about a user profile when hovering over the trigger component.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/popover.md",
+  "code": "<button data-popover-target=\"popover-user-profile\" type=\"button\" class=\"text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">User profile</button>\n\n<div data-popover id=\"popover-user-profile\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block w-64 text-sm text-body transition-opacity duration-300 bg-neutral-primary-soft border border-default rounded-base shadow-xs opacity-0\">\n    <div class=\"p-3\">\n        <div class=\"flex items-center justify-between mb-2\">\n            <a href=\"#\">\n                <img class=\"w-8 h-8 rounded-full\" src=\"/docs/images/people/profile-picture-1.jpg\" alt=\"Jese Leos\">\n            </a>\n            <div>\n                <button type=\"button\" class=\"text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded text-xs px-3 py-1.5 focus:outline-none\">Follow</button>\n            </div>\n        </div>\n        <p class=\"text-sm font-semibold text-heading\">\n            <a href=\"#\">Jese Leos</a>\n        </p>\n        <p class=\"mb-3 text-sm font-normal text-body\">\n            <a href=\"#\" class=\"hover:underline\">@jeseleos</a>\n        </p>\n        <p class=\"mb-4 text-sm\">Open-source contributor & CEO. Building <a href=\"#\" class=\"text-fg-brand hover:underline\">flowbite.com</a>.</p>\n        <ul class=\"flex text-sm\">\n            <li class=\"me-2.5\">\n                <a href=\"#\" class=\"hover:underline\">\n                    <span class=\"font-medium text-heading\">799</span>\n                    <span>Following</span>\n                </a>\n            </li>\n            <li>\n                <a href=\"#\" class=\"hover:underline\">\n                    <span class=\"font-medium text-heading\">3,758</span>\n                    <span>Followers</span>\n                </a>\n            </li>\n        </ul>\n    </div>\n    <div data-popper-arrow></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

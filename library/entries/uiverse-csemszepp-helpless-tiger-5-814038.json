@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-helpless-tiger-5-814038",
+  "title": "Loader by csemszepp (helpless-tiger-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/helpless-tiger-5",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/csemszepp_helpless-tiger-5.html",
+  "code": "<div class=\"loader\">\n  <div class=\"inner\">\n  </div>\n</div>\n<style>\n/* From Uiverse.io by csemszepp - Source: https://codepen.io/dfitzy/pen/XdaoWg - Tags: loader, revolver */\n.loader {\n  animation: spin 1.5s linear alternate infinite;\n  background: #B73F41;\n  border-radius: 50%;\n  height: 120px;\n  width: 120px;\n}\n\n.loader:before {\n  background: #B73F41;\n  border-radius: 50%;\n  content: '';\n  display: block;\n  height: 0.5em;\n  width: 0.5em;\n  z-index: 2;\n}\n\n.loader:after {\n  background: #262E2A;\n  border-radius: 50%;\n  box-shadow: 0em -2.60em #262E2A,\n    2.25em -4.02em #e5e7eb,\n    2.25em -1.25em #262E2A,\n    4.60em 0em #e5e7eb,\n    2.25em 1.25em #262E2A,\n    2.25em 4.02em #e5e7eb,\n    0em 2.60em #262E2A,\n    -2.25em 4.02em #e5e7eb,\n    -2.25em 1.25em #262E2A,\n    -4.60em 0em #e5e7eb,\n    -2.25em -1.25em #262E2A,\n    -2.25em -4.02em #e5e7eb;\n  content: '';\n  display: block;\n  height: 2em;\n  width: 2em;\n}\n\n.inner {\n  animation: load 1.5s linear alternate infinite;\n  border: solid 1px #B73F41;\n  border-radius: 50%;\n  height: 1.75em;\n  width: 1.75em;\n  z-index: 1;\n}\n\n.loader, .loader:before, .loader:after, .inner {\n  bottom: 0;\n  left: 0;\n  margin: auto;\n  position: absolute;\n  right: 0;\n  top: 0;\n}\n\n@keyframes load {\n  0% {\n    box-shadow: 0em -2.60em #262E2A,\n      2.25em -1.25em #262E2A,\n      2.25em 1.25em #262E2A,\n      0em 2.60em #262E2A,\n      -2.25em 1.25em #262E2A,\n      -2.25em -1.25em #262E2A;\n  }\n\n  15% {\n    box-shadow: 0em -2.60em #262E2A,\n      2.25em -1.25em #262E2A,\n      2.25em 1.25em #262E2A,\n      0em 2.60em #262E2A,\n      -2.25em 1.25em #262E2A,\n      -2.25em -1.25em #B73F41;\n  }\n\n  30% {\n    box-shadow: 0em -2.60em #262E2A,\n      2.25em -1.25em #262E2A,\n      2.25em 1.25em #262E2A,\n      0em 2.60em #262E2A,\n      -2.25em 1.25em #B73F41,\n      -2.25em -1.25em #B73F41;\n  }\n\n  45% {\n    box-shadow: 0em -2.60em #262E2A,\n      2.25em -1.25em #262E2A,\n      2.25em 1.25em #262E2A,\n      0em 2.60em #B73F41,\n      -2.25em 1.25em #B73F41,\n      -2.25em -1.25em #B73F41;\n  }\n\n  60% {\n    box-shadow: 0em -2.60em #262E2A,\n      2.25em -1.25em #262E2A,\n      2.25em 1.25em #B73F41,\n      0em 2.60em #B73F41,\n      -2.25em 1.25em #B73F41,\n      -2.25em -1.25em #B73F41;\n  }\n\n  75% {\n    box-shadow: 0em -2.60em #262E2A,\n      2.25em -1.25em #B73F41,\n      2.25em 1.25em #B73F41,\n      0em 2.60em #B73F41,\n      -2.25em 1.25em #B73F41,\n      -2.25em -1.25em #B73F41;\n  }\n\n  90% {\n    box-shadow: 0em -2.60em #B73F41,\n      2.25em -1.25em #B73F41,\n      2.25em 1.25em #B73F41,\n      0em 2.60em #B73F41,\n      -2.25em 1.25em #B73F41,\n      -2.25em -1.25em #B73F41;\n  }\n\n  100% {\n    box-shadow: 0em -2.60em #B73F41,\n      2.25em -1.25em #B73F41,\n      2.25em 1.25em #B73F41,\n      0em 2.60em #B73F41,\n      -2.25em 1.25em #B73F41,\n      -2.25em -1.25em #B73F41;\n  }\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  15% {\n    transform: rotate(60deg);\n  }\n\n  30% {\n    transform: rotate(120deg);\n  }\n\n  45% {\n    transform: rotate(180deg);\n  }\n\n  60% {\n    transform: rotate(240deg);\n  }\n\n  75% {\n    transform: rotate(300deg);\n  }\n\n  90% {\n    transform: rotate(360deg);\n  }\n\n  100% {\n    transform: rotate(0deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

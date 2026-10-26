@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cornerstone-04-little-mouse-69-d0cd28",
+  "title": "Loader by Cornerstone-04 (little-mouse-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cornerstone-04/little-mouse-69",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cornerstone-04 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Cornerstone-04_little-mouse-69.html",
+  "code": "<div class=\"loader\">\n    <div class=\"ball\"></div>\n    <div class=\"ball\"></div>\n    <div class=\"ball\"></div>\n</div>\n<style>\n/* From Uiverse.io by Cornerstone-04 - Tags: loader */\n.loader {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  transition: 0.5s linear;\n}\n\n.ball {\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  animation: bounce6135 1s alternate infinite;\n  transition: 0.5s linear;\n}\n\n.ball {\n  background: #fff;\n}\n\n.ball:nth-child(2) {\n  animation-delay: 0.25s;\n}\n\n.ball:nth-child(3) {\n  animation-delay: 0.5s;\n}\n\n@keyframes bounce6135 {\n  from {\n    transform: scale(2);\n  }\n\n  to {\n    transform: scale(1);\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

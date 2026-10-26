@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-modal-popover-modal-closes-when-clicked-outsid",
+  "title": "Modal: Popover modal closes when clicked outside (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/modal/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "modal",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Modal is used to show a dialog or a box when you click a button.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/modal/+page.md",
+  "code": "<!-- The button's popovertarget attribute points to the modal's ID. ID must be unique for each modal -->\n<button class=\"btn\" popovertarget=\"my-modal-2\">Open</button>\n\n<div class=\"modal\" id=\"my-modal-2\" popover>\n  <div class=\"modal-box\">\n    <h3 class=\"font-bold text-lg\">Hello!</h3>\n    <p class=\"py-4\">Press ESC key or click the button below to close</p>\n  </div>\n  <div class=\"modal-backdrop\">\n    <button popovertarget=\"my-modal-2\" popovertargetaction=\"hide\">close</button>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

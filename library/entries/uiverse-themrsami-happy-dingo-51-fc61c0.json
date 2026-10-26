@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-themrsami-happy-dingo-51-fc61c0",
+  "title": "Form by themrsami (happy-dingo-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/themrsami/happy-dingo-51",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "material-design",
+    "purple",
+    "futuristic"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By themrsami on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/themrsami_happy-dingo-51.html",
+  "code": "<!-- From Uiverse.io by themrsami - Tags: material design, purple, form, futuristic, tailwind -->\n<div class=\"flex flex-col items-center justify-center h-screen dark\">\n  <div class=\"w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6\">\n    <h2 class=\"text-2xl font-bold text-gray-200 mb-4\">Login</h2>\n    <form class=\"flex flex-col\">\n      <input placeholder=\"Email address\" class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"email\">\n      <input placeholder=\"Password\" class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"password\">\n      <div class=\"flex items-center justify-between flex-wrap\">\n        <label class=\"text-sm text-gray-200 cursor-pointer\" for=\"remember-me\">\n          <input class=\"mr-2\" id=\"remember-me\" type=\"checkbox\">\n          Remember me\n        </label>\n        <a class=\"text-sm text-blue-500 hover:underline mb-0.5\" href=\"#\">Forgot password?</a>\n        <p class=\"text-white mt-4\"> Don't have an account? <a class=\"text-sm text-blue-500 -200 hover:underline mt-4\" href=\"#\">Signup</a></p>\n      </div>\n      <button class=\"bg-gradient-to-r from-indigo-500 to-blue-500 text-white font-bold py-2 px-4 rounded-md mt-4 hover:bg-indigo-600 hover:to-blue-600 transition ease-in-out duration-150\" type=\"submit\">Login</button>\n    </form>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

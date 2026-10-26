@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-andrew-demchenk0-yellow-cheetah-66-32ab6b",
+  "title": "Form by andrew-demchenk0 (yellow-cheetah-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/yellow-cheetah-66",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "email",
+    "submit",
+    "outlined",
+    "subscribe"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/andrew-demchenk0_yellow-cheetah-66.html",
+  "code": "<form class=\"subscribe-form\">\n    <input type=\"email\" placeholder=\"example@mail.com\" class=\"subscribe-input\">\n    <button class=\"subscribe-btn\">Submit</button>\n</form>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: email, form, submit, outlined, subscribe */\n.subscribe-form {\n  --main-focus: #2d8cf0;\n  --font-color: #323232;\n  --font-color-sub: #666;\n  --bg-color: #fff;\n  --main-color: #323232;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n  display: flex;\n  flex-direction: row;\n  width: 250px;\n  height: 35px;\n  border-radius: 5px;\n  box-shadow: 4px 4px var(--main-color);\n}\n\n.subscribe-input {\n  width: 100%;\n  height: 100%;\n  padding: 5px 10px;\n  border: 2px solid var(--main-color);\n  border-right: 0;\n  border-radius: 5px 0 0 5px;\n  font-size: 15px;\n  font-weight: 500;\n  color: var(--font-color);\n  background: var(--bg-color);\n}\n\n.subscribe-btn {\n  width: 100px;\n  height: 100%;\n  border: 2px solid var(--main-focus);\n  border-radius: 0 5px 5px 0;\n  background-color: var(--main-focus);\n  font-size: 15px;\n  letter-spacing: 1px;\n  font-weight: 500;\n  color: var(--bg-color);\n  cursor: pointer;\n}\n\n.subscribe-input:focus {\n  outline: none;\n  border: 2px solid var(--main-focus);\n  border-right: 0;\n}\n    \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-popover-triggering",
+  "title": "Popover: Triggering (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/popover/#triggering",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "popover",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Manually set the trigger event by adding the `data-popover-trigger=\"{hover|click}\"` data attribute to the trigger element choosing between a hover or click event. By default it is set to `hover`.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/popover.md",
+  "code": "<button data-popover-target=\"popover-hover\" data-popover-trigger=\"hover\" type=\"button\" class=\"text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Hover popover</button>\n\n<div data-popover id=\"popover-hover\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block w-64 text-sm text-body transition-opacity duration-300 bg-neutral-primary-soft border border-default rounded-base shadow-xs opacity-0\">\n    <div class=\"px-3 py-2 bg-neutral-tertiary border-b border-default rounded-t-base\">\n        <h3 class=\"font-medium text-heading\">Popover left</h3>\n    </div>\n    <div class=\"px-3 py-2\">\n        <p>And here's some amazing content. It's very engaging. Right?</p>\n    </div>\n    <div data-popper-arrow></div>\n</div>\n\n<button data-popover-target=\"popover-click\" data-popover-trigger=\"click\" type=\"button\" class=\"text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Click popover</button>\n\n<div data-popover id=\"popover-click\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block w-64 text-sm text-body transition-opacity duration-300 bg-neutral-primary-soft border border-default rounded-base shadow-xs opacity-0\">\n    <div class=\"px-3 py-2 bg-neutral-tertiary border-b border-default rounded-t-base\">\n        <h3 class=\"font-medium text-heading\">Popover left</h3>\n    </div>\n    <div class=\"px-3 py-2\">\n        <p>And here's some amazing content. It's very engaging. Right?</p>\n    </div>\n    <div data-popper-arrow></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

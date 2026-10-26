@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-arshshaikh06-friendly-jellyfish-23-f6e025",
+  "title": "Button by arshshaikh06 (friendly-jellyfish-23)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/arshshaikh06/friendly-jellyfish-23",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By arshshaikh06 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/arshshaikh06_friendly-jellyfish-23.html",
+  "code": "<div id=\"button-container\">\n<button class=\"button\" id=\"youtube\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <path d=\"M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z\"></path>\n  <polygon points=\"9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02\"></polygon>\n</svg>\n</button>\n<button class=\"button\" id=\"github\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>\n</svg>\n</button>\n<button class=\"button\" id=\"dribbble\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>\n  <path d=\"M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32\"></path>\n</svg>\n</button>\n<button class=\"button\" id=\"instagram\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"></rect>\n  <path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"></path>\n  <line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"></line>\n</svg>\n</button>\n<button class=\"button\" id=\"facebook\">\n<svg stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 24 24\" height=\"24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z\"></path>\n</svg>\n</button>\n<button class=\"button\" id=\"share\">\n<svg stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 24 24\" height=\"24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <circle r=\"3\" cy=\"5\" cx=\"18\"></circle>\n  <circle r=\"3\" cy=\"12\" cx=\"6\"></circle>\n  <circle r=\"3\" cy=\"19\" cx=\"18\"></circle>\n  <line y2=\"17.49\" x2=\"15.42\" y1=\"13.51\" x1=\"8.59\"></line>\n  <line y2=\"10.49\" x2=\"8.59\" y1=\"6.51\" x1=\"15.41\"></line>\n</svg>\n</button>\n</div>\n<style>\n/* From Uiverse.io by arshshaikh06 - Source: https://www.behance.net/gallery/117113957/Social-Share-Animation-Daily-UI-010 - Tags: button, hover, hover button, css button, css animation, cool button, button hover effect  */\n#button-container {\n  position: relative;\n}\n\n.button {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  translate: -50% 50%;\n  background: #F4F7F5;\n  border: none;\n  border-radius: 25px;\n  height: 50px;\n  width: 50px;\n  color: white;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition: 0.3s ease-in;\n}\n\n#share {\n  color: #DC0654;\n  background: #fbe6ed;\n}\n\n#facebook {\n  background: linear-gradient(-160deg, #00D2FF, #3A7BD5);\n}\n\n#instagram {\n  background: linear-gradient(135deg, #833AB4, #FD1D1D, #FCB045);\n}\n\n#dribbble {\n  background: linear-gradient(-70deg, #D70652, #FF025E);\n}\n\n#github {\n  background: linear-gradient(-70deg, #171515, #FF025E);\n}\n\n#youtube {\n  background: #FF0000;\n}\n\n#button-container:hover button {\n  rotate: 360deg;\n}\n\n#button-container:hover #share {\n  rotate: 270deg;\n}\n\n#button-container:hover > #facebook {\n  translate: -300% 50%;\n}\n\n#button-container:hover > #instagram {\n  translate: -226.78% -126.78%;\n}\n\n#button-container:hover > #dribbble {\n  translate: -50% -200%;\n}\n\n#button-container:hover > #github {\n  translate: 126.78% -126.78%;\n}\n\n#button-container:hover > #youtube {\n  translate: 200% 50%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

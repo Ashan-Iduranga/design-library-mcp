@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-range-disabled-state",
+  "title": "Range Slider: Disabled state (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/range/#disabled-state",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "range",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Apply the `disabled` class to disallow the users from further selecting values.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/range.md",
+  "code": "<label for=\"disabled-range\" class=\"block mb-2.5 text-sm font-medium text-heading\">Default range</label>\n<input id=\"disabled-range\" type=\"range\" value=\"50\" class=\"w-full h-2 bg-neutral-quaternary rounded-full appearance-none cursor-pointer\" disabled>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

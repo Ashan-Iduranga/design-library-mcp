@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-mobinkakei-tidy-cheetah-71-f1d654",
+  "title": "Pattern by mobinkakei (tidy-cheetah-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/tidy-cheetah-71",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "blue",
+    "black"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/mobinkakei_tidy-cheetah-71.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by mobinkakei  - Tags: simple, blue, black, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --sz: 4px; /*** size ***/\n  --sp: 5s; /*** speed ***/\n  --b1: #211e1e; /*** color ***/\n  --b2: #1c1b18; /*** color ***/\n  --b3: #0c0b0a; /*** color ***/\n  --b4: #0c0b0ae0; /*** color ***/\n  --c1: #ffffff; /*** color ***/\n  --ts: 50% / calc(var(--sz) * 17.5) calc(var(--sz) * 29.5);\n  background:\n\t\t/* black shadows */ radial-gradient(\n        circle at 50% 50%,\n        var(--b4) calc(var(--sz) * 1),\n        #fff0 calc(var(--sz) * 8)\n      )\n      var(--ts),\n    radial-gradient(\n        circle at 0% 0%,\n        var(--b4) calc(var(--sz) * 1),\n        #fff0 calc(var(--sz) * 8)\n      )\n      var(--ts),\n    radial-gradient(\n        circle at 0% 100%,\n        var(--b4) calc(var(--sz) * 1),\n        #fff0 calc(var(--sz) * 8)\n      )\n      var(--ts),\n    radial-gradient(\n        circle at 100% 0%,\n        var(--b4) calc(var(--sz) * 1),\n        #fff0 calc(var(--sz) * 8)\n      )\n      var(--ts),\n    radial-gradient(\n        circle at 100% 100%,\n        var(--b4) calc(var(--sz) * 1),\n        #fff0 calc(var(--sz) * 8)\n      )\n      var(--ts),\n    /* border bottom */\n      conic-gradient(\n        from 90deg at 97.5% 67%,\n        var(--c1) 0 87.5deg,\n        #fff0 88deg 100%\n      )\n      var(--ts),\n    /*repeated*/\n      conic-gradient(\n        from 90deg at 97.5% 67%,\n        var(--c1) 0 87.5deg,\n        #fff0 88deg 100%\n      )\n      var(--ts),\n    conic-gradient(\n        from 182.5deg at 2.5% 67%,\n        #fff0 0 0deg,\n        var(--c1) 0.5deg 90deg,\n        #fff0 0 100%\n      )\n      var(--ts),\n    /*repeated*/\n      conic-gradient(\n        from 182.5deg at 2.5% 67%,\n        #fff0 0 0deg,\n        var(--c1) 0.5deg 90deg,\n        #fff0 0 100%\n      )\n      var(--ts),\n    /* border top */\n      conic-gradient(\n        from 270deg at 2.5% 33%,\n        var(--c1) 0 87.5deg,\n        #fff0 88deg 100%\n      )\n      var(--ts),\n    /*repeated*/\n      conic-gradient(\n        from 270deg at 2.5% 33%,\n        var(--c1) 0 87.5deg,\n        #fff0 88deg 100%\n      )\n      var(--ts),\n    conic-gradient(\n        from 2.5deg at 97.5% 33%,\n        #fff0 0 0deg,\n        var(--c1) 0.5deg 90deg,\n        #fff0 0 100%\n      )\n      var(--ts),\n    /*repeated*/\n      conic-gradient(\n        from 2.5deg at 97.5% 33%,\n        #fff0 0 0deg,\n        var(--c1) 0.5deg 90deg,\n        #fff0 0 100%\n      )\n      var(--ts),\n    /* bottom */\n      conic-gradient(\n        from 116.5deg at 50% 85.5%,\n        var(--b1) 0 127deg,\n        #fff0 0 100%\n      )\n      var(--ts),\n    /*repeated*/\n      conic-gradient(\n        from 116.5deg at 50% 85.5%,\n        var(--b1) 0 127deg,\n        #fff0 0 100%\n      )\n      var(--ts),\n    /*repeated*/\n      conic-gradient(\n        from 116.5deg at 50% 85.5%,\n        var(--b1) 0 127deg,\n        #fff0 0 100%\n      )\n      var(--ts),\n    conic-gradient(from 120deg at 50% 83%, var(--c1) 0 120deg, #fff0 0 100%)\n      var(--ts),\n    /* top */\n      conic-gradient(\n        from -63.5deg at 50% 14.5%,\n        var(--b1) 0 127deg,\n        #fff0 0 100%\n      )\n      var(--ts),\n    /*repeated*/\n      conic-gradient(\n        from -63.5deg at 50% 14.5%,\n        var(--b1) 0 127deg,\n        #fff0 0 100%\n      )\n      var(--ts),\n    /*repeated*/\n      conic-gradient(\n        from -63.5deg at 50% 14.5%,\n        var(--b1) 0 127deg,\n        #fff0 0 100%\n      )\n      var(--ts),\n    conic-gradient(from -60deg at 50% 17%, var(--c1) 0 120deg, #fff0 0 100%)\n      var(--ts),\n    /* central gradient */\n      conic-gradient(\n        from 0deg at 50% 50%,\n        #fff0 0 2deg,\n        var(--b2) 2.5deg 57.5deg,\n        #fff0 58deg 62.5deg,\n        var(--b1) 63deg 117.5deg,\n        #fff0 118deg 122.5deg,\n        var(--b3) 123deg 177.5deg,\n        #fff0 178deg 182deg,\n        var(--b2) 182.5deg 237.5deg,\n        #fff0 0 242.5deg,\n        var(--b1) 243deg 297.5deg,\n        #fff0 298deg 302.5deg,\n        var(--b3) 303deg 357.5deg,\n        #fff0 358deg 360deg\n      )\n      var(--ts),\n    /* bg */ var(--c1);\n  animation: colors var(--sp) linear 0s infinite;\n}\n\n@keyframes colors {\n  100% {\n    filter: hue-rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

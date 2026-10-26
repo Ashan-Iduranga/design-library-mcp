@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-hungry-parrot-44-d814a5",
+  "title": "Button by satyamchaudharydev (hungry-parrot-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/hungry-parrot-44",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/satyamchaudharydev_hungry-parrot-44.html",
+  "code": "<button>\n    <div class=\"text\">\n        <span>Back</span>\n        <span>to</span>\n        <span>top</span>\n    </div>\n    <div class=\"clone\">\n        <span>Back</span>\n        <span>to</span>\n        <span>top</span>\n    </div>\n    <svg width=\"20px\" xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\">\n        <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14 5l7 7m0 0l-7 7m7-7H3\"></path>\n    </svg>\n</button>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: button */\nbutton {\n  width: 140px;\n  height: 56px;\n  overflow: hidden;\n  border: none;\n  color: #fff;\n  background: none;\n  position: relative;\n  padding-bottom: 2em;\n}\n\nbutton > div,button > svg {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  display: flex;\n}\n\nbutton:before {\n  content: \"\";\n  position: absolute;\n  height: 2px;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  transform: scaleX(0);\n  transform-origin: bottom right;\n  background: currentColor;\n  transition: transform 0.25s ease-out;\n}\n\nbutton:hover:before {\n  transform: scaleX(1);\n  transform-origin: bottom left;\n}\n\nbutton .clone > *,button .text > * {\n  opacity: 1;\n  font-size: 1.3rem;\n  transition: 0.2s;\n  margin-left: 4px;\n}\n\nbutton .clone > * {\n  transform: translateY(60px);\n}\n\nbutton:hover .clone > * {\n  opacity: 1;\n  transform: translateY(0px);\n  transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;\n}\n\nbutton:hover .text > * {\n  opacity: 1;\n  transform: translateY(-60px);\n  transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;\n}\n\nbutton:hover .clone > :nth-child(1) {\n  transition-delay: 0.15s;\n}\n\nbutton:hover .clone > :nth-child(2) {\n  transition-delay: 0.2s;\n}\n\nbutton:hover .clone > :nth-child(3) {\n  transition-delay: 0.25s;\n}\n\nbutton:hover .clone > :nth-child(4) {\n  transition-delay: 0.3s;\n}\n/* icon style and hover */\nbutton svg {\n  width: 20px;\n  right: 0;\n  top: 50%;\n  transform: translateY(-50%) rotate(-50deg);\n  transition: 0.2s ease-out;\n}\n\nbutton:hover svg {\n  transform: translateY(-50%) rotate(-90deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

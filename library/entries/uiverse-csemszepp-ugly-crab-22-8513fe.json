@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-ugly-crab-22-8513fe",
+  "title": "Loader by csemszepp (ugly-crab-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/ugly-crab-22",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/csemszepp_ugly-crab-22.html",
+  "code": "<div class=\"centered\">\n\t<div class=\"blob-1\"></div>\n\t<div class=\"blob-2\"></div>\n</div>\n<style>\n/* From Uiverse.io by csemszepp - Source: https://codepen.io/megatroncoder/pen/Xqeyva - Tags: loader, animated */\n.centered {\n  width: 400px;\n  height: 400px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  background: rgb(33 33 33 / var(--tw-bg-opacity))!important;\n  ;\n\tfilter: blur(10px) contrast(20);\n}\n\n.blob-1,.blob-2 {\n  width: 70px;\n  height: 70px;\n  position: absolute;\n  background: #fff;\n  border-radius: 50%;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n}\n\n.blob-1 {\n  left: 20%;\n  animation: osc-l 2.5s ease infinite;\n}\n\n.blob-2 {\n  left: 80%;\n  animation: osc-r 2.5s ease infinite;\n  background: #0ff;\n}\n\n@keyframes osc-l {\n  0% {\n    left: 20%;\n  }\n\n  50% {\n    left: 50%;\n  }\n\n  100% {\n    left: 20%;\n  }\n}\n\n@keyframes osc-r {\n  0% {\n    left: 80%;\n  }\n\n  50% {\n    left: 50%;\n  }\n\n  100% {\n    left: 80%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

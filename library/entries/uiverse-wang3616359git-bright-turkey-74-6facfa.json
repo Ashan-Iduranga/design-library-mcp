@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-wang3616359git-bright-turkey-74-6facfa",
+  "title": "Button by wang3616359git (bright-turkey-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/wang3616359git/bright-turkey-74",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By wang3616359git on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/wang3616359git_bright-turkey-74.html",
+  "code": "<button class=\"bt\" id=\"bt\">\n    <span class=\"msg\" id=\"msg\"></span>\n    SEND\n</button>\n<style>\n/* From Uiverse.io by wang3616359git - Tags: button */\n.bt {\n  border: none;\n  user-select: none;\n  font-size: 18px;\n  color: white;\n  text-align: center;\n  background-color: #0873bd;\n  box-shadow: #cacaca 2px 2px 10px 1px;\n  border-radius: 12px;\n  height: 60px;\n  line-height: 60px;\n  width: 155px;\n  transition: all 0.2s ease;\n  position: relative;\n}\n\n.msg {\n  height: 0;\n  width: 0;\n  border-radius: 2px;\n  position: absolute;\n  left: 15%;\n  top: 25%;\n}\n\n.bt:active {\n  transition: all 0.001s ease;\n  background-color: #5d9fcd;\n  box-shadow: #97989a 0 0 0 0;\n  transform: translateX(1px) translateY(1px);\n}\n\n.bt:hover .msg {\n  animation: msgRun 2s forwards;\n}\n\n@keyframes msgRun {\n  0% {\n    border-top: #d6d6d9 0 solid;\n    border-bottom: #f2f2f5 0 solid;\n    border-left: #f2f2f5 0 solid;\n    border-right: #f2f2f5 0 solid;\n  }\n\n  20% {\n    border-top: #d6d6d9 14px solid;\n    border-bottom: #f2f2f5 14px solid;\n    border-left: #f2f2f5 20px solid;\n    border-right: #f2f2f5 20px solid;\n  }\n\n  25% {\n    border-top: #d6d6d9 12px solid;\n    border-bottom: #f2f2f5 12px solid;\n    border-left: #f2f2f5 18px solid;\n    border-right: #f2f2f5 18px solid;\n  }\n\n  80% {\n    border-top: transparent 12px solid;\n    border-bottom: transparent 12px solid;\n    border-left: transparent 18px solid;\n    border-right: transparent 18px solid;\n  }\n\n  100% {\n    transform: translateX(150px);\n    border-top: transparent 12px solid;\n    border-bottom: transparent 12px solid;\n    border-left: transparent 18px solid;\n    border-right: transparent 18px solid;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

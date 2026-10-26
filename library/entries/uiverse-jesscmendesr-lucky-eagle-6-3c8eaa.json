@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-jesscmendesr-lucky-eagle-6-3c8eaa",
+  "title": "Button by JesscMendesr (lucky-eagle-6)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JesscMendesr/lucky-eagle-6",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "transition",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JesscMendesr on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JesscMendesr_lucky-eagle-6.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by JesscMendesr - Tags: transition, box-shadow */\n.button {\n  font-size: 1rem;\n  background-color: #F2E1C1 !important;\n  transform: translateY(-0.10em);\n  box-shadow: 3px 3px 0px rgba(55, 22, 22, 0.67);\n  border: 1px solid rgba(55, 22, 22, 0.67);\n  border-radius: 50px;\n  padding: 0.75em 1.5em;\n  transition: 0.2s;\n  cursor: pointer;\n}\n\nbutton:hover {\n  box-shadow: 4px 6px 0px rgba(55, 22, 22, 0.67);\n  transform: translateY(-0.4em);\n}\n\nbutton:active {\n  box-shadow: none;\n  transform: translateY(0);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

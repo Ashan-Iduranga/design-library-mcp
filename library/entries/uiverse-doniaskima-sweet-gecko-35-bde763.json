@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-doniaskima-sweet-gecko-35-bde763",
+  "title": "Loader by doniaskima (sweet-gecko-35)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/sweet-gecko-35",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "neumorphism",
+    "skeuomorphism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_sweet-gecko-35.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: neumorphism, skeuomorphism, loader */\n.loader {\n  width: fit-content;\n  font-weight: bold;\n  font-family: monospace;\n  white-space: pre;\n  font-size: 30px;\n  line-height: 1.2em;\n  height: 1.2em;\n  overflow: hidden;\n}\n\n.loader:before {\n  content: \"Loading...\\A⌰oading...\\A⌰⍜ading...\\A⌰⍜⏃ding...\\A⌰⍜⏃⎅ing...\\A⌰⍜⏃⎅⟟ng...\\A⌰⍜⏃⎅⟟⋏g...\\A⌰⍜⏃⎅⟟⋏☌...\\A⌰⍜⏃⎅⟟⋏☌⟒..\\A⌰⍜⏃⎅⟟⋏☌⟒⏁.\\A⌰⍜⏃⎅⟟⋏☌⟒⏁⋔\";\n  white-space: pre;\n  display: inline-block;\n  animation: l39 1s infinite steps(11) alternate;\n}\n\n@keyframes l39 {\n  100% {\n    transform: translateY(-100%)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

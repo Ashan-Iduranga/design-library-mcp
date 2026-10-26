@@ -1,0 +1,33 @@
+{
+  "id": "open-props-green",
+  "title": "Open Props: Green color scale",
+  "source": "Open Props",
+  "url": "https://open-props.style/#colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "green",
+    "open-props",
+    "css-variables",
+    "tokens",
+    "color"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "13 CSS custom properties, e.g. --green-0, --green-1, --green-2, --green-3.\n\nUse: npm i open-props, then @import \"open-props/green\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.green.css",
+  "code": "<style>\n:where(html) {\n  --green-0: #ebfbee;\n  --green-1: #d3f9d8;\n  --green-2: #b2f2bb;\n  --green-3: #8ce99a;\n  --green-4: #69db7c;\n  --green-5: #51cf66;\n  --green-6: #40c057;\n  --green-7: #37b24d;\n  --green-8: #2f9e44;\n  --green-9: #2b8a3e;\n  --green-10: #237032;\n  --green-11: #1b5727;\n  --green-12: #133d1b;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Open Props green</strong>\n<p>green</p><div class=\"row\"><div style=\"background:#ebfbee\" title=\"--green-0: #ebfbee\"><span>0</span></div><div style=\"background:#d3f9d8\" title=\"--green-1: #d3f9d8\"><span>1</span></div><div style=\"background:#b2f2bb\" title=\"--green-2: #b2f2bb\"><span>2</span></div><div style=\"background:#8ce99a\" title=\"--green-3: #8ce99a\"><span>3</span></div><div style=\"background:#69db7c\" title=\"--green-4: #69db7c\"><span>4</span></div><div style=\"background:#51cf66\" title=\"--green-5: #51cf66\"><span>5</span></div><div style=\"background:#40c057\" title=\"--green-6: #40c057\"><span>6</span></div><div style=\"background:#37b24d\" title=\"--green-7: #37b24d\"><span>7</span></div><div style=\"background:#2f9e44\" title=\"--green-8: #2f9e44\"><span>8</span></div><div style=\"background:#2b8a3e\" title=\"--green-9: #2b8a3e\"><span>9</span></div><div style=\"background:#237032\" title=\"--green-10: #237032\"><span>10</span></div><div style=\"background:#1b5727\" title=\"--green-11: #1b5727\"><span>11</span></div><div style=\"background:#133d1b\" title=\"--green-12: #133d1b\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

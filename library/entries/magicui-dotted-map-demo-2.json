@@ -1,0 +1,37 @@
+{
+  "id": "magicui-dotted-map-demo-2",
+  "title": "Dotted Map Demo 2 (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/dotted-map",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "dotted",
+    "map",
+    "demo",
+    "2",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a dotted map.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/dotted-map-demo-2.tsx",
+  "code": "import { DottedMap } from \"@/registry/magicui/dotted-map\"\n\nexport default function Component() {\n  return (\n    <div className=\"relative h-[500px] w-full overflow-hidden rounded-lg border\">\n      <DottedMap dotRadius={0.1} />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

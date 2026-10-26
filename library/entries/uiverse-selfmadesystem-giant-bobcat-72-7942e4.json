@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-selfmadesystem-giant-bobcat-72-7942e4",
+  "title": "Loader by SelfMadeSystem (giant-bobcat-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/giant-bobcat-72",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/SelfMadeSystem_giant-bobcat-72.html",
+  "code": "<svg style=\"position: absolute; width: 0; height: 0;\">\n  <filter id=\"goo\">\n  <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"12\"></feGaussianBlur>\n  <feColorMatrix values=\"0 0 0 0 0 \n            0 0 0 0 0 \n            0 0 0 0 0 \n            0 0 0 48 -7\"></feColorMatrix>\n</filter>\n</svg>\n\n<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by SelfMadeSystem - Tags: loader */\n.loader {\n  width: 12em;\n  height: 3em;\n  position: relative;\n  overflow: hidden;\n  border-bottom: 8px solid #000;\n  filter: url(#goo);\n}\n\n.loader::before {\n  content: '';\n  width: 22em;\n  height: 18em;\n  background: #f00;\n  position: absolute;\n  border-radius: 50%;\n  left: -2em;\n  bottom: -18em;\n  animation: wee1 2s linear infinite;\n}\n\n.loader::after {\n  content: '';\n  width: 16em;\n  height: 12em;\n  background: #0ff;\n  position: absolute;\n  border-radius: 50%;\n  left: -4em;\n  bottom: -12em;\n  animation: wee2 2s linear infinite 0.75s;\n}\n\n@keyframes wee1 {\n  0% {\n    transform: translateX(-10em) rotate(0deg);\n  }\n\n  100% {\n    transform: translateX(7em) rotate(180deg);\n  }\n}\n\n@keyframes wee2 {\n  0% {\n    transform: translateX(-8em) rotate(0deg);\n  }\n\n  100% {\n    transform: translateX(8em) rotate(180deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

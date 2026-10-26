@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-application-steps-2",
+  "title": "Steps: Title, step/total and progress bar",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/steps",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "steps",
+    "hyperui",
+    "breadcrumb",
+    "progress",
+    "navigation"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/steps/2.html",
+  "code": "<div class=\"mx-auto max-w-3xl p-6\">\n<div>\n<h2 class=\"sr-only\">Steps</h2>\n<div>\n<p class=\"text-xs font-medium text-gray-600\">2/3 - Address</p>\n<div class=\"mt-2 overflow-hidden rounded-full bg-gray-200\">\n<div class=\"h-2 w-2/3 rounded-full bg-blue-500\"></div>\n</div>\n</div>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

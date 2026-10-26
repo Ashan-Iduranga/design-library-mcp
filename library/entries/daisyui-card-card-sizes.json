@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-card-card-sizes",
+  "title": "Card: Card sizes (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/card/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Cards are used to group and display content in a way that is easily readable.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/card/+page.md",
+  "code": "<div class=\"card w-96 bg-base-100 card-xs shadow-sm\">\n  <div class=\"card-body\">\n    <h2 class=\"card-title\">Xsmall Card</h2>\n    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>\n    <div class=\"justify-end card-actions\">\n      <button class=\"btn btn-primary\">Buy Now</button>\n    </div>\n  </div>\n</div>\n\n<div class=\"card w-96 bg-base-100 card-sm shadow-sm\">\n  <div class=\"card-body\">\n    <h2 class=\"card-title\">Small Card</h2>\n    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>\n    <div class=\"justify-end card-actions\">\n      <button class=\"btn btn-primary\">Buy Now</button>\n    </div>\n  </div>\n</div>\n\n<div class=\"card w-96 bg-base-100 card-md shadow-sm\">\n  <div class=\"card-body\">\n    <h2 class=\"card-title\">Medium Card</h2>\n    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>\n    <div class=\"justify-end card-actions\">\n      <button class=\"btn btn-primary\">Buy Now</button>\n    </div>\n  </div>\n</div>\n\n<div class=\"card w-96 bg-base-100 card-lg shadow-sm\">\n  <div class=\"card-body\">\n    <h2 class=\"card-title\">Large Card</h2>\n    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>\n    <div class=\"justify-end card-actions\">\n      <button class=\"btn btn-primary\">Buy Now</button>\n    </div>\n  </div>\n</div>\n\n<div class=\"card w-96 bg-base-100 card-xl shadow-sm\">\n  <div class=\"card-body\">\n    <h2 class=\"card-title\">Xlarge Card</h2>\n    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>\n    <div class=\"justify-end card-actions\">\n      <button class=\"btn btn-primary\">Buy Now</button>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

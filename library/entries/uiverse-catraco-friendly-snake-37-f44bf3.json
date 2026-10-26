@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-catraco-friendly-snake-37-f44bf3",
+  "title": "Button by catraco (friendly-snake-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/catraco/friendly-snake-37",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "ring",
+    "next",
+    "hover-effect",
+    "startbutton",
+    "variables"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By catraco on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/catraco_friendly-snake-37.html",
+  "code": "<button class=\"btn-class-name\">\n  <span>Next</span>\n  <svg viewBox=\"0 0 320 512\" height=\"1em\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z\">\n  </path>\n  </svg>\n</button>\n<style>\n/* From Uiverse.io by catraco - Tags: button, ring, next, hover effect, startbutton , variables */\n.btn-class-name {\n  --color: 180,255, 100;\n  border-radius: .5em;\n  transition: .3s;\n  background-color: rgba(var(--color), .2);\n  color: rgb(var(--color));\n  fill: rgb(var(--color));\n  font-family: monospace;\n  font-weight: bolder;\n  font-size: x-large;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n  cursor: pointer;\n  border: 2px solid rgb(var(--color));\n  box-shadow: 0 0 10px rgba(var(--color), .4);\n  outline: none;\n  display: flex;\n  align-items: center;\n  padding: .5em 1em;\n}\n\n.btn-class-name:hover {\n  box-shadow: 0 0 0 5px rgba(var(--color), .5);\n}\n\n.btn-class-name span {\n  transform: scale(.8);\n  transition: .3s;\n}\n\n.btn-class-name:hover span {\n  transform: scale(1);\n}\n\n.btn-class-name svg {\n  font-size: 0;\n  transform: scale(0.5) translateX(0%) rotate(-180deg);\n  transition: .3s;\n}\n\n.btn-class-name:hover svg {\n  font-size: 20px;\n  transform: scale(1) translateX(20%) rotate(0deg);\n}\n\n.btn-class-name:active {\n  transition: 0s;\n  box-shadow: 0 0 0 5px rgb(var(--color));\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

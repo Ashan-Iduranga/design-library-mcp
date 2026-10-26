@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-young-puma-4-433563",
+  "title": "Loader by satyamchaudharydev (young-puma-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/young-puma-4",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/satyamchaudharydev_young-puma-4.html",
+  "code": "<div class=\"spinner\">\n</div>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.spinner {\n --size-of-spinner: 50px;\n --spinner-border-width: 4px;\n --spinner-color: #08c18a;\n --circle-color: #8bc34a24;\n --speed-of-animation: 2s;\n --scale: 1.3;\n width: var(--size-of-spinner);\n height: var(--size-of-spinner);\n background: var(--circle-color);\n border-radius: 50%;\n position: relative;\n}\n\n.spinner::after {\n content: \"\";\n display: block;\n position: absolute;\n border-radius: 50%;\n inset: 0;\n border: var(--spinner-border-width) solid var(--spinner-color);\n border-left-color: transparent;\n border-right-color: transparent;\n animation: spinny var(--speed-of-animation) linear infinite;\n}\n\n@keyframes spinny {\n 0% {\n  transform: rotate(0deg) scale(1)\n }\n\n 50% {\n  transform: rotate(45deg) scale(var(--scale))\n }\n\n 100% {\n  transform: rotate(360deg) scale(1)\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

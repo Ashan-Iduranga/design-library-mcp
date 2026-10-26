@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-adir-sl-quiet-goose-19-cf1970",
+  "title": "Button by Adir-SL (quiet-goose-19)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Adir-SL/quiet-goose-19",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "pink",
+    "toy"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Adir-SL on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Adir-SL_quiet-goose-19.html",
+  "code": "<button> Click here </button>\n<style>\n/* From Uiverse.io by Adir-SL - Tags: pink, button, toy */\nbutton {\n  --fontSize: 2rem;\n  --button: 356, 80%;\n  --buttonColor: hsl(var(--button), 70%);\n  --sideColor: hsl(var(--button), 40%);\n  --text: hsl(var(--button), 30%);\n  --bgColor: #e8e8e8;\n  position: relative;\n  font-size: 0;\n  font-family: sans-serif;\n  transition: all 300ms cubic-bezier(0.47, 1.64, 0.41, 0.8);\n  border-radius: 999px;\n  padding: calc(var(--fontSize) / 2);\n  height: calc(var(--fontSize) * 2);\n  min-width: calc(var(--fontSize) * 2);\n  line-height: calc(var(--fontSize) * 0.75);\n  border: none;\n  outline: none;\n  background-color: var(--buttonColor);\n  transform: rotate(-25deg);\n  color: var(--text);\n  white-space: nowrap;\n  cursor: pointer;\n  -webkit-tap-highlight-color: transparent;\n  box-shadow: calc(var(--fontSize) / -25) calc(var(--fontSize) / 25) calc(var(--fontSize) / 25) #ffffffbb inset, calc(var(--fontSize) / -25) calc(var(--fontSize) / -50) calc(var(--fontSize) / 25) #ffffff88 inset,\n    0 0 calc(var(--fontSize) / 5) #0f004a77 inset, 0 0 0 calc(var(--fontSize) / 3.6) var(--buttonColor) inset,\n    0 0 calc(var(--fontSize) / 6.25) calc(var(--fontSize) / 3.125) #0f004a44 inset, calc(var(--fontSize) / -25) calc(var(--fontSize) / 12.5) 0 var(--sideColor),\n    calc(var(--fontSize) / -8.33) calc(var(--fontSize) / 12.5) calc(var(--fontSize) / 6.25) #0f004a44, calc(var(--fontSize) / -16.666) calc(var(--fontSize) / 12.5) calc(var(--fontSize) / 25) #0f004a66;\n}\n\nbutton:hover {\n  transform: rotate(0);\n  overflow: visible;\n  font-size: var(--fontSize);\n}\n\nbutton::before,\nbutton::after {\n  content: \": \";\n  font-family: serif;\n  font-weight: bold;\n  text-shadow: calc(var(--fontSize) / 25) 0 0 var(--sideColor), 0 0 calc(var(--fontSize) / 12.5) #0f004a55,\n    calc(var(--fontSize) / 50) 0 0 var(--sideColor), calc(var(--fontSize) / 50) calc(var(--fontSize) / -50) 0 var(--sideColor);\n  color: var(--bgColor);\n  font-size: var(--fontSize);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

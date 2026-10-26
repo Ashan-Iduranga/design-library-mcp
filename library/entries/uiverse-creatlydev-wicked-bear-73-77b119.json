@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-creatlydev-wicked-bear-73-77b119",
+  "title": "Toggle by Creatlydev (wicked-bear-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Creatlydev/wicked-bear-73",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "creative",
+    "html",
+    "css",
+    "toggle-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Creatlydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Creatlydev_wicked-bear-73.html",
+  "code": "<input type=\"checkbox\" name=\"check-toggle\" id=\"checkbox\" hidden=\"\">\n<label for=\"checkbox\" class=\"toggle\">\n  G\n  <div class=\"toggle__switch\">\n      <div class=\"toggle__circle\"></div>\n  </div>\n  D\n</label>\n<style>\n/* From Uiverse.io by Creatlydev - Tags: switch, toggle, creative, html, css, toggle switch */\n.toggle {\n  display: flex;\n  align-items: center;\n  gap: .2rem;\n  font-weight: 900;\n  font-size: 4rem;\n  color: hsl(119, 84%, 10%);\n  text-shadow: 0 0 2px #e8e8e8;\n}\n\n.toggle__switch {\n  --bg-toggle: hsl(0, 0%, 100%);\n  --bg-circle: hsl(119, 84%, 10%);\n  --w-toggle-switch: 150px;\n  --w-h-toggle-circle: 35px;\n  --pd-toggle-switch: .5rem;\n  height: 55px;\n  width: var(--w-toggle-switch);\n  background-color: var(--bg-toggle);\n  border-radius: 4rem;\n  display: flex;\n  align-items: center;\n  padding: 0 var(--pd-toggle-switch);\n  cursor: pointer;\n  transition: background-color 500ms;\n}\n\n.toggle__circle {\n  width: var(--w-h-toggle-circle);\n  height: var(--w-h-toggle-circle);\n  background-color: var(--bg-circle);\n  border-radius: 50%;\n  transition: margin 400ms ease-in-out, background-color 1000ms;\n}\n\n#checkbox:checked + .toggle .toggle__circle {\n  margin-left: calc(var(--w-toggle-switch) - (var(--pd-toggle-switch) * 2) - var(--w-h-toggle-circle));\n}\n\n#checkbox:checked + .toggle > .toggle__switch {\n  --bg-toggle: hsl(119, 84%, 10%);\n  --bg-circle: hsl(0, 0%, 96%);\n  box-shadow: 0 .3rem 5rem 0 hsla(96, 85%, 34%, 30%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

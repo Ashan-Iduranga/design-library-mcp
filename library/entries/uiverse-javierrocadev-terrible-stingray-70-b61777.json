@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-javierrocadev-terrible-stingray-70-b61777",
+  "title": "Card by Javierrocadev (terrible-stingray-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/terrible-stingray-70",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Javierrocadev_terrible-stingray-70.html",
+  "code": "<div class=\"card\">\n  <div class=\"image\"></div>\n  <div class=\"card-info\">\n    <span>George Johnson</span>\n    <p>Support Specialist</p>\n  </div>\n  <a href=\"#\" class=\"button\">Folow</a>\n</div>\n<style>\n/* From Uiverse.io by Javierrocadev - Source: Javierrocadev - Tags: card, circle, card animation */\n.card {\n  width: 350px;\n  height: 300px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  text-align: center;\n  gap: 10px;\n  background-color: #fffffe;\n  border-radius: 15px;\n  position: relative;\n  overflow: hidden;\n}\n\n.card::before {\n  content: \"\";\n  width: 350px;\n  height: 100px;\n  position: absolute;\n  top: 0;\n  border-top-left-radius: 15px;\n  border-top-right-radius: 15px;\n  border-bottom: 3px solid #fefefe;\n  background: linear-gradient(40deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);\n  transition: all 0.5s ease;\n}\n\n.card * {\n  z-index: 1;\n}\n\n.image {\n  width: 90px;\n  height: 90px;\n  background-color: #1468BF;\n  border-radius: 50%;\n  border: 4px solid #fefefe;\n  margin-top: 30px;\n  transition: all 0.5s ease;\n}\n\n.card-info {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 15px;\n  transition: all 0.5s ease;\n}\n\n.card-info span {\n  font-weight: 600;\n  font-size: 24px;\n  color: #161A42;\n  margin-top: 15px;\n  line-height: 5px;\n}\n\n.card-info p {\n  color: rgba(0, 0, 0, 0.5);\n}\n\n.button {\n  text-decoration: none;\n  background-color: #1468BF;\n  color: white;\n  padding: 5px 20px;\n  border-radius: 5px;\n  border: 1px solid white;\n  transition: all 0.5s ease;\n}\n\n.card:hover::before {\n  width: 350px;\n  height: 300px;\n  border-bottom: none;\n  border-bottom-left-radius: 15px;\n  border-bottom-right-radius: 15px;\n  transform: scale(0.95);\n}\n\n.card:hover .card-info {\n  transform: translate(0%,-25%);\n}\n\n.card:hover .image {\n  transform: scale(2) translate(-60%,-40%);\n}\n\n.button:hover {\n  background-color: #FF6844;\n  transform: scale(1.1);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

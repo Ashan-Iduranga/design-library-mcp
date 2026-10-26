@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-chat-chat-with-image",
+  "title": "Chat bubble: Chat with image (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/chat/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "chat",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Chat bubbles are used to show one line of conversation and all its data, including the author image, author name, time, etc.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/chat/+page.md",
+  "code": "<div class=\"chat chat-start\">\n  <div class=\"chat-image avatar\">\n    <div class=\"w-10 rounded-full\">\n      <img\n        alt=\"Tailwind CSS chat bubble component\"\n        src=\"https://img.daisyui.com/images/profile/demo/kenobee@192.webp\"\n      />\n    </div>\n  </div>\n  <div class=\"chat-bubble\">It was said that you would, destroy the Sith, not join them.</div>\n</div>\n<div class=\"chat chat-start\">\n  <div class=\"chat-image avatar\">\n    <div class=\"w-10 rounded-full\">\n      <img\n        alt=\"Tailwind CSS chat bubble component\"\n        src=\"https://img.daisyui.com/images/profile/demo/kenobee@192.webp\"\n      />\n    </div>\n  </div>\n  <div class=\"chat-bubble\">It was you who would bring balance to the Force</div>\n</div>\n<div class=\"chat chat-start\">\n  <div class=\"chat-image avatar\">\n    <div class=\"w-10 rounded-full\">\n      <img\n        alt=\"Tailwind CSS chat bubble component\"\n        src=\"https://img.daisyui.com/images/profile/demo/kenobee@192.webp\"\n      />\n    </div>\n  </div>\n  <div class=\"chat-bubble\">Not leave it in Darkness</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

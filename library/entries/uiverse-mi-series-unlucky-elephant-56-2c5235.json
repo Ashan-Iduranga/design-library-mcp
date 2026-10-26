@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-mi-series-unlucky-elephant-56-2c5235",
+  "title": "Button by mi-series (unlucky-elephant-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mi-series/unlucky-elephant-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "material-design",
+    "3d",
+    "purple",
+    "minimalist",
+    "hover-effect",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mi-series on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mi-series_unlucky-elephant-56.html",
+  "code": "<button class=\"container\">\n  <a href=\"#\"></a>\n  <a href=\"#\"></a>\n  <a href=\"#\"></a>\n  <a href=\"#\"></a>\n  <div class=\"card\">\n    <div class=\"card-header\">\n      HOVER\n    </div>\n  </div>\n</button>\n<style>\n/* From Uiverse.io by mi-series - Tags: simple, material design, 3d, purple, minimalist, button, hover effect, hover button */\n.container {\n  border: none;\n}\n\n.container .card {\n  background-color: white;\n  border-radius: 10px;\n  border: 1px solid black;\n  position: relative;\n  z-index: 0;\n  transition: all 300ms ease-out;\n  transform-origin: center center;\n  width: 150px;\n  height: 50px;\n  box-shadow: 0px;\n  outline: none;\n}\n\n.card-header {\n  padding: 10px;\n  background: linear-gradient(90deg, #CB2D6F 20px, transparent 100%) center / 22px 22px,\n\t\tlinear-gradient(#CB2D6F 20px, transparent 100%) center / 22px 22px,\n\t\t#fff;\n  color: white;\n  height: 100%;\n  font-size: 20px;\n  font-weight: 600;\n  border: 1px solid white;\n  border-radius: 10px;\n}\n\n.container .card .border {\n  transition: all 300ms ease-out;\n  transform-origin: center center;\n  position: absolute;\n  top: 6px;\n  left: 6px;\n  width: calc(100% - 0px);\n  height: calc(100% - 0px);\n  border: 1px solid black;\n  border-radius: 9px;\n}\n\n.container a {\n  opacity: 0;\n  position: absolute;\n  z-index: 1;\n  width: 50%;\n  height: 50%;\n}\n\n.container a:hover,\n.container a:focus {\n  transform: translateZ(50px);\n}\n\n.container a:hover ~ .card .card-header,\n.container a:focus ~ .card .card-header {\n  transform: translateZ(24px);\n}\n\n.container a:nth-child(1) {\n  top: 0;\n  left: 0;\n}\n\n.container a:nth-child(1):hover ~ .card,\n.container a:nth-child(1):focus ~ .card {\n  transform: rotateX(10deg) rotateY(-10deg) translateZ(0);\n  transform-origin: right bottom;\n  box-shadow: 10px 20px;\n}\n\n.container a:nth-child(2) {\n  top: 0;\n  right: 0;\n}\n\n.container a:nth-child(2):hover ~ .card,\n.container a:nth-child(2):focus ~ .card {\n  transform: rotateX(10deg) rotateY(10deg) translateZ(0);\n  transform-origin: left bottom;\n  box-shadow: -10px 20px;\n}\n\n.container a:nth-child(3) {\n  bottom: 0;\n  right: 0;\n}\n\n.container a:nth-child(3):hover ~ .card ,\n.container a:nth-child(3):focus ~ .card {\n  transform-origin: left top;\n  transform: rotateX(-10deg) rotateY(10deg) translateZ(0);\n  box-shadow: -10px -20px;\n}\n\n.container a:nth-child(4) {\n  bottom: 0;\n  left: 0;\n}\n\n.container a:nth-child(4):hover ~ .card,\n.container a:nth-child(4):focus ~ .card {\n  transform-origin: right top;\n  transform: rotateX(-10deg) rotateY(-10deg) translateZ(0);\n  box-shadow: 10px -20px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

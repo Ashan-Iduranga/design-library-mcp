@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-hoseinnaqvi-terrible-hound-31-ba3bfd",
+  "title": "Card by Hoseinnaqvi (terrible-hound-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Hoseinnaqvi/terrible-hound-31",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "logo",
+    "one-div",
+    "fruit"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Hoseinnaqvi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Hoseinnaqvi_terrible-hound-31.html",
+  "code": "<div class=\"one-div\"></div>\n<style>\n/* From Uiverse.io by Hoseinnaqvi - Tags: logo, one-div, fruit */\n.one-div {\n  margin-top: 40px;\n  width: 300px;\n  height: 300px;\n  background-image: linear-gradient(to right,red,orange);\n  border-radius: 40%;\n  box-shadow: 0px 0px 10px black;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: row;\n}\n\n.one-div::before {\n  content: '';\n  height: 90px;\n  width: 90px;\n  border-radius: 0 40% 0 60%;\n  background-color: green;\n  position: absolute;\n  top: 5%;\n  left: 42%;\n  box-shadow: 0px -3px 6px rgba(4, 4, 4, 0.695);\n  z-index: -1;\n}\n\n.one-div::after {\n  content: '😋';\n  filter: hue-rotate(130deg);\n  font-size: 10em;\n  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\n  border-radius: 0 40% 0 60%;\n  text-align: center;\n  top: 33%;\n  left: 37%;\n  animation: txt 1s infinite alternate;\n}\n\n@keyframes txt {\n  0% {\n    opacity: 0.1;\n  }\n\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes intro {\n  0% {\n    top: -100px;\n  }\n\n  50% {\n    top: -50px;\n  }\n\n  100% {\n    top: 0px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

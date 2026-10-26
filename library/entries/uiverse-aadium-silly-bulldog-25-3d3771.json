@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-aadium-silly-bulldog-25-3d3771",
+  "title": "Radio by aadium (silly-bulldog-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aadium/silly-bulldog-25",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "futuristic",
+    "futuristic-radio-buttons"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aadium on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/aadium_silly-bulldog-25.html",
+  "code": "<label id=\"topleft\" class=\"container\">\n  <input name=\"my-radio-button\" type=\"radio\">\n  <label id=\"tl\">Top <br>Left</label>\n  <div class=\"selected\"></div>\n</label>\n&nbsp;\n<label id=\"topright\" class=\"container\">\n  <input name=\"my-radio-button\" type=\"radio\">\n  <label id=\"tr\">Top<br>Right</label>\n  <div class=\"selected\"></div>\n</label>\n<br>\n<br>\n<label id=\"bottomleft\" class=\"container\">\n  <input name=\"my-radio-button\" type=\"radio\">\n  <label id=\"bl\">Bottom <br>Left</label>\n  <div class=\"selected\"></div>\n</label>\n&nbsp;\n<label id=\"bottomright\" class=\"container\">\n  <input name=\"my-radio-button\" type=\"radio\">\n  <label id=\"br\">Bottom <br>Right</label>\n  <div class=\"selected\"></div>\n</label>\n<style>\n/* From Uiverse.io by aadium - Tags: radio, futuristic, futuristic-radio-buttons */\n.container input[type=\"radio\"] {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: inline-block;\n  position: relative;\n  cursor: pointer;\n  font-size: 17px;\n  width: 4em;\n  height: 4em;\n  user-select: none;\n  border: 4px solid;\n  border-image-slice: 1;\n  background-color: #212121;\n}\n\nlabel {\n  font-size: 12px;\n  margin-top: -6px;\n  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;\n  text-align: center;\n  visibility: visible;\n}\n\n#topleft {\n  border-image-source: linear-gradient(-45deg, #743ad5, #d53a9d);\n  color: white\n}\n\n#topright {\n  border-image-source: linear-gradient(45deg, #743ad5, #d53a9d);\n  color: white\n}\n\n#bottomleft {\n  border-image-source: linear-gradient(-135deg, #743ad5, #d53a9d);\n  color: white\n}\n\n#bottomright {\n  border-image-source: linear-gradient(135deg, #743ad5, #d53a9d);\n  color: white\n}\n\n.selected {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n#topleft:hover {\n  border-image-source: linear-gradient(-45deg, #743ad5, #d53a9d);\n  background-image: linear-gradient(-45deg, #743ad5, #d53a9d);\n}\n\n#topright:hover {\n  border-image-source: linear-gradient(45deg, #743ad5, #d53a9d);\n  background-image: linear-gradient(45deg, #743ad5, #d53a9d);\n}\n\n#bottomleft:hover {\n  border-image-source: linear-gradient(-135deg, #743ad5, #d53a9d);\n  background-image: linear-gradient(-135deg, #743ad5, #d53a9d);\n}\n\n#bottomright:hover {\n  border-image-source: linear-gradient(135deg, #743ad5, #d53a9d);\n  background-image: linear-gradient(135deg, #743ad5, #d53a9d);\n}\n\n#topleft input[type=\"radio\"]:checked ~ .selected {\n  box-shadow: 5px 5px 25px #743ad5,\n                -5px -5px 25px #d53a9d;\n  border-image-slice: 1;\n}\n\n#topright input[type=\"radio\"]:checked ~ .selected {\n  box-shadow: -5px 5px 25px #743ad5,\n                5px -5px 25px #d53a9d;\n  border-image-slice: 1;\n}\n\n#bottomleft input[type=\"radio\"]:checked ~ .selected {\n  box-shadow: -5px 5px 25px #d53a9d,\n                5px -5px 25px #743ad5;\n  border-image-slice: 1;\n}\n\n#bottomright input[type=\"radio\"]:checked ~ .selected {\n  box-shadow: -5px -5px 25px #743ad5,\n                5px 5px 25px #d53a9d;\n  border-image-slice: 1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

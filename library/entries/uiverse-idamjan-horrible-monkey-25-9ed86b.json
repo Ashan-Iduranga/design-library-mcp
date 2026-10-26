@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-idamjan-horrible-monkey-25-9ed86b",
+  "title": "Button by iDamjan (horrible-monkey-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/iDamjan/horrible-monkey-25",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By iDamjan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/iDamjan_horrible-monkey-25.html",
+  "code": "<div class=\"container\">\n    <button>\n      <span id=\"u\">u</span><span id=\"n\">n</span><span id=\"i\">i</span><span id=\"v\">v</span><span id=\"e\">e</span><span id=\"r\">r</span><span id=\"s\">s</span><span id=\"ee\">e</span>\n    </button>\n      <div class=\"moon\"></div>\n  </div>\n\n<style>\n/* From Uiverse.io by iDamjan - Tags: button */\nbutton {\n  z-index: 500;\n  box-shadow: rgba(124, 172, 226, 0.295) 2px 2px 8px;\n  width: 15rem;\n  height: 4rem;\n  letter-spacing: 0.5rem;\n  border: none;\n  border-radius: 0.1rem;\n  color: white;\n  animation: universe-is-moving 2s infinite ease-out;\n  background: linear-gradient(\n    90deg,\n    rgba(185, 43, 39, 1) 0%,\n    rgba(21, 101, 192, 1) 100%\n  );\n  background-size: 200% 200%;\n  animation-direction: alternate;\n  background-position: 0% 100%;\n  animation-name: universe-is-moving;\n  animation-duration: 1.8s;\n  animation-iteration-count: infinite;\n  animation-timing-function: linear;\n  transition: all 0.5s ease-in-out;\n}\n\nbutton:hover {\n  border-radius: 2rem;\n  cursor: pointer;\n}\n\n.moon {\n  position: relative;\n  left: 2rem;\n  bottom: -2rem;\n  right: 0;\n  width: 20px;\n  height: 20px;\n  transform: translate3d(42px, -62px, -135px);\n  background-color: rgba(255, 255, 255, 0.76);\n  border-radius: 50%;\n  animation: 3s  universe-moon infinite ease-in-out;\n  animation-timing-function: linear;\n}\n\n#u {\n  font-size: 1.2rem;\n  animation: 3s ease-in-out universe-letters-are-moving infinite;\n}\n\n#n {\n  font-size: 1.2rem;\n  animation: 3s ease-in-out universe-letters-are-moving infinite;\n  animation-delay: 200ms;\n}\n\n#i {\n  font-size: 1.2rem;\n  animation: 3s ease-in-out universe-letters-are-moving infinite;\n  animation-delay: 400ms;\n}\n\n#v {\n  font-size: 1.2rem;\n  animation: 3s ease-in-out universe-letters-are-moving infinite;\n  animation-delay: 600ms;\n}\n\n#e {\n  font-size: 1.2rem;\n  animation: 3s ease-in-out universe-letters-are-moving infinite;\n  animation-delay: 800ms;\n}\n\n#r {\n  font-size: 1.2rem;\n  animation: 3s ease-in-out universe-letters-are-moving infinite;\n  animation-delay: 1000ms;\n}\n\n#s {\n  font-size: 1.2rem;\n  animation: 3s ease-in-out universe-letters-are-moving infinite;\n  animation-delay: 1200ms;\n}\n\n#e {\n  font-size: 1.2rem;\n  animation: 3s ease-in-out universe-letters-are-moving infinite;\n  animation-delay: 1400ms;\n}\n\n#ee {\n  font-size: 1.2rem;\n  animation: 3s ease-in-out universe-letters-are-moving infinite;\n  animation-delay: 1600ms;\n}\n\n@keyframes universe-is-moving {\n  from {\n    background-position: 0% 100%;\n  }\n\n  to {\n    background-position: 100% 0%;\n  }\n}\n\n@keyframes universe-letters-are-moving {\n  0% {\n    font-size: 1.2rem;\n  }\n\n  50% {\n    font-size: 1.5rem;\n  }\n\n  100% {\n    font-size: 1.2rem;\n  }\n}\n\n@keyframes universe-moon {\n  0% {\n    z-index: 5;\n    transform: translateY(-8em) translateX(10em);\n  }\n\n  50% {\n    transform: translateX(0.5em) translateY(-1em);\n  }\n\n  100% {\n    transform: translateY(-8em) translateX(10em);\n    z-index: -5;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

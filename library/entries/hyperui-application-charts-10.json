@@ -1,0 +1,36 @@
+{
+  "id": "hyperui-application-charts-10",
+  "title": "Charts: Scatter chart with axis titles",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/charts",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "charts",
+    "hyperui",
+    "chart",
+    "graph",
+    "analytics",
+    "dashboard",
+    "data-visualization"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/charts/10.html",
+  "code": "<div class=\"mx-auto max-w-lg p-6\">\n<div class=\"rounded-lg border border-gray-200 bg-white p-6\">\n<h2 class=\"text-sm font-medium text-gray-900\">Ad spend vs conversions</h2>\n<div class=\"mt-4 h-64\">\n<canvas aria-label=\"Ad spend vs conversions, scatter chart\" id=\"ad-spend-conversions-scatter-chart\" role=\"img\"></canvas>\n</div>\n<table class=\"sr-only\">\n<caption>\n          Ad spend and conversions per campaign\n        </caption>\n<thead>\n<tr>\n<th scope=\"col\">Spend ($)</th>\n<th scope=\"col\">Conversions</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<th scope=\"row\">90</th>\n<td>8</td>\n</tr>\n<tr>\n<th scope=\"row\">120</th>\n<td>12</td>\n</tr>\n<tr>\n<th scope=\"row\">140</th>\n<td>14</td>\n</tr>\n<tr>\n<th scope=\"row\">150</th>\n<td>15</td>\n</tr>\n<tr>\n<th scope=\"row\">180</th>\n<td>18</td>\n</tr>\n<tr>\n<th scope=\"row\">200</th>\n<td>22</td>\n</tr>\n<tr>\n<th scope=\"row\">220</th>\n<td>25</td>\n</tr>\n<tr>\n<th scope=\"row\">260</th>\n<td>30</td>\n</tr>\n</tbody>\n</table>\n</div>\n<script src=\"https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js\"></script>\n<script>\n      const adSpendConversionsScatterChartCanvas = document.getElementById(\n        'ad-spend-conversions-scatter-chart',\n      )\n\n      new Chart(adSpendConversionsScatterChartCanvas, {\n        type: 'scatter',\n        data: {\n          datasets: [\n            {\n              label: 'Campaigns',\n              data: [\n                { x: 90, y: 8 },\n                { x: 120, y: 12 },\n                { x: 140, y: 14 },\n                { x: 150, y: 15 },\n                { x: 180, y: 18 },\n                { x: 200, y: 22 },\n                { x: 220, y: 25 },\n                { x: 260, y: 30 },\n              ],\n              backgroundColor: '#4f46e5',\n              hoverBackgroundColor: '#4338ca',\n              pointRadius: 5,\n              pointHoverRadius: 7,\n            },\n          ],\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: false,\n          plugins: {\n            legend: { display: false },\n            tooltip: {\n              callbacks: {\n                label: (tooltipItem) =>\n                  `$${tooltipItem.raw.x} spend → ${tooltipItem.raw.y} conversions`,\n              },\n            },\n          },\n          scales: {\n            x: {\n              title: { display: true, text: 'Spend ($)', color: '#4b5563' },\n              grid: { color: '#e5e7eb' },\n              ticks: { color: '#4b5563' },\n            },\n            y: {\n              title: { display: true, text: 'Conversions', color: '#4b5563' },\n              beginAtZero: true,\n              grid: { color: '#e5e7eb' },\n              ticks: { color: '#4b5563' },\n            },\n          },\n        },\n      })\n    </script>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

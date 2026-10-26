@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-temrevil-mean-panda-76-1006a1",
+  "title": "Loader by TemRevil (mean-panda-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TemRevil/mean-panda-76",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TemRevil on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/TemRevil_mean-panda-76.html",
+  "code": "<div class=\"loading\">\n  <div class=\"loading-box\">\n    <div class=\"grid\">\n      <div class=\"color l1\"></div>\n      <div class=\"color l2\"></div>\n      <div class=\"color l3\"></div>\n      <div class=\"color l4\"></div>\n      <div class=\"color l5\"></div>\n      <div class=\"color l6\"></div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by TemRevil  - Tags:  */\n.loading {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.loading-box {\n  width: 450px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n  position: relative;\n}\n.color {\n  background-color: #eee;\n  border-radius: 5px;\n}\n.grid {\n  width: 100%;\n  display: grid;\n  grid-template-rows: 120px 120px 120px;\n  grid-template-areas:\n    \"l1 l2 l3\"\n    \"l1 l2 l4\"\n    \"l6 l6 l5\";\n  gap: 10px;\n}\n\n.l1 {\n  grid-area: l1;\n  animation: Loading 6s 0s infinite linear;\n}\n.l2 {\n  grid-area: l2;\n  animation: Loading 5s 1s infinite linear;\n}\n.l3 {\n  grid-area: l3;\n  animation: Loading 4s 2s infinite linear;\n}\n.l4 {\n  grid-area: l4;\n  animation: Loading 3s 3s infinite linear;\n}\n.l5 {\n  grid-area: l5;\n  animation: Loading 2s 4s infinite linear;\n}\n.l6 {\n  grid-area: l6;\n  animation: Loading 1s 5s infinite linear;\n}\n\n@keyframes Loading {\n  0% {\n    background-color: #eee;\n  }\n  50% {\n    background-color: #333;\n  }\n  100% {\n    background-color: #eee;\n  }\n}\n\n@media (max-width: 500px) {\n  .loading-box {\n    width: 90%;\n  }\n}\n@media (max-width: 400px) {\n  .grid {\n    grid-template-rows: 80px 80px 80px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

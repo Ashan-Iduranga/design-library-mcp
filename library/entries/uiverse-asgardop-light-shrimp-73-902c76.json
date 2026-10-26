@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-asgardop-light-shrimp-73-902c76",
+  "title": "Button by asgardOP (light-shrimp-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/asgardOP/light-shrimp-73",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "animation",
+    "white",
+    "message",
+    "modern",
+    "btn",
+    "click-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By asgardOP on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/asgardOP_light-shrimp-73.html",
+  "code": "<button class=\"button\">\n  <div>\n    <svg\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      height=\"24\"\n      width=\"24\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      aria-hidden=\"true\"\n      class=\"w-6 h-6 text-gray-800 dark:text-white\"\n    >\n      <path\n        d=\"m12 18-7 3 7-18 7 18-7-3Zm0 0v-5\"\n        stroke-width=\"2\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n        stroke=\"currentColor\"\n      ></path>\n    </svg>\n    Send Message\n  </div>\n</button>\n\n<style>\n/* From Uiverse.io by asgardOP  - Tags: simple, animation, white, button, message, modern, btn, click animation */\n.button {\n  width: 170px;\n  height: 55px;\n  border-radius: 10px;\n  border: 1px solid gray;\n  border-bottom: 2px solid rgb(77, 77, 77);\n  display: flex;\n  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.349);\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  position: relative;\n  transition: 0.4s;\n  background: linear-gradient(140deg, white, rgb(214, 214, 214));\n}\n\n.button:hover {\n  box-shadow: none;\n  transform: scaleY(0.6);\n  border-bottom: 2px solid rgb(77, 77, 77);\n  background: linear-gradient(160deg, white, rgb(214, 214, 214));\n}\n\n.button:active {\n  margin-top: 20px;\n  transition: 0.05s;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  left: -1px;\n  bottom: 0px;\n  width: 170px;\n  height: 0px;\n  background: rgb(194, 194, 194);\n  border-top: 0px solid black;\n  border-bottom: 0px solid black;\n  transition: height 0.4s, bottom 0.4s, opacity 0s 0.35s;\n  opacity: 0;\n  box-shadow: inset 0px -10px 10px rgba(167, 167, 167, 0.719);\n  border-bottom-left-radius: 5px;\n  border-bottom-right-radius: 5px;\n}\n\n.button:hover::before {\n  height: 35px;\n  bottom: -27px;\n  opacity: 1;\n  border-bottom: 1px solid black;\n  transition: height 0.4s, bottom 0.4s;\n}\n\n.button:active::before {\n  height: 18px;\n  bottom: -9px;\n  transition: height 0.05s, bottom 0.05s, opacity 0s 0s;\n}\n\n.button div {\n  width: 150px;\n  height: 40px;\n  background: linear-gradient(180deg, rgba(212, 212, 212, 0.925), white);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 20px;\n  font-weight: 900;\n}\n\n.button div svg {\n  width: 20px;\n  transform: rotate(40deg);\n  margin-right: 5px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

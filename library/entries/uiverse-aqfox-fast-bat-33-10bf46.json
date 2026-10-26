@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-aqfox-fast-bat-33-10bf46",
+  "title": "Loader by AqFox (fast-bat-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AqFox/fast-bat-33",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AqFox on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/AqFox_fast-bat-33.html",
+  "code": "<div class=\"spinner\"></div>\n<style>\n/* From Uiverse.io by AqFox - Tags: loader */\n.spinner {\n --R: 28px;\n --g1: #004dff 96%, #0000;\n --g2: #d6d6fc 96%, #0000;\n width: calc(2*var(--R));\n height: calc(2*var(--R));\n border-radius: 50%;\n display: grid;\n -webkit-mask: linear-gradient(#000 0 0);\n animation: spinner-maxc6n 2s infinite linear;\n}\n\n.spinner::before,\n.spinner::after {\n content: \"\";\n grid-area: 1/1;\n width: 50%;\n background: radial-gradient(farthest-side,var(--g1)) calc(var(--R) + 0.866*var(--R) - var(--R)) calc(var(--R) - 0.5*var(--R)   - var(--R)),\n        radial-gradient(farthest-side,var(--g1)) calc(var(--R) + 0.866*var(--R) - var(--R)) calc(var(--R) - 0.5*var(--R)   - var(--R)),\n        radial-gradient(farthest-side,var(--g2)) calc(var(--R) + 0.5*var(--R)   - var(--R)) calc(var(--R) - 0.866*var(--R) - var(--R)),\n        radial-gradient(farthest-side,var(--g1)) 0 calc(-1*var(--R)),\n        radial-gradient(farthest-side,var(--g2)) calc(var(--R) - 0.5*var(--R)   - var(--R)) calc(var(--R) - 0.866*var(--R) - var(--R)),\n        radial-gradient(farthest-side,var(--g1)) calc(var(--R) - 0.866*var(--R) - var(--R)) calc(var(--R) - 0.5*var(--R)   - var(--R)),\n        radial-gradient(farthest-side,var(--g2)) calc(-1*var(--R))  0,\n        radial-gradient(farthest-side,var(--g1)) calc(var(--R) - 0.866*var(--R) - var(--R)) calc(var(--R) + 0.5*var(--R)   - var(--R));\n background-size: calc(2*var(--R)) calc(2*var(--R));\n background-repeat: no-repeat;\n}\n\n.spinner::after {\n transform: rotate(180deg);\n transform-origin: right;\n}\n\n@keyframes spinner-maxc6n {\n 100% {\n  transform: rotate(-1turn);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-li-deheng-stupid-jellyfish-61-7f3cbe",
+  "title": "Input by Li-Deheng (stupid-jellyfish-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Li-Deheng/stupid-jellyfish-61",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "animation",
+    "button",
+    "rounded",
+    "animated",
+    "click-effect",
+    "input-effect",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Li-Deheng on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Li-Deheng_stupid-jellyfish-61.html",
+  "code": "<div class=\"search-panels\">\n\t<div class=\"search-group\">\n\t\t<input required=\"\" type=\"text\" name=\"text\" autocomplete=\"on\" class=\"input\">\n\t\t<label class=\"enter-label\">Search</label>\n\t\t<div class=\"btn-box\">\n\t\t\t<button class=\"btn-search\">\n\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"1em\" viewBox=\"0 0 512 512\"><path d=\"M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z\"></path><circle id=\"svg-circle\" cx=\"208\" cy=\"208\" r=\"144\"></circle></svg>\n\t\t\t</button>\n\t\t</div>\n\t\t<div class=\"btn-box-x\">\n\t\t\t<button class=\"btn-cleare\">\n\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"1em\" viewBox=\"0 0 384 512\"><path d=\"M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z\" id=\"cleare-line\"></path></svg>\n\t\t\t</button>\n\t\t</div>\n\t</div>\n</div>\n<style>\n/* From Uiverse.io by Li-Deheng - Tags: animation, button, input, rounded, animated, click effect, input effect , hover button */\n.search-panels {\n  --default-color: #9e9e9e;\n  --color-text: #ccc;\n  --color-active: #1a73e8;\n  --color-active-input: #f5f5f5;\n  --transition: 150ms cubic-bezier(0.4,0,0.2,1);\n  --width-input: 200px;\n}\n\n.search-group {\n  position: relative;\n}\n\n.input {\n  width: var(--width-input);\n  border: solid 1.5px var(--default-color);\n  border-radius: 80px;\n  background: none;\n  padding: 1rem;\n  padding-right: 3rem;\n  font-size: 1rem;\n  color: var(--color-active-input);\n  transition: border var(--transition);\n}\n\n.enter-label {\n  position: absolute;\n  left: 15px;\n  color: var(--default-color);\n  pointer-events: none;\n  transform: translateY(1rem);\n  transition: var(--transition);\n}\n\n.enter-label {\n  color: var(--default-color);\n  pointer-events: none;\n}\n\n.input:focus, input:valid {\n  outline: none;\n  border: 1.5px solid var(--color-active);\n}\n\n.input:focus ~ label, input:valid ~ label {\n  transform: translateY(-50%) scale(0.8);\n  background-color: var(--color-active);\n  border-radius: 20px;\n  padding: .2em .6em;\n  color: var(--color-text);\n}\n\n.btn-box {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: absolute;\n  top: -1em;\n  right: 80%;\n  border-radius: 100%;\n  transition: 300ms cubic-bezier(0.4,0,0.2,1);\n  transition-delay: 100ms;\n  opacity: 0;\n}\n\n.input:focus ~ .btn-box, input:valid ~ .btn-box {\n  right: 10%;\n  opacity: 1;\n  transition-delay: 0s;\n  transition: var(--transition);\n}\n\n.input:not(:focus) ~ .btn-box, input:not(:valid) ~ .btn-box {\n  transition-property: right, opacity;\n  transition-delay: 300ms;\n}\n\n.input:focus ~ .btn-box:hover, input:valid ~ .btn-box:hover {\n  transform: scale(1.2);\n}\n\n.input:focus ~ .btn-box:hover:active, input:valid ~ .btn-box:hover:active {\n  transform: scale(1);\n}\n\n.btn-search {\n  position: relative;\n  cursor: pointer;\n  background-color: var(--color-active);\n  width: 2em;\n  height: 2em;\n  top: 2.5px;\n  border: none;\n  border-radius: 100%;\n  padding: 0;\n  transition: var(--transition);\n}\n\n.btn-search:active {\n  transform: scale(1);\n}\n\n.btn-search svg {\n  position: absolute;\n  top: 25%;\n  left: 25%;\n  fill: var(--color-text);\n  width: 12px;\n  height: 12px;\n}\n\n#svg-circle {\n  fill: var(--color-text);\n  transition: var(--transition);\n}\n\n.input:focus ~ .btn-box:hover #svg-circle, input:valid ~ .btn-box:hover #svg-circle {\n  fill: transparent;\n}\n\n.btn-box-x {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: absolute;\n  top: 1em;\n  right: 7%;\n  opacity: 0;\n  transform: rotate(-90deg) scale(.1);\n  transition: var(--transition);\n}\n\n.input:focus ~ .btn-box-x, input:valid ~ .btn-box-x {\n  opacity: 1;\n  transform: rotate(0) scale(1);\n}\n\n.btn-cleare {\n  position: relative;\n  cursor: pointer;\n  background-color: transparent;\n  width: 2em;\n  height: 2em;\n  border: none;\n  border-radius: 100%;\n  padding: 0;\n  transition: var(--transition);\n}\n\n.btn-cleare svg {\n  width: 15px;\n  height: 15px;\n}\n\n#cleare-line {\n  fill: var(--default-color);\n}\n\n.btn-box-x:hover #cleare-line {\n  fill: var(--color-active);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

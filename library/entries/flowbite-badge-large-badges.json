@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-badge-large-badges",
+  "title": "Badges: Large badges (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/badge/#large-badges",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "badge",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the `text-sm` utility class and increase the paddings to create a larger variant of the badges.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/badge.md",
+  "code": "<span class=\"bg-brand-softer text-fg-brand-strong text-sm font-medium px-2 py-1 rounded\">Brand</span>\n<span class=\"bg-neutral-primary-soft text-heading text-sm font-medium px-2 py-1 rounded\">Alternative</span>\n<span class=\"bg-neutral-secondary-medium text-heading text-sm font-medium px-2 py-1 rounded\">Gray</span>\n<span class=\"bg-danger-soft text-fg-danger-strong text-sm font-medium px-2 py-1 rounded\">Danger</span>\n<span class=\"bg-success-soft text-fg-success-strong text-sm font-medium px-2 py-1 rounded\">Success</span>\n<span class=\"bg-warning-soft text-fg-warning text-sm font-medium px-2 py-1 rounded\">Warning</span>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shreyasm-dev-bright-rat-5-3e580a",
+  "title": "Checkbox by shreyasm-dev (bright-rat-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/shreyasm-dev/bright-rat-5",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "neumorphism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By shreyasm-dev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/shreyasm-dev_bright-rat-5.html",
+  "code": "<label class=\"container\">\n    <input type=\"checkbox\" checked=\"checked\">\n    <div class=\"checkmark\"></div>\n</label>\n<style>\n/* From Uiverse.io by shreyasm-dev - Tags: neumorphism, checkbox */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  background-color: #ccc;\n  border-radius: 100%;\n  background: #e8e8e8;\n  box-shadow: 3px 3px 5px #c5c5c5,\n              -3px -3px 5px #ffffff;\n  transition-duration: 0.5s;\n}\n\n.container input:checked ~ .checkmark {\n  box-shadow: inset 3px 3px 5px #c5c5c5,\n              inset -3px -3px 5px #ffffff;\n}\n\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  opacity: 0;\n}\n\n.container input:checked ~ .checkmark:after {\n  opacity: 1;\n}\n\n.container .checkmark:after {\n  left: 0.45em;\n  top: 0.25em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid darkgray;\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

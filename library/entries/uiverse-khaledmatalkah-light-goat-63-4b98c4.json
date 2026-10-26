@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-khaledmatalkah-light-goat-63-4b98c4",
+  "title": "Button by KhaledMatalkah (light-goat-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KhaledMatalkah/light-goat-63",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "transition",
+    "transform"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KhaledMatalkah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/KhaledMatalkah_light-goat-63.html",
+  "code": "<button class=\"button\">hover me !</button>\n\n<style>\n/* From Uiverse.io by KhaledMatalkah - Tags: button, hover, transition, transform */\n.button {\n  display: inline-block;\n  padding: 12px 24px;\n  font-size: 16px;\n  font-weight: bold;\n  text-transform: uppercase;\n  color: #fff;\n  background-color: #ff4081;\n  border: none;\n  border-radius: 50px;\n  transition: background-color 0.3s ease, transform 0.2s ease;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: -50%;\n  left: -50%;\n  width: 200%;\n  height: 200%;\n  background-color: rgba(255, 64, 129, 0.6);\n  border-radius: 50%;\n  transform: translate(-50%, -50%);\n  transition: all 0.4s ease;\n  z-index: -1;\n}\n\n.button::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);\n  background-size: 30px 30px;\n  opacity: 0;\n  transition: opacity 0.4s ease;\n}\n\n.button:hover {\n  background-color: #e91e63;\n  transform: scale(1.1) rotate(5deg);\n  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);\n}\n\n.button:hover::before {\n  top: 50%;\n  left: 50%;\n  width: 100%;\n  height: 100%;\n  transform: translate(-50%, -50%) rotate(45deg);\n}\n\n.button:hover::after {\n  opacity: 1;\n}\n\n.button:active {\n  background-color: #e91e63;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);\n  transform: translateY(2px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

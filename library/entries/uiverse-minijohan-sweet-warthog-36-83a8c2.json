@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-minijohan-sweet-warthog-36-83a8c2",
+  "title": "Loader by MiniJohan (sweet-warthog-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MiniJohan/sweet-warthog-36",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "flip",
+    "gold"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MiniJohan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/MiniJohan_sweet-warthog-36.html",
+  "code": "<div class=\"coin\">\n  <span class=\"engraving\">$</span>\n</div>\n\n<style>\n/* From Uiverse.io by MiniJohan  - Tags: animation, loader, flip, gold */\n.body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100px;\n  margin: 0;\n  background-color: #f0f0f0;\n}\n\n.coin {\n  position: relative;\n  width: 100px;\n  height: 100px;\n  background-color: #d4af37; /* Coin color */\n  border-radius: 50%;\n  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3); /* Coin shadow */\n  background-image: radial-gradient(\n    circle at 50% 120%,\n    rgba(255, 255, 255, 0.5) 0%,\n    rgba(255, 255, 255, 0) 80%\n  ); /* Coin texture */\n  animation: flip 1s infinite;\n}\n\n.engraving {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  font-size: 50px;\n  font-weight: bold;\n  color: rgba(0, 0, 0, 0.5); /* Engraving color */\n  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5); /* Engraving shadow */\n}\n\n@keyframes flip {\n  0% {\n    transform: rotateY(0deg);\n  }\n  50% {\n    transform: rotateY(180deg);\n  }\n  100% {\n    transform: rotateY(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

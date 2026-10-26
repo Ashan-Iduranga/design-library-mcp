@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-wizard503-serious-monkey-58-bdb2bf",
+  "title": "Radio by wizard503 (serious-monkey-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/wizard503/serious-monkey-58",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By wizard503 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/wizard503_serious-monkey-58.html",
+  "code": "<div class=\"box\">\n  <div class=\"radio-input\">\n    <input name=\"challenge\" value=\"Option 1\" type=\"radio\" id=\"1id\">\n    <label for=\"1id\">Never</label><br>\n    <input name=\"challenge\" value=\"Option 2\" type=\"radio\" id=\"2id\">\n    <label for=\"2id\">Stop</label><br>\n    <input name=\"challenge\" value=\"Option 3\" type=\"radio\" id=\"3id\">\n    <label for=\"3id\">Dreaming </label><br>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by wizard503 - Tags: radio */\n.box {\n  position: relative;\n  width: 300px;\n  height: 150px;\n  background: tra;\n  border-radius: 8px;\n  overflow: hidden;\n}\n\n.box::before {\n  content: \"\";\n  position: absolute;\n  top: -50%;\n  left: -50%;\n  width: 400px;\n  height: 450px;\n  background: linear-gradient(0deg,transparent,transparent,#2df4e9,#2df4e9,#48fb00);\n  z-index: 1;\n  transform-origin: bottom right;\n  animation: animate 5s linear infinite;\n}\n\n.box::after {\n  content: \"\";\n  position: absolute;\n  top: -50%;\n  left: -50%;\n  width: 400px;\n  height: 450px;\n  background: linear-gradient(0deg,transparent,transparent,#f07f90,#f07f90,#c70000);\n  z-index: 1;\n  transform-origin: bottom right;\n  animation: animate 5s linear infinite;\n  animation-delay: -2.5s;\n}\n\n@keyframes animate {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.box .radio-input {\n  position: absolute;\n  inset: 4px;\n  background-color: #161616;\n  background-image: radial-gradient(ellipse at center, #eb3be3 0%, #231f55 70%);\n  background-size: 100% 100%;\n  animation: noise 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;\n  border-radius: 10px;\n  padding: 50px 0px;\n  z-index: 2;\n  display: flex;\n}\n\n@keyframes noise {\n  0%, 20%, 40%, 60%, 80%, 100% {\n    background-position: 0 0;\n  }\n\n  10% {\n    background-position: -5px -5px;\n  }\n\n  30% {\n    background-position: 5px -5px;\n  }\n\n  50% {\n    background-position: -5px 5px;\n  }\n\n  70% {\n    background-position: 5px 5px;\n  }\n}\n\n.radio-input input {\n  appearance: none;\n  width: 1.3em;\n  height: 1.3em;\n  margin: 12px;\n  font-size: inherit;\n  color: currentColor;\n  border: 0.2em solid #33f8ff;\n  box-shadow: 2px 2px 1px 0px rgb(7, 15, 63),4px 4px 5px 1px #690253 inset;\n  transform: translateY(-0.075em);\n  display: grid;\n  place-content: center;\n  outline: none;\n  transition: all 0.2s ease-in-out;\n}\n\n.radio-input input:checked {\n  width: 1.2em;\n  height: 1.2em;\n  appearance: none;\n  border-radius: 0%;\n  rotate: 45deg;\n  border: 0.2em solid #ff0;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  transform: scale(1.4);\n  transition: 120ms transform ease-in-out;\n  box-shadow: 9px 9px 10px 1px #5f0875 inset,12px -12px 10px 1px #2df4e9 inset,0 0 20px #ff0,0 0 20px #ff0;\n}\n\nlabel {\n  cursor: pointer;\n  padding-top: 5%;\n  font-size: 15px;\n  font-weight: bold;\n  text-shadow: 0 0.1em 0.1em rgba(0, 0, 0, 0.2);\n  transition: color 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

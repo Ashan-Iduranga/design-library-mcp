@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-nawsome-fresh-panther-41-dc157d",
+  "title": "Loader by Nawsome (fresh-panther-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/fresh-panther-41",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "gears"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Nawsome_fresh-panther-41.html",
+  "code": "<div class=\"gearbox\">\n  <div class=\"overlay\"></div>\n    <div class=\"gear one\">\n      <div class=\"gear-inner\">\n        <div class=\"bar\"></div>\n        <div class=\"bar\"></div>\n        <div class=\"bar\"></div>\n      </div>\n    </div>\n    <div class=\"gear two\">\n      <div class=\"gear-inner\">\n        <div class=\"bar\"></div>\n        <div class=\"bar\"></div>\n        <div class=\"bar\"></div>\n      </div>\n    </div>\n    <div class=\"gear three\">\n      <div class=\"gear-inner\">\n        <div class=\"bar\"></div>\n        <div class=\"bar\"></div>\n        <div class=\"bar\"></div>\n      </div>\n    </div>\n    <div class=\"gear four large\">\n      <div class=\"gear-inner\">\n        <div class=\"bar\"></div>\n        <div class=\"bar\"></div>\n        <div class=\"bar\"></div>\n        <div class=\"bar\"></div>\n        <div class=\"bar\"></div>\n        <div class=\"bar\"></div>\n      </div>\n    </div>\n  </div>\n\n<style>\n/* From Uiverse.io by Nawsome - Tags: loader, gears */\n@keyframes clockwise {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes counter-clockwise {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n\n.gearbox {\n  background: #111;\n  height: 150px;\n  width: 200px;\n  position: relative;\n  border: none;\n  overflow: hidden;\n  border-radius: 6px;\n  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.1);\n}\n\n.gearbox .overlay {\n  border-radius: 6px;\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 10;\n  box-shadow: inset 0px 0px 20px black;\n  transition: background 0.2s;\n}\n\n.gearbox .overlay {\n  background: transparent;\n}\n\n.gear {\n  position: absolute;\n  height: 60px;\n  width: 60px;\n  box-shadow: 0px -1px 0px 0px #888888, 0px 1px 0px 0px black;\n  border-radius: 30px;\n}\n\n.gear.large {\n  height: 120px;\n  width: 120px;\n  border-radius: 60px;\n}\n\n.gear.large:after {\n  height: 96px;\n  width: 96px;\n  border-radius: 48px;\n  margin-left: -48px;\n  margin-top: -48px;\n}\n\n.gear.one {\n  top: 12px;\n  left: 10px;\n}\n\n.gear.two {\n  top: 61px;\n  left: 60px;\n}\n\n.gear.three {\n  top: 110px;\n  left: 10px;\n}\n\n.gear.four {\n  top: 13px;\n  left: 128px;\n}\n\n.gear:after {\n  content: \"\";\n  position: absolute;\n  height: 36px;\n  width: 36px;\n  border-radius: 36px;\n  background: #111;\n  top: 50%;\n  left: 50%;\n  margin-left: -18px;\n  margin-top: -18px;\n  z-index: 3;\n  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1), inset 0px 0px 10px rgba(0, 0, 0, 0.1), inset 0px 2px 0px 0px #090909, inset 0px -1px 0px 0px #888888;\n}\n\n.gear-inner {\n  position: relative;\n  height: 100%;\n  width: 100%;\n  background: #555;\n  border-radius: 30px;\n  border: 1px solid rgba(255, 255, 255, 0.1);\n}\n\n.large .gear-inner {\n  border-radius: 60px;\n}\n\n.gear.one .gear-inner {\n  animation: counter-clockwise 3s infinite linear;\n}\n\n.gear.two .gear-inner {\n  animation: clockwise 3s infinite linear;\n}\n\n.gear.three .gear-inner {\n  animation: counter-clockwise 3s infinite linear;\n}\n\n.gear.four .gear-inner {\n  animation: counter-clockwise 6s infinite linear;\n}\n\n.gear-inner .bar {\n  background: #555;\n  height: 16px;\n  width: 76px;\n  position: absolute;\n  left: 50%;\n  margin-left: -38px;\n  top: 50%;\n  margin-top: -8px;\n  border-radius: 2px;\n  border-left: 1px solid rgba(255, 255, 255, 0.1);\n  border-right: 1px solid rgba(255, 255, 255, 0.1);\n}\n\n.large .gear-inner .bar {\n  margin-left: -68px;\n  width: 136px;\n}\n\n.gear-inner .bar:nth-child(2) {\n  transform: rotate(60deg);\n}\n\n.gear-inner .bar:nth-child(3) {\n  transform: rotate(120deg);\n}\n\n.gear-inner .bar:nth-child(4) {\n  transform: rotate(90deg);\n}\n\n.gear-inner .bar:nth-child(5) {\n  transform: rotate(30deg);\n}\n\n.gear-inner .bar:nth-child(6) {\n  transform: rotate(150deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nawsome-new-snail-22-c867c4",
+  "title": "Loader by Nawsome (new-snail-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/new-snail-22",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Nawsome_new-snail-22.html",
+  "code": "<div class=\"semicircle\">\n  <div>\n    <div>\n      <div>\n        <div>\n          <div>\n            <div>\n              <div>\n                <div>\n                  \n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Nawsome - Tags: loader */\n.semicircle,\n.semicircle div {\n  /*  Adjust the size of the entire animation here.\n      (Remove max size below to go above 300px.) */\n  width: 170px;\n  height: 170px;\n  /* Adjust the speed or timing function of the animation here. */\n  animation: 6s rotate141 infinite linear;\n  background-repeat: no-repeat;\n  border-radius: 50%;\n  position: relative;\n  overflow: hidden;\n}\n\n.semicircle div {\n  position: absolute;\n  top: 5%;\n  left: 5%;\n  width: 90%;\n  height: 90%;\n}\n\n.semicircle:before,\n.semicircle div:before {\n  content: '';\n  width: 100%;\n  height: 50%;\n  display: block;\n  background: radial-gradient(transparent, transparent 65%, #000 65%, #000);\n  background-size: 100% 200%;\n}\n\n@keyframes rotate141 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

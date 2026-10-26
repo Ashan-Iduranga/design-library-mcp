@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vikramsinghnegi-smooth-fox-31-2a5d02",
+  "title": "Loader by vikramsinghnegi (smooth-fox-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikramsinghnegi/smooth-fox-31",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "refresh-loading"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikramsinghnegi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vikramsinghnegi_smooth-fox-31.html",
+  "code": "<div class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by vikramsinghnegi  - Tags: animation, loader, refresh loading */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  font-weight: bold;\n  font-family: monospace;\n  display: inline-grid;\n  font-size: 30px;\n}\n.loader:before,\n.loader:after {\n  content: \"Refresh....\";\n  grid-area: 1/1;\n  -webkit-mask-size: 1.5ch 100%, 100% 100%;\n  -webkit-mask-repeat: no-repeat;\n  -webkit-mask-composite: xor;\n  mask-composite: exclude;\n  animation: l36-1 1s infinite;\n}\n.loader:before {\n  -webkit-mask-image: linear-gradient(#000 0 0), linear-gradient(#000 0 0);\n}\n.loader:after {\n  -webkit-mask-image: linear-gradient(#000 0 0);\n  animation: l36-1 1s infinite,\n    l36-2 0.2s infinite cubic-bezier(0.5, 200, 0.5, -200);\n}\n\n@keyframes l36-1 {\n  0% {\n    -webkit-mask-position: 0 0, 0 0;\n  }\n  20% {\n    -webkit-mask-position: 0.5ch 0, 0 0;\n  }\n  40% {\n    -webkit-mask-position: 100% 0, 0 0;\n  }\n  60% {\n    -webkit-mask-position: 4.5ch 0, 0 0;\n  }\n  80% {\n    -webkit-mask-position: 6.5ch 0, 0 0;\n  }\n  100% {\n    -webkit-mask-position: 2.5ch 0, 0 0;\n  }\n}\n@keyframes l36-2 {\n  100% {\n    transform: translateY(0.2px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

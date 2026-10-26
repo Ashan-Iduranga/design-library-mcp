@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shoh2008-average-duck-41-af19a7",
+  "title": "Toggle by Shoh2008 (average-duck-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/average-duck-41",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Shoh2008_average-duck-41.html",
+  "code": "<div class=\"checkbox-wrapper-8\">\n  <input type=\"checkbox\" id=\"cb3-8\" class=\"tgl tgl-skewed\">\n  <label for=\"cb3-8\" data-tg-on=\"ON\" data-tg-off=\"OFF\" class=\"tgl-btn\"></label>\n</div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: switch */\n.checkbox-wrapper-8 .tgl {\n  display: none;\n}\n\n.checkbox-wrapper-8 .tgl,\n  .checkbox-wrapper-8 .tgl:after,\n  .checkbox-wrapper-8 .tgl:before,\n  .checkbox-wrapper-8 .tgl *,\n  .checkbox-wrapper-8 .tgl *:after,\n  .checkbox-wrapper-8 .tgl *:before,\n  .checkbox-wrapper-8 .tgl + .tgl-btn {\n  box-sizing: border-box;\n}\n\n.checkbox-wrapper-8 .tgl::-moz-selection,\n  .checkbox-wrapper-8 .tgl:after::-moz-selection,\n  .checkbox-wrapper-8 .tgl:before::-moz-selection,\n  .checkbox-wrapper-8 .tgl *::-moz-selection,\n  .checkbox-wrapper-8 .tgl *:after::-moz-selection,\n  .checkbox-wrapper-8 .tgl *:before::-moz-selection,\n  .checkbox-wrapper-8 .tgl + .tgl-btn::-moz-selection,\n  .checkbox-wrapper-8 .tgl::selection,\n  .checkbox-wrapper-8 .tgl:after::selection,\n  .checkbox-wrapper-8 .tgl:before::selection,\n  .checkbox-wrapper-8 .tgl *::selection,\n  .checkbox-wrapper-8 .tgl *:after::selection,\n  .checkbox-wrapper-8 .tgl *:before::selection,\n  .checkbox-wrapper-8 .tgl + .tgl-btn::selection {\n  background: none;\n}\n\n.checkbox-wrapper-8 .tgl + .tgl-btn {\n  outline: 0;\n  display: block;\n  width: 4em;\n  height: 2em;\n  position: relative;\n  cursor: pointer;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n.checkbox-wrapper-8 .tgl + .tgl-btn:after,\n  .checkbox-wrapper-8 .tgl + .tgl-btn:before {\n  position: relative;\n  display: block;\n  content: \"\";\n  width: 50%;\n  height: 100%;\n}\n\n.checkbox-wrapper-8 .tgl + .tgl-btn:after {\n  left: 0;\n}\n\n.checkbox-wrapper-8 .tgl + .tgl-btn:before {\n  display: none;\n}\n\n.checkbox-wrapper-8 .tgl:checked + .tgl-btn:after {\n  left: 50%;\n}\n\n.checkbox-wrapper-8 .tgl-skewed + .tgl-btn {\n  overflow: hidden;\n  transform: skew(-10deg);\n  -webkit-backface-visibility: hidden;\n  backface-visibility: hidden;\n  transition: all 0.2s ease;\n  font-family: sans-serif;\n  background: #888;\n}\n\n.checkbox-wrapper-8 .tgl-skewed + .tgl-btn:after,\n  .checkbox-wrapper-8 .tgl-skewed + .tgl-btn:before {\n  transform: skew(10deg);\n  display: inline-block;\n  transition: all 0.2s ease;\n  width: 100%;\n  text-align: center;\n  position: absolute;\n  line-height: 2em;\n  font-weight: bold;\n  color: #fff;\n  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);\n}\n\n.checkbox-wrapper-8 .tgl-skewed + .tgl-btn:after {\n  left: 100%;\n  content: attr(data-tg-on);\n}\n\n.checkbox-wrapper-8 .tgl-skewed + .tgl-btn:before {\n  left: 0;\n  content: attr(data-tg-off);\n}\n\n.checkbox-wrapper-8 .tgl-skewed + .tgl-btn:active {\n  background: #888;\n}\n\n.checkbox-wrapper-8 .tgl-skewed + .tgl-btn:active:before {\n  left: -10%;\n}\n\n.checkbox-wrapper-8 .tgl-skewed:checked + .tgl-btn {\n  background: #86d993;\n}\n\n.checkbox-wrapper-8 .tgl-skewed:checked + .tgl-btn:before {\n  left: -100%;\n}\n\n.checkbox-wrapper-8 .tgl-skewed:checked + .tgl-btn:after {\n  left: 0;\n}\n\n.checkbox-wrapper-8 .tgl-skewed:checked + .tgl-btn:active:after {\n  left: 10%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

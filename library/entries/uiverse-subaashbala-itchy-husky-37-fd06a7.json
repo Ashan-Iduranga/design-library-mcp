@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-subaashbala-itchy-husky-37-fd06a7",
+  "title": "Loader by Subaashbala (itchy-husky-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Subaashbala/itchy-husky-37",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "minimalist",
+    "rotate",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Subaashbala on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Subaashbala_itchy-husky-37.html",
+  "code": "<div class=\"loader\">\n  <div class=\"shape\">\n    <div class=\"numRowContainer\">\n      <div class=\"numRow\">0 1 0 1 1 0 0 1</div>\n      <div class=\"numRow\">0 1 0 1 1 0 0 1</div>\n      <div class=\"numRow\">0 1 0 1 1 0 0 1</div>\n      <div class=\"numRow\">0 1 0 1 1 0 0 1</div>\n      <div class=\"numRow\">0 1 0 1 1 0 0 1</div>\n      <div class=\"numRow\">0 1 0 1 1 0 0 1</div>\n      <div class=\"numRow\">0 1 0 1 1 0 0 1</div>\n      <div class=\"numRow\">0 1 0 1 1 0 0 1</div>\n      <div class=\"numRow\">0 1 0 1 1 0 0 1</div>\n      <div class=\"numRow\">0 1 0 1 1 0 0 1</div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Subaashbala  - Tags: animation, minimalist, loader, rotate, loading animation */\n.shape {\n  --BG-COLOR: #59d5e0;\n  --OUTLINE-COLOR: #068b97;\n  --OUTLINE-SIZE: 15px;\n  width: 7rem;\n  aspect-ratio: 1;\n  position: relative;\n  border-radius: 50%;\n  overflow: hidden;\n  display: flex;\n  justify-content: center;\n  outline: var(--OUTLINE-SIZE) solid var(--OUTLINE-COLOR);\n  background: var(--BG-COLOR);\n  box-shadow: 0px 0px calc(var(--OUTLINE-SIZE) + 25px) rgba(0, 0, 0, 0.438);\n  animation: morph 2.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;\n}\n.numRowContainer {\n  height: fit-content;\n  animation: infiniteScroll 2.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;\n}\n@keyframes infiniteScroll {\n  from {\n    transform: translate(0, 0);\n  }\n  to {\n    transform: translate(0, -50%);\n  }\n}\n@keyframes morph {\n  50% {\n    --BG-COLOR: PINK;\n    --OUTLINE-COLOR: #ff407d;\n    transform: rotate(150deg);\n    border-radius: 20%;\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

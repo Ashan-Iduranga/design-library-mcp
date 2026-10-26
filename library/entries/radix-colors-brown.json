@@ -1,0 +1,34 @@
+{
+  "id": "radix-colors-brown",
+  "title": "Radix Colors: Brown scale",
+  "source": "Radix Colors",
+  "url": "https://www.radix-ui.com/colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "brown",
+    "radix",
+    "color-scale",
+    "color",
+    "accessible",
+    "dark-mode"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "12-step brown scale with a matching dark-mode scale. Steps 1-2: app and subtle backgrounds. 3-5: component backgrounds (normal, hover, pressed). 6-8: borders and focus rings. 9-10: solid backgrounds (e.g. buttons). 11-12: low and high contrast text.\n\nAlso available: brownA (alpha) and P3 wide-gamut versions.\n\nUse: npm i @radix-ui/colors, then import \"@radix-ui/colors/brown.css\" and \"@radix-ui/colors/brown-dark.css\".\n\nOriginal file: https://github.com/radix-ui/colors/blob/main/src/light.ts",
+  "code": "<style>\n:root {\n  --brown-1: #fefdfc;\n  --brown-2: #fcf9f6;\n  --brown-3: #f6eee7;\n  --brown-4: #f0e4d9;\n  --brown-5: #ebdaca;\n  --brown-6: #e4cdb7;\n  --brown-7: #dcbc9f;\n  --brown-8: #cea37e;\n  --brown-9: #ad7f58;\n  --brown-10: #a07553;\n  --brown-11: #815e46;\n  --brown-12: #3e332e;\n}\n.dark {\n  --brown-1: #12110f;\n  --brown-2: #1c1816;\n  --brown-3: #28211d;\n  --brown-4: #322922;\n  --brown-5: #3e3128;\n  --brown-6: #4d3c2f;\n  --brown-7: #614a39;\n  --brown-8: #7c5f46;\n  --brown-9: #ad7f58;\n  --brown-10: #b88c67;\n  --brown-11: #dbb594;\n  --brown-12: #f2e1ca;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Radix brown</strong>\n<p>light</p><div class=\"row\"><div style=\"background:#fefdfc\" title=\"--brown-1: #fefdfc\"><span>1</span></div><div style=\"background:#fcf9f6\" title=\"--brown-2: #fcf9f6\"><span>2</span></div><div style=\"background:#f6eee7\" title=\"--brown-3: #f6eee7\"><span>3</span></div><div style=\"background:#f0e4d9\" title=\"--brown-4: #f0e4d9\"><span>4</span></div><div style=\"background:#ebdaca\" title=\"--brown-5: #ebdaca\"><span>5</span></div><div style=\"background:#e4cdb7\" title=\"--brown-6: #e4cdb7\"><span>6</span></div><div style=\"background:#dcbc9f\" title=\"--brown-7: #dcbc9f\"><span>7</span></div><div style=\"background:#cea37e\" title=\"--brown-8: #cea37e\"><span>8</span></div><div style=\"background:#ad7f58\" title=\"--brown-9: #ad7f58\"><span>9</span></div><div style=\"background:#a07553\" title=\"--brown-10: #a07553\"><span>10</span></div><div style=\"background:#815e46\" title=\"--brown-11: #815e46\"><span>11</span></div><div style=\"background:#3e332e\" title=\"--brown-12: #3e332e\"><span>12</span></div></div>\n<p>dark</p><div class=\"row\"><div style=\"background:#12110f\" title=\"--brown-1: #12110f\"><span>1</span></div><div style=\"background:#1c1816\" title=\"--brown-2: #1c1816\"><span>2</span></div><div style=\"background:#28211d\" title=\"--brown-3: #28211d\"><span>3</span></div><div style=\"background:#322922\" title=\"--brown-4: #322922\"><span>4</span></div><div style=\"background:#3e3128\" title=\"--brown-5: #3e3128\"><span>5</span></div><div style=\"background:#4d3c2f\" title=\"--brown-6: #4d3c2f\"><span>6</span></div><div style=\"background:#614a39\" title=\"--brown-7: #614a39\"><span>7</span></div><div style=\"background:#7c5f46\" title=\"--brown-8: #7c5f46\"><span>8</span></div><div style=\"background:#ad7f58\" title=\"--brown-9: #ad7f58\"><span>9</span></div><div style=\"background:#b88c67\" title=\"--brown-10: #b88c67\"><span>10</span></div><div style=\"background:#dbb594\" title=\"--brown-11: #dbb594\"><span>11</span></div><div style=\"background:#f2e1ca\" title=\"--brown-12: #f2e1ca\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "Building a UI color system with predictable steps for backgrounds, borders and text, including dark mode.",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

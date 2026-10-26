@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-hoshikawamaki-strange-firefox-50-eacbf7",
+  "title": "Card by hoshikawamaki (strange-firefox-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/hoshikawamaki/strange-firefox-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "material-design",
+    "animation",
+    "purple",
+    "hover",
+    "hover-effect"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By hoshikawamaki on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/hoshikawamaki_strange-firefox-50.html",
+  "code": "<!-- From Uiverse.io by hoshikawamaki  - Tags: simple, material design, animation, purple, card, hover, hover effect, tailwindcss -->\n<div\n  class=\"relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-purple-400\"\n>\n  <div class=\"z-10 absolute w-full h-full peer\"></div>\n  <div\n    class=\"absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-purple-300 transition-all duration-500\"\n  ></div>\n  <div\n    class=\"absolute flex text-xl text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-full bg-purple-300 transition-all duration-500\"\n  >\n    Nice to meet u,<br />Uiverse\n  </div>\n  <div class=\"w-full h-full items-center justify-center flex uppercase\">\n    hover me\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

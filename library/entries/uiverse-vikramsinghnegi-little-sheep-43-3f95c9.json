@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-vikramsinghnegi-little-sheep-43-3f95c9",
+  "title": "Loader by vikramsinghnegi (little-sheep-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikramsinghnegi/little-sheep-43",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "time"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikramsinghnegi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vikramsinghnegi_little-sheep-43.html",
+  "code": "<div class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by vikramsinghnegi  - Tags: loader, LOADER, TIME */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  display: inline-flex;\n  border: 10px solid #000;\n  border-radius: 5px;\n}\n.loader::before,\n.loader::after {\n  content: \"0 1 2 3 4 5 6 7 8 9 0\";\n  font-size: 30px;\n  font-family: monospace;\n  font-weight: bold;\n  line-height: 1em;\n  height: 1em;\n  width: 1.2ch;\n  text-align: center;\n  outline: 1px solid #000;\n  color: #0000;\n  text-shadow: 0 0 0 #000;\n  overflow: hidden;\n  animation: l4 2s infinite linear;\n}\n.loader::before {\n  animation-duration: 4s;\n}\n@keyframes l4 {\n  100% {\n    text-shadow: 0 var(--t, -10em) 0 #000;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

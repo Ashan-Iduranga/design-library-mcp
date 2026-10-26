@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-preshpi-friendly-donkey-60-ef92e1",
+  "title": "Loader by preshpi (friendly-donkey-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/preshpi/friendly-donkey-60",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By preshpi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/preshpi_friendly-donkey-60.html",
+  "code": "<div class=\"spinner\"></div>\n\n<style>\n/* From Uiverse.io by preshpi  - Website: https://10015.io/tools/css-loader-generator - Name: 10015 - Tags: loader, spinner, css */\n.spinner {\n  width: 46px;\n  height: 46px;\n  display: grid;\n  animation: spinner-plncf9 3s infinite;\n}\n\n.spinner::before,\n.spinner::after {\n  content: \"\";\n  grid-area: 1/1;\n  border: 9px solid;\n  border-radius: 50%;\n  border-color: #474bff #474bff #0000 #0000;\n  mix-blend-mode: darken;\n  animation: spinner-plncf9 1s infinite linear;\n}\n\n.spinner::after {\n  border-color: #0000 #0000 #dbdcef #dbdcef;\n  animation-direction: reverse;\n}\n\n@keyframes spinner-plncf9 {\n  100% {\n    transform: rotate(1turn);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

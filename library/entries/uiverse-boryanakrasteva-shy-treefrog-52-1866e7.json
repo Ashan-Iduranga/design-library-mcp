@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-boryanakrasteva-shy-treefrog-52-1866e7",
+  "title": "Loader by boryanakrasteva (shy-treefrog-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/boryanakrasteva/shy-treefrog-52",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By boryanakrasteva on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/boryanakrasteva_shy-treefrog-52.html",
+  "code": "<div class=\"follow-the-leader-line\">\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n</div>\n<style>\n/* From Uiverse.io by boryanakrasteva - Tags: loader */\n@-webkit-keyframes follow-the-leader {\n  0% {\n    -webkit-transform: rotate(0deg) translateY(-200%);\n    transform: rotate(0deg) translateY(-200%);\n  }\n\n  60%,\n  100% {\n    -webkit-transform: rotate(360deg) translateY(-200%);\n    transform: rotate(360deg) translateY(-200%);\n  }\n}\n\n@keyframes follow-the-leader {\n  0% {\n    -webkit-transform: rotate(0deg) translateY(-200%);\n    transform: rotate(0deg) translateY(-200%);\n  }\n\n  60%,\n  100% {\n    -webkit-transform: rotate(360deg) translateY(-200%);\n    transform: rotate(360deg) translateY(-200%);\n  }\n}\n\n.follow-the-leader-line {\n  height: 14px;\n  position: relative;\n  width: 14px;\n}\n\n.follow-the-leader-line div {\n  -webkit-animation: follow-the-leader 1.25s infinite backwards;\n  animation: follow-the-leader 1.25s infinite backwards;\n  background-color: #ffffff;\n  border-radius: 100%;\n  height: 100%;\n  width: 100%;\n}\n\n.follow-the-leader-line div:nth-child(1) {\n  -webkit-animation-delay: 0.15s;\n  animation-delay: 0.15s;\n  background-color: rgba(255, 255, 255, 0.9);\n}\n\n.follow-the-leader-line div:nth-child(2) {\n  -webkit-animation-delay: 0.3s;\n  animation-delay: 0.3s;\n  background-color: rgba(255, 255, 255, 0.8);\n}\n\n.follow-the-leader-line div:nth-child(3) {\n  -webkit-animation-delay: 0.45s;\n  animation-delay: 0.45s;\n  background-color: rgba(255, 255, 255, 0.7);\n}\n\n.follow-the-leader-line div:nth-child(4) {\n  -webkit-animation-delay: 0.6s;\n  animation-delay: 0.6s;\n  background-color: rgba(255, 255, 255, 0.6);\n}\n\n.follow-the-leader-line div:nth-child(5) {\n  -webkit-animation-delay: 0.75s;\n  animation-delay: 0.75s;\n  background-color: rgba(255, 255, 255, 0.5);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

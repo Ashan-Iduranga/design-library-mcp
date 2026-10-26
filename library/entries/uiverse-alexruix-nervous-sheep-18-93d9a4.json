@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-alexruix-nervous-sheep-18-93d9a4",
+  "title": "Loader by alexruix (nervous-sheep-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/nervous-sheep-18",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "bars"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/alexruix_nervous-sheep-18.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by alexruix - Tags: loader, bars */\n.loader {\n  width: 8px;\n  height: 40px;\n  border-radius: 4px;\n  display: block;\n  background-color: currentColor;\n  margin: 20px auto;\n  position: relative;\n  color: #f2f2f2;\n  animation: animloader 0.3s 0.3s linear infinite alternate;\n}\n\n.loader::after,\n.loader::before {\n  content: '';\n  width: 8px;\n  height: 40px;\n  border-radius: 4px;\n  background: currentColor;\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  left: 20px;\n  animation: animloader 0.3s 0.45s linear infinite alternate;\n}\n\n.loader::before {\n  left: -20px;\n  animation-delay: 0s;\n}\n\n@keyframes animloader {\n  0% {\n    height: 48px;\n  }\n\n  100% {\n    height: 4px;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

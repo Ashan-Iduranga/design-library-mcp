@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-curly-husky-77-c4914f",
+  "title": "Loader by mrhyddenn (curly-husky-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/curly-husky-77",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_curly-husky-77.html",
+  "code": "<div class=\"loader\">\n    <div class=\"dot\"></div>\n</div>\n<div class=\"loader\">\n    <div class=\"dot\"></div>\n</div>\n<div class=\"loader\">\n    <div class=\"dot\"></div>\n</div>\n<div class=\"loader\">\n    <div class=\"dot\"></div>\n</div>\n<div class=\"loader\">\n    <div class=\"dot\"></div>\n</div>\n<div class=\"loader\">\n    <div class=\"dot\"></div>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  height: 5px;\n  width: 1px;\n  position: absolute;\n  animation: rotate0234 3.5s linear infinite;\n}\n\n.loader .dot {\n  top: 30px;\n  height: 7px;\n  width: 7px;\n  background: #268fe4;\n  border-radius: 50%;\n  position: relative;\n}\n\n.text {\n  position: absolute;\n  bottom: -85px;\n  font-size: 25px;\n  font-weight: 400;\n  color: #26aee4;\n}\n\n@keyframes rotate0234 {\n  30% {\n    transform: rotate(220deg);\n  }\n\n  40% {\n    transform: rotate(450deg);\n    opacity: 1;\n  }\n\n  75% {\n    transform: rotate(720deg);\n    opacity: 1;\n  }\n\n  76% {\n    opacity: 0;\n  }\n\n  100% {\n    opacity: 0;\n    transform: rotate(0deg);\n  }\n}\n\n.loader:nth-child(1) {\n  animation-delay: 0.15s;\n}\n\n.loader:nth-child(2) {\n  animation-delay: 0.3s;\n}\n\n.loader:nth-child(3) {\n  animation-delay: 0.45s;\n}\n\n.loader:nth-child(4) {\n  animation-delay: 0.6s;\n}\n\n.loader:nth-child(5) {\n  animation-delay: 0.75s;\n}\n\n.loader:nth-child(6) {\n  animation-delay: 0.9s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

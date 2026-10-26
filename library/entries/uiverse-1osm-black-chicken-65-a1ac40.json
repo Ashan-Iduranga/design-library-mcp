@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-1osm-black-chicken-65-a1ac40",
+  "title": "Button by 1osm (black-chicken-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/1osm/black-chicken-65",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 1osm on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/1osm_black-chicken-65.html",
+  "code": "<button class=\"Btn\">Click Me</button>\n<style>\n/* From Uiverse.io by 1osm - Tags: button */\n/* Button 1 */\n.Btn {\n  width: 150px;\n  height: 50px;\n  background-color: transparent;\n  color: white;\n  font-weight: bold;\n  border-width: 2px;\n  border-color: #FF5858;\n  border-radius: 20px;\n  transition: all 0.3s;\n}\n\n.Btn:hover {\n  transform: translateY(-10px);\n  background-color: #FF5858;\n}\n\n.Btn::after {\n  transform: translateY(0);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

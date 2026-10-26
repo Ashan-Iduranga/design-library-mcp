@@ -1,0 +1,36 @@
+{
+  "id": "shadcn-examples-scroll-area-horizontal-demo",
+  "title": "Scroll Area Horizontal Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/scroll-area-horizontal-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "scroll",
+    "area",
+    "horizontal",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Augments native scroll functionality for custom, cross-browser styling.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/scroll-area-horizontal-demo.tsx",
+  "code": "import * as React from \"react\"\nimport Image from \"next/image\"\n\nimport { ScrollArea, ScrollBar } from \"@/registry/new-york-v4/ui/scroll-area\"\n\nexport interface Artwork {\n  artist: string\n  art: string\n}\n\nexport const works: Artwork[] = [\n  {\n    artist: \"Ornella Binni\",\n    art: \"https://images.unsplash.com/photo-1465869185982-5a1a7522cbcb?auto=format&fit=crop&w=300&q=80\",\n  },\n  {\n    artist: \"Tom Byrom\",\n    art: \"https://images.unsplash.com/photo-1548516173-3cabfa4607e9?auto=format&fit=crop&w=300&q=80\",\n  },\n  {\n    artist: \"Vladimir Malyavko\",\n    art: \"https://images.unsplash.com/photo-1494337480532-3725c85fd2ab?auto=format&fit=crop&w=300&q=80\",\n  },\n]\n\nexport default function ScrollAreaHorizontalDemo() {\n  return (\n    <ScrollArea className=\"w-96 rounded-md border whitespace-nowrap\">\n      <div className=\"flex w-max space-x-4 p-4\">\n        {works.map((artwork) => (\n          <figure key={artwork.artist} className=\"shrink-0\">\n            <div className=\"overflow-hidden rounded-md\">\n              <Image\n                src={artwork.art}\n                alt={`Photo by ${artwork.artist}`}\n                className=\"aspect-[3/4] h-fit w-fit object-cover\"\n                width={300}\n                height={400}\n              />\n            </div>\n            <figcaption className=\"pt-2 text-xs text-muted-foreground\">\n              Photo by{\" \"}\n              <span className=\"font-semibold text-foreground\">\n                {artwork.artist}\n              </span>\n            </figcaption>\n          </figure>\n        ))}\n      </div>\n      <ScrollBar orientation=\"horizontal\" />\n    </ScrollArea>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

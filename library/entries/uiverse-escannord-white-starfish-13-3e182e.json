@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-escannord-white-starfish-13-3e182e",
+  "title": "Button by escannord (white-starfish-13)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/escannord/white-starfish-13",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gray",
+    "sendmessage"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By escannord on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/escannord_white-starfish-13.html",
+  "code": "<button class=\"button\">\n  <i class=\"icon\"\n    ><svg\n      width=\"20px\"\n      height=\"20px\"\n      viewBox=\"-0.5 0 25 25\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M2.33045 8.38999C0.250452 11.82 9.42048 14.9 9.42048 14.9C9.42048 14.9 12.5005 24.07 15.9305 21.99C19.5705 19.77 23.9305 6.13 21.0505 3.27C18.1705 0.409998 4.55045 4.74999 2.33045 8.38999Z\"\n        stroke=\"#000000\"\n        stroke-width=\"3\"\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n      ></path>\n      <path\n        d=\"M15.1999 9.12L9.41992 14.9\"\n        stroke=\"#000000\"\n        stroke-width=\"3\"\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n      ></path></svg\n  ></i>\n  Send Message\n</button>\n\n<style>\n/* From Uiverse.io by escannord  - Tags: gray, button, sendMessage */\n.button {\n  cursor: pointer;\n  padding: 0.3rem 1rem;\n  min-width: 10rem;\n  min-height: 4rem;\n  font-weight: bold;\n  border: solid 1px white;\n  /*   background-color: white; */\n  background: linear-gradient(rgb(173, 171, 171) 50%, #4e4d4df8 100%);\n  position: relative;\n  border-radius: 15px;\n  z-index: 1;\n  font-size: 20px;\n  transition: 0.3s all;\n  text-shadow: 0 1px 1px #1c1c1c44;\n  box-shadow: 0px 2px 4px #1c1c1c48, 0px 30px 100px #1c1c1c33,\n    0px 15px 30px #1c1c1c2c, 0px 12px 6px #1c1c1c18;\n}\n\nbutton:hover:before {\n  background: linear-gradient(#ffffff8f 50%, #cacaca86 100%);\n  box-shadow: 0 -1px rgba(0, 0, 0, 0.171);\n}\n\n.button::before {\n  content: \"\";\n  transition: 0.8s all;\n  inset: 7px 5px;\n  border-radius: 25px;\n  border: solid 1px #b4b4b473;\n  background: linear-gradient(#d8d6d686 15%, #faf9f9 80%);\n  z-index: -1;\n  position: absolute;\n}\n.button:active {\n  box-shadow: none;\n}\n.icon {\n  display: inline-block;\n  transition: all 0.5s;\n  transform: none;\n}\n\n.button:hover .icon {\n  transform: translateX(-7px) rotate(45deg);\n}\n.button::after {\n  content: \"\";\n  position: absolute;\n  width: 97%;\n  height: 90%;\n  z-index: -2;\n  border-radius: 15px;\n  background: linear-gradient(\n    rgb(255, 255, 255),\n    rgba(253, 253, 253, 0.589) 75%\n  );\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

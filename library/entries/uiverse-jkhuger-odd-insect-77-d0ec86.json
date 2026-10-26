@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jkhuger-odd-insect-77-d0ec86",
+  "title": "Loader by JkHuger (odd-insect-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/odd-insect-77",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "3d",
+    "rotate",
+    "box"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JkHuger_odd-insect-77.html",
+  "code": "<div class=\"cube\">\n    <div class=\"face front\"></div>\n    <div class=\"face back\"></div>\n    <div class=\"face right\"></div>\n    <div class=\"face left\"></div>\n    <div class=\"face top\"></div>\n    <div class=\"face bottom\"></div>\n</div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: 3d, loader, rotate, box */\n.cube {\n  top: -100px;\n  margin: 200px auto 0;\n  width: 100px;\n  height: 100Px;\n  position: relative;\n  transform-style: preserve-3d;\n  animation: spin 3s infinite cubic-bezier(0.16, 0.61, 0.49, 0.91);\n}\n\n.face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: rgb(67, 191, 207);\n  border: 2px solid #fff;\n  border-radius: 5px;\n  box-shadow: 0 0 15px #fff;\n}\n\n.top {\n  transform: rotateX(90deg) translateZ(50px);\n  animation: shift-top 3s infinite ease-out;\n}\n\n.bottom {\n  transform: rotateX(-90deg) translateZ(50px);\n  animation: shift-bottom 3s infinite ease-out;\n}\n\n.right {\n  transform: rotateY(90deg) translateZ(50px);\n  animation: shift-right 3s infinite ease-out;\n}\n\n.left {\n  transform: rotateY(-90deg) translateZ(50px);\n  animation: shift-left 3s infinite ease-out;\n}\n\n.front {\n  transform: translateZ(50px);\n  animation: shift-front 3s infinite ease-out;\n}\n\n.back {\n  transform: rotateY(-180deg) translateZ(50px);\n  animation: shift-back 3s infinite ease-out;\n}\n\n@keyframes spin {\n  33% {\n    transform: rotateX(-36deg) rotateY(-405deg);\n  }\n\n  100% {\n    transform: rotateX(-36deg) rotateY(-405deg);\n  }\n}\n\n@keyframes shift-top {\n  33% {\n    transform: rotateX(90deg) translateZ(50px);\n  }\n\n  50% {\n    transform: rotateX(90deg) translateZ(100px);\n  }\n\n  60% {\n    transform: rotateX(90deg) translateZ(100px);\n  }\n\n  75% {\n    transform: rotateX(90deg) translateZ(50px);\n  }\n}\n\n@keyframes shift-bottom {\n  33% {\n    transform: rotateX(-90deg) translateZ(50px);\n  }\n\n  50% {\n    transform: rotateX(-90deg) translateZ(100px);\n  }\n\n  60% {\n    transform: rotateX(-90deg) translateZ(100px);\n  }\n\n  75% {\n    transform: rotateX(-90deg) translateZ(50px);\n  }\n}\n\n@keyframes shift-right {\n  33% {\n    transform: rotateY(90deg) translateZ(50px);\n  }\n\n  50% {\n    transform: rotateY(90deg) translateZ(100px);\n  }\n\n  60% {\n    transform: rotateY(90deg) translateZ(100px);\n  }\n\n  75% {\n    transform: rotateY(90deg) translateZ(50px);\n  }\n}\n\n@keyframes shift-left {\n  33% {\n    transform: rotateY(-90deg) translateZ(50px);\n  }\n\n  50% {\n    transform: rotateY(-90deg) translateZ(100px);\n  }\n\n  60% {\n    transform: rotateY(-90deg) translateZ(100px);\n  }\n\n  75% {\n    transform: rotateY(-90deg) translateZ(50px);\n  }\n}\n\n@keyframes shift-front {\n  33% {\n    transform: translateZ(50px);\n  }\n\n  50% {\n    transform: translateZ(100px);\n  }\n\n  60% {\n    transform: translateZ(100px);\n  }\n\n  75% {\n    transform: translateZ(50px);\n  }\n}\n\n@keyframes shift-back {\n  33% {\n    transform: rotateY(-180deg) translateZ(50px);\n  }\n\n  50% {\n    transform: rotateY(-180deg) translateZ(100px);\n  }\n\n  60% {\n    transform: rotateY(-180deg) translateZ(100px);\n  }\n\n  75% {\n    transform: rotateY(-180deg) translateZ(50px);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

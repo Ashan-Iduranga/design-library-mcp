@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-dry-sloth-51-cdb28c",
+  "title": "Button by satyamchaudharydev (dry-sloth-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/dry-sloth-51",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/satyamchaudharydev_dry-sloth-51.html",
+  "code": "<button>\n    <p>Subscribe</p>\n    <svg stroke-width=\"4\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" fill=\"none\" class=\"h-6 w-6\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M14 5l7 7m0 0l-7 7m7-7H3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n    </svg>\n</button>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: button */\nbutton {\n  padding: 0;\n  margin: 0;\n  border: none;\n  background: none;\n}\n\nbutton {\n  --primary-color: #111;\n  --hovered-color: #c84747;\n  position: relative;\n  display: flex;\n  font-weight: 600;\n  font-size: 20px;\n  gap: 0.5rem;\n  align-items: center;\n}\n\nbutton p {\n  margin: 0;\n  position: relative;\n  font-size: 20px;\n  color: var(--primary-color)\n}\n\nbutton::after {\n  position: absolute;\n  content: \"\";\n  width: 0;\n  left: 0;\n  bottom: -7px;\n  background: var(--hovered-color);\n  height: 2px;\n  transition: 0.3s ease-out;\n}\n\nbutton p::before {\n  position: absolute;\n/*   box-sizing: border-box; */\n  content: \"Subscribe\";\n  width: 0%;\n  inset: 0;\n  color: var(--hovered-color);\n  overflow: hidden;\n  transition: 0.3s ease-out;\n}\n\nbutton:hover::after {\n  width: 100%;\n}\n\nbutton:hover p::before {\n  width: 100%;\n}\n\nbutton:hover svg {\n  transform: translateX(4px);\n  color: var(--hovered-color)\n}\n\nbutton svg {\n  color: var(--primary-color);\n  transition: 0.2s;\n  position: relative;\n  width: 15px;\n  transition-delay: 0.2s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-anthonypreite-kind-fish-73-6eb957",
+  "title": "Button by AnthonyPreite (kind-fish-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AnthonyPreite/kind-fish-73",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AnthonyPreite on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/AnthonyPreite_kind-fish-73.html",
+  "code": "<button class=\"button\">\n      I'm a Button\n    </button>\n\n<style>\n/* From Uiverse.io by AnthonyPreite - Tags: gradient, button */\n.button {\n  position: relative;\n  height: 50px;\n  width: 130px;\n  border: none;\n  outline: none;\n  color: white;\n  background: #0f0f0f;\n  cursor: pointer;\n  border-radius: 4px;\n  font-size: 16px;\n  font-weight: 700;\n  font-family: 'Gruppo', sans-serif;\n  transition: all .2s ease-out;\n}\n\n.button:before {\n  position: absolute;\n  content: '';\n  top: -4px;\n  left: -4px;\n  height: calc(100% + 8px);\n  width: calc(100% + 8px);\n  border-radius: 6px;\n  z-index: -1;\n  opacity: 1;\n  background: linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 25%, hsla(141, 54%, 86%, 1)50%);\n  background-size: 400%;\n  transition: opacity 1s ease-in-out;\n  animation: animate 20s linear infinite;\n}\n\n.button:hover {\n  transform: scale(1.1);\n  color: #0f0f0f;\n  opacity: 1;\n  transition: all .3s ease-in-out;\n}\n\n.button:active {\n  background: none;\n  color: #000000;\n  transform: scale(1);\n  transition: all .3s ease-in-out;\n}\n\n@keyframes animate {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-checkbox-checkbox-with-custom-colors",
+  "title": "Checkbox: Checkbox with custom colors (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/checkbox/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Checkboxes are used to select or deselect a value.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/checkbox/+page.md",
+  "code": "<input\n  type=\"checkbox\"\n  checked=\"checked\"\n  class=\"checkbox border-indigo-600 bg-indigo-500 checked:border-orange-500 checked:bg-orange-400 checked:text-orange-800\"\n/>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

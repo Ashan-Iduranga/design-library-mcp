@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mrhyddenn-slimy-jellyfish-95-77154b",
+  "title": "Button by mrhyddenn (slimy-jellyfish-95)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/slimy-jellyfish-95",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "circle"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mrhyddenn_slimy-jellyfish-95.html",
+  "code": "<button>\n    Hover me!\n</button>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: gradient, button, circle */\nbutton {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100px;\n  position: relative;\n  cursor: pointer;\n  height: 100px;\n  border-radius: 100px;\n  border: none;\n  background: #333;\n  color: #e5e5e5;\n  font-weight: 600;\n  box-shadow: inset 20px 20px 39px #080a10,\n  inset -20px -20px 39px #1b263e;\n  font-size: 13px;\n}\n\nbutton::after {\n  content: '';\n  position: absolute;\n  z-index: -1;\n  left: -10px;\n  top: -10px;\n  border-radius: 50%;\n  width: calc(100% + 20px);\n  height: calc(100% + 20px);\n  background: linear-gradient(35deg, rgb(47, 190, 238), rgb(218, 57, 143), rgb(139, 255, 23));\n  filter: blur(10px);\n}\n\nbutton:hover::after {\n  animation: rotcirclegr 1s linear infinite;\n}\n\n@keyframes rotcirclegr {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

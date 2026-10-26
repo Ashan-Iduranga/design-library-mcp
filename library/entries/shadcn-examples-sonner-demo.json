@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-sonner-demo",
+  "title": "Sonner Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/sonner-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "sonner",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "An opinionated toast component for React.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/sonner-demo.tsx",
+  "code": "\"use client\"\n\nimport { toast } from \"sonner\"\n\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\n\nexport default function SonnerDemo() {\n  return (\n    <Button\n      variant=\"outline\"\n      onClick={() =>\n        toast(\"Event has been created\", {\n          description: \"Sunday, December 03, 2023 at 9:00 AM\",\n          action: {\n            label: \"Undo\",\n            onClick: () => console.log(\"Undo\"),\n          },\n        })\n      }\n    >\n      Show Toast\n    </Button>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

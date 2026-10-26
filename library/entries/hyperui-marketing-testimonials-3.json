@@ -1,0 +1,35 @@
+{
+  "id": "hyperui-marketing-testimonials-3",
+  "title": "Testimonials: Reviews with star rating",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/testimonials",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "marketing",
+    "testimonials",
+    "hyperui",
+    "quote",
+    "review",
+    "rating",
+    "social-proof"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/testimonials/3.html",
+  "code": "<div class=\"p-6\">\n<ul class=\"mx-auto max-w-2xl space-y-4\">\n<li class=\"rounded-lg border border-gray-200 p-6\">\n<div class=\"flex items-center justify-between gap-4\">\n<div class=\"flex items-center gap-0.5 text-amber-500\">\n<span class=\"sr-only\">Rated 4 out of 5 stars</span>\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 1.5l2.6 5.27 5.82.85-4.21 4.1.99 5.8L10 14.9l-5.2 2.62.99-5.8-4.21-4.1 5.82-.85z\"></path>\n</svg>\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 1.5l2.6 5.27 5.82.85-4.21 4.1.99 5.8L10 14.9l-5.2 2.62.99-5.8-4.21-4.1 5.82-.85z\"></path>\n</svg>\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 1.5l2.6 5.27 5.82.85-4.21 4.1.99 5.8L10 14.9l-5.2 2.62.99-5.8-4.21-4.1 5.82-.85z\"></path>\n</svg>\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 1.5l2.6 5.27 5.82.85-4.21 4.1.99 5.8L10 14.9l-5.2 2.62.99-5.8-4.21-4.1 5.82-.85z\"></path>\n</svg>\n<svg aria-hidden=\"true\" class=\"size-4 text-gray-200\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 1.5l2.6 5.27 5.82.85-4.21 4.1.99 5.8L10 14.9l-5.2 2.62.99-5.8-4.21-4.1 5.82-.85z\"></path>\n</svg>\n</div>\n<span class=\"inline-flex items-center gap-1 text-xs font-medium text-emerald-700\">\n<svg aria-hidden=\"true\" class=\"size-3.5\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path clip-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z\" fill-rule=\"evenodd\"></path>\n</svg>\n            Verified purchase\n          </span>\n</div>\n<p class=\"mt-3 text-sm font-medium text-gray-900\">Kept us dry through a week of rain</p>\n<p class=\"mt-1 text-sm text-gray-600\">\n          Pitched this in a downpour at 6,000ft and stayed dry all night. Poles are colour-coded so\n          it went up in under four minutes even in the wind.\n        </p>\n<p class=\"mt-3 text-xs text-gray-500\">Freya Lindqvist · 3 weeks ago</p>\n</li>\n<li class=\"rounded-lg border border-gray-200 p-6\">\n<div class=\"flex items-center justify-between gap-4\">\n<div class=\"flex items-center gap-0.5 text-amber-500\">\n<span class=\"sr-only\">Rated 3 out of 5 stars</span>\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 1.5l2.6 5.27 5.82.85-4.21 4.1.99 5.8L10 14.9l-5.2 2.62.99-5.8-4.21-4.1 5.82-.85z\"></path>\n</svg>\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 1.5l2.6 5.27 5.82.85-4.21 4.1.99 5.8L10 14.9l-5.2 2.62.99-5.8-4.21-4.1 5.82-.85z\"></path>\n</svg>\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 1.5l2.6 5.27 5.82.85-4.21 4.1.99 5.8L10 14.9l-5.2 2.62.99-5.8-4.21-4.1 5.82-.85z\"></path>\n</svg>\n<svg aria-hidden=\"true\" class=\"size-4 text-gray-200\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 1.5l2.6 5.27 5.82.85-4.21 4.1.99 5.8L10 14.9l-5.2 2.62.99-5.8-4.21-4.1 5.82-.85z\"></path>\n</svg>\n<svg aria-hidden=\"true\" class=\"size-4 text-gray-200\" fill=\"currentColor\" viewbox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 1.5l2.6 5.27 5.82.85-4.21 4.1.99 5.8L10 14.9l-5.2 2.62.99-5.8-4.21-4.1 5.82-.85z\"></path>\n</svg>\n</div>\n</div>\n<p class=\"mt-3 text-sm font-medium text-gray-900\">Good pack, straps run narrow</p>\n<p class=\"mt-1 text-sm text-gray-600\">\n          Compression straps and the hip belt are excellent, but the shoulder straps dug in on\n          longer days. Sizing up helped.\n        </p>\n<p class=\"mt-3 text-xs text-gray-500\">Owen Baptiste · 2 months ago</p>\n</li>\n</ul>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

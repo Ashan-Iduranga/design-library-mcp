@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-kemboi-dun-lazy-puma-63-57b7fa",
+  "title": "Button by Kemboi-Dun (lazy-puma-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Kemboi-Dun/lazy-puma-63",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Kemboi-Dun on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Kemboi-Dun_lazy-puma-63.html",
+  "code": "<button class=\"button\">\n       Hover Button\n    </button>\n<style>\n/* From Uiverse.io by Kemboi-Dun - Tags: button */\n.button {\n  text-decoration: none;\n  padding: 14px 24px;\n  color: #121212;\n  border: 1px solid #181818;\n  overflow: hidden;\n  position: relative;\n  transition: color .5s .25s;\n  border-radius: 2px;\n  background: transparent;\n}\n\n.button::before,\n.button::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  width: 50%;\n  height: 100%;\n  background-color: #181818;\n  z-index: -1;\n  transform: scaleX(0);\n  transition: transform .5s cubic-bezier(.785, .135, .15, .86);\n}\n\n.button::before {\n  left: 0;\n  transform-origin: left;\n}\n\n.button::after {\n  right: 0;\n  transform-origin: right;\n}\n\n.button:hover::before,\n.button:hover::after {\n  transform: scaleX(1);\n}\n\n.button:hover {\n  color: #f8f8f8;\n  transition-delay: .5s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

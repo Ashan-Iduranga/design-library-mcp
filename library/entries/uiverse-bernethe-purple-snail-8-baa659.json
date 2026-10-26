@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bernethe-purple-snail-8-baa659",
+  "title": "Loader by bernethe (purple-snail-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/bernethe/purple-snail-8",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By bernethe on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/bernethe_purple-snail-8.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by bernethe - Tags: loader */\n.loader {\n  clear: both;\n  margin: 1rem auto;\n  width: 3.125rem;\n  height: 1.125rem;\n  border: 1px #000 solid;\n  border-radius: 4px;\n  background: linear-gradient(-60deg, transparent 0%, transparent 50%, #000 50%, #000 75%, transparent 75%, transparent);\n  background-size: 20px 30px;\n  background-position: 0px 0px;\n  animation: spLoadBar 0.8s infinite linear;\n}\n\n@keyframes spLoadBar {\n  from {\n    background-position: 0px 0px;\n  }\n\n  to {\n    background-position: -20px 0px;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-popular-snake-36-d77c88",
+  "title": "Loader by satyamchaudharydev (popular-snake-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/popular-snake-36",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/satyamchaudharydev_popular-snake-36.html",
+  "code": "<div class=\"loader\">\n<div class=\"box\"></div>\n<div class=\"box\"></div>\n<div class=\"box\"></div>\n</div>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.loader {\n --size: 40px;\n display: flex;\n gap: 0.6rem;\n}\n\n.box {\n width: var(--size);\n height: var(--size);\n background: #0270e1;\n animation: rotate 2s infinite;\n}\n\n.box:nth-child(2) {\n animation-delay: 0.25s;\n}\n\n.box:nth-child(3) {\n animation-delay: 0.5s;\n}\n\n@keyframes rotate {\n 50% {\n  transform: rotate(180deg)\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

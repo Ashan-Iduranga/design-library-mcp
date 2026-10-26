@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ali-tahmazi99-curly-insect-62-85a0d3",
+  "title": "Card by Ali-Tahmazi99 (curly-insect-62)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Ali-Tahmazi99/curly-insect-62",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Ali-Tahmazi99 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Ali-Tahmazi99_curly-insect-62.html",
+  "code": "<div class=\"card\">\n    <p>\n        Hover Me\n    </p>\n</div>\n<style>\n/* From Uiverse.io by Ali-Tahmazi99 - Tags: card */\n.card {\n  width: 200px;\n  height: 300px;\n  background: #f8f9fa;\n  position: relative;\n  box-shadow: 15px 15px 50px #adb5bd75;\n  text-align: center;\n  overflow: hidden;\n  transition: all 0.3s ease-in;\n}\n\n.card p {\n  transition: all 0.3s ease-in;\n  margin-top: 40px;\n}\n\n.card:hover {\n  cursor: pointer;\n  box-shadow: none;\n}\n\n.card:hover p {\n  transform: scale(1.5);\n  color: #f8f9fa;\n}\n\n.card::before {\n  content: '';\n  width: 100%;\n  height: 0;\n  background: #3f72ff;\n  position: absolute;\n  left: 0;\n  bottom: 0;\n      /* Or Top */\n  transition: 0.3s ease-in-out;\n  z-index: -1;\n}\n\n.card:hover::before {\n  height: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

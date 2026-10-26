@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-whitenervosa-ancient-bullfrog-71-51c8ee",
+  "title": "Toggle by WhiteNervosa (ancient-bullfrog-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/WhiteNervosa/ancient-bullfrog-71",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By WhiteNervosa on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/WhiteNervosa_ancient-bullfrog-71.html",
+  "code": "<label class=\"switch\">\n    <input type=\"checkbox\">\n    <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by WhiteNervosa - Tags: switch */\n.slider {\n  background-color: #ffffff2b;\n  border-radius: 100px;\n  padding: 1px;\n  margin: 10px;\n  cursor: pointer;\n  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;\n  align-items: center;\n  position: relative;\n  display: block;\n  width: 51px;\n  height: 29px;\n  box-shadow: rgba(0, 0, 0, 0.62) 0px 0px 5px inset, rgba(0, 0, 0, 0.21) 0px 0px 0px 24px inset,\n        #22cc3f 0px 0px 0px 0px inset, rgba(224, 224, 224, 0.45) 0px 1px 0px 0px;\n}\n\n.slider::after {\n  content: \"\";\n  display: flex;\n  top: 2.3px;\n  left: 2px;\n  width: 26px;\n  height: 26px;\n  background-color: #e3e3e3;\n  border-radius: 200px;\n  position: absolute;\n  box-shadow: transparent 0px 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 6px 6px;\n  transition: left 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s, background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s;\n  will-change: left, background-color;\n}\n\n.switch input[type=\"checkbox\"]:checked + .slider {\n  box-shadow: rgba(0, 0, 0, 0.62) 0px 0px 5px inset, #22cc3f 0px 0px 0px 2px inset, #22cc3f 0px 0px 0px 24px inset,\n        rgba(224, 224, 224, 0.45) 0px 1px 0px 0px;\n}\n\n.switch input[type=\"checkbox\"]:checked + .slider::after {\n  left: 24px;\n}\n\n.switch input[type=\"checkbox\"] {\n  display: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

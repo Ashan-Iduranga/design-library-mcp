@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-hot-hound-11-8ae54b",
+  "title": "Loader by Shoh2008 (hot-hound-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/hot-hound-11",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_hot-hound-11.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  position: relative;\n  height: 200px;\n  width: 200px;\n  border-bottom: 3px solid #ff3d00;\n  box-sizing: border-box;\n  animation: drawLine 4s linear infinite;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  left: calc(100% + 14px);\n  bottom: -6px;\n  width: 16px;\n  height: 100px;\n  border-radius: 20px 20px 50px 50px;\n  background-repeat: no-repeat;\n  background-image: linear-gradient(#ff3d00 6px, transparent 0),\n    linear-gradient(45deg, rgba(0, 0, 0, 0.02) 49%, white 51%),\n    linear-gradient(315deg, rgba(0, 0, 0, 0.02) 49%, white 51%),\n    linear-gradient( to bottom, #ffffff 10%, #ff3d00 10%, #ff3d00 90%, #ffffff 90% );\n  background-size: 3px 3px, 8px 8px, 8px 8px, 16px 88px;\n  background-position: center bottom, left 88px, right 88px, left top;\n  transform: rotate(25deg);\n  animation: pencilRot 4s linear infinite;\n}\n\n@keyframes drawLine {\n  0%, 100% {\n    width: 0px\n  }\n\n  45%, 55% {\n    width: 200px\n  }\n}\n\n@keyframes pencilRot {\n  0%, 45% {\n    bottom: -6px;\n    left: calc(100% + 14px);\n    transform: rotate(25deg);\n  }\n\n  55%,\n  100% {\n    bottom: -12px;\n    left: calc(100% + 16px);\n    transform: rotate(220deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

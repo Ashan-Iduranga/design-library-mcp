@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-elijahgummer-new-fly-30-354dc1",
+  "title": "Loader by elijahgummer (new-fly-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/new-fly-30",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/elijahgummer_new-fly-30.html",
+  "code": "<div class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: loader */\n.loader {\n  width: 35px;\n  height: 80px;\n  position: relative;\n}\n.loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  padding: 3px 5px;\n  border-top: 1px solid #bbb6aa;\n  border-bottom: 4px solid #bbb6aa;\n  background:\n    linear-gradient(#77d4d4 0 0) bottom no-repeat content-box,\n    #e4e0d7;\n  mix-blend-mode: darken;\n  animation: drink 1.5s infinite linear;\n}\n.loader:before {\n  content: \"\";\n  position: absolute;\n  inset: -18px calc(50% - 2px) 8px;\n  background: #eb6b3e;\n  transform-origin: bottom;\n  transform: rotate(8deg);\n}\n@keyframes drink {\n  0% {\n    background-size: 100% 100%;\n  }\n  100% {\n    background-size: 100% 5%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-new-lion-60-41186e",
+  "title": "Loader by Shoh2008 (new-lion-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/new-lion-60",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_new-lion-60.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 84px;\n  height: 84px;\n  position: relative;\n  overflow: hidden;\n}\n\n.loader:before , .loader:after {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  bottom: 0;\n  width: 64px;\n  height: 64px;\n  border-radius: 50%;\n  background: yellow;\n  transform: translate(-50% , 100%)  scale(0);\n  animation: push_4051 2s infinite ease-in;\n}\n\n.loader:after {\n  animation-delay: 1s;\n}\n\n@keyframes push_4051 {\n  0% {\n    transform: translate(-50% , 100%)  scale(1);\n  }\n\n  15% , 25% {\n    transform: translate(-50% , 50%)  scale(1);\n  }\n\n  50% , 75% {\n    transform: translate(-50%, -30%) scale(0.5);\n  }\n\n  80%,  100% {\n    transform: translate(-50%, -50%) scale(0);\n  }\n}\n  \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

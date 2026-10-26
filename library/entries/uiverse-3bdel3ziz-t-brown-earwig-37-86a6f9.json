@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-3bdel3ziz-t-brown-earwig-37-86a6f9",
+  "title": "Button by 3bdel3ziz-T (brown-earwig-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/3bdel3ziz-T/brown-earwig-37",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "smooth",
+    "dark",
+    "code",
+    "hover-button",
+    "button-hover-effect",
+    "2d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 3bdel3ziz-T on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/3bdel3ziz-T_brown-earwig-37.html",
+  "code": "<button class=\"button\"></button>\n\n<style>\n/* From Uiverse.io by 3bdel3ziz-T  - Tags: button, hover, smooth, dark, code, hover button, button hover effect , 2d button */\n.button,\n.button::before {\n  box-sizing: border-box;\n  --col-orange: #d17842;\n  --col-white: #fff;\n  --col-dark: #212121;\n  cursor: pointer;\n  text-transform: capitalize;\n  font-size: 20px;\n  font-weight: 600;\n  fill: var(--col-white);\n  color: var(--col-white);\n\n  color: var(col-dark);\n  font-family: \"arial\";\n}\n.button {\n  width: 200px;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 2px solid transparent;\n  background: var(--col-orange);\n  padding: 8px 50px;\n  position: relative;\n  transition: all 200ms;\n  border-radius: 25px;\n  z-index: 99;\n}\n\n.button:hover {\n  border-color: transparent;\n  color: var(--col-dark);\n  background: transparent;\n}\n\n.button::before {\n  height: fit-content;\n  content: \"great work🥳\";\n  position: absolute;\n  left: 40px;\n  width: 0;\n  overflow: hidden;\n  transition: all 550ms;\n  text-wrap: nowrap;\n  z-index: -1;\n}\n\n.button:hover::before {\n  width: 135px;\n  color: var(--col-white);\n}\n\n.button::after {\n  content: \"hover me\";\n  position: relative;\n}\n\n.button:hover::after {\n  display: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

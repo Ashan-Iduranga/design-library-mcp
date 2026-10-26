@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ahmed150up-afraid-octopus-75-0c3b9e",
+  "title": "Card by ahmed150up (afraid-octopus-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ahmed150up/afraid-octopus-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ahmed150up on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/ahmed150up_afraid-octopus-75.html",
+  "code": "<div class=\"card-container\">\n  <div class=\"card-header\">\n    <div class=\"img-avatar\"></div>\n    <div class=\"text-chat\">Chat</div>\n  </div>\n  <div class=\"card-body\">\n    <div class=\"messages-container\">\n        <div class=\"message-box left\">\n            <p>Hello, How are you?</p>\n        </div>\n        <div class=\"message-box right\">\n            <p>I'm good, thanks for asking! How about you?</p>\n        </div>\n    </div>\n    <div class=\"message-input\">\n      <form>\n        <textarea placeholder=\"Type your message here\" class=\"message-send\"></textarea>\n        <button type=\"submit\" class=\"button-send\">Send</button>\n      </form>\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by ahmed150up - Tags: card */\n.card-container {\n  background-color: #fff;\n  border-radius: 10px;\n  padding: 15px;\n  margin: 20px;\n  display: flex;\n  flex-direction: column;\n  width: 280px;\n}\n\n.card-header {\n  display: flex;\n  align-items: center;\n  padding-bottom: 10px;\n  border-bottom: 1px solid #ccc;\n}\n\n.card-header .img-avatar {\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  margin-right: 20px;\n  background-color: #333;\n}\n\n.card-header .text-chat {\n  color: black;\n  margin: 0;\n  font-size: 20px;\n}\n\n.card-body {\n  flex: 1;\n  overflow-y: auto;\n}\n\n.messages-container {\n  padding: 15px;\n}\n\n.message-box {\n  padding: 10px;\n  margin-bottom: 5px;\n  border-radius: 10px;\n}\n\n.message-box.left {\n  background-color: #f1f1f1;\n  color: black;\n  font-size: 13px;\n  left: 0;\n}\n\n.message-box.right {\n  background-color: #333;\n  color: #fff;\n  font-size: 13px;\n  right: 0;\n}\n\n.message-input {\n  padding: 5px;\n  border-top: 1px solid #ccc;\n}\n\n.message-input .message-send {\n  width: 100%;\n  padding: 10px;\n  border: none;\n  border-radius: 10px;\n  resize: none;\n}\n\n.message-input .button-send {\n  background-color: #333;\n  color: #fff;\n  padding: 10px 20px;\n  border: none;\n  cursor: pointer;\n  margin-left: 10px;\n  border-radius: 10px;\n  font-size: 13px;\n}\n\n.message-input .button-send:hover {\n  background-color: #f1f1f1;\n  color: #333;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

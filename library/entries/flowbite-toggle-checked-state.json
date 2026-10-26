@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-toggle-checked-state",
+  "title": "Toggle: Checked state (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/toggle/#checked-state",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "toggle",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Apply the `checked` attribute to the toggle component to activate the selection by default.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/toggle.md",
+  "code": "<label class=\"inline-flex items-center cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\" checked>\n  <div class=\"relative w-9 h-5 bg-neutral-quaternary peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-brand-soft dark:peer-focus:ring-brand-soft rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-buffer after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-brand\"></div>\n  <span class=\"select-none ms-3 text-sm font-medium text-heading\">Checked toggle</span>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

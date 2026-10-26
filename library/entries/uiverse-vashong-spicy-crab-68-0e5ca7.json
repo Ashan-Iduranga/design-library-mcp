@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vashong-spicy-crab-68-0e5ca7",
+  "title": "Loader by VashonG (spicy-crab-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/VashonG/spicy-crab-68",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "blue",
+    "diamond"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By VashonG on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/VashonG_spicy-crab-68.html",
+  "code": "<figure>\n  <div style=\"--i: 1\"></div>\n  <div style=\"--i: 2\"></div>\n  <div style=\"--i: 3\"></div>\n  <div style=\"--i: 4\"></div>\n  <div style=\"--i: 5\"></div>\n  <div style=\"--i: 6\"></div>\n  <div style=\"--i: 7\"></div>\n  <div style=\"--i: 8\"></div>\n  <div style=\"--i: 9\"></div>\n  <div style=\"--i: 10\"></div>\n  <div style=\"--i: 11\"></div>\n  <div style=\"--i: 12\"></div>\n</figure>\n\n\n<style>\n/* From Uiverse.io by VashonG - Tags: blue, loader, diamond */\n@media (prefers-reduced-motion) {\n}\n\nfigure {\n  --size: 15vmin;\n  --duration: 4s;\n  --direction: 1;\n  --pull: -1.25;\n  perspective: 30rem;\n  display: grid;\n  grid-template-areas: \"figure\";\n  place-items: center;\n  inline-size: var(--size);\n  aspect-ratio: 1;\n  animation: spin var(--duration) ease-in-out infinite;\n}\n\nfigure > * {\n  --radius: calc(var(--size) / 2);\n  --deg: calc(var(--i) * (360deg / 12));\n  --hs: 225 100%;\n  --transform-start: translate3d(\n      calc(cos(var(--deg)) * var(--radius)),\n      calc(sin(var(--deg)) * var(--radius)),\n      0\n    )\n    rotate(calc(var(--deg)));\n  grid-area: figure;\n  background-color: hsl(var(--hs) var(--l, 60%));\n  inline-size: calc(var(--size) / 4);\n  aspect-ratio: 1;\n  clip-path: polygon(25% 25%, 100% 50%, 25% 75%, 0% 50%);\n  transform: var(--transform-start);\n  transform-style: preserve-3d;\n  animation: diamonds var(--duration) cubic-bezier(0.87, 0, 0.13, 1) infinite;\n}\n\nfigure:nth-child(2) {\n  --size: 30vmin;\n  --direction: -1;\n  --l: 70%;\n}\n\nfigure:nth-child(3) {\n  --size: 55vmin;\n  --pull: -1.125;\n  --l: 80%;\n}\n\n@keyframes spin {\n  0%,\n  25% {\n    transform: scaleX(var(--direction)) rotate(0);\n  }\n\n  75%,\n  100% {\n    transform: scaleX(var(--direction)) rotate(1turn);\n  }\n}\n\n@keyframes diamonds {\n  0%,\n  20% {\n    transform: var(--transform-start);\n  }\n\n  50% {\n    clip-path: polygon(75% 25%, 100% 50%, 75% 75%, 0% 50%);\n    transform: translate3d(\n        calc(cos(var(--deg)) * var(--radius) * var(--pull)),\n        calc(sin(var(--deg)) * var(--radius) * var(--pull)),\n        5rem\n      )\n      rotate(calc(var(--deg) + 90deg));\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-admin12121-fluffy-vampirebat-68-6937b0",
+  "title": "Card by Admin12121 (fluffy-vampirebat-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Admin12121/fluffy-vampirebat-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "popup"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Admin12121 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Admin12121_fluffy-vampirebat-68.html",
+  "code": "<div class=\"wrapper\">\n\n<article>\n\t<span class=\"h1\">How to create a pop-up without JavaScript</span>\n\t<p>Ever wanted a pop-up mechanism on your website, but you don't want to use JavaScript? Here's how:</p>\n\n\t<p>Toggle the <strong>How it works</strong> button for more info.</p>\n\n</article>\n\n<details>\n\t<summary>How it works<svg viewBox=\"0 0 256 256\" fill=\"currentColor\" height=\"192\" width=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"none\" height=\"256\" width=\"256\"></rect><circle stroke-width=\"16\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke=\"currentColor\" fill=\"none\" r=\"96\" cy=\"128\" cx=\"128\"></circle><circle r=\"12\" cy=\"180\" cx=\"128\"></circle><path stroke-width=\"16\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke=\"currentColor\" fill=\"none\" d=\"M127.9995,144.0045v-8a28,28,0,1,0-28-28\"></path></svg></summary>\n\t<div>\n\t\t\t<p>The scaling effect you see when you open this <code>&lt;details&gt;</code> element is created by using a keyframe animation.</p>\n\t\t<p></p><pre><code>@keyframes scale { \n&nbsp;0% {\n&nbsp;&nbsp;transform: scale(0);\n&nbsp;}\n&nbsp;100% {\n&nbsp;&nbsp;transform: scale(1);\n&nbsp;}\n}</code></pre> <p></p>\n<p>This animation is added to the <code>&lt;div&gt;</code>, but only when the <code>[open]</code> attribute is toggled.</p>\n<p></p><pre><code>details[open] div { \n&nbsp;animation: scale .15s ease;\n}</code></pre><p></p>\n\t<p>Sadly there's no way (that I know of) to animate the  <code>&lt;div&gt;</code> when the  <code>&lt;details&gt;</code> is closing.</p>\n\t</div>\n</details>\n</div>\n<style>\n/* From Uiverse.io by Admin12121 - Tags: card, popup */\n.wrapper {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}\n\narticle {\n  margin-top: 50px;\n  width: 90%;\n  max-width: 600px;\n  margin-left: auto;\n  margin-right: auto;\n  font-size: 1.125rem;\n  padding: 1.5rem;\n  background-color: #fff;\n  border-radius: 10px;\n  box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.1);\n}\n\narticle > * + * {\n  margin-top: 0.5em;\n}\n\narticle:is(h1, h2, h3) + * {\n  margin-top: 0.5em;\n}\n\narticle .h1 {\n  font-weight: 900;\n  font-size: 2rem;\n  line-height: 1.125;\n}\n\narticle code {\n  background-color: #eee;\n  font-weight: 600;\n  font-family: monospace;\n}\n\ndetails {\n  position: relative;\n  right: 16px;\n  margin-top: 35px;\n  bottom: 16px;\n  color: #6b7280;\n  display: flex;\n  flex-direction: column;\n}\n\ndetails div {\n  background-color: #1e1e27;\n  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);\n  padding: 1rem;\n  border-radius: 8px;\n  position: absolute;\n  height: 350px;\n  width: 400px;\n  bottom: calc(100% + 1rem);\n  right: -50%;\n  overflow: auto;\n  transform-origin: 100% 100%;\n  color: #95a3b9;\n}\n\ndetails div::-webkit-scrollbar {\n  width: 15px;\n  background-color: #1e1e27;\n}\n\ndetails div::-webkit-scrollbar-thumb {\n  width: 5px;\n  border-radius: 99em;\n  background-color: #95a3b9;\n  border: 5px solid #1e1e27;\n}\n\ndetails div > * + * {\n  margin-top: 0.75em;\n}\n\ndetails div p > code {\n  font-size: 1rem;\n  font-family: monospace;\n}\n\ndetails div pre {\n  white-space: pre-line;\n  border: 1px solid #95a3b9;\n  border-radius: 6px;\n  font-family: monospace;\n  padding: 0.75em;\n  font-size: 0.875rem;\n  color: #fff;\n}\n\ndetails[open] div {\n  -webkit-animation: scale 0.25s ease;\n  animation: scale 0.25s ease;\n}\n\nsummary {\n  display: inline-flex;\n  margin-left: auto;\n  margin-right: auto;\n  justify-content: center;\n  align-items: center;\n  font-weight: 600;\n  padding: 0.75em 3em 0.75em 1.25em;\n  border-radius: 99em;\n  color: #fff;\n  background-color: #185adb;\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n  list-style: none;\n  text-align: center;\n  cursor: pointer;\n  transition: 0.15s ease;\n  position: relative;\n}\n\nsummary::-webkit-details-marker {\n  display: none;\n}\n\nsummary:hover, summary:focus {\n  background-color: #1348af;\n}\n\nsummary svg {\n  position: absolute;\n  right: 1.25em;\n  top: 50%;\n  transform: translateY(-50%);\n  width: 1.5em;\n  height: 1.5em;\n}\n\n@-webkit-keyframes scale {\n  0% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n@keyframes scale {\n  0% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-menu-paged-menu-with-nested-submenus",
+  "title": "Menu: Paged menu with nested submenus (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/menu/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "menu",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Menu is used to display a list of links vertically or horizontally.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/menu/+page.md",
+  "code": "<ul class=\"menu menu-paged menu-vertical bg-base-200 rounded-box w-56 lg:w-auto\">\n  <li><a>Home</a></li>\n  <li><a>About</a></li>\n  <li>\n    <details>\n      <summary>Products</summary>\n      <ul>\n        <li><a>All products</a></li>\n        <li><a>Electronics</a></li>\n        <li><a>Clothing</a></li>\n      </ul>\n    </details>\n  </li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

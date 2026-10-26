@@ -1,0 +1,37 @@
+{
+  "id": "hyperui-application-charts-2-dark",
+  "title": "Charts: Bar chart with tooltip (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/charts",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "charts",
+    "hyperui",
+    "chart",
+    "graph",
+    "analytics",
+    "dashboard",
+    "data-visualization",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/charts/2-dark.html",
+  "code": "<div class=\"mx-auto max-w-lg p-6\">\n<div class=\"rounded-lg border border-gray-800 bg-gray-900 p-6\">\n<h2 class=\"text-sm font-medium text-white\">Orders this week</h2>\n<div class=\"mt-4 h-64\">\n<canvas aria-label=\"Orders this week, bar chart\" id=\"weekly-orders-bar-chart\" role=\"img\"></canvas>\n</div>\n<table class=\"sr-only\">\n<caption>\n          Orders per day this week\n        </caption>\n<thead>\n<tr>\n<th scope=\"col\">Day</th>\n<th scope=\"col\">Orders</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<th scope=\"row\">Mon</th>\n<td>12</td>\n</tr>\n<tr>\n<th scope=\"row\">Tue</th>\n<td>19</td>\n</tr>\n<tr>\n<th scope=\"row\">Wed</th>\n<td>14</td>\n</tr>\n<tr>\n<th scope=\"row\">Thu</th>\n<td>22</td>\n</tr>\n<tr>\n<th scope=\"row\">Fri</th>\n<td>27</td>\n</tr>\n<tr>\n<th scope=\"row\">Sat</th>\n<td>32</td>\n</tr>\n<tr>\n<th scope=\"row\">Sun</th>\n<td>18</td>\n</tr>\n</tbody>\n</table>\n</div>\n<script src=\"https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js\"></script>\n<script>\n      const weeklyOrdersBarChartCanvas = document.getElementById('weekly-orders-bar-chart')\n\n      new Chart(weeklyOrdersBarChartCanvas, {\n        type: 'bar',\n        data: {\n          labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],\n          datasets: [\n            {\n              label: 'Orders',\n              data: [12, 19, 14, 22, 27, 32, 18],\n              backgroundColor: '#818cf8',\n              hoverBackgroundColor: '#a5b4fc',\n              borderRadius: 4,\n              maxBarThickness: 32,\n            },\n          ],\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: false,\n          interaction: {\n            mode: 'index',\n            intersect: false,\n          },\n          plugins: {\n            legend: { display: false },\n            tooltip: {\n              callbacks: {\n                label: (tooltipItem) => `${tooltipItem.formattedValue} orders`,\n              },\n            },\n          },\n          scales: {\n            x: {\n              grid: { display: false },\n              ticks: { color: '#9ca3af' },\n            },\n            y: {\n              beginAtZero: true,\n              grid: { color: 'rgba(255, 255, 255, 0.1)' },\n              ticks: { color: '#9ca3af' },\n            },\n          },\n        },\n      })\n    </script>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

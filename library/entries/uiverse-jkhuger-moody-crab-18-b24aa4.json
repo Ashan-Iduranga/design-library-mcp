@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jkhuger-moody-crab-18-b24aa4",
+  "title": "Loader by JkHuger (moody-crab-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/moody-crab-18",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JkHuger_moody-crab-18.html",
+  "code": "<div id=\"col\">\n  <div id=\"img-wrap\">\n    <span class=\"loader\"></span>\n</div></div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: loader */\n#col {\n  width: 50%;\n  margin: 0 auto;\n}\n\n.loader {\n  content: ' ';\n  border: 5px solid #333;\n  border-radius: 30px;\n  height: 30px;\n  left: 50%;\n  margin: -15px 0 0 -15px;\n  opacity: 0;\n  position: absolute;\n  top: 50%;\n  width: 30px;\n  animation: pulsate 1s ease-out;\n  animation-iteration-count: infinite;\n}\n\n@keyframes pulsate {\n  0% {\n    transform: scale(.1);\n    opacity: 0.0;\n  }\n\n  50% {\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(1.2);\n    opacity: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

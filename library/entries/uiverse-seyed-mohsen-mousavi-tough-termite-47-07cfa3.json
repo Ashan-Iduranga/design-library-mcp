@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-seyed-mohsen-mousavi-tough-termite-47-07cfa3",
+  "title": "Loader by seyed-mohsen-mousavi (tough-termite-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/seyed-mohsen-mousavi/tough-termite-47",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "btn",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By seyed-mohsen-mousavi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/seyed-mohsen-mousavi_tough-termite-47.html",
+  "code": "<button class=\"loader__btn\">\n  <div class=\"loader\"></div>\n  Loading ...\n</button>\n\n<style>\n/* From Uiverse.io by seyed-mohsen-mousavi  - Tags: loading, loader, btn, loading animation */\n.loader__btn {\n  border: none;\n  background-color: white;\n  padding: 10px 20px 10px 20px;\n  display: flex;\n  align-items: center;\n  gap: 15px;\n  color: rgba(0, 0, 0, 0.7);\n  font-size: 15px;\n  border-radius: 12px;\n  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),\n    0 8px 10px -6px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color),\n    0 8px 10px -6px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),\n    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n  cursor: wait;\n}\n\n.loader {\n  border: 4px solid rgba(0, 0, 0, 0.1);\n  border-left-color: transparent;\n  border-radius: 50%;\n}\n\n.loader {\n  border: 4px solid rgba(0, 0, 0, 0.1);\n  border-left-color: transparent;\n  width: 23px;\n  height: 23px;\n  animation: spin89345 1s linear infinite;\n}\n\n@keyframes spin89345 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mrhyddenn-plastic-panther-51-7ee1ad",
+  "title": "Loader by mrhyddenn (plastic-panther-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/plastic-panther-51",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "gradient",
+    "spinner"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_plastic-panther-51.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: gradient, loader, spinner */\n.loader {\n  position: relative;\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n}\n\n.loader::before,\n.loader::after {\n  content: \"\";\n  position: absolute;\n  border-radius: inherit;\n}\n\n.loader::before {\n  width: 100%;\n  height: 100%;\n  background-image: linear-gradient(0deg, #ff00cc 0%, #333399 100%);\n  animation: load012323 .5s infinite linear;\n}\n\n.loader::after {\n  width: 85%;\n  height: 85%;\n  background-color: #222;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n\n@keyframes load012323 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

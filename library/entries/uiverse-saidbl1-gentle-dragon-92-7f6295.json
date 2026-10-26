@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-saidbl1-gentle-dragon-92-7f6295",
+  "title": "Input by saidbl1 (gentle-dragon-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/saidbl1/gentle-dragon-92",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "focus",
+    "floating"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By saidbl1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/saidbl1_gentle-dragon-92.html",
+  "code": "<div class=\"inputBox\">\n  <input required=\"\" type=\"text\">\n  <span>First name</span>\n</div>\n<style>\n/* From Uiverse.io by saidbl1 - Tags: input, focus, floating */\n.inputBox {\n  position: relative;\n}\n\n.inputBox input {\n  padding: 15px 20px;\n  outline: none;\n  background: transparent;\n  border-radius: 5px;\n  color: #fff;\n  border: 1px solid#ee8456;\n  font-size: 1em;\n}\n\n.inputBox span {\n  position: absolute;\n  left: 0;\n  padding: 15px 20px;\n  pointer-events: none;\n  font-size: 1em;\n  transition: 0.4s cubic-bezier(0.05, 0.81, 0, 0.93);\n  color: #ee8456;\n  letter-spacing: 0.1em;\n}\n\n.inputBox input:focus ~ span,\n.inputBox input:valid ~ span {\n  font-size: 0.7em;\n  transform: translateX(14px) translateY(-7.5px);\n  padding: 0 5px;\n  border-radius: 2px;\n  background: #212121;\n  letter-spacing: 0em;\n  border: 1px solid #ee8456;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

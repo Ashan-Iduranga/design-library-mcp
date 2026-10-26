@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-dylanharriscameron-tiny-shrimp-95-7b8ae8",
+  "title": "Card by dylanharriscameron (tiny-shrimp-95)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/dylanharriscameron/tiny-shrimp-95",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "card-hover",
+    "pure-css",
+    "parallax"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By dylanharriscameron on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/dylanharriscameron_tiny-shrimp-95.html",
+  "code": "<div class=\"container\">\n  <a href=\"#\"></a>\n  <a href=\"#\"></a>\n  <a href=\"#\"></a>\n  <a href=\"#\"></a>\n  <div class=\"card\">\n    <div class=\"card-header\">\n      Hover me\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by dylanharriscameron - Tags: card, card hover, pure css, parallax */\n.container .card {\n  background-color: white;\n  border-radius: 10px;\n  border: 1px solid black;\n  position: relative;\n  z-index: 0;\n  transition: all 300ms ease-out;\n  transform-origin: center center;\n  width: 100%;\n  height: 100%;\n  box-shadow: 0px;\n}\n\n.card-header {\n  padding: 10px;\n  background-color: #000;\n  color: white;\n  font-size: 16px;\n  border: 1px solid white;\n  border-top-left-radius: 10px;\n  border-top-right-radius: 10px;\n}\n\n.container .card .border {\n  transition: all 300ms ease-out;\n  transform-origin: center center;\n  position: absolute;\n  top: 6px;\n  left: 6px;\n  width: calc(100% - 12px);\n  height: calc(100% - 12px);\n  border: 1px solid black;\n  border-radius: 9px;\n}\n\n.container {\n  perspective: 1000px;\n  position: relative;\n  /* you don't need width and height if your card already has a lot of content */\n  width: 100%;\n  max-width: 250px;\n  height: 150px;\n  border-radius: 10px;\n}\n.container a {\n  opacity: 0;\n  position: absolute;\n  z-index: 1;\n  width: 50%;\n  height: 50%;\n}\n.container a:hover,\n.container a:focus {\n  transform: translateZ(50px);\n}\n\n.container a:hover ~ .card .card-header,\n.container a:focus ~ .card .card-header {\n  transform: translateZ(24px);\n}\n\n.container a:nth-child(1) {\n  top: 0;\n  left: 0;\n}\n.container a:nth-child(1):hover ~ .card,\n.container a:nth-child(1):focus ~ .card {\n  transform: rotateX(10deg) rotateY(-10deg) translateZ(0);\n  transform-origin: right bottom;\n  box-shadow: 10px 20px;\n}\n.container a:nth-child(2) {\n  top: 0;\n  right: 0;\n}\n.container a:nth-child(2):hover ~ .card,\n.container a:nth-child(2):focus ~ .card {\n  transform: rotateX(10deg) rotateY(10deg) translateZ(0);\n  transform-origin: left bottom;\n  box-shadow: -10px 20px;\n}\n.container a:nth-child(3) {\n  bottom: 0;\n  right: 0;\n}\n.container a:nth-child(3):hover ~ .card ,\n.container a:nth-child(3):focus ~ .card {\n  transform-origin: left top;\n  transform: rotateX(-10deg) rotateY(10deg) translateZ(0);\n  box-shadow: -10px -20px;\n}\n.container a:nth-child(4) {\n  bottom: 0;\n  left: 0;\n}\n.container a:nth-child(4):hover ~ .card,\n.container a:nth-child(4):focus ~ .card {\n  transform-origin: right top;\n  transform: rotateX(-10deg) rotateY(-10deg) translateZ(0);\n  box-shadow: 10px -20px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

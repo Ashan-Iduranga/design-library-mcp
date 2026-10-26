@@ -1,0 +1,32 @@
+{
+  "id": "open-props-masks-edges",
+  "title": "Open Props: Masks.Edges tokens",
+  "source": "Open Props",
+  "url": "https://open-props.style/#masks",
+  "license": "MIT",
+  "type": "token",
+  "tags": [
+    "masks.edges",
+    "open-props",
+    "css-variables",
+    "tokens"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "25 CSS custom properties, e.g. --mask-edge-scoop-bottom, --mask-edge-scoop-top, --mask-edge-scoop-vertical, --mask-edge-scoop-left.\n\nUse: npm i open-props, then @import \"open-props/masks.edges\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.masks.edges.css",
+  "code": ":where(html) {\n  --mask-edge-scoop-bottom: radial-gradient(20px at 50% 100%,#0000 97%,#000) 50% / calc(1.9 * 20px) 100%;\n  --mask-edge-scoop-top: radial-gradient(20px at 50% 0,#0000 97%,#000) 50% / calc(1.9 * 20px) 100%;\n  --mask-edge-scoop-vertical: radial-gradient(20px at 50% 20px,#0000 97%,#000) 50% -20px/ calc(1.9 * 20px) 100%;\n  --mask-edge-scoop-left: radial-gradient(20px at 0 50%,#0000 97%,#000) 50%/ 100% calc(1.9 * 20px);\n  --mask-edge-scoop-right: radial-gradient(20px at 100% 50%,#0000 97%,#000) 50%/ 100% calc(1.9 * 20px);\n  --mask-edge-scoop-horizontal: radial-gradient(20px at 20px 50%,#0000 97%,#000) -20px/ 100% calc(1.9 * 20px);\n  --mask-edge-scalloped: \n    radial-gradient(farthest-side,#000 97%,#0000) 0 0 / 20px 20px round,\n    linear-gradient(#000 0 0) 50%/calc(100% - 20px) calc(100% - 20px) no-repeat\n  ;\n  --mask-edge-scalloped-bottom: \n    linear-gradient(to top,#0000 20px,#000 0),\n    radial-gradient(20px at top,#000 97%,#0000) bottom / calc(1.9 * 20px) 20px\n  ;\n  --mask-edge-scalloped-top: \n    linear-gradient(to bottom,#0000 20px,#000 0),\n    radial-gradient(20px at bottom,#000 97%,#0000) top / calc(1.9 * 20px) 20px\n  ;\n  --mask-edge-scalloped-vertical: \n    linear-gradient(0deg,#0000 calc(2 * 20px),#000 0) 0 20px,\n    radial-gradient(20px,#000 97%,#0000) 50% / calc(1.9 * 20px) calc(2 * 20px) repeat space\n  ;\n  --mask-edge-scalloped-left: \n    linear-gradient(to right,#0000 20px,#000 0),\n    radial-gradient(20px at right,#000 97%,#0000) left / 20px calc(1.9 * 20px)\n  ;\n  --mask-edge-scalloped-right: \n    linear-gradient(to left,#0000 20px,#000 0),\n    radial-gradient(20px at left,#000 97%,#0000) right / 20px calc(1.9 * 20px)\n  ;\n  --mask-edge-scalloped-horizontal: \n    linear-gradient(-90deg,#0000 calc(2 * 20px),#000 0) 20px,\n    radial-gradient(20px,#000 97%,#0000) 50% / calc(2 * 20px) calc(1.9 * 20px) space repeat\n  ;\n  --mask-edge-drip-bottom: \n    radial-gradient(20px at bottom,#0000 97%,#000) 50% calc(100% - 20px) / calc(2 * 20px) 100% repeat-x,\n    radial-gradient(20px at 25% 50%,#000 97%,#0000) calc(50% - 20px) 99% / calc(4 * 20px) calc(2 * 20px) repeat-x\n  ;\n  --mask-edge-drip-top: \n    radial-gradient(20px at top,#0000 97%,#000) 50% 20px / calc(2 * 20px) 100% repeat-x,\n    radial-gradient(20px at 25% 50%,#000 97%,#0000) calc(50% - 20px) 1% / calc(4 * 20px) calc(2 * 20px) repeat-x\n  ;\n  --mask-edge-drip-vertical: \n    radial-gradient(20px at top   ,#0000 97%,#000) 50%             20px  / calc(2 * 20px) 51% repeat-x,\n    radial-gradient(20px at bottom,#0000 97%,#000) 50% calc(100% - 20px) / calc(2 * 20px) 51% repeat-x,\n    radial-gradient(20px at 25% 50%,#000 97%,#0000) calc(50% -   20px) 1%  / calc(4 * 20px) calc(2 * 20px) repeat-x,\n    radial-gradient(20px at 25% 50%,#000 97%,#0000) calc(50% - 3*20px) 99% / calc(4 * 20px) calc(2 * 20px) repeat-x\n  ;\n  --mask-edge-drip-left: \n    radial-gradient(20px at left,#0000 97%,#000) 20px 50% / 100% calc(2 * 20px) repeat-y,\n    radial-gradient(20px at 50% 25%,#000 97%,#0000) 1% calc(50% - 20px) / calc(2 * 20px) calc(4 * 20px) repeat-y\n  ;\n  --mask-edge-drip-right: \n    radial-gradient(20px at right,#0000 97%,#000) calc(100% - 20px) 50% / 100% calc(2 * 20px) repeat-y,\n    radial-gradient(20px at 50% 25%,#000 97%,#0000) 99% calc(50% - 20px) / calc(2 * 20px) calc(4 * 20px) repeat-y\n  ;\n  --mask-edge-drip-horizontal: \n    radial-gradient(20px at left ,#0000 97%,#000)             20px  50% / 51% calc(2 * 20px) repeat-y,  \n    radial-gradient(20px at right,#0000 97%,#000) calc(100% - 20px) 50% / 51% calc(2 * 20px) repeat-y,\n    radial-gradient(20px at 50% 25%,#000 97%,#0000) 1%  calc(50% -   20px) / calc(2 * 20px) calc(4 * 20px) repeat-y,\n    radial-gradient(20px at 50% 25%,#000 97%,#0000) 99% calc(50% - 3*20px) / calc(2 * 20px) calc(4 * 20px) repeat-y\n  ;\n  --mask-edge-zig-zag-top: conic-gradient(from 135deg at top,#0000,#000 1deg 90deg,#0000 91deg) 50% / 40px 100%;\n  --mask-edge-zig-zag-bottom: conic-gradient(from -45deg at bottom,#0000,#000 1deg 90deg,#0000 91deg) 50% / 40px 100%;\n  --mask-edge-zig-zag-left: conic-gradient(from 45deg at left,#0000,#000 1deg 90deg,#0000 91deg) 50% / 100% 40px;\n  --mask-edge-zig-zag-right: conic-gradient(from -135deg at right,#0000,#000 1deg 90deg,#0000 91deg) 50% / 100% 40px;\n  --mask-edge-zig-zag-horizontal: repeating-conic-gradient(from 45deg at 20px 50%,#0000,#000 1deg 90deg,#0000 91deg 180deg) -20px 50% / 100% 40px;\n  --mask-edge-zig-zag-vertical: repeating-conic-gradient(from 135deg at 50% 20px,#0000,#000 1deg 90deg,#0000 91deg 180deg) 50% -20px / 40px 100%;\n}",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

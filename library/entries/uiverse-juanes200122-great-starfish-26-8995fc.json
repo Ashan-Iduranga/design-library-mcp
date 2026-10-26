@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-juanes200122-great-starfish-26-8995fc",
+  "title": "Loader by Juanes200122 (great-starfish-26)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Juanes200122/great-starfish-26",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "cube",
+    "dark",
+    "creative",
+    "css-effect",
+    "bounce-animation",
+    "card-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Juanes200122 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Juanes200122_great-starfish-26.html",
+  "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"200\" width=\"200\">\n  <g style=\"order: -1;\">\n    <polygon\n      transform=\"rotate(45 100 100)\"\n      stroke-width=\"1\"\n      stroke=\"#d3a410\"\n      fill=\"none\"\n      points=\"70,70 148,50 130,130 50,150\"\n      id=\"bounce\"\n    ></polygon>\n    <polygon\n      transform=\"rotate(45 100 100)\"\n      stroke-width=\"1\"\n      stroke=\"#d3a410\"\n      fill=\"none\"\n      points=\"70,70 148,50 130,130 50,150\"\n      id=\"bounce2\"\n    ></polygon>\n    <polygon\n      transform=\"rotate(45 100 100)\"\n      stroke-width=\"2\"\n      stroke=\"\"\n      fill=\"#414750\"\n      points=\"70,70 150,50 130,130 50,150\"\n    ></polygon>\n    <polygon\n      stroke-width=\"2\"\n      stroke=\"\"\n      fill=\"url(#gradiente)\"\n      points=\"100,70 150,100 100,130 50,100\"\n    ></polygon>\n    <defs>\n      <linearGradient y2=\"100%\" x2=\"10%\" y1=\"0%\" x1=\"0%\" id=\"gradiente\">\n        <stop style=\"stop-color: #1e2026;stop-opacity:1\" offset=\"20%\"></stop>\n        <stop style=\"stop-color:#414750;stop-opacity:1\" offset=\"60%\"></stop>\n      </linearGradient>\n    </defs>\n    <polygon\n      transform=\"translate(20, 31)\"\n      stroke-width=\"2\"\n      stroke=\"\"\n      fill=\"#b7870f\"\n      points=\"80,50 80,75 80,99 40,75\"\n    ></polygon>\n    <polygon\n      transform=\"translate(20, 31)\"\n      stroke-width=\"2\"\n      stroke=\"\"\n      fill=\"url(#gradiente2)\"\n      points=\"40,-40 80,-40 80,99 40,75\"\n    ></polygon>\n    <defs>\n      <linearGradient y2=\"100%\" x2=\"0%\" y1=\"-17%\" x1=\"10%\" id=\"gradiente2\">\n        <stop style=\"stop-color: #d3a51000;stop-opacity:1\" offset=\"20%\"></stop>\n        <stop\n          style=\"stop-color:#d3a51054;stop-opacity:1\"\n          offset=\"100%\"\n          id=\"animatedStop\"\n        ></stop>\n      </linearGradient>\n    </defs>\n    <polygon\n      transform=\"rotate(180 100 100) translate(20, 20)\"\n      stroke-width=\"2\"\n      stroke=\"\"\n      fill=\"#d3a410\"\n      points=\"80,50 80,75 80,99 40,75\"\n    ></polygon>\n    <polygon\n      transform=\"rotate(0 100 100) translate(60, 20)\"\n      stroke-width=\"2\"\n      stroke=\"\"\n      fill=\"url(#gradiente3)\"\n      points=\"40,-40 80,-40 80,85 40,110.2\"\n    ></polygon>\n    <defs>\n      <linearGradient y2=\"100%\" x2=\"10%\" y1=\"0%\" x1=\"0%\" id=\"gradiente3\">\n        <stop style=\"stop-color: #d3a51000;stop-opacity:1\" offset=\"20%\"></stop>\n        <stop\n          style=\"stop-color:#d3a51054;stop-opacity:1\"\n          offset=\"100%\"\n          id=\"animatedStop\"\n        ></stop>\n      </linearGradient>\n    </defs>\n    <polygon\n      transform=\"rotate(45 100 100) translate(80, 95)\"\n      stroke-width=\"2\"\n      stroke=\"\"\n      fill=\"#ffe4a1\"\n      points=\"5,0 5,5 0,5 0,0\"\n      id=\"particles\"\n    ></polygon>\n    <polygon\n      transform=\"rotate(45 100 100) translate(80, 55)\"\n      stroke-width=\"2\"\n      stroke=\"\"\n      fill=\"#ccb069\"\n      points=\"6,0 6,6 0,6 0,0\"\n      id=\"particles\"\n    ></polygon>\n    <polygon\n      transform=\"rotate(45 100 100) translate(70, 80)\"\n      stroke-width=\"2\"\n      stroke=\"\"\n      fill=\"#fff\"\n      points=\"2,0 2,2 0,2 0,0\"\n      id=\"particles\"\n    ></polygon>\n    <polygon\n      stroke-width=\"2\"\n      stroke=\"\"\n      fill=\"#292d34\"\n      points=\"29.5,99.8 100,142 100,172 29.5,130\"\n    ></polygon>\n    <polygon\n      transform=\"translate(50, 92)\"\n      stroke-width=\"2\"\n      stroke=\"\"\n      fill=\"#1f2127\"\n      points=\"50,50 120.5,8 120.5,35 50,80\"\n    ></polygon>\n  </g>\n</svg>\n\n<style>\n/* From Uiverse.io by Juanes200122  - Tags: loader, cube, dark, creative, css effect, bounce animation, card animation */\n.container {\n  background-color: #414141;\n}\n@keyframes bounce {\n  0%,\n  100% {\n    translate: 0px 36px;\n  }\n  50% {\n    translate: 0px 46px;\n  }\n}\n@keyframes bounce2 {\n  0%,\n  100% {\n    translate: 0px 46px;\n  }\n  50% {\n    translate: 0px 56px;\n  }\n}\n\n@keyframes umbral {\n  0% {\n    stop-color: #d3a5102e;\n  }\n  50% {\n    stop-color: rgba(211, 165, 16, 0.519);\n  }\n  100% {\n    stop-color: #d3a5102e;\n  }\n}\n@keyframes partciles {\n  0%,\n  100% {\n    translate: 0px 16px;\n  }\n  50% {\n    translate: 0px 6px;\n  }\n}\n#particles {\n  animation: partciles 4s ease-in-out infinite;\n}\n#animatedStop {\n  animation: umbral 4s infinite;\n}\n#bounce {\n  animation: bounce 4s ease-in-out infinite;\n  translate: 0px 36px;\n}\n#bounce2 {\n  animation: bounce2 4s ease-in-out infinite;\n  translate: 0px 46px;\n  animation-delay: 0.5s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "magicui-pulsating-button-demo",
+  "title": "Pulsating Button Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/pulsating-button",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "pulsating",
+    "button",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing an animated pulsating button.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/pulsating-button-demo.tsx",
+  "code": "import { PulsatingButton } from \"@/registry/magicui/pulsating-button\"\n\nexport default function PulsatingButtonDemo() {\n  return <PulsatingButton>Join Affiliate Program</PulsatingButton>\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

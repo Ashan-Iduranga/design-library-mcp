@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-aasisodiya-nasty-cat-19-58ebd3",
+  "title": "Button by aasisodiya (nasty-cat-19)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aasisodiya/nasty-cat-19",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aasisodiya on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/aasisodiya_nasty-cat-19.html",
+  "code": "<button> Button\n</button>\n<style>\n/* From Uiverse.io by aasisodiya - Tags: button */\nbutton {\n background-color: #eee;\n border: none;\n padding: 1rem;\n font-size: 1rem;\n width: 10em;\n border-radius: 1rem;\n color: lightcoral;\n box-shadow: 0 0.4rem #dfd9d9;\n cursor: pointer;\n}\n\nbutton:active {\n color: white;\n box-shadow: 0 0.2rem #dfd9d9;\n transform: translateY(0.2rem);\n}\n\nbutton:hover:not(:disabled) {\n background: lightcoral;\n color: white;\n text-shadow: 0 0.1rem #bcb4b4;\n}\n\nbutton:disabled {\n cursor: auto;\n color: grey;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

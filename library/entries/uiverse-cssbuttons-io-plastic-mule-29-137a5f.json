@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cssbuttons-io-plastic-mule-29-137a5f",
+  "title": "Button by cssbuttons-io (plastic-mule-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cssbuttons-io/plastic-mule-29",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cssbuttons-io on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/cssbuttons-io_plastic-mule-29.html",
+  "code": "<button> Button\n</button>\n<style>\n/* From Uiverse.io by cssbuttons-io - Tags: button */\nbutton {\n padding: 10px 40px;\n font-size: 18px;\n background-color: #008542;\n color: #fff;\n text-shadow: 0 2px 0 rgb(0 0 0 / 25%);\n display: inline-flex;\n align-items: center;\n justify-content: center;\n position: relative;\n border: 0;\n z-index: 1;\n user-select: none;\n cursor: pointer;\n text-transform: uppercase;\n letter-spacing: 1px;\n white-space: unset;\n padding: .8rem 1.5rem;\n text-decoration: none;\n font-weight: 900;\n transition: all 0.7s cubic-bezier(0,.8,.26,.99);\n}\n\nbutton:before {\n position: absolute;\n pointer-events: none;\n top: 0;\n left: 0;\n display: block;\n width: 100%;\n height: 100%;\n content: '';\n transition: .7s cubic-bezier(0,.8,.26,.99);\n z-index: -1;\n background-color: #008542!important;\n box-shadow: 0 -4px rgb(21 108 0 / 50%) inset, 0 4px rgb(100 253 31 / 99%) inset, -4px 0 rgb(100 253 31 / 50%) inset, 4px 0 rgb(21 108 0 / 50%) inset;\n}\n\nbutton:after {\n position: absolute;\n pointer-events: none;\n top: 0;\n left: 0;\n display: block;\n width: 100%;\n height: 100%;\n content: '';\n box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);\n transition: .7s cubic-bezier(0,.8,.26,.99);\n}\n\nbutton:hover:before {\n box-shadow: 0 -4px rgb(0 0 0 / 50%) inset, 0 4px rgb(255 255 255 / 20%) inset, -4px 0 rgb(255 255 255 / 20%) inset, 4px 0 rgb(0 0 0 / 50%) inset;\n}\n\nbutton:hover:after {\n box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);\n}\n\nbutton:active {\n transform: translateY(4px);\n}\n\nbutton:active:after {\n box-shadow: 0 0px 0 0 rgb(0 0 0 / 15%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

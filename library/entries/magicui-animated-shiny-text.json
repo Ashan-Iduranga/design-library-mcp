@@ -1,0 +1,35 @@
+{
+  "id": "magicui-animated-shiny-text",
+  "title": "Animated Shiny Text (Magic UI)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/animated-shiny-text",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "animated",
+    "shiny",
+    "text",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A light glare effect which pans across text making it appear as if it is shimmering.\n\nInstall into a project: npx shadcn@latest add @magicui/animated-shiny-text\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/magicui/animated-shiny-text.tsx",
+  "code": "import {\n  type ComponentPropsWithoutRef,\n  type CSSProperties,\n  type FC,\n} from \"react\"\n\nimport { cn } from \"@/lib/utils\"\n\nexport interface AnimatedShinyTextProps extends ComponentPropsWithoutRef<\"span\"> {\n  shimmerWidth?: number\n}\n\nexport const AnimatedShinyText: FC<AnimatedShinyTextProps> = ({\n  children,\n  className,\n  shimmerWidth = 100,\n  ...props\n}) => {\n  return (\n    <span\n      style={\n        {\n          \"--shiny-width\": `${shimmerWidth}px`,\n        } as CSSProperties\n      }\n      className={cn(\n        \"mx-auto max-w-md text-neutral-600/70 dark:text-neutral-400/70\",\n\n        // Shine effect\n        \"animate-shiny-text bg-size-[var(--shiny-width)_100%] bg-clip-text bg-position-[0_0] bg-no-repeat [transition:background-position_1s_cubic-bezier(.6,.6,0,1)_infinite]\",\n\n        // Shine gradient\n        \"bg-linear-to-r from-transparent via-black/80 via-50% to-transparent dark:via-white/80\",\n\n        className\n      )}\n      {...props}\n    >\n      {children}\n    </span>\n  )\n}\n",
+  "prompt": "npx shadcn@latest add @magicui/animated-shiny-text",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

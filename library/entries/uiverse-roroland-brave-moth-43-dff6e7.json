@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-roroland-brave-moth-43-dff6e7",
+  "title": "Button by roroland (brave-moth-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/roroland/brave-moth-43",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "flat-design",
+    "flip",
+    "animated",
+    "two-side"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By roroland on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/roroland_brave-moth-43.html",
+  "code": "<div class=\"flip-button\">\n  <button class=\"button button-front\">\n    <span class=\"text-front\">Label one</span>\n    <span class=\"text-back\">Back can be longer</span>\n  </button>\n</div>\n\n<style>\n/* From Uiverse.io by roroland - Tags: flat design, button, flip, animated, two side */\n.flip-button {\n  --col1: #4CAF50;\n  --col2: #4f16ac;\n  --col3: #d8d1e4;\n  position: relative;\n  min-width: 10rem;\n  min-height: 3rem;\n  perspective: 500px;\n}\n\n.flip-button .button {\n  appearance: none;\n  position: absolute;\n  inset: 0;\n  height: 100%;\n  border-radius: 30px;\n  font-size: .75em;\n  font-weight: bold;\n  color: #fff;\n  text-transform: uppercase;\n  background-color: var(--col1);\n  border: none;\n  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\n  transition: all 1s ease-out .5s;\n  transform-style: preserve-3d;\n  width: 100%;\n}\n\n.flip-button:hover .button {\n  background-color: var(--col2);\n  cursor: pointer;\n  transform: rotateY(180deg) scale(1.5);\n  transition: all .3s ease-out;\n}\n\n.flip-button:hover .button:active {\n  background-color: rgba(81, 23, 173, 0.75);\n  transform: rotateY(180deg) scale(1.45);\n  outline: 10px solid var(--col3);\n  transition: all .1s ease-out;\n}\n\n.flip-button .button::after {\n  content: '';\n  box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.25);\n  display: block;\n  border-radius: 30px;\n  height: 100%;\n  width: 100%;\n  transition: all .3s ease-out .95s;\n}\n\n.flip-button:hover .button::after {\n  box-shadow: 0px 0px 1px 10px rgba(160, 29, 149, 0.15);\n  transition: all .3s ease-out;\n}\n\n.flip-button .text-front,\n.flip-button .text-back {\n  display: block;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  padding: 0 1.5em;\n  transform: translate(-50%, -50%);\n  backface-visibility: hidden;\n  width: 100%;\n}\n\n.flip-button .text-back {\n  transform: translate(-50%, -50%) rotateY(180deg);\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-whitenervosa-dull-cougar-87-21cc72",
+  "title": "Button by WhiteNervosa (dull-cougar-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/WhiteNervosa/dull-cougar-87",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By WhiteNervosa on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/WhiteNervosa_dull-cougar-87.html",
+  "code": "<button>\n    <span class=\"inner\">Button</span>\n</button>\n<style>\n/* From Uiverse.io by WhiteNervosa - Tags: button */\nbutton {\n  background-color: #2d7f2f;\n  font-family: \"Verdana\", sans-serif;\n  padding: 5px 10px;\n  font-size: 18px;\n  color: #ececec;\n  cursor: pointer;\n  width: fit-content;\n  user-select: none;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-weight: 600;\n  border-radius: 5px;\n  touch-action: none;\n  position: relative;\n  border: none;\n  transition-property: box-shadow;\n  transition-duration: 300ms;\n  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);\n  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0), inset 0px 0px 0px 0px rgba(230, 230, 230, 0);\n}\n\nbutton:focus,\nbutton:hover {\n  box-shadow: inset 0px -4px 0px 0px rgb(0 0 0 / 35%), inset 0px 2px 0px 0px rgb(230 230 230 / 7%);\n}\n\nbutton:active {\n  box-shadow: inset 0px 2px 0px 1px rgb(0 0 0 / 29%), inset 0px -1px 0px 0px rgb(230 230 230 / 7%);\n}\n\nbutton .inner {\n  user-select: none;\n  pointer-events: none;\n  transform: translateY(0px) scale(1) translate3d(0, 0, 0);\n  transition-property: transform;\n  transition-duration: 300ms;\n  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\nbutton:active .inner {\n  transform: translateY(1px) scale(0.98) translate3d(0, 0, 0);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-theleaderofenemy-rotten-liger-72-5ff856",
+  "title": "Tooltip by theleaderofenemy (rotten-liger-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/theleaderofenemy/rotten-liger-72",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "simple",
+    "action",
+    "light"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By theleaderofenemy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/theleaderofenemy_rotten-liger-72.html",
+  "code": "<div class=\"tooltip-container\">\n  <span class=\"text\">Tooltip</span>\n  <span class=\"tooltip\">Uiverse.io</span>\n</div>\n\n<style>\n/* From Uiverse.io by theleaderofenemy  - Tags: simple, tooltip, action, light */\n.tooltip-container {\n  position: relative;\n  display: inline-block;\n  margin: 20px;\n}\n\n.text {\n  color: #333;\n  font-size: 18px;\n  cursor: pointer;\n}\n\n.tooltip {\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  opacity: 0;\n  visibility: hidden;\n  background: #0b798a;\n  color: #fff;\n  padding: 10px;\n  border-radius: 4px;\n  transition: opacity 0.3s, visibility 0.3s, top 0.3s, background 0.3s;\n  z-index: 1;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n}\n\n.tooltip::before {\n  content: \"\";\n  position: absolute;\n  bottom: 100%;\n  left: 50%;\n  border-width: 8px;\n  border-style: solid;\n  border-color: transparent transparent #0b798a transparent;\n  transform: translateX(-50%);\n}\n\n.tooltip-container:hover .tooltip {\n  top: 120%;\n  opacity: 1;\n  visibility: visible;\n  background: #0e94a0;\n  transform: translate(-50%, -5px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-sabbircoder07-pink-turtle-4-cfb87f",
+  "title": "Button by sabbircoder07 (pink-turtle-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/sabbircoder07/pink-turtle-4",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animated",
+    "read-more"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By sabbircoder07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/sabbircoder07_pink-turtle-4.html",
+  "code": "<button><span class=\"main-text\">Next Step<span> <span>→</span> </span></span></button>\n<style>\n/* From Uiverse.io by sabbircoder07 - Tags: button, animated, read more */\nbutton {\n  font-family: \"Lexend Deca\", sans-serif;\n  border: none;\n  background-image: linear-gradient(to right top, #5FFBF1,#D16BA5,#86A8E7);\n  color: #ffffff;\n  font-size: 17px;\n  text-transform: capitalize;\n  letter-spacing: 1px;\n  padding: 13px 26px;\n  cursor: pointer;\n  transform: skew(15deg);\n  transition: all 1s;\n}\n\n.main-text {\n  display: inline-block;\n  transform: skew(-15deg);\n}\n\nbutton:hover {\n  transform: translateY(-3px);\n  background-image: linear-gradient(to bottom, #D16BA5,#86A8E7,#5FFBF1);\n  border-radius: 26px;\n  animation: pulsate 1s infinite;\n}\n\nbutton:hover span {\n  display: inline-block;\n  transform: translateX(2px);\n  transition: all 1s;\n}\n\nbutton:focus {\n  outline: none;\n  border-radius: 26px;\n  animation: pulsate 1s infinite;\n}\n\n@keyframes pulsate {\n  0% {\n    transform: scale(1);\n    box-shadow: none;\n  }\n\n  50% {\n    transform: scale(1.03);\n    box-shadow: 0 16px 16px rgba(0, 0, 0, 0.4);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: none;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

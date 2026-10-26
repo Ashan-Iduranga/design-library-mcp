@@ -1,0 +1,36 @@
+{
+  "id": "magicui-scroll-progress-demo",
+  "title": "Scroll Progress Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/scroll-progress",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "scroll",
+    "progress",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing animated scroll progress for your pages.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/scroll-progress-demo.tsx",
+  "code": "import { ScrollProgress } from \"@/registry/magicui/scroll-progress\"\n\nexport default function ScrollProgressDemo() {\n  return (\n    <div className=\"z-10 rounded-lg p-4\">\n      <ScrollProgress className=\"top-[65px]\" />\n      <h2 className=\"pb-4 font-bold\">\n        Note: The scroll progress is shown below the navbar of the page.\n      </h2>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

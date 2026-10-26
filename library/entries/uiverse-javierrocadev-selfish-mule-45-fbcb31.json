@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-javierrocadev-selfish-mule-45-fbcb31",
+  "title": "Checkbox by Javierrocadev (selfish-mule-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/selfish-mule-45",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "simple",
+    "icon",
+    "hover",
+    "dark",
+    "light",
+    "light&dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Javierrocadev_selfish-mule-45.html",
+  "code": "<!-- From Uiverse.io by Javierrocadev  - Tags: simple, icon, hover, checkbox, dark, light, light&dark, tailwind -->\n<input\n  type=\"checkbox\"\n  id=\"react-option\"\n  value=\"\"\n  class=\"hidden peer\"\n  required=\"\"\n/>\n\n<label\n  for=\"react-option\"\n  class=\"flex z-10 items-center peer relative justify-center w-14 h-14 shadow-lg duration-300 [box-shadow:1px_1px_0px_1px_#eab92d] border-2 border-gray-800 peer-checked:border-2 peer-checked:border-gray-800 rounded-lg cursor-pointer text-neutral-50 peer-checked:[box-shadow:1px_1px_0px_1px_#075985] peer-checked:hover:[box-shadow:1px_1px_0px_1px_#1e1e1e] hover:[box-shadow:1px_1px_0px_1px_#1e1e1e]\"\n>\n</label>\n<svg\n  class=\"absolute stroke-sky-800 w-12 h-23 duration-300 peer-checked:opacity-100 opacity-0\"\n  height=\"100\"\n  preserveAspectRatio=\"xMidYMid meet\"\n  viewBox=\"0 0 100 100\"\n  width=\"100\"\n  x=\"0\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  y=\"0\"\n>\n  <path\n    class=\"svg-stroke-primary\"\n    d=\"M82.1,61.2a31.9,31.9,0,0,1-12.4,2.4A33.3,33.3,0,0,1,36.4,30.3a31.9,31.9,0,0,1,2.4-12.4A33.3,33.3,0,1,0,82.1,61.2Z\"\n    fill=\"none\"\n    stroke-linecap=\"round\"\n    stroke-linejoin=\"round\"\n    stroke-width=\"8\"\n  ></path>\n</svg>\n<svg\n  class=\"absolute stroke-yellow-500 w-12 h-23 duration-300 peer-checked:opacity-0 opacity-100\"\n  height=\"100\"\n  preserveAspectRatio=\"xMidYMid meet\"\n  viewBox=\"0 0 100 100\"\n  width=\"100\"\n  x=\"0\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  y=\"0\"\n>\n  <path\n    class=\"svg-stroke-primary\"\n    d=\"M50,18v3.6m0,56.8V82M82,50H78.4M21.6,50H18M72.6,72.6l-2.5-2.5M29.9,29.9l-2.5-2.5m45.2,0-2.5,2.5M29.9,70.1l-2.5,2.5M64.2,50A14.2,14.2,0,1,1,50,35.8,14.3,14.3,0,0,1,64.2,50Z\"\n    fill=\"none\"\n    stroke-linecap=\"round\"\n    stroke-linejoin=\"round\"\n    stroke-width=\"8\"\n  ></path>\n</svg>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

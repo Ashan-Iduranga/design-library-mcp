@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-mrhyddenn-new-walrus-45-90bc7f",
+  "title": "Loader by mrhyddenn (new-walrus-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/new-walrus-45",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_new-walrus-45.html",
+  "code": "<div class=\"spinner\">\n    <div class=\"spinnerin\"></div>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: gradient, loader */\n.spinner {\n  width: 3em;\n  height: 3em;\n  cursor: not-allowed;\n  border-radius: 50%;\n  border: 2px solid #444;\n  box-shadow: -10px -10px 10px #6359f8, 0px -10px 10px 0px #9c32e2, 10px -10px 10px #f36896, 10px 0 10px #ff0b0b, 10px 10px 10px 0px#ff5500, 0 10px 10px 0px #ff9500, -10px 10px 10px 0px #ffb700;\n  animation: rot55 0.7s linear infinite;\n}\n\n.spinnerin {\n  border: 2px solid #444;\n  width: 1.5em;\n  height: 1.5em;\n  border-radius: 50%;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n\n@keyframes rot55 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

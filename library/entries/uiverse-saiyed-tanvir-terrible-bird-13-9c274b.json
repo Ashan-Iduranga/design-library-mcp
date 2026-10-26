@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-saiyed-tanvir-terrible-bird-13-9c274b",
+  "title": "Loader by Saiyed-Tanvir (terrible-bird-13)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Saiyed-Tanvir/terrible-bird-13",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animated",
+    "circle-loader",
+    "circular"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Saiyed-Tanvir on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Saiyed-Tanvir_terrible-bird-13.html",
+  "code": "<div class=\"loader\">\n    <div class=\"quater i\"></div>\n    <div class=\"quater ii\"></div>\n</div>\n<style>\n/* From Uiverse.io by Saiyed-Tanvir - Tags: loader, animated, circle loader, circular */\n.quater {\n  height: 1.5cm;\n  width: 1.5cm;\n  background-color: skyblue;\n  float: left;\n  position: relative;\n  bottom: 1.25cm;\n}\n\n.i {\n  border-top-left-radius: 100%;\n  animation: spin1 2s ease-in-out infinite;\n  transform-origin: 1.5cm 1.5cm;\n}\n\n.ii {\n  border-top-right-radius: 100%;\n  animation: spin2 2s ease-in-out infinite;\n  transform-origin: 0 1.5cm;\n}\n\n@keyframes spin1 {\n  0% {\n    transform: rotateZ(0deg);\n  }\n\n  25% {\n    transform: rotateZ(0deg);\n  }\n\n  50% {\n    transform: rotateZ(180deg);\n  }\n\n  75% {\n    transform: rotateZ(180deg);\n  }\n\n  100% {\n    transform: rotateZ(360deg);\n  }\n}\n\n@keyframes spin2 {\n  0% {\n    transform: rotateZ(0deg);\n  }\n\n  25% {\n    transform: rotateZ(180deg);\n  }\n\n  50% {\n    transform: rotateZ(180deg);\n  }\n\n  75% {\n    transform: rotateZ(360deg);\n  }\n\n  100% {\n    transform: rotateZ(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

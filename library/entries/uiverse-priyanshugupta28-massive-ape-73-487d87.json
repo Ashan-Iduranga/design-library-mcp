@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-priyanshugupta28-massive-ape-73-487d87",
+  "title": "Checkbox by PriyanshuGupta28 (massive-ape-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/massive-ape-73",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "docs-checkbox",
+    "cool-checkbox",
+    "circle-checkbox"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/PriyanshuGupta28_massive-ape-73.html",
+  "code": "<div class=\"checkbox-wrapper\">\n  <input checked=\"\" type=\"checkbox\">\n  <svg viewBox=\"0 0 35.6 35.6\">\n    <circle class=\"background\" cx=\"17.8\" cy=\"17.8\" r=\"17.8\"></circle>\n    <circle class=\"stroke\" cx=\"17.8\" cy=\"17.8\" r=\"14.37\"></circle>\n    <polyline class=\"check\" points=\"11.78 18.12 15.55 22.23 25.17 12.87\"></polyline>\n  </svg>\n</div>\n\n\n\n\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: checkbox, docs checkbox, cool checkbox, circle-checkbox */\n.checkbox-wrapper:hover .check {\n  stroke-dashoffset: 0;\n}\n\n.checkbox-wrapper {\n  position: relative;\n  display: inline-block;\n  width: 40px;\n  height: 40px;\n}\n\n.checkbox-wrapper .background {\n  fill: rgb(75, 50, 121);\n  transition: ease all 0.6s;\n  -webkit-transition: ease all 0.6s;\n}\n\n.checkbox-wrapper .stroke {\n  fill: none;\n  stroke: #fff;\n  stroke-miterlimit: 10;\n  stroke-width: 2px;\n  stroke-dashoffset: 100;\n  stroke-dasharray: 100;\n  transition: ease all 0.6s;\n  -webkit-transition: ease all 0.6s;\n}\n\n.checkbox-wrapper .check {\n  fill: none;\n  stroke: #fff;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-width: 2px;\n  stroke-dashoffset: 22;\n  stroke-dasharray: 22;\n  transition: ease all 0.6s;\n  -webkit-transition: ease all 0.6s;\n}\n\n.checkbox-wrapper input[type=checkbox] {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  left: 0;\n  top: 0;\n  margin: 0;\n  opacity: 0;\n  -appearance: none;\n  -webkit-appearance: none;\n}\n\n.checkbox-wrapper input[type=checkbox]:hover {\n  cursor: pointer;\n}\n\n.checkbox-wrapper input[type=checkbox]:checked + svg .background {\n  fill: #421c64;\n}\n\n.checkbox-wrapper input[type=checkbox]:checked + svg .stroke {\n  stroke-dashoffset: 0;\n}\n\n.checkbox-wrapper input[type=checkbox]:checked + svg .check {\n  stroke-dashoffset: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

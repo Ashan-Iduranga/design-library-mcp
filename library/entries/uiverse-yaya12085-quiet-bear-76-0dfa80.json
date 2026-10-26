@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-quiet-bear-76-0dfa80",
+  "title": "Card by Yaya12085 (quiet-bear-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/quiet-bear-76",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Yaya12085_quiet-bear-76.html",
+  "code": "<div class=\"card\">\n  <div class=\"date-time-container\">\n    <time class=\"date-time\" datetime=\"2022-10-10\">\n      <span>2022</span>\n      <span class=\"separator\"></span>\n      <span>Oct 10</span>\n    </time>\n  </div>\n  <div class=\"content\">\n  \n    <div class=\"infos\">\n      <a href=\"#\">\n        <span class=\"title\">\n         How to make this blog card ?\n        </span>\n      </a>\n\n      <p class=\"description\">\n        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae\n        dolores, possimus pariatur animi temporibus nesciunt praesentium dolore\n        sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,\n        voluptates neque explicabo tempora nisi culpa eius atque dignissimos.\n        Molestias explicabo corporis voluptatem?\n      </p>\n    </div>\n\n      <a class=\"action\" href=\"#\">\n        Read Blog\n      </a>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: card */\n.card {\n  box-sizing: border-box;\n  display: flex;\n  max-width: 320px;\n  background-color: rgba(255, 255, 255, 1);\n  transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.card:hover {\n  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.081);\n}\n\n.date-time-container {\n  writing-mode: vertical-lr;\n  transform: rotate(180deg);\n  padding: 0.5rem;\n}\n\n.date-time {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  grid-gap: 1rem;\n  gap: 1rem;\n  font-size: 0.75rem;\n  line-height: 1rem;\n  font-weight: 700;\n  text-transform: uppercase;\n  color: rgba(17, 24, 39, 1);\n}\n\n.separator {\n  width: 1px;\n  flex: 1 1 0%;\n  background-color: rgba(17, 24, 39, 0.1);\n}\n\n.content {\n  display: flex;\n  flex: 1 1 0%;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\n.infos {\n  border-left: 1px solid rgba(17, 24, 39, 0.1);\n  padding: 1rem;\n}\n\n.title {\n  font-weight: 700;\n  text-transform: uppercase;\n  font-size: 18.72px;\n  color: rgba(17, 24, 39, 1);\n}\n\n.description {\n  overflow: hidden;\n  display: -webkit-box;\n  -webkit-box-orient: vertical;\n  -webkit-line-clamp: 5;\n  line-clamp: 5;\n  margin-top: 0.5rem;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  color: rgba(55, 65, 81, 1);\n}\n\n.action {\n  display: block;\n  background-color: rgba(253, 224, 71, 1);\n  padding: 0.75rem 1.25rem;\n  text-align: center;\n  font-size: 0.75rem;\n  line-height: 1rem;\n  font-weight: 700;\n  text-transform: uppercase;\n  color: rgba(17, 24, 39, 1);\n  transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.action:hover {\n  background-color: rgba(250, 204, 21, 1);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

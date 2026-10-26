@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-g4b413l-soft-jellyfish-12-5424a9",
+  "title": "Loader by G4b413l (soft-jellyfish-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/soft-jellyfish-12",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/G4b413l_soft-jellyfish-12.html",
+  "code": "<div class=\"pinwheel\">\n    <div class=\"pinwheel__line\"></div>\n    <div class=\"pinwheel__line\"></div>\n    <div class=\"pinwheel__line\"></div>\n    <div class=\"pinwheel__line\"></div>\n    <div class=\"pinwheel__line\"></div>\n    <div class=\"pinwheel__line\"></div>\n</div>\n<style>\n/* From Uiverse.io by G4b413l - Tags: loader */\n.pinwheel {\n  --uib-size: 45px;\n  --uib-speed: 0.8s;\n  --uib-color: #312f2b;\n  --uib-line-weight: 4px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: var(--uib-size);\n  width: var(--uib-size);\n}\n\n.pinwheel__line {\n  position: absolute;\n  top: calc(50% - var(--uib-line-weight) / 2);\n  left: 0;\n  height: var(--uib-line-weight);\n  width: 100%;\n  border-radius: calc(var(--uib-line-weight) / 2);\n  background-color: var(--uib-color);\n  animation: rotate81232 var(--uib-speed) ease-in-out infinite;\n}\n\n.pinwheel__line:nth-child(2) {\n  animation-delay: calc(var(--uib-speed) * 0.075);\n  opacity: 0.8;\n}\n\n.pinwheel__line:nth-child(3) {\n  animation-delay: calc(var(--uib-speed) * 0.15);\n  opacity: 0.6;\n}\n\n.pinwheel__line:nth-child(4) {\n  animation-delay: calc(var(--uib-speed) * 0.225);\n  opacity: 0.4;\n}\n\n.pinwheel__line:nth-child(5) {\n  animation-delay: calc(var(--uib-speed) * 0.3);\n  opacity: 0.2;\n}\n\n.pinwheel__line:nth-child(6) {\n  animation-delay: calc(var(--uib-speed) * 0.375);\n  opacity: 0.1;\n}\n\n@keyframes rotate81232 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(180deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

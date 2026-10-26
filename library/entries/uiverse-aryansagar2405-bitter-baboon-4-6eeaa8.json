@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-aryansagar2405-bitter-baboon-4-6eeaa8",
+  "title": "Button by aryansagar2405 (bitter-baboon-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aryansagar2405/bitter-baboon-4",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aryansagar2405 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/aryansagar2405_bitter-baboon-4.html",
+  "code": "<div class=\"share-wrapper\">\n  <input id=\"share-toggle\" type=\"checkbox\" class=\"check\" />\n  <label for=\"share-toggle\" class=\"container\">\n    <svg\n      class=\"icon inactive\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n    >\n      <path\n        d=\"M18 16.08C17.24 16.08 16.56 16.38 16.05 16.87L8.91 12.7C8.96 12.47 9 12.24 9 12C9 11.76 8.96 11.53 8.91 11.3L15.95 7.13C16.46 7.62 17.24 7.92 18 7.92C19.66 7.92 21 6.58 21 4.92C21 3.26 19.66 1.92 18 1.92C16.34 1.92 15 3.26 15 4.92C15 5.16 15.04 5.39 15.09 5.62L8.05 9.79C7.54 9.3 6.76 9 6 9C4.34 9 3 10.34 3 12C3 13.66 4.34 15 6 15C6.76 15 7.54 14.7 8.05 14.21L15.18 18.38C15.13 18.61 15.09 18.84 15.09 19.08C15.09 20.74 16.43 22.08 18.09 22.08C19.75 22.08 21.09 20.74 21.09 19.08C21.09 17.42 19.75 16.08 18 16.08Z\"\n      ></path>\n    </svg>\n    <svg\n      class=\"icon active\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n    >\n      <path\n        d=\"M18 16.08C17.24 16.08 16.56 16.38 16.05 16.87L8.91 12.7C8.96 12.47 9 12.24 9 12C9 11.76 8.96 11.53 8.91 11.3L15.95 7.13C16.46 7.62 17.24 7.92 18 7.92C19.66 7.92 21 6.58 21 4.92C21 3.26 19.66 1.92 18 1.92C16.34 1.92 15 3.26 15 4.92C15 5.16 15.04 5.39 15.09 5.62L8.05 9.79C7.54 9.3 6.76 9 6 9C4.34 9 3 10.34 3 12C3 13.66 4.34 15 6 15C6.76 15 7.54 14.7 8.05 14.21L15.18 18.38C15.13 18.61 15.09 18.84 15.09 19.08C15.09 20.74 16.43 22.08 18.09 22.08C19.75 22.08 21.09 20.74 21.09 19.08C21.09 17.42 19.75 16.08 18 16.08Z\"\n      ></path>\n    </svg>\n    <div class=\"checkmark\"></div>\n    <span class=\"share-text\">Share</span>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by aryansagar2405  - Tags: button */\n.share-wrapper {\n  --gap: 0.5em;\n  --radius: 0.35em;\n  display: flex;\n  align-items: center;\n  text-align: center;\n  justify-content: center;\n  --dot-bg: #212121;\n  --dot-color: #313131;\n  --dot-size: 1px;\n  --dot-space: 22px;\n  background:\n    linear-gradient(\n        90deg,\n        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),\n        transparent 1%\n      )\n      center / var(--dot-space) var(--dot-space),\n    linear-gradient(\n        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),\n        transparent 1%\n      )\n      center / var(--dot-space) var(--dot-space),\n    var(--dot-color);\n  border: 0.1em solid #313131;\n  padding: 0.5em;\n  border-radius: var(--radius);\n  box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.1);\n  cursor: pointer;\n}\n\n.check[type=\"checkbox\"] {\n  display: none;\n}\n\n.container {\n  display: flex;\n  align-items: center;\n  cursor: pointer;\n  margin-top: -0.25em;\n  margin-bottom: -0.25em;\n}\n\n.icon {\n  width: 1.5em;\n  height: 1.5em;\n  margin-left: 0.5em;\n  fill: white;\n  transition: opacity 0.3s ease-in-out;\n}\n\n.icon.active {\n  display: none;\n  fill: #2196f3;\n}\n\n.check[type=\"checkbox\"]:checked + .container .icon.active {\n  display: inline-block;\n  animation: pop 0.5s ease-in-out;\n}\n\n.check[type=\"checkbox\"]:checked + .container .icon.inactive {\n  display: none;\n}\n\n.share-text {\n  margin-left: 0.5em;\n  padding: 0.5em;\n  color: white;\n  font-family: Arial, sans-serif;\n  font-weight: bolder;\n}\n\n@keyframes pop {\n  0% {\n    transform: scale(1);\n  }\n  50% {\n    transform: scale(1.5);\n  }\n  100% {\n    transform: scale(1);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

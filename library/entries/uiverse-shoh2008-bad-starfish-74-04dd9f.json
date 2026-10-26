@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-bad-starfish-74-04dd9f",
+  "title": "Radio by Shoh2008 (bad-starfish-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/bad-starfish-74",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Shoh2008_bad-starfish-74.html",
+  "code": "<div class=\"radio-input\">\n  <input name=\"radio\" type=\"radio\" class=\"input\" checked=\"\">\n  <input name=\"radio\" type=\"radio\" class=\"input\">\n  <input name=\"radio\" type=\"radio\" class=\"input\">\n</div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: radio */\n.input {\n  -webkit-appearance: none;\n /* remove default */\n  display: block;\n  margin: 10px;\n  width: 24px;\n  height: 24px;\n  border-radius: 12px;\n  cursor: pointer;\n  vertical-align: middle;\n  box-shadow: hsla(0,0%,100%,.15) 0 1px 1px, inset hsla(0,0%,0%,.5) 0 0 0 1px;\n  background-color: hsla(0,0%,0%,.2);\n  background-image: -webkit-radial-gradient( hsla(200,100%,90%,1) 0%, hsla(200,100%,70%,1) 15%, hsla(200,100%,60%,.3) 28%, hsla(200,100%,30%,0) 70% );\n  background-repeat: no-repeat;\n  -webkit-transition: background-position .15s cubic-bezier(.8, 0, 1, 1),\n    -webkit-transform .25s cubic-bezier(.8, 0, 1, 1);\n  outline: none;\n}\n\n.input:checked {\n  -webkit-transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),\n    -webkit-transform .25s cubic-bezier(0, 0, .2, 1);\n}\n\n.input:active {\n  -webkit-transform: scale(1.5);\n  -webkit-transition: -webkit-transform .1s cubic-bezier(0, 0, .2, 1);\n}\n\n\n\n/* The up/down direction logic */\n\n.input,\n.input:active {\n  background-position: 0 24px;\n}\n\n.input:checked {\n  background-position: 0 0;\n}\n\n.input:checked ~ .input,\n.input:checked ~ .input:active {\n  background-position: 0 -24px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

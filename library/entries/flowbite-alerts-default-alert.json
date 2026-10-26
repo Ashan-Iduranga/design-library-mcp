@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-alerts-default-alert",
+  "title": "Alerts: Default alert (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/alerts/#default-alert",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "alert",
+    "alerts",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the following examples of alert components to show messages as feedback to your users.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/alerts.md",
+  "code": "<div class=\"p-4 mb-4 text-sm text-fg-brand-strong rounded-base bg-brand-softer\" role=\"alert\">\n  <span class=\"font-medium\">Info alert!</span> Change a few things up and try submitting again.\n</div>\n<div class=\"p-4 mb-4 text-sm text-fg-danger-strong rounded-base bg-danger-soft\" role=\"alert\">\n  <span class=\"font-medium\">Danger alert!</span> Change a few things up and try submitting again.\n</div>\n<div class=\"p-4 mb-4 text-sm text-fg-success-strong rounded-base bg-success-soft\" role=\"alert\">\n  <span class=\"font-medium\">Success alert!</span> Change a few things up and try submitting again.\n</div>\n<div class=\"p-4 mb-4 text-sm text-fg-warning rounded-base bg-warning-soft\" role=\"alert\">\n  <span class=\"font-medium\">Warning alert!</span> Change a few things up and try submitting again.\n</div>\n<div class=\"p-4 text-sm text-heading rounded-base bg-neutral-secondary-medium\" role=\"alert\">\n  <span class=\"font-medium\">Dark alert!</span> Change a few things up and try submitting again.\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-e-coders-great-falcon-16-471203",
+  "title": "Button by e-coders (great-falcon-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/e-coders/great-falcon-16",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By e-coders on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/e-coders_great-falcon-16.html",
+  "code": "<button>Button</button>\n<style>\n/* From Uiverse.io by e-coders - Tags: button */\nbutton {\n background-color: #111827;\n border: 1px solid transparent;\n border-radius: .75rem;\n box-sizing: border-box;\n color: #FFFFFF;\n cursor: pointer;\n flex: 0 0 auto;\n font-family: \"Inter var\",ui-sans-serif,system-ui,-apple-system,system-ui,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";\n font-size: 1.125rem;\n font-weight: 600;\n line-height: 1.5rem;\n padding: .75rem 1.2rem;\n text-align: center;\n text-decoration: none #6B7280 solid;\n text-decoration-thickness: auto;\n transition-duration: .2s;\n transition-property: background-color,border-color,color,fill,stroke;\n transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);\n user-select: none;\n -webkit-user-select: none;\n touch-action: manipulation;\n width: auto;\n}\n\nbutton:hover {\n background-color: #374151;\n}\n\nbutton:focus {\n box-shadow: none;\n outline: 2px solid white;\n outline-offset: 2px;\n}\n\n@media (min-width: 768px) {\n button {\n  padding: .75rem 1.5rem;\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

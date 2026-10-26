@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-juanes200122-smart-skunk-68-5ad1eb",
+  "title": "Button by Juanes200122 (smart-skunk-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Juanes200122/smart-skunk-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "animation",
+    "hover",
+    "color",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Juanes200122 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Juanes200122_smart-skunk-68.html",
+  "code": "<a href=\"#\" class=\"ov-btn-slide-left\">Izquierda\n</a>\n<style>\n/* From Uiverse.io by Juanes200122 - Tags: simple, animation, button, hover, color, hover effect */\na {\n  text-decoration: none;\n}\n\n.ov-btn-slide-left {\n  background: #fff;\n  color: #4741d7;\n  border: 2px solid #4741d7;\n  padding: 16px 20px;\n  border-radius: 3px;\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  display: inline-block;\n}\n\n.ov-btn-slide-left:hover {\n  color: #fff;\n}\n\n.ov-btn-slide-left::after {\n  content: \"\";\n  background: #4741d7;\n  position: absolute;\n  z-index: -1;\n  padding: 16px 20px;\n  display: block;\n  top: 0;\n  bottom: 0;\n  left: -100%;\n  right: 100%;\n  -webkit-transition: all 0.35s;\n  transition: all 0.35s;\n}\n\n.ov-btn-slide-left:hover::after {\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  -webkit-transition: all 0.35s;\n  transition: all 0.35s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

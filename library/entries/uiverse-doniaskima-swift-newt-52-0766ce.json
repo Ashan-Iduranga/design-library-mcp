@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-doniaskima-swift-newt-52-0766ce",
+  "title": "Button by doniaskima (swift-newt-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/swift-newt-52",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "bounce-animation",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/doniaskima_swift-newt-52.html",
+  "code": "<button class=\"btn-96\"><span>Button</span></button>\n\n<style>\n/* From Uiverse.io by doniaskima - Tags: bounce animation, 3d button */\n.btn-96,\n.btn-96 *,\n.btn-96 :after,\n.btn-96 :before,\n.btn-96:after,\n.btn-96:before {\n  border: 0 solid;\n  box-sizing: border-box;\n}\n\n.btn-96 {\n  -webkit-tap-highlight-color: transparent;\n  -webkit-appearance: button;\n  background-color: #000;\n  background-image: none;\n  color: #fff;\n  cursor: pointer;\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,\n    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,\n    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;\n  font-size: 100%;\n  line-height: 1.5;\n  margin: 0;\n  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);\n  padding: 0;\n}\n\n.btn-96:disabled {\n  cursor: default;\n}\n\n.btn-96:-moz-focusring {\n  outline: auto;\n}\n\n.btn-96 svg {\n  display: block;\n  vertical-align: middle;\n}\n\n.btn-96 [hidden] {\n  display: none;\n}\n\n.btn-96 {\n  box-sizing: border-box;\n  display: block;\n  font-weight: 900;\n  -webkit-mask-image: none;\n  padding: 2rem 5rem;\n  perspective: 800px;\n  position: relative;\n  text-transform: uppercase;\n  transform-style: preserve-3d;\n}\n\n.btn-96 span {\n  background: #fff;\n  color: #000;\n  display: grid;\n  inset: 0;\n  place-items: center;\n  position: absolute;\n  transform: rotateX(0deg);\n  transform-origin: top center;\n  transition: 0.2s;\n}\n\n.btn-96:hover span {\n  transform: rotateX(35deg);\n}\n\n.btn-96:after,\n.btn-96:before {\n  background: #ddd;\n  content: \"\";\n  height: 100%;\n  left: 0;\n  position: absolute;\n  top: 0;\n  transform: rotateX(0deg);\n  width: 100%;\n  z-index: -1;\n}\n\n.btn-96:after {\n  background: #ccc;\n  width: 0;\n}\n\n.btn-96:hover:after {\n  -webkit-animation: progress-bar 1.2s;\n  animation: progress-bar 1.2s;\n}\n\n@-webkit-keyframes progress-bar {\n  0% {\n    opacity: 1;\n    width: 0;\n  }\n\n  10% {\n    opacity: 1;\n    width: 15%;\n  }\n\n  25% {\n    opacity: 1;\n    width: 25%;\n  }\n\n  40% {\n    opacity: 1;\n    width: 35%;\n  }\n\n  55% {\n    opacity: 1;\n    width: 75%;\n  }\n\n  60% {\n    opacity: 1;\n    width: 100%;\n  }\n\n  to {\n    opacity: 0;\n    width: 100%;\n  }\n}\n\n@keyframes progress-bar {\n  0% {\n    opacity: 1;\n    width: 0;\n  }\n\n  10% {\n    opacity: 1;\n    width: 15%;\n  }\n\n  25% {\n    opacity: 1;\n    width: 25%;\n  }\n\n  40% {\n    opacity: 1;\n    width: 35%;\n  }\n\n  55% {\n    opacity: 1;\n    width: 75%;\n  }\n\n  60% {\n    opacity: 1;\n    width: 100%;\n  }\n\n  to {\n    opacity: 0;\n    width: 100%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

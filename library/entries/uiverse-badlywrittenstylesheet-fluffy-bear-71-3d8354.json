@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-badlywrittenstylesheet-fluffy-bear-71-3d8354",
+  "title": "Pattern by BadlyWrittenStylesheet (fluffy-bear-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/BadlyWrittenStylesheet/fluffy-bear-71",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "gradient",
+    "modern",
+    "light&dark",
+    "clean"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By BadlyWrittenStylesheet on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/BadlyWrittenStylesheet_fluffy-bear-71.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by BadlyWrittenStylesheet  - Tags: simple, gradient, modern, light&dark, clean, pattern */\n.container {\n  --bg: radial-gradient(#000 5%, #0000 6%);\n  --size: 3rem;\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  /* background-color: lightblue; */\n  background-image: radial-gradient(#000 5%, #0000 6%),\n    radial-gradient(#000 5%, #0000 6%);\n  background-position: 0 0, calc(var(--size) / 2) calc(var(--size) / 2);\n  background-size: var(--size) var(--size);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

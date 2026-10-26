@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-aqfox-cuddly-turtle-6-c9bb1e",
+  "title": "Loader by AqFox (cuddly-turtle-6)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AqFox/cuddly-turtle-6",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AqFox on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/AqFox_cuddly-turtle-6.html",
+  "code": "<div class=\"spinner\"></div>\n<style>\n/* From Uiverse.io by AqFox - Tags: loader */\n.spinner {\n width: 56px;\n height: 56px;\n display: grid;\n color: #004dff;\n background: radial-gradient(farthest-side, currentColor calc(100% - 7px),#0000 calc(100% - 6px) 0);\n -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 15px),#000 calc(100% - 13px));\n border-radius: 50%;\n animation: spinner-sm4bhi 2s infinite linear;\n}\n\n.spinner::before,\n.spinner::after {\n content: \"\";\n grid-area: 1/1;\n background: linear-gradient(currentColor 0 0) center,\n          linear-gradient(currentColor 0 0) center;\n background-size: 100% 11px,11px 100%;\n background-repeat: no-repeat;\n}\n\n.spinner::after {\n transform: rotate(45deg);\n}\n\n@keyframes spinner-sm4bhi {\n 100% {\n  transform: rotate(1turn);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

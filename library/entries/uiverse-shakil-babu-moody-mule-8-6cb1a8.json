@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shakil-babu-moody-mule-8-6cb1a8",
+  "title": "Button by Shakil-Babu (moody-mule-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shakil-Babu/moody-mule-8",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shakil-Babu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Shakil-Babu_moody-mule-8.html",
+  "code": "<button class=\"btn\"> Hover me\n</button>\n<style>\n/* From Uiverse.io by Shakil-Babu - Tags: button */\n.btn {\n background-color: #00BFA6;\n padding: 14px 40px;\n color: #fff;\n text-transform: uppercase;\n letter-spacing: 2px;\n cursor: pointer;\n border-radius: 10px;\n border: 2px dashed #00BFA6;\n box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n transition: .4s;\n}\n\n.btn span:last-child {\n display: none;\n}\n\n.btn:hover {\n transition: .4s;\n border: 2px dashed #00BFA6;\n background-color: #fff;\n color: #00BFA6;\n}\n\n.btn:active {\n background-color: #87dbd0;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

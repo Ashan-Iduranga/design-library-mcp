@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-seyed-mohsen-mousavi-bitter-snail-5-58cb9f",
+  "title": "Button by seyed-mohsen-mousavi (bitter-snail-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/seyed-mohsen-mousavi/bitter-snail-5",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d",
+    "black",
+    "dark",
+    "shadow",
+    "rotate",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By seyed-mohsen-mousavi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/seyed-mohsen-mousavi_bitter-snail-5.html",
+  "code": "<button class=\"button\">3D Button</button>\n\n<style>\n/* From Uiverse.io by seyed-mohsen-mousavi  - Tags: 3d, black, button, dark, shadow, rotate, box-shadow */\n.button {\n  background: rgba(55, 51, 51, 0.49);\n  border-radius: 16px;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  backdrop-filter: blur(3.7px);\n  -webkit-backdrop-filter: blur(3.7px);\n  outline: none;\n  border: none;\n  padding: 20px;\n  transform: rotate3d(1, 1, 1, 320deg);\n  filter: drop-shadow(1px 1px 8px black);\n  color: white;\n  cursor: pointer;\n  transition: ease-in-out 0.5s;\n}\n.button:hover {\n  transform: rotate3d(1, 1, 1, 360deg);\n  animation: shadow 1s both;\n}\n@keyframes shadow {\n  0% {\n    filter: drop-shadow(1px 1px 8px black);\n  }\n  25% {\n    filter: drop-shadow(1px 1px 5px black);\n  }\n  50% {\n    filter: drop-shadow(1px 1px 2px black);\n  }\n  100% {\n    filter: drop-shadow(1px 1px 2px black);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

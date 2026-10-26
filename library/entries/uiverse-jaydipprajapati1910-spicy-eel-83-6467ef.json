@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-jaydipprajapati1910-spicy-eel-83-6467ef",
+  "title": "Loader by JaydipPrajapati1910 (spicy-eel-83)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/spicy-eel-83",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "ninja-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JaydipPrajapati1910_spicy-eel-83.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, loader, ninja loader */\n.loader {\n  width: 160px;\n  height: 160px;\n  color: #0000F4;\n  background: conic-gradient(from  165deg at top   ,#0000, currentColor 1deg 30deg,#0000 31deg) top,\n    conic-gradient(from   75deg at left  ,#0000, currentColor 1deg 30deg,#0000 31deg) left,\n    conic-gradient(from  -15deg at bottom,#0000, currentColor 1deg 30deg,#0000 31deg) bottom, \n    conic-gradient(from -105deg at right ,#0000, currentColor 1deg 30deg,#0000 31deg) right;\n  background-size: 100% 50%,50% 100%;\n  -webkit-mask: radial-gradient(circle 10px,#0000 90%,#000);\n  background-repeat: no-repeat;\n  animation: sh1 1.5s infinite linear;\n}\n\n@keyframes sh1 {\n \n  100% {\n    transform: rotate(1turn)\n  }\n}\n  \n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

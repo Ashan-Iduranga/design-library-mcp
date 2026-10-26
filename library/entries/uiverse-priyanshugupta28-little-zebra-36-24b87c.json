@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-priyanshugupta28-little-zebra-36-24b87c",
+  "title": "Loader by PriyanshuGupta28 (little-zebra-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/little-zebra-36",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "3d-loader",
+    "3d-cude-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/PriyanshuGupta28_little-zebra-36.html",
+  "code": "<div class=\"loader\">\n  <div class=\"cube\">\n    <div class=\"side front\"></div>\n    <div class=\"side back\"></div>\n    <div class=\"side top\"></div>\n    <div class=\"side bottom\"></div>\n    <div class=\"side left\"></div>\n    <div class=\"side right\"></div>\n  </div>\n\n</div>\n \n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: loader, 3d loader, 3d cude loader */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.cube {\n  width: 100px;\n  height: 100px;\n  position: relative;\n  transform-style: preserve-3d;\n  animation: spin 2s infinite linear;\n}\n\n.side {\n  position: absolute;\n  width: 100px;\n  height: 100px;\n  opacity: 0.8;\n}\n\n.front {\n  transform: translateZ(50px);\n  background: linear-gradient(45deg, #ff4e50, #f9d423);\n}\n\n.back {\n  transform: translateZ(-50px);\n  background: linear-gradient(45deg, #40e0d0, #ff8c00);\n}\n\n.top {\n  transform: rotateX(90deg) translateZ(50px);\n  background: linear-gradient(45deg, #800080, #00bfff);\n}\n\n.bottom {\n  transform: rotateX(90deg) translateZ(-50px);\n  background: linear-gradient(45deg, #008000, #ffff00);\n}\n\n.left {\n  transform: rotateY(90deg) translateZ(50px);\n  background: linear-gradient(45deg, #0000ff, #ff1493);\n}\n\n.right {\n  transform: rotateY(90deg) translateZ(-50px);\n  background: linear-gradient(45deg, #00ffff, #ff0000);\n}\n\n@keyframes spin {\n  0% {\n    transform: rotateX(0deg) rotateY(0deg);\n  }\n\n  100% {\n    transform: rotateX(360deg) rotateY(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

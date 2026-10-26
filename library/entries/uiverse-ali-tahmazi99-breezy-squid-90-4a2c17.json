@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ali-tahmazi99-breezy-squid-90-4a2c17",
+  "title": "Loader by Ali-Tahmazi99 (breezy-squid-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Ali-Tahmazi99/breezy-squid-90",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Ali-Tahmazi99 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Ali-Tahmazi99_breezy-squid-90.html",
+  "code": "<div class=\"loader\">\n  <span class=\"hour\"></span>\n  <span class=\"min\"></span>\n  <span class=\"circel\"></span>\n</div>\n<style>\n/* From Uiverse.io by Ali-Tahmazi99 - Tags: loader */\n.loader {\n width: 65px;\n height: 65px;\n border: 8px solid #ee9b00a6;\n border-radius: 50px;\n position: relative;\n}\n\n.loader span {\n display: block;\n background: #ee9b00;\n}\n\n.loader .hour ,\n.loader .min {\n width: 6px;\n height: 22px;\n border-radius: 50px;\n position: absolute;\n top: 24.5px;\n left: 21px;\n animation: load9243 1.2s linear infinite;\n transform-origin: top center;\n}\n\n.loader .min {\n height: 17px;\n animation: load9243 4s linear infinite;\n}\n\n.loader .circel {\n width: 10px;\n height: 10px;\n border-radius: 50px;\n position: absolute;\n top: 19px;\n left: 19px;\n}\n\n@keyframes load9243 {\n 0% {\n  transform: rotate(0deg);\n }\n\n 100% {\n  transform: rotate(360deg);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

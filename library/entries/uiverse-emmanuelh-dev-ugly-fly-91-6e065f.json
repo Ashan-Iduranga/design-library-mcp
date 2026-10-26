@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-emmanuelh-dev-ugly-fly-91-6e065f",
+  "title": "Card by emmanuelh-dev (ugly-fly-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/emmanuelh-dev/ugly-fly-91",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "instagram"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By emmanuelh-dev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/emmanuelh-dev_ugly-fly-91.html",
+  "code": "<!-- From Uiverse.io by emmanuelh-dev - Tags: instagram, card, tailwind -->\n<div class=\"relative rounded-lg bg-slate-900 p-2\">\n  <div class=\"relative flex text-center\">\n    <div class=\"flex pl-3.5 pt-3\"><svg viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"-ml-0.5 mr-1.5 h-3 w-3 text-red-500/20\">\n        <circle r=\"12\" cy=\"12\" cx=\"12\"></circle>\n      </svg><svg viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"-ml-0.75 mr-1.5 h-3 w-3 text-yellow-500/20\">\n        <circle r=\"12\" cy=\"12\" cx=\"12\"></circle>\n      </svg><svg viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"-ml-0.75 mr-1.5 h-3 w-3 text-green-500/20\">\n        <circle r=\"12\" cy=\"12\" cx=\"12\"></circle>\n      </svg></div><span class=\"absolute inset-x-0 top-2 text-xs text-slate-500\">ProgressBar.tsx</span>\n  </div>\n  <div class=\"mt-5 space-y-1.5 px-5 pb-10\">\n    <p class=\"mt-4 font-mono text-xs font-normal tracking-wide text-violet-400\">\n      <span class=\"text-slate-500\">&lt;</span><span class=\"text-pink-400\">Card</span><span class=\"text-slate-500\">&gt;</span>\n    </p>\n    <p class=\"ml-3 font-mono text-xs font-normal tracking-wide text-violet-400\">\n      <span class=\"text-slate-500\">&lt;</span><span class=\"text-pink-400\">Text</span><span class=\"text-slate-500\">&gt;</span><span class=\"relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10\"><span class=\"relative text-blue-400\">Ticket Sales</span></span><span class=\"text-slate-500\">&lt;/</span><span class=\"text-pink-400\">Text</span><span class=\"text-slate-500\">&gt;</span>\n    </p>\n    <p class=\"ml-3 font-mono text-xs font-normal leading-4 tracking-wide text-violet-400\">\n      <span class=\"text-slate-500\">&lt;</span><span class=\"text-pink-400\">Metric</span><span class=\"text-slate-500\">&gt;</span><span class=\"relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10\"><span class=\"relative text-blue-400\">$ 71,465</span></span><span class=\"text-slate-500\">&lt;/</span><span class=\"text-pink-400\">Metric</span><span class=\"text-slate-500\">&gt;</span>\n    </p>\n    <p class=\"ml-3 font-mono text-xs font-normal tracking-wide text-violet-400\">\n      <span class=\"text-slate-500\">&lt;</span><span class=\"text-pink-400\">Flex</span><span class=\"ml-2 text-violet-400\">className<span class=\"text-slate-500\">=</span><span class=\"relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10\"><span class=\"relative text-blue-400\">\"mt-3\"</span></span></span><span class=\"text-slate-500\">&gt;</span>\n    </p>\n    <p class=\"ml-6 font-mono text-xs font-normal tracking-wide text-violet-400\">\n      <span class=\"text-slate-500\">&lt;</span><span class=\"text-pink-400\">Text</span><span class=\"text-slate-500\">&gt;</span><span class=\"text-slate-500\">&lt;</span><span class=\"text-pink-400\">Bold</span><span class=\"text-slate-500\">&gt;</span><span class=\"relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10\"><span class=\"relative text-blue-400\">32%</span></span><span class=\"text-slate-500\">&lt;/</span><span class=\"text-pink-400\">Bold</span><span class=\"text-slate-500\">&gt;</span><span class=\"relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10\"><span class=\"relative text-blue-400\">of annual target</span></span><span class=\"text-slate-500\">&lt;/</span><span class=\"text-pink-400\">Text</span><span class=\"text-slate-500\">&gt;</span>\n    </p>\n    <p class=\"ml-6 font-mono text-xs font-normal tracking-wide text-violet-400\">\n      <span class=\"text-slate-500\">&lt;</span><span class=\"text-pink-400\">Text</span><span class=\"text-slate-500\">&gt;</span><span class=\"relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10\"><span class=\"relative text-blue-400\">$ 223,328</span></span><span class=\"text-slate-500\">&lt;/</span><span class=\"text-pink-400\">Text</span><span class=\"text-slate-500\">&gt;</span>\n    </p>\n    <p class=\"ml-3 font-mono text-xs font-normal tracking-wide text-violet-400\">\n      <span class=\"text-slate-500\">&lt;/</span><span class=\"text-pink-400\">Flex</span><span class=\"text-slate-500\">&gt;</span>\n    </p>\n    <p class=\"ml-3 font-mono text-xs font-normal leading-4 tracking-wide text-violet-400\">\n      <span class=\"text-slate-500\">&lt;</span><span class=\"text-pink-400\">ProgressBar</span><span class=\"ml-2 text-violet-400\">value<span class=\"text-slate-500\">=</span><span class=\"relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10\"><span class=\"relative text-blue-400\">{ 32 }</span></span></span><span class=\"ml-2 text-violet-400\">className<span class=\"text-slate-500\">=</span><span class=\"relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10\"><span class=\"relative text-blue-400\">\"mt-3\"</span></span></span><span class=\"text-slate-500\">/&gt;</span>\n    </p>\n    <p class=\"font-mono text-xs font-normal tracking-wide text-violet-400\">\n      <span class=\"text-slate-500\">&lt;/</span><span class=\"text-pink-400\">Card</span><span class=\"text-slate-500\">&gt;</span>\n    </p>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

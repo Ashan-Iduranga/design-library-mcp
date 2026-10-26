@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-devkatyall-spicy-mule-43-acdc7e",
+  "title": "Card by devkatyall (spicy-mule-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/devkatyall/spicy-mule-43",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "text-animation",
+    "text",
+    "shining-text"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By devkatyall on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/devkatyall_spicy-mule-43.html",
+  "code": "<div class=\"shine\">UIVERSE</div>\n\n<style>\n/* From Uiverse.io by devkatyall  - Tags: card, text animation, text, shining text */\n.shine {\n  font-size: 2em;\n  font-weight: 900;\n  color: rgba(255, 255, 255, 0.3);\n  background: #222 -webkit-gradient(\n      linear,\n      left top,\n      right top,\n      from(#222),\n      to(#222),\n      color-stop(0.5, #fff)\n    ) 0 0 no-repeat;\n  background-image: -webkit-linear-gradient(\n    -40deg,\n    transparent 0%,\n    transparent 40%,\n    #fff 50%,\n    transparent 60%,\n    transparent 100%\n  );\n  -webkit-background-clip: text;\n  -webkit-background-size: 50px;\n  -webkit-animation: zezzz;\n  -webkit-animation-duration: 5s;\n  -webkit-animation-iteration-count: infinite;\n}\n@-webkit-keyframes zezzz {\n  0%,\n  10% {\n    background-position: -200px;\n  }\n  20% {\n    background-position: top left;\n  }\n  100% {\n    background-position: 200px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-e-coders-nervous-chipmunk-49-532ad6",
+  "title": "Button by e-coders (nervous-chipmunk-49)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/e-coders/nervous-chipmunk-49",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "github"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By e-coders on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/e-coders_nervous-chipmunk-49.html",
+  "code": "<button>Github Button!</button>\n<style>\n/* From Uiverse.io by e-coders - Tags: button, github */\nbutton {\n appearance: none;\n background-color: #FAFBFC;\n border: 1px solid rgba(27, 31, 35, 0.15);\n border-radius: 6px;\n box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;\n box-sizing: border-box;\n color: #24292E;\n cursor: pointer;\n display: inline-block;\n font-family: -apple-system, system-ui, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\";\n font-size: 14px;\n font-weight: 500;\n line-height: 20px;\n list-style: none;\n padding: 6px 16px;\n position: relative;\n transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);\n user-select: none;\n -webkit-user-select: none;\n touch-action: manipulation;\n vertical-align: middle;\n white-space: nowrap;\n word-wrap: break-word;\n}\n\nbutton:hover {\n background-color: #F3F4F6;\n text-decoration: none;\n transition-duration: 0.1s;\n}\n\nbutton:disabled {\n background-color: #FAFBFC;\n border-color: rgba(27, 31, 35, 0.15);\n color: #959DA5;\n cursor: default;\n}\n\nbutton:active {\n background-color: #EDEFF2;\n box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;\n transition: none 0s;\n}\n\nbutton:focus {\n outline: 1px transparent;\n}\n\nbutton:before {\n display: none;\n}\n\nbutton:-webkit-details-marker {\n display: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

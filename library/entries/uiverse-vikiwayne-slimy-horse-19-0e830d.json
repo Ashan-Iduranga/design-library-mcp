@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-vikiwayne-slimy-horse-19-0e830d",
+  "title": "Button by vikiWayne (slimy-horse-19)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikiWayne/slimy-horse-19",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikiWayne on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vikiWayne_slimy-horse-19.html",
+  "code": "<button class=\"button\">\n    Hover me\n</button>\n<style>\n/* From Uiverse.io by vikiWayne - Tags: button */\n.button {\n  padding: 1em 2em;\n  border: none;\n  border-radius: 5px;\n  font-weight: bold;\n  letter-spacing: 5px;\n  text-transform: uppercase;\n  color: #2c9caf;\n  transition: all 1000ms;\n  font-size: 15px;\n  position: relative;\n  overflow: hidden;\n  outline: 2px solid #2c9caf;\n}\n\nbutton:hover {\n  color: #ffffff;\n  transform: scale(1.1);\n  outline: 2px solid #70bdca;\n  box-shadow: 4px 5px 17px -4px #268391;\n}\n\nbutton::before {\n  content: \"\";\n  position: absolute;\n  left: -50px;\n  top: 0;\n  width: 0;\n  height: 100%;\n  background-color: #2c9caf;\n  transform: skewX(45deg);\n  z-index: -1;\n  transition: width 1000ms;\n}\n\nbutton:hover::before {\n  width: 250%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

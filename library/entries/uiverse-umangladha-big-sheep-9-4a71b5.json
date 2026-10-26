@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-umangladha-big-sheep-9-4a71b5",
+  "title": "Checkbox by UmangLadha (big-sheep-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/UmangLadha/big-sheep-9",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "tooltip",
+    "action",
+    "code",
+    "box",
+    "cool-checkbox"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By UmangLadha on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/UmangLadha_big-sheep-9.html",
+  "code": "<div class=\"checkbox-wrapper\">\n  <input style=\"display: none;\" type=\"checkbox\" id=\"cbx\" class=\"inp-cbx\" />\n  <label for=\"cbx\" class=\"cbx\">\n    <span>\n      <svg viewBox=\"0 0 12 9\" height=\"9px\" width=\"12px\">\n        <polyline points=\"1 5 4 8 11 1\"></polyline>\n      </svg>\n    </span>\n    <span>To-do</span>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by UmangLadha  - Tags: tooltip, action, checkbox, code, box, cool checkbox */\n.checkbox-wrapper .cbx {\n  -webkit-user-select: none;\n  user-select: none;\n  -webkit-tap-highlight-color: transparent;\n  cursor: pointer;\n}\n.checkbox-wrapper .cbx span {\n  display: inline-block;\n  vertical-align: middle;\n  transform: translate3d(0, 0, 0);\n}\n.checkbox-wrapper .cbx span:first-child {\n  position: relative;\n  width: 24px;\n  height: 24px;\n  border-radius: 50%;\n  transform: scale(1);\n  vertical-align: middle;\n  border: 1px solid #b9b8c3;\n  transition: all 0.2s ease;\n}\n.checkbox-wrapper .cbx span:first-child svg {\n  position: absolute;\n  z-index: 1;\n  top: 8px;\n  left: 6px;\n  fill: none;\n  stroke: white;\n  stroke-width: 2;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-dasharray: 16px;\n  stroke-dashoffset: 16px;\n  transition: all 0.3s ease;\n  transition-delay: 0.1s;\n  transform: translate3d(0, 0, 0);\n}\n.checkbox-wrapper .cbx span:first-child:before {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background: #506eec;\n  display: block;\n  transform: scale(0);\n  opacity: 1;\n  border-radius: 50%;\n  transition-delay: 0.2s;\n}\n.checkbox-wrapper .cbx span:last-child {\n  margin-left: 8px;\n}\n.checkbox-wrapper .cbx span:last-child:after {\n  content: \"\";\n  position: absolute;\n  top: 8px;\n  left: 0;\n  height: 1px;\n  width: 100%;\n  background: #b9b8c3;\n  transform-origin: 0 0;\n  transform: scaleX(0);\n}\n.checkbox-wrapper .cbx:hover span:first-child {\n  border-color: #3c53c7;\n}\n\n.checkbox-wrapper .inp-cbx:checked + .cbx span:first-child {\n  border-color: #3c53c7;\n  background: #3c53c7;\n  animation: check-15 0.6s ease;\n}\n.checkbox-wrapper .inp-cbx:checked + .cbx span:first-child svg {\n  stroke-dashoffset: 0;\n}\n.checkbox-wrapper .inp-cbx:checked + .cbx span:first-child:before {\n  transform: scale(2.2);\n  opacity: 0;\n  transition: all 0.6s ease;\n}\n.checkbox-wrapper .inp-cbx:checked + .cbx span:last-child {\n  color: #b9b8c3;\n  transition: all 0.3s ease;\n}\n.checkbox-wrapper .inp-cbx:checked + .cbx span:last-child:after {\n  transform: scaleX(1);\n  transition: all 0.3s ease;\n}\n\n@keyframes check-15 {\n  50% {\n    transform: scale(1.2);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

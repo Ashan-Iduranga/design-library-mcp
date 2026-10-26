@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-elijahgummer-lovely-hound-41-5b8dd2",
+  "title": "Toggle by elijahgummer (lovely-hound-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/lovely-hound-41",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "simple",
+    "animation",
+    "blue",
+    "switch",
+    "transition",
+    "click-effect",
+    "click-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/elijahgummer_lovely-hound-41.html",
+  "code": "<div class=\"checkbox\">\n  <input class=\"tgl\" id=\"toggle\" type=\"checkbox\" />\n  <label class=\"tgl-btn\" for=\"toggle\"></label>\n</div>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, animation, blue, switch, transition, click effect, click animation */\n.checkbox {\n  --blue: #0d7eff;\n  --g08: #e1e5eb;\n  --g04: #848ea1;\n  text-align: center;\n}\n\n.checkbox .tgl {\n  display: none;\n}\n.checkbox .tgl,\n.checkbox .tgl:after,\n.checkbox .tgl:before,\n.checkbox .tgl *,\n.checkbox .tgl *:after,\n.checkbox .tgl *:before,\n.checkbox .tgl + .tgl-btn {\n  box-sizing: border-box;\n}\n.checkbox .tgl::selection,\n.checkbox .tgl:after::selection,\n.checkbox .tgl:before::selection,\n.checkbox .tgl *::selection,\n.checkbox .tgl *:after::selection,\n.checkbox .tgl *:before::selection,\n.checkbox .tgl + .tgl-btn::selection {\n  background: none;\n}\n.checkbox .tgl + .tgl-btn {\n  outline: 0;\n  display: block;\n  width: 57px;\n  height: 27px;\n  position: relative;\n  cursor: pointer;\n  user-select: none;\n  font-size: 12px;\n  font-weight: 400;\n  color: #fff;\n}\n.checkbox .tgl + .tgl-btn:after,\n.checkbox .tgl + .tgl-btn:before {\n  position: relative;\n  display: block;\n  content: \"\";\n  width: 44%;\n  height: 100%;\n}\n.checkbox .tgl + .tgl-btn:after {\n  left: 0;\n}\n.checkbox .tgl + .tgl-btn:before {\n  display: inline;\n  position: absolute;\n  top: 7px;\n}\n.checkbox .tgl:checked + .tgl-btn:after {\n  left: 56.5%;\n}\n\n.checkbox .tgl + .tgl-btn {\n  background: var(--g08);\n  border-radius: 20rem;\n  padding: 2px;\n  transition: all 0.4s ease;\n  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);\n}\n.checkbox .tgl + .tgl-btn:after {\n  border-radius: 2em;\n  background: #fff;\n  transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),\n    padding 0.3s ease, margin 0.3s ease;\n  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);\n}\n.checkbox .tgl + .tgl-btn:before {\n  content: \"No\";\n  left: 28px;\n  color: var(--g04);\n  transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n.checkbox .tgl + .tgl-btn:active {\n  box-shadow: inset 0 0 0 30px rgba(0, 0, 0, 0.1);\n}\n.checkbox .tgl + .tgl-btn:active:after {\n  padding-right: 0.4em;\n}\n.checkbox .tgl:checked + .tgl-btn {\n  background: var(--blue);\n}\n.checkbox .tgl:checked + .tgl-btn:active {\n  box-shadow: inset 0 0 0 30px rgba(0, 0, 0, 0.1);\n}\n.checkbox .tgl:checked + .tgl-btn:active:after {\n  margin-left: -0.4em;\n}\n.checkbox .tgl:checked + .tgl-btn:before {\n  content: \"Yes\";\n  left: 4px;\n  color: #fff;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

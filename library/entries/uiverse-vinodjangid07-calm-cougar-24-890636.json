@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vinodjangid07-calm-cougar-24-890636",
+  "title": "Button by vinodjangid07 (calm-cougar-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/calm-cougar-24",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_calm-cougar-24.html",
+  "code": "<button class=\"Btn\">\n  Join now\n</button>\n\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: gradient, button, hover */\n.Btn {\n  width: 150px;\n  height: 50px;\n  border: none;\n  color: white;\n  font-weight: 600;\n  font-size: 13.5px;\n  position: relative;\n  overflow: hidden;\n  border-radius: 40px;\n  cursor: pointer;\n  background: linear-gradient(-45deg, #6bc5f8, #cf59e6, #6bc5f8, #cf59e6);\n  background-size: 1000% 1000%;\n  animation: gradient 5s ease infinite;\n  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.247);\n  transition-duration: .1s;\n}\n/* Button's gradient animation */\n@keyframes gradient {\n  0% {\n    background-position: 0 50%;\n  }\n\n  50% {\n    background-position: 100% 50%;\n  }\n\n  100% {\n    background-position: 0 50%;\n  }\n}\n/* Effect on Hover*/\n.Btn::before {\n  content: \"\";\n  position: absolute;\n  width: 50px;\n  height: 100%;\n  left: -70px;\n  top: 0;\n  background-color: rgba(214, 199, 255, 0.329);\n  filter: blur(10px);\n  transition-duration: .3s;\n  border-top-left-radius: 50%;\n  border-bottom-right-radius: 50%;\n}\n\n.Btn:hover::before {\n  transform: translateX(250px);\n  transition-duration: .3s;\n}\n/* Effect on click */\n.Btn:active {\n  transform: translate(2px,2px);\n  transition-duration: .1s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

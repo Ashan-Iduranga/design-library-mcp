@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-coderlab05-honest-cougar-76-28e5f9",
+  "title": "Button by Coderlab05 (honest-cougar-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Coderlab05/honest-cougar-76",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Coderlab05 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Coderlab05_honest-cougar-76.html",
+  "code": "<button class=\"button\" role=\"button\">Hover Me</button>\n\n<style>\n/* From Uiverse.io by Coderlab05 - Source: Coderlab05 - Tags: button, #button */\n.button {\n  all: unset;\n  width: 100px;\n  height: 30px;\n  font-size: 16px;\n  background: transparent;\n  border: none;\n  position: relative;\n  color: #f0f0f0;\n  cursor: pointer;\n  z-index: 1;\n  padding: 10px 20px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  white-space: nowrap;\n  user-select: none;\n  -webkit-user-select: none;\n  touch-action: manipulation;\n}\n\n.button::after,\n.button::before {\n  content: '';\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  z-index: -99999;\n  transition: all .4s;\n}\n\n.button::before {\n  transform: translate(0%, 0%);\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(90deg,#ff0e5e,rgb(15, 159, 255));\n  border-radius: 10px;\n}\n\n.button::after {\n  transform: translate(10px, 10px);\n  width: 35px;\n  height: 35px;\n  background: #ffffff15;\n  backdrop-filter: blur(5px);\n  -webkit-backdrop-filter: blur(5px);\n  border-radius: 50px;\n}\n\n.button:hover::before {\n  transform: translate(5%, 20%);\n  width: 110%;\n  height: 110%;\n}\n\n.button:hover::after {\n  border-radius: 10px;\n  transform: translate(0, 0);\n  width: 100%;\n  height: 100%;\n}\n\n.button:active::after {\n  transition: 0s;\n  transform: translate(0, 5%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

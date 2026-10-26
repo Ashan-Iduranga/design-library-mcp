@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-lakshay-art-light-termite-47-2c12ea",
+  "title": "Card by Lakshay-art (light-termite-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Lakshay-art/light-termite-47",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "animation",
+    "minimalist",
+    "hover",
+    "realistic",
+    "cartoon",
+    "shinchan",
+    "boochan"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Lakshay-art on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Lakshay-art_light-termite-47.html",
+  "code": "<div class=\"bo\">\n <div class=\"face\">     <div class=\"earL\"></div>\n       <div class=\"earR\"></div>\n       <div class=\"eyeL\"></div>\n       <div class=\"eyeR\"></div>\n       <div class=\"hairs\"></div>\n       <div class=\"nose\"></div>\n       <div class=\"mouth\"></div>\n        <div class=\"smileL\">\n        <svg xml:space=\"preserve\" viewBox=\"0 0 65 65\" xmlns=\"http://www.w3.org/2000/svg\">\n        <filter id=\"blurMe\">\n    <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"2\"></feGaussianBlur>\n  </filter>\n  <path d=\"M25 19c-6 2-12 4-18 5-2 0-4-2-6-3 1-1 2-3 3-4 11-3 22-7 32-10 2-1 4 1 6 2-1 1-2 4-3 4-4 2-9 4-14 6z\" fill=\"#EF7F71\" filter=\"url(#blurMe)\"></path>\n    <path d=\"M35 35c-6 2-12 4-18 5-2 0-4-2-6-3 1-1 2-3 3-4 11-3 22-7 32-10 2-1 4 1 6 2-1 1-2 4-3 4-4 2-9 4-14 6z\" fill=\"#EF7F71\" filter=\"url(#blurMe)\"></path>\n      <path d=\"M45 50c-6 2-12 4-18 5-2 0-4-2-6-3 1-1 2-3 3-4 11-3 22-7 32-10 2-1 4 1 6 2-1 1-2 4-3 4-4 2-9 4-14 6z\" fill=\"#EF7F71\" filter=\"url(#blurMe)\"></path>\n</svg>\n        </div>\n         <div class=\"smileR\">\n          <svg xml:space=\"preserve\" viewBox=\"0 0 65 65\" xmlns=\"http://www.w3.org/2000/svg\">\n        <filter id=\"blurMe\">\n    <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"2\"></feGaussianBlur>\n  </filter>\n  <path d=\"M25 19c-6 2-12 4-18 5-2 0-4-2-6-3 1-1 2-3 3-4 11-3 22-7 32-10 2-1 4 1 6 2-1 1-2 4-3 4-4 2-9 4-14 6z\" fill=\"#EF7F71\" filter=\"url(#blurMe)\"></path>\n    <path d=\"M35 35c-6 2-12 4-18 5-2 0-4-2-6-3 1-1 2-3 3-4 11-3 22-7 32-10 2-1 4 1 6 2-1 1-2 4-3 4-4 2-9 4-14 6z\" fill=\"#EF7F71\" filter=\"url(#blurMe)\"></path>\n      <path d=\"M45 50c-6 2-12 4-18 5-2 0-4-2-6-3 1-1 2-3 3-4 11-3 22-7 32-10 2-1 4 1 6 2-1 1-2 4-3 4-4 2-9 4-14 6z\" fill=\"#EF7F71\" filter=\"url(#blurMe)\"></path>\n</svg></div>\n  \n<div class=\"snow\">\n<div class=\"mountain-cap-1\"></div>\n      <div class=\"mountain-cap-2\"></div>\n      <div class=\"mountain-cap-3\"></div>\n      <div class=\"mountain-cap-4\"></div>\n      <div>\n</div>\n</div>\n</div></div>\n<style>\n/* From Uiverse.io by Lakshay-art - Tags: animation, minimalist, card, hover, realistic, cartoon, shinchan, boochan */\n.face {\n  position: relative;\n  width: 300px;\n  height: 350px;\n  background-color: #6C757D;\n  background: linear-gradient(180deg,#452824 184px,#f2bbad 34px);\n    /* transform: translateX(0px); */\n  border-top-right-radius: 250px 350px;\n  border-top-left-radius: 250px 350px;\n  border-bottom-left-radius: 250px 250px;\n  border-bottom-right-radius: 250px 250px;\n  border: 5px solid black;\n}\n\n.hairs {\n  height: 180px;\n  background-color: #f2bbad;\n  position: absolute;\n  width: 290px;\n  border-top-right-radius: 250px 350px;\n  border-top-left-radius: 250px 350px;\n  top: 25px;\n}\n\n.snow {\n  transform: translateX(150px);\n  transform-origin: right;\n}\n\n.mountain-cap-1, .mountain-cap-2, .mountain-cap-3,.mountain-cap-4 {\n  position: absolute;\n  top: 20px;\n  border-left: 20px solid transparent;\n  border-right: 20px solid transparent;\n  border-top: 40px solid #452824;\n}\n\n.mountain-cap-1 {\n  left: -65px;\n}\n\n.mountain-cap-2 {\n  left: -35px;\n}\n\n.mountain-cap-3 {\n  left: -5px;\n}\n\n.mountain-cap-4 {\n  left: 25px;\n}\n\n.earL {\n  border-top-right-radius: 250px 350px;\n  border-top-left-radius: 250px 350px;\n  border-bottom-left-radius: 250px 250px;\n  border-bottom-right-radius: 250px 250px;\n  height: 70px;\n  width: 50px;\n  background-color: #f2bbad;\n  position: absolute;\n  left: -30px;\n  top: 150px;\n  z-index: -1;\n  border: 5px solid black;\n}\n\n.earR {\n  border-top-right-radius: 250px 350px;\n  border-top-left-radius: 250px 350px;\n  border-bottom-left-radius: 250px 250px;\n  border-bottom-right-radius: 250px 250px;\n  height: 70px;\n  width: 50px;\n  background-color: #f2bbad;\n  position: absolute;\n  right: -30px;\n  top: 150px;\n  z-index: -4;\n  border: 5px solid black;\n}\n\n.eyeR {\n  border-top-right-radius: 250px 350px;\n  border-top-left-radius: 250px 350px;\n  border-bottom-left-radius: 250px 250px;\n  border-bottom-right-radius: 250px 250px;\n  height: 10px;\n  width: 10px;\n  background-color: black;\n  position: absolute;\n  left: 128px;\n  top: 120px;\n  z-index: 2;\n  animation: blinkR 5s infinite linear;\n}\n\n.eyeL {\n  border-top-right-radius: 250px 350px;\n  border-top-left-radius: 250px 350px;\n  border-bottom-left-radius: 250px 250px;\n  border-bottom-right-radius: 250px 250px;\n  height: 10px;\n  width: 10px;\n  background-color: black;\n  position: absolute;\n  right: 128px;\n  top: 120px;\n  z-index: 2;\n  animation: blinkL 5s infinite linear;\n}\n\n.nose {\n  background: #fefefe;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  color: #0F0;\n  position: absolute;\n  top: 220px;\n  left: 140px;\n  scale: 1 1;\n  transition: all ease-in-out .3s;\n  z-index: 100;\n}\n\n.nose:hover {\n  scale: 1 1.25;\n  top: 236px;\n}\n\n.nose:active {\n  animation: propeller .5s infinite linear;\n  transform-origin: 50% -55px;\n  scale: 1 1.25;\n  top: 220px;\n  animation-delay: .5s;\n}\n\n@keyframes propeller {\n  to {\n    transform: rotateZ(360deg);\n  }\n}\n\n@keyframes blinkL {\n  98% {\n    height: 10px;\n    width: 10px;\n    right: 128px;\n    top: 120px;\n  }\n\n  100% {\n    height: 3px;\n    width: 11px;\n    right: 126px;\n    top: 123px;\n  }\n}\n\n@keyframes blinkR {\n  98% {\n    height: 10px;\n    width: 10px;\n    left: 128px;\n    top: 120px;\n  }\n\n  100% {\n    height: 3px;\n    width: 11px;\n    left: 126px;\n    top: 123px;\n  }\n}\n\n.nose:before {\n  content: \"\";\n  position: absolute;\n  top: -64px;\n  left: 50%;\n  border: 10px solid transparent;\n  border-bottom: 62px solid #fefefe;\n  transform: translateX(-50%);\n}\n\n.mouth {\n  position: absolute;\n  top: 300px;\n  left: 140px;\n  background: #a36655;\n  width: 25px;\n  height: 18px;\n  border: 5px solid black;\n  border-radius: 50%;\n  transition: all .3s linear;\n}\n\n.face:active .mouth {\n  top: 290px;\n  width: 60px;\n  height: 25px;\n  left: 123px;\n  border-radius: 7px 7px 130px 130px;\n}\n\n.face:active .smileL {\n  height: 30px;\n  width: 30px;\n}\n\n.face:active .smileR {\n  height: 30px;\n  width: 30px;\n}\n\n.bo {\n  z-index: 10;\n  zoom: 0.8;\n}\n\n.smileL {\n  position: absolute;\n  height: 0px;\n  width: 0px;\n  rotate: 310deg;\n  top: 180px;\n  left: 70px;\n  transition: all .1s linear;\n}\n\n.smileR {\n  position: absolute;\n  height: 0px;\n  width: 0px;\n  rotate: 310deg;\n  top: 180px;\n  right: 70px;\n  transition: all .1s linear;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

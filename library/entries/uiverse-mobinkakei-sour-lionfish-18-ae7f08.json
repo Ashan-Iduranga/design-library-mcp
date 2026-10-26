@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mobinkakei-sour-lionfish-18-ae7f08",
+  "title": "Checkbox by mobinkakei (sour-lionfish-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/sour-lionfish-18",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/mobinkakei_sour-lionfish-18.html",
+  "code": "<label class=\"checkbox-wrapper\">\n<input checked=\"\" type=\"checkbox\" id=\"check\" hidden=\"\">\n<label for=\"check\" class=\"checkmark\"></label>\n</label>\n<style>\n/* From Uiverse.io by mobinkakei - Tags: checkbox */\n.checkmark {\n display: block;\n width: 30px;\n height: 30px;\n background-color: #ddd;\n border-radius: 10px;\n position: relative;\n transition: background-color 0.4s;\n overflow: hidden;\n cursor: pointer;\n}\n\n#check:checked ~ .checkmark {\n background-color: #08bb68;\n}\n\n.checkmark::after {\n content: \"\";\n position: absolute;\n width: 5px;\n height: 10px;\n border-right: 3px solid #fff;\n border-bottom: 3px solid #fff;\n top: 44%;\n left: 50%;\n transform: translate(-50%, -50%) rotateZ(40deg) scale(10);\n opacity: 0;\n transition: all 0.4s;\n}\n\n#check:checked ~ .checkmark::after {\n opacity: 1;\n transform: translate(-50%, -50%) rotateZ(40deg) scale(1);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

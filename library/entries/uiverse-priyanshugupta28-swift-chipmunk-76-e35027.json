@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-priyanshugupta28-swift-chipmunk-76-e35027",
+  "title": "Input by PriyanshuGupta28 (swift-chipmunk-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/swift-chipmunk-76",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "stars",
+    "rating"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/PriyanshuGupta28_swift-chipmunk-76.html",
+  "code": "<div class=\"rating\">\n  <input value=\"5\" name=\"rating\" id=\"star5\" type=\"radio\">\n  <label for=\"star5\"></label>\n  <input value=\"4\" name=\"rating\" id=\"star4\" type=\"radio\">\n  <label for=\"star4\"></label>\n  <input value=\"3\" name=\"rating\" id=\"star3\" type=\"radio\">\n  <label for=\"star3\"></label>\n  <input value=\"2\" name=\"rating\" id=\"star2\" type=\"radio\">\n  <label for=\"star2\"></label>\n  <input value=\"1\" name=\"rating\" id=\"star1\" type=\"radio\">\n  <label for=\"star1\"></label>\n</div>\n\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: input, stars, rating */\n.rating {\n  display: inline-block;\n}\n\n.rating input {\n  display: none;\n}\n\n.rating label {\n  float: right;\n  cursor: pointer;\n  color: #ccc;\n  transition: color 0.3s;\n}\n\n.rating label:before {\n  content: '\\2605';\n  font-size: 30px;\n}\n\n.rating input:checked ~ label,\n.rating label:hover,\n.rating label:hover ~ label {\n  color: #6f00ff;\n  transition: color 0.3s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-gagan-gv-witty-lizard-19-28242d",
+  "title": "Loader by gagan-gv (witty-lizard-19)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gagan-gv/witty-lizard-19",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gagan-gv on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/gagan-gv_witty-lizard-19.html",
+  "code": "<div class=\"spinner\">\n<div class=\"loader l1\"></div>\n<div class=\"loader l2\"></div>\n</div>\n<style>\n/* From Uiverse.io by gagan-gv - Tags: loader */\n.spinner {\n border: 0 solid transparent;\n border-radius: 50%;\n width: 50px;\n height: 50px;\n}\n\n.loader {\n width: inherit;\n height: inherit;\n position: absolute;\n}\n\n.loader::before,\n.loader::after {\n content: '';\n border: 3px solid #505065;\n border-radius: 50%;\n width: inherit;\n height: inherit;\n position: absolute;\n opacity: 1;\n}\n\n.l1::before,\n.l1::after {\n animation: clockwiseZ 2.5s infinite;\n}\n\n.l2::after,\n.l2::before {\n animation: anticlockwiseZ 2.5s infinite;\n}\n\n@keyframes clockwiseZ {\n 0%, 100% {\n  transform: rotateY(0);\n }\n\n 50% {\n  transform: rotateY(180deg) skew(-10deg, -5deg);\n }\n}\n\n@keyframes anticlockwiseZ {\n 0%, 100% {\n  transform: rotateX(0);\n }\n\n 50% {\n  transform: rotateX(-180deg) skew(10deg, 5deg);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-kshitijadhikaree-spotty-insect-89-7ab38d",
+  "title": "Toggle by KshitijAdhikaree (spotty-insect-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KshitijAdhikaree/spotty-insect-89",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "moon",
+    "sun",
+    "toggle-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KshitijAdhikaree on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/KshitijAdhikaree_spotty-insect-89.html",
+  "code": "<label class=\"switch-container\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by KshitijAdhikaree - Tags: switch, moon, sun, toggle switch */\n/* The switch - the box around the slider */\n.switch-container {\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch-container input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.switch-container .slider {\n  --background: linear-gradient(to right, #090613ef, #18151f);\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: var(--background);\n  transition: background-color 0.5s;\n  border-radius: 30px;\n}\n\n.switch-container .slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 50%;\n  left: 10%;\n  bottom: 15%;\n  box-shadow: inset 15px -4px 0px 15px #f8ea27;\n  background: var(--background);\n  transition: transform 0.5s, box-shadow 0.5s;\n}\n\n.switch-container input:checked + .slider {\n  background-color: #000;\n}\n\n.switch-container input:checked + .slider:before {\n  transform: translateX(100%);\n  box-shadow: inset 8px -4px 0px 0px #f8f8f4;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

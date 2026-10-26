@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-kingfress-gentle-chicken-96-cb2856",
+  "title": "Toggle by KINGFRESS (gentle-chicken-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KINGFRESS/gentle-chicken-96",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KINGFRESS on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/KINGFRESS_gentle-chicken-96.html",
+  "code": "<label class=\"switch\">\n    <input type=\"checkbox\">\n    <span class=\"slider\">\n        <span class=\"circle\"></span>\n    </span>\n</label>\n<style>\n/* From Uiverse.io by KINGFRESS - Tags: switch */\n/* Dark Mode Only ;) */\n\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: .5em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #5B5B5B;\n  transition: .4s;\n  border-radius: 30px;\n  display: flex;\n  align-items: center;\n}\n\n.slider .circle {\n  background-color: #212121;\n  height: 3em;\n  width: 3em;\n  border-radius: 50%;\n  position: absolute;\n  left: 0;\n  transform: translateX(-50%);\n  transition: .4s;\n}\n\n.slider .circle::before {\n  position: absolute;\n  content: \"\";\n  height: 2.3em;\n  width: 2.3em;\n  border-radius: 50%;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  background-color: rgb(182, 182, 182);\n  transition: .4s;\n}\n\n.slider .circle::after {\n  content: '';\n  background-color: #212121;\n  height: 1.7em;\n  width: 1.7em;\n  border-radius: 50%;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  transition: .4s;\n}\n\ninput:checked + .slider .circle {\n  transform: translateX(2em);\n  transition: .4s;\n}\n\ninput:checked + .slider .circle::before {\n  background-color: #e1e1e1;\n  transition: .4s;\n}\n\ninput:checked + .slider .circle::after {\n  width: 0;\n  height: 0;\n  transition: .4s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-rating-mask-star-2-with-green-500-color",
+  "title": "Rating: mask-star-2 with green-500 color (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/rating/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "rating",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Rating is a set of radio buttons that allow the user to rate something.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/rating/+page.md",
+  "code": "<div class=\"rating\">\n  <input type=\"radio\" name=\"rating-4\" class=\"mask mask-star-2 bg-green-500\" aria-label=\"1 star\" />\n  <input type=\"radio\" name=\"rating-4\" class=\"mask mask-star-2 bg-green-500\" aria-label=\"2 star\" checked=\"checked\" />\n  <input type=\"radio\" name=\"rating-4\" class=\"mask mask-star-2 bg-green-500\" aria-label=\"3 star\" />\n  <input type=\"radio\" name=\"rating-4\" class=\"mask mask-star-2 bg-green-500\" aria-label=\"4 star\" />\n  <input type=\"radio\" name=\"rating-4\" class=\"mask mask-star-2 bg-green-500\" aria-label=\"5 star\" />\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

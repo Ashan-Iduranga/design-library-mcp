@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-devkatyall-gentle-fly-78-e4c8bf",
+  "title": "Card by devkatyall (gentle-fly-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/devkatyall/gentle-fly-78",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By devkatyall on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/devkatyall_gentle-fly-78.html",
+  "code": "<div class=\"card\">\n  <div class=\"emojis\">\n    <button>😄</button>\n    <button>😁</button>\n    <button>😆</button>\n    <button>😂</button>\n  </div>\n  <div class=\"emojis\">\n    <button>😄</button>\n    <button>😁</button>\n    <button>😆</button>\n    <button>😂</button>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by devkatyall  - Tags: card */\n.card {\n  width: 354px;\n  background: rgba(41, 41, 41, 0.07);\n  white-space: nowrap;\n  overflow: hidden;\n  border-radius: 50px;\n  -webkit-box-shadow: -10px 0px 13px -7px #0000003a,\n    10px 0px 13px -7px #0000003a, 5px 5px 15px 5px rgba(0, 0, 0, 0);\n  box-shadow: -10px 0px 33px -7px #0000003a, 10px 0px 33px -7px #0000003a,\n    5px 5px 35px 5px rgba(0, 0, 0, 0);\n}\n\nbutton {\n  font-size: 70px;\n  margin: 0 5px;\n  border: none;\n  background-color: transparent;\n  cursor: grab;\n}\nbutton:hover {\n  transform: scale(1.1);\n  transition: 0.5s ease;\n}\n.emojis {\n  display: inline-block;\n  animation: 5s sliding infinite linear;\n}\n\n/* to pause on hover  */\n/* .card:hover .emojis{\n  animation-play-state: paused;\n} */\n\n@keyframes sliding {\n  from {\n    transform: translateX(0);\n  }\n  to {\n    transform: translateX(-101%);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-laminelawal-sharp-dodo-86-a6bf3d",
+  "title": "Button by laminelawal (sharp-dodo-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/laminelawal/sharp-dodo-86",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By laminelawal on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/laminelawal_sharp-dodo-86.html",
+  "code": "<button class=\"button\">\n  Click Me\n</button>\n<style>\n/* From Uiverse.io by laminelawal - Tags: button, 3d button */\nbutton {\n  border-radius: 30px;\n  border: none;\n  cursor: pointer;\n  outline: none;\n  width: 150px;\n  height: 54px;\n  background-image: linear-gradient(to top, #222 0%, #333 80%, #444 100%);\n  color: white;\n  font-size: 20px;\n  font-weight: 400;\n  font-family: monospace;\n  transition: all 0.3s;\n  text-shadow: 0 4px 3px black;\n}\n\nbutton:hover {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 0 3px 3px black;\n}\n\nbutton:active {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 0 3px 3px black;\n}\n\nbutton:focus {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 5px 7px 0   black;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

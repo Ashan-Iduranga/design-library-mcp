@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-empty-states-4",
+  "title": "Empty States: Get started",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/empty-states",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "empty-states",
+    "hyperui",
+    "placeholder",
+    "cta"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/empty-states/4.html",
+  "code": "<div class=\"flex min-h-screen items-center justify-center p-6\">\n<div class=\"max-w-md text-center\">\n<svg aria-hidden=\"true\" class=\"mx-auto size-20 text-gray-400\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n<h2 class=\"mt-6 text-2xl font-bold text-gray-900\">Get started in seconds</h2>\n<p class=\"mt-4 text-pretty text-gray-700\">\n        Complete these quick steps to set up your workspace.\n      </p>\n<ol class=\"mt-6 space-y-2 text-left\">\n<li class=\"flex items-center gap-2\">\n<span class=\"grid size-6 shrink-0 place-content-center rounded-full bg-indigo-600 text-sm font-medium text-white\">\n            1\n          </span>\n<span class=\"text-sm text-gray-700\">Create your first project</span>\n</li>\n<li class=\"flex items-center gap-2\">\n<span class=\"grid size-6 shrink-0 place-content-center rounded-full bg-indigo-600 text-sm font-medium text-white\">\n            2\n          </span>\n<span class=\"text-sm text-gray-700\">Invite team members</span>\n</li>\n<li class=\"flex items-center gap-2\">\n<span class=\"grid size-6 shrink-0 place-content-center rounded-full bg-indigo-600 text-sm font-medium text-white\">\n            3\n          </span>\n<span class=\"text-sm text-gray-700\">Start collaborating</span>\n</li>\n</ol>\n<button class=\"mt-6 block w-full rounded-lg bg-indigo-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-indigo-700\">\n        Create Project\n      </button>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-abrahamcalsin-hot-lionfish-16-094ffe",
+  "title": "Loader by abrahamcalsin (hot-lionfish-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/abrahamcalsin/hot-lionfish-16",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By abrahamcalsin on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/abrahamcalsin_hot-lionfish-16.html",
+  "code": "<div class=\"jelly-triangle\">\n    <div class=\"jelly-triangle__dot\"></div>\n    <div class=\"jelly-triangle__traveler\"></div>\n</div>\n\n<svg width=\"0\" height=\"0\" class=\"jelly-maker\">\n    <defs>\n        <filter id=\"uib-jelly-triangle-ooze\">\n            <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"7.3\" result=\"blur\"></feGaussianBlur>\n            <feColorMatrix in=\"blur\" mode=\"matrix\" values=\"1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7\" result=\"ooze\"></feColorMatrix>\n            <feBlend in=\"SourceGraphic\" in2=\"ooze\"></feBlend>\n        </filter>\n    </defs>\n</svg>\n<style>\n/* From Uiverse.io by abrahamcalsin - Tags: loader */\n.jelly-triangle {\n  --uib-size: 2.8rem;\n  --uib-speed: 1.75s;\n  --uib-color: #183153;\n  position: relative;\n  height: var(--uib-size);\n  width: var(--uib-size);\n  filter: url('#uib-jelly-triangle-ooze');\n}\n\n.jelly-triangle__dot,\n.jelly-triangle::before,\n.jelly-triangle::after {\n  content: '';\n  position: absolute;\n  width: 33%;\n  height: 33%;\n  background: var(--uib-color);\n  border-radius: 100%;\n  box-shadow: 0 0 20px rgba(18, 31, 53, 0.3);\n}\n\n.jelly-triangle__dot {\n  top: 6%;\n  left: 30%;\n  animation: grow7132 var(--uib-speed) ease infinite;\n}\n\n.jelly-triangle::before {\n  bottom: 6%;\n  right: 0;\n  animation: grow7132 var(--uib-speed) ease calc(var(--uib-speed) * -0.666)\n    infinite;\n}\n\n.jelly-triangle::after {\n  bottom: 6%;\n  left: 0;\n  animation: grow7132 var(--uib-speed) ease calc(var(--uib-speed) * -0.333)\n    infinite;\n}\n\n.jelly-triangle__traveler {\n  position: absolute;\n  top: 6%;\n  left: 30%;\n  width: 33%;\n  height: 33%;\n  background: var(--uib-color);\n  border-radius: 100%;\n  animation: triangulate6214 var(--uib-speed) ease infinite;\n}\n\n.jelly-maker {\n  width: 0;\n  height: 0;\n  position: absolute;\n}\n\n@keyframes triangulate6214 {\n  0%,\n  100% {\n    transform: none;\n  }\n\n  33.333% {\n    transform: translate(120%, 175%);\n  }\n\n  66.666% {\n    transform: translate(-95%, 175%);\n  }\n}\n\n@keyframes grow7132 {\n  0%,\n  100% {\n    transform: scale(1.5);\n  }\n\n  20%,\n  70% {\n    transform: none;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

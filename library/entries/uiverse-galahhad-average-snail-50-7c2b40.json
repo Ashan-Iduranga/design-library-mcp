@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-galahhad-average-snail-50-7c2b40",
+  "title": "Input by Galahhad (average-snail-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Galahhad/average-snail-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Galahhad on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Galahhad_average-snail-50.html",
+  "code": "<input type=\"password\" name=\"text\" class=\"input\" pattern=\"\\d+\" placeholder=\"Numbers only or shake\">\n<style>\n/* From Uiverse.io by Galahhad - Tags: input */\n.input {\n  max-width: 190px;\n  padding: 12px;\n  border: none;\n  border-radius: 4px;\n  box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);\n  outline: none;\n  color: dimgray;\n}\n\n.input:invalid {\n  animation: justshake 0.3s forwards;\n  color: red;\n}\n\n@keyframes justshake {\n  25% {\n    transform: translateX(5px);\n  }\n\n  50% {\n    transform: translateX(-5px);\n  }\n\n  75% {\n    transform: translateX(5px);\n  }\n\n  100% {\n    transform: translateX-(5px);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

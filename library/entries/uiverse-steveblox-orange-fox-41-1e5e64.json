@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-steveblox-orange-fox-41-1e5e64",
+  "title": "Tooltip by SteveBloX (orange-fox-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SteveBloX/orange-fox-41",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "material-design",
+    "shadow",
+    "md",
+    "md3"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SteveBloX on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/SteveBloX_orange-fox-41.html",
+  "code": "<div class=\"tooltip-container\">\n  <span class=\"tooltip\">\n    <p class=\"title\">Title</p>\n    <p class=\"content\">\n      Lorem ipsum dolor sit amet consectetur adipisicing elit.\n    </p>\n  </span>\n  <span class=\"text\">Material Design Tooltip</span>\n</div>\n\n<style>\n/* From Uiverse.io by SteveBloX  - Tags: material design, tooltip, shadow, md, md3 */\n/* Material Design 3 tooltip */\n.tooltip-container {\n  position: relative;\n  background: #e8def8;\n  color: #1d192b;\n  cursor: pointer;\n  transition: all 0.2s;\n  font-size: 17px;\n  padding: 0.7em 1.8em;\n  font-family: Montserrat, sans-serif;\n  border-radius: 50px;\n}\n.tooltip-container .text {\n  font-weight: bold;\n}\n\n.tooltip {\n  transform-origin: center left;\n  scale: 0;\n  position: absolute;\n  top: 130%;\n  left: 50%;\n  transform: translate(-50%, -10px);\n  transition: all 0.25s;\n  background: #f3edf7;\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 6px 2px rgba(0, 0, 0, 0.15);\n  padding: 17px;\n  border-radius: 12px;\n  color: #49454f;\n  min-width: 312px;\n}\n\n.tooltip-container:hover .tooltip {\n  scale: 1;\n}\n\n.tooltip .title {\n  font-weight: bold;\n  font-size: 1em;\n}\n\n.tooltip .content {\n  font-size: 0.85em;\n  font-weight: semibold;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

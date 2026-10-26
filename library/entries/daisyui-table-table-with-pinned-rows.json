@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-table-table-with-pinned-rows",
+  "title": "Table: Table with pinned-rows (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/table/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "table",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Table can be used to show a list of data in a table format.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/table/+page.md",
+  "code": "<div class=\"h-96 overflow-x-auto\">\n  <table class=\"table table-pin-rows bg-base-200\">\n    <thead>\n      <tr>\n        <th>A</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>Ant-Man</td></tr>\n      <tr><td>Aquaman</td></tr>\n      <tr><td>Asterix</td></tr>\n      <tr><td>The Atom</td></tr>\n      <tr><td>The Avengers</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>B</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>Batgirl</td></tr>\n      <tr><td>Batman</td></tr>\n      <tr><td>Batwoman</td></tr>\n      <tr><td>Black Canary</td></tr>\n      <tr><td>Black Panther</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>C</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>Captain America</td></tr>\n      <tr><td>Captain Marvel</td></tr>\n      <tr><td>Catwoman</td></tr>\n      <tr><td>Conan the Barbarian</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>D</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>Daredevil</td></tr>\n      <tr><td>The Defenders</td></tr>\n      <tr><td>Doc Savage</td></tr>\n      <tr><td>Doctor Strange</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>E</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>Elektra</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>F</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>Fantastic Four</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>G</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>Ghost Rider</td></tr>\n      <tr><td>Green Arrow</td></tr>\n      <tr><td>Green Lantern</td></tr>\n      <tr><td>Guardians of the Galaxy</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>H</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>Hawkeye</td></tr>\n      <tr><td>Hellboy</td></tr>\n      <tr><td>Incredible Hulk</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>I</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>Iron Fist</td></tr>\n      <tr><td>Iron Man</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>M</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>Marvelman</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>R</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>Robin</td></tr>\n      <tr><td>The Rocketeer</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>S</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>The Shadow</td></tr>\n      <tr><td>Spider-Man</td></tr>\n      <tr><td>Sub-Mariner</td></tr>\n      <tr><td>Supergirl</td></tr>\n      <tr><td>Superman</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>T</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>Teenage Mutant Ninja Turtles</td></tr>\n      <tr><td>Thor</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>W</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>The Wasp</td></tr>\n      <tr><td>Watchmen</td></tr>\n      <tr><td>Wolverine</td></tr>\n      <tr><td>Wonder Woman</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>X</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>X-Men</td></tr>\n    </tbody>\n    <thead>\n      <tr>\n        <th>Z</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>Zatanna</td></tr>\n      <tr><td>Zatara</td></tr>\n    </tbody>\n  </table>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

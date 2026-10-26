@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-doniaskima-hungry-donkey-93-49d4b9",
+  "title": "Button by doniaskima (hungry-donkey-93)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/hungry-donkey-93",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/doniaskima_hungry-donkey-93.html",
+  "code": "<button class=\"btn-27\">\n  <span class=\"text-container\">\n    <span class=\"text\">Button</span>\n  </span>\n  <span class=\"text-container\">\n    <span aria-hidden=\"\" class=\"text\">Button</span>\n  </span>\n</button>\n\n<style>\n/* From Uiverse.io by doniaskima - Tags: button */\n.btn-27,\n.btn-27 *,\n.btn-27 :after,\n.btn-27 :before,\n.btn-27:after,\n.btn-27:before {\n  border: 0 solid;\n  box-sizing: border-box;\n}\n\n.btn-27 {\n  -webkit-tap-highlight-color: transparent;\n  -webkit-appearance: button;\n  background-color: #000;\n  background-image: none;\n  color: #fff;\n  cursor: pointer;\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,\n    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,\n    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;\n  font-size: 100%;\n  font-weight: 900;\n  line-height: 1.5;\n  margin: 0;\n  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);\n  padding: 0;\n  text-transform: uppercase;\n}\n\n.btn-27:disabled {\n  cursor: default;\n}\n\n.btn-27:-moz-focusring {\n  outline: auto;\n}\n\n.btn-27 svg {\n  display: block;\n  vertical-align: middle;\n}\n\n.btn-27 [hidden] {\n  display: none;\n}\n\n.btn-27 {\n  --tilt: 40deg;\n  background: none;\n  -webkit-mask-image: none;\n  padding: 2rem 5rem;\n  perspective: 500px;\n  transform-style: preserve-3d;\n}\n\n.btn-27 .text-container {\n  background: #fff;\n  display: grid;\n  inset: 0;\n  place-items: center;\n  position: absolute;\n  transform-origin: center center;\n  transition: transform 0.2s;\n}\n\n.btn-27 .text {\n  color: #000;\n}\n\n.btn-27:hover .text-container:first-child {\n  transform: rotateY(var(--tilt));\n}\n\n.btn-27:hover .text-container:nth-child(2) {\n  transform: rotateY(calc(var(--tilt) * -1));\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

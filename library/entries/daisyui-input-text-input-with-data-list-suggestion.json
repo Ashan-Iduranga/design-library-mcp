@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-input-text-input-with-data-list-suggestion",
+  "title": "Text Input: Text input with data list suggestion (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/input/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Text Input is a simple input field.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/input/+page.md",
+  "code": "<input type=\"text\" class=\"input\" placeholder=\"Which browser do you use\" list=\"browsers\" />\n<datalist id=\"browsers\">\n  <option value=\"Chrome\"></option>\n  <option value=\"Firefox\"></option>\n  <option value=\"Safari\"></option>\n  <option value=\"Opera\"></option>\n  <option value=\"Edge\"></option>\n</datalist>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

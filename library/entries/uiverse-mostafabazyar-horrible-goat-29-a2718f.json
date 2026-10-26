@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mostafabazyar-horrible-goat-29-a2718f",
+  "title": "Button by mostafabazyar (horrible-goat-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mostafabazyar/horrible-goat-29",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mostafabazyar on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mostafabazyar_horrible-goat-29.html",
+  "code": "<button>Notification By HTML Data attribute</button>\n<style>\n/* From Uiverse.io by mostafabazyar - Tags: button */\nbutton {\n  position: relative;\n  margin: 1rem;\n  z-index: 2;\n  border-radius: 8px;\n  appearance: none;\n  padding: 1em 2em;\n  transition: all 0.2s;\n}\n\nbutton {\n  padding: 1.2rem;\n  position: relative;\n  z-index: 1;\n}\n\nbutton::before {\n  content: \"6\";\n  position: absolute;\n  display: flex;\n  top: -0.75em;\n  right: -0.75em;\n  height: 1.8em;\n  width: 1.8em;\n  justify-content: center;\n  align-items: center;\n  border-radius: 50%;\n  background-color: red;\n  color: white;\n  z-index: 999;\n  transition: all 0.2s;\n}\n\nbutton:hover {\n  border-radius: 3px;\n  border-color: red;\n}\n\nbutton:hover::before {\n  height: 2em;\n  width: 2em;\n  font-size: 1.5em;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

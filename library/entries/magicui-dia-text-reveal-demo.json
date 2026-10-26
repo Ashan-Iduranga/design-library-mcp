@@ -1,0 +1,37 @@
+{
+  "id": "magicui-dia-text-reveal-demo",
+  "title": "Dia Text Reveal Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/dia-text-reveal",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "dia",
+    "text",
+    "reveal",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a sweeping color band reveal on headline text.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/dia-text-reveal-demo.tsx",
+  "code": "import { DiaTextReveal } from \"@/registry/magicui/dia-text-reveal\"\n\nexport default function DiaTextRevealDemo() {\n  return (\n    <div className=\"flex min-h-64 items-center justify-center p-8\">\n      <DiaTextReveal\n        className=\"text-4xl font-bold tracking-tight\"\n        text=\"Magic UI\"\n        colors={[\"#A97CF8\", \"#F38CB8\", \"#FDCC92\"]}\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

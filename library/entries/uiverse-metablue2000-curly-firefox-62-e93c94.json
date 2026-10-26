@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-metablue2000-curly-firefox-62-e93c94",
+  "title": "Toggle by MetaBlue2000 (curly-firefox-62)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MetaBlue2000/curly-firefox-62",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "red",
+    "green",
+    "minimalist",
+    "switch",
+    "click-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MetaBlue2000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/MetaBlue2000_curly-firefox-62.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by MetaBlue2000  - Tags: red, green, minimalist, switch, click animation */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 01em;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ff6a59;\n  transition: 0.4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"✕\";\n  display: grid;\n  text-align: center;\n  vertical-align: middle;\n  place-items: center;\n  font-size: 1em;\n  font-weight: 900;\n  width: 2em;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  left: 0;\n  top: 50%;\n  transform: translate(0, -50%);\n  color: white;\n  background-color: #ff3c00;\n  border: 1px solid #ba0300;\n  transition: 0.4s;\n}\n\n.switch input:checked + .slider {\n  background-color: teal;\n}\n\n.switch input:checked + .slider:before {\n  content: \"\\002713\";\n  color: teal;\n  background: paleturquoise;\n  border: 1px solid rgba(0, 128, 128, 0.514);\n  transform: translate(1.75em, -50%) rotateZ(360deg);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

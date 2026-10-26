@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-steveblox-light-owl-27-622240",
+  "title": "Button by SteveBloX (light-owl-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SteveBloX/light-owl-27",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "white",
+    "black",
+    "shadow",
+    "modern",
+    "b&w"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SteveBloX on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SteveBloX_light-owl-27.html",
+  "code": "<button class=\"button\">Click me !</button>\n\n<style>\n/* From Uiverse.io by SteveBloX  - Tags: white, black, button, shadow, modern, b&w */\n.button {\n  border-radius: 8px;\n  height: 40px;\n  border: none;\n  background: #222;\n  color: white;\n  padding: 15px;\n  box-shadow: 0 1px 1px -1px #00000026, 0 2px 1px -1px #00000025,\n    0 3px 3px -2px #00000023, 0 7px 6px -2px #00000020,\n    0 13px 13px -3px #0000001b, 0 30px 30px -4px #0000000d;\n  font-weight: bold;\n  font-family: Montserrat;\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  transition: 150ms ease-in-out;\n}\n\n.button:active {\n  scale: 0.95;\n  background: #fff;\n  color: black;\n  box-shadow: rgba(0, 0, 0, 0.26) 0px 1px 1px -1px,\n    rgba(0, 0, 0, 0.24) 0px 2px 3px -2px, rgba(0, 0, 0, 0.19) 0px 5px 9px -3px,\n    rgba(0, 0, 0, 0.03) 0px 16px 29px -4.5px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-mrcool7-white-wombat-51-f5c8d0",
+  "title": "Input by mRcOol7 (white-wombat-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mRcOol7/white-wombat-51",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "flashy",
+    "minimalist",
+    "gradient",
+    "search",
+    "glow",
+    "border",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mRcOol7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/mRcOol7_white-wombat-51.html",
+  "code": "<input type=\"text\" class=\"search-input\" placeholder=\"Search...\" />\n\n<style>\n/* From Uiverse.io by mRcOol7  - Tags: flashy, minimalist, gradient, input, search, glow, border, hover effect */\n.search-container {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background: linear-gradient(to right, #5c5c5c, #f5f5f5);\n  padding: 30px;\n  border-radius: 15px;\n  transition: background 0.3s ease;\n  perspective: 1000px;\n}\n\n.label {\n  position: absolute;\n  top: 50%;\n  left: 20px;\n  transform: translateY(-50%);\n  color: #999;\n  pointer-events: none;\n  transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease,\n    text-shadow 0.3s ease;\n}\n\n.search-input {\n  position: relative;\n  width: 230px;\n  height: 40px;\n  padding: 12px;\n  border: 2px solid #ccc;\n  border-radius: 8px;\n  background: linear-gradient(to right, #d9d9d9, #f8f8f8);\n  font-size: 16px;\n  color: #555;\n  outline: none;\n  transition: box-shadow 0.3s ease, background 0.3s ease, color 0.3s ease,\n    border-color 0.3s ease, transform 0.3s ease;\n  transform-style: preserve-3d;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.2) inset; /* Improved box-shadow for a realistic feel */\n}\n\n.search-input:focus,\n.search-input:not(:placeholder-shown) {\n  border-color: #4caf50;\n  background: linear-gradient(to right, #c2f0c2, #f0f0f0);\n  transform: rotateX(20deg);\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.2) inset; /* Improved box-shadow on focus */\n}\n\n.search-input:focus + .label,\n.search-input:not(:placeholder-shown) + .label {\n  transform: translateY(-120%) scale(0.8);\n  font-size: 12px;\n  color: #4caf50;\n  text-shadow: 0 0 5px rgba(76, 175, 80, 0.6);\n}\n\n.search-input:hover {\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.2) inset; /* Improved box-shadow on hover */\n  background: linear-gradient(to right, #e6e6e6, #f9f9f9);\n  border-color: #999;\n}\n\n.clear-button {\n  position: absolute;\n  top: 50%;\n  right: 20px;\n  transform: translateY(-50%);\n  color: #999;\n  cursor: pointer;\n  opacity: 0;\n  transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;\n}\n\n.clear-button:hover {\n  color: #4caf50;\n  transform: scale(1.1);\n}\n\n.search-input:not(:focus):not(:placeholder-shown) + .clear-button {\n  opacity: 1;\n}\n\n.shine {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n    to bottom right,\n    rgba(255, 255, 255, 0.6),\n    transparent\n  );\n  border-radius: 8px;\n  pointer-events: none;\n  opacity: 0;\n  transition: opacity 0.3s ease;\n}\n\n.search-input:focus + .shine {\n  opacity: 1;\n}\n\n.search-icon {\n  position: absolute;\n  top: 50%;\n  right: 20px;\n  transform: translateY(-50%);\n  color: #999;\n  cursor: pointer;\n  transition: color 0.3s ease, transform 0.3s ease, filter 0.3s ease;\n  border-radius: 50%;\n}\n\n.search-input:focus + .search-icon {\n  color: #4caf50;\n  transform: translateY(-50%) scale(1.1);\n  filter: drop-shadow(0 0 5px rgba(76, 175, 80, 0.6));\n}\n\n@keyframes inputPulse {\n  0%,\n  100% {\n    transform: scale(1);\n  }\n  50% {\n    transform: scale(1.05);\n  }\n}\n\n.search-input:focus {\n  animation: inputPulse 0.5s ease;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

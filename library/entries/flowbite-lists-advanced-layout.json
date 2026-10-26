@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-lists-advanced-layout",
+  "title": "Lists: Advanced layout (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/typography/lists/#advanced-layout",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "list",
+    "lists",
+    "typography",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This example can be used to show more details for each list item such as the user's name, email and profile picture.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/typography/lists.md",
+  "code": "<ul class=\"max-w-md divide-y divide-default\">\n   <li class=\"pb-3 sm:pb-4\">\n      <div class=\"flex items-center space-x-4 rtl:space-x-reverse\">\n         <div class=\"shrink-0\">\n            <img class=\"w-8 h-8 rounded-full\" src=\"/docs/images/people/profile-picture-1.jpg\" alt=\"Neil image\">\n         </div>\n         <div class=\"flex-1 min-w-0\">\n            <p class=\"text-sm font-medium text-heading truncate\">\n               Neil Sims\n            </p>\n            <p class=\"text-sm text-body truncate\">\n               email@flowbite.com\n            </p>\n         </div>\n         <div class=\"inline-flex items-center text-base font-semibold text-heading\">\n            $320\n         </div>\n      </div>\n   </li>\n   <li class=\"py-3 sm:py-4\">\n      <div class=\"flex items-center space-x-4 rtl:space-x-reverse\">\n         <div class=\"shrink-0\">\n            <img class=\"w-8 h-8 rounded-full\" src=\"/docs/images/people/profile-picture-3.jpg\" alt=\"Neil image\">\n         </div>\n         <div class=\"flex-1 min-w-0\">\n            <p class=\"text-sm font-medium text-heading truncate\">\n               Bonnie Green\n            </p>\n            <p class=\"text-sm text-body truncate\">\n               email@flowbite.com\n            </p>\n         </div>\n         <div class=\"inline-flex items-center text-base font-semibold text-heading\">\n            $3467\n         </div>\n      </div>\n   </li>\n   <li class=\"py-3 sm:py-4\">\n      <div class=\"flex items-center space-x-4 rtl:space-x-reverse\">\n         <div class=\"shrink-0\">\n            <img class=\"w-8 h-8 rounded-full\" src=\"/docs/images/people/profile-picture-2.jpg\" alt=\"Neil image\">\n         </div>\n         <div class=\"flex-1 min-w-0\">\n            <p class=\"text-sm font-medium text-heading truncate\">\n               Michael Gough\n            </p>\n            <p class=\"text-sm text-body truncate\">\n               email@flowbite.com\n            </p>\n         </div>\n         <div class=\"inline-flex items-center text-base font-semibold text-heading\">\n            $67\n         </div>\n      </div>\n   </li>\n   <li class=\"py-3 sm:py-4\">\n      <div class=\"flex items-center space-x-4 rtl:space-x-reverse\">\n         <div class=\"shrink-0\">\n            <img class=\"w-8 h-8 rounded-full\" src=\"/docs/images/people/profile-picture-5.jpg\" alt=\"Neil image\">\n         </div>\n         <div class=\"flex-1 min-w-0\">\n            <p class=\"text-sm font-medium text-heading truncate\">\n               Thomas Lean\n            </p>\n            <p class=\"text-sm text-body truncate\">\n               email@flowbite.com\n            </p>\n         </div>\n         <div class=\"inline-flex items-center text-base font-semibold text-heading\">\n            $2367\n         </div>\n      </div>\n   </li>\n   <li class=\"pt-3 pb-0 sm:pt-4\">\n      <div class=\"flex items-center space-x-4 rtl:space-x-reverse\">\n         <div class=\"shrink-0\">\n            <img class=\"w-8 h-8 rounded-full\" src=\"/docs/images/people/profile-picture-4.jpg\" alt=\"Neil image\">\n         </div>\n         <div class=\"flex-1 min-w-0\">\n            <p class=\"text-sm font-medium text-heading truncate\">\n               Lana Byrd\n            </p>\n            <p class=\"text-sm text-body truncate\">\n               email@flowbite.com\n            </p>\n         </div>\n         <div class=\"inline-flex items-center text-base font-semibold text-heading\">\n            $367\n         </div>\n      </div>\n   </li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

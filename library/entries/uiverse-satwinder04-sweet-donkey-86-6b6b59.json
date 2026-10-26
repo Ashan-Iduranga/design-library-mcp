@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-satwinder04-sweet-donkey-86-6b6b59",
+  "title": "Card by Satwinder04 (sweet-donkey-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Satwinder04/sweet-donkey-86",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "button",
+    "calculator"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Satwinder04 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Satwinder04_sweet-donkey-86.html",
+  "code": "<div id=\"cal-body\">\n            <div class=\"input\">\n                <input type=\"text\">\n            </div>\n            <div style=\"padding-top: 40px;\">\n\n                <div class=\"buttons\">\n                    <button>1</button>\n                    <button>2</button>\n                    <button>3</button>\n                    <button>+</button>\n                </div>\n                <div class=\"buttons\">\n                    <button>4</button>\n                    <button>5</button>\n                    <button>6</button>\n                    <button>-</button>\n                </div>\n                <div class=\"buttons\">\n                    <button>7</button>\n                    <button>8</button>\n                    <button>9</button>\n                    <button>*</button>\n                </div>\n                <div class=\"buttons\">\n                    <button>.</button>\n                    <button>0</button>\n                    <button style=\"width: 140px;\">=</button>\n                    \n                </div>\n            </div>\n        </div>\n<style>\n/* From Uiverse.io by Satwinder04 - Tags: button, card, calculator */\n#cal-body {\n  width: 400px;\n  border-radius: 20px;\n  background: #dde1e7;\n  box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);\n  padding: 45px;\n  scale: 0.6;\n}\n\n.input input {\n  height: 100px;\n  width: 100%;\n  border-radius: 10px;\n  background: #dde1e7;\n  box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);\n  border: 0;\n  color: rgb(116, 116, 116);\n  font-size: 2.5rem;\n  padding: 0 30px;\n}\n\n.input input:focus {\n  outline: none;\n  background: #dde1e7;\n  box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);\n}\n\n.buttons button {\n  cursor: pointer;\n  height: 60px;\n  width: 60px;\n  border: 0;\n  font-size: 2rem;\n  border-radius: 50px;\n  background: #dde1e7;\n  box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);\n  color: rgb(137, 137, 137);\n}\n\n.buttons button:focus {\n  background: #dde1e7;\n  box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);\n}\n\n.buttons {\n  padding-top: 30px;\n  display: flex;\n  justify-content: space-between;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

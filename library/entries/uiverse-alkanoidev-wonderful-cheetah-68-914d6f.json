@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-alkanoidev-wonderful-cheetah-68-914d6f",
+  "title": "Button by alkanoidev (wonderful-cheetah-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alkanoidev/wonderful-cheetah-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alkanoidev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/alkanoidev_wonderful-cheetah-68.html",
+  "code": "<button>\n      <svg>\n      <filter id=\"pedroduarteisalegend\">\n        <feTurbulence stitchTiles=\"stitch\" numOctaves=\"4\" baseFrequency=\"0.5\" type=\"fractalNoise\"></feTurbulence>\n      </filter>\n      <rect filter=\"url(#pedroduarteisalegend)\" height=\"100%\" width=\"100%\"></rect>\n    </svg>\n      Button\n</button>\n<style>\n/* From Uiverse.io by alkanoidev - Tags: button */\nbutton {\n  position: relative;\n  padding-top: 0.75rem;\n  padding-right: 1.5rem;\n  padding-bottom: 0.75rem;\n  padding-left: 1.5rem;\n  transition: all 0.3s;\n  border-radius: 0.5rem;\n  color: #000;\n  font-weight: bold;\n  font-size: 1.2rem;\n  border: none;\n  background-image: linear-gradient(to bottom left, #68ecc0, #63aff1, #9b6fff);\n}\n\nbutton:hover {\n  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #000000;\n}\n\nbutton svg {\n  pointer-events: none;\n  opacity: 100;\n  border-radius: 0.5rem;\n  mix-blend-mode: soft-light;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0px;\n  left: 0px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

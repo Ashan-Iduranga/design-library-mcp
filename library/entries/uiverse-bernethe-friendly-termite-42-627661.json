@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bernethe-friendly-termite-42-627661",
+  "title": "Loader by bernethe (friendly-termite-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/bernethe/friendly-termite-42",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By bernethe on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/bernethe_friendly-termite-42.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by bernethe - Tags: loader */\n.loader {\n  width: 2rem;\n  height: 2rem;\n  clear: both;\n  margin: 1rem auto;\n  border: 0.0625rem #000 solid;\n  border-radius: .25rem;\n  overflow: hidden;\n  position: relative;\n}\n\n.loader:after, .loader:before {\n  content: '';\n  border-radius: 50%;\n  position: absolute;\n  width: inherit;\n  height: inherit;\n  animation: spVortex 2s infinite linear;\n}\n\n.loader:before {\n  border-top: 0.375rem #000 solid;\n  top: -0.1875rem;\n  left: calc( -50% - 0.1875rem );\n  transform-origin: right center;\n}\n\n.loader:after {\n  border-bottom: 0.375rem #000 solid;\n  top: 0.1875rem;\n  right: calc( -50% - 0.1875rem );\n  transform-origin: left center;\n}\n\n@keyframes spVortex {\n  from {\n    transform: rotate(0deg);\n  }\n\n  to {\n    transform: rotate(359deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

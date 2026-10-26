@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mobinkakei-great-skunk-8-ef6a40",
+  "title": "Toggle by mobinkakei (great-skunk-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/great-skunk-8",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "neumorphism",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/mobinkakei_great-skunk-8.html",
+  "code": "<label class=\"label\">\n    <div class=\"toggle\">\n        <input class=\"toggle-state\" type=\"checkbox\" name=\"check\" value=\"check\">\n        <div class=\"indicator\"></div>\n    </div>\n</label>\n<style>\n/* From Uiverse.io by mobinkakei - Tags: neumorphism, switch */\n.label {\n  display: inline-flex;\n  align-items: center;\n  cursor: pointer;\n  color: #394a56;\n}\n\n.label-text {\n  margin-left: 16px;\n}\n\n.toggle {\n  isolation: isolate;\n  position: relative;\n  height: 30px;\n  width: 60px;\n  border-radius: 15px;\n  overflow: hidden;\n  box-shadow: -8px -4px 8px 0px #ffffff,\n    8px 4px 12px 0px #d1d9e6,\n    4px 4px 4px 0px #d1d9e6 inset,\n    -4px -4px 4px 0px #ffffff inset;\n}\n\n.toggle-state {\n  display: none;\n}\n\n.indicator {\n  height: 100%;\n  width: 200%;\n  background: #ecf0f3;\n  border-radius: 15px;\n  transform: translate3d(-75%, 0, 0);\n  transition: transform 0.4s cubic-bezier(0.85, 0.05, 0.18, 1.35);\n  box-shadow: -8px -4px 8px 0px #ffffff,\n    8px 4px 12px 0px #d1d9e6;\n}\n\n.toggle-state:checked ~ .indicator {\n  transform: translate3d(25%, 0, 0);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

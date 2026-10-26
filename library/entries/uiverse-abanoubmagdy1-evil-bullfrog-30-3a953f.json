@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-abanoubmagdy1-evil-bullfrog-30-3a953f",
+  "title": "Loader by AbanoubMagdy1 (evil-bullfrog-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AbanoubMagdy1/evil-bullfrog-30",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AbanoubMagdy1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/AbanoubMagdy1_evil-bullfrog-30.html",
+  "code": "<div class=\"loader\">\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by AbanoubMagdy1 - Tags: loader */\n.loader {\n  --dim: 3rem;\n  width: var(--dim);\n  height: var(--dim);\n  position: relative;\n  animation: spin988 2s linear infinite;\n}\n\n.loader .circle {\n  --color: #333;\n  --dim: 1.2rem;\n  width: var(--dim);\n  height: var(--dim);\n  background-color: var(--color);\n  border-radius: 50%;\n  position: absolute;\n}\n\n.loader .circle:nth-child(1) {\n  top: 0;\n  left: 0;\n}\n\n.loader .circle:nth-child(2) {\n  top: 0;\n  right: 0;\n}\n\n.loader .circle:nth-child(3) {\n  bottom: 0;\n  left: 0;\n}\n\n.loader .circle:nth-child(4) {\n  bottom: 0;\n  right: 0;\n}\n\n@keyframes spin988 {\n  0% {\n    transform: scale(1) rotate(0);\n  }\n\n  20%, 25% {\n    transform: scale(1.3) rotate(90deg);\n  }\n\n  45%, 50% {\n    transform: scale(1) rotate(180deg);\n  }\n\n  70%, 75% {\n    transform: scale(1.3) rotate(270deg);\n  }\n\n  95%, 100% {\n    transform: scale(1) rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

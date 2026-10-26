@@ -1,0 +1,36 @@
+{
+  "id": "magicui-blur-fade-demo",
+  "title": "Blur Fade Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/blur-fade",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "blur",
+    "fade",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing blur fade in and out animations.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/blur-fade-demo.tsx",
+  "code": "import { BlurFade } from \"@/registry/magicui/blur-fade\"\n\nconst images = Array.from({ length: 9 }, (_, i) => {\n  const isLandscape = i % 2 === 0\n  const width = isLandscape ? 800 : 600\n  const height = isLandscape ? 600 : 800\n  return `https://picsum.photos/seed/${i + 1}/${width}/${height}`\n})\n\nexport default function BlurFadeDemo() {\n  return (\n    <section id=\"photos\">\n      <div className=\"columns-2 gap-4 sm:columns-3\">\n        {images.map((imageUrl, idx) => (\n          <BlurFade key={imageUrl} delay={0.25 + idx * 0.05} inView>\n            <img\n              className=\"mb-4 size-full rounded-lg object-contain\"\n              src={imageUrl}\n              alt={`Random stock image ${idx + 1}`}\n            />\n          </BlurFade>\n        ))}\n      </div>\n    </section>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

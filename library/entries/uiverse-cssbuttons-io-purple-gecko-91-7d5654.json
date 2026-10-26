@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cssbuttons-io-purple-gecko-91-7d5654",
+  "title": "Button by cssbuttons-io (purple-gecko-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cssbuttons-io/purple-gecko-91",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cssbuttons-io on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/cssbuttons-io_purple-gecko-91.html",
+  "code": "<div class=\"wrapper\">\n  <button> Button\n  </button>\n</div>\n<style>\n/* From Uiverse.io by cssbuttons-io - Tags: button */\n.wrapper {\n perspective: 500px;\n transform: rotatex(10deg);\n animation: rotateAngle 6s linear infinite;\n margin: auto;\n width: auto;\n}\n\nbutton {\n display: block;\n position: relative;\n margin: 0.5em 0;\n padding: 0.8em 2.2em;\n cursor: pointer;\n background: #FFFFFF;\n border: none;\n border-radius: 0.4em;\n text-transform: uppercase;\n font-size: 19px;\n font-family: \"Work Sans\", sans-serif;\n font-weight: 500;\n letter-spacing: 0.04em;\n mix-blend-mode: color-dodge;\n perspective: 500px;\n transform-style: preserve-3d;\n}\n\nbutton:before, button:after {\n --z: 0px;\n position: absolute;\n top: 0;\n left: 0;\n display: block;\n content: \"\";\n width: 100%;\n height: 100%;\n opacity: 0;\n mix-blend-mode: inherit;\n border-radius: inherit;\n transform-style: preserve-3d;\n transform: translate3d(calc(var(--z) * 0px), calc(var(--z) * 0px), calc(var(--z) * 0px));\n}\n\nbutton span {\n mix-blend-mode: none;\n display: block;\n}\n\nbutton:after {\n background-color: #5D00FF;\n}\n\nbutton:before {\n background-color: #FF1731;\n}\n\nbutton:hover {\n background-color: #FFF65B;\n transition: background 0.3s 0.1s;\n}\n\nbutton:hover:before {\n --z: 0.04;\n animation: translateWobble 2.2s ease forwards;\n}\n\nbutton:hover:after {\n --z: -0.06;\n animation: translateWobble 2.2s ease forwards;\n}\n\n@keyframes rotateAngle {\n 0% {\n  transform: rotateY(0deg) rotateX(10deg);\n  -webkit-animation-timing-function: cubic-bezier(0.61, 1, 0.88, 1);\n  animation-timing-function: cubic-bezier(0.61, 1, 0.88, 1);\n }\n\n 25% {\n  transform: rotateY(20deg) rotateX(10deg);\n }\n\n 50% {\n  transform: rotateY(0deg) rotateX(10deg);\n  -webkit-animation-timing-function: cubic-bezier(0.61, 1, 0.88, 1);\n  animation-timing-function: cubic-bezier(0.61, 1, 0.88, 1);\n }\n\n 75% {\n  transform: rotateY(-20deg) rotateX(10deg);\n }\n\n 100% {\n  transform: rotateY(0deg) rotateX(10deg);\n }\n}\n\n@keyframes translateWobble {\n 0% {\n  opacity: 0;\n  transform: translate3d(calc(var(--z) * 0px), calc(var(--z) * 0px), calc(var(--z) * 0px));\n }\n\n 16% {\n  transform: translate3d(calc(var(--z) * 160px), calc(var(--z) * 160px), calc(var(--z) * 160px));\n }\n\n 28% {\n  opacity: 1;\n  transform: translate3d(calc(var(--z) * 70px), calc(var(--z) * 70px), calc(var(--z) * 70px));\n }\n\n 44% {\n  transform: translate3d(calc(var(--z) * 130px), calc(var(--z) * 130px), calc(var(--z) * 130px));\n }\n\n 59% {\n  transform: translate3d(calc(var(--z) * 85px), calc(var(--z) * 85px), calc(var(--z) * 85px));\n }\n\n 73% {\n  transform: translate3d(calc(var(--z) * 110px), calc(var(--z) * 110px), calc(var(--z) * 110px));\n }\n\n 88% {\n  opacity: 1;\n  transform: translate3d(calc(var(--z) * 90px), calc(var(--z) * 90px), calc(var(--z) * 90px));\n }\n\n 100% {\n  opacity: 1;\n  transform: translate3d(calc(var(--z) * 100px), calc(var(--z) * 100px), calc(var(--z) * 100px));\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-selfmadesystem-terrible-rat-80-8055d7",
+  "title": "Button by SelfMadeSystem (terrible-rat-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/terrible-rat-80",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d",
+    "game",
+    "border",
+    "3d-button",
+    "illustrated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SelfMadeSystem_terrible-rat-80.html",
+  "code": "<div class=\"button-container\">\n  <span class=\"text\">\n    <span class=\"button-lines\">\n      <span class=\"button-line-1\"></span>\n      <span class=\"button-line-2\"></span>\n    </span>\n  </span>\n</div>\n\n<style>\n/* From Uiverse.io by SelfMadeSystem  - Tags: 3d, button, game, border, 3d button, illustrated */\n.button-container {\n  --background: #fefbff;\n  --inner-shadow: #9faef9;\n  --inner-outline: #34217d;\n  --inner-outline-bottom: #fafcfe;\n  --inner-outline-middle: #8880d5;\n  --inner-outline-outer-top: #fefcff;\n  --inner-outline-outer-bottom-1: #29107b;\n  --line-1: #8676c9;\n  --line-2: #5c69ca;\n  position: relative;\n  background: var(--background);\n  cursor: pointer;\n  transition: all 0.2s;\n  font-size: 17px;\n  padding: 0.7em 1.8em;\n  border-radius: 5px;\n  box-shadow: inset 0px 1px 8px 1px var(--inner-shadow),\n    0px 2px 0px 0px var(--inner-outline-bottom),\n    0px -2px 0px 0px var(--inner-outline),\n    -2px -2px 0px 0px var(--inner-outline),\n    2px -2px 0px 0px var(--inner-outline),\n    0px 0px 0px 6px var(--inner-outline-middle),\n    0px -2px 0px 7px var(--inner-outline-outer-top),\n    0px 4px 0px 7px var(--inner-outline-outer-bottom-1);\n}\n\n.button-lines {\n  display: flex;\n  flex-direction: column;\n  gap: 0.4em;\n}\n\n.button-line-1 {\n  height: 0.2em;\n  width: 4em;\n  border-radius: 10em;\n  display: inline-block;\n  background: var(--line-1);\n}\n\n.button-line-2 {\n  height: 0.2em;\n  width: 3em;\n  border-radius: 10em;\n  display: inline-block;\n  background: var(--line-2);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

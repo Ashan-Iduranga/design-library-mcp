@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ahmed150up-terrible-shrimp-45-8d9bcb",
+  "title": "Notification by ahmed150up (terrible-shrimp-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ahmed150up/terrible-shrimp-45",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ahmed150up on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Notifications/ahmed150up_terrible-shrimp-45.html",
+  "code": "<div class=\"notification\">\n  <svg viewBox=\"0 0 200 200\">\n    <path id=\"star\" d=\"M100,25 L129,79 L186,79 L139,119 L158,173 L100,137 L42,173 L61,119 L14,79 L71,79 z\"></path>\n    <text x=\"50%\" y=\"50%\" text-anchor=\"middle\" alignment-baseline=\"central\">Level Up!</text>\n  </svg>\n</div>\n\n<style>\n/* From Uiverse.io by ahmed150up - Tags: notification */\n.notification {\n  background-color: #FFF;\n  padding: 20px;\n  border-radius: 10px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);\n  z-index: 999;\n}\n\n.notification svg {\n  width: 140px;\n  height: 140px;\n  fill: #FFD700;\n  animation: rotate 3s ease-in-out infinite;\n}\n\n.notification #star {\n  animation: fill 3s ease-in-out infinite;\n  transform-origin: center;\n}\n\n.notification text {\n  font-size: 30px;\n  font-weight: bold;\n  fill: #000;\n}\n\n@keyframes fill {\n  0% {\n    fill: transparent;\n    transform: scale(1);\n  }\n\n  50% {\n    fill: #FFD700;\n    transform: scale(1.2);\n  }\n\n  100% {\n    fill: transparent;\n    transform: scale(1);\n  }\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

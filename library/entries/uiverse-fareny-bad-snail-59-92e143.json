@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-fareny-bad-snail-59-92e143",
+  "title": "Loader by Fareny (bad-snail-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Fareny/bad-snail-59",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "purple",
+    "like",
+    "circle",
+    "html",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Fareny on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Fareny_bad-snail-59.html",
+  "code": "<div class=\"loader\">\n  <figure class=\"iconLoaderProgress\">\n    <svg class=\"iconLoaderProgressFirst\" width=\"240\" height=\"240\">\n      <circle cx=\"120\" cy=\"120\" r=\"100\"></circle>\n    </svg>\n\n    <svg class=\"iconLoaderProgressSecond\" width=\"240\" height=\"240\">\n      <circle cx=\"120\" cy=\"120\" r=\"100\"></circle>\n    </svg>\n  </figure>\n</div>\n\n<style>\n/* From Uiverse.io by Fareny  - Tags: simple, purple, loader, like, circle, html, css */\n.loader {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: #141218;\n}\n\n.iconLoaderProgress {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  animation-duration: 2s;\n  animation-timing-function: linear;\n  animation-iteration-count: infinite;\n  animation-name: rotateLoader;\n}\n\n.iconLoaderProgress svg {\n  stroke-width: 16px;\n  fill: none;\n  transform-origin: center;\n  z-index: 999;\n}\n\n.iconLoaderProgressFirst circle,\n.iconLoaderProgressSecond circle,\n.iconLoaderProgressFirst,\n.iconLoaderProgressSecond {\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n}\n\n.iconLoaderProgressFirst circle,\n.iconLoaderProgressSecond circle {\n  animation-duration: 3s;\n  border-radius: 15px;\n}\n\n.iconLoaderProgressFirst,\n.iconLoaderProgressSecond {\n  position: absolute;\n  animation-duration: 6s;\n}\n\n.iconLoaderProgressFirst circle {\n  animation-name: circleFirst;\n  stroke-dasharray: 628, 628;\n  stroke-dashoffset: 0;\n  stroke: #7c57f4;\n  stroke-linecap: round;\n}\n\n.iconLoaderProgressSecond {\n  transform: rotate(-14deg);\n}\n\n.iconLoaderProgressSecond circle {\n  animation-name: circleSecond;\n  stroke-dasharray: 628, 628;\n  stroke-dashoffset: 0;\n  stroke: #bfb2f7;\n  stroke-linecap: round;\n}\n\n@keyframes circleFirst {\n  from,\n  to {\n    stroke-dashoffset: 50;\n  }\n\n  50% {\n    stroke-dashoffset: 625;\n  }\n}\n\n@keyframes circleSecond {\n  from,\n  to {\n    stroke-dashoffset: -625;\n  }\n\n  50% {\n    stroke-dashoffset: -50;\n  }\n}\n\n@keyframes rotateLoader {\n  from {\n    transform: rotate(0deg);\n  }\n\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

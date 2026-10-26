@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-shubh0408-pink-cobra-51-416305",
+  "title": "Checkbox by Shubh0408 (pink-cobra-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shubh0408/pink-cobra-51",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "hamburger",
+    "toggle",
+    "menu",
+    "close"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shubh0408 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Shubh0408_pink-cobra-51.html",
+  "code": "<!-- From Uiverse.io by Shubh0408  - Tags: checkbox, hamburger, toggle, menu, close -->\n<label>\n  <div\n    class=\"w-9 h-10 cursor-pointer flex flex-col items-center justify-center\"\n  >\n    <input class=\"hidden peer\" type=\"checkbox\" />\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-sm transition-all duration-300 origin-left translate-y-[0.45rem] peer-checked:rotate-[-45deg]\"\n    ></div>\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-center peer-checked:hidden\"\n    ></div>\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-left -translate-y-[0.45rem] peer-checked:rotate-[45deg]\"\n    ></div>\n  </div>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

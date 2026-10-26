@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-andrew-demchenk0-hungry-cobra-76-14fb1b",
+  "title": "Card by andrew-demchenk0 (hungry-cobra-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/hungry-cobra-76",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "hover-effect",
+    "hover-button",
+    "more-info",
+    "ul",
+    "li",
+    "free",
+    "benefits"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/andrew-demchenk0_hungry-cobra-76.html",
+  "code": "<div class=\"card\">\n\t<div class=\"card-content-wrapper\">\n\t\t<div class=\"card-title\">Free plan</div>\n\t\t<div class=\"card-price\">\n\t\t\t<span>$</span>\n\t\t\t0\n\t\t\t<span>/month</span>\n\t\t</div>\n\t\t<div class=\"card-subtitle\">Benefits:</div>\n\t\t<ul class=\"card-benefits\">\n\t\t\t\t<li>Lorem ipsum, dolor sit amet</li>\n\t\t\t\t<li>Lorem ipsum, dolor sit amet</li>\n\t\t</ul>\n\t</div>\n\t<button class=\"card-btn\">More info</button>\n</div>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: card, hover effect, hover button, more info, ul, li, free, benefits, free plan */\n.card {\n  --main-focus: #2d8cf0;\n  --font-color: #323232;\n  --font-color-sub: #666;\n  --bg-color: #fff;\n  --main-color: #323232;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n  width: 150px;\n  height: 200px;\n  background: var(--bg-color);\n  border: 2px solid var(--main-color);\n  box-shadow: 4px 4px var(--main-color);\n  border-radius: 5px;\n  padding: 10px;\n  display: flex;\n  flex-direction: column;\n}\n\n.card-content-wrapper {\n  transform: translateY(10px);\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  transition: all 0.7s;\n}\n\n.card-title {\n  letter-spacing: 3px;\n  font-size: 20px;\n  font-weight: 700;\n  color: var(--font-color);\n}\n\n.card-price {\n  letter-spacing: 2px;\n  font-size: 20px;\n  color: var(--font-color);\n  font-weight: 700;\n}\n\n.card-price span {\n  font-size: 15px;\n  color: var(--font-color-sub);\n  font-weight: 500;\n}\n\n.card-subtitle {\n  letter-spacing: 2px;\n  font-size: 17px;\n  color: var(--main-focus);\n  font-weight: 500;\n}\n\n.card-benefits {\n  font-size: 15px;\n  padding-left: 20px;\n  color: var(--font-color);\n}\n\n.card-btn {\n  cursor: pointer;\n  width: 100px;\n  padding: 5px;\n  background: var(--main-focus);\n  border: none;\n  border-radius: 5px;\n  margin: 0 auto;\n  transform: translateY(30px);\n  color: var(--bg-color);\n  font-weight: 500;\n  font-size: 12px;\n  letter-spacing: 0.7px;\n  opacity: 0;\n  transition: all 0.7s;\n}\n\n.card:hover > .card-btn {\n  opacity: 1;\n  transform: translateY(17px);\n}\n\n.card-btn:hover {\n  font-weight: 700;\n  letter-spacing: 1px;\n}\n\n.card:hover > .card-content-wrapper {\n  transform: translateY(5px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

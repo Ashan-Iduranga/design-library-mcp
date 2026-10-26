@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-guilhermeyohan-warm-mule-6-d02674",
+  "title": "Form by guilhermeyohan (warm-mule-6)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/guilhermeyohan/warm-mule-6",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By guilhermeyohan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/guilhermeyohan_warm-mule-6.html",
+  "code": "<div class=\"login-box\">\n \n  <form>\n    <div class=\"user-box\">\n      <input type=\"text\" name=\"\" required=\"\">\n      <label>Username</label>\n    </div>\n    <div class=\"user-box\">\n      <input type=\"password\" name=\"\" required=\"\">\n      <label>Password</label>\n    </div><center>\n    <a href=\"#\">\n           SEND\n       <span></span>\n    </a></center>\n  </form>\n</div>\n<style>\n/* From Uiverse.io by guilhermeyohan - Tags: form */\n.login-box {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 400px;\n  padding: 40px;\n  transform: translate(-50%, -50%);\n  background: rgba(24, 20, 20, 0.987);\n  box-sizing: border-box;\n  box-shadow: 0 15px 25px rgba(0,0,0,.6);\n  border-radius: 10px;\n}\n\n.login-box .user-box {\n  position: relative;\n}\n\n.login-box .user-box input {\n  width: 100%;\n  padding: 10px 0;\n  font-size: 16px;\n  color: #fff;\n  margin-bottom: 30px;\n  border: none;\n  border-bottom: 1px solid #fff;\n  outline: none;\n  background: transparent;\n}\n\n.login-box .user-box label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  padding: 10px 0;\n  font-size: 16px;\n  color: #fff;\n  pointer-events: none;\n  transition: .5s;\n}\n\n.login-box .user-box input:focus ~ label,\n.login-box .user-box input:valid ~ label {\n  top: -20px;\n  left: 0;\n  color: #bdb8b8;\n  font-size: 12px;\n}\n\n.login-box form a {\n  position: relative;\n  display: inline-block;\n  padding: 10px 20px;\n  color: #ffffff;\n  font-size: 16px;\n  text-decoration: none;\n  text-transform: uppercase;\n  overflow: hidden;\n  transition: .5s;\n  margin-top: 40px;\n  letter-spacing: 4px\n}\n\n.login-box a:hover {\n  background: #03f40f;\n  color: #fff;\n  border-radius: 5px;\n  box-shadow: 0 0 5px #03f40f,\n              0 0 25px #03f40f,\n              0 0 50px #03f40f,\n              0 0 100px #03f40f;\n}\n\n.login-box a span {\n  position: absolute;\n  display: block;\n}\n\n@keyframes btn-anim1 {\n  0% {\n    left: -100%;\n  }\n\n  50%,100% {\n    left: 100%;\n  }\n}\n\n.login-box a span:nth-child(1) {\n  bottom: 2px;\n  left: -100%;\n  width: 100%;\n  height: 2px;\n  background: linear-gradient(90deg, transparent, #03f40f);\n  animation: btn-anim1 2s linear infinite;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

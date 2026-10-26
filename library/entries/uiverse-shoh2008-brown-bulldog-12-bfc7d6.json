@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shoh2008-brown-bulldog-12-bfc7d6",
+  "title": "Toggle by Shoh2008 (brown-bulldog-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/brown-bulldog-12",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Shoh2008_brown-bulldog-12.html",
+  "code": "<div class=\"checkbox-wrapper-41\">\n  <input type=\"checkbox\">\n</div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: switch */\n.checkbox-wrapper-41 {\n  --size: 100px;\n}\n\n.checkbox-wrapper-41 input[type=\"checkbox\"] {\n  -webkit-appearance: none;\n  width: var(--size);\n  height: calc(var(--size) / 2);\n  background-color: #fff;\n  border: 3px solid #222;\n  border-radius: 30px 100px 100px 100px;\n  box-shadow: 0 10px 20px rgba(0,0,0,0.2);\n  outline: none;\n  cursor: pointer;\n  position: relative;\n  transition: all 0.5s;\n}\n\n.checkbox-wrapper-41 input[type=\"checkbox\"]::before {\n  content: \"\";\n  position: absolute;\n  width: calc(var(--size) / 2);\n  height: calc(var(--size) / 2);\n  left: 0;\n  top: 50%;\n  transform: translateY(-50%) scale(0.7);\n  border: 3px solid #222;\n  border-radius: 30px 100px 100px 100px;\n  background-color: #fde881;\n  box-sizing: border-box;\n  transition: all 0.5s;\n}\n\n.checkbox-wrapper-41 input[type=\"checkbox\"]:checked {\n  background-color: #fde881;\n  border-radius: 100px 100px 30px 100px;\n}\n\n.checkbox-wrapper-41 input[type=\"checkbox\"]:checked::before {\n  left: 50%;\n  background-color: #fff;\n  border-radius: 100px 100px 30px 100px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

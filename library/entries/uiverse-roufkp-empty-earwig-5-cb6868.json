@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-roufkp-empty-earwig-5-cb6868",
+  "title": "Button by roufkp (empty-earwig-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/roufkp/empty-earwig-5",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "light",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By roufkp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/roufkp_empty-earwig-5.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by roufkp - Tags: gradient, button, light, hover effect */\n.button {\n  width: fit-content;\n  padding: 12px 24px;\n  border-radius: 100px;\n  border: none;\n  box-shadow: inset 0px 22px 20px 10px rgb(0, 0, 0);\n  font-weight: 800;\n  color: antiquewhite;\n  letter-spacing: .1rem;\n  transition: all 0.51s ease-in-out;\n}\n\n.button:hover {\n  transform: translateY(5px);\n  box-shadow: inset 1px -11px 25px 10px rgb(91, 88, 240);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

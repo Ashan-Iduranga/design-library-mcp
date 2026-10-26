@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-stat-stat-with-icons-or-image",
+  "title": "Stat: Stat with icons or image (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/stat/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "stat",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Stat is used to show numbers and data in a block.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/stat/+page.md",
+  "code": "<div class=\"stats shadow\">\n  <div class=\"stat\">\n    <div class=\"stat-figure text-primary\">\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        class=\"inline-block h-8 w-8 stroke-current\"\n      >\n        <path\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n          stroke-width=\"2\"\n          d=\"M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z\"\n        ></path>\n      </svg>\n    </div>\n    <div class=\"stat-title\">Total Likes</div>\n    <div class=\"stat-value text-primary\">25.6K</div>\n    <div class=\"stat-desc\">21% more than last month</div>\n  </div>\n\n  <div class=\"stat\">\n    <div class=\"stat-figure text-secondary\">\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        class=\"inline-block h-8 w-8 stroke-current\"\n      >\n        <path\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n          stroke-width=\"2\"\n          d=\"M13 10V3L4 14h7v7l9-11h-7z\"\n        ></path>\n      </svg>\n    </div>\n    <div class=\"stat-title\">Page Views</div>\n    <div class=\"stat-value text-secondary\">2.6M</div>\n    <div class=\"stat-desc\">21% more than last month</div>\n  </div>\n\n  <div class=\"stat\">\n    <div class=\"stat-figure text-secondary\">\n      <div class=\"avatar avatar-online\">\n        <div class=\"w-16 rounded-full\">\n          <img alt=\"Tailwind CSS stat example component\" src=\"https://img.daisyui.com/images/profile/demo/anakeen@192.webp\" />\n        </div>\n      </div>\n    </div>\n    <div class=\"stat-value\">86%</div>\n    <div class=\"stat-title\">Tasks done</div>\n    <div class=\"stat-desc text-secondary\">31 tasks remaining</div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

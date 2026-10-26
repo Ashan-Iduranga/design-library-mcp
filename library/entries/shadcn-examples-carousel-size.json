@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-carousel-size",
+  "title": "Carousel Size (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/carousel-size.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "carousel",
+    "size",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A carousel with motion and swipe built using Embla.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/carousel-size.tsx",
+  "code": "import * as React from \"react\"\n\nimport { Card, CardContent } from \"@/registry/new-york-v4/ui/card\"\nimport {\n  Carousel,\n  CarouselContent,\n  CarouselItem,\n  CarouselNext,\n  CarouselPrevious,\n} from \"@/registry/new-york-v4/ui/carousel\"\n\nexport default function CarouselSize() {\n  return (\n    <Carousel\n      opts={{\n        align: \"start\",\n      }}\n      className=\"w-full max-w-sm\"\n    >\n      <CarouselContent>\n        {Array.from({ length: 5 }).map((_, index) => (\n          <CarouselItem key={index} className=\"md:basis-1/2 lg:basis-1/3\">\n            <div className=\"p-1\">\n              <Card>\n                <CardContent className=\"flex aspect-square items-center justify-center p-6\">\n                  <span className=\"text-3xl font-semibold\">{index + 1}</span>\n                </CardContent>\n              </Card>\n            </div>\n          </CarouselItem>\n        ))}\n      </CarouselContent>\n      <CarouselPrevious />\n      <CarouselNext />\n    </Carousel>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-andrew-demchenk0-swift-octopus-68-019d9a",
+  "title": "Button by andrew-demchenk0 (swift-octopus-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/swift-octopus-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "archive"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/andrew-demchenk0_swift-octopus-68.html",
+  "code": "<button class=\"button\">\n  <svg class=\"svg-icon\" width=\"24\" viewBox=\"0 0 24 24\" height=\"24\" fill=\"none\"><g stroke-width=\"2\" stroke-linecap=\"round\" stroke=\"#056dfa\" fill-rule=\"evenodd\" clip-rule=\"evenodd\"><path d=\"m3 7h17c.5523 0 1 .44772 1 1v11c0 .5523-.4477 1-1 1h-16c-.55228 0-1-.4477-1-1z\"></path><path d=\"m3 4.5c0-.27614.22386-.5.5-.5h6.29289c.13261 0 .25981.05268.35351.14645l2.8536 2.85355h-10z\"></path></g></svg>\n  <span class=\"lable\">Archive</span>\n</button>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: icon, button, archive */\n.button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 8px 12px 8px 16px;\n  gap: 8px;\n  height: 40px;\n  width: 128px;\n  border: none;\n  background: #056bfa27;\n  border-radius: 20px;\n  cursor: pointer;\n}\n\n.lable {\n  margin-top: 1px;\n  font-size: 19px;\n  line-height: 22px;\n  color: #056DFA;\n  font-family: sans-serif;\n  letter-spacing: 1px;\n}\n\n.button:hover {\n  background: #056bfa49;\n}\n\n.button:hover .svg-icon {\n  animation: spin 1s linear infinite;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  25% {\n    transform: rotate(-8deg);\n  }\n\n  50% {\n    transform: rotate(0deg);\n  }\n\n  75% {\n    transform: rotate(8deg);\n  }\n\n  100% {\n    transform: rotate(0deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

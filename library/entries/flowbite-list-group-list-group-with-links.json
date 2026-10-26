@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-list-group-list-group-with-links",
+  "title": "List Group: List group with links (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/list-group/#list-group-with-links",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "list-group",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "You can also display a series of links inside the list group element.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/list-group.md",
+  "code": "<div class=\"w-48 text-sm font-medium text-heading bg-neutral-primary-soft border border-default rounded-base\">\n    <a href=\"#\" aria-current=\"true\" class=\"block w-full px-4 py-2 text-fg-brand bg-neutral-secondary-medium border-b border-default rounded-t-base cursor-pointer\">\n        Profile\n    </a>\n    <a href=\"#\" class=\"block w-full px-4 py-2 border-b border-default cursor-pointer hover:bg-neutral-secondary-medium hover:text-fg-brand focus:outline-none focus:ring-2 focus:ring-brand focus:text-fg-brand\">\n        Settings\n    </a>\n    <a href=\"#\" class=\"block w-full px-4 py-2 border-b border-default cursor-pointer hover:bg-neutral-secondary-medium hover:text-fg-brand focus:outline-none focus:ring-2 focus:ring-brand focus:text-fg-brand\">\n        Messages\n    </a>\n    <a href=\"#\" class=\"block w-full px-4 py-2 rounded-b-base cursor-pointer hover:bg-neutral-secondary-medium hover:text-fg-brand focus:outline-none focus:ring-2 focus:ring-brand focus:text-fg-brand\">\n        Download\n    </a>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-ice1botmaker-quick-goat-3-2b62a7",
+  "title": "Toggle by ICe1BotMaker (quick-goat-3)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ICe1BotMaker/quick-goat-3",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "modern",
+    "toggle-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ICe1BotMaker on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/ICe1BotMaker_quick-goat-3.html",
+  "code": "<label for=\"check\">\n  <input checked=\"\" id=\"check\" type=\"checkbox\">\n  <div class=\"check-bg\">\n    <span class=\"check-span\"></span>\n  </div>\n</label>\n<style>\n/* From Uiverse.io by ICe1BotMaker - Tags: switch, modern, toggle switch */\nlabel[for=\"check\"] input {\n  display: none;\n}\n\nlabel[for=\"check\"] .check-bg {\n  width: 50px;\n  padding: 2.5px;\n  background: whitesmoke;\n  border-radius: 100px;\n  border: 1px solid rgb(228, 228, 228);\n  transition: background .1s, border .1s;\n}\n\nlabel[for=\"check\"] .check-span {\n  display: block;\n  background: rgb(219, 219, 219);\n  width: 25px;\n  height: 25px;\n  border-radius: 100%;\n  transition: background .1s, border .1s, margin-left .325s;\n}\n\nlabel[for=\"check\"] input:checked ~ .check-bg {\n  background: rgb(81, 107, 255);\n  border: 1px solid rgb(68, 90, 216);\n}\n\nlabel[for=\"check\"] input:checked ~ .check-bg .check-span {\n  background: white;\n  border: 0;\n  margin-left: 18px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

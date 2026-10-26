@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-catraco-plastic-moth-91-b69c1e",
+  "title": "Checkbox by catraco (plastic-moth-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/catraco/plastic-moth-91",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "like",
+    "heart",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By catraco on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/catraco_plastic-moth-91.html",
+  "code": "<div class=\"heart-container\" title=\"Like\">\n            <input type=\"checkbox\" class=\"checkbox\" id=\"Give-It-An-Id\">\n            <div class=\"svg-container\">\n                <svg viewBox=\"0 0 24 24\" class=\"svg-outline\" xmlns=\"http://www.w3.org/2000/svg\">\n                    <path d=\"M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z\">\n                    </path>\n                </svg>\n                <svg viewBox=\"0 0 24 24\" class=\"svg-filled\" xmlns=\"http://www.w3.org/2000/svg\">\n                    <path d=\"M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z\">\n                    </path>\n                </svg>\n                <svg class=\"svg-celebrate\" width=\"100\" height=\"100\" xmlns=\"http://www.w3.org/2000/svg\">\n                    <polygon points=\"10,10 20,20\"></polygon>\n                    <polygon points=\"10,50 20,50\"></polygon>\n                    <polygon points=\"20,80 30,70\"></polygon>\n                    <polygon points=\"90,10 80,20\"></polygon>\n                    <polygon points=\"90,50 80,50\"></polygon>\n                    <polygon points=\"80,80 70,70\"></polygon>\n                </svg>\n            </div>\n        </div>\n<style>\n/* From Uiverse.io by catraco - Tags: checkbox, like, heart, hover effect */\n.heart-container {\n  --heart-color: rgb(255, 91, 137);\n  position: relative;\n  width: 50px;\n  height: 50px;\n  transition: .3s;\n}\n\n.heart-container .checkbox {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  opacity: 0;\n  z-index: 20;\n  cursor: pointer;\n}\n\n.heart-container .svg-container {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.heart-container .svg-outline,\n        .heart-container .svg-filled {\n  fill: var(--heart-color);\n  position: absolute;\n}\n\n.heart-container .svg-filled {\n  animation: keyframes-svg-filled 1s;\n  display: none;\n}\n\n.heart-container .svg-celebrate {\n  position: absolute;\n  animation: keyframes-svg-celebrate .5s;\n  animation-fill-mode: forwards;\n  display: none;\n  stroke: var(--heart-color);\n  fill: var(--heart-color);\n  stroke-width: 2px;\n}\n\n.heart-container .checkbox:checked~.svg-container .svg-filled {\n  display: block\n}\n\n.heart-container .checkbox:checked~.svg-container .svg-celebrate {\n  display: block\n}\n\n@keyframes keyframes-svg-filled {\n  0% {\n    transform: scale(0);\n  }\n\n  25% {\n    transform: scale(1.2);\n  }\n\n  50% {\n    transform: scale(1);\n    filter: brightness(1.5);\n  }\n}\n\n@keyframes keyframes-svg-celebrate {\n  0% {\n    transform: scale(0);\n  }\n\n  50% {\n    opacity: 1;\n    filter: brightness(1.5);\n  }\n\n  100% {\n    transform: scale(1.4);\n    opacity: 0;\n    display: none;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

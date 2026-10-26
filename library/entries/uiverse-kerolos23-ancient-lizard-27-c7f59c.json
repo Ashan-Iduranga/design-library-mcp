@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-kerolos23-ancient-lizard-27-c7f59c",
+  "title": "Loader by kerolos23 (ancient-lizard-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kerolos23/ancient-lizard-27",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kerolos23 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/kerolos23_ancient-lizard-27.html",
+  "code": "<div class=\"loader\">\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n</div>\n<style>\n/* From Uiverse.io by kerolos23 - Tags: loader */\n.loader {\n  display: inline-block;\n  position: relative;\n  width: 80px;\n  height: 80px;\n}\n\n.loader div {\n  position: absolute;\n  top: 33px;\n  width: 13px;\n  height: 13px;\n  border-radius: 50%;\n  background: #c517f0;\n  animation-timing-function: cubic-bezier(0, 1, 1, 0);\n}\n\n.loader div:nth-child(1) {\n  left: 8px;\n  animation: flip1 0.6s infinite;\n}\n\n.loader div:nth-child(2) {\n  left: 8px;\n  animation: flip2 0.6s infinite;\n}\n\n.loader div:nth-child(3) {\n  left: 32px;\n  animation: flip2 0.6s infinite;\n}\n\n.loader div:nth-child(4) {\n  left: 56px;\n  animation: flip3 0.6s infinite;\n}\n\n@keyframes flip1 {\n  0% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n@keyframes flip3 {\n  0% {\n    transform: scale(1);\n  }\n\n  100% {\n    transform: scale(0);\n  }\n}\n\n@keyframes flip2 {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  100% {\n    transform: translate(24px, 0);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

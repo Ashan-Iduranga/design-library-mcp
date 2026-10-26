@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-elijahwgummer-poc-giant-panda-93-144d55",
+  "title": "Toggle by elijahwgummer-poc (giant-panda-93)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahwgummer-poc/giant-panda-93",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "simple",
+    "switch",
+    "yes",
+    "no",
+    "animated",
+    "start/stop",
+    "wobble"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahwgummer-poc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/elijahwgummer-poc_giant-panda-93.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n  <span class=\"knob\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by elijahwgummer-poc - Tags: simple, switch, yes, no, animated, start/stop, wobble  */\n.switch {\n  display: inline-block;\n  position: relative;\n  width: 60px;\n  height: 34px;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  cursor: pointer;\n  background-color: #ff6b6b;\n  border-radius: 34px;\n  transition: background-color 0.3s ease;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  left: 4px;\n  bottom: 4px;\n  background-color: #ffffff;\n  border-radius: 50%;\n  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);\n}\n\n.switch input:checked + .slider {\n  background-color: #66bb6a;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(26px);\n}\n\n.slider:before {\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n}\n\n.knob {\n  position: absolute;\n  top: 50%;\n  left: 4px;\n  transform: translateY(-50%);\n  width: 26px;\n  height: 26px;\n  background-color: #ffffff;\n  border-radius: 50%;\n  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);\n}\n\n.switch input:checked ~ .knob {\n  transform: translateX(27px) translateY(-50%);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

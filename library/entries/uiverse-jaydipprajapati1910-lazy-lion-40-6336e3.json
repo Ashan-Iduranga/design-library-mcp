@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-jaydipprajapati1910-lazy-lion-40-6336e3",
+  "title": "Loader by JaydipPrajapati1910 (lazy-lion-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/lazy-lion-40",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "square"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JaydipPrajapati1910_lazy-lion-40.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: loading, loader, square */\n.loader {\n  width: 100px;\n  height: 100px;\n  display: grid;\n  color: hsl(204, 86%, 69%);\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  grid-area: 1/1;\n  --c1: linear-gradient(90deg,rgb(247, 247, 247) calc(100%/3),currentColor 0 calc(2*100%/3),rgb(247, 247, 247) 0);\n  --c2: linear-gradient( 0deg,rgb(247, 247, 247) calc(100%/3),currentColor 0 calc(2*100%/3),rgb(247, 247, 247) 0);\n  background: var(--c1),\n    var(--c2),\n    var(--c1),\n    var(--c2);\n  background-size: 300% 8px,8px 300%;\n  background-repeat: no-repeat;\n  animation: l1 1s infinite linear;\n}\n\n.loader:after {\n  margin: 10px;\n  transform: scaleX(-1);\n  animation-delay: -.25s;\n}\n\n@keyframes l1 {\n  0% {\n    background-position: 50%  0,100% 100%,0    100%,0 0\n  }\n\n  25% {\n    background-position: 0    0,100% 50% ,0    100%,0 0\n  }\n\n  50% {\n    background-position: 0    0,100% 0   ,50%  100%,0 0\n  }\n\n  75% {\n    background-position: 0    0,100% 0   ,100% 100%,0 50%\n  }\n\n  75.01% {\n    background-position: 100% 0,100% 0   ,100% 100%,0 50%\n  }\n\n  100% {\n    background-position: 50%  0,100% 0   ,100% 100%,0 100%\n  }\n}\n  \n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

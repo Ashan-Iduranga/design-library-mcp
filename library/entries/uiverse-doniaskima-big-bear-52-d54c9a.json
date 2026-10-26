@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-doniaskima-big-bear-52-d54c9a",
+  "title": "Loader by doniaskima (big-bear-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/big-bear-52",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "material-design",
+    "neumorphism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_big-bear-52.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: simple, material design, neumorphism, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  display: inline-flex;\n  border: 2px solid #000;\n  --c: no-repeat linear-gradient(#000 0 0) 50%;\n  background: var(--c) calc(50% - 5px)/5px 5px,\n    var(--c) calc(50% + 5px)/5px 5px;\n}\n\n.loader::before,\n.loader::after {\n  content: \"12 00 23 40 31 45 60 17 45 32 29 42 50 08 14 07 46 11 03 55\";\n  font-size: 30px;\n  font-family: monospace;\n  font-weight: bold;\n  line-height: 1em;\n  height: 1em;\n  width: 2ch;\n  color: #0000;\n  text-shadow: 0 0 0 #000;\n  overflow: hidden;\n  margin: 5px 10px;\n  animation: l3 1s steps(20) infinite;\n}\n\n.loader::before {\n  animation-duration: 1.5s;\n}\n\n@keyframes l3 {\n  100% {\n    text-shadow: 0 -20em 0 #000\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

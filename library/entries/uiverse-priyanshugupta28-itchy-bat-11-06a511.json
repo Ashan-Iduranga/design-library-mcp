@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-priyanshugupta28-itchy-bat-11-06a511",
+  "title": "Toggle by PriyanshuGupta28 (itchy-bat-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/itchy-bat-11",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "3d-switch",
+    "cool-switch",
+    "creative-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/PriyanshuGupta28_itchy-bat-11.html",
+  "code": "<div class=\"flipswitch\">\n    <input checked=\"\" id=\"fs\" class=\"flipswitch-cb\" name=\"flipswitch\" type=\"checkbox\">\n    <label for=\"fs\" class=\"flipswitch-label\">\n        <div class=\"flipswitch-inner\"></div>\n        <div class=\"flipswitch-switch\"></div>\n    </label>\n</div>\n\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: switch, 3d switch, cool switch, creative switch */\n.flipswitch {\n  position: relative;\n  width: 86px;\n}\n\n.flipswitch input[type=checkbox] {\n  display: none;\n}\n\n.flipswitch-label {\n  display: block;\n  overflow: hidden;\n  cursor: pointer;\n  border: 1px solid #999999;\n  border-radius: 8px;\n}\n\n.flipswitch-inner {\n  width: 200%;\n  margin-left: -100%;\n  transition: margin 0.3s ease-in 0s;\n}\n\n.flipswitch-inner:before, .flipswitch-inner:after {\n  float: left;\n  width: 50%;\n  height: 24px;\n  padding: 0;\n  line-height: 24px;\n  font-size: 18px;\n  color: white;\n  font-family: Trebuchet, Arial, sans-serif;\n  font-weight: bold;\n  box-sizing: border-box;\n}\n\n.flipswitch-inner:before {\n  content: \"ON\";\n  padding-left: 12px;\n  background-color: #256799;\n  color: #FFFFFF;\n}\n\n.flipswitch-inner:after {\n  content: \"OFF\";\n  padding-right: 12px;\n  background-color: #EBEBEB;\n  color: #888888;\n  text-align: right;\n}\n\n.flipswitch-switch {\n  width: 31px;\n  margin: -3.5px;\n  background: #FFFFFF;\n  border: 1px solid #999999;\n  border-radius: 8px;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 59px;\n  transition: all 0.3s ease-in 0s;\n}\n\n.flipswitch-cb:checked + .flipswitch-label .flipswitch-inner {\n  margin-left: 0;\n}\n\n.flipswitch-cb:checked + .flipswitch-label .flipswitch-switch {\n  right: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "open-props-choco",
+  "title": "Open Props: Choco color scale",
+  "source": "Open Props",
+  "url": "https://open-props.style/#colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "choco",
+    "open-props",
+    "css-variables",
+    "tokens",
+    "color"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "13 CSS custom properties, e.g. --choco-0, --choco-1, --choco-2, --choco-3.\n\nUse: npm i open-props, then @import \"open-props/choco\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.choco.css",
+  "code": "<style>\n:where(html) {\n  --choco-0: #fff8dc;\n  --choco-1: #fce1bc;\n  --choco-2: #f7ca9e;\n  --choco-3: #f1b280;\n  --choco-4: #e99b62;\n  --choco-5: #df8545;\n  --choco-6: #d46e25;\n  --choco-7: #bd5f1b;\n  --choco-8: #a45117;\n  --choco-9: #8a4513;\n  --choco-10: #703a13;\n  --choco-11: #572f12;\n  --choco-12: #3d210d;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Open Props choco</strong>\n<p>choco</p><div class=\"row\"><div style=\"background:#fff8dc\" title=\"--choco-0: #fff8dc\"><span>0</span></div><div style=\"background:#fce1bc\" title=\"--choco-1: #fce1bc\"><span>1</span></div><div style=\"background:#f7ca9e\" title=\"--choco-2: #f7ca9e\"><span>2</span></div><div style=\"background:#f1b280\" title=\"--choco-3: #f1b280\"><span>3</span></div><div style=\"background:#e99b62\" title=\"--choco-4: #e99b62\"><span>4</span></div><div style=\"background:#df8545\" title=\"--choco-5: #df8545\"><span>5</span></div><div style=\"background:#d46e25\" title=\"--choco-6: #d46e25\"><span>6</span></div><div style=\"background:#bd5f1b\" title=\"--choco-7: #bd5f1b\"><span>7</span></div><div style=\"background:#a45117\" title=\"--choco-8: #a45117\"><span>8</span></div><div style=\"background:#8a4513\" title=\"--choco-9: #8a4513\"><span>9</span></div><div style=\"background:#703a13\" title=\"--choco-10: #703a13\"><span>10</span></div><div style=\"background:#572f12\" title=\"--choco-11: #572f12\"><span>11</span></div><div style=\"background:#3d210d\" title=\"--choco-12: #3d210d\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

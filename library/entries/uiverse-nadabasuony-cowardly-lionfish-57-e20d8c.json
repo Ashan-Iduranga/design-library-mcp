@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nadabasuony-cowardly-lionfish-57-e20d8c",
+  "title": "Loader by Nadabasuony (cowardly-lionfish-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nadabasuony/cowardly-lionfish-57",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nadabasuony on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Nadabasuony_cowardly-lionfish-57.html",
+  "code": "<div class=\"loader\">\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n</div>\n<style>\n/* From Uiverse.io by Nadabasuony - Tags: loader */\n.loader {\n  display: flex;\n}\n\n.l,.l:nth-child(9) {\n  margin: 0.15em;\n  border-radius: 5em;\n  width: 0.4em;\n  background-color: #f12711;\n  height: 3em;\n  box-shadow: 1px 1px 4px black;\n  animation: load_5186 cubic-bezier(.41,.44,.72,.69) 2s infinite;\n}\n\n.l:nth-child(2), \n.l:nth-child(8) {\n  background-color: #f24e13;\n  animation-delay: .25s;\n}\n\n.l:nth-child(3), \n.l:nth-child(7) {\n  background-color: #f36915;\n  animation-delay: .5s;\n}\n\n.l:nth-child(4), \n.l:nth-child(6) {\n  background-color: #f48c17;\n  animation-delay: .75s;\n}\n\n.l:nth-child(5) {\n  background-color: #f5af19;\n  animation-delay: 1s;\n}\n\n@keyframes load_5186 {\n  0% {\n    transform: scaleY(1);\n  }\n\n  100% {\n    transform: scaleY(-1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

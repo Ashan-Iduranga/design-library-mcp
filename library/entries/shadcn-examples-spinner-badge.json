@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-spinner-badge",
+  "title": "Spinner Badge (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/spinner-badge.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "spinner",
+    "badge",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "An indicator that can be used to show a loading state.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/spinner-badge.tsx",
+  "code": "import { Badge } from \"@/registry/new-york-v4/ui/badge\"\nimport { Spinner } from \"@/registry/new-york-v4/ui/spinner\"\n\nexport default function SpinnerBadge() {\n  return (\n    <div className=\"flex items-center gap-4 [--radius:1.2rem]\">\n      <Badge>\n        <Spinner />\n        Syncing\n      </Badge>\n      <Badge variant=\"secondary\">\n        <Spinner />\n        Updating\n      </Badge>\n      <Badge variant=\"outline\">\n        <Spinner />\n        Processing\n      </Badge>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

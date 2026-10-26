@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-clever-earwig-74-299254",
+  "title": "Loader by satyamchaudharydev (clever-earwig-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/clever-earwig-74",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/satyamchaudharydev_clever-earwig-74.html",
+  "code": "<div class=\"spinner\">\n    <svg viewBox=\"25 25 50 50\" class=\"circular\">\n        <circle stroke-miterlimit=\"10\" stroke-width=\"3\" fill=\"none\" r=\"20\" cy=\"50\" cx=\"50\" class=\"path\"></circle>\n    </svg>\n</div>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.spinner {\n  --red: #d62d20;\n  --blue: #0057e7;\n  --green: #008744;\n  --yellow: #ffa700;\n  position: relative;\n  width: 60px;\n}\n\n.spinner:before {\n  content: \"\";\n  display: block;\n  padding-top: 100%;\n}\n\n.circular {\n  animation: rotate73451 2s linear infinite;\n  height: 100%;\n  transform-origin: center center;\n  width: 100%;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin: auto;\n}\n\n.path {\n  stroke-dasharray: 1, 200;\n  stroke-dashoffset: 0;\n  animation: dash0175 1.5s ease-in-out infinite, color7123 6s ease-in-out infinite;\n  stroke-linecap: round;\n}\n\n@keyframes rotate73451 {\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes dash0175 {\n  0% {\n    stroke-dasharray: 1, 200;\n    stroke-dashoffset: 0;\n  }\n\n  50% {\n    stroke-dasharray: 89, 200;\n    stroke-dashoffset: -35px;\n  }\n\n  100% {\n    stroke-dasharray: 89, 200;\n    stroke-dashoffset: -124px;\n  }\n}\n\n@keyframes color7123 {\n  100%, 0% {\n    stroke: var(--red);\n  }\n\n  40% {\n    stroke: var(--blue);\n  }\n\n  66% {\n    stroke: var(--green);\n  }\n\n  80%, 90% {\n    stroke: var(--yellow);\n  }\n}\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

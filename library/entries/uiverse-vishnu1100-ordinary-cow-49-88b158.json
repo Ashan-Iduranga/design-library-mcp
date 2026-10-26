@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-vishnu1100-ordinary-cow-49-88b158",
+  "title": "Loader by vishnu1100 (ordinary-cow-49)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vishnu1100/ordinary-cow-49",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "minimalist",
+    "realistic",
+    "circle-loader",
+    "css-effect",
+    "hover-button",
+    "bounce-animation",
+    "pattern"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vishnu1100 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vishnu1100_ordinary-cow-49.html",
+  "code": "<div class=\"easter-animation\">\n  <div class=\"egg\">\n    <div class=\"eyes\"></div>\n  </div>\n  <div class=\"shadow\"></div>\n  <div class=\"clouds\">\n    <div class=\"cloud1\"></div>\n    <div class=\"cloud2\"></div>\n    <div class=\"cloud3\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by vishnu1100  - Tags: minimalist, loader, realistic, circle loader, css effect, hover button, bounce animation, pattern */\n.easter-animation {\n  position: relative;\n}\n\n.egg {\n  position: relative;\n  width: 150px;\n  height: 200px;\n  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;\n  background: linear-gradient(\n    295deg,\n    #ff595e 15%,\n    #8ac926 15%,\n    #8ac926 30%,\n    #ff595e 30%,\n    #ff595e 49%,\n    #8ac926 49%,\n    #8ac926 70%,\n    #ff595e 70%\n  );\n  overflow: hidden;\n  animation: bounce 1s linear infinite;\n}\n\n.egg:before,\n.egg:after {\n  position: absolute;\n  content: \"\";\n}\n\n.egg:before {\n  width: 200px;\n  height: 100px;\n  background-color: #1982c4;\n  top: 160px;\n  box-shadow: 0 -50px #ffca3a, 0 -65px #8ac926, 0 -90px #6a4c93, 0 -95px #ffca3a;\n}\n\n.egg:after {\n  border-radius: 50%;\n  width: 15px;\n  height: 15px;\n  background-color: #ffca3a;\n  left: 90px;\n  top: 75px;\n  box-shadow: -40px 0 #ffca3a, 40px 0 #ffca3a, -80px 0 #ffca3a, -120px 0 #ffca3a;\n}\n\n.eyes {\n  position: absolute;\n  background-color: #333;\n  border-radius: 50%;\n  width: 20px;\n  height: 30px;\n  left: 90px;\n  top: 120px;\n  box-shadow: 20px 0 #333;\n}\n\n.eyes:before {\n  position: absolute;\n  content: \"\";\n  background-color: #fff;\n  width: 5px;\n  height: 12px;\n  border-radius: 50%;\n  left: 12px;\n  top: 10px;\n  box-shadow: 20px 0 #fff;\n}\n\n.eyes:after {\n  content: \"\";\n  position: absolute;\n  width: 200px;\n  height: 30px;\n  background-color: #1982c4;\n  top: -130px;\n  left: -100px;\n}\n\n@keyframes bounce {\n  0% {\n    transform: scale(1, 1) translateY(0);\n  }\n  10% {\n    transform: scale(1.1, 0.9) translateY(0);\n  }\n  30% {\n    transform: scale(0.9, 1.1) translateY(-70px) translateX(30px);\n  }\n  50% {\n    transform: scale(1.05, 0.95) translateY(0) translateX(30px) rotate(-10deg);\n  }\n  58% {\n    transform: scale(1, 1) translateY(-7px) translateX(0);\n  }\n  65% {\n    transform: scale(1, 1) translateY(0);\n  }\n  100% {\n    transform: scale(1, 1) translateY(0);\n  }\n}\n\n.shadow {\n  position: absolute;\n  z-index: -1;\n  background-color: rgba(0, 0, 0, 0.2);\n  width: 100px;\n  height: 20px;\n  border-radius: 50%;\n  left: 20px;\n  top: 190px;\n  animation: move 1s linear infinite;\n}\n\n@keyframes move {\n  0% {\n    transform: translateX(0);\n  }\n  10% {\n    transform: translateX(0) scale(0.8);\n  }\n  30% {\n    transform: translateX(0) scale(0.8);\n  }\n  50% {\n    transform: translateX(30px) scale(0.7);\n  }\n  58% {\n    transform: translateX(20px);\n  }\n  65% {\n    transform: translateX(0);\n  }\n  100% {\n    transform: translateX(0);\n  }\n}\n\n.clouds {\n  position: absolute;\n  width: 500px;\n}\n\n.cloud1,\n.cloud2,\n.cloud3 {\n  position: absolute;\n  background-color: white;\n  width: 100px;\n  height: 25px;\n  border-radius: 100px;\n}\n\n.cloud1:before,\n.cloud2:before,\n.cloud3:before {\n  position: absolute;\n  content: \"\";\n  width: 40px;\n  height: 40px;\n  top: -20px;\n  left: 20px;\n  background-color: white;\n  border-radius: 50%;\n}\n\n.cloud1 {\n  top: -150px;\n  z-index: -1;\n  animation: clouds 2s linear infinite;\n}\n\n.cloud2 {\n  top: -70px;\n  opacity: 0.5;\n  transform: scale(0.7);\n  animation: clouds 1.8s linear infinite;\n}\n\n.cloud3 {\n  top: -100px;\n  opacity: 0.5;\n  transform: scale(0.9);\n  animation: clouds 1.5s linear infinite;\n  z-index: -2;\n}\n\n@keyframes clouds {\n  from {\n    left: 500px;\n  }\n  to {\n    left: -500px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

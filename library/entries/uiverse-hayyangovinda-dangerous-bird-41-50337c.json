@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-hayyangovinda-dangerous-bird-41-50337c",
+  "title": "Checkbox by hayyangovinda (dangerous-bird-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/hayyangovinda/dangerous-bird-41",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "flashy",
+    "clock",
+    "days",
+    "alarm"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By hayyangovinda on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/hayyangovinda_dangerous-bird-41.html",
+  "code": "<div class=\"days-btn-container\">\n  <input class=\"day-btn\" id=\"monday\" type=\"checkbox\" checked=\"true\" />\n  <label class=\"day-label\" for=\"monday\">M</label>\n\n  <input class=\"day-btn\" id=\"tuesday\" type=\"checkbox\" checked=\"true\" />\n  <label class=\"day-label\" for=\"tuesday\">T</label>\n\n  <input class=\"day-btn\" id=\"wednesday\" type=\"checkbox\" checked=\"true\" />\n  <label class=\"day-label\" for=\"wednesday\">W</label>\n\n  <input class=\"day-btn\" id=\"thursday\" type=\"checkbox\" checked=\"true\" />\n  <label class=\"day-label\" for=\"thursday\">T</label>\n\n  <input class=\"day-btn\" id=\"friday\" type=\"checkbox\" checked=\"true\" />\n  <label class=\"day-label\" for=\"friday\">F</label>\n\n  <input class=\"day-btn\" id=\"saturday\" type=\"checkbox\" checked=\"true\" />\n  <label class=\"day-label\" for=\"saturday\">S</label>\n\n  <input class=\"day-btn\" id=\"sunday\" type=\"checkbox\" checked=\"true\" />\n  <label class=\"day-label\" for=\"sunday\">S</label>\n</div>\n\n<style>\n/* From Uiverse.io by hayyangovinda  - Tags: flashy, checkbox, clock, days, alarm */\n.days-btn-container {\n  display: flex;\n  width: 300px;\n  align-items: center;\n  justify-content: space-evenly;\n  height: 34px;\n}\n\n.day-btn {\n  display: none; /* Hide the original checkbox */\n}\n\n.day-label {\n  background-color: transparent;\n  font-size: 11px;\n  font-weight: 600;\n  color: #ff5b22;\n  cursor: pointer;\n  border: 2px solid #ff5b22;\n  border-radius: 50%;\n  width: 28px;\n  height: 28px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: 0 5px;\n}\n\n/* Apply styles for the selected state */\n.day-btn:checked + .day-label {\n  background-color: #ffe53b;\n  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);\n  border: none;\n  color: white;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

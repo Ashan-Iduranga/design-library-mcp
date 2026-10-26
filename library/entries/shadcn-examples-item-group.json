@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-item-group",
+  "title": "Item Group (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/item-group.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "item",
+    "group",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A versatile component for displaying content with media, title, description, and actions.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/item-group.tsx",
+  "code": "import * as React from \"react\"\nimport { PlusIcon } from \"lucide-react\"\n\nimport {\n  Avatar,\n  AvatarFallback,\n  AvatarImage,\n} from \"@/registry/new-york-v4/ui/avatar\"\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\nimport {\n  Item,\n  ItemActions,\n  ItemContent,\n  ItemDescription,\n  ItemGroup,\n  ItemMedia,\n  ItemSeparator,\n  ItemTitle,\n} from \"@/registry/new-york-v4/ui/item\"\n\nconst people = [\n  {\n    username: \"shadcn\",\n    avatar: \"https://github.com/shadcn.png\",\n    email: \"shadcn@vercel.com\",\n  },\n  {\n    username: \"maxleiter\",\n    avatar: \"https://github.com/maxleiter.png\",\n    email: \"maxleiter@vercel.com\",\n  },\n  {\n    username: \"evilrabbit\",\n    avatar: \"https://github.com/evilrabbit.png\",\n    email: \"evilrabbit@vercel.com\",\n  },\n]\n\nexport default function ItemGroupExample() {\n  return (\n    <div className=\"flex w-full max-w-md flex-col gap-6\">\n      <ItemGroup>\n        {people.map((person, index) => (\n          <React.Fragment key={person.username}>\n            <Item>\n              <ItemMedia>\n                <Avatar>\n                  <AvatarImage src={person.avatar} className=\"grayscale\" />\n                  <AvatarFallback>{person.username.charAt(0)}</AvatarFallback>\n                </Avatar>\n              </ItemMedia>\n              <ItemContent className=\"gap-1\">\n                <ItemTitle>{person.username}</ItemTitle>\n                <ItemDescription>{person.email}</ItemDescription>\n              </ItemContent>\n              <ItemActions>\n                <Button variant=\"ghost\" size=\"icon\" className=\"rounded-full\">\n                  <PlusIcon />\n                </Button>\n              </ItemActions>\n            </Item>\n            {index !== people.length - 1 && <ItemSeparator />}\n          </React.Fragment>\n        ))}\n      </ItemGroup>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

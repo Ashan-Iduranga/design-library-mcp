@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-elijahgummer-brown-moose-94-4f033d",
+  "title": "Tooltip by elijahgummer (brown-moose-94)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/brown-moose-94",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "simple",
+    "green",
+    "minimalist",
+    "github",
+    "clean",
+    "transition",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/elijahgummer_brown-moose-94.html",
+  "code": "<div class=\"tooltip-container\">\n  <span class=\"tooltip\">8 contributions on March 8th.</span>\n  <span class=\"text\"></span>\n</div>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, tooltip, green, minimalist, github, clean, transition, hover effect */\n.tooltip-container {\n  --background-tooltip-container: #2ea44f; /* GitHub green color */\n  position: relative;\n  background: var(--background-tooltip-container);\n  cursor: pointer;\n  transition: all 0.2s;\n  width: 16px;\n  height: 16px;\n  border-radius: 6px;\n  font-size: 17px;\n}\n\n.tooltip {\n  --background-tooltip: #6e7681; /* Default background color for tooltip */\n  position: absolute;\n  top: -39px; /* Adjusted top position */\n  left: 50%;\n  transform: translateX(-50%);\n  padding: 0.5em;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s;\n  background: var(--background-tooltip);\n  color: white; /* Text color */\n  border-radius: 5px;\n  width: 210px;\n  height: 30px;\n  font-size: 13px;\n  text-align: center;\n}\n\n.tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 0.6em;\n  width: 0.6em;\n  bottom: -0.2em;\n  left: 50%;\n  transform: translate(-50%) rotate(45deg);\n  background: var(\n    --background-tooltip\n  ); /* Use the same background color as the tooltip */\n}\n\n.tooltip-container:hover .tooltip {\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

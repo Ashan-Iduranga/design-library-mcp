@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mobinkakei-pretty-fireant-78-940008",
+  "title": "Loader by mobinkakei (pretty-fireant-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/pretty-fireant-78",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mobinkakei_pretty-fireant-78.html",
+  "code": "<div class=\"loader\">\n    <span>Loading...</span>\n</div>\n<style>\n/* From Uiverse.io by mobinkakei - Tags: loader */\n.loader {\n  width: 100px;\n  height: 100px;\n  box-sizing: border-box;\n  border-radius: 50%;\n  border-top: 5px solid #e74c3c;\n  position: relative;\n  animation: load 2s linear infinite;\n}\n\n.loader::before,.loader::after {\n  content: '';\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  left: 0;\n  top: 0;\n  box-sizing: border-box;\n  border-radius: 50%;\n}\n\n.loader::before {\n  border-top: 5px solid #e67e22;\n  transform: rotate(120deg);\n}\n\n.loader::after {\n  border-top: 5px solid #3498db;\n  transform: rotate(240deg);\n}\n\n.loader span {\n  position: absolute;\n  font-size: small;\n  width: 100px;\n  height: 100px;\n  color: #fff;\n  text-align: center;\n  line-height: 100px;\n  animation: a2 2s linear infinite;\n}\n\n@keyframes load {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes a2 {\n  to {\n    transform: rotate(-360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

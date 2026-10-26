@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vishalparajuli-warm-snake-99-7f0657",
+  "title": "Button by vishalparajuli (warm-snake-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vishalparajuli/warm-snake-99",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d-button",
+    "3d-card"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vishalparajuli on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vishalparajuli_warm-snake-99.html",
+  "code": "<div class=\"button\">\n    <div class=\"button__front\">rocket</div>\n    <div class=\"button__back\">roll</div>\n  </div>\n<style>\n/* From Uiverse.io by vishalparajuli - Tags: button, 3d button, 3d card */\n.button {\n  width: 100px;\n  height: 50px;\n  position: relative;\n  perspective: 800px;\n}\n\n.button__front,\n  .button__back {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 18px;\n  font-weight: bold;\n  text-transform: uppercase;\n  color: #fff;\n  background-color: #3498db;\n  border-radius: 5px;\n  position: absolute;\n  backface-visibility: hidden;\n  transition: transform 0.5s ease;\n}\n\n.button__back {\n  background-color: #e74c3c;\n  transform: rotateY(180deg);\n}\n\n.button:hover .button__front {\n  transform: rotateY(-180deg);\n}\n\n.button:hover .button__back {\n  transform: rotateY(0);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-juanes200122-light-seahorse-74-5fc072",
+  "title": "Card by Juanes200122 (light-seahorse-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Juanes200122/light-seahorse-74",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "animation",
+    "social"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Juanes200122 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Juanes200122_light-seahorse-74.html",
+  "code": "<div class=\"container\">\n        <div class=\"skill-box\">\n            <span class=\"title\">HTML</span>\n\n            <div class=\"skill-bar\">\n                <span class=\"skill-per html\">\n                    <span class=\"tooltip\">50%</span>\n                </span>\n            </div>\n        </div>\n\n        <div class=\"skill-box\">\n            <span class=\"title\">CSS</span>\n\n            <div class=\"skill-bar\">\n                <span class=\"skill-per css\">\n                    <span class=\"tooltip\">70%</span>\n                </span>\n            </div>\n        </div>\n        <div class=\"skill-box\">\n            <span class=\"title\">JavaScript</span>\n\n            <div class=\"skill-bar\">\n                <span class=\"skill-per javascript\">\n                    <span class=\"tooltip\">50%</span>\n                </span>\n            </div>\n        </div>\n        <div class=\"skill-box\">\n            <span class=\"title\">NodeJS</span>\n\n            <div class=\"skill-bar\">\n                <span class=\"skill-per nodejs\">\n                    <span class=\"tooltip\">30%</span>\n                </span>\n            </div>\n        </div>\n    </div>\n<style>\n/* From Uiverse.io by Juanes200122 - Tags: animation, social, card */\n.container {\n  position: relative;\n  max-width: 500px;\n  width: 100%;\n  background: #ececec;\n  margin: 0 15px;\n  padding: 10px 20px;\n  border-radius: 7px;\n}\n\n.container .skill-box {\n  width: 100%;\n  margin: 25px 0;\n}\n\n.skill-box .title {\n  display: block;\n  font-size: 14px;\n  font-weight: 600;\n  color: #333;\n}\n\n.skill-box .skill-bar {\n  height: 8px;\n  width: 100%;\n  border-radius: 6px;\n  margin-top: 6px;\n  background: rgba(0,0,0,0.1);\n}\n\n.skill-bar .skill-per {\n  position: relative;\n  display: block;\n  height: 100%;\n  width: 90%;\n  border-radius: 6px;\n  background: #4070f4;\n  animation: progress 0.4s ease-in-out forwards;\n  opacity: 0;\n}\n\n.skill-per.html {\n   /*progreso de las diferentes lenguajes*/\n  width: 50%;\n  animation-delay: 0.1s;\n}\n\n.skill-per.css {\n         /*progreso de las diferentes lenguajes*/\n  width: 70%;\n  animation-delay: 0.1s;\n}\n\n.skill-per.javascript {\n      /*progreso de las diferentes lenguajes*/\n  width: 50%;\n  animation-delay: 0.2s;\n}\n\n.skill-per.nodejs {\n      /*progreso de las diferentes lenguajes*/\n  width: 30%;\n  animation-delay: 0.3s;\n}\n\n@keyframes progress {\n  0% {\n    width: 0;\n    opacity: 1;\n  }\n\n  100% {\n    opacity: 1;\n  }\n}\n\n.skill-per .tooltip {\n  position: absolute;\n  right: -14px;\n  top: -28px;\n  font-size: 9px;\n  font-weight: 500;\n  color: #fff;\n  padding: 2px 6px;\n  border-radius: 3px;\n  background: #4070f4;\n  z-index: 1;\n}\n\n.tooltip::before {\n  content: '';\n  position: absolute;\n  left: 50%;\n  bottom: -2px;\n  height: 10px;\n  width: 10px;\n  z-index: -1;\n  background-color: #4070f4;\n  transform: translateX(-50%) rotate(45deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-amine-maker-friendly-pig-12-cd2884",
+  "title": "Card by Amine-maker (friendly-pig-12)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Amine-maker/friendly-pig-12",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Amine-maker on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Amine-maker_friendly-pig-12.html",
+  "code": "<article class=\"article-wrapper\">\n  <div class=\"rounded-lg container-project\">\n    </div>\n    <div class=\"project-info\">\n      <div class=\"flex-pr\">\n        <div class=\"project-title text-nowrap\">Project</div>\n          <div class=\"project-hover\">\n            <svg style=\"color: black;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"2em\" height=\"2em\" color=\"black\" stroke-linejoin=\"round\" stroke-linecap=\"round\" viewBox=\"0 0 24 24\" stroke-width=\"2\" fill=\"none\" stroke=\"currentColor\"><line y2=\"12\" x2=\"19\" y1=\"12\" x1=\"5\"></line><polyline points=\"12 5 19 12 12 19\"></polyline></svg>\n            </div>\n          </div>\n          <div class=\"types\">\n            <span style=\"background-color: rgba(165, 96, 247, 0.43); color: rgb(85, 27, 177);\" class=\"project-type\">• Analytics</span>\n             <span class=\"project-type\">• Dashboards</span>\n        </div>\n    </div>\n</article>\n<style>\n/* From Uiverse.io by Amine-maker - Tags: card */\n.article-wrapper {\n  width: 250px;\n  -webkit-transition: 0.15s all ease-in-out;\n  transition: 0.15s all ease-in-out;\n  border-radius: 10px;\n  padding: 5px;\n  border: 4px solid transparent;\n  cursor: pointer;\n  background-color: white;\n}\n\n.article-wrapper:hover {\n  -webkit-box-shadow: 10px 10px 0 #4e84ff, 20px 20px 0 #4444bd;\n  box-shadow: 10px 10px 0 #4e84ff, 20px 20px 0 #4444bd;\n  border-color: #0578c5;\n  -webkit-transform: translate(-20px, -20px);\n  -ms-transform: translate(-20px, -20px);\n  transform: translate(-20px, -20px);\n}\n\n.article-wrapper:active {\n  -webkit-box-shadow: none;\n  box-shadow: none;\n  -webkit-transform: translate(0, 0);\n  -ms-transform: translate(0, 0);\n  transform: translate(0, 0);\n}\n\n.types {\n  gap: 10px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  place-content: flex-start;\n}\n\n.rounded-lg {\n /* class tailwind */\n  border-radius: 10px;\n}\n\n.article-wrapper:hover .project-hover {\n  -webkit-transform: rotate(-45deg);\n  -ms-transform: rotate(-45deg);\n  transform: rotate(-45deg);\n  background-color: #a6c2f0;\n}\n\n.project-info {\n  padding-top: 20px;\n  padding: 10px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -ms-flex-direction: column;\n  flex-direction: column;\n  gap: 20px;\n}\n\n.project-title {\n  font-size: 2em;\n  margin: 0;\n  font-weight: 600;\n /* depend de la font */\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  color: black;\n}\n\n.flex-pr {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n  -ms-flex-pack: justify;\n  justify-content: space-between;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n}\n\n.project-type {\n  background: #b2b2fd;\n  color: #1a41cd;\n  font-weight: bold;\n  padding: 0.3em 0.7em;\n  border-radius: 15px;\n  font-size: 12px;\n  letter-spacing: -0.6px\n}\n\n.project-hover {\n  border-radius: 50%;\n  width: 50px;\n  height: 50px;\n  padding: 9px;\n  -webkit-transition: all 0.3s ease;\n  transition: all 0.3s ease;\n}\n\n.container-project {\n  width: 100%;\n  height: 170px;\n  background: gray;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

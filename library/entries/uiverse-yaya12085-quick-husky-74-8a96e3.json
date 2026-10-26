@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-quick-husky-74-8a96e3",
+  "title": "Button by Yaya12085 (quick-husky-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/quick-husky-74",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Yaya12085_quick-husky-74.html",
+  "code": "<button class=\"button\">\n  <svg stroke=\"#ffffff\" xml:space=\"preserve\" viewBox=\"0 0 80 80\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns=\"http://www.w3.org/2000/svg\" id=\"Capa_1\" version=\"1.1\" fill=\"#ffffff\"><g stroke-width=\"0\" id=\"SVGRepo_bgCarrier\"></g><g stroke-linejoin=\"round\" stroke-linecap=\"round\" id=\"SVGRepo_tracerCarrier\"></g><g id=\"SVGRepo_iconCarrier\"> <g> <path d=\"M64,48L64,48h-8V32h8c8.836,0,16-7.164,16-16S72.836,0,64,0c-8.837,0-16,7.164-16,16v8H32v-8c0-8.836-7.164-16-16-16 S0,7.164,0,16s7.164,16,16,16h8v16h-8l0,0l0,0C7.164,48,0,55.164,0,64s7.164,16,16,16c8.837,0,16-7.164,16-16l0,0v-8h16v7.98 c0,0.008-0.001,0.014-0.001,0.02c0,8.836,7.164,16,16,16s16-7.164,16-16S72.836,48.002,64,48z M64,8c4.418,0,8,3.582,8,8 s-3.582,8-8,8h-8v-8C56,11.582,59.582,8,64,8z M8,16c0-4.418,3.582-8,8-8s8,3.582,8,8v8h-8C11.582,24,8,20.417,8,16z M16,72 c-4.418,0-8-3.582-8-8s3.582-8,8-8l0,0h8v8C24,68.418,20.418,72,16,72z M32,48V32h16v16H32z M64,72c-4.418,0-8-3.582-8-8l0,0v-8 h7.999c4.418,0,8,3.582,8,8S68.418,72,64,72z\"></path> </g> </g></svg>\n  command\n</button>\n<style>\n/* From Uiverse.io by Yaya12085 - Source: https://uiverse.io/dylanharriscameron/good-dingo-46 - Tags: 3d, button, dark, key , keyboard */\n.button {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-end;\n  justify-content: space-between;\n  background-color: #000;\n  color: #fff;\n  font-size: 13px;\n  border: 0.5px solid rgba(0, 0, 0, 0.1);\n  padding-bottom: 8px;\n  height: 65px;\n  padding: 12px;\n  border-radius: 15px 15px 12px 12px;\n  cursor: pointer;\n  position: relative;\n  will-change: transform;\n  transition: all .1s ease-in-out 0s;\n  user-select: none;\n  /* Add gradient shading to each side */\n  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),\n    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));\n  background-position: bottom right, bottom right;\n  background-size: 100% 100%, 100% 100%;\n  background-repeat: no-repeat;\n  box-shadow: inset -4px -10px 0px rgba(255, 255, 255, 0.4),\n    inset -4px -8px 0px rgba(0, 0, 0, 0.3),\n    0px 2px 1px rgba(0, 0, 0, 0.3),\n    0px 2px 1px rgba(255, 255, 255, 0.1);\n  transform: perspective(70px) rotateX(5deg) rotateY(0deg);\n}\n\n.button::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.5));\n  z-index: -1;\n  border-radius: 15px;\n  box-shadow: inset 4px 0px 0px rgba(255, 255, 255, 0.1),\n    inset 4px -8px 0px rgba(0, 0, 0, 0.3);\n  transition: all .1s ease-in-out 0s;\n}\n\n.button::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),\n    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));\n  background-position: bottom right, bottom right;\n  background-size: 100% 100%, 100% 100%;\n  background-repeat: no-repeat;\n  z-index: -1;\n  border-radius: 15px;\n  transition: all .1s ease-in-out 0s;\n}\n\n.button:active {\n  will-change: transform;\n  transform: perspective(80px) rotateX(5deg) rotateY(1deg) translateY(3px) scale(0.96);\n  height: 64px;\n  border: 0.25px solid rgba(0, 0, 0, 0.2);\n  box-shadow: inset -4px -8px 0px rgba(255, 255, 255, 0.2),\n    inset -4px -6px 0px rgba(0, 0, 0, 0.8),\n    0px 1px 0px rgba(0, 0, 0, 0.9),\n    0px 1px 0px rgba(255, 255, 255, 0.2);\n  transition: all .1s ease-in-out 0s;\n}\n\n.button::after:active {\n  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.2));\n}\n\n.button:active::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 5%;\n  left: 20%;\n  width: 50%;\n  height: 80%;\n  background-color: rgba(255, 255, 255, 0.1);\n  animation: overlay 0.1s ease-in-out 0s;\n  pointer-events: none;\n}\n\n.button svg {\n  width: 15px;\n  height: 15px;\n}\n\n@keyframes overlay {\n  from {\n    opacity: 0;\n  }\n\n  to {\n    opacity: 1;\n  }\n}\n\n.button:focus {\n  outline: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

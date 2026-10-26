@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-curvy-frog-97-a68cdb",
+  "title": "Toggle by Yaya12085 (curvy-frog-97)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/curvy-frog-97",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Yaya12085_curvy-frog-97.html",
+  "code": "<input class=\"switch\" type=\"checkbox\" checked=\"true\">\n<style>\n/* From Uiverse.io by Yaya12085 - Source: https://www.material-tailwind.com/docs/react/switch - Tags: switch, input, toggle, colorful, variations */\n.switch {\n  position: relative;\n  height: 1.5rem;\n  width: 3rem;\n  cursor: pointer;\n  appearance: none;\n  -webkit-appearance: none;\n  border-radius: 9999px;\n  background-color: rgba(100, 116, 139, 0.377);\n  transition: all .3s ease;\n}\n\n.switch:checked {\n  background-color: rgba(236, 72, 153, 1);\n}\n\n.switch::before {\n  position: absolute;\n  content: \"\";\n  left: calc(1.5rem - 1.6rem);\n  top: calc(1.5rem - 1.6rem);\n  display: block;\n  height: 1.6rem;\n  width: 1.6rem;\n  cursor: pointer;\n  border: 1px solid rgba(100, 116, 139, 0.527);\n  border-radius: 9999px;\n  background-color: rgba(255, 255, 255, 1);\n  box-shadow: 0 3px 10px rgba(100, 116, 139, 0.327);\n  transition: all .3s ease;\n}\n\n.switch:hover::before {\n  box-shadow: 0 0 0px 8px rgba(0, 0, 0, .15)\n}\n\n.switch:checked:hover::before {\n  box-shadow: 0 0 0px 8px rgba(236, 72, 153, .15)\n}\n\n.switch:checked:before {\n  transform: translateX(100%);\n  border-color: rgba(236, 72, 153, 1);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

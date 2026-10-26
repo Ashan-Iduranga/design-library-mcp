@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-mawi-man-curvy-tiger-34-f49e1a",
+  "title": "Button by mawi-man (curvy-tiger-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mawi-man/curvy-tiger-34",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "interactive",
+    "hover-effects",
+    "ui-components",
+    "css-animations",
+    "ripple-effect",
+    "glassy",
+    "modern-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mawi-man on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mawi-man_curvy-tiger-34.html",
+  "code": "<button class=\"custom-button\">Click Me</button>\n\n<style>\n/* From Uiverse.io by mawi-man  - Tags: button, interactive, hover effects, ui components, css animations, ripple effect, glassy, modern design */\n.custom-button {\n  background-color: #1a1a2e; /* Button background color */\n  color: #e94560; /* Text color */\n  border: none;\n  padding: 15px 30px;\n  font-size: 18px;\n  font-weight: bold;\n  border-radius: 30px;\n  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  transition: all 0.3s ease;\n  position: relative;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.custom-button::before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 300%;\n  height: 300%;\n  background-color: #e94560;\n  transition: all 0.3s ease;\n  border-radius: 50%;\n  z-index: -1;\n  transform: translate(-50%, -50%) scale(0);\n}\n\n.custom-button:hover::before {\n  transform: translate(-50%, -50%) scale(1);\n  opacity: 0.9;\n}\n\n.custom-button:hover {\n  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);\n  transform: translateY(-5px);\n  color: #1a1a2e;\n}\n\n/* Effect of waves under pressure */\n.custom-button:active::after {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 100%;\n  height: 100%;\n  background: rgba(255, 255, 255, 0.2);\n  border-radius: 50%;\n  transform: translate(-50%, -50%) scale(0);\n  animation: ripple 0.6s ease-out;\n  z-index: -1;\n}\n\n@keyframes ripple {\n  to {\n    transform: translate(-50%, -50%) scale(4);\n    opacity: 0;\n  }\n}\n\n/* Animated text glow effect */\n.custom-button::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: -75%;\n  width: 50%;\n  height: 100%;\n  background: linear-gradient(\n    120deg,\n    rgba(255, 255, 255, 0) 0%,\n    rgba(255, 255, 255, 0.8) 50%,\n    rgba(255, 255, 255, 0) 100%\n  );\n  transform: skewX(-25deg);\n  transition: all 0.3s ease;\n}\n\n.custom-button:hover::after {\n  left: 100%;\n  transition: all 0.5s ease;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-progress-colors",
+  "title": "Progress Bar: Colors (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/progress/#colors",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "progres",
+    "progress",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "You can also apply any color using the `bg-{color}` utility classes from Tailwind CSS and Flowbite.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/progress.md",
+  "code": "<div class=\"mb-1 text-sm font-medium text-heading\">Dark</div>\n<div class=\"w-full bg-neutral-quaternary rounded-full h-2\">\n  <div class=\"bg-dark h-2 rounded-full\" style=\"width: 45%\"></div>\n</div>\n<div class=\"mb-1 text-sm font-medium text-fg-brand\">Brand</div>\n<div class=\"w-full bg-neutral-quaternary rounded-full h-2\">\n  <div class=\"bg-brand h-2 rounded-full\" style=\"width: 45%\"></div>\n</div>\n<div class=\"mb-1 text-sm font-medium text-fg-success\">Success</div>\n<div class=\"w-full bg-neutral-quaternary rounded-full h-2\">\n  <div class=\"bg-success h-2 rounded-full\" style=\"width: 45%\"></div>\n</div>\n<div class=\"mb-1 text-sm font-medium text-fg-danger\">Danger</div>\n<div class=\"w-full bg-neutral-quaternary rounded-full h-2\">\n  <div class=\"bg-danger h-2 rounded-full\" style=\"width: 45%\"></div>\n</div>\n<div class=\"mb-1 text-sm font-medium text-fg-warning\">Danger</div>\n<div class=\"w-full bg-neutral-quaternary rounded-full h-2\">\n  <div class=\"bg-warning h-2 rounded-full\" style=\"width: 45%\"></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

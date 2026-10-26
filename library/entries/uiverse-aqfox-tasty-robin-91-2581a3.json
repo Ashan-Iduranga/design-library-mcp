@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-aqfox-tasty-robin-91-2581a3",
+  "title": "Button by AqFox (tasty-robin-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AqFox/tasty-robin-91",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "blue",
+    "up",
+    "arrow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AqFox on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/AqFox_tasty-robin-91.html",
+  "code": "<button>\n    <div class=\"arrow-up\"></div>\n</button>\n<style>\n/* From Uiverse.io by AqFox - Tags: icon, blue, button, up, arrow */\nbutton {\n  width: 60px;\n  height: 60px;\n  bottom: 40px;\n  right: 40px;\n  background-color: #004dff;\n  color: #FFF;\n  border-radius: 50px;\n  text-align: center;\n  font-size: 30px;\n  box-shadow: 2px 2px 3px #999;\n  z-index: 100;\n  border: #004dff;\n  transition: 0.5s;\n}\n\nbutton:hover {\n  transform: scale(1.1);\n}\n\nbutton:active {\n  background-color: #020cd1;\n}\n\n.arrow-up {\n  width: 0;\n  height: 0;\n  border-left: 10px solid transparent;\n  border-right: 10px solid transparent;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 35%;\n  margin-bottom: 60%;\n  border-bottom: 15px solid white;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

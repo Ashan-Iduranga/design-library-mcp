@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-juanes200122-orange-bat-7-84cec2",
+  "title": "Loader by Juanes200122 (orange-bat-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Juanes200122/orange-bat-7",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "animated",
+    "transition"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Juanes200122 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Juanes200122_orange-bat-7.html",
+  "code": "<div class=\"Buttons\"></div>\n\n<style>\n/* From Uiverse.io by Juanes200122  - Tags: animation, loader, animated, transition */\n.Buttons {\n  color: #000;\n  width: 6px;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  animation: l37-1 0.75s infinite linear alternate, l37-2 1.5s infinite linear;\n}\n@keyframes l37-1 {\n  0%,\n  20% {\n    box-shadow: 30px 0 0 3px, 10px 0 0 3px, -10px 0 0 3px, -30px 0 0 3px;\n  }\n  60%,\n  100% {\n    box-shadow: 12px 0 0 3px, 14px 0 0 6px, -14px 0 0 6px, -12px 0 0 3px;\n  }\n}\n\n@keyframes l37-2 {\n  0%,\n  25% {\n    transform: rotate(0);\n  }\n  50%,\n  100% {\n    transform: rotate(0.5turn);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

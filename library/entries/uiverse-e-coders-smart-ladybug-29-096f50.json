@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-e-coders-smart-ladybug-29-096f50",
+  "title": "Button by e-coders (smart-ladybug-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/e-coders/smart-ladybug-29",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By e-coders on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/e-coders_smart-ladybug-29.html",
+  "code": "<button><span class=\"text\">Hover me</span><span>Thanks!</span></button>\n<style>\n/* From Uiverse.io by e-coders - Tags: button */\nbutton {\n position: relative;\n overflow: hidden;\n border: 1px solid #18181a;\n color: #18181a;\n display: inline-block;\n font-size: 15px;\n line-height: 15px;\n padding: 18px 18px 17px;\n text-decoration: none;\n cursor: pointer;\n background: #fff;\n user-select: none;\n -webkit-user-select: none;\n touch-action: manipulation;\n}\n\nbutton span:first-child {\n position: relative;\n transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);\n z-index: 10;\n}\n\nbutton span:last-child {\n color: white;\n display: block;\n position: absolute;\n bottom: 0;\n transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);\n z-index: 100;\n opacity: 0;\n top: 50%;\n left: 50%;\n transform: translateY(225%) translateX(-50%);\n height: 14px;\n line-height: 13px;\n}\n\nbutton:after {\n content: \"\";\n position: absolute;\n bottom: -50%;\n left: 0;\n width: 100%;\n height: 100%;\n background-color: black;\n transform-origin: bottom center;\n transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);\n transform: skewY(9.3deg) scaleY(0);\n z-index: 50;\n}\n\nbutton:hover:after {\n transform-origin: bottom center;\n transform: skewY(9.3deg) scaleY(2);\n}\n\nbutton:hover span:last-child {\n transform: translateX(-50%) translateY(-50%);\n opacity: 1;\n transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

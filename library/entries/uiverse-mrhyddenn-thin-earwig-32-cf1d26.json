@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-thin-earwig-32-cf1d26",
+  "title": "Loader by mrhyddenn (thin-earwig-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/thin-earwig-32",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_thin-earwig-32.html",
+  "code": "<div class=\"loader\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  overflow: hidden;\n  animation: mac0123 1s linear infinite;\n}\n\n.loader span {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: #f00;\n  left: 50%;\n  border-radius: 50%;\n  transform-origin: left;\n}\n\n.loader span:nth-child(1) {\n  background: #0fa503;\n  transform: rotate(0deg);\n  z-index: 2;\n}\n\n.loader span:nth-child(2) {\n  background: #ffd203;\n  transform: rotate(60deg);\n  z-index: 3;\n}\n\n.loader span:nth-child(3) {\n  background: #54cd28;\n  transform: rotate(120deg);\n  z-index: 4;\n}\n\n.loader span:nth-child(4) {\n  background: #129cf5;\n  transform: rotate(180deg);\n  z-index: 5;\n}\n\n.loader span:nth-child(5) {\n  background: #bb5ed3;\n  transform: rotate(240deg);\n  z-index: 6;\n}\n\n.loader span:nth-child(6) {\n  background: #ff4f45;\n  transform: rotate(300deg);\n  z-index: 7;\n  overflow: hidden;\n}\n\n.loader span:nth-child(6):before {\n  content: '';\n  position: absolute;\n  top: 45px;\n  left: -72px;\n  width: 100%;\n  height: 100%;\n  background: #ffd203;\n  border-radius: 50%;\n  z-index: 2;\n}\n\n.loader span:nth-child(6):after {\n  content: '';\n  position: absolute;\n  top: 42px;\n  left: -23px;\n  width: 100%;\n  height: 100%;\n  background: #fea503;\n  border-radius: 50%;\n}\n\n@keyframes mac0123 {\n  0% {\n    transform: translate(-50%, -50%) rotate(359deg);\n  }\n\n  100% {\n    transform: translate(-50%, -50%) rotate(0deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

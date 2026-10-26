@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-pamtbi-good-dodo-80-a83005",
+  "title": "Card by pamtbi (good-dodo-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/pamtbi/good-dodo-80",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "card-hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By pamtbi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/pamtbi_good-dodo-80.html",
+  "code": "<div class=\"card\">\n         <div class=\"card__side card__side_front\">\n            <div class=\"flex__1\">\n               <p class=\"card__side__name-bank\">monobank</p>\n               <div class=\"card__side__chip\"></div>\n               <p class=\"card__side__name-person\">PAVLO MATVIIENKO</p>\n            </div>\n         </div>\n         <div class=\"card__side card__side_back\">\n            <div class=\"card__side__black\"></div>\n            <p class=\"card__side__number\">XXXX XXXX XXXX XXXX</p>\n            <div class=\"flex__2\">\n               <p class=\"card__side__other-numbers card__side__other-numbers_1\">XX/XX</p>\n               <p class=\"card__side__other-numbers card__side__other-numbers_2\">XXX</p>\n               <div class=\"card__side__photo\">your-photo</div>\n               <div class=\"card__side__debit\">debit</div>\n            </div>\n            <p class=\"card__side__other-info\">\n               MONOBANK.UA | 0 800 205 205 | \n               АТ \"УНІВЕРСАЛ БАНК\". ЛІЦЕНЗІЯ \n               НБУ №92 ВІД 20.01.1994 | \n               PCE PC100650 WORLD DEBIT\n            </p>\n         </div>\n      </div>\n<style>\n/* From Uiverse.io by pamtbi - Tags: card, card hover */\n.flex__1 {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: space-between;\n  flex-direction: column;\n}\n\n.flex__2 {\n  width: 100%;\n  height: 50%;\n  display: flex;\n  flex-direction: row;\n}\n\n.card {\n  height: 50mm;\n  width: 84mm;\n  position: relative;\n  perspective: 800px;\n}\n\n.card__side {\n  width: 100%;\n  height: 100%;\n  border-radius: 3.18mm;\n  position: absolute;\n  top: 0;\n  left: 0;\n  backface-visibility: hidden;\n  transition: transform 0.7s ease-out;\n  cursor: pointer;\n  padding: 10px;\n}\n\n.card__side__photo {\n  width: 1.4cm;\n  height: 1.4cm;\n  position: absolute;\n  left: 12px;\n  bottom: 15px;\n  background: grey;\n  border-radius: 8%;\n}\n\n.card__side_front {\n  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, #242424 100%);\n  transform: rotateY(0deg);\n}\n\n.card__side_back {\n  background: linear-gradient(-90deg, rgb(0, 0, 0) 0%, #242424 100%);\n  transform: rotateY(-180deg);\n  color: #eeeeee;\n}\n\n.card__side__name-bank {\n  font-family: Inter, sans-serif;\n  font-weight: 500;\n  position: relative;\n  font-size: 22px;\n  margin-left: 8px;\n  color: white;\n}\n\n.card__side__name-bank::after {\n  content: \"Universal Bank\";\n  position: absolute;\n  font-size: 6px;\n  top: 105%;\n  left: 21%;\n  color: #635c77;\n}\n\n.card__side__name-bank::before {\n  content: \"₴\";\n  position: absolute;\n  top: 0;\n  right: 0;\n  color: #635c77;\n}\n\n.card__side__chip {\n  width: 1.3cm;\n  height: 1cm;\n  margin-left: 22px;\n  margin-top: -35px;\n  background: rgb(226, 175, 35);\n  border-radius: 8px;\n}\n\n.card__side__chip:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  height: 24px;\n  width: 24px;\n  top: 80px;\n  right: 15px;\n  transform: scale(1.3);\n}\n\n.card__side__name-person {\n  text-transform: uppercase;\n  font-family: Roboto Mono, sans-serif;\n  font-size: 14px;\n  margin-bottom: 10px;\n  margin-left: 20px;\n  position: relative;\n  display: block;\n  color: white;\n}\n\n.card__side__name-person::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  width: 45px;\n  aspect-ratio: 1 / 1;\n  background: red;\n  bottom: -10px;\n  right: 0px;\n  border-radius: 50%;\n}\n\n.card__side__name-person::after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  width: 45px;\n  aspect-ratio: 1 / 1;\n  background: orange;\n  bottom: -10px;\n  right: 23px;\n  border-radius: 50%;\n}\n\n.card__side__black {\n  background: black;\n  width: 100%;\n  height: 50px;\n  border-radius: 3.18mm 3.18mm 0 0;\n  position: absolute;\n  top: 0;\n  right: 0;\n}\n\n.card__side__number {\n  font-size: 18px;\n  font-family: Roboto Mono, sans-serif;\n  color: #eeeeee;\n  margin: 45px 0px 15px 10px;\n}\n\n.card__side__other-numbers {\n  font-family: Roboto Mono, sans-serif;\n  color: #eeeeee;\n  display: block;\n  margin-left: 10px;\n  font-size: 12px;\n  backface-visibility: hidden;\n  position: relative;\n}\n\n.card__side__other-numbers::after {\n  color: #635c77;\n  position: absolute;\n  font-size: 8px;\n  left: 0;\n  bottom: 60px;\n}\n\n.card__side__other-numbers_1::after {\n  content: \"СТРОК\";\n}\n\n.card__side__other-numbers_2::after {\n  content: \"КОД\";\n}\n\n.card__side__other-info {\n  color: #635c77;\n  font-size: 4px;\n  text-align: center;\n  font-family: Roboto Mono, sans-serif;\n  position: absolute;\n  bottom: 10px;\n  left: 38px;\n  backface-visibility: hidden;\n}\n\n.card__side__debit {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 1.8cm;\n  height: 1cm;\n  border-radius: 1cm;\n  background: #c0c0c0;\n  position: absolute;\n  right: 12px;\n  bottom: 25px;\n  font-family: Inter;\n  color: #666666;\n}\n\n.card__side__debit::after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  background: rgba(166, 163, 163, 0.7);\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  right: 0;\n}\n\n.card:hover .card__side_front {\n  transform: rotateY(180deg);\n}\n\n.card:hover .card__side_back {\n  transform: rotateY(0deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

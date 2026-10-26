@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-souravbandyopadhyay-modern-rabbit-52-0144c7",
+  "title": "Input by SouravBandyopadhyay (modern-rabbit-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SouravBandyopadhyay/modern-rabbit-52",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "light",
+    "transition"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SouravBandyopadhyay on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/SouravBandyopadhyay_modern-rabbit-52.html",
+  "code": "<div class=\"inp-border a1\">\n      <input placeholder=\"Your Name\" name=\"name1\" type=\"text\" class=\"input\">\n  </div>\n    \n<style>\n/* From Uiverse.io by SouravBandyopadhyay - Tags: input, light, transition */\n.inp-border {\n  padding: 5px;\n  margin: 2em 1em;\n  border-radius: 50px;\n  max-width: 300px;\n}\n\n.input {\n  text-align: center;\n  padding: 15px;\n  outline: none;\n  border: double 0;\n  background: #252525;\n  border-radius: 50px;\n  position: relative;\n  box-sizing: border-box;\n  display: block;\n  width: 100%;\n  font-size: 1.5rem;\n}\n\n.a1 {\n  background: linear-gradient(\n    330.28deg,\n    #ff6e1d 100%,\n    #ff6e1d 100%,\n    #ff6e1d 100%\n  );\n}\n\n.a1 > input {\n  color: #caab98;\n}\n\n.a1 > input::placeholder {\n  color: #ff6e1d;\n  opacity: 0.6;\n}\n\n.inp-border:focus-within {\n  background: linear-gradient(\n    330.28deg,\n    #2cfff2 0%,\n    #1e78ff 30.73%,\n    #ff54a6 55.73%,\n    #ff6e1d 79.17%,\n    #ff3e3e 100%\n  );\n}\n\n.inp-border:hover {\n  background: linear-gradient(\n    330.28deg,\n    #2cfff2 0%,\n    #1e78ff 30.73%,\n    #ff54a6 55.73%,\n    #ff6e1d 79.17%,\n    #ff3e3e 100%\n  );\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

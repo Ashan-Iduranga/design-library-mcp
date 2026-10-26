@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-adamgiebl-new-bird-34-76ae0e",
+  "title": "Button by adamgiebl (new-bird-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/adamgiebl/new-bird-34",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By adamgiebl on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/adamgiebl_new-bird-34.html",
+  "code": "<button class=\"cssbuttons-io-button\"> Get started\n  <div class=\"icon\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\"><path fill=\"none\" d=\"M0 0h24v24H0z\"></path><path fill=\"currentColor\" d=\"M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z\"></path></svg>\n  </div>\n</button>\n<style>\n/* From Uiverse.io by adamgiebl - Tags: icon, button */\n.cssbuttons-io-button {\n  background: #A370F0;\n  color: white;\n  font-family: inherit;\n  padding: 0.35em;\n  padding-left: 1.2em;\n  font-size: 17px;\n  font-weight: 500;\n  border-radius: 0.9em;\n  border: none;\n  letter-spacing: 0.05em;\n  display: flex;\n  align-items: center;\n  box-shadow: inset 0 0 1.6em -0.6em #714da6;\n  overflow: hidden;\n  position: relative;\n  height: 2.8em;\n  padding-right: 3.3em;\n}\n\n.cssbuttons-io-button .icon {\n  background: white;\n  margin-left: 1em;\n  position: absolute;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 2.2em;\n  width: 2.2em;\n  border-radius: 0.7em;\n  box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;\n  right: 0.3em;\n  transition: all 0.3s;\n}\n\n.cssbuttons-io-button:hover .icon {\n  width: calc(100% - 0.6em);\n}\n\n.cssbuttons-io-button .icon svg {\n  width: 1.1em;\n  transition: transform 0.3s;\n  color: #7b52b9;\n}\n\n.cssbuttons-io-button:hover .icon svg {\n  transform: translateX(0.1em);\n}\n\n.cssbuttons-io-button:active .icon {\n  transform: scale(0.95);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

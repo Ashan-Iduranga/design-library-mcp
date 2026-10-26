@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-kennyotsu-terrible-sloth-75-03fa04",
+  "title": "Pattern by kennyotsu (terrible-sloth-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kennyotsu/terrible-sloth-75",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "pink",
+    "dog-bone"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kennyotsu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/kennyotsu_terrible-sloth-75.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by kennyotsu  - Tags: simple, pink, pattern, dog bone */\n.container {\n  --color: #c09bd8;\n  background-color: #9f84bd;\n  width: 100%;\n  height: 100%;\n  position: relative;\n}\n.container::after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  opacity: 0.8;\n  background: radial-gradient(circle, var(--color) 15%, transparent 15%),\n    radial-gradient(circle, var(--color) 15%, transparent 15%) 6px -6px,\n    radial-gradient(circle, var(--color) 15%, transparent 15%) 6px -1px,\n    radial-gradient(circle, var(--color) 15%, transparent 15%) 10px 2px,\n    radial-gradient(circle, var(--color) 15%, transparent 15%) 14px 5px,\n    radial-gradient(circle, var(--color) 15%, transparent 15%) 18px 8px,\n    radial-gradient(circle, var(--color) 15%, transparent 15%) 18px 12px,\n    radial-gradient(circle, var(--color) 15%, transparent 15%) 23px 6px;\n  background-size: 50px 50px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

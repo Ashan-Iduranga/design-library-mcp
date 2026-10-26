@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-anthonypreite-neat-bat-64-c2670e",
+  "title": "Toggle by AnthonyPreite (neat-bat-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AnthonyPreite/neat-bat-64",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "minimalist",
+    "switch",
+    "theme-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AnthonyPreite on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/AnthonyPreite_neat-bat-64.html",
+  "code": "<label class=\"switch\">\n  <input class=\"checkbox\" type=\"checkbox\" />\n  <span class=\"slider round\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by AnthonyPreite  - Tags: minimalist, switch, theme-switch */\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n\n.switch .checkbox {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: transparent;\n  -webkit-transition: 0.4s;\n  transition: 0.4s;\n  box-shadow: 1px 1px 5px 0 #d84f68 inset;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  left: 4px;\n  bottom: 4px;\n  background-color: #d84f68;\n  -webkit-transition: 0.4s;\n  transition: 0.4s;\n  box-shadow: inset 1px 1px 2px 0px #ff7ca7;\n}\n\n.checkbox:checked + .slider {\n  box-shadow: 1px 1px 5px 0 #2a9d8f inset;\n}\n\n.checkbox:checked + .slider:before {\n  -webkit-transform: translateX(26px);\n  -ms-transform: translateX(26px);\n  transform: translateX(26px);\n  background-color: #2a9d8f;\n  box-shadow: inset -1px 1px 2px 0px #a3fff4;\n}\n\n/* Rounded sliders */\n.slider.round {\n  border-radius: 34px;\n}\n\n.slider.round:before {\n  border-radius: 50%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

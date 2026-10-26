@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-maximinodotpy-thin-sheep-13-b286fa",
+  "title": "Input by Maximinodotpy (thin-sheep-13)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Maximinodotpy/thin-sheep-13",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Maximinodotpy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Maximinodotpy_thin-sheep-13.html",
+  "code": "<div class=\"inputGroup\">\n    <input type=\"text\" required=\"\" autocomplete=\"off\">\n    <label for=\"name\">Name</label>\n</div>\n<style>\n/* From Uiverse.io by Maximinodotpy - Tags: input */\n.inputGroup {\n  font-family: 'Segoe UI', sans-serif;\n  margin: 1em 0 1em 0;\n  max-width: 190px;\n  position: relative;\n}\n\n.inputGroup input {\n  font-size: 100%;\n  padding: 0.8em;\n  outline: none;\n  border: 2px solid rgb(200, 200, 200);\n  background-color: transparent;\n  border-radius: 20px;\n  width: 100%;\n}\n\n.inputGroup label {\n  font-size: 100%;\n  position: absolute;\n  left: 0;\n  padding: 0.8em;\n  margin-left: 0.5em;\n  pointer-events: none;\n  transition: all 0.3s ease;\n  color: rgb(100, 100, 100);\n}\n\n.inputGroup :is(input:focus, input:valid)~label {\n  transform: translateY(-50%) scale(.9);\n  margin: 0em;\n  margin-left: 1.3em;\n  padding: 0.4em;\n  background-color: #e8e8e8;\n}\n\n.inputGroup :is(input:focus, input:valid) {\n  border-color: rgb(150, 150, 200);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

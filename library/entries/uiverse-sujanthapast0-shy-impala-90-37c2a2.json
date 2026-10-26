@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-sujanthapast0-shy-impala-90-37c2a2",
+  "title": "Button by Sujanthapast0 (shy-impala-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Sujanthapast0/shy-impala-90",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Sujanthapast0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Sujanthapast0_shy-impala-90.html",
+  "code": "<button class=\"button\">\n<p class=\"submit\">submit</p>\n\n</button>\n<style>\n/* From Uiverse.io by Sujanthapast0 - Source: Sujanthapast0 - Tags: animation, subscription, minimalist, success, button, smooth, submit, 3d button */\n.button {\n  width: 90px;\n  height: 40px;\n  position: relative;\n  font-family: var(--font);\n  color: #3b82f6;\n  font-weight: 600;\n  background-color: #fff;\n  border: none;\n  overflow: hidden;\n  border-radius: 5px;\n  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;\n  transition: all ease 100ms;\n}\n\nbutton:hover {\n  background-color: #cbdcf8;\n}\n\nbutton:focus {\n  background-color: #cbdcf8;\n}\n\nbutton::before {\n  content: 'done✅';\n  position: absolute;\n  color: #3b82f6;\n  left: 0;\n  top: -14px;\n  right: 0;\n  transition: all ease 300ms;\n  opacity: 0%;\n}\n\nbutton:focus::before {\n  opacity: 100%;\n  transform: translatey(26px);\n}\n\n.submit {\n  transition: all ease 100ms;\n  opacity: 100%;\n}\n\nbutton:focus > .submit {\n  opacity: 0%;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

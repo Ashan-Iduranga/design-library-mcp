@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-itchy-chipmunk-95-6a04f1",
+  "title": "Card by satyamchaudharydev (itchy-chipmunk-95)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/itchy-chipmunk-95",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/satyamchaudharydev_itchy-chipmunk-95.html",
+  "code": "<div class=\"card\">\n    <h3 class=\"card__title\">Title\n    </h3>\n    <p class=\"card__content\">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>\n    <div class=\"card__date\">\n        April 15, 2022\n    </div>\n    <div class=\"card__arrow\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" height=\"15\" width=\"15\">\n            <path fill=\"#fff\" d=\"M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z\"></path>\n        </svg>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: card */\n/* this card is inspired form this - https://georgefrancis.dev/ */\n\n.card {\n  --border-radius: 0.75rem;\n  --primary-color: #7257fa;\n  --secondary-color: #3c3852;\n  width: 210px;\n  font-family: \"Arial\";\n  padding: 1rem;\n  cursor: pointer;\n  border-radius: var(--border-radius);\n  background: #f1f1f3;\n  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);\n  position: relative;\n}\n\n.card > * + * {\n  margin-top: 1.1em;\n}\n\n.card .card__content {\n  color: var(--secondary-color);\n  font-size: 0.86rem;\n}\n\n.card .card__title {\n  padding: 0;\n  font-size: 1.3rem;\n  font-weight: bold;\n}\n\n.card .card__date {\n  color: #6e6b80;\n  font-size: 0.8rem;\n}\n\n.card .card__arrow {\n  position: absolute;\n  background: var(--primary-color);\n  padding: 0.4rem;\n  border-top-left-radius: var(--border-radius);\n  border-bottom-right-radius: var(--border-radius);\n  bottom: 0;\n  right: 0;\n  transition: 0.2s;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.card svg {\n  transition: 0.2s;\n}\n\n/* hover */\n.card:hover .card__title {\n  color: var(--primary-color);\n  text-decoration: underline;\n}\n\n.card:hover .card__arrow {\n  background: #111;\n}\n\n.card:hover .card__arrow svg {\n  transform: translateX(3px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

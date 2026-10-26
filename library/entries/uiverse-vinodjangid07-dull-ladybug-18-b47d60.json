@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-vinodjangid07-dull-ladybug-18-b47d60",
+  "title": "Button by vinodjangid07 (dull-ladybug-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/dull-ladybug-18",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "hover",
+    "hover-effect",
+    "gift",
+    "rewards",
+    "bonus"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_dull-ladybug-18.html",
+  "code": "<button class=\"reward-btn\">\n  <span class=\"IconContainer\">\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      fill=\"none\"\n      viewBox=\"0 0 60 20\"\n      class=\"box-top box\"\n    >\n      <path\n        stroke-linecap=\"round\"\n        stroke-width=\"4\"\n        stroke=\"#6A8EF6\"\n        d=\"M2 18L58 18\"\n      ></path>\n      <circle\n        stroke-width=\"5\"\n        stroke=\"#6A8EF6\"\n        fill=\"#101218\"\n        r=\"7\"\n        cy=\"9.5\"\n        cx=\"20.5\"\n      ></circle>\n      <circle\n        stroke-width=\"5\"\n        stroke=\"#6A8EF6\"\n        fill=\"#101218\"\n        r=\"7\"\n        cy=\"9.5\"\n        cx=\"38.5\"\n      ></circle>\n    </svg>\n\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      fill=\"none\"\n      viewBox=\"0 0 58 44\"\n      class=\"box-body box\"\n    >\n      <mask fill=\"white\" id=\"path-1-inside-1_81_19\">\n        <rect rx=\"3\" height=\"44\" width=\"58\"></rect>\n      </mask>\n      <rect\n        mask=\"url(#path-1-inside-1_81_19)\"\n        stroke-width=\"8\"\n        stroke=\"#6A8EF6\"\n        fill=\"#101218\"\n        rx=\"3\"\n        height=\"44\"\n        width=\"58\"\n      ></rect>\n      <line\n        stroke-width=\"6\"\n        stroke=\"#6A8EF6\"\n        y2=\"29\"\n        x2=\"58\"\n        y1=\"29\"\n        x1=\"-3.61529e-09\"\n      ></line>\n      <path\n        stroke-linecap=\"round\"\n        stroke-width=\"5\"\n        stroke=\"#6A8EF6\"\n        d=\"M45.0005 20L36 3\"\n      ></path>\n      <path\n        stroke-linecap=\"round\"\n        stroke-width=\"5\"\n        stroke=\"#6A8EF6\"\n        d=\"M21 3L13.0002 19.9992\"\n      ></path>\n    </svg>\n\n    <span class=\"coin\"></span>\n  </span>\n  <span class=\"text\">Rewards</span>\n</button>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: animation, button, hover, hover effect, gift, rewards, bonus */\n.reward-btn {\n  width: 120px;\n  height: 40px;\n  background-color: #101218;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: none;\n  border-radius: 8px;\n  cursor: pointer;\n  transition: all 0.3s;\n}\n.IconContainer {\n  width: 40px;\n  height: 40px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n}\n.IconContainer svg {\n  width: 40%;\n  z-index: 3;\n}\n.box-top {\n  transition: all 0.3s;\n}\n.text {\n  width: 70px;\n  height: 100%;\n  font-size: 13px;\n  color: #6a8ef6;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  font-weight: 600;\n}\n.reward-btn:hover .IconContainer .box-top {\n  transform: translateY(-5px);\n}\n.reward-btn:hover {\n  background-color: #202531;\n}\n.reward-btn:hover .coin {\n  transform: translateY(-5px);\n  transition-delay: 0.2s;\n}\n.coin {\n  width: 25%;\n  height: 25%;\n  background-color: #e4d61a;\n  position: absolute;\n  border-radius: 50%;\n  transition: all 0.3s;\n  z-index: 1;\n  border: 2px solid #ffe956;\n  margin-top: 4px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

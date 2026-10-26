@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-blackisplay-pretty-sloth-9-55715f",
+  "title": "Loader by BlackisPlay (pretty-sloth-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/BlackisPlay/pretty-sloth-9",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "icon",
+    "animation",
+    "3d"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By BlackisPlay on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/BlackisPlay_pretty-sloth-9.html",
+  "code": "<div id=\"triangle\">\n  <svg id=\"Layer_1\" data-name=\"Layer 1\" version=\"1.1\" viewBox=\"0 0 2000 2000\">\n    <polygon\n      class=\"cls-1\"\n      points=\"928 781 1021 951 784.5 1371.97 1618 1371.97 1530.32 1544 509 1539 928 781\"\n    ></polygon>\n    <polygon\n      class=\"cls-3\"\n      points=\"1618 1371.97 784.5 1371.97 874.93 1211 1346 1211 923.1 456 1110.06 456 1618 1371.97\"\n    ></polygon>\n    <g id=\"Layer_2\" data-name=\"Layer 2\">\n      <polygon\n        class=\"cls-2\"\n        points=\"418 1372.74 509 1539 928 781 1162.32 1211 1346 1211 923.1 456 418 1372.74\"\n      ></polygon>\n    </g>\n  </svg>\n</div>\n\n<style>\n/* From Uiverse.io by BlackisPlay  - Tags: simple, icon, animation, 3d, loader */\n.cls-1 {\n  fill: #f15a24;\n  animation: cls1 4s ease infinite both;\n}\n\n@keyframes cls1 {\n  0% {\n    fill: #f15a24;\n  }\n\n  34% {\n    fill: #ed1c24;\n  }\n\n  66% {\n    fill: #f7931e;\n  }\n\n  100% {\n    fill: #f15a24;\n  }\n}\n\n.cls-1,\n.cls-2,\n.cls-3 {\n  stroke-width: 0px;\n}\n\n.cls-2 {\n  fill: #f7931e;\n  animation: cls2 4s ease infinite both;\n}\n\n@keyframes cls2 {\n  0% {\n    fill: #f7931e;\n  }\n\n  34% {\n    fill: #f15a24;\n  }\n\n  66% {\n    fill: #ed1c24;\n  }\n\n  100% {\n    fill: #f7931e;\n  }\n}\n\n.cls-3 {\n  fill: #ed1c24;\n  animation: cls3 4s ease infinite both;\n}\n\n@keyframes cls3 {\n  0% {\n    fill: #ed1c24;\n  }\n\n  34% {\n    fill: #f7931e;\n  }\n\n  66% {\n    fill: #f15a24;\n  }\n\n  100% {\n    fill: #ed1c24;\n  }\n}\n\n.cls-4 {\n  display: none;\n}\n\n#triangle {\n  height: 400px;\n  width: 400px;\n  padding-top: 30px;\n  animation: triangle 4s both infinite;\n}\n\n@keyframes triangle {\n  0% {\n    transform: translateY(0px);\n  }\n\n  50% {\n    transform: translateY(15px);\n  }\n\n  100% {\n    transform: translateY(0px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-curly-wasp-39-b04aa4",
+  "title": "Loader by Pradeepsaranbishnoi (curly-wasp-39)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/curly-wasp-39",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Pradeepsaranbishnoi_curly-wasp-39.html",
+  "code": "<div class=\"loader\">\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n</div>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: loader */\n/* The loader */\n.loader {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 200px;\n  height: 200px;\n  margin-top: -100px;\n  margin-left: -100px;\n  perspective: 600px;\n  transform-style: perserve-3d;\n}\n\n/* The dot */\n.dot {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 100px;\n  height: 100px;\n  margin-top: -50px;\n  margin-left: -50px;\n  border-radius: 100px;\n  border: 20px solid #1e3f57;\n  transform-style: perserve-3d;\n  transform: scale(0) rotateX(60deg);\n  animation: dot 3s cubic-bezier(.67,.08,.46,1.5) infinite;\n}\n\n.dot:nth-child(2) {\n  animation-delay: 200ms;\n}\n\n.dot:nth-child(3) {\n  animation-delay: 400ms;\n}\n\n.dot:nth-child(4) {\n  animation-delay: 600ms;\n}\n\n.dot:nth-child(5) {\n  animation-delay: 800ms;\n}\n\n.dot:nth-child(6) {\n  animation-delay: 1000ms;\n}\n\n.dot:nth-child(7) {\n  animation-delay: 1200ms;\n}\n\n.dot:nth-child(8) {\n  animation-delay: 1400ms;\n}\n\n@keyframes dot {\n  0% {\n    opacity: 0;\n    border-color: #6bb2cd;\n    transform: rotateX(60deg) rotateY(45deg) translateZ(-100px) scale(0.1);\n  }\n\n  40% {\n    opacity: 1;\n    transform: rotateX(0deg) rotateY(20deg) translateZ(0) scale(1);\n  }\n\n  100% {\n    opacity: 0;\n    transform: rotateX(60deg) rotateY(-45deg) translateZ(-100px) scale(0.1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

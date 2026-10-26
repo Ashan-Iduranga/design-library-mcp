@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-syedshahzaib7-brave-dog-61-71c316",
+  "title": "Form by SyedShahzaib7 (brave-dog-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SyedShahzaib7/brave-dog-61",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "simple",
+    "login",
+    "3d",
+    "social",
+    "gradient",
+    "submit",
+    "login-form"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SyedShahzaib7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/SyedShahzaib7_brave-dog-61.html",
+  "code": "<div class=\"wrapper\">\n  <form action=\"\">\n    <p class=\"form-login\">Login</p>\n    <div class=\"input-box\">\n      <input required=\"\" placeholder=\"Username\" type=\"text\" />\n    </div>\n    <div class=\"input-box\">\n      <input required=\"\" placeholder=\"Password\" type=\"password\" />\n    </div>\n    <div class=\"remember-forgot\">\n      <label><input type=\"checkbox\" />Remember Me</label>\n      <a href=\"#\">Forgot Password</a>\n    </div>\n    <button class=\"btn\" type=\"submit\">Login</button>\n    <div class=\"register-link\">\n      <p>Dont have an account? <a href=\"#\">Register</a></p>\n    </div>\n  </form>\n</div>\n\n<style>\n/* From Uiverse.io by SyedShahzaib7  - Tags: simple, login, 3d, social, gradient, form, submit, login form */\n.wrapper {\n  width: 420px;\n  background: rgb(2, 0, 36);\n  background: linear-gradient(\n    90deg,\n    rgba(2, 0, 36, 1) 9%,\n    rgba(9, 9, 121, 1) 68%,\n    rgba(0, 91, 255, 1) 97%\n  );\n  backdrop-filter: blur(9px);\n  color: #fff;\n  border-radius: 12px;\n  padding: 30px 40px;\n}\n.form-login {\n  font-size: 36px;\n  text-align: center;\n}\n.wrapper .input-box {\n  position: relative;\n  width: 100%;\n  height: 50px;\n\n  margin: 30px 0;\n}\n.input-box input {\n  width: 100%;\n  height: 100%;\n  background: transparent;\n  border: none;\n  outline: none;\n  border: 2px solid rgba(255, 255, 255, 0.2);\n  border-radius: 40px;\n  font-size: 16px;\n  color: #fff;\n  padding: 20px 45px 20px 20px;\n}\n.input-box input::placeholder {\n  color: #fff;\n}\n\n.wrapper .remember-forgot {\n  display: flex;\n  justify-content: space-between;\n  font-size: 14.5px;\n  margin: -15px 0 15px;\n}\n.remember-forgot label input {\n  accent-color: #fff;\n  margin-right: 3px;\n}\n.remember-forgot a {\n  color: #fff;\n  text-decoration: none;\n}\n.remember-forgot a:hover {\n  text-decoration: underline;\n}\n.wrapper .btn {\n  width: 150px;\n  height: 45px;\n  background: #fff;\n  border: none;\n  outline: none;\n  border-radius: 40px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n  cursor: pointer;\n  font-size: 16px;\n  color: #333;\n  font-weight: 600;\n  margin-left: 90px;\n  margin-top: 10px;\n}\n.wrapper .register-link {\n  font-size: 14.5px;\n  text-align: center;\n  margin: 20px 0 15px;\n}\n.register-link p a {\n  color: #fff;\n  text-decoration: none;\n  font-weight: 600;\n}\n.register-link p a:hover {\n  text-decoration: underline;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

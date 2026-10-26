@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-web-potato-mighty-chipmunk-64-d2787f",
+  "title": "Button by Web-Potato (mighty-chipmunk-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Web-Potato/mighty-chipmunk-64",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Web-Potato on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Web-Potato_mighty-chipmunk-64.html",
+  "code": "<button>\n    Button\n</button>\n<style>\n/* From Uiverse.io by Web-Potato - Tags: button */\nbutton {\n  position: relative;\n  height: 50px;\n  width: 150px;\n  color: #FFF;\n  font-size: 15px;\n  font-weight: 600;\n  letter-spacing: 2px;\n  background-color: #212121;\n  transition: all 0.5s;\n  border: none;\n}\n\nbutton::before {\n  position: absolute;\n  content: '';\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(29, 255, 86, 0.281);\n  border-radius: 5px;\n  transition: all 0.3s;\n  z-index: 1;\n}\n\nbutton:hover::before {\n  opacity: 0;\n  transform: scale(0.7,0.7);\n}\n\nbutton::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  transition: all 0.4s;\n  border: 1px solid rgba(29, 255, 86, 0.281);\n  border-radius: 5px;\n  transform: scale(1.5,1.5);\n  opacity: 0;\n  z-index: 1;\n}\n\nbutton:hover::after {\n  opacity: 1;\n  transform: scale(1,1);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

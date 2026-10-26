@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-neerajbaniwal-serious-sheep-31-57a877",
+  "title": "Radio by neerajbaniwal (serious-sheep-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/neerajbaniwal/serious-sheep-31",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "submit",
+    "switcher",
+    "html",
+    "css",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By neerajbaniwal on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/neerajbaniwal_serious-sheep-31.html",
+  "code": "<div class=\"radiogroup\">\n  <div class=\"wrapper\">\n    <input value=\"a\" id=\"a\" name=\"app\" type=\"radio\" class=\"state\" />\n    <label for=\"a\" class=\"label\">\n      <div class=\"indicator\"></div>\n      <span class=\"text\">a) close</span>\n    </label>\n  </div>\n  <div class=\"wrapper\">\n    <input value=\"b\" id=\"b\" name=\"app\" type=\"radio\" class=\"state\" />\n    <label for=\"b\" class=\"label\">\n      <div class=\"indicator\"></div>\n      <span class=\"text\">b) remove</span>\n    </label>\n  </div>\n  <div class=\"wrapper\">\n    <input value=\"c\" id=\"c\" name=\"app\" type=\"radio\" class=\"state\" />\n    <label for=\"c\" class=\"label\">\n      <div class=\"indicator\"></div>\n      <span class=\"text\">c) delete</span>\n    </label>\n  </div>\n  <div class=\"wrapper\">\n    <input value=\"d\" id=\"d\" name=\"app\" type=\"radio\" class=\"state\" />\n    <label for=\"d\" class=\"label\">\n      <div class=\"indicator\"></div>\n      <span class=\"text\">d) all of the above</span>\n    </label>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by neerajbaniwal  - Tags: radio, submit, switcher, html, css, 3d button */\n.radiogroup {\n  padding: 48px 64px;\n  border-radius: 16px;\n  background: #ecf0f3;\n  box-shadow: 4px 4px 4px 0px #d1d9e6 inset, -4px -4px 4px 0px #ffffff inset;\n}\n\n.wrapper {\n  margin: 8px 0;\n}\n\n.state {\n  position: absolute;\n  top: 0;\n  right: 0;\n  opacity: 1e-5;\n  pointer-events: none;\n}\n\n.label {\n  display: inline-flex;\n  align-items: center;\n  cursor: pointer;\n  color: #394a56;\n}\n\n.text {\n  margin-left: 16px;\n  opacity: 0.6;\n  transition: opacity 0.2s linear, transform 0.2s ease-out;\n}\n\n.indicator {\n  position: relative;\n  border-radius: 50%;\n  height: 30px;\n  width: 30px;\n  box-shadow: -8px -4px 8px 0px #ffffff, 8px 4px 12px 0px #d1d9e6;\n  overflow: hidden;\n}\n\n.indicator::before,\n.indicator::after {\n  content: \"\";\n  position: absolute;\n  top: 10%;\n  left: 10%;\n  height: 80%;\n  width: 80%;\n  border-radius: 50%;\n}\n\n.indicator::before {\n  box-shadow: -4px -2px 4px 0px #d1d9e6, 4px 2px 8px 0px #fff;\n}\n\n.indicator::after {\n  background-color: #ecf0f3;\n  box-shadow: -4px -2px 4px 0px #fff, 4px 2px 8px 0px #d1d9e6;\n  transform: scale3d(1, 1, 1);\n  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;\n}\n\n.state:checked ~ .label .indicator::after {\n  transform: scale3d(0.975, 0.975, 1) translate3d(0, 10%, 0);\n  opacity: 0;\n}\n\n.state:focus ~ .label .text {\n  transform: translate3d(8px, 0, 0);\n  opacity: 1;\n}\n\n.label:hover .text {\n  opacity: 1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mrez321-nice-stingray-21-43f6e9",
+  "title": "Tooltip by MRez321 (nice-stingray-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MRez321/nice-stingray-21",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "hover",
+    "transition"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MRez321 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/MRez321_nice-stingray-21.html",
+  "code": "<div class=\"tooltip-container\">\n  <span class=\"tooltip\">Hey There!</span>\n  <span class=\"text\">Tooltip</span>\n</div>\n\n<style>\n/* From Uiverse.io by MRez321  - Tags: tooltip, hover, transition */\n.tooltip-container {\n  --background: #7579e7;\n  background: var(--background);\n  position: relative;\n  cursor: pointer;\n  transition: all 0.2s;\n  font-size: 17px;\n  border-radius: 10px;\n  width: 8em;\n\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.tooltip {\n  position: absolute;\n  top: 0;\n  left: 30%;\n  transform: translateX(-50%);\n  padding: 0.3em 0.6em;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s;\n  background: var(--background);\n  border-radius: 5px;\n  width: 7em;\n  text-align: center;\n}\n\n.tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 0.6em;\n  width: 0.6em;\n  bottom: -0.2em;\n  left: 50%;\n  transform: translate(-50%) rotate(45deg);\n  background: var(--background);\n}\n\n.tooltip-container:hover .tooltip {\n  top: -100%;\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n  animation: shake 500ms ease-in-out forwards;\n}\n\n@keyframes shake {\n  0% {\n    transform: rotate(2deg);\n  }\n  50% {\n    transform: rotate(-3deg);\n  }\n  70% {\n    transform: rotate(3deg);\n  }\n\n  100% {\n    transform: rotate(0deg);\n  }\n}\n\n.text {\n  position: relative;\n  padding: 0.7em 1.8em;\n  overflow: hidden;\n}\n\n.text::before {\n  content: \"(^_^)/\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  padding: inherit;\n  background-color: var(--background);\n  transition: 0.3s;\n}\n\n.tooltip-container:hover .text::before {\n  top: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

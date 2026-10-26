@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-codebykay101-red-fox-31-4ff177",
+  "title": "Card by codebykay101 (red-fox-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/codebykay101/red-fox-31",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "neon",
+    "cool-card",
+    "cardhover",
+    "card-animation",
+    "card-hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By codebykay101 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/codebykay101_red-fox-31.html",
+  "code": "<div class=\"container\">\n  <div class=\"loader\" style=\"--clr:#01e100;--i:1;\"></div>\n  <div class=\"loader\" style=\"--clr:#f50076;--i:2;\"></div>\n  <div class=\"loader\" style=\"--clr:#00e6fd;--i:3;\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by codebykay101  - Tags: simple, card, neon, cool card, cardhover , card animation, card hover */\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 20px;\n}\n\n.loader {\n  position: relative;\n  width: 150px;\n  height: 150px;\n  background: rgba(45, 45, 45, 1);\n  overflow: hidden;\n  transform: rotate(calc(90deg * var(--i)));\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  width: 300px;\n  height: 300px;\n  background: radial-gradient(var(--clr), transparent);\n  animation: animate 1.5s linear infinite;\n}\n\n.loader::after {\n  content: \"\";\n  position: absolute;\n  inset: 2px;\n  background: rgba(45, 45, 45, 0.9);\n}\n\n@keyframes animate {\n  0% {\n    transform: translate(-150px, -150px);\n  }\n  25% {\n    transform: translate(0px, -150px);\n  }\n  50% {\n    transform: translate(0px, 0px);\n  }\n  75% {\n    transform: translate(-150px, 0px);\n  }\n  100% {\n    transform: translate(-150px, -150px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

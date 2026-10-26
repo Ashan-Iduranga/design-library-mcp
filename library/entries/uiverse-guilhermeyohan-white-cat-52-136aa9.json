@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-guilhermeyohan-white-cat-52-136aa9",
+  "title": "Notification by guilhermeyohan (white-cat-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/guilhermeyohan/white-cat-52",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By guilhermeyohan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Notifications/guilhermeyohan_white-cat-52.html",
+  "code": "<div class=\"level-up-notification\">\n  <p class=\"kdkkkd\">Congratulations! You have reached level 10!</p>\n</div>\n\n<style>\n/* From Uiverse.io by guilhermeyohan - Tags: notification */\n.level-up-notification {\n  width: 330px;\n  margin: auto;\n  background-color: #2ed603a1;\n  border-radius: 10px;\n  padding: 20px;\n  animation: pulse 2s ease infinite, slide-in 1.5s ease;\n}\n\n.level-up-notification p.kdkkkd {\n  font-size: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n  margin: 0;\n  text-align: center;\n  color: #ffffff;\n  text-shadow: 1px 2px rgba(60, 59, 59, 0.754);\n}\n\n@keyframes slide-in {\n  0% {\n    transform: translateY(-100%);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.2);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

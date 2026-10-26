@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-satyamchaudharydev-tasty-dingo-5-153684",
+  "title": "Input by satyamchaudharydev (tasty-dingo-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/tasty-dingo-5",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "search"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/satyamchaudharydev_tasty-dingo-5.html",
+  "code": "<form class=\"form\">\n    <label for=\"search\">\n        <input class=\"input\" type=\"text\" required=\"\" placeholder=\"Search twitter\" id=\"search\">\n        <div class=\"fancy-bg\"></div>\n        <div class=\"search\">\n            <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" class=\"r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-4wgw6l r-f727ji r-bnwqim r-1plcrui r-lrvibr\">\n                <g>\n                    <path d=\"M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z\"></path>\n                </g>\n            </svg>\n        </div>\n        <button class=\"close-btn\" type=\"reset\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\">\n                <path fill-rule=\"evenodd\" d=\"M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z\" clip-rule=\"evenodd\"></path>\n            </svg>\n        </button>\n    </label>\n</form>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: input, search */\n/* this is a recreation of twitter search in css */\n.form {\n  --input-text-color: #fff;\n  --input-bg-color: #283542;\n  --focus-input-bg-color: transparent;\n  --text-color: #949faa;\n  --active-color: #1b9bee;\n  --width-of-input: 200px;\n  --inline-padding-of-input: 1.2em;\n  --gap: 0.9rem;\n}\n/* form style */\n.form {\n  font-size: 0.9rem;\n  display: flex;\n  gap: 0.5rem;\n  align-items: center;\n  width: var(--width-of-input);\n  position: relative;\n  isolation: isolate;\n}\n/* a fancy bg for showing background and border when focus. */\n.fancy-bg {\n  position: absolute;\n  width: 100%;\n  inset: 0;\n  background: var(--input-bg-color);\n  border-radius: 30px;\n  height: 100%;\n  z-index: -1;\n  pointer-events: none;\n  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;\n}\n/* label styling */\nlabel {\n  width: 100%;\n  padding: 0.8em;\n  height: 40px;\n  padding-inline: var(--inline-padding-of-input);\n  display: flex;\n  align-items: center;\n}\n\n.search,.close-btn {\n  position: absolute;\n}\n/* styling search-icon */\n.search {\n  fill: var(--text-color);\n  left: var(--inline-padding-of-input);\n}\n/* svg -- size */\nsvg {\n  width: 17px;\n  display: block;\n}\n/* styling of close button */\n.close-btn {\n  border: none;\n  right: var(--inline-padding-of-input);\n  box-sizing: border-box;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #fff;\n  padding: 0.1em;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background: var(--active-color);\n  opacity: 0;\n  visibility: hidden;\n}\n/* styling of input */\n.input {\n  color: var(--input-text-color);\n  width: 100%;\n  margin-inline: min(2em,calc(var(--inline-padding-of-input) + var(--gap)));\n  background: none;\n  border: none;\n}\n\n.input:focus {\n  outline: none;\n}\n\n.input::placeholder {\n  color: var(--text-color)\n}\n/* input background change in focus */\n.input:focus ~ .fancy-bg {\n  border: 1px solid var(--active-color);\n  background: var(--focus-input-bg-color);\n}\n/* search icon color change in focus */\n.input:focus ~ .search {\n  fill: var(--active-color);\n}\n/* showing close button when typing */\n.input:valid ~ .close-btn {\n  opacity: 1;\n  visibility: visible;\n}\n/* this is for the default background in input,when selecting autofill options -- you can remove this code if you do not want to override the browser style.  */\ninput:-webkit-autofill,\ninput:-webkit-autofill:hover,\ninput:-webkit-autofill:focus,\ninput:-webkit-autofill:active {\n  -webkit-transition: \"color 9999s ease-out, background-color 9999s ease-out\";\n  -webkit-transition-delay: 9999s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

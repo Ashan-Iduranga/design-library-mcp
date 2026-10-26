@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-jaydipprajapati1910-dry-frog-0-1b793b",
+  "title": "Button by JaydipPrajapati1910 (dry-frog-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/dry-frog-0",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "refresh"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JaydipPrajapati1910_dry-frog-0.html",
+  "code": "<button class=\"button\" type=\"button\">\n  <svg viewBox=\"0 0 16 16\" class=\"bi bi-arrow-repeat\" fill=\"currentColor\" height=\"16\" width=\"16\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z\"></path>\n  <path d=\"M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z\" fill-rule=\"evenodd\"></path>\n</svg>\n    Refresh \n</button>\n\n\n\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: button, refresh */\n.button {\n  color: white;\n  background-color: #222;\n  font-weight: 500;\n  border-radius: 0.5rem;\n  font-size: 1rem;\n  line-height: 2rem;\n  padding-left: 2rem;\n  padding-right: 2rem;\n  padding-top: 0.7rem;\n  padding-bottom: 0.7rem;\n  text-align: center;\n  margin-right: 0.5rem;\n  display: inline-flex;\n  align-items: center;\n  border: none;\n}\n\n.button:hover {\n  background-color: #333;\n}\n\n.button svg {\n  display: inline;\n  width: 1.3rem;\n  height: 1.3rem;\n  margin-right: 0.75rem;\n  color: white;\n}\n\n.button:focus svg {\n  animation: spin_357 0.5s linear;\n}\n\n@keyframes spin_357 {\n  from {\n    transform: rotate(0deg);\n  }\n\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

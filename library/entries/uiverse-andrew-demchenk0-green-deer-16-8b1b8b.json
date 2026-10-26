@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-andrew-demchenk0-green-deer-16-8b1b8b",
+  "title": "Input by andrew-demchenk0 (green-deer-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/green-deer-16",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/andrew-demchenk0_green-deer-16.html",
+  "code": "<label class=\"wrapper\">\n  <input type=\"text\" placeholder=\"Input label\" name=\"text\" class=\"input\">\n  <span class=\"placeholder\">Input label</span>\n</label>\n\n\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: input */\n.wrapper {\n  position: relative;\n}\n\n.input {\n  width: 190px;\n  height: 35px;\n  border-radius: 5px;\n  border: 2px #323232 solid;\n  padding: 5px 15px;\n  background-color: #e8e8e8;\n  font-size: 15;\n  font-weight: 500;\n}\n\n.placeholder {\n  width: 65%;\n  position: absolute;\n  top: -18px;\n  left: 50%;\n  transform: translateX(-50%);\n  z-index: 2;\n  text-align: center;\n  color: blueviolet;\n  background-color: #e8e8e8;\n  font-weight: 600;\n  font-size: 15px;\n  letter-spacing: 1.5px;\n  transition: all 0.3s;\n  opacity: 0;\n}\n\n.input::placeholder {\n  font-size: 15px;\n  font-weight: 500;\n  letter-spacing: 1px;\n}\n\n.input:focus + .placeholder {\n  opacity: 1;\n}\n\n.input:focus {\n  outline: 2px solid blueviolet;\n  border: none;\n  color: blueviolet;\n}\n\n.input:focus::placeholder {\n  opacity: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-alexruix-gentle-octopus-87-57ec49",
+  "title": "Notification by alexruix (gentle-octopus-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/gentle-octopus-87",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Notifications/alexruix_gentle-octopus-87.html",
+  "code": "<div class=\"box-avatar\">\n  <div class=\"avatar\">\n      <svg class=\"avatar-icon\" viewBox=\"0 0 17 15\">\n        <path d=\"M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z\"></path>\n      </svg>\n    </div>\n</div>\n  <div class=\"notification\">    \n    <div class=\"notification-info\">\n      <p class=\"notification-text\"> <span class=\"highlight\">Player</span> reached <b>level 15!</b> </p>\n    </div>\n  </div>\n<style>\n/* From Uiverse.io by alexruix - Tags: notification */\n.notification {\n  display: flex;\n  width: 0;\n  background: #ddd;\n  border-radius: 10px;\n  animation: slideIn 1s ease-in-out 1.25s forwards;\n}\n\n.notification-info {\n  display: inline-flex;\n  overflow: hidden;\n  background-color: #181818;\n  color: #fff;\n  width: 100%;\n  border-radius: 12px 8px 8px 12px;\n  padding-left: 16px;\n  align-items: center;\n}\n\n.notification-text {\n  opacity: 0;\n  padding: 10px 8px;\n  white-space: nowrap;\n  animation: textInfo 1s ease-in-out 1.5s forwards;\n}\n\n.highlight {\n  color: #ffc300;\n}\n\n.box-avatar {\n  background-color: #181818;\n  padding: 6px;\n  width: 4.5em;\n  height: 4.5em;\n  border-radius: 50%;\n  margin-right: -20px;\n  box-shadow: 6.2px 3.1px 38.2px -6px rgba(0, 0, 0, 0.2), 63px 32px 176px -6px rgba(0, 0, 0, 0.1);\n  z-index: 1;\n}\n\n.avatar {\n  background-color: #FDA203;\n  padding: .6em;\n  border-radius: 50%;\n}\n\n.avatar-icon {\n  width: 100%;\n  height: 100%;\n  fill: white;\n  animation: grow 2s ease-in-out 3;\n}\n\n/*Animations*/\n@keyframes slideIn {\n  0% {\n    width: 0;\n    padding: 2px;\n  }\n\n  100% {\n    width: 250px;\n    padding: 2px;\n  }\n}\n\n@keyframes textInfo {\n  0% {\n    opacity: 0%;\n    margin-left: -20em;\n  }\n\n  100% {\n    opacity: 100%;\n    margin-left: 0;\n  }\n}\n\n@keyframes grow {\n  0% {\n    transform: scale(100%) translateY(0%);\n  }\n\n  50% {\n    transform: scale(100%) translateY(-10%);\n  }\n\n  100% {\n    transform: scale(100%) translateY(0%);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

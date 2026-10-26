@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-exyreams-mean-dragon-22-9e738e",
+  "title": "Loader by exyreams (mean-dragon-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/exyreams/mean-dragon-22",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By exyreams on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/exyreams_mean-dragon-22.html",
+  "code": "<div class=\"cssload-container\">\n   <ul class=\"cssload-flex-container\">\n      <li>\n         <span class=\"cssload-loading cssload-one\"></span>\n         <span class=\"cssload-loading cssload-two\"></span>\n         <span class=\"cssload-loading-center\"></span>\n      </li>\n   </ul>\n</div>\n<style>\n/* From Uiverse.io by exyreams - Source: MichaelRyanSmith - Tags: loading, loader, loading animation */\n.cssload-container * {\n  box-sizing: border-box;\n}\n\n.cssload-container {\n  margin: 38px auto 0 auto;\n  max-width: 1048px;\n}\n\n.cssload-container ul li {\n  list-style: none;\n}\n\n.cssload-flex-container {\n  display: flex;\n  display: -o-flex;\n  display: -ms-flex;\n  display: -webkit-flex;\n  display: -moz-flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: space-around;\n}\n\n.cssload-flex-container li {\n  padding: 19px;\n  height: 188px;\n  width: 188px;\n  margin: 56px 38px;\n  position: relative;\n  text-align: center;\n}\n\n.cssload-loading-center {\n  display: inline-block;\n  position: absolute;\n    /* The color can be custmized, This color is for center cube.*/\n  background: #ff0000;\n  height: 56px;\n  width: 56px;\n  left: 68px;\n  top: 69px;\n  transform: rotate(45deg);\n  border-radius: 6px;\n  animation: pulse 1.3s ease infinite;\n}\n\n.cssload-loading {\n  display: inline-block;\n  position: relative;\n  width: 141px;\n  height: 141px;\n  margin-top: 6px;\n  transform: rotate(45deg);\n}\n\n.cssload-loading:after, .cssload-loading:before {\n  position: absolute;\n  content: '';\n  height: 19px;\n  width: 19px;\n  display: block;\n  top: 0;\n    /* The color can be custmized, This color is for 4 cubes.*/\n  background: #ff5252;\n  border-radius: 6px;\n}\n\n.cssload-loading:after {\n  right: 0;\n  animation: square-tr 2.6s ease infinite;\n  animation-delay: .162.5s;\n}\n\n.cssload-loading:before {\n  animation: square-tl 2.6s ease infinite;\n  animation-delay: .162.5s;\n}\n\n.cssload-loading.cssload-two {\n  position: relative;\n  top: -150px;\n}\n\n.cssload-loading.cssload-two:after, .cssload-loading.cssload-two:before {\n  bottom: 0;\n  top: initial;\n}\n\n.cssload-loading.cssload-two:after {\n  animation: square-br 2.6s ease infinite;\n  animation-direction: reverse;\n}\n\n.cssload-loading.cssload-two:before {\n  animation: square-bl 2.6s ease infinite;\n  animation-direction: reverse;\n}\n\n@keyframes square-tl {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  25% {\n    transform: translate(0, 117.5px);\n  }\n\n  50% {\n    transform: translate(117.5px, 117.5px);\n  }\n\n  75% {\n    transform: translate(117.5px, 0);\n  }\n}\n\n@keyframes square-bl {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  25% {\n    transform: translate(0, -117.5px);\n  }\n\n  50% {\n    transform: translate(117.5px, -117.5px);\n  }\n\n  75% {\n    transform: translate(117.5px, 0);\n  }\n}\n\n@keyframes square-tr {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  25% {\n    transform: translate(-117.5px, 0);\n  }\n\n  50% {\n    transform: translate(-117.5px, 117.5px);\n  }\n\n  75% {\n    transform: translate(0, 117.5px);\n  }\n}\n\n@keyframes square-br {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  25% {\n    transform: translate(-117.5px, 0);\n  }\n\n  50% {\n    transform: translate(-117.5px, -117.5px);\n  }\n\n  75% {\n    transform: translate(0, -117.5px);\n  }\n}\n\n@keyframes rotate {\n  from {\n    transform: rotate(0deg);\n  }\n\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes pulse {\n  0%, 100% {\n    transform: scale(inherit) rotate(45deg);\n  }\n\n  75% {\n    transform: scale(0.25) rotate(45deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

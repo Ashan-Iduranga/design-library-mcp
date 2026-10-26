@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-elijahgummer-hungry-bullfrog-10-11a047",
+  "title": "Pattern by elijahgummer (hungry-bullfrog-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/hungry-bullfrog-10",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "simple",
+    "material-design",
+    "green",
+    "blue",
+    "minimalist",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/elijahgummer_hungry-bullfrog-10.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, material design, green, blue, minimalist, gradient, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n    45deg,\n    #3498db,\n    #2ecc71\n  ); /* Gradient background */\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */\n  border-radius: 10px; /* Rounded corners */\n  position: relative;\n  overflow: hidden;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-image: linear-gradient(\n      90deg,\n      rgba(255, 255, 255, 0.1) 1px,\n      transparent 1px\n    ),\n    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);\n  background-size: 20px 20px;\n  pointer-events: none; /* Allow clicking through the pattern layer */\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

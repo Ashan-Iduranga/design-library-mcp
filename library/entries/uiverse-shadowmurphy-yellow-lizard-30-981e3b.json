@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-shadowmurphy-yellow-lizard-30-981e3b",
+  "title": "Loader by shadowmurphy (yellow-lizard-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/shadowmurphy/yellow-lizard-30",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "bottle",
+    "cola"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By shadowmurphy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/shadowmurphy_yellow-lizard-30.html",
+  "code": "<svg viewBox=\"0 0 205 615\" class=\"cola\">\n  <path d=\"M47 595c-8 0-26-6-26-34V261c0-17 9-29 16-38s16-28 16-28L68 59l-4-5s3-30 7-36 14-6 32-6 28 0 32 6 7 36 7 36l-4 5 15 136s9 19 16 28 16 21 16 38v300c0 28-18 34-26 34H47z\"></path>\n</svg>\n<style>\n/* From Uiverse.io by shadowmurphy - Tags: loader, bottle, cola */\n.cola {\n  --pathlength: 1384;\n  width: 45px;\n  fill: transparent;\n  stroke: black;\n  stroke-linecap: round;\n  stroke-width: 15px;\n  stroke-dashoffset: var(--pathlength);\n  stroke-dasharray: 0 var(--pathlength);\n  animation: loader 8s cubic-bezier(.5,.1,.5,1) infinite both;\n}\n\n@keyframes loader {\n  90%, 100% {\n    stroke-dashoffset: 0;\n    stroke-dasharray: var(--pathlength) 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

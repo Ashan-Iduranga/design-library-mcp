@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-clawhack1-honest-fox-62-8b8cf5",
+  "title": "Input by ClawHack1 (honest-fox-62)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ClawHack1/honest-fox-62",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ClawHack1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/ClawHack1_honest-fox-62.html",
+  "code": "<div class=\"input\">\n    <input type=\"text\" required=\"\" autocomplete=\"off\">\n    <label for=\"name\">Username</label>\n</div>\n<style>\n/* From Uiverse.io by ClawHack1 - Tags: input */\n.input {\n  font-family: 'Segoe UI', sans-serif;\n  margin: 1em 0 1em 0;\n  max-width: 190px;\n  position: relative;\n}\n\n.input input {\n  font-size: 100%;\n  padding: 0.8em;\n  outline: none;\n  border: 2px solid rgb(141, 109, 255);\n  background-color: transparent;\n  border-radius: 20px;\n  width: 100%;\n}\n\n.input label {\n  font-size: 100%;\n  position: absolute;\n  left: 0;\n  padding: 0.8em;\n  margin-left: 0.5em;\n  pointer-events: none;\n  transition: all 0.3s ease;\n  color: rgb(255, 255, 255);\n}\n\n.input :is(input:focus, input:valid)~label {\n  transform: translateY(-50%) scale(.9);\n  margin: 0em;\n  margin-left: 1.3em;\n  padding: 0.4em;\n  background-color: #212121;\n}\n\n.inputGroup :is(input:focus, input:valid) {\n  border-color: rgb(37, 37, 211);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

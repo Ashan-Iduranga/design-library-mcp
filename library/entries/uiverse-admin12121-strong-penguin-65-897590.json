@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-admin12121-strong-penguin-65-897590",
+  "title": "Toggle by Admin12121 (strong-penguin-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Admin12121/strong-penguin-65",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "toggle-switch",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Admin12121 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Admin12121_strong-penguin-65.html",
+  "code": "<label class=\"switch\">\n  <input role=\"switch\" type=\"checkbox\" class=\"switch__input\" />\n  <span class=\"switch__bg\"></span>\n  <span class=\"switch__label\">Power</span>\n</label>\n\n<style>\n/* From Uiverse.io by Admin12121  - Tags: switch, toggle, toggle switch, 3d button */\n.switch,\n.switch__input {\n  --hue: 223;\n  --bg: hsl(var(--hue), 90%, 60%);\n  --fg: hsl(var(--hue), 90%, 10%);\n  --primary: hsl(var(--hue), 90%, 50%);\n  --trans-dur: 0.3s;\n  --trans-timing: cubic-bezier(0.65, 0, 0.35, 1);\n  font-size: calc(40px + (80 - 40) * (100px - 320px) / (2560 - 320));\n  position: relative;\n  -webkit-tap-highlight-color: transparent;\n}\n.switch {\n  display: block;\n  filter: grayscale(0.9);\n  margin: auto;\n  transition: filter var(--trans-dur) var(--trans-timing);\n  width: 6em;\n  height: 2.75em;\n}\n.switch:has(:checked) {\n  filter: grayscale(0);\n}\n.switch__input {\n  cursor: pointer;\n  outline: transparent;\n  width: 100%;\n  height: 100%;\n  -webkit-appearance: none;\n  appearance: none;\n  z-index: 2;\n}\n.switch__bg {\n  background: radial-gradient(\n    7.75em 7.75em at 50% 4.0625em,\n    hsla(var(--hue), 90%, 90%, 0) 29.9%,\n    hsl(var(--hue), 90%, 90%) 30.1% 31.9%,\n    hsl(0, 0%, 100%) 32.1% 35.2%,\n    hsl(var(--hue), 50%, 80%) 35.4% 36%,\n    hsl(var(--hue), 90%, 70%) 36.2% 41.8%,\n    hsl(var(--hue), 90%, 65%) 42% 43.6%,\n    hsl(var(--hue), 50%, 80%) 43.8% 44.4%,\n    hsl(0, 0%, 100%) 44.6% 46.6%,\n    hsl(var(--hue), 90%, 90%) 46.8% 49.3%,\n    hsl(var(--hue), 90%, 98%) 49.5% 49.8%,\n    hsla(var(--hue), 90%, 98%, 0) 49.9%\n  );\n  clip-path: polygon(0 0, 100% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);\n  display: block;\n  position: absolute;\n  inset: 0;\n  z-index: 1;\n}\n.switch:before,\n.switch:after,\n.switch__input:before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n.switch:before,\n.switch:after {\n  background: radial-gradient(\n      60% 60% at 50% 50%,\n      hsla(var(--hue), 50%, 80%, 0) 34%,\n      hsl(var(--hue), 50%, 80%) 35% 40.5%,\n      hsl(0, 0%, 100%) 41.5% 49%,\n      hsla(0, 0%, 100%, 0) 50%\n    ),\n    linear-gradient(\n        hsla(var(--hue), 90%, 65%, 0) 30%,\n        hsl(var(--hue), 90%, 65%) 30% 40%,\n        hsla(var(--hue), 90%, 65%, 0) 40%\n      )\n      50% 0 / 40% 100% no-repeat,\n    radial-gradient(\n      50% 50% at 50% 50%,\n      hsl(var(--hue), 90%, 70%) 41%,\n      hsla(var(--hue), 90%, 70%, 0) 42%\n    ),\n    radial-gradient(\n      75% 75% at 50% 52.5%,\n      hsl(0, 0%, 100%) 49.8%,\n      hsla(0, 0%, 100%, 0) 50%\n    ),\n    radial-gradient(\n      112% 112% at 50% 55%,\n      hsl(var(--hue), 90%, 98%, 0) 46.8%,\n      hsl(var(--hue), 90%, 98%) 47% 49.8%,\n      hsla(var(--hue), 90%, 98%, 0) 50%\n    ),\n    radial-gradient(\n      100% 100% at 50% 50%,\n      hsl(var(--hue), 90%, 90%) 49.8%,\n      hsla(var(--hue), 90%, 90%, 0) 50%\n    );\n  border-radius: 50%;\n  top: auto;\n  bottom: 0.0625em;\n  width: 1.5625em;\n  height: 1.5625em;\n}\n.switch:before {\n  transform: rotate(-45deg);\n}\n.switch:after {\n  right: 0;\n  left: auto;\n  transform: rotate(45deg);\n}\n.switch__input:before {\n  background-color: hsl(0, 0%, 100%);\n  border-radius: 50%;\n  box-shadow: 0 0 0 0.5em hsla(var(--hue), 90%, 40%, 0),\n    0 0.25em 0.5em 0.125em hsl(var(--hue), 90%, 50%);\n  top: 3.5em;\n  left: calc(50% - 0.625em);\n  width: 1.25em;\n  height: 1.25em;\n  transform: rotate(-45deg) translateY(-3.125em) rotate(45deg);\n  transition: background-color var(--trans-dur) var(--trans-timing),\n    box-shadow 0.15s var(--trans-timing),\n    transform var(--trans-dur) var(--trans-timing);\n}\n.switch__input:checked:before {\n  background-color: hsl(var(--hue), 90%, 70%);\n  transform: rotate(45deg) translateY(-3.125em) rotate(-45deg);\n}\n.switch__input:focus-visible:before {\n  box-shadow: 0 0 0 0.5em hsla(var(--hue), 90%, 40%, 0.5),\n    0 0.25em 0.5em 0.125em hsl(var(--hue), 90%, 50%);\n}\n.switch__label {\n  overflow: hidden;\n  position: absolute;\n  width: 1px;\n  height: 1px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

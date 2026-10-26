@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vikramsinghnegi-massive-panda-81-4daebd",
+  "title": "Button by vikramsinghnegi (massive-panda-81)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikramsinghnegi/massive-panda-81",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "hover-me"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikramsinghnegi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vikramsinghnegi_massive-panda-81.html",
+  "code": "<button class=\"youtube-button\">\n  <div class=\"svg-wrapper-1\">\n    <div class=\"svg-wrapper\">\n      <svg\n        height=\"24\"\n        width=\"24\"\n        viewBox=\"0 0 24 24\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n      >\n        <path d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n        <path\n          d=\"M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z\"\n          fill=\"currentColor\"\n        ></path>\n      </svg>\n    </div>\n  </div>\n  <span>Watch on YouTube</span>\n</button>\n\n<style>\n/* From Uiverse.io by vikramsinghnegi  - Tags: animation, button, hover me */\nbutton.youtube-button {\n  font-family: inherit;\n  font-size: 18px;\n  background: linear-gradient(to bottom, #ff0000 0%, #ff5050 100%);\n  color: white;\n  padding: 0.8em 1.2em;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: none;\n  border-radius: 25px;\n  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);\n  transition: all 0.3s;\n}\n\nbutton.youtube-button:hover {\n  transform: translateY(-3px);\n  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);\n}\n\nbutton.youtube-button:active {\n  transform: scale(0.95);\n  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);\n}\n\nbutton.youtube-button span {\n  display: block;\n  margin-left: 0.4em;\n  transition: all 0.3s;\n}\n\nbutton.youtube-button svg {\n  width: 18px;\n  height: 18px;\n  fill: white;\n  transition: all 0.3s;\n}\n\nbutton.youtube-button .svg-wrapper {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  background-color: rgba(255, 255, 255, 0.2);\n  margin-right: 0.5em;\n  transition: all 0.3s;\n}\n\nbutton.youtube-button:hover .svg-wrapper {\n  background-color: rgba(255, 255, 255, 0.5);\n}\n\nbutton.youtube-button:hover svg {\n  transform: rotate(45deg);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

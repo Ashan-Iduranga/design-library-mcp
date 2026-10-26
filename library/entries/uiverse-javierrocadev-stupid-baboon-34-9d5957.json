@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-javierrocadev-stupid-baboon-34-9d5957",
+  "title": "Card by Javierrocadev (stupid-baboon-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/stupid-baboon-34",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "star",
+    "moon",
+    "rotate",
+    "keyframes",
+    "rocket"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Javierrocadev_stupid-baboon-34.html",
+  "code": "<div class=\"card\">\n  <div class=\"star star-1\"></div>\n  <div class=\"star star-2\"></div>\n  <div class=\"star star-3\"></div>\n  <div class=\"star star-4\"></div>\n  <div class=\"star star-5\"></div>\n  <div class=\"star star-6\"></div>\n  <div class=\"star star-7\"></div>\n  <div class=\"card-info\">\n    <span>To the moon!</span>\n  </div>\n  <svg class=\"moon\" viewBox=\"0 0 20 20\">\n\t\t\t\t\t\t\t<path d=\"M 10 9 z z M 7.007 6.552 c 0 -2.259 0.795 -4.33 2.117 -5.955 C 4.34 1.042 0.594 5.07 0.594 9.98 c 0 5.207 4.211 9.426 9.406 9.426 c 2.94 0 5.972 -1.354 7.696 -3.472 c -0.289 0.026 -0.987 0.044 -1.283 0.044 C 11.219 15.979 7.007 11.759 7.007 6.552 z\"></path></svg>\n  <svg class=\"rocket\" viewBox=\"48.0129 48.1783 416 415.6\">\n  <path d=\"M461.81,53.81a4.4,4.4,0,0,0-3.3-3.39c-54.38-13.3-180,34.09-248.13,102.17a294.9,294.9,0,0,0-33.09,39.08c-21-1.9-42-.3-59.88,7.5-50.49,22.2-65.18,80.18-69.28,105.07a9,9,0,0,0,9.8,10.4l81.07-8.9a180.29,180.29,0,0,0,1.1,18.3,18.15,18.15,0,0,0,5.3,11.09l31.39,31.39a18.15,18.15,0,0,0,11.1,5.3,179.91,179.91,0,0,0,18.19,1.1l-8.89,81a9,9,0,0,0,10.39,9.79c24.9-4,83-18.69,105.07-69.17,7.8-17.9,9.4-38.79,7.6-59.69a293.91,293.91,0,0,0,39.19-33.09C427.82,233.76,474.91,110.9,461.81,53.81ZM298.66,213.67a42.7,42.7,0,1,1,60.38,0A42.65,42.65,0,0,1,298.66,213.67Z\"></path></svg>\n\t\t\t\t\t\t\n</div>\n\n<style>\n/* From Uiverse.io by Javierrocadev - Tags: card, star, moon, rotate, keyframes, rocket */\n.card {\n  width: 290px;\n  height: 350px;\n  background: linear-gradient(135deg, rgba(48,48,48,1) 48%, rgba(0,0,0,1) 100%);\n  background-size: 300%,300%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  border-radius: 15px;\n  box-shadow: 5px 5px 15px 5px #000000;\n  overflow: hidden;\n  transition: all 1s ease;\n}\n\n.moon {\n  width: 70px;\n  height: 70px;\n  top: 15%;\n  right: 120px;\n  position: absolute;\n  fill: white;\n  transform: rotate(-20deg);\n  transition: all 1s ease;\n}\n\n.rocket {\n  width: 70px;\n  height: 70px;\n  bottom: -2%;\n  left: -2%;\n  position: absolute;\n  fill: white;\n  transition: all 1.9s ease;\n}\n\n.star {\n  position: absolute;\n  background: radial-gradient(circle, rgba(251,239,63,1) 0%, rgba(255,253,212,1) 100%);\n  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);\n}\n\n.star-1 {\n  width: 100px;\n  height: 100px;\n  bottom: 90px;\n  left: -15px;\n  transition: all 1s ease;\n}\n\n.star-2 {\n  width: 150px;\n  height: 150px;\n  top: -10%;\n  left: -10%;\n  transition: all .5s ease;\n}\n\n.star-3 {\n  width: 100px;\n  height: 100px;\n  bottom: 5%;\n  right: -15px;\n  transition: all .3s ease;\n}\n\n.star-4 {\n  width: 20px;\n  height: 20px;\n  top: 4%;\n  right: 5px;\n  transition: all 1.4s ease;\n}\n\n.star-5 {\n  width: 20px;\n  height: 20px;\n  bottom: 24%;\n  right: 45%;\n  animation: rotate 3s normal linear infinite;\n}\n\n.star-6 {\n  width: 20px;\n  height: 20px;\n  top: 14%;\n  right: 25%;\n  animation: rotate 5s normal linear infinite;\n}\n\n.star-7 {\n  width: 40px;\n  height: 40px;\n  top: 34%;\n  right: 65%;\n  animation: rotate 5s normal linear infinite;\n}\n\n.card-info span {\n  font-size: 1.2em;\n  color: white;\n  font-weight: 600;\n  text-transform: uppercase;\n  transition: all 1s ease;\n}\n\n.card:hover {\n  background: rgb(48,48,48);\n  background: linear-gradient(135deg, rgba(48,48,48,1) 10%, rgba(0,0,0,1) 90%);\n  background-size: 100%,100%;\n}\n\n.card:hover .star-1,\n.card:hover .star-3 {\n  background: linear-gradient(90deg, rgba(255,241,0,1) 0%, rgba(246,249,93,1) 77%, rgba(238,255,0,1) 100%);\n  transform: scale(1.2) rotate(10deg);\n}\n\n.card:hover .star-2,\n.card:hover .star-4,\n.card:hover .star-5 {\n  background: linear-gradient(90deg, rgba(255,241,0,1) 0%, rgba(246,249,93,1) 77%, rgba(238,255,0,1) 100%);\n  transform: scale(1.2) rotate(-150deg);\n}\n\n.card:hover .rocket {\n  transform: scale(.3) translate(450px,-730px) rotate(-260deg);\n}\n\n.card:hover .moon {\n  width: 50px;\n  height: 50px;\n}\n\n.card:hover span {\n  font-size: 1.5em;\n}\n\n@keyframes rotate {\n  0% {\n    -webkit-transform: rotate3d(0, 0, 1, 0deg);\n    transform: rotate3d(0, 0, 1, 0deg);\n  }\n\n  25% {\n    -webkit-transform: rotate3d(0, 0, 1, 90deg);\n    transform: rotate3d(0, 0, 1, 90deg);\n  }\n\n  50% {\n    -webkit-transform: rotate3d(0, 0, 1, 180deg);\n    transform: rotate3d(0, 0, 1, 180deg);\n  }\n\n  75% {\n    -webkit-transform: rotate3d(0, 0, 1, 270deg);\n    transform: rotate3d(0, 0, 1, 270deg);\n  }\n\n  100% {\n    -webkit-transform: rotate3d(0, 0, 1, 360deg);\n    transform: rotate3d(0, 0, 1, 360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-application-radio-groups-3",
+  "title": "Radio Groups: Color variant",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/radio-groups",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "radio-groups",
+    "hyperui",
+    "form",
+    "group",
+    "radio"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/radio-groups/3.html",
+  "code": "<div class=\"mx-auto max-w-lg p-6\">\n<fieldset class=\"flex flex-wrap gap-3\">\n<legend class=\"sr-only\">Color</legend>\n<label class=\"block size-8 rounded-full bg-black shadow-sm has-checked:ring-2 has-checked:ring-black has-checked:ring-offset-2\" for=\"ColorBlack\">\n<input checked=\"\" class=\"sr-only\" id=\"ColorBlack\" name=\"ColorOption\" type=\"radio\" value=\"ColorBlack\"/>\n<span class=\"sr-only\">Black</span>\n</label>\n<label class=\"block size-8 rounded-full bg-red-500 shadow-sm has-checked:ring-2 has-checked:ring-red-500 has-checked:ring-offset-2\" for=\"ColorRed\">\n<input class=\"sr-only\" id=\"ColorRed\" name=\"ColorOption\" type=\"radio\" value=\"ColorRed\"/>\n<span class=\"sr-only\">Red</span>\n</label>\n<label class=\"block size-8 rounded-full bg-blue-500 shadow-sm has-checked:ring-2 has-checked:ring-blue-500 has-checked:ring-offset-2\" for=\"ColorBlue\">\n<input class=\"sr-only\" id=\"ColorBlue\" name=\"ColorOption\" type=\"radio\" value=\"ColorBlue\"/>\n<span class=\"sr-only\">Blue</span>\n</label>\n<label class=\"block size-8 rounded-full bg-amber-500 shadow-sm has-checked:ring-2 has-checked:ring-amber-500 has-checked:ring-offset-2\" for=\"ColorGold\">\n<input class=\"sr-only\" id=\"ColorGold\" name=\"ColorOption\" type=\"radio\" value=\"ColorGold\"/>\n<span class=\"sr-only\">Gold</span>\n</label>\n</fieldset>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

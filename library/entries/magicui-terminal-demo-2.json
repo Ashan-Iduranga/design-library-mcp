@@ -1,0 +1,36 @@
+{
+  "id": "magicui-terminal-demo-2",
+  "title": "Terminal Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/terminal",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "terminal",
+    "demo",
+    "2",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a terminal with animated text and custom delays\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/terminal-demo-2.tsx",
+  "code": "import {\n  AnimatedSpan,\n  Terminal,\n  TypingAnimation,\n} from \"@/registry/magicui/terminal\"\n\nexport default function TerminalDemo2() {\n  return (\n    <Terminal>\n      <TypingAnimation delay={0}>$ ls</TypingAnimation>\n\n      <AnimatedSpan delay={800} className=\"text-blue-500\">\n        Documents Downloads Pictures\n      </AnimatedSpan>\n\n      <TypingAnimation delay={1600}>$ cd Documents</TypingAnimation>\n\n      <TypingAnimation delay={2400}>$ pwd</TypingAnimation>\n\n      <AnimatedSpan delay={3200} className=\"text-green-500\">\n        /home/user/Documents\n      </AnimatedSpan>\n    </Terminal>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

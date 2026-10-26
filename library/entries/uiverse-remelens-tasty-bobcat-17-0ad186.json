@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-remelens-tasty-bobcat-17-0ad186",
+  "title": "Button by Remelens (tasty-bobcat-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Remelens/tasty-bobcat-17",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "light",
+    "windows11"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Remelens on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Remelens_tasty-bobcat-17.html",
+  "code": "<button class=\"button\">Button</button>\n\n<style>\n/* From Uiverse.io by Remelens  - Tags: button, light, windows11 */\n.button {\n  display: inline-block;\n  text-align: center;\n  border: 0.9px solid #aaa;\n  border-radius: 2.5px;\n  background: #fff;\n  cursor: pointer;\n  color: #000;\n  min-width: 80px;\n  padding: 4px 0;\n  margin: 0 5px;\n  line-height: 20px;\n  transition: all 0.2s;\n  appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  font-family: Menlo, Monaco, Consolas, \"Lucida Console\", \"Ubuntu Mono\",\n    \"Microsoft YaHei UI\", \"PingFang SC\", \"Noto Sans CJK SC\", \"SimHei\";\n}\n.button:hover {\n  border-color: #0078d4;\n  background: #e0eef9;\n  transition: all 0.2s;\n}\n.button:active {\n  border-color: #005499;\n  background: #cce4f7;\n  transition: all 0.2s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

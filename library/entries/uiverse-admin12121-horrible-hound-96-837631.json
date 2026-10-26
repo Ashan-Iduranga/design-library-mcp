@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-admin12121-horrible-hound-96-837631",
+  "title": "Loader by Admin12121 (horrible-hound-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Admin12121/horrible-hound-96",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animated",
+    "effect-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Admin12121 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Admin12121_horrible-hound-96.html",
+  "code": "<div class=\"con\">\n  <div class=\"side left\"></div>\n  <div class=\"side right\"></div>\n  <div class=\"side rightAbove\"></div>\n  <div class=\"side bottom\"></div>\n</div>\n<style>\n/* From Uiverse.io by Admin12121 - Tags: loader, animated, effect loader */\n.con {\n  width: 120px;\n  height: 120px;\n  position: absolute;\n  top: 0;\n  right: 0;\n  left: 0;\n  bottom: 0;\n  margin: auto;\n  transform-origin: 60px 50px;\n  -webkit-animation: spin 3s infinite;\n  animation: spin 3s infinite;\n}\n\n.side {\n  width: 110px;\n  height: 30px;\n  background: white;\n  position: absolute;\n  overflow: hidden;\n  -webkit-backface-visibility: hidden;\n  backface-visibility: hidden;\n}\n\n.side:before, .side:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n}\n\n.side:before {\n  width: 0;\n  height: 0;\n  border-left: 0px solid transparent;\n  border-right: 20px solid #fff;\n  border-top: 35px solid #111;\n  left: 0;\n}\n\n.side:after {\n  width: 0;\n  height: 0;\n  border-left: 0px solid transparent;\n  border-right: 20px solid #111;\n  border-bottom: 35px solid transparent;\n  right: 0;\n}\n\n.left {\n  left: 0px;\n  transform: rotate(120deg);\n  z-index: 2;\n}\n\n.right, .rightAbove {\n  transform: rotate(-120deg);\n  right: -30px;\n  top: 50px;\n}\n\n.rightAbove {\n  clip: rect(0px 90px 30px 0);\n  z-index: 4;\n}\n\n.under {\n  z-index: 1;\n}\n\n.bottom {\n  left: -24px;\n  bottom: 30px;\n  z-index: 3;\n}\n\n@-webkit-keyframes spin {\n  50% {\n    transform: rotate(720deg);\n  }\n\n  100% {\n    transform: rotate(720deg);\n  }\n}\n\n@keyframes spin {\n  50% {\n    transform: rotate(720deg);\n  }\n\n  100% {\n    transform: rotate(720deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

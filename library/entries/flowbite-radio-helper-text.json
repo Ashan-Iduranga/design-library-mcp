@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-radio-helper-text",
+  "title": "Radio: Helper text (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/radio/#helper-text",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Get started with this example if you want to add a secondary text to the label for the radio component.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/radio.md",
+  "code": "<div class=\"flex\">\n    <div class=\"flex items-center h-5\">\n        <input id=\"helper-radio\" aria-describedby=\"helper-radio-text\" type=\"radio\" value=\"\" class=\"w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none\">\n    </div>\n    <div class=\"ms-2 text-sm select-none\">\n        <label for=\"helper-radio\" class=\"font-medium text-heading mb-1\">Free shipping via Flowbite</label>\n        <p id=\"helper-radio-text\" class=\"text-xs font-normal text-body\">For orders shipped from $25 in books or $29 in other categories</p>\n    </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

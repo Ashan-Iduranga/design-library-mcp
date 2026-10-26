@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-g4b413l-tidy-walrus-92-2ef029",
+  "title": "Loader by G4b413l (tidy-walrus-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/tidy-walrus-92",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/G4b413l_tidy-walrus-92.html",
+  "code": "<div class=\"three-body\">\n<div class=\"three-body__dot\"></div>\n<div class=\"three-body__dot\"></div>\n<div class=\"three-body__dot\"></div>\n</div>\n<style>\n/* From Uiverse.io by G4b413l - Tags: loader */\n.three-body {\n --uib-size: 35px;\n --uib-speed: 0.8s;\n --uib-color: #5D3FD3;\n position: relative;\n display: inline-block;\n height: var(--uib-size);\n width: var(--uib-size);\n animation: spin78236 calc(var(--uib-speed) * 2.5) infinite linear;\n}\n\n.three-body__dot {\n position: absolute;\n height: 100%;\n width: 30%;\n}\n\n.three-body__dot:after {\n content: '';\n position: absolute;\n height: 0%;\n width: 100%;\n padding-bottom: 100%;\n background-color: var(--uib-color);\n border-radius: 50%;\n}\n\n.three-body__dot:nth-child(1) {\n bottom: 5%;\n left: 0;\n transform: rotate(60deg);\n transform-origin: 50% 85%;\n}\n\n.three-body__dot:nth-child(1)::after {\n bottom: 0;\n left: 0;\n animation: wobble1 var(--uib-speed) infinite ease-in-out;\n animation-delay: calc(var(--uib-speed) * -0.3);\n}\n\n.three-body__dot:nth-child(2) {\n bottom: 5%;\n right: 0;\n transform: rotate(-60deg);\n transform-origin: 50% 85%;\n}\n\n.three-body__dot:nth-child(2)::after {\n bottom: 0;\n left: 0;\n animation: wobble1 var(--uib-speed) infinite\n    calc(var(--uib-speed) * -0.15) ease-in-out;\n}\n\n.three-body__dot:nth-child(3) {\n bottom: -5%;\n left: 0;\n transform: translateX(116.666%);\n}\n\n.three-body__dot:nth-child(3)::after {\n top: 0;\n left: 0;\n animation: wobble2 var(--uib-speed) infinite ease-in-out;\n}\n\n@keyframes spin78236 {\n 0% {\n  transform: rotate(0deg);\n }\n\n 100% {\n  transform: rotate(360deg);\n }\n}\n\n@keyframes wobble1 {\n 0%,\n  100% {\n  transform: translateY(0%) scale(1);\n  opacity: 1;\n }\n\n 50% {\n  transform: translateY(-66%) scale(0.65);\n  opacity: 0.8;\n }\n}\n\n@keyframes wobble2 {\n 0%,\n  100% {\n  transform: translateY(0%) scale(1);\n  opacity: 1;\n }\n\n 50% {\n  transform: translateY(66%) scale(0.65);\n  opacity: 0.8;\n }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

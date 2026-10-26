@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-tarantino421-evil-squid-86-c7d37e",
+  "title": "Toggle by tarantino421 (evil-squid-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/tarantino421/evil-squid-86",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "hamburger",
+    "arrow",
+    "burger",
+    "switch-menu"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By tarantino421 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/tarantino421_evil-squid-86.html",
+  "code": "<label class=\"buttons__burger\" for=\"burger\">\n    <input type=\"checkbox\" id=\"burger\">\n    <span></span>\n    <span></span>\n    <span></span>\n</label>\n\n<style>\n/* From Uiverse.io by tarantino421 - Tags: switch, hamburger, arrow, burger, switch menu */\n.buttons__burger {\n  --size: 3rem;\n  --clr: #000;\n  width: var(--size);\n  height: calc(0.7 * var(--size));\n  cursor: pointer;\n  position: relative;\n  display: block;\n}\n\n.buttons__burger #burger {\n  display: none;\n  width: 100%;\n  height: 100%;\n}\n\n.buttons__burger span {\n  display: block;\n  position: absolute;\n  width: 100%;\n  border-radius: 0.5rem;\n  border: 3px solid var(--clr);\n  background-color: var(--clr);\n  transition: 0.15s ease-in-out;\n}\n\n.buttons__burger span:nth-of-type(1) {\n  top: 0;\n  right: 0;\n  transform-origin: right center;\n}\n\n.buttons__burger span:nth-of-type(2) {\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.buttons__burger span:nth-of-type(3) {\n  top: 100%;\n  right: 0;\n  transform-origin: right center;\n  transform: translateY(-100%);\n}\n\n.buttons__burger #burger:checked ~ span:nth-of-type(1) {\n  transform: translateY(-30%) rotate(40deg);\n  width: 50%;\n  top: 50%;\n}\n\n.buttons__burger #burger:checked ~ span:nth-of-type(3) {\n  transform: translateY(-70%) rotate(-40deg);\n  width: 50%;\n  top: 50%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

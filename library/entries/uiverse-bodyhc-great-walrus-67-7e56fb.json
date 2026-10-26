@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-bodyhc-great-walrus-67-7e56fb",
+  "title": "Button by Bodyhc (great-walrus-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Bodyhc/great-walrus-67",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "buttons",
+    "simple-button",
+    "hover-button",
+    "#button",
+    "3d-button",
+    "button-hover-effect",
+    "2d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Bodyhc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Bodyhc_great-walrus-67.html",
+  "code": "<button class=\"button\"><span>Button</span></button>\n\n<style>\n/* From Uiverse.io by Bodyhc  - Tags: button, buttons, simple button, hover button, #button, 3d button, button hover effect , 2d button */\n.button,\n.button *,\n.button :after,\n.button :before,\n.button:after,\n.button:before {\n  border: 0 solid;\n  box-sizing: border-box;\n}\n.button {\n  -webkit-tap-highlight-color: transparent;\n  -webkit-appearance: button;\n  background-color: #000;\n  background-image: none;\n  color: #fff;\n  cursor: pointer;\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,\n    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,\n    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;\n  font-size: 100%;\n  font-weight: 900;\n  line-height: 1.5;\n  margin: 0;\n  mask-image: -webkit-radial-gradient(#000, #fff);\n  padding: 0;\n  text-transform: uppercase;\n}\n.button:disabled {\n  cursor: default;\n}\n.button:-moz-focusring {\n  outline: auto;\n}\n.button svg {\n  display: block;\n}\n.button [hidden] {\n  display: none;\n}\n.button {\n  border-radius: 99rem;\n  border-width: 2px;\n  overflow: hidden;\n  padding: 0.8rem 3rem;\n  position: relative;\n}\n.button span {\n  mix-blend-mode: difference;\n}\n.button:after,\n.button:before {\n  background: linear-gradient(\n    90deg,\n    #fff 25%,\n    transparent 0,\n    transparent 50%,\n    #fff 0,\n    #fff 75%,\n    transparent 0\n  );\n  content: \"\";\n  inset: 0;\n  position: absolute;\n  transform: translateY(var(--progress, 100%));\n  transition: transform 0.2s ease;\n}\n.button:after {\n  --progress: -100%;\n  background: linear-gradient(\n    90deg,\n    transparent 0,\n    transparent 25%,\n    #fff 0,\n    #fff 50%,\n    transparent 0,\n    transparent 75%,\n    #fff 0\n  );\n  z-index: -1;\n}\n.button:hover:after,\n.button:hover:before {\n  --progress: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

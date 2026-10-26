@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-gharsh11032000-bitter-cow-59-df6089",
+  "title": "Form by gharsh11032000 (bitter-cow-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/bitter-cow-59",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "gradient",
+    "dark"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/gharsh11032000_bitter-cow-59.html",
+  "code": "<div class=\"form-container\">\n      <form class=\"form\">\n        <div class=\"form-group\">\n          <label for=\"email\">Company Email</label>\n          <input type=\"text\" id=\"email\" name=\"email\" required=\"\">\n        </div>\n        <div class=\"form-group\">\n          <label for=\"textarea\">How Can We Help You?</label>\n          <textarea name=\"textarea\" id=\"textarea\" rows=\"10\" cols=\"50\" required=\"\">          </textarea>\n        </div>\n        <button class=\"form-submit-btn\" type=\"submit\">Submit</button>\n      </form>\n    </div>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: gradient, form, dark */\n.form-container {\n  width: 400px;\n  background: linear-gradient(#212121, #212121) padding-box,\n              linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;\n  border: 2px solid transparent;\n  padding: 32px 24px;\n  font-size: 14px;\n  font-family: inherit;\n  color: white;\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  box-sizing: border-box;\n  border-radius: 16px;\n}\n\n.form-container button:active {\n  scale: 0.95;\n}\n\n.form-container .form {\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n}\n\n.form-container .form-group {\n  display: flex;\n  flex-direction: column;\n  gap: 2px;\n}\n\n.form-container .form-group label {\n  display: block;\n  margin-bottom: 5px;\n  color: #717171;\n  font-weight: 600;\n  font-size: 12px;\n}\n\n.form-container .form-group input {\n  width: 100%;\n  padding: 12px 16px;\n  border-radius: 8px;\n  color: #fff;\n  font-family: inherit;\n  background-color: transparent;\n  border: 1px solid #414141;\n}\n\n.form-container .form-group textarea {\n  width: 100%;\n  padding: 12px 16px;\n  border-radius: 8px;\n  resize: none;\n  color: #fff;\n  height: 96px;\n  border: 1px solid #414141;\n  background-color: transparent;\n  font-family: inherit;\n}\n\n.form-container .form-group input::placeholder {\n  opacity: 0.5;\n}\n\n.form-container .form-group input:focus {\n  outline: none;\n  border-color: #e81cff;\n}\n\n.form-container .form-group textarea:focus {\n  outline: none;\n  border-color: #e81cff;\n}\n\n.form-container .form-submit-btn {\n  display: flex;\n  align-items: flex-start;\n  justify-content: center;\n  align-self: flex-start;\n  font-family: inherit;\n  color: #717171;\n  font-weight: 600;\n  width: 40%;\n  background: #313131;\n  border: 1px solid #414141;\n  padding: 12px 16px;\n  font-size: inherit;\n  gap: 8px;\n  margin-top: 8px;\n  cursor: pointer;\n  border-radius: 6px;\n}\n\n.form-container .form-submit-btn:hover {\n  background-color: #fff;\n  border-color: #fff;\n}\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

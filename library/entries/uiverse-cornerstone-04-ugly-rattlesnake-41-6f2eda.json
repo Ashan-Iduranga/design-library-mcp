@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cornerstone-04-ugly-rattlesnake-41-6f2eda",
+  "title": "Loader by Cornerstone-04 (ugly-rattlesnake-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cornerstone-04/ugly-rattlesnake-41",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cornerstone-04 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Cornerstone-04_ugly-rattlesnake-41.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by Cornerstone-04 - Tags: loader */\n.loader {\n  width: 150px;\n  height: 150px;\n  border-left: 5px solid #38ff8e;\n  border-radius: 50%;\n  animation: right5231 0.9s linear infinite;\n}\n\n.loader::before,\n  .loader::after {\n  content: \"\";\n  width: 120px;\n  height: 120px;\n  display: block;\n  position: absolute;\n  top: calc(50% - 60px);\n  left: calc(50% - 60px);\n  border-right: 5px solid #ffbe0b;\n  border-radius: 50%;\n  animation: left036 0.9s linear infinite;\n}\n\n.loader::after {\n  width: 90px;\n  height: 90px;\n  top: calc(50% - 45px);\n  left: calc(50% - 45px);\n  border: 0;\n  border-top: 5px solid #ff086e;\n  animation: none;\n}\n\n@keyframes right5231 {\n  from {\n    transform: rotate(0deg);\n  }\n\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes left036 {\n  from {\n    transform: rotate(720deg);\n  }\n\n  to {\n    transform: rotate(0deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

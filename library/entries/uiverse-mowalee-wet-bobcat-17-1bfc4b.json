@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-mowalee-wet-bobcat-17-1bfc4b",
+  "title": "Input by mowalee (wet-bobcat-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mowalee/wet-bobcat-17",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mowalee on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/mowalee_wet-bobcat-17.html",
+  "code": "<!-- From Uiverse.io by mowalee  - Tags: simple, input, tailwind, tailwindcss -->\n<div class=\"flex min-h-screen min-w-full justify-center items-center\">\n  <div class=\"w-[250px] relative\">\n    <input\n      class=\"peer w-full p-4 pt-6 pl-10 pr-4 bg-inherit border-2 rounded-md outline-none transition disabled:opacity-70 disabled:cursor-not-allowed border-gray-500 focus:border-purple-500\"\n      type=\"text\"\n      placeholder=\"\"\n      name=\"username\"\n      id=\"username\"\n    />\n    <label\n      class=\"absolute text-gray-500 text-base duration-150 transform -translate-y-3 top-5 z-10 origin-[0] left-10 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 peer-focus:text-purple-500\"\n      for=\"username\"\n    >\n      Name\n    </label>\n    <svg\n      class=\"absolute top-6 left-4\"\n      fill=\"\"\n      width=\"18\"\n      height=\"18\"\n      viewBox=\"0 0 344 384\"\n    >\n      <path\n        d=\"M170.5 192q-35.5 0-60.5-25t-25-60.5T110 46t60.5-25T231 46t25 60.5t-25 60.5t-60.5 25zm0 43q31.5 0 69.5 9t69.5 29.5T341 320v43H0v-43q0-26 31.5-46.5T101 244t69.5-9z\"\n        fill=\"#6b7280\"\n      ></path>\n    </svg>\n    <label class=\"pt-1 block text-gray-500 text-sm\"> Text helper </label>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

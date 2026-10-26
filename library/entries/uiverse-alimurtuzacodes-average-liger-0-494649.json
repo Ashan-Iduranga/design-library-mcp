@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-alimurtuzacodes-average-liger-0-494649",
+  "title": "Button by AlimurtuzaCodes (average-liger-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AlimurtuzaCodes/average-liger-0",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "stars",
+    "css-effect",
+    "css-button",
+    "generate"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AlimurtuzaCodes on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/AlimurtuzaCodes_average-liger-0.html",
+  "code": "<button class=\"btn\">\n    <svg height=\"24\" width=\"24\" fill=\"#FFFFFF\" viewBox=\"0 0 24 24\" data-name=\"Layer 1\" id=\"Layer_1\" class=\"sparkle\">\n        <path d=\"M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z\"></path>\n    </svg>\n\n    <span class=\"text\">Generate</span>\n</button>\n<style>\n/* From Uiverse.io by AlimurtuzaCodes - Tags: gradient, button, stars, css effect, css button, generate */\n.btn {\n  border: none;\n  width: 15em;\n  height: 5em;\n  border-radius: 3em;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 12px;\n  background: #1C1A1C;\n  cursor: pointer;\n  transition: all 450ms ease-in-out;\n}\n\n.sparkle {\n  fill: #AAAAAA;\n  transition: all 800ms ease;\n}\n\n.text {\n  font-weight: 600;\n  color: #AAAAAA;\n  font-size: medium;\n}\n\n.btn:hover {\n  background: linear-gradient(0deg,#A47CF3,#683FEA);\n  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),\n  inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),\n  0px 0px 0px 4px rgba(255, 255, 255, 0.2),\n  0px 0px 180px 0px #9917FF;\n  transform: translateY(-2px);\n}\n\n.btn:hover .text {\n  color: white;\n}\n\n.btn:hover .sparkle {\n  fill: white;\n  transform: scale(1.2);\n} \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

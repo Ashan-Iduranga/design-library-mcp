@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-inputs-2",
+  "title": "Inputs: Base with icon",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/inputs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "inputs",
+    "hyperui",
+    "filter",
+    "form"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Input field with an icon positioned on the right side\n\nOriginal file: https://github.com/markmead/hyperui/blob/main/public/examples/application/inputs/2.html",
+  "code": "<div class=\"mx-auto max-w-sm p-6\">\n<label for=\"Email\">\n<span class=\"text-sm font-medium text-gray-700\"> Email </span>\n<div class=\"relative\">\n<input class=\"mt-0.5 w-full rounded border-gray-300 pe-8 shadow-sm sm:text-sm\" id=\"Email\" type=\"email\"/>\n<span class=\"absolute inset-y-0 end-0 grid w-8 place-content-center text-gray-700\">\n<svg aria-hidden=\"true\" class=\"size-4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n</span>\n</div>\n</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

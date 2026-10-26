@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-sweet-fish-92-322191",
+  "title": "Loader by mrhyddenn (sweet-fish-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/sweet-fish-92",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_sweet-fish-92.html",
+  "code": "<div class=\"loader\">\n    <div class=\"loader-in\"></div>\n    <div class=\"loader-dot\"></div>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader,\n.loader-in {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.loader {\n  position: relative;\n  border-radius: 50%;\n  width: 80px;\n  height: 80px;\n  background: radial-gradient(circle at 10% 10%, rgba(255, 255, 255, 0.001) 0%, rgba(0, 0, 0, 0.4) 50%);\n  box-shadow: 0 0 60px 0px rgba(0, 0, 0, 0.3);\n  animation: circle41 1.2s infinite alternate;\n}\n\n.loader-in {\n  width: 78%;\n  height: 78%;\n  border-radius: 50%;\n  animation: circle 1.2s infinite alternate;\n  animation-delay: calc(1.2s / 4);\n}\n\n.loader-in::after {\n  content: '';\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(to bottom right, #6E2E8E 0%, #0B9FBD 100%);\n  border-radius: 50%;\n  animation: rot122 2.4s infinite linear;\n}\n\n.loader-dot {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 55%;\n  height: 55%;\n  transform: translate(-50%, -50%);\n  border-radius: 50%;\n  background: radial-gradient(circle at 10% 10%, rgba(255, 255, 255, 0.001) 0%, rgba(0, 0, 0, 0.4) 50%);\n  background-size: 120%;\n  background-position: center;\n}\n\n.loader-dot::after {\n  content: '';\n  width: 40%;\n  height: 40%;\n  border-radius: 50%;\n  background-color: rgba(255, 255, 255, 0.8);\n  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);\n  animation: circle41 1.2s infinite alternate;\n  animation-delay: calc(1.2s / 4);\n}\n\n@keyframes rot122 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes circle41 {\n  0% {\n    transform: scale(1);\n  }\n\n  100% {\n    transform: scale(1.1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

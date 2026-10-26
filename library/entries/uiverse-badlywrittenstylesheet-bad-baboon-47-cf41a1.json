@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-badlywrittenstylesheet-bad-baboon-47-cf41a1",
+  "title": "Pattern by BadlyWrittenStylesheet (bad-baboon-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/BadlyWrittenStylesheet/bad-baboon-47",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse",
+    "gradient",
+    "dark",
+    "colorful",
+    "rainbow",
+    "multicolor",
+    "background"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By BadlyWrittenStylesheet on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/BadlyWrittenStylesheet_bad-baboon-47.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by BadlyWrittenStylesheet  - Tags: gradient, dark, colorful, rainbow, multicolor, pattern, background */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  /* background-color: lightblue; */\n  background-image: radial-gradient(black 55%, #0000),\n    /* radial-gradient(black 55%, #0000), */\n      linear-gradient(\n        135deg,\n        red,\n        orange,\n        yellow,\n        lime,\n        cyan,\n        blue,\n        indigo,\n        deeppink\n      );\n  background-size: 100% 0.5%, contain;\n  /* background-blend-mode: hard-light; */\n  /* background-position: 0 0, 1em 1em, 0 0; */\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

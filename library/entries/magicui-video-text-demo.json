@@ -1,0 +1,36 @@
+{
+  "id": "magicui-video-text-demo",
+  "title": "Video Text Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/video-text",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "video",
+    "text",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing text with a video background.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/video-text-demo.tsx",
+  "code": "import { VideoText } from \"@/registry/magicui/video-text\"\n\nexport default function VideoTextDemo() {\n  return (\n    <div className=\"relative h-[200px] w-full overflow-hidden\">\n      <VideoText src=\"https://cdn.magicui.design/ocean-small.webm\">\n        OCEAN\n      </VideoText>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

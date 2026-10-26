@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-alexruix-horrible-skunk-73-c19718",
+  "title": "Card by alexruix (horrible-skunk-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/horrible-skunk-73",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "minimalist",
+    "modern",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/alexruix_horrible-skunk-73.html",
+  "code": "<div class=\"card\">\n<div class=\"card-img\"></div>\n  <div class=\"card-info\">\n    <div class=\"card-text\">\n      <p class=\"text-title\">This is a title</p>\n      <p class=\"text-subtitle\">This is a subtitle</p>\n    </div>\n    <div class=\"card-icon\">\n      <svg viewBox=\"0 0 28 25\" class=\"icon\">\n        <path d=\"M13.145 2.13l1.94-1.867 12.178 12-12.178 12-1.94-1.867 8.931-8.8H.737V10.93h21.339z\"></path>\n      </svg>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by alexruix - Tags: minimalist, card, modern, animated */\n.card {\n  width: 190px;\n  height: 254px;\n  position: relative;\n  border-radius: 16px;\n  background: #f5f5f5;\n  transition: box-shadow .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  overflow: hidden;\n  cursor: pointer;\n}\n\n.card-img {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  background-color: #6eee87;\n}\n\n.card-info {\n  position: absolute;\n  width: 100%;\n  bottom: 0;\n  padding: 1rem;\n  display: flex;\n  align-items: flex-end;\n  justify-content: space-between;\n}\n\n.card-icon {\n  opacity: 0;\n  transform: translateX(-20%);\n  width: 2em;\n  height: 2em;\n  transition: all .3s ease-in-out;\n}\n\n.icon {\n  --size: 20px;\n  width: var(--size);\n  height: var(--size);\n}\n\n/*Text*/\n.card-text p {\n  line-height: 140%;\n /*Delete this line for multi-line text*/\n  white-space: nowrap;\n}\n\n.text-title {\n  font-weight: 900;\n  font-size: 1.2rem;\n  color: #222;\n}\n\n.text-subtitle {\n  color: #333;\n  font-weight: 500;\n  font-size: 1rem;\n}\n\n/*Hover*/\n.card:hover {\n  box-shadow: 0 10px 20px 4px rgba(35, 35, 35, .1);\n}\n\n.card:hover .card-icon {\n  opacity: 1;\n  transform: translateX(20%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

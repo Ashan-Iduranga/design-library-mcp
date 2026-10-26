@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-pagination-pagination-with-input",
+  "title": "Pagination: Pagination with input (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/pagination/#pagination-with-input",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "pagination",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this pagination component with an input field to navigate through pages directly.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/pagination.md",
+  "code": "<nav aria-label=\"Page navigation example\" class=\"flex items-center space-x-4\">\n  <ul class=\"flex -space-x-px text-sm\">\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading shadow-xs font-medium leading-5 rounded-s-base text-sm px-3 h-9 focus:outline-none\">Previous</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading shadow-xs font-medium leading-5 text-sm w-9 h-9 focus:outline-none\">1</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading shadow-xs font-medium leading-5 text-sm w-9 h-9 focus:outline-none\">2</a>\n    </li>\n    <li>\n      <a href=\"#\" aria-current=\"page\" class=\"flex items-center justify-center text-fg-brand bg-neutral-tertiary-medium box-border border border-default-medium hover:text-fg-brand font-medium text-sm w-9 h-9 focus:outline-none\">3</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading shadow-xs font-medium leading-5 text-sm w-9 h-9 focus:outline-none\">4</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading shadow-xs font-medium leading-5 text-sm w-9 h-9 focus:outline-none\">5</a>\n    </li>\n    <li>\n      <a href=\"#\" class=\"flex items-center justify-center text-body bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading shadow-xs font-medium leading-5 rounded-e-base text-sm px-3 h-9 focus:outline-none\">Next</a>\n    </li>\n  </ul>\n  <form class=\"mx-auto\">\n    <div class=\"flex items-center space-x-2\">\n        <label for=\"visitors\" class=\"text-sm font-medium text-body shrink-0\">Go to</label>\n        <input type=\"text\" id=\"visitors\" class=\"bg-neutral-secondary-medium w-10 border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block px-2.5 py-2 shadow-xs placeholder:text-body\" placeholder=\"99\" required />\n        <span class=\"text-sm font-medium text-body\">page</span>\n    </div>\n  </form>\n</nav>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

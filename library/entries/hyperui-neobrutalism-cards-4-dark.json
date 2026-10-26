@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-neobrutalism-cards-4-dark",
+  "title": "Cards: Retro window (neobrutalism) (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/neobrutalism/cards",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "neobrutalism",
+    "cards",
+    "hyperui",
+    "card",
+    "container",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/neobrutalism/cards/4-dark.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<article class=\"border-2 border-black bg-white text-black shadow-[4px_4px_0_0,8px_8px_0_0] shadow-black dark:border-white dark:bg-gray-900 dark:text-white dark:shadow-white\">\n<div class=\"bg-yellow-200 p-3 dark:bg-yellow-700\">\n<div class=\"flex items-center justify-between\">\n<strong class=\"text-xs/none font-bold uppercase\">System Message</strong>\n<div class=\"flex gap-1\">\n<div class=\"size-3 border-2 border-black bg-white dark:border-white dark:bg-gray-900\"></div>\n<div class=\"size-3 border-2 border-black bg-white dark:border-white dark:bg-gray-900\"></div>\n</div>\n</div>\n</div>\n<div class=\"border-t-2 border-black p-4 sm:p-6 dark:border-white\">\n<h3 class=\"text-lg font-semibold\">Retro Window</h3>\n<p class=\"mt-2 text-sm text-pretty\">\n          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nihil, sit quod quos\n          quibusdam quam ducimus dolore necessitatibus delectus perspiciatis.\n        </p>\n</div>\n</article>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

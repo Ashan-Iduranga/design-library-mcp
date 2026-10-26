@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-neerajbaniwal-rotten-dingo-46-5f5a0a",
+  "title": "Checkbox by neerajbaniwal (rotten-dingo-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/neerajbaniwal/rotten-dingo-46",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "click",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By neerajbaniwal on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/neerajbaniwal_rotten-dingo-46.html",
+  "code": "<label class=\"ui-bookmark\">\n  <input type=\"checkbox\" />\n  <div class=\"bookmark\">\n    <svg viewBox=\"0 0 32 32\">\n      <g>\n        <path\n          d=\"M27 4v27a1 1 0 0 1-1.625.781L16 24.281l-9.375 7.5A1 1 0 0 1 5 31V4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4z\"\n        ></path>\n      </g>\n    </svg>\n  </div>\n</label>\n\n<style>\n/* From Uiverse.io by neerajbaniwal  - Tags: checkbox, click, animated */\n.ui-bookmark {\n  --icon-size: 24px;\n  --icon-secondary-color: rgb(164, 164, 164);\n  --icon-hover-color: rgb(165, 164, 164);\n  --icon-primary-color: gold;\n  --icon-circle-border: 1px solid var(--icon-primary-color);\n  --icon-circle-size: 35px;\n  --icon-anmt-duration: 0.3s;\n}\n\n.ui-bookmark input {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  display: none;\n}\n\n.ui-bookmark .bookmark {\n  width: var(--icon-size);\n  height: auto;\n  fill: var(--icon-secondary-color);\n  cursor: pointer;\n  -webkit-transition: 0.2s;\n  -o-transition: 0.2s;\n  transition: 0.2s;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  position: relative;\n  -webkit-transform-origin: top;\n  -ms-transform-origin: top;\n  transform-origin: top;\n}\n\n.bookmark::after {\n  content: \"\";\n  position: absolute;\n  width: 10px;\n  height: 10px;\n  -webkit-box-shadow: 0 30px 0 -4px var(--icon-primary-color),\n    30px 0 0 -4px var(--icon-primary-color),\n    0 -30px 0 -4px var(--icon-primary-color),\n    -30px 0 0 -4px var(--icon-primary-color),\n    -22px 22px 0 -4px var(--icon-primary-color),\n    -22px -22px 0 -4px var(--icon-primary-color),\n    22px -22px 0 -4px var(--icon-primary-color),\n    22px 22px 0 -4px var(--icon-primary-color);\n  box-shadow: 0 30px 0 -4px var(--icon-primary-color),\n    30px 0 0 -4px var(--icon-primary-color),\n    0 -30px 0 -4px var(--icon-primary-color),\n    -30px 0 0 -4px var(--icon-primary-color),\n    -22px 22px 0 -4px var(--icon-primary-color),\n    -22px -22px 0 -4px var(--icon-primary-color),\n    22px -22px 0 -4px var(--icon-primary-color),\n    22px 22px 0 -4px var(--icon-primary-color);\n  border-radius: 50%;\n  -webkit-transform: scale(0);\n  -ms-transform: scale(0);\n  transform: scale(0);\n}\n\n.bookmark::before {\n  content: \"\";\n  position: absolute;\n  border-radius: 50%;\n  border: var(--icon-circle-border);\n  opacity: 0;\n}\n\n/* actions */\n\n.ui-bookmark:hover .bookmark {\n  fill: var(--icon-hover-color);\n}\n\n.ui-bookmark input:checked + .bookmark::after {\n  -webkit-animation: circles var(--icon-anmt-duration)\n    cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;\n  animation: circles var(--icon-anmt-duration)\n    cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;\n  -webkit-animation-delay: var(--icon-anmt-duration);\n  animation-delay: var(--icon-anmt-duration);\n}\n\n.ui-bookmark input:checked + .bookmark {\n  fill: var(--icon-primary-color);\n  -webkit-animation: bookmark var(--icon-anmt-duration) forwards;\n  animation: bookmark var(--icon-anmt-duration) forwards;\n  -webkit-transition-delay: 0.3s;\n  -o-transition-delay: 0.3s;\n  transition-delay: 0.3s;\n}\n\n.ui-bookmark input:checked + .bookmark::before {\n  -webkit-animation: circle var(--icon-anmt-duration)\n    cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;\n  animation: circle var(--icon-anmt-duration)\n    cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;\n  -webkit-animation-delay: var(--icon-anmt-duration);\n  animation-delay: var(--icon-anmt-duration);\n}\n\n@-webkit-keyframes bookmark {\n  50% {\n    -webkit-transform: scaleY(0.6);\n    transform: scaleY(0.6);\n  }\n\n  100% {\n    -webkit-transform: scaleY(1);\n    transform: scaleY(1);\n  }\n}\n\n@keyframes bookmark {\n  50% {\n    -webkit-transform: scaleY(0.6);\n    transform: scaleY(0.6);\n  }\n\n  100% {\n    -webkit-transform: scaleY(1);\n    transform: scaleY(1);\n  }\n}\n\n@-webkit-keyframes circle {\n  from {\n    width: 0;\n    height: 0;\n    opacity: 0;\n  }\n\n  90% {\n    width: var(--icon-circle-size);\n    height: var(--icon-circle-size);\n    opacity: 1;\n  }\n\n  to {\n    opacity: 0;\n  }\n}\n\n@keyframes circle {\n  from {\n    width: 0;\n    height: 0;\n    opacity: 0;\n  }\n\n  90% {\n    width: var(--icon-circle-size);\n    height: var(--icon-circle-size);\n    opacity: 1;\n  }\n\n  to {\n    opacity: 0;\n  }\n}\n\n@-webkit-keyframes circles {\n  from {\n    -webkit-transform: scale(0);\n    transform: scale(0);\n  }\n\n  40% {\n    opacity: 1;\n  }\n\n  to {\n    -webkit-transform: scale(0.8);\n    transform: scale(0.8);\n    opacity: 0;\n  }\n}\n\n@keyframes circles {\n  from {\n    -webkit-transform: scale(0);\n    transform: scale(0);\n  }\n\n  40% {\n    opacity: 1;\n  }\n\n  to {\n    -webkit-transform: scale(0.8);\n    transform: scale(0.8);\n    opacity: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-praashoo7-witty-dodo-51-32b24f",
+  "title": "Toggle by Praashoo7 (witty-dodo-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/witty-dodo-51",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "on",
+    "off",
+    "realistic",
+    "lever"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Praashoo7_witty-dodo-51.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\" class=\"chk\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: switch, on, off, realistic, lever */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 1.2em;\n  height: 3.3em;\n}\n\n/* Hide default HTML checkbox */\n.switch .chk {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: .4s;\n  border-radius: 5px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: .5em;\n  width: 2.4em;\n  border-radius: 5px;\n  left: -0.6em;\n  top: 0.2em;\n  background-color: white;\n  box-shadow: 0 6px 7px rgba(0,0,0,0.3);\n  transition: .4s;\n}\n\n.slider:before, .slider:after {\n  content: \"\";\n  display: block;\n}\n\n.slider:after {\n  background: linear-gradient(transparent 50%, rgba(255, 255, 255, 0.15) 0) 0 50% / 50% 100%,\n\t\trepeating-linear-gradient(90deg,rgb(255, 255, 255) 0,rgb(255, 255, 255),rgb(255, 255, 255) 20%,rgb(255, 255, 255) 20%,rgb(255, 255, 255) 40%) 0 50% / 50% 100%,\n\t\tradial-gradient(circle at 50% 50%,rgb(255, 255, 255) 25%, transparent 26%);\n  background-repeat: no-repeat;\n  border: 0.25em solid transparent;\n  border-left: 0.4em solid #ffffff;\n  border-right: 0 solid transparent;\n  transition: border-left-color 0.1s 0.3s ease-out, transform 0.3s ease-out;\n  transform: translateX(-22.5%) rotate(90deg);\n  transform-origin: 25% 50%;\n  position: relative;\n  top: 0.5em;\n  left: 0.55em;\n  width: 2em;\n  height: 1em;\n  box-sizing: border-box;\n}\n\n.chk:checked + .slider {\n  background-color: limegreen;\n}\n\n.chk:focus + .slider {\n  box-shadow: 0 0 1px limegreen;\n}\n\n.chk:checked + .slider:before {\n  transform: translateY(2.3em);\n}\n\n.chk:checked + .slider:after {\n  transform: rotateZ(90deg) rotateY(180deg) translateY(0.45em) translateX(-1.4em);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

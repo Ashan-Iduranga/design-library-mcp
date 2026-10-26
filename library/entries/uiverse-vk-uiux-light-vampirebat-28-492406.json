@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-vk-uiux-light-vampirebat-28-492406",
+  "title": "Loader by vk-uiux (light-vampirebat-28)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vk-uiux/light-vampirebat-28",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "animated",
+    "circle-loader",
+    "rainbow",
+    "html",
+    "css",
+    "css-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vk-uiux on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vk-uiux_light-vampirebat-28.html",
+  "code": "<div class=\"loader\">\n  <div class=\"loader-inner\">\n    <div class=\"loader-line-wrap\">\n      <div class=\"loader-line\"></div>\n    </div>\n    <div class=\"loader-line-wrap\">\n      <div class=\"loader-line\"></div>\n    </div>\n    <div class=\"loader-line-wrap\">\n      <div class=\"loader-line\"></div>\n    </div>\n    <div class=\"loader-line-wrap\">\n      <div class=\"loader-line\"></div>\n    </div>\n    <div class=\"loader-line-wrap\">\n      <div class=\"loader-line\"></div>\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by vk-uiux - Tags: animation, loader, animated, circle loader, rainbow, html, css, css effect, multicolor */\n.loader-inner {\n  width: 100px;\n  height: 60px;\n  margin: auto;\n  position: absolute;\n  inset: 0;\n}\n\n.loader-line-wrap {\n  animation: spin 2000ms cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;\n  width: 100px;\n  height: 50px;\n  left: 0;\n  overflow: hidden;\n  position: absolute;\n  top: 0;\n  transform-origin: 50% 100%;\n}\n\n.loader-line {\n  border: 4px solid transparent;\n  border-radius: 100%;\n  width: 100px;\n  height: 100px;\n  margin: 0 auto;\n  position: absolute;\n  inset: 0;\n}\n\n.loader-line-wrap:nth-child(1) {\n  animation-delay: -50ms;\n}\n\n.loader-line-wrap:nth-child(2) {\n  animation-delay: -100ms;\n}\n\n.loader-line-wrap:nth-child(3) {\n  animation-delay: -150ms;\n}\n\n.loader-line-wrap:nth-child(4) {\n  animation-delay: -200ms;\n}\n\n.loader-line-wrap:nth-child(5) {\n  animation-delay: -250ms;\n}\n\n.loader-line-wrap:nth-child(1) .loader-line {\n  border-color: #eb4747;\n  height: 90px;\n  width: 90px;\n  top: 7px;\n}\n\n.loader-line-wrap:nth-child(2) .loader-line {\n  border-color: #ebeb47;\n  height: 76px;\n  width: 76px;\n  top: 14px;\n}\n\n.loader-line-wrap:nth-child(3) .loader-line {\n  border-color: #47eb47;\n  height: 62px;\n  width: 62px;\n  top: 21px;\n}\n\n.loader-line-wrap:nth-child(4) .loader-line {\n  border-color: #47ebeb;\n  height: 48px;\n  width: 48px;\n  top: 28px;\n}\n\n.loader-line-wrap:nth-child(5) .loader-line {\n  border-color: #4747eb;\n  height: 34px;\n  width: 34px;\n  top: 35px;\n}\n\n@keyframes spin {\n  0%,\n  15% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

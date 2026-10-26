@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-themrsami-wicked-insect-95-b43e9b",
+  "title": "Form by themrsami (wicked-insect-95)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/themrsami/wicked-insect-95",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "yellow",
+    "light",
+    "contactus"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By themrsami on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/themrsami_wicked-insect-95.html",
+  "code": "<!-- From Uiverse.io by themrsami  - Tags: yellow, form, light, tailwindcss, contactus -->\n<div class=\"container px-4 mx-auto\">\n  <div class=\"mx-auto\">\n    <div class=\"max-w-md mx-auto px-8 py-6 bg-gray-100 rounded-lg shadow-lg\">\n      <h2 class=\"text-2xl font-semibold text-gray-800 mb-4\">Contact Us</h2>\n      <form>\n        <div class=\"mb-4\">\n          <label class=\"block text-gray-800 mb-1\" for=\"name\">Your Name</label>\n          <input\n            class=\"w-full px-4 py-2 bg-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300 transition duration-300\"\n            placeholder=\"Enter your name\"\n            type=\"text\"\n          />\n        </div>\n        <div class=\"mb-4\">\n          <label class=\"block text-gray-800 mb-1\" for=\"email\">Your Email</label>\n          <input\n            class=\"w-full px-4 py-2 bg-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300 transition duration-300\"\n            placeholder=\"Enter your email\"\n            name=\"email\"\n            id=\"email\"\n            type=\"email\"\n          />\n        </div>\n        <div class=\"mb-4\">\n          <label class=\"block text-gray-800 mb-1\" for=\"message\"\n            >Your Message</label\n          >\n          <textarea\n            class=\"w-full px-4 py-2 bg-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300 transition duration-300\"\n            rows=\"4\"\n            placeholder=\"Enter your message\"\n            name=\"message\"\n            id=\"message\"\n          ></textarea>\n        </div>\n        <button\n          class=\"w-full bg-yellow-300 text-gray-800 py-2 px-4 rounded-lg hover:bg-yellow-400 transition duration-300\"\n          type=\"submit\"\n        >\n          Send Message\n        </button>\n      </form>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

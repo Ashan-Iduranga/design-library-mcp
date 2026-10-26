@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-theme-controller-theme-controller-using-a-toggle-with-ico",
+  "title": "Theme Controller: Theme Controller using a toggle with icons (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/theme-controller/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "theme-controller",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "If a checked checkbox input or a checked radio input with theme-controller class exists in the page, The page will have the same theme as that input's value.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/theme-controller/+page.md",
+  "code": "<label class=\"flex cursor-pointer gap-2\">\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    width=\"20\"\n    height=\"20\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    stroke=\"currentColor\"\n    stroke-width=\"2\"\n    stroke-linecap=\"round\"\n    stroke-linejoin=\"round\">\n    <circle cx=\"12\" cy=\"12\" r=\"5\" />\n    <path\n      d=\"M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4\" />\n  </svg>\n  <input type=\"checkbox\" value=\"synthwave\" class=\"toggle theme-controller\" />\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    width=\"20\"\n    height=\"20\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    stroke=\"currentColor\"\n    stroke-width=\"2\"\n    stroke-linecap=\"round\"\n    stroke-linejoin=\"round\">\n    <path d=\"M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z\"></path>\n  </svg>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

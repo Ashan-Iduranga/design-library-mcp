@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-hoi-du-dull-stingray-6-26b76c",
+  "title": "Loader by hoi-du (dull-stingray-6)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/hoi-du/dull-stingray-6",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "white",
+    "loading",
+    "spinner",
+    "spin",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By hoi-du on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/hoi-du_dull-stingray-6.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by hoi-du - Tags: white, loading, loader, spinner, spin, css */\n<!DOCTYPE html>\n<html>\n<head>\n    <title>loading forever</title>\n    <meta charset=\"utf-8\">\n    <style>\n        body {\n  background-color: black;\n}\n\n.loading {\n  width: 50px;\n  height: 50px;\n  display: inline-block;\n  background-color: white;\n  margin: 10px;\n  border-radius: 0%;\n  animation-duration: 4s;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-name: loadingAnimation;\n}\n\n@keyframes loadingAnimation {\n  0% {\n    border-radius: 50% 50% 50% 50%;\n    transform: rotate(0deg);\n  }\n\n  12.5% {\n    border-radius: 0% 50% 50% 50%;\n  }\n\n  25% {\n    border-radius: 0% 0% 50% 50%;\n    transform: rotate(90deg);\n  }\n\n  37.5% {\n    border-radius: 0% 0% 0% 50%;\n  }\n\n  50% {\n    border-radius: 0% 0% 0% 0%;\n    transform: rotate(180deg);\n  }\n\n  62.5% {\n    border-radius: 50% 0% 0% 0%;\n  }\n\n  75% {\n    border-radius: 50% 50% 0% 0%;\n    transform: rotate(270deg);\n  }\n\n  87.5% {\n    border-radius: 50% 50% 50% 0%;\n  }\n\n  100% {\n    border-radius: 50% 50% 50% 50%;\n    transform: rotate(360deg);\n  }\n}\n\n    </style>\n</head>\n<body>\n    <span class=\"loading\">\n\n</body>\n</html>\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

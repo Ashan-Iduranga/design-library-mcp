@@ -1,0 +1,38 @@
+{
+  "id": "uiverse-elijahgummer-light-jellyfish-4-3ee3bb",
+  "title": "Toggle by elijahgummer (light-jellyfish-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/light-jellyfish-4",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "simple",
+    "black",
+    "switch",
+    "dark",
+    "light",
+    "realistic",
+    "glow",
+    "modern"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/elijahgummer_light-jellyfish-4.html",
+  "code": "<div class=\"switch\">\n  <input id=\"toggle\" type=\"checkbox\" />\n  <label class=\"toggle\" for=\"toggle\">\n    <i></i>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, black, switch, dark, light, realistic, glow, modern */\n.switch {\n  position: relative;\n  width: 210px;\n  height: 50px;\n  box-sizing: border-box;\n  padding: 3px;\n  background: #0d0d0d;\n  border-radius: 6px;\n  box-shadow:\n    inset 0 1px 1px 1px rgba(0, 0, 0, 0.5),\n    0 1px 0 0 rgba(255, 255, 255, 0.1);\n}\n.switch input[type=\"checkbox\"] {\n  position: absolute;\n  z-index: 1;\n  width: 100%;\n  height: 100%;\n  opacity: 0;\n  cursor: pointer;\n}\n.switch input[type=\"checkbox\"] + label {\n  position: relative;\n  display: block;\n  left: 0;\n  width: 50%;\n  height: 100%;\n  background: #1b1c1c;\n  border-radius: 3px;\n  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.1);\n  transition: all 0.5s ease-in-out;\n}\n.switch input[type=\"checkbox\"] + label:before {\n  content: \"\";\n  display: inline-block;\n  width: 5px;\n  height: 5px;\n  margin-left: 10px;\n  background: #fff;\n  border-radius: 50%;\n  vertical-align: middle;\n  box-shadow:\n    0 0 5px 2px rgba(165, 15, 15, 0.9),\n    0 0 3px 1px rgba(165, 15, 15, 0.9);\n  transition: all 0.5s ease-in-out;\n}\n.switch input[type=\"checkbox\"] + label:after {\n  content: \"\";\n  display: inline-block;\n  width: 0;\n  height: 100%;\n  vertical-align: middle;\n}\n.switch input[type=\"checkbox\"] + label i {\n  display: block;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 3px;\n  height: 24px;\n  margin-top: -12px;\n  margin-left: -1.5px;\n  border-radius: 2px;\n  background: #0d0d0d;\n  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.3);\n}\n.switch input[type=\"checkbox\"] + label i:before,\n.switch input[type=\"checkbox\"] + label i:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 2px;\n  background: #0d0d0d;\n  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.3);\n}\n.switch input[type=\"checkbox\"] + label i:before {\n  left: -7px;\n}\n.switch input[type=\"checkbox\"] + label i:after {\n  left: 7px;\n}\n.switch input[type=\"checkbox\"]:checked + label {\n  left: 50%;\n}\n.switch input[type=\"checkbox\"]:checked + label:before {\n  box-shadow:\n    0 0 5px 2px rgba(15, 165, 70, 0.9),\n    0 0 3px 1px rgba(15, 165, 70, 0.9);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

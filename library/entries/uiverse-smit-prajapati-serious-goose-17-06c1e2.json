@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-smit-prajapati-serious-goose-17-06c1e2",
+  "title": "Input by Smit-Prajapati (serious-goose-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Smit-Prajapati/serious-goose-17",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "input-effect",
+    "cool-input"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Smit-Prajapati on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Smit-Prajapati_serious-goose-17.html",
+  "code": "<div class=\"input-container\">\n  <input type=\"text\" placeholder=\"Add Item\">\n  <button class=\"button\">Add</button>\n</div>\n\n<style>\n/* From Uiverse.io by Smit-Prajapati - Tags: input, input effect , cool input */\n.input-container {\n  display: flex;\n  background: white;\n  border-radius: 1rem;\n  background: linear-gradient(135deg, #23272F 0%, #14161a 100%);\n  box-shadow: 10px 10px 20px #0e1013, -10px -10px 40px #383e4b;\n  padding: 0.3rem;\n  gap: 0.3rem;\n}\n\n.input-container input {\n  border-radius: 0.8rem 0 0 0.8rem;\n  background: #23272F;\n  box-shadow: inset 5px 5px 10px #0e1013, inset -5px -5px 10px #383e4b, 0px 0px 100px rgba(255, 212, 59, 0), 0px 0px 100px rgba(255, 102, 0, 0);\n  width: 100%;\n  flex-basis: 75%;\n  padding: 1rem;\n  border: none;\n  border: 1px solid transparent;\n  color: white;\n  transition: all 0.2s ease-in-out;\n}\n\n.input-container input:focus {\n  border: 1px solid #FFD43B;\n  outline: none;\n  box-shadow: inset 0px 0px 10px rgba(255, 102, 0, 0.5), inset 0px 0px 10px rgba(255, 212, 59, 0.5), 0px 0px 100px rgba(255, 212, 59, 0.5), 0px 0px 100px rgba(255, 102, 0, 0.5);\n}\n\n.input-container button {\n  flex-basis: 25%;\n  padding: 1rem;\n  background: linear-gradient(135deg, rgb(255, 212, 59) 0%, rgb(255, 102, 0) 100%);\n  box-shadow: 0px 0px 1px rgba(255, 212, 59, 0.5), 0px 0px 1px rgba(255, 102, 0, 0.5);\n  font-weight: 900;\n  letter-spacing: 0.3rem;\n  text-transform: uppercase;\n  color: #23272F;\n  border: none;\n  width: 100%;\n  border-radius: 0 1rem 1rem 0;\n  transition: all 0.2s ease-in-out;\n}\n\n.input-container button:hover {\n  background: linear-gradient(135deg, rgb(255, 212, 59) 50%, rgb(255, 102, 0) 100%);\n  box-shadow: 0px 0px 100px rgba(255, 212, 59, 0.5), 0px 0px 100px rgba(255, 102, 0, 0.5);\n}\n\n@media (max-width: 500px) {\n  .input-container {\n    flex-direction: column;\n  }\n\n  .input-container input {\n    border-radius: 0.8rem;\n  }\n\n  .input-container button {\n    padding: 1rem;\n    border-radius: 0.8rem;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

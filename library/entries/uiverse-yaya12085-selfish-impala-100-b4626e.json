@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-yaya12085-selfish-impala-100-b4626e",
+  "title": "Form by Yaya12085 (selfish-impala-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/selfish-impala-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "sign-in"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Yaya12085_selfish-impala-100.html",
+  "code": "<form class=\"form\">\n    <div class=\"header\">Sign In</div>\n    <div class=\"inputs\">\n        <input placeholder=\"Email\" class=\"input\" type=\"text\">\n        <input placeholder=\"Password\" class=\"input\" type=\"password\">\n    <div class=\"checkbox-container\">\n        <label class=\"checkbox\">\n        <input type=\"checkbox\" id=\"checkbox\">\n        </label>\n        <label for=\"checkbox\" class=\"checkbox-text\">Remember me</label>\n    </div>\n    <button class=\"sigin-btn\">Submit</button>\n    <a class=\"forget\" href=\"#\">Forget password ?</a>\n    <p class=\"signup-link\">Don't have an account? <a href=\"#\">Sign up</a></p>\n    </div>\n</form>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: sign-in, form */\n.form {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  border-radius: 0.75rem;\n  background-color: #fff;\n  color: rgb(97 97 97);\n  box-shadow: 20px 20px 30px rgba(0, 0, 0, .05);\n  width: 22rem;\n  background-clip: border-box;\n}\n\n.header {\n  position: relative;\n  background-clip: border-box;\n  background-color: #1e88e5;\n  background-image: linear-gradient(to top right,#1e88e5,#42a5f5);\n  margin: 10px;\n  border-radius: 0.75rem;\n  overflow: hidden;\n  color: #fff;\n  box-shadow: 0 0 #0000,0 0 #0000,0 0 #0000,0 0 #0000,rgba(33,150,243,.4);\n  height: 7rem;\n  letter-spacing: 0;\n  line-height: 1.375;\n  font-weight: 600;\n  font-size: 1.9rem;\n  font-family: Roboto, sans-serif;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.inputs {\n  padding: 1.5rem;\n  gap: 1rem;\n  display: flex;\n  flex-direction: column;\n}\n\n.input-container {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n  min-width: 200px;\n  width: 100%;\n  height: 2.75rem;\n  position: relative;\n}\n\n.input {\n  border: 1px solid rgba(128, 128, 128, 0.61);\n  outline: 0;\n  color: rgb(69 90 100);\n  font-weight: 400;\n  font-size: .9rem;\n  line-height: 1.25rem;\n  padding: 0.75rem;\n  background-color: transparent;\n  border-radius: .375rem;\n  width: 100%;\n  height: 100%;\n}\n\n.input:focus {\n  border: 1px solid #1e88e5;\n}\n\n.checkbox-container {\n  margin-left: -0.625rem;\n  display: inline-flex;\n  align-items: center;\n}\n\n.checkbox {\n  position: relative;\n  overflow: hidden;\n  padding: .55rem;\n  border-radius: 999px;\n  display: flex;\n  align-items: center;\n  cursor: pointer;\n  justify-content: center;\n  background-color: rgba(0, 0, 0, 0.027);\n  height: 35px;\n  width: 35px;\n}\n\n.checkbox input {\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n}\n\n.checkbox-text {\n  cursor: pointer;\n}\n\n.sigin-btn {\n  text-transform: uppercase;\n  font-weight: 700;\n  font-size: .75rem;\n  line-height: 1rem;\n  text-align: center;\n  padding: .75rem 1.5rem;\n  background-color: #1e88e5;\n  background-image: linear-gradient(to top right,#1e88e5,#42a5f5);\n  border-radius: .5rem;\n  width: 100%;\n  outline: 0;\n  border: 0;\n  color: #fff;\n}\n\n.signup-link {\n  line-height: 1.5;\n  font-weight: 300;\n  font-size: 0.875rem;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.signup-link a, .forget {\n  line-height: 1.5;\n  font-weight: 700;\n  font-size: .875rem;\n  margin-left: .25rem;\n  color: #1e88e5;\n}\n\n.forget {\n  text-align: right;\n  font-weight: 600;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

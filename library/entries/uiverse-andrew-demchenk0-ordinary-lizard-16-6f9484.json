@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-andrew-demchenk0-ordinary-lizard-16-6f9484",
+  "title": "Form by andrew-demchenk0 (ordinary-lizard-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/ordinary-lizard-16",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/andrew-demchenk0_ordinary-lizard-16.html",
+  "code": "<form class=\"form\">\n  <ul class=\"wrapper\">\n    \n    <li style=\"--i:4;\"><input class=\"input\" type=\"text\" placeholder=\"Name\" required=\"\"></li>\n    <li style=\"--i:3;\"><input class=\"input\" placeholder=\"Phone number\" required=\"\" name=\"phone\"></li>\n    <li style=\"--i:2;\"><input class=\"input\" type=\"email\" placeholder=\"E-mail\" required=\"\" name=\"email\"></li>\n    <button style=\"--i:1;\">Submit</button>\n  </ul>\n</form>\n\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: form */\n/* you can choose any color you want. don't be afraid to experiment  */\n\n.input, button {\n  width: 100%;\n  height: 40px;\n  position: relative;\n  padding: 10px;\n  border: 0.1px solid #575cb5;\n}\n\nbutton {\n  background: #6d74e3;\n  border: none;\n}\n\n.wrapper {\n  position: relative;\n  transform: skewY(-14deg);\n}\n\n.wrapper li, button {\n  position: relative;\n  list-style: none;\n  width: 200px;\n  z-index: var(--i);\n  transition: 0.3s;\n  color: white;\n}\n\n.wrapper li::before, button::before {\n  position: absolute;\n  content: '';\n  background: #6d74e3;\n  top: 0;\n  left: -40px;\n  width: 40px;\n  height: 40px;\n  transform-origin: right;\n  transform: skewY(45deg);\n  transition: 0.3s;\n}\n\n.wrapper li::after, button::after {\n  position: absolute;\n  content: '';\n  background: #6d74e3;\n  width: 200px;\n  height: 40px;\n  top: -40px;\n  left: 0;\n  transform-origin: bottom;\n  transform: skewX(45deg);\n  transition: 0.3s;\n}\n\n.wrapper li:nth-child(1)::after, .wrapper li:nth-child(1)::before {\n  background-color: #d8daf7;\n}\n\n.wrapper li:nth-child(2)::after, .wrapper li:nth-child(2)::before {\n  background-color: #c2c5f3;\n}\n\n.wrapper li:nth-child(3)::after, .wrapper li:nth-child(3)::before {\n  background-color: #989deb;\n}\n\nli .input {\n  outline: none;\n  border: none;\n  color: black;\n}\n\nli .input::placeholder {\n  color: black;\n}\n\nli:nth-child(1) .input {\n  background: #d8daf7;\n}\n\nli:nth-child(2) .input {\n  background: #c2c5f3;\n}\n\nli:nth-child(3) .input {\n  background: #989deb;\n}\n\n\nli:nth-child(1) .input:focus {\n  outline: none;\n  border: 3.5px solid #d8daf7;\n}\n\nli:nth-child(2) .input:focus {\n  outline: none;\n  border: 3.5px solid #c2c5f3;\n}\n\nli:nth-child(3) .input:focus {\n  outline: none;\n  border: 3.5px solid #989deb;\n}\n\n.wrapper li:hover, button:hover {\n  transform: translateX(-20px);\n}\n\nbutton:hover, button:hover::before, button:hover::after {\n  background: #575cb5;\n}\n\nbutton:active {\n  transform: translateX(0px);\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

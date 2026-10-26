@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-quick-chicken-50-8d95f4",
+  "title": "Button by satyamchaudharydev (quick-chicken-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/quick-chicken-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/satyamchaudharydev_quick-chicken-50.html",
+  "code": "<button data-text=\"Awesome\" class=\"button\">\n    <span class=\"actual-text\">&nbsp;uiverse&nbsp;</span>\n    <span class=\"hover-text\" aria-hidden=\"true\">&nbsp;uiverse&nbsp;</span>\n</button>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: button */\n/* === removing default button style ===*/\n.button {\n  margin: 0;\n  height: auto;\n  background: transparent;\n  padding: 0;\n  border: none;\n}\n\n/* button styling */\n.button {\n  --border-right: 6px;\n  --text-stroke-color: rgba(255,255,255,0.6);\n  --animation-color: #37FF8B;\n  --fs-size: 2em;\n  letter-spacing: 3px;\n  text-decoration: none;\n  font-size: var(--fs-size);\n  font-family: \"Arial\";\n  position: relative;\n  text-transform: uppercase;\n  color: transparent;\n  -webkit-text-stroke: 1px var(--text-stroke-color);\n}\n/* this is the text, when you hover on button */\n.hover-text {\n  position: absolute;\n  box-sizing: border-box;\n  content: attr(data-text);\n  color: var(--animation-color);\n  width: 0%;\n  inset: 0;\n  border-right: var(--border-right) solid var(--animation-color);\n  overflow: hidden;\n  transition: 0.5s;\n  -webkit-text-stroke: 1px var(--animation-color);\n}\n/* hover */\n.button:hover .hover-text {\n  width: 100%;\n  filter: drop-shadow(0 0 23px var(--animation-color))\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

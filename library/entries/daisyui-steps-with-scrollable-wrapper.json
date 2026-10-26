@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-steps-with-scrollable-wrapper",
+  "title": "Steps: With scrollable wrapper (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/steps/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "steps",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Steps can be used to show a list of steps in a process.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/steps/+page.md",
+  "code": "<div class=\"overflow-x-auto\">\n  <ul class=\"steps\">\n    <li class=\"step\">start</li>\n    <li class=\"step step-secondary\">2</li>\n    <li class=\"step step-secondary\">3</li>\n    <li class=\"step step-secondary\">4</li>\n    <li class=\"step\">5</li>\n    <li class=\"step step-accent\">6</li>\n    <li class=\"step step-accent\">7</li>\n    <li class=\"step\">8</li>\n    <li class=\"step step-error\">9</li>\n    <li class=\"step step-error\">10</li>\n    <li class=\"step\">11</li>\n    <li class=\"step\">12</li>\n    <li class=\"step step-warning\">13</li>\n    <li class=\"step step-warning\">14</li>\n    <li class=\"step\">15</li>\n    <li class=\"step step-neutral\">16</li>\n    <li class=\"step step-neutral\">17</li>\n    <li class=\"step step-neutral\">18</li>\n    <li class=\"step step-neutral\">19</li>\n    <li class=\"step step-neutral\">20</li>\n    <li class=\"step step-neutral\">21</li>\n    <li class=\"step step-neutral\">22</li>\n    <li class=\"step step-neutral\">23</li>\n    <li class=\"step step-neutral\">end</li>\n  </ul>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

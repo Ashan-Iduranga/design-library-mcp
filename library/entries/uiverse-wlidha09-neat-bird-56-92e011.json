@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-wlidha09-neat-bird-56-92e011",
+  "title": "Button by Wlidha09 (neat-bird-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Wlidha09/neat-bird-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "modern",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Wlidha09 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Wlidha09_neat-bird-56.html",
+  "code": "<div class=\"center\">\n  <button class=\"btn\">\n    <svg viewBox=\"0 0 150 50\" height=\"50px\" width=\"150px\" class=\"svg\">\n      <polyline class=\"bg-line\" points=\"149,1 149,49 1,49 1,1 149,1\"></polyline>\n      <polyline class=\"hl-line\" points=\"149,1 149,49 1,49 1,1 149,1\"></polyline>\n    </svg>\n    <span>HOVER ME</span>\n  </button>\n</div>\n\n<style>\n/* From Uiverse.io by Wlidha09  - Tags: button, hover, modern, animated */\n.center {\n  width: 150px;\n  height: 50px;\n  position: relative;\n}\n\n.btn {\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n  background: transparent;\n  border: 1px solid #91c9ff;\n  outline: none;\n  transition: 1s ease-in-out;\n}\n\n.svg {\n  position: absolute;\n  left: 0;\n  top: 0;\n  fill: none;\n  stroke: #fff;\n  stroke-dasharray: 150 480;\n  stroke-dashoffset: 150;\n  transition: 1s ease-in-out;\n}\n\n.btn:hover {\n  transition: 1s ease-in-out;\n  background: #4f95da;\n}\n\n.btn:hover .svg {\n  stroke-dashoffset: -480;\n}\n\n.btn span {\n  color: white;\n  font-size: 17px;\n  font-weight: 100;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

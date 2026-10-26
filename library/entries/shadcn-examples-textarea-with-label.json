@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-textarea-with-label",
+  "title": "Textarea With Label (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/textarea-with-label.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "textarea",
+    "with",
+    "label",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Displays a form textarea or a component that looks like a textarea.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/textarea-with-label.tsx",
+  "code": "import { Label } from \"@/registry/new-york-v4/ui/label\"\nimport { Textarea } from \"@/registry/new-york-v4/ui/textarea\"\n\nexport default function TextareaWithLabel() {\n  return (\n    <div className=\"grid w-full gap-3\">\n      <Label htmlFor=\"message\">Your message</Label>\n      <Textarea placeholder=\"Type your message here.\" id=\"message\" />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

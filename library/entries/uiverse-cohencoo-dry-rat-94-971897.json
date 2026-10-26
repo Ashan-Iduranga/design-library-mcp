@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cohencoo-dry-rat-94-971897",
+  "title": "Loader by cohencoo (dry-rat-94)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cohencoo/dry-rat-94",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cohencoo on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/cohencoo_dry-rat-94.html",
+  "code": "<div class=\"custom-loader\"></div>\n<style>\n/* From Uiverse.io by cohencoo - Tags: loader */\n.custom-loader {\n  width: 70px;\n  height: 70px;\n  background: #ffa600;\n  border-radius: 50px;\n  -webkit-mask: radial-gradient(circle 31px at 50% calc(100% + 13px),#000 95%,#0000) top 4px left 50%,\n    radial-gradient(circle 31px,#000 95%,#0000) center,\n    radial-gradient(circle 31px at 50% -13px,#000 95%,#0000) bottom 4px left 50%,\n    linear-gradient(#000 0 0);\n  -webkit-mask-composite: xor;\n  mask-composite: exclude;\n  -webkit-mask-repeat: no-repeat;\n  animation: cu10 1.5s infinite;\n}\n\n@keyframes cu10 {\n  0% {\n    -webkit-mask-size: 0    18px,0    18px,0    18px,auto\n  }\n\n  16.67% {\n    -webkit-mask-size: 100% 18px,0    18px,0    18px,auto\n  }\n\n  33.33% {\n    -webkit-mask-size: 100% 18px,100% 18px,0    18px,auto\n  }\n\n  50% {\n    -webkit-mask-size: 100% 18px,100% 18px,100% 18px,auto\n  }\n\n  66.67% {\n    -webkit-mask-size: 0    18px,100% 18px,100% 18px,auto\n  }\n\n  83.33% {\n    -webkit-mask-size: 0    18px,0    18px,100% 18px,auto\n  }\n\n  100% {\n    -webkit-mask-size: 0    18px,0    18px,0    18px,auto\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

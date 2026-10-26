@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ali-tahmazi99-big-stingray-4-212097",
+  "title": "Button by Ali-Tahmazi99 (big-stingray-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Ali-Tahmazi99/big-stingray-4",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Ali-Tahmazi99 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Ali-Tahmazi99_big-stingray-4.html",
+  "code": "<button>\n  <span> Button\n  </span>\n</button>\n<style>\n/* From Uiverse.io by Ali-Tahmazi99 - Tags: button */\n/* From uiverse.io by @Ali-Tahmazi99 */\nbutton {\n display: inline-block;\n width: 150px;\n height: 50px;\n border-radius: 10px;\n border: 1px solid #03045e;\n position: relative;\n overflow: hidden;\n transition: all 0.5s ease-in;\n z-index: 1;\n}\n\nbutton::before,\nbutton::after {\n content: '';\n position: absolute;\n top: 0;\n width: 0;\n height: 100%;\n transform: skew(15deg);\n transition: all 0.5s;\n overflow: hidden;\n z-index: -1;\n}\n\nbutton::before {\n left: -10px;\n background: #240046;\n}\n\nbutton::after {\n right: -10px;\n background: #5a189a;\n}\n\nbutton:hover::before,\nbutton:hover::after {\n width: 58%;\n}\n\nbutton:hover span {\n color: #e0aaff;\n transition: 0.3s;\n}\n\nbutton span {\n color: #03045e;\n font-size: 18px;\n transition: all 0.3s ease-in;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

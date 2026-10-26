@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mike11jr-soft-mayfly-11-157ef5",
+  "title": "Button by Mike11jr (soft-mayfly-11)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Mike11jr/soft-mayfly-11",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Mike11jr on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Mike11jr_soft-mayfly-11.html",
+  "code": "<button class=\"btn\">Hover Me!\n</button>\n<style>\n/* From Uiverse.io by Mike11jr - Tags: button */\n.btn {\n width: 130px;\n height: 40px;\n font-size: 1.1em;\n cursor: pointer;\n background-color: #171717;\n color: #fff;\n border: none;\n border-radius: 5px;\n transition: all .4s;\n}\n\n.btn:hover {\n border-radius: 5px;\n transform: translateY(-10px);\n box-shadow: 0 7px 0 -2px #f85959,\n  0 15px 0 -4px #39a2db,\n  0 16px 10px -3px #39a2db;\n}\n\n.btn:active {\n transition: all 0.2s;\n transform: translateY(-5px);\n box-shadow: 0 2px 0 -2px #f85959,\n  0 8px 0 -4px #39a2db,\n  0 12px 10px -3px #39a2db;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

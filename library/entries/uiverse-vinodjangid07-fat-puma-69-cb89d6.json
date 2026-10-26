@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-vinodjangid07-fat-puma-69-cb89d6",
+  "title": "Card by vinodjangid07 (fat-puma-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/fat-puma-69",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "material-design",
+    "gradient",
+    "input",
+    "payment",
+    "mastercard",
+    "visa",
+    "credit-card"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/vinodjangid07_fat-puma-69.html",
+  "code": "<div class=\"visa-card\">\n  <div class=\"logoContainer\">\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      x=\"0px\"\n      y=\"0px\"\n      width=\"23\"\n      height=\"23\"\n      viewBox=\"0 0 48 48\"\n      class=\"svgLogo\"\n    >\n      <path\n        fill=\"#ff9800\"\n        d=\"M32 10A14 14 0 1 0 32 38A14 14 0 1 0 32 10Z\"\n      ></path>\n      <path\n        fill=\"#d50000\"\n        d=\"M16 10A14 14 0 1 0 16 38A14 14 0 1 0 16 10Z\"\n      ></path>\n      <path\n        fill=\"#ff3d00\"\n        d=\"M18,24c0,4.755,2.376,8.95,6,11.48c3.624-2.53,6-6.725,6-11.48s-2.376-8.95-6-11.48 C20.376,15.05,18,19.245,18,24z\"\n      ></path>\n    </svg>\n  </div>\n  <div class=\"number-container\">\n    <label class=\"input-label\" for=\"cardNumber\">CARD NUMBER</label>\n    <input\n      class=\"inputstyle\"\n      id=\"cardNumber\"\n      placeholder=\"XXXX XXXX XXXX XXXX\"\n      name=\"cardNumber\"\n      type=\"text\"\n    />\n  </div>\n\n  <div class=\"name-date-cvv-container\">\n    <div class=\"name-wrapper\">\n      <label class=\"input-label\" for=\"holderName\">CARD HOLDER</label>\n      <input\n        class=\"inputstyle\"\n        id=\"holderName\"\n        placeholder=\"NAME\"\n        type=\"text\"\n      />\n    </div>\n\n    <div class=\"expiry-wrapper\">\n      <label class=\"input-label\" for=\"expiry\">VALID THRU</label>\n      <input class=\"inputstyle\" id=\"expiry\" placeholder=\"MM/YY\" type=\"text\" />\n    </div>\n    <div class=\"cvv-wrapper\">\n      <label class=\"input-label\" for=\"cvv\">CVV</label>\n      <input\n        class=\"inputstyle\"\n        placeholder=\"***\"\n        maxlength=\"3\"\n        id=\"cvv\"\n        type=\"password\"\n      />\n    </div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: material design, gradient, card, input, payment, mastercard, visa, credit card */\n.visa-card {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: flex-end;\n  width: 300px;\n  height: 180px;\n  background-image: radial-gradient(\n    circle 897px at 9% 80.3%,\n    rgba(55, 60, 245, 1) 0%,\n    rgba(234, 161, 15, 0.9) 100.2%\n  );\n  border-radius: 10px;\n  padding: 20px;\n  font-family: Arial, Helvetica, sans-serif;\n  position: relative;\n  gap: 15px;\n}\n.logoContainer {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: flex-end;\n  height: fit-content;\n  position: absolute;\n  top: 0;\n  left: 0;\n  padding: 18px;\n}\n.svgLogo {\n  height: 40px;\n  width: auto;\n}\n.inputstyle::placeholder {\n  color: #ffffff;\n}\n.inputstyle {\n  background-color: transparent;\n  border: none;\n  outline: none;\n  color: white;\n  caret-color: red;\n  font-size: 13px;\n  height: 25px;\n  letter-spacing: 1.5px;\n}\n.number-container {\n  width: 100%;\n  height: fit-content;\n  display: flex;\n  flex-direction: column;\n}\n#cardNumber {\n  width: 100%;\n  height: 25px;\n}\n.name-date-cvv-container {\n  width: 100%;\n  height: 25px;\n  display: flex;\n  gap: 10px;\n}\n.name-wrapper {\n  width: 60%;\n  height: fit-content;\n  display: flex;\n  flex-direction: column;\n}\n.expiry-wrapper,\n.cvv-wrapper {\n  width: 30%;\n  height: fit-content;\n  display: flex;\n  flex-direction: column;\n}\n.cvv-wrapper {\n  width: 10%;\n}\n#expiry,\n#cvv {\n  width: 100%;\n}\n.input-label {\n  font-size: 8px;\n  letter-spacing: 1.5px;\n  color: #e2e2e2;\n  width: 100%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

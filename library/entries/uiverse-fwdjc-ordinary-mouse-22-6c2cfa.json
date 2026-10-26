@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-fwdjc-ordinary-mouse-22-6c2cfa",
+  "title": "Card by FWDJc (ordinary-mouse-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/FWDJc/ordinary-mouse-22",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "challenge",
+    "div",
+    "dvd"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By FWDJc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/FWDJc_ordinary-mouse-22.html",
+  "code": "<div class=\"one-div\"></div>\n<style>\n/* From Uiverse.io by FWDJc - Tags: card, challenge, div, dvd */\n.one-div {\n  width: 230px;\n  height: 50px;\n  border-radius: 50%;\n  position: relative;\n  animation: bounce 5s infinite;\n}\n\n.one-div::before {\n  content: 'DIV';\n  position: absolute;\n  display: block;\n  left: 12%;\n  bottom: 55%;\n  color: green;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n  font-size: 6em;\n  font-weight: 900;\n  font-style: italic;\n  animation: div-color-change 5s infinite;\n}\n\n.one-div::after {\n  content: 'DIVISION';\n  position: absolute;\n  top: 27%;\n  left: 18%;\n  color: #212121;\n  font-size: 1em;\n  font-weight: 800;\n  letter-spacing: 10px;\n  z-index: 1;\n}\n\n@keyframes bounce {\n  0% {\n    background-color: red;\n    transform: translateX(0) translateY(100px);\n  }\n\n  25% {\n    background-color: blue;\n    transform: translateX(100px) translateY(0);\n  }\n\n  55% {\n    background-color: green;\n    transform: translateX(0) translateY(-100px);\n  }\n\n  75% {\n    background-color: yellow;\n    transform: translateX(-100px) translateY(0);\n  }\n\n  100% {\n    background-color: purple;\n    transform: translateX(0) translateY(100px);\n  }\n}\n\n@keyframes div-color-change {\n  0% {\n    color: red;\n  }\n\n  25% {\n    color: blue;\n  }\n\n  55% {\n    color: green;\n  }\n\n  75% {\n    color: yellow;\n  }\n\n  100% {\n    color: purple;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

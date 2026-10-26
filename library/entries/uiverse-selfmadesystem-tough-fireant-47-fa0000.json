@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-selfmadesystem-tough-fireant-47-fa0000",
+  "title": "Button by SelfMadeSystem (tough-fireant-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/tough-fireant-47",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "neumorphism",
+    "animation",
+    "blue",
+    "minimalist"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SelfMadeSystem_tough-fireant-47.html",
+  "code": "<button class=\"btn btn-primary\">\n  <span class=\"btn-txt\">Get started</span>\n  <kbd class=\"btn-kbd\">G</kbd>\n</button>\n\n<style>\n/* From Uiverse.io by SelfMadeSystem  - Tags: simple, neumorphism, animation, blue, minimalist, button */\n.btn {\n  margin: 0.5rem;\n  padding: 0.5rem 0.75rem;\n  border-radius: 0.5rem;\n  border: none;\n  font-weight: 600;\n  cursor: pointer;\n}\n\n.btn kbd {\n  margin: 0.25rem;\n  padding: 0.125rem 0.5rem;\n  border-radius: 0.25rem;\n}\n\n.btn-primary {\n  background: linear-gradient(#1f5afe, #0f4cf5);\n  color: white;\n  box-shadow: inset 0pt 4pt 3pt -2pt #386fff, 0pt 4pt 5pt -3pt #0009;\n  border-bottom: 2pt solid #083acd;\n  transition: all 0.5s ease;\n}\n\n.btn-primary:hover {\n  border-bottom: 4pt solid #083acd;\n  translate: 0pt -1pt;\n}\n\n.btn-primary:active {\n  box-shadow: inset 0pt 4pt 3pt -2pt #386fff, 0pt 4pt 5pt -3pt #0000;\n  border-bottom: 1pt solid #083acd;\n  translate: 0pt 0pt;\n}\n\n.btn-primary kbd {\n  background-color: #3e6eff;\n  box-shadow: inset 0pt -3pt 3pt -2pt #1f54f0, inset 0pt 3pt 3pt -2pt #658dff,\n    0pt 2pt 2pt -2pt #0005, 0pt 0pt 0pt 2pt #0d47f0;\n}\n\n.btn-base {\n  background: #386fff;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-slippery-bear-64-a8db84",
+  "title": "Checkbox by mrhyddenn (slippery-bear-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/slippery-bear-64",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/mrhyddenn_slippery-bear-64.html",
+  "code": "<div class=\"container\">\n    <input type=\"checkbox\" id=\"cbx\" style=\"display: none;\">\n    <label for=\"cbx\" class=\"check\">\n        <svg width=\"18px\" height=\"18px\" viewBox=\"0 0 18 18\">\n            <path d=\"M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z\"></path>\n            <polyline points=\"1 9 7 14 15 4\"></polyline>\n        </svg>\n    </label>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: checkbox */\n.check {\n  cursor: pointer;\n  position: relative;\n  margin: auto;\n  width: 18px;\n  height: 18px;\n  -webkit-tap-highlight-color: transparent;\n  transform: translate3d(0, 0, 0);\n}\n\n.check:before {\n  content: \"\";\n  position: absolute;\n  top: -15px;\n  left: -15px;\n  width: 48px;\n  height: 48px;\n  border-radius: 50%;\n  background: rgba(34,50,84,0.03);\n  opacity: 0;\n  transition: opacity 0.2s ease;\n}\n\n.check svg {\n  position: relative;\n  z-index: 1;\n  fill: none;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke: #c8ccd4;\n  stroke-width: 1.5;\n  transform: translate3d(0, 0, 0);\n  transition: all 0.2s ease;\n}\n\n.check svg path {\n  stroke-dasharray: 60;\n  stroke-dashoffset: 0;\n}\n\n.check svg polyline {\n  stroke-dasharray: 22;\n  stroke-dashoffset: 66;\n}\n\n.check:hover:before {\n  opacity: 1;\n}\n\n.check:hover svg {\n  stroke: #4285f4;\n}\n\n#cbx:checked + .check svg {\n  stroke: #4285f4;\n}\n\n#cbx:checked + .check svg path {\n  stroke-dashoffset: 60;\n  transition: all 0.3s linear;\n}\n\n#cbx:checked + .check svg polyline {\n  stroke-dashoffset: 42;\n  transition: all 0.2s linear;\n  transition-delay: 0.15s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

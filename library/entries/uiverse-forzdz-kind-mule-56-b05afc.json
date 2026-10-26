@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-forzdz-kind-mule-56-b05afc",
+  "title": "Toggle by ForzDz (kind-mule-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ForzDz/kind-mule-56",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "starrating",
+    "3d-cool-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ForzDz on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/ForzDz_kind-mule-56.html",
+  "code": "<div class=\"rating\">\n  <input type=\"radio\" id=\"star5\" name=\"rating\" value=\"5\">\n  <label for=\"star5\"></label>\n  <input type=\"radio\" id=\"star4\" name=\"rating\" value=\"4\">\n  <label for=\"star4\"></label>\n  <input type=\"radio\" id=\"star3\" name=\"rating\" value=\"3\">\n  <label for=\"star3\"></label>\n  <input type=\"radio\" id=\"star2\" name=\"rating\" value=\"2\">\n  <label for=\"star2\"></label>\n  <input type=\"radio\" id=\"star1\" name=\"rating\" value=\"1\">\n  <label for=\"star1\"></label>\n</div>\n\n<style>\n/* From Uiverse.io by ForzDz - Tags: switch, starrating, 3d cool effect */\n.rating {\n  display: inline-block;\n  opacity: 1;\n}\n\n.rating input {\n  display: none;\n  opacity: 1;\n}\n\n.rating label {\n  float: right;\n  cursor: pointer;\n  color: #ccc;\n  transition: color 0.3s, transform 0.3s, box-shadow 0.3s;\n}\n\n.rating label:before {\n  content: '\\2605';\n  font-size: 30px;\n  transition: color 0.3s;\n}\n\n.rating input:checked ~ label,\n.rating label:hover,\n.rating label:hover ~ label {\n  color: #ffc300;\n  transform: scale(1.2);\n  transition: color 0.3s, transform 0.3s, box-shadow 0.3s;\n  animation: bounce 0.5s ease-in-out alternate;\n}\n\n@keyframes bounce {\n  to {\n    transform: scale(1.3);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

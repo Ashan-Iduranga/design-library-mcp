@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-dgtalsam-neat-kangaroo-25-8ec4cd",
+  "title": "Button by DGtalsam (neat-kangaroo-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/DGtalsam/neat-kangaroo-25",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By DGtalsam on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/DGtalsam_neat-kangaroo-25.html",
+  "code": "<button class=\"custom-btn btn\"><span>Button</span></button>\n<style>\n/* From Uiverse.io by DGtalsam - Tags: button */\n.custom-btn {\n width: 130px;\n height: 40px;\n color: #fff;\n border-radius: 5px;\n padding: 10px 25px;\n font-family: 'Lato', sans-serif;\n font-weight: 500;\n background: transparent;\n cursor: pointer;\n transition: all 0.3s ease;\n position: relative;\n display: inline-block;\n box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),\n        7px 7px 20px 0px rgba(0, 0, 0, .1),\n        4px 4px 5px 0px rgba(0, 0, 0, .1);\n outline: none;\n}\n\n.btn {\n background: linear-gradient(0deg, rgba(255, 151, 0, 1) 0%, rgba(251, 75, 2, 1) 100%);\n line-height: 42px;\n padding: 0;\n border: none;\n}\n\n.btn span {\n position: relative;\n display: block;\n width: 100%;\n height: 100%;\n}\n\n.btn:before,\n.btn:after {\n position: absolute;\n content: \"\";\n right: 0;\n bottom: 0;\n background: rgba(251, 75, 2, 1);\n box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, .9),\n        -4px -4px 5px 0px rgba(255, 255, 255, .9),\n        7px 7px 20px 0px rgba(0, 0, 0, .2),\n        4px 4px 5px 0px rgba(0, 0, 0, .3);\n transition: all 0.3s ease;\n}\n\n.btn:before {\n height: 0%;\n width: 2px;\n}\n\n.btn:after {\n width: 0%;\n height: 2px;\n}\n\n.btn:hover {\n color: rgba(251, 75, 2, 1);\n background: transparent;\n}\n\n.btn:hover:before {\n height: 100%;\n}\n\n.btn:hover:after {\n width: 100%;\n}\n\n.btn span:before,\n.btn span:after {\n position: absolute;\n content: \"\";\n left: 0;\n top: 0;\n background: rgba(251, 75, 2, 1);\n box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, .9),\n        -4px -4px 5px 0px rgba(255, 255, 255, .9),\n        7px 7px 20px 0px rgba(0, 0, 0, .2),\n        4px 4px 5px 0px rgba(0, 0, 0, .3);\n transition: all 0.3s ease;\n}\n\n.btn span:before {\n width: 2px;\n height: 0%;\n}\n\n.btn span:after {\n height: 2px;\n width: 0%;\n}\n\n.btn span:hover:before {\n height: 100%;\n}\n\n.btn span:hover:after {\n width: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

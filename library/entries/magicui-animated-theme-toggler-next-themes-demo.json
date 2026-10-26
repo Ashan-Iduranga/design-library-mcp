@@ -1,0 +1,39 @@
+{
+  "id": "magicui-animated-theme-toggler-next-themes-demo",
+  "title": "Animated Theme Toggler — next-themes (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/animated-theme-toggler-next-themes",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "animated",
+    "theme",
+    "toggler",
+    "next",
+    "themes",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Controlled usage with next-themes so useTheme() subscribers stay in sync on toggle.\n\nnpm dependencies: next-themes\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/animated-theme-toggler-next-themes-demo.tsx",
+  "code": "\"use client\"\n\nimport { useTheme } from \"next-themes\"\n\nimport { AnimatedThemeToggler } from \"@/registry/magicui/animated-theme-toggler\"\n\nexport default function AnimatedThemeTogglerNextThemesDemo() {\n  const { resolvedTheme, setTheme } = useTheme()\n\n  return (\n    <div className=\"flex justify-center p-6\">\n      <AnimatedThemeToggler\n        theme={resolvedTheme === \"dark\" ? \"dark\" : \"light\"}\n        onThemeChange={setTheme}\n      />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

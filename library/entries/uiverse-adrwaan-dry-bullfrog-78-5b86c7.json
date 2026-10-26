@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-adrwaan-dry-bullfrog-78-5b86c7",
+  "title": "Card by Adrwaan (dry-bullfrog-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Adrwaan/dry-bullfrog-78",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "icon",
+    "animation",
+    "hover",
+    "glow",
+    "svg",
+    "border",
+    "color"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Adrwaan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Adrwaan_dry-bullfrog-78.html",
+  "code": "<div class=\"card\">\n  <svg viewBox=\"0 0 512 512\" class=\"paperplane\">\n    <path\n      d=\"M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480V396.4c0-4 1.5-7.8 4.2-10.7L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z\"\n    ></path>\n  </svg>\n</div>\n\n<style>\n/* From Uiverse.io by Adrwaan  - Tags: icon, animation, card, hover, glow, svg, border, color */\n.card {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  width: 190px;\n  height: 254px;\n  background: #434343;\n  border-radius: 10px;\n}\n\n.card::before {\n  content: \"\";\n  position: absolute;\n  width: 190px;\n  height: 254px;\n  background-color: tomato;\n  border-radius: 10px;\n  z-index: -1;\n  transition: all 0.4s;\n  animation: animate 5s linear infinite;\n}\n\n.card:hover::before {\n  width: 197px;\n  height: 259px;\n}\n\n.card:hover .paperplane {\n  transform: scale(1.07) translateY(-10%) rotate(18deg);\n}\n\n.paperplane {\n  fill: #888;\n  width: 70px;\n  transition: 0.4s all;\n}\n\n@keyframes animate {\n  50% {\n    filter: hue-rotate(350deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

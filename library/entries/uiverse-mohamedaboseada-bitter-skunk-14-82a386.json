@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-mohamedaboseada-bitter-skunk-14-82a386",
+  "title": "Tooltip by MohamedAboSeada (bitter-skunk-14)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MohamedAboSeada/bitter-skunk-14",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "simple",
+    "animation",
+    "minimalist",
+    "hover",
+    "rounded",
+    "cube",
+    "modern"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MohamedAboSeada on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/MohamedAboSeada_bitter-skunk-14.html",
+  "code": "<div class=\"tooltip-container\">\n  <div class=\"tooltip\">\n    <p>This is a test</p>\n    <button>Got It</button>\n    <div class=\"line\"></div>\n  </div>\n  <span class=\"text\">Tooltip</span>\n</div>\n\n<style>\n/* From Uiverse.io by MohamedAboSeada  - Tags: simple, tooltip, animation, minimalist, hover, rounded, cube, modern */\n.tooltip-container {\n  position: relative;\n  height: 50px;\n  display: flex;\n  background-color: darkgray;\n  border-radius: 5px;\n  box-shadow: 0 3px 0 rgb(0 0 0 / 80%);\n  width: 200px;\n  cursor: pointer;\n  align-items: center;\n  justify-content: center;\n}\n.tooltip {\n  position: absolute;\n  top: -110px;\n  left: 50%;\n  opacity: 0;\n  transition: 300ms ease;\n  background-color: #000;\n  color: #fff;\n  border-radius: 5px;\n  display: flex;\n  gap: 10px 0;\n  cursor: auto;\n  box-shadow: 0 0 10px rgb(0 0 0 / 50%);\n  font-style: oblique;\n  flex-direction: column;\n  padding: 10px;\n  width: 200px;\n  animation: opacity;\n  transform: translateX(-50%);\n}\n.tooltip button {\n  outline: none;\n  border: 1px solid #fff;\n  background-color: transparent;\n  color: #fff;\n  width: 70px;\n  height: 30px;\n  border-radius: 5px;\n  font-family: inherit;\n  font-size: 1rem;\n  align-self: flex-end;\n  cursor: pointer;\n}\n.line {\n  position: absolute;\n  width: 3px;\n  height: 25px;\n  background-color: #000;\n  top: 100%;\n  left: 50%;\n  display: flex;\n  align-items: flex-end;\n  justify-content: center;\n  transform: translateX(-50%);\n}\n.line::before {\n  content: \"\";\n  position: absolute;\n  bottom: -5px;\n  width: 10px;\n  height: 10px;\n  background-color: #000;\n  border-radius: 50%;\n}\n.tooltip-container:hover > .tooltip {\n  opacity: 1;\n}\n.tooltip-container:hover > .tooltip > .line {\n  animation: HeightUP 400ms ease;\n}\n@keyframes HeightUP {\n  0% {\n    height: 0;\n  }\n  100% {\n    height: 25px;\n  }\n}\n@keyframes opcaityUp {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

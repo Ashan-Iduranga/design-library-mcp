@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-quezaquo-bitter-wolverine-27-04c202",
+  "title": "Tooltip by Quezaquo (bitter-wolverine-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Quezaquo/bitter-wolverine-27",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "simple",
+    "transition"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Quezaquo on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/Quezaquo_bitter-wolverine-27.html",
+  "code": "<div class=\"container\">\n  <span class=\"hover-me\">Hover me !</span>\n  <div class=\"tooltip\">\n    <p>Heyy👋</p>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Quezaquo  - Tags: simple, tooltip, transition */\n.container {\n  font-size: 18px;\n  color: #333;\n  position: relative;\n  cursor: pointer;\n  display: inline-block;\n}\n\n.hover-me {\n  position: relative;\n  z-index: 1;\n  text-decoration: underline;\n  text-underline-offset: 4px;\n  text-decoration-color: #333;\n}\n\n.tooltip {\n  width: 100%;\n  height: 10px;\n  background: #ffffff;\n  padding: 0.25em;\n  text-align: center;\n  position: absolute;\n  top: 40px;\n  left: 0;\n  opacity: 0;\n  visibility: hidden;\n  transform-origin: center top;\n  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);\n  transition: opacity 0.3s ease-in-out;\n}\n\n.tooltip::before {\n  content: \"\";\n  position: absolute;\n  bottom: -8px;\n  left: 80%;\n  transform: translateX(-50%);\n  border-width: 8px 7px 0;\n  border-style: solid;\n  border-color: #ffffff transparent transparent transparent;\n  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);\n}\n\n.tooltip p {\n  margin: 0;\n  color: #333;\n  font-weight: 600;\n}\n\n.container:hover .tooltip {\n  top: -10px;\n  opacity: 1;\n  visibility: visible;\n  animation: goPopup 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;\n}\n\n.container:hover .tooltip p {\n  animation: bounce 2s ease-in-out infinite;\n}\n\n@keyframes goPopup {\n  0% {\n    transform: translateY(0) scaleY(0);\n    opacity: 0;\n  }\n  50% {\n    transform: translateY(-50%) scaleY(1.2);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(-100%) scaleY(1);\n    border-radius: 8px;\n    opacity: 1;\n    height: 40px;\n  }\n}\n\n@keyframes bounce {\n  0%,\n  20%,\n  50%,\n  80%,\n  100% {\n    transform: translateY(0);\n  }\n  40% {\n    transform: translateY(-3px);\n  }\n  60% {\n    transform: translateY(-2px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

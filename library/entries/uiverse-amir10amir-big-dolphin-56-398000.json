@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-amir10amir-big-dolphin-56-398000",
+  "title": "Button by Amir10Amir (big-dolphin-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Amir10Amir/big-dolphin-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Amir10Amir on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Amir10Amir_big-dolphin-56.html",
+  "code": "<button class=\"bn\">Hover!</button>\n<style>\n/* From Uiverse.io by Amir10Amir - Tags: gradient, button */\nbutton {\n  --border-radius: 25px;\n  --border-width: 7px;\n  appearance: none;\n  position: relative;\n  padding: 1em 2em;\n  border: 0;\n  background-color: #212121;\n  font-family: \"Roboto\", Arial, \"Segoe UI\", sans-serif;\n  font-size: 18px;\n  font-weight: 500;\n  color: #ffff;\n  z-index: 2;\n}\n\nbutton::after {\n  --m-i: linear-gradient(#000, #000);\n  --m-o: content-box, padding-box;\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  padding: var(--border-width);\n  background-image: conic-gradient(\n\t\t#ff0080,\n\t\t#ff0080,\n\t\t#ff0080,\n\t\t#ff0080,\n\t\t#ff0080,\n\t\t#ff0080,\n\t\t#ff0080\n\t);\n  -webkit-mask-image: var(--m-i), var(--m-i);\n  mask-image: var(--m-i), var(--m-i);\n  -webkit-mask-origin: var(--m-o);\n  mask-origin: var(--m-o);\n  mask-clip: var(--m-o);\n  mask-composite: exclude;\n  -webkit-mask-composite: destination-out;\n  filter: hue-rotate(0);\n  animation: rotate-hue634 linear 500ms infinite;\n  animation-play-state: paused;\n  border-radius: 20px;\n  border-color: #000;\n}\n\nbutton:hover::after {\n  animation-play-state: running;\n  border-radius: 10px;\n}\n\n@keyframes rotate-hue634 {\n  to {\n    filter: hue-rotate(1turn);\n  }\n}\n\nbutton,\nbutton::after {\n  box-sizing: border-box;\n  border-radius: 20px;\n}\n\nbutton:active {\n  --border-width: 5px;\n}\n\n.bn {\n  padding: 0.9em 1.6em;\n  border: none;\n  outline: none;\n  color: #FFF;\n  font-family: inherit;\n  font-weight: 500;\n  font-size: 17px;\n  cursor: pointer;\n  position: relative;\n  z-index: 0;\n  border-radius: 32px;\n}\n\n.bn::after {\n  content: \"\";\n  z-index: -1;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: rgb(46, 46, 46);\n  left: 0;\n  top: 0;\n  border-radius: 10px;\n}\n\n.bn::before {\n  content: \"\";\n  background: linear-gradient(\n    45deg,\n    #07d888, #e40851, #2f00ff, #00ff37,\n      #ec0808, #2600ff, #0bd157, #2f00ff\n);\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  background-size: 600%;\n  z-index: -1;\n  width: calc(100% + 4px);\n  height: calc(100% + 4px);\n  filter: blur(8px);\n  animation: glowing345 20s linear infinite;\n  transition: opacity .3s ease-in-out;\n  border-radius: 20px;\n  opacity: 0;\n}\n\n@keyframes glowing345 {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n\n.bn:hover::before {\n  opacity: 1;\n}\n\n.bn:active:after {\n  background: transparent;\n}\n\n.bn:active {\n  color: #000;\n  font-weight: bold;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

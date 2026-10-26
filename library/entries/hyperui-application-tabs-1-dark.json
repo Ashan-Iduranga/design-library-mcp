@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-application-tabs-1-dark",
+  "title": "Tabs: Base (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/tabs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "tabs",
+    "hyperui",
+    "navigation",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/tabs/1-dark.html",
+  "code": "<div class=\"mx-auto max-w-3xl p-6\">\n<div class=\"-mb-px border-b border-gray-200 dark:border-gray-700\">\n<div class=\"flex gap-1\" role=\"tablist\">\n<button aria-selected=\"true\" class=\"border-b-2 border-blue-600 px-4 py-2 text-sm font-medium text-blue-600 transition-colors hover:text-blue-700 dark:hover:text-blue-500\" role=\"tab\">\n          Profile\n        </button>\n<button aria-selected=\"false\" class=\"border-b-2 border-transparent px-4 py-2 text-sm font-medium text-gray-600 transition-colors hover:text-gray-700 dark:text-gray-300 dark:hover:text-gray-200\" role=\"tab\">\n          Account\n        </button>\n<button aria-selected=\"false\" class=\"border-b-2 border-transparent px-4 py-2 text-sm font-medium text-gray-600 transition-colors hover:text-gray-700 dark:text-gray-300 dark:hover:text-gray-200\" role=\"tab\">\n          Notifications\n        </button>\n</div>\n</div>\n<div class=\"mt-4\" role=\"tabpanel\">\n<p class=\"text-gray-700 dark:text-gray-200\">\n        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt similique, quae hic dicta\n        quo facere facilis praesentium a sunt, est quia pariatur nam, modi aut minus iste odio\n        consectetur molestias iusto cupiditate ullam laborum veniam quos officia. Quos, temporibus\n        perspiciatis!\n      </p>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

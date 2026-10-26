@@ -1,0 +1,34 @@
+{
+  "id": "hyperui-neobrutalism-accordions-3",
+  "title": "Accordions: Grouped (neobrutalism)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/neobrutalism/accordions",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "neobrutalism",
+    "accordions",
+    "hyperui",
+    "accordion",
+    "faq",
+    "collapse"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/neobrutalism/accordions/3.html",
+  "code": "<div class=\"mx-auto max-w-3xl p-6\">\n<div class=\"divide-y-2 divide-black border-2 border-black shadow-[4px_4px_0_0] shadow-black\">\n<details class=\"group [&amp;_summary::-webkit-details-marker]:hidden\">\n<summary class=\"flex cursor-pointer items-center justify-between gap-4 bg-white px-4 py-3 font-medium text-gray-900 hover:bg-yellow-200 focus:bg-yellow-200 focus:outline-0\">\n<span class=\"font-semibold\">What are the basic features?</span>\n<svg aria-hidden=\"true\" class=\"size-5 shrink-0 group-open:-rotate-180\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19 9l-7 7-7-7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n</svg>\n</summary>\n<div class=\"border-t-2 border-black p-4\">\n<p class=\"text-black\">\n            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt similique, quae hic\n            dicta quo facere facilis praesentium a sunt, est quia pariatur nam, modi aut minus iste\n            odio consectetur molestias iusto cupiditate ullam laborum veniam quos officia. Quos,\n            temporibus perspiciatis!\n          </p>\n</div>\n</details>\n<details class=\"group [&amp;_summary::-webkit-details-marker]:hidden\">\n<summary class=\"flex cursor-pointer items-center justify-between gap-4 bg-white px-4 py-3 font-medium text-gray-900 hover:bg-yellow-200 focus:bg-yellow-200 focus:outline-0\">\n<span class=\"font-semibold\">How do I get started?</span>\n<svg aria-hidden=\"true\" class=\"size-5 shrink-0 group-open:-rotate-180\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19 9l-7 7-7-7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n</svg>\n</summary>\n<div class=\"border-t-2 border-black p-4\">\n<p class=\"text-black\">\n            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt similique, quae hic\n            dicta quo facere facilis praesentium a sunt, est quia pariatur nam, modi aut minus iste\n            odio consectetur molestias iusto cupiditate ullam laborum veniam quos officia. Quos,\n            temporibus perspiciatis!\n          </p>\n</div>\n</details>\n<details class=\"group [&amp;_summary::-webkit-details-marker]:hidden\">\n<summary class=\"flex cursor-pointer items-center justify-between gap-4 bg-white px-4 py-3 font-medium text-gray-900 hover:bg-yellow-200 focus:bg-yellow-200 focus:outline-0\">\n<span class=\"font-semibold\">What support options are available?</span>\n<svg aria-hidden=\"true\" class=\"size-5 shrink-0 group-open:-rotate-180\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19 9l-7 7-7-7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n</svg>\n</summary>\n<div class=\"border-t-2 border-black p-4\">\n<p class=\"text-black\">\n            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt similique, quae hic\n            dicta quo facere facilis praesentium a sunt, est quia pariatur nam, modi aut minus iste\n            odio consectetur molestias iusto cupiditate ullam laborum veniam quos officia. Quos,\n            temporibus perspiciatis!\n          </p>\n</div>\n</details>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

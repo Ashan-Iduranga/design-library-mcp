@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-codecite-fluffy-bear-28-5d16f6",
+  "title": "Button by Codecite (fluffy-bear-28)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Codecite/fluffy-bear-28",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "btn",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Codecite on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Codecite_fluffy-bear-28.html",
+  "code": "<button class=\"btn\"><span>Button</span></button>\n<style>\n/* From Uiverse.io by Codecite - Tags: button, hover, btn, hover effect */\n.btn {\n  border: 0 solid;\n  cursor: pointer;\n  font-family: system-ui;\n  font-size: 100%;\n  background: linear-gradient(90deg, blue, red);\n  border-radius: 999px;\n  font-weight: 900;\n  padding: 1.8rem 5rem;\n  position: relative;\n  text-transform: uppercase;\n}\n\n.btn span {\n  background: #1e293b;\n  border-radius: 999px;\n  color: #fff;\n  display: grid;\n  inset: 5px;\n  place-items: center;\n  position: absolute;\n  transition: background 0.3s;\n}\n\n.btn:hover span {\n  background: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

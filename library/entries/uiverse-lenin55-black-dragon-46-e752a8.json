@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-lenin55-black-dragon-46-e752a8",
+  "title": "Checkbox by lenin55 (black-dragon-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/lenin55/black-dragon-46",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "material-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By lenin55 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/lenin55_black-dragon-46.html",
+  "code": "<label class=\"cl-checkbox\">\n  <input checked=\"\" type=\"checkbox\">\n  <span></span>\n</label>\n<style>\n/* From Uiverse.io by lenin55 - Tags: material design, checkbox */\n.cl-checkbox {\n position: relative;\n display: inline-block;\n}\n\n/* Input */\n.cl-checkbox > input {\n appearance: none;\n -moz-appearance: none;\n -webkit-appearance: none;\n z-index: -1;\n position: absolute;\n left: -10px;\n top: -8px;\n display: block;\n margin: 0;\n border-radius: 50%;\n width: 40px;\n height: 40px;\n background-color: rgba(0, 0, 0, 0.6);\n box-shadow: none;\n outline: none;\n opacity: 0;\n transform: scale(1);\n pointer-events: none;\n transition: opacity 0.3s, transform 0.2s;\n}\n\n/* Span */\n.cl-checkbox > span {\n display: inline-block;\n width: 100%;\n cursor: pointer;\n}\n\n/* Box */\n.cl-checkbox > span::before {\n content: \"\";\n display: inline-block;\n box-sizing: border-box;\n margin: 3px 11px 3px 1px;\n border: solid 2px;\n /* Safari */\n border-color: rgba(0, 0, 0, 0.6);\n border-radius: 2px;\n width: 18px;\n height: 18px;\n vertical-align: top;\n transition: border-color 0.2s, background-color 0.2s;\n}\n\n/* Checkmark */\n.cl-checkbox > span::after {\n content: \"\";\n display: block;\n position: absolute;\n top: 3px;\n left: 1px;\n width: 10px;\n height: 5px;\n border: solid 2px transparent;\n border-right: none;\n border-top: none;\n transform: translate(3px, 4px) rotate(-45deg);\n}\n\n/* Checked, Indeterminate */\n.cl-checkbox > input:checked,\n.cl-checkbox > input:indeterminate {\n background-color: #018786;\n}\n\n.cl-checkbox > input:checked + span::before,\n.cl-checkbox > input:indeterminate + span::before {\n border-color: #018786;\n background-color: #018786;\n}\n\n.cl-checkbox > input:checked + span::after,\n.cl-checkbox > input:indeterminate + span::after {\n border-color: #fff;\n}\n\n.cl-checkbox > input:indeterminate + span::after {\n border-left: none;\n transform: translate(4px, 3px);\n}\n\n/* Hover, Focus */\n.cl-checkbox:hover > input {\n opacity: 0.04;\n}\n\n.cl-checkbox > input:focus {\n opacity: 0.12;\n}\n\n.cl-checkbox:hover > input:focus {\n opacity: 0.16;\n}\n\n/* Active */\n.cl-checkbox > input:active {\n opacity: 1;\n transform: scale(0);\n transition: transform 0s, opacity 0s;\n}\n\n.cl-checkbox > input:active + span::before {\n border-color: #85b8b7;\n}\n\n.cl-checkbox > input:checked:active + span::before {\n border-color: transparent;\n background-color: rgba(0, 0, 0, 0.6);\n}\n\n/* Disabled */\n.cl-checkbox > input:disabled {\n opacity: 0;\n}\n\n.cl-checkbox > input:disabled + span {\n color: rgba(0, 0, 0, 0.38);\n cursor: initial;\n}\n\n.cl-checkbox > input:disabled + span::before {\n border-color: currentColor;\n}\n\n.cl-checkbox > input:checked:disabled + span::before,\n.cl-checkbox > input:indeterminate:disabled + span::before {\n border-color: transparent;\n background-color: currentColor;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

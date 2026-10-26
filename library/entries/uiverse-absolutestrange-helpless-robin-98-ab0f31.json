@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-absolutestrange-helpless-robin-98-ab0f31",
+  "title": "Button by absoluteSTrange (helpless-robin-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/absoluteSTrange/helpless-robin-98",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By absoluteSTrange on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/absoluteSTrange_helpless-robin-98.html",
+  "code": "<div class=\"button\">\n    <div class=\"button-wrapper\">\n        <div class=\"text\">Download</div>\n        <span class=\"icon\">\n            For Free!\n        </span>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by absoluteSTrange - Tags: button */\n.button {\n  --width: 100px;\n  --height: 25px;\n  --button-color: #0059ff;\n  width: var(--width);\n  height: var(--height);\n  background: var(--button-color);\n  position: relative;\n  text-align: center;\n  border-radius: 30px;\n  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\n  text-decoration: solid;\n  transition: background box-shadow 0.3s;\n  -webkit-box-shadow: 4px 8px 19px -3px #0059ff;\n  box-shadow: 0px 0px 20px -3px #0059ff;\n  text-shadow: 0 0 .4em rgb(255, 255, 255);\n}\n\n.button::before {\n  position: absolute;\n  content: attr(data-tooltip);\n  background-color: var(--button-color);\n  font-size: 0.9rem;\n  color: #111;\n}\n\n.button::after {\n  position: absolute;\n  content: '';\n  width: 0;\n  height: 0;\n  border: 10px solid transparent;\n  border-top-color: var(--button-color);\n}\n\n.button::after,.button::before {\n  opacity: 0;\n  visibility: hidden;\n  transition: all 0.5s;\n}\n\n.text {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.button-wrapper,.text,.icon {\n  overflow: hidden;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  left: 0;\n  color: #fff;\n}\n\n.text {\n  top: 0\n}\n\n.text,.icon {\n  transition: top 0.45s;\n}\n\n.icon {\n  color: #fff;\n  top: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.button:hover {\n  background: #4586ff;\n  box-shadow: 0px 0px 20px -3px #4586ff;\n}\n\n.button:hover .text {\n  top: -100%;\n}\n\n.button:hover .icon {\n  top: 0;\n}\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

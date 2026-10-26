@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-floating-label-sizes",
+  "title": "Floating Label: Sizes (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/floating-label/#sizes",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "floating-label",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the small and default sizes of the floating label input fields from the following example.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/floating-label.md",
+  "code": "<div class=\"grid items-end gap-6 mb-6 md:grid-cols-3\">\n    <div class=\"relative\">\n        <input type=\"text\" id=\"small_filled\" class=\"block rounded-t-base px-2.5 pb-1.5 pt-4 w-full text-sm text-heading bg-neutral-secondary-medium border-0 border-b-2 border-default-medium appearance-none focus:outline-none focus:ring-0 focus:border-brand peer\" placeholder=\" \" />\n        <label for=\"small_filled\" class=\"absolute text-sm text-body duration-300 transform -translate-y-3 scale-75 top-3 z-10 origin-[0] start-2.5 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto\">Small filled</label>\n    </div>\n    <div class=\"relative\">\n        <input type=\"text\" id=\"small_outlined\" class=\"block px-2.5 pb-1.5 pt-3 w-full text-sm text-heading bg-transparent rounded-base border-1 border-default-medium appearance-none focus:outline-none focus:ring-0 focus:border-brand peer\" placeholder=\" \" />\n        <label for=\"small_outlined\" class=\"absolute text-sm text-body duration-300 transform -translate-y-3 scale-75 top-1 z-10 origin-[0] bg-neutral-primary px-2 peer-focus:px-2 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-1 peer-focus:scale-75 peer-focus:-translate-y-3 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto\">Small outlined</label>\n    </div>\n    <div class=\"relative z-0\">\n        <input type=\"text\" id=\"small_standard\" class=\"block w-full px-0 py-2 text-sm text-heading bg-transparent border-0 border-b-2 border-default-medium appearance-none focus:outline-none focus:ring-0 focus:border-brand peer\" placeholder=\" \" />\n        <label for=\"small_standard\" class=\"absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto\">Small standard</label>\n    </div>\n</div>\n<div class=\"grid items-end gap-6 md:grid-cols-3\">\n    <div class=\"relative\">\n        <input type=\"text\" id=\"default_filled\" class=\"block rounded-t-base px-2.5 pb-2.5 pt-5 w-full text-sm text-heading bg-neutral-secondary-medium border-0 border-b-2 border-default-medium appearance-none focus:outline-none focus:ring-0 focus:border-brand peer\" placeholder=\" \" />\n        <label for=\"default_filled\" class=\"absolute text-sm text-body duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] start-2.5 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto\">Default filled</label>\n    </div>\n    <div class=\"relative\">\n        <input type=\"text\" id=\"default_outlined\" class=\"block px-2.5 pb-2.5 pt-4 w-full text-sm text-heading bg-transparent rounded-base border-1 border-default-medium appearance-none focus:outline-none focus:ring-0 focus:border-brand peer\" placeholder=\" \" />\n        <label for=\"default_outlined\" class=\"absolute text-sm text-body duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-neutral-primary px-2 peer-focus:px-2 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto\">Default outlined</label>\n    </div>\n    <div class=\"relative z-0\">\n        <input type=\"text\" id=\"default_standard\" class=\"block py-2.5 px-0 w-full text-sm text-heading bg-transparent border-0 border-b-2 border-default-medium appearance-none focus:outline-none focus:ring-0 focus:border-brand peer\" placeholder=\" \" />\n        <label for=\"default_standard\" class=\"absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto\">Default standard</label>\n    </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

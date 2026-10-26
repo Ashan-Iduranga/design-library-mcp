@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-harsha2lucky-lovely-firefox-67-2c82d6",
+  "title": "Input by Harsha2lucky (lovely-firefox-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Harsha2lucky/lovely-firefox-67",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Harsha2lucky on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Harsha2lucky_lovely-firefox-67.html",
+  "code": "<form>\n\t<label for=\"search\">Search</label>\n\t<input required=\"\" pattern=\".*\\S.*\" type=\"search\" class=\"input\" id=\"search\">\n\t<span class=\"caret\"></span>\n</form>\n<style>\n/* From Uiverse.io by Harsha2lucky - Tags: input */\n.input {\n  color: black;\n  font: 1em/1.5 Hind, sans-serif;\n}\n\nform, .input, .caret {\n  margin: auto;\n}\n\nform {\n  position: relative;\n  width: 100%;\n  max-width: 17em;\n}\n\n.input, .caret {\n  display: block;\n  transition: all calc(1s * 0.5) linear;\n}\n\n.input {\n  background: transparent;\n  border-radius: 50%;\n  box-shadow: 0 0 0 0.25em inset;\n  caret-color: #255ff4;\n  width: 2em;\n  height: 2em;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n}\n\n.input:focus, .input:valid {\n  background: powderblue;\n  border-radius: 0.25em;\n  box-shadow: none;\n  padding: 0.75em 1em;\n  transition-duration: calc(1s * 0.25);\n  transition-delay: calc(1s * 0.25);\n  width: 100%;\n  height: 3em;\n}\n\n.input:focus {\n  animation: showCaret 1s steps(1);\n  outline: transparent;\n}\n\n.input:focus + .caret, .input:valid + .caret {\n  animation: handleToCaret 1s linear;\n  background: transparent;\n  width: 1px;\n  height: 1.5em;\n  transform: translate(0,-1em) rotate(-180deg) translate(7.5em,-0.25em);\n}\n\n.input::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\nlabel {\n  color: #e3e4e8;\n  overflow: hidden;\n  position: absolute;\n  width: 0;\n  height: 0;\n}\n\n.caret {\n  background: black;\n  border-radius: 0 0 0.125em 0.125em;\n  margin-bottom: -0.6em;\n  width: 0.25em;\n  height: 1em;\n  transform: translate(0,-1em) rotate(-45deg) translate(0,0.875em);\n  transform-origin: 50% 0;\n}\n\n/* Animations */\n@keyframes showCaret {\n  from {\n    caret-color: transparent;\n  }\n\n  to {\n    caret-color: #255ff4;\n  }\n}\n\n@keyframes handleToCaret {\n  from {\n    background: currentColor;\n    width: 0.25em;\n    height: 1em;\n    transform: translate(0,-1em) rotate(-45deg) translate(0,0.875em);\n  }\n\n  25% {\n    background: currentColor;\n    width: 0.25em;\n    height: 1em;\n    transform: translate(0,-1em) rotate(-180deg) translate(0,0.875em);\n  }\n\n  50%, 62.5% {\n    background: #255ff4;\n    width: 1px;\n    height: 1.5em;\n    transform: translate(0,-1em) rotate(-180deg) translate(7.5em,2.5em);\n  }\n\n  75%, 99% {\n    background: #255ff4;\n    width: 1px;\n    height: 1.5em;\n    transform: translate(0,-1em) rotate(-180deg) translate(7.5em,-0.25em);\n  }\n\n  87.5% {\n    background: #255ff4;\n    width: 1px;\n    height: 1.5em;\n    transform: translate(0,-1em) rotate(-180deg) translate(7.5em,0.125em);\n  }\n\n  to {\n    background: transparent;\n    width: 1px;\n    height: 1.5em;\n    transform: translate(0,-1em) rotate(-180deg) translate(7.5em,-0.25em);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

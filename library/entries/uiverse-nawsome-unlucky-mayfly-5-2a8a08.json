@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-nawsome-unlucky-mayfly-5-2a8a08",
+  "title": "Button by Nawsome (unlucky-mayfly-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/unlucky-mayfly-5",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Nawsome_unlucky-mayfly-5.html",
+  "code": "<button class=\"continue-application\">\n    <div>\n        <div class=\"pencil\"></div>\n        <div class=\"folder\">\n            <div class=\"top\">\n                <svg viewBox=\"0 0 24 27\">\n                    <path d=\"M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z\"></path>\n                </svg>\n            </div>\n            <div class=\"paper\"></div>\n        </div>\n    </div>\n    Continue Application\n</button>\n<style>\n/* From Uiverse.io by Nawsome - Tags: icon, animation, button */\n.continue-application {\n  --color: #fff;\n  --background: #404660;\n  --background-hover: #3A4059;\n  --background-left: #2B3044;\n  --folder: #F3E9CB;\n  --folder-inner: #BEB393;\n  --paper: #FFFFFF;\n  --paper-lines: #BBC1E1;\n  --paper-behind: #E1E6F9;\n  --pencil-cap: #fff;\n  --pencil-top: #275EFE;\n  --pencil-middle: #fff;\n  --pencil-bottom: #5C86FF;\n  --shadow: rgba(13, 15, 25, .2);\n  border: none;\n  outline: none;\n  cursor: pointer;\n  position: relative;\n  border-radius: 5px;\n  font-size: 14px;\n  font-weight: 500;\n  line-height: 19px;\n  -webkit-appearance: none;\n  -webkit-tap-highlight-color: transparent;\n  padding: 17px 29px 17px 69px;\n  transition: background 0.3s;\n  color: var(--color);\n  background: var(--bg, var(--background));\n}\n\n.continue-application > div {\n  top: 0;\n  left: 0;\n  bottom: 0;\n  width: 53px;\n  position: absolute;\n  overflow: hidden;\n  border-radius: 5px 0 0 5px;\n  background: var(--background-left);\n}\n\n.continue-application > div .folder {\n  width: 23px;\n  height: 27px;\n  position: absolute;\n  left: 15px;\n  top: 13px;\n}\n\n.continue-application > div .folder .top {\n  left: 0;\n  top: 0;\n  z-index: 2;\n  position: absolute;\n  transform: translateX(var(--fx, 0));\n  transition: transform 0.4s ease var(--fd, 0.3s);\n}\n\n.continue-application > div .folder .top svg {\n  width: 24px;\n  height: 27px;\n  display: block;\n  fill: var(--folder);\n  transform-origin: 0 50%;\n  transition: transform 0.3s ease var(--fds, 0.45s);\n  transform: perspective(120px) rotateY(var(--fr, 0deg));\n}\n\n.continue-application > div .folder:before, .continue-application > div .folder:after,\n.continue-application > div .folder .paper {\n  content: \"\";\n  position: absolute;\n  left: var(--l, 0);\n  top: var(--t, 0);\n  width: var(--w, 100%);\n  height: var(--h, 100%);\n  border-radius: 1px;\n  background: var(--b, var(--folder-inner));\n}\n\n.continue-application > div .folder:before {\n  box-shadow: 0 1.5px 3px var(--shadow), 0 2.5px 5px var(--shadow), 0 3.5px 7px var(--shadow);\n  transform: translateX(var(--fx, 0));\n  transition: transform 0.4s ease var(--fd, 0.3s);\n}\n\n.continue-application > div .folder:after,\n.continue-application > div .folder .paper {\n  --l: 1px;\n  --t: 1px;\n  --w: 21px;\n  --h: 25px;\n  --b: var(--paper-behind);\n}\n\n.continue-application > div .folder:after {\n  transform: translate(var(--pbx, 0), var(--pby, 0));\n  transition: transform 0.4s ease var(--pbd, 0s);\n}\n\n.continue-application > div .folder .paper {\n  z-index: 1;\n  --b: var(--paper);\n}\n\n.continue-application > div .folder .paper:before, .continue-application > div .folder .paper:after {\n  content: \"\";\n  width: var(--wp, 14px);\n  height: 2px;\n  border-radius: 1px;\n  transform: scaleY(0.5);\n  left: 3px;\n  top: var(--tp, 3px);\n  position: absolute;\n  background: var(--paper-lines);\n  box-shadow: 0 12px 0 0 var(--paper-lines), 0 24px 0 0 var(--paper-lines);\n}\n\n.continue-application > div .folder .paper:after {\n  --tp: 6px;\n  --wp: 10px;\n}\n\n.continue-application > div .pencil {\n  height: 2px;\n  width: 3px;\n  border-radius: 1px 1px 0 0;\n  top: 8px;\n  left: 105%;\n  position: absolute;\n  z-index: 3;\n  transform-origin: 50% 19px;\n  background: var(--pencil-cap);\n  transform: translateX(var(--pex, 0)) rotate(35deg);\n  transition: transform 0.4s ease var(--pbd, 0s);\n}\n\n.continue-application > div .pencil:before, .continue-application > div .pencil:after {\n  content: \"\";\n  position: absolute;\n  display: block;\n  background: var(--b, linear-gradient(var(--pencil-top) 55%, var(--pencil-middle) 55.1%, var(--pencil-middle) 60%, var(--pencil-bottom) 60.1%));\n  width: var(--w, 5px);\n  height: var(--h, 20px);\n  border-radius: var(--br, 2px 2px 0 0);\n  top: var(--t, 2px);\n  left: var(--l, -1px);\n}\n\n.continue-application > div .pencil:before {\n  -webkit-clip-path: polygon(0 5%, 5px 5%, 5px 17px, 50% 20px, 0 17px);\n  clip-path: polygon(0 5%, 5px 5%, 5px 17px, 50% 20px, 0 17px);\n}\n\n.continue-application > div .pencil:after {\n  --b: none;\n  --w: 3px;\n  --h: 6px;\n  --br: 0 2px 1px 0;\n  --t: 3px;\n  --l: 3px;\n  border-top: 1px solid var(--pencil-top);\n  border-right: 1px solid var(--pencil-top);\n}\n\n.continue-application:before, .continue-application:after {\n  content: \"\";\n  position: absolute;\n  width: 10px;\n  height: 2px;\n  border-radius: 1px;\n  background: var(--color);\n  transform-origin: 9px 1px;\n  transform: translateX(var(--cx, 0)) scale(0.5) rotate(var(--r, -45deg));\n  top: 26px;\n  right: 16px;\n  transition: transform 0.3s;\n}\n\n.continue-application:after {\n  --r: 45deg;\n}\n\n.continue-application:hover {\n  --cx: 2px;\n  --bg: var(--background-hover);\n  --fx: -40px;\n  --fr: -60deg;\n  --fd: .15s;\n  --fds: 0s;\n  --pbx: 3px;\n  --pby: -3px;\n  --pbd: .15s;\n  --pex: -24px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

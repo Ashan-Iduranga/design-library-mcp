@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-marketing-cards-4",
+  "title": "Cards: Bordered with Content on Hover",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/cards",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "marketing",
+    "cards",
+    "hyperui",
+    "profile",
+    "post"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/cards/4.html",
+  "code": "<div class=\"mx-auto max-w-md p-6\">\n<a class=\"group relative block h-64 sm:h-80 lg:h-96\" href=\"#\">\n<span class=\"absolute inset-0 border-2 border-dashed border-black\"></span>\n<div class=\"relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2\">\n<div class=\"px-4 pb-4 transition-opacity group-hover:absolute group-hover:opacity-0 sm:px-6 sm:pb-4 lg:px-8 lg:pb-8\">\n<svg aria-hidden=\"true\" class=\"size-10 sm:size-12\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n</svg>\n<h2 class=\"mt-4 text-xl font-medium sm:text-2xl\">Go around the world</h2>\n</div>\n<div class=\"absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8\">\n<h3 class=\"mt-4 text-xl font-medium sm:text-2xl\">Go around the world</h3>\n<p class=\"mt-4 text-sm sm:text-base\">\n            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, praesentium\n            voluptatem omnis atque culpa repellendus.\n          </p>\n<p class=\"mt-8 font-bold\">Read more</p>\n</div>\n</div>\n</a>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

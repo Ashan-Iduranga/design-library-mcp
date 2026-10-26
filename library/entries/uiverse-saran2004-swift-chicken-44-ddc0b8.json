@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-saran2004-swift-chicken-44-ddc0b8",
+  "title": "Input by SARAN2004 (swift-chicken-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SARAN2004/swift-chicken-44",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "active",
+    "click"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SARAN2004 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/SARAN2004_swift-chicken-44.html",
+  "code": "<div class=\"inputs\">\n  <input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Enter Text\" required=\"\">\n</div>\n  \n\n<style>\n/* From Uiverse.io by SARAN2004 - Tags: active, input, click */\n.input {\n  max-width: 190px;\n  height: 45px;\n  width: 100%;\n  outline: none;\n  font-size: 16px;\n  border-radius: 5px;\n  padding-left: 15px;\n  border: 1px solid #ccc;\n  border-bottom-width: 2px;\n  transition: all 0.3s ease;\n  position: relative;\n}\n\n.input:valid {\n  border-color: #00ff2a;\n  color: #00ff2a;\n  box-shadow: 2px 2px 8px 1px #00ff2a;\n}\n\n.input:invalid {\n  border-color: #ff0000;\n  color: #ff0000;\n  box-shadow: 2px 2px 8px 1px #ff0000;\n  /* translate: -8px 8px 0px 0px; */\n}\n\n.text {\n  margin-top: 10px;\n  color: black;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

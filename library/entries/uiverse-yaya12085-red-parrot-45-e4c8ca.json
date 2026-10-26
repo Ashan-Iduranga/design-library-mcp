@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-yaya12085-red-parrot-45-e4c8ca",
+  "title": "Input by Yaya12085 (red-parrot-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/red-parrot-45",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "email"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Yaya12085_red-parrot-45.html",
+  "code": "<div class=\"input-container\">\n    <input placeholder=\"email\" type=\"text\" class=\"input\">\n    <span>@gmail.com</span>\n</div>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: email, input */\n.input-container {\n  position: relative;\n  display: flex;\n  width: 100%;\n  max-width: 290px;\n}\n\n.input-container > span,\n.input-container .input {\n  white-space: nowrap;\n  display: block;\n}\n\n.input-container > span,\n.input-container .input:first-child {\n  border-radius: 6px 0 0 6px;\n}\n\n.input-container > span,\n.input-container .input {\n  border-radius: 0 6px 6px 0;\n}\n\n.input-container > span,\n.input-container .input {\n  margin-left: -1px;\n}\n\n.input-container .input {\n  position: relative;\n  z-index: 1;\n  flex: 1 1 auto;\n  width: 1%;\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\n.input-container span {\n  text-align: center;\n  padding: 8px 12px;\n  font-size: 14px;\n  line-height: 25px;\n  color: #6b7385;\n  background: #d4def5;\n  border: 1px solid #CDD9ED;\n  font-weight: bold;\n  transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;\n}\n\n.input-container:focus-within > span {\n  color: #fff;\n  background-color: #148cd1;\n  border-color: #148cd1;\n}\n\n.input {\n  display: block;\n  width: 100%;\n  padding: 8px 16px;\n  line-height: 25px;\n  font-size: 14px;\n  font-weight: 500;\n  font-family: inherit;\n  border-radius: 6px;\n  -webkit-appearance: none;\n  color: #99A3BA;\n  border: 1px solid  #CDD9ED;\n  background: #fff;\n  transition: border 0.3s ease;\n}\n\n.input::placeholder {\n  color: #CBD1DC;\n}\n\n.input:focus {\n  outline: none;\n  border-color: #148cd1;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

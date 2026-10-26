@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-clawhack1-loud-cat-92-557a30",
+  "title": "Card by ClawHack1 (loud-cat-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ClawHack1/loud-cat-92",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "login"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ClawHack1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/ClawHack1_loud-cat-92.html",
+  "code": "<div class=\"login-card\">\n  <div class=\"card-header\">\n    <h1>Login</h1>\n  </div>\n  <div class=\"card-body\">\n    <form>\n      <div class=\"form-group\">\n        <label for=\"username\">Username</label>\n        <input type=\"text\" id=\"username\" name=\"username\" required=\"\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"password\">Password</label>\n        <input type=\"password\" id=\"password\" name=\"password\" required=\"\">\n      </div>\n      <div class=\"form-group\">\n        <button type=\"submit\" class=\"login-button\">Login</button>\n      </div>\n    </form>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by ClawHack1 - Tags: login, card */\n.login-card {\n  background-color: #f8f8f8;\n  border-radius: 10px;\n  box-sizing: border-box;\n  padding: 20px;\n  max-width: 400px;\n  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);\n}\n\n.card-header {\n  text-align: center;\n  margin-bottom: 20px;\n}\n\n.card-header h1 {\n  font-size: 2em;\n  color: #333;\n  text-shadow: 1px 1px #ddd;\n}\n\n.form-group {\n  margin-bottom: 10px;\n}\n\n.form-group label {\n  display: block;\n  font-size: 1.2em;\n  color: #555;\n  margin-bottom: 10px;\n}\n\ninput[type=\"text\"],\ninput[type=\"email\"],\ninput[type=\"password\"] {\n  box-sizing: border-box;\n  padding: 10px;\n  border-radius: 5px;\n  border: none;\n  background-color: #f0f0f0;\n  font-size: 1.2em;\n  color: #555;\n  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);\n  transition: box-shadow 0.3s ease;\n}\n\ninput[type=\"text\"]:focus,\ninput[type=\"email\"]:focus,\ninput[type=\"password\"]:focus {\n  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);\n  outline: none;\n}\n\ninput[type=\"submit\"] {\n  background-color: #007bff;\n  border: none;\n  border-radius: 5px;\n  color: #fff;\n  cursor: pointer;\n  font-size: 1.2em;\n  padding: 10px;\n  transition: background-color 0.3s ease;\n}\n\ninput[type=\"submit\"]:hover {\n  background-color: #0069d9;\n}\n\n.login-button {\n  background-color: #007bff;\n  border: none;\n  border-radius: 5px;\n  color: #fff;\n  cursor: pointer;\n  font-size: 1.2em;\n  padding: 10px;\n  width: 100%;\n  transition: background-color 0.3s ease;\n  transition: 0.25s;\n}\n\n.login-button:hover {\n  background-color: #0069d9e7;\n  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,105,217,1);\n  -moz-box-shadow: 0px 0px 30px 0px rgba(0,105,217,1);\n  box-shadow: 0px 0px 30px 0px rgba(0,105,217,1);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

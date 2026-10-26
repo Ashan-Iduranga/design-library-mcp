@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-list-group-features-list-group",
+  "title": "List Group: Features list group (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/list-group/#features-list-group",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "list-group",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a list of features with icons in a card component.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/list-group.md",
+  "code": "<div class=\"w-72 bg-neutral-primary-soft border border-default rounded-base shadow-xs\">\n    <ul role=\"list\" class=\"space-y-4 p-6\">\n        <li class=\"flex items-center\">\n            <svg class=\"w-5 h-5 shrink-0 text-fg-brand me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n            <span class=\"text-body\">2 team members</span>\n        </li>\n        <li class=\"flex items-center\">\n            <svg class=\"w-5 h-5 shrink-0 text-fg-brand me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n            <span class=\"text-body\">20GB Cloud storage</span>\n        </li>\n        <li class=\"flex items-center\">\n            <svg class=\"w-5 h-5 shrink-0 text-fg-brand me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n            <span class=\"text-body\">Integration help</span>\n        </li>\n        <li class=\"flex items-center line-through decoration-body\">\n            <svg class=\"w-5 h-5 shrink-0 text-fg-brand me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n            <span class=\"text-body\">Sketch Files</span>\n        </li>\n        <li class=\"flex items-center line-through decoration-body\">\n            <svg class=\"w-5 h-5 shrink-0 text-fg-brand me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n            <span class=\"text-body\">API Access</span>\n        </li>\n        <li class=\"flex items-center line-through decoration-body\">\n            <svg class=\"w-5 h-5 shrink-0 text-fg-brand me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n            <span class=\"text-body\">Complete documentation</span>\n        </li>\n        <li class=\"flex items-center line-through decoration-body\">\n            <svg class=\"w-5 h-5 shrink-0 text-fg-brand me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n            <span class=\"text-body\">24×7 phone support</span>\n        </li>\n    </ul>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

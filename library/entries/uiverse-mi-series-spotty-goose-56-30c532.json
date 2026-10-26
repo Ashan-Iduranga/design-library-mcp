@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-mi-series-spotty-goose-56-30c532",
+  "title": "Form by mi-series (spotty-goose-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mi-series/spotty-goose-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "simple",
+    "material-design",
+    "neumorphism",
+    "purple",
+    "minimalist",
+    "brutalism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mi-series on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/mi-series_spotty-goose-56.html",
+  "code": "<div class=\"container\">\n    <div class=\"form_area\">\n        <p class=\"title\">SIGN UP</p>\n        <form action=\"\">\n            <div class=\"form_group\">\n                <label class=\"sub_title\" for=\"name\">Name</label>\n                <input placeholder=\"Enter your full name\" class=\"form_style\" type=\"text\">\n            </div>\n            <div class=\"form_group\">\n                <label class=\"sub_title\" for=\"email\">Email</label>\n                <input placeholder=\"Enter your email\" id=\"email\" class=\"form_style\" type=\"email\">\n            </div>\n            <div class=\"form_group\">\n                <label class=\"sub_title\" for=\"password\">Password</label>\n                <input placeholder=\"Enter your password\" id=\"password\" class=\"form_style\" type=\"password\">\n            </div>\n            <div>\n                <button class=\"btn\">SIGN UP</button>\n                <p>Have an Account? <a class=\"link\" href=\"\">Login Here!</a></p><a class=\"link\" href=\"\">\n            </a></div><a class=\"link\" href=\"\">\n        \n    </a></form></div><a class=\"link\" href=\"\">\n</a></div>\n<style>\n/* From Uiverse.io by mi-series - Tags: simple, material design, neumorphism, purple, minimalist, form, brutalism */\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  text-align: center;\n}\n\n.form_area {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  background-color: #EDDCD9;\n  height: auto;\n  width: auto;\n  border: 2px solid #264143;\n  border-radius: 20px;\n  box-shadow: 3px 4px 0px 1px #E99F4C;\n}\n\n.title {\n  color: #264143;\n  font-weight: 900;\n  font-size: 1.5em;\n  margin-top: 20px;\n}\n\n.sub_title {\n  font-weight: 600;\n  margin: 5px 0;\n}\n\n.form_group {\n  display: flex;\n  flex-direction: column;\n  align-items: baseline;\n  margin: 10px;\n}\n\n.form_style {\n  outline: none;\n  border: 2px solid #264143;\n  box-shadow: 3px 4px 0px 1px #E99F4C;\n  width: 290px;\n  padding: 12px 10px;\n  border-radius: 4px;\n  font-size: 15px;\n}\n\n.form_style:focus, .btn:focus {\n  transform: translateY(4px);\n  box-shadow: 1px 2px 0px 0px #E99F4C;\n}\n\n.btn {\n  padding: 15px;\n  margin: 25px 0px;\n  width: 290px;\n  font-size: 15px;\n  background: #DE5499;\n  border-radius: 10px;\n  font-weight: 800;\n  box-shadow: 3px 3px 0px 0px #E99F4C;\n}\n\n.btn:hover {\n  opacity: .9;\n}\n\n.link {\n  font-weight: 800;\n  color: #264143;\n  padding: 5px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

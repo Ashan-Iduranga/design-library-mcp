@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-gautammsharma-funny-fly-33-e623d7",
+  "title": "Button by Gautammsharma (funny-fly-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Gautammsharma/funny-fly-33",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Gautammsharma on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Gautammsharma_funny-fly-33.html",
+  "code": "<button class=\"comic-button\">Click me!</button>\n\n<style>\n/* From Uiverse.io by Gautammsharma - Tags: button */\n.comic-button {\n  background-color: #ffed4b;\n  border: none;\n  color: #000;\n  font-size: 1.2rem;\n  font-weight: bold;\n  padding: 0.5rem 1rem;\n  text-transform: uppercase;\n  text-shadow: 1px 1px 0 #fff;\n  box-shadow: 4px 4px 0 #000;\n  position: relative;\n  overflow: hidden;\n  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;\n}\n\n.comic-button:before {\n  content: \"\";\n  position: absolute;\n  top: -20%;\n  left: -20%;\n  width: 150%;\n  height: 150%;\n  background-color: rgba(0,0,0,0.2);\n  transform: rotate(45deg);\n  z-index: -1;\n  opacity: 0;\n  transition: opacity 0.2s ease-in-out;\n}\n\n.comic-button:hover {\n  transform: translate(2px, 2px);\n  box-shadow: 6px 6px 0 #000;\n}\n\n.comic-button:hover:before {\n  opacity: 1;\n}\n\n.comic-button:active {\n  transform: translate(0px, 0px);\n  box-shadow: 4px 4px 0 #000;\n}\n\n.comic-button:active:before {\n  opacity: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

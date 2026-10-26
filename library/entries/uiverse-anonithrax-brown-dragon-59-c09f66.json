@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-anonithrax-brown-dragon-59-c09f66",
+  "title": "Toggle by anonithrax (brown-dragon-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/anonithrax/brown-dragon-59",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "theme-switch",
+    "toggle-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By anonithrax on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/anonithrax_brown-dragon-59.html",
+  "code": "<div class=\"switch\">\n  <input type=\"checkbox\" id=\"toggle-checkbox\">\n  <label for=\"toggle-checkbox\"></label>\n</div>\n\n<style>\n/* From Uiverse.io by anonithrax - Tags: switch, theme-switch, toggle switch */\n/* The switch - the box around the slider */\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  display: none;\n}\n\n/* The slider */\n.switch label {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: .3s;\n}\n\n.switch label::before {\n  position: absolute;\n  content: \"\";\n  height: 30px;\n  width: 30px;\n  left: 2px;\n  bottom: 2px;\n  background-color: white;\n  transition: .3s;\n}\n\n.switch input:checked + label {\n  background-color: #4c71f2;\n}\n\n.switch input:checked + label::before {\n  transform: translateX(26px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

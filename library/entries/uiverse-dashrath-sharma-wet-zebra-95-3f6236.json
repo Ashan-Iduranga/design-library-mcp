@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-dashrath-sharma-wet-zebra-95-3f6236",
+  "title": "Button by Dashrath-Sharma (wet-zebra-95)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Dashrath-Sharma/wet-zebra-95",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "glow",
+    "code",
+    "border",
+    "box"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Dashrath-Sharma on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Dashrath-Sharma_wet-zebra-95.html",
+  "code": "<button class=\"border-el-btn\">\n  Button\n  <span class=\"b1\"></span>\n  <span class=\"b2\"></span>\n  <span class=\"b3\"></span>\n  <span class=\"b4\"></span>\n</button>\n<style>\n/* From Uiverse.io by Dashrath-Sharma - Tags: button, hover, glow, code, border, box */\nbutton {\n  color: red;\n  outline: none;\n  border: none;\n  font-size: 17px;\n  padding: 1em 2em;\n  position: relative;\n  background: none;\n  cursor: pointer;\n}\n\nbutton:active {\n  transform: scale(.98);\n  box-shadow: .1px .1px 2px red;\n}\n\nbutton span {\n  position: absolute;\n  background: red;\n  transition: .5s;\n  box-shadow: 1px 1px 20px red;\n}\n\nbutton span:nth-child(1) {\n  top: 0;\n  left: 0;\n  width: 3px;\n  height: 30%;\n}\n\nbutton:hover span:nth-child(1) {\n  height: 100%;\n}\n\nbutton span:nth-child(2) {\n  top: 0;\n  left: 0;\n  width: 15%;\n  height: 3px;\n}\n\nbutton:hover span:nth-child(2) {\n  width: 100%;\n}\n\nbutton span:nth-child(3) {\n  bottom: 0;\n  right: 0;\n  width: 3px;\n  height: 30%;\n}\n\nbutton:hover span:nth-child(3) {\n  height: 100%;\n}\n\nbutton span:nth-child(4) {\n  bottom: 0;\n  right: 0;\n  width: 15%;\n  height: 3px;\n}\n\nbutton:hover span:nth-child(4) {\n  width: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

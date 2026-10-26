@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-fadhilmagass-proud-mule-71-96b146",
+  "title": "Input by Fadhilmagass (proud-mule-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Fadhilmagass/proud-mule-71",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "minimalist",
+    "gradient",
+    "search"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Fadhilmagass on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Fadhilmagass_proud-mule-71.html",
+  "code": "<div id=\"container\" class=\"custom-container\">\n  <div id=\"searchBar\" class=\"custom-search-bar dark-mode\">\n    <svg\n      height=\"24\"\n      width=\"24\"\n      stroke=\"currentColor\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      class=\"custom-search-icon dark-mode\"\n    >\n      <path\n        d=\"M11 19a8 8 0 100-16 8 8 0 000 16zm8-8l5 5\"\n        stroke-width=\"2\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n    <input\n      placeholder=\"Search...\"\n      class=\"custom-search-input dark-mode\"\n      type=\"text\"\n    />\n    <svg\n      height=\"24\"\n      width=\"24\"\n      stroke=\"currentColor\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      class=\"custom-filter-icon dark-mode\"\n    >\n      <path\n        d=\"M3 4a1 1 0 011-1h16a1 1 0 011 1v2a1 1 0 01-.293.707l-6.414 6.414A2 2 0 0013 14.828V17.586a1 1 0 01-.293.707l-2 2A1 1 0 019 19.586V14.828a2 2 0 00-.293-1.414L2.293 6.707A1 1 0 012 6V4z\"\n        stroke-width=\"2\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Fadhilmagass  - Tags: minimalist, gradient, input, search, input, minimalist, gradient, search */\n.custom-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n  min-height: 100%;\n  padding: 20px;\n  margin: 0;\n  transition: background-color 0.3s;\n}\n\n.custom-container.dark-mode {\n  background-color: black;\n}\n\n.custom-container.light-mode {\n  background-color: white;\n}\n\n.custom-search-bar {\n  width: 100%;\n  max-width: 600px;\n  border-radius: 50px;\n  padding: 10px 20px;\n  display: flex;\n  align-items: center;\n  border: 2px solid;\n  animation: rgb-outline 5s linear infinite;\n  transition: background 0.3s, box-shadow 0.3s;\n}\n\n@keyframes rgb-outline {\n  0% {\n    border-color: rgb(255, 0, 0);\n  }\n\n  33% {\n    border-color: rgb(0, 255, 0);\n  }\n\n  66% {\n    border-color: rgb(0, 0, 255);\n  }\n\n  100% {\n    border-color: rgb(255, 0, 0);\n  }\n}\n\n.custom-search-bar.dark-mode {\n  background: linear-gradient(145deg, #333, #000);\n  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);\n}\n\n.custom-search-bar.light-mode {\n  background: linear-gradient(145deg, #ddd, #fff);\n  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);\n}\n\n.custom-search-input {\n  background: transparent;\n  border: none;\n  outline: none;\n  width: 100%;\n  padding: 10px;\n  font-size: 16px;\n  transition: color 0.3s;\n}\n\n.custom-search-input.dark-mode {\n  color: white;\n}\n\n.custom-search-input.light-mode {\n  color: black;\n}\n\n.custom-search-input::placeholder {\n  transition: color 0.3s;\n}\n\n.custom-search-input::placeholder.dark-mode {\n  color: #888;\n}\n\n.custom-search-input::placeholder.light-mode {\n  color: #aaa;\n}\n\n.custom-search-icon,\n.custom-filter-icon {\n  margin: 0 10px;\n  transition: color 0.3s;\n}\n\n.custom-search-icon.dark-mode,\n.custom-filter-icon.dark-mode {\n  color: white;\n}\n\n.custom-search-icon.light-mode,\n.custom-filter-icon.light-mode {\n  color: black;\n}\n\n.toggle-theme {\n  position: absolute;\n  top: 20px;\n  right: 20px;\n  padding: 10px;\n  border: none;\n  background-color: gray;\n  color: white;\n  border-radius: 5px;\n  cursor: pointer;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-nawsome-dry-treefrog-99-3640fe",
+  "title": "Toggle by Nawsome (dry-treefrog-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/dry-treefrog-99",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Nawsome_dry-treefrog-99.html",
+  "code": "<input type=\"checkbox\" class=\"plus-minus\">\n<style>\n/* From Uiverse.io by Nawsome - Tags: switch */\n.plus-minus {\n  --primary: #1E2235;\n  --secondary: #FAFBFF;\n  --duration: .5s;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  -webkit-tap-highlight-color: transparent;\n  -webkit-mask-image: -webkit-radial-gradient(white, black);\n  outline: none;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transform-style: preserve-3d;\n  perspective: 240px;\n  border-radius: 50%;\n  width: 36px;\n  height: 36px;\n  border: 4px solid var(--primary);\n  background-size: 300% 300%;\n  transition: transform 0.3s;\n  transform: scale(var(--scale, 1)) translateZ(0);\n  -webkit-animation: var(--name, unchecked) var(--duration) ease forwards;\n  animation: var(--name, unchecked) var(--duration) ease forwards;\n}\n\n.plus-minus:before, .plus-minus:after {\n  content: \"\";\n  position: absolute;\n  width: 16px;\n  height: var(--height, 16px);\n  left: 6px;\n  top: var(--top, 6px);\n  background: var(--background, var(--primary));\n  -webkit-animation: var(--name-icon-b, var(--name-icon, unchecked-icon)) var(--duration) ease forwards;\n  animation: var(--name-icon-b, var(--name-icon, unchecked-icon)) var(--duration) ease forwards;\n}\n\n.plus-minus:before {\n  -webkit-clip-path: polygon(0 6px, 6px 6px, 6px 0, 10px 0, 10px 6px, 16px 6px, 16px 10px, 10px 10px, 10px 16px, 6px 16px, 6px 10px, 0 10px);\n  clip-path: polygon(0 6px, 6px 6px, 6px 0, 10px 0, 10px 6px, 16px 6px, 16px 10px, 10px 10px, 10px 16px, 6px 16px, 6px 10px, 0 10px);\n}\n\n.plus-minus:after {\n  --height: 4px;\n  --top: 12px;\n  --background: var(--secondary);\n  --name-icon-b: var(--name-icon-a, checked-icon);\n}\n\n.plus-minus:active {\n  --scale: .95;\n}\n\n.plus-minus:checked {\n  --name: checked;\n  --name-icon-b: checked-icon;\n  --name-icon-a: unchecked-icon;\n}\n\n@keyframes checked-icon {\n  from {\n    transform: translateZ(12px);\n  }\n\n  to {\n    transform: translateX(16px) rotateY(90deg) translateZ(12px);\n  }\n}\n\n@keyframes unchecked-icon {\n  from {\n    transform: translateX(-16px) rotateY(-90deg) translateZ(12px);\n  }\n\n  to {\n    transform: translateZ(12px);\n  }\n}\n\n@keyframes checked {\n  from {\n    background-image: radial-gradient(ellipse at center, var(--primary) 0%, var(--primary) 25%, var(--secondary) 25.1%, var(--secondary) 100%);\n    background-position: 100% 50%;\n  }\n\n  to {\n    background-image: radial-gradient(ellipse at center, var(--primary) 0%, var(--primary) 25%, var(--secondary) 25.1%, var(--secondary) 100%);\n    background-position: 50% 50%;\n  }\n}\n\n@keyframes unchecked {\n  from {\n    background-image: radial-gradient(ellipse at center, var(--secondary) 0%, var(--secondary) 25%, var(--primary) 25.1%, var(--primary) 100%);\n    background-position: 100% 50%;\n  }\n\n  to {\n    background-image: radial-gradient(ellipse at center, var(--secondary) 0%, var(--secondary) 25%, var(--primary) 25.1%, var(--primary) 100%);\n    background-position: 50% 50%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

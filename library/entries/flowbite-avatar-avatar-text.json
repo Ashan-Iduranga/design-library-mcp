@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-avatar-avatar-text",
+  "title": "Avatar: Avatar text (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/avatar/#avatar-text",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "avatar",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This example can be used if you want to show additional information in the form of text elements such as the user's name and join date.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/avatar.md",
+  "code": "<div class=\"flex items-center gap-2.5\">\n    <img class=\"w-10 h-10 rounded-full\" src=\"/docs/images/people/profile-picture-5.jpg\" alt=\"\">\n    <div class=\"font-medium text-heading\">\n        <div>Jese Leos</div>\n        <div class=\"text-sm font-normal text-body\">Joined in August 2014</div>\n    </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shrinildhorda-calm-lionfish-96-136f37",
+  "title": "Button by ShrinilDhorda (calm-lionfish-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ShrinilDhorda/calm-lionfish-96",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "download"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ShrinilDhorda on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ShrinilDhorda_calm-lionfish-96.html",
+  "code": "<button class=\"button\">\n  <p class=\"text\">\n  Download \n  </p>\n  <div class=\"svg\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"white\" class=\"bi bi-download\" viewBox=\"0 0 16 16\"> <path d=\"M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z\"></path> <path d=\"M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z\"></path> </svg>\n  </div>\n</button>\n<style>\n/* From Uiverse.io by ShrinilDhorda - Tags: button, download */\n.button {\n  padding: 0.8rem 4rem;\n  border: none;\n  outline: none;\n  font-size: 1.3rem;\n  border-radius: 0.3rem;\n  font-weight: 600;\n  background-color: rgba(255, 255, 255, 0.953);\n  position: relative;\n  overflow: hidden;\n  cursor: pointer;\n  transition: 0.4s ease-in-out;\n}\n\n.button .text {\n  position: absolute;\n  left: 1.8rem;\n  top: 1.3rem;\n  transition: 0.4s ease-in-out;\n  color: rgb(50, 50, 50);\n}\n\n.svg {\n  transform: translateY(-20px) rotate(30deg);\n  opacity: 0;\n  width: 2rem;\n  transition: 0.4s ease-in-out;\n}\n\n.button:hover {\n  background-color: rgb(50, 50, 50);\n}\n\n.button:hover .svg {\n  display: inline-block;\n  transform: translateY(0px) rotate(0deg);\n  opacity: 1;\n}\n\n.button:hover .text {\n  opacity: 0;\n}\n\n.button:active {\n  scale: 0.97;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

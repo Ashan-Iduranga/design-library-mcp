@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-leryley-lazy-chicken-4-db5486",
+  "title": "Form by LeryLey (lazy-chicken-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/LeryLey/lazy-chicken-4",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "simple",
+    "login"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By LeryLey on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/LeryLey_lazy-chicken-4.html",
+  "code": "<!-- From Uiverse.io by LeryLey  - Tags: simple, login, form -->\n<div\n  class=\"w-80 rounded-lg shadow h-auto p-6 bg-white relative overflow-hidden\"\n>\n  <div class=\"flex flex-col justify-center items-center space-y-2\">\n    <h2 class=\"text-2xl font-medium text-slate-700\">Login</h2>\n    <p class=\"text-slate-500\">Enter details below.</p>\n  </div>\n  <form class=\"w-full mt-4 space-y-3\">\n    <div>\n      <input\n        class=\"outline-none border-2 rounded-md px-2 py-1 text-slate-500 w-full focus:border-blue-300\"\n        placeholder=\"Username\"\n        id=\"username\"\n        name=\"username\"\n        type=\"text\"\n      />\n    </div>\n    <div>\n      <input\n        class=\"outline-none border-2 rounded-md px-2 py-1 text-slate-500 w-full focus:border-blue-300\"\n        placeholder=\"Password\"\n        id=\"password\"\n        name=\"password\"\n        type=\"password\"\n      />\n    </div>\n    <div class=\"flex items-center justify-between\">\n      <div class=\"flex items-center\">\n        <input\n          class=\"mr-2 w-4 h-4\"\n          id=\"remember\"\n          name=\"remember\"\n          type=\"checkbox\"\n        />\n        <span class=\"text-slate-500\">Remember me </span>\n      </div>\n      <a class=\"text-blue-500 font-medium hover:underline\" href=\"#\"\n        >Forgot Password</a\n      >\n    </div>\n    <button\n      class=\"w-full justify-center py-1 bg-blue-500 hover:bg-blue-600 active:bg-blue-700 rounded-md text-white ring-2\"\n      id=\"login\"\n      name=\"login\"\n      type=\"submit\"\n    >\n      login\n    </button>\n    <p class=\"flex justify-center space-x-1\">\n      <span class=\"text-slate-700\"> Have an account? </span>\n      <a class=\"text-blue-500 hover:underline\" href=\"#\">Sign Up</a>\n    </p>\n  </form>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

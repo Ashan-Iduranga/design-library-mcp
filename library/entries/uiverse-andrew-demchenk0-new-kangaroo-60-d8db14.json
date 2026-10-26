@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-andrew-demchenk0-new-kangaroo-60-d8db14",
+  "title": "Loader by andrew-demchenk0 (new-kangaroo-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/new-kangaroo-60",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "3d",
+    "cube"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/andrew-demchenk0_new-kangaroo-60.html",
+  "code": "<div class=\"cube-loader\">\n  <div class=\"cube-top\"></div>\n  <div class=\"cube-wrapper\">\n    <span style=\"--i:0\" class=\"cube-span\"></span>\n    <span style=\"--i:1\" class=\"cube-span\"></span>\n    <span style=\"--i:2\" class=\"cube-span\"></span>\n    <span style=\"--i:3\" class=\"cube-span\"></span>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: 3d, loader, cube */\n.cube-loader {\n  position: relative;\n/* u can choose any size */\n  width: 75px;\n  height: 75px;\n  transform-style: preserve-3d;\n  transform: rotateX(-30deg);\n  animation: animate 4s linear infinite;\n}\n\n@keyframes animate {\n  0% {\n    transform: rotateX(-30deg) rotateY(0);\n  }\n\n  100% {\n    transform: rotateX(-30deg) rotateY(360deg);\n  }\n}\n\n.cube-loader .cube-wrapper {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  /* top: 0;\n  left: 0; */\n  transform-style: preserve-3d;\n}\n\n.cube-loader .cube-wrapper .cube-span {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  /* top: 0;\n  left: 0; */\n                                     /* width 75px / 2 = 37.5px */\n  transform: rotateY(calc(90deg * var(--i))) translateZ(37.5px);\n  background: linear-gradient(\n    to bottom,\n    hsl(330, 3.13%, 25.1%) 0%,\n    hsl(177.27, 21.71%, 32.06%) 5.5%,\n    hsl(176.67, 34.1%, 36.88%) 12.1%,\n    hsl(176.61, 42.28%, 40.7%) 19.6%,\n    hsl(176.63, 48.32%, 43.88%) 27.9%,\n    hsl(176.66, 53.07%, 46.58%) 36.6%,\n    hsl(176.7, 56.94%, 48.91%) 45.6%,\n    hsl(176.74, 62.39%, 50.91%) 54.6%,\n    hsl(176.77, 69.86%, 52.62%) 63.4%,\n    hsl(176.8, 76.78%, 54.08%) 71.7%,\n    hsl(176.83, 83.02%, 55.29%) 79.4%,\n    hsl(176.85, 88.44%, 56.28%) 86.2%,\n    hsl(176.86, 92.9%, 57.04%) 91.9%,\n    hsl(176.88, 96.24%, 57.59%) 96.3%,\n    hsl(176.88, 98.34%, 57.93%) 99%,\n    hsl(176.89, 99.07%, 58.04%) 100%\n  );\n}\n\n.cube-top {\n  position: absolute;\n  width: 75px;\n  height: 75px;\n  background: hsl(330, 3.13%, 25.1%) 0%;\n                      /* width 75px / 2 = 37.5px */\n  transform: rotateX(90deg) translateZ(37.5px);\n  transform-style: preserve-3d;\n}\n\n.cube-top::before {\n  content: '';\n  position: absolute;\n/* u can choose any size */\n  width: 75px;\n  height: 75px;\n  background: hsl(176.61, 42.28%, 40.7%) 19.6%;\n  transform: translateZ(-90px);\n  filter: blur(10px);\n  box-shadow: 0 0 10px #323232,\n              0 0 20px hsl(176.61, 42.28%, 40.7%) 19.6%,\n              0 0 30px #323232,\n              0 0 40px hsl(176.61, 42.28%, 40.7%) 19.6%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

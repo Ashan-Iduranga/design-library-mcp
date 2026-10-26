@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-nayzerftn-breezy-grasshopper-31-3aee5c",
+  "title": "Button by Nayzerftn (breezy-grasshopper-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nayzerftn/breezy-grasshopper-31",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "active"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nayzerftn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Nayzerftn_breezy-grasshopper-31.html",
+  "code": "<button class=\"btn-hover\">HOVER ME</button>\n<style>\n/* From Uiverse.io by Nayzerftn - Tags: button, hover, active */\n.btn-hover {\n  position: relative;\n  display: inline-block;\n  padding: 15px 30px;\n  font-size: 18px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #ffffff;\n  background-color: #4b4b4b;\n  border: none;\n  outline: none;\n  overflow: hidden;\n  cursor: pointer;\n  transition: all 0.3s ease-out;\n}\n\n.btn-hover:hover {\n  background-color: #522ba7;\n}\n\n.btn-hover::before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%) scale(0);\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background-color: #ffffff;\n  opacity: 0.8;\n  transition: all 0.5s ease-out;\n}\n\n.btn-hover:hover::before {\n  transform: translate(-50%, -50%) scale(20);\n  opacity: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

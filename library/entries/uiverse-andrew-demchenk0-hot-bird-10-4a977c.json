@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-andrew-demchenk0-hot-bird-10-4a977c",
+  "title": "Radio by andrew-demchenk0 (hot-bird-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/hot-bird-10",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/andrew-demchenk0_hot-bird-10.html",
+  "code": "<div role=\"radiogroup\" class=\"theme-switcher\">\n  <button\n    type=\"button\"\n    role=\"radio\"\n    data-theme-switcher=\"true\"\n    data-active=\"false\"\n    class=\"theme-switcher_switch\"\n    aria-label=\"Switch to light theme\"\n    aria-checked=\"false\"\n  >\n    <svg\n      style=\"color: currentcolor; width: 16px; height: 16px;\"\n      width=\"24\"\n      viewBox=\"0 0 24 24\"\n      stroke-width=\"1.5\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      stroke=\"currentColor\"\n      shape-rendering=\"geometricPrecision\"\n      height=\"24\"\n      fill=\"none\"\n      data-testid=\"geist-icon\"\n      class=\"icon\"\n    >\n      <circle r=\"5\" cy=\"12\" cx=\"12\"></circle>\n      <path d=\"M12 1v2\"></path>\n      <path d=\"M12 21v2\"></path>\n      <path d=\"M4.22 4.22l1.42 1.42\"></path>\n      <path d=\"M18.36 18.36l1.42 1.42\"></path>\n      <path d=\"M1 12h2\"></path>\n      <path d=\"M21 12h2\"></path>\n      <path d=\"M4.22 19.78l1.42-1.42\"></path>\n      <path d=\"M18.36 5.64l1.42-1.42\"></path>\n    </svg>\n  </button>\n  <button\n    type=\"button\"\n    role=\"radio\"\n    data-theme-switcher=\"true\"\n    data-active=\"false\"\n    class=\"theme-switcher_switch\"\n    aria-label=\"Switch to system theme\"\n    aria-checked=\"false\"\n  >\n    <svg\n      style=\"color: currentcolor; width: 16px; height: 16px;\"\n      width=\"24\"\n      viewBox=\"0 0 24 24\"\n      stroke-width=\"1.5\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      stroke=\"currentColor\"\n      shape-rendering=\"geometricPrecision\"\n      height=\"24\"\n      fill=\"none\"\n      data-testid=\"geist-icon\"\n      class=\"icon\"\n    >\n      <rect ry=\"2\" rx=\"2\" height=\"14\" width=\"20\" y=\"3\" x=\"2\"></rect>\n      <path d=\"M8 21h8\"></path>\n      <path d=\"M12 17v4\"></path>\n    </svg>\n  </button>\n  <button\n    type=\"button\"\n    role=\"radio\"\n    data-theme-switcher=\"true\"\n    data-active=\"true\"\n    class=\"theme-switcher_switch\"\n    aria-label=\"Switch to dark theme\"\n    aria-checked=\"true\"\n  >\n    <svg\n      style=\"color: currentcolor; width: 16px; height: 16px;\"\n      width=\"24\"\n      viewBox=\"0 0 24 24\"\n      stroke-width=\"1.5\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      stroke=\"currentColor\"\n      shape-rendering=\"geometricPrecision\"\n      height=\"24\"\n      fill=\"none\"\n      data-testid=\"geist-icon\"\n      class=\"icon\"\n    >\n      <path d=\"M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z\"></path>\n    </svg>\n  </button>\n</div>\n\n<style>\n/* From Uiverse.io by andrew-demchenk0  - Website: https://nextjs.org/learn?utm_source=next-site&utm_medium=homepage-cta&utm_campaign=home - Tags: simple, theme-switch, radio, buttons, template, for js, component */\n.theme-switcher {\n  padding: 3px;\n  width: -moz-fit-content;\n  width: fit-content;\n  display: flex;\n  border-radius: 9999px;\n  border: 1px solid grey;\n}\n\n.theme-switcher_switch {\n  width: 32px;\n  height: 32px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: inherit;\n  border: 0;\n  background: none;\n  cursor: pointer;\n}\n\n.theme-switcher_switch:hover > .icon {\n  stroke: #323232;\n}\n\n.theme-switcher_switch:active {\n  background-color: rgba(128, 128, 128, 0.35);\n}\n\n.theme-switcher_switch:active > .icon {\n  stroke: white;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

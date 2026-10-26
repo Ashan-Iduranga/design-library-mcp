@@ -1,0 +1,34 @@
+{
+  "id": "radix-colors-bronze",
+  "title": "Radix Colors: Bronze scale",
+  "source": "Radix Colors",
+  "url": "https://www.radix-ui.com/colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "bronze",
+    "radix",
+    "color-scale",
+    "color",
+    "accessible",
+    "dark-mode"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "12-step bronze scale with a matching dark-mode scale. Steps 1-2: app and subtle backgrounds. 3-5: component backgrounds (normal, hover, pressed). 6-8: borders and focus rings. 9-10: solid backgrounds (e.g. buttons). 11-12: low and high contrast text.\n\nAlso available: bronzeA (alpha) and P3 wide-gamut versions.\n\nUse: npm i @radix-ui/colors, then import \"@radix-ui/colors/bronze.css\" and \"@radix-ui/colors/bronze-dark.css\".\n\nOriginal file: https://github.com/radix-ui/colors/blob/main/src/light.ts",
+  "code": "<style>\n:root {\n  --bronze-1: #fdfcfc;\n  --bronze-2: #fdf7f5;\n  --bronze-3: #f6edea;\n  --bronze-4: #efe4df;\n  --bronze-5: #e7d9d3;\n  --bronze-6: #dfcdc5;\n  --bronze-7: #d3bcb3;\n  --bronze-8: #c2a499;\n  --bronze-9: #a18072;\n  --bronze-10: #957468;\n  --bronze-11: #7d5e54;\n  --bronze-12: #43302b;\n}\n.dark {\n  --bronze-1: #141110;\n  --bronze-2: #1c1917;\n  --bronze-3: #262220;\n  --bronze-4: #302a27;\n  --bronze-5: #3b3330;\n  --bronze-6: #493e3a;\n  --bronze-7: #5a4c47;\n  --bronze-8: #6f5f58;\n  --bronze-9: #a18072;\n  --bronze-10: #ae8c7e;\n  --bronze-11: #d4b3a5;\n  --bronze-12: #ede0d9;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Radix bronze</strong>\n<p>light</p><div class=\"row\"><div style=\"background:#fdfcfc\" title=\"--bronze-1: #fdfcfc\"><span>1</span></div><div style=\"background:#fdf7f5\" title=\"--bronze-2: #fdf7f5\"><span>2</span></div><div style=\"background:#f6edea\" title=\"--bronze-3: #f6edea\"><span>3</span></div><div style=\"background:#efe4df\" title=\"--bronze-4: #efe4df\"><span>4</span></div><div style=\"background:#e7d9d3\" title=\"--bronze-5: #e7d9d3\"><span>5</span></div><div style=\"background:#dfcdc5\" title=\"--bronze-6: #dfcdc5\"><span>6</span></div><div style=\"background:#d3bcb3\" title=\"--bronze-7: #d3bcb3\"><span>7</span></div><div style=\"background:#c2a499\" title=\"--bronze-8: #c2a499\"><span>8</span></div><div style=\"background:#a18072\" title=\"--bronze-9: #a18072\"><span>9</span></div><div style=\"background:#957468\" title=\"--bronze-10: #957468\"><span>10</span></div><div style=\"background:#7d5e54\" title=\"--bronze-11: #7d5e54\"><span>11</span></div><div style=\"background:#43302b\" title=\"--bronze-12: #43302b\"><span>12</span></div></div>\n<p>dark</p><div class=\"row\"><div style=\"background:#141110\" title=\"--bronze-1: #141110\"><span>1</span></div><div style=\"background:#1c1917\" title=\"--bronze-2: #1c1917\"><span>2</span></div><div style=\"background:#262220\" title=\"--bronze-3: #262220\"><span>3</span></div><div style=\"background:#302a27\" title=\"--bronze-4: #302a27\"><span>4</span></div><div style=\"background:#3b3330\" title=\"--bronze-5: #3b3330\"><span>5</span></div><div style=\"background:#493e3a\" title=\"--bronze-6: #493e3a\"><span>6</span></div><div style=\"background:#5a4c47\" title=\"--bronze-7: #5a4c47\"><span>7</span></div><div style=\"background:#6f5f58\" title=\"--bronze-8: #6f5f58\"><span>8</span></div><div style=\"background:#a18072\" title=\"--bronze-9: #a18072\"><span>9</span></div><div style=\"background:#ae8c7e\" title=\"--bronze-10: #ae8c7e\"><span>10</span></div><div style=\"background:#d4b3a5\" title=\"--bronze-11: #d4b3a5\"><span>11</span></div><div style=\"background:#ede0d9\" title=\"--bronze-12: #ede0d9\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "Building a UI color system with predictable steps for backgrounds, borders and text, including dark mode.",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

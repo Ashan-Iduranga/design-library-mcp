@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vikas7754-fat-monkey-43-383353",
+  "title": "Card by vikas7754 (fat-monkey-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikas7754/fat-monkey-43",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "bubble",
+    "drop",
+    "water-drop"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikas7754 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/vikas7754_fat-monkey-43.html",
+  "code": "<div class=\"one-div\"></div>\n<style>\n/* From Uiverse.io by vikas7754 - Tags: bubble, drop, water drop */\n.one-div {\n  position: relative;\n  width: 150px;\n  height: 150px;\n  background: transparent;\n  border-radius: 57% 43% 37% 63% / 45% 52% 48% 52%;\n  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05), \n                      15px 25px 10px rgba(0, 0, 0, 0.1), \n                      15px 20px 20px rgba(0, 0, 0, 0.05), \n                inset -10px -10px 15px rgba(237, 237, 237, 0.9);\n  animation: anim 1s infinite alternate;\n}\n\n.one-div:before {\n  content: '';\n  position: absolute;\n  left: 25px;\n  top: 35px;\n  width: 20px;\n  height: 20px;\n  border-radius: 42% 58% 37% 63% / 40% 43% 57% 60%;\n  background: #FFF\n}\n\n.one-div:after {\n  content: '';\n  position: absolute;\n  left: 60px;\n  top: 25px;\n  width: 10px;\n  height: 10px;\n  border-radius: 42% 58% 37% 63% / 40% 43% 57% 60%;\n  background: #ffffff\n}\n\n@keyframes anim {\n  0% {\n    transform: translateY(0);\n    height: 150px;\n    width: 150px;\n  }\n\n  100% {\n    transform: translateY(40px);\n    height: 135px;\n    width: 160px;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

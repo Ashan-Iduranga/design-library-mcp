@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-amruthlp12-splendid-zebra-21-26fd3f",
+  "title": "Input by AmruthLP12 (splendid-zebra-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AmruthLP12/splendid-zebra-21",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "icon",
+    "purple",
+    "black",
+    "dark",
+    "theme",
+    "html",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AmruthLP12 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/AmruthLP12_splendid-zebra-21.html",
+  "code": "<div class=\"search-bar-container\">\n  <div class=\"search-bar\">\n    <span class=\"search-icon\">\n      <svg\n        height=\"20\"\n        width=\"20\"\n        viewBox=\"0 0 24 24\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n      >\n        <path\n          d=\"M21.53,20.47l-5-5a8,8,0,1,0-1.06,1.06l5,5a.75.75,0,0,0,1.06-1.06ZM4,10A6,6,0,1,1,10,16,6,6,0,0,1,4,10Z\"\n          fill=\"currentColor\"\n        ></path>\n      </svg>\n    </span>\n    <input placeholder=\"Search...\" type=\"text\" />\n    <button class=\"filter-button\" type=\"button\">\n      <svg\n        height=\"20\"\n        width=\"20\"\n        viewBox=\"0 0 24 24\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n      >\n        <path\n          d=\"M3,5V7H4L10,13.92V19A1,1,0,0,0,11,20h2a1,1,0,0,0,1-1V13.92L20,7h1V5ZM12,17H12V13a1,1,0,0,0-.29-.71L6.41,7h11.18l-5.29,5.29A1,1,0,0,0,12,13Z\"\n          fill=\"currentColor\"\n        ></path>\n      </svg>\n    </button>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by AmruthLP12  - Tags: icon, purple, black, input, dark, theme, html, css */\n.search-bar-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.search-bar {\n  display: flex;\n  align-items: center;\n  background: linear-gradient(\n    135deg,\n    #333,\n    #111\n  ); /* Dark gradient background */\n  border-radius: 50px;\n  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), 0 0 20px #8839ff; /* Glowing effect */\n  padding: 10px 15px;\n}\n\n.search-icon {\n  color: #fff; /* White color for the search icon */\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding-right: 10px;\n}\n\n.search-bar input {\n  background: transparent;\n  border: none;\n  outline: none;\n  color: #fff;\n  font-size: 16px;\n  padding: 5px 10px;\n  flex: 1;\n  min-width: 200px;\n}\n\n.search-bar input::placeholder {\n  color: #bbb; /* Lighter placeholder text color */\n}\n\n.filter-button {\n  background: transparent;\n  border: none;\n  outline: none;\n  padding: 0 10px;\n  cursor: pointer;\n  color: #fff; /* White color for the filter icon */\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

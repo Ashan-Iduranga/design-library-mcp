@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-navbar-navbar-with-search-input-and-dropdown",
+  "title": "Navbar: Navbar with search input and dropdown (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/navbar/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "navbar",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Navbar is used to show a navigation bar on the top of the page.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/navbar/+page.md",
+  "code": "<div class=\"navbar bg-base-100 shadow-sm\">\n  <div class=\"flex-1\">\n    <a class=\"btn btn-ghost text-xl\">daisyUI</a>\n  </div>\n  <div class=\"flex gap-2\">\n    <input type=\"text\" placeholder=\"Search\" class=\"input w-24 md:w-auto\" />\n    <div class=\"dropdown dropdown-end\">\n      <div tabindex=\"0\" role=\"button\" class=\"btn btn-ghost btn-circle avatar\">\n        <div class=\"w-10 rounded-full\">\n          <img\n            alt=\"Tailwind CSS Navbar component\"\n            src=\"https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp\" />\n        </div>\n      </div>\n      <ul\n        tabindex=\"-1\"\n        class=\"menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow\">\n        <li>\n          <a class=\"justify-between\">\n            Profile\n            <span class=\"badge\">New</span>\n          </a>\n        </li>\n        <li><a>Settings</a></li>\n        <li><a>Logout</a></li>\n      </ul>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "magicui-smooth-cursor-demo",
+  "title": "Smooth Cursor Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/smooth-cursor",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "smooth",
+    "cursor",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Basic smooth cursor example\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/smooth-cursor-demo.tsx",
+  "code": "import { SmoothCursor } from \"@/registry/magicui/smooth-cursor\"\n\nexport default function SmoothCursorDemo() {\n  return (\n    <>\n      <span className=\"hidden md:block\">Move your mouse around</span>\n      <span className=\"block md:hidden\">\n        SmoothCursor is disabled on touch devices\n      </span>\n      <SmoothCursor />\n    </>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

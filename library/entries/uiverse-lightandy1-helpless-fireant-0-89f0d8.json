@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-lightandy1-helpless-fireant-0-89f0d8",
+  "title": "Loader by LightAndy1 (helpless-fireant-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/LightAndy1/helpless-fireant-0",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "icon",
+    "animation",
+    "yellow",
+    "smooth",
+    "dark",
+    "stars"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By LightAndy1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/LightAndy1_helpless-fireant-0.html",
+  "code": "<div class=\"loader\">\n  <svg\n    viewBox=\"0 0 256 256\"\n    class=\"star star1\"\n    height=\"32\"\n    width=\"32\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z\"\n    ></path>\n  </svg>\n  <svg\n    viewBox=\"0 0 256 256\"\n    class=\"star star2\"\n    height=\"32\"\n    width=\"32\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z\"\n    ></path>\n  </svg>\n  <svg\n    viewBox=\"0 0 256 256\"\n    class=\"star star3\"\n    height=\"32\"\n    width=\"32\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z\"\n    ></path>\n  </svg>\n</div>\n\n<style>\n/* From Uiverse.io by LightAndy1  - Tags: simple, icon, animation, yellow, loader, smooth, dark, stars */\n.loader {\n  user-select: none;\n}\n\n.star {\n  opacity: 0;\n  fill: #f8de7e;\n  animation: loader 2s infinite alternate;\n}\n\n.star2 {\n  height: 20px;\n  margin-left: -10px;\n  animation-delay: 0.25s;\n}\n\n.star3 {\n  height: 16px;\n  margin-left: -15px;\n  animation-delay: 0.5s;\n}\n\n@keyframes loader {\n  0% {\n    opacity: 0;\n    transform: translateY(0) translateX(50px) rotate (0deg);\n  }\n  10% {\n    opacity: 0;\n    transform: translateY(0) translateX(50px) rotate(0deg);\n  }\n  100% {\n    opacity: 1;\n    transform: translateY(-20px) translateX(0) rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

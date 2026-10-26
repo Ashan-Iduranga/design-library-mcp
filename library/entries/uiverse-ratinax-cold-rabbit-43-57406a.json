@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ratinax-cold-rabbit-43-57406a",
+  "title": "Radio by Ratinax (cold-rabbit-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Ratinax/cold-rabbit-43",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Ratinax on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Ratinax_cold-rabbit-43.html",
+  "code": "<div class=\"radio-input\">\n  <input\n    value=\"value-1\"\n    name=\"value-radio\"\n    id=\"value-1\"\n    type=\"radio\"\n    class=\"star s1\"\n  />\n  <input\n    value=\"value-2\"\n    name=\"value-radio\"\n    id=\"value-2\"\n    type=\"radio\"\n    class=\"star s2\"\n  />\n  <input\n    value=\"value-3\"\n    name=\"value-radio\"\n    id=\"value-3\"\n    type=\"radio\"\n    class=\"star s3\"\n  />\n  <input\n    value=\"value-4\"\n    name=\"value-radio\"\n    id=\"value-4\"\n    type=\"radio\"\n    class=\"star s4\"\n  />\n  <input\n    value=\"value-5\"\n    name=\"value-radio\"\n    id=\"value-5\"\n    type=\"radio\"\n    class=\"star s5\"\n  />\n</div>\n\n<style>\n/* From Uiverse.io by Ratinax  - Tags:  */\n.radio-input {\n  display: flex;\n  scale: 0.15;\n  transform: rotate(180deg);\n}\n\n.star {\n  margin: 1em;\n  appearance: none;\n  --color: white;\n  border-left: 6.4721359549996em solid transparent;\n  border-right: 6.4721359549996em solid transparent;\n  border-bottom: 4em solid var(--color);\n  transform: rotate(0deg);\n  cursor: pointer;\n}\n\n.star:before {\n  content: \"\";\n  border-left: 6.4721359549996em solid transparent;\n  border-right: 6.4721359549996em solid transparent;\n  border-top: 4em solid var(--color);\n  position: absolute;\n  left: -6.4721359549996em;\n  transform: rotate(108deg);\n}\n\n.star:after {\n  content: \"\";\n  border-left: 6.4721359549996em solid transparent;\n  border-right: 6.4721359549996em solid transparent;\n  border-top: 4em solid var(--color);\n  position: absolute;\n  left: -6.4721359549996em;\n  transform: rotate(253deg);\n}\n\n.radio-input > .star:hover ~ .star,\n.radio-input > .star:hover,\n.radio-input > .star:checked ~ .star,\n.radio-input > .star:checked {\n  --color: yellow;\n}\n\n.radio-input > .star:checked ~ .star,\n.radio-input > .star:checked {\n  animation: rotate 0.5s linear forwards;\n  transform: rotate(360deg);\n  transition: transform 0.3s;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(0deg);\n  }\n  50% {\n    scale: 1.5;\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

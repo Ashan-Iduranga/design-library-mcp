@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-andrew-demchenk0-afraid-cougar-9-76ce21",
+  "title": "Form by andrew-demchenk0 (afraid-cougar-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/afraid-cougar-9",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "3d",
+    "sign-up",
+    "toggle",
+    "animated",
+    "login-form",
+    "toggle-switch",
+    "log-in"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/andrew-demchenk0_afraid-cougar-9.html",
+  "code": "<div class=\"wrapper\">\n        <div class=\"card-switch\">\n            <label class=\"switch\">\n               <input type=\"checkbox\" class=\"toggle\">\n               <span class=\"slider\"></span>\n               <span class=\"card-side\"></span>\n               <div class=\"flip-card__inner\">\n                  <div class=\"flip-card__front\">\n                     <div class=\"title\">Log in</div>\n                     <form class=\"flip-card__form\" action=\"\">\n                        <input class=\"flip-card__input\" name=\"email\" placeholder=\"Email\" type=\"email\">\n                        <input class=\"flip-card__input\" name=\"password\" placeholder=\"Password\" type=\"password\">\n                        <button class=\"flip-card__btn\">Let`s go!</button>\n                     </form>\n                  </div>\n                  <div class=\"flip-card__back\">\n                     <div class=\"title\">Sign up</div>\n                     <form class=\"flip-card__form\" action=\"\">\n                        <input class=\"flip-card__input\" placeholder=\"Name\" type=\"name\">\n                        <input class=\"flip-card__input\" name=\"email\" placeholder=\"Email\" type=\"email\">\n                        <input class=\"flip-card__input\" name=\"password\" placeholder=\"Password\" type=\"password\">\n                        <button class=\"flip-card__btn\">Confirm!</button>\n                     </form>\n                  </div>\n               </div>\n            </label>\n        </div>   \n   </div>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: 3d, form, sign-up, toggle, animated, login form, toggle switch, log in, sign up form, click animation */\n.wrapper {\n  --input-focus: #2d8cf0;\n  --font-color: #323232;\n  --font-color-sub: #666;\n  --bg-color: #fff;\n  --bg-color-alt: #666;\n  --main-color: #323232;\n    /* display: flex; */\n    /* flex-direction: column; */\n    /* align-items: center; */\n}\n/* switch card */\n.switch {\n  transform: translateY(-200px);\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 30px;\n  width: 50px;\n  height: 20px;\n}\n\n.card-side::before {\n  position: absolute;\n  content: 'Log in';\n  left: -70px;\n  top: 0;\n  width: 100px;\n  text-decoration: underline;\n  color: var(--font-color);\n  font-weight: 600;\n}\n\n.card-side::after {\n  position: absolute;\n  content: 'Sign up';\n  left: 70px;\n  top: 0;\n  width: 100px;\n  text-decoration: none;\n  color: var(--font-color);\n  font-weight: 600;\n}\n\n.toggle {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  box-sizing: border-box;\n  border-radius: 5px;\n  border: 2px solid var(--main-color);\n  box-shadow: 4px 4px var(--main-color);\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: var(--bg-colorcolor);\n  transition: 0.3s;\n}\n\n.slider:before {\n  box-sizing: border-box;\n  position: absolute;\n  content: \"\";\n  height: 20px;\n  width: 20px;\n  border: 2px solid var(--main-color);\n  border-radius: 5px;\n  left: -2px;\n  bottom: 2px;\n  background-color: var(--bg-color);\n  box-shadow: 0 3px 0 var(--main-color);\n  transition: 0.3s;\n}\n\n.toggle:checked + .slider {\n  background-color: var(--input-focus);\n}\n\n.toggle:checked + .slider:before {\n  transform: translateX(30px);\n}\n\n.toggle:checked ~ .card-side:before {\n  text-decoration: none;\n}\n\n.toggle:checked ~ .card-side:after {\n  text-decoration: underline;\n}\n\n/* card */ \n\n.flip-card__inner {\n  width: 300px;\n  height: 350px;\n  position: relative;\n  background-color: transparent;\n  perspective: 1000px;\n    /* width: 100%;\n    height: 100%; */\n  text-align: center;\n  transition: transform 0.8s;\n  transform-style: preserve-3d;\n}\n\n.toggle:checked ~ .flip-card__inner {\n  transform: rotateY(180deg);\n}\n\n.toggle:checked ~ .flip-card__front {\n  box-shadow: none;\n}\n\n.flip-card__front, .flip-card__back {\n  padding: 20px;\n  position: absolute;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  -webkit-backface-visibility: hidden;\n  backface-visibility: hidden;\n  background: lightgrey;\n  gap: 20px;\n  border-radius: 5px;\n  border: 2px solid var(--main-color);\n  box-shadow: 4px 4px var(--main-color);\n}\n\n.flip-card__back {\n  width: 100%;\n  transform: rotateY(180deg);\n}\n\n.flip-card__form {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 20px;\n}\n\n.title {\n  margin: 20px 0 20px 0;\n  font-size: 25px;\n  font-weight: 900;\n  text-align: center;\n  color: var(--main-color);\n}\n\n.flip-card__input {\n  width: 250px;\n  height: 40px;\n  border-radius: 5px;\n  border: 2px solid var(--main-color);\n  background-color: var(--bg-color);\n  box-shadow: 4px 4px var(--main-color);\n  font-size: 15px;\n  font-weight: 600;\n  color: var(--font-color);\n  padding: 5px 10px;\n  outline: none;\n}\n\n.flip-card__input::placeholder {\n  color: var(--font-color-sub);\n  opacity: 0.8;\n}\n\n.flip-card__input:focus {\n  border: 2px solid var(--input-focus);\n}\n\n.flip-card__btn:active, .button-confirm:active {\n  box-shadow: 0px 0px var(--main-color);\n  transform: translate(3px, 3px);\n}\n\n.flip-card__btn {\n  margin: 20px 0 20px 0;\n  width: 120px;\n  height: 40px;\n  border-radius: 5px;\n  border: 2px solid var(--main-color);\n  background-color: var(--bg-color);\n  box-shadow: 4px 4px var(--main-color);\n  font-size: 17px;\n  font-weight: 600;\n  color: var(--font-color);\n  cursor: pointer;\n} \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

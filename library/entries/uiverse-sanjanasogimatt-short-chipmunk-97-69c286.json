@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-sanjanasogimatt-short-chipmunk-97-69c286",
+  "title": "Radio by SanjanaSogimatt (short-chipmunk-97)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SanjanaSogimatt/short-chipmunk-97",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse",
+    "neumorphism",
+    "skeuomorphism",
+    "minimalist",
+    "gradient",
+    "button",
+    "hover",
+    "glow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SanjanaSogimatt on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/SanjanaSogimatt_short-chipmunk-97.html",
+  "code": "<div class=\"radio-input\">\n        <input value=\"value-1\" name=\"value-radio\" id=\"value-1\" type=\"radio\">\n        <label for=\"value-1\" class=\"label\">BASIC</label>\n        <input value=\"value-2\" name=\"value-radio\" id=\"value-2\" type=\"radio\">\n        <label for=\"value-2\" class=\"label\">STANDARD</label>\n        <input value=\"value-3\" name=\"value-radio\" id=\"value-3\" type=\"radio\">\n        <label for=\"value-3\" class=\"label\">PREMIUM</label>\n</div>\n<style>\n/* From Uiverse.io by SanjanaSogimatt - Tags: neumorphism, skeuomorphism, minimalist, gradient, button, hover, glow, radio, animated, futuristic-radio-buttons */\n.radio-input {\n  box-shadow: -10px -15px 15px rgba(255, 255, 255, 0.5),\n    10px 10px 25px rgba(70, 70, 70, 0.5);\n  margin: auto;\n  height: 80px;\n  width: 300px;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  position: absolute;\n  border-radius: 50px;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: white;\n}\n\n.radio-input input[type=\"radio\"] {\n  display: none;\n}\n\n.label {\n  font-size: .9rem;\n  font-weight: 600;\n  font-family: 'poppins',sans-serif;\n  padding: 18px 15px;\n  border-radius: 35px;\n  transition: 0.5s;\n  cursor: pointer;\n  color: black;\n}\n\n.radio-input input[type=\"radio\"]:checked + label {\n  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.151),\n    10px 10px 15px rgba(0, 0, 0, 0.218);\n  background: linear-gradient(45deg,#cf6efb,#4f29cd);\n  color: white;\n  transform: translateY(-4px);\n}\n\n.radio-input input[type=\"radio\"]:hover:not(:checked)+ label {\n  box-shadow: inset 10px 10px 15px rgba(0, 0, 0, 0.151),\n    inset 10px 10px 15px rgba(0, 0, 0, 0.218);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

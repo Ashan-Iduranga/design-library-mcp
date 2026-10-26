@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-ali-tahmazi99-fresh-moth-58-5a174f",
+  "title": "Toggle by Ali-Tahmazi99 (fresh-moth-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Ali-Tahmazi99/fresh-moth-58",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "checkbox"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Ali-Tahmazi99 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Ali-Tahmazi99_fresh-moth-58.html",
+  "code": "<label class=\"container\">\n\n    <input id=\"check\" type=\"checkbox\">\n    <span></span>\n\n    <label for=\"check\" class=\"shadow\"></label>\n</label>\n<style>\n/* From Uiverse.io by Ali-Tahmazi99 - Tags: checkbox */\ninput[type = \"checkbox\"] {\n  visibility: hidden;\n  display: none;\n  appearance: none;\n  -webkit-appearance: none;\n}\n\nlabel.container {\n  display: block;\n  width: 60px;\n  height: 30px;\n  background: #d3d3d3;\n  border-radius: 50px;\n  position: relative;\n  cursor: pointer;\n  box-shadow: 9px 9px 29px #969696,\n             -9px -9px 29px #ffffff;\n}\n\nlabel.shadow {\n  width: 50px;\n  height: 20px;\n  position: absolute;\n  border-radius: 50px;\n  left: 5px;\n  top: 5px;\n  box-shadow: inset 3px 3px 10px #969696,\n              inset -3px -3px 5px #ffffffbd;\n  cursor: pointer;\n}\n\n.container span {\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  background-color: #ffaa00;\n  margin: 5px;\n  border-radius: 50px;\n  font-size: 20px;\n  transition: all 0.3s ease-in;\n  position: relative;\n  left: 0;\n  z-index: 1;\n}\n\n.container span::after {\n  position: absolute;\n  top: 6px;\n  left: 4px;\n  transition-delay: 5s;\n}\n\ninput[type = \"checkbox\"]:checked ~ span {\n  left: 29px;\n  transition: 0.3s ease-in;\n  background: #0a100d;\n  transform: rotate(220deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

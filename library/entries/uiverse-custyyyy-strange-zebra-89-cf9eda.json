@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-custyyyy-strange-zebra-89-cf9eda",
+  "title": "Toggle by Custyyyy (strange-zebra-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Custyyyy/strange-zebra-89",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Custyyyy on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Custyyyy_strange-zebra-89.html",
+  "code": "<div class=\"check\">\n  <input id=\"check\" type=\"checkbox\">\n  <label for=\"check\"></label>\n</div>\n<style>\n/* From Uiverse.io by Custyyyy - Tags: switch */\n.check {\n position: relative;\n background: linear-gradient(90deg, #f19af3, #f099b5);\n line-height: 0;\n font-size: 25px;\n}\n\n.check input[type=\"checkbox\"],\n.check label,\n.check label::before,\n.check label::after {\n appearance: none;\n display: inline-block;\n font-size: inherit;\n border-radius: 1em;\n border: 0;\n transition: .35s ease-in-out;\n box-sizing: border-box;\n cursor: pointer;\n}\n\n.check {\n appearance: none;\n display: inline-block;\n border-radius: 1em;\n border: 0;\n transition: .35s ease-in-out;\n box-sizing: border-box;\n cursor: pointer;\n}\n\n.check label {\n width: 2.2em;\n height: 1em;\n background: #d7d7d7;\n overflow: hidden;\n}\n\n.check input[type=\"checkbox\"] {\n position: absolute;\n z-index: 1;\n width: .8em;\n height: .8em;\n top: .1em;\n left: .1em;\n background: linear-gradient(45deg, #dedede, #ffffff);\n box-shadow: 0 6px 7px rgba(0,0,0,0.3);\n outline: none;\n}\n\n.check input[type=\"checkbox\"]:checked {\n left: 1.3em;\n}\n\n.check input[type=\"checkbox\"]:checked + label {\n background: transparent;\n}\n\n.check label::before,\n.check label::after {\n content: \"· ·\";\n position: absolute;\n overflow: hidden;\n left: .50em;\n top: .5em;\n height: 1em;\n letter-spacing: -.04em;\n color: #9b9b9b;\n font-family: \"Times New Roman\", serif;\n z-index: 2;\n font-size: .6em;\n border-radius: 0;\n transform-origin: 0 0 -.5em;\n backface-visibility: hidden;\n}\n\n.check label::after {\n content: \"?\";\n top: .65em;\n left: .6em;\n height: .1em;\n width: .35em;\n font-size: .2em;\n transform-origin: 0 0 -.4em;\n}\n\n.check input[type=\"checkbox\"]:checked + label::before,\n.check input[type=\"checkbox\"]:checked + label::after {\n left: 2.55em;\n top: .4em;\n line-height: .1em;\n transform: rotateY(360deg);\n}\n\n.check input[type=\"checkbox\"]:checked + label::after {\n height: .16em;\n top: .55em;\n left: 2.6em;\n font-size: .6em;\n line-height: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

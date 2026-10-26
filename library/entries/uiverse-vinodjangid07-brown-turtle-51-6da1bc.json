@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vinodjangid07-brown-turtle-51-6da1bc",
+  "title": "Button by vinodjangid07 (brown-turtle-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/brown-turtle-51",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "purple",
+    "click-effect",
+    "shop-now"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_brown-turtle-51.html",
+  "code": "<button class=\"button\">\n Shop now\n <svg class=\"cartIcon\" viewBox=\"0 0 576 512\"><path d=\"M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z\"></path></svg>\n</button>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: purple, button, click effect, shop now */\n.button {\n  width: 180px;\n  height: 40px;\n  background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));\n  border: none;\n  border-radius: 50px;\n  color: rgb(255, 255, 255);\n  font-weight: 600;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 5px;\n  cursor: pointer;\n  box-shadow: 1px 3px 0px rgb(139, 113, 255);\n  transition-duration: .3s;\n}\n\n.cartIcon {\n  width: 14px;\n  height: fit-content;\n}\n\n.cartIcon path {\n  fill: white;\n}\n\n.button:active {\n  transform: translate(2px ,0px);\n  box-shadow: 0px 1px 0px rgb(139, 113, 255);\n  padding-bottom: 1px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

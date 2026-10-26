@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-g4b413l-hot-crab-48-cc5f2e",
+  "title": "Loader by G4b413l (hot-crab-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/hot-crab-48",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "loading",
+    "smooth"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/G4b413l_hot-crab-48.html",
+  "code": "<div class=\"loader\">\n  <div class=\"scanner\">\n    <span>Loading...</span>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by G4b413l - Tags: animation, loading, loader, smooth */\n.scanner span {\n  color: transparent;\n  font-size: 1.4rem;\n  position: relative;\n  overflow: hidden;\n}\n\n.scanner span::before {\n  content: \"Loading...\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 0;\n  height: 100%;\n  border-right: 4px solid #17FEFF;\n  overflow: hidden;\n  color: #17FEFF;\n  animation: load91371 2s linear infinite;\n}\n\n@keyframes load91371 {\n  0%, 10%, 100% {\n    width: 0;\n  }\n\n  10%,20%,30%,40%,50%,60%,70%,80%,90%,100% {\n    border-right-color: transparent;\n  }\n\n  11%,21%,31%,41%,51%,61%,71%,81%,91% {\n    border-right-color: #17FEFF;\n  }\n\n  60%, 80% {\n    width: 100%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

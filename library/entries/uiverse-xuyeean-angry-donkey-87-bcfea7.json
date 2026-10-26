@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-xuyeean-angry-donkey-87-bcfea7",
+  "title": "Radio by XuYeean (angry-donkey-87)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/XuYeean/angry-donkey-87",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By XuYeean on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/XuYeean_angry-donkey-87.html",
+  "code": "<div class=\"radio-input\">\n      <div class=\"radio\">\n        <input checked=\"\" value=\"value-1\" name=\"future\" id=\"value-1\" type=\"radio\" class=\"input\">\n        <label for=\"value-1\">\n          <div class=\"center\">\n            <div></div>\n            <div></div>\n            <div></div>\n            <div></div>\n          </div>\n        </label>\n        <div class=\"top\"></div>\n        <div class=\"bottom\"></div>\n        <div class=\"block\"></div>\n      </div>\n      <div class=\"radio\">\n        <input value=\"value-2\" name=\"future\" id=\"value-2\" type=\"radio\" class=\"input\">\n        <label for=\"value-2\">\n          <div class=\"center\">\n            <div></div>\n            <div></div>\n            <div></div>\n            <div></div>\n          </div>\n        </label>\n        <div class=\"top\"></div>\n        <div class=\"bottom\"></div>\n        <div class=\"block\"></div>\n      </div>\n      <div class=\"radio\">\n        <input value=\"value-3\" name=\"future\" id=\"value-3\" type=\"radio\" class=\"input\">\n        <label for=\"value-3\">\n          <div class=\"center\">\n            <div></div>\n            <div></div>\n            <div></div>\n            <div></div>\n          </div>\n        </label>\n        <div class=\"top\"></div>\n        <div class=\"bottom\"></div>\n        <div class=\"block\"></div>\n      </div>\n    </div>\n<style>\n/* From Uiverse.io by XuYeean - Tags: radio */\n.radio-input {\n  display: flex;\n  max-width: 300px;\n  justify-content: space-around;\n  align-items: center;\n  flex: 1;\n}\n\n.radio-input > .radio {\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 40px;\n}\n\n.input {\n  z-index: 1;\n  appearance: none;\n  width: 28px;\n  height: 28px;\n  border: 2px solid #48e9ff88;\n  transform-origin: center;\n  transform: rotateX(120deg) rotateZ(45deg);\n  transition: all 0.4s ease-in-out;\n}\n\n.input:hover:not(.input:checked) {\n  animation: light 8s ease-in-out forwards infinite alternate;\n}\n\n.input:checked {\n  animation: Scale 2.8s ease-in-out forwards infinite alternate;\n  box-shadow: 0 0 40px #48e9ff, inset 0 0 4px #48e9ff;\n}\n\n@keyframes light {\n  50% {\n    box-shadow: 0 0 40px #48e9ff, inset 0 0 8px #48e9ff;\n  }\n}\n\nlabel {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  width: 0;\n  height: 0;\n  margin: auto;\n  transition: all 0.4s ease-in-out;\n  transform: rotateX(120deg) rotateZ(0deg);\n  opacity: 0;\n  cursor: pointer;\n}\n\nlabel .center > div {\n  position: absolute;\n  width: 8px;\n  height: 8px;\n  opacity: 0;\n}\n\n.input:checked + label .center > div {\n  opacity: 1;\n}\n\nlabel .center > div:nth-child(1) {\n  bottom: 0;\n  right: 0;\n  border-right: 1px solid #48e9ff;\n  border-bottom: 1px solid #48e9ff;\n}\n\nlabel .center > div:nth-child(2) {\n  right: 0;\n  border-right: 1px solid #48e9ff;\n  border-top: 1px solid #48e9ff;\n}\n\nlabel .center > div:nth-child(3) {\n  bottom: 0;\n  border-left: 1px solid #48e9ff;\n  border-bottom: 1px solid #48e9ff;\n}\n\nlabel .center > div:nth-child(4) {\n  left: 0;\n  border-left: 1px solid #48e9ff;\n  border-top: 1px solid #48e9ff;\n}\n\n.input:checked + label {\n  opacity: 1;\n  width: 40px;\n  height: 40px;\n  transform: rotateX(120deg) rotateZ(45deg);\n}\n\n.input:checked ~ .top {\n  transform: rotateX(120deg) rotateZ(45deg) translateZ(12px) !important;\n}\n\n.top,\n.bottom {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  width: 12px;\n  height: 12px;\n  opacity: 0;\n  transform: rotateX(120deg) rotateZ(45deg) translateZ(0px);\n}\n\n.input:checked ~ .top,\n.input:checked ~ .bottom {\n  background: #48e9ff;\n  transition: all 0.4s ease-in-out;\n  opacity: 1;\n}\n\n.input:checked ~ .bottom {\n  transform: rotateX(120deg) rotateZ(45deg) translateZ(-24px);\n  z-index: -1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

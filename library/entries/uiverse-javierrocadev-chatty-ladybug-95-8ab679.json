@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-javierrocadev-chatty-ladybug-95-8ab679",
+  "title": "Form by Javierrocadev (chatty-ladybug-95)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/chatty-ladybug-95",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "blue",
+    "login-form"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Javierrocadev_chatty-ladybug-95.html",
+  "code": "<!-- From Uiverse.io by Javierrocadev - Tags: blue, form, login form, tailwind -->\n<div id=\"login\" class=\"w-64 h-80 bg-indigo-50 rounded shadow flex flex-col justify-between p-3\">       \n    <form class=\"text-indigo-500\" action=\"\" method=\"post\">\n        <fieldset class=\"border-4 border-dotted border-indigo-500 p-5\">\n            <legend class=\"px-2 italic -mx-2\">Welcome again!</legend>\n             <label class=\"text-xs font-bold after:content-['*'] after:text-red-400\" for=\"email\">Mail </label>     \n            <input class=\"w-full p-2 mb-2 mt-1 outline-none ring-none focus:ring-2 focus:ring-indigo-500\" type=\"email\" required=\"\">   \n            <label class=\"text-xs font-bold after:content-['*'] after:text-red-400\" for=\"password\">Password  </label>\n            <input class=\"w-full p-2 mb-2 mt-1 outline-none ring-none focus:ring-2 focus:ring-indigo-500\" type=\"password\" required=\"\">\n            <a href=\"#\" class=\"block text-right text-xs text-indigo-500 text-right mb-4\">Forgot Password?</a>\n            <button class=\"w-full rounded bg-indigo-500 text-indigo-50 p-2 text-center font-bold hover:bg-indigo-400\">Log In</button>\n        </fieldset>\n         </form>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-siyu1017-wise-yak-7-30e85a",
+  "title": "Button by Siyu1017 (wise-yak-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Siyu1017/wise-yak-7",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "awesome"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Siyu1017 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Siyu1017_wise-yak-7.html",
+  "code": "<button class=\"button\">Awesome Button</button>\n\n<style>\n/* From Uiverse.io by Siyu1017  - Tags: button, awesome */\n.button {\n  --color-1: #e5fb6a;\n  --color-2: #2bf46e;\n  --color-1-shadow: #e5fb6a23;\n  --color-2-shadow: #2bf46e23;\n  --color-1-shadow-focus: #e5fb6a67;\n  --color-2-shadow-focus: #2bf46e67;\n  cursor: pointer;\n  padding: 1rem 1.5rem;\n  border-radius: 0.75rem;\n  border: 0;\n  font-size: 1rem;\n  background-image: linear-gradient(\n    to right bottom,\n    var(--color-1) 0%,\n    var(--color-2) 100%\n  );\n  box-shadow:\n    -4px -4px 16px 8px var(--color-1-shadow),\n    4px 4px 16px 8px var(--color-2-shadow);\n  transition: all 0.3s cubic-bezier(0.6, 0.12, 0.39, 0.83);\n}\n\n.button:hover,\n.button:active,\n.button:focus,\n.button:focus-visible,\n.button:focus-within {\n  box-shadow:\n    -4px -4px 32px 4px var(--color-1-shadow-focus),\n    4px 4px 32px 4px var(--color-2-shadow-focus);\n}\n\n.button:hover {\n  filter: contrast(1.25);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

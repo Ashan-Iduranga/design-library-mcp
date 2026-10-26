@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-seyed-mohsen-mousavi-cuddly-newt-70-6c0d5e",
+  "title": "Button by seyed-mohsen-mousavi (cuddly-newt-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/seyed-mohsen-mousavi/cuddly-newt-70",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "shadow",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By seyed-mohsen-mousavi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/seyed-mohsen-mousavi_cuddly-newt-70.html",
+  "code": "<button class=\"button\">Hover Me</button>\n\n<style>\n/* From Uiverse.io by seyed-mohsen-mousavi  - Tags: button, hover, shadow, hover effect */\n.button {\n  cursor: pointer;\n  padding: 10px;\n  border: outset;\n  width: 100px;\n  height: 40px;\n  transition: ease-in-out 0.3s;\n}\n\n.button:hover {\n  padding: 10px;\n  width: 105px;\n  height: 45px;\n  background-color: #3e3e3e;\n  font-size: 13px;\n  font-weight: bold;\n  color: white;\n  -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;\n  animation: shadow-pop-tr 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;\n}\n\n@-webkit-keyframes shadow-pop-tr {\n  0% {\n    -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e,\n      0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;\n    box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e,\n      0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;\n    -webkit-transform: translateX(0) translateY(0);\n    transform: translateX(0) translateY(0);\n  }\n  100% {\n    -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e,\n      4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e,\n      8px -8px #3e3e3e;\n    box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e,\n      4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e,\n      8px -8px #3e3e3e;\n    -webkit-transform: translateX(-8px) translateY(8px);\n    transform: translateX(-8px) translateY(8px);\n  }\n}\n@keyframes shadow-pop-tr {\n  0% {\n    -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e,\n      0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;\n    box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e,\n      0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;\n    -webkit-transform: translateX(0) translateY(0);\n    transform: translateX(0) translateY(0);\n  }\n  100% {\n    -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e,\n      4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e,\n      8px -8px #3e3e3e;\n    box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e,\n      4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e,\n      8px -8px #3e3e3e;\n    -webkit-transform: translateX(-8px) translateY(8px);\n    transform: translateX(-8px) translateY(8px);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-javierrocadev-warm-moth-60-5374d4",
+  "title": "Button by Javierrocadev (warm-moth-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/warm-moth-60",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "purple",
+    "hover",
+    "hover-effect",
+    "hoverme",
+    "hover-button"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Javierrocadev_warm-moth-60.html",
+  "code": "<!-- From Uiverse.io by Javierrocadev  - Tags: purple, button, hover, hover effect, hoverme, hover button, tailwind -->\n<button\n  class=\"overflow-hidden relative w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group\"\n>\n  Hover me!\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left\"\n  ></span>\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-purple-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left\"\n  ></span>\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-purple-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left\"\n  ></span>\n  <span\n    class=\"group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10\"\n    >Explore!</span\n  >\n</button>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-purple-bullfrog-80-5a6c05",
+  "title": "Loader by Yaya12085 (purple-bullfrog-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/purple-bullfrog-80",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Yaya12085_purple-bullfrog-80.html",
+  "code": "<div aria-label=\"Loading...\" role=\"status\" class=\"loader\">\n  <svg class=\"icon\" viewBox=\"0 0 256 256\">\n    <line x1=\"128\" y1=\"32\" x2=\"128\" y2=\"64\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"24\"></line>\n    <line x1=\"195.9\" y1=\"60.1\" x2=\"173.3\" y2=\"82.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"24\"></line>\n    <line x1=\"224\" y1=\"128\" x2=\"192\" y2=\"128\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"24\"></line>\n    <line x1=\"195.9\" y1=\"195.9\" x2=\"173.3\" y2=\"173.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"24\"></line>\n    <line x1=\"128\" y1=\"224\" x2=\"128\" y2=\"192\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"24\"></line>\n    <line x1=\"60.1\" y1=\"195.9\" x2=\"82.7\" y2=\"173.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"24\"></line>\n    <line x1=\"32\" y1=\"128\" x2=\"64\" y2=\"128\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"24\"></line>\n    <line x1=\"60.1\" y1=\"60.1\" x2=\"82.7\" y2=\"82.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"24\"></line>\n  </svg>\n  <span class=\"loading-text\">Loading...</span>\n</div>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: loader */\n.loader {\n  display: flex;\n  align-items: center;\n}\n\n.icon {\n  height: 1.5rem;\n  width: 1.5rem;\n  animation: spin 1s linear infinite;\n  stroke: rgba(107, 114, 128, 1);\n}\n\n.loading-text {\n  font-size: 0.75rem;\n  line-height: 1rem;\n  font-weight: 500;\n  color: rgba(107, 114, 128, 1);\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

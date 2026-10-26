@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-peary74-tough-panther-45-70ef73",
+  "title": "Button by Peary74 (tough-panther-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Peary74/tough-panther-45",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "neumorphism",
+    "delete"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Peary74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Peary74_tough-panther-45.html",
+  "code": "<div class=\"del\">\n    <div>\n      Delete\n    </div>     \n</div>\n\t\t\n<style>\n/* From Uiverse.io by Peary74 - Tags: neumorphism, button, delete */\n.del {\n  position: relative;\n  top: 0;\n  left: 0;\n  width: 160px;\n  height: 50px;\n  margin: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.del div {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: none;\n  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),\n              -4px -4px 6px 0 rgba(116, 125, 136, .5), \n    inset -4px -4px 6px 0 rgba(255,255,255,.2),\n    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 30px;\n  letter-spacing: 1px;\n  color: #ff0000;\n  z-index: 1;\n  transition: .6s;\n}\n\n.del:hover div {\n  letter-spacing: 4px;\n  color: #fff;\n  background: #ff0000;\n}\n\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

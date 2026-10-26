@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-pagination-input-field-and-button",
+  "title": "Pagination: Input field and button (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/pagination/#input-field-and-button",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "pagination",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This example can be used to introduce the page number inside the input field and navigate by clicking on a button.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/pagination.md",
+  "code": "<nav aria-label=\"Page navigation example\">\n  <form class=\"mx-auto flex items-center space-x-3\">\n    <div class=\"flex items-center space-x-2\">\n        <label for=\"visitors\" class=\"text-sm font-medium text-heading shrink-0\">Go to</label>\n        <input type=\"text\" id=\"visitors\" class=\"bg-neutral-secondary-medium w-10 border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block px-2.5 py-2 shadow-xs placeholder:text-body\" placeholder=\"99\" />\n        <span class=\"text-sm font-medium text-heading\">page</span>\n    </div>\n    <button type=\"submit\" class=\"text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none\">Go</button>\n  </form>\n</nav>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

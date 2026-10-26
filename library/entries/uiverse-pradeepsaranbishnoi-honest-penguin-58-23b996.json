@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-honest-penguin-58-23b996",
+  "title": "Toggle by Pradeepsaranbishnoi (honest-penguin-58)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/honest-penguin-58",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "skeuomorphism",
+    "switch",
+    "realistic"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Pradeepsaranbishnoi_honest-penguin-58.html",
+  "code": "<input name=\"switch\" id=\"switch\" type=\"checkbox\">\n  <label class=\"switch\" for=\"switch\"></label>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: skeuomorphism, switch, realistic */\n#switch {\n  visibility: hidden;\n  clip: rect(0 0 0 0);\n  position: absolute;\n  left: 9999px;\n}\n\n.switch {\n  display: block;\n  width: 130px;\n  height: 60px;\n  margin: 70px auto;\n  position: relative;\n  background: #ced8da;\n  background: linear-gradient(left,  #ced8da 0%,#d8e0e3 29%,#ccd4d7 34%,#d4dcdf 62%,#fff9f4 68%,#e1e9ec 74%,#b7bfc2 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ced8da', endColorstr='#b7bfc2',GradientType=1 );\n  transition: all 0.2s ease-out;\n  cursor: pointer;\n  border-radius: 0.35em;\n  box-shadow: 0 0 1px 2px rgba(0,0,0,0.7),\n    inset 0 2px 0 rgba(255,255,255,0.6),\n    inset 0 -1px 0 1px rgba(0,0,0,0.3),\n    0 8px 10px rgba(0,0,0,0.15);\n}\n\n.switch:before {\n  display: block;\n  position: absolute;\n  left: -35px;\n  right: -35px;\n  top: -25px;\n  bottom: -25px;\n  z-index: -2;\n  content: \"\";\n  border-radius: 0.4em;\n  background: #d5dde0;\n  background: linear-gradient(#d7dfe2, #bcc7cd);\n  box-shadow: inset 0 2px 0 rgba(255,255,255,0.6),\n    inset 0 -1px 1px 1px rgba(0,0,0,0.3),\n    0 0 8px 2px rgba(0,0,0,0.2),\n    0 2px 4px 2px rgba(0,0,0,0.1);\n  pointer-events: none;\n  transition: all 0.2s ease-out;\n}\n\n.switch:after {\n  content: \"\";\n  position: absolute;\n  right: -25px;\n  top: 50%;\n  width: 16px;\n  height: 16px;\n  border-radius: 50%;\n  background: #788b91;\n  margin-top: -8px;\n  z-index: -1;\n  box-shadow: inset 0 -1px 8px rgba(0,0,0,0.7),\n    inset 0 -2px 2px rgba(0,0,0,0.2),\n    0 1px 0 white,\n    0 -1px 0 rgba(0,0,0,0.5),\n    -47px 32px 15px 13px rgba(0,0,0,0.25);\n}\n\n#switch:checked ~ .switch {\n  background: #b7bfc2;\n  background: linear-gradient(to right, #b7bfc2 0%,#e1e9ec 26%,#fff9f4 32%,#d4dcdf 38%,#ccd4d7 66%,#d8e0e3 71%,#ced8da 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7bfc2', endColorstr='#ced8da',GradientType=1 );\n}\n\n#switch:checked ~ .switch:after {\n  background: #b1ffff;\n  box-shadow: inset 0 -1px 8px rgba(0,0,0,0.7),\n    inset 0 -2px 2px rgba(0,0,0,0.2),\n    0 1px 0 white,\n    0 -1px 0 rgba(0,0,0,0.5),\n    -110px 32px 15px 13px rgba(0,0,0,0.25);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

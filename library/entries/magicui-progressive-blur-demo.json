@@ -1,0 +1,36 @@
+{
+  "id": "magicui-progressive-blur-demo",
+  "title": "Progressive Blur Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/progressive-blur",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "progressive",
+    "blur",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing progressive blur effect for scrollable content.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/progressive-blur-demo.tsx",
+  "code": "\"use client\"\n\nimport { ScrollArea } from \"@/components/ui/scroll-area\"\nimport { ProgressiveBlur } from \"@/registry/magicui/progressive-blur\"\n\nexport default function ProgressiveBlurDemo() {\n  return (\n    <div className=\"relative w-full rounded-xl border\">\n      <ScrollArea className=\"relative h-[400px] overflow-hidden\">\n        <div className=\"flex flex-col gap-2 p-4\">\n          {Array.from({ length: 20 }).map((_, index) => (\n            <div\n              key={index}\n              className=\"bg-card flex h-20 w-full items-center justify-center rounded-xl border\"\n            >\n              {index}\n            </div>\n          ))}\n        </div>\n        <ProgressiveBlur position=\"bottom\" height=\"40%\" />\n      </ScrollArea>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-sourcesketch-strange-catfish-68-75ac17",
+  "title": "Loader by Sourcesketch (strange-catfish-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Sourcesketch/strange-catfish-68",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "neumorphism",
+    "spinner",
+    "circle-loader",
+    "creative",
+    "effect-loader",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Sourcesketch on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Sourcesketch_strange-catfish-68.html",
+  "code": "<div class=\"container\">\n  <div class=\"dot dot-1\"></div>\n  <div class=\"dot dot-2\"></div>\n  <div class=\"dot dot-3\"></div>\n</div>\n\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <filter id=\"goo\">\n      <feGaussianBlur\n        result=\"blur\"\n        stdDeviation=\"10\"\n        in=\"SourceGraphic\"\n      ></feGaussianBlur>\n      <feColorMatrix\n        values=\"1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -7\"\n        mode=\"matrix\"\n        in=\"blur\"\n      ></feColorMatrix>\n    </filter>\n  </defs>\n</svg>\n\n<style>\n/* From Uiverse.io by Sourcesketch  - Tags: neumorphism, loader, spinner, circle loader, creative, effect loader, loading animation */\n.container {\n  width: 200px;\n  height: 200px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  margin: auto;\n  filter: url(\"#goo\");\n  animation: rotate-move 2s ease-in-out infinite;\n}\n\n.dot {\n  width: 70px;\n  height: 70px;\n  border-radius: 50%;\n  background-color: #000;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin: auto;\n}\n\n.dot-3 {\n  background-color: #ff1717;\n  animation: dot-3-move 2s ease infinite, index 6s ease infinite;\n}\n\n.dot-2 {\n  background-color: #0051ff;\n  animation: dot-2-move 2s ease infinite, index 6s -4s ease infinite;\n}\n\n.dot-1 {\n  background-color: #ffc400;\n  animation: dot-1-move 2s ease infinite, index 6s -2s ease infinite;\n}\n\n@keyframes dot-3-move {\n  20% {\n    transform: scale(1);\n  }\n  45% {\n    transform: translateY(-18px) scale(0.45);\n  }\n  60% {\n    transform: translateY(-90px) scale(0.45);\n  }\n  80% {\n    transform: translateY(-90px) scale(0.45);\n  }\n  100% {\n    transform: translateY(0px) scale(1);\n  }\n}\n\n@keyframes dot-2-move {\n  20% {\n    transform: scale(1);\n  }\n  45% {\n    transform: translate(-16px, 12px) scale(0.45);\n  }\n  60% {\n    transform: translate(-80px, 60px) scale(0.45);\n  }\n  80% {\n    transform: translate(-80px, 60px) scale(0.45);\n  }\n  100% {\n    transform: translateY(0px) scale(1);\n  }\n}\n\n@keyframes dot-1-move {\n  20% {\n    transform: scale(1);\n  }\n  45% {\n    transform: translate(16px, 12px) scale(0.45);\n  }\n  60% {\n    transform: translate(80px, 60px) scale(0.45);\n  }\n  80% {\n    transform: translate(80px, 60px) scale(0.45);\n  }\n  100% {\n    transform: translateY(0px) scale(1);\n  }\n}\n\n@keyframes rotate-move {\n  55% {\n    transform: translate(-50%, -50%) rotate(0deg);\n  }\n  80% {\n    transform: translate(-50%, -50%) rotate(360deg);\n  }\n  100% {\n    transform: translate(-50%, -50%) rotate(360deg);\n  }\n}\n\n@keyframes index {\n  0%,\n  100% {\n    z-index: 3;\n  }\n  33.3% {\n    z-index: 2;\n  }\n  66.6% {\n    z-index: 1;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

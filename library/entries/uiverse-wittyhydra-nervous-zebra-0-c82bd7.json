@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-wittyhydra-nervous-zebra-0-c82bd7",
+  "title": "Notification by WittyHydra (nervous-zebra-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/WittyHydra/nervous-zebra-0",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By WittyHydra on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Notifications/WittyHydra_nervous-zebra-0.html",
+  "code": "<div class=\"notification\">\n  <div class=\"notification-top\">\n    <span class=\"level-up\">Level Up!</span>\n  </div>\n  <div class=\"notification-bottom\">\n    <span class=\"level\">Level 5</span>\n    <button class=\"next-level-button\">Next Level</button>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by WittyHydra - Tags: notification */\n.notification {\n  --bg-color: #fff;\n  --text-color: #1c1f2b;\n  --highlight-color: #fc9a32;\n  --button-color: #3d3f4e;\n  --button-color-hover: #27282f;\n  position: relative;\n  width: 300px;\n  height: 100px;\n  background-color: var(--bg-color);\n  border-radius: 10px;\n  -webkit-box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);\n  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);\n  overflow: hidden;\n}\n\n@media (prefers-color-scheme: dark) {\n  .notification {\n    --bg-color: #1c1f2b;\n    --text-color: #fff;\n    --highlight-color: #fc9a32;\n    --button-color: #3d3f4e;\n    --button-color-hover: #27282f;\n  }\n}\n\n.notification-top {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 50%;\n  background-color: var(--highlight-color);\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  -webkit-transform: translateY(-100%);\n  -ms-transform: translateY(-100%);\n  transform: translateY(-100%);\n  -webkit-animation: slide-down 1s ease-out forwards;\n  animation: slide-down 1s ease-out forwards;\n}\n\n.notification-bottom {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 50%;\n  background-color: var(--bg-color);\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: justify;\n  -ms-flex-pack: justify;\n  justify-content: space-between;\n  padding: 20px;\n}\n\n.level-up {\n  color: var(--text-color);\n  font-size: 24px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  -webkit-animation: rotate-text 1s ease-in-out;\n  animation: rotate-text 1s ease-in-out;\n}\n\n.level {\n  color: var(--text-color);\n  font-size: 20px;\n  font-weight: bold;\n  margin-right: 10px;\n}\n\n.next-level-button {\n  background-color: var(--button-color);\n  color: var(--text-color);\n  border: none;\n  border-radius: 5px;\n  padding: 8px 16px;\n  cursor: pointer;\n  -webkit-transition: background-color 0.3s ease-out;\n  transition: background-color 0.3s ease-out;\n}\n\n.next-level-button {\n  background-color: #efefef;\n  color: #000;\n  font-weight: 600;\n  padding: 5px 10px;\n  border: none;\n  border-radius: 5px;\n  -webkit-transition: all 0.3s ease-in-out;\n  transition: all 0.3s ease-in-out;\n  -webkit-box-shadow: 0px 0px 10px #888888;\n  box-shadow: 0px 0px 10px #888888;\n}\n\n@-webkit-keyframes slide-down {\n  from {\n    -webkit-transform: translateY(-100%);\n    transform: translateY(-100%);\n  }\n\n  to {\n    -webkit-transform: translateY(0);\n    transform: translateY(0);\n  }\n}\n\n@keyframes slide-down {\n  from {\n    -webkit-transform: translateY(-100%);\n    transform: translateY(-100%);\n  }\n\n  to {\n    -webkit-transform: translateY(0);\n    transform: translateY(0);\n  }\n}\n\n@-webkit-keyframes rotate-text {\n  0% {\n    -webkit-transform: rotateX(90deg);\n    transform: rotateX(90deg);\n    opacity: 0;\n  }\n\n  100% {\n    -webkit-transform: rotateX(0);\n    transform: rotateX(0);\n    opacity: 1;\n  }\n}\n\n@keyframes rotate-text {\n  0% {\n    -webkit-transform: rotateX(90deg);\n    transform: rotateX(90deg);\n    opacity: 0;\n  }\n\n  100% {\n    -webkit-transform: rotateX(0);\n    transform: rotateX(0);\n    opacity: 1;\n  }\n}\n\n.next-level-button:hover {\n  background-color: aqua;\n  color: #000;\n  -webkit-transform: scale(1.1);\n  -ms-transform: scale(1.1);\n  transform: scale(1.1);\n  -webkit-box-shadow: 0px 0px 15px #888888;\n  box-shadow: 0px 0px 15px #888888;\n}\n\n.notification {\n  background-color: #1e2b3c;\n  color: #c3daf6;\n}\n\n.notification:hover {\n  background-color: #c3daf6;\n  color: #1e2b3c;\n}\n\n.next-level-button:hover {\n  background-color: #1e2b3c;\n  color: #c3daf6;\n}\n\n/* Light Mode */\n.notification {\n  background-color: #c3daf6;\n  color: #1e2b3c;\n}\n\n.notification:hover {\n  background-color: #1e2b3c;\n  color: #c3daf6;\n}\n\n.next-level-button:hover {\n  background-color: #c3daf6;\n  color: #1e2b3c;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

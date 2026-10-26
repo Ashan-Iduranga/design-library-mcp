@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-stepper-default-stepper",
+  "title": "Stepper: Default stepper (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/stepper/#default-stepper",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "stepper",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a list of form steps with a number and title of the step in a horizontal alignment.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/stepper.md",
+  "code": "<ol class=\"flex items-center w-full text-sm font-medium text-center text-body sm:text-base\">\n    <li class=\"flex md:w-full items-center text-fg-brand sm:after:content-[''] after:w-full after:h-1 after:border-b after:border-default after:border-px after:hidden sm:after:inline-block after:mx-6 xl:after:mx-10\">\n        <span class=\"flex items-center after:content-['/'] sm:after:hidden after:mx-2 after:text-fg-disabled\">\n            <svg class=\"w-5 h-5 me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n            Personal <span class=\"hidden sm:inline-flex sm:ms-2\">Info</span>\n        </span>\n    </li>\n    <li class=\"flex md:w-full items-center after:content-[''] after:w-full after:h-1 after:border-b after:border-default after:border-px after:hidden sm:after:inline-block after:mx-6 xl:after:mx-10\">\n        <span class=\"flex items-center after:content-['/'] sm:after:hidden after:mx-2 after:text-fg-disabled\">\n            <span class=\"me-2\">2</span>\n            Account <span class=\"hidden sm:inline-flex sm:ms-2\">Info</span>\n        </span>\n    </li>\n    <li class=\"flex items-center\">\n        <span class=\"me-2\">3</span>\n        Confirmation\n    </li>\n</ol>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

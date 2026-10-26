@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vikas7754-honest-falcon-30-6c2563",
+  "title": "Button by vikas7754 (honest-falcon-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikas7754/honest-falcon-30",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d-button",
+    "mac-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikas7754 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vikas7754_honest-falcon-30.html",
+  "code": "<div class=\"container\">\n  <button class=\"btn cmd\">\n    <svg\n      fill=\"#fff\"\n      version=\"1.1\"\n      id=\"Capa_1\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n      width=\"20px\"\n      height=\"20px\"\n      viewBox=\"0 0 80 80\"\n      xml:space=\"preserve\"\n    >\n      <g>\n        <path\n          d=\"M64,48L64,48h-8V32h8c8.836,0,16-7.164,16-16S72.836,0,64,0c-8.837,0-16,7.164-16,16v8H32v-8c0-8.836-7.164-16-16-16\n\t\tS0,7.164,0,16s7.164,16,16,16h8v16h-8l0,0l0,0C7.164,48,0,55.164,0,64s7.164,16,16,16c8.837,0,16-7.164,16-16l0,0v-8h16v7.98\n\t\tc0,0.008-0.001,0.014-0.001,0.02c0,8.836,7.164,16,16,16s16-7.164,16-16S72.836,48.002,64,48z M64,8c4.418,0,8,3.582,8,8\n\t\ts-3.582,8-8,8h-8v-8C56,11.582,59.582,8,64,8z M8,16c0-4.418,3.582-8,8-8s8,3.582,8,8v8h-8C11.582,24,8,20.417,8,16z M16,72\n\t\tc-4.418,0-8-3.582-8-8s3.582-8,8-8l0,0h8v8C24,68.418,20.418,72,16,72z M32,48V32h16v16H32z M64,72c-4.418,0-8-3.582-8-8l0,0v-8\n\t\th7.999c4.418,0,8,3.582,8,8S68.418,72,64,72z\"\n        ></path>\n      </g>\n    </svg>\n    command\n  </button>\n  <a href=\"https://freecodez.com/post/7jypdpp\" class=\"btn c\">C</a>\n</div>\n\n<style>\n/* From Uiverse.io by vikas7754  - Tags: button, 3d button, mac button */\n.container {\n  background: #ff6f6f;\n  border-radius: 15px;\n  padding: 15px;\n  display: flex;\n  gap: 15px;\n  box-shadow: 3px 5px 10px #ff7a7a, inset 3px 0 0 #ff5751d6,\n    inset -3px 0 0 #ff5751d6, inset 0 3px 0 #ffffff23, inset 0 -3px 0 #00000023;\n}\n.btn {\n  text-decoration: none;\n  border: none;\n  outline: none;\n  background: #ff6f6f;\n  padding: 10px;\n  box-shadow: 0 0 5px #0000005a, 2px 2px 3px #00000078,\n    inset 1px 1px 2px #ffffff9d;\n  border-radius: 10px;\n  color: #fff;\n  font-size: 16px;\n  font-weight: 500;\n  cursor: pointer;\n  transition: all 0.2s;\n  font-family: sans-serif;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.btn:focus {\n  animation: 0.3s clicked linear;\n}\n.cmd {\n  display: flex;\n  gap: 10px;\n  flex-direction: column;\n  justify-content: center;\n  align-items: flex-end;\n}\n.c {\n  width: 75px;\n  font-size: 1.5rem;\n}\n@keyframes clicked {\n  0% {\n    transform: scale(1);\n  }\n  50% {\n    transform: scale(0.95);\n    box-shadow: 0 0 5px #00000067, inset 0 0 3px #ffffff78;\n  }\n  100% {\n    transform: scale(1);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

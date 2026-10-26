@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-doniaskima-wet-parrot-70-b746d3",
+  "title": "Loader by doniaskima (wet-parrot-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/wet-parrot-70",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "material-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_wet-parrot-70.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: simple, material design, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 80px;\n  height: 70px;\n  border: 5px solid #000;\n  padding: 0 8px;\n  box-sizing: border-box;\n  background: linear-gradient(#fff 0 0) 0    0/8px 20px,\n    linear-gradient(#fff 0 0) 100% 0/8px 20px,\n    radial-gradient(farthest-side,#fff 90%,#0000) 0 5px/8px 8px content-box,\n    #000;\n  background-repeat: no-repeat;\n  animation: l3 2s infinite linear;\n}\n\n@keyframes l3 {\n  25% {\n    background-position: 0 0   ,100% 100%,100% calc(100% - 5px)\n  }\n\n  50% {\n    background-position: 0 100%,100% 100%,0    calc(100% - 5px)\n  }\n\n  75% {\n    background-position: 0 100%,100%    0,100% 5px\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

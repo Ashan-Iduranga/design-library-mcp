@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-r7chardgh-shaggy-octopus-89-2dd0e1",
+  "title": "Button by r7chardgh (shaggy-octopus-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/r7chardgh/shaggy-octopus-89",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "glitch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By r7chardgh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/r7chardgh_shaggy-octopus-89.html",
+  "code": "<button class=\"button\">\n  glitch\n</button>\n<style>\n/* From Uiverse.io by r7chardgh - Tags: button, hover, glitch */\n.button {\n  position: relative;\n  border: 0;\n  padding: 1em 2em;\n  font-weight: 700;\n  cursor: pointer;\n  outline: .5em solid #fff;\n  outline-offset: -.3em;\n  color: #fff;\n  background-color: #333;\n  text-transform: uppercase;\n}\n\n.button:hover {\n  animation: shake 500ms infinite,glitch 400ms infinite steps(4);\n}\n\n@keyframes shake {\n  0% {\n  }\n\n  25% {\n    transform: translate(-.1em,-.1em);\n  }\n\n  50% {\n    transform: translate(.3em,0);\n  }\n\n  75% {\n    transform: translate(0,.3em);\n  }\n\n  100% {\n  }\n}\n\n@keyframes glitch {\n  from {\n    box-shadow: .8em .8em  rgba(240, 84, 219),\n  -.8em -.8em rgba(84, 240, 232);\n  }\n\n  to {\n    text-shadow: .3em .2em  rgba(240, 84, 219),\n  -.3em -.2em rgba(84, 240, 232);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

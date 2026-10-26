@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-seyed-mohsen-mousavi-red-panda-0-70e2db",
+  "title": "Tooltip by seyed-mohsen-mousavi (red-panda-0)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/seyed-mohsen-mousavi/red-panda-0",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "hover",
+    "text-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By seyed-mohsen-mousavi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/seyed-mohsen-mousavi_red-panda-0.html",
+  "code": "<div class=\"tooltip-container\">\n  <span class=\"tooltip\">\n    <div class=\"table center\">\n      <div class=\"monitor-wrapper center\">\n        <div class=\"monitor center\">\n          <p>\n            Uiverse.io :) Lorem ipsum dolor sit amet, consectetur adipiscing\n            elit, sed do eiusmod tempor incididunt ut labore et dolore magna\n            aliqua.\n          </p>\n        </div>\n      </div>\n    </div>\n  </span>\n  <span class=\"text\">Hover Me</span>\n</div>\n\n<style>\n/* From Uiverse.io by seyed-mohsen-mousavi  - Tags: tooltip, hover, text animation */\n/* This is an example, feel free to delete this code */\n.tooltip-container {\n  --background: #050321;\n  position: relative;\n  background: var(--background);\n  cursor: pointer;\n  transition: all 0.2s;\n  font-size: 17px;\n  padding: 0.7em 1.8em;\n  color: white;\n  border: 5px solid #344151;\n  -webkit-transition: border 0.3s ease;\n  -moz-transition: border 0.1s ease;\n  -o-transition: border 0.3s ease;\n  -ms-transition: border 0.3s ease;\n  font-family: monospace;\n  border-radius: 1px;\n}\n\n.tooltip {\n  position: absolute;\n  top: 0;\n  right: 135%;\n  transform: translateX(-50%);\n  padding: 0.3em 0.6em;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s;\n}\n\n.tooltip-container:hover {\n  border: 5px solid #cacdd0;\n}\n.text {\n  font-weight: 600;\n}\n.tooltip-container:hover .tooltip {\n  top: -100%;\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n}\n\n/* tooltip content */\n.center {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n}\n\n.table {\n  width: 290px;\n  height: 20px;\n}\n\n.table .monitor-wrapper {\n  background: #050321;\n  width: 270px;\n  height: 30px;\n  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);\n}\n\n.table .monitor-wrapper .monitor {\n  width: 200px;\n  height: 22px;\n  background-color: #344151;\n  overflow: hidden;\n  white-space: nowrap;\n  box-shadow: inset 0px 5px 10px 2px rgba(0, 0, 0, 0.3);\n}\n\n.table .monitor-wrapper .monitor p {\n  font-family: \"VT323\", monospace;\n  font-size: 18px;\n  position: relative;\n  display: inline-block;\n  color: #ebb55f;\n}\n\n.tooltip-container:hover .table .monitor-wrapper .monitor p {\n  animation: move 30s infinite linear;\n}\n\n@keyframes move {\n  from {\n    left: 250px;\n  }\n\n  to {\n    left: -4800px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

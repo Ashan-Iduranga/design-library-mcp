@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ke1221-dangerous-puma-90-33da50",
+  "title": "Checkbox by ke1221 (dangerous-puma-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ke1221/dangerous-puma-90",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ke1221 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/ke1221_dangerous-puma-90.html",
+  "code": "<input checked=\"\" class=\"check\" type=\"checkbox\">\n<style>\n/* From Uiverse.io by ke1221 - Tags: checkbox */\n.check {\n position: relative;\n width: 20px;\n height: 20px;\n border-radius: 2px;\n appearance: none;\n background-color: #bbb;\n transition: all .3s;\n}\n\n.check::before {\n content: '';\n position: absolute;\n border: solid #fff;\n display: block;\n width: .3em;\n height: .6em;\n border-width: 0 .2em .2em 0;\n z-index: 1;\n opacity: 0;\n right: calc(50% - .3em);\n top: calc(50% - .6em);\n transform: rotate(0deg);\n transition: all .3s;\n transform-origin: center center;\n}\n\n.check:checked {\n animation: a .3s ease-in forwards;\n background-color: rgb(120, 190, 120);\n}\n\n.check:checked::before {\n opacity: 1;\n transform: rotate(405deg);\n}\n\n@keyframes a {\n 0% {\n  opacity: 1;\n  transform: scale(1) rotateY(0deg);\n }\n\n 50% {\n  opacity: 0;\n  transform: scale(.8) rotateY(180deg);\n }\n\n 100% {\n  opacity: 1;\n  transform: scale(1) rotateY(360deg);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

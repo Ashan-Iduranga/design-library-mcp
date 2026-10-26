@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-lists-unordered-list-3",
+  "title": "Lists: Unordered list 3 (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/typography/lists/#unordered-list",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "list",
+    "lists",
+    "typography",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to create a default unordered list of items using the `list-disc` class.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/typography/lists.md",
+  "code": "<ul class=\"space-y-4 text-body list-disc list-inside\">\n    <li>\n        List item one\n        <ol class=\"ps-5 mt-2 space-y-1 list-decimal list-inside\">\n            <li>You might feel like you are being really \"organized\" o</li>\n            <li>Nested navigation in UIs is a bad idea too, keep things as flat as possible.</li>\n            <li>Nesting tons of folders in your source code is also not helpful.</li>\n        </ol>\n    </li>\n    <li>\n        List item two\n        <ul class=\"ps-5 mt-2 space-y-1 list-decimal list-inside\">\n            <li>I'm not sure if we'll bother styling more than two levels deep.</li>\n            <li>Two is already too much, three is guaranteed to be a bad idea.</li>\n            <li>If you nest four levels deep you belong in prison.</li>\n        </ul>\n    </li>\n    <li>\n        List item three\n        <ul class=\"ps-5 mt-2 space-y-1 list-decimal list-inside\">\n            <li>Again please don't nest lists if you want</li>\n            <li>Nobody wants to look at this.</li>\n            <li>I'm upset that we even have to bother styling this.</li>\n        </ul>\n    </li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jaydipprajapati1910-neat-newt-18-32ab4f",
+  "title": "Toggle by JaydipPrajapati1910 (neat-newt-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/neat-newt-18",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "toggle-switch",
+    "am/pm"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/JaydipPrajapati1910_neat-newt-18.html",
+  "code": "<div class=\"btn-container\">\n\t\n\t\t\t<label class=\"switch btn-color-mode-switch\">\n\t\t        <input value=\"1\" id=\"color_mode\" name=\"color_mode\" type=\"checkbox\">\n\t\t        <label class=\"btn-color-mode-switch-inner\" data-off=\"AM\" data-on=\"PM\" for=\"color_mode\"></label>\n\t\t    </label>\n        \n\t</div>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: switch, toggle switch, AM/PM */\n.btn-container {\n  display: table-cell;\n  vertical-align: middle;\n  text-align: center;\n}\n\n.btn-color-mode-switch {\n  display: inline-block;\n  margin: 0px;\n  position: relative;\n}\n\n.btn-color-mode-switch > label.btn-color-mode-switch-inner {\n  margin: 0px;\n  width: 140px;\n  height: 40px;\n  background-color: #fcce8a;\n  border-radius: 26px;\n  overflow: hidden;\n  position: relative;\n  transition: all 0.3s ease;\n    /*box-shadow: 0px 0px 8px 0px rgba(17, 17, 17, 0.34) inset;*/\n  display: block;\n}\n\n.btn-color-mode-switch > label.btn-color-mode-switch-inner:before {\n  content: attr(data-on);\n  position: absolute;\n  font-size: 20px;\n  font-weight: 600;\n  top: 7px;\n  right: 20px;\n  color: #222;\n}\n\n.btn-color-mode-switch > label.btn-color-mode-switch-inner:after {\n  content: attr(data-off);\n  width: 70px;\n  height: 25px;\n  background: #fff;\n  border-radius: 26px;\n  position: absolute;\n  font-size: 20px;\n  display: flex;\n  justify-content: center;\n  left: 2px;\n  top: 2px;\n  text-align: center;\n  transition: all 0.3s ease;\n  box-shadow: 0px 0px 6px -2px #111;\n  padding: 5px 0px;\n  color: #222;\n  font-weight: 600;\n}\n\n.btn-color-mode-switch input[type=\"checkbox\"] {\n  cursor: pointer;\n  width: 50px;\n  height: 25px;\n  opacity: 0;\n  position: absolute;\n  top: 0;\n  z-index: 1;\n  margin: 0px;\n}\n\n.btn-color-mode-switch input[type=\"checkbox\"]:checked + label.btn-color-mode-switch-inner {\n  background-color: #fcce8a;\n}\n\n.btn-color-mode-switch input[type=\"checkbox\"]:checked + label.btn-color-mode-switch-inner:after {\n  content: attr(data-on);\n  left: 68px;\n}\n\n.btn-color-mode-switch input[type=\"checkbox\"]:checked + label.btn-color-mode-switch-inner:before {\n  content: attr(data-off);\n  right: auto;\n  left: 20px;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

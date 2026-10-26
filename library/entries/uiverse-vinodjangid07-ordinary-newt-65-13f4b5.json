@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vinodjangid07-ordinary-newt-65-13f4b5",
+  "title": "Card by vinodjangid07 (ordinary-newt-65)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/ordinary-newt-65",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "add",
+    "balance",
+    "money"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/vinodjangid07_ordinary-newt-65.html",
+  "code": "<div class=\"walletBalanceCard\">\n  <div class=\"svgwrapper\">\n    <svg viewBox=\"0 0 24 26\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect\n        x=\"0.539915\"\n        y=\"6.28937\"\n        width=\"21\"\n        height=\"4\"\n        rx=\"1.5\"\n        transform=\"rotate(-4.77865 0.539915 6.28937)\"\n        fill=\"#7D6B9D\"\n        stroke=\"black\"\n      ></rect>\n      <circle\n        cx=\"11.5\"\n        cy=\"5.5\"\n        r=\"4.5\"\n        fill=\"#E7E037\"\n        stroke=\"#F9FD50\"\n        stroke-width=\"2\"\n      ></circle>\n      <path\n        d=\"M2.12011 6.64507C7.75028 6.98651 12.7643 6.94947 21.935 6.58499C22.789 6.55105 23.5 7.23329 23.5 8.08585V24C23.5 24.8284 22.8284 25.5 22 25.5H2C1.17157 25.5 0.5 24.8284 0.5 24V8.15475C0.5 7.2846 1.24157 6.59179 2.12011 6.64507Z\"\n        fill=\"#BF8AEB\"\n        stroke=\"black\"\n      ></path>\n      <path\n        d=\"M16 13.5H23.5V18.5H16C14.6193 18.5 13.5 17.3807 13.5 16C13.5 14.6193 14.6193 13.5 16 13.5Z\"\n        fill=\"#BF8AEB\"\n        stroke=\"black\"\n      ></path>\n    </svg>\n  </div>\n\n  <div class=\"balancewrapper\">\n    <span class=\"balanceHeading\">Wallet balance</span>\n    <p class=\"balance\"><span id=\"currency\">₹</span>890.12</p>\n  </div>\n\n  <button class=\"addmoney\"><span class=\"plussign\">+</span>Add Money</button>\n</div>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: card, add, balance, money */\n.walletBalanceCard {\n  width: fit-content;\n  height: 55px;\n  background-color: #1c1f2f;\n  border-radius: 10px;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  gap: 12px;\n  padding: 0px 12px;\n  font-family: Arial, Helvetica, sans-serif;\n}\n.svgwrapper {\n  width: 28px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.svgwrapper svg {\n  width: 100%;\n}\n.balancewrapper {\n  display: flex;\n  align-items: flex-start;\n  justify-content: flex-start;\n  flex-direction: column;\n  width: 120px;\n  gap: 0px;\n}\n.balanceHeading {\n  font-size: 8px;\n  color: rgb(214, 214, 214);\n  font-weight: 100;\n  letter-spacing: 0.6px;\n}\n.balance {\n  font-size: 13.5px;\n  color: white;\n  font-weight: 600;\n  letter-spacing: 0.5px;\n}\n\n.addmoney {\n  padding: 1px 15px;\n  border-radius: 20px;\n  background-color: #c083eb;\n  color: white;\n  border: none;\n  font-size: 12px;\n  cursor: pointer;\n  transition: all 0.3s;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 5px;\n}\n.addmoney:hover {\n  background-color: whitesmoke;\n  color: #9c59cc;\n}\n.plussign {\n  font-size: 20px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

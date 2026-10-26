@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-arshshaikh06-dull-newt-33-b1b011",
+  "title": "Card by arshshaikh06 (dull-newt-33)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/arshshaikh06/dull-newt-33",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "fluid",
+    "animated",
+    "colorful",
+    "palette",
+    "card-hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By arshshaikh06 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/arshshaikh06_dull-newt-33.html",
+  "code": "<div class=\"container\">\n  <div class=\"palette\">\n    <div id=\"color1\" class=\"color\">\n      <span>#CECE5A</span>\n    </div>\n    <div id=\"color2\" class=\"color\">\n      <span>#FFE17B</span>\n    </div>\n    <div id=\"color3\" class=\"color\">\n      <span>#FD8D14</span>\n    </div>\n    <div id=\"color4\" class=\"color\">\n      <span>#C51605</span>\n    </div>\n    <div id=\"color-code\">\n      <div id=\"color-code-bg\"></div>\n      <div id=\"color-code-text\"></div>\n    </div>\n  </div>\n<div id=\"footer\">\n<div id=\"bookmarks\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <path d=\"M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z\"></path>\n</svg>\n    <span>53421</span>\n    </div>\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <circle cx=\"12\" cy=\"12\" r=\"1\"></circle>\n  <circle cx=\"19\" cy=\"12\" r=\"1\"></circle>\n  <circle cx=\"5\" cy=\"12\" r=\"1\"></circle>\n</svg>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by arshshaikh06 - Tags: card, fluid, animated, colorful, palette, card hover */\n.container {\n  width: 300px;\n  height: 340px;\n  border-radius: 1em;\n  overflow: hidden;\n  box-shadow: 0 10px 20px #dbdbdb;\n  font-family: sans-serif;\n  background: white;\n  pointer-events: none;\n}\n\n.palette {\n  position: relative;\n  width: 300px;\n  height: 300px;\n  border-radius: 1rem;\n  overflow: hidden;\n  pointer-events: auto;\n}\n\n.palette:hover > #color-code {\n  opacity: 0;\n}\n\n.color {\n  position: absolute;\n  width: 300px;\n  height: 300px;\n  transform-origin: center;\n  transition: 0.3s ease-in-out;\n  box-sizing: inline-block;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.color span {\n  color: white;\n  font-weight: 600;\n  letter-spacing: 1px;\n}\n\n#color1 {\n  background: #CECE5A;\n  rotate: 45deg;\n  translate: 212.13px 0;\n  outline: 0 solid #CECE5A;\n  z-index: 9;\n}\n\n#color1:hover {\n  translate: 0 0;\n  rotate: 0deg;\n  z-index: 99;\n  outline: 20px solid #CECE5A;\n}\n\n#color2 {\n  background: #FFE17B;\n  rotate: 45deg;\n  translate: 0 212.13px;\n  outline: 0 solid #FFE17B;\n  z-index: 9;\n}\n\n#color2:hover {\n  translate: 0 0;\n  rotate: 0deg;\n  z-index: 99;\n  outline: 20px solid #FFE17B;\n}\n\n#color2 span {\n  color: #1A1A1A;\n}\n\n#color3 {\n  background: #FD8D14;\n  rotate: 45deg;\n  translate: -212.13px 0;\n  outline: 0 solid #FD8D14;\n  z-index: 9;\n}\n\n#color3:hover {\n  translate: 0 0;\n  rotate: 0deg;\n  z-index: 99;\n  outline: 20px solid #FD8D14;\n}\n\n#color4 {\n  background: #C51605;\n  rotate: 45deg;\n  translate: 0 -212.13px;\n  outline: 0 solid #C51605;\n  z-index: 9;\n}\n\n#color4:hover {\n  translate: 0 0;\n  rotate: 0deg;\n  z-index: 99;\n  outline: 20px solid #C51605;\n}\n\n#color-code {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 40px;\n  height: 40px;\n  translate: 130px 130px;\n  border-radius: 20px;\n  overflow: hidden;\n  z-index: 199;\n  opacity: 1;\n  transition: 0.3s ease-in-out;\n}\n\n#color-code-bg {\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: rgba(255, 255, 255, 0.8);\n  filter: blur(10px);\n}\n\n#color-code-text {\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n#color-code-text::after {\n  content: \"v2\";\n  font-weight: 600;\n  font-family: sans-serif;\n  color: #1a1a1a;\n}\n\n#footer {\n  height: 12%;\n  width: 100%;\n  background: white;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 0 1em;\n  box-sizing: border-box;\n  color: #bebebe;\n}\n\n#footer svg {\n  scale: 0.75;\n}\n\n#footer #bookmarks {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: smaller;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

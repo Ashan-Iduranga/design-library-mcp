@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-doniaskima-pretty-dolphin-47-82f462",
+  "title": "Loader by doniaskima (pretty-dolphin-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/pretty-dolphin-47",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "material-design",
+    "neumorphism"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_pretty-dolphin-47.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: simple, material design, neumorphism, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  height: 60px;\n  aspect-ratio: 1;\n  position: relative;\n}\n\n.loader::before,\n.loader::after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  border-radius: 50%;\n  transform-origin: bottom;\n}\n\n.loader::after {\n  background: radial-gradient(at 75% 15%,#fffb,#0000 35%),\n    radial-gradient(at 80% 40%,#0000,#0008),\n    radial-gradient(circle  5px,#fff 94%,#0000),\n    radial-gradient(circle 10px,#000 94%,#0000),\n    linear-gradient(#F93318 0 0) top   /100% calc(50% - 5px),\n    linear-gradient(#fff    0 0) bottom/100% calc(50% - 5px)\n    #000;\n  background-repeat: no-repeat;\n  animation: l20 1s infinite cubic-bezier(0.5,120,0.5,-120);\n}\n\n.loader::before {\n  background: #ddd;\n  filter: blur(8px);\n  transform: scaleY(0.4) translate(-13px, 0px);\n}\n\n@keyframes l20 {\n \n  30%,70% {\n    transform: rotate(0deg)\n  }\n\n  49.99% {\n    transform: rotate(0.2deg)\n  }\n\n  50% {\n    transform: rotate(-0.2deg)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

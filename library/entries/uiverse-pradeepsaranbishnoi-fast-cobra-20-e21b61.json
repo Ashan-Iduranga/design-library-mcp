@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-fast-cobra-20-e21b61",
+  "title": "Loader by Pradeepsaranbishnoi (fast-cobra-20)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/fast-cobra-20",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Pradeepsaranbishnoi_fast-cobra-20.html",
+  "code": "<div class=\"loader\">\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n</div>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: loader */\n/* The loader container */\n.loader {\n  width: 200px;\n  height: 200px;\n  perspective: 200px;\n}\n\n\n/* The dot */\n.dot {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 120px;\n  height: 120px;\n  margin-top: -60px;\n  margin-left: -60px;\n  border-radius: 100px;\n  border: 40px outset #1e3f57;\n  transform-origin: 50% 50%;\n  transform: rotateX(24deg) rotateY(20deg) rotateZ(0deg) translateZ(-25px);\n  background-color: transparent;\n  animation: dot1 1000ms cubic-bezier(.49,.06,.43,.85) infinite;\n}\n\n.dot:nth-child(2) {\n  width: 140px;\n  height: 140px;\n  margin-top: -70px;\n  margin-left: -70px;\n  border-width: 30px;\n  border-color: #447891;\n  animation-name: dot2;\n  animation-delay: 75ms;\n  box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.1);\n  transform: rotateX(24deg) rotateY(20deg) rotateZ(0deg) translateZ(-25px);\n}\n\n.dot:nth-child(3) {\n  width: 160px;\n  height: 160px;\n  margin-top: -80px;\n  margin-left: -80px;\n  border-width: 20px;\n  border-color: #6bb2cd;\n  animation-name: dot3;\n  animation-delay: 150ms;\n  box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.1);\n  transform: rotateX(24deg) rotateY(20deg) rotateZ(0deg) translateZ(-25px);\n}\n\n@keyframes dot1 {\n  0% {\n    border-color: #1e3f57;\n    transform: rotateX(24deg) rotateY(20deg) rotateZ(0deg) translateZ(-25px);\n  }\n\n  50% {\n    border-color: #1e574f;\n    transform: rotateX(20deg) rotateY(20deg) rotateZ(50deg) translateZ(0px);\n  }\n\n  100% {\n    border-color: #1e3f57;\n    transform: rotateX(24deg) rotateY(20deg) rotateZ(0deg) translateZ(-25px);\n  }\n}\n\n@keyframes dot2 {\n  0% {\n    border-color: #447891;\n    box-shadow: inset 0 0 15px 0 rgba(255, 255, 255, 0.2);\n    transform: rotateX(24deg) rotateY(20deg) rotateZ(0deg) translateZ(-25px);\n  }\n\n  50% {\n    border-color: #449180;\n    box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.8);\n    transform: rotateX(20deg) rotateY(20deg) rotateZ(50deg) translateZ(0px);\n  }\n\n  100% {\n    border-color: #447891;\n    box-shadow: inset 0 0 15px 0 rgba(255, 255, 255, 0.2);\n    transform: rotateX(24deg) rotateY(20deg) rotateZ(0deg) translateZ(-25px);\n  }\n}\n\n@keyframes dot3 {\n  0% {\n    border-color: #6bb2cd;\n    box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.1);\n    transform: rotateX(24deg) rotateY(20deg) rotateZ(0deg) translateZ(-25px);\n  }\n\n  50% {\n    border-color: #6bcdb2;\n    box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.8);\n    transform: rotateX(20deg) rotateY(20deg) rotateZ(50deg) translateZ(0px);\n  }\n\n  100% {\n    border-color: #6bb2cd;\n    box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.1);\n    transform: rotateX(24deg) rotateY(20deg) rotateZ(0deg) translateZ(-25px);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

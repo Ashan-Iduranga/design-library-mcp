@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-wlidha09-chilly-mole-32-ce16f3",
+  "title": "Button by Wlidha09 (chilly-mole-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Wlidha09/chilly-mole-32",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Wlidha09 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Wlidha09_chilly-mole-32.html",
+  "code": "<button class=\"btn-white\" href=\"#\">\n  Discover\n</button>\n<style>\n/* From Uiverse.io by Wlidha09 - Tags: button */\n.btn-white {\n  display: inline-flex;\n  align-items: center;\n  color: #fff;\n  border: 1px solid #fff;\n  min-height: 50px;\n  padding: 0 20px;\n  font-size: 17px;\n  text-transform: uppercase;\n  z-index: 1;\n  position: relative;\n  background-color: transparent;\n}\n\n.btn-white::before {\n  content: \"\";\n  background-color: #fff;\n  display: block;\n  width: 45px;\n  height: 1px;\n  margin-right: 20px;\n}\n\n.btn-white::after {\n  content: \"\";\n  background-color: #fff;\n  display: block;\n  width: 0%;\n  height: 100%;\n  right: 0;\n  top: 0;\n  position: absolute;\n  z-index: -1;\n  -webkit-transition: all 0.3s ease-out;\n  -moz-transition: all 0.3s ease-out;\n  -o-transition: all 0.3s ease-out;\n  transition: all 0.3s ease-out;\n}\n\n.btn-white:hover {\n  color: #232963;\n  text-decoration: none;\n  -webkit-transition: all 0.3s ease-out;\n  -moz-transition: all 0.3s ease-out;\n  -o-transition: all 0.3s ease-out;\n  transition: all 0.3s ease-out;\n}\n\n.btn-white:hover::after {\n  width: 100%;\n  -webkit-transition: all 0.3s ease-out;\n  -moz-transition: all 0.3s ease-out;\n  -o-transition: all 0.3s ease-out;\n  transition: all 0.3s ease-out;\n}\n\n.btn-white:hover::before {\n  background-color: #232963;\n  -webkit-transition: all 0.3s ease-out;\n  -moz-transition: all 0.3s ease-out;\n  -o-transition: all 0.3s ease-out;\n  transition: all 0.3s ease-out;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

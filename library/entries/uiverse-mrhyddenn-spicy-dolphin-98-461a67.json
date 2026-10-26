@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-spicy-dolphin-98-461a67",
+  "title": "Loader by mrhyddenn (spicy-dolphin-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/spicy-dolphin-98",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_spicy-dolphin-98.html",
+  "code": "<div class=\"loader\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background: linear-gradient(#ee280e, #15a0f7, #6ed15a);\n  animation: animate7712 1.2s linear infinite;\n}\n\n@keyframes animate7712 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.loader span {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background: linear-gradient(#ee280e, #15a0f7, #5ad15a);\n}\n\n.loader:after {\n  content: '';\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  right: 10px;\n  bottom: 10px;\n  background: #333;\n  border: solid #333 10px;\n  border-radius: 50%;\n}\n\n.loader span:nth-child(1) {\n  filter: blur(5px);\n}\n\n.loader span:nth-child(2) {\n  filter: blur(10px);\n}\n\n.loader span:nth-child(3) {\n  filter: blur(25px);\n}\n\n.loader span:nth-child(4) {\n  filter: blur(50px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

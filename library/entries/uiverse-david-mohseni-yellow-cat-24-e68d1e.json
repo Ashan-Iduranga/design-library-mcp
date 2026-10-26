@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-david-mohseni-yellow-cat-24-e68d1e",
+  "title": "Loader by david-mohseni (yellow-cat-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/david-mohseni/yellow-cat-24",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By david-mohseni on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/david-mohseni_yellow-cat-24.html",
+  "code": "<div class=\"loader\">\n    <div class=\"bar1\"></div>\n    <div class=\"bar2\"></div>\n    <div class=\"bar3\"></div>\n    <div class=\"bar4\"></div>\n    <div class=\"bar5\"></div>\n    <div class=\"bar6\"></div>\n    <div class=\"bar7\"></div>\n    <div class=\"bar8\"></div>\n    <div class=\"bar9\"></div>\n    <div class=\"bar10\"></div>\n    <div class=\"bar11\"></div>\n    <div class=\"bar12\"></div>\n</div>\n<style>\n/* From Uiverse.io by david-mohseni - Tags: loader */\n.loader {\n  position: relative;\n  width: 54px;\n  height: 54px;\n  border-radius: 10px;\n}\n\n.loader div {\n  width: 8%;\n  height: 24%;\n  background: rgb(128, 128, 128);\n  position: absolute;\n  left: 50%;\n  top: 30%;\n  opacity: 0;\n  border-radius: 50px;\n  box-shadow: 0 0 3px rgba(0,0,0,0.2);\n  animation: fade458 1s linear infinite;\n}\n\n@keyframes fade458 {\n  from {\n    opacity: 1;\n  }\n\n  to {\n    opacity: 0.25;\n  }\n}\n\n.loader .bar1 {\n  transform: rotate(0deg) translate(0, -130%);\n  animation-delay: 0s;\n}\n\n.loader .bar2 {\n  transform: rotate(30deg) translate(0, -130%);\n  animation-delay: -1.1s;\n}\n\n.loader .bar3 {\n  transform: rotate(60deg) translate(0, -130%);\n  animation-delay: -1s;\n}\n\n.loader .bar4 {\n  transform: rotate(90deg) translate(0, -130%);\n  animation-delay: -0.9s;\n}\n\n.loader .bar5 {\n  transform: rotate(120deg) translate(0, -130%);\n  animation-delay: -0.8s;\n}\n\n.loader .bar6 {\n  transform: rotate(150deg) translate(0, -130%);\n  animation-delay: -0.7s;\n}\n\n.loader .bar7 {\n  transform: rotate(180deg) translate(0, -130%);\n  animation-delay: -0.6s;\n}\n\n.loader .bar8 {\n  transform: rotate(210deg) translate(0, -130%);\n  animation-delay: -0.5s;\n}\n\n.loader .bar9 {\n  transform: rotate(240deg) translate(0, -130%);\n  animation-delay: -0.4s;\n}\n\n.loader .bar10 {\n  transform: rotate(270deg) translate(0, -130%);\n  animation-delay: -0.3s;\n}\n\n.loader .bar11 {\n  transform: rotate(300deg) translate(0, -130%);\n  animation-delay: -0.2s;\n}\n\n.loader .bar12 {\n  transform: rotate(330deg) translate(0, -130%);\n  animation-delay: -0.1s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

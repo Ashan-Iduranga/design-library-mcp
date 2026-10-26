@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-priyanshugupta28-soft-goose-97-49fe74",
+  "title": "Checkbox by PriyanshuGupta28 (soft-goose-97)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/soft-goose-97",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "cool-checkbox",
+    "tick-checkbox"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/PriyanshuGupta28_soft-goose-97.html",
+  "code": "<div class=\"checkbox-wrapper\">\n  <label class=\"container\">\n    <input type=\"checkbox\" checked=\"checked\">\n    <div class=\"checkmark\"></div>\n  </label>\n</div>\n\n  \n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: checkbox, cool checkbox, tick checkbox */\n.checkbox-wrapper *,\n  .checkbox-wrapper ::after,\n  .checkbox-wrapper ::before {\n  box-sizing: border-box;\n}\n\n.checkbox-wrapper .container input {\n  opacity: 1;\n  -webkit-appearance: none;\n  cursor: pointer;\n  height: 50px;\n  width: 50px;\n  box-shadow: -10px -10px 15px rgba(255,255,255,0.5),\n    10px 10px 15px rgba(0,0,70,0.12);\n  border-radius: 50%;\n  border: 8px solid #ececec;\n  outline: none;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: .5s;\n}\n\n.checkbox-wrapper .container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.checkbox-wrapper .container input::after {\n  transition: .5s;\n  font-family: monospace;\n  content: '';\n  color: #7a7a7a;\n  font-size: 25px;\n  left: 0.45em;\n  top: 0.25em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid #7a7a7a;\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n}\n\n.checkbox-wrapper .container input:checked {\n  box-shadow: -10px -10px 15px rgba(255,255,255,0.5),\n    10px 10px 15px rgba(70,70,70,0.12),\n    inset -10px -10px 15px rgba(216, 212, 212, 0.5),\n    inset 10px 10px 15px rgba(70,70,70,0.12);\n  transition: .5s;\n}\n\n.checkbox-wrapper .container input:checked::after {\n  transition: .5s;\n  border: solid #15bae3;\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-andrew-demchenk0-polite-stingray-67-1bed76",
+  "title": "Input by andrew-demchenk0 (polite-stingray-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/polite-stingray-67",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "shadow",
+    "password"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/andrew-demchenk0_polite-stingray-67.html",
+  "code": "<input type=\"password\" placeholder=\"Password\" name=\"text\" class=\"input\">\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: input, shadow, password */\n.input {\n  --input-focus: #2d8cf0;\n  --font-color: #323232;\n  --font-color-sub: #666;\n  --bg-color: #fff;\n  --main-color: #323232;\n  width: 200px;\n  height: 40px;\n  border-radius: 5px;\n  border: 2px solid var(--main-color);\n  background-color: var(--bg-color);\n  box-shadow: 4px 4px var(--main-color);\n  font-size: 15px;\n  font-weight: 600;\n  color: var(--font-color);\n  padding: 5px 10px;\n  outline: none;\n}\n\n.input::placeholder {\n  color: var(--font-color-sub);\n  opacity: 0.8;\n}\n\n.input:focus {\n  border: 2px solid var(--input-focus);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

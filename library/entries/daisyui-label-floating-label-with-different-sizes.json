@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-label-floating-label-with-different-sizes",
+  "title": "Label: Floating Label with Different Sizes (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/label/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "label",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Label is used to provide a name or title for an input field. Label can be placed before or after the field.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/label/+page.md",
+  "code": "<label class=\"floating-label\">\n  <input type=\"text\" placeholder=\"Extra Small\" class=\"input input-xs\" />\n  <span>Extra Small</span>\n</label>\n<label class=\"floating-label\">\n  <input type=\"text\" placeholder=\"Small\" class=\"input input-sm\" />\n  <span>Small</span>\n</label>\n<label class=\"floating-label\">\n  <input type=\"text\" placeholder=\"Medium\" class=\"input input-md\" />\n  <span>Medium</span>\n</label>\n<label class=\"floating-label\">\n  <input type=\"text\" placeholder=\"Large\" class=\"input input-lg\" />\n  <span>Large</span>\n</label>\n<label class=\"floating-label\">\n  <input type=\"text\" placeholder=\"Extra Large\" class=\"input input-xl\" />\n  <span>Extra Large</span>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-fanishah-wicked-wasp-20-abe805",
+  "title": "Loader by fanishah (wicked-wasp-20)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/fanishah/wicked-wasp-20",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By fanishah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/fanishah_wicked-wasp-20.html",
+  "code": "<svg class=\"gegga\">\n    <defs>\n        <filter id=\"gegga\">\n            <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"7\" result=\"blur\"></feGaussianBlur>\n            <feColorMatrix in=\"blur\" mode=\"matrix\" values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 20 -10\" result=\"inreGegga\"></feColorMatrix>\n            <feComposite in=\"SourceGraphic\" in2=\"inreGegga\" operator=\"atop\"></feComposite>\n        </filter>\n    </defs>\n</svg>\n<svg class=\"snurra\" width=\"200\" height=\"200\" viewBox=\"0 0 200 200\">\n    <defs>\n        <linearGradient id=\"linjärGradient\">\n            <stop class=\"stopp1\" offset=\"0\"></stop>\n            <stop class=\"stopp2\" offset=\"1\"></stop>\n        </linearGradient>\n        <linearGradient y2=\"160\" x2=\"160\" y1=\"40\" x1=\"40\" gradientUnits=\"userSpaceOnUse\" id=\"gradient\" xlink:href=\"#linjärGradient\"></linearGradient>\n    </defs>\n    <path class=\"halvan\" d=\"m 164,100 c 0,-35.346224 -28.65378,-64 -64,-64 -35.346224,0 -64,28.653776 -64,64 0,35.34622 28.653776,64 64,64 35.34622,0 64,-26.21502 64,-64 0,-37.784981 -26.92058,-64 -64,-64 -37.079421,0 -65.267479,26.922736 -64,64 1.267479,37.07726 26.703171,65.05317 64,64 37.29683,-1.05317 64,-64 64,-64\"></path>\n    <circle class=\"strecken\" cx=\"100\" cy=\"100\" r=\"64\"></circle>\n</svg>\n<svg class=\"skugga\" width=\"200\" height=\"200\" viewBox=\"0 0 200 200\">\n    <path class=\"halvan\" d=\"m 164,100 c 0,-35.346224 -28.65378,-64 -64,-64 -35.346224,0 -64,28.653776 -64,64 0,35.34622 28.653776,64 64,64 35.34622,0 64,-26.21502 64,-64 0,-37.784981 -26.92058,-64 -64,-64 -37.079421,0 -65.267479,26.922736 -64,64 1.267479,37.07726 26.703171,65.05317 64,64 37.29683,-1.05317 64,-64 64,-64\"></path>\n    <circle class=\"strecken\" cx=\"100\" cy=\"100\" r=\"64\"></circle>\n</svg>\n<style>\n/* From Uiverse.io by fanishah - Tags: loader */\n.gegga {\n  width: 0;\n}\n\n.snurra {\n  filter: url(#gegga);\n}\n\n.stopp1 {\n  stop-color: #f700a8;\n}\n\n.stopp2 {\n  stop-color: #ff8000;\n}\n\n.halvan {\n  animation: Snurra1 10s infinite linear;\n  stroke-dasharray: 180 800;\n  fill: none;\n  stroke: url(#gradient);\n  stroke-width: 23;\n  stroke-linecap: round;\n}\n\n.strecken {\n  animation: Snurra1 3s infinite linear;\n  stroke-dasharray: 26 54;\n  fill: none;\n  stroke: url(#gradient);\n  stroke-width: 23;\n  stroke-linecap: round;\n}\n\n.skugga {\n  filter: blur(5px);\n  opacity: 0.3;\n  position: absolute;\n  transform: translate(3px, 3px);\n}\n\n@keyframes Snurra1 {\n  0% {\n    stroke-dashoffset: 0;\n  }\n\n  100% {\n    stroke-dashoffset: -403px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

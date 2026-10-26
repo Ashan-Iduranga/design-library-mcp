@@ -1,0 +1,35 @@
+{
+  "id": "hyperui-application-radio-groups-2-dark",
+  "title": "Radio Groups: Base with input (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/radio-groups",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "radio-groups",
+    "hyperui",
+    "form",
+    "group",
+    "radio",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/radio-groups/2-dark.html",
+  "code": "<div class=\"mx-auto max-w-lg p-6\">\n<fieldset class=\"space-y-3\">\n<legend class=\"sr-only\">Delivery</legend>\n<div>\n<label class=\"flex items-center justify-between gap-4 rounded border border-gray-300 bg-white p-3 text-sm font-medium shadow-sm transition-colors hover:bg-gray-50 has-checked:border-blue-600 has-checked:ring-1 has-checked:ring-blue-600 dark:border-gray-600 dark:bg-gray-900 dark:hover:bg-gray-800\" for=\"DeliveryStandard\">\n<div>\n<p class=\"text-gray-700 dark:text-gray-200\">Standard</p>\n<p class=\"text-gray-900 dark:text-white\">Free</p>\n</div>\n<input checked=\"\" class=\"size-5 border-gray-300 dark:border-gray-600 dark:bg-gray-900 dark:ring-offset-gray-900 dark:checked:bg-blue-600\" id=\"DeliveryStandard\" name=\"DeliveryOption\" type=\"radio\" value=\"DeliveryStandard\"/>\n</label>\n</div>\n<div>\n<label class=\"flex items-center justify-between gap-4 rounded border border-gray-300 bg-white p-3 text-sm font-medium shadow-sm transition-colors hover:bg-gray-50 has-checked:border-blue-600 has-checked:ring-1 has-checked:ring-blue-600 dark:border-gray-600 dark:bg-gray-900 dark:hover:bg-gray-800\" for=\"DeliveryPriority\">\n<div>\n<p class=\"text-gray-700 dark:text-gray-200\">Next Day</p>\n<p class=\"text-gray-900 dark:text-white\">£9.99</p>\n</div>\n<input class=\"size-5 border-gray-300 dark:border-gray-600 dark:bg-gray-900 dark:ring-offset-gray-900 dark:checked:bg-blue-600\" id=\"DeliveryPriority\" name=\"DeliveryOption\" type=\"radio\" value=\"DeliveryPriority\"/>\n</label>\n</div>\n</fieldset>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

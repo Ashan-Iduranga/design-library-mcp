@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-forms-form-validation",
+  "title": "Forms: Form validation (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/forms/#form-validation",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "forms",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the following two success and error styles when validation your forms.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/forms.md",
+  "code": "<form class=\"max-w-sm mx-auto\">\n  <div class=\"mb-6\">\n    <label for=\"success\" class=\"block mb-2.5 text-sm font-medium text-fg-success-strong\">Your name</label>\n    <input type=\"text\" id=\"success\" class=\"bg-success-soft border border-success-subtle text-fg-success-strong text-sm rounded-base focus:ring-success focus:border-success block w-full px-3 py-2.5 shadow-xs placeholder:text-fg-success-strong\" placeholder=\"Success input\">\n    <p class=\"mt-2.5 text-sm text-fg-success-strong\"><span class=\"font-medium\">Well done!</span> Some success message.</p>\n  </div>\n  <div class=\"mb-6\">\n    <label for=\"danger\" class=\"block mb-2.5 text-sm font-medium text-fg-danger-strong\">Your name</label>\n    <input type=\"text\" id=\"danger\" class=\"bg-danger-soft border border-danger-subtle text-fg-danger-strong text-sm rounded-base focus:ring-danger focus:border-danger block w-full px-3 py-2.5 shadow-xs placeholder:text-fg-danger-strong\" placeholder=\"Error input\">\n    <p class=\"mt-2.5 text-sm text-fg-danger-strong\"><span class=\"font-medium\">Oh, snapp!</span> Some error message.</p>\n  </div>\n</form>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-tough-baboon-84-a916c5",
+  "title": "Loader by satyamchaudharydev (tough-baboon-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/tough-baboon-84",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/satyamchaudharydev_tough-baboon-84.html",
+  "code": "<div class=\"ball\"></div>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.ball {\n --size: 20px;\n --timing: 0.7s;\n --displace: 70px;\n border-radius: 50%;\n width: var(--size);\n height: var(--size);\n background: #000;\n margin-right: var(--displace);\n animation: animation321 var(--timing) infinite alternate\n    cubic-bezier(0.68, -0.55, 0.265, 1.55);\n}\n\n@keyframes animation321 {\n 0% {\n  background: #4284f3;\n  transform: translateX(var(--displace));\n }\n\n 100% {\n  background: #ea4335;\n  transform: translateX(00px);\n }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

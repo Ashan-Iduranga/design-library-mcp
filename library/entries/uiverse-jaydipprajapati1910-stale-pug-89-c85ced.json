@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-jaydipprajapati1910-stale-pug-89-c85ced",
+  "title": "Loader by JaydipPrajapati1910 (stale-pug-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JaydipPrajapati1910/stale-pug-89",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "line",
+    "line-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JaydipPrajapati1910 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JaydipPrajapati1910_stale-pug-89.html",
+  "code": "<section class=\"container\">\n  <div>\n  <div>\n    <span class=\"one h6\"></span>\n    <span class=\"two h3\"></span>\n  </div>\n</div>\n\n\n<div>\n  <div>\n    <span class=\"one h1\"></span>\n    <span class=\"two h4\"></span>\n  </div>\n</div>\n\n\n<div>\n  <div>\n    <span class=\"one h5\"></span>\n    <span class=\"two h2\"></span>\n  </div>\n</div>\n</section>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: loading, loader, line, line loader */\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.container div {\n  position: absolute;\n  width: 90px;\n  height: 51px;\n}\n\n.container div:nth-of-type(2) {\n  transform: rotate(60deg)\n}\n\n.container div:nth-of-type(3) {\n  transform: rotate(-60deg)\n}\n\n.container div div {\n  width: 100%;\n  height: 100%;\n  position: relative\n}\n\n.container div div span {\n  position: absolute;\n  width: 4px;\n  height: 0%;\n  background: #053146;\n  z-index: 999999;\n}\n\n.h1 {\n  left: 0;\n  animation: load1 7.2s ease infinite;\n}\n\n.h2 {\n  right: 0;\n  animation: load2 7.2s ease .6s infinite;\n}\n\n.h3 {\n  right: 0;\n  animation: load3 7.2s ease 1.2s infinite;\n}\n\n.h4 {\n  right: 0;\n  animation: load4 7.2s ease 1.8s infinite;\n}\n\n.h5 {\n  left: 0;\n  animation: load5 7.2s ease 2.4s infinite;\n}\n\n.h6 {\n  left: 0;\n  animation: load6 7.2s ease 3s infinite;\n}\n\n@keyframes load1 {\n  0% {\n    bottom: 0;\n    height: 0\n  }\n\n  6.944444444% {\n    bottom: 0;\n    height: 100%\n  }\n\n  50% {\n    top: 0;\n    height: 100%\n  }\n\n  59.944444433% {\n    top: 0;\n    height: 0\n  }\n/*   91.6666667%{top:0;height:0%;} */\n}\n\n@keyframes load2 {\n  0% {\n    top: 0;\n    height: 0\n  }\n\n  6.944444444% {\n    top: 0;\n    height: 100%\n  }\n\n  50% {\n    bottom: 0;\n    height: 100%\n  }\n\n  59.944444433% {\n    bottom: 0;\n    height: 0\n  }\n/*   91.6666667%{bottom:0;height:0%} */\n}\n\n@keyframes load3 {\n  0% {\n    top: 0;\n    height: 0\n  }\n\n  6.944444444% {\n    top: 0;\n    height: 100%\n  }\n\n  50% {\n    bottom: 0;\n    height: 100%\n  }\n\n  59.94444443% {\n    bottom: 0;\n    height: 0\n  }\n/*   91.6666667%{bottom:0;height:0%;} */\n}\n\n@keyframes load4 {\n  0% {\n    top: 0;\n    height: 0\n  }\n\n  6.944444444% {\n    top: 0;\n    height: 100%\n  }\n\n  50% {\n    bottom: 0;\n    height: 100%\n  }\n\n  59.94444443% {\n    bottom: 0;\n    height: 0\n  }\n/*   91.6666667%{bottom:0;height:0%;} */\n}\n\n@keyframes load5 {\n  0% {\n    bottom: 0;\n    height: 0\n  }\n\n  6.944444444% {\n    bottom: 0;\n    height: 100%\n  }\n\n  50% {\n    top: 0;\n    height: 100%\n  }\n\n  59.94444443% {\n    top: 0;\n    height: 0\n  }\n/*   91.6666667%{top:0;height:0%;} */\n}\n\n@keyframes load6 {\n  0% {\n    bottom: 0;\n    height: 0\n  }\n\n  6.944444444% {\n    bottom: 0;\n    height: 100%\n  }\n\n  50% {\n    top: 0;\n    height: 100%\n  }\n\n  59.94444443% {\n    top: 0;\n    height: 0\n  }\n/*   91.6666667%{top:0;height:0%;} */\n}\n  \n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

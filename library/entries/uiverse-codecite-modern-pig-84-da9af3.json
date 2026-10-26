@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-codecite-modern-pig-84-da9af3",
+  "title": "Button by Codecite (modern-pig-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Codecite/modern-pig-84",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "gradient",
+    "clean"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Codecite on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Codecite_modern-pig-84.html",
+  "code": "<button class=\"btn\">Hover</button>\n<style>\n/* From Uiverse.io by Codecite - Tags: simple, gradient, button, clean */\n.btn {\n  transition: all 0.3s ease-in-out;\n  font-family: \"Dosis\", sans-serif;\n}\n\n.btn {\n  width: 150px;\n  height: 60px;\n  border-radius: 50px;\n  background-image: linear-gradient(135deg, #feb692 0%, #ea5455 100%);\n  box-shadow: 0 20px 30px -6px rgba(238, 103, 97, 0.5);\n  outline: none;\n  cursor: pointer;\n  border: none;\n  font-size: 24px;\n  color: white;\n}\n\n.btn:hover {\n  transform: translateY(3px);\n  box-shadow: none;\n}\n\n.btn:active {\n  opacity: 0.5;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

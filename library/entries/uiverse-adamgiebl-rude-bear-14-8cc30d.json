@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-adamgiebl-rude-bear-14-8cc30d",
+  "title": "Button by adamgiebl (rude-bear-14)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/adamgiebl/rude-bear-14",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By adamgiebl on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/adamgiebl_rude-bear-14.html",
+  "code": "<button> Button\n</button>\n<style>\n/* From Uiverse.io by adamgiebl - Tags: simple, button, hover */\nbutton {\n  position: relative;\n  display: inline-block;\n  margin: 15px;\n  padding: 15px 30px;\n  text-align: center;\n  font-size: 18px;\n  letter-spacing: 1px;\n  text-decoration: none;\n  color: #725AC1;\n  background: transparent;\n  cursor: pointer;\n  transition: ease-out 0.5s;\n  border: 2px solid #725AC1;\n  border-radius: 10px;\n  box-shadow: inset 0 0 0 0 #725AC1;\n}\n\nbutton:hover {\n  color: white;\n  box-shadow: inset 0 -100px 0 0 #725AC1;\n}\n\nbutton:active {\n  transform: scale(0.9);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

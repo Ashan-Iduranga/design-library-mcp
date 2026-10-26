@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-mi-series-bad-jellyfish-23-a39cd6",
+  "title": "Form by mi-series (bad-jellyfish-23)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mi-series/bad-jellyfish-23",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "simple",
+    "survey-form",
+    "feedback",
+    "survey"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mi-series on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/mi-series_bad-jellyfish-23.html",
+  "code": "<div class=\"testbox\">\n        <form action=\"/\">\n          <p id=\"h1\">Feedback Form</p>\n          <p id=\"h4\">Name</p>\n          <input placeholder=\"Enter your full name\" type=\"text\" class=\"input\">\n          <p id=\"h4\">Email<span>*</span></p>\n          <input placeholder=\"Enter your email\" type=\"text\" class=\"input\">\n          <p id=\"h4\">What is your overall impression?<span>*</span></p>\n          <table>\n            <tbody><tr>\n              <th class=\"first-col\"></th>\n              <th>Very Satisfied</th>\n              <th>Satisfied</th>\n              <th>Unsatisfied</th>\n              <th>Very Unsatisfied</th>\n            </tr>\n            <tr>\n              <td class=\"first-col\">Professional</td>\n              <td><input name=\"point#2\" value=\"none\" type=\"radio\"></td>\n              <td><input name=\"point#2\" value=\"none\" type=\"radio\"></td>\n              <td><input name=\"point#2\" value=\"none\" type=\"radio\"></td>\n              <td><input name=\"point#2\" value=\"none\" type=\"radio\"></td>\n            </tr>\n          </tbody></table>\n          <p id=\"h4\">Feel free to add any other comments or suggestions:</p>\n          <textarea rows=\"5\"></textarea>\n          <div class=\"btn-block\">\n            <button href=\"/\" type=\"submit\">Send Feedback</button>\n          </div>\n        </form>\n      </div>\n<style>\n/* From Uiverse.io by mi-series - Tags: simple, form, survey form, feedback, survey */\nform, p {\n  padding: 0;\n  margin: 0;\n  outline: none;\n  font-family: Roboto, Arial, sans-serif;\n  font-size: 14px;\n  color: #000;\n  line-height: 13px;\n  border-radius: 10px;\n}\n\n#h1 {\n  font-size: 24px;\n  font-weight: 400;\n  text-align: center;\n}\n\n#h4 {\n  margin: 20px 0 2px;\n  color: #000;\n}\n\n.testbox {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: inherit;\n  padding: 80px;\n}\n\nform {\n  width: 100%;\n  padding: 20px;\n  background: #EBEBE1;\n  box-shadow: 0 2px 5px #ccc;\n}\n\n.input {\n  width: calc(100% - 10px);\n  padding: 5px;\n  border: 1px solid #000;\n  border-radius: 3px;\n  vertical-align: middle;\n  background-color: #F7F7F7;\n}\n\n.input:hover, textarea:hover {\n  outline: none;\n  border: 1px solid #000;\n}\n\n.first-name {\n  margin-bottom: 5px;\n}\n\nth, td {\n  width: 21%;\n  padding: 15px 0;\n  border-bottom: 1px solid #ccc;\n  text-align: center;\n  vertical-align: set;\n  line-height: 18px;\n  font-weight: 400;\n  word-break: break-all;\n}\n\n.first-col {\n  width: 16%;\n  text-align: left;\n}\n\ntable {\n  width: 100%;\n}\n\ntextarea {\n  width: calc(100% - 6px);\n  background: #F7F7F7;\n  border-radius: 5px;\n}\n\n.btn-block {\n  margin-top: 20px;\n  text-align: center;\n}\n\nbutton {\n  width: 150px;\n  padding: 10px;\n  border: none;\n  -webkit-border-radius: 5px;\n  -moz-border-radius: 5px;\n  border-radius: 5px;\n  background-color: #F3D153;\n  font-size: 16px;\n  color: #000;\n  cursor: pointer;\n}\n\nbutton:hover {\n  opacity: .9;\n}\n\n@media (min-width: 568px) {\n  th, td {\n    word-break: keep-all;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-vinodjangid07-afraid-wombat-15-e6ac57",
+  "title": "Button by vinodjangid07 (afraid-wombat-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/afraid-wombat-15",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "tooltip",
+    "hover-effect",
+    "fullscreen",
+    "full-window"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_afraid-wombat-15.html",
+  "code": "<button class=\"fullscreen-btn\">\n  <svg viewBox=\"0 0 448 512\" height=\"1em\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path\n      d=\"M32 32C14.3 32 0 46.3 0 64v96c0 17.7 14.3 32 32 32s32-14.3 32-32V96h64c17.7 0 32-14.3 32-32s-14.3-32-32-32H32zM64 352c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7 14.3 32 32 32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H64V352zM320 32c-17.7 0-32 14.3-32 32s14.3 32 32 32h64v64c0 17.7 14.3 32 32 32s32-14.3 32-32V64c0-17.7-14.3-32-32-32H320zM448 352c0-17.7-14.3-32-32-32s-32 14.3-32 32v64H320c-17.7 0-32 14.3-32 32s14.3 32 32 32h96c17.7 0 32-14.3 32-32V352z\"\n    ></path>\n  </svg>\n  <span class=\"tooltip\">Fullscreen</span>\n</button>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: tooltip, button, hover effect, fullscreen, full window */\n.fullscreen-btn {\n  width: 25px;\n  height: 25px;\n  border: none;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: transparent;\n  cursor: pointer;\n  transition: all 0.3s;\n  position: relative;\n  overflow: hidden;\n}\n\n.fullscreen-btn svg {\n  height: 100%;\n}\n.fullscreen-btn:hover {\n  width: 30px;\n  height: 30px;\n  overflow: visible;\n}\n.tooltip {\n  position: absolute;\n  top: -40px;\n  background-color: rgba(0, 0, 0, 0.753);\n  color: white;\n  padding: 5px 10px;\n  border-radius: 5px;\n  font-size: 0.8em;\n  transition: all 0.3s;\n  opacity: 0;\n}\n.fullscreen-btn:hover .tooltip {\n  transform: translateY(2.5px);\n  opacity: 1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

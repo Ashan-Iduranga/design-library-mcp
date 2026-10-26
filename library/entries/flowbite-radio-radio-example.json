@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-radio-radio-example",
+  "title": "Radio: Radio example (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/radio/#radio-example",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the default example of a radio component with the checked and unchecked state.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/radio.md",
+  "code": "<div class=\"flex items-center mb-4\">\n    <input id=\"default-radio-1\" type=\"radio\" value=\"\" name=\"default-radio\" class=\"w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none\">\n    <label for=\"default-radio-1\" class=\"select-none ms-2 text-sm font-medium text-heading\">Default radio</label>\n</div>\n<div class=\"flex items-center\">\n    <input checked id=\"default-radio-2\" type=\"radio\" value=\"\" name=\"default-radio\" class=\"w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none\">\n    <label for=\"default-radio-2\" class=\"select-none ms-2 text-sm font-medium text-heading\">Checked state</label>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

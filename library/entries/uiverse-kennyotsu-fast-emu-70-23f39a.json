@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-kennyotsu-fast-emu-70-23f39a",
+  "title": "Card by kennyotsu (fast-emu-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kennyotsu/fast-emu-70",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "simple",
+    "material-design",
+    "alert",
+    "notification",
+    "warning"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kennyotsu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/kennyotsu_fast-emu-70.html",
+  "code": "<div class=\"notifications-container\">\n  <div class=\"alert\">\n    <div class=\"flex\">\n      <div class=\"flex-shrink-0\">\n        <svg aria-hidden=\"true\" fill=\"currentColor\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 alert-svg\">\n          <path clip-rule=\"evenodd\" d=\"M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z\" fill-rule=\"evenodd\"></path>\n        </svg>\n      </div>\n      <div class=\"alert-prompt-wrap\">\n        <p class=\"text-sm text-yellow-700\">\n          Your trial 18 years of life has expired. Continue by working your sweat off or \n          <a class=\"alert-prompt-link\" href=\"#\">Upgrade To Premium</a>\n        </p>\n    </div>\n  </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by kennyotsu - Tags: simple, material design, alert, notification, warning, card */\n.notifications-container {\n  width: 320px;\n  height: auto;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n}\n\n.flex {\n  display: flex;\n}\n\n.flex-shrink-0 {\n  flex-shrink: 0;\n}\n\n.alert {\n  background-color: rgb(254 252 232);\n  border-left-width: 4px;\n  border-color: rgb(250 204 21);\n  border-radius: 0.375rem;\n  padding: 1rem;\n}\n\n.alert-svg {\n  height: 1.25rem;\n  width: 1.25rem;\n  color: rgb(250 204 21);\n}\n\n.alert-prompt-wrap {\n  margin-left: 0.75rem;\n  color: rgb(202 138 4);\n}\n\n.alert-prompt-link {\n  font-weight: 500;\n  color: rgb(141, 56, 0);\n  text-decoration: underline;\n}\n\n.alert-prompt-link:hover {\n  color: rgb(202 138 4);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

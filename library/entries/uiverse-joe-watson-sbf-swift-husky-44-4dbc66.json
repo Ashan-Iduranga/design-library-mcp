@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-joe-watson-sbf-swift-husky-44-4dbc66",
+  "title": "Button by joe-watson-sbf (swift-husky-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/joe-watson-sbf/swift-husky-44",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By joe-watson-sbf on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/joe-watson-sbf_swift-husky-44.html",
+  "code": "<button class=\"btn\">\n    Hover me\n</button>\n<style>\n/* From Uiverse.io by joe-watson-sbf - Tags: button, hover */\n.btn {\n  font-size: 17px;\n  background: transparent;\n  border: none;\n  padding: 1em 1.5em;\n  color: #ffedd3;\n  text-transform: uppercase;\n  position: relative;\n  transition: .5s ease;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  height: 2px;\n  width: 0;\n  background-color: #ffc506;\n  transition: .5s ease;\n}\n\n.btn:hover {\n  color: #1e1e2b;\n  transition-delay: .5s;\n}\n\n.btn:hover::before {\n  width: 100%;\n}\n\n.btn::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  height: 0;\n  width: 100%;\n  background-color: #ffc506;\n  transition: .4s ease;\n  z-index: -1;\n}\n\n.btn:hover::after {\n  height: 100%;\n  transition-delay: 0.4s;\n  color: aliceblue;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

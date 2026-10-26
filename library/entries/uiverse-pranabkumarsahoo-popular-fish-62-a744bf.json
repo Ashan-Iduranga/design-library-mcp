@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pranabkumarsahoo-popular-fish-62-a744bf",
+  "title": "Button by PranabKumarSahoo (popular-fish-62)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PranabKumarSahoo/popular-fish-62",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PranabKumarSahoo on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/PranabKumarSahoo_popular-fish-62.html",
+  "code": "<button>\n  <span>Button</span>\n</button>\n<style>\n/* From Uiverse.io by PranabKumarSahoo - Tags: button */\nbutton {\n  display: inline-block;\n  border-radius: 4px;\n  background-color: #560af0;\n  border: none;\n  color: #FFFFFF;\n  text-align: center;\n  font-size: 14px;\n  font-weight: bold;\n  padding: 16px;\n  width: 130px;\n  transition: all 0.2s;\n  cursor: pointer;\n  margin: 5px;\n}\n\nbutton span {\n  cursor: pointer;\n  display: inline-block;\n  position: relative;\n  transition: 0.2s;\n}\n\nbutton span:after {\n  content: '»';\n  position: absolute;\n  opacity: 0;\n  top: 0;\n  right: -15px;\n  transition: 0.2s;\n}\n\nbutton:hover span {\n  padding-right: 15px;\n}\n\nbutton:hover span:after {\n  opacity: 1;\n  right: 0;\n}\n\nbutton:hover {\n  color: #560af0;\n  background-color: #FFFFFF;\n  box-shadow: 4px 5px 17px -4px #560af0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-r7chardgh-cold-ape-34-6dba05",
+  "title": "Toggle by r7chardgh (cold-ape-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/r7chardgh/cold-ape-34",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "lever",
+    "mincraft"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By r7chardgh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/r7chardgh_cold-ape-34.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"toggle\">\n  </span>\n</label>\n<style>\n/* From Uiverse.io by r7chardgh - Tags: switch, lever, mincraft */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.toggle {\n  position: relative;\n  display: flex;\n  width: 2.8em;\n  height: 1em;\n  background-color: rgb(165, 165, 165);\n  justify-content: center;\n}\n\n.toggle::before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  width: .8em;\n  height: 2em;\n  margin-bottom: .5em;\n  bottom: 0;\n  background-color: rgb(153, 104, 39);\n  box-shadow: 0 -1em 0 0 rgb(165, 165, 165);\n  transform-origin: bottom;\n  transform: rotateZ(-30deg);\n  transition: transform 150ms;\n}\n\n.switch input:checked + .toggle::before {\n  transform: rotateZ(30deg);\n}\n\n.switch input:checked + .toggle {\n  box-shadow: 0 -1em 2em 0 rgb(230, 111, 111);\n}     \n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

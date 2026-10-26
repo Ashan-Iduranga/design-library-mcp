@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-vinodjangid07-sour-rabbit-84-0dc598",
+  "title": "Checkbox by vinodjangid07 (sour-rabbit-84)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/sour-rabbit-84",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "hover",
+    "toggle",
+    "save",
+    "hover-effect",
+    "pin",
+    "bookmark"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/vinodjangid07_sour-rabbit-84.html",
+  "code": "<label class=\"container\">\n  <input type=\"checkbox\" />\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    fill=\"none\"\n    viewBox=\"0 0 75 100\"\n    class=\"pin\"\n  >\n    <line\n      stroke-width=\"12\"\n      stroke=\"black\"\n      y2=\"100\"\n      x2=\"37\"\n      y1=\"64\"\n      x1=\"37\"\n    ></line>\n    <path\n      stroke-width=\"10\"\n      stroke=\"black\"\n      d=\"M16.5 36V4.5H58.5V36V53.75V54.9752L59.1862 55.9903L66.9674 67.5H8.03256L15.8138 55.9903L16.5 54.9752V53.75V36Z\"\n    ></path>\n  </svg>\n</label>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: hover, checkbox, toggle, save, hover effect, pin, bookmark */\n.container input {\n  display: none;\n}\n.pin {\n  width: 15px;\n  height: auto;\n  transform: rotate(35deg);\n}\n.container {\n  width: 45px;\n  height: 45px;\n  background-color: transparent;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  border-radius: 10px;\n}\n.container input:checked ~ .pin {\n  fill: rgb(179, 139, 255);\n  stroke: white;\n}\n.container input:checked ~ .pin line {\n  stroke: rgb(179, 139, 255);\n}\n.container input:checked ~ .pin path {\n  stroke: rgb(179, 139, 255);\n}\n.container:hover {\n  background-color: rgb(244, 238, 255);\n  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.041);\n}\n.container:active {\n  transform: scale(0.9);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

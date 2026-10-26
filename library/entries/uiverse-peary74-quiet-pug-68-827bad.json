@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-peary74-quiet-pug-68-827bad",
+  "title": "Radio by Peary74 (quiet-pug-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Peary74/quiet-pug-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Peary74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Peary74_quiet-pug-68.html",
+  "code": "<div class=\"radio-input\">\n    <label class=\"radio-component\">\n        <input value=\"value-1\" name=\"RadioV\" class=\"radiostyle\" id=\"value-1\" type=\"radio\">\n      \n      <span class=\"RadioBtn\">\n        <div class=\"radioTxt1\"> Sun &nbsp; </div>\n         <span class=\"crater Krt2\"></span>\n              \n    </span></label>\n    <label class=\"radio-component\">\n        <input value=\"value-2\" name=\"RadioV\" class=\"radiostyle\" id=\"value-2\" type=\"radio\">\n          \n      \n        <span class=\"RadioBtn2\">\n          <div class=\"radioTxt2\">Moon</div>\n              <span class=\"crater Krt1\"></span>\n              <span class=\"crater Krt2\"></span>\n              <span class=\"crater Krt3\"></span>\n          </span>\n      \n    </label>\n    <label class=\"radio-component\">\n        <input value=\"value-3\" name=\"RadioV\" class=\"radiostyle\" id=\"value-3\" type=\"radio\">\n      \n          <span class=\"RadioBtn3\">\n            <div class=\"radioTxt3\">Dark</div>\n             \n              <span class=\"crater Krt3\"></span>\n          </span>\n            \n    </label>\n  </div>\n<style>\n/* From Uiverse.io by Peary74 - Tags: radio */\n.radio-component {\n  display: flex;\n  padding: 15px;\n  cursor: pointer;\n  transition: 0.3s;\n}\n\n.radiostyle {\n  display: none;\n}\n\n.radioTxt1 {\n  padding: 10px 40px;\n  color: #fd9800;\n  font-size: 20px;\n  text-transform: uppercase;\n  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\n}\n\n.radioTxt2 {\n  padding: 10px 40px;\n  color: #7e7e7e;\n  font-size: 20px;\n  text-transform: uppercase;\n  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\n}\n\n.radioTxt3 {\n  padding: 10px 40px;\n  color: #181818;\n  font-size: 20px;\n  text-transform: uppercase;\n  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\n}\n\n.radio-component .RadioBtn:hover {\n  background: #ffdf6a;\n  border-radius: 100px;\n}\n\n.radio-component .RadioBtn2:hover {\n  background: #cacaca;\n  border-radius: 100px;\n}\n\n.radio-component .RadioBtn3:hover {\n  background: #313239;\n  border-radius: 100px;\n}\n\n.radiostyle:checked~ .RadioBtn {\n  display: inline-block;\n  position: relative;\n  z-index: 1;\n  top: 3px;\n  left: 30px;\n  width: 44px;\n  height: 44px;\n  background-color: #ffd401;\n  border-radius: 50px;\n  box-shadow: 0 2px 6px rgba(0, 0, 0, .3);\n  transition: all 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);\n  transform: rotate(-45deg);\n}\n\n.radiostyle:checked~ .RadioBtn2 {\n  display: inline-block;\n  position: relative;\n  z-index: 1;\n  top: 3px;\n  left: 30px;\n  width: 44px;\n  height: 44px;\n  background-color: #e8e8e8;\n  border-radius: 50px;\n  box-shadow: 0 2px 6px rgba(0, 0, 0, .3);\n  transition: all 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);\n  transform: rotate(-45deg);\n}\n\n.radiostyle:checked~ .RadioBtn3 {\n  display: inline-block;\n  position: relative;\n  z-index: 1;\n  top: 3px;\n  left: 30px;\n  width: 44px;\n  height: 44px;\n  background-color: #000;\n  border-radius: 50px;\n  box-shadow: 0 2px 6px rgba(255, 255, 255, .3);\n  transition: all 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);\n  transform: rotate(-45deg);\n}\n\n.RadioBtn .crater {\n  position: absolute;\n  background-color: #ffbb00;\n  opacity: 1;\n  transition: opacity 200ms ease-in-out;\n  border-radius: 100%;\n}\n\n.RadioBtn2 .crater {\n  position: absolute;\n  background-color: #b4b4b4;\n  opacity: 1;\n  transition: opacity 200ms ease-in-out;\n  border-radius: 100%;\n}\n\n.RadioBtn3 .crater {\n  position: absolute;\n  background-color: #2e2f33;\n  opacity: 1;\n  transition: opacity 200ms ease-in-out;\n  border-radius: 100%;\n}\n\n.radio-component .Krt1 {\n  top: 18px;\n  left: 10px;\n  width: 4px;\n  height: 4px;\n}\n\n.radio-component .Krt2 {\n  top: 28px;\n  left: 22px;\n  width: 6px;\n  height: 6px;\n}\n\n.radio-component .Krt3 {\n  top: 10px;\n  left: 25px;\n  width: 8px;\n  height: 8px;\n}\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n   \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

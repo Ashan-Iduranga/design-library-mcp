@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cssbuttons-io-friendly-dragon-76-a6980a",
+  "title": "Button by cssbuttons-io (friendly-dragon-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cssbuttons-io/friendly-dragon-76",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cssbuttons-io on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/cssbuttons-io_friendly-dragon-76.html",
+  "code": "<button class=\"btn\"> Button\n</button>\n<style>\n/* From Uiverse.io by cssbuttons-io - Tags: button */\n.btn {\n position: relative;\n font-size: 17px;\n text-transform: uppercase;\n text-decoration: none;\n padding: 1em 2.5em;\n display: inline-block;\n border-radius: 6em;\n transition: all .2s;\n border: none;\n font-family: inherit;\n font-weight: 500;\n color: black;\n background-color: white;\n}\n\n.btn:hover {\n transform: translateY(-3px);\n box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);\n}\n\n.btn:active {\n transform: translateY(-1px);\n box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);\n}\n\n.btn::after {\n content: \"\";\n display: inline-block;\n height: 100%;\n width: 100%;\n border-radius: 100px;\n position: absolute;\n top: 0;\n left: 0;\n z-index: -1;\n transition: all .4s;\n}\n\n.btn::after {\n background-color: #fff;\n}\n\n.btn:hover::after {\n transform: scaleX(1.4) scaleY(1.6);\n opacity: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

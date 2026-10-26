@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-radio-horizontal-list-group",
+  "title": "Radio: Horizontal list group (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/radio/#horizontal-list-group",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to group up radio button components inside a list.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/radio.md",
+  "code": "<h3 class=\"mb-4 font-semibold text-heading\">Identification</h3>\n<ul class=\"items-center w-full text-sm font-medium text-heading bg-neutral-primary-soft border border-default rounded-lg sm:flex\">\n    <li class=\"w-full border-b border-default sm:border-b-0 sm:border-r\">\n        <div class=\"flex items-center ps-3\">\n            <input id=\"horizontal-list-radio-license\" type=\"radio\" value=\"\" name=\"list-radio\" class=\"w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none\">\n            <label for=\"horizontal-list-radio-license\" class=\"w-full py-3 select-none ms-2 text-sm font-medium text-heading\">Driver License </label>\n        </div>\n    </li>\n    <li class=\"w-full border-b border-default sm:border-b-0 sm:border-r\">\n        <div class=\"flex items-center ps-3\">\n            <input id=\"horizontal-list-radio-id\" type=\"radio\" value=\"\" name=\"list-radio\" class=\"w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none\">\n            <label for=\"horizontal-list-radio-id\" class=\"w-full py-3 select-none ms-2 text-sm font-medium text-heading\">State ID</label>\n        </div>\n    </li>\n    <li class=\"w-full border-b border-default sm:border-b-0 sm:border-r\">\n        <div class=\"flex items-center ps-3\">\n            <input id=\"horizontal-list-radio-military\" type=\"radio\" value=\"\" name=\"list-radio\" class=\"w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none\">\n            <label for=\"horizontal-list-radio-military\" class=\"w-full py-3 select-none ms-2 text-sm font-medium text-heading\">US Military</label>\n        </div>\n    </li>\n    <li class=\"w-full\">\n        <div class=\"flex items-center ps-3\">\n            <input id=\"horizontal-list-radio-passport\" type=\"radio\" value=\"\" name=\"list-radio\" class=\"w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none\">\n            <label for=\"horizontal-list-radio-passport\" class=\"w-full py-3 select-none ms-2 text-sm font-medium text-heading\">US Passport</label>\n        </div>\n    </li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

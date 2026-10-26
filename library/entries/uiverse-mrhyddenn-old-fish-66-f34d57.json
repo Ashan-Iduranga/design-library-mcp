@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-mrhyddenn-old-fish-66-f34d57",
+  "title": "Toggle by mrhyddenn (old-fish-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/old-fish-66",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/mrhyddenn_old-fish-66.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: switch */\n/* The switch - the box around the slider */\n.switch {\n font-size: 17px;\n position: relative;\n display: inline-block;\n width: 62px;\n height: 35px;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n opacity: 1;\n width: 0;\n height: 0;\n}\n\n/* The slider */\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0px;\n background: #fff;\n transition: .4s;\n border-radius: 30px;\n border: 1px solid #ccc;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 1.9em;\n width: 1.9em;\n border-radius: 16px;\n left: 1.2px;\n top: 0;\n bottom: 0;\n background-color: white;\n box-shadow: 0 2px 5px #999999;\n transition: .4s;\n}\n\ninput:checked + .slider {\n background-color: #5fdd54;\n border: 1px solid transparent;\n}\n\ninput:checked + .slider:before {\n transform: translateX(1.5em);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

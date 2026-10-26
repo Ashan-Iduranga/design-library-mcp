@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-amerss-massive-robin-70-46ca5b",
+  "title": "Loader by Amerss (massive-robin-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Amerss/massive-robin-70",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "smooth",
+    "code",
+    "colorful"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Amerss on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Amerss_massive-robin-70.html",
+  "code": "<!-- From Uiverse.io by Amerss  - Tags: loader, smooth, code, colorful -->\n<div\n  class=\"mx-auto w-[500px] bg-gray-950 rounded-xl overflow-hidden drop-shadow-xl\"\n>\n  <div class=\"bg-[#333] flex items-center p-[5px] text-whitec relative\">\n    <div class=\"flex absolute left-3\">\n      <span class=\"h-3.5 w-3.5 bg-[#ff605c] rounded-xl mr-2\"></span>\n      <span class=\"h-3.5 w-3.5 bg-[#ffbd44] rounded-xl mr-2\"></span>\n      <span class=\"h-3.5 w-3.5 bg-[#00ca4e] rounded-xl\"></span>\n    </div>\n    <div class=\"flex-1 text-center text-white\">status</div>\n  </div>\n  <div class=\"p-2.5 text-[#0f0]\">\n    <div>\n      <span class=\"mr-2\">Loading</span>\n      <span class=\"animate-[ping_1.5s_0.5s_ease-in-out_infinite]\">.</span>\n      <span class=\"animate-[ping_1.5s_0.7s_ease-in-out_infinite]\">.</span>\n      <span class=\"animate-[ping_1.5s_0.9s_ease-in-out_infinite]\">.</span>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

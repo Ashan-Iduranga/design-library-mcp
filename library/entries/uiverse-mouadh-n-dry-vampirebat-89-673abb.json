@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mouadh-n-dry-vampirebat-89-673abb",
+  "title": "Button by mouadh-n (dry-vampirebat-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mouadh-n/dry-vampirebat-89",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mouadh-n on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mouadh-n_dry-vampirebat-89.html",
+  "code": "<a>\n  <div class=\"buuton\">HOVER ME</div>\n  <div class=\"back\"></div>\n</a>\n\n<style>\n/* From Uiverse.io by mouadh-n  - Website: https://youtu.be/b_8fHNIHFk4?si=L-0kb3bKz6VlasUc - Name:  Coding Play - Tags: simple, blue, purple, button, hover, btn, hover effect, css */\na {\n  color: white;\n  position: relative;\n}\n.buuton {\n  font-weight: 600;\n  border-radius: 2em;\n  padding: 0.75rem 1.5rem;\n  background-color: rgba(255, 255, 255, 0.253);\n  backdrop-filter: blur(10px);\n  transform: scale(1.1);\n  transition: 0.2s ease-in-out;\n}\n.back {\n  position: absolute;\n  background: linear-gradient(20deg, rgb(174, 6, 216) 0%, rgb(85, 31, 200));\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  z-index: -1;\n  border-radius: 2em;\n  box-shadow: -5px 0 10px rgb(140, 12, 147), 5px 0 10px rgb(85, 31, 200);\n  transform: translateY(10px);\n}\n.buuton:hover {\n  transform: translateY(10px);\n  box-shadow: -10px 0 50px rgba(241, 0, 108, 0.352),\n    10px 0 50px rgb(85, 31, 200);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

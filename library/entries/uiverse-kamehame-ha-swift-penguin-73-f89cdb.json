@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-kamehame-ha-swift-penguin-73-f89cdb",
+  "title": "Button by kamehame-ha (swift-penguin-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/kamehame-ha/swift-penguin-73",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "success",
+    "error",
+    "share",
+    "light&dark",
+    "clean",
+    "badges",
+    "working"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By kamehame-ha on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/kamehame-ha_swift-penguin-73.html",
+  "code": "<div class=\"badges\">\n    <button class=\"blue\">Share Online</button>\n    <button class=\"yellow\">Working on it</button>\n    <button class=\"green\">Success</button>\n    <button class=\"red\">Error</button>\n</div>\n<style>\n/* From Uiverse.io by kamehame-ha - Tags: success, error, share, light&dark, clean, badges, working */\n/*\n\nThis is actually the most neutral button desing of all time,\nfits everywhere no matter if it is dark or light mode,\njust change colors. \nI created original using tailwindCSS, here's classes:\n\ntext-blue-500 bg-blue-500/10 border border-blue-500 rounded-md px-2 py-[2px] text-sm cursor-pointer flex shrink-0\ntext-yellow-500 bg-yellow-500/10 border border-yellow-500 rounded-md px-2 py-[2px] text-sm cursor-pointer flex shrink-0\ntext-green-500 bg-green-500/10 border border-green-500 rounded-md px-2 py-[2px] text-sm cursor-pointer flex shrink-0\ntext-indigo-500 bg-indigo-500/10 border border-indigo-500 rounded-md px-2 py-[2px] text-sm cursor-pointer flex shrink-0\n\n*/\n\n.badges {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem; /* 16px */\n  align-items: center;\n  flex-wrap: wrap;\n  justify-content: center;\n}\n\n.badges > button {\n  font-size: 0.875rem; /* 14px */\n  line-height: 1.25rem; /* 20px */\n  padding: 2px .5rem; /* 8px*/\n  cursor: pointer;\n  border: none;\n  border-radius: 0.375rem; /* 6px */\n  outline: none;\n}\n\n.badges .blue {\n  background-color: rgba(59, 130, 246, 0.10);\n  color: rgb(59 130 246);\n  border: 1px rgb(59 130 246) solid;\n}\n\n.badges .yellow {\n  background-color: rgba(234, 179, 8, 0.10);\n  color: rgb(234 179 8);\n  border: 1px rgb(234 179 8) solid;\n}\n\n.badges .green {\n  background-color: rgba(34, 197, 94, 0.10);\n  color: rgb(34 197 94);\n  border: 1px rgb(34 197 94) solid;\n}\n\n.badges .red {\n  background-color: rgba(239, 68, 68, 0.10);\n  color: rgb(239 68 68);\n  border: 1px rgb(239 68 68) solid;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

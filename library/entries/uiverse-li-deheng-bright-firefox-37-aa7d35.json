@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-li-deheng-bright-firefox-37-aa7d35",
+  "title": "Loader by Li-Deheng (bright-firefox-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Li-Deheng/bright-firefox-37",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "dots",
+    "animated",
+    "pulse",
+    "infinite",
+    "waves",
+    "dot-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Li-Deheng on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Li-Deheng_bright-firefox-37.html",
+  "code": "<div class=\"loader\">\n  <div class=\"circle\">\n    <div class=\"dot\"></div>\n    <div class=\"outline\"></div>\n  </div>\n  <div class=\"circle\">\n    <div class=\"dot\"></div>\n    <div class=\"outline\"></div>\n  </div>\n  <div class=\"circle\">\n    <div class=\"dot\"></div>\n    <div class=\"outline\"></div>\n  </div>\n  <div class=\"circle\">\n    <div class=\"dot\"></div>\n    <div class=\"outline\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Li-Deheng - Tags: animation, loader, dots, animated, pulse, infinite, waves, dot loader */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  --color: hsl(0, 0%, 87%);\n  --animation: 2s ease-in-out infinite;\n}\n\n.loader .circle {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  width: 20px;\n  height: 20px;\n  border: solid 2px var(--color);\n  border-radius: 50%;\n  margin: 0 10px;\n  background-color: transparent;\n  animation: circle-keys var(--animation);\n}\n\n.loader .circle .dot {\n  position: absolute;\n  transform: translate(-50%, -50%);\n  width: 16px;\n  height: 16px;\n  border-radius: 50%;\n  background-color: var(--color);\n  animation: dot-keys var(--animation);\n}\n\n.loader .circle .outline {\n  position: absolute;\n  transform: translate(-50%, -50%);\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  animation: outline-keys var(--animation);\n}\n\n.circle:nth-child(2) {\n  animation-delay: 0.3s;\n}\n\n.circle:nth-child(3) {\n  animation-delay: 0.6s;\n}\n\n.circle:nth-child(4) {\n  animation-delay: 0.9s;\n}\n\n.circle:nth-child(5) {\n  animation-delay: 1.2s;\n}\n\n.circle:nth-child(2) .dot {\n  animation-delay: 0.3s;\n}\n\n.circle:nth-child(3) .dot {\n  animation-delay: 0.6s;\n}\n\n.circle:nth-child(4) .dot {\n  animation-delay: 0.9s;\n}\n\n.circle:nth-child(5) .dot {\n  animation-delay: 1.2s;\n}\n\n.circle:nth-child(1) .outline {\n  animation-delay: 0.9s;\n}\n\n.circle:nth-child(2) .outline {\n  animation-delay: 1.2s;\n}\n\n.circle:nth-child(3) .outline {\n  animation-delay: 1.5s;\n}\n\n.circle:nth-child(4) .outline {\n  animation-delay: 1.8s;\n}\n\n.circle:nth-child(5) .outline {\n  animation-delay: 2.1s;\n}\n\n@keyframes circle-keys {\n  0% {\n    transform: scale(1);\n    opacity: 1;\n  }\n\n  50% {\n    transform: scale(1.5);\n    opacity: 0.5;\n  }\n\n  100% {\n    transform: scale(1);\n    opacity: 1;\n  }\n}\n\n@keyframes dot-keys {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n@keyframes outline-keys {\n  0% {\n    transform: scale(0);\n    outline: solid 20px var(--color);\n    outline-offset: 0;\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(1);\n    outline: solid 0 transparent;\n    outline-offset: 20px;\n    opacity: 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

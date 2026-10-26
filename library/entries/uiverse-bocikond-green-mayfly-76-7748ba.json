@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-bocikond-green-mayfly-76-7748ba",
+  "title": "Loader by bociKond (green-mayfly-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/bociKond/green-mayfly-76",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By bociKond on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/bociKond_green-mayfly-76.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by bociKond - Source: https://10015.io/ - Tags: simple, flashy, loader */\n.loader {\n  width: 44.8px;\n  height: 44.8px;\n  color: #554cb5;\n  position: relative;\n  background: radial-gradient(11.2px,currentColor 94%,#0000);\n}\n\n.loader:before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  border-radius: 50%;\n  background: radial-gradient(10.08px at bottom right,#0000 94%,currentColor) top    left,\n          radial-gradient(10.08px at bottom left ,#0000 94%,currentColor) top    right,\n          radial-gradient(10.08px at top    right,#0000 94%,currentColor) bottom left,\n          radial-gradient(10.08px at top    left ,#0000 94%,currentColor) bottom right;\n  background-size: 22.4px 22.4px;\n  background-repeat: no-repeat;\n  animation: loader 1.5s infinite cubic-bezier(0.3,1,0,1);\n}\n\n@keyframes loader {\n  33% {\n    inset: -11.2px;\n    transform: rotate(0deg);\n  }\n\n  66% {\n    inset: -11.2px;\n    transform: rotate(90deg);\n  }\n\n  100% {\n    inset: 0;\n    transform: rotate(90deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

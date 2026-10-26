@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-christosmourgelas-polite-rattlesnake-85-e76ff3",
+  "title": "Radio by ChristosMourgelas (polite-rattlesnake-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ChristosMourgelas/polite-rattlesnake-85",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ChristosMourgelas on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/ChristosMourgelas_polite-rattlesnake-85.html",
+  "code": "<div class=\"radio-input\">\n  <input class=\"value-radio\" name=\"value-radio\" id=\"option-1\" type=\"radio\">\n  <label class=\"value-radio-label\" for=\"option-1\">Option A</label>\n\n  <input class=\"value-radio\" name=\"value-radio\" id=\"option-2\" type=\"radio\">\n  <label class=\"value-radio-label\" for=\"option-2\">Option B</label>\n  \n  <input class=\"value-radio\" name=\"value-radio\" id=\"option-3\" type=\"radio\">\n  <label class=\"value-radio-label\" for=\"option-3\">Option C</label>\n\n</div>\n<style>\n/* From Uiverse.io by ChristosMourgelas - Tags: radio */\n.radio-input {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n\n.value-radio {\n  display: none;\n}\n\n.value-radio-label {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  padding: 8px 12px;\n  border: 2px solid #4d4d4d;\n  border-radius: 20px;\n  color: #ccc;\n  background-color: #333;\n  cursor: pointer;\n  transition: all 0.3s;\n}\n\n.value-radio:checked + .value-radio-label {\n  border-color: #00b4ff;\n  background-color: #00b4ff;\n  color: #fff;\n}\n\n.value-radio-label::before {\n  content: '';\n  display: inline-block;\n  width: 16px;\n  height: 16px;\n  border-radius: 50%;\n  border: 2px solid #4d4d4d;\n  transition: all 1s;\n}\n\n.value-radio:checked + .value-radio-label::before {\n  border-color: #0175a6;\n  background-color: #ffffff;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

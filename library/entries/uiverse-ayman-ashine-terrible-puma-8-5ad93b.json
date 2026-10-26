@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-ayman-ashine-terrible-puma-8-5ad93b",
+  "title": "Tooltip by ayman-ashine (terrible-puma-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ayman-ashine/terrible-puma-8",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "flex-tooltip"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ayman-ashine on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/ayman-ashine_terrible-puma-8.html",
+  "code": "<!-- From Uiverse.io by ayman-ashine  - Tags: tooltip, tailwindcss, flex-tooltip -->\n<div class=\"flex flex-col items-center gap-2\">\n  <div class=\"group relative bg-zinc-300 p-2 rounded-full\">\n    <span>Top</span>\n    <div\n      class=\"bg-zinc-800 p-2 rounded-md group-hover:flex hidden absolute -top-2 -translate-y-full left-1/2 -translate-x-1/2\"\n    >\n      <span class=\"text-zinc-400 whitespace-nowrap\">Info</span>\n      <div\n        class=\"bg-inherit rotate-45 p-1 absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2\"\n      ></div>\n    </div>\n  </div>\n\n  <div class=\"group relative bg-zinc-300 p-2 rounded-full\">\n    <span>Left</span>\n    <div\n      class=\"bg-zinc-800 p-2 rounded-md group-hover:flex hidden absolute top-1/2 -translate-y-1/2 -left-2 -translate-x-full\"\n    >\n      <span class=\"text-zinc-400 whitespace-nowrap\">Info</span>\n      <div\n        class=\"bg-inherit rotate-45 p-1 absolute top-1/2 -translate-y-1/2 right-0 translate-x-1/2\"\n      ></div>\n    </div>\n  </div>\n\n  <div class=\"group relative bg-zinc-300 p-2 rounded-full\">\n    <span>Right</span>\n    <div\n      class=\"bg-zinc-800 p-2 rounded-md group-hover:flex hidden absolute top-1/2 -translate-y-1/2 -right-2 translate-x-full\"\n    >\n      <span class=\"text-zinc-400 whitespace-nowrap\">Info</span>\n      <div\n        class=\"bg-inherit rotate-45 p-1 absolute top-1/2 -translate-y-1/2 left-0 -translate-x-1/2\"\n      ></div>\n    </div>\n  </div>\n\n  <div class=\"group relative bg-zinc-300 p-2 rounded-full\">\n    <span>Bottom</span>\n    <div\n      class=\"bg-zinc-800 p-2 rounded-md group-hover:flex hidden absolute -bottom-2 translate-y-full left-1/2 -translate-x-1/2\"\n    >\n      <span class=\"text-zinc-400 whitespace-nowrap\">Info</span>\n      <div\n        class=\"bg-inherit rotate-45 p-1 absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2\"\n      ></div>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

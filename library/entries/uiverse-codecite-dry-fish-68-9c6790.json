@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-codecite-dry-fish-68-9c6790",
+  "title": "Button by Codecite (dry-fish-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Codecite/dry-fish-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Codecite on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Codecite_dry-fish-68.html",
+  "code": "<div class=\"button\">\n  <a href=\"#\" class=\"anchor\">\n    <span>Download CV</span>\n  </a>\n</div>\n<style>\n/* From Uiverse.io by Codecite - Tags: button */\n.anchor {\n  text-decoration: none;\n  color: #fff;\n  display: inline-block;\n  font-family: sans-serif;\n  font-weight: 600;\n  border-radius: 50px;\n  border: 2px solid #ed553b;\n  padding: 14px 40px 13px;\n  overflow: hidden;\n  position: relative;\n}\n\n.anchor:hover {\n  color: #4e484a;\n}\n\n.button a::before {\n  position: absolute;\n  content: \"\";\n  z-index: 0;\n  background-color: #ed553b;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  height: 111%;\n  transition: all .3s ease;\n}\n\n.button a:hover::before {\n  height: 11%;\n}\n\n.button span {\n  position: relative;\n  z-index: 2;\n  transition: all .3s ease;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

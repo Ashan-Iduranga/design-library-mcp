@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-praashoo7-odd-duck-54-4a2f8a",
+  "title": "Loader by Praashoo7 (odd-duck-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/odd-duck-54",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "complex"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Praashoo7_odd-duck-54.html",
+  "code": "<div class=\"loader\">\n  <div class=\"load1\"></div>\n  <div class=\"load2\"></div>\n  <div class=\"load3\"></div>\n  <div class=\"load4\"></div>\n  <div class=\"load5\"></div>\n  <div class=\"load6\"></div>\n  <div class=\"load7\"></div>\n  <div class=\"load8\"></div>\n  <div class=\"load9\"></div>\n</div>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: animation, complex, loader */\n.loader {\n  display: flex;\n  align-items: center;\n  margin-left: -0.65em;\n}\n\n.load1 {\n  position: absolute;\n  content: \"\";\n  margin-right: 1em;\n  height: 1.2em;\n  width: 1.2em;\n  border-radius: 5px;\n  background-color: white;\n  box-shadow: 0 1px 7px rgba(0,0,0,0.3);\n}\n\n.load2 {\n  position: absolute;\n  margin-right: 1em;\n  content: \"\";\n  height: 1.2em;\n  width: 1.2em;\n  border-radius: 5px;\n  background-color: white;\n  animation: 2s flow2 infinite;\n}\n\n.load3 {\n  position: absolute;\n  margin-right: 1em;\n  content: \"\";\n  height: 1.2em;\n  width: 1.2em;\n  border-radius: 5px;\n  background-color: white;\n  animation: 2s flow3 infinite;\n}\n\n.load4 {\n  position: absolute;\n  margin-right: 1em;\n  content: \"\";\n  height: 1.2em;\n  width: 1.2em;\n  border-radius: 5px;\n  background-color: white;\n  animation: 2s flow4 infinite;\n}\n\n.load5 {\n  position: absolute;\n  margin-right: 1em;\n  content: \"\";\n  height: 1.2em;\n  width: 1.2em;\n  border-radius: 5px;\n  background-color: white;\n  animation: 2s flow5 infinite;\n}\n\n.load6 {\n  position: absolute;\n  margin-right: 1em;\n  content: \"\";\n  height: 1.2em;\n  width: 1.2em;\n  border-radius: 5px;\n  background-color: white;\n  animation: 6s flow6 infinite;\n}\n\n.load7 {\n  position: absolute;\n  margin-right: 1em;\n  content: \"\";\n  height: 1.2em;\n  width: 1.2em;\n  border-radius: 5px;\n  background-color: white;\n  animation: 6s flow7 infinite;\n}\n\n.load8 {\n  position: absolute;\n  margin-right: 1em;\n  content: \"\";\n  height: 1.2em;\n  width: 1.2em;\n  border-radius: 5px;\n  background-color: white;\n  animation: 6s flow8 infinite;\n}\n\n.load9 {\n  position: absolute;\n  content: \"\";\n  height: 1.2em;\n  width: 1.2em;\n  border-radius: 5px;\n  background-color: white;\n  animation: 6s flow9 infinite;\n}\n\n@keyframes flow2 {\n  50% {\n    transform: translateX(3em);\n    box-shadow: 0 1px 7px rgba(0,0,0,0.3);\n  }\n\n  100% {\n    transform: translateX(0em);\n  }\n}\n\n@keyframes flow3 {\n  50% {\n    transform: translateX(-3em);\n    box-shadow: 0 1px 7px rgba(0,0,0,0.3);\n  }\n\n  100% {\n    transform: translateX(0em);\n  }\n}\n\n@keyframes flow4 {\n  50% {\n    transform: translateY(3em);\n    box-shadow: 0 1px 7px rgba(0,0,0,0.3);\n  }\n\n  100% {\n    transform: translateY(0em);\n  }\n}\n\n@keyframes flow5 {\n  50% {\n    transform: translateY(-3em);\n    box-shadow: 0 1px 7px rgba(0,0,0,0.3);\n  }\n\n  100% {\n    transform: translateY(0em);\n  }\n}\n\n@keyframes flow6 {\n  30% {\n    transform: translateX(3em);\n    box-shadow: 0 1px 7px rgba(0,0,0,0.3);\n  }\n\n  60% {\n    transform: translateX(3em) translateY(-3em);\n    box-shadow: 0 1px 7px rgba(0,0,0,0.3);\n  }\n\n  100% {\n    transform: translateX(0em) translateY(0em);\n  }\n}\n\n@keyframes flow7 {\n  30% {\n    transform: translateX(-3em);\n    box-shadow: 0 1px 7px rgba(0,0,0,0.3);\n  }\n\n  60% {\n    transform: translateX(-3em) translateY(3em);\n    box-shadow: 0 1px 7px rgba(0,0,0,0.3);\n  }\n\n  100% {\n    transform: translateX(0em) translateY(0em);\n  }\n}\n\n@keyframes flow8 {\n  30% {\n    transform: translateY(3em);\n    box-shadow: 0 1px 7px rgba(0,0,0,0.3);\n  }\n\n  60% {\n    transform: translateY(3em) translateX(3em);\n    box-shadow: 0 1px 7px rgba(0,0,0,0.3);\n  }\n\n  100% {\n    transform: translateX(0em) translateY(0em);\n  }\n}\n\n@keyframes flow9 {\n  30% {\n    transform: translateY(-3em);\n    box-shadow: 0 1px 7px rgba(0,0,0,0.3);\n  }\n\n  60% {\n    transform: translateY(-3em) translateX(-3em);\n    box-shadow: 0 1px 7px rgba(0,0,0,0.3);\n  }\n\n  100% {\n    transform: translateX(0em) translateY(0em);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-video-autoplay",
+  "title": "Video: Autoplay (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/video/#autoplay",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "video",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the `autoplay` attribute on the video component to automatically start the video when the page has been loaded.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/video.md",
+  "code": "<video class=\"w-full rounded-base\" controls>\n  <source src=\"/docs/videos/flowbite.mp4\" type=\"video/mp4\">\n  Your browser does not support the video tag.\n</video>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

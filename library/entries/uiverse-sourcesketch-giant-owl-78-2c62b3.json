@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-sourcesketch-giant-owl-78-2c62b3",
+  "title": "Card by Sourcesketch (giant-owl-78)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Sourcesketch/giant-owl-78",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "neumorphism",
+    "animation",
+    "shadow",
+    "futuristic",
+    "blur-filter",
+    "card-hover",
+    "3d-card"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Sourcesketch on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Sourcesketch_giant-owl-78.html",
+  "code": "<div class=\"card\">\n  <div class=\"title-1\">Card 1</div>\n  <div class=\"content\">\n    Lorem Ipsum is simply dummy text of the printing and typesetting industry.\n    Lorem Ipsum has been the industry's standard dummy text ever since the\n    1500s.\n  </div>\n  <button class=\"btn\">Learn more</button>\n  <div class=\"bar\">\n    <div class=\"emptybar\"></div>\n    <div class=\"filledbar\"></div>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"title-1\">Card 2</div>\n  <div class=\"content\">\n    Lorem Ipsum is simply dummy text of the printing and typesetting industry.\n    Lorem Ipsum has been the industry's standard dummy text ever since the\n    1500s.\n  </div>\n  <button class=\"btn\">Learn more</button>\n  <div class=\"bar\">\n    <div class=\"emptybar\"></div>\n    <div class=\"filledbar\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Sourcesketch  - Tags: neumorphism, animation, card, shadow, futuristic, blur filter, card hover, 3d card */\n.card {\n  display: flex;\n  height: 280px;\n  width: 200px;\n  background-color: #2b223f;\n  border-radius: 10px;\n  box-shadow: -1rem 0 3rem #00000044;\n  margin-left: -80px;\n  transition: 0.4s ease-out;\n  position: relative;\n  left: 0px;\n}\n\n.card:not(:first-child) {\n  margin-left: -50px;\n}\n\n.card:hover {\n  transform: translateY(-20px);\n  transition: 0.4s ease-out;\n  text-shadow: 2px 2px 8px #6e5b94;\n}\n\n.card:hover ~ .card {\n  position: relative;\n  left: 50px;\n  transform: rotateX(-15deg) rotateY(10deg);\n  transition: 0.4s ease-out;\n}\n\n.title-1 {\n  color: #ffffff;\n  font-size: 28px;\n  font-weight: 800;\n  position: absolute;\n  left: 20px;\n  top: 15px;\n}\n\n.btn {\n  position: absolute;\n  top: 195px;\n  margin: 0 20px;\n  width: 120px;\n  height: 32px;\n  border-radius: 8px;\n  border: none;\n  background-color: #4a2f7c;\n  color: #fff;\n  transition: 0.4s ease-out;\n}\n\n.btn:hover {\n  transition: 0.4s ease-out;\n  background-color: #8a4ff8;\n  color: #ffffff;\n  box-shadow: 0px 0px 20px rgba(157, 71, 255, 0.5),\n    0px 5px 5px -1px rgba(163, 58, 233, 0.25),\n    inset 4px 4px 8px rgba(219, 175, 255, 0.5),\n    inset -4px -4px 8px rgba(137, 19, 216, 0.35);\n}\n\n.bar {\n  position: relative;\n  top: 250px;\n\n  height: 5px;\n  width: 100%;\n}\n\n.emptybar {\n  background-color: #201c29;\n  width: 100%;\n  height: 100%;\n}\n\n.filledbar {\n  position: absolute;\n  top: 0px;\n  z-index: 3;\n  width: 0px;\n  height: 100%;\n  background: #d059ff;\n  background: linear-gradient(90deg, #6831cfab, #a777ff 100%);\n  transition: 0.6s ease-out;\n}\n\n.card:hover .filledbar {\n  width: 100%;\n  transition: 0.4s ease-out;\n}\n\n.content {\n  position: absolute;\n  padding: 20px;\n  top: 60px;\n  color: #eae0fd;\n  font-size: 0.7rem;\n}\n\n.stroke {\n  stroke: white;\n  stroke-dasharray: 360;\n  stroke-dashoffset: 360;\n  transition: 0.6s ease-out;\n}\n\n.card:hover .stroke {\n  stroke-dashoffset: 100;\n  transition: 0.6s ease-out;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

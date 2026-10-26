@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-dashrath-sharma-chatty-tiger-70-0c803a",
+  "title": "Button by Dashrath-Sharma (chatty-tiger-70)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Dashrath-Sharma/chatty-tiger-70",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "glassmorphism",
+    "flashy",
+    "shadow",
+    "glow",
+    "border",
+    "box-shadow",
+    "buttons"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Dashrath-Sharma on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Dashrath-Sharma_chatty-tiger-70.html",
+  "code": "<button class=\"button\">Button</button>\n\n<style>\n/* From Uiverse.io by Dashrath-Sharma  - Tags: glassmorphism, flashy, button, shadow, glow, border, box-shadow, buttons */\nbutton {\n  cursor: pointer;\n  padding: 1em 2em;\n  font-weight: bold;\n  font-size: 20px;\n  color: #fff;\n  position: relative;\n  overflow: hidden;\n  background: rgba(60, 73, 203, 0.35);\n  box-shadow: 0 0px 32px 0 rgba(31, 38, 135, 0.37);\n  backdrop-filter: blur(14.5px);\n  border: 1px solid rgba(255, 255, 255, 0.18);\n  -webkit-backdrop-filter: blur(14.5px);\n}\n\nbutton:hover {\n  box-shadow: 0px 0 32px 0 rgba(31, 38, 135, 0.37),\n    0px 0 32px 0 rgba(31, 38, 135, 0.37), 0 0 42px 0px rgba(31, 38, 135, 0.37),\n    0 0 52px 0 rgba(31, 38, 135, 0.37);\n  border: 1px solid rgba(255, 255, 255, 0.58);\n}\n\nbutton,\nbutton::before {\n  display: grid;\n  place-items: center;\n  border-radius: 10px;\n  box-shadow: 0 0px 32px 0 rgba(31, 38, 135, 0.37);\n}\n\nbutton::before {\n  content: \"Button\";\n  position: absolute;\n  background: blue;\n  width: 90%;\n  height: 80%;\n  background: rgba(26, 18, 241, 0.25);\n  backdrop-filter: blur(18.5px);\n  -webkit-backdrop-filter: blur(18.5px);\n  border: 1px solid rgba(255, 255, 255, 0.18);\n  transition: 0.4s;\n}\n\nbutton:hover::before {\n  background: rgba(51, 57, 236, 0.4);\n  box-shadow: 1px 1px 2px 0 rgba(31, 38, 135, 0.37),\n    2px 2px 2px 0 rgba(31, 38, 135, 0.37), 0 0px 32px 0 rgba(31, 38, 135, 0.37),\n    0 0px 32px 1px rgba(31, 38, 135, 0.37), 0 0px 32px 0 rgba(31, 38, 135, 0.37);\n  backdrop-filter: blur(5.5px);\n  -webkit-backdrop-filter: blur(5.5px);\n  border-radius: 10px;\n  border: 1px solid rgba(255, 255, 255, 0.18);\n}\nbutton:active::before {\n  transform: scale(0.67);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

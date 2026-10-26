@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-sashadubovyi-fast-elephant-34-c977b5",
+  "title": "Button by sashadubovyi (fast-elephant-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/sashadubovyi/fast-elephant-34",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "animation",
+    "success"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By sashadubovyi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/sashadubovyi_fast-elephant-34.html",
+  "code": "<button class=\"btn\">\n  <span class=\"left-span\"></span>\n  <p class=\"text-btn\">Hover me</p>\n  <p class=\"hidden-text-btn\">Thank you!</p>\n  <span class=\"right-span\"></span>\n</button>\n\n<style>\n/* From Uiverse.io by sashadubovyi  - Tags: simple, animation, success, button */\n.btn {\n  cursor: pointer;\n  position: relative;\n  padding-left: 30px;\n  padding-right: 30px;\n  padding-top: 10px;\n  padding-bottom: 10px;\n  font-size: 20px;\n  font-weight: 400;\n  border: none;\n  display: flex;\n  align-items: center;\n  background: transparent;\n  color: #f93d21;\n  transition: all 100ms;\n  overflow: hidden;\n  height: 50px;\n  width: 170px;\n}\n\n.left-span {\n  position: absolute;\n  left: 0;\n  height: 50px;\n  width: 15px;\n  border-top: 1px solid #f93d21;\n  border-bottom: 1px solid #f93d21;\n  border-left: 1px solid #f93d21;\n  transition: all 500ms;\n}\n\n.right-span {\n  position: absolute;\n  right: 0;\n  height: 50px;\n  width: 15px;\n  border-top: 1px solid #f93d21;\n  border-bottom: 1px solid #f93d21;\n  border-right: 1px solid #f93d21;\n  transition: all 500ms;\n}\n\n.text-btn {\n  position: absolute;\n  transform: translateX(0px);\n  width: 110px;\n  transition: all 200ms;\n}\n\n.hidden-text-btn {\n  position: absolute;\n  transform: translateX(150px);\n  opacity: 0;\n  transition: all 200ms;\n}\n\n.btn:hover .text-btn {\n  transform: translateX(-150px);\n  opacity: 0;\n}\n\n.btn:hover .hidden-text-btn {\n  transform: translateX(0px);\n  opacity: 1;\n}\n\n.btn:hover .right-span,\n.btn:hover .left-span {\n  width: 100%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

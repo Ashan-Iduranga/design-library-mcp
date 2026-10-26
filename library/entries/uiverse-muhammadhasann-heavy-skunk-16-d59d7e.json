@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-muhammadhasann-heavy-skunk-16-d59d7e",
+  "title": "Card by MuhammadHasann (heavy-skunk-16)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MuhammadHasann/heavy-skunk-16",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "subscription",
+    "purple",
+    "minimalist",
+    "rounded",
+    "smooth"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MuhammadHasann on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/MuhammadHasann_heavy-skunk-16.html",
+  "code": "<div class=\"card\">\n  <span class=\"title\"\n    >Pro\n    <p class=\"pricing\">$8 <span class=\"pricing-time\">/ month</span></p>\n    <span class=\"sub-title\"\n      >Everything on Basic plus:\n      <ul class=\"list\">\n        <li class=\"list-item\"><span class=\"check\">✓</span> Feature</li>\n        <li class=\"list-item\"><span class=\"check\">✓</span> Feature</li>\n        <li class=\"list-item\"><span class=\"check\">✓</span> Feature</li>\n        <li class=\"list-item\"><span class=\"check\">✓</span> Feature</li>\n        <li class=\"list-item\"><span class=\"check\">✓</span> Feature</li>\n      </ul>\n      <button class=\"button\">\n        <span class=\"text-button\">Get pro now</span>\n      </button>\n    </span></span\n  >\n</div>\n\n<style>\n/* From Uiverse.io by MuhammadHasann  - Tags: subscription, purple, minimalist, card, rounded, smooth */\n.card {\n  overflow: hidden;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  gap: 0.75rem;\n  padding: 1rem;\n  width: 14rem;\n  height: auto;\n  background-color: rgb(122, 48, 143);\n  background-image: radial-gradient(\n      circle at 0% 0%,\n      rgb(37, 7, 44) 15%,\n      rgba(0, 0, 0, 0) 75%\n    ),\n    radial-gradient(\n      circle at 100% 100%,\n      rgb(25, 2, 31, 0.9) 15%,\n      rgba(0, 0, 0, 0) 150%\n    ),\n    linear-gradient(\n      135deg,\n      rgba(24, 8, 28, 0) 0%,\n      rgb(122, 48, 143) 50%,\n      rgba(24, 8, 28, 0) 100%\n    );\n  border-radius: 0.5rem;\n}\n\n.card::before {\n  content: \"\";\n  position: absolute;\n  top: 1rem;\n  right: 1rem;\n  width: 2rem;\n  height: 2rem;\n  background-color: rgb(122, 48, 143);\n  background-image: linear-gradient(\n    0deg,\n    rgba(118, 42, 180, 1) 0%,\n    rgb(199, 95, 228) 75%\n  );\n  border-radius: 9999px;\n  box-shadow: 0 1px 5px 3px rgb(199, 95, 228), 0 0 30px 5px rgb(199, 95, 228);\n}\n\n.card .title {\n  font-size: 1rem;\n  color: white;\n  font-weight: 600;\n}\n\n.card .pricing {\n  font-size: 1.5rem;\n  color: white;\n  font-weight: 600;\n}\n\n.card .pricing .pricing-time,\n.card .sub-title {\n  font-size: 0.75rem;\n  color: rgb(184, 132, 199);\n  font-weight: 500;\n}\n\n.card .list {\n  display: flex;\n  flex-direction: column;\n  gap: 0.25rem;\n  font-size: 0.75rem;\n  color: white;\n  font-weight: 500;\n  list-style: none;\n}\n\n.card .list .list-item .check {\n  margin-right: 0.25rem;\n  font-size: 1rem;\n  color: rgb(199, 95, 228);\n  font-weight: 900;\n}\n\n.card .button {\n  overflow: hidden;\n  cursor: pointer;\n  position: relative;\n  margin-top: 0.5rem;\n  padding: 0.5rem 0.75rem;\n  width: 100%;\n  height: fit-content;\n  background-color: rgb(122, 48, 143);\n  font-size: 0.75rem;\n  color: white;\n  border: none;\n  border-radius: 0.5rem;\n  box-shadow: 0px 0px 2px 1px rgb(122, 48, 143);\n  transition: all 0.3s cubic-bezier(1, 0, 0, 1);\n}\n\n.card .button .text-button {\n  position: relative;\n  z-index: 10;\n}\n\n.card .button::before,\n.card .button::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  transition: all 0.3s ease-in-out;\n}\n.card .button::before {\n  left: 0;\n  background-image: radial-gradient(\n    circle at 0% 45%,\n    rgba(16, 5, 36, 1) 19%,\n    rgba(16, 5, 36, 0.26) 46%,\n    rgba(16, 5, 36, 0) 100%\n  );\n}\n.card .button::after {\n  right: 0;\n  background-image: radial-gradient(\n    circle at 100% 45%,\n    rgba(16, 5, 36, 1) 19%,\n    rgba(16, 5, 36, 0.26) 46%,\n    rgba(16, 5, 36, 0) 100%\n  );\n}\n\n.card .button:hover {\n  box-shadow: 0px 0px 20px 0 rgb(122, 48, 143);\n}\n\n.card .button:hover::before,\n.card .button:hover::after {\n  width: 0;\n  opacity: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

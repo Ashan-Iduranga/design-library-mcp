@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-satisshtechie-sharp-hound-14-5252c0",
+  "title": "Input by satisshTechie (sharp-hound-14)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satisshTechie/sharp-hound-14",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "slider",
+    "progress-bar",
+    "range"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satisshTechie on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/satisshTechie_sharp-hound-14.html",
+  "code": "<div class=\"PB-range-slider-div\">\n<input type=\"range\" min=\"0\" max=\"100\" value=\"50\" class=\"PB-range-slider\" id=\"myRange\">\n<p class=\"PB-range-slidervalue\">50px</p>\n</div>\n<style>\n/* From Uiverse.io by satisshTechie - Tags: slider, progress bar, input, range */\n.PB-range-slider {\n  -webkit-appearance: none;\n  width: 100%;\n  height: 4px;\n  border-radius: 5px;\n  background: #D5DBE1;\n  outline: none;\n  opacity: 0.7;\n  -webkit-transition: .2s;\n  transition: opacity .2s;\n}\n\n.PB-range-slider::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background-color: #000000;\n  cursor: pointer;\n  transition: 0.3s ease-in-out;\n}\n\n.PB-range-slider::-webkit-slider-thumb:hover {\n  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.16);\n  transition: 0.3s ease-in-out;\n}\n\n.PB-range-slider::-moz-range-thumb {\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background-color: #000000;\n  cursor: pointer;\n}\n\n.PB-range-slider-div {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 1rem;\n  padding: 1rem;\n  border-radius: 6px;\n  border: 1px solid #C6CACE;\n  box-shadow: 0px 1px 2px 0px #1F1E241F;\n}\n\n.PB-range-slidervalue {\n  font-weight: 600;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-silent-owl-69-eacd29",
+  "title": "Loader by satyamchaudharydev (silent-owl-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/silent-owl-69",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/satyamchaudharydev_silent-owl-69.html",
+  "code": "<div class=\"loader\">\n</div>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.loader {\n --clr: #3498db;\n /* color of spining  */\n width: 50px;\n height: 50px;\n position: relative;\n}\n\n.loader:before, .loader:after {\n content: \"\";\n position: absolute;\n top: -10px;\n left: -10px;\n width: 100%;\n height: 100%;\n border-radius: 100%;\n border: 10px solid transparent;\n border-top-color: var(--clr);\n}\n\n.loader:before {\n z-index: 100;\n animation: spin 1s infinite;\n}\n\n.loader:after {\n border: 10px solid #ccc;\n}\n\n@keyframes spin {\n 0% {\n  -webkit-transform: rotate(0deg);\n  -ms-transform: rotate(0deg);\n  -o-transform: rotate(0deg);\n  transform: rotate(0deg);\n }\n\n 100% {\n  -webkit-transform: rotate(360deg);\n  -ms-transform: rotate(360deg);\n  -o-transform: rotate(360deg);\n  transform: rotate(360deg);\n }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

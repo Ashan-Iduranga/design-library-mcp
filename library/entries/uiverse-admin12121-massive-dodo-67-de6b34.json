@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-admin12121-massive-dodo-67-de6b34",
+  "title": "Toggle by Admin12121 (massive-dodo-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Admin12121/massive-dodo-67",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "animated",
+    "click-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Admin12121 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Admin12121_massive-dodo-67.html",
+  "code": "<label class=\"switch-button\" for=\"switch\">\n  <div class=\"switch-outer\">\n    <input id=\"switch\" type=\"checkbox\">\n    <div class=\"button\">\n      <span class=\"button-toggle\"></span>\n      <span class=\"button-indicator\"></span>\n    </div>\n  </div>\n</label>\n<style>\n/* From Uiverse.io by Admin12121 - Tags: switch, animated, click effect */\n.switch-button {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  justify-content: center;\n  justify-content: center;\n  margin: auto;\n  height: 55px;\n}\n\n.switch-button .switch-outer {\n  height: 100%;\n  background: #252532;\n  width: 115px;\n  border-radius: 165px;\n  -webkit-box-shadow: inset 0px 5px 10px 0px #16151c, 0px 3px 6px -2px #403f4e;\n  box-shadow: inset 0px 5px 10px 0px #16151c, 0px 3px 6px -2px #403f4e;\n  border: 1px solid #32303e;\n  padding: 6px;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n  cursor: pointer;\n  -webkit-tap-highlight-color: transparent;\n}\n\n.switch-button .switch-outer input[type=\"checkbox\"] {\n  opacity: 0;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  position: absolute;\n}\n\n.switch-button .switch-outer .button-toggle {\n  height: 42px;\n  width: 42px;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#3b3a4e),\n    to(#272733)\n  );\n  background: -o-linear-gradient(#3b3a4e, #272733);\n  background: linear-gradient(#3b3a4e, #272733);\n  border-radius: 100%;\n  -webkit-box-shadow: inset 0px 5px 4px 0px #424151, 0px 4px 15px 0px #0f0e17;\n  box-shadow: inset 0px 5px 4px 0px #424151, 0px 4px 15px 0px #0f0e17;\n  position: relative;\n  z-index: 2;\n  -webkit-transition: left 0.3s ease-in;\n  -o-transition: left 0.3s ease-in;\n  transition: left 0.3s ease-in;\n  left: 0;\n}\n\n.switch-button\n  .switch-outer\n  input[type=\"checkbox\"]:checked\n  + .button\n  .button-toggle {\n  left: 58%;\n}\n\n.switch-button\n  .switch-outer\n  input[type=\"checkbox\"]:checked\n  + .button\n  .button-indicator {\n  -webkit-animation: indicator 1s forwards;\n  animation: indicator 1s forwards;\n}\n\n.switch-button .switch-outer .button {\n  width: 100%;\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  position: relative;\n  -webkit-box-pack: justify;\n  justify-content: space-between;\n}\n\n.switch-button .switch-outer .button-indicator {\n  height: 25px;\n  width: 25px;\n  top: 50%;\n  -webkit-transform: translateY(-50%);\n  transform: translateY(-50%);\n  border-radius: 50%;\n  border: 3px solid #ef565f;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n  right: 10px;\n  position: relative;\n}\n\n@-webkit-keyframes indicator {\n  30% {\n    opacity: 0;\n  }\n\n  0% {\n    opacity: 1;\n  }\n\n  100% {\n    opacity: 1;\n    border: 3px solid #60d480;\n    left: -68%;\n  }\n}\n\n@keyframes indicator {\n  30% {\n    opacity: 0;\n  }\n\n  0% {\n    opacity: 1;\n  }\n\n  100% {\n    opacity: 1;\n    border: 3px solid #60d480;\n    left: -68%;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

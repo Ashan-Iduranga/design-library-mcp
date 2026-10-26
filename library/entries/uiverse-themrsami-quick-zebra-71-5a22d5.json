@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-themrsami-quick-zebra-71-5a22d5",
+  "title": "Tooltip by themrsami (quick-zebra-71)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/themrsami/quick-zebra-71",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By themrsami on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/themrsami_quick-zebra-71.html",
+  "code": "<!-- From Uiverse.io by themrsami  - Tags: tooltip -->\n<div class=\"relative group inline-block\">\n  <div\n    class=\"bg-white py-2 rounded-md shadow-lg hover:cursor-pointer flex justify-center items-center gap-4 px-4\"\n  >\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      fill=\"none\"\n      viewBox=\"0 0 18 14\"\n      height=\"25\"\n      width=\"25\"\n    >\n      <path\n        fill=\"#FFA000\"\n        d=\"M16.2 1.75H8.1L6.3 0H1.8C0.81 0 0 0.7875 0 1.75V12.25C0 13.2125 0.81 14 1.8 14H15.165L18 9.1875V3.5C18 2.5375 17.19 1.75 16.2 1.75Z\"\n      ></path>\n      <path\n        fill=\"#FFCA28\"\n        d=\"M16.2 2H1.8C0.81 2 0 2.77143 0 3.71429V12.2857C0 13.2286 0.81 14 1.8 14H16.2C17.19 14 18 13.2286 18 12.2857V3.71429C18 2.77143 17.19 2 16.2 2Z\"\n      ></path>\n    </svg>\n    <p>Project Structure</p>\n  </div>\n\n  <div\n    class=\"absolute left-0 mt-2 w-64 bg-white border border-gray-200 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-1000\"\n  >\n    <ul class=\"p-4 space-y-1\">\n      <li class=\"py-1\">📁 src</li>\n      <li class=\"pl-4 py-1\">📁 app</li>\n      <li class=\"pl-8 py-1\">📄 layout.js</li>\n      <li class=\"pl-8 py-1\">📄 page.js</li>\n      <li class=\"pl-4 py-1\">📁 components</li>\n      <li class=\"pl-8 py-1\">📄 header.js</li>\n      <li class=\"pl-8 py-1\">📄 footer.js</li>\n      <li class=\"pl-4 py-1\">📁 styles</li>\n      <li class=\"pl-8 py-1\">📄 globals.css</li>\n    </ul>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

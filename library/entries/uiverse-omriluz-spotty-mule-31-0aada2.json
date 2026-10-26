@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-omriluz-spotty-mule-31-0aada2",
+  "title": "Loader by omriluz (spotty-mule-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/omriluz/spotty-mule-31",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By omriluz on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/omriluz_spotty-mule-31.html",
+  "code": "<div class=\"container\">\n        <div class=\"loader\"><span></span></div>\n        <div class=\"loader\"><span></span></div>\n        <div class=\"loader\"><i></i></div>\n        <div class=\"loader\"><i></i></div>\n    </div>\n<style>\n/* From Uiverse.io by omriluz - Source: online tutorials - https://www.youtube.com/watch?v=n6ojK2HmROE&list=PL5e68lK9hEzeeXtsQCQYd9SAzj6u6wZpi&index=153&ab_channel=OnlineTutorials - Tags: flashy, animation, loader, colorful, multicolor */\n.container {\n  position: relative;\n  width: 100%;\n  height: 200px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, #0005);\n}\n\n.container .loader {\n  position: absolute;\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  animation: animate 2s linear infinite;\n}\n\n.container .loader:nth-child(2),\n.container .loader:nth-child(4) {\n  animation-delay: -1s;\n}\n\n@keyframes animate {\n  0% {\n    transform: rotate(0deg);\n    filter: hue-rotate(360deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n    filter: hue-rotate(0deg);\n  }\n}\n\n.container .loader:nth-child(1)::before,\n.container .loader:nth-child(2)::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50%;\n  height: 100%;\n  background: linear-gradient(to top, transparent, rgba(0,255,249, 0.4));\n  background-size: 100px 180px;\n  background-repeat: no-repeat;\n  border-top-left-radius: 100px;\n  border-bottom-left-radius: 100px;\n}\n\n.container .loader i {\n  position: absolute;\n  top: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 20px;\n  height: 20px;\n  background: #00fff9;\n  border-radius: 50%;\n  z-index: 100;\n  box-shadow: 0 0 10px #00fff9,\n    0 0 30px #00fff9,\n    0 0 40px #00fff9,\n    0 0 50px #00fff9,\n    0 0 60px #00fff9,\n    0 0 70px #00fff9,\n    0 0 80px #00fff9,\n    0 0 90px #00fff9,\n    0 0 100px #00fff9;\n}\n\n.container .loader span {\n  position: absolute;\n  inset: 20px;\n  background: #e8e8e8;\n  border-radius: 50%;\n  z-index: 1;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

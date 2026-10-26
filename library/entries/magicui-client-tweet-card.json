@@ -1,0 +1,35 @@
+{
+  "id": "magicui-client-tweet-card",
+  "title": "Client Tweet Card (Magic UI)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/client-tweet-card",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "client",
+    "tweet",
+    "card",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A client-side version of the tweet card that displays a tweet with the author's name, handle, and profile picture.\n\nInstall into a project: npx shadcn@latest add @magicui/client-tweet-card\n\nnpm dependencies: react-tweet\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/magicui/client-tweet-card.tsx",
+  "code": "\"use client\"\n\nimport { useTweet, type TweetProps } from \"react-tweet\"\n\nimport {\n  MagicTweet,\n  TweetNotFound,\n  TweetSkeleton,\n} from \"@/registry/magicui/tweet-card\"\n\nexport const ClientTweetCard = ({\n  id,\n  apiUrl,\n  fallback = <TweetSkeleton />,\n  components,\n  fetchOptions,\n  onError,\n  ...props\n}: TweetProps & { className?: string }) => {\n  const { data, error, isLoading } = useTweet(id, apiUrl, fetchOptions)\n\n  if (isLoading) return fallback\n  if (error || !data) {\n    const NotFound = components?.TweetNotFound ?? TweetNotFound\n    return <NotFound error={onError ? onError(error) : error} />\n  }\n\n  return <MagicTweet tweet={data} {...props} />\n}\n",
+  "prompt": "npx shadcn@latest add @magicui/client-tweet-card",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

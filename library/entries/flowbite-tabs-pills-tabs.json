@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-tabs-pills-tabs",
+  "title": "Tabs: Pills tabs (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/tabs/#pills-tabs",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "tab",
+    "tabs",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "If you want to use pills as a style for the tabs component you can do so by using this example.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/tabs.md",
+  "code": "<ul class=\"flex flex-wrap text-sm font-medium text-center text-body\">\n    <li class=\"me-2\">\n        <a href=\"#\" class=\"inline-block px-4 py-2.5 text-white bg-brand rounded-base active\" aria-current=\"page\">Tab 1</a>\n    </li>\n    <li class=\"me-2\">\n        <a href=\"#\"  class=\"inline-block px-4 py-3 rounded-base hover:text-heading hover:bg-neutral-secondary-soft\">Tab 2</a>\n    </li>\n    <li class=\"me-2\">\n        <a href=\"#\" class=\"inline-block px-4 py-3 rounded-base hover:text-heading hover:bg-neutral-secondary-soft\">Tab 3</a>\n    </li>\n    <li class=\"me-2\">\n        <a href=\"#\" class=\"inline-block px-4 py-3 rounded-base hover:text-heading hover:bg-neutral-secondary-soft\">Tab 4</a>\n    </li>\n    <li>\n        <a class=\"inline-block px-4 py-3 text-fg-disabled cursor-not-allowed\">Tab 5</a>\n    </li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

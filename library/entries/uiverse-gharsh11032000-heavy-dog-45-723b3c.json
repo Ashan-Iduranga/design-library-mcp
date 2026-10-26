@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-gharsh11032000-heavy-dog-45-723b3c",
+  "title": "Card by gharsh11032000 (heavy-dog-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/heavy-dog-45",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "hover",
+    "hover-effect",
+    "hoverme",
+    "cardhover",
+    "card-hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/gharsh11032000_heavy-dog-45.html",
+  "code": "<div class=\"card\">\n  <p class=\"header\">UI Blog's</p>\n  <div class=\"main-content\">\n    <p class=\"heading\">How to make a simple ui card?</p>\n  </div>\n  <div class=\"footer\">by Harsh Gupta</div>\n</div>\n\n<style>\n/* From Uiverse.io by gharsh11032000  - Tags: card, hover, hover effect, hoverme, cardhover , card hover */\n.card {\n  width: 320px;\n  height: 350px;\n  padding: 20px;\n  color: white;\n  background: transparent;\n  border: 2px solid #ff6b00;\n  display: flex;\n  flex-direction: column;\n  cursor: pointer;\n  transform-origin: center center;\n  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.card .main-content {\n  flex: 1;\n}\n\n.header {\n  margin-bottom: 24px;\n}\n\n.card .heading {\n  font-size: 32px;\n  font-weight: 400;\n  line-height: 1.2;\n}\n\n.card .footer {\n  font-weight: 400;\n  margin-right: 4px;\n}\n\n.card:hover {\n  border-radius: 12px;\n  background-color: #ff6b00;\n  scale: 0.95;\n  rotate: 8deg;\n  box-shadow: 0px 3px 187.5px 7.5px rgba(255, 107, 0, 0.4);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

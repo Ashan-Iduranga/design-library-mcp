@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-vinodjangid07-brave-treefrog-18-bbf16b",
+  "title": "Button by vinodjangid07 (brave-treefrog-18)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/brave-treefrog-18",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "hover-effect",
+    "gold",
+    "golden-effect",
+    "subscribe",
+    "premium"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_brave-treefrog-18.html",
+  "code": "<button class=\"Btn\">\n  <svg viewBox=\"0 0 576 512\" height=\"1em\" class=\"logoIcon\"><path d=\"M309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.4 7.6 27 19 34L209.7 220.6c-9.1 18.2-32.7 23.4-48.6 10.7L72 160c5-6.7 8-15 8-24c0-22.1-17.9-40-40-40S0 113.9 0 136s17.9 40 40 40c.2 0 .5 0 .7 0L86.4 427.4c5.5 30.4 32 52.6 63 52.6H426.6c30.9 0 57.4-22.1 63-52.6L535.3 176c.2 0 .5 0 .7 0c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 9 3 17.3 8 24l-89.1 71.3c-15.9 12.7-39.5 7.5-48.6-10.7L309 106z\"></path></svg>\n  GO PREMIUM\n</button>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: gradient, button, hover effect, gold, golden effect , subscribe, premium */\n.Btn {\n  width: 200px;\n  height: 40px;\n  border: none;\n  border-radius: 40px;\n  background: linear-gradient(to right,#bf953f,#fcf6ba,#b38728,#fbf5b7,#aa771c);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  font-size: 0.8em;\n  color: rgb(121, 103, 3);\n  font-weight: 600;\n  cursor: pointer;\n  position: relative;\n  z-index: 2;\n  transition-duration: 3s;\n  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.144);\n  background-size: 200% 200%;\n}\n\n.logoIcon path {\n  fill: rgb(121, 103, 3);\n}\n\n.Btn:hover {\n  transform: scale(0.95);\n  transition-duration: 3s;\n  animation: gradient 5s ease infinite;\n  background-position: right;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

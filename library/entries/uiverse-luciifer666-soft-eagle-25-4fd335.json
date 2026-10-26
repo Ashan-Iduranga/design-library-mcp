@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-luciifer666-soft-eagle-25-4fd335",
+  "title": "Card by Luciifer666 (soft-eagle-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Luciifer666/soft-eagle-25",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "loading",
+    "one-div"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Luciifer666 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Luciifer666_soft-eagle-25.html",
+  "code": "<div class=\"one-div\"></div>\n<style>\n/* From Uiverse.io by Luciifer666 - Tags: loading, card, one-div */\n.one-div {\n  width: 100px;\n  height: 100px;\n  margin: 100px auto;\n  position: relative;\n}\n\n.one-div::before, .one-div::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  border: 6px solid transparent;\n}\n\n.one-div::before {\n  border-top-color: #3468db;\n  animation: spin 1.5s infinite linear;\n}\n\n.one-div::after {\n  border-top-color: #e67e22;\n  animation: spin-reverse 1.5s infinite linear;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes spin-reverse {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

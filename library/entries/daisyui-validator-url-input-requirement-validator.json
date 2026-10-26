@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-validator-url-input-requirement-validator",
+  "title": "Validator: URL input requirement validator (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/validator/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "validator",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Validator class changes the color of form elements to error or success based on input's validation rules.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/validator/+page.md",
+  "code": "<input type=\"url\" class=\"input validator\" required placeholder=\"https://\" value=\"https://\"\n  pattern=\"^(https?://)?([a-zA-Z0-9]([a-zA-Z0-9\\-].*[a-zA-Z0-9])?\\.)+[a-zA-Z].*$\" \n  title=\"Must be valid URL\" />\n<p class=\"validator-hint\">Must be valid URL</p>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

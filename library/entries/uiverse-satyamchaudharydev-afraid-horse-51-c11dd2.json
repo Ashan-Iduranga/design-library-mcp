@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-satyamchaudharydev-afraid-horse-51-c11dd2",
+  "title": "Loader by satyamchaudharydev (afraid-horse-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/afraid-horse-51",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/satyamchaudharydev_afraid-horse-51.html",
+  "code": "<div class=\"spinner\"></div>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.spinner {\n --size: 30px;\n --first-block-clr: #005bba;\n --second-block-clr: #fed500;\n --clr: #111;\n width: 100px;\n height: 100px;\n position: relative;\n}\n\n.spinner::after,.spinner::before {\n box-sizing: border-box;\n position: absolute;\n content: \"\";\n width: var(--size);\n height: var(--size);\n top: 50%;\n animation: up 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;\n left: 50%;\n background: var(--first-block-clr);\n}\n\n.spinner::after {\n background: var(--second-block-clr);\n top: calc(50% - var(--size));\n left: calc(50% - var(--size));\n animation: down 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;\n}\n\n@keyframes down {\n 0%, 100% {\n  transform: none;\n }\n\n 25% {\n  transform: translateX(100%);\n }\n\n 50% {\n  transform: translateX(100%) translateY(100%);\n }\n\n 75% {\n  transform: translateY(100%);\n }\n}\n\n@keyframes up {\n 0%, 100% {\n  transform: none;\n }\n\n 25% {\n  transform: translateX(-100%);\n }\n\n 50% {\n  transform: translateX(-100%) translateY(-100%);\n }\n\n 75% {\n  transform: translateY(-100%);\n }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

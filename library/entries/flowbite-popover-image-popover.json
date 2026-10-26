@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-popover-image-popover",
+  "title": "Popover: Image popover (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/popover/#image-popover",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "popover",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to trigger a popover component with detailed information and an image when hovering over a portion of highlighted text inspired by Wikipedia and other large news outlets.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/popover.md",
+  "code": "<p class=\"text-body\">Due to its central geographic location in Southern Europe, <a href=\"#\" class=\"text-fg-brand font-medium underline hover:no-underline\" data-popover-target=\"popover-image\">Italy</a> has historically been home to myriad peoples and cultures. In addition to the various ancient peoples dispersed throughout what is now modern-day Italy, the most predominant being the Indo-European Italic peoples who gave the peninsula its name, beginning from the classical era, Phoenicians and Carthaginians founded colonies mostly in insular Italy</p>\n<div data-popover id=\"popover-image\" role=\"tooltip\" class=\"absolute z-10 p-3 invisible inline-block text-sm text-body transition-opacity duration-300 bg-neutral-primary-soft border border-default rounded-lg shadow-xs opacity-0 w-96\">\n    <div class=\"grid grid-cols-5\">\n        <div class=\"col-span-3 pe-3\">\n            <div class=\"space-y-2\">\n                <h3 class=\"font-semibold text-heading\">About Italy</h3>\n                <p class=\"mb-2\">Italy is located in the middle of the Mediterranean Sea, in Southern Europe it is also part of Western Europe.</p>\n                <p>A unitary parliamentary republic with Rome as its capital and largest city.</p>\n                <a href=\"#\" class=\"flex items-center font-medium text-fg-brand hover:underline\">\n                    Read more \n                    <svg class=\"w-4 h-4 ms-1 rtl:rotate-180\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 12H5m14 0-4 4m4-4-4-4\"/></svg>\n                </a>\n            </div>\n        </div>\n        <img src=\"/docs/images/popovers/italy.png\" class=\"h-full col-span-2 rounded\" alt=\"Italy map\" />\n    </div>\n    <div data-popper-arrow></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

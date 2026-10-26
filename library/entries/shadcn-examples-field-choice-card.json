@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-field-choice-card",
+  "title": "Field Choice Card (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/field-choice-card.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "field",
+    "choice",
+    "card",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Combine labels, controls, and help text to compose accessible form fields and grouped inputs.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/field-choice-card.tsx",
+  "code": "import {\n  Field,\n  FieldContent,\n  FieldDescription,\n  FieldGroup,\n  FieldLabel,\n  FieldSet,\n  FieldTitle,\n} from \"@/registry/new-york-v4/ui/field\"\nimport {\n  RadioGroup,\n  RadioGroupItem,\n} from \"@/registry/new-york-v4/ui/radio-group\"\n\nexport default function FieldChoiceCard() {\n  return (\n    <div className=\"w-full max-w-md\">\n      <FieldGroup>\n        <FieldSet>\n          <FieldLabel htmlFor=\"compute-environment-p8w\">\n            Compute Environment\n          </FieldLabel>\n          <FieldDescription>\n            Select the compute environment for your cluster.\n          </FieldDescription>\n          <RadioGroup defaultValue=\"kubernetes\">\n            <FieldLabel htmlFor=\"kubernetes-r2h\">\n              <Field orientation=\"horizontal\">\n                <FieldContent>\n                  <FieldTitle>Kubernetes</FieldTitle>\n                  <FieldDescription>\n                    Run GPU workloads on a K8s configured cluster.\n                  </FieldDescription>\n                </FieldContent>\n                <RadioGroupItem value=\"kubernetes\" id=\"kubernetes-r2h\" />\n              </Field>\n            </FieldLabel>\n            <FieldLabel htmlFor=\"vm-z4k\">\n              <Field orientation=\"horizontal\">\n                <FieldContent>\n                  <FieldTitle>Virtual Machine</FieldTitle>\n                  <FieldDescription>\n                    Access a VM configured cluster to run GPU workloads.\n                  </FieldDescription>\n                </FieldContent>\n                <RadioGroupItem value=\"vm\" id=\"vm-z4k\" />\n              </Field>\n            </FieldLabel>\n          </RadioGroup>\n        </FieldSet>\n      </FieldGroup>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

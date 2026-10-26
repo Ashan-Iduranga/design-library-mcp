@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-sashank02-new-warthog-10-f98f87",
+  "title": "Card by Sashank02 (new-warthog-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Sashank02/new-warthog-10",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "neumorphism",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Sashank02 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Sashank02_new-warthog-10.html",
+  "code": "<div class=\"card\">\n  <div class=\"card-image\"></div>\n  <p class=\"card-title\">Card title</p>\n  <p class=\"card-body\">\n    Nullam ac tristique nulla, at convallis quam. Integer consectetur mi nec magna tristique, non lobortis.\n  </p>\n  <p class=\"footer\">Written by <span class=\"by-name\">John Doe</span> on <span class=\"date\">25/05/23</span></p>\n</div>\n<style>\n/* From Uiverse.io by Sashank02 - Tags: neumorphism, card, box-shadow */\n.card {\n  padding: 20px;\n  width: 330px;\n  min-height: 370px;\n  border-radius: 20px;\n  background: #e8e8e8;\n  box-shadow: 5px 5px 6px #dadada,\n               -5px -5px 6px #f6f6f6;\n  transition: 0.4s;\n}\n\n.card:hover {\n  translate: 0 -10px;\n}\n\n.card-title {\n  font-size: 18px;\n  font-weight: 600;\n  color: #2e54a7;\n  margin: 15px 0 0 10px;\n}\n\n.card-image {\n  min-height: 170px;\n  background-color: #c9c9c9;\n  border-radius: 15px;\n  box-shadow: inset 8px 8px 10px #c3c3c3,\n            inset -8px -8px 10px #cfcfcf;\n}\n\n.card-body {\n  margin: 13px 0 0 10px;\n  color: rgb(31, 31, 31);\n  font-size: 15px;\n}\n\n.footer {\n  float: right;\n  margin: 28px 0 0 18px;\n  font-size: 13px;\n  color: #636363;\n}\n\n.by-name {\n  font-weight: 700;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

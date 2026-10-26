@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-dropdown-helper-dropdown",
+  "title": "Dropdown: Helper dropdown (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/dropdown/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "dropdown",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Dropdown can open a menu or any other element when the button is clicked.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/dropdown/+page.md",
+  "code": "<div class=\"dropdown dropdown-end\">\n  <div tabindex=\"0\" role=\"button\" class=\"btn btn-circle btn-ghost btn-xs text-info\">\n    <svg\n      tabindex=\"0\"\n      aria-label=\"More info\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      class=\"h-4 w-4 stroke-current\">\n      <path\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n        stroke-width=\"2\"\n        d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n    </svg>\n  </div>\n  <div\n    tabindex=\"0\"\n    class=\"card card-sm dropdown-content bg-base-100 rounded-box z-1 w-64 shadow-sm\">\n    <div tabindex=\"0\" class=\"card-body\">\n      <h2 class=\"card-title\">You needed more info?</h2>\n      <p>Here is a description!</p>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

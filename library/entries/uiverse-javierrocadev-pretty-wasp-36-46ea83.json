@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-javierrocadev-pretty-wasp-36-46ea83",
+  "title": "Card by Javierrocadev (pretty-wasp-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/pretty-wasp-36",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "hover",
+    "card-animation",
+    "article"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Javierrocadev_pretty-wasp-36.html",
+  "code": "<div class=\"card\">\n   <div class=\"icons\"> \n      <button class=\"save\">\n      <svg class=\"save__icon\" viewBox=\"0 0 20 20\"><path d=\"M8.416,3.943l1.12-1.12v9.031c0,0.257,0.208,0.464,0.464,0.464c0.256,0,0.464-0.207,0.464-0.464V2.823l1.12,1.12c0.182,0.182,0.476,0.182,0.656,0c0.182-0.181,0.182-0.475,0-0.656l-1.744-1.745c-0.018-0.081-0.048-0.16-0.112-0.224C10.279,1.214,10.137,1.177,10,1.194c-0.137-0.017-0.279,0.02-0.384,0.125C9.551,1.384,9.518,1.465,9.499,1.548L7.76,3.288c-0.182,0.181-0.182,0.475,0,0.656C7.941,4.125,8.234,4.125,8.416,3.943z M15.569,6.286h-2.32v0.928h2.32c0.512,0,0.928,0.416,0.928,0.928v8.817c0,0.513-0.416,0.929-0.928,0.929H4.432c-0.513,0-0.928-0.416-0.928-0.929V8.142c0-0.513,0.416-0.928,0.928-0.928h2.32V6.286h-2.32c-1.025,0-1.856,0.831-1.856,1.856v8.817c0,1.025,0.832,1.856,1.856,1.856h11.138c1.024,0,1.855-0.831,1.855-1.856V8.142C17.425,7.117,16.594,6.286,15.569,6.286z\"></path></svg>\n      Save \n    </button>\n    <button class=\"see-more\">\n      <svg viewBox=\"0 0 20 20\" class=\"see-more__icon\">\n\t\t\t\t\t\t\t<path d=\"M3.936,7.979c-1.116,0-2.021,0.905-2.021,2.021s0.905,2.021,2.021,2.021S5.957,11.116,5.957,10\n\t\t\t\t\t\t\t\tS5.052,7.979,3.936,7.979z M3.936,11.011c-0.558,0-1.011-0.452-1.011-1.011s0.453-1.011,1.011-1.011S4.946,9.441,4.946,10\n\t\t\t\t\t\t\t\tS4.494,11.011,3.936,11.011z M16.064,7.979c-1.116,0-2.021,0.905-2.021,2.021s0.905,2.021,2.021,2.021s2.021-0.905,2.021-2.021\n\t\t\t\t\t\t\t\tS17.181,7.979,16.064,7.979z M16.064,11.011c-0.559,0-1.011-0.452-1.011-1.011s0.452-1.011,1.011-1.011S17.075,9.441,17.075,10\n\t\t\t\t\t\t\t\tS16.623,11.011,16.064,11.011z M10,7.979c-1.116,0-2.021,0.905-2.021,2.021S8.884,12.021,10,12.021s2.021-0.905,2.021-2.021\n\t\t\t\t\t\t\t\tS11.116,7.979,10,7.979z M10,11.011c-0.558,0-1.011-0.452-1.011-1.011S9.442,8.989,10,8.989S11.011,9.441,11.011,10\n\t\t\t\t\t\t\t\tS10.558,11.011,10,11.011z\"></path>\n\t\t\t\t\t\t</svg>\n    </button>\n    </div>\n  <div class=\"image\"></div>\n   <div class=\"card__info\">\n     <span class=\"page\">BBC</span>\n     <a href=\"#\" class=\"title\">Stunning photos as Perseid meteors light up skies</a>\n     <p class=\"content\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>\n   </div>\n</div>\n<style>\n/* From Uiverse.io by Javierrocadev - Tags: hover, card animation, article */\n.card {\n  width: 300px;\n  height: 325px;\n  background: #e8e8e8;\n  border-radius: 15px;\n  overflow: hidden;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  position: relative;\n  color: #212121;\n  border: 2px solid #ab4b38;\n  transition: all .5s ease;\n}\n\n.icons {\n  display: flex;\n  flex-direction: row;\n  gap: 5px;\n  position: absolute;\n  right: 15px;\n  top: 15px;\n  transition: opacity 0.5s ease;\n  opacity: 0;\n}\n\n.image {\n  width: 300px;\n  height: 148px;\n  background: rgb(223,235,56);\n  background: rgb(56,235,226);\n  background: linear-gradient(163deg, rgba(56,235,226,1) 0%, rgba(134,221,245,1) 50%);\n}\n\n.save {\n  background: #eb4b38;\n  color: white;\n  border: none;\n  border-radius: 5px;\n}\n\n.see-more {\n  background: #ab4b38;\n  border: none;\n  border-radius: 5px;\n  color: white;\n}\n\n.save, .see-more {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  gap: 5px;\n  padding: 5px;\n}\n\n.save__icon, .see-more__icon {\n  width: 15px;\n  fill: white;\n}\n\n.card__info {\n  display: flex;\n  flex-direction: column;\n  flex-grow: 1;\n  justify-content: center;\n  padding: 15px;\n  gap: 3px;\n}\n\n.page {\n  font-size: 13px;\n  font-weight: 100;\n}\n\n.title {\n  text-decoration: none;\n  font-weight: 600;\n  font-size: 17px;\n  color: black;\n}\n\n.content {\n  font-size: 14px;\n}\n\n.card:hover {\n  box-shadow: 5px 5px 10px 0px #ab4b3866;\n}\n\n.card:hover .icons {\n  z-index: 1;\n  opacity: 1;\n}\n\n.card:hover .image {\n  filter: brightness(.8);\n}\n\n.card:hover .title {\n  color: #ab4b38;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

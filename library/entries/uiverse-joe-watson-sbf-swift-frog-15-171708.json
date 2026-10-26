@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-joe-watson-sbf-swift-frog-15-171708",
+  "title": "Card by joe-watson-sbf (swift-frog-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/joe-watson-sbf/swift-frog-15",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "scroll-snap"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By joe-watson-sbf on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/joe-watson-sbf_swift-frog-15.html",
+  "code": "<div class=\"container\">\n    <div class=\"item\">SCROLL SNAP</div>\n    <div class=\"item\">SCROLL SNAP</div>\n    <div class=\"item\">SCROLL SNAP</div>\n    <div class=\"item\">SCROLL SNAP</div>\n    <div class=\"item\">SCROLL SNAP</div>\n</div>\n<style>\n/* From Uiverse.io by joe-watson-sbf - Tags: card, scroll snap */\n.container {\n  display: flex;\n  overflow: auto;\n  scroll-snap-type: x mandatory;\n  padding: 10px;\n  gap: 10px;\n  scroll-padding: 10px;\n  width: 190px;\n  height: 254px;\n  background-color: white;\n  border: 2px solid coral;\n}\n\n.container .item {\n  scroll-snap-align: start;\n  flex: 0 0 60%;\n  background: linear-gradient(120deg, coral 30%, rgb(255, 187, 163) 88%, rgb(255, 185, 160) \n  40%, coral 48%);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: bisque;\n  text-align: center;\n  font-size: 1.3rem;\n  line-height: 1.3em;\n  font-weight: 400;\n  font-family: sans-serif;\n  border-radius: .2rem;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

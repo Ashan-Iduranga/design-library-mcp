@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-pagination-select-input-and-buttons",
+  "title": "Pagination: Select input and buttons (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/pagination/#select-input-and-buttons",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "pagination",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This example can be used to select the number of pages and navigate using the left and right arrows.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/pagination.md",
+  "code": "<nav aria-label=\"Page navigation example\">\n  <form class=\"mx-auto flex items-center space-x-3\">\n    <label for=\"countries\" class=\"sr-only\">Select an option</label>\n    <select id=\"countries\" class=\"block w-16 px-3 py-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm leading-4 rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body\">\n      <option selected>03</option>\n      <option value=\"4\">04</option>\n      <option value=\"5\">05</option>\n      <option value=\"6\">06</option>\n      <option value=\"7\">07</option>\n      <option value=\"8\">08</option>\n      <option value=\"9\">09</option>\n      <option value=\"10\">10</option>\n    </select>\n    <input type=\"text\" id=\"visitors\" class=\"bg-disabled w-28 border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block px-2.5 py-2 shadow-xs placeholder:text-fg-disabled\" placeholder=\"of 99 pages\" disabled/>\n    <div class=\"inline-flex rounded-base shadow-xs -space-x-px\" role=\"group\">\n      <button data-tooltip-target=\"tooltip-previous\" type=\"button\" class=\"inline-flex items-center justify-center text-body bg-neutral-secondary-medium rounded-s-base box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary leading-5 w-9 h-9 focus:outline-none\">\n        <svg class=\"w-4 h-4\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m15 19-7-7 7-7\"/></svg>\n      </button>\n      <div id=\"tooltip-previous\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm leading-4 font-medium text-white transition-opacity duration-300 bg-dark rounded-base shadow-xs opacity-0 tooltip\">\n        Previous\n        <div class=\"tooltip-arrow\" data-popper-arrow></div>\n      </div>\n      <button data-tooltip-target=\"tooltip-next\" type=\"button\" class=\"inline-flex items-center justify-center text-body bg-neutral-secondary-medium rounded-e-base box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary leading-5 w-9 h-9 focus:outline-none\">\n        <svg class=\"w-4 h-4\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m9 5 7 7-7 7\"/></svg>\n      </button>\n      <div id=\"tooltip-next\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block px-3 py-2 text-sm leading-4 font-medium text-white transition-opacity duration-300 bg-dark rounded-base shadow-xs opacity-0 tooltip\">\n        Next\n        <div class=\"tooltip-arrow\" data-popper-arrow></div>\n      </div>\n    </div>\n  </form>\n</nav>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

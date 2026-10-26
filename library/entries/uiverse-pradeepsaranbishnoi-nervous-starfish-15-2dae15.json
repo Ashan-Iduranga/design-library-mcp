@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-nervous-starfish-15-2dae15",
+  "title": "Loader by Pradeepsaranbishnoi (nervous-starfish-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/nervous-starfish-15",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "3d",
+    "cube"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Pradeepsaranbishnoi_nervous-starfish-15.html",
+  "code": "<div class=\"loader\">\n  <div class=\"cube\">\n    <div class=\"side\"></div>\n    <div class=\"side\"></div>\n    <div class=\"side\"></div>\n    <div class=\"side\"></div>\n    <div class=\"side\"></div>\n    <div class=\"side\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: 3d, loader, cube */\n/* The loader container */\n.loader {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 200px;\n  height: 200px;\n  margin-top: -100px;\n  margin-left: -100px;\n  perspective: 1000px;\n  transform-type: preserve-3d;\n}\n\n\n/* The cube */\n.cube {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50%;\n  height: 50%;\n  transform-style: preserve-3d;\n  transform: translateZ(-50px);\n  animation: cube 4s cubic-bezier(.18,.56,.64,1) infinite;\n}\n\n@keyframes cube {\n  0% {\n    top: 0%;\n    left: 0%;\n    transform: translateZ(-50px);\n  }\n\n  25% {\n    top: 50%;\n    left: 50%;\n    transform: translateZ(-50px) rotateX(-90deg) rotateZ(90deg);\n  }\n\n  50% {\n    top: 0%;\n    left: 50%;\n    transform: translateZ(-50px) rotateX(0deg) rotateZ(180deg);\n  }\n\n  75% {\n    top: 50%;\n    left: 0%;\n    transform: translateZ(-50px) rotateX(-90deg) rotateZ(-90deg);\n  }\n}\n\n\n/* The side */\n.side {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n  backface-visibility: hidden;\n}\n\n/* back */\n.side:nth-child(1) {\n  transform: rotateX(-180deg) translateZ(50px);\n  background-color: #1e3f57;\n}\n\n/* left side */\n.side:nth-child(2) {\n  transform: rotateY(-90deg) translateZ(50px);\n  background-color: #6bb2cd;\n}\n\n/* right side */\n.side:nth-child(3) {\n  transform: rotateY(90deg) translateZ(50px);\n  background-color: #6bb2cd;\n}\n\n/* top side */\n.side:nth-child(4) {\n  transform: rotateX(90deg) translateZ(50px);\n  background-color: #3c617d;\n}\n\n/* bottom side */\n.side:nth-child(5) {\n  transform: rotateX(-90deg) translateZ(50px);\n  background-color: #3c617d;\n}\n\n/* top */\n.side:nth-child(6) {\n  transform: translateZ(50px);\n  background-color: #1e3f57;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

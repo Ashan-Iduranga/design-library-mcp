@@ -1,0 +1,36 @@
+{
+  "id": "magicui-backlight-image-demo",
+  "title": "Backlight Image Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/backlight-image",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "backlight",
+    "image",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "An example of the backlight component with a image.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/backlight-image-demo.tsx",
+  "code": "import { Backlight } from \"@/registry/magicui/backlight\"\n\nexport default function BacklightImageDemo() {\n  return (\n    <Backlight className=\"w-full\">\n      <img\n        className=\"mx-auto h-auto w-full max-w-lg rounded-xl\"\n        src={\n          \"https://plus.unsplash.com/premium_photo-1672201106204-58e9af7a2888?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\"\n        }\n        alt=\"fancy gradient background\"\n      />\n    </Backlight>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-logariusiv-orange-cobra-86-9dbf8b",
+  "title": "Form by LogariusIV (orange-cobra-86)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/LogariusIV/orange-cobra-86",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "login"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By LogariusIV on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/LogariusIV_orange-cobra-86.html",
+  "code": "<form action=\"\" class=\"form\">\n        <div class=\"Group\">\n            <label for=\"Email\">Email</label>\n            <input placeholder=\"abc@email.com\" id=\"Email\" type=\"email\">\n        </div>\n        <div class=\"Group\">\n            <label for=\"Password\">Password</label>\n            <input id=\"Password\" type=\"password\">\n        </div>\n        <div class=\"Group\">\n            <button class=\"btn\">Log in</button>\n        </div>\n</form>\n<style>\n/* From Uiverse.io by LogariusIV - Tags: login, form */\n.form {\n  display: flex;\n  flex-direction: column;\n  width: 280px;\n  height: 350px;\n  background-color: #FFF;\n  margin: 0;\n  box-shadow: -1px 0px 25px 0px #21719369;\n  padding: 2.25em;\n  box-sizing: border-box;\n  border: solid 1px #DDD;\n  border-radius: 0.5em;\n  font-family: sans-serif;\n  font-size: 16px;\n  font-weight: 400;\n}\n\n.form .Group {\n  margin-bottom: 2em;\n}\n\n.form label {\n  margin: 0 0 10px;\n  display: block;\n  font-size: 1.25em;\n  color: #217093;\n  font-weight: 600;\n  font-family: inherit;\n}\n\n.form input {\n  padding: 0.3em 0.5em 0.4em;\n  background-color: #f3fafd;\n  border: solid 2px #217093;\n  border-radius: 4px;\n  box-sizing: border-box;\n  width: 100%;\n  height: 50px;\n  font-size: 1.3em;\n  color: #353538;\n  font-weight: 600;\n  font-family: inherit;\n  transition: box-shadow 0.2s linear, border-color 0.25s ease-out;\n}\n\n.form input:focus {\n  outline: none;\n  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);\n  background-color: #edf8fc;\n  border: solid 2px #4eb8dd;\n}\n\n.form input::placeholder {\n  color: #21719383;\n}\n\n.form .btn {\n  margin: 0;\n  padding: 0.5em;\n  background-color: #4eb8dd;\n  border: none;\n  border-radius: 4px;\n  box-sizing: border-box;\n  box-shadow: none;\n  width: 100%;\n  height: 50px;\n  font-size: 1.4em;\n  color: #FFF;\n  font-weight: 600;\n  font-family: inherit;\n  transition: transforme 0.1s ease-in-out, background-color 0.2s ease-out;\n}\n\n.form .btn:hover {\n  cursor: pointer;\n  background-color: #217093;\n}\n\n.form .btn:active {\n  transform: scale(0.98);\n}  \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

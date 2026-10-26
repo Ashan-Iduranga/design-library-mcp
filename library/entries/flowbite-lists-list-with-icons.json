@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-lists-list-with-icons",
+  "title": "Lists: List with icons (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/typography/lists/#list-with-icons",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "list",
+    "lists",
+    "typography",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to create a list of items with custom SVG icons instead of the default bullets.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/typography/lists.md",
+  "code": "<ul class=\"space-y-4 text-left text-body\">\n    <li class=\"flex items-center space-x-3 rtl:space-x-reverse\">\n         <svg class=\"w-4 h-4 text-fg-success shrink-0 me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n        <span>Individual configuration</span>\n    </li>\n    <li class=\"flex items-center space-x-3 rtl:space-x-reverse\">\n         <svg class=\"w-4 h-4 text-fg-success shrink-0 me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n        <span>No setup, or hidden fees</span>\n    </li>\n    <li class=\"flex items-center space-x-3 rtl:space-x-reverse\">\n         <svg class=\"w-4 h-4 text-fg-success shrink-0 me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n        <span>Team size: <span class=\"font-medium text-heading\">1 developer</span></span>\n    </li>\n    <li class=\"flex items-center space-x-3 rtl:space-x-reverse\">\n         <svg class=\"w-4 h-4 text-fg-success shrink-0 me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n        <span>Premium support: <span class=\"font-medium text-heading\">6 months</span></span>\n    </li>\n    <li class=\"flex items-center space-x-3 rtl:space-x-reverse\">\n         <svg class=\"w-4 h-4 text-fg-success shrink-0 me-1.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"/></svg>\n        <span>Free updates: <span class=\"font-medium text-heading\">6 months</span></span>\n    </li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

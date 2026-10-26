@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-souravbandyopadhyay-stupid-eagle-66-92f923",
+  "title": "Loader by SouravBandyopadhyay (stupid-eagle-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SouravBandyopadhyay/stupid-eagle-66",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "spinner",
+    "spin",
+    "loading-animation",
+    "infinite-spin"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SouravBandyopadhyay on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/SouravBandyopadhyay_stupid-eagle-66.html",
+  "code": "<svg style=\"left: 50%;\n        top: 50%;\n        position: absolute;\n        transform: translate(-50%, -50%) matrix(1, 0, 0, 1, 0, 0);\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 187.3 93.7\" height=\"300px\" width=\"400px\">\n      <path d=\"M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 \t\t\t\tc-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z\" stroke-miterlimit=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"4\" fill=\"none\" id=\"outline\" stroke=\"#4E4FEB\"></path>\n      <path d=\"M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 \t\t\t\tc-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z\" stroke-miterlimit=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"4\" stroke=\"#4E4FEB\" fill=\"none\" opacity=\"0.05\" id=\"outline-bg\"></path>\n    </svg>\n<style>\n/* From Uiverse.io by SouravBandyopadhyay - Tags: loading, loader, spinner, spin, loading animation, Infinite Spin */\n#outline {\n  stroke-dasharray: 2.42777px, 242.77666px;\n  stroke-dashoffset: 0;\n  -webkit-animation: anim 1.6s linear infinite;\n  animation: anim 1.6s linear infinite;\n}\n\n@-webkit-keyframes anim {\n  12.5% {\n    stroke-dasharray: 33.98873px, 242.77666px;\n    stroke-dashoffset: -26.70543px;\n  }\n\n  43.75% {\n    stroke-dasharray: 84.97183px, 242.77666px;\n    stroke-dashoffset: -84.97183px;\n  }\n\n  100% {\n    stroke-dasharray: 2.42777px, 242.77666px;\n    stroke-dashoffset: -240.34889px;\n  }\n}\n\n@keyframes anim {\n  12.5% {\n    stroke-dasharray: 33.98873px, 242.77666px;\n    stroke-dashoffset: -26.70543px;\n  }\n\n  43.75% {\n    stroke-dasharray: 84.97183px, 242.77666px;\n    stroke-dashoffset: -84.97183px;\n  }\n\n  100% {\n    stroke-dasharray: 2.42777px, 242.77666px;\n    stroke-dashoffset: -240.34889px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

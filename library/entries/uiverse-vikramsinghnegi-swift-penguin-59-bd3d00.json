@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vikramsinghnegi-swift-penguin-59-bd3d00",
+  "title": "Loader by vikramsinghnegi (swift-penguin-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikramsinghnegi/swift-penguin-59",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "html",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikramsinghnegi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vikramsinghnegi_swift-penguin-59.html",
+  "code": "<div class=\"center-body\">\n  <div class=\"loader-spanne-20\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by vikramsinghnegi  - Tags: loading, loader, html, css */\n.loader-spanne-20 {\n  position: relative;\n  width: 100px;\n  height: 30px;\n  padding: 0;\n}\n.loader-spanne-20 > span {\n  position: absolute;\n  right: 0;\n  width: 3px;\n  height: 30px;\n  background-color: rgb(116, 204, 197);\n  display: block;\n  border-radius: 3px;\n  transform-origin: 50% 100%;\n  animation: move 2.8s linear infinite;\n}\n.loader-spanne-20 > span:nth-child(1) {\n  animation-delay: -0.4s;\n}\n.loader-spanne-20 > span:nth-child(2) {\n  animation-delay: -0.8s;\n}\n.loader-spanne-20 > span:nth-child(3) {\n  animation-delay: -1.2s;\n}\n.loader-spanne-20 > span:nth-child(4) {\n  animation-delay: -1.6s;\n}\n.loader-spanne-20 > span:nth-child(5) {\n  animation-delay: -2s;\n}\n.loader-spanne-20 > span:nth-child(6) {\n  animation-delay: -2.4s;\n}\n.loader-spanne-20 > span:nth-child(7) {\n  animation-delay: -2.8s;\n}\n@keyframes move {\n  0% {\n    opacity: 0;\n    transform: translateX(0px) rotate(0deg);\n  }\n  20% {\n    opacity: 1;\n  }\n  40% {\n    transform: translateX(-40px) rotate(0deg);\n  }\n  50% {\n    opacity: 1;\n    transform: translateX(-50px) rotate(22deg);\n  }\n  85% {\n    opacity: 1;\n    transform: translateX(-85px) rotate(60deg);\n  }\n  100% {\n    opacity: 0;\n    transform: translateX(-100px) rotate(65deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-cebucoder-foolish-kangaroo-50-39cb45",
+  "title": "Loader by Cebucoder (foolish-kangaroo-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cebucoder/foolish-kangaroo-50",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "white",
+    "loading",
+    "shadow",
+    "modern",
+    "text-animation",
+    "effect-loader",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cebucoder on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Cebucoder_foolish-kangaroo-50.html",
+  "code": "<div class=\"loader\">\n  <label>Redirecting...</label>\n  <div class=\"loading\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by Cebucoder  - Tags: white, loading, loader, shadow, modern, text animation, effect loader, loading animation */\n.loader {\n  width: 350px;\n  height: 180px;\n  border-radius: 10px;\n  background: #fff;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: space-evenly;\n  padding: 30px;\n  box-shadow: 2px 2px 10px -5px lightgrey;\n}\n.loading {\n  width: 100%;\n  height: 10px;\n  background: lightgrey;\n  border-radius: 10px;\n  position: relative;\n}\n.loading::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50%;\n  height: 10px;\n  background: #002;\n  border-radius: 10px;\n  z-index: 1;\n  animation: loading 0.6s alternate infinite;\n}\nlabel {\n  color: #002;\n  font-size: 18px;\n  animation: bit 0.6s alternate infinite;\n}\n\n@keyframes bit {\n  from {\n    opacity: 0.3;\n  }\n  to {\n    opacity: 1;\n  }\n}\n\n@keyframes loading {\n  0% {\n    left: 25%;\n  }\n  100% {\n    left: 50%;\n  }\n  0% {\n    left: 0%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-checkbox-horizontal-list-group",
+  "title": "Checkbox: Horizontal list group (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/checkbox/#horizontal-list-group",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a list of checkbox items inside a card horizontally.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/checkbox.md",
+  "code": "<h3 class=\"mb-4 font-semibold text-heading\">Identification</h3>\n<ul class=\"items-center select-none w-full text-sm font-medium text-heading bg-neutral-primary-soft border border-default rounded-base sm:flex\">\n    <li class=\"w-full border-b border-default sm:border-b-0 sm:border-r\">\n        <div class=\"flex items-center ps-3\">\n            <input id=\"vue-checkbox-list\" type=\"checkbox\" value=\"\" class=\"w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n            <label for=\"vue-checkbox-list\" class=\"w-full py-3 ms-2 text-sm font-medium text-heading\">Vue JS</label>\n        </div>\n    </li>\n    <li class=\"w-full border-b border-default sm:border-b-0 sm:border-r\">\n        <div class=\"flex items-center ps-3\">\n            <input id=\"react-checkbox-list\" type=\"checkbox\" value=\"\" class=\"w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n            <label for=\"react-checkbox-list\" class=\"w-full py-3 ms-2 text-sm font-medium text-heading\">React</label>\n        </div>\n    </li>\n    <li class=\"w-full border-b border-default sm:border-b-0 sm:border-r\">\n        <div class=\"flex items-center ps-3\">\n            <input id=\"angular-checkbox-list\" type=\"checkbox\" value=\"\" class=\"w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n            <label for=\"angular-checkbox-list\" class=\"w-full py-3 ms-2 text-sm font-medium text-heading\">Angular</label>\n        </div>\n    </li>\n    <li class=\"w-full\">\n        <div class=\"flex items-center ps-3\">\n            <input id=\"laravel-checkbox-list\" type=\"checkbox\" value=\"\" class=\"w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n            <label for=\"laravel-checkbox-list\" class=\"w-full py-3 ms-2 text-sm font-medium text-heading\">Laravel</label>\n        </div>\n    </li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

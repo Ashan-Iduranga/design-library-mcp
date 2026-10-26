@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-pagination-with-a-disabled-button",
+  "title": "Pagination: With a disabled button (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/pagination/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "pagination",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Pagination is a group of buttons that allow the user to navigate between a set of related content.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/pagination/+page.md",
+  "code": "<div class=\"join\">\n  <button class=\"join-item btn\">1</button>\n  <button class=\"join-item btn\">2</button>\n  <button class=\"join-item btn btn-disabled\">...</button>\n  <button class=\"join-item btn\">99</button>\n  <button class=\"join-item btn\">100</button>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

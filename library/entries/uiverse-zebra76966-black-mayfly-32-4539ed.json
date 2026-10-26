@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-zebra76966-black-mayfly-32-4539ed",
+  "title": "Toggle by zebra76966 (black-mayfly-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/zebra76966/black-mayfly-32",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "moon",
+    "sun",
+    "light&dark",
+    "emoji"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By zebra76966 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/zebra76966_black-mayfly-32.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by zebra76966 - Tags: switch, moon, sun, toggle, light&dark, emoji */\n.switch {\n  position: absolute;\n  top: 50%;\n  width: 30px;\n  height: 60px;\n  padding: 2px;\n  left: 50%;\n  transform: translate(-50%,-50%);\n}\n\n.switch input {\n  opacity: 0;\n  height: 0;\n  width: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  border-radius: 20px;\n  border: 1px solid rgba(0,0,0,0.2);\n  border-style: outset;\n  background-color: white;\n  transition: 0.4s;\n}\n\n.slider::before {\n  content: \"🌞\";\n  font-size: 22px;\n  line-height: 15px;\n  border-radius: 100%;\n  position: absolute;\n  left: -0.8px;\n  top: 8px;\n  background-color: transparent;\n  transition: 0.4s;\n}\n\n.switch > input:checked + .slider {\n  background-color: #000429;\n}\n\n.switch > input:checked + .slider:before {\n  content: \"🌑\";\n  font-size: 22px;\n  line-height: 25px;\n  background-color: transparent;\n  transform: translateY(24px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

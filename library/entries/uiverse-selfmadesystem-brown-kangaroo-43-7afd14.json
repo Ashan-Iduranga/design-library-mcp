@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-selfmadesystem-brown-kangaroo-43-7afd14",
+  "title": "Button by SelfMadeSystem (brown-kangaroo-43)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/brown-kangaroo-43",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "material-design",
+    "ripple"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SelfMadeSystem_brown-kangaroo-43.html",
+  "code": "<button class=\"btn\">\n  <span>Ripple</span>\n  <div class=\"ripple-container\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    \n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    \n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    \n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    \n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    \n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n  </div>\n</button>\n<style>\n/* From Uiverse.io by SelfMadeSystem - Tags: material design, button, ripple */\n.btn {\n  border-radius: 0.5em;\n  font-size: larger;\n  height: 3em;\n  width: 6em;\n  position: relative;\n  border: none;\n  background-color: hsl(218, 68%, 52%);\n  overflow: hidden;\n  isolation: isolate;\n  color: white;\n  box-shadow: 1px 2px 4px #0007;\n  transition: background-color 0.2s;\n}\n\n.btn:hover {\n  background-color: hsl(218, 68%, 47%);\n}\n\n.btn > span {\n  position: relative;\n  pointer-events: none;\n  z-index: 10;\n}\n\n.ripple-container {\n  position: absolute;\n  inset: 0;\n  display: grid;\n  grid-template-columns: repeat(12, 0.5em);\n}\n\n.ripple-container > span {\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.ripple-container > span::after {\n  content: \"\";\n  pointer-events: none;\n  position: absolute;\n  background-color: hsl(218, 68%, 65%);\n  transition: width 0.5s ease-out, height 0.5s ease-out, opacity 1s;\n  width: 13em;\n  height: 13em;\n  opacity: 0;\n  border-radius: 999em;\n}\n\n.ripple-container > span:active::after {\n  transition: 0s;\n  width: 0em;\n  height: 0em;\n  opacity: 1;\n}\n\n/*\nUse this instead if you want the ripple to start\nimmediately on click but end abruptly on unclick:\n\n.ripple-container > span::after {\n  content: \"\";\n  pointer-events: none;\n  position: absolute;\n  background-color: hsl(218, 68%, 65%);\n  width: 0em;\n  height: 0em;\n  border-radius: 999em;\n  opacity: 1;\n}\n\n.ripple-container > span:active::after {\n  transition: width 0.25s ease-out, height 0.25s ease-out, opacity 0.75s;\n  width: 13em;\n  height: 13em;\n  opacity: 0;\n}\n\nYour Global selectors gets triggered by this:\n*/\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

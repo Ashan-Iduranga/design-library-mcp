@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-r7chardgh-stale-wombat-66-417127",
+  "title": "Button by r7chardgh (stale-wombat-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/r7chardgh/stale-wombat-66",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "3d",
+    "keyboard-style"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By r7chardgh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/r7chardgh_stale-wombat-66.html",
+  "code": "<button class=\"button\">\n  Enter\n</button>\n<style>\n/* From Uiverse.io by r7chardgh - Tags: 3d, button, keyboard style */\n.button {\n  position: relative;\n  padding: 1em 1.5em;\n  transform: rotateX(40deg)rotateZ(40deg);\n  transform-style: preserve-3d;\n  border: .1em solid black;\n  transition: all 150ms;\n  background-color: rgb(233, 211, 184);\n  cursor: pointer;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  width: 2em;\n  height: 99%;\n  border: .1em solid black;\n  top: -.15em;\n  right: 0;\n  transform-origin: right;\n  transform: rotateY(-90deg);\n  transition: all 150ms;\n  background-color: rgb(155, 139, 120);\n}\n\n.button::after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 2em;\n  border: .1em solid black;\n  bottom: 0;\n  left: -.15em;\n  transform-origin: bottom;\n  transform: rotateX(90deg);\n  transition: all 150ms;\n  background-color: rgb(199, 179, 155);\n}\n\n.button:active {\n  transform: rotateX(40deg)rotateZ(40deg) translateZ(-1em);\n}\n\n.button:active::before {\n  width: 0;\n}\n\n.button:active::after {\n  height: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

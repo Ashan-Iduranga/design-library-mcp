@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-arqui9897-stupid-kangaroo-64-9028d1",
+  "title": "Radio by Arqui9897 (stupid-kangaroo-64)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Arqui9897/stupid-kangaroo-64",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Arqui9897 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Arqui9897_stupid-kangaroo-64.html",
+  "code": "<label>\n    <input checked=\"\" name=\"example\" class=\"option-input radio circlegg\" type=\"radio\">\n  </label>\n  <label>\n    <input name=\"example\" class=\"option-input radio circlegg\" type=\"radio\">\n  </label>\n  <label>\n    <input name=\"example\" class=\"option-input radio circlegg\" type=\"radio\">\n  </label>\n\n<style>\n/* From Uiverse.io by Arqui9897 - Tags: radio */\n.option-input {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  -ms-appearance: none;\n  -o-appearance: none;\n  appearance: none;\n  position: relative;\n  top: 13.33333px;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  height: 40px;\n  width: 40px;\n  transition: all 0.15s ease-out 0s;\n  border: none;\n  cursor: pointer;\n  display: inline-block;\n  margin-right: 0.5rem;\n  outline: none;\n  z-index: 1000;\n}\n\n.option-input:hover {\n  background: #fa9115;\n}\n\n.option-input:checked {\n  background: #faa91b;\n}\n\n.option-input:checked::before {\n  width: 80px;\n  height: 80px;\n  display: flex;\n  font-weight: bold;\n  position: absolute;\n  align-items: center;\n  justify-content: center;\n}\n\n.option-input:checked::after {\n  -webkit-animation: click-wave 0.65s;\n  -moz-animation: click-wave 0.65s;\n  animation: click-wave 0.65s;\n  content: '';\n  display: block;\n  position: relative;\n  z-index: 100;\n}\n\n.option-input.radio {\n  border-radius: 50%;\n}\n\n.option-input.radio::after {\n  border-radius: 50%;\n}\n\n@keyframes click-wave {\n  0% {\n    height: 40px;\n    width: 40px;\n    opacity: 0.35;\n    position: relative;\n  }\n\n  100% {\n    height: 200px;\n    width: 200px;\n    margin-left: -80px;\n    margin-top: -80px;\n    opacity: 0;\n  }\n}\n\n.circlegg {\n  position: relative;\n  width: 70px;\n  height: 70px;\n  border-radius: 50%;\n  background: linear-gradient(45deg, transparent, transparent 40%, yellow),\n    linear-gradient(#040404, #0b0707);\n  animation: rotate 1.5s linear infinite;\n}\n\n.circlegg:before,\n.circlegg:after {\n  content: \" \";\n  position: absolute;\n  inset: 4px;\n  background: linear-gradient(#181818, #1f1c1c);\n  border-radius: inherit;\n}\n\n.circlegg:before {\n  background: linear-gradient(45deg, transparent, transparent 40%, rgb(206, 91, 49));\n  filter: blur(25px);\n}\n\n@keyframes rotate {\n  100% {\n    transform: rotate(360deg);\n    filter: hue-rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

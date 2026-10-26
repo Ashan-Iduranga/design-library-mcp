@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-nabilbdt-new-robin-92-aaa929",
+  "title": "Tooltip by nabilbdt (new-robin-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/nabilbdt/new-robin-92",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "simple",
+    "action",
+    "alert",
+    "green",
+    "creative"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By nabilbdt on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/nabilbdt_new-robin-92.html",
+  "code": "<div class=\"Tooltip\">\n  Tooltip\n  <div class=\"Tip\">Uiverse.io</div>\n</div>\n\n<style>\n/* From Uiverse.io by nabilbdt  - Tags: simple, tooltip, action, alert, green, creative */\n.Tooltip {\n  color: #ebebeb;\n  border-radius: 0.8em;\n  padding: 1em 4em;\n  position: relative;\n  display: inline-block;\n  cursor: pointer;\n  background-color: #00641e;\n  -webkit-transition: background-color 2s ease-out;\n  -moz-transition: background-color 2s ease-out;\n  -o-transition: background-color 2s ease-out;\n  transition: background-color 2s ease-out;\n}\n.Tooltip .Tip {\n  color: #003b12;\n  text-align: center;\n  border-radius: 5px;\n  visibility: hidden;\n  width: 100px;\n  left: 100%;\n  transform: translateX(-50%);\n  opacity: 0;\n  background-color: #28282817;\n  padding: 10px;\n  position: absolute;\n  z-index: 1;\n  bottom: 125%;\n  transition: opacity 0.3s;\n}\n.Tooltip:hover .Tip {\n  opacity: 1;\n  visibility: visible;\n}\n.Tooltip:hover {\n  background-color: rgb(100, 100, 100);\n}\n.Tooltip .Tip::after {\n  left: 10%;\n  border-width: 8px;\n  border-style: solid;\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  border-color: #28282817 transparent transparent transparent;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

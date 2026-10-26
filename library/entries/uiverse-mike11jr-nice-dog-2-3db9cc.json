@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mike11jr-nice-dog-2-3db9cc",
+  "title": "Loader by Mike11jr (nice-dog-2)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Mike11jr/nice-dog-2",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Mike11jr on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Mike11jr_nice-dog-2.html",
+  "code": "<div class=\"loader-wrapper\">\n<div class=\"loader\">\n  <div class=\"loader loader-inner\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Mike11jr - Tags: loader */\n.loader-wrapper {\n width: 60px;\n height: 60px;\n}\n\n.loader {\n box-sizing: border-box;\n width: 100%;\n height: 100%;\n border: 10px solid #162534;\n border-top-color: #4bc8eb;\n border-bottom-color: #f13a8f;\n border-radius: 50%;\n animation: rotate0925 5s linear infinite;\n}\n\n.loader-inner {\n border-top-color: #36f372;\n border-bottom-color: #fff;\n animation-duration: 2.5s;\n}\n\n@keyframes rotate0925 {\n 0% {\n  transform: scale(1) rotate(360deg);\n }\n\n 50% {\n  transform: scale(.8) rotate(-360deg);\n }\n\n 100% {\n  transform: scale(1) rotate(360deg);\n }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

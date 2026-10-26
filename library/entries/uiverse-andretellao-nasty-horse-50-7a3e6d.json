@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-andretellao-nasty-horse-50-7a3e6d",
+  "title": "Radio by andretellao (nasty-horse-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andretellao/nasty-horse-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andretellao on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/andretellao_nasty-horse-50.html",
+  "code": "<div class=\"radio-input\">\n  <input value=\"value-1\" name=\"value-radio\" id=\"value-1\" type=\"radio\">\n  <input value=\"value-2\" name=\"value-radio\" id=\"value-2\" type=\"radio\">\n  <input value=\"value-3\" name=\"value-radio\" id=\"value-3\" type=\"radio\">\n</div>\n<style>\n/* From Uiverse.io by andretellao - Tags: radio */\n.radio-input input {\n  appearance: none;\n  background-color: transparent;\n  margin: 15px;\n  font: inherit;\n  color: currentColor;\n  width: 1.5em;\n  height: 1.5em;\n  border: 0.2em solid #33f8ff;\n  border-radius: 50%;\n  transform: translateY(-0.075em);\n  display: grid;\n  place-content: center;\n}\n\n.radio-input input::before {\n  content: \"\";\n  width: 1.65em;\n  height: 1.65em;\n  border-radius: 50%;\n  transform: scale(0);\n  transition: 120ms transform ease-in-out;\n  box-shadow: inset 1em 1em var(--form-control-color);\n  background-color: #dd33ff;\n  box-shadow: 0 0 20px #dd33ff;\n}\n\n.radio-input input:checked::before {\n  transform: scale(1.02);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

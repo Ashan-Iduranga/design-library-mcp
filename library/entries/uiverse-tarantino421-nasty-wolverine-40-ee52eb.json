@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-tarantino421-nasty-wolverine-40-ee52eb",
+  "title": "Button by tarantino421 (nasty-wolverine-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/tarantino421/nasty-wolverine-40",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "space",
+    "hover-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By tarantino421 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/tarantino421_nasty-wolverine-40.html",
+  "code": "<div class=\"box\">\n  <button class=\"button\">SPACE</button>\n  <div class=\"space\">\n    <span style=\"--i: 31\" class=\"star\"></span>\n    <span style=\"--i: 12\" class=\"star\"></span>\n    <span style=\"--i: 57\" class=\"star\"></span>\n    <span style=\"--i: 93\" class=\"star\"></span>\n    <span style=\"--i: 23\" class=\"star\"></span>\n    <span style=\"--i: 70\" class=\"star\"></span>\n    <span style=\"--i: 6\" class=\"star\"></span>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by tarantino421 - Tags: button, space, hover button */\n.box {\n  --clr-shadow__border: #d9a1ff;\n  --clr-text: #F6F4EB;\n  --clr-space: #120e1e;\n  --clr-space-gr: #271950;\n  --clr-star: #E9F8F9;\n  --size: 3rem;\n  position: relative;\n  outline: 1px solid var(--clr-shadow__border);\n}\n\n.button {\n  font-weight: 600;\n  font-size: 1.5rem;\n  letter-spacing: 0.2rem;\n  background: transparent;\n  padding: calc(var(--size) / 3) var(--size);\n  border: none;\n  cursor: pointer;\n  color: var(--clr-text);\n  text-shadow: 2px 0px var(--clr-shadow__border), 0px 2px var(--clr-shadow__border),\n  -2px 0px var(--clr-shadow__border), 0px -2px var(--clr-shadow__border);\n}\n\n.space {\n  width: 100%;\n  height: 100%;\n  bottom: 0%;\n  gap: 1.5rem;\n  transition: 0.5s ease-in-out;\n  z-index: -1;\n  opacity: 0;\n  overflow: hidden;\n  position: absolute;\n  display: flex;\n  background: linear-gradient( 160deg, var(--clr-space), var(--clr-space-gr));\n}\n\n.box:hover .space {\n  opacity: 1;\n}\n\n.star {\n  height: 4rem;\n  width: 0.3rem;\n  transition: 0.5s;\n  border-radius: 50px;\n  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);\n  position: relative;\n  background-color: var(--clr-star);\n  animation: space-animation calc(0.1s * var(--i)) linear infinite;\n}\n\n@keyframes space-animation {\n  0% {\n    transform: rotate(-30deg) translateY(calc(-52% * var(--i)));\n  }\n\n  100% {\n    transform: rotate(-30deg) translateY(calc(52% * var(--i)));\n  }\n}\n\n\n\n\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

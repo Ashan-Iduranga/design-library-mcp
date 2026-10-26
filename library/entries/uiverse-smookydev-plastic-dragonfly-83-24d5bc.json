@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-smookydev-plastic-dragonfly-83-24d5bc",
+  "title": "Tooltip by SmookyDev (plastic-dragonfly-83)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SmookyDev/plastic-dragonfly-83",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse",
+    "simple",
+    "neumorphism",
+    "skeuomorphism",
+    "flashy",
+    "icon",
+    "hover-effect",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SmookyDev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/SmookyDev_plastic-dragonfly-83.html",
+  "code": "<div class=\"tooltip\">\n  <div class=\"icon\">i</div>\n  <div class=\"tooltiptext\">This is a cool tooltip!</div>\n</div>\n\n<style>\n/* From Uiverse.io by SmookyDev  - Tags: simple, neumorphism, skeuomorphism, flashy, tooltip, icon, hover effect, css */\n.tooltip {\n  position: relative;\n  display: inline-block;\n  cursor: pointer;\n  font-family: \"Arial\", sans-serif;\n}\n\n.tooltip:hover .tooltiptext {\n  visibility: visible;\n  opacity: 1;\n}\n\n.tooltiptext {\n  visibility: hidden;\n  width: 200px;\n  background-color: #333;\n  color: #fff;\n  text-align: center;\n  border-radius: 5px;\n  padding: 10px;\n  position: absolute;\n  z-index: 1;\n  top: 125%;\n  left: 50%;\n  margin-left: -100px;\n  opacity: 0;\n  transition: opacity 0.3s;\n}\n\n.tooltiptext::after {\n  content: \"\";\n  position: absolute;\n  top: -10px;\n  left: 50%;\n  margin-left: -10px;\n  border-width: 10px;\n  border-style: solid;\n  border-color: transparent transparent #333 transparent;\n}\n\n.tooltip .icon {\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  background-color: #4caf50;\n  color: #fff;\n  border-radius: 50%;\n  text-align: center;\n  line-height: 20px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

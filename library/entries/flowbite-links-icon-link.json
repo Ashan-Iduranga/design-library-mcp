@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-links-icon-link",
+  "title": "Links: Icon link (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/typography/links/#icon-link",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "link",
+    "links",
+    "typography",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This example can be used to set a custom SVG icon inside the hyperlink element.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/typography/links.md",
+  "code": "<p class=\"text-body\">500,000 people & companies have made over a million apps with Glide. <a href=\"#\" class=\"inline-flex items-center font-medium text-fg-brand hover:underline\">\nRead their stories\n<svg class=\"w-5 h-5 ms-1 rtl:rotate-180\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 12H5m14 0-4 4m4-4-4-4\"/></svg>\n</a></p>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

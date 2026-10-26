@@ -1,0 +1,33 @@
+{
+  "id": "hyperui-marketing-ctas-4-dark",
+  "title": "CTAs: Content and call to action in block color on the left, grid of images on the right (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/marketing/ctas",
+  "license": "MIT",
+  "type": "layout",
+  "tags": [
+    "marketing",
+    "ctas",
+    "hyperui",
+    "signup",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/marketing/ctas/4-dark.html",
+  "code": "<section>\n<div class=\"mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8\">\n<div class=\"grid grid-cols-1 gap-4 md:grid-cols-2\">\n<div class=\"bg-gray-100 p-8 md:p-12 lg:px-16 lg:py-24 dark:bg-gray-800\">\n<div class=\"mx-auto max-w-xl text-center\">\n<h2 class=\"text-2xl font-bold text-gray-900 md:text-3xl dark:text-white\">\n                Lorem, ipsum dolor sit amet consectetur adipisicing elit\n              </h2>\n<p class=\"hidden text-gray-700 sm:mt-4 sm:block dark:text-gray-200\">\n                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus\n                etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet\n                amet volutpat quisque ut interdum tincidunt duis.\n              </p>\n<div class=\"mt-4 md:mt-8\">\n<a class=\"inline-block rounded-sm border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-blue-600 dark:border-blue-300 dark:bg-blue-300 dark:text-gray-900 dark:hover:text-blue-300\" href=\"#\">\n                  Get Started Today\n                </a>\n</div>\n</div>\n</div>\n<div class=\"grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2\">\n<img alt=\"\" class=\"h-40 w-full object-cover sm:h-56 md:h-full\" src=\"https://images.unsplash.com/photo-1621274790572-7c32596bc67f?auto=format&amp;fit=crop&amp;q=80&amp;w=1160\"/>\n<img alt=\"\" class=\"h-40 w-full object-cover sm:h-56 md:h-full\" src=\"https://images.unsplash.com/photo-1567168544813-cc03465b4fa8?auto=format&amp;fit=crop&amp;q=80&amp;w=1160\"/>\n</div>\n</div>\n</div>\n</section>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:54Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

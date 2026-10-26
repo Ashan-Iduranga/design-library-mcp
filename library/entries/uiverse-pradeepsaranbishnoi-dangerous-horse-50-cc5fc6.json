@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-dangerous-horse-50-cc5fc6",
+  "title": "Loader by Pradeepsaranbishnoi (dangerous-horse-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/dangerous-horse-50",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Pradeepsaranbishnoi_dangerous-horse-50.html",
+  "code": "<div class=\"loader\">\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n</div>\n\n<div class=\"loader loader--reflect\">\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n</div>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: loader */\n/* The loader container */\n.loader {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 200px;\n  height: 100px;\n  margin-top: -100px;\n  margin-left: -100px;\n  perspective: 1000px;\n  transform-style: preserv3d;\n}\n\n.loader--reflect {\n  margin-top: 0;\n}\n\n.loader--reflect:after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: -25%;\n  width: 150%;\n  height: 110%;\n  background: linear-gradient(0deg, rgba(238, 238, 238, 1), rgba(238, 238, 238, 1) 20%, rgba(238, 238, 238, 0.3));\n}\n\n\n/* The bar */\n.bar {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 20px;\n  height: 100px;\n  background-color: #1e3f57;\n  transform: scaleY(0);\n  transform-style: preserve3d;\n  animation: bar 3s cubic-bezier(.81,.04,.4,.7) infinite;\n}\n\n.bar:nth-child(2) {\n  left: 20px;\n  background-color: #264a63;\n  animation-delay: 50ms;\n}\n\n.bar:nth-child(3) {\n  left: 40px;\n  background-color: #2d566f;\n  animation-delay: 100ms;\n}\n\n.bar:nth-child(4) {\n  left: 60px;\n  background-color: #35617a;\n  animation-delay: 150ms;\n}\n\n.bar:nth-child(5) {\n  left: 80px;\n  background-color: #3d6d86;\n  animation-delay: 200ms;\n}\n\n.bar:nth-child(6) {\n  left: 100px;\n  background-color: #447892;\n  animation-delay: 250ms;\n}\n\n.bar:nth-child(7) {\n  left: 120px;\n  background-color: #4c849e;\n  animation-delay: 300ms;\n}\n\n.bar:nth-child(8) {\n  left: 140px;\n  background-color: #548fa9;\n  animation-delay: 350ms;\n}\n\n.bar:nth-child(9) {\n  left: 160px;\n  background-color: #5c9bb5;\n  animation-delay: 400ms;\n}\n\n.bar:nth-child(10) {\n  left: 180px;\n  background-color: #63a6c1;\n  animation-delay: 450ms;\n}\n\n.loader--reflect .bar {\n  animation-name: bar-reflect;\n}\n\n@keyframes bar {\n  0% {\n    transform: rotateZ(-180deg) rotateX(-360deg);\n  }\n\n  75%,100% {\n    transform: rotateZ(0) rotateX(0);\n  }\n}\n\n@keyframes bar-reflect {\n  0% {\n    transform: rotateZ(180deg) rotateX(360deg);\n  }\n\n  75%,100% {\n    transform: rotateZ(0) rotateX(0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

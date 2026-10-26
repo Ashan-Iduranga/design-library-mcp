@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-iamrippon-quiet-hound-73-0f4e44",
+  "title": "Loader by iamrippon (quiet-hound-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/iamrippon/quiet-hound-73",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By iamrippon on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/iamrippon_quiet-hound-73.html",
+  "code": "<div class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by iamrippon  - Tags: loader */\n.loader {\n  position: relative;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: radial-gradient(circle, #03dac6, #6200ea);\n  border: 8px solid transparent;\n  border-top-color: #03dac6;\n  border-bottom-color: #6200ea;\n  animation: spin 2s linear infinite;\n}\n\n.loader::before {\n  content: \"1\";\n  position: absolute;\n  font-size: 24px;\n  font-weight: bold;\n  color: white;\n  animation: count 10s linear infinite;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes count {\n  0% {\n    content: \"1\";\n  }\n  1% {\n    content: \"2\";\n  }\n  2% {\n    content: \"3\";\n  }\n  3% {\n    content: \"4\";\n  }\n  4% {\n    content: \"5\";\n  }\n  5% {\n    content: \"6\";\n  }\n  6% {\n    content: \"7\";\n  }\n  7% {\n    content: \"8\";\n  }\n  8% {\n    content: \"9\";\n  }\n  9% {\n    content: \"10\";\n  }\n  10% {\n    content: \"11\";\n  }\n  11% {\n    content: \"12\";\n  }\n  12% {\n    content: \"13\";\n  }\n  13% {\n    content: \"14\";\n  }\n  14% {\n    content: \"15\";\n  }\n  15% {\n    content: \"16\";\n  }\n  16% {\n    content: \"17\";\n  }\n  17% {\n    content: \"18\";\n  }\n  18% {\n    content: \"19\";\n  }\n  19% {\n    content: \"20\";\n  }\n  20% {\n    content: \"21\";\n  }\n  21% {\n    content: \"22\";\n  }\n  22% {\n    content: \"23\";\n  }\n  23% {\n    content: \"24\";\n  }\n  24% {\n    content: \"25\";\n  }\n  25% {\n    content: \"26\";\n  }\n  26% {\n    content: \"27\";\n  }\n  27% {\n    content: \"28\";\n  }\n  28% {\n    content: \"29\";\n  }\n  29% {\n    content: \"30\";\n  }\n  30% {\n    content: \"31\";\n  }\n  31% {\n    content: \"32\";\n  }\n  32% {\n    content: \"33\";\n  }\n  33% {\n    content: \"34\";\n  }\n  34% {\n    content: \"35\";\n  }\n  35% {\n    content: \"36\";\n  }\n  36% {\n    content: \"37\";\n  }\n  37% {\n    content: \"38\";\n  }\n  38% {\n    content: \"39\";\n  }\n  39% {\n    content: \"40\";\n  }\n  40% {\n    content: \"41\";\n  }\n  41% {\n    content: \"42\";\n  }\n  42% {\n    content: \"43\";\n  }\n  43% {\n    content: \"44\";\n  }\n  44% {\n    content: \"45\";\n  }\n  45% {\n    content: \"46\";\n  }\n  46% {\n    content: \"47\";\n  }\n  47% {\n    content: \"48\";\n  }\n  48% {\n    content: \"49\";\n  }\n  49% {\n    content: \"50\";\n  }\n  50% {\n    content: \"51\";\n  }\n  51% {\n    content: \"52\";\n  }\n  52% {\n    content: \"53\";\n  }\n  53% {\n    content: \"54\";\n  }\n  54% {\n    content: \"55\";\n  }\n  55% {\n    content: \"56\";\n  }\n  56% {\n    content: \"57\";\n  }\n  57% {\n    content: \"58\";\n  }\n  58% {\n    content: \"59\";\n  }\n  59% {\n    content: \"60\";\n  }\n  60% {\n    content: \"61\";\n  }\n  61% {\n    content: \"62\";\n  }\n  62% {\n    content: \"63\";\n  }\n  63% {\n    content: \"64\";\n  }\n  64% {\n    content: \"65\";\n  }\n  65% {\n    content: \"66\";\n  }\n  66% {\n    content: \"67\";\n  }\n  67% {\n    content: \"68\";\n  }\n  68% {\n    content: \"69\";\n  }\n  69% {\n    content: \"70\";\n  }\n  70% {\n    content: \"71\";\n  }\n  71% {\n    content: \"72\";\n  }\n  72% {\n    content: \"73\";\n  }\n  73% {\n    content: \"74\";\n  }\n  74% {\n    content: \"75\";\n  }\n  75% {\n    content: \"76\";\n  }\n  76% {\n    content: \"77\";\n  }\n  77% {\n    content: \"78\";\n  }\n  78% {\n    content: \"79\";\n  }\n  79% {\n    content: \"80\";\n  }\n  80% {\n    content: \"81\";\n  }\n  81% {\n    content: \"82\";\n  }\n  82% {\n    content: \"83\";\n  }\n  83% {\n    content: \"84\";\n  }\n  84% {\n    content: \"85\";\n  }\n  85% {\n    content: \"86\";\n  }\n  86% {\n    content: \"87\";\n  }\n  87% {\n    content: \"88\";\n  }\n  88% {\n    content: \"89\";\n  }\n  89% {\n    content: \"90\";\n  }\n  90% {\n    content: \"91\";\n  }\n  91% {\n    content: \"92\";\n  }\n  92% {\n    content: \"93\";\n  }\n  93% {\n    content: \"94\";\n  }\n  94% {\n    content: \"95\";\n  }\n  95% {\n    content: \"96\";\n  }\n  96% {\n    content: \"97\";\n  }\n  97% {\n    content: \"98\";\n  }\n  98% {\n    content: \"99\";\n  }\n  99% {\n    content: \"100\";\n  }\n  100% {\n    content: \"1\";\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

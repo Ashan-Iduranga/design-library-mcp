@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-rodrypaladin-fluffy-eagle-31-9567e4",
+  "title": "Card by Rodrypaladin (fluffy-eagle-31)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Rodrypaladin/fluffy-eagle-31",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "hover",
+    "about-me",
+    "custom",
+    "creative",
+    "click-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Rodrypaladin on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Rodrypaladin_fluffy-eagle-31.html",
+  "code": "<div class=\"card\">\n  <div class=\"top\">\n    <div class=\"metal\"></div>\n    <div class=\"plastic\"></div>\n  </div>\n  <div class=\"bottom\">\n    <div class=\"line1\"></div>\n    <div class=\"yellow\"></div>\n  </div>\n  <div class=\"minicuadro1\"></div>\n  <div class=\"minicuadro2\"></div>\n  <div class=\"line1\"></div>\n  <div class=\"line2\"></div>\n  <div class=\"line3\"></div>\n  <div class=\"line4\"></div>\n  <div class=\"line5\"></div>\n  <p class=\"index\">Index</p>\n</div>\n<style>\n/* From Uiverse.io by Rodrypaladin - Tags: card, hover, about me, custom, creative, click animation */\n.card {\n  width: 300px;\n  height: 300px;\n  background-image: linear-gradient(to right bottom, #252324, #292728, #2d2c2d, #313031, #353535);\n  position: relative;\n  border-radius: 5px;\n  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.307);\n}\n\n.top {\n  position: absolute;\n  width: 65%;\n  height: 37%;\n  top: 0;\n  left: 37px;\n  background-image: linear-gradient(to right bottom, #202020, #222222, #232323, #252525, #272727);\n  z-index: 500;\n  border-top: 4px solid #e8e8e8;\n  border-right: 3px solid #121212;\n  border-bottom: 3px solid #121212;\n  border-left: 3px solid #121212;\n  border-bottom-left-radius: 10px;\n  border-bottom-right-radius: 10px;\n}\n\n.plastic {\n  position: absolute;\n  top: 0;\n  right: 60px;\n  width: 60px;\n  background-color: black;\n  height: 100%;\n  z-index: 1000;\n  border-top: 25px solid white;\n}\n\n.bottom {\n  z-index: 1000;\n  position: absolute;\n  bottom: 1px;\n  right: 50%;\n  transform: translate(50%,0);\n  width: 75%;\n  height: 52%;\n  background-color: #ecebe0;\n  border-top-left-radius: 5px;\n  border-top-right-radius: 5px;\n  border-top: 3px solid #121212;\n  border-left: 3px solid #121212;\n  border-right: 3px solid #121212;\n  border-radius: 10px;\n}\n\n.metal {\n  z-index: 2000;\n  position: absolute;\n  top: -3px;\n  right: 0;\n  width: 77%;\n  height: 103%;\n  background-image: linear-gradient(to right bottom, #bdbdbd, #cacaca, #d7d7d7, #e5e5e5, #f2f2f2);\n  border-bottom-left-radius: 10px;\n  border-bottom-right-radius: 10px;\n  transition: transform 0.2s ease-in;\n  clip-path: polygon(0% 0%, 0% 100%, 60% 100%, 60% 18%, 85% 18%, 85% 93%, 25% 93%, 25% 100%, 100% 100%, 100% 0%);\n}\n\n.cuadro-metal {\n  position: absolute;\n  top: 15px;\n  right: 45px;\n  width: 40px;\n  transform: translate(50%,0);\n  height: 80px;\n  background-color: #252324;\n  z-index: 2000;\n  transition: transform 0.2s ease-in;\n  border-radius: 3px;\n}\n\n.card:hover .metal {\n  transform: translateX(-44px);\n}\n\n.card:hover .cuadro-metal {\n  transform: translateX(-30px);\n}\n\n.minicuadro1 {\n  bottom: 25px;\n  right: 12px;\n  position: absolute;\n  width: 17px;\n  height: 17px;\n  background-color: #d7d7d7;\n  border: 2px solid #191919;\n}\n\n.minicuadro2 {\n  bottom: 25px;\n  left: 12px;\n  position: absolute;\n  width: 17px;\n  height: 17px;\n  background-image: linear-gradient(to right bottom, #191919, #202020, #272727, #2e2e2e, #353535);\n  border: 2px solid #191919;\n}\n\n.yellow {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  height: 23px;\n  background-color: rgb(255, 157, 0);\n}\n\n.line1 {\n  position: absolute;\n  bottom: 42px;\n  right: 61.5%;\n  transform: translate(50%,0);\n  width: 125px;\n  height: 2px;\n  background-color: rgb(192, 33, 33);\n}\n\n.line2 {\n  position: absolute;\n  bottom: 64px;\n  right: 50%;\n  transform: translate(50%,0);\n  width: 175px;\n  height: 2px;\n  background-color: rgb(192, 33, 33);\n  z-index: 2000;\n}\n\n.line3 {\n  position: absolute;\n  bottom: 86px;\n  right: 50%;\n  transform: translate(50%,0);\n  width: 175px;\n  height: 2px;\n  background-color: rgb(192, 33, 33);\n  z-index: 2000;\n}\n\n.line4 {\n  position: absolute;\n  bottom: 108px;\n  right: 50%;\n  transform: translate(50%,0);\n  width: 175px;\n  height: 2px;\n  background-color: rgb(192, 33, 33);\n  z-index: 2000;\n}\n\n.line5 {\n  position: absolute;\n  bottom: 130px;\n  right: 50%;\n  transform: translate(50%,0);\n  width: 175px;\n  height: 2px;\n  background-color: rgb(192, 33, 33);\n  z-index: 2000;\n}\n\n.index {\n  position: absolute;\n  bottom: 35px;\n  right: 62px;\n  font-size: 11px;\n  font-weight: bold;\n  text-transform: uppercase;\n  color: rgb(192, 33, 33);\n  z-index: 2000;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

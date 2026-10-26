@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-priyanshugupta28-old-fly-17-ff2303",
+  "title": "Toggle by PriyanshuGupta28 (old-fly-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/old-fly-17",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "light",
+    "3d-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/PriyanshuGupta28_old-fly-17.html",
+  "code": "<label class=\"toggle\">\n  <input class=\"input\" type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: switch, light, 3d switch */\n.toggle {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n\n.toggle input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n  transition: transform 0.2s ease-in-out;\n}\n\n.slider {\n  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #FF3CAC;\n  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);\n  transition: 0.2 ease-in-out;\n  border-radius: 34px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  left: 4px;\n  bottom: 4px;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  transition: transform 0.3s ease-in-out;\n  border-radius: 50%;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n}\n\n.input:checked + .slider {\n  background-color: #8BC6EC;\n  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);\n}\n\n.input:checked + .slider:before {\n  transform: translateX(26px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

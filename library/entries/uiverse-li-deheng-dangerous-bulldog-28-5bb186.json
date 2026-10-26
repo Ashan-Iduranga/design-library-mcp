@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-li-deheng-dangerous-bulldog-28-5bb186",
+  "title": "Button by Li-Deheng (dangerous-bulldog-28)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Li-Deheng/dangerous-bulldog-28",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Li-Deheng on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Li-Deheng_dangerous-bulldog-28.html",
+  "code": "<button id=\"btn-message\" class=\"button-message\">\n\t<div class=\"content-avatar\">\n\t\t<div class=\"status-user\"></div>\n\t\t<div class=\"avatar\">\n\t\t\t<svg class=\"user-img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12,12.5c-3.04,0-5.5,1.73-5.5,3.5s2.46,3.5,5.5,3.5,5.5-1.73,5.5-3.5-2.46-3.5-5.5-3.5Zm0-.5c1.66,0,3-1.34,3-3s-1.34-3-3-3-3,1.34-3,3,1.34,3,3,3Z\"></path></svg>\n\t\t</div>\n\t</div>\n\t<div class=\"notice-content\">\n\t\t<div class=\"username\">Jessica Sanders</div>\n\t\t<div class=\"lable-message\">Message<span class=\"number-message\">3</span></div>\n\t\t<div class=\"user-id\">@jessisanders</div>\n\t</div>\n</button>\n<style>\n/* From Uiverse.io by Li-Deheng - Source: Li-Deheng - Tags: icon, animation, button, message, animated, btn, hover effect, username, account, alert message */\n#btn-message {\n  --text-color: #000;\n  --bg-color-sup: #d2d2d2;\n  --bg-color: #f4f4f4;\n  --bg-hover-color: #ffffff;\n  --online-status: #00da00;\n  --font-size: 16px;\n  --btn-transition: all 0.2s ease-out;\n}\n\n.button-message {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font: 400 var(--font-size) Helvetica Neue, sans-serif;\n  box-shadow: 0 0 2.17382px rgba(0,0,0,.049),0 1.75px 6.01034px rgba(0,0,0,.07),0 3.63px 14.4706px rgba(0,0,0,.091),0 22px 48px rgba(0,0,0,.14);\n  background-color: var(--bg-color);\n  border-radius: 68px;\n  cursor: pointer;\n  padding: 6px 10px 6px 6px;\n  width: fit-content;\n  height: 40px;\n  border: 0;\n  overflow: hidden;\n  position: relative;\n  transition: var(--btn-transition);\n}\n\n.button-message:hover {\n  height: 56px;\n  padding: 8px 20px 8px 8px;\n  background-color: var(--bg-hover-color);\n  transition: var(--btn-transition);\n}\n\n.button-message:active {\n  transform: scale(0.99);\n}\n\n.content-avatar {\n  width: 30px;\n  height: 30px;\n  margin: 0;\n  transition: var(--btn-transition);\n  position: relative;\n}\n\n.button-message:hover .content-avatar {\n  width: 40px;\n  height: 40px;\n}\n\n.avatar {\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  overflow: hidden;\n  background-color: var(--bg-color-sup);\n}\n\n.user-img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}\n\n.status-user {\n  position: absolute;\n  width: 6px;\n  height: 6px;\n  right: 1px;\n  bottom: 1px;\n  border-radius: 50%;\n  outline: solid 2px var(--bg-color);\n  background-color: var(--online-status);\n  transition: var(--btn-transition);\n  animation: active-status 2s ease-in-out infinite;\n}\n\n.button-message:hover .status-user {\n  width: 10px;\n  height: 10px;\n  right: 1px;\n  bottom: 1px;\n  outline: solid 3px var(--bg-hover-color);\n}\n\n.notice-content {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: center;\n  padding-left: 8px;\n  text-align: initial;\n  color: var(--text-color);\n}\n\n.username {\n  letter-spacing: -6px;\n  height: 0;\n  opacity: 0;\n  transform: translateY(-20px);\n  transition: var(--btn-transition);\n}\n\n.user-id {\n  font-size: 12px;\n  letter-spacing: -6px;\n  height: 0;\n  opacity: 0;\n  transform: translateY(10px);\n  transition: var(--btn-transition);\n}\n\n.lable-message {\n  display: flex;\n  align-items: center;\n  opacity: 1;\n  transform: scaleY(1);\n  transition: var(--btn-transition);\n}\n\n.button-message:hover .username {\n  height: auto;\n  letter-spacing: normal;\n  opacity: 1;\n  transform: translateY(0);\n  transition: var(--btn-transition);\n}\n\n.button-message:hover .user-id {\n  height: auto;\n  letter-spacing: normal;\n  opacity: 1;\n  transform: translateY(0);\n  transition: var(--btn-transition);\n}\n\n.button-message:hover .lable-message {\n  height: 0;\n  transform: scaleY(0);\n  transition: var(--btn-transition);\n}\n\n.lable-message, .username {\n  font-weight: 600;\n}\n\n.number-message {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  margin-left: 8px;\n  font-size: 12px;\n  width: 16px;\n  height: 16px;\n  background-color: var(--bg-color-sup);\n  border-radius: 20px;\n}\n\n/*==============================================*/\n@keyframes active-status {\n  0% {\n    background-color: var(--online-status);\n  }\n\n  33.33% {\n    background-color: #93e200;\n  }\n\n  66.33% {\n    background-color: #93e200;\n  }\n\n  100% {\n    background-color: var(--online-status);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

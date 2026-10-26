@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-accordion-accordion-using-radio-inputs",
+  "title": "Accordion: Accordion using radio inputs (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/accordion/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "accordion",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Accordion is used for showing and hiding content but only one item can stay open at a time.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/accordion/+page.md",
+  "code": "<div class=\"collapse bg-base-100 border border-base-300\">\n  <input type=\"radio\" name=\"my-accordion-1\" checked=\"checked\" />\n  <div class=\"collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"collapse-content text-sm\">Click the \"Sign Up\" button in the top right corner and follow the registration process.</div>\n</div>\n<div class=\"collapse bg-base-100 border border-base-300\">\n  <input type=\"radio\" name=\"my-accordion-1\" />\n  <div class=\"collapse-title font-semibold\">I forgot my password. What should I do?</div>\n  <div class=\"collapse-content text-sm\">Click on \"Forgot Password\" on the login page and follow the instructions sent to your email.</div>\n</div>\n<div class=\"collapse bg-base-100 border border-base-300\">\n  <input type=\"radio\" name=\"my-accordion-1\" />\n  <div class=\"collapse-title font-semibold\">How do I update my profile information?</div>\n  <div class=\"collapse-content text-sm\">Go to \"My Account\" settings and select \"Edit Profile\" to make changes.</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

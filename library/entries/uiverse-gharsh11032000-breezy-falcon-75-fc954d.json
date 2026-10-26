@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-gharsh11032000-breezy-falcon-75-fc954d",
+  "title": "Checkbox by gharsh11032000 (breezy-falcon-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/breezy-falcon-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "gradient",
+    "hover",
+    "click-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/gharsh11032000_breezy-falcon-75.html",
+  "code": "<div class=\"checkbox\">\n  <input id=\"checkbox1\" class=\"checkbox__input\" type=\"checkbox\">\n  <label for=\"checkbox1\" class=\"checkbox__label\">\n    <span class=\"checkbox__custom\"></span>\n    Uiverse\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: gradient, hover, checkbox, click effect */\n.checkbox {\n  display: inline-block;\n  position: relative;\n  cursor: pointer;\n}\n\n.checkbox__input {\n  position: absolute;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.checkbox__label {\n  display: inline-block;\n  padding-left: 30px;\n  margin-bottom: 10px;\n  position: relative;\n  font-size: 16px;\n  color: #fff;\n  cursor: pointer;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.checkbox__custom {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 20px;\n  height: 20px;\n  background: linear-gradient(#212121, #212121) padding-box,\n              linear-gradient(145deg,#e81cff, #40c9ff) border-box;\n  border: 2px solid transparent;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.checkbox__input:checked + .checkbox__label .checkbox__custom {\n  background-image: linear-gradient(145deg,#e81cff, #40c9ff);\n  transform: rotate(45deg) scale(0.8);\n}\n\n.checkbox__label:hover .checkbox__custom {\n  transform: scale(1.2);\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

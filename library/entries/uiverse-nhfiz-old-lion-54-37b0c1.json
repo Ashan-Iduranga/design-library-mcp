@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-nhfiz-old-lion-54-37b0c1",
+  "title": "Toggle by nhfiz (old-lion-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/nhfiz/old-lion-54",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By nhfiz on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/nhfiz_old-lion-54.html",
+  "code": "<fieldset id=\"switch\" class=\"radio\">\n\t<input name=\"switch\" id=\"on\" type=\"radio\">\n\t<label for=\"on\">ON</label>\n\t<input name=\"switch\" id=\"off\" type=\"radio\">\n\t<label for=\"off\">OFF</label>\n\t<input checked=\"\" name=\"switch\" id=\"auto\" type=\"radio\">\n\t<label for=\"auto\">AUTO</label>\n</fieldset>\n<style>\n/* From Uiverse.io by nhfiz - Tags: switch */\n/* Multiple Toggle Switch by Abu Shafiyya */\n\nfieldset {\n  border: 0;\n}\n\n/* Hide default radio */\n.radio input[type=\"radio\"] {\n  position: absolute;\n  visibility: hidden;\n  display: none;\n  opacity: 0;\n  z-index: -1;\n}\n\n/* Customizing label */\n.radio label {\n  position: relative;\n  padding: 10px 20px 10px 25px;\n  cursor: pointer;\n  border-radius: 20px;\n  color: #2196F3;\n  margin: 0px 5px;\n  font-weight: 600;\n  text-transform: uppercase;\n}\n\n.radio label, .radio label::before {\n  -webkit-transition: .25s all ease;\n  transition: .25s all ease;\n}\n\n.radio label::before {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n  content: \" \";\n  position: absolute;\n  top: 30%;\n  left: 0;\n  width: 1em;\n  height: 1em;\n  border: 2px solid #2196F3;\n}\n\n.radio input[type=\"radio\"] + label::before {\n  border-radius: 1em;\n}\n\n\n/* Checked toggle */\n.radio input[type=\"radio\"]:checked + label {\n  color: #fff;\n  background: #2196F3;\n  z-index: 1;\n}\n\n.radio input[type=\"radio\"]:checked + label {\n  padding: 10px 20px 10px 20px;\n}\n\n.radio input[type=\"radio\"]:checked + label::before {\n  top: 4px;\n  width: 100%;\n  height: 2em;\n  z-index: -1;\n}\n\n.radio:hover input[type=\"radio\"]:checked + label {\n  -webkit-box-shadow: #2195f338 0px 0px 0px 25px;\n  box-shadow: #2195f338 0px 0px 0px 25px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

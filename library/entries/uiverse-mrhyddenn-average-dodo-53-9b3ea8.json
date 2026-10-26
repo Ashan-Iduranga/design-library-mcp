@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-average-dodo-53-9b3ea8",
+  "title": "Loader by mrhyddenn (average-dodo-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/average-dodo-53",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mrhyddenn_average-dodo-53.html",
+  "code": "<div class=\"loader\">\n    <div class=\"circle\"></div>\n</div>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  background: transparent;\n  width: 80px;\n  height: 80px;\n  border-radius: 50%;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.circle {\n  width: 80px;\n  height: 80px;\n  border: 2px solid #ccc;\n  position: absolute;\n  border-radius: 50%;\n  animation: circle14512 2s linear infinite;\n}\n\n.circle::before {\n  content: '';\n  position: absolute;\n  top: -10px;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background: #9ae932;\n  box-shadow: 0 0 20px #9ae932, 0 0 60px #9ae932;\n}\n\n@keyframes circle14512 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

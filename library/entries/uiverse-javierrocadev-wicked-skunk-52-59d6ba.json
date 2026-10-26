@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-javierrocadev-wicked-skunk-52-59d6ba",
+  "title": "Card by Javierrocadev (wicked-skunk-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Javierrocadev/wicked-skunk-52",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Javierrocadev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Javierrocadev_wicked-skunk-52.html",
+  "code": "<div class=\"card\">\n  <span class=\"card__title\">Subscribe to Premium</span>\n  <p class=\"card__text\">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>\n  <button class=\"card__button\">Subscribe</button>\n</div>\n<style>\n/* From Uiverse.io by Javierrocadev - Source: twitter.com - Tags: twitter, card, white card, round card */\n.card {\n  width: 350px;\n  height: 160px;\n  background: #f7f9f9;\n  padding: 10px;\n  border-radius: 16px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  align-items: flex-start;\n}\n\n.card__title {\n  font-size: 1.4em;\n  font-weight: 800;\n}\n\n.card__text {\n  font-weight: 500;\n}\n\n.card__button {\n  cursor: pointer;\n  background-color: rgb(15, 20, 25);\n  color: #f7f9f9;\n  font-size: 1.15em;\n  border: none;\n  padding: 5px 15px;\n  border-radius: 15px;\n}\n\n.card__button:hover {\n  background-color: #272C30;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

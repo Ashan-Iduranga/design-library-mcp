@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-barisdogansutcu-loud-mayfly-89-7c668f",
+  "title": "Button by barisdogansutcu (loud-mayfly-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/barisdogansutcu/loud-mayfly-89",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "active",
+    "smooth"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By barisdogansutcu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/barisdogansutcu_loud-mayfly-89.html",
+  "code": "<button alt=\"tony stark\">\n  <i>t</i>\n  <i>o</i>\n  <i>n</i>\n  <i>y</i>\n  <i>&nbsp;</i>\n  <i>s</i>\n  <i>t</i>\n  <i>a</i>\n  <i>r</i>\n  <i>k</i>\n</button>\n<style>\n/* From Uiverse.io by barisdogansutcu - Tags: button, hover, active, smooth */\nbutton {\n display: flex;\n align-items: center;\n justify-content: center;\n height: 50px;\n position: relative;\n padding: 0 20px;\n font-size: 18px;\n text-transform: uppercase;\n border: 0;\n box-shadow: hsl(210deg 87% 36%) 0px 7px 0px 0px;\n background-color: hsl(210deg 100% 44%);\n border-radius: 12px;\n overflow: hidden;\n transition: 31ms cubic-bezier(.5, .7, .4, 1);\n}\n\nbutton:before {\n content: attr(alt);\n display: flex;\n align-items: center;\n justify-content: center;\n position: absolute;\n inset: 0;\n font-size: 15px;\n font-weight: bold;\n color: white;\n letter-spacing: 4px;\n opacity: 1;\n}\n\nbutton:active {\n box-shadow: none;\n transform: translateY(7px);\n transition: 35ms cubic-bezier(.5, .7, .4, 1);\n}\n\nbutton:hover:before {\n transition: all .0s;\n transform: translateY(100%);\n opacity: 0;\n}\n\nbutton i {\n color: white;\n font-size: 15px;\n font-weight: bold;\n letter-spacing: 4px;\n font-style: normal;\n transition: all 2s ease;\n transform: translateY(-20px);\n opacity: 0;\n}\n\nbutton:hover i {\n transition: all .2s ease;\n transform: translateY(0px);\n opacity: 1;\n}\n\nbutton:hover i:nth-child(1) {\n transition-delay: 0.045s;\n}\n\nbutton:hover i:nth-child(2) {\n transition-delay: calc(0.045s * 3);\n}\n\nbutton:hover i:nth-child(3) {\n transition-delay: calc(0.045s * 4);\n}\n\nbutton:hover i:nth-child(4) {\n transition-delay: calc(0.045s * 5);\n}\n\nbutton:hover i:nth-child(6) {\n transition-delay: calc(0.045s * 6);\n}\n\nbutton:hover i:nth-child(7) {\n transition-delay: calc(0.045s * 7);\n}\n\nbutton:hover i:nth-child(8) {\n transition-delay: calc(0.045s * 8);\n}\n\nbutton:hover i:nth-child(9) {\n transition-delay: calc(0.045s * 9);\n}\n\nbutton:hover i:nth-child(10) {\n transition-delay: calc(0.045s * 10);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

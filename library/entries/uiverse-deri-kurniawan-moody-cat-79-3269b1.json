@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-deri-kurniawan-moody-cat-79-3269b1",
+  "title": "Button by Deri-Kurniawan (moody-cat-79)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Deri-Kurniawan/moody-cat-79",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "blue",
+    "hover",
+    "smooth",
+    "hover-effect",
+    "hoverme",
+    "hover-button",
+    "button-hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Deri-Kurniawan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Deri-Kurniawan_moody-cat-79.html",
+  "code": "<button class=\"button\">\n  <span class=\"button-content\">Wavy Button</span>\n</button>\n\n<style>\n/* From Uiverse.io by Deri-Kurniawan  - Tags: blue, button, hover, smooth, hover effect, hoverme, hover button, button hover effect  */\n.button {\n  position: relative;\n  display: inline-block;\n  padding: 16px 32px;\n  border-radius: 14px;\n  overflow: hidden;\n  z-index: 1;\n  border: 1px solid rgb(221, 218, 218);\n  background: white;\n  font-weight: bold;\n  font-size: 16px;\n  color: #1993e4;\n  transition: all 1.2s linear;\n  cursor: pointer;\n}\n\n.button::after {\n  content: \"\";\n  position: absolute;\n  background: linear-gradient(to right, #1993e4, #1993e456);\n  border-radius: 30%;\n  height: 96px;\n  width: 96px;\n  animation: spin infinite linear 1.8s;\n  animation-delay: 0;\n  bottom: -38px;\n  right: -112px;\n  transition: all 1.2s linear;\n  z-index: 0;\n}\n\n.button:hover {\n  color: #fff;\n  transition-duration: 1.2s;\n}\n\n.button:hover::after {\n  right: -60px;\n  bottom: -92px;\n  width: 256px;\n  height: 256px;\n}\n\n.button > .button-content {\n  position: relative;\n  z-index: 2;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

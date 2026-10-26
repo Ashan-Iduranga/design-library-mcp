@@ -1,0 +1,36 @@
+{
+  "id": "magicui-iphone-demo-2",
+  "title": "iPhone Demo 2 (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/iphone",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "iphone",
+    "demo",
+    "2",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Second example showing an iPhone mockup.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/iphone-demo-2.tsx",
+  "code": "import { Iphone } from \"@/registry/magicui/iphone\"\n\nexport default function Demo() {\n  return (\n    <div className=\"w-[434px]\">\n      <Iphone src=\"https://placehold.co/900x1600?text=Hello+World\" />\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

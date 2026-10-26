@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-andrew-demchenk0-tiny-fish-66-d3b0f3",
+  "title": "Toggle by andrew-demchenk0 (tiny-fish-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/tiny-fish-66",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "blue",
+    "switch",
+    "animated",
+    "toggle-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/andrew-demchenk0_tiny-fish-66.html",
+  "code": "<label class=\"switch\">\n  <input class=\"toggle\" type=\"checkbox\">\n  <span class=\"slider\"></span>\n  <span class=\"card-side\"></span>\n</label>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: blue, switch, toggle, animated, toggle switch */\n.switch {\n  --input-focus: #2d8cf0;\n  --font-color: #323232;\n  --font-color-sub: #666;\n  --bg-color: #fff;\n  --bg-color-alt: #666;\n  --main-color: #323232;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 30px;\n  width: 50px;\n  height: 20px;\n}\n\n.toggle {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  box-sizing: border-box;\n  border-radius: 5px;\n  border: 2px solid var(--main-color);\n  box-shadow: 4px 4px var(--main-color);\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: var(--bg-colorcolor);\n  transition: 0.3s;\n}\n\n.slider:before {\n  box-sizing: border-box;\n  position: absolute;\n  content: \"\";\n  height: 20px;\n  width: 20px;\n  border: 2px solid var(--main-color);\n  border-radius: 5px;\n  left: -2px;\n  bottom: 2px;\n  background-color: var(--bg-color);\n  box-shadow: 0 3px 0 var(--main-color);\n  transition: 0.3s;\n}\n\n.toggle:checked + .slider {\n  background-color: var(--input-focus);\n}\n\n.toggle:checked + .slider:before {\n  transform: translateX(30px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

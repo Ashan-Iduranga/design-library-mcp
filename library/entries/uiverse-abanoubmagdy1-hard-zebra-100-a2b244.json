@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-abanoubmagdy1-hard-zebra-100-a2b244",
+  "title": "Card by AbanoubMagdy1 (hard-zebra-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AbanoubMagdy1/hard-zebra-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AbanoubMagdy1 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/AbanoubMagdy1_hard-zebra-100.html",
+  "code": "<div class=\"card\">\n    <div class=\"img img1\"></div>\n    <div class=\"img img2\"></div>\n    <div class=\"card__content\">\n        <span class=\"name\">John Doe</span>\n        <span class=\"job\">Software engineer</span>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by AbanoubMagdy1 - Tags: card */\n.card {\n  border: .05rem solid black;\n  height: 210px;\n  width: 180px;\n  overflow: hidden;\n  position: relative;\n}\n\n.card:hover .img1 {\n  transform: scale(1.5, 1.2) translate(5px, -30px) rotate(5deg);\n}\n\n.card:hover .img1::before {\n  transition: transform 1s 0.4s;\n  transform: translateX(400px) skewX(-10deg);\n}\n\n.card:hover .img2 {\n  transform: translateY(120%);\n}\n\n.card .img {\n  position: absolute;\n  width: 100%;\n  height: 50%;\n  background: linear-gradient(180deg, rgb(65, 122, 255), rgb(23, 65, 193));\n  background-size: 100% 200%;\n  transition: 0.3s all;\n}\n\n.card .img1 {\n  top: 0;\n  right: 0;\n  position: relative;\n}\n\n.card .img1::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: -25px;\n  height: 100%;\n  width: 10px;\n  transform: skewX(-10deg);\n  background-image: linear-gradient(to right, rgb(32, 151, 248), rgba(255, 255, 255, 0.9));\n}\n\n.card .img2 {\n  bottom: 0;\n  right: 0;\n  background-position: bottom center;\n}\n\n.card__content {\n  margin-left: 1rem;\n  margin-top: 1rem;\n  transform: translateX(-130%);\n  transition: .5s ease-in-out transform .3s;\n  position: relative;\n  z-index: -1;\n}\n\n.card__content span {\n  display: block;\n}\n\n.card__content .name {\n  font-weight: bold;\n  font-size: 1.7rem;\n}\n\n.card__content .job {\n  color: #B2B2B2;\n}\n\n.card:hover .card__content {\n  transform: translateX(0);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-toggle-colors",
+  "title": "Toggle: Colors (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/toggle/#colors",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "toggle",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Change the color of the toggle component by updating the color classes of `peer-focus` and `peer-checked`.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/toggle.md",
+  "code": "<label class=\"inline-flex items-center me-5 cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\" checked>\n  <div class=\"relative w-9 h-5 bg-neutral-quaternary rounded-full peer peer-focus:ring-4 peer-focus:ring-red-300 dark:peer-focus:ring-red-800 dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-red-600 dark:peer-checked:bg-red-600\"></div>\n  <span class=\"select-none ms-3 text-sm font-medium text-heading\">Red</span>\n</label>\n\n<label class=\"inline-flex items-center me-5 cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\" checked>\n  <div class=\"relative w-9 h-5 bg-neutral-quaternary rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-green-300 dark:peer-focus:ring-green-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-green-600 dark:peer-checked:bg-green-600\"></div>\n  <span class=\"select-none ms-3 text-sm font-medium text-heading\">Green</span>\n</label>\n\n<label class=\"inline-flex items-center me-5 cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\" checked>\n  <div class=\"relative w-9 h-5 bg-neutral-quaternary rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-purple-300 dark:peer-focus:ring-purple-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-purple-600 dark:peer-checked:bg-purple-600\"></div>\n  <span class=\"select-none ms-3 text-sm font-medium text-heading\">Purple</span>\n</label>\n\n<label class=\"inline-flex items-center me-5 cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\" checked>\n  <div class=\"relative w-9 h-5 bg-neutral-quaternary rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-yellow-300 dark:peer-focus:ring-yellow-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-yellow-400 dark:peer-checked:bg-yellow-400\"></div>\n  <span class=\"select-none ms-3 text-sm font-medium text-heading\">Yellow</span>\n</label>\n\n<label class=\"inline-flex items-center me-5 cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\" checked>\n  <div class=\"relative w-9 h-5 bg-neutral-quaternary rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-teal-300 dark:peer-focus:ring-teal-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-teal-600 dark:peer-checked:bg-teal-600\"></div>\n  <span class=\"select-none ms-3 text-sm font-medium text-heading\">Teal</span>\n</label>\n\n<label class=\"inline-flex items-center me-5 cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\" checked>\n  <div class=\"relative w-9 h-5 bg-neutral-quaternary rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500 dark:peer-checked:bg-orange-500\"></div>\n  <span class=\"select-none ms-3 text-sm font-medium text-heading\">Orange</span>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

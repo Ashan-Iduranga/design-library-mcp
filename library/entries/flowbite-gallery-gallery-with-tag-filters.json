@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-gallery-gallery-with-tag-filters",
+  "title": "Gallery (Masonry): Gallery with tag filters (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/gallery/#gallery-with-tag-filters",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "gallery",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a list of tags and filter the images below based on the activately selected tag.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/gallery.md",
+  "code": "<div class=\"flex items-center justify-center py-4 md:py-8 flex-wrap\">\n    <button type=\"button\" class=\"text-fg-brand border border-brand bg-neutral-primary focus:ring-4 focus:outline-none focus:ring-neutral-tertiary rounded-base text-base font-medium px-5 py-2.5 text-center me-3 mb-3\">All categories</button>\n    <button type=\"button\" class=\"text-heading border border-buffer hover:border-default bg-neutral-primary focus:ring-4 focus:outline-none focus:ring-neutral-tertiary rounded-base text-base font-medium px-5 py-2.5 text-center me-3 mb-3\">Shoes</button>\n    <button type=\"button\" class=\"text-heading border border-buffer hover:border-default bg-neutral-primary focus:ring-4 focus:outline-none focus:ring-neutral-tertiary rounded-base text-base font-medium px-5 py-2.5 text-center me-3 mb-3\">Bags</button>\n    <button type=\"button\" class=\"text-heading border border-buffer hover:border-default bg-neutral-primary focus:ring-4 focus:outline-none focus:ring-neutral-tertiary rounded-base text-base font-medium px-5 py-2.5 text-center me-3 mb-3\">Electronics</button>\n    <button type=\"button\" class=\"text-heading border border-buffer hover:border-default bg-neutral-primary focus:ring-4 focus:outline-none focus:ring-neutral-tertiary rounded-base text-base font-medium px-5 py-2.5 text-center me-3 mb-3\">Gaming</button>\n</div>\n<div class=\"grid grid-cols-2 md:grid-cols-3 gap-4\">\n    <div>\n        <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg\" alt=\"\">\n    </div>\n    <div>\n        <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg\" alt=\"\">\n    </div>\n    <div>\n        <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg\" alt=\"\">\n    </div>\n    <div>\n        <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg\" alt=\"\">\n    </div>\n    <div>\n        <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg\" alt=\"\">\n    </div>\n    <div>\n        <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg\" alt=\"\">\n    </div>\n    <div>\n        <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg\" alt=\"\">\n    </div>\n    <div>\n        <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg\" alt=\"\">\n    </div>\n    <div>\n        <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg\" alt=\"\">\n    </div>\n    <div>\n        <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg\" alt=\"\">\n    </div>\n    <div>\n        <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg\" alt=\"\">\n    </div>\n    <div>\n        <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg\" alt=\"\">\n    </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

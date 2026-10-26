@@ -1,0 +1,33 @@
+{
+  "id": "open-props-indigo",
+  "title": "Open Props: Indigo color scale",
+  "source": "Open Props",
+  "url": "https://open-props.style/#colors",
+  "license": "MIT",
+  "type": "palette",
+  "tags": [
+    "indigo",
+    "open-props",
+    "css-variables",
+    "tokens",
+    "color"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "13 CSS custom properties, e.g. --indigo-0, --indigo-1, --indigo-2, --indigo-3.\n\nUse: npm i open-props, then @import \"open-props/indigo\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.indigo.css",
+  "code": "<style>\n:where(html) {\n  --indigo-0: #edf2ff;\n  --indigo-1: #dbe4ff;\n  --indigo-2: #bac8ff;\n  --indigo-3: #91a7ff;\n  --indigo-4: #748ffc;\n  --indigo-5: #5c7cfa;\n  --indigo-6: #4c6ef5;\n  --indigo-7: #4263eb;\n  --indigo-8: #3b5bdb;\n  --indigo-9: #364fc7;\n  --indigo-10: #2f44ad;\n  --indigo-11: #283a94;\n  --indigo-12: #21307a;\n}\n.scale { font: 12px system-ui, sans-serif; width: min(720px, 100%); }\n.scale p { margin: 12px 0 4px; color: #555; }\n.scale .row { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }\n.scale .row div { height: 48px; border-radius: 6px; display: flex; align-items: end; padding: 4px; }\n.scale span { font-size: 10px; background: #fff9; border-radius: 3px; padding: 0 3px; }\n</style>\n<div class=\"scale\"><strong>Open Props indigo</strong>\n<p>indigo</p><div class=\"row\"><div style=\"background:#edf2ff\" title=\"--indigo-0: #edf2ff\"><span>0</span></div><div style=\"background:#dbe4ff\" title=\"--indigo-1: #dbe4ff\"><span>1</span></div><div style=\"background:#bac8ff\" title=\"--indigo-2: #bac8ff\"><span>2</span></div><div style=\"background:#91a7ff\" title=\"--indigo-3: #91a7ff\"><span>3</span></div><div style=\"background:#748ffc\" title=\"--indigo-4: #748ffc\"><span>4</span></div><div style=\"background:#5c7cfa\" title=\"--indigo-5: #5c7cfa\"><span>5</span></div><div style=\"background:#4c6ef5\" title=\"--indigo-6: #4c6ef5\"><span>6</span></div><div style=\"background:#4263eb\" title=\"--indigo-7: #4263eb\"><span>7</span></div><div style=\"background:#3b5bdb\" title=\"--indigo-8: #3b5bdb\"><span>8</span></div><div style=\"background:#364fc7\" title=\"--indigo-9: #364fc7\"><span>9</span></div><div style=\"background:#2f44ad\" title=\"--indigo-10: #2f44ad\"><span>10</span></div><div style=\"background:#283a94\" title=\"--indigo-11: #283a94\"><span>11</span></div><div style=\"background:#21307a\" title=\"--indigo-12: #21307a\"><span>12</span></div></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

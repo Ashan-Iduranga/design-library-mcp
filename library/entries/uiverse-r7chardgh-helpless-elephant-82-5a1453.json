@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-r7chardgh-helpless-elephant-82-5a1453",
+  "title": "Loader by r7chardgh (helpless-elephant-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/r7chardgh/helpless-elephant-82",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "adidas"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By r7chardgh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/r7chardgh_helpless-elephant-82.html",
+  "code": "<div class=\"loader\">\n  <div class=\"leaf\"></div>\n  <div class=\"leaf\"></div>\n  <div class=\"leaf\"></div>\n</div>\n<style>\n/* From Uiverse.io by r7chardgh - Tags: loading, loader, adidas */\n.loader {\n  display: flex;\n  gap: .5em;\n}\n\n.leaf {\n  width: 1em;\n  height: 3em;\n  background-color: rgb(0, 0, 0,.3);\n  clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 81%);\n  transform: rotate(-30deg);\n  animation: color 1200ms infinite;\n  animation-delay: 800ms;\n}\n\n.leaf:nth-child(2) {\n  clip-path: polygon(0% 35%,100% 35%,100% 100%,0% 81%);\n  animation-delay: 400ms;\n}\n\n.leaf:nth-child(1) {\n  clip-path: polygon(0% 70%,100% 70%,100% 100%,0% 81%);\n  animation-delay: 0ms;\n}\n\n@keyframes color {\n  from {\n    background-color: lightblue;\n  }\n\n  to {\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

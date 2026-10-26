@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-isfan4ik-nice-mouse-77-baa25d",
+  "title": "Loader by isfan4ik (nice-mouse-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/isfan4ik/nice-mouse-77",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "red",
+    "green",
+    "pink",
+    "effect-loader",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By isfan4ik on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/isfan4ik_nice-mouse-77.html",
+  "code": "<svg class=\"svg\">\n      <path class=\"path\"></path>\n   </svg>\n   <svg>\n      <path></path>\n   </svg>\n\n\n<style>\n/* From Uiverse.io by isfan4ik - Tags: red, green, pink, loader, effect loader, loading animation */\n.body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.svg {\n  position: absolute;\n  width: 400px;\n  fill: none;\n}\n\n.svg:nth-child(2) {\n  filter: blur(40px);\n}\n\n.svg path {\n  d: path(\"M0,25 C150,110 150, -60 300,25\");\n  stroke: #ff0092;\n  stroke-width: 50;\n  stroke-linecap: round;\n  transform: translate(50px,50%);\n  animation: animate 2s ease-in-out infinite;\n}\n\n@keyframes animate {\n  0% {\n    stroke: greenyellow;\n    stroke: #ff0092;\n    d: path(\"M0,25 C150,110 150, -60 300,25\");\n  }\n\n  50% {\n    stroke: dodgerblue;\n    stroke: #00ff00;\n    d: path(\"M0,25 C160,-50 140, 110 300,25\");\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

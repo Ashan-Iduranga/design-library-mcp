@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-barisdogansutcu-chatty-snake-91-a98b98",
+  "title": "Button by barisdogansutcu (chatty-snake-91)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/barisdogansutcu/chatty-snake-91",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By barisdogansutcu on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/barisdogansutcu_chatty-snake-91.html",
+  "code": "<button>\n  <span>Hey! Siri</span>\n  <div class=\"line\"></div>\n  <div class=\"line-2\"></div>\n  <div class=\"speak\"></div>\n  <div class=\"speak one\"></div>\n  <div class=\"speak two\"></div>\n  <div class=\"speak three\"></div>\n</button>\n<style>\n/* From Uiverse.io by barisdogansutcu - Tags: button */\nbutton {\n  min-height: 60px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  max-width: 170px;\n  border-radius: 50px;\n  border-width: 0;\n  background-color: black;\n  color: white;\n  font-size: 16px;\n  letter-spacing: 3px;\n  position: relative;\n  overflow: hidden;\n  padding: 10px 20px;\n  width: 190px;\n  cursor: pointer;\n}\n\nbutton span {\n  position: relative;\n  width: max-content;\n  z-index: 99;\n  display: block;\n}\n\n.line,.line-2 {\n  position: absolute;\n  width: calc(100% - 20px);\n  left: 0;\n  right: 0;\n  margin: 0 auto;\n  height: 1px;\n  border-radius: 100%;\n  background-color: hsla(240, 100%, 50%, 0.39);\n  bottom: 5px;\n  animation: line .5s infinite linear;\n  box-shadow: 0 0 10px 2px rgb(0, 60, 255);\n  z-index: 9;\n}\n\n@keyframes line {\n  0% {\n    height: 1px;\n    background-color: hsla(240, 100%, 50%, 0.285);\n  }\n\n  50% {\n    transform: scaleY(5);\n    background-color: hsla(0, 59%, 41%, 0.032);\n    box-shadow: 0 0 100px 20px rgb(0, 60, 255);\n  }\n\n  100% {\n    height: 2px;\n    background-color: rgb(255, 255, 255)\n  }\n}\n\n.line-2 {\n  animation: line-2 .5s infinite linear;\n  bottom: 1px;\n  box-shadow: 0 0 10px 2px rgb(0, 60, 255);\n}\n\n@keyframes line-2 {\n  0% {\n    height: 1px;\n    background-color: hsl(327, 100%, 50%);\n  }\n\n  50% {\n    height: 2px;\n    background-color: hsl(0, 0%, 85%)\n  }\n\n  100% {\n    height: 2px;\n    background-color: rgb(255, 255, 255)\n  }\n}\n\n.speak {\n  position: absolute;\n  width: 330px;\n  height: 10px;\n  background-color: pink;\n  bottom: 1px;\n  left: 50%;\n  transform: translateX(-50%);\n  border-radius: 100%;\n  animation: speak .8s infinite linear;\n}\n\n.speak.one {\n  left: calc(50% + 20px);\n  animation: speak 6s infinite linear;\n  background-color: hsl(284deg 79% 55%);\n}\n\n.speak.two {\n  left: calc(50% + 10px);\n  animation: speak .6s infinite linear;\n  background-color: hsl(284deg 79% 55%);\n}\n\n.speak.two {\n  left: calc(50% + -10px);\n  animation: speak .6s infinite linear;\n  background-color: rgb(0, 255, 149);\n}\n\n@keyframes speak {\n  0% {\n    transform: translateX(-50%) scale(.10);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

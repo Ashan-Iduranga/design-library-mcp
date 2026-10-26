@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-siddhantengineer-calm-shrimp-74-8608d8",
+  "title": "Button by SiddhantEngineer (calm-shrimp-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SiddhantEngineer/calm-shrimp-74",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "rounded",
+    "smooth",
+    "creative",
+    "advanced",
+    "click-effect",
+    "3d-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SiddhantEngineer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SiddhantEngineer_calm-shrimp-74.html",
+  "code": "<button class=\"button\">\n  <i>\n    <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n      <defs></defs>\n      <title></title>\n      <path\n        class=\"a\"\n        d=\"M2.758,15.629a1.664,1.664,0,0,1-.882-3.075L20.359,1A1.663,1.663,0,0,1,22.875,2.72L19.281,21.893a1.664,1.664,0,0,1-2.966.691L11.1,15.629Z\"\n      ></path>\n      <path\n        class=\"a\"\n        d=\"M11.1,15.629H8.6V20.8a1.663,1.663,0,0,0,2.6,1.374l3.178-2.166Z\"\n      ></path>\n      <line class=\"a\" x1=\"11.098\" x2=\"22.178\" y1=\"15.629\" y2=\"1.039\"></line>\n    </svg>\n    Send Message</i\n  >\n</button>\n\n<style>\n/* From Uiverse.io by SiddhantEngineer  - Tags: simple, button, rounded, smooth, creative, advanced, click effect, 3d button */\n.button {\n  box-sizing: border-box;\n  background: hsl(0, 0%, 91%);\n  padding: 5px 2px;\n  border-radius: 10px;\n  box-shadow: 0px 1px 2px 1px hsl(0, 0%, 50%), 0px 10px 35px 0px hsl(0, 0%, 65%),\n    0px -10px 35px 0px hsl(0, 0%, 100%);\n  border: none;\n  font-size: 16px;\n  background-clip: padding-box;\n  overflow: hidden;\n  cursor: pointer;\n  transition: all 0.1s;\n}\n\n.button:active {\n  scale: 99%;\n  box-shadow: 0px 1px 2px 1px hsl(0, 0%, 70%), 0px 10px 35px 0px hsl(0, 0%, 75%),\n    0px -10px 35px 0px hsl(0, 0%, 100%);\n}\n\n.button > i {\n  background: linear-gradient(hsl(0, 0%, 80%), hsl(0, 0%, 93%));\n  box-shadow: 0px 5px 20px -10px hsl(0, 0%, 60%);\n  padding: 15px;\n  border-radius: 20px;\n  font-weight: 600;\n  font-style: normal;\n  display: flex;\n  pointer-events: none;\n}\n\n.button > i > svg {\n  width: 15px;\n  margin-right: 5px;\n  fill: none;\n  stroke: black;\n  pointer-events: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-muhammadhasann-happy-cobra-7-b3c788",
+  "title": "Button by MuhammadHasann (happy-cobra-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MuhammadHasann/happy-cobra-7",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "icon",
+    "minimalist"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MuhammadHasann on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/MuhammadHasann_happy-cobra-7.html",
+  "code": "<button class=\"button\">\n  <div class=\"icon_cont\">\n    <span class=\"icon\">🡪</span>\n  </div>\n  <span class=\"text_button\">Hover this button</span>\n</button>\n\n<style>\n/* From Uiverse.io by MuhammadHasann  - Tags: simple, icon, minimalist, button */\n.button {\n  --dark: #181818;\n  --light: #d9d9d9;\n  --active: 0;\n\n  cursor: pointer;\n  position: relative;\n\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n\n  transform-origin: center;\n\n  background-color: transparent;\n\n  border: none;\n}\n\n.button:hover {\n  --active: 1;\n}\n\n.icon_cont {\n  overflow: clip;\n\n  display: flex;\n  justify-content: center;\n  align-items: center;\n\n  width: calc(var(--active) * 1.5rem + (1 - var(--active)) * 0.5rem);\n  height: calc(var(--active) * 1.5rem + (1 - var(--active)) * 0.5rem);\n  background-color: hsla(0, 0%, 85%, var(--active));\n\n  border: 1px solid var(--light);\n  border-radius: 9999px;\n  transition: all 0.5s ease-in-out;\n}\n\n.icon {\n  font-size: 0.75rem;\n  color: var(--dark);\n  line-height: 1rem;\n\n  transform: translateX(calc(-1rem * (1 - var(--active))));\n  transition: transform 0.5s ease-in-out;\n}\n\n.text_button {\n  position: relative;\n\n  display: inline-block;\n\n  padding-block: 0.5rem;\n\n  font-size: 1rem;\n  font-weight: 600;\n  color: var(--light);\n\n  text-transform: capitalize;\n}\n.text_button::before {\n  content: \"\";\n\n  position: absolute;\n  bottom: 0;\n  right: 0;\n\n  width: calc((1 - var(--active)) * 100%);\n  height: 1px;\n  background-color: var(--light);\n\n  border-radius: 9999px;\n  transition: width 0.5s ease-in-out;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

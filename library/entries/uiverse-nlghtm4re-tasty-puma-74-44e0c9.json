@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-nlghtm4re-tasty-puma-74-44e0c9",
+  "title": "Loader by NlghtM4re (tasty-puma-74)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/NlghtM4re/tasty-puma-74",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "progress",
+    "progress-bar",
+    "glow",
+    "bars",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By NlghtM4re on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/NlghtM4re_tasty-puma-74.html",
+  "code": "<div class=\"loader\">\n  <div class=\"loader-inner\"> \n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n    <div class=\"loader-block\"></div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by NlghtM4re - Tags: progress, progress bar, loader, glow, bars, animated */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 80px;\n  height: 80px;\n  position: relative;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  top: -10px;\n  left: -10px;\n  right: -10px;\n  bottom: -10px;\n  border-radius: 50%;\n}\n\n.loader-inner {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n\n.loader-block {\n  display: inline-block;\n  width: 8px;\n  height: 10px;\n  margin: 2px;\n  background-color: rgb(53, 143, 246);\n  box-shadow: 0 0 30px rgb(53, 143, 246);\n  animation: loader 5s infinite;\n}\n\n.loader-block:nth-child(1) {\n  animation-delay: 0.2s;\n}\n\n.loader-block:nth-child(2) {\n  animation-delay: 0.4s;\n}\n\n.loader-block:nth-child(3) {\n  animation-delay: 0.6s;\n}\n\n.loader-block:nth-child(4) {\n  animation-delay: 0.8s;\n}\n\n.loader-block:nth-child(5) {\n  animation-delay: 1s;\n}\n\n.loader-block:nth-child(6) {\n  animation-delay: 1.2s;\n}\n\n.loader-block:nth-child(7) {\n  animation-delay: 1.4s;\n}\n\n.loader-block:nth-child(8) {\n  animation-delay: 1.6s;\n}\n\n.loader-block:nth-child(9) {\n  animation-delay: 1.8s;\n}\n\n.loader-block:nth-child(10) {\n  animation-delay: 2s;\n}\n\n.loader-block:nth-child(11) {\n  animation-delay: 2.2s;\n}\n\n.loader-block:nth-child(12) {\n  animation-delay: 2.4s;\n}\n\n.loader-block:nth-child(13) {\n  animation-delay: 2.6s;\n}\n\n.loader-block:nth-child(14) {\n  animation-delay: 2.8s;\n}\n\n.loader-block:nth-child(15) {\n  animation-delay: 3s;\n}\n\n.loader-block:nth-child(16) {\n  animation-delay: 3.2s;\n}\n\n.loader-block:nth-child(17) {\n  animation-delay: 3.4s;\n}\n\n.loader-block:nth-child(18) {\n  animation-delay: 3.6s;\n}\n\n.loader-block:nth-child(19) {\n  animation-delay: 3.8s;\n}\n\n.loader-block:nth-child(20) {\n  animation-delay: 4s;\n}\n\n.loader-block:nth-child(21) {\n  animation-delay: 4.2s;\n}\n\n.loader-block:nth-child(22) {\n  animation-delay: 4.4s;\n}\n\n.loader-block:nth-child(23) {\n  animation-delay: 4.6s;\n}\n\n.loader-block:nth-child(24) {\n  animation-delay: 4.8s;\n}\n\n@keyframes loader {\n  0% {\n    transform: scale(1);\n    box-shadow: 0 0 40px rgb(53, 143, 246);\n  }\n\n  13% {\n    transform: scale(1, 4);\n    box-shadow: 0 0 60px rgb(53, 143, 246);\n  }\n\n  26% {\n    transform: scale(1);\n    box-shadow: 0 0 40px rgb(53, 143, 246);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

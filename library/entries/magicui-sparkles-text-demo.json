@@ -1,0 +1,36 @@
+{
+  "id": "magicui-sparkles-text-demo",
+  "title": "Sparkles Text Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/sparkles-text",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "sparkles",
+    "text",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing text with animated sparkle effects.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/sparkles-text-demo.tsx",
+  "code": "import { SparklesText } from \"@/registry/magicui/sparkles-text\"\n\nexport default function SparklesTextDemo() {\n  return <SparklesText>Magic UI</SparklesText>\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

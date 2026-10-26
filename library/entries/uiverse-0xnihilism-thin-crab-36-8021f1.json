@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-0xnihilism-thin-crab-36-8021f1",
+  "title": "Card by 0xnihilism (thin-crab-36)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/0xnihilism/thin-crab-36",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "icon",
+    "minimalist",
+    "notification",
+    "hover",
+    "brutalist"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 0xnihilism on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/0xnihilism_thin-crab-36.html",
+  "code": "<div class=\"brutalist-card\">\n  <div class=\"brutalist-card__header\">\n    <div class=\"brutalist-card__icon\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path\n          d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z\"\n        ></path>\n      </svg>\n    </div>\n    <div class=\"brutalist-card__alert\">Warning</div>\n  </div>\n  <div class=\"brutalist-card__message\">\n    This is a brutalist card with a very angry button. Proceed with caution,\n    you've been warned.\n  </div>\n  <div class=\"brutalist-card__actions\">\n    <a class=\"brutalist-card__button brutalist-card__button--mark\" href=\"#\"\n      >Mark as Read</a\n    >\n    <a class=\"brutalist-card__button brutalist-card__button--read\" href=\"#\"\n      >Okay</a\n    >\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by 0xnihilism  - Tags: icon, minimalist, notification, card, hover, brutalist */\n.brutalist-card {\n  width: 320px;\n  border: 4px solid #000;\n  background-color: #fff;\n  padding: 1.5rem;\n  box-shadow: 10px 10px 0 #000;\n  font-family: \"Arial\", sans-serif;\n}\n\n.brutalist-card__header {\n  display: flex;\n  align-items: center;\n  gap: 1rem;\n  margin-bottom: 1rem;\n  border-bottom: 2px solid #000;\n  padding-bottom: 1rem;\n}\n\n.brutalist-card__icon {\n  flex-shrink: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: #000;\n  padding: 0.5rem;\n}\n\n.brutalist-card__icon svg {\n  height: 1.5rem;\n  width: 1.5rem;\n  fill: #fff;\n}\n\n.brutalist-card__alert {\n  font-weight: 900;\n  color: #000;\n  font-size: 1.5rem;\n  text-transform: uppercase;\n}\n\n.brutalist-card__message {\n  margin-top: 1rem;\n  color: #000;\n  font-size: 0.9rem;\n  line-height: 1.4;\n  border-bottom: 2px solid #000;\n  padding-bottom: 1rem;\n  font-weight: 600;\n}\n\n.brutalist-card__actions {\n  margin-top: 1rem;\n}\n\n.brutalist-card__button {\n  display: block;\n  width: 100%;\n  padding: 0.75rem;\n  text-align: center;\n  font-size: 1rem;\n  font-weight: 700;\n  text-transform: uppercase;\n  border: 3px solid #000;\n  background-color: #fff;\n  color: #000;\n  position: relative;\n  transition: all 0.2s ease;\n  box-shadow: 5px 5px 0 #000;\n  overflow: hidden;\n  text-decoration: none;\n  margin-bottom: 1rem;\n}\n\n.brutalist-card__button--read {\n  background-color: #000;\n  color: #fff;\n}\n\n.brutalist-card__button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: -100%;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n    120deg,\n    transparent,\n    rgba(255, 255, 255, 0.3),\n    transparent\n  );\n  transition: all 0.6s;\n}\n\n.brutalist-card__button:hover::before {\n  left: 100%;\n}\n\n.brutalist-card__button:hover {\n  transform: translate(-2px, -2px);\n  box-shadow: 7px 7px 0 #000;\n}\n\n.brutalist-card__button--mark:hover {\n  background-color: #296fbb;\n  border-color: #296fbb;\n  color: #fff;\n  box-shadow: 7px 7px 0 #004280;\n}\n\n.brutalist-card__button--read:hover {\n  background-color: #ff0000;\n  border-color: #ff0000;\n  color: #fff;\n  box-shadow: 7px 7px 0 #800000;\n}\n\n.brutalist-card__button:active {\n  transform: translate(5px, 5px);\n  box-shadow: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

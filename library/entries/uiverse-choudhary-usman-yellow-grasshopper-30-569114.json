@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-choudhary-usman-yellow-grasshopper-30-569114",
+  "title": "Loader by choudhary-usman (yellow-grasshopper-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/choudhary-usman/yellow-grasshopper-30",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "material-design",
+    "icon",
+    "animation",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By choudhary-usman on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/choudhary-usman_yellow-grasshopper-30.html",
+  "code": "<div class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by choudhary-usman  - Tags: simple, material design, icon, animation, loader, animated */\n.loader {\n  width: 40px;\n\n  aspect-ratio: 1;\n  --c: linear-gradient(#000 0 0);\n  --m: radial-gradient(farthest-side, #000 90%, #0000);\n  background: var(--c), var(--m), var(--c);\n  background-size: 16px 8px, 10px 10px;\n  background-repeat: no-repeat;\n  animation: l20-1 1s infinite linear, l20-2 4s infinite linear -0.4s;\n}\n@keyframes l20-1 {\n  0%,\n  10% {\n    background-position: calc(50% - 8px) 50%, 50% -15px, calc(50% + 8px) 50%;\n  }\n  33% {\n    background-position: -20px 50%, 50% 50%, calc(100% + 20px) 50%;\n  }\n  66% {\n    background-position: -20px 50%, 50% calc(100% + 15px), calc(100% + 20px) 50%;\n  }\n  80%,\n  100% {\n    background-position: calc(50% - 8px) 50%, 50% calc(100% + 15px),\n      calc(50% + 8px) 50%;\n  }\n}\n@keyframes l20-2 {\n  0%,\n  24.99% {\n    transform: rotate(0);\n  }\n  25%,\n  49.99% {\n    transform: rotate(90deg);\n  }\n  50%,\n  74.99% {\n    transform: rotate(180deg);\n  }\n  75%,\n  100% {\n    transform: rotate(270deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

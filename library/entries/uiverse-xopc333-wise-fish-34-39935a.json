@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-xopc333-wise-fish-34-39935a",
+  "title": "Loader by xopc333 (wise-fish-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/xopc333/wise-fish-34",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "svg",
+    "creative",
+    "css",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By xopc333 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/xopc333_wise-fish-34.html",
+  "code": "<div class=\"loader\">\n  <svg class=\"svg-wrap\" viewBox=\"0 0 100 50\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n    <circle stroke-linecap=\"round\" stroke-width=\"2\" class=\"svg-stroke\" cy=\"25\" cx=\"50\" r=\"15\"></circle>\n    <circle class=\"circle circle-one\" cy=\"25\" cx=\"35\" r=\"1\"></circle>\n    <circle class=\"circle circle-two\" cy=\"25\" cx=\"45\" r=\"1\"></circle>\n    <circle class=\"circle circle-three\" cy=\"25\" cx=\"55\" r=\"1\"></circle>\n  </svg>  \n</div>\n<style>\n/* From Uiverse.io by xopc333 - Tags: animation, loader, svg, creative, css, loading animation */\n.loader {\n  width: 500px;\n  height: 250px;\n}\n\n.circle {\n  fill: #F25A33;\n}\n\n.circle-one {\n  opacity: 0;\n}\n\n.svg-stroke {\n  fill: transparent;\n  stroke-dasharray: 46.82, 93.64;\n  stroke-dashoffset: 46.82;\n  stroke: #F25A33;\n  opacity: 1;\n}\n\n.svg-wrap .svg-stroke {\n  animation: stroke-start 1.6s linear, stroke-end 1.6s 0.8s linear infinite;\n}\n\n.svg-wrap .circle-one {\n  animation: dot-one 0s 0.8s, move-dot 1.6s 0.8s linear infinite;\n}\n\n.svg-wrap .circle-two,\n.svg-wrap .circle-three {\n  animation: move-dot 1.6s 0.8s linear infinite;\n}\n\n@keyframes dot-one {\n  from {\n    opacity: 0;\n  }\n\n  to {\n    opacity: 1;\n  }\n}\n\n@keyframes stroke-start {\n  50% {\n    stroke-dashoffset: 46.82;\n  }\n\n  100% {\n    stroke-dashoffset: 0;\n  }\n}\n\n@keyframes stroke-end {\n  50% {\n    stroke-dasharray: 46.82, 93.64;\n    stroke-dashoffset: 0;\n    transform: translateX(0);\n  }\n\n  100% {\n    stroke-dasharray: 0, 93.64;\n    stroke-dashoffset: -46.82;\n    transform: translateX(10px);\n  }\n}\n\n@keyframes move-dot {\n  50% {\n    transform: translateX(0);\n  }\n\n  100% {\n    transform: translateX(10px);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

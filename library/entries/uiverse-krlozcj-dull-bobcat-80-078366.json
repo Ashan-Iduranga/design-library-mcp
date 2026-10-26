@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-krlozcj-dull-bobcat-80-078366",
+  "title": "Checkbox by krlozCJ (dull-bobcat-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/krlozCJ/dull-bobcat-80",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By krlozCJ on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/krlozCJ_dull-bobcat-80.html",
+  "code": "<label class=\"container\">\n    <input type=\"checkbox\" checked=\"checked\">\n    <div class=\"checkmark\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"ionicon\" viewBox=\"0 0 512 512\">\n            <title>Checkmark</title>\n            <path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"32\" d=\"M416 128L192 384l-96-96\"></path>\n        </svg>\n    </div>\n</label>\n<style>\n/* From Uiverse.io by krlozCJ - Tags: checkbox */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n  display: none;\n  color: white;\n}\n\n.container {\n  --size: 50px;\n  width: var(--size);\n  display: block;\n  height: var(--size);\n  background-color: #191A1E;\n  border-radius: 100%;\n  cursor: pointer;\n  padding: 5px;\n  color: white;\n  box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%), inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e;\n}\n\n.container .checkmark {\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%), inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e;\n  transition: all ease 0.3s;\n  padding: 8px;\n}\n\n.container .checkmark svg {\n  opacity: 0;\n  transition: all ease 0.3s;\n}\n\n.container input:checked + .checkmark {\n  box-shadow: 0px 0px 0px #0e0e0e, 0px 0px 0px rgb(95 94 94 / 25%), inset 1.5px 1.5px 3px #0e0e0e, inset -1.5px -1.5px 3px #5f5e5e;\n}\n\n.container input:checked + .checkmark svg {\n  opacity: 1;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

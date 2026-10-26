@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-range-steps",
+  "title": "Range Slider: Steps (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/range/#steps",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "range",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the step attribute on the range component to set the increment with which the values will change.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/range.md",
+  "code": "<label for=\"steps-range\" class=\"block mb-2.5 text-sm font-medium text-heading\">Range steps</label>\n<input id=\"steps-range\" type=\"range\" min=\"0\" max=\"5\" value=\"2.5\" step=\"0.5\" class=\"w-full h-2 bg-neutral-quaternary rounded-full appearance-none cursor-pointer\">",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

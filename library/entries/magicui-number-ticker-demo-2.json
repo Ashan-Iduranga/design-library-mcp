@@ -1,0 +1,37 @@
+{
+  "id": "magicui-number-ticker-demo-2",
+  "title": "Number Ticker Demo 2 (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/number-ticker",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "number",
+    "ticker",
+    "demo",
+    "2",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing animated counting numbers.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/number-ticker-demo-2.tsx",
+  "code": "import { NumberTicker } from \"@/registry/magicui/number-ticker\"\n\nexport default function NumberTickerDemo() {\n  return (\n    <NumberTicker\n      value={100}\n      startValue={80}\n      className=\"text-8xl font-medium tracking-tighter whitespace-pre-wrap text-black dark:text-white\"\n    />\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

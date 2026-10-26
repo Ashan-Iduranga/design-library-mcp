@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-john-cfo-calm-kangaroo-15-a883a8",
+  "title": "Button by John-CFO (calm-kangaroo-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/John-CFO/calm-kangaroo-15",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "hover",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By John-CFO on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/John-CFO_calm-kangaroo-15.html",
+  "code": "<button class=\"BTN-style\">\n  <span class=\"BTN-text\">Hover me</span>\n</button>\n\n<style>\n/* From Uiverse.io by John-CFO  - Tags: simple, button, hover, hover effect */\n.BTN-style {\n  position: relative;\n  width: 12em;\n  height: 3.8em;\n  border-width: 2px;\n  border-radius: 6px;\n  border-color: #ffff;\n  display: block;\n  padding: 8px;\n  background: linear-gradient(to left, #c0c0c0, #dcdcdc);\n  color: #ffffff;\n  line-height: 1.25rem;\n  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);\n  overflow: hidden;\n}\n\n.BTN-text {\n  font-weight: 500;\n  font-size: 0.975rem;\n  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);\n  text-transform: uppercase;\n}\n\n.BTN-style:hover {\n  -webkit-transition: all 0.2s ease-out;\n  -moz-transition: all 0.2s ease-out;\n  transition: all 0.2s ease-out;\n\n  cursor: pointer;\n}\n\n.BTN-style:hover::before {\n  -webkit-animation: sh02 0.5s 0s linear;\n  -moz-animation: sh02 0.5s 0s linear;\n  animation: sh02 0.5s 0s linear;\n}\n\n.BTN-style::before {\n  content: \"\";\n  display: block;\n  width: 0px;\n  height: 85%;\n  position: absolute;\n  top: 50%;\n  left: 0%;\n  opacity: 0;\n  background: #fff;\n  box-shadow: 0 0 50px 30px #fff;\n  -webkit-transform: skewX(-20deg);\n  -moz-transform: skewX(-20deg);\n  -ms-transform: skewX(-20deg);\n  -o-transform: skewX(-20deg);\n  transform: skewX(-20deg);\n}\n\n@keyframes sh02 {\n  from {\n    opacity: 0;\n    left: 0%;\n  }\n\n  50% {\n    opacity: 1;\n  }\n\n  to {\n    opacity: 0;\n    left: 100%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

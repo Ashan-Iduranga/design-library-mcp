@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-sameer2244-white-eagle-79-2fa2cc",
+  "title": "Notification by Sameer2244 (white-eagle-79)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Sameer2244/white-eagle-79",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Sameer2244 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Notifications/Sameer2244_white-eagle-79.html",
+  "code": "<div class=\"notification\">\n  <div class=\"shinner\">\n    <div class=\"mover\"></div>\n    <div class=\"mover2\"></div>\n  </div>\n  <svg version=\"1.1\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" height=\"121.46\" width=\"122.88\" class=\"wing\">\n <g>\n  <g id=\"svg_1\">\n   <path class=\"st0\" d=\"m12.35,121.46c-8.01,-9.72 -11.92,-19.29 -12.31,-28.71c-0.82,-19.74 10.88,-34.47 28.26,-45.08c18.28,-11.16 37.08,-13.93 55.36,-22.25c9.13,-4.15 20.02,-10.95 38.14,-25.42c5.92,15.69 -12.92,40.9 -43.52,54.23c9.48,0.37 19.69,-2.54 30.85,-9.74c-0.76,19.94 -16.46,32.21 -51.3,36.95c7.33,2.45 16.09,2.58 27.27,-0.58c-10.77,35.95 -55.2,10.2 -72.75,40.6l0,0z\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" id=\"svg_2\" fill=\"#fff\"></path>\n  </g>\n </g>\n</svg>\n\n<svg version=\"1.1\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" height=\"121.46\" width=\"122.88\" class=\"wing1\">\n <g>\n  <g id=\"svg_1\">\n   <path class=\"st0\" d=\"m12.35,121.46c-8.01,-9.72 -11.92,-19.29 -12.31,-28.71c-0.82,-19.74 10.88,-34.47 28.26,-45.08c18.28,-11.16 37.08,-13.93 55.36,-22.25c9.13,-4.15 20.02,-10.95 38.14,-25.42c5.92,15.69 -12.92,40.9 -43.52,54.23c9.48,0.37 19.69,-2.54 30.85,-9.74c-0.76,19.94 -16.46,32.21 -51.3,36.95c7.33,2.45 16.09,2.58 27.27,-0.58c-10.77,35.95 -55.2,10.2 -72.75,40.6l0,0z\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" id=\"svg_2\" fill=\"#fff\"></path>\n  </g>\n </g>\n</svg>\n  <div></div>\n  <p class=\"levelup\">LEVEL UP!</p>\n  <p class=\"congrats\">Congratulations!</p>\n  <div class=\"bg\"></div>\n    \n</div>\n<style>\n/* From Uiverse.io by Sameer2244 - Tags: notification */\n.notification {\n  width: 250px;\n  height: 60px;\n  background: rgb(255, 255, 255);\n  border-radius: 14px;\n  position: relative;\n  border: 1px solid rgba(0, 0, 0, 0.377);\n}\n\n.shinner {\n  position: absolute;\n  width: 250px;\n  height: 60px;\n  overflow: hidden;\n  top: 0;\n  left: 0;\n  border-radius: 0.5rem;\n}\n\n.mover {\n  position: absolute;\n  border-top: 60px solid rgba(255, 255, 255, 0.4);\n  border-right: 30px solid transparent;\n  left: 50px;\n  filter: blur( 4px );\n  animation: shine 2s infinite ease-in-out;\n}\n\n.mover2 {\n  content: \"\";\n  position: absolute;\n  border-top: 60px solid rgba(255, 255, 255, 0.4);\n  border-left: 30px solid transparent;\n  transform: scaleY(-1);\n  left: 20px;\n  filter: blur( 4px );\n  animation: shine2 2s infinite ease-in-out;\n}\n\n.levelup {\n  color: rgb(18, 175, 4);\n  text-align: center;\n  padding-top: 0.6rem;\n  font-weight: bolder;\n  font-size: 1.8rem;\n  z-index: 3;\n}\n\n.congrats {\n  font-family: cursive;\n  font-size: 1.5rem;\n  color: rgb(240, 240, 240);\n  text-align: center;\n  padding-top: 1rem;\n  text-shadow: 1px 4px 7px rgb(7, 7, 7);\n}\n\n.wing {\n  transform: translate(150px,-100px);\n  position: absolute;\n  z-index: -1;\n  animation: winganime 2s ease-in-out infinite;\n}\n\n.wing1 {\n  transform: translate(-30px,-100px) scaleX(-1);\n  position: absolute;\n  z-index: -1;\n  animation: winganime2 2s ease-in-out infinite;\n}\n\n.bg {\n  background: rgb(223, 223, 105);\n  width: 130px;\n  height: 130px;\n  position: absolute;\n  top: 50%;\n  right: 50%;\n  transform: translate(50%,-50%);\n  z-index: -2;\n  border-radius: 50%;\n  box-shadow: rgb(252, 255, 54,0.7) 0px 4px 105px, rgb(252, 255, 54,0.7) 0px -24px 130px, rgb(252, 255, 54,0.7) 0px 4px 446px, rgb(252, 255, 54,0.7) 0px 12px 13px, rgb(252, 255, 54,0.7) 0px -3px 5px;\n  animation: rot 2.5s infinite ease-in-out;\n  transform-origin: center;\n}\n\n@keyframes rot {\n  0% {\n    transform: translate(50%,-50%) rotate(0deg);\n  }\n\n  100% {\n    transform: translate(50%,-50%) rotate(360deg);\n  }\n}\n\n@keyframes winganime {\n  0% {\n    transform: translate(150px,-100px) rotateY(0deg);\n  }\n\n  50% {\n    transform: translate(150px,-95px) rotateY(25deg);\n  }\n\n  100% {\n    transform: translate(150px,-100px) rotateY(0deg);\n  }\n}\n\n@keyframes winganime2 {\n  0% {\n    transform: translate(-30px,-100px) rotateY(0deg) scaleX(-1);\n  }\n\n  50% {\n    transform: translate(-30px,-95px) rotateY(-25deg) scaleX(-1);\n  }\n\n  100% {\n    transform: translate(-30px,-100px) rotateY(0deg) scaleX(-1);\n  }\n}\n\n@keyframes shine {\n  0% {\n    left: -50px;\n  }\n\n  100% {\n    left: 300px;\n  }\n}\n\n@keyframes shine2 {\n  0% {\n    left: -20px;\n  }\n\n  100% {\n    left: 270px;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vashong-jolly-yak-23-fe31ab",
+  "title": "Loader by VashonG (jolly-yak-23)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/VashonG/jolly-yak-23",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "disney",
+    "magical",
+    "wand"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By VashonG on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/VashonG_jolly-yak-23.html",
+  "code": "<div aria-live=\"assertive\" role=\"alert\" class=\"loader\"></div>\n\n<style>\n/* From Uiverse.io by VashonG - Tags: loader, disney, magical, wand */\n.loader {\n  --hue: 210;\n  --size: 100px;\n  --border: 10px;\n  --speed: 1s;\n  --blur: var(--border);\n}\n\n.loader {\n  width: var(--border);\n  aspect-ratio: 1;\n  background: white;\n  border-radius: 50%;\n  position: absolute;\n  --y: calc((var(--size) * -0.5) + (var(--border) * 0.5));\n  transform: rotate(0deg) translateY(var(--y));\n  animation: spin var(--speed) infinite linear;\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  inset: calc(var(--border) * -0.5);\n  border-radius: 50%;\n  background: white;\n  filter: blur(var(--blur));\n  z-index: -1;\n}\n\n.loader::after {\n  content: \"\";\n  width: var(--size);\n  aspect-ratio: 1;\n  position: absolute;\n  top: 0%;\n  left: 50%;\n  translate: -50% 0;\n  background: conic-gradient(\n    white,\n    hsl(var(--hue), 100%, 70%),\n    hsl(var(--hue), 100%, 10%),\n    transparent 65%\n  );\n  border-radius: 50%;\n  mask: radial-gradient(\n    transparent calc(((var(--size) * 0.5) - var(--border)) - 1px),\n    white calc((var(--size) * 0.5) - var(--border))\n  );\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(-360deg) translateY(var(--y));\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

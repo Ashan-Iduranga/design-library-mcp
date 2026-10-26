@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-priyanshugupta28-new-dog-15-13ad86",
+  "title": "Toggle by PriyanshuGupta28 (new-dog-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/new-dog-15",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "theme-switch",
+    "advanced"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/PriyanshuGupta28_new-dog-15.html",
+  "code": "<div class=\"toggle\">\n  <input id=\"toggle-switch\" type=\"checkbox\">\n  <label for=\"toggle-switch\"></label>\n</div>\n\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: switch, theme-switch, advanced */\n.toggle {\n  position: relative;\n  width: 60px;\n  height: 34px;\n}\n\n.toggle input[type=\"checkbox\"] {\n  display: none;\n}\n\n.toggle label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 60px;\n  height: 34px;\n  background-color: #ccc;\n  border-radius: 17px;\n  cursor: pointer;\n  transition: background-color 0.3s ease;\n}\n\n.toggle label::before {\n  content: \"\";\n  position: absolute;\n  top: 3px;\n  left: 3px;\n  width: 28px;\n  height: 28px;\n  border-radius: 50%;\n  background-color: #fff;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n  transition: transform 0.3s ease;\n}\n\n.toggle input:checked + label {\n  background-color: #6000df;\n}\n\n.toggle input:checked + label::before {\n  transform: translateX(26px);\n}\n\n.toggle label:hover {\n  background-color: #999;\n}\n\n.toggle input:checked + label:hover {\n  background-color: rgb(99, 33, 138);\n}\n\n.toggle input:active + label {\n  background-color: #6f4ea3;\n}\n\n.toggle input:checked:active + label {\n  background-color: #009b93;\n}\n\n.toggle input:focus + label {\n  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

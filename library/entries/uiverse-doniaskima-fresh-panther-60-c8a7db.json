@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-doniaskima-fresh-panther-60-c8a7db",
+  "title": "Loader by doniaskima (fresh-panther-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/fresh-panther-60",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "material-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_fresh-panther-60.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: simple, material design, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 80px;\n  height: 40px;\n  border-radius: 100px 100px 0 0;\n  position: relative;\n  overflow: hidden;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  inset: 0 0 -100%;\n  background: radial-gradient(farthest-side,#ffd738 80%,#0000) left 70% top    20%/15px 15px,\n    radial-gradient(farthest-side,#020308 92%,#0000) left 65% bottom 19%/12px 12px,\n    radial-gradient(farthest-side,#ecfefe 92%,#0000) left 70% bottom 20%/15px 15px,\n    linear-gradient(#9eddfe 50%,#020308 0);\n  background-repeat: no-repeat;\n  animation: l5 2s infinite;\n}\n\n@keyframes l5 {\n  0%,20% {\n    transform: rotate(0)\n  }\n\n  40%,60% {\n    transform: rotate(.5turn)\n  }\n\n  80%,100% {\n    transform: rotate(1turn)\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

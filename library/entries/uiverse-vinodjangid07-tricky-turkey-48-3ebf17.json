@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-vinodjangid07-tricky-turkey-48-3ebf17",
+  "title": "Toggle by vinodjangid07 (tricky-turkey-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/tricky-turkey-48",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/vinodjangid07_tricky-turkey-48.html",
+  "code": "<input id=\"checkbox\" type=\"checkbox\">\n    <label class=\"switch\" for=\"checkbox\">\n        <svg viewBox=\"0 0 448 512\" class=\"svg\"><path d=\"M320 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM125.7 175.5c9.9-9.9 23.4-15.5 37.5-15.5c1.9 0 3.8 .1 5.6 .3L137.6 254c-9.3 28 1.7 58.8 26.8 74.5l86.2 53.9-25.4 88.8c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l28.7-100.4c5.9-20.6-2.6-42.6-20.7-53.9L238 299l30.9-82.4 5.1 12.3C289 264.7 323.9 288 362.7 288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H362.7c-12.9 0-24.6-7.8-29.5-19.7l-6.3-15c-14.6-35.1-44.1-61.9-80.5-73.1l-48.7-15c-11.1-3.4-22.7-5.2-34.4-5.2c-31 0-60.8 12.3-82.7 34.3L57.4 153.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l23.1-23.1zM91.2 352H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h69.6c19 0 36.2-11.2 43.9-28.5L157 361.6l-9.5-6c-17.5-10.9-30.5-26.8-37.9-44.9L91.2 352z\"></path></svg>Start\n    </label>\n\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: switch */\n#checkbox {\n  display: none;\n}\n\n.switch {\n  position: relative;\n  width: 90px;\n  height: 90px;\n  background-color: rgb(99, 99, 99);\n  border-radius: 50%;\n  z-index: 1;\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 5px;\n  font-size: 0.9em;\n  font-weight: 700;\n  color: rgb(37, 37, 37);\n  border: 2px solid rgb(126, 126, 126);\n  box-shadow: 0px 0px 3px rgb(2, 2, 2) inset;\n}\n\n.svg {\n  position: relative;\n  width: 30%;\n  height: 30%;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.svg path {\n  fill: rgb(37, 37, 37);\n}\n\n#checkbox:checked + .switch .svg {\n  filter: drop-shadow(0px 0px 3px rgb(222, 151, 255));\n}\n\n#checkbox:checked + .switch .svg path {\n  fill: rgb(255, 255, 255);\n}\n\n#checkbox:checked + .switch {\n  box-shadow: 0px 0px 1px rgb(222, 151, 255) inset,\n      0px 0px 2px rgb(222, 151, 255) inset,\n      0px 0px 10px rgb(222, 151, 255) inset,\n      0px 0px 40px rgb(222, 151, 255),\n      0px 0px 100px rgb(222, 151, 255),\n      0px 0px 5px rgb(222, 151, 255);\n  border: 2px solid rgb(255, 255, 255);\n  background-color: rgb(152, 107, 172);\n  color: rgb(255, 255, 255);\n}\n  \n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

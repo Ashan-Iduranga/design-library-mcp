@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-adamgiebl-hot-cat-14-53ed2f",
+  "title": "Input by adamgiebl (hot-cat-14)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/adamgiebl/hot-cat-14",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "gradient",
+    "modern",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By adamgiebl on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/adamgiebl_hot-cat-14.html",
+  "code": "<div class=\"form-control\">\n  <input class=\"input input-alt\" placeholder=\"Type something intelligent\" required=\"\" type=\"text\">\n  <span class=\"input-border input-border-alt\"></span>\n</div>\n\n<style>\n/* From Uiverse.io by adamgiebl - Tags: gradient, input, modern, animated */\n.input {\n  color: #fff;\n  font-size: 0.9rem;\n  background-color: transparent;\n  width: 100%;\n  box-sizing: border-box;\n  padding-inline: 0.5em;\n  padding-block: 0.7em;\n  border: none;\n  border-bottom: var(--border-height) solid var(--border-before-color);\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n}\n\n.input-border {\n  position: absolute;\n  background: var(--border-after-color);\n  width: 0%;\n  height: 2px;\n  bottom: 0;\n  left: 0;\n  transition: width 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);\n}\n\n.input:focus {\n  outline: none;\n}\n\n.input:focus + .input-border {\n  width: 100%;\n}\n\n.form-control {\n  position: relative;\n  --width-of-input: 300px;\n}\n\n.input-alt {\n  font-size: 1.2rem;\n  padding-inline: 1em;\n  padding-block: 0.8em;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n}\n\n.input-border-alt {\n  height: 3px;\n  background: linear-gradient(90deg, #FF6464 0%, #FFBF59 50%, #47C9FF 100%);\n  transition: width 0.4s cubic-bezier(0.42, 0, 0.58, 1.00);\n}\n\n.input-alt:focus + .input-border-alt {\n  width: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

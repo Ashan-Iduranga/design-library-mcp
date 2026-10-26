@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mnikita7767-purple-swan-7-578137",
+  "title": "Checkbox by mnikita7767 (purple-swan-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mnikita7767/purple-swan-7",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mnikita7767 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/mnikita7767_purple-swan-7.html",
+  "code": "<section class=\"container\">\n  <label>\n    <input type=\"checkbox\" name=\"check\" />\n    <span></span>\n    <p>N</p>\n  </label>\n</section>\n\n<style>\n/* From Uiverse.io by mnikita7767  - Tags: checkbox */\n.container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n.container label {\n  cursor: pointer;\n  position: relative;\n  width: 80px;\n  height: 80px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\nlabel input {\n  appearance: none;\n}\nlabel span {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(#555353, #363535, #303030);\n  border: 2px solid #222;\n  border-top-width: 4px;\n  border-radius: 6px;\n  box-shadow: inset 0 5px 1px rgba(0, 0, 0, 0.23), 0 5px 5px rgba(0, 0, 0, 0.5),\n    0 15px 25px rgba(0, 0, 0, 0.35);\n}\n.container label span::before {\n  content: \"\";\n  position: absolute;\n  border-top: 1px solid #fff;\n  inset: 5px 3px;\n  filter: blur(5px);\n}\n.container label input:checked ~ span {\n  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.35),\n    inset 0 5px 5px rgba(0, 0, 0, 0.5), inset 0 15px 25px rgba(0, 0, 0, 0.35);\n}\nlabel p {\n  position: relative;\n  z-index: 10;\n  font-size: 3rem;\n  color: #111;\n}\n.container label input:checked ~ p {\n  color: #fff;\n  text-shadow: 0 0 5px #219cf3, 0 0 8px #219cf3;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

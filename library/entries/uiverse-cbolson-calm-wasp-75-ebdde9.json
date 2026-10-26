@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cbolson-calm-wasp-75-ebdde9",
+  "title": "Checkbox by cbolson (calm-wasp-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cbolson/calm-wasp-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cbolson on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/cbolson_calm-wasp-75.html",
+  "code": "<form class=\"my-form\">\n  <div>\n    <input id=\"check-1\" type=\"checkbox\" />\n    <label for=\"check-1\">Checkbox 1</label>\n  </div>\n  <div>\n    <input checked=\"\" id=\"check-2\" type=\"checkbox\" />\n    <label for=\"check-2\">Checkbox 2</label>\n  </div>\n  <div>\n    <input id=\"check-3\" type=\"checkbox\" />\n    <label for=\"check-3\">Checkbox 3</label>\n  </div>\n  <div>\n    <input id=\"check-4\" type=\"checkbox\" />\n    <label for=\"check-4\">Checkbox 4</label>\n  </div>\n</form>\n\n<style>\n/* From Uiverse.io by cbolson  - Tags: checkbox */\n.my-form {\n  --_clr-primary: #666;\n  --_clr-hover: #f33195;\n  --_clr-checked: #127acf;\n}\n.my-form > div {\n  --_clr-current: var(--_clr-primary);\n\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n}\n.my-form > div + div {\n  margin-block-start: 0.5rem;\n}\n.my-form label {\n  cursor: pointer;\n  color: var(--_clr-current);\n  transition: color 150ms ease-in-out;\n}\n\n/* styled checkbox */\n.my-form input[type=\"checkbox\"] {\n  appearance: none;\n  outline: none;\n  width: 1.5rem;\n  height: 1.5rem;\n  aspect-ratio: 1;\n  padding: 0.25rem;\n  background: transparent;\n  border: 1px solid var(--_clr-current);\n  border-radius: 2px;\n  display: grid;\n  place-content: center;\n  cursor: pointer;\n}\n.my-form input[type=\"checkbox\"]::after {\n  content: \"\\2714\";\n  opacity: 0;\n  transition: opacity 150ms ease-in-out;\n  color: var(--_clr-checked);\n  font-size: inherit;\n  font-family: inherit;\n}\n\n.my-form label:hover,\n.my-form input[type=\"checkbox\"]:focus-visible,\n.my-form input[type=\"checkbox\"]:focus-visible + label,\n.my-form input[type=\"checkbox\"]:hover,\n.my-form input[type=\"checkbox\"]:hover + label {\n  --_clr-current: var(--_clr-hover);\n}\n.my-form input[type=\"checkbox\"]:focus-visible::after,\n.my-form input[type=\"checkbox\"]:hover::after {\n  opacity: 0.5;\n  color: var(--_clr-hover);\n}\n\n.my-form input[type=\"checkbox\"]:checked + label:not(:hover),\n.my-form input[type=\"checkbox\"]:checked:not(:hover) {\n  --_clr-current: var(--_clr-checked);\n}\n.my-form input[type=\"checkbox\"]:checked::after {\n  opacity: 1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

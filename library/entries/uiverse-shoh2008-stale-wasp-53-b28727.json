@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shoh2008-stale-wasp-53-b28727",
+  "title": "Form by Shoh2008 (stale-wasp-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/stale-wasp-53",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "sign-up"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Shoh2008_stale-wasp-53.html",
+  "code": "<form class=\"form\">\nSign Up\n    <input type=\"text\" class=\"input\" placeholder=\"Name\">\n    <input type=\"text\" class=\"input\" placeholder=\"Password\"> \n    <button>Submit</button>\n</form>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: form, sign-up */\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  background: #1e1e1e;\n  padding: 20px;\n  border: 1px solid #3d3c3c;\n  border-radius: 10px;\n  color: white;\n  text-align: center;\n  font-size: 20px;\n}\n\n.form input {\n  height: 35px;\n  outline: none;\n  border: 2px solid orange;\n  background: transparent;\n  padding: 20px 10px;\n  border-radius: 5px;\n  transition: .5s;\n  color: white;\n  font-size: 20px;\n}\n\n.form input:focus {\n  background: orange;\n}\n\n.form button {\n  width: 100%;\n  color: white;\n  transition: .5s;\n  font-size: 20px;\n  outline: none;\n  border: none;\n  height: 45px;\n  border-radius: 5px;\n  background: orange;\n  align-self: flex-end;\n}\n    \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

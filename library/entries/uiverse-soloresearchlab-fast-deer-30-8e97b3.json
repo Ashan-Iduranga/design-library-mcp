@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-soloresearchlab-fast-deer-30-8e97b3",
+  "title": "Button by SoloResearchLab (fast-deer-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SoloResearchLab/fast-deer-30",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SoloResearchLab on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SoloResearchLab_fast-deer-30.html",
+  "code": "<div class=\"button-group\">\n  <div class=\"button-container\">\n    <a title=\"Go to the home page\" href=\"#\">\n      <svg>\n        <path\n          d=\"M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z\"\n        ></path>\n      </svg>\n    </a>\n    <a title=\"Go to post list page\" href=\"#\">\n      <svg>\n        <path\n          d=\"M5 3a1 1 0 000 2c5.523 0 10 4.477 10 10a1 1 0 102 0C17 8.373 11.627 3 5 3z\"\n        ></path>\n        <path\n          d=\"M4 9a1 1 0 011-1 7 7 0 017 7 1 1 0 11-2 0 5 5 0 00-5-5 1 1 0 01-1-1zM3 15a2 2 0 114 0 2 2 0 01-4 0z\"\n        ></path>\n      </svg>\n    </a>\n    <a title=\"Go to about me page\" href=\"#\">\n      <svg>\n        <path\n          fill-rule=\"evenodd\"\n          d=\"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z\"\n        ></path>\n      </svg>\n    </a>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by SoloResearchLab  - Website: https://uiverse.io/emmanuelh-dev/itchy-turtle-88 - Name: emmanuelh-dev - Tags: tooltip, action, button, smooth */\n.button-group {\n  display: flex;\n  background-color: white;\n  padding: 15px; /* 1.25rem assuming base font size is 12px */\n  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),\n    0px 2px 4px -1px rgba(0, 0, 0, 0.06);\n  border-radius: 10px;\n}\n\n.button-container {\n  display: flex;\n  width: 100%;\n  padding: 15px; /* 1.5rem */\n  border-radius: 10px;\n}\n\n.button-container a {\n  color: #3b82f6; /* light-blue-light */\n  border: 2px solid transparent;\n  display: inline-flex;\n  align-items: center;\n  margin-right: 20px; /* 4 * 5 (assuming 1 unit = 5px) */\n  padding: 10px; /* 2.5 * 4 */\n  background-color: #f3f4f6; /* light-secondary */\n  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);\n  border-radius: 9999px;\n  font-size: 14px;\n  text-align: center;\n  transition: all 0.2s ease;\n}\n\n.button-container a:last-child {\n  margin-right: 0;\n}\n\n.button-container a:hover {\n  color: black;\n  border-color: #3b82f6; /* light-blue-light */\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);\n}\n\n.button-container a svg {\n  width: 20px; /* 5 * 4 */\n  height: 20px;\n  fill: currentColor;\n}\n\n/* Dark Mode Styles */\n@media (prefers-color-scheme: dark) {\n  .button-group {\n    background-color: #1f2937; /* box-dark */\n    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.5),\n      0px 2px 4px -1px rgba(0, 0, 0, 0.3);\n  }\n\n  .button-container {\n    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);\n  }\n\n  .button-container a {\n    color: #9ca3af; /* gray-400 */\n    background-color: #374151; /* button-curved-default-dark */\n    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);\n  }\n\n  .button-container a:hover,\n  .button-container a:focus,\n  .button-container a:active {\n    background-color: #4b5563; /* button-curved-pressed-dark */\n    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),\n      0px 2px 4px -1px rgba(0, 0, 0, 0.06);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

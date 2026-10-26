@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-xantha01-wise-crab-55-0e8163",
+  "title": "Card by xantha01 (wise-crab-55)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/xantha01/wise-crab-55",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By xantha01 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/xantha01_wise-crab-55.html",
+  "code": "<div class=\"card\">\n  <div class=\"details\">\n    <div class=\"cardHeader\">CSS Hover Animation</div>\n    <div class=\"cardText\">\n      Welcome to this card where i have made use of the \"Hover\" effect to add\n      some really cool interactions to it. Enjoy\n    </div>\n    <div class=\"button\">Learn More</div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by xantha01  - Website: https://youtu.be/5DEq5cWNYt8 - Name: Kevin powell - Tags: card, hover, card hover, pattern */\n.card {\n  background: rgba(172, 7, 226, 0.5);\n  position: relative;\n  max-width: 250px;\n  height: 350px;\n  border-radius: 5px;\n  padding: 1rem;\n  overflow: hidden;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  gap: 7.5px;\n  transition: 0.5s ease;\n  color: white;\n}\n\n.card::after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background: radial-gradient(\n        35.36% 35.36% at 100% 25%,\n        #0000 66%,\n        #c79013 68% 70%,\n        #0000 72%\n      )\n      32px 32px / calc(2 * 32px) calc(2 * 32px),\n    radial-gradient(\n        35.36% 35.36% at 0 75%,\n        #0000 66%,\n        #c79013 68% 70%,\n        #0000 72%\n      )\n      32px 32px / calc(2 * 32px) calc(2 * 32px),\n    radial-gradient(\n        35.36% 35.36% at 100% 25%,\n        #0000 66%,\n        #c79013 68% 70%,\n        #0000 72%\n      )\n      0 0 / calc(2 * 32px) calc(2 * 32px),\n    radial-gradient(\n        35.36% 35.36% at 0 75%,\n        #0000 66%,\n        #c79013 68% 70%,\n        #0000 72%\n      )\n      0 0 / calc(2 * 32px) calc(2 * 32px),\n    repeating-conic-gradient(#295b3f 0 25%, #0000 0 50%) 0 0 / calc(2 * 32px)\n      calc(2 * 32px),\n    radial-gradient(#0000 66%, #c79013 68% 70%, #0000 72%) 0 calc(32px / 2) /\n      32px 32px #295b3f;\n  opacity: 0.5;\n  transition: 0.3s ease;\n}\n\n.card:hover::after {\n  opacity: 0.25;\n}\n\n.cardHeader {\n  text-transform: uppercase;\n  position: relative;\n  width: max-content;\n  font-weight: bold;\n  transition: all 0.5s ease;\n}\n.cardHeader::after {\n  content: \"\";\n  width: calc(100% + 1rem);\n  height: 2.5px;\n  transform: translateX(calc(-100% - 1rem));\n  background: aqua;\n  bottom: -2px;\n  left: 0;\n  position: absolute;\n  opacity: 0;\n}\n\n.details {\n  z-index: 2;\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  transform: translateY(95%);\n  transition: all 0.5s ease;\n}\n\n.button {\n  background-color: aqua;\n  color: black;\n  padding: 2.5px 5px;\n  width: max-content;\n  border-radius: 2.5px;\n}\n.card:hover .details {\n  transform: translateY(0%);\n  transition-delay: 0.5s;\n}\n.card:hover .cardHeader::after {\n  transform: translateX(-1rem);\n  transition: 0.5s ease;\n  opacity: 1;\n}\n.card:hover {\n  transform: scale(1.1);\n  border-radius: 15px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-button-group-qr-code-button-group",
+  "title": "Button Group: QR code button group (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/button-group/#qr-code-button-group",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button-group",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this component to show a QR code button group for authentication or other purposes.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/button-group.md",
+  "code": "<div class=\"inline-flex rounded-base shadow-xs -space-x-px\" role=\"group\">\n  <button type=\"button\" class=\"inline-flex items-center justify-center text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary-soft font-medium leading-5 rounded-s-base text-sm w-9 h-full focus:outline-none\" disabled>\n    <svg class=\"w-4 h-4\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 4h6v6H4V4Zm10 10h6v6h-6v-6Zm0-10h6v6h-6V4Zm-4 10h.01v.01H10V14Zm0 4h.01v.01H10V18Zm-3 2h.01v.01H7V20Zm0-4h.01v.01H7V16Zm-3 2h.01v.01H4V18Zm0-4h.01v.01H4V14Z\"/><path stroke=\"currentColor\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 7h.01v.01H7V7Zm10 10h.01v.01H17V17Z\"/></svg>\n  </button>\n  <button type=\"button\" class=\"inline-flex items-center text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-3 focus:ring-neutral-tertiary-soft font-medium leading-5 rounded-e-base text-sm px-3 py-2 focus:outline-none\">\n   Sign In\n  </button>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

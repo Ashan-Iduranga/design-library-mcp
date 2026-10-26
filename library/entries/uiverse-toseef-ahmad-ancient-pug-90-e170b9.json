@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-toseef-ahmad-ancient-pug-90-e170b9",
+  "title": "Card by Toseef-Ahmad (ancient-pug-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Toseef-Ahmad/ancient-pug-90",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Toseef-Ahmad on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Toseef-Ahmad_ancient-pug-90.html",
+  "code": "<div class=\"card\">\n  <p>Write here</p>\n</div>\n<svg class=\"filter\">\n  <filter id=\"wavy2\">\n    <feTurbulence x=\"0\" y=\"0\" baseFrequency=\"0.02\" numOctaves=\"5\" seed=\"1\"></feTurbulence>\n    <feDisplacementMap in=\"SourceGraphic\" scale=\"20\"></feDisplacementMap>\n  </filter>\n</svg>\n<style>\n/* From Uiverse.io by Toseef-Ahmad - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  display: flex;\n  padding: 2em;\n  box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;\n  background: #fffef0;\n  filter: url(#wavy2);\n}\n\n.card p {\n  color: black;\n  font-size: 3rem;\n  align-items: center;\n}\n\n.filter {\n  display: none;\n  position: absolute;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

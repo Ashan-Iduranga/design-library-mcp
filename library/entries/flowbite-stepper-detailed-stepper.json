@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-stepper-detailed-stepper",
+  "title": "Stepper: Detailed stepper (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/stepper/#detailed-stepper",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "stepper",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show an extra subtitle next to the number and the title of the steppper component based on an ordered list element.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/stepper.md",
+  "code": "<ol class=\"items-center w-full space-y-4 sm:flex sm:space-x-8 sm:space-y-0 rtl:space-x-reverse\">\n    <li class=\"flex items-center text-fg-brand space-x-3 rtl:space-x-reverse\">\n        <span class=\"flex items-center justify-center w-10 h-10 bg-brand-softer rounded-full lg:h-12 lg:w-12 shrink-0\">\n            <svg class=\"w-5 h-5 text-fg-brand\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 11.917 9.724 16.5 19 7.5\"/></svg>\n        </span>\n        <span>\n            <h3 class=\"font-medium leading-tight\">User info</h3>\n            <p class=\"text-sm\">Step details here</p>\n        </span>\n    </li>\n    <li class=\"flex items-center text-body space-x-3 rtl:space-x-reverse\">\n        <span class=\"flex items-center justify-center w-10 h-10 bg-neutral-tertiary rounded-full lg:h-12 lg:w-12 shrink-0\">\n            <svg class=\"w-5 h-5 text-body\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 9h3m-3 3h3m-3 3h3m-6 1c-.306-.613-.933-1-1.618-1H7.618c-.685 0-1.312.387-1.618 1M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm7 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z\"/></svg>\n        </span>\n        <span>\n            <h3 class=\"font-medium leading-tight\">Company info</h3>\n            <p class=\"text-sm\">Step details here</p>\n        </span>\n    </li>\n    <li class=\"flex items-center text-body space-x-3 rtl:space-x-reverse\">\n        <span class=\"flex items-center justify-center w-10 h-10 bg-neutral-tertiary rounded-full lg:h-12 lg:w-12 shrink-0\">\n            <svg class=\"w-5 h-5 text-body\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 10h18M6 14h2m3 0h5M3 7v10a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1Z\"/></svg>\n        </span>\n        <span>\n            <h3 class=\"font-medium leading-tight\">Payment info</h3>\n            <p class=\"text-sm\">Step details here</p>\n        </span>\n    </li>\n</ol>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

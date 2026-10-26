@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-1osm-light-chipmunk-10-b70587",
+  "title": "Card by 1osm (light-chipmunk-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/1osm/light-chipmunk-10",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 1osm on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/1osm_light-chipmunk-10.html",
+  "code": "<div class=\"card\">\n  <div class=\"smallIcon\">\n    <div class=\"Icon\"></div>\n    <div class=\"Name\"></div>\n    <div class=\"Roles\"></div>\n    <div class=\"Descripion\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by 1osm - Tags: card */\n.card {\n  width: 250px;\n  height: 90px;\n  background: #262626;\n}\n\n.smallIcon {\n  width: 100%;\n  height: 100%;\n  background-color: #ff5858;\n}\n\n.smallIcon div {\n  background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 \n  40%, #e5e5e5 48%);\n  margin-top: 10px;\n  background-size: 200% 100%;\n  background-position: 100% 0;\n  animation: load89234 2s infinite;\n  color: #262626;\n  font-weight: bold;\n  font-size: 15px;\n}\n\n.Icon {\n  margin: 10px;\n  width: 70px;\n  height: 70px;\n  float: left;\n  border-radius: 5px;\n}\n\n.Name {\n  width: 90px;\n  height: 20px;\n  float: left;\n  transform: translate(10px ,0px);\n  border-radius: 5px;\n}\n\n.Roles {\n  width: 40px;\n  height: 20px;\n  float: left;\n  transform: translate(20px ,0px);\n  border-radius: 5px;\n}\n\n.Descripion {\n  margin: 10px;\n  width: 140px;\n  height: 45px;\n  float: left;\n  transform: translate(0px ,-5px);\n  border-radius: 5px;\n}\n\n@keyframes load89234 {\n  100% {\n    background-position: -100% 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

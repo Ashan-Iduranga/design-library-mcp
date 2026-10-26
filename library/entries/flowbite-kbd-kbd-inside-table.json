@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-kbd-kbd-inside-table",
+  "title": "KBD (Keyboard): KBD inside table (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/kbd/#kbd-inside-table",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "kbd",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "The KBD component can also be used inside table components to denote what type of key can be pressed for certain descriptions.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/kbd.md",
+  "code": "<div class=\"relative overflow-x-auto\">\n    <table class=\"w-full text-sm text-left rtl:text-right text-body\">\n        <thead class=\"text-xs text-body uppercase bg-neutral-tertiary\">\n            <tr>\n                <th scope=\"col\" class=\"px-6 py-3\">\n                    Key\n                </th>\n                <th scope=\"col\" class=\"px-6 py-3\">\n                    Description\n                </th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr class=\"bg-neutral-primary border-b border-default\">\n                <th scope=\"row\" class=\"px-6 py-4 font-medium text-body whitespace-nowrap\">\n                    <kbd class=\"px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">Shift</kbd>\n                        <span class=\"mx-2\">or</span>\n                    <kbd class=\"px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">Tab</kbd>\n                </th>\n                <td class=\"px-6 py-4\">\n                    Navigate to interactive elements\n                </td>\n            </tr>\n            <tr class=\"bg-neutral-primary border-b border-default\">\n                <th scope=\"row\" class=\"px-6 py-4 font-medium text-body whitespace-nowrap\">\n                    <kbd class=\"px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">Enter</kbd>\n                    <span class=\"mx-2\">or</span>\n                    <kbd class=\"px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">Spacebar</kbd>\n                </th>\n                <td class=\"px-6 py-4\">\n                    Ensure elements with ARIA role=\"button\" can be activated with both key commands.\n                </td>\n            </tr>\n            <tr class=\"bg-neutral-primary\">\n                <th scope=\"row\" class=\"inline-flex items-center px-6 py-4 font-medium text-body whitespace-nowrap\">\n                    <kbd class=\"inline-flex items-center me-1 px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">\n                        <svg class=\"w-2.5 h-2.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 16 10\">\n                            <path d=\"M9.207 1A2 2 0 0 0 6.38 1L.793 6.586A2 2 0 0 0 2.207 10H13.38a2 2 0 0 0 1.414-3.414L9.207 1Z\"/>\n                        </svg>\n                        <span class=\"sr-only\">Arrow key up</span>\n                    </kbd>\n                    <kbd class=\"inline-flex items-center px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">\n                        <svg class=\"w-2.5 h-2.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 16 10\">\n                            <path d=\"M15.434 1.235A2 2 0 0 0 13.586 0H2.414A2 2 0 0 0 1 3.414L6.586 9a2 2 0 0 0 2.828 0L15 3.414a2 2 0 0 0 .434-2.179Z\"/>\n                        </svg>\n                        <span class=\"sr-only\">Arrow key down</span>\n                    </kbd>\n                    <span class=\"mx-2\">or</span>\n                    <kbd class=\"rtl:rotate-180 inline-flex items-center me-1 px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">\n                        <svg class=\"w-2.5 h-2.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 10 16\">\n                            <path d=\"M8.766.566A2 2 0 0 0 6.586 1L1 6.586a2 2 0 0 0 0 2.828L6.586 15A2 2 0 0 0 10 13.586V2.414A2 2 0 0 0 8.766.566Z\"/>\n                        </svg>\n                        <span class=\"sr-only\">Arrow key left</span>\n                    </kbd>\n                    <kbd class=\"rtl:rotate-180 inline-flex items-center px-2 py-1.5 text-xs font-semibold text-heading bg-neutral-tertiary border border-default-medium rounded-base\">\n                        <svg class=\"w-2.5 h-2.5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 10 16\">\n                            <path d=\"M3.414 1A2 2 0 0 0 0 2.414v11.172A2 2 0 0 0 3.414 15L9 9.414a2 2 0 0 0 0-2.828L3.414 1Z\"/>\n                        </svg>\n                        <span class=\"sr-only\">Arrow key right</span>\n                    </kbd>\n                </th>\n                <td class=\"px-6 py-4\">\n                    Choose and activate previous/next tab.\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

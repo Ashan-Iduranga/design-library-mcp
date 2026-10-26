@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-fanishah-tender-bat-85-5a6abc",
+  "title": "Loader by fanishah (tender-bat-85)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/fanishah/tender-bat-85",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By fanishah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/fanishah_tender-bat-85.html",
+  "code": "<div class=\"container\">\n    <div class=\"top-left\"></div>\n    <div class=\"top-right\"></div>\n    <div class=\"bottom-left\"></div>\n    <div class=\"bottom-right\"></div>\n</div>\n<style>\n/* From Uiverse.io by fanishah - Tags: loader */\n.container {\n  width: 200px;\n  height: 200px;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  position: absolute;\n}\n\n.container div {\n  width: 100px;\n  height: 100px;\n  top: 50px;\n  left: 50px;\n  display: block;\n  position: absolute;\n}\n\n.top-left {\n  animation: tl 7.5s ease infinite\n}\n\n.top-right {\n  animation: tr 7.5s ease infinite\n}\n\n.bottom-left {\n  animation: bl 7.5s ease infinite\n}\n\n.bottom-right {\n  animation: br 7.5s ease infinite\n}\n\n.container div:before,\n.container div:after {\n  display: block;\n  position: absolute;\n  content: \"\"\n}\n\n.container div:before {\n  width: 50px;\n  height: 50px\n}\n\n.top-left:before {\n  background: rgb(251, 189, 4);\n  top: 0;\n  left: 0;\n  border-radius: 100% 0 0 0\n}\n\n.top-right:before {\n  background: rgb(234, 67, 52);\n  top: 0;\n  right: 0;\n  border-radius: 0 100% 0 0\n}\n\n.bottom-left:before {\n  background: rgb(52, 168, 83);\n  bottom: 0;\n  left: 0;\n  border-radius: 0 0 0 100%\n}\n\n.bottom-right:before {\n  background: rgb(67, 135, 244);\n  bottom: 0;\n  right: 0;\n  border-radius: 0 0 100% 0\n}\n\n.container div:after {\n  background: rgb(33, 33, 33);\n  width: 25px;\n  height: 25px;\n  z-index: 1\n}\n\n.top-left:after {\n  top: 25px;\n  left: 25px;\n  border-radius: 100% 0 0 0\n}\n\n.top-right:after {\n  top: 25px;\n  right: 25px;\n  border-radius: 0 100% 0 0\n}\n\n.bottom-left:after {\n  bottom: 25px;\n  left: 25px;\n  border-radius: 0 0 0 100%\n}\n\n.bottom-right:after {\n  bottom: 25px;\n  right: 25px;\n  border-radius: 0 0 100% 0\n}\n\n@keyframes tl {\n  0%,96%,100% {\n    transform: rotate(0deg)\n  }\n\n  12% {\n    transform: rotate(-45deg)\n  }\n\n  24% {\n    transform: rotate(-90deg)\n  }\n\n  36% {\n    transform: rotate(-135deg)\n  }\n\n  48% {\n    left: 50px;\n    transform: rotate(-180deg)\n  }\n\n  60% {\n    left: 125px;\n    opacity: 1;\n    transform: rotate(-135deg)\n  }\n\n  61%,95% {\n    opacity: 0\n  }\n}\n\n@keyframes tr {\n  0% {\n    transform: rotate(0deg)\n  }\n\n  12% {\n    transform: rotate(-45deg)\n  }\n\n  24% {\n    transform: rotate(-90deg)\n  }\n\n  36% {\n    transform: rotate(-135deg)\n  }\n\n  48% {\n    transform: rotate(-180deg)\n  }\n\n  60% {\n    transform: rotate(-225deg)\n  }\n\n  72% {\n    transform: rotate(-270deg)\n  }\n\n  84% {\n    transform: rotate(-315deg)\n  }\n\n  96%,100% {\n    transform: rotate(-360deg)\n  }\n}\n\n@keyframes bl {\n  0%,100% {\n    transform: rotate(0deg)\n  }\n\n  12% {\n    transform: rotate(-45deg)\n  }\n\n  24% {\n    left: 50px;\n    transform: rotate(-90deg)\n  }\n\n  36% {\n    left: 125px;\n    opacity: 1;\n    transform: rotate(-45deg)\n  }\n\n  37%,83% {\n    opacity: 0\n  }\n\n  84% {\n    left: -25px;\n    opacity: 1;\n    transform: rotate(-45deg)\n  }\n\n  96% {\n    left: 50px;\n    transform: rotate(0deg)\n  }\n}\n\n@keyframes br {\n  0%,96%,100% {\n    transform: rotate(0deg)\n  }\n\n  12% {\n    left: 125px;\n    opacity: 1;\n    transform: rotate(45deg)\n  }\n\n  13%,59% {\n    opacity: 0\n  }\n\n  60% {\n    left: -25px;\n    opacity: 1;\n    transform: rotate(45deg)\n  }\n\n  72% {\n    left: 50px;\n    transform: rotate(90deg)\n  }\n\n  84% {\n    transform: rotate(45deg)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

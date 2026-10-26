@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-d3ucey-unlucky-rat-66-b26c06",
+  "title": "Button by d3uceY (unlucky-rat-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/d3uceY/unlucky-rat-66",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "animation",
+    "red",
+    "hover",
+    "active",
+    "rounded",
+    "download"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By d3uceY on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/d3uceY_unlucky-rat-66.html",
+  "code": "<button class=\"download-btn pixel-corners\">\n  <div class=\"button-content\">\n    <div class=\"svg-container\">\n      <svg\n        class=\"download-icon\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n        width=\"24\"\n        height=\"24\"\n        viewBox=\"0 0 24 24\"\n      >\n        <path\n          d=\"M19.479 10.092c-.212-3.951-3.473-7.092-7.479-7.092-4.005 0-7.267 3.141-7.479 7.092-2.57.463-4.521 2.706-4.521 5.408 0 3.037 2.463 5.5 5.5 5.5h13c3.037 0 5.5-2.463 5.5-5.5 0-2.702-1.951-4.945-4.521-5.408zm-7.479 6.908l-4-4h3v-4h2v4h3l-4 4z\"\n        ></path>\n      </svg>\n    </div>\n    <div class=\"text-container\">\n      <div class=\"text\">Download</div>\n    </div>\n  </div>\n</button>\n\n<style>\n/* From Uiverse.io by d3uceY  - Tags: icon, animation, red, button, hover, active, rounded, download */\n.download-btn {\n  height: 45px;\n  width: 95px;\n  cursor: pointer;\n  background: white;\n  border: none;\n  background: #ff0021;\n  border-radius: 30px;\n  overflow: hidden;\n}\n\n.button-content {\n  transform: translateY(-45px);\n  transition: all 250ms ease-in-out;\n}\n\n.svg-container,\n.text-container {\n  height: 45px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.text-container .text {\n  font-size: 13px;\n  color: #fff;\n  font-weight: 600;\n  opacity: 1;\n  transition: opacity ease-in-out 250ms;\n}\n\n.download-icon {\n  height: 25px;\n  width: 25px;\n  fill: #fff;\n  opacity: 0;\n  transition: opacity ease-in-out 250ms;\n}\n\n/* hover state for the button */\n.download-btn:hover .button-content {\n  transform: translateY(0px);\n}\n\n.download-btn:hover .text {\n  opacity: 0;\n}\n\n.download-btn:hover .download-icon {\n  opacity: 1;\n}\n\n.download-btn:focus .download-icon {\n  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;\n  animation: heartbeat 1.5s ease-in-out infinite both;\n}\n\n@-webkit-keyframes heartbeat {\n  from {\n    -webkit-transform: scale(1);\n    transform: scale(1);\n    -webkit-transform-origin: center center;\n    transform-origin: center center;\n    -webkit-animation-timing-function: ease-out;\n    animation-timing-function: ease-out;\n  }\n  10% {\n    -webkit-transform: scale(0.91);\n    transform: scale(0.91);\n    -webkit-animation-timing-function: ease-in;\n    animation-timing-function: ease-in;\n  }\n  17% {\n    -webkit-transform: scale(0.98);\n    transform: scale(0.98);\n    -webkit-animation-timing-function: ease-out;\n    animation-timing-function: ease-out;\n  }\n  33% {\n    -webkit-transform: scale(0.87);\n    transform: scale(0.87);\n    -webkit-animation-timing-function: ease-in;\n    animation-timing-function: ease-in;\n  }\n  45% {\n    -webkit-transform: scale(1);\n    transform: scale(1);\n    -webkit-animation-timing-function: ease-out;\n    animation-timing-function: ease-out;\n  }\n}\n@keyframes heartbeat {\n  from {\n    -webkit-transform: scale(1);\n    transform: scale(1);\n    -webkit-transform-origin: center center;\n    transform-origin: center center;\n    -webkit-animation-timing-function: ease-out;\n    animation-timing-function: ease-out;\n  }\n  10% {\n    -webkit-transform: scale(0.91);\n    transform: scale(0.91);\n    -webkit-animation-timing-function: ease-in;\n    animation-timing-function: ease-in;\n  }\n  17% {\n    -webkit-transform: scale(0.98);\n    transform: scale(0.98);\n    -webkit-animation-timing-function: ease-out;\n    animation-timing-function: ease-out;\n  }\n  33% {\n    -webkit-transform: scale(0.87);\n    transform: scale(0.87);\n    -webkit-animation-timing-function: ease-in;\n    animation-timing-function: ease-in;\n  }\n  45% {\n    -webkit-transform: scale(1);\n    transform: scale(1);\n    -webkit-animation-timing-function: ease-out;\n    animation-timing-function: ease-out;\n  }\n}\n\n/* hover state for the button */\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-yaya12085-dangerous-puma-90-680595",
+  "title": "Form by Yaya12085 (dangerous-puma-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/dangerous-puma-90",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "login",
+    "input",
+    "colorful",
+    "login-form",
+    "cool-input"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/Yaya12085_dangerous-puma-90.html",
+  "code": "<!-- From Uiverse.io by Yaya12085 - Tags: login, form, input, colorful, login form, cool input -->\n<div class=\"max-w-md relative flex flex-col p-4 rounded-md text-black bg-white\">\n    <div class=\"text-2xl font-bold mb-2 text-[#1e0e4b] text-center\">Welcome back to <span class=\"text-[#7747ff]\">App</span></div>\n    <div class=\"text-sm font-normal mb-4 text-center text-[#1e0e4b]\">Log in to your account</div>\n<form class=\"flex flex-col gap-3\">\n    <div class=\"block relative\"> \n    <label for=\"email\" class=\"block text-gray-600 cursor-text text-sm leading-[140%] font-normal mb-2\">Email</label>\n    <input type=\"text\" id=\"email\" class=\"rounded border border-gray-200 text-sm w-full font-normal leading-[18px] text-black tracking-[0px] appearance-none block h-11 m-0 p-[11px] focus:ring-2 ring-offset-2  ring-gray-900 outline-0\">\n    \n    </div>\n    <div class=\"block relative\"> \n    <label for=\"password\" class=\"block text-gray-600 cursor-text text-sm leading-[140%] font-normal mb-2\">Password</label>\n    <input type=\"text\" id=\"password\" class=\"rounded border border-gray-200 text-sm w-full font-normal leading-[18px] text-black tracking-[0px] appearance-none block h-11 m-0 p-[11px] focus:ring-2 ring-offset-2 ring-gray-900 outline-0\">\n    \n    </div>\n    <div>\n    <a class=\"text-sm text-[#7747ff]\" href=\"#\">Forgot your password?\n    </a></div>\n    <button type=\"submit\" class=\"bg-[#7747ff] w-max m-auto px-6 py-2 rounded text-white text-sm font-normal\">Submit</button>\n\n</form>\n<div class=\"text-sm text-center mt-[1.6rem]\">Don’t have an account yet? <a class=\"text-sm text-[#7747ff]\" href=\"#\">Sign up for free!</a></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

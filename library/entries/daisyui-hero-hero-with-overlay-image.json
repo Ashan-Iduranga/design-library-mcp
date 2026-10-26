@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-hero-hero-with-overlay-image",
+  "title": "Hero: Hero with overlay image (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/hero/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "hero",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Hero is a component for displaying a large box or image with a title and description.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/hero/+page.md",
+  "code": "<div\n  class=\"hero min-h-screen\"\n  style=\"background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);\"\n>\n  <div class=\"hero-overlay\"></div>\n  <div class=\"hero-content text-neutral-content text-center\">\n    <div class=\"max-w-md\">\n      <h1 class=\"mb-5 text-5xl font-bold\">Hello there</h1>\n      <p class=\"mb-5\">\n        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem\n        quasi. In deleniti eaque aut repudiandae et a id nisi.\n      </p>\n      <button class=\"btn btn-primary\">Get Started</button>\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

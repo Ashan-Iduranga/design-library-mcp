@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-device-mockups-tablet-mockup",
+  "title": "Device Mockups: Tablet mockup (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/device-mockups/#tablet-mockup",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "device-mockup",
+    "device-mockups",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This component can be used to show an application preview inside of a responsive tablet mockup.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/device-mockups.md",
+  "code": "<div class=\"relative mx-auto border-default bg-base border-[14px] rounded-[2.5rem] h-[454px] max-w-[341px] md:h-[682px] md:max-w-[512px]\">\n    <div class=\"h-[32px] w-[3px] bg-base absolute -start-[17px] top-[72px] rounded-s-lg\"></div>\n    <div class=\"h-[46px] w-[3px] bg-base absolute -start-[17px] top-[124px] rounded-s-lg\"></div>\n    <div class=\"h-[46px] w-[3px] bg-base absolute -start-[17px] top-[178px] rounded-s-lg\"></div>\n    <div class=\"h-[64px] w-[3px] bg-base absolute -end-[17px] top-[142px] rounded-e-lg\"></div>\n    <div class=\"rounded-[2rem] overflow-hidden h-[426px] md:h-[654px] bg-neutral-primary \">\n        <img src=\"https://flowbite.s3.amazonaws.com/docs/device-mockups/tablet-mockup-image.png\" class=\"dark:hidden h-[426px] md:h-[654px]\" alt=\"\">\n        <img src=\"https://flowbite.s3.amazonaws.com/docs/device-mockups/tablet-mockup-image-dark.png\" class=\"hidden dark:block h-[426px] md:h-[654px]\" alt=\"\">\n    </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

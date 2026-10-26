@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-e-coders-new-shrimp-32-0499ed",
+  "title": "Button by e-coders (new-shrimp-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/e-coders/new-shrimp-32",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "minimalist"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By e-coders on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/e-coders_new-shrimp-32.html",
+  "code": "<button>Button</button>\n<style>\n/* From Uiverse.io by e-coders - Tags: simple, minimalist, button */\nbutton {\n appearance: none;\n background-color: transparent;\n border: 0.125em solid #1A1A1A;\n border-radius: 0.9375em;\n box-sizing: border-box;\n color: #3B3B3B;\n cursor: pointer;\n display: inline-block;\n font-family: Roobert,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n font-size: 16px;\n font-weight: 600;\n line-height: normal;\n margin: 0;\n min-height: 3.75em;\n min-width: 0;\n outline: none;\n padding: 1em 2.3em;\n text-align: center;\n text-decoration: none;\n transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);\n user-select: none;\n -webkit-user-select: none;\n touch-action: manipulation;\n will-change: transform;\n}\n\nbutton:disabled {\n pointer-events: none;\n}\n\nbutton:hover {\n color: #fff;\n background-color: #1A1A1A;\n box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;\n transform: translateY(-2px);\n}\n\nbutton:active {\n box-shadow: none;\n transform: translateY(0);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

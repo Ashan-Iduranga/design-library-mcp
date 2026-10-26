@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-erzenxz-weak-falcon-28-f12407",
+  "title": "Toggle by ErzenXz (weak-falcon-28)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ErzenXz/weak-falcon-28",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ErzenXz on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/ErzenXz_weak-falcon-28.html",
+  "code": "<label class=\"toggle-switch\">\n  <input type=\"checkbox\">\n  <div class=\"toggle-switch-background\">\n    <div class=\"toggle-switch-handle\"></div>\n  </div>\n</label>\n\n<style>\n/* From Uiverse.io by ErzenXz - Tags: switch */\n.toggle-switch {\n  position: relative;\n  display: inline-block;\n  width: 80px;\n  height: 40px;\n  cursor: pointer;\n}\n\n.toggle-switch input[type=\"checkbox\"] {\n  display: none;\n}\n\n.toggle-switch-background {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: #ddd;\n  border-radius: 20px;\n  box-shadow: inset 0 0 0 2px #ccc;\n  transition: background-color 0.3s ease-in-out;\n}\n\n.toggle-switch-handle {\n  position: absolute;\n  top: 5px;\n  left: 5px;\n  width: 30px;\n  height: 30px;\n  background-color: #fff;\n  border-radius: 50%;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);\n  transition: transform 0.3s ease-in-out;\n}\n\n.toggle-switch::before {\n  content: \"\";\n  position: absolute;\n  top: -25px;\n  right: -35px;\n  font-size: 12px;\n  font-weight: bold;\n  color: #aaa;\n  text-shadow: 1px 1px #fff;\n  transition: color 0.3s ease-in-out;\n}\n\n.toggle-switch input[type=\"checkbox\"]:checked + .toggle-switch-handle {\n  transform: translateX(45px);\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 0 0 3px #05c46b;\n}\n\n.toggle-switch input[type=\"checkbox\"]:checked + .toggle-switch-background {\n  background-color: #05c46b;\n  box-shadow: inset 0 0 0 2px #04b360;\n}\n\n.toggle-switch input[type=\"checkbox\"]:checked + .toggle-switch:before {\n  content: \"On\";\n  color: #05c46b;\n  right: -15px;\n}\n\n.toggle-switch input[type=\"checkbox\"]:checked + .toggle-switch-background .toggle-switch-handle {\n  transform: translateX(40px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shoh2008-splendid-rat-98-601506",
+  "title": "Toggle by Shoh2008 (splendid-rat-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/splendid-rat-98",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Shoh2008_splendid-rat-98.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\" class=\"input\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: switch */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch .input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #2e2e2e;\n  transition: .4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: #4e4;\n  transition: .4s;\n}\n\n.input:checked + .slider {\n  background-color: #000;\n}\n\n.input:focus + .slider {\n  box-shadow: 0 0 1px #000;\n}\n\n.input:checked + .slider:before {\n  transform: translateX(1.5em);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

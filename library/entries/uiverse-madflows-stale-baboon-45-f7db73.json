@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-madflows-stale-baboon-45-f7db73",
+  "title": "Button by Madflows (stale-baboon-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Madflows/stale-baboon-45",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "download"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Madflows on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Madflows_stale-baboon-45.html",
+  "code": "<button class=\"button\">\n    <span class=\"button-content\">Download </span>\n</button>\n<style>\n/* From Uiverse.io by Madflows - Tags: button, download */\n.button {\n  position: relative;\n  overflow: hidden;\n  height: 3rem;\n  padding: 0 2rem;\n  border-radius: 1.5rem;\n  background: #3d3a4e;\n  background-size: 400%;\n  color: #fff;\n  border: none;\n}\n\n.button:hover::before {\n  transform: scaleX(1);\n}\n\n.button-content {\n  position: relative;\n  z-index: 1;\n}\n\n.button::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  transform: scaleX(0);\n  transform-origin: 0 50%;\n  width: 100%;\n  height: inherit;\n  border-radius: inherit;\n  background: linear-gradient(\n    82.3deg,\n    rgba(150, 93, 233, 1) 10.8%,\n    rgba(99, 88, 238, 1) 94.3%\n  );\n  transition: all 0.475s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

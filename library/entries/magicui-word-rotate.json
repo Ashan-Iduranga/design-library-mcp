@@ -1,0 +1,34 @@
+{
+  "id": "magicui-word-rotate",
+  "title": "Word Rotate (Magic UI)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/word-rotate",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "word",
+    "rotate",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A vertical rotation of words\n\nInstall into a project: npx shadcn@latest add @magicui/word-rotate\n\nnpm dependencies: motion\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/magicui/word-rotate.tsx",
+  "code": "\"use client\"\n\nimport { useEffect, useState } from \"react\"\nimport { AnimatePresence, motion, type MotionProps } from \"motion/react\"\n\nimport { cn } from \"@/lib/utils\"\n\ninterface WordRotateProps {\n  words: string[]\n  duration?: number\n  motionProps?: MotionProps\n  className?: string\n}\n\nexport function WordRotate({\n  words,\n  duration = 2500,\n  motionProps = {\n    initial: { opacity: 0, y: -50 },\n    animate: { opacity: 1, y: 0 },\n    exit: { opacity: 0, y: 50 },\n    transition: { duration: 0.25, ease: \"easeOut\" },\n  },\n  className,\n}: WordRotateProps) {\n  const [index, setIndex] = useState(0)\n\n  useEffect(() => {\n    const interval = setInterval(() => {\n      setIndex((prevIndex) => (prevIndex + 1) % words.length)\n    }, duration)\n\n    // Clean up interval on unmount\n    return () => clearInterval(interval)\n  }, [words, duration])\n\n  return (\n    <div className=\"overflow-hidden py-2\">\n      <AnimatePresence mode=\"wait\">\n        <motion.h1\n          key={words[index]}\n          className={cn(className)}\n          {...motionProps}\n        >\n          {words[index]}\n        </motion.h1>\n      </AnimatePresence>\n    </div>\n  )\n}\n",
+  "prompt": "npx shadcn@latest add @magicui/word-rotate",
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

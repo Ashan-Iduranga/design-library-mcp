@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-kitoc-curly-cheetah-59-20cb2d",
+  "title": "Button by KitoC (curly-cheetah-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KitoC/curly-cheetah-59",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KitoC on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/KitoC_curly-cheetah-59.html",
+  "code": "<button>\n  <div class=\"blackhole\">\n    <span class=\"rocket-path\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" class=\"rocket\"> <g> <path d=\"M0 0h24v24H0z\" fill=\"none\"></path> <path d=\"M8.498 20h7.004A6.523 6.523 0 0 1 12 23.502 6.523 6.523 0 0 1 8.498 20zM18 14.805l2 2.268V19H4v-1.927l2-2.268V9c0-3.483 2.504-6.447 6-7.545C15.496 2.553 18 5.517 18 9v5.805zM12 11a2 2 0 1 0 0-4 2 2 0 0 0 0 4z\"></path> </g> </svg>\n    </span>\n    <span class=\"ring\">\n      <span class=\"block\"></span>\n    </span>\n  </div>\n  <span class=\"text\">Don't get lost</span>\n</button>\n<style>\n/* From Uiverse.io by KitoC - Tags: button */\nbutton {\n  --black-hole-color-2: rgb(242, 122, 42);\n  --black-hole-color: rgb(230, 148, 93);\n  font-size: 17px;\n  position: relative;\n  background: #212121;\n  padding: 0.5em;\n  border: 2px solid var(--black-hole-color);\n  border-radius: 8px;\n}\n\nbutton:hover {\n  border: 2px solid var(--black-hole-color-2);\n  animation: alert 1s alternate infinite linear;\n}\n\n.blackhole {\n  padding: 3em;\n  background-color: black;\n  color: var(--black-hole-color);\n  position: absolute;\n  animation: wiggle 3s alternate-reverse infinite linear;\n  top: -1em;\n  left: -8em;\n}\n\n.blackhole, .blackhole::after, .blackhole::before, .blackhole .ring, .blackhole .ring::after {\n  content: \"\";\n  border: 2px solid var(--black-hole-color);\n  border-radius: 50%;\n  box-shadow: 0 0 3em,\n              0 0 1em;\n}\n\n.blackhole::after, .blackhole::before {\n  animation: writhe 3s alternate-reverse infinite linear;\n}\n\n.blackhole::before {\n  position: absolute;\n  width: calc(100% + 0.5em);\n  height: calc(100% + 0.5em);\n  top: -9px;\n  left: -7px;\n}\n\n.blackhole::after {\n  position: absolute;\n  width: calc(100% + 8px);\n  height: calc(100% + 8px);\n  top: -6px;\n  left: -5px;\n}\n\n.blackhole .ring, .blackhole .ring::after {\n  content: \"\";\n  position: absolute;\n  left: -50%;\n  width: 200%;\n  border-top: none;\n  height: 2em;\n  border-width: 5px;\n  box-shadow: 0px 5px 10px var(--black-hole-color);\n}\n\n.blackhole .ring, .blackhole .ring::after {\n  animation: ring-writhe 3s alternate-reverse infinite linear;\n}\n\n.blackhole .block {\n  position: absolute;\n  z-index: 90;\n  content: \"\";\n  background-color: black;\n  top: -20%;\n  left: 25%;\n  width: 50%;\n  height: 10px;\n}\n\n.blackhole .ring::after {\n  width: 110%;\n  left: -8%;\n}\n\n.blackhole .rocket {\n  fill: white;\n  height: 30px;\n  transform: rotate(-140deg);\n  animation: idle 1s alternate-reverse infinite linear;\n}\n\n.blackhole .rocket-path {\n  position: absolute;\n  top: -60px;\n  right: -60px;\n}\n\nbutton:hover .rocket-path, button:focus .rocket-path {\n  z-index: 100;\n  animation: engine-start 0.2s alternate-reverse infinite linear;\n}\n\nbutton:focus  .rocket-path {\n  animation: descend 1.2s linear forwards, \n             descend-dissapear 0.1s linear forwards;\n  animation-delay: 0s, 1s;\n}\n\nbutton .text {\n  display: flex;\n  color: white;\n}\n\n@keyframes idle {\n  from {\n    transform: rotate(-130deg);\n  }\n\n  to {\n    transform: rotate(-140deg);\n  }\n}\n\n@keyframes alert {\n  from {\n    box-shadow: 0 0 0 var(--black-hole-color);\n  }\n\n  to {\n    box-shadow: 0 0 8px var(--black-hole-color);\n  }\n}\n\n@keyframes engine-start {\n  from {\n    transform: scale(1);\n  }\n\n  to {\n    transform: scale(1.05);\n  }\n}\n\n@keyframes descend {\n  from {\n    top: -60px;\n    right: -60px;\n    transform: scale(1);\n  }\n\n  to {\n    top: -10px;\n    right: -10px;\n    transform: scale(0.8);\n  }\n}\n\n@keyframes descend-dissapear {\n  from {\n    top: -10px;\n    right: -10px;\n    transform: scale(1);\n  }\n\n  to {\n    top: 20px;\n    right: 20px;\n    transform: scale(0);\n  }\n}\n\n@keyframes writhe {\n  from {\n    box-shadow: -4px -3px 35px var(--black-hole-color-2),\n              -4px -3px 5px;\n    transform: translateX(-1px) scale(1);\n  }\n\n  to {\n    box-shadow: 4px 3px 35px,\n              4px 3px 5px var(--black-hole-color-2);\n    transform: translateX(1px) scale(0.95);\n  }\n}\n\n@keyframes wiggle {\n  from {\n    transform: translateX(-3px);\n  }\n\n  to {\n    transform: translateX(3px);\n  }\n}\n\n@keyframes ring-writhe {\n  from {\n    transform: translateX(-2px) scale(1);\n    box-shadow: -2px 5px 10px var(--black-hole-color);\n  }\n\n  to {\n    box-shadow: 2px 5px 10px var(--black-hole-color-2);\n    transform: translateX(2px) scale(0.95);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

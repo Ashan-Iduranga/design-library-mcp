@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-voxybuns-horrible-shrimp-47-512c50",
+  "title": "Toggle by Voxybuns (horrible-shrimp-47)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Voxybuns/horrible-shrimp-47",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "minimalist",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Voxybuns on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Voxybuns_horrible-shrimp-47.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by Voxybuns - Tags: minimalist, switch */\n/* The switch - the box around the slider */\n.switch {\n  /* Variables */\n --switch_width: 2em;\n --switch_height: 1em;\n --thumb_color: #e8e8e8;\n --track_color: #e8e8e8;\n --track_active_color: #888;\n --outline_color: #000;\n font-size: 17px;\n position: relative;\n display: inline-block;\n width: var(--switch_width);\n height: var(--switch_height);\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n opacity: 0;\n width: 0;\n height: 0;\n}\n\n/* The slider */\n.slider {\n box-sizing: border-box;\n border: 2px solid var(--outline_color);\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n background-color: var(--track_color);\n transition: .15s;\n border-radius: var(--switch_height);\n}\n\n.slider:before {\n box-sizing: border-box;\n position: absolute;\n content: \"\";\n height: var(--switch_height);\n width: var(--switch_height);\n border: 2px solid var(--outline_color);\n border-radius: 100%;\n left: -2px;\n bottom: -2px;\n background-color: var(--thumb_color);\n transform: translateY(-0.2em);\n box-shadow: 0 0.2em 0 var(--outline_color);\n transition: .15s;\n}\n\ninput:checked + .slider {\n background-color: var(--track_active_color);\n}\n\ninput:focus-visible + .slider {\n box-shadow: 0 0 0 2px var(--track_active_color);\n}\n\n/* Raise thumb when hovered */\ninput:hover + .slider:before {\n transform: translateY(-0.3em);\n box-shadow: 0 0.3em 0 var(--outline_color);\n}\n\ninput:checked + .slider:before {\n transform: translateX(calc(var(--switch_width) - var(--switch_height))) translateY(-0.2em);\n}\n\n/* Raise thumb when hovered & checked */\ninput:hover:checked + .slider:before {\n transform: translateX(calc(var(--switch_width) - var(--switch_height))) translateY(-0.3em);\n box-shadow: 0 0.3em 0 var(--outline_color);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

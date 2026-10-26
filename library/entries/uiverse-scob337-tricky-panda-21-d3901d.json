@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-scob337-tricky-panda-21-d3901d",
+  "title": "Card by scob337 (tricky-panda-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/scob337/tricky-panda-21",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By scob337 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/scob337_tricky-panda-21.html",
+  "code": "<div class=\"one-div\"></div>\n<style>\n/* From Uiverse.io by scob337 - Tags: card */\n.one-div {\n  width: 300px;\n  height: 300px;\n  margin: auto;\n  background-color: hsl(180, 5%, 17%);\n  border-radius: 50%;\n  position: relative;\n}\n\n.one-div::before {\n  content: \"\";\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: hsla(236, 93%, 43%, 0.897);\n  top: 190px;\n  left: 200px;\n  border-radius: 50%;\n  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);\n}\n\n.one-div::after {\n  content: \"\";\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: hsla(236, 93%, 43%, 0.897);\n  top: 100px;\n  left: 50px;\n  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

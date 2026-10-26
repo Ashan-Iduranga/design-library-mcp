@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-dropdown-menu-checkboxes",
+  "title": "Dropdown Menu Checkboxes (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/dropdown-menu-checkboxes.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "dropdown",
+    "menu",
+    "checkboxes",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Displays a menu to the user — such as a set of actions or functions — triggered by a button.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/dropdown-menu-checkboxes.tsx",
+  "code": "\"use client\"\n\nimport * as React from \"react\"\nimport type { DropdownMenu as DropdownMenuPrimitive } from \"radix-ui\"\n\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\nimport {\n  DropdownMenu,\n  DropdownMenuCheckboxItem,\n  DropdownMenuContent,\n  DropdownMenuLabel,\n  DropdownMenuSeparator,\n  DropdownMenuTrigger,\n} from \"@/registry/new-york-v4/ui/dropdown-menu\"\n\ntype Checked = React.ComponentProps<\n  typeof DropdownMenuPrimitive.CheckboxItem\n>[\"checked\"]\n\nexport default function DropdownMenuCheckboxes() {\n  const [showStatusBar, setShowStatusBar] = React.useState<Checked>(true)\n  const [showActivityBar, setShowActivityBar] = React.useState<Checked>(false)\n  const [showPanel, setShowPanel] = React.useState<Checked>(false)\n\n  return (\n    <DropdownMenu>\n      <DropdownMenuTrigger asChild>\n        <Button variant=\"outline\">Open</Button>\n      </DropdownMenuTrigger>\n      <DropdownMenuContent className=\"w-56\">\n        <DropdownMenuLabel>Appearance</DropdownMenuLabel>\n        <DropdownMenuSeparator />\n        <DropdownMenuCheckboxItem\n          checked={showStatusBar}\n          onCheckedChange={setShowStatusBar}\n        >\n          Status Bar\n        </DropdownMenuCheckboxItem>\n        <DropdownMenuCheckboxItem\n          checked={showActivityBar}\n          onCheckedChange={setShowActivityBar}\n          disabled\n        >\n          Activity Bar\n        </DropdownMenuCheckboxItem>\n        <DropdownMenuCheckboxItem\n          checked={showPanel}\n          onCheckedChange={setShowPanel}\n        >\n          Panel\n        </DropdownMenuCheckboxItem>\n      </DropdownMenuContent>\n    </DropdownMenu>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

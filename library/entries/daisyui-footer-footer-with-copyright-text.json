@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-footer-footer-with-copyright-text",
+  "title": "Footer: Footer with copyright text (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/footer/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "footer",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Footer can contain logo, copyright notice, and links to other pages.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/footer/+page.md",
+  "code": "<footer class=\"footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4\">\n  <aside>\n    <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>\n  </aside>\n</footer>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

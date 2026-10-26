@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-bodyhc-wonderful-panther-25-8bb7b1",
+  "title": "Loader by Bodyhc (wonderful-panther-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Bodyhc/wonderful-panther-25",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "circle-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Bodyhc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Bodyhc_wonderful-panther-25.html",
+  "code": "<div class=\"custom-loader\"></div>\n<style>\n/* From Uiverse.io by Bodyhc - Tags: loading, loader, circle loader */\n.custom-loader {\n  width: 50px;\n  height: 50px;\n  display: grid;\n  border-radius: 50%;\n  -webkit-mask: radial-gradient(farthest-side,#0000 40%,#000 41%);\n  background: linear-gradient(0deg ,#766DF480 50%,#766DF4FF 0) center/4px 100%,\n    linear-gradient(90deg,#766DF440 50%,#766DF4BF 0) center/100% 4px;\n  background-repeat: no-repeat;\n  animation: s3 1s infinite steps(12);\n}\n\n.custom-loader::before,\n.custom-loader::after {\n  content: \"\";\n  grid-area: 1/1;\n  border-radius: 50%;\n  background: inherit;\n  opacity: 0.915;\n  transform: rotate(30deg);\n}\n\n.custom-loader::after {\n  opacity: 0.83;\n  transform: rotate(60deg);\n}\n\n@keyframes s3 {\n  100% {\n    transform: rotate(1turn)\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

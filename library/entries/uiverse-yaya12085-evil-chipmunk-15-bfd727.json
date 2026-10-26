@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-yaya12085-evil-chipmunk-15-bfd727",
+  "title": "Input by Yaya12085 (evil-chipmunk-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/evil-chipmunk-15",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "email"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Yaya12085_evil-chipmunk-15.html",
+  "code": "<div class=\"input-container\">\n  <input required=\"\" placeholder=\"Email Address\" type=\"email\">\n  <button class=\"invite-btn\" type=\"button\">\n    Invite\n  </button>\n \n</div>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: email, input */\n.input-container {\n  position: relative;\n  display: flex;\n  height: 2.8rem;\n  width: 100%;\n  min-width: 200px;\n  max-width: 250px;\n  background-color: #fff;\n  border-radius: 8px;\n  box-shadow: 20px 20px 30px rgba(0, 0, 0, .05);\n}\n\n.input-container input {\n  height: 100%;\n  width: 100%;\n  border-radius: 8px;\n  border: 1px solid  rgb(176 190 197);\n  background-color: transparent;\n  padding: 0.625rem 70px 0.625rem 0.75rem;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  color: rgb(69 90 100);\n  outline: none;\n  transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.input-container input:focus {\n  border: 1px solid rgb(236 72 153 );\n}\n\n.invite-btn {\n  position: absolute;\n  width: 65px;\n  right: 4px;\n  top: 4px;\n  bottom: 4px;\n  z-index: 10;\n  border-radius: 4px;\n  background-color: rgb(236 72 153 );\n  color: #fff;\n  padding-top: .25rem;\n  padding-bottom: .25rem;\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n  text-align: center;\n  vertical-align: middle;\n  font-size: 12px;\n  font-weight: 600;\n  text-transform: uppercase;\n  border: none;\n  transition: .6s ease;\n}\n\n.invite-btn:hover {\n  right: 2px;\n  top: 2px;\n  bottom: 2px;\n  border-radius: 8px;\n}\n\n.input-container input:placeholder-shown ~ .invite-btn {\n  pointer-events: none;\n  background-color: gray;\n  opacity: 0.5;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-gallery-masonry-grid",
+  "title": "Gallery (Masonry): Masonry grid (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/gallery/#masonry-grid",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "gallery",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This example can be used to show the images inside a masonry grid layouts with four columns.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/gallery.md",
+  "code": "<div class=\"grid grid-cols-2 md:grid-cols-4 gap-4\">\n    <div class=\"grid gap-4\">\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg\" alt=\"\">\n        </div>\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg\" alt=\"\">\n        </div>\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg\" alt=\"\">\n        </div>\n    </div>\n    <div class=\"grid gap-4\">\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg\" alt=\"\">\n        </div>\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg\" alt=\"\">\n        </div>\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg\" alt=\"\">\n        </div>\n    </div>\n    <div class=\"grid gap-4\">\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg\" alt=\"\">\n        </div>\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg\" alt=\"\">\n        </div>\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg\" alt=\"\">\n        </div>\n    </div>\n    <div class=\"grid gap-4\">\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg\" alt=\"\">\n        </div>\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg\" alt=\"\">\n        </div>\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg\" alt=\"\">\n        </div>\n    </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

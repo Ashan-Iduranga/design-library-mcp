@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-vikas7754-yellow-stingray-17-19685d",
+  "title": "Input by vikas7754 (yellow-stingray-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vikas7754/yellow-stingray-17",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vikas7754 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/vikas7754_yellow-stingray-17.html",
+  "code": "<div class=\"circle-left\"></div>\n<div class=\"card\">\n  <div class=\"search-icon\">\n    <svg\n      stroke-width=\"24.9084\"\n      stroke=\"#ffffff\"\n      xml:space=\"preserve\"\n      viewBox=\"-48.84 -48.84 586.08 586.08\"\n      xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      id=\"Capa_1\"\n      version=\"1.1\"\n      width=\"20px\"\n      height=\"20px\"\n      fill=\"#d0d0d0\"\n    >\n      <g stroke-width=\"0\" id=\"SVGRepo_bgCarrier\"></g>\n      <g\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n        id=\"SVGRepo_tracerCarrier\"\n      ></g>\n      <g id=\"SVGRepo_iconCarrier\">\n        <g>\n          <g>\n            <path\n              d=\"M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z\"\n            ></path>\n          </g>\n        </g>\n      </g>\n    </svg>\n  </div>\n  <input\n    autocomplete=\"off\"\n    class=\"input\"\n    placeholder=\"Search...\"\n    name=\"text\"\n    type=\"text\"\n  />\n  <div class=\"filter-icon\">\n    <a href=\"https://freecodez.com\">\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        viewBox=\"-1.5 -1.5 28.00 28.00\"\n        fill=\"#d0d0d0\"\n        width=\"30px\"\n        height=\"30px\"\n      >\n        <g stroke-width=\"0\" id=\"SVGRepo_bgCarrier\"></g>\n        <g\n          stroke-linejoin=\"round\"\n          stroke-linecap=\"round\"\n          id=\"SVGRepo_tracerCarrier\"\n        ></g>\n        <g id=\"SVGRepo_iconCarrier\">\n          <path\n            stroke-linejoin=\"round\"\n            stroke-linecap=\"round\"\n            stroke-width=\"0.17500000000000002\"\n            stroke=\"#ffffff\"\n            d=\"M22 3.58002H2C1.99912 5.28492 2.43416 6.96173 3.26376 8.45117C4.09337 9.94062 5.29 11.1932 6.73999 12.09C7.44033 12.5379 8.01525 13.1565 8.41062 13.8877C8.80598 14.6189 9.00879 15.4388 9 16.27V21.54L15 20.54V16.25C14.9912 15.4188 15.194 14.599 15.5894 13.8677C15.9847 13.1365 16.5597 12.5178 17.26 12.07C18.7071 11.175 19.9019 9.92554 20.7314 8.43988C21.5608 6.95422 21.9975 5.28153 22 3.58002Z\"\n          ></path>\n        </g>\n      </svg>\n    </a>\n  </div>\n</div>\n<div class=\"circle-right\"></div>\n\n<style>\n/* From Uiverse.io by vikas7754  - Tags: input */\n.input {\n  width: 100%;\n  height: 100%;\n  border: 2px solid rgba(255, 255, 255, 0.15);\n  outline: none;\n  z-index: 1;\n  background: transparent;\n  padding: 10px;\n  padding-left: 35px;\n  padding-right: 40px;\n  font-size: 16px;\n  border-radius: 16px;\n  color: #fff;\n}\n\n.input:focus {\n  border: 1px solid rgb(242, 0, 255);\n  background: #191919;\n}\n\n.search-icon,\n.filter-icon {\n  position: absolute;\n  left: 10px;\n  top: 55%;\n  transform: translateY(-50%);\n  z-index: 2;\n}\n\n.filter-icon {\n  left: unset;\n  right: 10px;\n}\n\n.circle-left,\n.circle-right {\n  position: absolute;\n  left: 25%;\n  top: 40%;\n  background: linear-gradient(rgb(255, 0, 242), rgb(255, 0, 195));\n  width: 70px;\n  height: 70px;\n  border-radius: 50%;\n  filter: blur(50px);\n  z-index: -1;\n}\n\n.circle-right {\n  left: unset;\n  right: 26%;\n  top: 47%;\n  background: linear-gradient(blue, rgb(255, 0, 230));\n}\n\n.card {\n  position: relative;\n  height: 60px;\n  width: 100%;\n  max-width: 350px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  overflow: hidden;\n  border-radius: 16px;\n}\n\n.card::before {\n  content: \"\";\n  position: absolute;\n  width: 50px;\n  height: 600%;\n  background: linear-gradient(#ff00e6, #ffffff33, #295bff);\n  animation: animate 4s linear infinite;\n}\n\n.card::after {\n  content: \"\";\n  inset: 1.5px;\n  position: absolute;\n  background: #0000002b;\n  border-radius: 15px;\n  backdrop-filter: blur(30px);\n}\n\n@keyframes animate {\n  0% {\n    transform: rotate(0deg);\n  }\n  50% {\n    transform: rotate(180deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

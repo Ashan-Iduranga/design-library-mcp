@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-kenny10000-wonderful-ape-22-4ca9ae",
+  "title": "Button by Kenny10000 (wonderful-ape-22)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Kenny10000/wonderful-ape-22",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "#button",
+    "button-hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Kenny10000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Kenny10000_wonderful-ape-22.html",
+  "code": "<button class=\"btn-76\">\n  Button\n  <span class=\"top\"></span>\n  <span class=\"right\"></span>\n  <span class=\"bottom\"></span>\n  <span class=\"left\"></span>\n</button>\n\n<style>\n/* From Uiverse.io by Kenny10000  - Tags: button, #button, button hover effect  */\n.btn-76,\n.btn-76 *,\n.btn-76 :after,\n.btn-76 :before,\n.btn-76:after,\n.btn-76:before {\n  border: 0 solid;\n  box-sizing: border-box;\n}\n.btn-76 {\n  -webkit-tap-highlight-color: transparent;\n  -webkit-appearance: button;\n  background-color: #000;\n  background-image: none;\n  color: #fff;\n  cursor: pointer;\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,\n    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,\n    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;\n  font-size: 100%;\n  line-height: 1.5;\n  margin: 0;\n  padding: 0;\n}\n.btn-76:disabled {\n  cursor: default;\n}\n.btn-76:-moz-focusring {\n  outline: auto;\n}\n.btn-76 svg {\n  display: block;\n}\n.btn-76 [hidden] {\n  display: none;\n}\n.btn-76 {\n  --neon: #0ea5e9;\n  box-sizing: border-box;\n  display: block;\n  font-weight: 900;\n  outline: 4px solid #fff;\n  outline-offset: -4px;\n  overflow: hidden;\n  padding: 1.2rem 3rem;\n  position: relative;\n  text-transform: uppercase;\n  transition: 0.2s linear 0.1s;\n}\n.btn-76:hover {\n  background: var(--neon);\n  box-shadow: 0 0 5px var(--neon), 0 0 25px var(--neon), 0 0 50px var(--neon),\n    0 0 100px var(--neon);\n  color: #fff;\n  outline-color: transparent;\n  transition: 0.2s linear 0.6s;\n}\n.btn-76 span {\n  display: block;\n  inset: 0;\n  position: absolute;\n}\n.btn-76 .top {\n  border-top: 4px solid var(--neon);\n  opacity: 0;\n  transform: translateX(calc(-100% + var(--progress, 0%)));\n  transition: none;\n}\n.btn-76:hover .top {\n  --progress: 100%;\n  opacity: 1;\n  transition: transform 0.2s linear;\n}\n.btn-76 .right {\n  border-right: 4px solid var(--neon);\n  opacity: 0;\n  transform: translateY(calc(-100% + var(--progress, 0%)));\n  transition: none;\n}\n.btn-76:hover .right {\n  --progress: 100%;\n  opacity: 1;\n  transition: transform 0.2s linear 0.2s;\n}\n.btn-76 .bottom {\n  border-bottom: 4px solid var(--neon);\n  opacity: 0;\n  transform: translateX(calc(100% - var(--progress, 0%)));\n  transition: none;\n}\n.btn-76:hover .bottom {\n  --progress: 100%;\n  opacity: 1;\n  transition: transform 0.2s linear 0.4s;\n}\n.btn-76 .left {\n  border-left: 4px solid var(--neon);\n  opacity: 0;\n  transform: translateY(calc(100% - var(--progress, 0%)));\n  transition: none;\n}\n.btn-76:hover .left {\n  --progress: 100%;\n  opacity: 1;\n  transition: transform 0.2s linear 0.6s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

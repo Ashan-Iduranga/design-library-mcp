@@ -1,0 +1,36 @@
+{
+  "id": "shadcn-examples-date-picker-with-presets",
+  "title": "Date Picker With Presets (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/date-picker-with-presets.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "date",
+    "picker",
+    "with",
+    "presets",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "A date picker component with range and presets.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/date-picker-with-presets.tsx",
+  "code": "\"use client\"\n\nimport * as React from \"react\"\nimport { cn } from \"cn\"\nimport { addDays, format } from \"date-fns\"\nimport { CalendarIcon } from \"lucide-react\"\n\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\nimport { Calendar } from \"@/registry/new-york-v4/ui/calendar\"\nimport {\n  Popover,\n  PopoverContent,\n  PopoverTrigger,\n} from \"@/registry/new-york-v4/ui/popover\"\nimport {\n  Select,\n  SelectContent,\n  SelectItem,\n  SelectTrigger,\n  SelectValue,\n} from \"@/registry/new-york-v4/ui/select\"\n\nexport default function DatePickerWithPresets() {\n  const [date, setDate] = React.useState<Date>()\n\n  return (\n    <Popover>\n      <PopoverTrigger asChild>\n        <Button\n          variant={\"outline\"}\n          className={cn(\n            \"w-[240px] justify-start text-left font-normal\",\n            !date && \"text-muted-foreground\"\n          )}\n        >\n          <CalendarIcon />\n          {date ? format(date, \"PPP\") : <span>Pick a date</span>}\n        </Button>\n      </PopoverTrigger>\n      <PopoverContent\n        align=\"start\"\n        className=\"flex w-auto flex-col space-y-2 p-2\"\n      >\n        <Select\n          onValueChange={(value) =>\n            setDate(addDays(new Date(), parseInt(value)))\n          }\n        >\n          <SelectTrigger>\n            <SelectValue placeholder=\"Select\" />\n          </SelectTrigger>\n          <SelectContent position=\"popper\">\n            <SelectItem value=\"0\">Today</SelectItem>\n            <SelectItem value=\"1\">Tomorrow</SelectItem>\n            <SelectItem value=\"3\">In 3 days</SelectItem>\n            <SelectItem value=\"7\">In a week</SelectItem>\n          </SelectContent>\n        </Select>\n        <div className=\"rounded-md border\">\n          <Calendar mode=\"single\" selected={date} onSelect={setDate} />\n        </div>\n      </PopoverContent>\n    </Popover>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

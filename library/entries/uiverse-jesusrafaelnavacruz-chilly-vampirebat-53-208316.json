@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jesusrafaelnavacruz-chilly-vampirebat-53-208316",
+  "title": "Loader by JesusRafaelNavaCruz (chilly-vampirebat-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JesusRafaelNavaCruz/chilly-vampirebat-53",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JesusRafaelNavaCruz on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JesusRafaelNavaCruz_chilly-vampirebat-53.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by JesusRafaelNavaCruz - Source: Mr Frontend - https://instagram.com/mr__frontend?igshid=MzRlODBiNWFlZA== - Tags: loader, circle loader, loader circle */\n.loader {\n  width: 4rem;\n  height: 4rem;\n  border-radius: 50%;\n  box-sizing: border-box;\n  border-top: 8px solid #fff;\n  border-left: 8px solid #fff;\n  border-right: 8px solid #ff00;\n  animation: loader .7s infinite linear;\n}\n\n@keyframes loader {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

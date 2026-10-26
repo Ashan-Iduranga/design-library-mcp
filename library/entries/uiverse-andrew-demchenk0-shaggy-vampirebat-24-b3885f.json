@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-andrew-demchenk0-shaggy-vampirebat-24-b3885f",
+  "title": "Button by andrew-demchenk0 (shaggy-vampirebat-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/andrew-demchenk0/shaggy-vampirebat-24",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "add"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By andrew-demchenk0 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/andrew-demchenk0_shaggy-vampirebat-24.html",
+  "code": "<button class=\"button\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" viewBox=\"0 0 20 20\" height=\"20\" fill=\"none\" class=\"svg-icon\"><g stroke-width=\"1.5\" stroke-linecap=\"round\" stroke=\"#de8a2a\"><circle r=\"7.5\" cy=\"10\" cx=\"10\"></circle><path d=\"m9.99998 7.5v5\"></path><path d=\"m7.5 9.99998h5\"></path></g></svg>\n  <span class=\"lable\">Add</span>\n</button>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - Tags: button, hover, add */\n.button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 6px 12px;\n  gap: 4px;\n  height: 32px;\n  width: 81px;\n  border: none;\n  background: #1b1b1cd0;\n  border-radius: 20px;\n  cursor: pointer;\n}\n\n.lable {\n  line-height: 22px;\n  font-size: 17px;\n  color: #DE8A2A;\n  font-family: sans-serif;\n  letter-spacing: 1px;\n}\n\n.button:hover {\n  background: #1b1b1cea;\n}\n\n.button:hover .svg-icon {\n  animation: rotate 1.3s linear infinite;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  25% {\n    transform: rotate(10deg);\n  }\n\n  50% {\n    transform: rotate(0deg);\n  }\n\n  75% {\n    transform: rotate(-10deg);\n  }\n\n  100% {\n    transform: rotate(0deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

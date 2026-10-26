@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-black-husky-57-a753b2",
+  "title": "Radio by Pradeepsaranbishnoi (black-husky-57)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/black-husky-57",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/Pradeepsaranbishnoi_black-husky-57.html",
+  "code": "<form class=\"form\">\n    <label for=\"01\">One</label>\n    <input id=\"01\" type=\"radio\" name=\"r\" value=\"1\" checked=\"\">\n    <label for=\"02\">Two</label>\n    <input id=\"02\" type=\"radio\" name=\"r\" value=\"2\">\n    <label for=\"03\">Three</label>\n    <input id=\"03\" type=\"radio\" name=\"r\" value=\"3\">\n</form>\n\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: radio */\n.form {\n  --background: #ffffff;\n  --text: #414856;\n  --radio: #7C96B2;\n  --radio-checked: #4F29F0;\n  --radio-size: 20px;\n  --width: 150px;\n  --height: 140px;\n  --border-radius: 10px;\n  background: var(--background);\n  width: var(--width);\n  height: var(--height);\n  border-radius: var(--border-radius);\n  color: var(--text);\n  position: relative;\n  box-shadow: 0 10px 30px rgba(65, 72, 86, 0.05);\n  padding: 30px 20px;\n  display: grid;\n  grid-template-columns: auto var(--radio-size);\n  align-items: center;\n}\n\n.form label {\n  cursor: pointer;\n}\n\n.form input[type=\"radio\"] {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  position: relative;\n  height: var(--radio-size);\n  width: var(--radio-size);\n  outline: none;\n  margin: 0;\n  cursor: pointer;\n  border: 2px solid var(--radio);\n  background: transparent;\n  border-radius: 50%;\n  display: grid;\n  justify-self: end;\n  justify-items: center;\n  align-items: center;\n  overflow: hidden;\n  transition: border .5s ease;\n}\n\n.form input[type=\"radio\"]::before, .form input[type=\"radio\"]::after {\n  content: \"\";\n  display: flex;\n  justify-self: center;\n  border-radius: 50%;\n}\n\n.form input[type=\"radio\"]::before {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: var(--background);\n  z-index: 1;\n  opacity: var(--opacity, 1);\n}\n\n.form input[type=\"radio\"]::after {\n  position: relative;\n  width: calc(100% /2);\n  height: calc(100% /2);\n  background: var(--radio-checked);\n  top: var(--y, 100%);\n  transition: top 0.5s cubic-bezier(0.48, 1.97, 0.5, 0.63);\n}\n\n.form input[type=\"radio\"]:checked {\n  --radio: var(--radio-checked);\n}\n\n.form input[type=\"radio\"]:checked::after {\n  --y: 0%;\n  animation: stretch-animate .3s ease-out .17s;\n}\n\n.form input[type=\"radio\"]:checked::before {\n  --opacity: 0;\n}\n\n.form input[type=\"radio\"]:checked ~ input[type=\"radio\"]::after {\n  --y: -100%;\n}\n\n.form input[type=\"radio\"]:not(:checked)::before {\n  --opacity: 1;\n  transition: opacity 0s linear .5s;\n}\n\n@keyframes stretch-animate {\n  0% {\n    transform: scale(1, 1);\n  }\n\n  28% {\n    transform: scale(1.15, 0.85);\n  }\n\n  50% {\n    transform: scale(0.9, 1.1);\n  }\n\n  100% {\n    transform: scale(1, 1);\n  }\n}\n\n.socials {\n  position: fixed;\n  display: block;\n  left: 20px;\n  bottom: 20px;\n}\n\n.socials > a {\n  display: block;\n  width: 30px;\n  opacity: .2;\n  transform: scale(var(--scale, 0.8));\n  transition: transform 0.3s cubic-bezier(0.38, -0.12, 0.24, 1.91);\n}\n\n.socials > a:hover {\n  --scale: 1;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

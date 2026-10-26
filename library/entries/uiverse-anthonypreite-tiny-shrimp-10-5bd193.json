@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-anthonypreite-tiny-shrimp-10-5bd193",
+  "title": "Card by AnthonyPreite (tiny-shrimp-10)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/AnthonyPreite/tiny-shrimp-10",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By AnthonyPreite on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/AnthonyPreite_tiny-shrimp-10.html",
+  "code": "<div class=\"cards__inner\">\n  <div class=\"cards__card card\">\n    <p class=\"card__heading\">Free Plan</p>\n    <p class=\"card__price\">$0/month</p>\n    <ul class=\"card_bullets flow\" role=\"list\">\n      <li>Access to all features</li>\n      <li>Unlimited storage</li>\n      <li>No ads</li>\n    </ul>\n    <a class=\"card__cta cta\" href=\"#basic\">Get Started</a>\n  </div>\n  <div class=\"overlay cards__inner\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by AnthonyPreite - Source: Nothing4U - Tags: purple, gradient, card, Colored, blue&pink, Glowing, GlowingHoverCard, Pricing */\n.main__heading {\n  font-weight: 600;\n  font-size: 2.25em;\n  margin-bottom: 0.75em;\n  text-align: center;\n  color: #eceff1;\n}\n\n.cards {\n  position: relative;\n}\n\n.card {\n  --flow-space: 0.5em;\n  --hsl: var(--hue), var(--saturation), var(--lightness);\n  flex: 1 1 14rem;\n  padding: 1.5em 2em;\n  display: grid;\n  grid-template-rows: auto auto auto 1fr;\n  align-items: start;\n  gap: 1.25em;\n  color: #eceff1;\n  background-color: #2b2b2b;\n  border: 1px solid #eceff133;\n  border-radius: 15px;\n}\n\n.card:nth-child(1) {\n  --hue: 165;\n  --saturation: 82.26%;\n  --lightness: 51.37%;\n}\n\n.card__bullets {\n  line-height: 1.4;\n}\n\n.card__heading {\n  font-size: 1.05em;\n  font-weight: 600;\n}\n\n.card__price {\n  font-size: 1.75em;\n  font-weight: 700;\n}\n\n.flow > * + * {\n  margin-top: var(--flow-space, 1.25em);\n}\n\n.cta {\n  display: block;\n  align-self: end;\n  margin: 1em 0 0.5em 0;\n  text-align: center;\n  text-decoration: none;\n  color: #fff;\n  background-color: transparent;\n  outline: 1px solid white;\n  padding: 0.7em;\n  border-radius: 10px;\n  font-size: 1rem;\n  font-weight: 600;\n}\n\n.card:hover {\n  --lightness: 80%;\n  background: #ffffff80;\n  color: #000;\n  outline: 1px solid rgb(255, 255, 255);\n  box-shadow: inset 0 0 80px whitesmoke, inset 20px 0 80px rgba(255, 0, 255, 0.747),\n    inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff,\n    0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;\n  transition: all ease-in-out 0.3s;\n}\n\n.card:hover > .cta {\n  outline: none;\n  background-color: #0d0d0d;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

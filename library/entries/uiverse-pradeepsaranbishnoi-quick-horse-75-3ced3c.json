@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-pradeepsaranbishnoi-quick-horse-75-3ced3c",
+  "title": "Card by Pradeepsaranbishnoi (quick-horse-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Pradeepsaranbishnoi/quick-horse-75",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Pradeepsaranbishnoi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Pradeepsaranbishnoi_quick-horse-75.html",
+  "code": "<div class=\"card wallet\">\n    <div class=\"overlay\"></div>\n    <div class=\"circle\">\n\n\n        <svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" viewBox=\"23 29 78 60\" height=\"60px\" width=\"78px\">\n  \n            <defs></defs>\n            <g transform=\"translate(23.000000, 29.500000)\" fill-rule=\"evenodd\" fill=\"none\" stroke-width=\"1\" stroke=\"none\" id=\"icon\">\n                <rect rx=\"4.70247832\" height=\"21.8788565\" width=\"9.40495664\" y=\"26.0333433\" x=\"67.8357511\" fill=\"#AC8BE9\" id=\"Rectangle-3\"></rect>\n                <rect rx=\"4.70247832\" height=\"10.962961\" width=\"9.40495664\" y=\"38.776399\" x=\"67.8357511\" fill=\"#6A5297\" id=\"Rectangle-3\"></rect>\n                <polygon points=\"57.3086772 0 67.1649301 26.3776902 14.4413177 45.0699507 4.58506484 18.6922605\" fill=\"#6A5297\" id=\"Rectangle-2\">\n                </polygon>\n                <path fill=\"#8B6FC0\" id=\"Rectangle\" d=\"M0,19.6104296 C0,16.2921718 2.68622235,13.6021923 5.99495032,13.6021923 L67.6438591,13.6021923 C70.9547788,13.6021923 73.6388095,16.2865506 73.6388095,19.6104296 L73.6388095,52.6639057 C73.6388095,55.9821635 70.9525871,58.672143 67.6438591,58.672143 L5.99495032,58.672143 C2.68403068,58.672143 0,55.9877847 0,52.6639057 L0,19.6104296 Z\"></path>\n                <path fill=\"#F6F1FF\" id=\"Fill-12\" d=\"M47.5173769,27.0835169 C45.0052827,24.5377699 40.9347162,24.5377699 38.422622,27.0835169 L36.9065677,28.6198808 L35.3905134,27.0835169 C32.8799903,24.5377699 28.8078527,24.5377699 26.2957585,27.0835169 C23.7852354,29.6292639 23.7852354,33.7559532 26.2957585,36.3001081 L36.9065677,47.0530632 L47.5173769,36.3001081 C50.029471,33.7559532 50.029471,29.6292639 47.5173769,27.0835169\"></path>\n                <rect height=\"12.863158\" width=\"15.6082259\" y=\"26.1162588\" x=\"58.0305835\" fill=\"#AC8BE9\" id=\"Rectangle-4\"></rect>\n                <ellipse ry=\"2.23319575\" rx=\"2.20116007\" cy=\"33.0919007\" cx=\"65.8346965\" fill=\"#FFFFFF\" id=\"Oval\">\n                </ellipse>\n            </g>\n        </svg>\n\n    </div>\n    <p>Wallet</p>\n</div>\n\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: card */\n.wallet {\n  --bg-color: #ceb2fc;\n  --bg-color-light: #f0e7ff;\n  --text-color-hover: #fff;\n  --box-shadow-color: rgba(206, 178, 252, 0.48);\n}\n\n.card {\n  width: 220px;\n  height: 321px;\n  background: #fff;\n  border-top-right-radius: 10px;\n  overflow: hidden;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);\n  transition: all 0.3s ease-out;\n  text-decoration: none;\n}\n\n.card:hover {\n  transform: translateY(-5px) scale(1.005) translateZ(0);\n  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),\n    0 24px 46px var(--box-shadow-color);\n}\n\n.card:hover .overlay {\n  transform: scale(4) translateZ(0);\n}\n\n.card:hover .circle {\n  border-color: var(--bg-color-light);\n  background: var(--bg-color);\n}\n\n.card:hover .circle:after {\n  background: var(--bg-color-light);\n}\n\n.card:hover p {\n  color: var(--text-color-hover);\n}\n\n.card p {\n  font-size: 17px;\n  color: #4c5656;\n  margin-top: 30px;\n  z-index: 1000;\n  transition: color 0.3s ease-out;\n}\n\n.circle {\n  width: 131px;\n  height: 131px;\n  border-radius: 50%;\n  background: #fff;\n  border: 2px solid var(--bg-color);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  z-index: 1;\n  transition: all 0.3s ease-out;\n}\n\n.circle:after {\n  content: \"\";\n  width: 118px;\n  height: 118px;\n  display: block;\n  position: absolute;\n  background: var(--bg-color);\n  border-radius: 50%;\n  top: 7px;\n  left: 7px;\n  transition: opacity 0.3s ease-out;\n}\n\n.circle svg {\n  z-index: 10000;\n  transform: translateZ(0);\n}\n\n.overlay {\n  width: 118px;\n  position: absolute;\n  height: 118px;\n  border-radius: 50%;\n  background: var(--bg-color);\n  top: 70px;\n  left: 50px;\n  z-index: 0;\n  transition: transform 0.3s ease-out;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-madflows-fresh-fireant-15-ee39ac",
+  "title": "Toggle by Madflows (fresh-fireant-15)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Madflows/fresh-fireant-15",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Madflows on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Madflows_fresh-fireant-15.html",
+  "code": "<div class=\"toggle-switch\">\n  <label class=\"switch-label\">\n    <input type=\"checkbox\" class=\"checkbox\">\n    <span class=\"slider\"></span>\n  </label>\n</div>  \n<style>\n/* From Uiverse.io by Madflows - Tags: switch */\n.toggle-switch {\n  position: relative;\n  width: 100px;\n  height: 50px;\n  --light: #d8dbe0;\n  --dark: #28292c;\n  --link: rgb(27, 129, 112);\n  --link-hover: rgb(24, 94, 82);\n}\n\n.switch-label {\n  position: absolute;\n  width: 100%;\n  height: 50px;\n  background-color: var(--dark);\n  border-radius: 25px;\n  cursor: pointer;\n  border: 3px solid var(--dark);\n}\n\n.checkbox {\n  position: absolute;\n  display: none;\n}\n\n.slider {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 25px;\n  -webkit-transition: 0.3s;\n  transition: 0.3s;\n}\n\n.checkbox:checked ~ .slider {\n  background-color: var(--light);\n}\n\n.slider::before {\n  content: \"\";\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  width: 25px;\n  height: 25px;\n  border-radius: 50%;\n  -webkit-box-shadow: inset 12px -4px 0px 0px var(--light);\n  box-shadow: inset 12px -4px 0px 0px var(--light);\n  background-color: var(--dark);\n  -webkit-transition: 0.3s;\n  transition: 0.3s;\n}\n\n.checkbox:checked ~ .slider::before {\n  -webkit-transform: translateX(50px);\n  -ms-transform: translateX(50px);\n  transform: translateX(50px);\n  background-color: var(--dark);\n  -webkit-box-shadow: none;\n  box-shadow: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

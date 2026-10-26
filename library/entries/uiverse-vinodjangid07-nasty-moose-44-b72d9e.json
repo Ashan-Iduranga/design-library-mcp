@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-vinodjangid07-nasty-moose-44-b72d9e",
+  "title": "Button by vinodjangid07 (nasty-moose-44)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/nasty-moose-44",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "hover-effect",
+    "setting"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_nasty-moose-44.html",
+  "code": "<button class=\"setting-btn\">\n  <span class=\"bar bar1\"></span>\n  <span class=\"bar bar2\"></span>\n  <span class=\"bar bar1\"></span>\n</button>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: animation, button, hover effect, setting */\n.setting-btn {\n  width: 45px;\n  height: 45px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 6px;\n  background-color: rgb(129, 110, 216);\n  border-radius: 10px;\n  cursor: pointer;\n  border: none;\n  box-shadow: 0px 0px 0px 2px rgb(212, 209, 255);\n}\n.bar {\n  width: 50%;\n  height: 2px;\n  background-color: rgb(229, 229, 229);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  border-radius: 2px;\n}\n.bar::before {\n  content: \"\";\n  width: 2px;\n  height: 2px;\n  background-color: rgb(126, 117, 255);\n  position: absolute;\n  border-radius: 50%;\n  border: 2px solid white;\n  transition: all 0.3s;\n  box-shadow: 0px 0px 5px white;\n}\n.bar1::before {\n  transform: translateX(-4px);\n}\n.bar2::before {\n  transform: translateX(4px);\n}\n.setting-btn:hover .bar1::before {\n  transform: translateX(4px);\n}\n.setting-btn:hover .bar2::before {\n  transform: translateX(-4px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

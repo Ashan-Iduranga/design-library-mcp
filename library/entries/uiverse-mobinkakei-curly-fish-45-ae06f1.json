@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-mobinkakei-curly-fish-45-ae06f1",
+  "title": "Loader by mobinkakei (curly-fish-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mobinkakei/curly-fish-45",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading",
+    "creative"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mobinkakei on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/mobinkakei_curly-fish-45.html",
+  "code": "<span class=\"loader\"></span>\n\n<style>\n/* From Uiverse.io by mobinkakei  - Tags: loading, loader, creative */\n.loader {\n  width: 54px;\n  height: 54px;\n  position: relative;\n  border-radius: 4px;\n  background-color: #fff;\n  background-image: radial-gradient(circle 5px, #19191a 100%, transparent 0),\n    radial-gradient(circle 5px, #19191a 100%, transparent 0),\n    radial-gradient(circle 5px, #19191a 100%, transparent 0),\n    radial-gradient(circle 5px, #19191a 100%, transparent 0),\n    radial-gradient(circle 5px, #19191a 100%, transparent 0),\n    radial-gradient(circle 5px, #19191a 100%, transparent 0);\n  background-repeat: no-repeat;\n  animation: move 4s linear infinite, rotate 2s linear infinite;\n}\n\n@keyframes rotate {\n  0%,\n  20% {\n    transform: rotate(0deg);\n  }\n  30%,\n  40% {\n    transform: rotate(90deg);\n  }\n  50%,\n  60% {\n    transform: rotate(180deg);\n  }\n  70%,\n  80% {\n    transform: rotate(270deg);\n  }\n  90%,\n  100% {\n    transform: rotate(360deg);\n  }\n}\n@keyframes move {\n  0%,\n  9% {\n    background-position: -12px -15px, -12px 0px, -12px 15px, 12px -15px,\n      12px 0px, 12px 15px;\n  }\n  10%,\n  25% {\n    background-position: 0px -15px, -12px 0px, -12px 15px, 34px -15px, 12px 0px,\n      12px 15px;\n  }\n  30%,\n  45% {\n    background-position: 0px -34px, -12px -10px, -12px 12px, 34px -15px,\n      12px -10px, 12px 12px;\n  }\n  50%,\n  65% {\n    background-position: 0px -34px, -12px -34px, -12px 12px, 34px -12px,\n      0px -10px, 12px 12px;\n  }\n  70%,\n  85% {\n    background-position: 0px -34px, -12px -34px, 0px 12px, 34px -12px, 0px -10px,\n      34px 12px;\n  }\n  90%,\n  100% {\n    background-position: 0px -34px, -12px -34px, 0px 0px, 34px -12px, 0px 0px,\n      34px 12px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

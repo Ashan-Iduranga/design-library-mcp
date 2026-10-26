@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-jumbotron-gradient-background",
+  "title": "Jumbotron: Gradient background (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/jumbotron/#gradient-background",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "jumbotron",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this component to show a hero pattern with a linear gradient layout as an overlay for added effects.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/jumbotron.md",
+  "code": "<section class=\"bg-neutral-primary bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]\">\n    <div class=\"py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative\">\n        <div class=\"w-auto inline-flex items-center p-1 pe-2 mb-4 text-sm text-fg-brand-strong rounded-full bg-brand-softer border border-brand-subtle\" role=\"alert\">\n            <span class=\"bg-brand-soft text-fg-brand-strong py-0.5 px-2 rounded-full\">New</span>\n            <div class=\"ms-2 text-sm\">\n                Great job! You've acknowledged this <a href=\"#\" class=\"font-medium underline hover:no-underline\">significant</a> alert message.\n            </div>\n            <svg class=\"w-4 h-4 ms-1\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m9 5 7 7-7 7\"/></svg>\n        </div>\n        <h1 class=\"mb-6 text-4xl font-bold tracking-tighter text-heading md:text-5xl lg:text-6xl\">We invest in the world’s potential</h1>\n        <p class=\"mb-8 text-base font-normal text-body md:text-xl\">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>\n        <form class=\"max-w-md mx-auto\">   \n            <label for=\"search\" class=\"block mb-2.5 text-sm font-medium text-heading sr-only \">Search</label>\n            <div class=\"relative\">\n                <div class=\"absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none\">\n                    <svg class=\"w-4 h-4 text-body\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-width=\"2\" d=\"m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z\"/></svg>\n                </div>\n                <input type=\"search\" id=\"search\" class=\"block w-full p-3 ps-9 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body\" placeholder=\"Search\" required />\n                <button type=\"button\" class=\"absolute end-1.5 bottom-1.5 text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded text-xs px-3 py-1.5 focus:outline-none\">Search</button>\n            </div>\n        </form>\n    </div>\n    <div class=\"bg-gradient-to-b from-blue-50 to-transparent dark:from-blue-900 w-full h-full absolute top-0 left-0 z-0\"></div>\n</section>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

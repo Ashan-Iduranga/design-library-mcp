@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-skeleton-card-placeholder",
+  "title": "Skeleton: Card placeholder (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/skeleton/#card-placeholder",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "skeleton",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show a placeholder when loading content inside a card.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/skeleton.md",
+  "code": "<div role=\"status\" class=\"max-w-sm p-4 border border-default rounded-base shadow-xs animate-pulse md:p-6\">\n    <div role=\"status\" class=\"flex items-center justify-center h-48 max-w-sm bg-neutral-quaternary rounded-base animate-pulse mb-4 sm:mb-6\">\n        <svg class=\"w-11 h-11 text-fg-disabled\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 3v4a1 1 0 0 1-1 1H5m14-4v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1ZM9 12h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1Zm5.697 2.395v-.733l1.269-1.219v2.984l-1.268-1.032Z\"/></svg>\n        <span class=\"sr-only\">Loading...</span>\n    </div>\n    <div class=\"h-2.5 bg-neutral-quaternary rounded-full w-48 mb-4\"></div>\n    <div class=\"h-2 bg-neutral-quaternary rounded-full mb-2.5\"></div>\n    <div class=\"h-2 bg-neutral-quaternary rounded-full mb-2.5\"></div>\n    <div class=\"h-2 bg-neutral-quaternary rounded-full\"></div>\n    <div class=\"flex items-center mt-4\">\n        <svg class=\"w-8 h-8 text-fg-disabled me-3\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0a8.949 8.949 0 0 0 4.951-1.488A3.987 3.987 0 0 0 13 16h-2a3.987 3.987 0 0 0-3.951 3.512A8.948 8.948 0 0 0 12 21Zm3-11a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z\"/></svg>\n        <div>\n            <div class=\"h-2.5 bg-neutral-quaternary rounded-full w-32 mb-2\"></div>\n            <div class=\"w-48 h-2 bg-neutral-quaternary rounded-full\"></div>\n        </div>\n    </div>\n    <span class=\"sr-only\">Loading...</span>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-gallery-quad-gallery",
+  "title": "Gallery (Masonry): Quad gallery (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/gallery/#quad-gallery",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "gallery",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this example to show four larger images with two items on a row.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/gallery.md",
+  "code": "<div class=\"grid grid-cols-2 gap-2\">\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg\" alt=\"\">\n        </div>\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg\" alt=\"\">\n        </div>\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg\" alt=\"\">\n        </div>\n        <div>\n            <img class=\"h-auto max-w-full rounded-base\" src=\"https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg\" alt=\"\">\n        </div>\n    </div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

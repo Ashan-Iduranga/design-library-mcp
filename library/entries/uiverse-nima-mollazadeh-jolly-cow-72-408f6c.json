@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-nima-mollazadeh-jolly-cow-72-408f6c",
+  "title": "Button by nima-mollazadeh (jolly-cow-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/nima-mollazadeh/jolly-cow-72",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "text",
+    "yellow",
+    "purple",
+    "centered",
+    "rectangular",
+    "contrast"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By nima-mollazadeh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/nima-mollazadeh_jolly-cow-72.html",
+  "code": "<div class=\"back\">\n  <div class=\"button_base b_3d\">\n    <div>button</div>\n    <div>button</div>\n    <div>button</div>\n    <div>button</div>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by nima-mollazadeh  - Tags: button, button, text, yellow, purple, centered, rectangular, contrast, split, bicolor */\n.button_base {\n  margin: 0;\n  border: 0;\n  font-size: 18px;\n  position: relative;\n  top: 50%;\n  left: 50%;\n  margin-top: -25px;\n  margin-left: -100px;\n  width: 200px;\n  height: 50px;\n  text-align: center;\n  box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  cursor: default;\n}\n\n.button_base:hover {\n  cursor: pointer;\n}\n\n.b_3d {\n  perspective: 500px;\n  -webkit-perspective: 500px;\n  -moz-perspective: 500px;\n  transform-style: preserve-3d;\n  -webkit-transform-style: preserve-3d;\n}\n\n.b_3d div {\n  position: absolute;\n  text-align: center;\n  padding: 10px;\n  border: #000000 solid 1px;\n  pointer-events: none;\n  box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n}\n\n.b_3d div:nth-child(1) {\n  color: #ffffff;\n  background-color: #7c00fe;\n  z-index: 0;\n  width: 100%;\n  height: 50px;\n  clip: rect(0px, 100px, 50px, 0px);\n  position: absolute;\n  transition: all 0.2s ease;\n  -webkit-transition: all 0.2s ease;\n  -moz-transition: all 0.2s ease;\n  transform: rotateX(0deg);\n  -webkit-transform: rotateX(0deg);\n  -moz-transform: rotateX(0deg);\n  transform-origin: 50% 50% -25px;\n  -webkit-transform-origin: 50% 50% -25px;\n  -moz-transform-origin: 50% 50% -25px;\n}\n\n.b_3d div:nth-child(2) {\n  color: #000000;\n  background-color: #f9e400;\n  z-index: -1;\n  width: 100%;\n  height: 50px;\n  clip: rect(0px, 100px, 50px, 0px);\n  position: absolute;\n  transform: rotateX(90deg);\n  -webkit-transform: rotateX(90deg);\n  -moz-transform: rotateX(90deg);\n  transition: all 0.2s ease;\n  -webkit-transition: all 0.2s ease;\n  -moz-transition: all 0.2s ease;\n  transform-origin: 50% 50% -25px;\n  -webkit-transform-origin: 50% 50% -25px;\n  -moz-transform-origin: 50% 50% -25px;\n}\n\n.b_3d div:nth-child(3) {\n  color: #000000;\n  background-color: #f9e400;\n  z-index: 0;\n  width: 100%;\n  height: 50px;\n  clip: rect(0px, 200px, 50px, 100px);\n  position: absolute;\n  transition: all 0.2s ease 0.1s;\n  -webkit-transition: all 0.2s ease 0.1s;\n  -moz-transition: all 0.2s ease 0.1s;\n  transform: rotateX(0deg);\n  -webkit-transform: rotateX(0deg);\n  -moz-transform: rotateX(0deg);\n  transform-origin: 50% 50% -25px;\n  -webkit-transform-origin: 50% 50% -25px;\n  -moz-transform-origin: 50% 50% -25px;\n}\n\n.b_3d div:nth-child(4) {\n  color: #ffffff;\n  background-color: #7c00fe;\n  z-index: -1;\n  width: 100%;\n  height: 50px;\n  clip: rect(0px, 200px, 50px, 100px);\n  position: absolute;\n  transform: rotateX(-90deg);\n  -webkit-transform: rotateX(-90deg);\n  -moz-transform: rotateX(-90deg);\n  transition: all 0.2s ease 0.1s;\n  -webkit-transition: all 0.2s ease 0.1s;\n  -moz-transition: all 0.2s ease 0.1s;\n  transform-origin: 50% 50% -25px;\n  -webkit-transform-origin: 50% 50% -25px;\n  -moz-transform-origin: 50% 50% -25px;\n}\n\n.b_3d:hover div:nth-child(1) {\n  background-color: #7c00fe;\n  transition: all 0.2s ease;\n  -webkit-transition: all 0.2s ease;\n  -moz-transition: all 0.2s ease;\n  transform: rotateX(-90deg);\n  -webkit-transform: rotateX(-90deg);\n  -moz-transform: rotateX(-90deg);\n}\n\n.b_3d:hover div:nth-child(2) {\n  color: #000000;\n  transition: all 0.2s ease;\n  -webkit-transition: all 0.2s ease;\n  -moz-transition: all 0.2s ease;\n  transform: rotateX(0deg);\n  -webkit-transform: rotateX(0deg);\n  -moz-transform: rotateX(0deg);\n}\n\n.b_3d:hover div:nth-child(3) {\n  background-color: #f9e400;\n  transition: all 0.2s ease 0.1s;\n  -webkit-transition: all 0.2s ease 0.1s;\n  -moz-transition: all 0.2s ease 0.1s;\n  transform: rotateX(90deg);\n  -webkit-transform: rotateX(90deg);\n  -moz-transform: rotateX(90deg);\n}\n\n.b_3d:hover div:nth-child(4) {\n  color: #ffffff;\n  transition: all 0.2s ease 0.1s;\n  -webkit-transition: all 0.2s ease 0.1s;\n  -moz-transition: all 0.2s ease 0.1s;\n  transform: rotateX(0deg);\n  -webkit-transform: rotateX(0deg);\n  -moz-transform: rotateX(0deg);\n}\n\n.back {\n  height: 200px;\n  float: left;\n  box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  counter-increment: bc;\n  padding: 0px 5px 5px 5px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

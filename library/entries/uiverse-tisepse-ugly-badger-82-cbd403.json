@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-tisepse-ugly-badger-82-cbd403",
+  "title": "Button by TISEPSE (ugly-badger-82)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TISEPSE/ugly-badger-82",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "material-design",
+    "css-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TISEPSE on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/TISEPSE_ugly-badger-82.html",
+  "code": "<button>\n  <a href=\"#\" class=\"btn2\"><span class=\"spn2\">HELLO !</span></a>\n</button>\n<style>\n/* From Uiverse.io by TISEPSE - Tags: material design, button, css effect */\n.btn2 {\n  position: relative;\n  display: inline-block;\n  padding: 15px 30px;\n  border: 2px solid #fefefe;\n  text-transform: uppercase;\n  color: #fefefe;\n  text-decoration: none;\n  font-weight: 600;\n  font-size: 20px;\n  transition: 0.3s;\n}\n\n.btn2::before {\n  content: '';\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  width: calc(100% + 4px);\n  height: calc(100% - -2px);\n  background-color: #212121;\n  transition: 0.3s ease-out;\n  transform: scaleY(1);\n}\n\n.btn2::after {\n  content: '';\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  width: calc(100% + 4px);\n  height: calc(100% - 50px);\n  background-color: #212121;\n  transition: 0.3s ease-out;\n  transform: scaleY(1);\n}\n\n.btn2:hover::before {\n  transform: translateY(-25px);\n  height: 0;\n}\n\n.btn2:hover::after {\n  transform: scaleX(0);\n  transition-delay: 0.15s;\n}\n\n.btn2:hover {\n  border: 2px solid #fefefe;\n}\n\n.btn2 span {\n  position: relative;\n  z-index: 3;\n}\n\nbutton {\n  text-decoration: none;\n  border: none;\n  background-color: transparent;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

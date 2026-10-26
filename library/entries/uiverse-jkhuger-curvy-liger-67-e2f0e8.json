@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-jkhuger-curvy-liger-67-e2f0e8",
+  "title": "Toggle by JkHuger (curvy-liger-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/curvy-liger-67",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/JkHuger_curvy-liger-67.html",
+  "code": "<div class=\"container\">  \n  <input class=\"label-check\" id=\"label-check\" type=\"checkbox\">\n    <label for=\"label-check\" class=\"hamburger-label\">\n      <div class=\"line1\"></div>\n      <div class=\"line2\"></div>\n      <div class=\"line3\"></div>\n    <label></label></label></div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: switch */\n.label-check {\n  display: none;\n}\n\n.hamburger-label {\n  width: 70px;\n  height: 58px;\n  display: block;\n  cursor: pointer;\n}\n\n.hamburger-label div {\n  width: 70px;\n  height: 6px;\n  background-color: #fff;\n  position: absolute;\n}\n\n.line1 {\n  transition: all .3s;\n}\n\n.line2 {\n  margin: 18px 0 0 0;\n  transition: 0.3s;\n}\n\n.line3 {\n  margin: 36px 0 0 0;\n  transition: 0.3s;\n}\n\n#label-check:checked + .hamburger-label .line1 {\n  transform: rotate(35deg) scaleX(.55) translate(39px, -4.5px);\n  border-radius: 50px 50px 50px 0;\n}\n\n#label-check:checked + .hamburger-label .line3 {\n  transform: rotate(-35deg) scaleX(.55) translate(39px, 4.5px);\n  border-radius: 0 50px 50px 50px;\n}\n\n#label-check:checked + .hamburger-label .line2 {\n  border-top-right-radius: 50px;\n  border-bottom-right-radius: 50px;\n  width: 45px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

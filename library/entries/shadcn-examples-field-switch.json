@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-field-switch",
+  "title": "Field Switch (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/field-switch.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "field",
+    "switch",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Combine labels, controls, and help text to compose accessible form fields and grouped inputs.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/field-switch.tsx",
+  "code": "import {\n  Field,\n  FieldContent,\n  FieldDescription,\n  FieldLabel,\n} from \"@/registry/new-york-v4/ui/field\"\nimport { Switch } from \"@/registry/new-york-v4/ui/switch\"\n\nexport default function FieldSwitch() {\n  return (\n    <div className=\"w-full max-w-md\">\n      <Field orientation=\"horizontal\">\n        <FieldContent>\n          <FieldLabel htmlFor=\"2fa\">Multi-factor authentication</FieldLabel>\n          <FieldDescription>\n            Enable multi-factor authentication. If you do not have a two-factor\n            device, you can use a one-time code sent to your email.\n          </FieldDescription>\n        </FieldContent>\n        <Switch id=\"2fa\" />\n      </Field>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

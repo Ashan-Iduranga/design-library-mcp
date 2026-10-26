@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-charly-t-wise-bobcat-72-d709c0",
+  "title": "Toggle by Charly-T (wise-bobcat-72)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Charly-T/wise-bobcat-72",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Charly-T on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Charly-T_wise-bobcat-72.html",
+  "code": "<div class=\"switch\">\n    <input type=\"checkbox\">\n    <div class=\"left\"></div>\n    <div class=\"right\"></div>\n    <div class=\"switcher\"></div>\n</div>\n<style>\n/* From Uiverse.io by Charly-T - Tags: switch */\n.switch {\n  --switch-width: 3.5em;\n  --switch-height: calc(var(--switch-width) / 2);\n  --left-ball-color: black;\n  --right-ball-color: white;\n  width: var(--switch-width);\n  height: var(--switch-height);\n  border-radius: calc(var(--switch-height) / 2);\n  background-color: var(--left-ball-color);\n  position: relative;\n  overflow: hidden;\n}\n\n.switch input[type=\"checkbox\"] {\n  width: 100%;\n  position: absolute;\n  height: 100%;\n  margin: 0;\n  opacity: 0;\n}\n\n.switch .left {\n  position: absolute;\n  width: calc(var(--switch-width) / 3);\n  height: calc(var(--switch-height) / 1.5);\n  background-color: var(--left-ball-color);\n  border-radius: 50%;\n  left: calc((var(--switch-height) - (var(--switch-height) / 1.5)) / 2);\n  top: calc((var(--switch-height) - (var(--switch-height) / 1.5)) / 2);\n  z-index: 2;\n  pointer-events: none;\n}\n\n.switch .right {\n  position: absolute;\n  width: calc(var(--switch-width) / 3);\n  height: calc(var(--switch-height) / 1.5);\n  background-color: var(--right-ball-color);\n  border-radius: 50%;\n  right: calc((var(--switch-height) - (var(--switch-height) / 1.5)) / 2);\n  top: calc((var(--switch-height) - (var(--switch-height) / 1.5)) / 2);\n  z-index: 2;\n  pointer-events: none;\n}\n\n.switch .switcher {\n  position: absolute;\n  width: calc(100% + var(--switch-width) / 3);\n  height: 100%;\n  background-color: var(--right-ball-color);\n  z-index: 1;\n  left: calc(-50% + var(--switch-width) / (3 * 2));\n  pointer-events: none;\n  transition: left 500ms ease;\n  border-top-left-radius: calc(var(--switch-width) / 3);\n  border-bottom-left-radius: calc(var(--switch-width) / 3);\n}\n\n.switch .switcher:before {\n  position: absolute;\n  content: '';\n  width: calc(var(--switch-width) / 3);\n  height: 100%;\n  background-color: var(--left-ball-color);\n  display: block;\n  border-bottom-right-radius: 50%;\n  border-top-right-radius: 50%;\n  z-index: 2;\n}\n\n.switch .switcher:after {\n  position: absolute;\n  content: '';\n  width: calc(var(--switch-width) / 3);\n  height: 100%;\n  background-color: var(--right-ball-color);\n  display: block;\n  border-bottom-left-radius: 50%;\n  border-top-left-radius: 50%;\n}\n\n.switch input:checked ~ .switcher {\n  left: 100%;\n}\n\n.switch input:checked ~ .switcher:before {\n  display: none;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

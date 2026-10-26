@@ -1,0 +1,37 @@
+{
+  "id": "magicui-noise-texture-demo-4",
+  "title": "Noise Texture Demo (input) (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/noise-texture",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "noise",
+    "texture",
+    "demo",
+    "4",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a labeled input field with NoiseTexture filling the input container.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/noise-texture-demo-4.tsx",
+  "code": "import { Input } from \"@/components/ui/input\"\nimport { Label } from \"@/components/ui/label\"\nimport { NoiseTexture } from \"@/registry/magicui/noise-texture\"\n\nexport default function NoiseTextureDemo4() {\n  return (\n    <div className=\"mx-auto flex max-w-sm flex-col gap-3 p-4\">\n      <Label className=\"text-muted-foreground\" htmlFor=\"noise-input-demo\">\n        Search with texture\n      </Label>\n      <div className=\"bg-muted/30 relative overflow-hidden rounded-lg border\">\n        <NoiseTexture noiseOpacity={0.45} />\n        <Input\n          className=\"relative z-10 border-0 bg-transparent shadow-none focus-visible:ring-2\"\n          id=\"noise-input-demo\"\n          placeholder=\"Try typing…\"\n          type=\"search\"\n        />\n      </div>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

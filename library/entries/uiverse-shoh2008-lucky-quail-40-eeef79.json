@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-lucky-quail-40-eeef79",
+  "title": "Loader by Shoh2008 (lucky-quail-40)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/lucky-quail-40",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Shoh2008_lucky-quail-40.html",
+  "code": "<span class=\"loader\"></span>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  border: 2px solid #FFF;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  box-sizing: border-box;\n  animation: rotation_35 1s linear infinite;\n}\n\n.loader::after,\n.loader::before {\n  content: '';\n  box-sizing: border-box;\n  position: absolute;\n  left: 0;\n  top: 0;\n  background: greenyellow;\n  width: 6px;\n  height: 6px;\n  transform: translate(150%, 150%);\n  border-radius: 50%;\n}\n\n.loader::before {\n  left: auto;\n  top: auto;\n  right: 0;\n  bottom: 0;\n  transform: translate(-150%, -150%);\n}\n\n@keyframes rotation_35 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n} \n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

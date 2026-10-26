@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-alexmaracinaru-tall-owl-30-e39bc4",
+  "title": "Form by alexmaracinaru (tall-owl-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexmaracinaru/tall-owl-30",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "login"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexmaracinaru on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/alexmaracinaru_tall-owl-30.html",
+  "code": "<form class=\"form card\">\n  <div class=\"card_header\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\">\n      <path fill=\"none\" d=\"M0 0h24v24H0z\"></path>\n      <path fill=\"currentColor\" d=\"M4 15h2v5h12V4H6v5H4V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6zm6-4V8l5 4-5 4v-3H2v-2h8z\"></path>\n    </svg>\n    <h1 class=\"form_heading\">Sign in</h1>\n  </div>\n  <div class=\"field\">\n    <label for=\"username\">Username</label>\n    <input class=\"input\" name=\"username\" type=\"text\" placeholder=\"Username\" id=\"username\">\n  </div>\n  <div class=\"field\">\n    <label for=\"password\">Password</label>\n    <input class=\"input\" name=\"user_password\" type=\"password\" placeholder=\"Password\" id=\"password\">\n  </div>\n  <div class=\"field\">\n    <button class=\"button\">Login</button>\n  </div>\n</form>\n<style>\n/* From Uiverse.io by alexmaracinaru - Tags: login, form */\n.card {\n  width: 190px;\n  height: 254px;\n  background: #F4F6FB;\n  border: 1px solid white;\n  box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);\n  -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);\n  -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);\n}\n\n.form {\n  padding: 25px;\n}\n\n.card_header {\n  display: flex;\n  align-items: center;\n}\n\n.card svg {\n  color: #7878bd;\n  margin-bottom: 20px;\n  margin-right: 5px;\n}\n\n.form_heading {\n  padding-bottom: 20px;\n  font-size: 21px;\n  color: #7878bd;\n}\n\n.field {\n  padding-bottom: 10px;\n}\n\n.input {\n  border-radius: 5px;\n  background-color: #e9e9f7;\n  padding: 5px;\n  width: 100%;\n  color: #7a7ab3;\n  border: 1px solid #dadaf7\n}\n\n.input:focus-visible {\n  outline: 1px solid #aeaed6;\n}\n\n.input::placeholder {\n  color: #bcbcdf;\n}\n\nlabel {\n  color: #B2BAC8;\n  font-size: 14px;\n  display: block;\n  padding-bottom: 4px;\n}\n\nbutton {\n  background-color: #7878bd;\n  margin-top: 10px;\n  font-size: 14px;\n  padding: 7px 12px;\n  height: auto;\n  font-weight: 500;\n  color: white;\n  border: none;\n}\n\nbutton:hover {\n  background-color: #5f5f9c;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-timeline-timeline-without-icons",
+  "title": "Timeline: Timeline without icons (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/timeline/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "timeline",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Timeline component shows a list of events in chronological order.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/timeline/+page.md",
+  "code": "<ul class=\"timeline\">\n  <li>\n    <div class=\"timeline-start timeline-box\">First Macintosh computer</div>\n    <hr />\n  </li>\n  <li>\n    <hr />\n    <div class=\"timeline-end timeline-box\">iMac</div>\n    <hr />\n  </li>\n  <li>\n    <hr />\n    <div class=\"timeline-start timeline-box\">iPod</div>\n    <hr />\n  </li>\n  <li>\n    <hr />\n    <div class=\"timeline-end timeline-box\">iPhone</div>\n    <hr />\n  </li>\n  <li>\n    <hr />\n    <div class=\"timeline-start timeline-box\">Apple Watch</div>\n  </li>\n</ul>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

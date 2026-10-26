@@ -1,0 +1,35 @@
+{
+  "id": "magicui-marquee-logos",
+  "title": "Marquee Logos (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/marquee-logos",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "marquee",
+    "logos",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing an infinite scrolling logo carousel.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/marquee-logos.tsx",
+  "code": "import { cn } from \"@/lib/utils\"\nimport { Marquee } from \"@/registry/magicui/marquee\"\n\nconst logos = [\n  {\n    name: \"Microsoft\",\n    img: \"https://cdn.simpleicons.org/microsoft/000/fff\",\n  },\n  {\n    name: \"Apple\",\n    img: \"https://cdn.simpleicons.org/apple/000/fff\",\n  },\n  {\n    name: \"Google\",\n    img: \"https://cdn.simpleicons.org/google/000/fff\",\n  },\n  {\n    name: \"Facebook\",\n    img: \"https://cdn.simpleicons.org/facebook/000/fff\",\n  },\n  {\n    name: \"LinkedIn\",\n    img: \"https://cdn.simpleicons.org/linkedin/000/fff\",\n  },\n  {\n    name: \"Twitter\",\n    img: \"https://cdn.simpleicons.org/twitter/000/fff\",\n  },\n]\n\nconst Logo = ({ name, img }: { name: string; img: string }) => {\n  return (\n    <div className={cn(\"size-12 cursor-pointer\")}>\n      <img src={img} alt={name} />\n    </div>\n  )\n}\n\nexport default function MarqueeLogos() {\n  return (\n    <div className=\"bg-background relative flex size-full flex-col items-center justify-center gap-4 overflow-hidden rounded-lg border py-20 md:shadow-xl\">\n      <Marquee className=\"[--gap:3rem]\">\n        {logos.map((logo, idx) => (\n          <Logo key={idx} {...logo} />\n        ))}\n      </Marquee>\n      <div className=\"dark:from-background pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white\"></div>\n      <div className=\"dark:from-background pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white\"></div>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

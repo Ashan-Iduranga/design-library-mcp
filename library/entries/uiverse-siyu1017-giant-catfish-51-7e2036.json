@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-siyu1017-giant-catfish-51-7e2036",
+  "title": "Tooltip by Siyu1017 (giant-catfish-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Siyu1017/giant-catfish-51",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "tooltip",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Siyu1017 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Tooltips/Siyu1017_giant-catfish-51.html",
+  "code": "<div class=\"tooltip-container\">\n  <span class=\"tooltip\">Uiverse.io</span>\n  <span class=\"text\">Tooltip</span>\n</div>\n\n<style>\n/* From Uiverse.io by Siyu1017  - Tags: tooltip */\n.tooltip-container {\n  position: relative;\n  transition: all 0.2s;\n  font-size: 17px;\n  padding: 1rem 0;\n  width: fit-content;\n  box-sizing: border-box;\n  --bg: linear-gradient(135deg, #a940fd, #5b46e8);\n  --color: #fff;\n  --tooltip-bg: #303030;\n  --tooltip-color: #fff;\n  --margin: 0.5rem;\n}\n\n.text {\n  z-index: 9;\n  background: var(--bg);\n  color: var(--color);\n  padding: 0.7em 1.8em;\n  border-radius: 0.75rem;\n  height: fit-content;\n  cursor: pointer;\n  font-weight: 600;\n  box-shadow: 0 4px 16px 4px rgba(0, 0, 0, 0.15);\n}\n\n.tooltip {\n  position: absolute;\n  top: calc(-1 * var(--margin));\n  left: 50%;\n  transform: translateX(-50%) translateY(0%) scale(0);\n  padding: 0.3em 0.6em;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.2s;\n  background: var(--tooltip-bg);\n  color: var(--tooltip-color);\n  border-radius: 0.5rem;\n  z-index: 99999;\n}\n\n.tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 0.6em;\n  width: 0.6em;\n  bottom: -0.2em;\n  left: 50%;\n  transform: translate(-50%) rotate(45deg);\n  background: var(--tooltip-bg);\n  border-bottom-right-radius: 0.175rem;\n}\n\n.tooltip-container:hover .tooltip {\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n  transform: translateX(-50%) translateY(-100%) scale(1);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

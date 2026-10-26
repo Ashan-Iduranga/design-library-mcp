@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-lucaasbre-quiet-bat-17-c9588d",
+  "title": "Button by Lucaasbre (quiet-bat-17)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Lucaasbre/quiet-bat-17",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Lucaasbre on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Lucaasbre_quiet-bat-17.html",
+  "code": "<button>\n  <span class=\"button-text\">\n  </span>\n  <span class=\"animation\">\n    <span class=\"paper-wrapper\">\n      <span class=\"paper\">\n      </span>\n    </span>\n    <span class=\"shredded-wrapper\">\n      <span class=\"shredded\">\n      </span>\n    </span>\n    <span class=\"lid\">\n    </span>\n    <span class=\"can\">\n      <span class=\"filler\">\n      </span>\n    </span>\n  </span>\n</button>\n<style>\n/* From Uiverse.io by Lucaasbre - Source: Frontend Joe - https://frontendjoe.com - Tags: button, active, delete, animated, css */\nbutton {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 10px;\n  border: 0;\n  background: #ff2c6c;\n  font-size: 22px;\n  font-weight: 400;\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n  color: #f9f9f9;\n  padding: 0 0 0 24px;\n  width: 210px;\n  height: 64px;\n  text-align: left;\n  cursor: pointer;\n  transition: 0.3s;\n}\n\n.button-text {\n  flex: 0 0 120px;\n}\n\n.button-text::before {\n  content: \"Delete\";\n}\n\n.animation {\n  position: relative;\n  overflow: hidden;\n  display: grid;\n  place-items: center;\n  width: 64px;\n  height: 64px;\n  scale: 1;\n}\n\n.can {\n  overflow: hidden;\n  position: relative;\n  translate: 0 3px;\n  width: 20px;\n  height: 22px;\n  border-left-radius: 5px;\n  border-right-radius: 5px;\n  border: 2px solid #ffffff;\n}\n\n.lid {\n  position: absolute;\n  top: 20px;\n  left: 50%;\n  translate: -50% 0;\n  width: 22px;\n  height: 2px;\n  background: #ffffff;\n}\n\n@keyframes move {\n  75%,\n  100% {\n    translate: 0 88px;\n  }\n}\n\n.paper-wrapper,\n.shredded-wrapper {\n  overflow: hidden;\n  position: absolute;\n  display: flex;\n  top: -20px;\n  left: 50%;\n  margin-left: -5px;\n  width: 10px;\n  height: 64px;\n}\n\n.paper-wrapper {\n  height: 40px;\n}\n\n.shredded-wrapper {\n  top: 24px;\n  height: 20px;\n  justify-content: center;\n}\n\n.paper, .shredded {\n  display: block;\n  background: #ffffff;\n  height: 20px;\n}\n\n.paper {\n  width: 10px;\n}\n\n.shredded {\n  margin-top: -40px;\n  width: 2px;\n}\n\n.shredded::before,\n.shredded::after {\n  content: \"\";\n  position: absolute;\n  z-index: 1;\n  top: 0;\n  width: inherit;\n  height: inherit;\n  background: inherit;\n}\n\n.shredded::before {\n  left: -4px;\n}\n\n.shredded::after {\n  right: -4px;\n}\n\n@keyframes fill {\n  0%, 20% {\n    translate: 0 0;\n  }\n\n  40%, 70% {\n    translate: 0 -50%;\n  }\n\n  90%, 100% {\n    translate: 0 -100%;\n  }\n}\n\n.filler {\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  margin-left: -32px;\n  width: 64px;\n  height: 120%;\n  background: #ffffff;\n}\n\nbutton:hover {\n  opacity: 0.75;\n}\n\nbutton:active .button-text::before {\n  content: \"Deleting...\";\n}\n\nbutton:active :is(.paper, .shredded) {\n  animation: move 1.25s linear 2 both;\n}\n\nbutton:active .filler {\n  animation: fill 2.5s both;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

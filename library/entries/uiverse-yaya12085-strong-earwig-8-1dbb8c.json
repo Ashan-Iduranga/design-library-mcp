@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-strong-earwig-8-1dbb8c",
+  "title": "Button by Yaya12085 (strong-earwig-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/strong-earwig-8",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Yaya12085_strong-earwig-8.html",
+  "code": "<button class=\"download\">\n  Download\n  <span class=\"tooltip\">10Mo</span>\n</button>\n\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: button */\n.download {\n  background: none;\n  border: 0;\n  box-sizing: border-box;\n  margin: 1em;\n  padding: 1em 2em;\n  color: #039be5;\n  background-color: #fff;\n  font-size: inherit;\n  font-weight: 700;\n  position: relative;\n  vertical-align: middle;\n  border-radius: 4px;\n  box-shadow: 0px 20px 30px -15px rgba(0, 0, 0, 0.226);\n  cursor: pointer;\n}\n\n.download::before, .download::after {\n  box-sizing: inherit;\n  border-radius: inherit;\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n\n.download {\n  transition: color 0.25s;\n}\n\n.download::before, .download::after {\n  border: 2px solid transparent;\n  width: 0;\n  height: 0;\n}\n\n.download::before {\n  top: 0;\n  left: 0;\n}\n\n.download::after {\n  bottom: 0;\n  right: 0;\n}\n\n.download:focus {\n  color: #039be5;\n}\n\n.download:focus::before, .download:focus::after {\n  width: 100%;\n  height: 100%;\n}\n\n.download:focus::before {\n  border-top-color: #039be5;\n  border-right-color: #039be5;\n  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;\n}\n\n.download:focus::after {\n  border-bottom-color: #039be5;\n  border-left-color: #039be5;\n  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;\n}\n\n.download .tooltip {\n  visibility: hidden;\n  width: 120px;\n  background-color: #039be5;\n  color: #fff;\n  text-align: center;\n  border-radius: 6px;\n  padding: 5px 0;\n  position: absolute;\n  z-index: 1;\n  bottom: 120%;\n  left: 50%;\n  margin-left: -60px;\n}\n\n.download .tooltip::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  margin-left: -5px;\n  border-width: 5px;\n  border-style: solid;\n  border-color: #039be5 transparent transparent transparent;\n}\n\n.download:hover:not(:focus) .tooltip {\n  visibility: visible;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

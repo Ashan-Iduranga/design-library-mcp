@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-vinodjangid07-pink-cheetah-68-372276",
+  "title": "Button by vinodjangid07 (pink-cheetah-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/pink-cheetah-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "hover-effect",
+    "gold",
+    "golden-effect",
+    "subscribe",
+    "premium"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_pink-cheetah-68.html",
+  "code": "<button class=\"Btn\">\n</button>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: gradient, button, hover effect, gold, golden effect , subscribe, premium */\n.Btn {\n  width: 140px;\n  height: 40px;\n  border: none;\n  border-radius: 10px;\n  background: linear-gradient(to right,#77530a,#ffd277,#77530a,#77530a,#ffd277,#77530a);\n  background-size: 250%;\n  background-position: left;\n  color: #ffd277;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  transition-duration: 1s;\n  overflow: hidden;\n}\n\n.Btn::before {\n  position: absolute;\n  content: \"SUBSCRIBE\";\n  color: #ffd277;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 97%;\n  height: 90%;\n  border-radius: 8px;\n  transition-duration: 1s;\n  background-color: rgba(0, 0, 0, 0.842);\n  background-size: 200%;\n}\n\n.Btn:hover {\n  background-position: right;\n  transition-duration: 1s;\n}\n\n.Btn:hover::before {\n  background-position: right;\n  transition-duration: 1s;\n}\n\n.Btn:active {\n  transform: scale(0.95);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

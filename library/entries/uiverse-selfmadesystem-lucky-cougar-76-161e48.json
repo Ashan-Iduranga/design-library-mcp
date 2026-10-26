@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-selfmadesystem-lucky-cougar-76-161e48",
+  "title": "Button by SelfMadeSystem (lucky-cougar-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SelfMadeSystem/lucky-cougar-76",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "neumorphism",
+    "skeuomorphism",
+    "icon",
+    "animation",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SelfMadeSystem on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SelfMadeSystem_lucky-cougar-76.html",
+  "code": "<button class=\"border\">\n  <div class=\"outer\">\n    <div class=\"inner\">\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        height=\"1.125rem\"\n        width=\"1.125rem\"\n      >\n        <path\n          fill=\"#000000\"\n          d=\"M14.2199 21.63C13.0399 21.63 11.3699 20.8 10.0499 16.83L9.32988 14.67L7.16988 13.95C3.20988 12.63 2.37988 10.96 2.37988 9.78001C2.37988 8.61001 3.20988 6.93001 7.16988 5.60001L15.6599 2.77001C17.7799 2.06001 19.5499 2.27001 20.6399 3.35001C21.7299 4.43001 21.9399 6.21001 21.2299 8.33001L18.3999 16.82C17.0699 20.8 15.3999 21.63 14.2199 21.63ZM7.63988 7.03001C4.85988 7.96001 3.86988 9.06001 3.86988 9.78001C3.86988 10.5 4.85988 11.6 7.63988 12.52L10.1599 13.36C10.3799 13.43 10.5599 13.61 10.6299 13.83L11.4699 16.35C12.3899 19.13 13.4999 20.12 14.2199 20.12C14.9399 20.12 16.0399 19.13 16.9699 16.35L19.7999 7.86001C20.3099 6.32001 20.2199 5.06001 19.5699 4.41001C18.9199 3.76001 17.6599 3.68001 16.1299 4.19001L7.63988 7.03001Z\"\n        ></path>\n        <path\n          fill=\"#000000\"\n          d=\"M10.11 14.4C9.92005 14.4 9.73005 14.33 9.58005 14.18C9.29005 13.89 9.29005 13.41 9.58005 13.12L13.16 9.53C13.45 9.24 13.93 9.24 14.22 9.53C14.51 9.82 14.51 10.3 14.22 10.59L10.64 14.18C10.5 14.33 10.3 14.4 10.11 14.4Z\"\n        ></path>\n      </svg>\n      Send Message\n    </div>\n  </div>\n</button>\n\n<style>\n/* From Uiverse.io by SelfMadeSystem  - Tags: simple, neumorphism, skeuomorphism, icon, animation, gradient, button */\n:focus {\n  outline: none;\n}\n::-moz-focus-inner {\n  border: 0;\n}\n\n.border {\n  position: relative;\n  cursor: pointer;\n  padding: 3px;\n  border-radius: calc(6pt + 3px);\n  appearance: none;\n  font-weight: 600;\n  background: linear-gradient(#dfe1e0, #7f8180);\n  border: 1pt solid #e9ebea;\n  border-top-width: 0;\n  box-shadow: 0px 5px 15px 0px #0004;\n  transition: all 0.4s;\n}\n\n.border::before {\n  content: \"\";\n  position: absolute;\n  bottom: 0px;\n  left: 0;\n  right: 0;\n  height: 50%;\n  transition: inherit;\n}\n\n.border:hover {\n  transform: translateY(-5px);\n  box-shadow: 0px 10px 15px 0px #0004;\n}\n\n.border:hover:not(:active)::before {\n  bottom: -6px;\n}\n\n.border:active {\n  transform: translateY(0px);\n  box-shadow: 0px 5px 15px 0px #0000;\n  transition: all 0.3s;\n}\n\n.outer {\n  padding: 4pt;\n  background: linear-gradient(#fdfffe, #eceeed, #fdfffe);\n  border-radius: 6pt;\n}\n\n.inner {\n  background: linear-gradient(#eef0ef, #fafcfb, #eef0ef);\n  padding: 8pt;\n  border-radius: 9999px;\n  display: flex;\n  align-items: center;\n  gap: 4pt;\n  text-shadow: 0px 1px 1px #0004;\n}\n\n.inner svg {\n  filter: drop-shadow(0px 1px 0px #0007);\n}\n\n:is(.inner, .outer) {\n  background-size: 100% 200%;\n  transition: background-position-y 0.5s;\n}\n\n:active :is(.inner, .outer) {\n  background-position-y: 100%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

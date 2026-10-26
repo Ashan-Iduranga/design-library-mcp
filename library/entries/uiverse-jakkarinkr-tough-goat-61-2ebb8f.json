@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jakkarinkr-tough-goat-61-2ebb8f",
+  "title": "Button by JakkarinKr (tough-goat-61)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JakkarinKr/tough-goat-61",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JakkarinKr on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JakkarinKr_tough-goat-61.html",
+  "code": "<button>\n  HOVER ME\n</button>\n<style>\n/* From Uiverse.io by JakkarinKr - Tags: button */\nbutton {\n  width: 200px;\n  height: 70px;\n  border-radius: 12px;\n  background-image: linear-gradient(to right, rgb(135, 108, 197),rgb(45, 241, 255));\n  border: none;\n  cursor: pointer;\n  color: aliceblue;\n  font-weight: bold;\n  font-size: 1rem;\n  transition: all 0.3s ease;\n  box-shadow: rgba(198, 67, 238, 0.4) -5px 5px, rgba(185, 46, 240, 0.3) -10px 10px;\n}\n\nbutton:hover {\n  transform: translate(10px, -15px);\n  box-shadow: rgba(198, 67, 238, 0.4) -5px 5px, rgba(185, 46, 240, 0.3) -10px 10px, rgba(198, 67, 238, 0.2) -15px 15px, rgba(198, 67, 238, 0.1) -20px 20px, rgba(198, 67, 238, 0.05) -25px 25px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

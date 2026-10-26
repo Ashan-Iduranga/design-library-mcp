@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-werlynrodriguez-fuzzy-yak-55-7b32d8",
+  "title": "Radio by WerlynRodriguez (fuzzy-yak-55)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/WerlynRodriguez/fuzzy-yak-55",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By WerlynRodriguez on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Radio-buttons/WerlynRodriguez_fuzzy-yak-55.html",
+  "code": "<div class=\"radio\">\n      <label>\n        <input checked=\"\" value=\"1\" name=\"radio\" type=\"radio\">\n        <span>Cyber Punk</span>\n        <div class=\"rotor\">\n          <span></span>\n          <span></span>\n          <span></span>\n        </div>\n      </label>\n      <label>\n        <input value=\"2\" name=\"radio\" type=\"radio\">\n        <span>Solar Punk</span>\n        <div class=\"rotor\">\n          <span></span>\n          <span></span>\n          <span></span>\n        </div>\n      </label>\n      <label>\n        <input value=\"3\" name=\"radio\" type=\"radio\">\n        <span>Steam Punk</span>\n        <div class=\"rotor\">\n          <span></span>\n          <span></span>\n          <span></span>\n        </div>\n      </label>\n    </div>\n<style>\n/* From Uiverse.io by WerlynRodriguez - Tags: radio */\n.radio {\n  --input_size: 1.8em;\n  --rotor_size: calc(var(--input_size) + 0.5em);\n    /* 2em = 0.5em, 4em = 1em, 6em = 1.5em, 8em = 2em*/\n  --rotor_border_size: 0.3em;\n  --theme_color: #000;\n  display: flex;\n  flex-direction: column;\n  justify-content: start;\n}\n\n@media(prefers-color-scheme: dark) {\n  .radio {\n    --theme_color: #fff;\n  }\n}\n\n.radio label {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  margin: 5px 0;\n  font-size: calc(var(--input_size) * 0.8);\n}\n\n.radio label span {\n  font-family: monospace;\n  text-transform: uppercase;\n  font-weight: 600;\n  letter-spacing: normal;\n  word-spacing: 0.1em;\n  color: var(--theme_color);\n}\n\n.radio input {\n  z-index: 1;\n  width: var(--input_size);\n  height: var(--input_size);\n  cursor: pointer;\n  transition: all 0.3s ease-out;\n}\n\n/* The rotor is all the circles rotating at the input */\n.radio .rotor {\n  position: absolute;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: var(--rotor_size);\n  height: var(--rotor_size);\n  margin: 0 -14px;\n  transform: scale(0.3) rotate(-180deg);\n  opacity: 0;\n  transition: all 0.6s ease-out;\n}\n\n.radio input:checked ~ .rotor {\n  opacity: 1;\n  transform: scale(1) rotate(0deg);\n}\n\n.radio label input ~ span {\n  position: relative;\n  top: 10px;\n  padding: 0.5em 1em;\n  border: calc(var(--rotor_border_size) / 2) solid transparent;\n  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);\n  transition: all 0.3s ease-out;\n}\n\n.radio input:checked ~ span {\n  border: calc(var(--rotor_border_size) / 2) solid var(--theme_color);\n  background-size: cover;\n  background-blend-mode: difference;\n  font-style: italic;\n  filter: drop-shadow(0px 0px 0.2em #fdfdfd);\n}\n\n.radio .rotor span:first-child {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  border: var(--rotor_border_size) dashed var(--theme_color);\n  animation: rotate 2s linear infinite;\n  filter: drop-shadow(0px 0px 0.2em #fdfdfd);\n}\n\n.radio .rotor span:nth-child(2) {\n  position: absolute;\n  width: 80%;\n  height: 80%;\n  border-radius: 50%;\n  border: var(--rotor_border_size) dashed #7d008b;\n  border-top: var(--rotor_border_size) solid #7d008b;\n  border-bottom: var(--rotor_border_size) solid #7d008b;\n  animation-name: rotate;\n  animation-iteration-count: infinite;\n  animation-timing-function: cubic-bezier(0.31, 1.84, 0.67, -0.44);\n  animation-duration: 2.35s;\n}\n\n.radio .rotor span:last-child {\n  position: absolute;\n  width: 60%;\n  height: 60%;\n  border-radius: 50%;\n  border: var(--rotor_border_size) dashed #d303ea;\n  border-top: var(--rotor_border_size) solid #d303ea;\n  border-bottom: var(--rotor_border_size) solid #d303ea;\n  filter: drop-shadow(0px 0px 0.2em #e600ff);\n  animation-name: rotate;\n  animation-iteration-count: infinite;\n  animation-timing-function: cubic-bezier(0.22, 0.94, 0.44, -0.33);\n  animation-duration: 1.35s;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

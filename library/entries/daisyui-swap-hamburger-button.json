@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-swap-hamburger-button",
+  "title": "Swap: Hamburger button (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/swap/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "swap",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Swap allows you to toggle the visibility of two elements using a checkbox or a class name.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/swap/+page.md",
+  "code": "<label class=\"btn btn-circle swap swap-rotate\">\n  <!-- this hidden checkbox controls the state -->\n  <input type=\"checkbox\" />\n\n  <!-- hamburger icon -->\n  <svg\n    class=\"swap-off fill-current\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    width=\"32\"\n    height=\"32\"\n    viewBox=\"0 0 512 512\">\n    <path d=\"M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z\" />\n  </svg>\n\n  <!-- close icon -->\n  <svg\n    class=\"swap-on fill-current\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    width=\"32\"\n    height=\"32\"\n    viewBox=\"0 0 512 512\">\n    <polygon\n      points=\"400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49\" />\n  </svg>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

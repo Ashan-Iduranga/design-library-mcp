@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-mrez321-strong-skunk-73-bb2757",
+  "title": "Toggle by MRez321 (strong-skunk-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MRez321/strong-skunk-73",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "button",
+    "switch",
+    "checkbox",
+    "theme-switch",
+    "toggle-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MRez321 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/MRez321_strong-skunk-73.html",
+  "code": "<div class=\"theme-switch\">\n  <input type=\"checkbox\" id=\"theme-checkbox\" />\n  <label for=\"theme-checkbox\">\n    <div></div>\n    <span>\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        viewBox=\"0 0 24 24\"\n        fill=\"currentColor\"\n        class=\"w-6 h-6\"\n      >\n        <path\n          fill-rule=\"evenodd\"\n          d=\"M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z\"\n          clip-rule=\"evenodd\"\n        ></path>\n      </svg>\n    </span>\n    <span>\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        viewBox=\"0 0 24 24\"\n        fill=\"currentColor\"\n        class=\"w-6 h-6\"\n      >\n        <path\n          d=\"M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z\"\n        ></path>\n      </svg>\n    </span>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by MRez321  - Tags: button, switch, checkbox, theme-switch, toggle switch */\n.theme-switch {\n  position: relative;\n  display: flex;\n  justify-content: center;\n  direction: rtl;\n}\n\n#theme-checkbox {\n  display: none;\n}\n\n#theme-checkbox + label {\n  /* change the font-size below to change the size of the switch button*/\n  font-size: 2rem;\n  height: 1em;\n  width: 2.5em;\n  border-radius: 0.25em;\n  cursor: pointer;\n  display: flex;\n  justify-content: space-between;\n  background-color: #cecece;\n  position: relative;\n}\n\n#theme-checkbox:checked + label {\n  background-color: #3a3a3a;\n}\n\n#theme-checkbox + label:active {\n  transform: scale(0.85);\n  transition: transform 0.2s;\n}\n\n#theme-checkbox + label div {\n  width: 0.8em;\n  height: 0.8em;\n  border-radius: inherit;\n  position: absolute;\n  top: 0.1em;\n  left: 0.1em;\n  z-index: 10;\n  transition: 0.5s cubic-bezier(1, 0.33, 0.11, 1.34);\n  background-color: #f2f2f2;\n}\n\n#theme-checkbox:checked + label div {\n  /* left: calc(2.5em - .8em - .1em); */\n  left: 1.6em;\n  background-color: #212121;\n}\n\n#theme-checkbox + label span {\n  display: flex;\n}\n\n#theme-checkbox + label svg {\n  display: inline-block;\n  height: 1em;\n  width: 1em;\n  padding: 0.15em;\n  box-sizing: border-box;\n}\n\n#theme-checkbox + label span:first-of-type {\n  color: #3a3a3a;\n}\n\n#theme-checkbox + label span:last-of-type {\n  color: #cecece;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

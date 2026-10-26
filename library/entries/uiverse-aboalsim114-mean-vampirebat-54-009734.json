@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-aboalsim114-mean-vampirebat-54-009734",
+  "title": "Checkbox by aboalsim114 (mean-vampirebat-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aboalsim114/mean-vampirebat-54",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "red"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aboalsim114 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/aboalsim114_mean-vampirebat-54.html",
+  "code": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n<style>\n/* From Uiverse.io by aboalsim114 - Tags: red, checkbox */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: flex;\n  gap: 10px;\n}\n\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  box-shadow: rgb(255, 84, 0) 0px 0px 0px 2px;\n  background-color: rgba(16, 16, 16, 0.5);\n  height: 20px;\n  width: 20px;\n  margin-right: 10px;\n  flex-shrink: 0;\n  margin-top: -1px;\n  transition: all 0.2s ease 0s;\n  cursor: pointer;\n  transform-origin: 0px 10px;\n  border-radius: 4px;\n  margin: -1px 10px 0px 0px;\n  padding: 0px;\n  box-sizing: border-box;\n}\n\n.container input:checked ~ .checkmark {\n  box-shadow: rgb(255, 84, 0) 0px 0px 0px 2px;\n  background-color: rgba(245, 24, 24, 0.5);\n  height: 20px;\n  width: 20px;\n  margin-right: 10px;\n  flex-shrink: 0;\n  margin-top: -1px;\n  transition: all 0.2s ease 0s;\n  cursor: pointer;\n  transform-origin: 0px 10px;\n  border-radius: 4px;\n  margin: -1px 10px 0px 0px;\n  padding: 0px;\n  box-sizing: border-box;\n}\n\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n}\n\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n  left: 0.45em;\n  top: 0.25em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid white;\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n  transition: all 500ms ease-in-out;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

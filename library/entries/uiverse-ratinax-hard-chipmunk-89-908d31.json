@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-ratinax-hard-chipmunk-89-908d31",
+  "title": "Loader by Ratinax (hard-chipmunk-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Ratinax/hard-chipmunk-89",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "colorful",
+    "circle-loader",
+    "color",
+    "multicolor"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Ratinax on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Ratinax_hard-chipmunk-89.html",
+  "code": "<div class=\"loader\">\n      <div class=\"intern\">\n      </div>\n  <div class=\"external-shadow\">\n    <div class=\"central\">\n    </div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Ratinax - Tags: loader, colorful, circle loader, color, multicolor */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  cursor: not-allowed;\n  scale: 0.7;\n}\n\n.central {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  width: 10em;\n  height: 10em;\n  border-radius: 50%;\n  box-shadow: 0.5em 1em 1em red,\n    -0.5em 0.5em 1em lime,\n    0.5em -0.5em 1em purple,\n    -0.5em -0.5em 1em yellow;\n}\n\n.external-shadow {\n  width: 10em;\n  height: 10em;\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  box-shadow: 0.5em 0.5em 3em red,\n    -0.5em 0.5em 3em lime,\n    0.5em -0.5em 3em purple,\n    -0.5em -0.5em 3em yellow;\n  z-index: 999;\n  animation: rotate 3s linear infinite;\n  background-color: #212121;\n}\n\n.intern {\n  position: absolute;\n  color: white;\n  z-index: 9999;\n}\n\n.intern::before {\n  content: \"100%\";\n  animation: percent 2s ease-in-out infinite;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  50% {\n    transform: rotate(180deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes percent {\n  0% {\n    content: '0%';\n  }\n\n  25% {\n    content: '25%';\n  }\n\n  33% {\n    content: '33%';\n  }\n\n  42% {\n    content: '42%';\n  }\n\n  51% {\n    content: '51%';\n  }\n\n  67% {\n    content: '67%';\n  }\n\n  74% {\n    content: '74%';\n  }\n\n  75% {\n    content: '75%';\n  }\n\n  86% {\n    content: '86%';\n  }\n\n  95% {\n    content: '95%';\n  }\n\n  98% {\n    content: '98%';\n  }\n\n  99% {\n    content: '99%';\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

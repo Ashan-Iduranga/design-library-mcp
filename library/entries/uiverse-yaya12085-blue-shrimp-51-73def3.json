@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-blue-shrimp-51-73def3",
+  "title": "Button by Yaya12085 (blue-shrimp-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/blue-shrimp-51",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Yaya12085_blue-shrimp-51.html",
+  "code": "<button class=\"btn\">\n  <svg>\n    <defs>\n        <linearGradient id=\"gradiant\">\n            <stop stop-color=\"#FF8282\" offset=\"0%\"></stop>\n            <stop stop-color=\"#E178ED\" offset=\"100%\"></stop>\n        </linearGradient>\n    </defs>\n     <rect height=\"50\" width=\"150\" stroke=\"url(#gradiant)\" fill=\"none\"></rect>\n  </svg>\n    <span>Button</span>\n</button>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: button */\n.btn {\n  position: relative;\n  display: inline-block;\n  width: 150px;\n  height: 50px;\n  text-align: center;\n  text-transform: uppercase;\n  background-color: transparent;\n  cursor: pointer;\n  font-weight: 900;\n  font-size: 17px;\n  border: none;\n  outline: none;\n}\n\n.btn svg {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.btn svg rect {\n  stroke-width: 3;\n  stroke-dasharray: 0,0;\n  stroke-dashoffset: 0;\n  -webkit-transition: all .6s ease;\n  transition: all .6s ease;\n}\n\n.btn span {\n  background: rgba(255,130,130,1);\n  background: linear-gradient(to right,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);\n  background-clip: text;\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n}\n\n.btn:hover svg rect {\n  stroke-width: 4;\n  stroke-dasharray: 196, 543;\n  stroke-dashoffset: 437;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

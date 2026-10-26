@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-hr-icon-hr",
+  "title": "Horizontal Line (HR): Icon HR (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/typography/hr/#icon-hr",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "hr",
+    "typography",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This example can be used to set a custom SVG icon in the middle of the HR element.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/typography/hr.md",
+  "code": "<p class=\"text-body\">Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.</p>\n<div class=\"inline-flex items-center justify-center w-full\">\n    <hr class=\"w-64 h-1 my-8 bg-neutral-quaternary border-0 rounded-sm\">\n    <div class=\"absolute px-4 -translate-x-1/2 bg-neutral-primary left-1/2\">\n        <svg class=\"w-6 h-6 text-body\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 11V8a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4H5m14-6V8a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4h-1\"/></svg>\n    </div>\n</div>\n<p class=\"text-body\">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.Accelerate critical development work, eliminate toil.</p>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

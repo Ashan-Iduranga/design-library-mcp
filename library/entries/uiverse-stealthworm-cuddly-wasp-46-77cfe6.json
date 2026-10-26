@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-stealthworm-cuddly-wasp-46-77cfe6",
+  "title": "Loader by StealthWorm (cuddly-wasp-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/StealthWorm/cuddly-wasp-46",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "interstellar",
+    "tars"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By StealthWorm on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/StealthWorm_cuddly-wasp-46.html",
+  "code": "<div class=\"loader\">\n      <div class=\"tars\">\n        <div class=\"container 1\">\n          <div class=\"shape\">\n            <div class=\"f\"></div>\n            <div class=\"b\"></div>\n            <div class=\"l\"></div>\n            <div class=\"r\"></div>\n            <div class=\"t\"></div>\n            <div class=\"bot\"></div>\n          </div>\n        </div>\n        <div class=\"container 2\">\n          <div class=\"shape\">\n            <div class=\"f\"></div>\n            <div class=\"b\"></div>\n            <div class=\"l\"></div>\n            <div class=\"r\"></div>\n            <div class=\"t\"></div>\n            <div class=\"bot\"></div>\n          </div>\n        </div>\n        <div class=\"container 3\">\n          <div class=\"shape\">\n            <div class=\"f\"></div>\n            <div class=\"b\"></div>\n            <div class=\"l\"></div>\n            <div class=\"r\"></div>\n            <div class=\"t\"></div>\n            <div class=\"bot\"></div>\n          </div>\n        </div>\n        <div class=\"container 4\">\n          <div class=\"shape\">\n            <div class=\"f\"></div>\n            <div class=\"b\"></div>\n            <div class=\"l\"></div>\n            <div class=\"r\"></div>\n            <div class=\"t\"></div>\n            <div class=\"bot\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n<style>\n/* From Uiverse.io by StealthWorm - Tags: loader, interstellar, tars */\n.loader {\n  margin: 0 auto;\n  display: flex;\n  width: 12rem;\n  height: 12rem;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  overflow: hidden;\n  position: relative;\n  border-radius: 50%;\n  border: 0.4rem solid #52c5ff;\n}\n\n.container[class*=\"1\"] {\n  animation-delay: 1s;\n}\n\n.container[class*=\"2\"] {\n  animation-delay: 1.3s;\n}\n\n.container[class*=\"3\"] {\n  animation-delay: 1.6s;\n}\n\n.container[class*=\"4\"] {\n  animation-delay: 1.9s;\n}\n\n.tars {\n  z-index: 0;\n  position: absolute;\n  height: 100px;\n  width: 130px;\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  transform-style: preserve-3d;\n  animation: rotateX3D 6s ease-in-out infinite;\n  animation-delay: 1s;\n}\n\n.container {\n  position: relative;\n  display: flex;\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n  animation: rotateY3D 3s ease-in infinite both;\n}\n\n.shape {\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n  position: relative;\n  z-index: -1;\n}\n\n.shape div {\n  display: block;\n  position: absolute;\n  text-align: center;\n}\n\n.container:nth-child(2) .f::after,\n.container:nth-child(3) .f::after {\n  position: absolute;\n  content: '';\n  width: 100%;\n  z-index: -1;\n  height: 20px;\n  background-image: radial-gradient(#54ff6e 2px, transparent 1%);\n  background-size: 20px 5px;\n  left: 0;\n  top: 20%;\n  border: 0;\n  animation: animMove 2s linear infinite alternate-reverse;\n  overflow: hidden;\n}\n\n.container:nth-child(2) .f::before,\n.container:nth-child(3) .f::before {\n  position: absolute;\n  content: '';\n  width: 85%;\n  z-index: -1;\n  height: 20px;\n  left: 0;\n  top: 20%;\n  border: 0;\n  background: #181818;\n  border: 2px solid #52c5ff;\n  overflow: hidden;\n}\n\n.container:nth-child(1),\n.container:nth-child(4) {\n  & .f: :before,\n  & .r::before,\n  & .l::before {\n    position: absolute;\n  content: '';\n  width: 95%;\n  height: 5px;\n  left: 0;\n  top: 25%;\n  border: 1px solid #52c5ff;\n  overflow: hidden;\n}\n}\n\n.container:nth-child(1) .b::before,\n.container:nth-child(4) .b::before {\n  position: absolute;\n  content: '';\n  width: 95%;\n  z-index: -1;\n  height: 5px;\n  left: 0;\n  top: 69%;\n  border: 0;\n  border: 1px solid #52c5ff;\n  overflow: hidden;\n}\n\n.f {\n  transform: rotateY(0deg) translateZ(15px);\n  border-radius: 2px;\n  overflow: hidden;\n  transform-style: preserve-3d;\n}\n\n.b {\n  transform: rotateX(180deg) translateZ(15px);\n  border-radius: 2px;\n}\n\n.f,.b {\n  width: 30px;\n  height: 100px;\n  background: #212121;\n  box-shadow: inset 0 0 0 2px #52c5ff;\n  border: 2px solid #52c5ff;\n}\n\n.l {\n  transform: rotateY(-90deg) translateZ(0px);\n  border-radius: 2px;\n}\n\n.r {\n  transform: rotateY(90deg) translateZ(-30px);\n  border-radius: 2px;\n}\n\n.l,.r {\n  width: 30px;\n  height: 100px;\n  left: 15px;\n  position: relative;\n  z-index: -1;\n  background: #212121;\n  box-shadow: inset 0 0 0 2px #52c5ff;\n  border: 2px solid #52c5ff;\n}\n\n.t {\n  transform: rotateX(90deg) translateZ(40px);\n  border-radius: 2px;\n}\n\n.bot {\n  transform: rotateX(-90deg) translateZ(60px);\n  border-radius: 2px;\n}\n\n.t,.bot {\n  width: 30px;\n  height: 30px;\n  top: 25px;\n  position: relative;\n  z-index: -1;\n  background: #212121;\n  box-shadow: inset 0 0 0 2px #52c5ff;\n  border: 2px solid #52c5ff;\n}\n\n@keyframes rotateY3D {\n  0% {\n    transform: translateZ(0px) rotateX(0);\n  }\n\n  50% {\n    transform: translateZ(0px) rotateX(-360deg);\n  }\n\n  100% {\n    transform: translateZ(0px) rotateX(-360deg);\n  }\n}\n\n@keyframes rotateX3D {\n  0% {\n    transform: translateX(0px) rotateY(0);\n  }\n\n  50% {\n    transform: translateX(0px) rotateY(180deg);\n  }\n\n  100% {\n    transform: translateX(0px) rotateY(360deg);\n  }\n}\n\n@keyframes animMove {\n  0% {\n    transform: translateX(20px);\n  }\n\n  100% {\n    transform: translateX(-10px);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

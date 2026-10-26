@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cssbuttons-io-slippery-jellyfish-67-98ba68",
+  "title": "Button by cssbuttons-io (slippery-jellyfish-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cssbuttons-io/slippery-jellyfish-67",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cssbuttons-io on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/cssbuttons-io_slippery-jellyfish-67.html",
+  "code": "<button> Hover me\n</button>\n<style>\n/* From Uiverse.io by cssbuttons-io - Tags: button */\nbutton {\n --color: #560bad;\n font-family: inherit;\n display: inline-block;\n width: 8em;\n height: 2.6em;\n line-height: 2.5em;\n margin: 20px;\n position: relative;\n overflow: hidden;\n border: 2px solid var(--color);\n transition: color .5s;\n z-index: 1;\n font-size: 17px;\n border-radius: 6px;\n font-weight: 500;\n color: var(--color);\n}\n\nbutton:before {\n content: \"\";\n position: absolute;\n z-index: -1;\n background: var(--color);\n height: 150px;\n width: 200px;\n border-radius: 50%;\n}\n\nbutton:hover {\n color: #fff;\n}\n\nbutton:before {\n top: 100%;\n left: 100%;\n transition: all .7s;\n}\n\nbutton:hover:before {\n top: -30px;\n left: -30px;\n}\n\nbutton:active:before {\n background: #3a0ca3;\n transition: background 0s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

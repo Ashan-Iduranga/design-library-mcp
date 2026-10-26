@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-uncannypotato69-dull-wolverine-48-d048ac",
+  "title": "Loader by Uncannypotato69 (dull-wolverine-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Uncannypotato69/dull-wolverine-48",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "animation",
+    "white",
+    "black",
+    "loading",
+    "text-animation",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Uncannypotato69 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Uncannypotato69_dull-wolverine-48.html",
+  "code": "<div class=\"textWrapper\">\n  <p class=\"text\">Loading...</p>\n  <div class=\"invertbox\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by Uncannypotato69  - Tags: simple, animation, white, black, loading, loader, text animation, css */\n.textWrapper {\n  height: fit-content;\n  min-width: 3rem;\n  width: fit-content;\n  font-size: 2rem;\n  font-weight: 700;\n  letter-spacing: 0.25ch;\n  position: relative;\n  z-index: 0;\n  color: white;\n}\n\n.invertbox {\n  position: absolute;\n  height: 100%;\n  aspect-ratio: 1/1;\n  left: 0;\n  top: 0;\n  border-radius: 20%;\n  background-color: rgba(255, 255, 255, 0.1);\n  backdrop-filter: invert(100%);\n  animation: move 2s ease-in-out infinite;\n}\n\n@keyframes move {\n  50% {\n    left: calc(100% - 3rem);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

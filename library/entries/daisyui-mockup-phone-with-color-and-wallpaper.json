@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-mockup-phone-with-color-and-wallpaper",
+  "title": "Phone mockup: With color and wallpaper (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/mockup-phone/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "mockup-phone",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Phone mockup shows a mockup of an iPhone.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/mockup-phone/+page.md",
+  "code": "<div class=\"mockup-phone border-[#ff8938]\">\n  <div class=\"mockup-phone-camera\"></div>\n  <div class=\"mockup-phone-display\">\n    <img alt=\"wallpaper\" src=\"https://img.daisyui.com/images/stock/453966.webp\" />\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nawsome-friendly-parrot-96-46ac45",
+  "title": "Loader by Nawsome (friendly-parrot-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Nawsome/friendly-parrot-96",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Nawsome on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Nawsome_friendly-parrot-96.html",
+  "code": "<div class=\"container\">\n  <div class=\"ball\"></div>\n  <div class=\"ball\"></div>\n  <div class=\"ball\"></div>\n  <div class=\"ball\"></div>\n  <div class=\"ball\"></div>\n  <div class=\"ball\"></div>\n  <div class=\"ball\"></div>\n</div>\n<style>\n/* From Uiverse.io by Nawsome - Tags: loader */\n.container {\n  width: 200px;\n  height: 150px;\n  margin: 0 auto;\n}\n\n.ball {\n  width: 10px;\n  height: 10px;\n  margin: 10px auto;\n  border-radius: 50px;\n}\n\n.ball:nth-child(1) {\n  background: #ffffff;\n  animation: right2 1s infinite ease-in-out;\n}\n\n.ball:nth-child(2) {\n  background: #ffffff;\n  animation: left2 1.1s infinite ease-in-out;\n}\n\n.ball:nth-child(3) {\n  background: #ffffff;\n  animation: right2 1.05s infinite ease-in-out;\n}\n\n.ball:nth-child(4) {\n  background: #ffffff;\n  animation: left2 1.15s infinite ease-in-out;\n}\n\n.ball:nth-child(5) {\n  background: #ffffff;\n  animation: right2 1.1s infinite ease-in-out;\n}\n\n.ball:nth-child(6) {\n  background: #ffffff;\n  animation: left2 1.05s infinite ease-in-out;\n}\n\n.ball:nth-child(7) {\n  background: #ffffff;\n  animation: right2 1s infinite ease-in-out;\n}\n\n@keyframes right2 {\n  0% {\n    transform: translate(-15px);\n  }\n\n  50% {\n    transform: translate(15px);\n  }\n\n  100% {\n    transform: translate(-15px);\n  }\n}\n\n@keyframes left2 {\n  0% {\n    transform: translate(15px);\n  }\n\n  50% {\n    transform: translate(-15px);\n  }\n\n  100% {\n    transform: translate(15px);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

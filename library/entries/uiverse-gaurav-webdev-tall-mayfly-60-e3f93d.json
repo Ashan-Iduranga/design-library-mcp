@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-gaurav-webdev-tall-mayfly-60-e3f93d",
+  "title": "Button by Gaurav-WebDev (tall-mayfly-60)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Gaurav-WebDev/tall-mayfly-60",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "black",
+    "dark",
+    "animated",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Gaurav-WebDev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Gaurav-WebDev_tall-mayfly-60.html",
+  "code": "<button class=\"button type1\">\n  <span class=\"btn-txt\">Hello</span>\n</button>\n\n<style>\n/* From Uiverse.io by Gaurav-WebDev  - Tags: black, button, dark, animated, hover effect */\n.button {\n  height: 50px;\n  width: 200px;\n  position: relative;\n  background-color: transparent;\n  cursor: pointer;\n  border: 2px solid #252525;\n  overflow: hidden;\n  border-radius: 30px;\n  color: #333;\n  transition: all 0.5s ease-in-out;\n}\n\n.btn-txt {\n  z-index: 1;\n  font-weight: 800;\n  letter-spacing: 4px;\n}\n\n.type1::after {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: 0;\n  transition: all 0.5s ease-in-out;\n  background-color: #333;\n  border-radius: 30px;\n  visibility: hidden;\n  height: 10px;\n  width: 10px;\n  z-index: -1;\n}\n\n.button:hover {\n  box-shadow: 1px 1px 200px #252525;\n  color: #fff;\n  border: none;\n}\n\n.type1:hover::after {\n  visibility: visible;\n  transform: scale(100) translateX(2px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

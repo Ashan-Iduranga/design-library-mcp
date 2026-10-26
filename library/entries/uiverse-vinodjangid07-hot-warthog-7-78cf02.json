@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-vinodjangid07-hot-warthog-7-78cf02",
+  "title": "Input by vinodjangid07 (hot-warthog-7)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/hot-warthog-7",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/vinodjangid07_hot-warthog-7.html",
+  "code": "<div class=\"inputContainer\">\n        <input required=\"required\" id=\"inputField\" placeholder=\"Username\" type=\"text\">\n        <label class=\"usernameLabel\" for=\"inputField\">Username</label>\n        <svg viewBox=\"0 0 448 512\" class=\"userIcon\"><path d=\"M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z\"></path></svg>\n    </div>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: input */\n.inputContainer {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n\n#inputField {\n  border: 2px solid white;\n  background-color: transparent;\n  border-radius: 10px;\n  padding: 12px 15px;\n  color: black;\n  font-weight: 500;\n  outline: none;\n  caret-color: rgb(155, 78, 255);\n  transition-duration: .3s;\n  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;\n}\n\n.userIcon {\n  position: absolute;\n  fill: rgb(155, 78, 255);\n  width: 12px;\n  top: -23px;\n  left: -15px;\n  opacity: 0;\n  transition: .2s linear;\n}\n\n.usernameLabel {\n  position: absolute;\n  top: -25px;\n  left: 5px;\n  color: white;\n  font-size: 14px;\n  font-weight: 400;\n  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;\n  overflow: hidden;\n  transition: .2s linear;\n  opacity: 0;\n}\n\n#inputField:focus ~ .usernameLabel,\n#inputField:valid ~ .usernameLabel {\n  transform: translateX(20px);\n  opacity: 1;\n}\n\n#inputField:focus ~ .userIcon,\n#inputField:valid ~ .userIcon {\n  transform: translateX(20px);\n  opacity: 1;\n}\n\n#inputField:focus,\n#inputField:valid {\n  background-color: #ddd;\n  transition-duration: .3s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

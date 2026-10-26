@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-htwarriors108-lazy-owl-9-9b36a5",
+  "title": "Button by htwarriors108 (lazy-owl-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/htwarriors108/lazy-owl-9",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "animated",
+    "colorful",
+    "hover-effect",
+    "click-effect",
+    "click-animation",
+    "box-shadow"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By htwarriors108 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/htwarriors108_lazy-owl-9.html",
+  "code": "<button class=\"button\">\n  <div class=\"display\">\n    <div id=\"msg\">Click Me</div>\n  </div>\n  \n  <span></span>\n  <span></span>\n</button>\n<style>\n/* From Uiverse.io by htwarriors108 - Tags: gradient, button, animated, colorful, hover effect, click effect, click animation, box-shadow, multicolor */\n.button {\n  height: 50px;\n  width: 180px;\n  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);\n  border-radius: 25px;\n  animation: animate 1.5s linear infinite;\n  border: none;\n  cursor: pointer;\n}\n\n.button, .display, #msg {\n  transition: 0.3s;\n}\n\n.button:active .display {\n  background: rgba(255, 255, 255, 0.5);\n}\n\n.button:active .display #msg {\n  -webkit-text-fill-color: #1b1b1b;\n}\n\n.button:hover {\n  scale: 1.15;\n  animation: animate 0.7s linear infinite;\n  transform: translateY(-15px);\n}\n\n.button .display, .button span {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n\n.button .display {\n  z-index: 1;\n  background-color: #1b1b1b;\n  height: 42.5px;\n  width: 172.5px;\n  border-radius: 20px;\n  text-align: center;\n}\n\n.button .display #msg {\n  line-height: 42.5px;\n  font-size: 25px;\n  font-weight: 800;\n  letter-spacing: 3px;\n  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n}\n\n@keyframes animate {\n  100% {\n    filter: hue-rotate(360deg);\n  }\n}\n\n.button span {\n  height: 100%;\n  width: 100%;\n  background: inherit;\n  border-radius: 25px;\n}\n\n.button span:first-child {\n  filter: blur(15px);\n}\n\n.button span:last-child {\n  filter: blur(15px);\n  transition: 0.3s;\n}\n\n.button:hover span:last-child {\n  width: 110%;\n  height: 120%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

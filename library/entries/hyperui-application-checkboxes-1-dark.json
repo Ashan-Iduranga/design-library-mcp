@@ -1,0 +1,35 @@
+{
+  "id": "hyperui-application-checkboxes-1-dark",
+  "title": "Checkboxes: Base (dark)",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/checkboxes",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "checkboxes",
+    "hyperui",
+    "filter",
+    "form",
+    "input",
+    "dark"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/checkboxes/1-dark.html",
+  "code": "<div class=\"mx-auto max-w-lg p-6\">\n<fieldset>\n<legend class=\"sr-only\">Checkboxes</legend>\n<div class=\"flex flex-col items-start gap-3\">\n<label class=\"inline-flex items-center gap-3\" for=\"Option1\">\n<input class=\"size-5 rounded border-gray-300 shadow-sm dark:border-gray-600 dark:bg-gray-900 dark:ring-offset-gray-900 dark:checked:bg-blue-600\" id=\"Option1\" type=\"checkbox\"/>\n<span class=\"font-medium text-gray-700 dark:text-gray-200\"> Option 1 </span>\n</label>\n<label class=\"inline-flex items-center gap-3\" for=\"Option2\">\n<input class=\"size-5 rounded border-gray-300 shadow-sm dark:border-gray-600 dark:bg-gray-900 dark:ring-offset-gray-900 dark:checked:bg-blue-600\" id=\"Option2\" type=\"checkbox\"/>\n<span class=\"font-medium text-gray-700 dark:text-gray-200\"> Option 2 </span>\n</label>\n<label class=\"inline-flex items-center gap-3\" for=\"Option3\">\n<input class=\"size-5 rounded border-gray-300 shadow-sm dark:border-gray-600 dark:bg-gray-900 dark:ring-offset-gray-900 dark:checked:bg-blue-600\" id=\"Option3\" type=\"checkbox\"/>\n<span class=\"font-medium text-gray-700 dark:text-gray-200\"> Option 3 </span>\n</label>\n</div>\n</fieldset>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

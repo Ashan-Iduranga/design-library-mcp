@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-cobp-lazy-frog-59-a6a2fa",
+  "title": "Input by Cobp (lazy-frog-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Cobp/lazy-frog-59",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "material-design",
+    "blue",
+    "pink",
+    "search",
+    "shadow",
+    "html",
+    "css"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Cobp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Cobp_lazy-frog-59.html",
+  "code": "<div class=\"container\">\n  <div class=\"shadow-container\"></div>\n  <label class=\"search-bar\" for=\"text\">\n    <i class=\"icon\">\n      <svg viewBox=\"0 0 512 512\">\n        <path\n          d=\"M221.09 64a157.09 157.09 0 1 0 157.09 157.09A157.1 157.1 0 0 0 221.09 64Z\"\n          stroke-width=\"32\"\n          stroke-miterlimit=\"10\"\n          stroke=\"currentColor\"\n          fill=\"none\"\n        ></path>\n        <path\n          d=\"M338.29 338.29L448 448\"\n          stroke-width=\"32\"\n          stroke-miterlimit=\"10\"\n          stroke-linecap=\"round\"\n          stroke=\"currentColor\"\n          fill=\"none\"\n        ></path>\n      </svg>\n    </i>\n    <input\n      placeholder=\"Search...\"\n      class=\"input\"\n      name=\"text\"\n      type=\"text\"\n      id=\"text\"\n    />\n    <button class=\"icon filter\" type=\"button\">\n      <svg viewBox=\"0 0 24 24\">\n        <path\n          color=\"currentColor\"\n          d=\"M8.857 12.506C6.37 10.646 4.596 8.6 3.627 7.45c-.3-.356-.398-.617-.457-1.076c-.202-1.572-.303-2.358.158-2.866S4.604 3 6.234 3h11.532c1.63 0 2.445 0 2.906.507c.461.508.36 1.294.158 2.866c-.06.459-.158.72-.457 1.076c-.97 1.152-2.747 3.202-5.24 5.065a1.05 1.05 0 0 0-.402.747c-.247 2.731-.475 4.227-.617 4.983c-.229 1.222-1.96 1.957-2.888 2.612c-.552.39-1.222-.074-1.293-.678a196 196 0 0 1-.674-6.917a1.05 1.05 0 0 0-.402-.755\"\n          stroke-width=\"1.5\"\n          stroke-linejoin=\"round\"\n          stroke-linecap=\"round\"\n          stroke=\"currentColor\"\n          fill=\"none\"\n        ></path>\n      </svg>\n    </button>\n  </label>\n</div>\n\n<style>\n/* From Uiverse.io by Cobp  - Tags: material design, blue, pink, input, search, shadow, html, css */\n.container {\n  --foreground-color-1: rgba(225, 225, 225, 0.5);\n  --foreground-color-3: rgba(98, 98, 98, 0.3);\n  --foreground-color-2: #ffffff;\n  --background-color-1: #070807;\n  position: relative;\n  padding: 2px;\n  border-radius: 16px;\n  background-image: linear-gradient(\n    325deg,\n    #4d3acd 0%,\n    #4d3acd 10%,\n    rgba(98, 98, 98, 0.3) 25%,\n    rgba(98, 98, 98, 0.3) 50%,\n    rgba(98, 98, 98, 0.3) 75%,\n    #cd3aad 90%,\n    #cd3aad 100%\n  );\n}\n.container::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-color: #ffffff;\n  width: 60px;\n  height: 30px;\n  border-radius: 14px 50% 0 10px;\n  z-index: -1;\n  box-shadow: 0 0 4px #ffffff, 0 0 50px 1px #ffffff, 0 0 50px 10px #cd3aad;\n}\n.container::before {\n  content: \"\";\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  background-color: #ffffff;\n  width: 60px;\n  height: 30px;\n  border-radius: 0 10px 14px 50%;\n  z-index: -1;\n  box-shadow: 0 0 4px #ffffff, 0 0 10px 1px #ffffff, 0 0 50px 10px #4d3acd;\n}\n.shadow-container {\n  position: absolute;\n  border-radius: 16px;\n  background-image: linear-gradient(\n    325deg,\n    #3b82f6 0%,\n    #3b82f6 20%,\n    transparent 25%,\n    transparent 50%,\n    transparent 75%,\n    #cd3aad 80%,\n    #cd3aad 100%\n  );\n  filter: blur(40px);\n  inset: 0;\n  transition: all 0.3s ease-in-out;\n  z-index: -1;\n}\n.search-bar {\n  padding: 8px;\n  background-color: var(--background-color-1);\n  color: var(--foreground-color-1);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 14px;\n  cursor: text;\n}\n.icon {\n  width: 32px;\n  height: 32px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.icon svg {\n  padding: 4px;\n}\n.icon.filter {\n  border: 2px solid transparent;\n  background-image: linear-gradient(\n    to top,\n    #5b5b5b 0%,\n    #070807 40%,\n    #070807 60%,\n    #5b5b5b 100%\n  );\n  border-radius: 8px;\n  color: var(--foreground-color-2);\n  cursor: pointer;\n}\n.icon.filter svg {\n  border-radius: 6px;\n  background-color: var(--background-color-1);\n  box-shadow: inset 0 3px 3px -2px #424242, inset 0 -3px 3px -2px #424242;\n  transition: all 0.3s ease;\n}\n.icon.filter:hover svg {\n  scale: 1.1;\n}\n.input {\n  margin-left: 5px;\n  background-color: transparent;\n  border: none;\n  outline: none;\n  caret-color: var(--foreground-color-2);\n  color: var(--foreground-color-2);\n  font-size: 14px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

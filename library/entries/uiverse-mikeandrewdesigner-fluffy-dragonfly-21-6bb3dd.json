@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-mikeandrewdesigner-fluffy-dragonfly-21-6bb3dd",
+  "title": "Loader by MikeAndrewDesigner (fluffy-dragonfly-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/MikeAndrewDesigner/fluffy-dragonfly-21",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "circle-loader",
+    "spin",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By MikeAndrewDesigner on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/MikeAndrewDesigner_fluffy-dragonfly-21.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by MikeAndrewDesigner - Tags: animation, loader, circle loader, spin, loading animation */\n.loader {\n  width: 5.4em;\n  height: 5.4em;\n  border: 0.4em solid rgb(84, 84, 84);\n  border-left-color: #a23ffc;\n  border-radius: 45%;\n  animation: spin 0.7s linear infinite;\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

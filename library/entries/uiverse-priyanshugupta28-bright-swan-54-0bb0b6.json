@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-priyanshugupta28-bright-swan-54-0bb0b6",
+  "title": "Input by PriyanshuGupta28 (bright-swan-54)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/PriyanshuGupta28/bright-swan-54",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "range",
+    "input-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By PriyanshuGupta28 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/PriyanshuGupta28_bright-swan-54.html",
+  "code": "<input id=\"myRange\" class=\"slider\" value=\"50\" max=\"100\" min=\"0\" type=\"range\">\n\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - Tags: input, range, input effect  */\n.slider {\n  -webkit-appearance: none;\n  width: 100%;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  outline: none;\n  opacity: 0.7;\n  -webkit-transition: .2s;\n  transition: opacity .2s;\n}\n\n.slider::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-color: #4c00ff;\n  background-image: linear-gradient(160deg, #4900f5 0%, #80D0C7 100%);\n  cursor: pointer;\n}\n\n.slider::-moz-range-thumb {\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-color: #0093E9;\n  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);\n  cursor: pointer;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

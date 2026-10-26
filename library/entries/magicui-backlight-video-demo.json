@@ -1,0 +1,36 @@
+{
+  "id": "magicui-backlight-video-demo",
+  "title": "Backlight Video Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/backlight-video",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "backlight",
+    "video",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "An example of the backlight component with a video.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/backlight-video-demo.tsx",
+  "code": "import { Backlight } from \"@/registry/magicui/backlight\"\n\nexport default function BacklightVideoDemo() {\n  return (\n    <Backlight blur={40} className=\"w-full\">\n      <iframe\n        className=\"mx-auto aspect-video w-full max-w-lg\"\n        src=\"https://www.youtube.com/embed/9CJLtzzUphU\"\n        title=\"Gradient Loop Background\"\n        allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n        referrerPolicy=\"strict-origin-when-cross-origin\"\n        allowFullScreen\n      ></iframe>\n    </Backlight>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

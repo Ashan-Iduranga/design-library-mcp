@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-felipesntr-dangerous-deer-2-6d4221",
+  "title": "Button by felipesntr (dangerous-deer-2)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/felipesntr/dangerous-deer-2",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By felipesntr on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/felipesntr_dangerous-deer-2.html",
+  "code": "<button class=\"full-rounded\">\n<span>Hover me</span>\n<div class=\"border full-rounded\"></div></button>\n<style>\n/* From Uiverse.io by felipesntr - Tags: button */\nbutton {\n font-size: 16px;\n position: relative;\n margin: auto;\n padding: 1em 2.5em 1em 2.5em;\n border: none;\n background: #fff;\n transition: all 0.1s linear;\n box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);\n}\n\nbutton:active {\n transform: scale(0.95);\n}\n\nbutton span {\n color: #464646;\n}\n\nbutton .border {\n position: absolute;\n border: 0.15em solid #fff;\n transition: all 0.3s 0.08s linear;\n top: 50%;\n left: 50%;\n width: 9em;\n height: 3em;\n transform: translate(-50%, -50%);\n}\n\nbutton:hover .border {\n display: block;\n width: 9.9em;\n height: 3.7em;\n}\n\n.full-rounded {\n border-radius: 2em;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

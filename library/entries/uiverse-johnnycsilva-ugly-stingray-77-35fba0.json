@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-johnnycsilva-ugly-stingray-77-35fba0",
+  "title": "Card by JohnnyCSilva (ugly-stingray-77)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JohnnyCSilva/ugly-stingray-77",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "notification"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JohnnyCSilva on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/JohnnyCSilva_ugly-stingray-77.html",
+  "code": "<div class=\"card\">\n  <div class=\"img\"></div>\n  <div class=\"textBox\">\n    <div class=\"textContent\">\n      <p class=\"h1\">Clans of Clash</p>\n      <span class=\"span\">12 min ago</span>\n    </div>\n    <p class=\"p\">Xhattmahs is not attacking your base!</p>\n  <div>\n</div></div></div>\n<style>\n/* From Uiverse.io by JohnnyCSilva - Tags: notification */\n.card {\n  width: 100%;\n  max-width: 290px;\n  height: 70px;\n  background: #353535;\n  border-radius: 20px;\n  display: flex;\n  align-items: center;\n  justify-content: left;\n  backdrop-filter: blur(10px);\n  transition: 0.5s ease-in-out;\n}\n\n.card:hover {\n  cursor: pointer;\n  transform: scale(1.05);\n}\n\n.img {\n  width: 50px;\n  height: 50px;\n  margin-left: 10px;\n  border-radius: 10px;\n  background: linear-gradient(#d7cfcf, #9198e5);\n}\n\n.card:hover > .img {\n  transition: 0.5s ease-in-out;\n  background: linear-gradient(#9198e5, #712020);\n}\n\n.textBox {\n  width: calc(100% - 90px);\n  margin-left: 10px;\n  color: white;\n  font-family: 'Poppins' sans-serif;\n}\n\n.textContent {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\n.span {\n  font-size: 10px;\n}\n\n.h1 {\n  font-size: 16px;\n  font-weight: bold;\n}\n\n.p {\n  font-size: 12px;\n  font-weight: lighter;\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-fuzzy-eel-41-94b294",
+  "title": "Pattern by csemszepp (fuzzy-eel-41)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/fuzzy-eel-41",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_fuzzy-eel-41.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 140px; /* control the size */\n  --c1: #ab3e5b;\n  --c2: #ffbe40;\n\n  --_g: #0000 25%, #0008 47%, var(--c1) 53% 147%, var(--c2) 153% 247%,\n    var(--c1) 253% 347%, var(--c2) 353% 447%, var(--c1) 453% 547%, #0008 553%,\n    #0000 575%;\n  --_s: calc(25% / 3) calc(25% / 4) at 50%;\n  background: radial-gradient(var(--_s) 100%, var(--_g)),\n    radial-gradient(var(--_s) 100%, var(--_g)) calc(var(--s) / 2)\n      calc(3 * var(--s) / 4),\n    radial-gradient(var(--_s) 0, var(--_g)) calc(var(--s) / 2) 0,\n    radial-gradient(var(--_s) 0, var(--_g)) 0 calc(3 * var(--s) / 4),\n    repeating-linear-gradient(\n      90deg,\n      #accec0 calc(25% / -6) calc(25% / 6),\n      #61a6ab 0 calc(25% / 2)\n    );\n  background-size: var(--s) calc(3 * var(--s) / 2);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

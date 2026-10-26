@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-vishnu1100-popular-dingo-38-02d547",
+  "title": "Loader by vishnu1100 (popular-dingo-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vishnu1100/popular-dingo-38",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "button",
+    "input",
+    "dark",
+    "theme",
+    "download",
+    "sign-up",
+    "stars"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vishnu1100 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vishnu1100_popular-dingo-38.html",
+  "code": "<section>\n  <div class=\"container\">\n    <div class=\"content\">\n      <div class=\"heart-rate\">\n        <svg\n          xml:space=\"preserve\"\n          viewBox=\"0 0 150 73\"\n          height=\"73px\"\n          width=\"150px\"\n          y=\"0px\"\n          x=\"0px\"\n          xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n          xmlns=\"http://www.w3.org/2000/svg\"\n          version=\"1.0\"\n        >\n          <polyline\n            points=\"0,45.486 38.514,45.486 44.595,33.324 50.676,45.486 57.771,45.486 62.838,55.622 71.959,9 80.067,\n    63.729 84.122,45.486 97.297,45.486 103.379,40.419 110.473,45.486 150,45.486\"\n            stroke-miterlimit=\"10\"\n            stroke-width=\"3\"\n            stroke=\"#009B9E\"\n            fill=\"none\"\n          ></polyline>\n        </svg>\n\n        <div class=\"fade-in\"></div>\n\n        <div class=\"fade-out\"></div>\n      </div>\n    </div>\n  </div>\n</section>\n\n<style>\n/* From Uiverse.io by vishnu1100  - Tags: button, loader, input, dark, theme, download, sign-up, stars */\n/* Specific styles for .container */\n.container {\n  background: #e8e8e8 none repeat scroll 0 0;\n  color: #999;\n  font-size: 100%;\n  line-height: 24px;\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n}\n\n/* Specific styles for .heart-rate container */\n.container .heart-rate {\n  width: 150px;\n  height: 73px;\n  position: relative;\n  margin: 20px auto;\n}\n\n/* Styles for the fade-in animation */\n.container .heart-rate .fade-in {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: #e8e8e8;\n  top: 0;\n  right: 0;\n  animation: heartRateIn 2.5s linear infinite;\n}\n\n/* Styles for the fade-out animation */\n.container .heart-rate .fade-out {\n  position: absolute;\n  width: 120%; /* Adjusted width to ensure animation space */\n  height: 100%;\n  background-color: #e8e8e8;\n  top: 0;\n  right: -120%;\n  animation: heartRateOut 2.5s linear infinite;\n}\n\n/* Keyframes for the heartRateIn animation */\n@keyframes heartRateIn {\n  0% {\n    width: 100%;\n  }\n  50% {\n    width: 0;\n  }\n  100% {\n    width: 0;\n  }\n}\n\n/* Keyframes for the heartRateOut animation */\n@keyframes heartRateOut {\n  0% {\n    left: -120%;\n  }\n  30% {\n    left: -120%;\n  }\n  100% {\n    left: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

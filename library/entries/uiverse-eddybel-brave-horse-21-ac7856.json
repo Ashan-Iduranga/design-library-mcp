@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-eddybel-brave-horse-21-ac7856",
+  "title": "Button by EddyBel (brave-horse-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/EddyBel/brave-horse-21",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "click"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By EddyBel on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/EddyBel_brave-horse-21.html",
+  "code": "<button class=\"button__click\">\n  <div class=\"button__click__background\"></div>\n  Click me\n</button>\n<style>\n/* From Uiverse.io by EddyBel - Tags: gradient, button, click */\n.button__click {\n  border: none;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  text-transform: uppercase;\n  transition: box-shadow 400ms;\n  padding: 0.7em 1.7em;\n  font-size: 1rem;\n  border-radius: 20px;\n  color: rgb(0, 0, 0, 0.75);\n  background: transparent;\n  transform: scale(1.1) perspective(500px) rotateX(15deg) rotateY(-10deg);\n}\n\n.button__click:hover {\n  animation: button__click__animation 5.5s infinite both;\n}\n\n.button__click__background {\n  transition: transform 1.5s;\n  z-index: -2;\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 200%;\n  height: 200%;\n  animation: button__click__background 10s infinite;\n  background-color: #99fff8;\n  background-image: radial-gradient(at 89% 76%, hsla(13,63%,73%,1) 0px, transparent 50%),\n  radial-gradient(at 69% 38%, hsla(217,85%,71%,1) 0px, transparent 50%),\n  radial-gradient(at 12% 8%, hsla(214,70%,64%,1) 0px, transparent 50%),\n  radial-gradient(at 53% 10%, hsla(339,64%,65%,1) 0px, transparent 50%),\n  radial-gradient(at 5% 67%, hsla(212,74%,70%,1) 0px, transparent 50%);\n}\n\n.button__click::before {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  left: 0;\n  top: 0;\n  z-index: -1;\n  background: rgba(255, 255, 255, 0.295);\n}\n\n.button__click:focus {\n  box-shadow: 0px 0px 0px 2px #000;\n}\n\n@keyframes button__click__animation {\n  0%, 100% {\n    transform: scale(1.1) perspective(500px) rotateX(15deg) rotateY(-10deg);\n  }\n\n  50% {\n    transform: scale(0.9) perspective(500px) rotateX(-15deg) rotateY(15deg);\n  }\n}\n\n@keyframes button__click__background {\n  0%, 100% {\n    transform: translateX(0%);\n  }\n\n  25% {\n    transform: translateX(-50%);\n  }\n\n  50% {\n    transform: translateX(-50%) translateY(-50%);\n  }\n\n  75% {\n    transform: translateX(0%) translateY(-50%);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "shadcn-examples-resizable-demo-with-handle",
+  "title": "Resizable Demo With Handle (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/resizable-demo-with-handle.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "resizable",
+    "demo",
+    "with",
+    "handle",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Accessible resizable panel groups and layouts with keyboard support.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/resizable-demo-with-handle.tsx",
+  "code": "import {\n  ResizableHandle,\n  ResizablePanel,\n  ResizablePanelGroup,\n} from \"@/registry/new-york-v4/ui/resizable\"\n\nexport default function ResizableDemo() {\n  return (\n    <ResizablePanelGroup\n      orientation=\"horizontal\"\n      className=\"max-w-md rounded-lg border md:min-w-[450px]\"\n    >\n      <ResizablePanel defaultSize=\"50%\">\n        <div className=\"flex h-[200px] items-center justify-center p-6\">\n          <span className=\"font-semibold\">One</span>\n        </div>\n      </ResizablePanel>\n      <ResizableHandle withHandle />\n      <ResizablePanel defaultSize=\"50%\">\n        <ResizablePanelGroup orientation=\"vertical\">\n          <ResizablePanel defaultSize=\"25%\">\n            <div className=\"flex h-full items-center justify-center p-6\">\n              <span className=\"font-semibold\">Two</span>\n            </div>\n          </ResizablePanel>\n          <ResizableHandle withHandle />\n          <ResizablePanel defaultSize=\"75%\">\n            <div className=\"flex h-full items-center justify-center p-6\">\n              <span className=\"font-semibold\">Three</span>\n            </div>\n          </ResizablePanel>\n        </ResizablePanelGroup>\n      </ResizablePanel>\n    </ResizablePanelGroup>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-elijahgummer-short-bird-25-452088",
+  "title": "Button by elijahgummer (short-bird-25)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/short-bird-25",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "glassmorphism",
+    "animation",
+    "black",
+    "hover-effect",
+    "shimmer"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/elijahgummer_short-bird-25.html",
+  "code": "<button class=\"button\">\n  <span></span>\n  <span></span>\n  <span></span>\n  <span></span>\n  Hover Me\n</button>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: glassmorphism, animation, black, button, hover effect, shimmer */\n.button {\n  cursor: pointer;\n  position: relative;\n  padding: 15px 20px;\n  text-decoration: none;\n  border: none;\n  color: #fff;\n  font-size: 1.2em;\n  text-transform: uppercase;\n  font-family: sans-serif;\n  letter-spacing: 4px;\n  overflow: hidden;\n  background: rgba(255, 255, 255, 0.1);\n  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);\n}\n.button:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50%;\n  height: 100%;\n  background: rgba(255, 255, 255, 0.1);\n}\n.button::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: -100%;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n    90deg,\n    transparent,\n    rgba(255, 255, 255, 0.4),\n    transparent\n  );\n  transition: 0.5s;\n  transition-delay: 0.5s;\n}\n.button:hover:after {\n  left: 100%;\n}\n.button span {\n  position: absolute;\n  display: block;\n  transition: 0.5s ease;\n}\n.button span:nth-child(1) {\n  top: 0;\n  left: 0;\n  width: 0;\n  height: 1px;\n  background: #fff;\n}\n.button:hover span:nth-child(1) {\n  width: 100%;\n  transform: translateX(100%);\n}\n.button span:nth-child(2) {\n  top: 0;\n  left: 0;\n  width: 1px;\n  height: 0;\n  background: #fff;\n}\n.button:hover span:nth-child(2) {\n  height: 100%;\n  transform: translateY(100%);\n}\n.button span:nth-child(3) {\n  bottom: 0;\n  right: 0;\n  width: 0;\n  height: 1px;\n  background: #fff;\n}\n.button:hover span:nth-child(3) {\n  width: 100%;\n  transform: translateX(-100%);\n}\n.button span:nth-child(4) {\n  bottom: 0;\n  right: 0;\n  width: 1px;\n  height: 0;\n  background: #fff;\n}\n.button:hover span:nth-child(4) {\n  height: 100%;\n  transform: translateY(-100%);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

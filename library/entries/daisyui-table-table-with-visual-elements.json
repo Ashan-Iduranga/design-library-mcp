@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-table-table-with-visual-elements",
+  "title": "Table: Table with visual elements (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/table/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "table",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Table can be used to show a list of data in a table format.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/table/+page.md",
+  "code": "<div class=\"overflow-x-auto\">\n  <table class=\"table\">\n    <!-- head -->\n    <thead>\n      <tr>\n        <th>\n          <label>\n            <input type=\"checkbox\" class=\"checkbox\" />\n          </label>\n        </th>\n        <th>Name</th>\n        <th>Job</th>\n        <th>Favorite Color</th>\n        <th></th>\n      </tr>\n    </thead>\n    <tbody>\n      <!-- row 1 -->\n      <tr>\n        <th>\n          <label>\n            <input type=\"checkbox\" class=\"checkbox\" />\n          </label>\n        </th>\n        <td>\n          <div class=\"flex items-center gap-3\">\n            <div class=\"avatar\">\n              <div class=\"mask mask-squircle h-12 w-12\">\n                <img\n                  src=\"https://img.daisyui.com/images/profile/demo/2@94.webp\"\n                  alt=\"Avatar Tailwind CSS Component\" />\n              </div>\n            </div>\n            <div>\n              <div class=\"font-bold\">Hart Hagerty</div>\n              <div class=\"text-sm opacity-50\">United States</div>\n            </div>\n          </div>\n        </td>\n        <td>\n          Zemlak, Daniel and Leannon\n          <br />\n          <span class=\"badge badge-ghost badge-sm\">Desktop Support Technician</span>\n        </td>\n        <td>Purple</td>\n        <th>\n          <button class=\"btn btn-ghost btn-xs\">details</button>\n        </th>\n      </tr>\n      <!-- row 2 -->\n      <tr>\n        <th>\n          <label>\n            <input type=\"checkbox\" class=\"checkbox\" />\n          </label>\n        </th>\n        <td>\n          <div class=\"flex items-center gap-3\">\n            <div class=\"avatar\">\n              <div class=\"mask mask-squircle h-12 w-12\">\n                <img\n                  src=\"https://img.daisyui.com/images/profile/demo/3@94.webp\"\n                  alt=\"Avatar Tailwind CSS Component\" />\n              </div>\n            </div>\n            <div>\n              <div class=\"font-bold\">Brice Swyre</div>\n              <div class=\"text-sm opacity-50\">China</div>\n            </div>\n          </div>\n        </td>\n        <td>\n          Carroll Group\n          <br />\n          <span class=\"badge badge-ghost badge-sm\">Tax Accountant</span>\n        </td>\n        <td>Red</td>\n        <th>\n          <button class=\"btn btn-ghost btn-xs\">details</button>\n        </th>\n      </tr>\n      <!-- row 3 -->\n      <tr>\n        <th>\n          <label>\n            <input type=\"checkbox\" class=\"checkbox\" />\n          </label>\n        </th>\n        <td>\n          <div class=\"flex items-center gap-3\">\n            <div class=\"avatar\">\n              <div class=\"mask mask-squircle h-12 w-12\">\n                <img\n                  src=\"https://img.daisyui.com/images/profile/demo/4@94.webp\"\n                  alt=\"Avatar Tailwind CSS Component\" />\n              </div>\n            </div>\n            <div>\n              <div class=\"font-bold\">Marjy Ferencz</div>\n              <div class=\"text-sm opacity-50\">Russia</div>\n            </div>\n          </div>\n        </td>\n        <td>\n          Rowe-Schoen\n          <br />\n          <span class=\"badge badge-ghost badge-sm\">Office Assistant I</span>\n        </td>\n        <td>Crimson</td>\n        <th>\n          <button class=\"btn btn-ghost btn-xs\">details</button>\n        </th>\n      </tr>\n      <!-- row 4 -->\n      <tr>\n        <th>\n          <label>\n            <input type=\"checkbox\" class=\"checkbox\" />\n          </label>\n        </th>\n        <td>\n          <div class=\"flex items-center gap-3\">\n            <div class=\"avatar\">\n              <div class=\"mask mask-squircle h-12 w-12\">\n                <img\n                  src=\"https://img.daisyui.com/images/profile/demo/5@94.webp\"\n                  alt=\"Avatar Tailwind CSS Component\" />\n              </div>\n            </div>\n            <div>\n              <div class=\"font-bold\">Yancy Tear</div>\n              <div class=\"text-sm opacity-50\">Brazil</div>\n            </div>\n          </div>\n        </td>\n        <td>\n          Wyman-Ledner\n          <br />\n          <span class=\"badge badge-ghost badge-sm\">Community Outreach Specialist</span>\n        </td>\n        <td>Indigo</td>\n        <th>\n          <button class=\"btn btn-ghost btn-xs\">details</button>\n        </th>\n      </tr>\n    </tbody>\n    <!-- foot -->\n    <tfoot>\n      <tr>\n        <th></th>\n        <th>Name</th>\n        <th>Job</th>\n        <th>Favorite Color</th>\n        <th></th>\n      </tr>\n    </tfoot>\n  </table>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

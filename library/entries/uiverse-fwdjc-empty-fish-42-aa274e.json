@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-fwdjc-empty-fish-42-aa274e",
+  "title": "Loader by FWDJc (empty-fish-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/FWDJc/empty-fish-42",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "animation",
+    "heart",
+    "bounce-animation",
+    "css-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By FWDJc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/FWDJc_empty-fish-42.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by FWDJc - Tags: simple, animation, loader, heart, bounce animation, css animation */\n.loader {\n  width: 7em;\n  height: 5em;\n  position: relative;\n  animation: beat 1s infinite;\n}\n\n.loader::before,\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  width: 50px;\n  height: 80px;\n  border-radius: 5em 5em 0 0;\n  animation: coldblue 1s infinite;\n}\n\n.loader::before {\n  left: 50px;\n  transform: rotate(-45deg);\n  transform-origin: 0 100%;\n}\n\n.loader::after {\n  left: 0;\n  transform: rotate(45deg);\n  transform-origin: 100% 100%;\n}\n\n@keyframes beat {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.2);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n@keyframes coldblue {\n  0%, 100% {\n    background-color: rgb(255, 255, 255);\n  }\n\n  50% {\n    background-color: rgb(91, 91, 241);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

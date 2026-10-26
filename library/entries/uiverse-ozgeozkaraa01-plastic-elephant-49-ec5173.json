@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-ozgeozkaraa01-plastic-elephant-49-ec5173",
+  "title": "Button by ozgeozkaraa01 (plastic-elephant-49)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ozgeozkaraa01/plastic-elephant-49",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ozgeozkaraa01 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ozgeozkaraa01_plastic-elephant-49.html",
+  "code": "<button>\n  Hover\n</button>\n<style>\n/* From Uiverse.io by ozgeozkaraa01 - Tags: button */\nbutton {\n  border: none;\n  padding: 0.8em 2.5em;\n  outline: none;\n  color: white;\n  font-style: 1.2em;\n  position: relative;\n  z-index: 1;\n  cursor: pointer;\n  background: none;\n  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);\n}\n\nbutton::before,\nbutton::after {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  border-radius: 10em;\n  -webkit-transform: translateX(-50%) translateY(-50%);\n  transform: translateX(-50%) translateY(-50%);\n  width: 105%;\n  height: 105%;\n  content: \"\";\n  z-index: -2;\n  background-size: 400% 400%;\n  background: linear-gradient(\n    100deg,\n    #f79533,\n    #f37055,\n    #ef4e7b,\n    #a166ab,\n    #5073b8,\n    #1098ad,\n    #07b39b,\n    #6fba82\n  );\n}\n\nbutton::before {\n  -webkit-filter: blur(7px);\n  filter: blur(7px);\n  -webkit-transition: all 0.25s ease;\n  transition: all 0.25s ease;\n  -webkit-animation: pulse 10s infinite ease;\n  animation: pulse 10s infinite ease;\n}\n\nbutton::after {\n  -webkit-filter: blur(0.3px);\n  filter: blur(0.3px);\n}\n\nbutton:hover::before {\n  width: 115%;\n  height: 115%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-milley69-chilly-swan-51-f01b7a",
+  "title": "Loader by milley69 (chilly-swan-51)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/milley69/chilly-swan-51",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By milley69 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/milley69_chilly-swan-51.html",
+  "code": "<div class=\"loading\">\n  <svg width=\"64px\" height=\"48px\">\n      <polyline points=\"0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24\" id=\"back\"></polyline>\n    <polyline points=\"0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24\" id=\"front\"></polyline>\n  </svg>\n</div>\n<style>\n/* From Uiverse.io by milley69 - Tags: loader */\n.loading svg polyline {\n  fill: none;\n  stroke-width: 3;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n}\n\n.loading svg polyline#back {\n  fill: none;\n  stroke: #ff4d5033;\n}\n\n.loading svg polyline#front {\n  fill: none;\n  stroke: #ff4d4f;\n  stroke-dasharray: 48, 144;\n  stroke-dashoffset: 192;\n  animation: dash_682 1.4s linear infinite;\n}\n\n@keyframes dash_682 {\n  72.5% {\n    opacity: 0;\n  }\n\n  to {\n    stroke-dashoffset: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

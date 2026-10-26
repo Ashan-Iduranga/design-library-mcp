@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-212004alji-sour-bullfrog-96-8c69a9",
+  "title": "Button by 212004ALJI (sour-bullfrog-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/212004ALJI/sour-bullfrog-96",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By 212004ALJI on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/212004ALJI_sour-bullfrog-96.html",
+  "code": "<button>\n  INPUT\n</button>\n<style>\n/* From Uiverse.io by 212004ALJI - Tags: button */\nbutton {\n  /* padding: 5px 10px; */\n  height: 50px;\n  width: 100px;\n  font-size: 20px;\n  position: relative;\n  border: navajowhite;\n  background-color: #222;\n  color: aliceblue;\n  z-index: 1;\n  overflow: hidden;\n  transition: all 0.3s;\n  box-shadow: 2px 2px 2px red;\n}\n\nbutton::before {\n  content: '';\n  height: 10px;\n  width: 30px;\n  position: absolute;\n  background-image: linear-gradient(45deg, salmon,red);\n  left: -10px;\n  top: 0;\n  z-index: -1;\n  transition: 0.3s ease-in-out;\n  border-radius: 5px;\n}\n\nbutton:hover::before {\n  height: 100px;\n  width: 100px;\n}\n\nbutton:hover {\n  border-radius: 5px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

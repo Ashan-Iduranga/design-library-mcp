@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-fanishah-fat-dodo-89-61b719",
+  "title": "Loader by fanishah (fat-dodo-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/fanishah/fat-dodo-89",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By fanishah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/fanishah_fat-dodo-89.html",
+  "code": "<div>\n  <svg height=\"108px\" width=\"108px\" viewBox=\"0 0 128 128\" class=\"loader\">\n    <defs>\n      <clipPath id=\"loader-eyes\">\n        <circle transform=\"rotate(-40,64,64) translate(0,-56)\" r=\"8\" cy=\"64\" cx=\"64\" class=\"loader__eye1\"></circle>\n        <circle transform=\"rotate(40,64,64) translate(0,-56)\" r=\"8\" cy=\"64\" cx=\"64\" class=\"loader__eye2\"></circle>\n      </clipPath>\n      <linearGradient y2=\"1\" x2=\"0\" y1=\"0\" x1=\"0\" id=\"loader-grad\">\n        <stop stop-color=\"#000\" offset=\"0%\"></stop>\n        <stop stop-color=\"#fff\" offset=\"100%\"></stop>\n      </linearGradient>\n      <mask id=\"loader-mask\">\n        <rect fill=\"url(#loader-grad)\" height=\"128\" width=\"128\" y=\"0\" x=\"0\"></rect>\n      </mask>\n    </defs>\n    <g stroke-dasharray=\"175.93 351.86\" stroke-width=\"12\" stroke-linecap=\"round\">\n      <g>\n        <rect clip-path=\"url(#loader-eyes)\" height=\"64\" width=\"128\" fill=\"hsl(193,90%,50%)\"></rect>\n        <g stroke=\"hsl(193,90%,50%)\" fill=\"none\">\n          <circle transform=\"rotate(180,64,64)\" r=\"56\" cy=\"64\" cx=\"64\" class=\"loader__mouth1\"></circle>\n          <circle transform=\"rotate(0,64,64)\" r=\"56\" cy=\"64\" cx=\"64\" class=\"loader__mouth2\"></circle>\n        </g>\n      </g>\n      <g mask=\"url(#loader-mask)\">\n        <rect clip-path=\"url(#loader-eyes)\" height=\"64\" width=\"128\" fill=\"hsl(223,90%,50%)\"></rect>\n        <g stroke=\"hsl(223,90%,50%)\" fill=\"none\">\n          <circle transform=\"rotate(180,64,64)\" r=\"56\" cy=\"64\" cx=\"64\" class=\"loader__mouth1\"></circle>\n          <circle transform=\"rotate(0,64,64)\" r=\"56\" cy=\"64\" cx=\"64\" class=\"loader__mouth2\"></circle>\n        </g>\n      </g>\n    </g>\n  </svg>\n</div>\n<style>\n/* From Uiverse.io by fanishah - Tags: loading, loader */\n.loader {\n  width: 8em;\n  height: 8em;\n}\n\n.loader__eye1,\n  .loader__eye2,\n  .loader__mouth1,\n  .loader__mouth2 {\n  animation: eye1 3s ease-in-out infinite;\n}\n\n.loader__eye1,\n  .loader__eye2 {\n  transform-origin: 64px 64px;\n}\n\n.loader__eye2 {\n  animation-name: eye2;\n}\n\n.loader__mouth1 {\n  animation-name: mouth1;\n}\n\n.loader__mouth2 {\n  animation-name: mouth2;\n  visibility: hidden;\n}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n    --bg: hsl(var(--hue), 90%, 10%);\n    --fg: hsl(var(--hue), 90%, 90%);\n  }\n}\n\n@keyframes eye1 {\n  from {\n    transform: rotate(-260deg) translate(0, -56px);\n  }\n\n  50%,\n    60% {\n    animation-timing-function: cubic-bezier(0.17, 0, 0.58, 1);\n    transform: rotate(-40deg) translate(0, -56px) scale(1);\n  }\n\n  to {\n    transform: rotate(225deg) translate(0, -56px) scale(0.35);\n  }\n}\n\n@keyframes eye2 {\n  from {\n    transform: rotate(-260deg) translate(0, -56px);\n  }\n\n  50% {\n    transform: rotate(40deg) translate(0, -56px) rotate(-40deg) scale(1);\n  }\n\n  52.5% {\n    transform: rotate(40deg) translate(0, -56px) rotate(-40deg) scale(1, 0);\n  }\n\n  55%,\n    70% {\n    animation-timing-function: cubic-bezier(0, 0, 0.28, 1);\n    transform: rotate(40deg) translate(0, -56px) rotate(-40deg) scale(1);\n  }\n\n  to {\n    transform: rotate(150deg) translate(0, -56px) scale(0.4);\n  }\n}\n\n@keyframes eyeBlink {\n  from,\n    25%,\n    75%,\n    to {\n    transform: scaleY(1);\n  }\n\n  50% {\n    transform: scaleY(0);\n  }\n}\n\n@keyframes mouth1 {\n  from {\n    animation-timing-function: ease-in;\n    stroke-dasharray: 0 351.86;\n    stroke-dashoffset: 0;\n  }\n\n  25% {\n    animation-timing-function: ease-out;\n    stroke-dasharray: 175.93 351.86;\n    stroke-dashoffset: 0;\n  }\n\n  50% {\n    animation-timing-function: steps(1, start);\n    stroke-dasharray: 175.93 351.86;\n    stroke-dashoffset: -175.93;\n    visibility: visible;\n  }\n\n  75%,\n    to {\n    visibility: hidden;\n  }\n}\n\n@keyframes mouth2 {\n  from {\n    animation-timing-function: steps(1, end);\n    visibility: hidden;\n  }\n\n  50% {\n    animation-timing-function: ease-in-out;\n    visibility: visible;\n    stroke-dashoffset: 0;\n  }\n\n  to {\n    stroke-dashoffset: -351.86;\n  }\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

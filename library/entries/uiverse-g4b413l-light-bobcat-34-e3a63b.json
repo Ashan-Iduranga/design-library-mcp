@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-g4b413l-light-bobcat-34-e3a63b",
+  "title": "Loader by G4b413l (light-bobcat-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/light-bobcat-34",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/G4b413l_light-bobcat-34.html",
+  "code": "<div class=\"momentum\"></div>\n<style>\n/* From Uiverse.io by G4b413l - Tags: loader */\n.momentum {\n --uib-size: 40px;\n --uib-speed: 1s;\n --uib-color: rgb(221, 255, 242);\n position: relative;\n display: flex;\n align-items: center;\n justify-content: center;\n height: var(--uib-size);\n width: var(--uib-size);\n animation: rotate01561 var(--uib-speed) linear infinite;\n}\n\n.momentum::before,\n.momentum::after {\n content: '';\n height: 25%;\n width: 25%;\n border-radius: 50%;\n background-color: var(--uib-color);\n}\n\n.momentum::before {\n animation: wobble290123 calc(var(--uib-speed) * 1.25) ease-in-out infinite;\n}\n\n.momentum::after {\n animation: wobble9123 calc(var(--uib-speed) * 1.25) ease-in-out infinite;\n}\n\n.momentum::before {\n margin-right: 10%;\n}\n\n@keyframes wobble9123 {\n 0%,\n  100% {\n  transform: translateX(0);\n }\n\n 50% {\n  transform: translateX(calc(var(--uib-size) * 0.2)) scale(1.1);\n }\n}\n\n@keyframes wobble290123 {\n 0%,\n  100% {\n  transform: translateX(0);\n }\n\n 50% {\n  transform: translateX(calc(var(--uib-size) * -0.2)) scale(1.1);\n }\n}\n\n@keyframes rotate01561 {\n 0% {\n  transform: rotate(0deg);\n }\n\n 100% {\n  transform: rotate(360deg);\n }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

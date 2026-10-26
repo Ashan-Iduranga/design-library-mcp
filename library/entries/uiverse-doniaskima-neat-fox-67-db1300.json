@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-doniaskima-neat-fox-67-db1300",
+  "title": "Loader by doniaskima (neat-fox-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/neat-fox-67",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "simple",
+    "neumorphism",
+    "skeuomorphism",
+    "glassmorphism",
+    "flashy",
+    "icon",
+    "animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/doniaskima_neat-fox-67.html",
+  "code": "<div class=\"loader\"></div>\n<style>\n/* From Uiverse.io by doniaskima - Tags: simple, neumorphism, skeuomorphism, glassmorphism, flashy, icon, animation, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: fit-content;\n  font-weight: bold;\n  font-family: monospace;\n  font-size: 30px;\n  background: linear-gradient(90deg,#000 50%,#0000 0) right/200% 100%;\n  animation: l21 2s infinite linear;\n}\n\n.loader::before {\n  content: \"Loading...\";\n  color: #0000;\n  padding: 0 5px;\n  background: inherit;\n  background-image: linear-gradient(90deg,#fff 50%,#000 0);\n  -webkit-background-clip: text;\n  background-clip: text;\n}\n\n@keyframes l21 {\n  100% {\n    background-position: left\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-brown-gecko-29-5f7ad5",
+  "title": "Button by Shoh2008 (brown-gecko-29)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/brown-gecko-29",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Shoh2008_brown-gecko-29.html",
+  "code": "<button>\n    <div>Space</div>\n    <div class=\"liquid\"></div>\n</button>\n\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: button */\nbutton {\n  font: 18px;\n  color: #fff;\n  text-decoration: none;\n  text-transform: uppercase;\n  padding: 5px 20px;\n  position: relative;\n  overflow: hidden;\n  border-radius: 5px;\n  transition: 0.2s;\n  transform: scale(2);\n  border: 1px solid;\n}\n\nbutton span {\n  position: relative;\n  z-index: 0;\n  display: flex;\n  color: #fff;\n}\n\nbutton .liquid {\n  position: absolute;\n  top: -50px;\n  left: 0;\n  width: 100%;\n  height: 150px;\n  background: #FF229F;\n  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.7);\n  z-index: -1;\n  transition: 0.6s;\n}\n\nbutton .liquid::after,\nbutton .liquid::before {\n  position: absolute;\n  content: \"🪐\";\n  width: 200%;\n  height: 200%;\n  top: 0;\n  left: 0;\n  transform: translate(-25%, -75%);\n}\n\nbutton .liquid::after {\n  border-radius: 45%;\n  background: rgba(20, 20, 20, 1);\n  box-shadow: 0 0 10px 5px #33053C, inset 0 0 5px #33053C;\n  animation: animate 5s linear infinite;\n  opacity: 0.8;\n}\n\nbutton .liquid::before {\n  content: \"🚀\";\n  border-radius: 40%;\n  box-shadow: 0 0 10px rgba(26, 26, 26, 0.5),\n        inset 0 0 5px rgba(26, 26, 26, 0.5);\n  background: rgba(26, 26, 26, 0.5);\n  animation: animate_3881 7s linear infinite;\n}\n\n@keyframes animate_3881 {\n  0% {\n    transform: translate(-25%, -75%) rotate(0);\n  }\n\n  100% {\n    transform: translate(-25%, -75%) rotate(360deg);\n  }\n}\n\nbutton:hover .liquid {\n  top: -120px;\n}\n\nbutton:hover {\n  box-shadow: 0 0 5px #33053C, inset 0 0 5px #33053C;\n  transition-delay: 0.2s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

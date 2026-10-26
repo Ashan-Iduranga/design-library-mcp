@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-khaledmatalkah-stale-squid-66-22733b",
+  "title": "Button by KhaledMatalkah (stale-squid-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KhaledMatalkah/stale-squid-66",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "transition"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KhaledMatalkah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/KhaledMatalkah_stale-squid-66.html",
+  "code": "<button class=\"button\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by KhaledMatalkah - Tags: button, hover, transition */\n.button {\n  display: inline-block;\n  padding: 15px 32px;\n  font-size: 17px;\n  font-weight: bold;\n  color: #fff;\n  background: linear-gradient(130deg, #ff6b6b, #c94d4d, #8e3636);\n  border-radius: 50px;\n  text-align: center;\n  text-decoration: none;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  z-index: 1;\n  border: none;\n  border-style: solid;\n  border-width: 2px;\n}\n\n.button:before,\n.button:after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  opacity: 0.3;\n  pointer-events: none;\n  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;\n}\n\n.button:before {\n  left: 100%;\n  background: linear-gradient(130deg, #ff6b6b, #c94d4d, #8e3636);\n  z-index: -1;\n}\n\n.button:hover:before {\n  transform: translateX(-50%);\n  opacity: 1;\n}\n\n.button:after {\n  right: 100%;\n  background: linear-gradient(130deg, #ff6b6b, #c94d4d, #8e3636);\n  z-index: -1;\n}\n\n.button:hover:after {\n  transform: translateX(50%);\n  opacity: 1;\n}\n\n.button:hover .button-text {\n  transform: translateY(-3px);\n}\n\n.button-text {\n  transition: transform 0.3s ease-in-out;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

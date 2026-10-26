@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-sonusng-lovely-bulldog-50-c67c37",
+  "title": "Input by sonusng (lovely-bulldog-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/sonusng/lovely-bulldog-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By sonusng on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/sonusng_lovely-bulldog-50.html",
+  "code": "<input required=\"\" type=\"text\" placeholder=\"Your Name\">\n<style>\n/* From Uiverse.io by sonusng - Tags: input */\ninput {\n  width: 210px;\n  height: 50px;\n  padding: 0 16px;\n  background: transparent;\n  border-radius: 4px;\n  border: 1px solid #fe4567;\n  color: #f9f9f9;\n  animation: shake_541 0.14s 3;\n}\n\ninput:valid {\n  border-color: #45feaf;\n  animation: none;\n}\n\n@keyframes shake_541 {\n  0%, 100% {\n    translate: 0;\n  }\n\n  25% {\n    translate: 8px 0;\n  }\n\n  75% {\n    translate: -8px 0;\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

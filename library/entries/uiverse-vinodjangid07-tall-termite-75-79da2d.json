@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-vinodjangid07-tall-termite-75-79da2d",
+  "title": "Loader by vinodjangid07 (tall-termite-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/tall-termite-75",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "loading",
+    "book",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/vinodjangid07_tall-termite-75.html",
+  "code": "<div class=\"loader\">\n  <div class=\"book-wrapper\">\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      fill=\"white\"\n      viewBox=\"0 0 126 75\"\n      class=\"book\"\n    >\n      <rect\n        stroke-width=\"5\"\n        stroke=\"#e05452\"\n        rx=\"7.5\"\n        height=\"70\"\n        width=\"121\"\n        y=\"2.5\"\n        x=\"2.5\"\n      ></rect>\n      <line\n        stroke-width=\"5\"\n        stroke=\"#e05452\"\n        y2=\"75\"\n        x2=\"63.5\"\n        x1=\"63.5\"\n      ></line>\n      <path\n        stroke-linecap=\"round\"\n        stroke-width=\"4\"\n        stroke=\"#c18949\"\n        d=\"M25 20H50\"\n      ></path>\n      <path\n        stroke-linecap=\"round\"\n        stroke-width=\"4\"\n        stroke=\"#c18949\"\n        d=\"M101 20H76\"\n      ></path>\n      <path\n        stroke-linecap=\"round\"\n        stroke-width=\"4\"\n        stroke=\"#c18949\"\n        d=\"M16 30L50 30\"\n      ></path>\n      <path\n        stroke-linecap=\"round\"\n        stroke-width=\"4\"\n        stroke=\"#c18949\"\n        d=\"M110 30L76 30\"\n      ></path>\n    </svg>\n\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      fill=\"#ffffff74\"\n      viewBox=\"0 0 65 75\"\n      class=\"book-page\"\n    >\n      <path\n        stroke-linecap=\"round\"\n        stroke-width=\"4\"\n        stroke=\"#c18949\"\n        d=\"M40 20H15\"\n      ></path>\n      <path\n        stroke-linecap=\"round\"\n        stroke-width=\"4\"\n        stroke=\"#c18949\"\n        d=\"M49 30L15 30\"\n      ></path>\n      <path\n        stroke-width=\"5\"\n        stroke=\"#e05452\"\n        d=\"M2.5 2.5H55C59.1421 2.5 62.5 5.85786 62.5 10V65C62.5 69.1421 59.1421 72.5 55 72.5H2.5V2.5Z\"\n      ></path>\n    </svg>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by vinodjangid07  - Tags: animation, loading, loader, book, loading animation */\n.loader {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.book-wrapper {\n  width: 150px;\n  height: fit-content;\n  display: flex;\n  align-items: center;\n  justify-content: flex-end;\n  position: relative;\n}\n.book {\n  width: 100%;\n  height: auto;\n  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.137));\n}\n.book-wrapper .book-page {\n  width: 50%;\n  height: auto;\n  position: absolute;\n  animation: paging 0.15s linear infinite;\n  transform-origin: left;\n}\n@keyframes paging {\n  0% {\n    transform: rotateY(0deg) skewY(0deg);\n  }\n  50% {\n    transform: rotateY(90deg) skewY(-20deg);\n  }\n  100% {\n    transform: rotateY(180deg) skewY(0deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-boosterrohit-smooth-swan-20-2394ec",
+  "title": "Button by Boosterrohit (smooth-swan-20)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Boosterrohit/smooth-swan-20",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "active",
+    "about-me"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Boosterrohit on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Boosterrohit_smooth-swan-20.html",
+  "code": "<button class=\"box\">\n  <p class=\"text-button\">Button</p>\n</button>\n\n<style>\n/* From Uiverse.io by Boosterrohit - Tags: active, about me */\n.box {\n  position: relative;\n  width: 120px;\n  height: 45px;\n  overflow: hidden;\n  border: none;\n  background-color: rgb(218, 203, 177);\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n  border-top-left-radius: 20px;\n  cursor: pointer;\n  border-bottom-right-radius: 20px;\n  box-shadow: 0 0 10px rgb(104, 134, 218);\n}\n\n.box::before {\n  content: \"\";\n  position: absolute;\n  width: 15px;\n  height: 200px;\n  margin-top: -92px;\n  background: linear-gradient(#00ccff,#d400d4);\n  animation: amm 4s linear infinite;\n}\n\n@keyframes amm {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.text-button {\n  position: relative;\n  font-size: 1.2rem;\n  font-weight: bold;\n  z-index: 1;\n}\n\n.box::after {\n  content: \"\";\n  position: absolute;\n  inset: 4px;\n  background-color: rgb(218, 203, 177);\n  border-top-left-radius: 20px;\n  border-bottom-right-radius: 20px;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

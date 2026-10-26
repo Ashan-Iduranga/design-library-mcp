@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-eslam-hany-grumpy-elephant-48-d108fa",
+  "title": "Button by eslam-hany (grumpy-elephant-48)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/eslam-hany/grumpy-elephant-48",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By eslam-hany on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/eslam-hany_grumpy-elephant-48.html",
+  "code": "<button class=\"btn\">\n  Button\n</button>\n<style>\n/* From Uiverse.io by eslam-hany - Tags: button */\n.btn {\n  position: relative;\n  padding: 10px 50px;\n  font-size: 20px;\n  border: 1px solid #002B5B;\n  text-transform: uppercase;\n  cursor: pointer;\n  border-radius: 15px;\n  transition: all 0.5s;\n  z-index: 1;\n}\n\n.btn:hover {\n  transform: scale(1.1);\n  color: #fff;\n  transition: all 0.5s;\n}\n\n.btn::after {\n  position: absolute;\n  content: \"\";\n  top: 50%;\n  left: 50%;\n  width: 0%;\n  height: 100%;\n  border-radius: 15px;\n  background: linear-gradient(#002B5b,#EA5455);\n  transition: all 0.5s;\n  z-index: -1;\n}\n\n.btn:hover::after {\n  top: 0%;\n  left: 0%;\n  width: 100%;\n  transition: all 0.5s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

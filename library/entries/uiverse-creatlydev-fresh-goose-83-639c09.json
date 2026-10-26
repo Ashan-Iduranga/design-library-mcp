@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-creatlydev-fresh-goose-83-639c09",
+  "title": "Button by Creatlydev (fresh-goose-83)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Creatlydev/fresh-goose-83",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "arrow",
+    "text",
+    "circular",
+    "modern",
+    "purple",
+    "interactive"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Creatlydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Creatlydev_fresh-goose-83.html",
+  "code": "<button class=\"button\">\n  <p class=\"button__text\">\n    <span style=\"--index: 0;\">A</span>\n    <span style=\"--index: 1;\">W</span>\n    <span style=\"--index: 2;\">E</span>\n    <span style=\"--index: 3;\">S</span>\n    <span style=\"--index: 4;\">O</span>\n    <span style=\"--index: 5;\">M</span>\n    <span style=\"--index: 6;\">E</span>\n    <span style=\"--index: 7;\"> </span>\n    <span style=\"--index: 8;\">C</span>\n    <span style=\"--index: 9;\">S</span>\n    <span style=\"--index: 10;\">S</span>\n    <span style=\"--index: 11;\"> </span>\n    <span style=\"--index: 12;\">B</span>\n    <span style=\"--index: 13;\">U</span>\n    <span style=\"--index: 14;\">T</span>\n    <span style=\"--index: 15;\">T</span>\n    <span style=\"--index: 16;\">O</span>\n    <span style=\"--index: 17;\">N</span>\n  </p>\n\n  <div class=\"button__circle\">\n    <svg\n      viewBox=\"0 0 14 15\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      class=\"button__icon\"\n      width=\"14\"\n    >\n      <path\n        d=\"M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z\"\n        fill=\"currentColor\"\n      ></path>\n    </svg>\n\n    <svg\n      viewBox=\"0 0 14 15\"\n      fill=\"none\"\n      width=\"14\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      class=\"button__icon button__icon--copy\"\n    >\n      <path\n        d=\"M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z\"\n        fill=\"currentColor\"\n      ></path>\n    </svg>\n  </div>\n</button>\n\n<style>\n/* From Uiverse.io by Creatlydev  - Tags: button, arrow, button, text, circular, modern, purple, interactive, css, awesome */\n.button {\n  cursor: pointer;\n  border: none;\n  background: #7808d0;\n  color: #fff;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  overflow: hidden;\n  position: relative;\n  display: grid;\n  place-content: center;\n  transition:\n    background 300ms,\n    transform 200ms;\n  font-weight: 600;\n}\n\n.button__text {\n  position: absolute;\n  inset: 0;\n  animation: text-rotation 8s linear infinite;\n\n  > span {\n    position: absolute;\n    transform: rotate(calc(19deg * var(--index)));\n    inset: 7px;\n  }\n}\n\n.button__circle {\n  position: relative;\n  width: 40px;\n  height: 40px;\n  overflow: hidden;\n  background: #fff;\n  color: #7808d0;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.button__icon--copy {\n  position: absolute;\n  transform: translate(-150%, 150%);\n}\n\n.button:hover {\n  background: #000;\n  transform: scale(1.05);\n}\n\n.button:hover .button__icon {\n  color: #000;\n}\n\n.button:hover .button__icon:first-child {\n  transition: transform 0.3s ease-in-out;\n  transform: translate(150%, -150%);\n}\n\n.button:hover .button__icon--copy {\n  transition: transform 0.3s ease-in-out 0.1s;\n  transform: translate(0);\n}\n\n@keyframes text-rotation {\n  to {\n    rotate: 360deg;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

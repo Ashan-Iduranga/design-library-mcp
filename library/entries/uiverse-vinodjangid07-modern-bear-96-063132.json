@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-vinodjangid07-modern-bear-96-063132",
+  "title": "Button by vinodjangid07 (modern-bear-96)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/vinodjangid07/modern-bear-96",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "gradient",
+    "hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By vinodjangid07 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/vinodjangid07_modern-bear-96.html",
+  "code": "<button class=\"Btn\">\n  <p class=\"text\">Button</p>\n  <span class=\"BG\"></span>\n</button>\n<style>\n/* From Uiverse.io by vinodjangid07 - Tags: gradient, button, hover effect */\n.Btn {\n  position: relative;\n  background-color: transparent;\n  border: none;\n  width: 100px;\n  height: 40px;\n  border-radius: 5px;\n  cursor: pointer;\n  transition: all .3s;\n}\n\n.text {\n  width: 100%;\n  height: 100%;\n  background-color: rgba(230, 230, 230, 0.466);\n  border: none;\n  border-radius: 7px;\n  backdrop-filter: blur(5px);\n  color: rgb(26, 26, 26);\n  display: flex;\n  font-weight: 600;\n  align-items: center;\n  justify-content: center;\n  letter-spacing: 0.8px;\n}\n\n.BG {\n  position: absolute;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background-image: linear-gradient(147deg, #FFE53B, #FF2525);\n  z-index: -1;\n  left: 6px;\n  top: 6px;\n  border-radius: 7px;\n  pointer-events: none;\n  transition: all .3s;\n}\n\n.Btn:hover {\n  transform: translateY(-2px);\n}\n\n.Btn:hover .BG {\n  transform: translateY(-1px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

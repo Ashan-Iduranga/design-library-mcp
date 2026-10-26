@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-jubayer-10-sharp-otter-56-44bf59",
+  "title": "Input by jubayer-10 (sharp-otter-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/jubayer-10/sharp-otter-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "simple",
+    "tooltip",
+    "hover",
+    "light",
+    "search",
+    "creative"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By jubayer-10 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/jubayer-10_sharp-otter-56.html",
+  "code": "<!-- From Uiverse.io by jubayer-10  - Tags: simple, tooltip, hover, input, light, search, creative, tailwindcss -->\n<form action=\"#\">\n  <div class=\"w-60 h-12 relative flex rounded-xl\">\n    <input\n      required=\"\"\n      class=\"peer w-full bg-transparent outline-none px-4 text-base rounded-xl bg-white border border-[#4070f4] focus:shadow-md\"\n      id=\"address\"\n      type=\"text\"\n    />\n    <label\n      class=\"absolute top-1/2 translate-y-[-50%] bg-white left-4 px-2 peer-focus:top-0 peer-focus:left-3 font-light text-base peer-focus:text-sm peer-focus:text-[#4070f4] peer-valid:-top-0 peer-valid:left-3 peer-valid:text-sm peer-valid:text-[#4070f4] duration-150\"\n      for=\"address\"\n    >\n      Email Address</label\n    >\n  </div>\n</form>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

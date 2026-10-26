@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-aboalsim114-neat-cow-49-a2f031",
+  "title": "Button by aboalsim114 (neat-cow-49)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aboalsim114/neat-cow-49",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aboalsim114 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/aboalsim114_neat-cow-49.html",
+  "code": "<button>\n  Button\n</button>\n<style>\n/* From Uiverse.io by aboalsim114 - Tags: button */\nbutton {\n  position: relative;\n  background-color: rgb(230, 34, 77);\n  border-radius: 5px;\n  box-shadow: rgb(121, 18, 55) 0px 4px 0px 0px;\n  padding: 15px;\n  background-repeat: no-repeat;\n  box-sizing: border-box;\n  width: 154px;\n  height: 49px;\n  color: #fff;\n  border: none;\n  font-size: 20px;\n  transition: all .3s ease-in-out;\n  z-index: 1;\n  overflow: hidden;\n}\n\nbutton::before {\n  content: \"\";\n  background-color: rgb(248, 50, 93);\n  width: 0;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: -1;\n  transition: width 700ms ease-in-out;\n  display: inline-block;\n}\n\nbutton:hover::before {\n  width: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

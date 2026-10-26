@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-deri-kurniawan-tall-robin-6-05cd05",
+  "title": "Loader by Deri-Kurniawan (tall-robin-6)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Deri-Kurniawan/tall-robin-6",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "gradient",
+    "loading",
+    "cube",
+    "rotate",
+    "box",
+    "loading-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Deri-Kurniawan on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/Deri-Kurniawan_tall-robin-6.html",
+  "code": "<div class=\"loader\">\n    <div class=\"cube\">\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n    </div>\n</div>\n<style>\n/* From Uiverse.io by Deri-Kurniawan - Tags: animation, gradient, loading, loader, cube, rotate, box, loading animation */\n.loader {\n  perspective: 600px;\n  width: 100px;\n  height: 100px;\n}\n\n.cube {\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n  animation: rotate 4s linear infinite;\n}\n\n.face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(45deg, #3498db, #e74c3c);\n  opacity: 0.8;\n  border: 0.5px solid #fff;\n}\n\n.face:nth-child(1) {\n  transform: rotateX(90deg) translateZ(50px);\n}\n\n.face:nth-child(2) {\n  transform: rotateX(-90deg) translateZ(50px);\n}\n\n.face:nth-child(3) {\n  transform: translateZ(50px);\n}\n\n.face:nth-child(4) {\n  transform: rotateY(90deg) translateZ(50px);\n}\n\n.face:nth-child(5) {\n  transform: rotateY(-90deg) translateZ(50px);\n}\n\n.face:nth-child(6) {\n  transform: rotateY(180deg) translateZ(50px);\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotateX(0deg) rotateY(0deg);\n  }\n\n  100% {\n    transform: rotateX(360deg) rotateY(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

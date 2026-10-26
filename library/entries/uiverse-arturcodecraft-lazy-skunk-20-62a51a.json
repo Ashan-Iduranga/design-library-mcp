@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-arturcodecraft-lazy-skunk-20-62a51a",
+  "title": "Button by ArturCodeCraft (lazy-skunk-20)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ArturCodeCraft/lazy-skunk-20",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "icon",
+    "apple",
+    "menu",
+    "menuicon",
+    "menu-button",
+    "hamburger-menu"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ArturCodeCraft on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ArturCodeCraft_lazy-skunk-20.html",
+  "code": "<button class=\"swallow__icon\">\n  <span></span>\n</button>\n<style>\n/* From Uiverse.io by ArturCodeCraft - Tags: icon, apple, button, menu, menuicon, menu button , hamburger menu */\n/* <reset-style> ============================ */\nbutton {\n  border: none;\n  background: none;\n  padding: 0;\n  margin: 0;\n  cursor: pointer;\n  font-family: inherit;\n}\n/* <main-style> ============================ */\n.swallow__icon {\n  width: 2rem;\n  height: 2rem;\n  padding: .25rem;\n  background-color: rgb(29, 29, 31, .7);\n  backdrop-filter: saturate(180%) blur(20px);\n  border: solid 1px rgba(66,66,69,0.7);\n  position: relative;\n}\n\n.swallow__icon span {\n  width: 1.5rem;\n  height: .563rem;\n  position: absolute;\n  top: calc(.25rem + .563rem - 1px);\n  left: calc(.25rem - 1px);\n  transition: transform 1s cubic-bezier(.86, 0, .07, 1),\n              transform-origin 1s cubic-bezier(.86, 0, .07, 1);\n}\n\n.swallow__icon span:before,\n.swallow__icon span:after {\n  content: \"\";\n  width: .75rem;\n  height: .125rem;\n  background-color: rgb(245, 245, 247);\n  position: absolute;\n  bottom: 0;\n  transition: transform 1s cubic-bezier(.86, 0, .07, 1),\n              transform-origin 1s cubic-bezier(.86, 0, .07, 1);\n}\n\n.swallow__icon span:before {\n  right: 50%;\n  border-radius: 2px 0 0 2px;\n  transform-origin: 100% 100%;\n  transform: rotate(40deg);\n}\n\n.swallow__icon span:after {\n  left: 50%;\n  border-radius: 0 2px 2px 0;\n  transform-origin: 0 100%;\n  transform: rotate(-40deg);\n}\n\n.swallow__icon:hover span {\n  transform: translateY(-8px);\n}\n\n.swallow__icon:hover span:before {\n  transform-origin: 100% 0;\n  transform: rotate(-40deg);\n}\n\n.swallow__icon:hover span:after {\n  transform-origin: 0 0;\n  transform: rotate(40deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

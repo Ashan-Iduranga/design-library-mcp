@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaroslavas2001-lovely-fox-50-db844d",
+  "title": "Button by yaroslavas2001 (lovely-fox-50)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/yaroslavas2001/lovely-fox-50",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By yaroslavas2001 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/yaroslavas2001_lovely-fox-50.html",
+  "code": "<button class=\"btn\">\n    <div class=\"wrapper\">\n        <p class=\"text\">Flowers </p>\n\n        <div class=\"flower flower1\">\n            <div class=\"petal one\"></div>\n            <div class=\"petal two\"></div>\n            <div class=\"petal three\"></div>\n            <div class=\"petal four\"></div>\n        </div>\n        <div class=\"flower flower2\">\n            <div class=\"petal one\"></div>\n            <div class=\"petal two\"></div>\n            <div class=\"petal three\"></div>\n            <div class=\"petal four\"></div>\n        </div>\n        <div class=\"flower flower3\">\n            <div class=\"petal one\"></div>\n            <div class=\"petal two\"></div>\n            <div class=\"petal three\"></div>\n            <div class=\"petal four\"></div>\n        </div>\n        <div class=\"flower flower4\">\n            <div class=\"petal one\"></div>\n            <div class=\"petal two\"></div>\n            <div class=\"petal three\"></div>\n            <div class=\"petal four\"></div>\n        </div>\n        <div class=\"flower flower5\">\n            <div class=\"petal one\"></div>\n            <div class=\"petal two\"></div>\n            <div class=\"petal three\"></div>\n            <div class=\"petal four\"></div>\n        </div>\n        <div class=\"flower flower6\">\n            <div class=\"petal one\"></div>\n            <div class=\"petal two\"></div>\n            <div class=\"petal three\"></div>\n            <div class=\"petal four\"></div>\n        </div>\n    </div>\n</button>\n<style>\n/* From Uiverse.io by yaroslavas2001 - Tags: button */\n.btn {\n  height: 4em;\n  width: 12em;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: transparent;\n  border: 0px solid black;\n}\n\n.wrapper {\n  height: 2em;\n  width: 8em;\n  position: relative;\n  background: transparent;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.text {\n  font-size: 17px;\n  z-index: 1;\n  color: #000;\n  padding: 4px 12px;\n  border-radius: 4px;\n  background: rgba(255, 255, 255, 0.7);\n  transition: all 0.5s ease;\n}\n\n.flower {\n  display: grid;\n  grid-template-columns: 1em 1em;\n  position: absolute;\n  transition: grid-template-columns 0.8s ease;\n}\n\n.flower1 {\n  top: -12px;\n  left: -13px;\n  transform: rotate(5deg);\n}\n\n.flower2 {\n  bottom: -5px;\n  left: 8px;\n  transform: rotate(35deg);\n}\n\n.flower3 {\n  bottom: -15px;\n  transform: rotate(0deg);\n}\n\n.flower4 {\n  top: -14px;\n  transform: rotate(15deg);\n}\n\n.flower5 {\n  right: 11px;\n  top: -3px;\n  transform: rotate(25deg);\n}\n\n.flower6 {\n  right: -15px;\n  bottom: -15px;\n  transform: rotate(30deg);\n}\n\n.petal {\n  height: 1em;\n  width: 1em;\n  border-radius: 40% 70% / 7% 90%;\n  background: linear-gradient(#07a6d7, #93e0ee);\n  border: 0.5px solid #96d1ec;\n  z-index: 0;\n  transition: width 0.8s ease, height 0.8s ease;\n}\n\n.two {\n  transform: rotate(90deg);\n}\n\n.three {\n  transform: rotate(270deg);\n}\n\n.four {\n  transform: rotate(180deg);\n}\n\n.btn:hover .petal {\n  background: linear-gradient(#0761d7, #93bdee);\n  border: 0.5px solid #96b4ec;\n}\n\n.btn:hover .flower {\n  grid-template-columns: 1.5em 1.5em;\n}\n\n.btn:hover .flower .petal {\n  width: 1.5em;\n  height: 1.5em;\n}\n\n.btn:hover .text {\n  background: rgba(255, 255, 255, 0.4);\n}\n\n.btn:hover div.flower1 {\n  animation: 15s linear 0s normal none infinite running flower1;\n}\n\n@keyframes flower1 {\n  0% {\n    transform: rotate(5deg);\n  }\n\n  100% {\n    transform: rotate(365deg);\n  }\n}\n\n.btn:hover div.flower2 {\n  animation: 13s linear 1s normal none infinite running flower2;\n}\n\n@keyframes flower2 {\n  0% {\n    transform: rotate(35deg);\n  }\n\n  100% {\n    transform: rotate(-325deg);\n  }\n}\n\n.btn:hover div.flower3 {\n  animation: 16s linear 1s normal none infinite running flower3;\n}\n\n@keyframes flower3 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.btn:hover div.flower4 {\n  animation: 17s linear 1s normal none infinite running flower4;\n}\n\n@keyframes flower4 {\n  0% {\n    transform: rotate(15deg);\n  }\n\n  100% {\n    transform: rotate(375deg);\n  }\n}\n\n.btn:hover div.flower5 {\n  animation: 20s linear 1s normal none infinite running flower5;\n}\n\n@keyframes flower5 {\n  0% {\n    transform: rotate(25deg);\n  }\n\n  100% {\n    transform: rotate(-335deg);\n  }\n}\n\n.btn:hover div.flower6 {\n  animation: 15s linear 1s normal none infinite running flower6;\n}\n\n@keyframes flower6 {\n  0% {\n    transform: rotate(30deg);\n  }\n\n  100% {\n    transform: rotate(390deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

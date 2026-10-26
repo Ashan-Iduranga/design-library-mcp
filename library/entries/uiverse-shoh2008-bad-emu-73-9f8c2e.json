@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-shoh2008-bad-emu-73-9f8c2e",
+  "title": "Checkbox by Shoh2008 (bad-emu-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/bad-emu-73",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/Shoh2008_bad-emu-73.html",
+  "code": "<div class=\"checkbox-wrapper-4\">\n  <input class=\"inp-cbx\" id=\"morning\" type=\"checkbox\">\n  <label class=\"cbx\" for=\"morning\"><span>\n  <svg width=\"12px\" height=\"10px\">\n    \n  </svg></span><span>Morning</span></label>\n  <svg class=\"inline-svg\">\n    <symbol id=\"check-4\" viewBox=\"0 0 12 10\">\n      <polyline points=\"1.5 6 4.5 9 10.5 1\"></polyline>\n    </symbol>\n  </svg>\n</div>\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: checkbox */\n.checkbox-wrapper-4 * {\n  box-sizing: border-box;\n  color: white;\n}\n\n.checkbox-wrapper-4 .cbx {\n  -webkit-user-select: none;\n  user-select: none;\n  cursor: pointer;\n  padding: 6px 8px;\n  border-radius: 6px;\n  overflow: hidden;\n  transition: all 0.2s ease;\n  display: inline-block;\n}\n\n.checkbox-wrapper-4 .cbx:not(:last-child) {\n  margin-right: 6px;\n}\n\n.checkbox-wrapper-4 .cbx:hover {\n  background: rgba(0,119,255,0.06);\n}\n\n.checkbox-wrapper-4 .cbx span {\n  float: left;\n  vertical-align: middle;\n  transform: translate3d(0, 0, 0);\n}\n\n.checkbox-wrapper-4 .cbx span:first-child {\n  position: relative;\n  width: 18px;\n  height: 18px;\n  border-radius: 4px;\n  transform: scale(1);\n  border: 1px solid #cccfdb;\n  transition: all 0.2s ease;\n  box-shadow: 0 1px 1px rgba(0,16,75,0.05);\n}\n\n.checkbox-wrapper-4 .cbx span:first-child svg {\n  position: absolute;\n  top: 3px;\n  left: 2px;\n  fill: none;\n  stroke: #fff;\n  stroke-width: 2;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-dasharray: 16px;\n  stroke-dashoffset: 16px;\n  transition: all 0.3s ease;\n  transition-delay: 0.1s;\n  transform: translate3d(0, 0, 0);\n}\n\n.checkbox-wrapper-4 .cbx span:last-child {\n  padding-left: 8px;\n  line-height: 18px;\n}\n\n.checkbox-wrapper-4 .cbx:hover span:first-child {\n  border-color: #07f;\n}\n\n.checkbox-wrapper-4 .inp-cbx {\n  position: absolute;\n  visibility: hidden;\n}\n\n.checkbox-wrapper-4 .inp-cbx:checked + .cbx span:first-child {\n  background: #07f;\n  border-color: #07f;\n  animation: wave-4 0.4s ease;\n}\n\n.checkbox-wrapper-4 .inp-cbx:checked + .cbx span:first-child svg {\n  stroke-dashoffset: 0;\n}\n\n.checkbox-wrapper-4 .inline-svg {\n  position: absolute;\n  width: 0;\n  height: 0;\n  pointer-events: none;\n  user-select: none;\n}\n\n@media screen and (max-width: 640px) {\n  .checkbox-wrapper-4 .cbx {\n    width: 100%;\n    display: inline-block;\n  }\n}\n\n@-moz-keyframes wave-4 {\n  50% {\n    transform: scale(0.9);\n  }\n}\n\n@-webkit-keyframes wave-4 {\n  50% {\n    transform: scale(0.9);\n  }\n}\n\n@-o-keyframes wave-4 {\n  50% {\n    transform: scale(0.9);\n  }\n}\n\n@keyframes wave-4 {\n  50% {\n    transform: scale(0.9);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-mrhyddenn-popular-sheep-67-df2af0",
+  "title": "Button by mrhyddenn (popular-sheep-67)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/mrhyddenn/popular-sheep-67",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By mrhyddenn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/mrhyddenn_popular-sheep-67.html",
+  "code": "<button class=\"icon-btn add-btn\">\n    <div class=\"add-icon\"></div>\n    <div class=\"btn-txt\">Add Photo</div>\n</button>\n<style>\n/* From Uiverse.io by mrhyddenn - Tags: button */\n.icon-btn {\n  width: 50px;\n  height: 50px;\n  border: 1px solid #cdcdcd;\n  background: white;\n  border-radius: 25px;\n  overflow: hidden;\n  position: relative;\n  transition: width 0.2s ease-in-out;\n  font-weight: 500;\n  font-family: inherit;\n}\n\n.add-btn:hover {\n  width: 120px;\n}\n\n.add-btn::before,\n.add-btn::after {\n  transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;\n  content: \"\";\n  position: absolute;\n  height: 4px;\n  width: 10px;\n  top: calc(50% - 2px);\n  background: seagreen;\n}\n\n.add-btn::after {\n  right: 14px;\n  overflow: hidden;\n  border-top-right-radius: 2px;\n  border-bottom-right-radius: 2px;\n}\n\n.add-btn::before {\n  left: 14px;\n  border-top-left-radius: 2px;\n  border-bottom-left-radius: 2px;\n}\n\n.icon-btn:focus {\n  outline: none;\n}\n\n.btn-txt {\n  opacity: 0;\n  transition: opacity 0.2s;\n}\n\n.add-btn:hover::before,\n.add-btn:hover::after {\n  width: 4px;\n  border-radius: 2px;\n}\n\n.add-btn:hover .btn-txt {\n  opacity: 1;\n}\n\n.add-icon::after,\n.add-icon::before {\n  transition: all 0.2s ease-in-out;\n  content: \"\";\n  position: absolute;\n  height: 20px;\n  width: 2px;\n  top: calc(50% - 10px);\n  background: seagreen;\n  overflow: hidden;\n}\n\n.add-icon::before {\n  left: 22px;\n  border-top-left-radius: 2px;\n  border-bottom-left-radius: 2px;\n}\n\n.add-icon::after {\n  right: 22px;\n  border-top-right-radius: 2px;\n  border-bottom-right-radius: 2px;\n}\n\n.add-btn:hover .add-icon::before {\n  left: 15px;\n  height: 4px;\n  top: calc(50% - 2px);\n}\n\n.add-btn:hover .add-icon::after {\n  right: 15px;\n  height: 4px;\n  top: calc(50% - 2px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

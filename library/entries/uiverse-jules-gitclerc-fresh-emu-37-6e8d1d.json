@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-jules-gitclerc-fresh-emu-37-6e8d1d",
+  "title": "Input by Jules-gitclerc (fresh-emu-37)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Jules-gitclerc/fresh-emu-37",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "material-design",
+    "creditcard",
+    "payment",
+    "mastercard"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Jules-gitclerc on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/Jules-gitclerc_fresh-emu-37.html",
+  "code": "<!-- From Uiverse.io by Jules-gitclerc  - Tags: material design, input, creditcard, payment, mastercard -->\n<div\n  class=\"flex flex-col justify-around bg-gray-800 p-4 border border-white border-opacity-30 rounded-lg shadow-md max-w-xs mx-auto\"\n>\n  <div class=\"flex flex-row items-center justify-between mb-3\">\n    <input\n      class=\"w-full h-10 border-none outline-none text-sm bg-gray-800 text-white font-semibold caret-orange-500 pl-2 mb-3 flex-grow\"\n      type=\"text\"\n      name=\"cardName\"\n      id=\"cardName\"\n      placeholder=\"Full Name\"\n    />\n    <div\n      class=\"flex items-center justify-center relative w-14 h-9 bg-gray-800 border border-white border-opacity-20 rounded-md\"\n    >\n      <svg\n        class=\"text-white fill-current\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n        width=\"30\"\n        height=\"30\"\n        viewBox=\"0 0 48 48\"\n      >\n        <path\n          fill=\"#ff9800\"\n          d=\"M32 10A14 14 0 1 0 32 38A14 14 0 1 0 32 10Z\"\n        ></path>\n        <path\n          fill=\"#d50000\"\n          d=\"M16 10A14 14 0 1 0 16 38A14 14 0 1 0 16 10Z\"\n        ></path>\n        <path\n          fill=\"#ff3d00\"\n          d=\"M18,24c0,4.755,2.376,8.95,6,11.48c3.624-2.53,6-6.725,6-11.48s-2.376-8.95-6-11.48 C20.376,15.05,18,19.245,18,24z\"\n        ></path>\n      </svg>\n    </div>\n  </div>\n  <div class=\"flex flex-col space-y-3\">\n    <input\n      class=\"w-full h-10 border-none outline-none text-sm bg-gray-800 text-white font-semibold caret-orange-500 pl-2\"\n      type=\"text\"\n      name=\"cardNumber\"\n      id=\"cardNumber\"\n      placeholder=\"0000 0000 0000 0000\"\n    />\n    <div class=\"flex flex-row justify-between\">\n      <input\n        class=\"w-full h-10 border-none outline-none text-sm bg-gray-800 text-white font-semibold caret-orange-500 pl-2\"\n        type=\"text\"\n        name=\"expiryDate\"\n        id=\"expiryDate\"\n        placeholder=\"MM/AA\"\n      />\n      <input\n        class=\"w-full h-10 border-none outline-none text-sm bg-gray-800 text-white font-semibold caret-orange-500 pl-2\"\n        type=\"text\"\n        name=\"cvv\"\n        id=\"cvv\"\n        placeholder=\"CVV\"\n      />\n    </div>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

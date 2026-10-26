@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-subaashbala-big-cougar-5-3ae51d",
+  "title": "Toggle by Subaashbala (big-cougar-5)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Subaashbala/big-cougar-5",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "skeuomorphism",
+    "switch",
+    "on",
+    "off",
+    "click-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Subaashbala on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Subaashbala_big-cougar-5.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by Subaashbala  - Tags: skeuomorphism, switch, on, off, click animation */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 5em;\n  height: 2.25em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #e7eff9;\n  outline: 1px solid #f3f8fe;\n  box-shadow: 0 4px 5px #f3f8fe inset, 0 4px 5px #c8d5e6;\n  transition: 0.4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"off\";\n  font-size: 0.85em;\n  color: #d2d6d8;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  min-height: 2em;\n  min-width: 2em;\n  border-radius: 20px;\n  left: 0.35em;\n  bottom: 0.3em;\n  background-color: transparent;\n  outline: 2px solid #d2d6d8;\n  transition: 0.4s;\n}\n\n.switch input:checked + .slider:before {\n  content: \"on\";\n  background-color: #d2d6d8;\n  color: white;\n  transform: translateX(3.1em);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

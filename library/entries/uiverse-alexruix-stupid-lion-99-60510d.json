@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-alexruix-stupid-lion-99-60510d",
+  "title": "Form by alexruix (stupid-lion-99)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/stupid-lion-99",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "login"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/alexruix_stupid-lion-99.html",
+  "code": "<div class=\"main\">  \t\n\t\t<input type=\"checkbox\" id=\"chk\" aria-hidden=\"true\">\n\n\t\t\t<div class=\"login\">\n\t\t\t\t<form class=\"form\">\n\t\t\t\t\t<label for=\"chk\" aria-hidden=\"true\">Log in</label>\n\t\t\t\t\t<input class=\"input\" type=\"email\" name=\"email\" placeholder=\"Email\" required=\"\">\n\t\t\t\t\t<input class=\"input\" type=\"password\" name=\"pswd\" placeholder=\"Password\" required=\"\">\n\t\t\t\t\t<button>Log in</button>\n\t\t\t\t</form>\n\t\t\t</div>\n\n      <div class=\"register\">\n\t\t\t\t<form class=\"form\">\n\t\t\t\t\t<label for=\"chk\" aria-hidden=\"true\">Register</label>\n\t\t\t\t\t<input class=\"input\" type=\"text\" name=\"txt\" placeholder=\"Username\" required=\"\">\n\t\t\t\t\t<input class=\"input\" type=\"email\" name=\"email\" placeholder=\"Email\" required=\"\">\n\t\t\t\t\t<input class=\"input\" type=\"password\" name=\"pswd\" placeholder=\"Password\" required=\"\">\n\t\t\t\t\t<button>Register</button>\n\t\t\t\t</form>\n\t\t\t</div>\n\t</div>\n<style>\n/* From Uiverse.io by alexruix - Tags: login, form */\n.main {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  background-color: #240046;\n  max-height: 420px;\n  overflow: hidden;\n  border-radius: 12px;\n  box-shadow: 7px 7px 10px 3px #24004628;\n}\n\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 14px;\n  padding: 24px;\n}\n\n/*checkbox to switch from sign up to login*/\n#chk {\n  display: none;\n}\n\n/*Login*/\n.login {\n  position: relative;\n  width: 100%;\n  height: 100%;\n}\n\n.login label {\n  margin: 25% 0 5%;\n}\n\nlabel {\n  color: #fff;\n  font-size: 2rem;\n  justify-content: center;\n  display: flex;\n  font-weight: bold;\n  cursor: pointer;\n  transition: .5s ease-in-out;\n}\n\n.input {\n  width: 100%;\n  height: 40px;\n  background: #e0dede;\n  padding: 10px;\n  border: none;\n  outline: none;\n  border-radius: 4px;\n}\n\n/*Register*/\n.register {\n  background: #eee;\n  border-radius: 60% / 10%;\n  transform: translateY(5%);\n  transition: .8s ease-in-out;\n}\n\n.register label {\n  color: #573b8a;\n  transform: scale(.6);\n}\n\n#chk:checked ~ .register {\n  transform: translateY(-60%);\n}\n\n#chk:checked ~ .register label {\n  transform: scale(1);\n  margin: 10% 0 5%;\n}\n\n#chk:checked ~ .login label {\n  transform: scale(.6);\n  margin: 5% 0 5%;\n}   \n/*Button*/\n.form button {\n  width: 85%;\n  height: 40px;\n  margin: 12px auto 10%;\n  color: #fff;\n  background: #573b8a;\n  font-size: 1rem;\n  font-weight: bold;\n  border: none;\n  border-radius: 4px;\n  cursor: pointer;\n  transition: .2s ease-in;\n}\n\n.form button:hover {\n  background-color: #6d44b8;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

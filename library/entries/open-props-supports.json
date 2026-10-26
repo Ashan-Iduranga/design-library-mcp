@@ -1,0 +1,32 @@
+{
+  "id": "open-props-supports",
+  "title": "Open Props: Supports tokens",
+  "source": "Open Props",
+  "url": "https://open-props.style/#supports",
+  "license": "MIT",
+  "type": "token",
+  "tags": [
+    "supports",
+    "open-props",
+    "css-variables",
+    "tokens"
+  ],
+  "framework": "none",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "4 CSS custom properties, e.g. --isLTR, --isRTL, --isLTR, --isRTL.\n\nUse: npm i open-props, then @import \"open-props/supports\" (or copy the variables).\n\nOriginal file: https://github.com/argyleink/open-props/blob/main/src/props.supports.css",
+  "code": "@custom-media --safariONLY      (-apple-pay-button-style: inherit);\n@custom-media --firefoxONLY     (-moz-appearance: inherit);\n@custom-media --firefoxMacONLY  (-moz-osx-font-smoothing: inherit);\n@custom-media --chromeONLY      (-webkit-app-region: inherit) and (not (container-type: none));\n@custom-media --chromiumONLY    (-webkit-app-region: inherit) and (container-type: none);\n@custom-media --webkitONLY      (alt: inherit) and (not (-apple-pay-button-style: inherit));\n\n:where(html) {\n  --isLTR: 1;\n  --isRTL: -1;\n  \n  &:dir(rtl) {\n    --isLTR: -1;\n    --isRTL: 1;\n  }\n}",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:47Z",
+  "updated_at": "2026-10-26T08:08:02Z"
+}

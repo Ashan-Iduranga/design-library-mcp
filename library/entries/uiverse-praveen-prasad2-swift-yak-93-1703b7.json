@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-praveen-prasad2-swift-yak-93-1703b7",
+  "title": "Button by praveen-prasad2 (swift-yak-93)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/praveen-prasad2/swift-yak-93",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By praveen-prasad2 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/praveen-prasad2_swift-yak-93.html",
+  "code": "<button type=\"submit\" class=\"button\">\n  <span>Hello</span>\n</button>\n<style>\n/* From Uiverse.io by praveen-prasad2 - Tags: button */\nbutton {\n  width: 100px;\n  height: 50px;\n  border-radius: 30em;\n  font-size: 15px;\n  font-family: inherit;\n  border: none;\n  position: relative;\n  overflow: hidden;\n  z-index: 1;\n  box-shadow: 6px 6px 12px #c5c5c5,\n             -6px -6px 12px #ffffff;\n}\n\nbutton:hover {\n  color: #ffffff;\n  transform: scale(1.1);\n  outline: 2px solid #70bdca;\n  box-shadow: 4px 5px 17px -4px #268391;\n}\n\nbutton::before {\n  content: \"\";\n  position: absolute;\n  left: -50px;\n  top: 0;\n  width: 0;\n  height: 100%;\n  background-color: #2c9caf;\n  transform: skewX(45deg);\n  z-index: -1;\n  transition: width 1000ms;\n}\n\nbutton:hover::before {\n  width: 250%;\n}\n\n\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

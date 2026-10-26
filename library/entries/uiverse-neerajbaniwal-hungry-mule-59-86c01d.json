@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-neerajbaniwal-hungry-mule-59-86c01d",
+  "title": "Button by neerajbaniwal (hungry-mule-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/neerajbaniwal/hungry-mule-59",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "transition",
+    "text",
+    "btn",
+    "hover-effect",
+    "html",
+    "css",
+    "#button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By neerajbaniwal on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/neerajbaniwal_hungry-mule-59.html",
+  "code": "<a class=\"btn-shine\" href=\"https://check.so\">Get early access</a>\n\n<style>\n/* From Uiverse.io by neerajbaniwal  - Tags: button, transition, text, btn, hover effect, html, css, #button */\n.btn-shine {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  padding: 12px 48px;\n  color: #fff;\n  background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);\n  background-position: 0;\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  animation: shine 3s infinite linear;\n  animation-fill-mode: forwards;\n  -webkit-text-size-adjust: none;\n  font-weight: 600;\n  font-size: 16px;\n  text-decoration: none;\n  white-space: nowrap;\n  font-family: \"Poppins\", sans-serif;\n}\n@-moz-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@-webkit-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@-o-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

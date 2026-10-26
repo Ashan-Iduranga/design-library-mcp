@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-loading-loading-spinner",
+  "title": "Loading: Loading spinner (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/loading/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "loading",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Loading shows an animation to indicate that something is loading.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/loading/+page.md",
+  "code": "<span class=\"loading loading-spinner loading-xs\"></span>\n<span class=\"loading loading-spinner loading-sm\"></span>\n<span class=\"loading loading-spinner loading-md\"></span>\n<span class=\"loading loading-spinner loading-lg\"></span>\n<span class=\"loading loading-spinner loading-xl\"></span>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

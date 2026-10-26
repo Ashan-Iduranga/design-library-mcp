@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jesusrafaelnavacruz-pretty-yak-93-9ae32e",
+  "title": "Button by JesusRafaelNavaCruz (pretty-yak-93)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JesusRafaelNavaCruz/pretty-yak-93",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JesusRafaelNavaCruz on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/JesusRafaelNavaCruz_pretty-yak-93.html",
+  "code": "<div class=\"content\">\n  <div class=\"text\">LOADING...</div>\n  <div class=\"text\">LOADING...</div>\n</div>\n<style>\n/* From Uiverse.io by JesusRafaelNavaCruz - Source: Oluwakemi - https://codepen.io/techgirldiaries/pen/LYWPJPN - Tags: loading, animated, loading animation */\n.content {\n  position: relative;\n}\n\n.content .text {\n  color: #fff;\n  font-size: 3rem;\n  position: absolute;\n  transform: translate(-50%, -50%);\n}\n\n.content .text:nth-child(1) {\n  color: transparent;\n  -webkit-text-stroke: 2px #8338ec;\n}\n\n.content .text:nth-child(2) {\n  color: #c19bf5;\n  animation: animate 4s ease-in-out infinite;\n}\n\n@keyframes animate {\n  0%,\n\t100% {\n    clip-path: polygon(\n\t\t\t0% 45%,\n\t\t\t16% 44%,\n\t\t\t33% 50%,\n\t\t\t54% 60%,\n\t\t\t70% 61%,\n\t\t\t84% 59%,\n\t\t\t100% 52%,\n\t\t\t100% 100%,\n\t\t\t0% 100%\n\t\t);\n  }\n\n  50% {\n    clip-path: polygon(\n\t\t\t0% 60%,\n\t\t\t15% 65%,\n\t\t\t34% 66%,\n\t\t\t51% 62%,\n\t\t\t67% 50%,\n\t\t\t84% 45%,\n\t\t\t100% 46%,\n\t\t\t100% 100%,\n\t\t\t0% 100%\n\t\t);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

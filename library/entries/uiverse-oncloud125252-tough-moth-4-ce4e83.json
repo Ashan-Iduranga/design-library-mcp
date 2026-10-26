@@ -1,0 +1,34 @@
+{
+  "id": "uiverse-oncloud125252-tough-moth-4-ce4e83",
+  "title": "Button by OnCloud125252 (tough-moth-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/OnCloud125252/tough-moth-4",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "black",
+    "animated",
+    "simple-button"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By OnCloud125252 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/OnCloud125252_tough-moth-4.html",
+  "code": "<div tabindex=\"0\" class=\"signInButton\">\n  <p class=\"signInButtonText\">Sign In</p>\n</div>\n<style>\n/* From Uiverse.io by OnCloud125252 - Tags: simple, black, button, animated, simple button */\n/* Note that you only needs to edit the config to customize the button! */\n\n.signInButton {\n  /* Config start */\n  --signIn_width: 6rem;\n  --signIn_height: 2.5rem;\n  --signIn_bottomLeftTriangleSideLength: 1rem;\n  --signIn_topRightTriangleSideLength: 0.9rem;\n  /* Config end */\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border: 1px solid white;\n  width: 6rem;\n  height: 2.5rem;\n  background-color: #000000;\n  overflow: hidden;\n}\n\n.signInButton::before {\n  position: absolute;\n  content: \"\";\n  bottom: 0;\n  left: 0;\n  width: 0;\n  height: 0;\n  border-width: 0 var(--signIn_bottomLeftTriangleSideLength) var(--signIn_bottomLeftTriangleSideLength) 0;\n  border-style: solid;\n  border-color: transparent transparent white transparent;\n  transition-timing-function: ease-in-out;\n  transition-duration: 0.2s;\n}\n\n.signInButton::after {\n  position: absolute;\n  content: \"\";\n  top: 0;\n  right: 0;\n  width: calc(var(--signIn_topRightTriangleSideLength) * 1.4142135623730950488016887242097);\n  height: calc(var(--signIn_topRightTriangleSideLength) * 1.4142135623730950488016887242097);\n  outline: 1px solid white;\n  transform: translate(50%, -50%) rotate(45deg);\n  transition-timing-function: ease-in-out;\n  transition-duration: 0.2s;\n}\n\n.signInButton:hover {\n  cursor: pointer;\n}\n\n.signInButton:hover::before {\n  --signIn_bottomLeftTriangleSideLength: calc(var(--signIn_width) + var(--signIn_height) - var(--signIn_topRightTriangleSideLength) + (var(--signIn_topRightTriangleSideLength) * 0.3));\n}\n\n.signInButton:focus-visible::before {\n  --signIn_bottomLeftTriangleSideLength: calc(var(--signIn_width) + var(--signIn_height) - var(--signIn_topRightTriangleSideLength) + (var(--signIn_topRightTriangleSideLength) * 0.3));\n}\n\n.signInButton:hover::after {\n  transform: translate(calc(50% + var(--signIn_topRightTriangleSideLength) * 0.1), calc((50% + var(--signIn_topRightTriangleSideLength) * 0.1) * -1)) rotate(45deg);\n}\n\n.signInButton:focus-visible::after {\n  transform: translate(calc(50% + var(--signIn_topRightTriangleSideLength) * 0.1), calc((50% + var(--signIn_topRightTriangleSideLength) * 0.1) * -1)) rotate(45deg);\n}\n\n.signInButton:hover>.signInButtonText {\n  color: black;\n}\n\n.signInButton:focus-visible>.signInButtonText {\n  color: black;\n}\n\n.signInButtonText {\n  margin: auto 0;\n  color: white;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  font-weight: 700;\n  text-align: center;\n  z-index: 1;\n  transition-timing-function: ease-in-out;\n  transition-duration: 0.2s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

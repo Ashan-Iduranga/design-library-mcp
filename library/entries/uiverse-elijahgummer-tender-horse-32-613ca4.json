@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-elijahgummer-tender-horse-32-613ca4",
+  "title": "Toggle by elijahgummer (tender-horse-32)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/elijahgummer/tender-horse-32",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "simple",
+    "animation",
+    "switch",
+    "modern",
+    "stretch",
+    "squish"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By elijahgummer on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/elijahgummer_tender-horse-32.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\" class=\"input\" />\n  <span class=\"slider\"></span>\n</label>\n\n<style>\n/* From Uiverse.io by elijahgummer  - Tags: simple, animation, switch, modern, toggle, stretch, squish */\n/* Switch container styling */\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 3.5em; /* Width of the toggle switch */\n  height: 1.5em; /* Height of the toggle switch */\n}\n\n/* Hide default checkbox appearance */\n.switch .input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* Slider styling */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #f0f0f0;\n  border-radius: 0.5em; /* Rounded corners for the slider */\n  box-shadow: inset 0 0.0625em 0 0 #f4f4f4, 0 0.0625em 0 0 #efefef,\n    0 0.125em 0 0 #ececec, 0 0.25em 0 0 #e0e0e0, 0 0.3125em 0 0 #dedede,\n    0 0.375em 0 0 #dcdcdc, 0 0.425em 0 0 #cacaca, 0 0.425em 0.5em 0 #cecece;\n  transition: 0.23s ease;\n}\n\n/* Slider knob styling */\n.slider:before {\n  content: \"\";\n  position: absolute;\n  height: 1.1em;\n  width: 1.1em;\n  border-radius: 50%;\n  background-color: #d3d3d3;\n  left: 0.2em;\n  bottom: 0.2em;\n  transition: 0.23s ease;\n}\n\n/* Change slider background color when checked */\n.input:checked + .slider {\n  translate: 0 0.225em;\n  box-shadow: inset 0 0.03em 0 0 #f4f4f4, 0 0.03em 0 0 #efefef,\n    0 0.0625em 0 0 #ececec, 0 0.125em 0 0 #e0e0e0, 0 0.125em 0 0 #dedede,\n    0 0.2em 0 0 #dcdcdc, 0 0.225em 0 0 #cacaca, 0 0.225em 0.375em 0 #cecece;\n  transform: scale(1.2);\n}\n\n/* Move the knob when checked */\n.input:checked + .slider:before {\n  transform: translateX(2em); /* Move knob to the right */\n  background-color: #87ceeb;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

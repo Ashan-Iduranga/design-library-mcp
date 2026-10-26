@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-eslam-hany-fresh-octopus-46-1448bc",
+  "title": "Button by eslam-hany (fresh-octopus-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/eslam-hany/fresh-octopus-46",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By eslam-hany on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/eslam-hany_fresh-octopus-46.html",
+  "code": "<button class=\"btn\" data-text=\"HELLO\">\n  <span class=\"hover\">HOVER</span>\n</button>\n<style>\n/* From Uiverse.io by eslam-hany - Tags: button, hover */\n.btn {\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 140px;\n  height: 40px;\n  border: 3px solid #0b2447;\n  color: #fff;\n  font-size: 20px;\n  font-weight: bolder;\n  background-color: #0d6efd;\n  overflow: hidden;\n  transition: all 0.5s;\n  cursor: pointer;\n}\n\n.hover {\n  transform: translateX(0%);\n  transition: all 0.5s;\n}\n\n.btn::after {\n  position: absolute;\n  content: attr(data-text);\n  left: 0;\n  transform: translateX(-100%);\n  transition: all 0.5s;\n}\n\n.btn:hover::after {\n  transform: translateX(50%);\n  transition: all 0.5s;\n}\n\n.btn:hover .hover {\n  position: absolute;\n  transform: translateX(150%);\n  transition: all 0.5s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

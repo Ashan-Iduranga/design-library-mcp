@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-dear31-good-yak-38-61bedb",
+  "title": "Button by Dear31 (good-yak-38)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Dear31/good-yak-38",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Dear31 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Dear31_good-yak-38.html",
+  "code": "<button>\n  Hover Me\n</button>\n<style>\n/* From Uiverse.io by Dear31 - Tags: simple, button, hover */\nbutton {\n  padding: 12px 32px;\n  border-radius: 10px;\n  border: 3px black solid;\n  box-shadow: 2px 2px 1px;\n  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;\n  font-weight: 700;\n  font-size: 17px;\n  background-color: #01aaba68;\n  overflow: hidden;\n  position: relative;\n  z-index: 10;\n}\n\nbutton::after {\n  content: \"\";\n  position: absolute;\n  background-color: #199fab;\n  width: 0px;\n  height: 0px;\n  border-radius: 50%;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  transition: all .3s ease-in;\n  z-index: -1;\n}\n\nbutton:hover::after {\n  transform-origin: center;\n  transition: all .3s ease-in;\n  width: 200px;\n  height: 200px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

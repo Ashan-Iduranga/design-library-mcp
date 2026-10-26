@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-sunnyshaikh-blue-chipmunk-76-abda7d",
+  "title": "Button by sunnyshaikh (blue-chipmunk-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/sunnyshaikh/blue-chipmunk-76",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By sunnyshaikh on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/sunnyshaikh_blue-chipmunk-76.html",
+  "code": "<button>\n  Hover Me!\n</button>\n<style>\n/* From Uiverse.io by sunnyshaikh - Tags: button */\nbutton {\n  position: relative;\n  background: #FBD148;\n  box-sizing: border-box;\n  border: 0;\n  outline: 0;\n  padding: 1rem 3rem;\n  font-size: 1em;\n  cursor: pointer;\n  transition: .25s ease;\n}\n\nbutton::before {\n  position: absolute;\n  content: '';\n  box-sizing: border-box;\n  top: 0;\n  left: 0;\n  transform: translate(-5px, -5px);\n  width: 100%;\n  height: 100%;\n  border: 1px solid rgb(84, 84, 84);\n  transition: .25s ease;\n}\n\nbutton:hover {\n  transform: translate(-5px, -5px);\n}\n\nbutton:hover::before {\n  transform: translate(5px, 5px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

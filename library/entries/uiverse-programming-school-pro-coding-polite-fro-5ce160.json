@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-programming-school-pro-coding-polite-fro-5ce160",
+  "title": "Button by Programming-School-Pro-Coding (polite-frog-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Programming-School-Pro-Coding/polite-frog-59",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Programming-School-Pro-Coding on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Programming-School-Pro-Coding_polite-frog-59.html",
+  "code": "<button> Button\n</button>\n<style>\n/* From Uiverse.io by Programming-School-Pro-Coding - Tags: button */\nbutton {\n  --c1: #f6d365;\n  --c2: #fda085;\n  padding: 15px 30px;\n  text-align: center;\n  text-transform: uppercase;\n  transition: 0.5s;\n  background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;\n  color: white;\n  border-radius: 20px;\n  outline: none;\n}\n\nbutton:hover {\n  --x: 100%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jerome-w-90-nervous-dragon-80-13606a",
+  "title": "Button by Jerome-W-90 (nervous-dragon-80)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Jerome-W-90/nervous-dragon-80",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Jerome-W-90 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Jerome-W-90_nervous-dragon-80.html",
+  "code": "<div class=\"box\">\n  <div class=\"container\">\n    <button class=\"button\"><span>A</span></button>\n    <button class=\"button\"><span>B</span></button>\n    <button class=\"button\"><span>C</span></button>\n    <button class=\"button\"><span>D</span></button>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Jerome-W-90  - Website: https://codepen.io/pfndesign/pen/KKYPqMz - Name: pfndesign - Tags: 3d, button, realistic, 3d button */\n.box {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%) skew(15deg);\n  width: 250px;\n  height: 250px;\n}\n.box .container {\n  width: 250px;\n  height: 250px;\n  background: #2f0000;\n  border-radius: 15px;\n  border: 10px solid #cbcdcd;\n  display: flex;\n  flex-wrap: wrap;\n  gap: 0.5px;\n}\n.box .container .button {\n  position: relative;\n  flex-basis: calc(50% - 0.5px);\n  background: #ca0a0b;\n  border: 0;\n  font-size: 35px;\n  border-radius: 5px;\n  color: white;\n  cursor: pointer;\n  transition: all 0.5s ease;\n}\n.box .container .button::before {\n  content: \"\";\n  position: absolute;\n  width: 94px;\n  height: 94px;\n  border-radius: 100%;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  background: rgb(229, 136, 137);\n  background: linear-gradient(\n    133deg,\n    rgba(229, 136, 137, 1) 0%,\n    rgba(229, 136, 137, 1) 15%,\n    rgba(209, 13, 12, 1) 20%,\n    rgba(209, 13, 12, 1) 65%,\n    rgba(97, 4, 3, 1) 100%\n  );\n}\n.box .container .button::after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 0;\n  background: rgb(80, 8, 8);\n  background: linear-gradient(\n    90deg,\n    #4c0405 1%,\n    rgb(202, 10, 11) 5%,\n    rgb(199, 39, 39) 45%,\n    #d88180 100%\n  );\n  left: 0;\n  bottom: 0;\n  transform: skewY(0deg) skewX(-40deg);\n  z-index: -4;\n  transition: all 0.5s ease;\n}\n.box .container .button:hover::after {\n  height: 13px;\n  bottom: -12px;\n  left: -7px;\n}\n.box .container .button span {\n  position: absolute;\n  z-index: 1;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n.box .container .button:hover {\n  transform: translate(12px, -12px);\n  box-shadow: -30px 10px 26px -5px black, -12px 12px 0 0 #ca0a0b,\n    -11px 11px 0 0 #ca0a0b, -10px 10px 0 0 #ca0a0b, -9px 9px 0 0 #ca0a0b,\n    -8px 8px 0 0 #ca0a0b, -7px 7px 0 0 #ca0a0b, -6px 6px 0 0 #ca0a0b,\n    -5px 5px 0 0 #ca0a0b, -4px 4px 0 0 #ca0a0b, -3px 3px 0 0 #ca0a0b,\n    -2px 2px 0 0 #ca0a0b, -1px 1px 0 0 #ca0a0b;\n  z-index: 999;\n}\n.box::before {\n  content: \"\";\n  width: calc(100% + 25px);\n  height: calc(100% + 10px);\n  position: absolute;\n  left: -25px;\n  top: 35px;\n  background: rgb(100, 104, 106);\n  background: linear-gradient(\n    135deg,\n    rgba(100, 104, 106, 1) 0%,\n    rgba(100, 104, 106, 1) 45%,\n    rgba(222, 221, 221, 1) 55%,\n    rgba(222, 221, 221, 1) 100%\n  );\n  z-index: -1;\n  border-radius: 15px;\n}\n.box::after {\n  content: \"\";\n  width: 30px;\n  height: 45px;\n  position: absolute;\n  left: -14px;\n  top: 12px;\n  background: rgba(100, 104, 106, 1);\n  z-index: -1;\n  transform: rotate(215deg);\n}\n.box .container::before {\n  content: \"\";\n  width: 30px;\n  height: 45px;\n  position: absolute;\n  right: -9px;\n  bottom: -39px;\n  background: rgba(222, 221, 221, 1);\n  z-index: -1;\n  transform: rotate(215deg);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

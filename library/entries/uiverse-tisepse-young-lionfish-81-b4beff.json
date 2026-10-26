@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-tisepse-young-lionfish-81-b4beff",
+  "title": "Button by TISEPSE (young-lionfish-81)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/TISEPSE/young-lionfish-81",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "material-design",
+    "active"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By TISEPSE on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/TISEPSE_young-lionfish-81.html",
+  "code": "<button class=\"button\"><span></span>Bouton</button>\n\n<style>\n/* From Uiverse.io by TISEPSE  - Tags: material design, button, active */\n.button {\n  background-color: #ff9b82;\n  cursor: pointer;\n  padding: 1em;\n  width: 10rem;\n  font-size: 17px;\n  box-shadow: 0 0.4rem #ffc8c8;\n  border-radius: 27px;\n  overflow: hidden;\n  z-index: 2;\n  transition: 0.2s;\n  border: 2px solid black;\n}\n\n.button:hover {\n  transform: translateY(0.2rem);\n  box-shadow: 0 0.25rem #ffc8c8;\n  letter-spacing: 2px;\n  color: #fefefe;\n}\n\n.button:active {\n  transform: translateY(0.6rem);\n  box-shadow: none;\n  transition: 0.1s;\n}\n\n.button span {\n  background: #e48586;\n  border-radius: 27px;\n  height: 100%;\n  width: 0%;\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  z-index: -1;\n  transition: 0.2s ease-in-out;\n}\n\n.button:hover span {\n  width: 100%;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

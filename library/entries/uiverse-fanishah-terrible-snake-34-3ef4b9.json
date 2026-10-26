@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-fanishah-terrible-snake-34-3ef4b9",
+  "title": "Loader by fanishah (terrible-snake-34)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/fanishah/terrible-snake-34",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "loading"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By fanishah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/fanishah_terrible-snake-34.html",
+  "code": "<div>\n    <svg class=\"loader\" viewBox=\"0 0 128 128\" width=\"128px\" height=\"128px\" xmlns=\"http://www.w3.org/2000/svg\">\n      <defs>\n        <linearGradient id=\"grad1\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n          <stop offset=\"0%\" stop-color=\"#000\"></stop>\n          <stop offset=\"40%\" stop-color=\"#fff\"></stop>\n          <stop offset=\"100%\" stop-color=\"#fff\"></stop>\n        </linearGradient>\n        <linearGradient id=\"grad2\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n          <stop offset=\"0%\" stop-color=\"#000\"></stop>\n          <stop offset=\"60%\" stop-color=\"#000\"></stop>\n          <stop offset=\"100%\" stop-color=\"#fff\"></stop>\n        </linearGradient>\n        <mask id=\"mask1\">\n          <rect x=\"0\" y=\"0\" width=\"128\" height=\"128\" fill=\"url(#grad1)\"></rect>\n        </mask>\n        <mask id=\"mask2\">\n          <rect x=\"0\" y=\"0\" width=\"128\" height=\"128\" fill=\"url(#grad2)\"></rect>\n        </mask>\n      </defs>\n      <g fill=\"none\" stroke-linecap=\"round\" stroke-width=\"16\">\n        <circle class=\"loader_ring\" r=\"56\" cx=\"64\" cy=\"64\" stroke=\"#ddd\"></circle>\n        <g stroke=\"hsl(223,90%,50%)\">\n          <path class=\"loader_worm1\" d=\"M120,64c0,30.928-25.072,56-56,56S8,94.928,8,64\" stroke=\"hsl(343,90%,50%)\" stroke-dasharray=\"43.98 307.87\"></path>\n          <g transform=\"translate(42,42)\">\n            <g class=\"loader_worm2\" transform=\"translate(-42,0)\">\n              <path class=\"loader_worm2-1\" d=\"M8,22c0-7.732,6.268-14,14-14s14,6.268,14,14\" stroke-dasharray=\"43.98 175.92\"></path>\n            </g>\n          </g>\n        </g>\n        <g stroke=\"hsl(283,90%,50%)\" mask=\"url(#mask1)\">\n          <path class=\"loader_worm1\" d=\"M120,64c0,30.928-25.072,56-56,56S8,94.928,8,64\" stroke-dasharray=\"43.98 307.87\"></path>\n          <g transform=\"translate(42,42)\">\n            <g class=\"loader_worm2\" transform=\"translate(-42,0)\">\n              <path class=\"loader_worm2-1\" d=\"M8,22c0-7.732,6.268-14,14-14s14,6.268,14,14\" stroke-dasharray=\"43.98 175.92\"></path>\n            </g>\n          </g>\n        </g>\n        <g stroke=\"hsl(343,90%,50%)\" mask=\"url(#mask2)\">\n          <path class=\"loader_worm1\" d=\"M120,64c0,30.928-25.072,56-56,56S8,94.928,8,64\" stroke-dasharray=\"43.98 307.87\"></path>\n          <g transform=\"translate(42,42)\">\n            <g class=\"loader_worm2\" transform=\"translate(-42,0)\">\n              <path class=\"loader_worm2-1\" d=\"M8,22c0-7.732,6.268-14,14-14s14,6.268,14,14\" stroke-dasharray=\"43.98 175.92\"></path>\n            </g>\n          </g>\n        </g>\n      </g>\n    </svg>\n  </div>\n  \n<style>\n/* From Uiverse.io by fanishah - Tags: loading, loader */\n.loader {\n  display: block;\n  width: 8em;\n  height: 8em;\n}\n\n.loader_ring {\n  stroke: hsla(var(--hue), 90%, 5%, 0.1);\n  transition: stroke 0.3s;\n}\n\n.loader_worm1,\n  .loader_worm2,\n  .loader_worm2-1 {\n  animation: worm1 5s ease-in infinite;\n}\n\n.loader_worm1 {\n  transform-origin: 64px 64px;\n}\n\n.loader_worm2,\n  .loader_worm2-1 {\n  transform-origin: 22px 22px;\n}\n\n.loader_worm2 {\n  animation-name: worm2;\n  animation-timing-function: linear;\n}\n\n.loader_worm2-1 {\n  animation-name: worm2-1;\n  stroke-dashoffset: 175.92;\n}\n\n  /* Dark theme */\n@media (prefers-color-scheme: dark) {\n  :root {\n    --bg: hsl(var(--hue), 90%, 5%);\n    --fg: hsl(var(--hue), 90%, 95%);\n  }\n\n  .loader_ring {\n    stroke: hsla(var(--hue), 90%, 95%, 0.1);\n  }\n}\n\n  /* Animations */\n@keyframes worm1 {\n  from,\n    to {\n    stroke-dashoffset: 0;\n  }\n\n  12.5% {\n    animation-timing-function: ease-out;\n    stroke-dashoffset: -175.91;\n  }\n\n  25% {\n    animation-timing-function: cubic-bezier(0, 0, 0.43, 1);\n    stroke-dashoffset: -307.88;\n  }\n\n  50% {\n    animation-timing-function: ease-in;\n    stroke-dashoffset: -483.8;\n  }\n\n  62.5% {\n    animation-timing-function: ease-out;\n    stroke-dashoffset: -307.88;\n  }\n\n  75% {\n    animation-timing-function: cubic-bezier(0, 0, 0.43, 1);\n    stroke-dashoffset: -175.91;\n  }\n}\n\n@keyframes worm2 {\n  from,\n    12.5%,\n    75%,\n    to {\n    transform: rotate(0) translate(-42px, 0);\n  }\n\n  25%,\n    62.5% {\n    transform: rotate(0.5turn) translate(-42px, 0);\n  }\n}\n\n@keyframes worm2-1 {\n  from {\n    stroke-dashoffset: 175.91;\n    transform: rotate(0);\n  }\n\n  12.5% {\n    animation-timing-function: cubic-bezier(0, 0, 0.42, 1);\n    stroke-dashoffset: 0;\n    transform: rotate(0);\n  }\n\n  25% {\n    animation-timing-function: linear;\n    stroke-dashoffset: 0;\n    transform: rotate(1.5turn);\n  }\n\n  37.5%,\n    50% {\n    stroke-dashoffset: -175.91;\n    transform: rotate(1.5turn);\n  }\n\n  62.5% {\n    animation-timing-function: cubic-bezier(0, 0, 0.42, 1);\n    stroke-dashoffset: 0;\n    transform: rotate(1.5turn);\n  }\n\n  75% {\n    animation-timing-function: linear;\n    stroke-dashoffset: 0;\n    transform: rotate(0);\n  }\n\n  87.5%,\n    to {\n    stroke-dashoffset: 175.92;\n    transform: rotate(0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

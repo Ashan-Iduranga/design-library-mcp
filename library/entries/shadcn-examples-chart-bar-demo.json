@@ -1,0 +1,35 @@
+{
+  "id": "shadcn-examples-chart-bar-demo",
+  "title": "Chart Bar Demo (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/chart-bar-demo.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "chart",
+    "bar",
+    "demo",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Beautiful charts. Built using Recharts. Copy and paste into your apps.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/chart-bar-demo.tsx",
+  "code": "\"use client\"\n\nimport { Bar, BarChart } from \"recharts\"\n\nimport {\n  ChartContainer,\n  type ChartConfig,\n} from \"@/registry/new-york-v4/ui/chart\"\n\nconst chartData = [\n  { month: \"January\", desktop: 186, mobile: 80 },\n  { month: \"February\", desktop: 305, mobile: 200 },\n  { month: \"March\", desktop: 237, mobile: 120 },\n  { month: \"April\", desktop: 73, mobile: 190 },\n  { month: \"May\", desktop: 209, mobile: 130 },\n  { month: \"June\", desktop: 214, mobile: 140 },\n]\n\nconst chartConfig = {\n  desktop: {\n    label: \"Desktop\",\n    color: \"#2563eb\",\n  },\n  mobile: {\n    label: \"Mobile\",\n    color: \"#60a5fa\",\n  },\n} satisfies ChartConfig\n\nexport default function Component() {\n  return (\n    <ChartContainer config={chartConfig} className=\"min-h-[200px] w-full\">\n      <BarChart accessibilityLayer data={chartData}>\n        <Bar dataKey=\"desktop\" fill=\"var(--color-desktop)\" radius={4} />\n        <Bar dataKey=\"mobile\" fill=\"var(--color-mobile)\" radius={4} />\n      </BarChart>\n    </ChartContainer>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

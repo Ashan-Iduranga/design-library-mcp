@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-adamgiebl-blue-mole-92-3783eb",
+  "title": "Card by adamgiebl (blue-mole-92)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/adamgiebl/blue-mole-92",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "gradient"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By adamgiebl on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/adamgiebl_blue-mole-92.html",
+  "code": "<div class=\"card\">\n<div class=\"card__content\"></div>\n<div class=\"blob\"></div>\n<div class=\"blob\"></div>\n<div class=\"blob\"></div>\n<div class=\"blob\"></div>\n</div>\n<style>\n/* From Uiverse.io by adamgiebl - Tags: gradient, card */\n.card {\n  position: relative;\n  width: 190px;\n  height: 254px;\n  background: lightgrey;\n  box-shadow: #d11bff42 0 15px 40px -5px;\n  z-index: 1;\n  border-radius: 21px;\n  overflow: hidden;\n}\n\n.card__content {\n  background: linear-gradient(rgba(255, 255, 255, 0.473), rgba(150, 150, 150, 0.25));\n  z-index: 1;\n  backdrop-filter: blur(20px);\n  -webkit-backdrop-filter: blur(20px);\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: 21px;\n}\n\n.card .blob {\n  position: absolute;\n  z-index: -1;\n  border-radius: 5em;\n  width: 200px;\n  height: 200px;\n}\n\n.card .blob:nth-child(2) {\n  left: -50px;\n  top: -90px;\n  background: #ff930f;\n}\n\n.card .blob:nth-child(3) {\n  left: 110px;\n  top: -20px;\n  z-index: -1;\n  background: #bf0fff;\n}\n\n.card .blob:nth-child(4) {\n  left: -40px;\n  top: 100px;\n  background: #ff1b6b;\n}\n\n.card .blob:nth-child(5) {\n  left: 100px;\n  top: 180px;\n  background: #0061ff;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

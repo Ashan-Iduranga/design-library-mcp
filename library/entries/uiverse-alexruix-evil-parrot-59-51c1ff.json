@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-alexruix-evil-parrot-59-51c1ff",
+  "title": "Input by alexruix (evil-parrot-59)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/alexruix/evil-parrot-59",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "subscription"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By alexruix on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/alexruix_evil-parrot-59.html",
+  "code": "<div class=\"input-group\">\n    <input type=\"email\" class=\"input\" id=\"Email\" name=\"Email\" placeholder=\"uiverse@verse.io\" autocomplete=\"off\">\n    <input class=\"button--submit\" value=\"Subscribe\" type=\"submit\">\n</div>\n<style>\n/* From Uiverse.io by alexruix - Tags: subscription, input */\n.input-group {\n  display: flex;\n  align-items: center;\n}\n\n.input {\n  min-height: 50px;\n  max-width: 150px;\n  padding: 0 1rem;\n  color: #fff;\n  font-size: 15px;\n  border: 1px solid #5e4dcd;\n  border-radius: 6px 0 0 6px;\n  background-color: transparent;\n}\n\n.button--submit {\n  min-height: 50px;\n  padding: .5em 1em;\n  border: none;\n  border-radius: 0 6px 6px 0;\n  background-color: #5e4dcd;\n  color: #fff;\n  font-size: 15px;\n  cursor: pointer;\n  transition: background-color .3s ease-in-out;\n}\n\n.button--submit:hover {\n  background-color: #5e5dcd;\n}\n\n.input:focus, .input:focus-visible {\n  border-color: #3898EC;\n  outline: none;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-nabeelahmadk-fat-fox-21-c4b7ad",
+  "title": "Button by NabeelAhmadK (fat-fox-21)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/NabeelAhmadK/fat-fox-21",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By NabeelAhmadK on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/NabeelAhmadK_fat-fox-21.html",
+  "code": "<button>\n    Button\n</button>\n<style>\n/* From Uiverse.io by NabeelAhmadK - Tags: button */\nbutton {\n  width: fit-content;\n  height: 45px;\n  background: #ffffff0d;\n  border-radius: 8px;\n  border: 2px solid #334b79;\n  font-size: 15px;\n  font-weight: bold;\n  color: #334b79;\n  -webkit-transition: 0.5s all ease;\n  transition: 0.5s all ease;\n  position: relative;\n  overflow: hidden;\n  padding: 10px 25px;\n  z-index: 1;\n}\n\nbutton:before {\n  width: 50%;\n  height: 100%;\n  content: \"\";\n  margin: auto;\n  position: absolute;\n  top: 0%;\n  left: -50%;\n  background: #334b79;\n  transition: all 0.5s ease;\n  z-index: -1;\n}\n\nbutton:after {\n  width: 50%;\n  height: 100%;\n  content: \"\";\n  margin: auto;\n  position: absolute;\n  top: 0%;\n  left: 100%;\n  background: #334b79;\n  transition: all 0.5s ease;\n  z-index: -1;\n}\n\nbutton:hover {\n  color: white;\n  cursor: pointer;\n}\n\nbutton:hover:before {\n  top: 0;\n  left: 0;\n}\n\nbutton:hover:after {\n  top: 0;\n  left: 50%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

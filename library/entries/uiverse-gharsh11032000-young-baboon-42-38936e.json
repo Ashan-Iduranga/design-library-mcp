@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-gharsh11032000-young-baboon-42-38936e",
+  "title": "Checkbox by gharsh11032000 (young-baboon-42)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/young-baboon-42",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse",
+    "toggle",
+    "click-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/gharsh11032000_young-baboon-42.html",
+  "code": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: checkbox, toggle, click effect */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  border: 2px solid #414141;\n  transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n/* When the checkbox is checked */\n.container input:checked ~ .checkmark {\n  background: #0974f1;\n  border-color: #0974f1;\n  filter: drop-shadow(5px 5px);\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n}\n\n.container .checkmark:after {\n  inset: 0;\n  margin: auto;\n  width: 0.5em;\n  height: 0.5em;\n  background-color: #414141;\n  border-width: 0 0.15em 0.15em 0;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n  width: 0.25em;\n  height: 0.5em;\n  border: solid #414141;\n  border-width: 0 0.15em 0.15em 0;\n  border-color: white;\n  background-color: transparent;\n  transform: rotate(45deg);\n}\n\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

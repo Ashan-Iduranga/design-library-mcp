@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-themrsami-strong-rat-23-6e8b6b",
+  "title": "Form by themrsami (strong-rat-23)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/themrsami/strong-rat-23",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "form",
+    "uiverse",
+    "themrsami",
+    "darkversion",
+    "dream-form"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By themrsami on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Forms/themrsami_strong-rat-23.html",
+  "code": "<!-- From Uiverse.io by themrsami - Tags: form, tailwind, tailwindcss, themrsami, darkversion, dream form -->\n<div class=\"mt-4 flex flex-col bg-gray-900 rounded-lg p-4\">\n  <h2 class=\"text-white font-bold text-2xl\">AI Story Maker Dream Form</h2>\n\n  <div class=\"mt-4\">\n    <label class=\"text-white\" for=\"title\">Title</label>\n    <input placeholder=\"Enter a title for your dream\" class=\"w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1\" type=\"text\">\n  </div>\n\n  <div class=\"mt-4\">\n    <label class=\"text-white\" for=\"description\">Description</label>\n    <textarea placeholder=\"Describe your dream in detail\" class=\"w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1\" id=\"description\"></textarea>\n  </div>\n\n  <div class=\"mt-4 flex flex-row space-x-2\">\n    <div class=\"flex-1\">\n      <label class=\"text-white\" for=\"emotions\">Emotions</label>\n      <input placeholder=\"What emotions did you feel during your dream?\" class=\"w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1\" id=\"emotions\" type=\"text\">\n    </div>\n\n    <div class=\"flex-1\">\n      <label class=\"text-white\" for=\"symbols\">Symbols</label>\n      <input placeholder=\"Did you see any symbols in your dream?\" class=\"w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1\" id=\"symbols\" type=\"text\">\n    </div>\n  </div>\n\n  <div class=\"mt-4 flex flex-row space-x-2\">\n    <div class=\"flex-1\">\n      <label class=\"text-white\" for=\"themes\">Themes</label>\n      <input placeholder=\"What themes do you think your dream might be about?\" class=\"w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1\" id=\"themes\" type=\"text\">\n    </div>\n  </div>\n\n  <div class=\"mt-4 flex justify-end\">\n    <button class=\"bg-teal-500 text-white rounded-md px-4 py-1 hover:bg-teal-600 hover:text-white\" id=\"generate-button\" type=\"button\">Generate</button>\n  </div>\n\n  <div class=\"mt-4\">\n    <textarea placeholder=\"Your AI-generated story will appear here\" class=\"w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1 h-48\" id=\"story-output\"></textarea>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

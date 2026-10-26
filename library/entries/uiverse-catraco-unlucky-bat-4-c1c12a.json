@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-catraco-unlucky-bat-4-c1c12a",
+  "title": "Card by catraco (unlucky-bat-4)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/catraco/unlucky-bat-4",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By catraco on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/catraco_unlucky-bat-4.html",
+  "code": "<div class=\"card\">\n  <span></span>\n  <span></span>\n  <span></span>\n  <span></span>\n  <div>\n    <svg class=\"check\" xmlns=\"http://www.w3.org/2000/svg\" height=\"1em\" viewBox=\"0 0 512 512\">\n      \n      <path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z\"></path>\n    </svg>\n    <strong>Card Title</strong>\n    <p>Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · </p>\n    <hr>\n    <button>\n      Action\n      <svg class=\"arrow\" xmlns=\"http://www.w3.org/2000/svg\" height=\"1em\" viewBox=\"0 0 512 512\">\n      <path d=\"M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z\"></path>\n      </svg>\n      </button>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by catraco - Tags: card, animated */\n.card {\n  --card-color: #0080ff;\n  --blub-color: #52d4eb;\n  position: relative;\n  user-select: none;\n}\n\n@keyframes keyframes-rotate-blubs {\n  0% {\n    transform: translate(10px) rotate(360deg);\n  }\n\n  50% {\n    transform: translate(-5px, 10px) rotate(180deg);\n  }\n\n  100% {\n    transform: translate(10px) rotate(0deg);\n  }\n}\n\n.card span {\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  background: linear-gradient(0deg, transparent, var(--blub-color));\n  border-radius: 100%;\n  opacity: 0.5;\n  animation: keyframes-rotate-blubs 4s infinite linear;\n}\n\n.card span:nth-child(1) {\n  top: -5%;\n  left: -5%;\n  width: 60px;\n  height: 60px;\n  animation-delay: .1s;\n  opacity: 0.3;\n}\n\n.card span:nth-child(2) {\n  top: 60%;\n  left: -20%;\n  width: 80px;\n  height: 80px;\n  animation-delay: .2s;\n  opacity: 0.3;\n}\n\n.card span:nth-child(3) {\n  top: 10%;\n  left: 60%;\n  animation-delay: .3s;\n  opacity: 0.6;\n}\n\n.card span:nth-child(4) {\n  top: 70%;\n  left: 50%;\n  width: 90px;\n  height: 90px;\n  animation-delay: .4s;\n  opacity: 0.4;\n}\n\n.card div {\n  backdrop-filter: blur(15px);\n  outline: 1px solid var(--card-color);\n  color: var(--card-color);\n  width: 180px;\n  height: 250px;\n  border-radius: 5%;\n  padding: 1rem;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\n.card div .check {\n  fill: var(--card-color);\n  width: 25px;\n  height: 25px;\n  position: absolute;\n  top: 0;\n  right: 0;\n  transform: translate(50%, -50%);\n}\n\n.card div strong {\n  font-size: 1rem;\n  font-weight: 900;\n  text-transform: uppercase;\n}\n\n.card div p {\n  font-size: 0.8rem;\n}\n\n.card div hr {\n  border: none;\n  border-top: 1px solid var(--card-color);\n  opacity: .5;\n}\n\n.card div button {\n  background-color: transparent;\n  color: var(--card-color);\n  border: none;\n  outline: 1px solid var(--card-color);\n  border-radius: 1rem;\n  padding: .5rem 1rem;\n  font-size: 0.8rem;\n  font-weight: 900;\n  transition: .3s;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  text-transform: uppercase;\n  gap: .2em;\n}\n\n.card div button .arrow {\n  width: 0px;\n  height: 20px;\n  fill: var(--blub-color);\n  transform: scale(0);\n  transition: .3s;\n}\n\n.card div button:hover .arrow {\n  width: 20px;\n  margin-left: 1em;\n  transform: scale(1);\n}\n\n.card div button:hover {\n  background-color: var(--card-color);\n  color: var(--blub-color);\n  cursor: pointer;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

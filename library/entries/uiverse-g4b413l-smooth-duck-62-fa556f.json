@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-g4b413l-smooth-duck-62-fa556f",
+  "title": "Checkbox by G4b413l (smooth-duck-62)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/smooth-duck-62",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Checkboxes/G4b413l_smooth-duck-62.html",
+  "code": "<label>\n    <input checked=\"\" type=\"checkbox\">\n    <span class=\"checkbox\"></span>\n</label>\n<style>\n/* From Uiverse.io by G4b413l - Tags: checkbox */\nlabel {\n  display: block;\n  width: 20px;\n  height: 20px;\n  cursor: pointer;\n}\n\ninput[type='checkbox'] {\n  position: absolute;\n  transform: scale(0);\n}\n\ninput[type='checkbox']:checked ~ .checkbox {\n  transform: rotate(45deg);\n  width: 14px;\n  margin-left: 5px;\n  border-color: #24c78e;\n  border-width: 5px;\n  border-top-color: transparent;\n  border-left-color: transparent;\n  border-radius: 0;\n}\n\n.checkbox {\n  display: block;\n  width: inherit;\n  height: inherit;\n  border: solid 3px #2a2a2ab7;\n  border-radius: 6px;\n  transition: all 0.375s;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

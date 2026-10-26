@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-ahmed150up-moody-turtle-89-c40037",
+  "title": "Button by ahmed150up (moody-turtle-89)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/ahmed150up/moody-turtle-89",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "save",
+    "btn"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By ahmed150up on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/ahmed150up_moody-turtle-89.html",
+  "code": "<button class=\"btn-save\">\n    <svg viewBox=\"0 0 384 512\" height=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z\"></path></svg>\n    \n  </button>\n\n<style>\n/* From Uiverse.io by ahmed150up - Tags: save, btn */\n.btn-save {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 10px 20px;\n  border: none;\n  border-radius: 4px;\n  background-color: #f2f2f2;\n  color: #333;\n  font-size: 16px;\n  font-weight: bold;\n  cursor: pointer;\n  transition: background-color 0.3s ease;\n}\n\n.btn-save:hover {\n  background-color: #ddd;\n}\n\n.icon {\n  width: 24px;\n  height: 24px;\n  margin-right: 8px;\n}\n\n.icon-path {\n  fill: #333;\n  transition: fill 0.3s ease;\n}\n\n.btn-save:hover .icon-path {\n  fill: #888;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

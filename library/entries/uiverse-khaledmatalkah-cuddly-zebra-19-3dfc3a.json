@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-khaledmatalkah-cuddly-zebra-19-3dfc3a",
+  "title": "Button by KhaledMatalkah (cuddly-zebra-19)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/KhaledMatalkah/cuddly-zebra-19",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "hover",
+    "transition"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By KhaledMatalkah on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/KhaledMatalkah_cuddly-zebra-19.html",
+  "code": "<button class=\"button\">\n  Hover Me!\n</button>\n<style>\n/* From Uiverse.io by KhaledMatalkah - Tags: button, hover, transition */\n.button {\n  display: inline-block;\n  padding: 15px 32px;\n  font-size: 17px;\n  font-weight: bold;\n  color: rgb(0, 0, 0);\n  background: transparent;\n  border-radius: 50px;\n  text-align: center;\n  text-decoration: none;\n  cursor: pointer;\n  position: relative;\n  border: none;\n  z-index: 1;\n}\n\n.button {\n  overflow: hidden;\n}\n\n.button:before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: -100%;\n  width: 100%;\n  height: 100%;\n  background-color: rgb(255, 255, 255);\n  transition: left 0.8s ease-in-out;\n  z-index: -1;\n}\n\n.button:hover:before {\n  left: 0%;\n}\n\n.button:after {\n  content: \"\";\n  position: absolute;\n  bottom: 50%;\n  right: -100%;\n  width: 100%;\n  height: 100%;\n  background-color: rgb(255, 255, 255);\n  transition: right 0.8s ease-in-out;\n  z-index: -1;\n}\n\n.button:hover:after {\n  right: 0%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

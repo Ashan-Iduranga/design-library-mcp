@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-sujitadroja-sharp-frog-56-569991",
+  "title": "Button by SujitAdroja (sharp-frog-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/SujitAdroja/sharp-frog-56",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By SujitAdroja on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/SujitAdroja_sharp-frog-56.html",
+  "code": "<button class=\"btn\">\n  Diagonal Swipe\n</button>\n<style>\n/* From Uiverse.io by SujitAdroja - Tags: button */\n.btn {\n  color: purple;\n  text-transform: uppercase;\n  text-decoration: none;\n  border: 2px solid purple;\n  padding: 10px 20px;\n  font-size: 17px;\n  font-weight: bold;\n  background: transparent;\n  position: relative;\n  transition: all 1s;\n  overflow: hidden;\n}\n\n.btn:hover {\n  color: white;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  height: 100%;\n  width: 0%;\n  top: 0;\n  left: -40px;\n  transform: skewX(45deg);\n  background-color: purple;\n  z-index: -1;\n  transition: all 1s;\n}\n\n.btn:hover::before {\n  width: 160%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

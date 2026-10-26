@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-gharsh11032000-pink-elephant-19-314c11",
+  "title": "Button by gharsh11032000 (pink-elephant-19)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/pink-elephant-19",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "animation",
+    "animated",
+    "hover-effect",
+    "simple-button",
+    "hover-button",
+    "button-hover-effect"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/gharsh11032000_pink-elephant-19.html",
+  "code": "<button class=\"btn\">\n  <span>Modern Button</span>\n</button>\n\n<style>\n/* From Uiverse.io by gharsh11032000  - Tags: animation, button, animated, hover effect, simple button, hover button, button hover effect  */\n.btn {\n  position: relative;\n  transition: color 0.48s 0s cubic-bezier(0.23, 1, 0.32, 1),\n    transform 0.48s cubic-bezier(0.23, 1, 0.32, 1);\n  display: flex;\n  padding: 12px 24px;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  font-family: inherit;\n  font-size: 14px;\n  border: none;\n  cursor: pointer;\n  color: #000000;\n  overflow: hidden;\n  text-decoration: none;\n  background-color: transparent;\n}\n\n.btn span {\n  font-size: 1.2rem;\n  font-weight: 700;\n  line-height: 1.6;\n}\n\n.btn::before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  left: 0%;\n  top: 50%;\n  transform: translateY(-50%) scaleY(0);\n  width: 3px;\n  height: 100%;\n  background: #0a3cff;\n  transition: transform 0.48s 0.4s cubic-bezier(0.23, 1, 0.32, 1),\n    width 0.48s 0.1s cubic-bezier(0.23, 1, 0.32, 1);\n}\n\n.btn:hover {\n  color: #ffffff;\n  transition: color 0.48s 0.24s cubic-bezier(0.23, 1, 0.32, 1),\n    transform 0.48s 0.1s cubic-bezier(0.23, 1, 0.32, 1);\n}\n\n.btn:hover::before {\n  transform: translateY(-50%) scaleY(1);\n  width: 100%;\n  transition: transform 0.48s 0.1s cubic-bezier(0.23, 1, 0.32, 1),\n    width 0.48s 0.4s cubic-bezier(0.23, 1, 0.32, 1);\n}\n\n.btn:active {\n  transform: scale(0.95);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

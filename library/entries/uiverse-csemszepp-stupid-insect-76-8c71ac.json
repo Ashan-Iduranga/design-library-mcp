@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-stupid-insect-76-8c71ac",
+  "title": "Pattern by csemszepp (stupid-insect-76)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/stupid-insect-76",
+  "license": "MIT",
+  "type": "style",
+  "tags": [
+    "pattern",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Patterns/csemszepp_stupid-insect-76.html",
+  "code": "<div class=\"container\"></div>\n\n<style>\n/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 150px; /* control the size */\n  --c1: #f7d2a1;\n  --c2: #05057e;\n\n  --_g: var(--c1) 0% 5%, var(--c2) 6% 15%, var(--c1) 16% 25%, var(--c2) 26% 35%,\n    var(--c1) 36% 45%, var(--c2) 46% 55%, var(--c1) 56% 65%, var(--c2) 66% 75%,\n    var(--c1) 76% 85%, var(--c2) 86% 95%, #0000 96%;\n  background: radial-gradient(50% 50% at 100% 0, var(--_g)),\n    radial-gradient(50% 50% at 0 100%, var(--_g)),\n    radial-gradient(50% 50%, var(--_g)),\n    radial-gradient(50% 50%, var(--_g)) calc(var(--s) / 2) calc(var(--s) / 2)\n      var(--c1);\n  background-size: var(--s) var(--s);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

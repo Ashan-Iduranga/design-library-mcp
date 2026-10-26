@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-doniaskima-wise-goat-6-17fdba",
+  "title": "Button by doniaskima (wise-goat-6)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/doniaskima/wise-goat-6",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "bounce-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By doniaskima on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/doniaskima_wise-goat-6.html",
+  "code": "<button class=\"btn-31\">\n  <span class=\"text-container\">\n    <span class=\"text\">Button</span>\n  </span>\n</button>\n\n<style>\n/* From Uiverse.io by doniaskima - Tags: button, bounce animation */\n.btn-31,\n.btn-31 *,\n.btn-31 :after,\n.btn-31 :before,\n.btn-31:after,\n.btn-31:before {\n  border: 0 solid;\n  box-sizing: border-box;\n}\n\n.btn-31 {\n  -webkit-tap-highlight-color: transparent;\n  -webkit-appearance: button;\n  background-color: #000;\n  background-image: none;\n  color: #fff;\n  cursor: pointer;\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,\n    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,\n    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;\n  font-size: 100%;\n  font-weight: 900;\n  line-height: 1.5;\n  margin: 0;\n  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);\n  padding: 0;\n}\n\n.btn-31:disabled {\n  cursor: default;\n}\n\n.btn-31:-moz-focusring {\n  outline: auto;\n}\n\n.btn-31 svg {\n  display: block;\n  vertical-align: middle;\n}\n\n.btn-31 [hidden] {\n  display: none;\n}\n\n.btn-31 {\n  border-width: 1px;\n  padding: 1rem 2rem;\n  position: relative;\n  text-transform: uppercase;\n}\n\n.btn-31:before {\n  --progress: 100%;\n  background: #fff;\n  -webkit-clip-path: polygon(\n    100% 0,\n    var(--progress) var(--progress),\n    0 100%,\n    100% 100%\n  );\n  clip-path: polygon(\n    100% 0,\n    var(--progress) var(--progress),\n    0 100%,\n    100% 100%\n  );\n  content: \"\";\n  inset: 0;\n  position: absolute;\n  transition: -webkit-clip-path 0.2s ease;\n  transition: clip-path 0.2s ease;\n  transition: clip-path 0.2s ease, -webkit-clip-path 0.2s ease;\n}\n\n.btn-31:hover:before {\n  --progress: 0%;\n}\n\n.btn-31 .text-container {\n  display: block;\n  overflow: hidden;\n  position: relative;\n}\n\n.btn-31 .text {\n  display: block;\n  font-weight: 900;\n  mix-blend-mode: difference;\n  position: relative;\n}\n\n.btn-31:hover .text {\n  -webkit-animation: move-up-alternate 0.3s ease forwards;\n  animation: move-up-alternate 0.3s ease forwards;\n}\n\n@-webkit-keyframes move-up-alternate {\n  0% {\n    transform: translateY(0);\n  }\n\n  50% {\n    transform: translateY(80%);\n  }\n\n  51% {\n    transform: translateY(-80%);\n  }\n\n  to {\n    transform: translateY(0);\n  }\n}\n\n@keyframes move-up-alternate {\n  0% {\n    transform: translateY(0);\n  }\n\n  50% {\n    transform: translateY(80%);\n  }\n\n  51% {\n    transform: translateY(-80%);\n  }\n\n  to {\n    transform: translateY(0);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

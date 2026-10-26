@@ -1,0 +1,33 @@
+{
+  "id": "flowbite-device-mockups-laptop-mockup",
+  "title": "Device Mockups: Laptop mockup (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/device-mockups/#laptop-mockup",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "device-mockup",
+    "device-mockups",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "This example can be used to show a screenshot of your application inside a laptop mockup.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/device-mockups.md",
+  "code": "<div class=\"relative mx-auto border-default bg-base border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]\">\n    <div class=\"rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-neutral-primary \">\n        <img src=\"https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen.png\" class=\"dark:hidden h-[156px] md:h-[278px] w-full rounded-lg\" alt=\"\">\n        <img src=\"https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen-dark.png\" class=\"hidden dark:block h-[156px] md:h-[278px] w-full rounded-lg\" alt=\"\">\n    </div>\n</div>\n<div class=\"relative mx-auto bg-base rounded-b-xl rounded-t-sm h-[17px] max-w-[351px] md:h-[21px] md:max-w-[597px]\">\n    <div class=\"absolute left-1/2 top-0 -translate-x-1/2 rounded-b-xl w-[56px] h-[5px] md:w-[96px] md:h-[8px] bg-base\"></div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

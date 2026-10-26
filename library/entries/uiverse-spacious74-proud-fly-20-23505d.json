@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-spacious74-proud-fly-20-23505d",
+  "title": "Card by Spacious74 (proud-fly-20)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Spacious74/proud-fly-20",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "neumorphism",
+    "3d",
+    "social"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Spacious74 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Spacious74_proud-fly-20.html",
+  "code": "<div class=\"watch\">\n  <div class=\"frame\">\n    <div class=\"text\">\n      <div>09</div>\n      <div>55</div>\n    </div>\n  </div>\n  <div class=\"sideBtn\"></div>\n  <div class=\"powerBtn\"></div>\n  <div class=\"dots\">\n    <span class=\"dot\"></span>\n    <span class=\"dot\"></span>\n    <span class=\"dot\"></span>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Spacious74  - Tags: neumorphism, 3d, social, card */\n.watch {\n  position: relative;\n  transform: scale(0.7);\n}\n.watch::after,\n.watch::before {\n  content: \"\";\n  width: 10rem;\n  height: 200px;\n  background: radial-gradient(circle at 200px, rgb(0, 0, 0), rgb(48, 48, 48));\n  box-shadow: inset 0px -10px 18px #ffffffb9, 10px 0px 30px #00000071;\n  position: absolute;\n  left: 50%;\n  transform: translate(-50%, 0%);\n}\n.watch::before {\n  content: \"\";\n  width: 10rem;\n  height: 200px;\n  background: radial-gradient(circle at 200px, rgb(0, 0, 0), rgb(48, 48, 48));\n  box-shadow: inset 0px 10px 18px #ffffffb9, 10px 0px 30px #00000071;\n  position: absolute;\n  left: 50%;\n  transform: translate(-50%, -100%);\n}\n.dots {\n  position: absolute;\n  bottom: 0;\n  left: 50%;\n  transform: translate(-50%, 140%);\n  padding: 3px;\n  z-index: 20;\n}\n.dots .dot {\n  width: 17px;\n  aspect-ratio: 1;\n  background-color: #000000;\n  border-radius: 100px;\n  display: block;\n  margin-bottom: 50px;\n  box-shadow: inset 2px 0 5px #ffffff48;\n}\n.frame {\n  background: #0d0d0d;\n  border-radius: 92px;\n  box-shadow: inset 0 0 24px 1px #0d0d0d, inset 0 0 0 12px #606c78,\n    0 20px 30px #00000071;\n  height: 380px;\n  margin: 0 20px;\n  padding: 28px 26px;\n  position: relative;\n  width: 20rem;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.text {\n  color: #dddf8f;\n  font-size: 10rem;\n  font-family: serif;\n  font-weight: bolder;\n  line-height: 0.8;\n  text-shadow: 0 0 40px #d7d886c7;\n}\n.frame::before {\n  border: 1px solid #0d0d0d;\n  border-radius: 80px;\n  box-shadow: 0 0 12px rgba(255, 255, 255, 0.5),\n    inset 0 0 12px 2px rgba(255, 255, 255, 0.75);\n  content: \"\";\n  height: 356px;\n  left: 12px;\n  position: absolute;\n  top: 12px;\n  width: 18.625rem;\n}\n.sideBtn {\n  background: #606c78;\n  border-left: 1px solid #000;\n  border-radius: 8px 6px 6px 8px / 20px 6px 6px 20px;\n  box-shadow: inset 8px 0 8px 0 #1c1f23, inset -2px 0 6px #272c31,\n    -4px 0 8px #0d0d0d40;\n  height: 72px;\n  position: absolute;\n  right: 6px;\n  top: 108px;\n  width: 18px;\n  z-index: 9;\n}\n.sideBtn::before {\n  background: #272c31;\n  border-radius: 20%;\n  box-shadow: 0 -30px rgba(62, 70, 77, 0.75), 0 -27px #272c31, 0 -25px #000,\n    0 -21px rgba(62, 70, 77, 0.75), 0 -18px #272c31, 0 -16px #000,\n    0 -12px rgba(62, 70, 77, 0.75), 0 -9px #272c31, 0 -7px #000,\n    0 -3px rgba(62, 70, 77, 0.75), 0 0 #272c31, 0 2px #000,\n    0 6px rgba(62, 70, 77, 0.75), 0 9px #272c31, 0 11px #000,\n    0 15px rgba(62, 70, 77, 0.75), 0 18px #272c31, 0 20px #000,\n    0 24px rgba(62, 70, 77, 0.75), 0 27px #272c31, 0 29px #000;\n  content: \"\";\n  height: 3px;\n  margin-top: -2px;\n  position: absolute;\n  right: 2px;\n  top: 50%;\n  width: 10px;\n  z-index: 9;\n}\n.sideBtn::after {\n  background: #16181b;\n  border-radius: 2px 4px 4px 2px / 20px 8px 8px 20px;\n  box-shadow: inset -2px 0 2px 0 #000, inset -6px 0 18px #272c31;\n  content: \"\";\n  height: 72px;\n  position: absolute;\n  right: 0;\n  top: 0;\n  width: 6px;\n}\n\n.powerBtn {\n  background: #272c31;\n  border-radius: 2px 4px 4px 2px / 2px 8px 8px 2px;\n  box-shadow: inset 0 0 2px 1px #101315;\n  height: 72px;\n  position: absolute;\n  right: 18px;\n  top: 212px;\n  width: 4px;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

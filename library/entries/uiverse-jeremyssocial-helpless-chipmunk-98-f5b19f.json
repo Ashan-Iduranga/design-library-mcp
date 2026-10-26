@@ -1,0 +1,35 @@
+{
+  "id": "uiverse-jeremyssocial-helpless-chipmunk-98-f5b19f",
+  "title": "Loader by jeremyssocial (helpless-chipmunk-98)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/jeremyssocial/helpless-chipmunk-98",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse",
+    "animation",
+    "cube",
+    "light&dark",
+    "loading-animation",
+    "3d-loader"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By jeremyssocial on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/jeremyssocial_helpless-chipmunk-98.html",
+  "code": "<div class=\"cube-loader\">\n  <div class=\"cube cube1\"></div>\n  <div class=\"cube cube2\"></div>\n  <div class=\"cube cube3\"></div>\n  <div class=\"cube cube4\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by jeremyssocial  - Tags: animation, loader, cube, light&dark, loading animation, 3d loader */\n.cube-loader {\n  position: relative;\n  width: 40px;\n  height: 40px;\n  margin: auto;\n}\n\n.cube {\n  position: absolute;\n  width: 50%;\n  height: 50%;\n  background-color: #333;\n  border: 2px solid #fff;\n  animation: foldCube 2.4s infinite linear;\n}\n\n/* Individual cube positioning */\n.cube1 {\n  top: 0;\n  left: 0;\n  transform-origin: 100% 100%;\n}\n.cube2 {\n  top: 0;\n  right: 0;\n  transform-origin: 0 100%;\n}\n.cube3 {\n  bottom: 0;\n  right: 0;\n  transform-origin: 0 0;\n}\n.cube4 {\n  bottom: 0;\n  left: 0;\n  transform-origin: 100% 0;\n}\n\n/* Keyframes for the folding animation */\n@keyframes foldCube {\n  0%,\n  10% {\n    transform: perspective(140px) rotateX(-180deg);\n    opacity: 0;\n  }\n  25%,\n  75% {\n    transform: perspective(140px) rotateX(0deg);\n    opacity: 1;\n  }\n  90%,\n  100% {\n    transform: perspective(140px) rotateY(180deg);\n    opacity: 0;\n  }\n}\n\n/* Animation delay for each cube */\n.cube1 {\n  animation-delay: 0.3s;\n}\n.cube2 {\n  animation-delay: 0.6s;\n}\n.cube3 {\n  animation-delay: 0.9s;\n}\n.cube4 {\n  animation-delay: 1.2s;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

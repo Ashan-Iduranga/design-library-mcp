@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-cuatrofender-afraid-monkey-100-f22ed1",
+  "title": "Button by cuatrofender (afraid-monkey-100)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/cuatrofender/afraid-monkey-100",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By cuatrofender on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/cuatrofender_afraid-monkey-100.html",
+  "code": "<button> Hover me.\n</button>\n<style>\n/* From Uiverse.io by cuatrofender - Tags: button */\nbutton {\n border: none;\n font-family: sans-serif;\n font-size: 17px;\n background: transparent;\n color: #006bb3;\n border: solid 1px rgba(0, 107, 179, 0.2);\n padding: 10px;\n border-radius: 4px;\n transition-duration: 0.2s;\n}\n\nbutton:before {\n content: \"»\";\n opacity: 0;\n margin-left: -15px;\n transition-duration: 0.2s;\n}\n\nbutton:hover:before {\n margin-left: 0px;\n opacity: 1;\n}\n\nbutton:hover {\n color: black;\n background: rgba(0, 0, 0, 0.02);\n border: solid 1px gainsboro;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

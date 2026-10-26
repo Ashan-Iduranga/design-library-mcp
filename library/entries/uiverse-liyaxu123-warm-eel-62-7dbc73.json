@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-liyaxu123-warm-eel-62-7dbc73",
+  "title": "Input by liyaxu123 (warm-eel-62)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/liyaxu123/warm-eel-62",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "input",
+    "uiverse",
+    "animated"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By liyaxu123 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Inputs/liyaxu123_warm-eel-62.html",
+  "code": "<div class=\"form-control\">\n    <input type=\"value\" required=\"\">\n    <label>\n        <span style=\"transition-delay:0ms\">U</span><span style=\"transition-delay:50ms\">s</span><span style=\"transition-delay:100ms\">e</span><span style=\"transition-delay:150ms\">r</span><span style=\"transition-delay:200ms\">n</span><span style=\"transition-delay:250ms\">a</span><span style=\"transition-delay:300ms\">m</span><span style=\"transition-delay:350ms\">e</span>\n    </label>\n</div>\n<style>\n/* From Uiverse.io by liyaxu123 - Tags: input, animated */\n.form-control {\n  position: relative;\n  margin: 20px 0 40px;\n  width: 190px;\n}\n\n.form-control input {\n  background-color: transparent;\n  border: 0;\n  border-bottom: 2px #fff solid;\n  display: block;\n  width: 100%;\n  padding: 15px 0;\n  font-size: 18px;\n  color: #fff;\n}\n\n.form-control input:focus,\n.form-control input:valid {\n  outline: 0;\n  border-bottom-color: lightblue;\n}\n\n.form-control label {\n  position: absolute;\n  top: 15px;\n  left: 0;\n  pointer-events: none;\n}\n\n.form-control label span {\n  display: inline-block;\n  font-size: 18px;\n  min-width: 5px;\n  color: #fff;\n  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);\n}\n\n.form-control input:focus+label span,\n.form-control input:valid+label span {\n  color: lightblue;\n  transform: translateY(-30px);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

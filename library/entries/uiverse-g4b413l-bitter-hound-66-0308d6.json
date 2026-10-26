@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-g4b413l-bitter-hound-66-0308d6",
+  "title": "Toggle by G4b413l (bitter-hound-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/G4b413l/bitter-hound-66",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "minimalist",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By G4b413l on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/G4b413l_bitter-hound-66.html",
+  "code": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by G4b413l - Tags: minimalist, switch */\n.switch {\n position: relative;\n width: 55px;\n height: 15px;\n}\n\n.switch input {\n opacity: 0;\n width: 0;\n height: 0;\n}\n\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n border-radius: 34px;\n background-color: #ccc;\n -webkit-transition: .4s;\n transition: .4s;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 26px;\n width: 26px;\n left: 0px;\n bottom: -5px;\n background-color: red;\n -webkit-transition: .4s;\n transition: .4s;\n box-sizing: border-box;\n border: 10px solid white;\n border-radius: 50%;\n}\n\ninput:checked + .slider {\n background-color: #06a606;\n}\n\ninput:checked + .slider:before {\n -webkit-transform: translateX(26px);\n -ms-transform: translateX(26px);\n transform: translateX(30px);\n background: limegreen;\n box-sizing: border-box;\n border: 10px solid white;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

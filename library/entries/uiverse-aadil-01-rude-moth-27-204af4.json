@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-aadil-01-rude-moth-27-204af4",
+  "title": "Loader by aadil-01 (rude-moth-27)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/aadil-01/rude-moth-27",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By aadil-01 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/aadil-01_rude-moth-27.html",
+  "code": "<div id=\"box-outer\">\n  <div id=\"box-inner\">\n    <div id=\"box\"></div>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by aadil-01 - Tags: loader */\n#box-outer {\n  width: 80px;\n  height: 80px;\n  border-radius: 16px;\n  animation: rotate_29 5s infinite;\n  background-color: #5ACEF2;\n}\n\n#box-inner {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 60px;\n  height: 60px;\n  border-radius: 12px;\n  rotate: 45deg;\n  animation: revolve_29 5s infinite;\n  background-color: #FF8062;\n}\n\n#box {\n  width: 40px;\n  height: 40px;\n  border-radius: 8px;\n  animation: rotate_29 5s infinite;\n  background-color: #FEFEFE;\n}\n\n@keyframes revolve_29 {\n  0% {\n    transform: translateX(0);\n  }\n\n  25% {\n    transform: translateY(100%);\n  }\n\n  50% {\n    transform: translateX(100%) translateY(100%);\n  }\n\n  75% {\n    transform: translateX(100%);\n  }\n\n  100% {\n    transform: translateX(0);\n  }\n}\n\n@keyframes rotate_29 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  20% {\n    transform: rotate(90deg);\n  }\n\n  40% {\n    transform: rotate(180deg);\n  }\n\n  60% {\n    transform: rotate(270deg);\n  }\n\n  80% {\n    transform: rotate(360deg);\n  }\n\n  100% {\n    transform: rotate(0deg);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

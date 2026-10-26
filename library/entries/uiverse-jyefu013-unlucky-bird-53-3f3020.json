@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jyefu013-unlucky-bird-53-3f3020",
+  "title": "Notification by jyefu013 (unlucky-bird-53)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/jyefu013/unlucky-bird-53",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By jyefu013 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Notifications/jyefu013_unlucky-bird-53.html",
+  "code": "<button class=\"btn\">\n  <span class=\"default-text\">New Level Unlocked!</span>\n  <span class=\"hover-text\">Congrats!</span>\n</button>\n\n<style>\n/* From Uiverse.io by jyefu013 - Tags: notification */\n.btn {\n  padding: 10px;\n  border-radius: 5px;\n  font-size: 15px;\n  background-color: black;\n  color: rgb(238, 255, 0);\n  position: relative;\n  overflow: hidden;\n}\n\n.default-text {\n  z-index: 1;\n}\n\n.hover-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  opacity: 0;\n  transition: opacity 0.5s ease-in-out;\n}\n\n.btn:hover .default-text {\n  opacity: 0;\n}\n\n.btn:hover .hover-text {\n  opacity: 1;\n  animation: bounce 0.5s ease-in-out;\n}\n\n@keyframes bounce {\n  0% {\n    transform: scale(1);\n  }\n\n  25% {\n    transform: scale(1.2);\n  }\n\n  75% {\n    transform: scale(1.1);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n.btn:hover::after {\n  content: '';\n  position: absolute;\n  top: -10px;\n  left: -10px;\n  width: calc(100% + 20px);\n  height: calc(100% + 20px);\n  border-radius: 50%;\n  background-color: rgba(255, 255, 255, 0.5);\n  opacity: 0;\n  animation: fireworks 1s linear forwards;\n}\n\n@keyframes fireworks {\n  0% {\n    transform: scale(1);\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(4);\n    opacity: 0;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

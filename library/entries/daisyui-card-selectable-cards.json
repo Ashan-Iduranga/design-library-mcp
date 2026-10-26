@@ -1,0 +1,31 @@
+{
+  "id": "daisyui-card-selectable-cards",
+  "title": "Card: Selectable cards (daisyUI)",
+  "source": "daisyUI",
+  "url": "https://daisyui.com/components/card/",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "daisyui",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Cards are used to group and display content in a way that is easily readable.\n\nNeeds daisyUI installed (npm i -D daisyui, then @plugin \"daisyui\" in your CSS).\n\nOriginal file: https://github.com/saadeghi/daisyui/blob/master/packages/docs/src/routes/(routes)/components/card/+page.md",
+  "code": "<div class=\"flex flex-wrap items-start gap-3\">\n  <label class=\"card bg-accent text-accent-content\">\n    <input type=\"checkbox\" name=\"card-urgent-1\" />\n    <div class=\"card-body\">\n      <h2 class=\"card-title\">Urgent</h2>\n      <p>Same day delivery</p>\n    </div>\n  </label>\n\n  <div class=\"join bg-base-300 rounded-selector\">\n    <label class=\"join-item card\">\n      <input type=\"radio\" value=\"sm\" name=\"card-size-1\" />\n      <div class=\"card-body\">\n        <h2 class=\"card-title\">Size SM</h2>\n        <p>Available</p>\n      </div>\n    </label>\n\n    <label class=\"join-item card\">\n      <input type=\"radio\" value=\"md\" name=\"card-size-1\" disabled />\n      <div class=\"card-body opacity-60\">\n        <h2 class=\"card-title\">Size MD</h2>\n        <p>Not available</p>\n      </div>\n    </label>\n\n    <label class=\"join-item card\">\n      <input type=\"radio\" value=\"lg\" name=\"card-size-1\" />\n      <div class=\"card-body\">\n        <h2 class=\"card-title\">Size LG</h2>\n        <p>Short supply</p>\n      </div>\n    </label>\n  </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:38Z",
+  "updated_at": "2026-10-26T08:01:38Z"
+}

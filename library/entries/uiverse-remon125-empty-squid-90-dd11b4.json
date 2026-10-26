@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-remon125-empty-squid-90-dd11b4",
+  "title": "Button by Remon125 (empty-squid-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Remon125/empty-squid-90",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "#colorfulbutton",
+    "button-design"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Remon125 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Remon125_empty-squid-90.html",
+  "code": "<button class=\"btn-1\">\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      Button\n    </button>\n<style>\n/* From Uiverse.io by Remon125 - Tags: #ColorfulButton, Button design */\n/* Start Button 1 */\nbutton {\n  padding: 15px 60px;\n  background: transparent;\n  border: 2px solid #edff00;\n  font-size: 15px;\n  font-weight: bold;\n  color: #ffffff;\n  border-radius: 6px;\n  cursor: pointer;\n  position: relative;\n  display: flex;\n  overflow: hidden;\n  transition: all 0.5s;\n  text-transform: uppercase;\n}\n\nbutton:hover {\n  color: #0c071e;\n}\n\nbutton span {\n  transition: all 0.5s;\n  z-index: -1;\n}\n\nbutton span:nth-child(1), \nbutton span:nth-child(2), \nbutton span:nth-child(3), \nbutton span:nth-child(4) {\n  position: absolute;\n  width: 100%;\n  height: 15px;\n  background-color: #edff00\n}\n\nbutton span:nth-child(1) {\n  top: -100%;\n  left: 0%;\n  right: 0;\n}\n\nbutton:hover span:nth-child(1) {\n  top: 0%;\n}\n\nbutton span:nth-child(2) {\n  top: 10px;\n  right: 100%;\n}\n\nbutton:hover span:nth-child(2) {\n  right: 0;\n}\n\nbutton span:nth-child(3) {\n  top: 20px;\n  left: 100%;\n  right: 0;\n}\n\nbutton:hover span:nth-child(3) {\n  left: 0;\n}\n\nbutton span:nth-child(4) {\n  bottom: -100%;\n  left: 0;\n}\n\nbutton:hover span:nth-child(4) {\n  bottom: 0;\n}\n\n/* End Button 1 */\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

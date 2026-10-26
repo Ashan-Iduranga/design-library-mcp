@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-praashoo7-brown-quail-45-1fa0fd",
+  "title": "Button by Praashoo7 (brown-quail-45)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Praashoo7/brown-quail-45",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "neumorphism",
+    "hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Praashoo7 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/Praashoo7_brown-quail-45.html",
+  "code": "<button>\n  BUTTON\n</button>\n<style>\n/* From Uiverse.io by Praashoo7 - Tags: neumorphism, button, hover */\nbutton {\n  padding: 1em;\n  padding-left: 2em;\n  padding-right: 2em;\n  border-radius: 15px;\n  font-weight: bold;\n  transition: .4s ease-in-out;\n  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.2);\n  letter-spacing: 0.2em;\n  border: none;\n}\n\nbutton:hover {\n  letter-spacing: 0.5em;\n  transform: translateY(-0.8em);\n  background: #171717;\n  color: white;\n}\n\nbutton:active {\n  letter-spacing: 0.4em;\n  transition: 0.1s all;\n  transform: translateY(-0.6em);\n  background: #171717;\n  color: white;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:02Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

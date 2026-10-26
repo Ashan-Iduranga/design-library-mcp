@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-gharsh11032000-bright-warthog-8-300ace",
+  "title": "Button by gharsh11032000 (bright-warthog-8)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/gharsh11032000/bright-warthog-8",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By gharsh11032000 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/gharsh11032000_bright-warthog-8.html",
+  "code": "<button class=\"button\">\n  Hover me\n</button>\n<style>\n/* From Uiverse.io by gharsh11032000 - Tags: button */\n.button {\n  position: relative;\n  text-decoration: none;\n  font-size: 17px;\n  font-weight: 600;\n  text-transform: uppercase;\n  background-color: #e8e8e8;\n  padding: 15px 30px;\n  cursor: pointer;\n  border: none;\n  border-radius: 10px;\n  overflow: hidden;\n  transition: all 0.4s ease;\n}\n\n.button:before {\n  content: \"\";\n  position: absolute;\n  pointer-events: none;\n  width: 100%;\n  height: 20%;\n  background-color: #e8e8e8;\n  translate: -100% 0;\n  rotate: 45deg;\n  transition: all 0.4s ease;\n}\n\n.button:hover {\n  color: #e8e8e8;\n  background-color: #8364e8;\n  box-shadow: 0 0 24px 8px rgba(131, 100, 232, 0.4);\n}\n\n.button:hover:before {\n  translate: 100%;\n}\n\n.button:active {\n  scale: 0.95;\n  box-shadow: 0 0 16px 4px rgba(131, 100, 232, 0.4);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

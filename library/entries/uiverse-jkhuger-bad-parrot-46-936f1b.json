@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-jkhuger-bad-parrot-46-936f1b",
+  "title": "Loader by JkHuger (bad-parrot-46)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/JkHuger/bad-parrot-46",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "loader",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By JkHuger on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/loaders/JkHuger_bad-parrot-46.html",
+  "code": "<div class=\"moon\">\n  <div class=\"shadow\"></div>\n</div>\n<style>\n/* From Uiverse.io by JkHuger - Tags: loader */\n.moon, .shadow {\n  margin: auto;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  background: rgb(216, 216, 216);\n  border-radius: 50%;\n  height: 50px;\n  width: 50px;\n}\n\n.shadow {\n  width: 50px;\n  height: 50px;\n  position: relative;\n  background: #212121;\n /*Change these color to the bg of your website*/\n  transition: all .3s ease;\n  animation: move_4123 1.2s infinite alternate ease-in-out;\n  transform: translate3d(8px, -8px, 0);\n}\n\n@keyframes move_4123 {\n  100% {\n    transform: translate3d(36px, -36px, 0);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

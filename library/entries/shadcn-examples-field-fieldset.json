@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-field-fieldset",
+  "title": "Field Fieldset (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/field-fieldset.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "field",
+    "fieldset",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Combine labels, controls, and help text to compose accessible form fields and grouped inputs.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/field-fieldset.tsx",
+  "code": "import {\n  Field,\n  FieldDescription,\n  FieldGroup,\n  FieldLabel,\n  FieldLegend,\n  FieldSet,\n} from \"@/registry/new-york-v4/ui/field\"\nimport { Input } from \"@/registry/new-york-v4/ui/input\"\n\nexport default function FieldFieldset() {\n  return (\n    <div className=\"w-full max-w-md space-y-6\">\n      <FieldSet>\n        <FieldLegend>Address Information</FieldLegend>\n        <FieldDescription>\n          We need your address to deliver your order.\n        </FieldDescription>\n        <FieldGroup>\n          <Field>\n            <FieldLabel htmlFor=\"street\">Street Address</FieldLabel>\n            <Input id=\"street\" type=\"text\" placeholder=\"123 Main St\" />\n          </Field>\n          <div className=\"grid grid-cols-2 gap-4\">\n            <Field>\n              <FieldLabel htmlFor=\"city\">City</FieldLabel>\n              <Input id=\"city\" type=\"text\" placeholder=\"New York\" />\n            </Field>\n            <Field>\n              <FieldLabel htmlFor=\"zip\">Postal Code</FieldLabel>\n              <Input id=\"zip\" type=\"text\" placeholder=\"90502\" />\n            </Field>\n          </div>\n        </FieldGroup>\n      </FieldSet>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-csemszepp-tiny-emu-73-d2c65d",
+  "title": "Toggle by csemszepp (tiny-emu-73)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/csemszepp/tiny-emu-73",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By csemszepp on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/csemszepp_tiny-emu-73.html",
+  "code": "<div class=\"content\">\n  <label class=\"switch\">\n    <input type=\"checkbox\" class=\"input\">\n    <span class=\"slider round\"></span>\n  </label>\n</div>\n<style>\n/* From Uiverse.io by csemszepp - Source: https://codepen.io/GemmaCroad/pen/NWxjrVG - Tags: switch, toggle, toggle switch */\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #6E6E6E;\n  transition: .4s;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  transition: .4s;\n}\n\n.input:checked + .slider {\n  background-color: #1849AB;\n}\n\n.input:focus + .slider {\n  box-shadow: 0 0 0 4px rgba(21, 156, 228, 0.7);\n  outline: none;\n}\n\n.input:checked + .slider:before {\n  transform: translateX(26px);\n}\n\n.slider.round {\n  border-radius: 34px;\n}\n\n.slider.round:before {\n  border-radius: 50%;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

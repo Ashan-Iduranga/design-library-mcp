@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-misaraadel-tough-termite-75-bb3057",
+  "title": "Toggle by misaraadel (tough-termite-75)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/misaraadel/tough-termite-75",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "theme-switch",
+    "toggle-switch",
+    "on/off",
+    "3d-switch",
+    "cool-switch",
+    "creative-switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By misaraadel on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/misaraadel_tough-termite-75.html",
+  "code": "<label class=\"switch\" for=\"\">\n  <input type=\"checkbox\">\n\n  <span class=\"check\"></span>\n</label>\n<style>\n/* From Uiverse.io by misaraadel - Tags: switch, theme-switch, toggle switch, on/off, 3d switch, cool switch, creative switch */\n.switch {\n  position: relative;\n  cursor: pointer;\n}\n\n.switch input {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  opacity: 0;\n  position: relative;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 99;\n  cursor: pointer;\n}\n\n.switch input:checked ~ .check {\n  background-color: #549b60;\n}\n\n.switch input:checked ~ .check::after {\n  transform: translateX(0px);\n}\n\n.switch input:checked ~ .check::before {\n  transform: translateX(50px) !important;\n}\n\n.switch .check {\n  width: 51px;\n  height: 30px;\n  position: relative;\n  display: block;\n  background-color: #E92E2E;\n  cursor: pointer;\n  border-radius: 15px;\n  overflow: hidden;\n  transition: all 0.5s ease-in;\n}\n\n.switch .check::after,\n.switch .check::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  width: 30px;\n  height: 30px;\n  transition: all 0.5s ease-in;\n  border-radius: 50%;\n}\n\n.switch .check::before {\n  background-color: #fff;\n  right: 0px;\n}\n\n.switch .check::after {\n  transform: translateX(-60px);\n  background-color: #fff;\n  left: 0;\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

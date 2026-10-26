@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-checkbox-bordered-with-description",
+  "title": "Checkbox: Bordered with description (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/checkbox/#bordered-with-description",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "checkbox",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use this checkbox component with a bordered style and a description text.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/checkbox.md",
+  "code": "<label for=\"checkbox-1\" class=\"flex space-x-2.5 bg-neutral-primary-soft border border-default rounded-base shadow-xs\">\n    <input id=\"checkbox-1\" type=\"checkbox\" value=\"\" name=\"bordered-checkbox\" class=\"w-4 h-4 mt-5 ms-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n    <div class=\"py-4 pe-4\">\n        <p class=\"select-none w-full text-sm font-medium text-heading\">16GB unified memory</p>\n        <p class=\"select-none text-sm text-body\">Seamlessly handle multitasking, large apps.</p>\n    </div>\n</label>\n<label for=\"checkbox-2\" class=\"flex space-x-2.5 bg-neutral-primary-soft border border-default rounded-base shadow-xs\">\n    <input checked id=\"checkbox-2\" type=\"checkbox\" value=\"\" name=\"bordered-checkbox\" class=\"w-4 h-4 mt-5 ms-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft\">\n    <div class=\"py-4 pe-4\">\n        <p class=\"select-none w-full text-sm font-medium text-heading\">1TB SSD storage</p>\n        <p class=\"select-none text-sm text-body\">Get ultra-fast storage with 1TB of SSD space</p>\n    </div>\n</label>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

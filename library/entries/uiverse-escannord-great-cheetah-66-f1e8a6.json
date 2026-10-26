@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-escannord-great-cheetah-66-f1e8a6",
+  "title": "Card by escannord (great-cheetah-66)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/escannord/great-cheetah-66",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "neumorphism",
+    "realistic",
+    "clock"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By escannord on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/escannord_great-cheetah-66.html",
+  "code": "<div class=\"card\">\n  <div class=\"numbers\">\n    <span class=\"number\"></span>\n    <span class=\"number\"></span>\n    <span class=\"number\"></span>\n    <span class=\"number\"></span>\n    <span class=\"number\"></span>\n    <span class=\"number\"></span>\n    <span class=\"number\"></span>\n    <span class=\"number\"></span>\n    <span class=\"number\"></span>\n    <span class=\"number\"></span>\n    <span class=\"number\"></span>\n    <span class=\"number\"></span>\n  </div>\n  <div class=\"needles\">\n    <span class=\"h\"></span>\n    <span class=\"m\"></span>\n    <span class=\"s\"></span>\n    <span class=\"center\"></span>\n  </div>\n  <div class=\"pie\"></div>\n</div>\n\n<style>\n/* From Uiverse.io by escannord  - Tags: neumorphism, card, realistic, clock */\n.card {\n  width: 200px;\n  height: 200px;\n  background: transparent;\n  border-radius: 50%;\n  border: 20px solid transparent;\n  position: relative;\n  overflow: hidden;\n  box-shadow: 2px 2px 2px black, inset 2px 2px 2px black,\n    -1px -1px 5px rgba(0, 0, 0, 0.473), inset -1px -1px 5px rgba(0, 0, 0, 0.473);\n}\n\n.numbers {\n  font-weight: bold;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  padding: 20px;\n  background-color: rgb(234, 221, 247);\n}\n\n.number {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  display: inline-block;\n  width: 0.1rem;\n  height: 0.9rem;\n  background-color: rgb(12, 26, 109);\n}\n.number:nth-child(1) {\n  transform: translate(-50%, -50%) rotateZ(calc(30deg)) translateY(-80px);\n}\n\n.number:nth-child(2) {\n  transform: translate(-50%, -50%) rotateZ(calc(60deg)) translateY(-80px);\n}\n\n.number:nth-child(3) {\n  transform: translate(-50%, -50%) rotateZ(calc(90deg)) translateY(-80px);\n}\n\n.number:nth-child(4) {\n  transform: translate(-50%, -50%) rotateZ(calc(120deg)) translateY(-80px);\n}\n\n.number:nth-child(5) {\n  transform: translate(-50%, -50%) rotateZ(calc(150deg)) translateY(-80px);\n}\n\n.number:nth-child(6) {\n  transform: translate(-50%, -50%) rotateZ(calc(180deg)) translateY(-80px);\n}\n\n.number:nth-child(7) {\n  transform: translate(-50%, -50%) rotateZ(calc(210deg)) translateY(-80px);\n}\n\n.number:nth-child(8) {\n  transform: translate(-50%, -50%) rotateZ(calc(240deg)) translateY(-80px);\n}\n\n.number:nth-child(9) {\n  transform: translate(-50%, -50%) rotateZ(calc(270deg)) translateY(-80px);\n}\n\n.number:nth-child(10) {\n  transform: translate(-50%, -50%) rotateZ(calc(300deg)) translateY(-80px);\n}\n\n.number:nth-child(11) {\n  transform: translate(-50%, -50%) rotateZ(calc(330deg)) translateY(-80px);\n}\n\n.number:nth-child(12) {\n  transform: translate(-50%, -50%) rotateZ(calc(0deg)) translateY(-80px);\n}\n\n.number:nth-child(3),\n.number:nth-child(6),\n.number:nth-child(9),\n.number:nth-child(12) {\n  width: 0.3rem;\n  height: 1.5rem;\n}\n\n.needles {\n  position: relative;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n\n.h,\n.m,\n.s,\n.center {\n  display: inline-block;\n  width: 7px;\n  height: 20px;\n  background-color: black;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  border-radius: 50% 50% 0 0;\n}\n\n.s {\n  transform: translate(-50%, -80%);\n}\n\n.h {\n  background-color: black;\n  transform-origin: 50% 100%;\n  animation: rotate 43200s 60s infinite linear;\n  transform: translate(-50%, -100%) rotateZ(5deg);\n  height: 2.5rem;\n  z-index: 1;\n}\n\n.m {\n  background-color: rgb(176, 176, 185);\n  z-index: 2;\n  height: 4rem;\n  width: 5px;\n  transform-origin: 50% 100%;\n  transform: translate(-50%, -100%) rotateZ(60deg);\n  animation: rotate 3600s 60s infinite steps(60, end);\n}\n\n.s {\n  background-color: rgb(240, 31, 31);\n  z-index: 3;\n  height: 5rem;\n  width: 3px;\n  transform-origin: 50% 80%;\n  animation: rotate 60s infinite steps(60, end);\n}\n\n.center {\n  width: 15px;\n  height: 15px;\n  background-color: white;\n  border: solid 4px red;\n  z-index: 4;\n  border-radius: 50%;\n}\n\n@keyframes rotate {\n  100% {\n    transform: translate(-50%, -80%) rotateZ(360deg);\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

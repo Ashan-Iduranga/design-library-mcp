@@ -1,0 +1,34 @@
+{
+  "id": "shadcn-examples-sonner-types",
+  "title": "Sonner Types (shadcn/ui example)",
+  "source": "shadcn/ui",
+  "url": "https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/sonner-types.tsx",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "example",
+    "sonner",
+    "types",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "An opinionated toast component for React.\n\nOriginal file: https://github.com/shadcn-ui/ui/blob/main/apps/v4/registry/new-york-v4/examples/sonner-types.tsx",
+  "code": "\"use client\"\n\nimport { toast } from \"sonner\"\n\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\n\nexport default function SonnerTypes() {\n  return (\n    <div className=\"flex flex-wrap gap-2\">\n      <Button variant=\"outline\" onClick={() => toast(\"Event has been created\")}>\n        Default\n      </Button>\n      <Button\n        variant=\"outline\"\n        onClick={() => toast.success(\"Event has been created\")}\n      >\n        Success\n      </Button>\n      <Button\n        variant=\"outline\"\n        onClick={() =>\n          toast.info(\"Be at the area 10 minutes before the event time\")\n        }\n      >\n        Info\n      </Button>\n      <Button\n        variant=\"outline\"\n        onClick={() =>\n          toast.warning(\"Event start time cannot be earlier than 8am\")\n        }\n      >\n        Warning\n      </Button>\n      <Button\n        variant=\"outline\"\n        onClick={() => toast.error(\"Event has not been created\")}\n      >\n        Error\n      </Button>\n      <Button\n        variant=\"outline\"\n        onClick={() => {\n          toast.promise<{ name: string }>(\n            () =>\n              new Promise((resolve) =>\n                setTimeout(() => resolve({ name: \"Event\" }), 2000)\n              ),\n            {\n              loading: \"Loading...\",\n              success: (data) => `${data.name} has been created`,\n              error: \"Error\",\n            }\n          )\n        }}\n      >\n        Promise\n      </Button>\n    </div>\n  )\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:13Z",
+  "updated_at": "2026-10-26T08:01:13Z"
+}

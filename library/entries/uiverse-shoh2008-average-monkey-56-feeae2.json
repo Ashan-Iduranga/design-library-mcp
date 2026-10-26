@@ -1,0 +1,31 @@
+{
+  "id": "uiverse-shoh2008-average-monkey-56-feeae2",
+  "title": "Toggle by Shoh2008 (average-monkey-56)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Shoh2008/average-monkey-56",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Shoh2008 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Shoh2008_average-monkey-56.html",
+  "code": "<div class=\"checkbox-wrapper-5\">\n  <div class=\"check\">\n    <input checked=\"\" id=\"check-5\" type=\"checkbox\">\n    <label for=\"check-5\"></label>\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Shoh2008 - Tags: switch */\n.checkbox-wrapper-5 .check {\n  --size: 40px;\n  position: relative;\n  background: linear-gradient(90deg, #f19af3, #f099b5);\n  line-height: 0;\n  perspective: 400px;\n  font-size: var(--size);\n}\n\n.checkbox-wrapper-5 .check input[type=\"checkbox\"],\n  .checkbox-wrapper-5 .check label,\n  .checkbox-wrapper-5 .check label::before,\n  .checkbox-wrapper-5 .check label::after,\n  .checkbox-wrapper-5 .check {\n  appearance: none;\n  display: inline-block;\n  border-radius: var(--size);\n  border: 0;\n  transition: .35s ease-in-out;\n  box-sizing: border-box;\n  cursor: pointer;\n}\n\n.checkbox-wrapper-5 .check label {\n  width: calc(2.2 * var(--size));\n  height: var(--size);\n  background: #d7d7d7;\n  overflow: hidden;\n}\n\n.checkbox-wrapper-5 .check input[type=\"checkbox\"] {\n  position: absolute;\n  z-index: 1;\n  width: calc(.8 * var(--size));\n  height: calc(.8 * var(--size));\n  top: calc(.1 * var(--size));\n  left: calc(.1 * var(--size));\n  background: linear-gradient(45deg, #dedede, #ffffff);\n  box-shadow: 0 6px 7px rgba(0,0,0,0.3);\n  outline: none;\n  margin: 0;\n}\n\n.checkbox-wrapper-5 .check input[type=\"checkbox\"]:checked {\n  left: calc(1.3 * var(--size));\n}\n\n.checkbox-wrapper-5 .check input[type=\"checkbox\"]:checked + label {\n  background: transparent;\n}\n\n.checkbox-wrapper-5 .check label::before,\n  .checkbox-wrapper-5 .check label::after {\n  content: \"· ·\";\n  position: absolute;\n  overflow: hidden;\n  left: calc(.15 * var(--size));\n  top: calc(.5 * var(--size));\n  height: var(--size);\n  letter-spacing: calc(-0.04 * var(--size));\n  color: #9b9b9b;\n  font-family: \"Times New Roman\", serif;\n  z-index: 2;\n  font-size: calc(.6 * var(--size));\n  border-radius: 0;\n  transform-origin: 0 0 calc(-0.5 * var(--size));\n  backface-visibility: hidden;\n}\n\n.checkbox-wrapper-5 .check label::after {\n  content: \"●\";\n  top: calc(.65 * var(--size));\n  left: calc(.2 * var(--size));\n  height: calc(.1 * var(--size));\n  width: calc(.35 * var(--size));\n  font-size: calc(.2 * var(--size));\n  transform-origin: 0 0 calc(-0.4 * var(--size));\n}\n\n.checkbox-wrapper-5 .check input[type=\"checkbox\"]:checked + label::before,\n  .checkbox-wrapper-5 .check input[type=\"checkbox\"]:checked + label::after {\n  left: calc(1.55 * var(--size));\n  top: calc(.4 * var(--size));\n  line-height: calc(.1 * var(--size));\n  transform: rotateY(360deg);\n}\n\n.checkbox-wrapper-5 .check input[type=\"checkbox\"]:checked + label::after {\n  height: calc(.16 * var(--size));\n  top: calc(.55 * var(--size));\n  left: calc(1.6 * var(--size));\n  font-size: calc(.6 * var(--size));\n  line-height: 0;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

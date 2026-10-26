@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-arshshaikh06-hard-cobra-69-54d8b1",
+  "title": "Card by arshshaikh06 (hard-cobra-69)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/arshshaikh06/hard-cobra-69",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By arshshaikh06 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/arshshaikh06_hard-cobra-69.html",
+  "code": "<div class=\"container\">\n  <div class=\"palette\">\n    <div class=\"color\"><span>264653</span></div>\n    <div class=\"color\"><span>2A9D8F</span></div>\n    <div class=\"color\"><span>E9C46A</span></div>\n    <div class=\"color\"><span>F4A261</span></div>\n    <div class=\"color\"><span>E76F51</span></div>\n  </div>\n  <div id=\"stats\">\n    <span>53421 saves</span>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\">\n      <path d=\"M4 7.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5S5.5 9.83 5.5 9 4.83 7.5 4 7.5zm10 0c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5 1.5-.67 1.5-1.5-.67-1.5-1.5-1.5zm-5 0c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5 1.5-.67 1.5-1.5S9.83 7.5 9 7.5z\"></path>\n    </svg>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by arshshaikh06 - Source: https://codepen.io/arsh-shaikh/pen/ZELZwWq?editors=1100 - Tags: card, palette, ui, card hover */\n.container {\n  height: 200px;\n  width: 350px;\n  border-radius: 1em;\n  overflow: hidden;\n  box-shadow: 0 10px 20px #dbdbdb;\n  font-family: sans-serif;\n}\n\n.palette {\n  display: flex;\n  height: 86%;\n  width: 100%;\n}\n\n.color {\n  height: 100%;\n  flex: 1;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: white;\n  font-weight: 600;\n  letter-spacing: 1px;\n  transition: flex 0.1s linear;\n}\n\n.color span {\n  opacity: 0;\n  transition: opacity 0.1s linear;\n}\n\n.color:nth-child(1) {\n  background: #264653;\n}\n\n.color:nth-child(2) {\n  background: #2a9d8f;\n}\n\n.color:nth-child(3) {\n  background: #e9c46a;\n}\n\n.color:nth-child(4) {\n  background: #f4a261;\n}\n\n.color:nth-child(5) {\n  background: #e76f51;\n}\n\n.color:hover {\n  flex: 2;\n  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;\n}\n\n.color:hover span {\n  opacity: 1;\n}\n\n#stats {\n  height: 14%;\n  width: 100%;\n  background: white;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 0 1.5em;\n  box-sizing: border-box;\n  color: #bebebe;\n}\n\n#stats svg {\n  fill: #bebebe;\n  transform: scale(1.2);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

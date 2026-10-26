@@ -1,0 +1,32 @@
+{
+  "id": "uiverse-escannord-old-grasshopper-30-2805dd",
+  "title": "Button by escannord (old-grasshopper-30)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/escannord/old-grasshopper-30",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "btn"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By escannord on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/escannord_old-grasshopper-30.html",
+  "code": "<button class=\"button\">join now</button>\n\n<style>\n/* From Uiverse.io by escannord  - Tags: simple, button, btn */\n.button {\n  cursor: pointer;\n  display: inline-block;\n  width: 14rem;\n  height: 4rem;\n  border: solid 2px;\n  background: linear-gradient(to right, #ff00ffb0, #ff9900a1, #ff00ff9f),\n    radial-gradient(rgb(255, 255, 255), rgb(255, 0, 0));\n  border-radius: 20px;\n  font-weight: 800;\n  position: relative;\n  border-image: linear-gradient(to right, #5e005e, #804d00, #eb1beb);\n  border-image-slice: 50;\n}\n\n.button::before {\n  content: \"\";\n  display: inline-block;\n  position: absolute;\n  width: 90%;\n  height: 70%;\n  border: 1px solid rgba(255, 255, 255, 0.384);\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  border-radius: 8px;\n  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.575),\n    inset 0px 0px 0px 0px rgba(255, 255, 255, 0.575);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

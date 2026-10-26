@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-yaya12085-smooth-seahorse-63-a2669c",
+  "title": "Notification by Yaya12085 (smooth-seahorse-63)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Yaya12085/smooth-seahorse-63",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "notification",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Yaya12085 on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Notifications/Yaya12085_smooth-seahorse-63.html",
+  "code": "<div class=\"notification\">\n  <div class=\"icon\">\n    <svg fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" class=\"icon\" viewBox=\"0 0 1024 1024\"><g stroke-width=\"0\" id=\"SVGRepo_bgCarrier\"></g><g stroke-linejoin=\"round\" stroke-linecap=\"round\" id=\"SVGRepo_tracerCarrier\"></g><g id=\"SVGRepo_iconCarrier\"><path fill=\"#E9E8FF\" d=\"M512 512m-480 0a480 480 0 1 0 960 0 480 480 0 1 0-960 0Z\"></path><path fill=\"#8880FE\" d=\"M723.2 704c-25.6 0-51.2-12.8-70.4-32L582.4 582.4H435.2l-38.4 64c-19.2 32-51.2 57.6-89.6 57.6-57.6 0-102.4-44.8-102.4-102.4v-12.8V576l25.6-166.4c6.4-70.4 57.6-121.6 128-121.6 32 0 70.4 12.8 89.6 38.4 25.6 0 89.6-6.4 128 0 25.6-25.6 57.6-32 89.6-32 51.2 0 96 32 115.2 83.2v12.8l38.4 179.2c0 6.4 6.4 19.2 6.4 32 0 51.2-44.8 102.4-102.4 102.4z\"></path><path fill=\"#FFFFFF\" d=\"M716.8 460.8c-12.8 0-19.2-12.8-19.2-19.2s6.4-19.2 19.2-19.2c12.8 0 19.2 12.8 19.2 19.2s-6.4 19.2-19.2 19.2z m-108.8 0c-12.8 0-19.2-12.8-19.2-19.2s6.4-19.2 19.2-19.2c12.8 0 19.2 12.8 19.2 19.2s-6.4 19.2-19.2 19.2z m51.2 57.6c-6.4 0-19.2-6.4-19.2-19.2s6.4-19.2 19.2-19.2 19.2 12.8 19.2 19.2-6.4 19.2-19.2 19.2z m0-115.2c-6.4 0-19.2-6.4-19.2-19.2s6.4-19.2 19.2-19.2 19.2 12.8 19.2 19.2-6.4 19.2-19.2 19.2zM345.6 416h-51.2V448h51.2v51.2h32V448h51.2v-32h-51.2v-51.2h-32z\"></path></g></svg>\n  </div>\n  <div class=\"messages\">\n    <span class=\"title\">Well done!</span>\n    <span class=\"description\">New level reached.</span>\n    <span class=\"level\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\"><g stroke-width=\"0\" id=\"SVGRepo_bgCarrier\"></g><g stroke-linejoin=\"round\" stroke-linecap=\"round\" id=\"SVGRepo_tracerCarrier\"></g><g id=\"SVGRepo_iconCarrier\"> <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"2\" stroke=\"#fff\" d=\"M15 16L12.1937 13.1937V13.1937C12.0867 13.0867 11.9133 13.0867 11.8063 13.1937V13.1937L9 16\"></path> <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"2\" stroke=\"#fff\" d=\"M15 11L12.1505 8.15049V8.15049C12.0674 8.06738 11.9326 8.06738 11.8495 8.15049V8.15049L9 11\"></path> </g></svg>\n      lvl. 8\n      </span>\n      \n  </div>\n  <div class=\"action\">\n    <button>Next</button>\n  </div>\n</div>\n<style>\n/* From Uiverse.io by Yaya12085 - Tags: notification */\n.notification {\n  width: 300px;\n  height: 70px;\n  background: #fff;\n  border-radius: 10px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  color: #212121;\n  box-shadow: 0px 42px 53px 13px rgba(0,0,0,0.1);\n  padding: 2px;\n  position: relative;\n  animation: appear .6s linear alternate-reverse infinite;\n  transition: all .6s ease;\n}\n\n.icon {\n  height: 100%;\n  transition: transform .6s ease;\n}\n\n.messages {\n  height: 100%;\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  padding: 4px;\n}\n\n.title {\n  font-size: 0.95rem;\n  line-height: 1rem;\n  font-weight: 700;\n  margin-bottom: 4px;\n  color: #494949;\n}\n\n.description {\n  font-size: 13px;\n  margin-bottom: 4px;\n}\n\n.level {\n  color: #7d5cf5;\n  font-weight: 600;\n  background-color: #7d5cf53f;\n  display: flex;\n  align-items: center;\n  flex: 1;\n  height: 0;\n  width: max-content;\n  padding: 4px;\n  border-radius: 10px;\n}\n\n.level svg {\n  height: 140%;\n  background-color: #7d5cf5;\n  border-radius: 6px;\n  margin-right: 4px;\n}\n\n.action {\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.action button {\n  padding: 0.5rem  1rem;\n  background-color: #7d5cf5;\n  color: #ffffff;\n  font-size: 0.75rem;\n  line-height: 1rem;\n  font-weight: 700;\n  text-transform: uppercase;\n  border-radius: 10px;\n  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);\n  border: none;\n  height: 40px;\n  transition: all .6s ease;\n  margin-right: 6px;\n}\n\n.notification:hover .icon {\n  transform: rotate(45deg);\n}\n\n.action button:hover {\n  height: 100%;\n  margin-right: 0;\n}\n\n.action button:active {\n  background-color: #4dec48;\n}\n\n@keyframes appear {\n  from {\n    transform: scale(0.98);\n  }\n\n  to {\n    transform: scale(1);\n  }\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

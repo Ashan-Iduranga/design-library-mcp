@@ -1,0 +1,30 @@
+{
+  "id": "uiverse-hssqrshi-light-rattlesnake-90-ccab2b",
+  "title": "Button by hssqrshi (light-rattlesnake-90)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/hssqrshi/light-rattlesnake-90",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By hssqrshi on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/hssqrshi_light-rattlesnake-90.html",
+  "code": "<button class=\"button\">Join Now<span class=\"arrow\">&gt;</span></button>\n\n<style>\n/* From Uiverse.io by hssqrshi  - Tags: button */\n.button {\n  background-color: #c47dfb;\n  background-image: linear-gradient(to bottom, #d992ff, #c47dfb);\n  border: none;\n  color: white;\n  padding: 15px 32px;\n  text-align: center;\n  text-decoration: none;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 16px;\n  margin: 4px 2px;\n  cursor: pointer;\n  border-radius: 12px;\n  position: relative;\n  overflow: hidden;\n  transition:\n    transform 0.2s ease,\n    box-shadow 0.2s ease,\n    background-color 0.3s ease;\n  transform: perspective(500px) rotateX(0deg);\n}\n\n.button:hover {\n  background-color: #b46cea;\n  transform: perspective(500px) rotateX(5deg);\n  animation: glow 1.5s infinite alternate;\n}\n\n.button:focus {\n  outline: none;\n  box-shadow: 0 0 0 4px rgba(196, 125, 251, 0.5);\n}\n\n.button:active {\n  transform: perspective(500px) rotateX(-5deg) translateY(2px);\n  box-shadow:\n    0 4px 8px rgba(0, 0, 0, 0.2),\n    0 10px 15px rgba(0, 0, 0, 0.2);\n}\n\n@keyframes glow {\n  0% {\n    box-shadow:\n      0 0 10px rgba(196, 125, 251, 0.5),\n      0 0 20px rgba(196, 125, 251, 0.5),\n      0 0 30px rgba(196, 125, 251, 0.5);\n  }\n  100% {\n    box-shadow:\n      0 0 20px rgba(196, 125, 251, 0.8),\n      0 0 30px rgba(196, 125, 251, 0.8),\n      0 0 40px rgba(196, 125, 251, 0.8);\n  }\n}\n\n.button .text {\n  transition:\n    transform 0.3s ease,\n    color 0.3s ease,\n    font-size 0.3s ease;\n}\n\n.button:hover .text {\n  transform: scale(1.2);\n  font-size: 18px;\n  color: #e0bbff;\n}\n\n.arrow {\n  display: inline-block;\n  margin-left: 8px;\n  transition: transform 0.3s ease;\n  font-size: 16px;\n}\n\n.button:hover .arrow {\n  transform: translateX(5px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

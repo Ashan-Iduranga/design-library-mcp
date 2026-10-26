@@ -1,0 +1,36 @@
+{
+  "id": "uiverse-vashong-rotten-frog-52-e3934b",
+  "title": "Button by VashonG (rotten-frog-52)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/VashonG/rotten-frog-52",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "flashy",
+    "game",
+    "3d-button",
+    "shimmer",
+    "cred",
+    "neopop"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By VashonG on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/VashonG_rotten-frog-52.html",
+  "code": "<button class=\"neo-pop-tilted-button\">\n  <span>Play Now</span>\n</button>\n\n<style>\n/* From Uiverse.io by VashonG  - Tags: flashy, button, game, 3d button, shimmer, cred, neopop */\n.neo-pop-tilted-button {\n  border: 0.1px;\n  padding-bottom: 6px;\n  box-shadow: 1px 5px 7px #494a4b;\n  position: relative;\n  overflow: hidden;\n  background-color: #b7a81d;\n  color: #000000;\n  font-size: 1.25rem;\n  font-weight: 600;\n  cursor: pointer;\n  transform: perspective(180px) rotateX(30deg) translateY(2px);\n  transition: transform 0.3s ease, background-color 0.3s ease;\n}\n\n.neo-pop-tilted-button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 60%;\n  width: 35%;\n  height: 100%;\n  background: linear-gradient(\n    to right,\n    rgba(196, 196, 196, 0.8) 5px,\n    rgba(196, 196, 196, 0) 5px,\n    rgba(196, 196, 196, 0) 10px,\n    rgba(196, 196, 196, 0.8) 2px\n  );\n  animation: shimmer 5.5s infinite linear;\n}\n\n.neo-pop-tilted-button span::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 60%;\n  width: 35%;\n  height: 100%;\n  background: linear-gradient(\n    to right,\n    rgba(255, 255, 255, 1) 5px,\n    rgba(255, 255, 255, 0) 5px,\n    rgba(255, 255, 255, 0) 10px,\n    rgba(255, 255, 255, 1) 2px\n  );\n  animation: shimmer 5.5s infinite linear;\n}\n\n@keyframes shimmer {\n  0% {\n    transform: translateX(-1950%);\n  }\n  100% {\n    transform: translateX(100%);\n  }\n}\n\n.neo-pop-tilted-button span {\n  background: #ffeb34;\n  padding: 1rem 2.5rem;\n  position: relative;\n  z-index: 1;\n  display: block;\n  border-radius: 0px;\n  border: 1px solid #494a4b;\n}\n\n.neo-pop-tilted-button:focus {\n  outline: none;\n}\n\n.neo-pop-tilted-button:focus-visible {\n  box-shadow: 0 0 0 3px rgba(255, 235, 52, 0.5);\n}\n\nbutton:active {\n  transform: perspective(170px) rotateX(36deg) translateY(5px);\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

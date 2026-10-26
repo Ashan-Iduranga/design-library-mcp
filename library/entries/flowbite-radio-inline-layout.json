@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-radio-inline-layout",
+  "title": "Radio: Inline layout (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/forms/radio/#inline-layout",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "radio",
+    "forms",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Use the `flex` class for a wrapper element to horizontally align the radio elements.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/forms/radio.md",
+  "code": "<div class=\"flex\">\n    <div class=\"flex items-center me-4\">\n        <input id=\"inline-radio\" type=\"radio\" value=\"\" name=\"inline-radio-group\" class=\"w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none\">\n        <label for=\"inline-radio\" class=\"select-none ms-2 text-sm font-medium text-heading\">Inline 1</label>\n    </div>\n    <div class=\"flex items-center me-4\">\n        <input id=\"inline-2-radio\" type=\"radio\" value=\"\" name=\"inline-radio-group\" class=\"w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none\">\n        <label for=\"inline-2-radio\" class=\"select-none ms-2 text-sm font-medium text-heading\">Inline 2</label>\n    </div>\n    <div class=\"flex items-center me-4\">\n        <input checked id=\"inline-checked-radio\" type=\"radio\" value=\"\" name=\"inline-radio-group\" class=\"w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none\">\n        <label for=\"inline-checked-radio\" class=\"select-none ms-2 text-sm font-medium text-heading\">Inline checked</label>\n    </div>\n    <div class=\"flex items-center\">\n        <input disabled id=\"inline-disabled-radio\" type=\"radio\" value=\"\" name=\"inline-radio-group\" class=\"w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none\">\n        <label for=\"inline-disabled-radio\" class=\"select-none ms-2 text-sm font-medium text-fg-disabled\">Inline disabled</label>\n    </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

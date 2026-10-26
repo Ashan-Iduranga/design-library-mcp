@@ -1,0 +1,32 @@
+{
+  "id": "hyperui-application-details-list-2",
+  "title": "Details Lists: Striped",
+  "source": "HyperUI",
+  "url": "https://www.hyperui.dev/components/application/details-list",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "application",
+    "details-list",
+    "hyperui",
+    "data"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Original file: https://github.com/markmead/hyperui/blob/main/public/examples/application/details-list/2.html",
+  "code": "<div class=\"mx-auto max-w-3xl p-6\">\n<div class=\"flow-root\">\n<dl class=\"-my-3 divide-y divide-gray-200 text-sm *:even:bg-gray-50\">\n<div class=\"grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4\">\n<dt class=\"font-medium text-gray-900\">Title</dt>\n<dd class=\"text-gray-700 sm:col-span-2\">Mr</dd>\n</div>\n<div class=\"grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4\">\n<dt class=\"font-medium text-gray-900\">Name</dt>\n<dd class=\"text-gray-700 sm:col-span-2\">John Frusciante</dd>\n</div>\n<div class=\"grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4\">\n<dt class=\"font-medium text-gray-900\">Occupation</dt>\n<dd class=\"text-gray-700 sm:col-span-2\">Guitarist</dd>\n</div>\n<div class=\"grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4\">\n<dt class=\"font-medium text-gray-900\">Salary</dt>\n<dd class=\"text-gray-700 sm:col-span-2\">$1,000,000+</dd>\n</div>\n<div class=\"grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4\">\n<dt class=\"font-medium text-gray-900\">Bio</dt>\n<dd class=\"text-gray-700 sm:col-span-2\">\n            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et facilis debitis explicabo\n            doloremque impedit nesciunt dolorem facere, dolor quasi veritatis quia fugit aperiam\n            aspernatur neque molestiae labore aliquam soluta architecto?\n          </dd>\n</div>\n</dl>\n</div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:51:53Z",
+  "updated_at": "2026-10-26T07:51:54Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "uiverse-bastiennnn-wicked-dog-68-7856a7",
+  "title": "Card by Bastiennnn (wicked-dog-68)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Bastiennnn/wicked-dog-68",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "card",
+    "uiverse",
+    "animation",
+    "blue",
+    "code",
+    "hover-effect",
+    "cool-card",
+    "cardhover",
+    "card-hover"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Bastiennnn on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Cards/Bastiennnn_wicked-dog-68.html",
+  "code": "<div class=\"card\">\n  <div class=\"header\">\n    <div class=\"top\">\n      <div class=\"circle\">\n        <span class=\"red circle2\"></span>\n      </div>\n      <div class=\"circle\">\n        <span class=\"yellow circle2\"></span>\n      </div>\n      <div class=\"circle\">\n        <span class=\"green circle2\"></span>\n      </div>\n      <div class=\"title\">\n        <p id=\"title2\">style.css</p>\n      </div>\n    </div>\n  </div>\n  <div class=\"code-container\">\n    <textarea class=\"area\" id=\"code\" name=\"code\" readonly=\"\">\n.card {\n  width: 300px;\n  height: 400px;\n  margin: 0 auto;\n  background-color: #24233b;\n  border-radius: 8px;\n  z-index: 1;\n  box-shadow: 0px 10px 10px rgb(73, 70, 92);\n  transition: 0.5s;\n}\n\n.card:hover {\n  transform: translateY(-7px);\n  box-shadow: 0px 10px 10px black;\n}\n\n.top {\n  display: flex;\n  align-items: center;\n  padding-left: 10px;\n}</textarea\n    >\n  </div>\n</div>\n\n<style>\n/* From Uiverse.io by Bastiennnn  - Tags: animation, blue, card, code, hover effect, cool card, cardhover , card hover */\n.card {\n  width: 300px;\n  height: 400px;\n  margin: 0 auto;\n  background-color: #24233b;\n  border-radius: 8px;\n  z-index: 1;\n  box-shadow: 0px 10px 10px rgb(73, 70, 92);\n  transition: 0.5s;\n}\n\n.card:hover {\n  transform: translateY(-7px);\n  box-shadow: 0px 10px 10px black;\n}\n\n.top {\n  display: flex;\n  align-items: center;\n  padding-left: 10px;\n}\n\n.circle {\n  padding: 0 4px;\n}\n\n.circle2 {\n  display: inline-block;\n  align-items: center;\n  width: 10px;\n  height: 10px;\n  padding: 1px;\n  border-radius: 5px;\n}\n\n.red {\n  background-color: #ff605c;\n}\n\n.yellow {\n  background-color: #ffbd44;\n}\n\n.green {\n  background-color: #00ca4e;\n}\n\n.header {\n  margin: 5px;\n  margin-top: 5px;\n  border-radius: 5px;\n}\n\n#title2 {\n  color: white;\n  padding-left: 50px;\n  font-size: 15px;\n}\n\n.code-container {\n  text-align: center;\n}\n#code {\n  width: 270px;\n  height: 350px;\n  resize: none;\n  background-color: rgb(73, 70, 92);\n  border-radius: 5px;\n  border: none;\n  color: white;\n  padding: 10px;\n}\n#code:focus {\n  outline: none !important;\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}

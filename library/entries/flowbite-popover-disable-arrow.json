@@ -1,0 +1,32 @@
+{
+  "id": "flowbite-popover-disable-arrow",
+  "title": "Popover: Disable arrow (Flowbite)",
+  "source": "Flowbite",
+  "url": "https://flowbite.com/docs/components/popover/#disable-arrow",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "popover",
+    "components",
+    "flowbite",
+    "tailwind"
+  ],
+  "framework": "tailwind",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "You can also disable the popover arrow by not including the `data-popper-arrow` element.\n\nOriginal file: https://github.com/themesberg/flowbite/blob/main/content/components/popover.md",
+  "code": "<button data-popover-target=\"popover-no-arrow\" type=\"button\" class=\"text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none\">Default popover</button>\n\n<div data-popover id=\"popover-no-arrow\" role=\"tooltip\" class=\"absolute z-10 invisible inline-block w-64 text-sm text-body transition-opacity duration-300 bg-neutral-primary-soft border border-default rounded-base shadow-xs opacity-0\">\n    <div class=\"px-3 py-2 bg-neutral-tertiary border-b border-default rounded-t-base\">\n        <h3 class=\"font-medium text-heading\">Popover left</h3>\n    </div>\n    <div class=\"px-3 py-2\">\n        <p>And here's some amazing content. It's very engaging. Right?</p>\n    </div>\n</div>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:28Z",
+  "updated_at": "2026-10-26T08:02:08Z"
+}

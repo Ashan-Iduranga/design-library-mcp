@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-satyamchaudharydev-rude-wolverine-24-01cb29",
+  "title": "Button by satyamchaudharydev (rude-wolverine-24)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/satyamchaudharydev/rude-wolverine-24",
+  "license": "MIT",
+  "type": "component",
+  "tags": [
+    "button",
+    "uiverse",
+    "simple",
+    "animation",
+    "text-animation"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By satyamchaudharydev on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Buttons/satyamchaudharydev_rude-wolverine-24.html",
+  "code": "<button class=\"button\">\n  Apply Now\n  <svg fill=\"currentColor\" viewBox=\"0 0 24 24\" class=\"icon\">\n    <path clip-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z\" fill-rule=\"evenodd\"></path>\n  </svg>\n</button>\n<style>\n/* From Uiverse.io by satyamchaudharydev - Tags: simple, animation, button, text animation */\n.button {\n  position: relative;\n  transition: all 0.3s ease-in-out;\n  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);\n  padding-block: 0.5rem;\n  padding-inline: 1.25rem;\n  background-color: rgb(0 107 179);\n  border-radius: 9999px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #ffff;\n  gap: 10px;\n  font-weight: bold;\n  border: 3px solid #ffffff4d;\n  outline: none;\n  overflow: hidden;\n  font-size: 15px;\n}\n\n.icon {\n  width: 24px;\n  height: 24px;\n  transition: all 0.3s ease-in-out;\n}\n\n.button:hover {\n  transform: scale(1.05);\n  border-color: #fff9;\n}\n\n.button:hover .icon {\n  transform: translate(4px);\n}\n\n.button:hover::before {\n  animation: shine 1.5s ease-out infinite;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  width: 100px;\n  height: 100%;\n  background-image: linear-gradient(\n    120deg,\n    rgba(255, 255, 255, 0) 30%,\n    rgba(255, 255, 255, 0.8),\n    rgba(255, 255, 255, 0) 70%\n  );\n  top: 0;\n  left: -100px;\n  opacity: 0.6;\n}\n\n@keyframes shine {\n  0% {\n    left: -100px;\n  }\n\n  60% {\n    left: 100%;\n  }\n\n  to {\n    left: 100%;\n  }\n}\n\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:04Z"
+}

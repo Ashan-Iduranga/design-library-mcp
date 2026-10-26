@@ -1,0 +1,36 @@
+{
+  "id": "magicui-shiny-button-demo",
+  "title": "Shiny Button Demo (Magic UI example)",
+  "source": "Magic UI",
+  "url": "https://magicui.design/docs/components/shiny-button",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "shiny",
+    "button",
+    "demo",
+    "animation",
+    "magicui",
+    "react",
+    "tailwind",
+    "example"
+  ],
+  "framework": "react",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "Example showing a shiny button with dynamic styles.\n\nOriginal file: https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/example/shiny-button-demo.tsx",
+  "code": "import { ShinyButton } from \"@/registry/magicui/shiny-button\"\n\nexport default function ShinyButtonDemo() {\n  return <ShinyButton>Shiny Button</ShinyButton>\n}\n",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T08:01:22Z",
+  "updated_at": "2026-10-26T08:01:22Z"
+}

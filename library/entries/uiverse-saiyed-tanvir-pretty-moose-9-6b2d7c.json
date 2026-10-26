@@ -1,0 +1,33 @@
+{
+  "id": "uiverse-saiyed-tanvir-pretty-moose-9-6b2d7c",
+  "title": "Toggle by Saiyed-Tanvir (pretty-moose-9)",
+  "source": "Uiverse",
+  "url": "https://uiverse.io/Saiyed-Tanvir/pretty-moose-9",
+  "license": "MIT",
+  "type": "interaction",
+  "tags": [
+    "toggle",
+    "uiverse",
+    "switch",
+    "animated",
+    "lever"
+  ],
+  "framework": "html",
+  "style_notes": {
+    "palette": "",
+    "fonts": "",
+    "spacing": "",
+    "mood": ""
+  },
+  "notes": "By Saiyed-Tanvir on Uiverse.io.\n\nOriginal file: https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/Saiyed-Tanvir_pretty-moose-9.html",
+  "code": "<label class=\"tgl\">\n    <input type=\"checkbox\">\n    <span class=\"slider\"></span>\n</label>\n<style>\n/* From Uiverse.io by Saiyed-Tanvir - Tags: switch, animated, lever */\n.tgl {\n  position: relative;\n  display: inline-block;\n  width: 5em;\n  height: 1em;\n}\n\n.tgl input {\n  display: none;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: .4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 3.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: -1.3em;\n  background-color: #ffffff;\n  box-shadow: 0px 0px 5px #0009;\n  transition: 1s cubic-bezier(0.49, -1.3, 0.45, 2.44);\n}\n\n.tgl input:checked + .slider {\n  background-color: #2196F3;\n}\n\n.tgl input:checked + .slider:before {\n  transform: translateX(2.5em) rotateZ(-180deg);\n}\n</style>",
+  "prompt": null,
+  "preview_image_url": null,
+  "local_image": null,
+  "when_to_use": "",
+  "avoid_when": "",
+  "my_rating": 3,
+  "favorite": false,
+  "added_at": "2026-10-26T07:52:03Z",
+  "updated_at": "2026-10-26T07:52:03Z"
+}
