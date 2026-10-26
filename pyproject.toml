@@ -1,0 +1,35 @@
+[project]
+name = "design-library-mcp"
+version = "0.1.0"
+description = "A local, curated design-reference library with a web gallery and an MCP server."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "pydantic>=2.7",
+    "fastapi>=0.115",
+    "uvicorn>=0.30",
+    "jinja2>=3.1",
+    "python-multipart>=0.0.9",  # FastAPI needs this for HTML form posts and file uploads
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+    "markdown>=3.6",            # renders library/sources.md and style guides on the web pages
+    "mcp>=1.2",
+]
+
+[project.scripts]
+designlib = "designlib.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/designlib"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

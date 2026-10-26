@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.cache/
+*.egg-info/
+
+# The search index is rebuilt from library/entries/*.json
+library/index.db
+library/index.db-*
