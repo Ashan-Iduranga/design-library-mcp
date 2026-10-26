@@ -316,6 +316,9 @@ a.badge:hover { color: var(--ink); }
 .rating i { width: 6px; height: 6px; border-radius: 50%; background: var(--line); }
 .rating i.on { background: var(--ink-2); }
 
+.more { display: flex; justify-content: center; padding: 8px 0 24px; }
+.more.htmx-request button { opacity: 0.6; cursor: progress; }
+
 /* ---------- empty states ---------- */
 
 .empty { max-width: 46ch; margin: 48px auto; text-align: center; display: grid; gap: 12px; justify-items: center; }

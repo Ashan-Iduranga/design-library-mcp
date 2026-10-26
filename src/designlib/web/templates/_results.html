@@ -15,12 +15,13 @@
   </div>
 {% else %}
   <p class="result-count">
-    {% if results|length == total %}{{ total }} references{% else %}{{ results|length }} of {{ total }} references{% endif %}
+    {% if matches == total %}{{ "{:,}".format(total) }} references{% else %}{{ "{:,}".format(matches) }} of {{ "{:,}".format(total) }} references match{% endif %}
     {% if meaning %}<span class="muted">, matched by meaning and keywords</span>{% endif %}
   </p>
-  <ul class="grid" role="list">
+  <ul class="grid" id="grid" role="list">
     {% for entry in results %}
       {% include "_card.html" %}
     {% endfor %}
   </ul>
+  {% include "_more_button.html" %}
 {% endif %}

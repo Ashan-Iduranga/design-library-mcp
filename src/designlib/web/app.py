@@ -12,6 +12,7 @@ Pages
 """
 
 from pathlib import Path
+from urllib.parse import urlencode
 
 import markdown
 from fastapi import FastAPI, HTTPException, Request
@@ -29,6 +30,7 @@ from designlib.core.search import (
     SORTS,
     Filters,
     count_entries,
+    count_matches,
     get_entry,
     list_frameworks,
     list_sources,
@@ -43,6 +45,7 @@ HERE = Path(__file__).parent
 IMAGE_TYPES = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 MAX_UPLOAD_BYTES = 5 * 1024 * 1024
 LICENSES = [LINK_ONLY, *sorted(OPEN_LICENSES)]
+PAGE_SIZE = 60  # cards per "page"; "Show more" appends the next 60
 
 templates = Jinja2Templates(directory=HERE / "templates")
 templates.env.globals.update(
@@ -63,6 +66,11 @@ def create_app() -> FastAPI:
     # local_image values look like "assets/mine/x.png", so serve the library's assets/ at /assets
     app.mount("/assets", StaticFiles(directory=config.assets_dir().parent), name="assets")
 
+    @app.get("/healthz")
+    def healthz():
+        """Tiny, instant answer so `serve` can tell our gallery apart from other programs."""
+        return {"app": "design-library"}
+
     # ---------- gallery ----------
 
     @app.get("/", response_class=HTMLResponse)
@@ -76,15 +84,26 @@ def create_app() -> FastAPI:
             tags=params.getlist("tag"),
             favorites_only=params.get("fav") == "1",
             sort=params.get("sort", "relevance"),
-            limit=200,
+            limit=PAGE_SIZE,
+            offset=max(0, int(params.get("offset", "0") or 0)),
             wait_for_model=False,  # live search must stay instant; meaning kicks in once loaded
         )
+        results = search(filters)
+        matches = count_matches(filters)
+        shown = filters.offset + len(results)
+        # The "Show more" link: the same query string with the next offset.
+        next_params = [(k, v) for k, v in params.multi_items() if k not in ("offset", "more")]
         context = {
-            "results": search(filters),
+            "results": results,
             "filters": filters,
             "total": count_entries(),
+            "matches": matches,
+            "shown": shown,
+            "more_url": "/?" + urlencode([*next_params, ("offset", shown), ("more", "1")]) if shown < matches else None,
             "meaning": uses_meaning(filters),
         }
+        if params.get("more") == "1":  # "Show more": just the extra cards + a new button
+            return templates.TemplateResponse(request, "_more.html", context)
         # HTMX sends HX-Request on live updates: answer with just the results.
         # On a history restore (back button, cache miss) it wants the full page.
         is_partial = request.headers.get("HX-Request") and not request.headers.get("HX-History-Restore-Request")

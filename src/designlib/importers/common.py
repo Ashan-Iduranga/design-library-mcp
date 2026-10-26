@@ -5,8 +5,10 @@ We never extract or execute anything from the downloaded zip. Importers only
 read text files out of it with `zipfile`.
 """
 
+import re
 import zipfile
 from collections.abc import Iterable, Iterator
+from contextlib import contextmanager
 from pathlib import Path
 
 import httpx
@@ -48,6 +50,32 @@ def download_repo(owner: str, repo: str, branch: str = "main", refresh: bool = F
             for chunk in response.iter_bytes():
                 file.write(chunk)
     return target
+
+
+@contextmanager
+def open_repo(owner: str, repo: str, license: str = "MIT", branch: str = "main", refresh: bool = False):
+    """Download (once), verify the LICENSE, and open a repo zip.
+
+        with open_repo("shadcn-ui", "ui") as (archive, prefix):
+            text = read_text(archive, prefix + "README.md")
+    """
+    path = download_repo(owner, repo, branch=branch, refresh=refresh)
+    with zipfile.ZipFile(path) as archive:
+        print(f"License check passed: {verify_license(archive, license)}")
+        yield archive, root_prefix(archive)
+
+
+def files_under(archive: zipfile.ZipFile, folder: str, pattern: str = r".*") -> list[str]:
+    """Sorted file names inside `folder` (a full zip path ending in '/') matching `pattern`."""
+    return sorted(
+        name for name in archive.namelist()
+        if name.startswith(folder) and not name.endswith("/") and re.search(pattern, name.removeprefix(folder))
+    )
+
+
+def title_case(slug: str) -> str:
+    """'dashboard-01' -> 'Dashboard 01'"""
+    return slug.replace("-", " ").replace("_", " ").strip().title()
 
 
 def root_prefix(archive: zipfile.ZipFile) -> str:

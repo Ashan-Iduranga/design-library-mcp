@@ -61,6 +61,7 @@ class PageMeta:
 
 
 _last_request: dict[str, float] = {}  # host -> time of our last request
+_robots_cache: dict[str, RobotFileParser | None] = {}  # host -> parsed rules (None = no rules)
 
 
 def _wait_for_turn(host: str) -> None:
@@ -79,18 +80,23 @@ def source_name(url: str) -> str:
 
 
 def _robots_allows(client: httpx.Client, url: str) -> bool:
+    """Check robots.txt. It's downloaded once per site and remembered, so a bulk
+    import doesn't request it again before every page."""
     parts = urlparse(url)
-    robots_url = f"{parts.scheme}://{parts.netloc}/robots.txt"
-    _wait_for_turn(parts.netloc)
-    try:
-        response = client.get(robots_url)
-    except httpx.HTTPError:
-        return True  # no robots.txt reachable -> no rules to follow
-    if response.status_code >= 400:
-        return True  # same convention as Python's robotparser: missing file = allowed
-    parser = RobotFileParser()
-    parser.parse(response.text.splitlines())
-    return parser.can_fetch(USER_AGENT, url)
+    if parts.netloc not in _robots_cache:
+        _wait_for_turn(parts.netloc)
+        try:
+            response = client.get(f"{parts.scheme}://{parts.netloc}/robots.txt")
+        except httpx.HTTPError:
+            response = None  # no robots.txt reachable -> no rules to follow
+        if response is None or response.status_code >= 400:
+            _robots_cache[parts.netloc] = None  # same convention as robotparser: missing = allowed
+        else:
+            parser = RobotFileParser()
+            parser.parse(response.text.splitlines())
+            _robots_cache[parts.netloc] = parser
+    parser = _robots_cache[parts.netloc]
+    return parser is None or parser.can_fetch(USER_AGENT, url)
 
 
 def _read_limited(client: httpx.Client, url: str) -> tuple[str, str]:
@@ -139,6 +145,12 @@ def parse_meta(html: str, page_url: str) -> PageMeta:
 
 def fetch_metadata(url: str, client: httpx.Client | None = None) -> PageMeta:
     """Fetch title/description/og:image URL for one page, politely."""
+    return fetch_page(url, client)[0]
+
+
+def fetch_page(url: str, client: httpx.Client | None = None) -> tuple[PageMeta, str]:
+    """Like fetch_metadata, but also returns the page HTML so an importer can read
+    things like tag links from it. The HTML is used and thrown away, never stored."""
     if urlparse(url).scheme not in ("http", "https"):
         raise FetchError("only http(s) URLs are supported")
 
@@ -154,7 +166,7 @@ def fetch_metadata(url: str, client: httpx.Client | None = None) -> PageMeta:
             raise FetchError("robots.txt does not allow fetching this page")
         _wait_for_turn(urlparse(url).netloc)
         final_url, html = _read_limited(client, url)
-        return parse_meta(html, final_url)
+        return parse_meta(html, final_url), html
     except httpx.HTTPError as error:
         raise FetchError(f"could not fetch {url}: {error}") from error
     finally:

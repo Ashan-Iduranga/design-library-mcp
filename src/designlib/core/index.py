@@ -56,7 +56,7 @@ def connect() -> sqlite3.Connection:
     """Open the index, creating (and filling) it if it's missing or out of date."""
     path = config.index_path()
     path.parent.mkdir(parents=True, exist_ok=True)
-    conn = sqlite3.connect(path, timeout=10)
+    conn = sqlite3.connect(path, timeout=60)  # wait up to 60 s if another process is writing
     conn.row_factory = sqlite3.Row  # rows behave like dicts: row["title"]
     # A brand-new file has user_version 0, so it is filled here too.
     if conn.execute("PRAGMA user_version").fetchone()[0] != SCHEMA_VERSION:
@@ -126,8 +126,12 @@ def _delete(conn: sqlite3.Connection, entry_id: str) -> None:
 def rebuild_index() -> int:
     """Drop everything and re-read all JSON files. Returns the entry count."""
     with closing(connect()) as conn:
-        conn.executescript("DELETE FROM entries; DELETE FROM entry_tags; DELETE FROM entries_fts;")
-        return _fill(conn)
+        # BEGIN IMMEDIATE takes the write lock first, so two rebuilds running at the
+        # same time (e.g. two imports) wait for each other instead of colliding.
+        conn.execute("BEGIN IMMEDIATE")
+        for table in ("entries", "entry_tags", "entries_fts"):
+            conn.execute(f"DELETE FROM {table}")
+        return _fill(conn)  # _fill commits, which releases the lock
 
 
 def index_entry(entry: Entry) -> None:

@@ -32,10 +32,14 @@ def port_in_use(port: int = config.PORT) -> bool:
 def gallery_is_running(port: int = config.PORT) -> bool:
     """True if *our* gallery answers on the port (not some other program)."""
     try:
-        response = httpx.get(url(port) + "/", timeout=2)
-    except httpx.HTTPError:
+        # /healthz answers instantly even while the gallery is busy (e.g. loading the
+        # meaning model), and the generous timeout covers a slow first response.
+        response = httpx.get(url(port) + "/healthz", timeout=10)
+        if response.status_code == 404:  # a gallery from an older version: check the home page
+            return "Design Library" in httpx.get(url(port) + "/", timeout=30).text
+        return response.json().get("app") == "design-library"
+    except (httpx.HTTPError, ValueError):
         return False
-    return "Design Library" in response.text
 
 
 def _uvicorn_server(port: int) -> uvicorn.Server:

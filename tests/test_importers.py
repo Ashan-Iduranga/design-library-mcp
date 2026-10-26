@@ -150,8 +150,10 @@ def test_cli_import_stops_on_wrong_license(tmp_path, monkeypatch, capsys):
         "galaxy-main/Buttons/a_b-1.html": UIVERSE_CSS,
     })
     monkeypatch.setattr(uiverse, "download_repo", lambda *a, **k: archive)
-    with pytest.raises(SystemExit, match="Import stopped: LICENSE does not look like MIT"):
+    with pytest.raises(SystemExit) as stopped:
         main(["import", "uiverse"])
+    assert stopped.value.code == 1
+    assert "Import stopped for uiverse: LICENSE does not look like MIT" in capsys.readouterr().err
     assert search(Filters()) == []  # nothing was saved
 
 

@@ -1,0 +1,6 @@
+{# Response to "Show more": the next cards (appended to #grid) and, out of band,
+   a replacement for the button with the following page's URL (or a final count). #}
+{% for entry in results %}
+  {% include "_card.html" %}
+{% endfor %}
+{% with oob = true %}{% include "_more_button.html" %}{% endwith %}

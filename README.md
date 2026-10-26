@@ -161,12 +161,24 @@ python -m uv run python -m designlib <command>
 | `search` | `search pricing table --tags saas --framework tailwind` (add `--keyword` for exact words only) |
 | `rebuild` | `rebuild` (recreate `index.db` from the JSON files, embed new/changed entries) |
 | `serve` | `serve --open` (`--port 8001`, `--reload` while developing) |
-| `import` | `import hyperui --limit 60`, `import uiverse --category buttons,cards --limit 100` |
+| `import` | `import all` (every code library), or one of: `hyperui` (`--dark`), `uiverse` (`--category buttons,cards`), `shadcn`, `magicui`, `flowbite`, `daisyui`, `tokens`, `icons`, `saaslandingpage`, `designprompts`, `collectui`. Default: everything; `--limit N` for a sample |
 | `mcp` | Used by Claude; waits silently for a client |
 
 `add` options: `--title`, `--framework`, `--rating 1-5`, `--favorite`, `--no-fetch` (don't contact the site).
 
 ## 6. Your library
+
+About 10,000 references from 17 sources: full open-source component libraries (with code
+Claude Code can use or install directly) plus link-only inspiration galleries. The full
+list, licenses and how each was collected are in [`library/sources.md`](library/sources.md).
+
+| Kind | Sources |
+|---|---|
+| Live-preview code (HTML/Tailwind) | HyperUI, Uiverse, Flowbite, daisyUI |
+| React code + install command | shadcn/ui, Magic UI |
+| Tokens and color scales | Open Props, Radix Colors |
+| Icon sets (searchable by icon name) | Lucide, Heroicons |
+| Link-only inspiration | SaaS Landing Page, DesignPrompts, Collect UI, plus hand-picked pages |
 
 - **Entries**: `library/entries/<id>.json`, one file per reference. Edit them in the gallery
   (or by hand, then run `rebuild`). Commit them with git like any other file.

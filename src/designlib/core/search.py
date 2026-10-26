@@ -32,6 +32,7 @@ class Filters:
     favorites_only: bool = False
     sort: str = "relevance"
     limit: int = 60
+    offset: int = 0  # skip this many results (for "Show more" paging)
     mode: str = "hybrid"  # "hybrid" (keyword + meaning) or "keyword"
     wait_for_model: bool = True  # False: use keyword search until the model has loaded
 
@@ -58,10 +59,24 @@ def search(filters: Filters) -> list[Entry]:
     """The search everyone uses. Hybrid when possible, keyword otherwise."""
     if uses_meaning(filters):
         try:
-            return _hybrid_search(filters)
+            ranked = _hybrid_ranked(filters)
+            return ranked[filters.offset : filters.offset + max(1, filters.limit)]
         except Exception as error:  # semantic search is a bonus; never break search over it
             print(f"[designlib] semantic search failed, using keywords only: {error}", file=sys.stderr)
     return keyword_search(filters)
+
+
+def count_matches(filters: Filters) -> int:
+    """How many entries match in total (ignores limit/offset). Used for "60 of 1,234"."""
+    if uses_meaning(filters):
+        try:
+            return len(_hybrid_ranked(filters))
+        except Exception:
+            pass  # search() already reports the failure; fall back to the keyword count
+    where, params, _ = _conditions(filters)
+    sql = "SELECT COUNT(*) FROM entries e" + (" WHERE " + " AND ".join(where) if where else "")
+    with closing(connect()) as conn:
+        return conn.execute(sql, params).fetchone()[0]
 
 
 def uses_meaning(filters: Filters) -> bool:
@@ -73,11 +88,12 @@ def uses_meaning(filters: Filters) -> bool:
     )
 
 
-def _hybrid_search(filters: Filters) -> list[Entry]:
-    by_keyword = keyword_search(replace(filters, sort="relevance", limit=CANDIDATES))
+def _hybrid_ranked(filters: Filters) -> list[Entry]:
+    """Every hybrid match, best first (at most 2 x CANDIDATES)."""
+    by_keyword = keyword_search(replace(filters, sort="relevance", limit=CANDIDATES, offset=0))
     meaning_ids = semantic.nearest(filters.query, k=CANDIDATES)
     # Apply the same type/tag/framework/... filters to the meaning results.
-    by_meaning = keyword_search(replace(filters, query="", limit=CANDIDATES), only_ids=meaning_ids)
+    by_meaning = keyword_search(replace(filters, query="", limit=CANDIDATES, offset=0), only_ids=meaning_ids)
     meaning_rank = {entry_id: rank for rank, entry_id in enumerate(meaning_ids)}
     by_meaning.sort(key=lambda entry: meaning_rank[entry.id])
 
@@ -95,18 +111,16 @@ def _hybrid_search(filters: Filters) -> list[Entry]:
         results.sort(key=lambda e: (e.my_rating, e.added_at), reverse=True)
     elif filters.sort == "title":
         results.sort(key=lambda e: e.title.lower())
-    return results[: max(1, filters.limit)]
+    return results
 
 
-def keyword_search(filters: Filters, only_ids: list[str] | None = None) -> list[Entry]:
-    """Plain SQL + FTS5 search. `only_ids` restricts results to those entries."""
+def _conditions(filters: Filters, only_ids: list[str] | None = None) -> tuple[list[str], list, str]:
+    """The WHERE clauses + parameters for the filters. Returns (where, params, fts query)."""
     where: list[str] = []
     params: list = []
 
     if only_ids is not None:
-        if not only_ids:
-            return []
-        where.append(f"e.id IN ({', '.join('?' * len(only_ids))})")
+        where.append(f"e.id IN ({', '.join('?' * len(only_ids))})" if only_ids else "0")
         params.extend(only_ids)
 
     fts = to_fts_query(filters.query)
@@ -127,6 +141,14 @@ def keyword_search(filters: Filters, only_ids: list[str] | None = None) -> list[
     for tag in filters.tags or []:  # every selected tag must be present (AND)
         where.append("EXISTS (SELECT 1 FROM entry_tags t WHERE t.entry_id = e.id AND t.tag = ?)")
         params.append(tag.strip().lower())
+    return where, params, fts
+
+
+def keyword_search(filters: Filters, only_ids: list[str] | None = None) -> list[Entry]:
+    """Plain SQL + FTS5 search. `only_ids` restricts results to those entries."""
+    if only_ids is not None and not only_ids:
+        return []
+    where, params, fts = _conditions(filters, only_ids)
 
     sort = filters.sort if filters.sort in SORTS else "relevance"
     if sort == "relevance" and fts:
@@ -150,8 +172,8 @@ def keyword_search(filters: Filters, only_ids: list[str] | None = None) -> list[
     sql = select
     if where:
         sql += " WHERE " + " AND ".join(where)
-    sql += f" ORDER BY {order} LIMIT ?"
-    params.append(max(1, filters.limit))
+    sql += f" ORDER BY {order} LIMIT ? OFFSET ?"
+    params.extend([max(1, filters.limit), max(0, filters.offset)])
 
     with closing(connect()) as conn:
         rows = conn.execute(sql, params).fetchall()

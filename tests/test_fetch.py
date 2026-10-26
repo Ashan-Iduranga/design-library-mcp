@@ -17,6 +17,7 @@ PAGE = """<html><head>
 @pytest.fixture(autouse=True)
 def no_waiting(monkeypatch):
     monkeypatch.setattr(fetch, "MIN_DELAY_SECONDS", 0)
+    fetch._robots_cache.clear()  # each test brings its own robots.txt
 
 
 def mock_client(robots: str = "", page: str = PAGE, content_type: str = "text/html") -> tuple[httpx.Client, list]:
@@ -119,3 +120,10 @@ def test_http_errors_become_fetch_errors():
     client = httpx.Client(transport=httpx.MockTransport(handler))
     with pytest.raises(FetchError, match="could not fetch"):
         fetch_metadata("https://example.com/", client=client)
+
+
+def test_robots_is_fetched_once_per_site():
+    client, seen = mock_client()
+    fetch_metadata("https://example.com/a", client=client)
+    fetch_metadata("https://example.com/b", client=client)
+    assert [r.url.path for r in seen] == ["/robots.txt", "/a", "/b"]

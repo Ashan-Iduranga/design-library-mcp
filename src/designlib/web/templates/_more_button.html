@@ -1,0 +1,8 @@
+<div id="more" class="more"{% if oob %} hx-swap-oob="true"{% endif %}>
+  {% if more_url %}
+  <button type="button" class="button" hx-get="{{ more_url }}" hx-target="#grid" hx-swap="beforeend"
+          hx-indicator="#more">Show more <span class="muted">({{ shown }} of {{ matches }})</span></button>
+  {% else %}
+  <p class="muted">All {{ matches }} shown.</p>
+  {% endif %}
+</div>

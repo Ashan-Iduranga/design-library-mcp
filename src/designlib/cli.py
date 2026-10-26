@@ -6,7 +6,7 @@ Commands:
   search <q>    full-text search with optional filters
   rebuild       rebuild index.db from the JSON entries
   serve         start the web gallery on http://127.0.0.1:8000
-  import <name> import open-license components (hyperui, uiverse)
+  import <name> import a source (see `import --help`), or `import all` for every code library
   mcp           run the MCP server over stdio (Claude starts this for you)
 """
 
@@ -21,6 +21,9 @@ from designlib.core.schema import Entry, EntryType, Framework
 from designlib.core.search import Filters, search
 
 TYPES = [t.value for t in EntryType]
+CODE_IMPORTERS = ["hyperui", "uiverse", "shadcn", "magicui", "flowbite", "daisyui", "tokens", "icons"]
+WEB_IMPORTERS = ["collectui", "saaslandingpage", "designprompts"]
+IMPORTERS = [*CODE_IMPORTERS, *WEB_IMPORTERS, "all"]
 FRAMEWORKS = [f.value for f in Framework]
 
 
@@ -97,18 +100,44 @@ def cmd_serve(args: argparse.Namespace) -> None:
     serve_foreground(port=args.port, open_browser=args.open, reload=args.reload)
 
 
+def run_importer(name: str, args: argparse.Namespace) -> str:
+    """Run one importer and return a one-line summary."""
+    from designlib.importers import (
+        collectui, daisyui, flowbite, galleries, hyperui, icons, magicui, shadcn, tokens, uiverse,
+    )
+
+    code_libraries = {  # importers that share the (limit, refresh) signature
+        "shadcn": shadcn.run, "magicui": magicui.run, "flowbite": flowbite.run,
+        "daisyui": daisyui.run, "tokens": tokens.run, "icons": icons.run,
+    }
+    if name == "hyperui":
+        created, updated = hyperui.run(limit=args.limit, include_dark=args.dark, refresh=args.refresh)
+    elif name == "uiverse":
+        created, updated = uiverse.run(limit=args.limit, categories=split_tags(args.category), refresh=args.refresh)
+    elif name in code_libraries:
+        created, updated = code_libraries[name](limit=args.limit, refresh=args.refresh)
+    elif name == "collectui":
+        created, updated = collectui.run(limit=args.limit)
+    else:  # sitemap galleries
+        added, skipped, failed = galleries.run(name, limit=args.limit)
+        return f"{name}: {added} new, {skipped} already there, {failed} skipped"
+    return f"{name}: {created} new, {updated} updated (your ratings and notes were kept)"
+
+
 def cmd_import(args: argparse.Namespace) -> None:
-    from designlib.importers import hyperui, uiverse
     from designlib.importers.common import ImportStopped
 
-    try:
-        if args.name == "hyperui":
-            created, updated = hyperui.run(limit=args.limit, include_dark=args.dark, refresh=args.refresh)
-        else:
-            created, updated = uiverse.run(limit=args.limit, categories=split_tags(args.category), refresh=args.refresh)
-    except ImportStopped as error:
-        sys.exit(f"Import stopped: {error}")
-    print(f"Imported from {args.name}: {created} new, {updated} updated (your ratings and notes were kept).")
+    # "all" = every open-license code library. Galleries and Collect UI fetch from
+    # websites, so they're run on their own, on purpose.
+    names = CODE_IMPORTERS if args.name == "all" else [args.name]
+    for name in names:
+        try:
+            print(run_importer(name, args))
+        except ImportStopped as error:
+            # One library failing its license check must not stop the others.
+            print(f"Import stopped for {name}: {error}", file=sys.stderr)
+            if args.name != "all":
+                sys.exit(1)
 
 
 def cmd_mcp(args: argparse.Namespace) -> None:
@@ -156,9 +185,9 @@ def build_parser() -> argparse.ArgumentParser:
     serve.add_argument("--open", action="store_true", help="open the gallery in your browser")
     serve.set_defaults(func=cmd_serve)
 
-    imp = commands.add_parser("import", help="import open-license components")
-    imp.add_argument("name", choices=["hyperui", "uiverse"])
-    imp.add_argument("--limit", type=int, default=60, help="max entries, spread across categories (0 = all)")
+    imp = commands.add_parser("import", help="import a library or gallery ('all' = every code library)")
+    imp.add_argument("name", choices=IMPORTERS)
+    imp.add_argument("--limit", type=int, default=0, help="max entries; default 0 = everything (code libraries spread a limit across categories)")
     imp.add_argument("--dark", action="store_true", help="hyperui: also import dark variants")
     imp.add_argument("--category", help="uiverse: only these folders, e.g. 'buttons,cards'")
     imp.add_argument("--refresh", action="store_true", help="download the repo again")
