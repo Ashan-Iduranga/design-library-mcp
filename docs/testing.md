@@ -35,6 +35,7 @@ test at an empty temporary library (`DESIGNLIB_LIBRARY`), web fetches use
 | `test_web.py` | Every gallery route (FastAPI `TestClient`): HTMX partials, filters, sandboxed previews, add/edit/delete, uploads, favorites |
 | `test_importers.py` | License check stops non-open repos, HyperUI and Uiverse parsing, re-imports keep your edits |
 | `test_mcp.py` | All 6 MCP tools, their descriptions, and a real stdio round trip (starts `python -m designlib mcp` like Claude does) |
+| `test_server.py` | `serve` doesn't crash when the gallery is already up; the background gallery; and end to end: start the MCP server like Claude does and open the `gallery_url` it returns |
 | `test_semantic.py` | Vector sync (only changed text is re-embedded), meaning matches with no shared words, filters on meaning results, rank fusion, the gallery never waiting for the model, fallback to keywords on failure. Uses a fake embedder; the `slow` test uses the real model |
 
 ## 2. MCP Inspector (click through the tools in a browser)

@@ -15,6 +15,8 @@ def temp_library(tmp_path, monkeypatch):
     monkeypatch.setenv("DESIGNLIB_LIBRARY", str(library))
     # Tests use keyword search unless a test turns semantic search on (test_semantic.py).
     monkeypatch.setenv("DESIGNLIB_SEMANTIC", "0")
+    # The MCP subprocess in test_mcp.py must not grab port 8000 for the gallery.
+    monkeypatch.setenv("DESIGNLIB_GALLERY_WITH_MCP", "0")
     return library
 
 

@@ -41,7 +41,14 @@ def build_srcdoc(entry: Entry, thumb: bool = False) -> str | None:
         head += "<style>html { overflow: hidden; }</style>"
     if entry.framework == Framework.tailwind:
         # Relative URL works: a srcdoc document inherits the gallery page's base URL.
-        head += '<script src="/static/vendor/tailwind-browser.js"></script>'
+        # The browser build warns "not for production" once per preview, which floods the
+        # console with dozens of identical lines. For a local gallery that's expected, so
+        # hide just that one message.
+        head += (
+            "<script>{const warn = console.warn; console.warn = (...args) => "
+            "String(args[0]).includes('browser build of Tailwind') || warn(...args);}</script>"
+            '<script src="/static/vendor/tailwind-browser.js"></script>'
+        )
     return TEMPLATE.format(head=head, code=entry.code)
 
 

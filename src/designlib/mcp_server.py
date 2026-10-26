@@ -10,8 +10,9 @@ to decide when to call it.
 """
 
 import logging
+import os
 import sys
-from typing import Literal
+from typing import Any, Literal
 
 from mcp.server.mcpserver import MCPServer
 from mcp.types import ToolAnnotations
@@ -45,7 +46,7 @@ server = MCPServer(
 )
 
 
-def summary(entry: Entry) -> dict:
+def summary(entry: Entry) -> dict[str, Any]:
     """A compact view for search results (no code, to keep responses small)."""
     return {
         "id": entry.id,
@@ -72,7 +73,7 @@ def search_designs(
     framework: FrameworkName | None = None,
     limit: int = 10,
     mode: Literal["hybrid", "keyword"] = "hybrid",
-) -> list[dict]:
+) -> list[dict[str, Any]]:
     """Search the user's curated design library. Call this FIRST whenever you are about to
     design or build a UI (a page, section, component, palette, interaction, etc.).
 
@@ -92,7 +93,7 @@ def search_designs(
 
 
 @server.tool(annotations=READ_ONLY)
-def get_design(id: str) -> dict:
+def get_design(id: str) -> dict[str, Any]:
     """Get one reference in full: code (when its license allows storing it), prompt,
     style notes (palette, fonts, spacing, mood), when to use / avoid, source URL, license,
     and gallery_url, a local page where the user can see a live preview.
@@ -132,7 +133,7 @@ def get_style_guide(style: str) -> str:
 
 
 @server.tool(annotations=ToolAnnotations(readOnlyHint=False, destructiveHint=False, openWorldHint=True))
-def add_design(url: str, type: EntryTypeName, tags: list[str] | None = None, notes: str = "") -> dict:
+def add_design(url: str, type: EntryTypeName, tags: list[str] | None = None, notes: str = "") -> dict[str, Any]:
     """Save a web page to the library as a link-only reference, when the user asks you to
     remember or bookmark a design. Only metadata is fetched (title, description, preview image
     link), respecting robots.txt. No code or images are copied.
@@ -154,4 +155,9 @@ def add_design(url: str, type: EntryTypeName, tags: list[str] | None = None, not
 
 def main() -> None:
     semantic.warm_up()  # load the meaning model while Claude is still starting up
+    if os.environ.get("DESIGNLIB_GALLERY_WITH_MCP", "1") != "0":
+        # Serve the gallery too, so every gallery_url we return actually opens.
+        from designlib.web.server import serve_in_background
+
+        serve_in_background()
     server.run("stdio")

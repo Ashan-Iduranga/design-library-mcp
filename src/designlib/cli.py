@@ -92,23 +92,9 @@ def cmd_rebuild(args: argparse.Namespace) -> None:
 
 
 def cmd_serve(args: argparse.Namespace) -> None:
-    import uvicorn  # imported here so other commands start fast
+    from designlib.web.server import serve_foreground  # imported here so other commands start fast
 
-    url = f"http://{config.HOST}:{args.port}"
-    print(f"Design Library running at {url}  (Ctrl+C to stop)")
-    if args.open:
-        import threading
-        import webbrowser
-
-        threading.Timer(1.5, webbrowser.open, args=[url]).start()  # give the server a moment to start
-    uvicorn.run(
-        "designlib.web.app:create_app",
-        factory=True,
-        host=config.HOST,  # 127.0.0.1 only: not reachable from other machines
-        port=args.port,
-        reload=args.reload,
-        log_level="warning",
-    )
+    serve_foreground(port=args.port, open_browser=args.open, reload=args.reload)
 
 
 def cmd_import(args: argparse.Namespace) -> None:

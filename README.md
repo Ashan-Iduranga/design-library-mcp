@@ -54,6 +54,10 @@ If PowerShell says running scripts is disabled, use `start.cmd`, which doesn't n
 
 The gallery only listens on `127.0.0.1`, so other devices on your network cannot reach it.
 
+**You usually don't need to start it yourself:** while Claude is open, the MCP server also
+serves the gallery, so the `gallery_url` links Claude gives you always open. If the gallery is
+already running (started by Claude or by you), `start.cmd` just opens it in your browser.
+
 ## 3. Connect Claude
 
 The MCP server is started by Claude itself. You never run it by hand. Both setups below use
@@ -125,7 +129,10 @@ Before designing or building any UI, query the `design-library` MCP server
 | `get_style_guide(style)` | One guide's rules (palette, type, spacing, do/don't) |
 | `add_design(url, type, tags?, notes?)` | Save a page as a link-only reference (metadata only) |
 
-`gallery_url` (http://127.0.0.1:8000/d/&lt;id&gt;) only opens while the gallery is running.
+`gallery_url` (http://127.0.0.1:8000/d/&lt;id&gt;) opens whenever Claude or `start.cmd` is running:
+the MCP server serves the gallery in the background if port 8000 is free. With several Claude
+sessions, the first one serves it; if that one closes, another takes over within 30 seconds.
+To turn this off, set the environment variable `DESIGNLIB_GALLERY_WITH_MCP=0`.
 
 ### How semantic search behaves
 
@@ -210,7 +217,8 @@ design-library-mcp/
 | Search misses something you just edited by hand | `python -m uv run python -m designlib rebuild` |
 | Gallery never says "matched by meaning" | Check `python -m uv run python -c "from designlib.core import semantic; print(semantic.enabled())"` prints True; run `rebuild` once to download the model |
 | Semantic search acting strange | Delete `library/vectors.db`; it is rebuilt on the next search |
-| Port 8000 busy | `python -m uv run python -m designlib serve --open --port 8001` (`gallery_url` links assume 8000) |
+| A `gallery_url` link doesn't open | Is Claude (or `start.cmd`) running? The gallery lives as long as one of them does. After updating this project, restart Claude (desktop: tray → Quit; Claude Code: `/mcp` → reconnect) so it runs the new code |
+| Port 8000 used by another program | Set the environment variable `DESIGNLIB_PORT=8001` (for Claude too: add `"env": {"DESIGNLIB_PORT": "8001"}` to the desktop config entry), or run `serve --port 8001` |
 | Test the tools interactively | See [docs/testing.md](docs/testing.md) (MCP Inspector) |
 
 ## Credits and licenses

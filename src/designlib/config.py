@@ -12,7 +12,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 HOST = "127.0.0.1"  # local only: never expose the gallery to the network
-PORT = 8000
+PORT = int(os.environ.get("DESIGNLIB_PORT", "8000"))  # change only if 8000 is taken
 
 
 def library_dir() -> Path:

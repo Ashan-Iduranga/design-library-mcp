@@ -20,6 +20,8 @@ def test_tools_are_registered_with_descriptions():
     assert {tool.name for tool in tools} == EXPECTED_TOOLS
     for tool in tools:
         assert len(tool.description or "") > 40, f"{tool.name} needs a real description"
+        # Structured output (an output schema) lets Claude read results as data, not text.
+        assert tool.output_schema, f"{tool.name} has no output schema"
     search = next(t for t in tools if t.name == "search_designs")
     assert "component" in str(search.input_schema)  # the type enum is visible to Claude
 
