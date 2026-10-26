@@ -86,6 +86,16 @@ def create_app() -> FastAPI:
     app = FastAPI(title="Design Library", docs_url=None, redoc_url=None)
     semantic.warm_up()  # load the meaning model in the background, if installed
     app.mount("/static", StaticFiles(directory=HERE / "static"), name="static")
+
+    @app.middleware("http")
+    async def static_files_for_previews(request: Request, call_next):
+        """Previews run in sandboxed iframes with a "null" origin, and browsers only load
+        fonts across origins with a CORS header. Our static files are public vendored assets
+        (and the server only listens on 127.0.0.1), so allow them for any origin."""
+        response = await call_next(request)
+        if request.url.path.startswith("/static/"):
+            response.headers["Access-Control-Allow-Origin"] = "*"
+        return response
     config.assets_dir().mkdir(parents=True, exist_ok=True)
     # local_image values look like "assets/mine/x.png", so serve the library's assets/ at /assets
     app.mount("/assets", StaticFiles(directory=config.assets_dir().parent), name="assets")

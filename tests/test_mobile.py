@@ -115,3 +115,14 @@ def test_framework7_preview_has_theme_and_phone_layout():
     ios, md = build_srcdoc(entry), build_srcdoc(entry, theme="md")
     assert '<html class="ios device-ios">' in ios and '<html class="md device-md">' in md
     assert "framework7-bundle.min.css" in ios and 'class="framework7-root"' in ios and 'body class="phone"' in ios
+
+
+def test_static_files_allow_sandboxed_previews():
+    from fastapi.testclient import TestClient
+
+    from designlib.web.app import create_app
+
+    client = TestClient(create_app())
+    font = client.get("/static/vendor/framework7/icons.css")
+    assert font.headers["access-control-allow-origin"] == "*"
+    assert "access-control-allow-origin" not in client.get("/healthz").headers  # only static files
