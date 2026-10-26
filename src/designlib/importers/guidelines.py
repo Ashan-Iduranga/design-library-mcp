@@ -111,7 +111,8 @@ def hig_entries(client: httpx.Client, limit: int = 0) -> list[Entry]:
             continue
         for ref in data.get("references", {}).values():
             path = ref.get("url") or ""
-            if ref.get("type") == "topic" and path.startswith(HIG_PREFIX) and path not in found:
+            # "#section" links point inside a page we already have: skip them
+            if ref.get("type") == "topic" and path.startswith(HIG_PREFIX) and "#" not in path and path not in found:
                 found[path] = ref
                 queue.append("https://developer.apple.com/tutorials/data" + path.rstrip("/") + ".json")
 
@@ -137,7 +138,8 @@ def hig_entries(client: httpx.Client, limit: int = 0) -> list[Entry]:
 
 
 def apple_kit_entries(client: httpx.Client) -> list[Entry]:
-    """The Figma kits on Apple's design resources page, named after their section heading."""
+    """The Figma kits on Apple's design resources page. Each Figma URL ends with the kit's
+    name (".../ios-and-ipados-27", ".../wallet"), which is unique, unlike the page headings."""
     _, html = fetch.fetch_page(APPLE_RESOURCES, client=client)
     soup = BeautifulSoup(html, "html.parser")
     entries, seen = [], set()
@@ -146,8 +148,8 @@ def apple_kit_entries(client: httpx.Client) -> list[Entry]:
         if href in seen:
             continue
         seen.add(href)
-        heading = link.find_previous(["h3", "h4", "h2"])
-        name = " ".join((heading.get_text() if heading else link.get_text()).split()) or "Apple design kit"
+        slug = urlparse(href).path.rstrip("/").split("/")[-1]
+        name = title_case(slug).replace("Ios", "iOS").replace("Ipados", "iPadOS").replace("Macos", "macOS")             .replace("Watchos", "watchOS").replace("Visionos", "visionOS").replace("Tvos", "tvOS")
         platforms = [w for w in PLATFORM_WORDS if w in name.lower()]
         entries.append(Entry(
             id=f"apple-kit-{slugify(name)[:50].rstrip('-')}",

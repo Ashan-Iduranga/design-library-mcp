@@ -126,3 +126,14 @@ def test_static_files_allow_sandboxed_previews():
     font = client.get("/static/vendor/framework7/icons.css")
     assert font.headers["access-control-allow-origin"] == "*"
     assert "access-control-allow-origin" not in client.get("/healthz").headers  # only static files
+
+
+def test_explicit_platform_beats_kit_and_icon_defaults():
+    ios_kit = make_entry(title="Apple: iOS And iPadOS 27 (Figma)", tags=["ui-kit", "figma", "apple", "ios"],
+                         source="Apple Design Resources", type="style")
+    mac_kit = make_entry(title="Apple: macOS 27 (Figma)", tags=["ui-kit", "figma", "apple", "macos"],
+                         source="Apple Design Resources", type="style")
+    generic = make_entry(title="Wireframe kit (Penpot kit)", tags=["wireframe-kit", "penpot", "ui-kit"], source="Penpot")
+    assert categorize.categorize(ios_kit)[0] == "mobile"
+    assert categorize.categorize(mac_kit)[0] == "desktop"
+    assert categorize.categorize(generic)[0] == "any"

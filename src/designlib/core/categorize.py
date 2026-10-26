@@ -133,16 +133,19 @@ def platform_by_rules(entry: Entry, categories: list[str]) -> str | None:
     words = set(re.findall(r"[a-z0-9-]+", entry.title.lower()))
     if entry.source in MOBILE_SOURCES or entry.framework.value == "react-native":
         return "mobile"
+    web_code = entry.source in WEB_SOURCES or entry.framework.value in ("html", "tailwind", "react")
+    if not web_code:
+        # An explicit platform wins, even for kits and icons ("iOS UI kit", "macOS kit").
+        # Web code is the exception: an "iOS-style toggle" in HTML is still web.
+        if tags & MOBILE or {"ios", "ipados", "android", "iphone", "watchos", "wear"} & words:
+            return "mobile"
+        if tags & DESKTOP or {"macos", "desktop", "tvos", "visionos"} & words:
+            return "desktop"
     if categories and categories[0] in ANY_CATEGORIES:
         return "any"  # icons, colors, logos... work everywhere
-    if entry.source in WEB_SOURCES or entry.framework.value in ("html", "tailwind", "react"):
-        # Web code and website galleries are web, even an "iOS-style toggle" or a
-        # landing page for a mobile app.
+    if web_code:
+        # Web code and website galleries are web, even a landing page for a mobile app.
         return "web"
-    if tags & MOBILE or {"ios", "ipados", "android", "iphone", "watchos", "wear"} & words:
-        return "mobile"
-    if tags & DESKTOP or {"macos", "desktop", "tvos", "visionos"} & words:
-        return "desktop"
     if tags & WEB:
         return "web"
     return None
