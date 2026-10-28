@@ -22,11 +22,11 @@ shared words. The meaning model (`all-MiniLM-L6-v2`) runs locally on your CPU.
 
 ## 1. Install (once)
 
-Needs Python 3.11+ (you have 3.14) and [uv](https://docs.astral.sh/uv/) (free, open source).
+Needs Python 3.11+ and [uv](https://docs.astral.sh/uv/) (free, open source).
 
 ```powershell
 python -m pip install --user uv
-cd "D:\C Skills\design-library-mcp"
+cd "C:\path\to\design-library-mcp"
 python -m uv sync            # creates .venv and installs everything (incl. semantic search)
 python -m uv run python -m designlib rebuild   # builds the search index + meaning vectors
 python -m uv run pytest -m "not slow"          # optional: tests, about 8 seconds
@@ -37,7 +37,7 @@ Hugging Face, free, no account. After that it works offline. Semantic search pul
 (CPU build, a few hundred MB). To install without it: `python -m uv sync --no-group semantic`;
 search then uses keywords only and everything else works the same.
 
-> `uv` lives in `C:\Users\user\AppData\Roaming\Python\Python314\Scripts`, which isn't on
+> `pip install --user` puts `uv` in `%APPDATA%\Python\Python3xx\Scripts`, which usually isn't on
 > your PATH, so this README writes `python -m uv`. Add that folder to PATH to type `uv` instead.
 
 ## 2. Start the gallery
@@ -45,7 +45,7 @@ search then uses keywords only and everything else works the same.
 Double-click **`start.cmd`**, or in PowerShell:
 
 ```powershell
-cd "D:\C Skills\design-library-mcp"
+cd "C:\path\to\design-library-mcp"
 .\start.ps1
 ```
 
@@ -66,32 +66,29 @@ the project's own Python (`.venv\Scripts\python.exe`), so they don't depend on P
 ### (a) Claude desktop app (Windows)
 
 1. Open the config file. In the app: **Settings → Developer → Edit Config**, or open it directly:
-   `%APPDATA%\Claude\claude_desktop_config.json`
-   (on this PC: `C:\Users\user\AppData\Roaming\Claude\claude_desktop_config.json`).
+   `%APPDATA%\Claude\claude_desktop_config.json`.
 2. Add a `design-library` entry inside `"mcpServers"`, next to any servers already there:
 
    ```json
    {
      "mcpServers": {
        "design-library": {
-         "command": "D:\\C Skills\\design-library-mcp\\.venv\\Scripts\\python.exe",
+         "command": "C:\\path\\to\\design-library-mcp\\.venv\\Scripts\\python.exe",
          "args": ["-m", "designlib", "mcp"]
        }
      }
    }
    ```
 
+   Replace `C:\\path\\to\\design-library-mcp` with the folder you cloned the repo into.
    In JSON every backslash in a path is written twice (`\\`).
 3. **Quit Claude completely** (system tray icon → Quit, not just closing the window) and reopen it.
 4. In a new chat, open the tools/connectors menu: **design-library** should be listed with 6 tools.
 
-> Already done on this PC (26 Oct 2026). The original file was backed up to
-> `claude_desktop_config.json.backup-2026-10-26` in the same folder.
-
 ### (b) Claude Code
 
 ```powershell
-claude mcp add --scope user design-library -- "D:\C Skills\design-library-mcp\.venv\Scripts\python.exe" -m designlib mcp
+claude mcp add --scope user design-library -- "C:\path\to\design-library-mcp\.venv\Scripts\python.exe" -m designlib mcp
 ```
 
 - `--scope user` makes it available in every project. Leave it out to add it only to the
@@ -99,20 +96,16 @@ claude mcp add --scope user design-library -- "D:\C Skills\design-library-mcp\.v
 - Check it: `claude mcp get design-library` should say **✔ Connected**. Inside Claude Code, `/mcp` lists it.
 - Remove it: `claude mcp remove design-library -s user`
 
-> Already done on this PC (26 Oct 2026).
-
 ### Make Claude use it every time (optional)
 
 Claude reads the server's built-in instructions, but a line in your global
-`C:\Users\user\.claude\CLAUDE.md` makes it a habit in Claude Code:
+`~/.claude/CLAUDE.md` makes it a habit in Claude Code:
 
 ```markdown
 Before designing or building any UI, search the `design-library` MCP server
 (search_designs, then get_design) and follow its style guide (list_styles / get_style_guide).
 Say which references and style guide you used.
 ```
-
-> Already done on this PC (26 Oct 2026).
 
 ### Things to ask Claude
 
@@ -268,7 +261,7 @@ design-library-mcp/
 | Problem | Fix |
 |---|---|
 | Claude desktop doesn't show design-library | Fully quit and reopen the app. Check the JSON is valid (doubled backslashes, commas). Logs: `%APPDATA%\Claude\logs\mcp-server-design-library.log` |
-| `claude mcp get` says failed | Run `"D:\C Skills\design-library-mcp\.venv\Scripts\python.exe" -m designlib mcp` yourself: it should sit silently. Any error it prints is the cause |
+| `claude mcp get` says failed | Run `"C:\path\to\design-library-mcp\.venv\Scripts\python.exe" -m designlib mcp` yourself: it should sit silently. Any error it prints is the cause |
 | `.venv` missing or broken | `python -m uv sync` |
 | Search misses something you just edited by hand | `python -m uv run python -m designlib rebuild` |
 | Gallery never says "matched by meaning" | Check `python -m uv run python -c "from designlib.core import semantic; print(semantic.enabled())"` prints True; run `rebuild` once to download the model |

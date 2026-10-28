@@ -3,11 +3,11 @@
 All commands run from the project folder:
 
 ```powershell
-cd "D:\C Skills\design-library-mcp"
+cd "C:\path\to\design-library-mcp"
 ```
 
 > `uv` was installed with `pip install --user`, so it is called as `python -m uv`.
-> If you add `C:\Users\user\AppData\Roaming\Python\Python314\Scripts` to your PATH,
+> If you add `%APPDATA%\Python\Python3xx\Scripts` to your PATH,
 > you can type `uv` instead of `python -m uv` everywhere below.
 
 ## 1. Automated tests (pytest)
@@ -50,7 +50,7 @@ free, open-source (MIT) test client for MCP servers. It needs Node.js (you have 
 ### Interactive UI
 
 ```powershell
-npx @modelcontextprotocol/inspector python -m uv --directory "D:\C Skills\design-library-mcp" run python -m designlib mcp
+npx @modelcontextprotocol/inspector python -m uv --directory "C:\path\to\design-library-mcp" run python -m designlib mcp
 ```
 
 1. The terminal prints a URL like `http://localhost:6274/?MCP_PROXY_AUTH_TOKEN=...`
@@ -75,10 +75,10 @@ Useful for a quick check or a script:
 
 ```powershell
 # list the tools
-npx @modelcontextprotocol/inspector --cli python -m uv --directory "D:\C Skills\design-library-mcp" run python -m designlib mcp --method tools/list
+npx @modelcontextprotocol/inspector --cli python -m uv --directory "C:\path\to\design-library-mcp" run python -m designlib mcp --method tools/list
 
 # call one
-npx @modelcontextprotocol/inspector --cli python -m uv --directory "D:\C Skills\design-library-mcp" run python -m designlib mcp --method tools/call --tool-name search_designs --tool-arg query=hero --tool-arg limit=2
+npx @modelcontextprotocol/inspector --cli python -m uv --directory "C:\path\to\design-library-mcp" run python -m designlib mcp --method tools/call --tool-name search_designs --tool-arg query=hero --tool-arg limit=2
 ```
 
 ### If it doesn't connect
